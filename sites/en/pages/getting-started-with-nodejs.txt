@@ -1,0 +1,100 @@
+=title Getting started with Node.js
+=timestamp 2014-01-15T07:30:01
+=indexes require, http
+=status draft
+=books beginner_book
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Having seen the beginning of a number of tutorial about Node.js, I thought I should also start with the simple "Hello World" examples.
+
+=abstract end
+
+Before you can get started, you'll probably need to install <a href="http://nodejs.org/">Node.js</a>, but I don't want to
+bog you down with such details. It was straight forward  for me on OSX, and I have not tried it on other operating systems yet.
+
+<h2>Hello World</h2>
+
+<include file="examples/node_hello_world.js">
+
+In the first line of this example we load the <hl>http</hl> library that provides all the necessary to tools
+to run a simple, non-blocking web server.
+
+Then we create a server object using the <hl>createServer</hl> method of the <hl>http</hl> class we have just loaded.
+This method receives a single parameter which is a function. Whenever a user will access our web-site this function will be called
+receiving two parameters. The first one representing the current <hl>request</hl> and the second one representing the current <hl>response</hl>.
+
+In this example we don't care what the user asked for (hence we don't look at the request object), we just give an answer.
+First we set the response header which is the <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">200 OK HTTP status code</a>
+meaning "everything is fine". Then we send back the actual content of our page, and finally we call the <hl>end()</hl> method
+of the responsonse object signanling the end of our response.
+
+We took the server object that was created by the <hl>createServer</hl> method and assigned it to the <hl>s</hl> variable.
+Then we called the <hl>listen</hl> method of this object launching the server.
+
+Because Node.JS is non-blocking, this did not block our script, it just told the "event-loop" of Node.js to really start listening on
+port 8080. The last line in the example was just a simple output to our console, (the command line where we run this code),
+to notify the user where to point the browser.
+
+Once I typed this in I was happy and ran my code:
+
+<hl>node examples/node_hello_world.js</hl>
+
+the output?
+
+<code>
+Listening on http://127.0.0.1:8080/
+
+events.js:72
+        throw er; // Unhandled 'error' event
+              ^
+Error: listen EADDRINUSE
+    at errnoException (net.js:905:11)
+    at Server._listen2 (net.js:1043:14)
+    at listen (net.js:1065:10)
+    at Server.listen (net.js:1139:5)
+    at Object.<anonymous> (/Users/gabor/work/articles/code-maven/examples/node_hello_world.js:9:3)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+</code>
+
+It is lovely that it printed the "Listing ...." line on the console, but why did it crash?
+
+It took me a while to figure out that I had another web server running and listening on port 8080 already.
+
+I think it would have been much more useful if the exception included at least a hing about this being the problem.
+
+Anyway, I changed the port number in <hl>s.listen(8081);</hl> and run the code again:
+
+<hl>node examples/node_hello_world.js</hl>
+
+It printed the following on the console and then waited.
+
+<code>
+Listening on http://127.0.0.1:8080/
+</code>
+
+But why does it say it is listening on port 8080 while I told it to listen on 8081?
+
+Oh, of course, the number 8080 appeared in two places of the code, and I have changed only one.
+
+This is violates one of the cornerstones of programming called <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY - Do Not Repeate Yourself</a>.
+It would be better to keep the port number in some variable, and then use that variable in both places.
+
+The new code is almost the same:
+
+<include file="examples/node_hello_world_port.js">
+
+We run this:
+
+<hl>node examples/node_hello_world_port.js</hl>
+
+If I open a browser now, and point it to http://127.0.0.1:8080/ it will show "Hello World".
+
+
