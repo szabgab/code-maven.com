@@ -9,12 +9,12 @@
 
 =abstract start
 
-Having seen the beginning of a number of tutorial about Node.js, I thought I should also start with the simple "Hello World" examples.
+Having seen the beginning of a number of tutorials about Node.js, I thought I should also start with the simple "Hello World" example.
 
 =abstract end
 
 Before you can get started, you'll probably need to install <a href="http://nodejs.org/">Node.js</a>, but I don't want to
-bog you down with such details. It was straight forward  for me on OSX, and I have not tried it on other operating systems yet.
+bog you down with such details. It was straight forward for me on OSX, and I have not tried it on other operating systems yet.
 
 <h2>Hello World</h2>
 
