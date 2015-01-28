@@ -83,7 +83,7 @@ But why does it say it is listening on port 8080 while I told it to listen on 80
 
 Oh, of course, the number 8080 appeared in two places of the code, and I have changed only one.
 
-This is violates one of the cornerstones of programming called <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY - Do Not Repeat Yourself</a>.
+This violates one of the cornerstones of programming called <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY - Do Not Repeat Yourself</a>.
 It would be better to keep the port number in some variable, and then use that variable in both places.
 
 The new code is almost the same:
