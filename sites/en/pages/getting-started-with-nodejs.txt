@@ -1,8 +1,7 @@
 =title Getting started with Node.js
-=timestamp 2014-01-15T07:30:01
+=timestamp 2015-01-28T12:30:01
 =indexes require, http
-=status show
-=books beginner_book
+=status draft
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
