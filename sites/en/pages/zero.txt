@@ -13,14 +13,17 @@ This is the first post, but as with most of the programming languages we start t
 =abstract end
 
 I should write something very deep here, after all I am starting a new site, and I am planning
-to write about everything. Well, almost everything.
+to write about everything. Well, almost everything. I'll probably won't write much about the
+Perl programming language, as I am writing about
+it on the <a href="http://perlmaven.com/">Perl Maven</a> site.
 
-I used to write a lot on the <a href="http://perlmaven.com/">Perl Maven</a> and by today, it
+
+I used to write a lot on the Perl Maven and by today, it
 attracts quite a few readers every day, but I wanted to extend the content to cover all kinds
 of other languages and technologies. I was wondering if I should just add those articles
 to the Perl Maven site, but in then end I think it would be better to have a site that does
 not contain any programming language in its name.
 
-Anywa, let's get started.
+Anyway, let's get started.
 
 
