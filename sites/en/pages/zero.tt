@@ -1,0 +1,26 @@
+=title Zero
+=timestamp 2015-01-28T11:30:01
+=indexes 
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is the first post, but as with most of the programming languages we start to count from zero...
+
+=abstract end
+
+I should write something very deep here, after all I am starting a new site, and I am planning
+to write about everything. Well, almost everything.
+
+I used to write a lot on the <a href="http://perlmaven.com/">Perl Maven</a> and by today, it
+attracts quite a few readers every day, but I wanted to extend the content to cover all kinds
+of other languages and technologies. I was wondering if I should just add those articles
+to the Perl Maven site, but in then end I think it would be better to have a site that does
+not contain any programming language in its name.
+
+Anywa, let's get started.
+
+
