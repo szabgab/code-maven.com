@@ -1,7 +1,7 @@
 =title Getting started with Node.js
-=timestamp 2015-01-28T12:30:01
+=timestamp 2015-01-28T12:40:01
 =indexes require, http
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -29,7 +29,7 @@ receiving two parameters. The first one representing the current <hl>request</hl
 In this example we don't care what the user asked for (hence we don't look at the request object), we just give an answer.
 First we set the response header which is the <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">200 OK HTTP status code</a>
 meaning "everything is fine". Then we send back the actual content of our page, and finally we call the <hl>end()</hl> method
-of the responsonse object signanling the end of our response.
+of the response object signaling the end of our response.
 
 We took the server object that was created by the <hl>createServer</hl> method and assigned it to the <hl>s</hl> variable.
 Then we called the <hl>listen</hl> method of this object launching the server.
@@ -67,7 +67,7 @@ It is lovely that it printed the "Listing ...." line on the console, but why did
 
 It took me a while to figure out that I had another web server running and listening on port 8080 already.
 
-I think it would have been much more useful if the exception included at least a hing about this being the problem.
+I think it would have been much more useful if the exception included at least a hint about this being the problem.
 
 Anyway, I changed the port number in <hl>s.listen(8081);</hl> and run the code again:
 
@@ -83,7 +83,7 @@ But why does it say it is listening on port 8080 while I told it to listen on 80
 
 Oh, of course, the number 8080 appeared in two places of the code, and I have changed only one.
 
-This is violates one of the cornerstones of programming called <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY - Do Not Repeate Yourself</a>.
+This is violates one of the cornerstones of programming called <a href="http://en.wikipedia.org/wiki/Don%27t_repeat_yourself">DRY - Do Not Repeat Yourself</a>.
 It would be better to keep the port number in some variable, and then use that variable in both places.
 
 The new code is almost the same:
