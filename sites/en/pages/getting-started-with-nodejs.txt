@@ -2,6 +2,7 @@
 =timestamp 2015-01-28T12:40:01
 =indexes require, http
 =status show
+=books nodejs
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -19,10 +20,10 @@ bog you down with such details. It was straight forward for me on OSX, and I hav
 
 <include file="examples/node_hello_world.js">
 
-In the first line of this example we load the <hl>http</hl> library that provides all the necessary to tools
+In the first line of this example we load the <a href="http://nodejs.org/api/http.html">>http</a> library that provides all the necessary to tools
 to run a simple, non-blocking web server.
 
-Then we create a server object using the <hl>createServer</hl> method of the <hl>http</hl> class we have just loaded.
+Then we create a server object using the <a href="http://nodejs.org/api/http.html#http_http_createserver_requestlistener">>createServer</a> method of the <hl>http</hl> class we have just loaded.
 This method receives a single parameter which is a function. Whenever a user will access our web-site this function will be called
 receiving two parameters. The first one representing the current <hl>request</hl> and the second one representing the current <hl>response</hl>.
 

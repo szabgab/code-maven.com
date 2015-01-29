@@ -1,0 +1,54 @@
+=title Reading a file with Node.js - blocking and non-blocking
+=timestamp 2014-01-15T07:30:01
+=indexes fs, readFile, readFileSync
+=status draft
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+If we want to build a web-server using Node.js, or basically any application, then
+one of the important things is to be able to read the content of a file.
+
+Node provides the <a href="http://nodejs.org/api/fs.html">fs</a> library to handle file-system related operations.
+For example to read the content of a file.
+
+=abstract end
+
+<h2>Read file in asynchronously (non-blocking)</h2>
+
+The "normal" way in Node.js is probably to read in the content of a file in a non-blocking, asynchronous way.
+That is, to tell Node to read in the file, and then to get a callback when the file-reading has been finished.
+That would allow us to hand several requests in parallel.
+
+For this we can use the <a href="http://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback">readFile</a>
+method of the <hl>fs</hl> class.
+
+<include file="examples/non-blocking-read-file.js">
+
+First we load the <hl>fs</hl> class using the <hl>require</hl> command. Then we call the <hl>readFile</hl> method
+that gets 3 parameters: The name of the file ('DATA' in this case), the encoding of the file ('utf8' in the examples),
+and a function. This function is going to be called when the file-reading operation has finished.
+The function will get two parameters. The first is the information about any error conditions, the second is the actual
+content of the file.
+
+Once this is called Node starts to read the file in the background, but it also keeps executing our program. That is,
+it will call the <hl>console.log('after calling readFile');</hl> and will print that text to the console.
+Then, once the file has been read into memory, Node will run the function we provided to the <hl>readFile</hl> method
+and that will print the content of the file.
+
+
+<h2>Read file in synchronously (blocking)</h2>
+
+People coming from almost every other programming language and environment will find the synchronous file-reading
+operation clearer. I am not sure when will you want to use synchronous operations in Node.js, but I see
+that many of the asynchronous functions have a synchronous counterpart, so there might be a use.
+
+For reading a file you can use the <a href="http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options">readFileSync</a>
+method of the <hl>fs</hl> class:
+
+<include file="examples/blocking-read-file.js">
+
+
