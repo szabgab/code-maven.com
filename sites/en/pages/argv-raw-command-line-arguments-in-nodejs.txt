@@ -1,7 +1,7 @@
 =title argv - raw command line arguments in Node.js
-=timestamp 2014-01-15T07:30:01
+=timestamp 2015-01-29T16:00:01
 =indexes process, argv
-=status draft
+=status show
 =books nodejs
 =author szabgab
 =archive 1
