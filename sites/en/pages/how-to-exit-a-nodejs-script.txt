@@ -1,0 +1,23 @@
+=title How to exit a Node.js script
+=timestamp 2014-01-31T08:30:01
+=indexes process, exit
+=status show
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Normally a Node.js script stops running when it reaches the end of the script and when there are no more event handlers waiting for events.
+What if you want the script to stop earlier?
+
+=abstract end
+
+It's quite easy.
+
+The built-on <a href="http://nodejs.org/api/process.html">process</a> module has a method
+called <a href="http://nodejs.org/api/process.html#process_process_exit_code">exit</a>:
+
+<include file="examples/process_exit.js">
+
