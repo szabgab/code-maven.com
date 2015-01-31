@@ -1,0 +1,197 @@
+=title How to get system information of a file or directory in Node.js (stat)
+=timestamp 2015-01-31T11:30:01
+=indexes stat
+=status draft
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The Unix/Linux <hl>ls</hl> command can provide all kinds of details about a file or a directory
+or symbolic link or some other things that can be on the file-system. Specifically using the <hl>-l</hl>
+flag it can show the type of thing we are listing (file/directory/symbolic link/etc), whether it
+is readable, writable, executable etc.
+
+In general, it can fetch information from the <a href="http://en.wikipedia.org/wiki/Inode">inode</a> table,
+which is not the Apple version of Node.js.
+
+Before attempting to re-implement the <hl>ls</hl> unix command, let's see how can we fetch the details
+of a single file-system entry using Node.js.
+
+=abstract end
+
+The <a href="http://nodejs.org/api/fs.html">fs</a> library that comes with Node.js provides a non-blocking
+method called <a href="http://nodejs.org/api/fs.html#fs_fs_stat_path_callback">stat</a>, that given
+a path to something on he file-system, will fetch the information from the <b>inode</b> of that thing
+and when done, will execute the callback provided to the method. It will path a
+<a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">fs.Stats</a> object to the callback.
+
+There is also a <a href="http://nodejs.org/api/fs.html#fs_fs_statsync_path">synchronous version called statSync</a>
+that will, return the <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">fs.Stats</a> object, once the
+data was read from the file-system.
+
+In this script we can see how to use the asynchronous version of this method:
+
+<include file="examples/stats.js">
+
+The expected use of the script is <hl>node examples/stats.js path/to/file</hl>.
+
+For example I ran <hl>node examples/stats.js examples</hl> providing the 'examples'
+directory as the parameter and got the following output:
+
+<code>
+examples
+
+{ dev: 16777220,
+  mode: 16877,
+  nlink: 11,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32548075,
+  size: 374,
+  blocks: 0,
+  atime: Sat Jan 31 2015 10:56:30 GMT+0200 (IST),
+  mtime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST),
+  ctime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST) }
+
+    directory
+    size: 374
+    mode: 16877
+    others eXecute: x
+    others Write:   -
+    others Read:    r
+    group eXecute:  x
+    group Write:    w
+    group Read:     r
+    owner eXecute:  x
+    owner Write:    w
+    owner Read:     r
+    file:           -
+    directory:      d
+</code>
+
+We can compare that with the output of the appropriate Unix <hl>ls</hl> command:
+
+<code>
+$ ls -ld examples
+drwxr-xr-x  11 gabor  staff  374 Jan 31 10:52 examples
+</code>
+
+Let's take that script apart:
+
+<code lang="javascript">
+var fs = require('fs');
+
+if (process.argv.length <= 2) {
+    console.log("Usage: " + __filename + " path/to");
+    process.exit(-1);
+}
+
+var path = process.argv[2];
+</code>
+
+After loading the <hl>fs</hl> module, we check the number of <a href="/argv-raw-command-line-arguments-in-nodejs">arguments passed on the command line</a>.
+If it is 2 or fewer (and I am not even sure fewer would be possible), that means the user has not give any command line parameters.
+(If the user wrote <hl>node examples/stats.js</hl> then this number will be 2.) In that case we print out a usage-message that looks like this:
+
+<code>
+$ node examples/stats.js
+Usage: /home/gabor/code-maven/examples/stats.js path/to
+/code>
+
+The global variable <hl>__filename</hl> (starting with two underscores) contains the full path to the current JavaScript file.
+
+Then we call <hl>process.exit()</hl> to <a href="http://code-maven.com/how-to-exit-a-nodejs-script">leave the Node.js script</a> early.
+Before reaching the end of the file.
+
+The last step in this part of the code is to fetch element 3 of the <hl>argv</hl> which is the value the user has passed on the
+command line, and assign it to a variable called <hl>path</hl>.
+
+<h2>Calling fs.stat</h2>
+
+Then we call the <a href="http://nodejs.org/api/fs.html#fs_fs_stat_path_callback">stat</a> method, passing
+the <hl>path</hl> variable and the callback. This callback function will receive and error-object - if there was an error,
+and a <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">fs.Stats</a> object.
+
+<code lang="javascript">
+fs.stat(path, function(err, stats) {
+</code>
+
+The <hl>Stats</hl> object contains some data retrieved from the inode table (in our case it looked like this:)
+
+<code>
+{ dev: 16777220,
+  mode: 16877,
+  nlink: 11,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32548075,
+  size: 374,
+  blocks: 0,
+  atime: Sat Jan 31 2015 10:56:30 GMT+0200 (IST),
+  mtime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST),
+  ctime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST) }
+</code>
+
+and it provides a few methods for more convenience.
+
+Among the values that we got there <hl>dev</hl> is the device number. It might be interesting if you have
+multiple disks or partitions mounted.
+
+<hl>mode</hl> contains a lot of information, including the type of the thing (file/directory/symbolic link)
+and the permissions on that thing.
+
+<hl>uid</hl> is the user-id of the owner of this thing.
+
+<hl>gid</hl> is the group-id of the owner of this thing.
+
+<hl>size</hl> is, the size of the thing in bytes.
+
+<hl>atime</hl>, <hl>mtime</hl>, and <hl>ctime</hl> are 3 different timestamps representing the last
+access time, the last modify time and the create time of the thing.
+
+Before checking out the value of <hl>mode</hl>, let's see a few helper functions:
+
+<hl>isFile()</hl> will return <hl>True</hl> if the thing is a file.
+
+<hl>isDirectory()</hl> will return </hl>True</hl> it the thing is a directory.
+
+There are a few more such helper functions listed in <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">documentation of fs.Stat</a>.
+
+The other values of the stat object can be accessed just as regular members of any JavaScript object.
+For example it is easy to access the size of the file:
+
+<h2>Size of a file in Node.js</h2>
+
+<code lang="javascript">
+console.log('    size: ' + stats["size"]);
+</code>
+
+<h2>Mode and file access rights</h2>
+
+<a href="http://man7.org/linux/man-pages/man2/stat.2.html">man 2 stat</a> provides information on how to interpret
+the values in <hl>mode</hl> which was 16877 in our case.
+
+We need to use special bitwise masks on that number to check if specific bits are on or off in that number.
+For example <hl>mode & 1</hl> will be 1 if the right-most bit in <hl>mode</hl> was on. Otherwise this will be 0.
+
+<hl>mode & 2</hl> will be 2 if he second bit from the right was on, and 0 if it was not.
+
+<hl>mode & 4</hl> will be 4 if he third(!) bit from the right was on, and 0 if it was not.
+
+Luckily numbers, except of 0, are considered True in JavaScript. So we could use the
+ternary operator <hl>?:</hl> to returns some interesting character if the expression is different from 0
+and return <hl>-</hl> if the expression was 0.
+
+That's how our output resembles (in the usage of <hl>rwx-</hl> characters) to the output of <hl>ls -ld</hl>.
+
+Besides the read-write-execute flags, we can also extract the file-type from the the <hl>mode</hl>
+value, but for those we have already seen a set of more readable convenience methods.
+
+
