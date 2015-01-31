@@ -101,7 +101,7 @@ If it is 2 or fewer (and I am not even sure fewer would be possible), that means
 <code>
 $ node examples/stats.js
 Usage: /home/gabor/code-maven/examples/stats.js path/to
-/code>
+</code>
 
 The global variable <hl>__filename</hl> (starting with two underscores) contains the full path to the current JavaScript file.
 
