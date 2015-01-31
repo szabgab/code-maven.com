@@ -1,7 +1,7 @@
 =title How to get system information of a file or directory in Node.js (stat)
 =timestamp 2015-01-31T11:30:01
-=indexes stat
-=status draft
+=indexes stat, fs.Stats, isFile, isDirectory, size
+=status show
 =books nodejs
 =author szabgab
 =archive 1
