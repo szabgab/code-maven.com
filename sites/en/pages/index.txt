@@ -11,4 +11,8 @@
 
 <div class="main-content">
 For now, just read the articles...
+<p>
+If you want to make sure you don't miss any new articles, you can <a href="http://code-maven.com/pm/register">subscribe</a> to the
+Code Maven newletter, follow via <a href="/atom">atom feed</a>, <a href="https://twitter.com/code__maven">Twitter</a>, or
+even my <a href="https://twitter.com/code__maven">Google+</a> account.
 </div>
