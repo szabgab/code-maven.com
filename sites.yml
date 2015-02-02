@@ -2,4 +2,8 @@ en:
   url: http://code-maven.com/
   english: English
   name: English
+ru:
+  url: http://ru.perlmaven.com/
+  english: Russian
+  name: Русский
 
