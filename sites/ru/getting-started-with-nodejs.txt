@@ -99,4 +99,4 @@ Listening on http://127.0.0.1:8080/
 
 <hl>node examples/node_hello_world_port.js</hl>
 
-Теперь, если я открою браузер и наберу там http://127.0.0.1:8080/, то увижу "Hello World".
+Теперь, если я открою браузер и наберу там http://127.0.0.1:8081/, то увижу "Hello World".
