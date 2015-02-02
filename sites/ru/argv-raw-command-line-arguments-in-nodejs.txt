@@ -1,0 +1,71 @@
+=title argv - необработанные аргументы командной строки в Node.js
+=timestamp 2015-02-02T16:00:01
+=indexes process, argv
+=status show
+=books nodejs
+=author szabgab
+=original argv-raw-command-line-arguments-in-nodejs
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Людям, живующим в мире фронтенд разработки JavaScript, не приходится иметь дело с командной строкой, но если вы пишете серверное приложение, тогда у вас есть отличный шанс познакомиться к командной строкой Linux/Unix. (А если вам не повезло, тогда может быть даже и с командной строкой MS Windows)
+
+Node.js предоставляет простой доступ к чистым данным, передаваемым в командной строке.
+
+=abstract end
+
+В командной строке вы можете передать все типы значений:
+
+Список имен: <hl>node app.js file1 file2</hl>
+
+Пары ключ-значение: <hl>node app.js --port NUMBER --dir PATH<hl>
+
+Флаги, без значений: <hl>node app.js --debug --verbose</hl>
+
+Может быть, вам даже захочется передать односимвольные флаги: <hl>node app.js -d -v</hl>
+
+И вы даже можете их комбинировать: <hl>node app.js -dv --port NUMBER --dir PATH  file1 file2<hl>
+
+По умолчанию Node.js предоставляет объект <a href="http://nodejs.org/api/process.html#process_process_argv">process</a>, содержащий элемент <a href="http://nodejs.org/api/process.html#process_process_argv">argv</a>, который является массивом всех значений, полученных из командной строки:
+
+<include file="examples/raw_command_line_arguments.js">
+
+Прим: вам даже не нужно загружать <hl>process</hl> вручную, так как он загружен по умолчанию.
+
+Запустив команду: <hl>node examples/raw_command_line_arguments.js -dv --port NUMBER --dir PATH  file1 file2<hl>
+
+мы получим:
+
+<code>
+[ 'node',
+  '/Users/gabor/work/code-maven.com/examples/raw_command_line_arguments.js',
+  '-dv',
+  '--port',
+  'NUMBER',
+  '--dir',
+  'PATH',
+  'file1',
+  'file2' ]
+</code>
+
+Прим:
+
+Первый элемент - всегда сам <hl>node</hl>.
+
+Второй элемент - имя файла, который выполняется.
+
+Оставшиеся элементы - значения, переданные в командной строке после имени файла для исполнения.
+
+В принципе, это просто список всех значений, которые вы ввели в командной строке.
+
+Вы можете пройти циклом по этому массиву с помощью <hl>for</hl> или <hl>forEach</hl> и выбрать значения. Этот способ подойдет для большинства простых случаев, но чаще параметры довольно сложные, и будет лучше использовать специальную библиотеку.
+
+Я нашел вот это: <a href="https://www.npmjs.com/package/minimist">minimist</a>,
+<a href="https://github.com/harthur/nomnom">nomnom</a> и
+<a href="https://github.com/chevex/yargs">yargs</a>
+(fork от <a href="https://github.com/substack/node-optimist">node-optimist</a>) просто для примера.
+
+Пока не могу ничего сказать про них, но думаю, если мне нужно будет работать с более сложными аргументами, мне придется попробовать что-нибудь из этого.
