@@ -95,6 +95,6 @@ We run this:
 
 <hl>node examples/node_hello_world_port.js</hl>
 
-If I open a browser now, and point it to http://127.0.0.1:8080/ it will show "Hello World".
+If I open a browser now, and point it to http://127.0.0.1:8081/ it will show "Hello World".
 
 
