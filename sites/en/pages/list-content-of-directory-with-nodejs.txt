@@ -1,0 +1,223 @@
+=title List content of a directory with Node.js
+=timestamp 2015-02-02T09:47:01
+=indexes fs.stat
+=status show
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Just as the <hl>dir</hl> command in MS Windows (or more specifically in DOS), or the <hl>ls</hl> command on Unix/Linux,
+we would like to implement a Node.js script, that give a directory, can list the content of the directory with
+some more information about each entry in the directory.
+
+=abstract end
+
+We already know <a href="/system-information-about-a-file-or-directory-in-nodejs">how to get information from the inode of a file or directory</a>,
+so if we only need to generated all the entries in a directory and then call <a href="http://nodejs.org/api/fs.html#fs_fs_stat_path_callback">fs.stat</a>
+for each entry.
+
+This script will accept (and even require) a path to a directory on the command line,
+and then it will list the content of the directory. (Without recursion.)
+
+<include file="examples/read_dir.js">
+
+If you have read the article about the <a href="/system-information-about-a-file-or-directory-in-nodejs">fetching system information for a single file</a>
+then you already know the first part of the script. The interesting new part is this one:
+
+<code lang="javascript">
+fs.readdir(path, function(err, items) {
+    console.log(items);
+
+    for (var i=0; i<items.length; i++) {
+        console.log(items[i]);
+    }
+});
+</code>
+
+Here we use the <a href="http://nodejs.org/api/fs.html#fs_fs_readdir_path_callback">readdir</a> method of the <a href="http://nodejs.org/api/fs.html">fs class</a>,
+that gets a path and a callback function as parameters. It will read the content of the directory into memory and when done it will execute the callback with 2 parameters.
+The first one is the error object in case there was an error. The second one is a callback that will be called when the the operation has finished.
+If there was an error then the first parameter will hold that information. If everything went well, then the second parameter will be an array with
+all the items (files, directories, symbolic links, etc.) that were found in the directory.
+
+At that point, inside the callback function we can either just print the whole array - if we just want to enjoy our success or we can iterate over
+the list with a <hl>for</hl> loop and do something with each item. For example we could print each item.
+
+The listing will contain everything, except of <hl>.</hl> which point to the current directory and <hl>..</hl> which represents the parent directory.
+
+This is how it looked:
+
+<code>
+$ node examples/read_dir.js ~/work/code-maven.com/examples/
+
+[ 'blocking-read-file.js',
+  'node_hello_world.js',
+  'node_hello_world_port.js',
+  'non-blocking-read-file.js',
+  'process_exit.js',
+  'raw_command_line_arguments.js',
+  'read_dir.js',
+  'stats.js' ]
+blocking-read-file.js
+node_hello_world.js
+node_hello_world_port.js
+non-blocking-read-file.js
+process_exit.js
+raw_command_line_arguments.js
+read_dir.js
+stats.js
+</code>
+
+
+<h2>Listing the details of each entry</h2>
+
+Now that we know how to get the list of entries in a directory, and that we already know how to
+<a href="/system-information-about-a-file-or-directory-in-nodejs">fetch the details about a file</a>
+we can combine the two.
+
+<include file="examples/list_dir_direct.js">
+
+This code is quite straight forward. And it is also wrong as we'll see soon.
+
+Inside the callback of the <hl>readdir</hl> method,
+we have the <hl>for</hl> loop. In that for-loop, on every iteration we print out the name
+of the current file (after we have attached it to the full path of the directory) mostly
+for debugging purposes, and we call the <hl>fs.stat</hl>. That method in turn accepts a callback function.
+In that function we print out the name of the file - this time as part of the result,
+and then print out the size of the thing. (We could print out all the other
+details as we did in the <a href="/system-information-about-a-file-or-directory-in-nodejs">other article</a>
+but the size will be enough for now.
+
+The output:
+
+<code>
+$ node examples/list_dir_direct.js ~/work/code-maven.com/examples/
+
+Start: /home/gabor/work/code-maven.com/examples//blocking-read-file.js
+Start: /home/gabor/work/code-maven.com/examples//node_hello_world.js
+Start: /home/gabor/work/code-maven.com/examples//node_hello_world_port.js
+Start: /home/gabor/work/code-maven.com/examples//non-blocking-read-file.js
+Start: /home/gabor/work/code-maven.com/examples//process_exit.js
+Start: /home/gabor/work/code-maven.com/examples//raw_command_line_arguments.js
+Start: /home/gabor/work/code-maven.com/examples//read_dir.js
+Start: /home/gabor/work/code-maven.com/examples//stats.js
+
+/home/gabor/work/code-maven.com/examples//stats.js
+97
+/home/gabor/work/code-maven.com/examples//stats.js
+243
+/home/gabor/work/code-maven.com/examples//stats.js
+270
+/home/gabor/work/code-maven.com/examples//stats.js
+151
+/home/gabor/work/code-maven.com/examples//stats.js
+18
+/home/gabor/work/code-maven.com/examples//stats.js
+324
+/home/gabor/work/code-maven.com/examples//stats.js
+27
+/home/gabor/work/code-maven.com/examples//stats.js
+1382
+</code>
+
+The debugging printout printed the names as expected, but then inside the 
+callback of <hl>fs.stat()</hl> we keep printing out the same filename.
+comparing the results to the output of 
+
+<code>
+$ ls -l ~/work/code-maven.com/examples/
+total 64
+-rw-r--r--  1 gabor  staff    97 Jan 29 14:26 blocking-read-file.js
+-rw-r--r--  1 gabor  staff   243 Jan 27 12:34 node_hello_world.js
+-rw-r--r--  1 gabor  staff   270 Jan 27 12:34 node_hello_world_port.js
+-rw-r--r--  1 gabor  staff   151 Jan 29 14:26 non-blocking-read-file.js
+-rw-r--r--  1 gabor  staff    18 Jan 31 08:24 process_exit.js
+-rw-r--r--  1 gabor  staff    27 Jan 29 14:54 raw_command_line_arguments.js
+-rw-r--r--  1 gabor  staff   324 Jan 31 15:26 read_dir.js
+-rw-r--r--  1 gabor  staff  1382 Jan 31 10:45 stats.js
+</code>
+
+The sizes seem to match the filenames, because these were printed in the same order
+as we called <hl>fs.stat()</hl>, but for some reason the content of the <hl>file</hl>
+variable was the same for every callback. This happens because the <hl>file</hl>
+variable is just a simple global variable (from the point of view of the
+callback) and by the time the first callback was executed, the <hl>file</hl> variable was
+already assigned the last entry in the directory. 
+
+So if we want to combine the name of the file and the result of the <hl>fs.stat()</hl> call
+then we need to rely on the order of calls. But can we rely on that?
+In this particular case of calling stat on items in a single directory,
+this might work as we can expect the events to be handled one after the other, but
+if the operation was more complex, and especially if there can be internal callbacks as well,
+then suddenly we cannot rely on the order of callback calls to be the same as the order
+of the initial execution was.
+
+So we need to find a way to pass the <hl>file</hl> parameter to the internal callback.
+
+<h2>Generate callbacks</h2>
+
+In this solution, instead of adding a hard-coded callback function
+we will call a function named <hl>generate_callback()</hl> that
+will generate a callback for us.
+
+So every time we run <hl>fs.stat()</hl>, before <hl>fs.stat()</hl> is actually executed,
+JavaScript will call the <hl>generate_callback()</hl> function with the current value of <hl>file</hl>.
+The <hl>generate_callback</hl> will create a new function and will return that function. This
+newly generated function will become the callback of the <hl>fs.stat()</hl> method.
+
+
+<include file="examples/list_dir_generate.js">
+
+The result:
+
+<code>
+$ node examples/list_dir_generate.js ~/work/code-maven.com/examples/
+Start: /Users/gabor/work/code-maven.com/examples//blocking-read-file.js
+Start: /Users/gabor/work/code-maven.com/examples//node_hello_world.js
+Start: /Users/gabor/work/code-maven.com/examples//node_hello_world_port.js
+Start: /Users/gabor/work/code-maven.com/examples//non-blocking-read-file.js
+Start: /Users/gabor/work/code-maven.com/examples//process_exit.js
+Start: /Users/gabor/work/code-maven.com/examples//raw_command_line_arguments.js
+Start: /Users/gabor/work/code-maven.com/examples//read_dir.js
+Start: /Users/gabor/work/code-maven.com/examples//stats.js
+
+/Users/gabor/work/code-maven.com/examples//blocking-read-file.js
+97
+/Users/gabor/work/code-maven.com/examples//node_hello_world.js
+243
+/Users/gabor/work/code-maven.com/examples//node_hello_world_port.js
+270
+/Users/gabor/work/code-maven.com/examples//non-blocking-read-file.js
+151
+/Users/gabor/work/code-maven.com/examples//process_exit.js
+18
+/Users/gabor/work/code-maven.com/examples//raw_command_line_arguments.js
+27
+/Users/gabor/work/code-maven.com/examples//read_dir.js
+324
+/Users/gabor/work/code-maven.com/examples//stats.js
+1382
+</code>
+
+The variable <hl>file</hl> that is now seen by the callback function
+holds the value of <hl>file</hl> when the function was generated
+which is the name of the file the <hl>fs.stat()</hl> received as parameter.
+
+
+<h2>Nameless function generator</h2>
+
+Finally let's look at a solution in which we have eliminated the
+need to have an external function called <hl>generate_callback</hl>.
+
+The function is still there, it just does not have a name.
+Instead of declaring it separately, we have included it in
+the expression in <hl>fs.stat()</hl>. I am not sure if I like this
+or if I prefer the lengthier, but probably more readable version
+with the <hl>generate_callback</hl> function.
+
+<include file="examples/list_dir_noname.js">
+
+
