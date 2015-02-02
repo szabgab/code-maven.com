@@ -1,0 +1,15 @@
+text:
+  written_by: Автор
+  translated_by: Переводчик
+menu:
+  - dir: right
+    menu:
+      - title: Type keyword:
+        url: /keywords
+      - searchbox: 1
+      - title: Archive
+        url: /archive
+      - title: About
+        url: /about
+      - atom: 1
+
