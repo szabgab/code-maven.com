@@ -1,0 +1,205 @@
+=title HTTP Client request in Node.js (GET request and data from POST request)
+=timestamp 2015-02-01T07:30:01
+=indexes http, request, GET, POST
+=status done
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When building a web application in raw Node.js you might use the <a href="http://nodejs.org/api/http.html">http</a> class as we have
+<a href="/getting-started-with-nodejs">started using Node.js</a>. Back then we only used the <hl>response</hl> object, but if we
+are interested what the request was then we should also take a look at the <hl>request</hl> object we receive in the callback.
+
+=abstract end
+
+In this simple example of an <hl>http server in Node.js</hl> print out some of the values from the request object which is
+an instance of the <a href="http://nodejs.org/api/http.html#http_class_http_clientrequest">http.ClientRequest</a> class.
+
+<include file="examples/http_client_request.js">
+
+I ran the abow script using <hl>node examples/http_client_request.js</hl>
+it printed <hl>Browse to http://127.0.0.1:8081</hl> so I browsed there
+with my regular browser.
+
+This is what was printed on the console:
+
+<code>
+GET
+{ host: '127.0.0.1:8081',
+  connection: 'keep-alive',
+  'cache-control': 'max-age=0',
+  accept: 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8,he;q=0.6,ru;q=0.4' }
+/
+GET
+{ host: '127.0.0.1:8081',
+  connection: 'keep-alive',
+  accept: '*/*',
+  'user-agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_10_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.94 Safari/537.36',
+  'accept-encoding': 'gzip, deflate, sdch',
+  'accept-language': 'en-US,en;q=0.8,he;q=0.6,ru;q=0.4' }
+/favicon.ico
+</code>
+
+At first it confused me a bit, why do I have two GET request, but then I remembered, and looking more closely
+I can also see it. The first request was indeed to <hl>/</hl>, (as you can above the second GET line), but then
+another request was sent by my browser to the <hl>/favicon.ico</hl>. This is an automatic request my browser
+send in the hope that it will be able to put this little image on the tab where I opened the page.
+
+I don't want this extra confusion in my research, so I switched to the <hl>curl</hl> command that is available on Linux/Unix.
+
+Let's start again:
+
+I ran the server:
+
+<code>
+$ node examples/http_client_request.js 
+Browse to http://127.0.0.1:8081
+</code>
+
+and opened another shell window where I sent my request:
+
+<code>
+$ curl http://127.0.0.1:8081/
+</code>
+
+Then switched back to the orignal console to see the response:
+
+<code>
+GET
+{ 'user-agent': 'curl/7.37.1',
+  host: '127.0.0.1:8081',
+  accept: '*/*' }
+/
+</code>
+
+
+From this point I was switching back-and-forth between the two consoles.
+
+The second request included a path on the server and a parameter with a value:
+
+<code>
+$ curl http://127.0.0.1:8081/some/path?field=value
+</code>
+
+The printout on the other console was similar to the previous
+printout, except of the last line that shows the <hl>url</hl>.
+
+<code>
+GET
+{ 'user-agent': 'curl/7.37.1',
+  host: '127.0.0.1:8081',
+  accept: '*/*' }
+/some/path?field=value
+</code>
+
+
+The last attemp was to send in a POST request using curl with some data:
+
+<code>
+$ curl --data "field=value" http://127.0.0.1:8081/
+</code>
+
+
+the output looked like this:
+
+<code>
+POST
+{ 'user-agent': 'curl/7.37.1',
+  host: '127.0.0.1:8081',
+  accept: '*/*',
+  'content-length': '11',
+  'content-type': 'application/x-www-form-urlencoded' }
+/
+</code>
+
+The first line shows that it was indeed a <hl>POST</hl> request,
+the header had some extra fields, but the data itself was not included.
+
+Of course, the data needs to be read in and processed in another way.
+
+<h2>Accepting HTTP POST request in Node.js</h2>
+
+<include file="examples/http_client_request_post.js">
+
+This is another area where the non-blocking nature of Node.js is seen.
+Instead of just reading the data from the request object we add a callback
+method to the <hl>data</hl> event of the <hl>request</hl> object. This
+will be called every time another piece of data arrives. Of course, if
+all the data is only 11 characters as in our case, then this is not very
+interesting, but if you are sending a lot of data then it is important
+to read that in without blocking the rest of the site.
+
+Now that we have a call-back waiting for data, we should finish our response
+only after all that data has arrived. Hence  we also added a callback
+for the <hl>end</hl> event of the <hl>request</hl> object and in that
+callback we print to the console all the <hl>data</hl> that was sent by the client,
+and finish our <hl>response</hl> by calling its <hl>end</hl> method.
+
+Let's try this 
+
+<code>
+$ node examples/http_client_request_post.js 
+Browse to http://127.0.0.1:8081
+</code>
+
+The regular GET request:
+
+<code>
+$ curl http://127.0.0.1:8081/
+</code>
+
+worked as earlier:
+
+<code>
+GET
+{ 'user-agent': 'curl/7.37.1',
+  host: '127.0.0.1:8081',
+  accept: '*/*' }
+/
+</code>
+
+the GET request with the path and the parameters:
+
+<code>
+$ curl http://127.0.0.1:8081/some/path?field=value
+</code>
+
+worked as well:
+
+<code>
+GET
+{ 'user-agent': 'curl/7.37.1',
+  host: '127.0.0.1:8081',
+  accept: '*/*' }
+/some/path?field=value
+</code>
+
+The question how does the <hl>POST</hl> request behave:
+
+<code>
+$ curl --data "field=value" http://127.0.0.1:8081/
+</code>
+
+and the result on the console is:
+
+<code>
+POST
+{ 'user-agent': 'curl/7.37.1',
+  host: '127.0.0.1:8081',
+  accept: '*/*',
+  'content-length': '11',
+  'content-type': 'application/x-www-form-urlencoded' }
+/
+field=value
+</code>
+
+So indeed, this managed to collect the data that was sent by the client.
+
+
+
