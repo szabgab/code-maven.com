@@ -15,7 +15,7 @@ In this article we look at the "Hello World" of Flask also shown on the main pag
 
 =abstract end
 
-<include file="python examples/flask_hello_world.py ">
+<include file="examples/flask_hello_world.py">
 
 After installing Flask with <hl>pip install Flask</hl> I could run the above script on the command line using
 
