@@ -1,7 +1,7 @@
 =title HTTP Client request in Node.js (GET request and data from POST request)
-=timestamp 2015-02-01T07:30:01
+=timestamp 2015-02-03T09:30:01
 =indexes http, request, GET, POST
-=status done
+=status show
 =books nodejs
 =author szabgab
 =archive 1
@@ -20,7 +20,7 @@ an instance of the <a href="http://nodejs.org/api/http.html#http_class_http_clie
 
 <include file="examples/http_client_request.js">
 
-I ran the abow script using <hl>node examples/http_client_request.js</hl>
+I ran the above script using <hl>node examples/http_client_request.js</hl>
 it printed <hl>Browse to http://127.0.0.1:8081</hl> so I browsed there
 with my regular browser.
 
@@ -68,7 +68,7 @@ and opened another shell window where I sent my request:
 $ curl http://127.0.0.1:8081/
 </code>
 
-Then switched back to the orignal console to see the response:
+Then switched back to the original console to see the response:
 
 <code>
 GET
@@ -99,7 +99,7 @@ GET
 </code>
 
 
-The last attemp was to send in a POST request using curl with some data:
+The last attempt was to send in a POST request using curl with some data:
 
 <code>
 $ curl --data "field=value" http://127.0.0.1:8081/
