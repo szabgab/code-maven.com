@@ -1,0 +1,13 @@
+=title Code Maven - for people who code
+=timestamp 2015-02-02T15:15:01
+=status show
+=show_date 0
+=author 0
+=archive 0
+=comments_disqus_enable 0
+=show_related 0
+
+<h2>Welcome to the Code Maven!</h2>
+
+<div class="main-content">
+</div>

@@ -1,0 +1,75 @@
+=title Hello World with Flask and Python
+=timestamp 2015-02-03T10:30:01
+=indexes Flask
+=status show
+=books python, flask
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="http://flask.pocoo.org/">Flask</a> is a microframework for Python based on
+<a href="http://werkzeug.pocoo.org/">Werkzeug</a>, <a href="http://jinja.pocoo.org/">Jinja 2</a> and good intentions.
+
+In this article we look at the "Hello World" of Flask also shown on the main page of the framework.
+
+=abstract end
+
+<include file="examples/flask_hello_world.py">
+
+After installing Flask with <hl>pip install Flask</hl> I could run the above script on the command line using
+
+<code>
+$ python examples/flask_hello_world.py 
+</code>
+
+The response was
+
+<code>
+* Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+</code>
+
+Then I turned my browser to the given URL and it indeed showed "Hello World!" while on the console I saw:
+
+<code>
+127.0.0.1 - - [03/Feb/2015 09:43:14] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [03/Feb/2015 09:43:14] "GET /favicon.ico HTTP/1.1" 404 -
+</code>
+
+The first one was my reql reuqest, the second one was my browser trying to be nice and trying to fetch the favicon of the site.
+The first entry ended with <a href="http://en.wikipedia.org/wiki/List_of_HTTP_status_codes">HTTP status 200</a> indicating success,
+the second request ended with HTTP status 404, indicating "Not found".
+
+
+The code itself seems to be straight forward.
+
+We declared a function with an arbitrary name (<hl>hello</hl>), and used the <hl>@app.route("/")</hl>
+decorator to map the request to <hl>/</hl> to this function.
+
+<code lang="python">
+@app.route("/")
+def hello():
+    return "Hello World!"
+</code>
+
+When Flask runs, it accepts HTTP request and them maps the requests to routes based on the path in the request.
+So the above code means if a request comes in for <hl>/</hl> then run the <hl>hello</hl> function.
+
+At the end of the script we see this:
+
+<code lang="python">
+if __name__ == "__main__":
+    app.run()
+</code>
+
+The <hl>app.run()</hl> launches the web server with the Flask-based web application.
+The <hl>if __name__ == "__main__":</hl> part protects it so the server will be only launched
+if the file was executed as a script.
+
+This will allow us to reuse the code in this file as part of another Flask-based application.
+
+(In Perl this kind of behavior is referred to as a <a href="http://www.masteringperl.org/category/chapters/modulinos/">Modulino</a>.)
+
+
+

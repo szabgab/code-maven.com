@@ -44,3 +44,8 @@ The source code of the website can be found in <a href="https://github.com/szabg
 
 Patches are welcome!
 
+<h2 id="translations">Translations</h2>
+
+Volunteers have translated some of the Code Maven pages. All the translations can be found in the same
+<a href="https://github.com/szabgab/code-maven.com">GitHub repository</a>.
+
