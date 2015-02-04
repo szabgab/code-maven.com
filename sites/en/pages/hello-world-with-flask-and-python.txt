@@ -9,7 +9,8 @@
 
 =abstract start
 
-<a href="http://flask.pocoo.org/">Flask</a> is a microframework for Python based on Werkzeug, Jinja 2 and good intentions.
+<a href="http://flask.pocoo.org/">Flask</a> is a microframework for Python based on
+<a href="http://werkzeug.pocoo.org/">Werkzeug</a>, <a href="http://jinja.pocoo.org/">Jinja 2</a> and good intentions.
 
 In this article we look at the "Hello World" of Flask also shown on the main page of the framework.
 
