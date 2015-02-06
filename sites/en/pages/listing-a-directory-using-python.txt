@@ -1,0 +1,90 @@
+=title Listing a directory using Python
+=timestamp 2015-02-06T19:30:01
+=indexes os.listdir, sys.argv, os.path.join, os.path.isdir, os.path.isfile, os.path.getsize, os.stat
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We have seen how to <a href="/list-content-of-directory-with-nodejs">list a directory using Node.js</a>, let's now take a look
+at Python.
+
+=abstract end
+
+<h2>List current directory</h2>
+
+Given a path to a directory the call to <a href="https://docs.python.org/2/library/os.html#os.listdir">os.listdir(path)</a> will return the names of the files, directories, symbolic links, etc.
+in that directoy. In the simple case we can go over the elements using a <hl>for in</hl> loop and print out each one of them:
+
+<include file="examples/ls_simple.py">
+
+In order to make the code Python 3 compatible I added <hl>from __future__ import print_function</hl>.
+The <hl>path</hl> is hard-code <hl>.</hl> indicating the current directory.
+
+Otherwise the code seems to be straight forward.
+
+<h2>List any directory</h2>
+
+In order to make the script more flexible, let's accept an optional(!) directory name on the command line. 
+
+<include file="examples/ls.py">
+
+For this we also loaded the <hl>sys</hl> module and looked at the <a href="https://docs.python.org/2/library/sys.html#sys.argv">sys.argv</a>.
+This array contains the list of things on the command-line excludig the <hl>python</hl> executable. So the first element (index 0)
+of this array is the name of the script, and if the user runs the script with a value on the command line then the length of the
+array will be 2 or more.
+
+In this code we have <hl>path = '.'</hl> being the default value of <hl>path</hl>, but if there are two items on the command line,
+the script and presumedly the path to another directory, then we replace the default value by the value provided on the command line.
+
+The rest of the code is the same.
+
+
+<h2>Check the inode for further details</h2>
+
+In order to provide more information in the directory listing we have to check the inode table of the file.
+For this we need the path to the file which the the content of the <hl>path</hl> variable and the name of the file
+together. We use the <a href="https://docs.python.org/2/library/os.path.html#os.path.join">os.path.join</hl> method
+that can join together two or more pieces of a directory path with the appropriate(!) connecting character.
+On Unix/Linux systems this will be a slash <hl>/</hl>, on MS Windows this will be a back-slash <hl>\</hl>
+and on other operating systems it might be something else.
+
+<code lang="python">
+    full_path = os.path.join(path, name)
+    print(full_path);
+</code>
+
+Then we call the <a href="https://docs.python.org/2/library/os.html#os.stat">os.stat</a> method with the full path.
+It returns an object representing the content of the <a href="http://en.wikipedia.org/wiki/Inode">inode table</a>
+of the give file or directory. This contains all the information about ownership of the file, right various groups
+have on the file, timestamps and a few more things.
+
+The <hl>st_size</hl> method of this object returns the size of the file in bytes.
+
+The <hl>inode.st_mode</hl> returns a number representing the rights on this file and the type of this file.
+we can use bitwise operations with the appropriate values to know which bit is set.
+I wrote a lot more about this in the article about <a href="/system-information-about-a-file-or-directory-in-nodejs">stat in Node.js</a>.
+
+In these two line we check if the given thing is a file or a directory. (We have not dealt with symbolic links
+or other things that might be in the filesystem.
+
+<code lang="python">
+    print('  ' + ('f' if inode.st_mode & 0100000 else '-' ))
+    print('  ' + ('d' if inode.st_mode & 0040000 else '-' ))
+</code>
+
+In case you are not familiar with this syntax the <hl>A if COND else B</hl> is the ternary operator of Python.
+
+The alternative, and probably much more readable way is to call the
+<a  href="https://docs.python.org/2/library/os.path.html#os.path.isdir">os.path.isdir</a>
+and <a href="https://docs.python.org/2/library/os.path.html#os.path.isfile">os.path.isfile</hl> for the
+appropriate boolean (True or False) value, and to call the
+<a href="https://docs.python.org/2/library/os.path.html#os.path.getsize">os.path.getsize</a> method
+to fetch the size of the file.
+
+The full script can be seen here:
+
+<include file="examples/ls.py">
