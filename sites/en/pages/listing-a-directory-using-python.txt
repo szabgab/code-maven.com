@@ -17,7 +17,7 @@ at Python.
 <h2>List current directory</h2>
 
 Given a path to a directory the call to <a href="https://docs.python.org/2/library/os.html#os.listdir">os.listdir(path)</a> will return the names of the files, directories, symbolic links, etc.
-in that directoy. In the simple case we can go over the elements using a <hl>for in</hl> loop and print out each one of them:
+in that directory. In the simple case we can go over the elements using a <hl>for in</hl> loop and print out each one of them:
 
 <include file="examples/ls_simple.py">
 
@@ -30,15 +30,15 @@ Otherwise the code seems to be straight forward.
 
 In order to make the script more flexible, let's accept an optional(!) directory name on the command line. 
 
-<include file="examples/ls.py">
+<include file="examples/ls_argv.py">
 
 For this we also loaded the <hl>sys</hl> module and looked at the <a href="https://docs.python.org/2/library/sys.html#sys.argv">sys.argv</a>.
-This array contains the list of things on the command-line excludig the <hl>python</hl> executable. So the first element (index 0)
+This array contains the list of things on the command-line excluding the <hl>python</hl> executable. So the first element (index 0)
 of this array is the name of the script, and if the user runs the script with a value on the command line then the length of the
 array will be 2 or more.
 
 In this code we have <hl>path = '.'</hl> being the default value of <hl>path</hl>, but if there are two items on the command line,
-the script and presumedly the path to another directory, then we replace the default value by the value provided on the command line.
+the script and presumably the path to another directory, then we replace the default value by the value provided on the command line.
 
 The rest of the code is the same.
 
