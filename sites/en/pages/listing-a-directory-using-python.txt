@@ -80,7 +80,7 @@ In case you are not familiar with this syntax the <hl>A if COND else B</hl> is t
 
 The alternative, and probably much more readable way is to call the
 <a  href="https://docs.python.org/2/library/os.path.html#os.path.isdir">os.path.isdir</a>
-and <a href="https://docs.python.org/2/library/os.path.html#os.path.isfile">os.path.isfile</hl> for the
+and <a href="https://docs.python.org/2/library/os.path.html#os.path.isfile">os.path.isfile</a> for the
 appropriate boolean (True or False) value, and to call the
 <a href="https://docs.python.org/2/library/os.path.html#os.path.getsize">os.path.getsize</a> method
 to fetch the size of the file.
