@@ -47,7 +47,7 @@ The rest of the code is the same.
 
 In order to provide more information in the directory listing we have to check the inode table of the file.
 For this we need the path to the file which the the content of the <hl>path</hl> variable and the name of the file
-together. We use the <a href="https://docs.python.org/2/library/os.path.html#os.path.join">os.path.join</hl> method
+together. We use the <a href="https://docs.python.org/2/library/os.path.html#os.path.join">os.path.join</a> method
 that can join together two or more pieces of a directory path with the appropriate(!) connecting character.
 On Unix/Linux systems this will be a slash <hl>/</hl>, on MS Windows this will be a back-slash <hl>\</hl>
 and on other operating systems it might be something else.
