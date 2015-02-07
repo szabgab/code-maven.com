@@ -1,5 +1,5 @@
 =title Чтение файла с Node.js - блокирующее и неблокирующее
-=timestamp 2015-02-02T16:03:01
+=timestamp 2015-02-07T10:03:01
 =indexes fs, readFile, readFileSync
 =status show
 =books nodejs
