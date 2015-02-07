@@ -12,7 +12,7 @@ for name in files:
     print(name)
 
     full_path = os.path.join(path, name)
-    print(full_path);
+    print(full_path)
 
     inode = os.stat(full_path)
     print('  ' + str(inode.st_size))
@@ -23,5 +23,5 @@ for name in files:
     if os.path.isdir(full_path):
         print('    dir')
     elif os.path.isfile(full_path):
-        print('    file');
+        print('    file')
     print('    ' + str(os.path.getsize(full_path)))
