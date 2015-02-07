@@ -7,7 +7,12 @@
 =comments_disqus_enable 0
 =show_related 0
 
-<h2>Welcome to the Code Maven!</h2>
+<h2>Добро пожаловать на Code Maven и приятного чтения!</h2>
 
 <div class="main-content">
+<p>
+Если вы не хотите пропускать свежие статьи, то можете <a href="http://code-maven.com/pm/register">подписаться на рассылку</a>, следить за новостями через <a href="/atom">atom feed</a>, <a href="https://twitter.com/code__maven">Twitter</a>, или даже через мой аккаунт <a href="https://twitter.com/code__maven">Google+</a>.
+
+Если вы хотите участвовать в переводе статей на другие языки, пожалуйста, свяжитесь любым удобным способом!
+</p>
 </div>
