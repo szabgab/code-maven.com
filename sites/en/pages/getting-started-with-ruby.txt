@@ -16,7 +16,7 @@ I have started to learn Ruby at <a href="http://tryruby.org/">Try Ruby</a> Here 
 <code>
 $ ruby --version
 ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
-<code>
+</code>
 
 <h2>print and puts</h2>
 
