@@ -63,7 +63,7 @@ In order to do that we add the <hl>&lt;script></hl> opening and <hl>&lt;/script>
 The very first thing we need to learn is how to interact with the JavaScript code running in the browse. There are a number of way
 JavaScript can display text for the user (output). The most simple one is by using the <hl>alert</hl> function:
 
-<h2>Alert</h2>
+<h2>alert</h2>
 
 This will show a pop-up in the browser with the text. (You can click on <b>Try!</b> that will open the specific script in a separate window.)
 The <hl>alert()</hl> function is actually rarely used, but it is an easy way to show the use of JavaScript.
