@@ -1,4 +1,4 @@
-=title For loop in ruby (iterating over array elements)
+=title For loop in Ruby (iterating over array elements)
 =timestamp 2015-02-10T13:00:01
 =indexes each, for
 =status show
@@ -9,7 +9,7 @@
 
 =abstract start
 
-In ruby the C-like for-loop is not in use. Instead of that people usually iterate over the elements of an array using
+In Ruby the C-like for-loop is not in use. Instead of that people usually iterate over the elements of an array using
 the <hl>each</hl> method.
 
 =abstract end
