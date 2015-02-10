@@ -45,7 +45,7 @@ Baz
 
 There is another way to iterate over the elements, but it can have a nasty side-effect and thus not recommended.
 
-<include file="examples/ruby/for_loop_on_array.rb ">
+<include file="examples/ruby/for_loop_on_array.rb">
 
 the code looks ok, the result is ok
 
