@@ -19,7 +19,7 @@ the <hl>each</hl> method.
 In this example we have an array with 3 elements. At first we just printed the array as it is. We got the values
 on on every line. That can be useful for debugging, but it we want to go over the elements we need some kind of a loop.
 
-The <hl>each<hl> method allows us to iterate over the elements of the array. On every iteration the variable between the
+The <hl>each</hl> method allows us to iterate over the elements of the array. On every iteration the variable between the
 pipes (<hl>item</hl> in our case) will receive the current value.
 
 Here we have 2 examples. The first one uses curly braces to mark the beginning and the end of the block,
