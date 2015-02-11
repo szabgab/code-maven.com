@@ -31,17 +31,17 @@ Node.js предоставляет простой способ доступа к
 
 По умолчанию Node.js предоставляет объект <a href="http://nodejs.org/api/process.html#process_process_argv">process</a>, содержащий элемент <a href="http://nodejs.org/api/process.html#process_process_argv">argv</a>, который является массивом всех значений, полученных из командной строки:
 
-<include file="examples/raw_command_line_arguments.js">
+<include file="examples/node/raw_command_line_arguments.js">
 
 Прим: вам даже не нужно загружать <hl>process</hl> вручную, так как он загружен по умолчанию.
 
-Запустив команду: <hl>node examples/raw_command_line_arguments.js -dv --port NUMBER --dir PATH  file1 file2<hl>
+Запустив команду: <hl>node examples/node/raw_command_line_arguments.js -dv --port NUMBER --dir PATH  file1 file2<hl>
 
 мы получим:
 
 <code>
 [ 'node',
-  '/Users/gabor/work/code-maven.com/examples/raw_command_line_arguments.js',
+  '/Users/gabor/work/code-maven.com/examples/node/raw_command_line_arguments.js',
   '-dv',
   '--port',
   'NUMBER',
