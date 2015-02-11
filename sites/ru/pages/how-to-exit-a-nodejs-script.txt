@@ -1,5 +1,5 @@
 =title Как завершить работу скрипта Node.js
-=timestamp 2015-02-07T20:30:01
+=timestamp 2015-02-11T14:22:01
 =indexes process, exit
 =status show
 =books nodejs
