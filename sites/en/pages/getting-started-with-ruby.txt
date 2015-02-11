@@ -1,0 +1,124 @@
+=title Getting started with Ruby
+=timestamp 2015-02-08T15:30:01
+=indexes print, puts, length, reverse
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+I have started to learn Ruby at <a href="http://tryruby.org/">Try Ruby</a> Here is what I've learned so far.
+
+=abstract end
+
+<code>
+$ ruby --version
+ruby 2.0.0p481 (2014-05-08 revision 45883) [universal.x86_64-darwin14]
+</code>
+
+<h2>print and puts</h2>
+
+The first thing we should try is printing to the screen.
+I've created a file with <hl>.rb</hl> extension. Not that it matters a lot,
+but I think editors and IDEs will recognize that this is a Ruby file by that extension
+and will be able to put nice colors on the various parts of the code.
+
+<include file="examples/ruby_hello_world.rb ">
+
+I ran the code and got:
+
+<code>
+$ ruby examples/ruby_hello_world.rb 
+
+Hello World
+Hi
+examples/ruby_hello_world.rb:5:in `<main>': uninitialized constant Foo (NameError)
+</code>
+
+So calling <hl>print</hl> will print to the screen exactly what I gave to it.
+Calling <hl>puts</hl> will do the same, but it will also add a newline at the end of the output.
+If I want <hl>print</hl> to add a newline I can include <hl>\n</hl> in my string.
+
+The last output is an error. It shows that we <b>have to</b> put the strings in quotes.
+
+<h2>Comments</h2>
+
+We can <hl>#</hl> after a statement or even as the first character of a line and everything to the
+right of this character (including this character) will be disregarded by Ruby.
+Very handy to add comments for the next person looking at the code.
+
+<h2>Arithmetic</h2>
+
+Part of programming is calculating stuff by using various arithmetic operations.
+Let's see how does that work in Ruby:
+
+<include file="examples/ruby_arithmetic.rb">
+
+(The output of each line was added as a comment on the same line.)
+
+The basic operation such as <hl>+</hl>, <hl>-</hl>, <hl>*</hl> work as they should.
+
+<hl>**</hl> is the exponent operation so <hl>2**3 = 2*2*2 = 8</hl>
+
+At first it seems that division also works as expected, <hl>8/2 = 4</hl> but then it turns out that
+<hl>3/2 = 1</hl>.
+
+Apparently if both numbers in a division are whole numbers, then Ruby will also return a whole number.
+
+On the other hand, if either (or both) the numbers are floating point numbers (they have a decimal point in them)
+then the result will be also floating point. Even if the value after the decimal point is 0 (<hl>4/2.0 = 2.0</hl>).
+
+Dividing by 0 generates an exception called <hl>ZeroDivisionError</hl> and stops the program.
+(We did not reach the <hl>puts 'done'</hl> statement.
+
+<h2>Ruby strings</h2>
+
+We saw arithmetic operations on numbers, but we can also use some operations on strings:
+
+<include file="examples/ruby_strings.rb">
+
+Becasue in Ruby everything is an object, there are certain methods we can run on a string.
+For example the <hl>length</hl> method will return the number of characters in the string.
+
+The <hl>reverse</hl> method will return the characters in reverses order.
+
+We can use the <hl>*</hl> multiplicator on a string. It will return (and <hl>puts</hl> will display)
+a new string in which we have several (in this case 2) copies of the original string.
+
+If we want to have 3 copies of the number 2, we have a number of options.
+
+<hl>puts 2 * 3              # 6</hl>
+
+this one is not doint that, as the <hl>*</hl> between two numbers will multiply them.
+
+We can put the number 2 in quotes:
+
+<hl>puts "2".to_s * 3       # 222</hl>
+
+or we can use the <hl>to_s</hl> to conver the number to a string. 
+
+<hl>puts 2.to_s * 3         # 222</hl>
+
+This will be much more interesting once we start to use variables.
+
+Finally, if we new that we want 3 copies of the number 2, we could have just written "222"
+without trying to use all kinds of Ruby operations.
+
+
+Absolutely finally, let's see what happens if we swap the string and the number in this multiplication
+operation:
+
+<hl>puts 2 * "Jar "</hl>
+
+We get an excpetion:
+
+<code>
+    examples/ruby_strings.rb:7:in `*': String can't be coerced into Fixnum (TypeError)
+       from examples/ruby_strings.rb:7:in `<main>'
+</code>
+
+I guess we cannot do that.
+
+

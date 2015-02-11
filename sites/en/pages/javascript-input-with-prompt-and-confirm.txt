@@ -1,0 +1,55 @@
+=title JavaScript input with prompt and confirm
+=timestamp 2015-02-10T16:10:01
+=indexes prompt, confirm
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Once we know how to <a href="/introduction-to-javascript">show output from JavaScript</a>, let's have a quick look
+at two ways to receive input. Probably neither of these is use a lot, but they can be used easily to play
+around with the basics.
+
+=abstract end
+
+<h2>prompt</h2>
+
+The fist one is called <hl>prompt</hl>.
+It will show a pop-up window with the text provided as the first parameter and with a textbox the user can fill in.
+When the user presses <hl>OK</hl>, the value in the text box will be returned by the <hl>prompt()</hl> function.
+Then, in this example we use the <a href="/introduction-to-javascript">document.write</a> method to update the html
+with the text.
+
+<try file="examples/js/prompt.html">
+
+The textbox will be pre-filled with the content of the second parameter. This can be very useful if we would like to
+ask the user to edit some value. We can pre-fill the box with the old value.
+
+<try file="examples/js/edit.html">
+
+In either case, if the user presses <hl>cancel</hl> or hits the <hl>ESC</hl> the <hl>prompt()</hl> function will return <hl>null</hl>.
+
+<h2>confirm</h2>
+
+The other pop-up is not really an input method. It allows the developer to ask a Yes/No question. Calling the <hl>confirm()</hl>
+function will show a pop-up window with the provided texts and with two buttons. If the user presses <hl>OK</hl> the <hl>confirm()</hl>
+function will return <hl>true</hl>, if the user presses <hl>cancel</hl> or hits the <hl>ESC</hl> key, the function will return <hl>false</hl>.
+
+Of course in order for this to make more sense you'll have to understand what <hl>true</hl> and <hl>false</hl> really mean and what this
+<hl>if - else</hl> construct does. If you have programming background then you probably already understand the code,
+and even if you don't have programming background you might figure out.
+
+That code can basically be translated to the following English sentence:
+
+<hl>If confirm returned true, print "Hello World", otherwise print "OK, I won't print it."</hl>
+
+Or even better:
+
+<hl>If the user presses OK when we asked "Shall I print Hello World?", then print "Hello World", otherwise print "OK, I won't print it."</hl>
+
+<try file="examples/js/confirm.html">
+
+
