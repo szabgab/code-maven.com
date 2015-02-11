@@ -25,16 +25,16 @@ I've created a file with <hl>.rb</hl> extension. Not that it matters a lot,
 but I think editors and IDEs will recognize that this is a Ruby file by that extension
 and will be able to put nice colors on the various parts of the code.
 
-<include file="examples/ruby_hello_world.rb ">
+<include file="examples/ruby/hello_world.rb ">
 
 I ran the code and got:
 
 <code>
-$ ruby examples/ruby_hello_world.rb 
+$ ruby examples/ruby/hello_world.rb 
 
 Hello World
 Hi
-examples/ruby_hello_world.rb:5:in `<main>': uninitialized constant Foo (NameError)
+examples/ruby/hello_world.rb:5:in `<main>': uninitialized constant Foo (NameError)
 </code>
 
 So calling <hl>print</hl> will print to the screen exactly what I gave to it.
@@ -54,7 +54,7 @@ Very handy to add comments for the next person looking at the code.
 Part of programming is calculating stuff by using various arithmetic operations.
 Let's see how does that work in Ruby:
 
-<include file="examples/ruby_arithmetic.rb">
+<include file="examples/ruby/arithmetic.rb">
 
 (The output of each line was added as a comment on the same line.)
 
@@ -77,7 +77,7 @@ Dividing by 0 generates an exception called <hl>ZeroDivisionError</hl> and stops
 
 We saw arithmetic operations on numbers, but we can also use some operations on strings:
 
-<include file="examples/ruby_strings.rb">
+<include file="examples/ruby/strings.rb">
 
 Becasue in Ruby everything is an object, there are certain methods we can run on a string.
 For example the <hl>length</hl> method will return the number of characters in the string.
@@ -115,8 +115,8 @@ operation:
 We get an excpetion:
 
 <code>
-    examples/ruby_strings.rb:7:in `*': String can't be coerced into Fixnum (TypeError)
-       from examples/ruby_strings.rb:7:in `<main>'
+    examples/ruby/strings.rb:7:in `*': String can't be coerced into Fixnum (TypeError)
+       from examples/ruby/strings.rb:7:in `<main>'
 </code>
 
 I guess we cannot do that.
