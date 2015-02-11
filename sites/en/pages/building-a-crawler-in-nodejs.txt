@@ -1,0 +1,198 @@
+=title Building a web client (a crawler) using Node.js
+=timestamp 2015-02-11T21:30:01
+=indexes http, http.get
+=status draft
+=books nodejs, javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Building a web server, or a web application, as we have started in the <a href="/getting-started-with-nodejs">first example</a> can be interesting,
+but so is building a web crawler. You know, the thing that downloads pages, and does something interesting with them.
+
+Let's start with something simple.
+
+=abstract end
+
+The <a href="http://nodejs.org/api/http.html">http</a> class we have seen earlier provides several methods for this.
+We are going to look at the <a href="http://nodejs.org/api/http.html#http_http_get_options_callback">http.get</a> method
+that provides a simple even if limited interface.
+
+<include file="examples/node/crawl_01.js">
+
+The first part of the code is just checking if the user has supplied a URL
+<a href="/argv-raw-command-line-arguments-in-nodejs">on the command line</a>.
+
+Then once we have <hl>url</hl> we call <hl>http.get</hl> providing the requested url and a callback.
+That callback will be executed with a <a href="http://nodejs.org/api/http.html#http_class_http_serverresponse">response object</a>.
+
+Let's see this script with various parameters.
+
+Actually, let's start without any command line parameter:
+
+<code>
+$ node crawl_01.js 
+Usage: /Users/gabor/work/articles/code-maven/examples/node/crawl_01.js URL
+</code>
+
+OK, so it tells us we need to supply a URL
+
+<code>
+$ node crawl_01.js http://code-maven.com/
+Got response: 200
+</code>
+
+That looks good.
+
+Let's ask for a page that does not eists:
+<code>
+$ node crawl_01.js http://code-maven.com/x
+Got response: 404
+</code>
+
+That looks correct, we got a <a href="http://en.wikipedia.org/wiki/HTTP_404">http 404</a> as expected, but then, oh.
+It got stuck. No matter how long I waited it would not end the script.
+Well, actually after a minute or so, it stopped, but I only noticed this becasuse I went to prepare a tea for myself.
+This is not what we want, is it?
+
+At first I thought this is some problem with my server so I tried something else:
+
+<code>
+$ time node crawl_01.js http://google.com/
+Got response: 302
+</code>
+
+The <a href="http://en.wikipedia.org/wiki/HTTP_302">http 302</a> seems ok, but after that the script got stuck as well.
+
+So the problem is not in my server.
+I was not sure how to solve this so I decided to move on. After all, when we get a successful response, we still would like to get the content of
+the request. Being everything asynchronous, the content has not necessarily arrived yet when the callback was executed.
+We need to use the <hl>response object</hl> and add some code to consume the data received.
+
+<h2>Consuming the data</h2>
+
+<include file="examples/node/crawl_02.js">
+
+Once a connection was established and the server gave some response, Node.js executed the callback function passing
+an object representing the response. This can be found in the <hl>res</hl> variable.
+
+We attached two callbacks to this object.  <hl>res.on('data', function(chunk) { ... </hl> will be called
+every time a chunk of the data sent by the server arrives. If the page was small this migh be happen at once,
+but if the page is large, it might take some time (even a few seconds?) to get all the data. In the meantime
+we can do something else. So this function will be called every time some more data has
+arrived. The parameter passed to the function will contain the curren chunk of data.
+
+We have created a variable called <hl>content</hl> and will append the current chunk to this variable.
+
+Of course we assume here that the size of the page fits in the memory, which is quite a reasonable assumption
+for an html page.
+
+The second callback is attached to the event when the responses has finished consuming all the data:
+<hl>res.on('end', function() { ...</hl>
+
+Wihtout this could not be sure if we have received all the data the server wanted to send.
+We just print 'end' to the console and we print the size of the <hl>content</hl> we have received from the server.
+
+Let's run this script now:
+
+<code>
+$ node crawl_02.js http://code-maven.com/
+Got response: 200
+end
+20558
+</code>
+
+So the front page of the <a href="/">Code Maven</a> site has 20,558 bytes.
+
+<code>
+$ node crawl_02.js http://perlmaven.com/
+Got response: 200
+end
+18487
+</code>
+
+Apparently the fron page of the <a href="http://perlmaven.com/">Perl Maven</a> site is smaller.
+
+What about the pages that got stuck?
+
+<code>
+$ node crawl_02.js http://code-maven.com/x
+Got response: 404
+end
+7641
+</code>
+
+And it is not stuck any more!
+
+<code>
+$ node crawl_02.js http://google.com/
+Got response: 302
+end
+261
+</code>
+
+And this was not stuck either.
+
+Apparently, earlier, the script was still expecting us to consume the response and that's the reason
+it was waiting till some timeout happened. Though now it is unclear to me why was it not stuck when
+we got 200 response.
+
+<h2>Is it really chunk-by-chunk?</h2>
+
+There are two lines commented out in the script. If we remove the <hl>//</hl> from the first one,
+enable <hl>console.log('chunk ' + chunk.length);</hl> and run the script again:
+
+<code>
+$ node crawl_02.js http://code-maven.com/
+Got response: 200
+chunk 1235
+chunk 12672
+chunk 1408
+chunk 1408
+chunk 1408
+chunk 1408
+chunk 1026
+end
+20558
+</code>
+
+we can see that we get the data in several pieces.
+
+<h2>The content of 302</h2>
+
+If we remove the second pair of <hl>//</hl>, enabling <hl>console.log(content);</hl>
+then we'll see the content of the page.
+
+For example:
+
+<code>
+$ node crawl_02.js http://google.com/
+Got response: 302
+chunk 261
+end
+261
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>302 Moved</TITLE></HEAD><BODY>
+<H1>302 Moved</H1>
+The document has moved
+<A HREF="http://www.google.co.il/?gfe_rd=cr&amp;ei=abcdVK1234GG8Qftxx1234">here</A>.
+</BODY></HTML>
+</code>
+
+Goole.com is redirecting to the local chapter of Google.
+
+<h2>Conclusion</h2>
+
+This is a good start for a crawler, but we have a lot more to do, and there are actually a few,
+crawlers written in Node.js that provide higher abstraction.
+
+<h2>Advanced crawlers</h2>
+
+For more advanced crawlers we'll have to look at one of the following projects:
+<a href="https://github.com/cgiffard/node-simplecrawler">node-simplecrawler</a>,
+<a href="https://github.com/sylvinus/node-crawler">node-crawler</a>, and
+<a href="https://github.com/mikeal/spider">spider</a>.
+
+
