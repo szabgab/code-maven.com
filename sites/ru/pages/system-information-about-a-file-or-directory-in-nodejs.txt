@@ -1,5 +1,5 @@
 =title Как получить системную информацию о файле или директории в Node.js (stat)
-=timestamp 2015-01-31T11:30:01
+=timestamp 2015-02-11T14:30:01
 =indexes stat, fs.Stats, isFile, isDirectory, size
 =status show
 =books nodejs
