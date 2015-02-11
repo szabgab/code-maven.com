@@ -22,7 +22,7 @@ First let's see the solution with a GET request:
 
 <h2>Using GET requests</h2>
 
-<include file="examples/flask_echo_get.py">
+<include file="examples/flask/echo_get.py">
 
 We have two routes here. The first one, responding to the request of <hl>/</hl> will send back and HTML snippet that
 was embedded in the code. Once we pass the most basic exampeles we are going to start using templates
@@ -64,7 +64,7 @@ This route just sends back the text "You said: " followed by the text the user t
 
 <h2>Using POST request</h2>
 
-<include file="examples/flask_echo_post.py">
+<include file="examples/flask/echo_post.py">
 
 There were a few changes here: 
 
@@ -89,7 +89,7 @@ Before running this script, make sure the other one has been stopped. Otherwise 
 <code>
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 Traceback (most recent call last):
-  File "examples/flask_echo_post.py", line 14, in <module>
+  File "examples/flask/echo_post.py", line 14, in <module>
     app.run()
   File "/Library/Python/2.7/site-packages/flask/app.py", line 772, in run
     run_simple(host, port, self, **options)

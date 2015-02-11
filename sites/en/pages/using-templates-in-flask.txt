@@ -24,10 +24,10 @@ templating system.
 
 We'll take the example that was using the <hl>POST</hl> method and change it step by step:
 
-<include file="examples/flask_echo_post.py">
+<include file="examples/flask/echo_post.py">
 
 
-After copying the file to <hl>examples/flask_echo_template.py</hl>,
+After copying the file to <hl>examples/flask/echo_template.py</hl>,
 the first thing was to cerate a directory called <hl>templates/</hl> next to the script and move
 the HTML snippet of the form to a file called <hl>examples/templates/echo.html</hl>. I even
 broke the HTML code into several lines to make it clearer:
@@ -52,7 +52,7 @@ def hello():
 
 I have launched the script
 
-<hl>python examples/flask_echo_template.py</hl> and browsed to <hl>http://127.0.0.1:5000/</hl>.
+<hl>python examples/flask/echo_template.py</hl> and browsed to <hl>http://127.0.0.1:5000/</hl>.
 The response:
 
 <hl>Internal Server Error</hl>
@@ -60,7 +60,7 @@ The response:
 That's not good. Let's take a look at the console:
 
 <code>
-$ python examples/flask_echo_template.py 
+$ python examples/flask/echo_template.py 
  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 127.0.0.1 - - [05/Feb/2015 05:52:58] "GET / HTTP/1.1" 500 -
 </code>
@@ -102,7 +102,7 @@ Because we are in debug-mode, Flask was monitoring the file and when it notice t
 reloaded the code and printed the following on the console:
 
 <code>
- * Detected change in '/Users/gabor/work/code-maven/examples/flask_echo_template.py', reloading
+ * Detected change in '/Users/gabor/work/code-maven/examples/flask/echo_template.py', reloading
  * Restarting with stat
 </code>
 
@@ -164,7 +164,7 @@ browser and submit the form again. This time the result included both what I typ
 It looked good, but I wanted to test it from scratch and thus loaded the main page again. This time I saw
 the form an the text <hl>You said:</hl> without anything after it.
 
-<img src="/en/flask_echo_form.png" />
+<img src="/img/flask_echo_form.png" />
 
 Of course, I did not say anything yet, so it has nothing to display, but then I'd rather it did not show
 that text either.
@@ -188,11 +188,11 @@ and thus I recommend to do it.
 
 With this change we have reached the following two files:
 
-<include file="examples/flask_echo_template.py">
+<include file="examples/flask/echo_template.py">
 
 and
 
-<include file="examples/templates/echo.html">
+<include file="examples/flask/templates/echo.html">
 
 That work as planned.
 
