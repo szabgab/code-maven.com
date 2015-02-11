@@ -1,7 +1,7 @@
 =title Building a web client (a crawler) using Node.js
 =timestamp 2015-02-11T21:30:01
 =indexes http, http.get
-=status draft
+=status show
 =books nodejs, javascript
 =author szabgab
 =archive 1
@@ -46,7 +46,7 @@ Got response: 200
 
 That looks good.
 
-Let's ask for a page that does not eists:
+Let's ask for a page that does not exist:
 <code>
 $ node crawl_01.js http://code-maven.com/x
 Got response: 404
@@ -54,7 +54,7 @@ Got response: 404
 
 That looks correct, we got a <a href="http://en.wikipedia.org/wiki/HTTP_404">http 404</a> as expected, but then, oh.
 It got stuck. No matter how long I waited it would not end the script.
-Well, actually after a minute or so, it stopped, but I only noticed this becasuse I went to prepare a tea for myself.
+Well, actually after a minute or so, it stopped, but I only noticed this because I went to prepare a tea for myself.
 This is not what we want, is it?
 
 At first I thought this is some problem with my server so I tried something else:
@@ -79,10 +79,10 @@ Once a connection was established and the server gave some response, Node.js exe
 an object representing the response. This can be found in the <hl>res</hl> variable.
 
 We attached two callbacks to this object.  <hl>res.on('data', function(chunk) { ... </hl> will be called
-every time a chunk of the data sent by the server arrives. If the page was small this migh be happen at once,
+every time a chunk of the data sent by the server arrives. If the page was small this might be happen at once,
 but if the page is large, it might take some time (even a few seconds?) to get all the data. In the meantime
 we can do something else. So this function will be called every time some more data has
-arrived. The parameter passed to the function will contain the curren chunk of data.
+arrived. The parameter passed to the function will contain the current chunk of data.
 
 We have created a variable called <hl>content</hl> and will append the current chunk to this variable.
 
@@ -92,7 +92,7 @@ for an html page.
 The second callback is attached to the event when the responses has finished consuming all the data:
 <hl>res.on('end', function() { ...</hl>
 
-Wihtout this could not be sure if we have received all the data the server wanted to send.
+Without this could not be sure if we have received all the data the server wanted to send.
 We just print 'end' to the console and we print the size of the <hl>content</hl> we have received from the server.
 
 Let's run this script now:
@@ -113,7 +113,7 @@ end
 18487
 </code>
 
-Apparently the fron page of the <a href="http://perlmaven.com/">Perl Maven</a> site is smaller.
+Apparently the front page of the <a href="http://perlmaven.com/">Perl Maven</a> site is smaller.
 
 What about the pages that got stuck?
 
