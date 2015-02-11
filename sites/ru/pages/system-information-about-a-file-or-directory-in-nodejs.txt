@@ -1,0 +1,171 @@
+=title Как получить системную информацию о файле или директории в Node.js (stat)
+=timestamp 2015-01-31T11:30:01
+=indexes stat, fs.Stats, isFile, isDirectory, size
+=status show
+=books nodejs
+=author szabgab
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Команда <hl>ls</hl> в ОС Unix/Linux отображает данные о файле, директории, символьной ссылке и о прочих вещах, которые могут существовать в файловой системе. С помощью флага <hl>-l</hl> можно увидеть тип элемента (файл/директория/символьная ссылка...), а также права доступа на чтение, запись и выполнение.
+
+В основном, эту информацию можно получить из структуры <a href="http://en.wikipedia.org/wiki/Inode">inode</a>, но не в Node.js под Apple.
+
+Давайте посмотрим, что мы можем узнать про элемент файловой системы с помощью Node.js
+
+=abstract end
+
+Библиотека <a href="http://nodejs.org/api/fs.html">fs</a>, поставляющаяся вместе с Node.js, предоставляет асинхронный метод <a href="http://nodejs.org/api/fs.html#fs_fs_stat_path_callback">stat</a>, который получает первым аргументом путь к элементу файловой системы, находит информацию о нем в <b>inode</b>, затем вызывает функцию-коллбек (обратный вызов, переданный вторым аргументом). В коллбек будет передан объект <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">fs.Stats</a>.
+
+Так же есть синхронная версия этого метода <a href="http://nodejs.org/api/fs.html#fs_fs_statsync_path">statSync</a>, которая вернет объект <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">fs.Stats</a>, когда будет завершено чтение информации из файловой системы.
+
+Эта программа показывает, как использовать асинхронный метод:
+
+<include file="examples/stats.js">
+
+Предполагается, что эта программа вызывается таким образом: <hl>node examples/stats.js path/to/file</hl>.
+
+Для примера я запустил <hl>node examples/stats.js examples</hl> (указав в качестве параметра директорию 'examples') и получил такой результат:
+
+<code>
+examples
+
+{ dev: 16777220,
+  mode: 16877,
+  nlink: 11,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32548075,
+  size: 374,
+  blocks: 0,
+  atime: Sat Jan 31 2015 10:56:30 GMT+0200 (IST),
+  mtime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST),
+  ctime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST) }
+
+    directory
+    size: 374
+    mode: 16877
+    others eXecute: x
+    others Write:   -
+    others Read:    r
+    group eXecute:  x
+    group Write:    w
+    group Read:     r
+    owner eXecute:  x
+    owner Write:    w
+    owner Read:     r
+    file:           -
+    directory:      d
+</code>
+
+Сравним полученную информацию с результатом работы команды <hl>ls</hl>:
+
+<code>
+$ ls -ld examples
+drwxr-xr-x  11 gabor  staff  374 Jan 31 10:52 examples
+</code>
+
+Давайте разберем нашу программу:
+
+<code lang="javascript">
+var fs = require('fs');
+
+if (process.argv.length <= 2) {
+    console.log("Usage: " + __filename + " path/to");
+    process.exit(-1);
+}
+
+var path = process.argv[2];
+</code>
+
+После загрузки библиотеки <hl>fs</hl> мы проверяем количество <a href="/argv-raw-command-line-arguments-in-nodejs">аргументов, полученных через командную строку</a>. Если их 2 или меньше (я не уверен, что меньше двух вообще возможно), значит пользователь вообще не передал никаких аргументов.
+(Если пользователь выполнил <hl>node examples/stats.js</hl>, тогда мы получим два аргумента). В этом случае мы выводим пользователю подсказку:
+
+<code>
+$ node examples/stats.js
+Usage: /home/gabor/code-maven/examples/stats.js path/to
+</code>
+
+Глобальная переменная <hl>__filename</hl> (начинается с двух подчеркиваний) содержит полный путь к текущему выполняемому файлу.
+Затем вызываем <hl>process.exit()</hl> для <a href="/how-to-exit-a-nodejs-script">немедленного завершения работы</a>.
+
+Последний шаг в этом фрагменте кода - получаем третий элемент (его индекс равен 2) из <hl>argv</hl>, который содержит значение, переданное пользователем в командной строке, и присваиваем его переменной <hl>path</hl>.
+
+<h2>Вызов fs.stat</h2>
+
+Затем мы вызвали метод <a href="http://nodejs.org/api/fs.html#fs_fs_stat_path_callback">stat</a>, передав в него <hl>path</hl> и функцию-коллбек. Эта функция получит объект ошибки (если она случится) и объект <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">fs.Stats</a>
+
+<code lang="javascript">
+fs.stat(path, function(err, stats) {
+</code>
+
+Объект <hl>Stats</hl> содержит данные, полученные из inode (в нашем случае это выглядит так:)
+
+<code>
+{ dev: 16777220,
+  mode: 16877,
+  nlink: 11,
+  uid: 501,
+  gid: 20,
+  rdev: 0,
+  blksize: 4096,
+  ino: 32548075,
+  size: 374,
+  blocks: 0,
+  atime: Sat Jan 31 2015 10:56:30 GMT+0200 (IST),
+  mtime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST),
+  ctime: Sat Jan 31 2015 10:52:13 GMT+0200 (IST) }
+</code>
+
+Кроме это <hl>Stats</hl> имеет некоторые полезные методы.
+
+Мы получили набор данных, где <hl>dev</hl> - номер устройства. Это может быть полезным, если у вас несколько разделов или физических дисков.
+
+<hl>mode</hl> содержит много информации, включая тип элемента (файл/директория/символьная ссылка) и права доступа.
+
+<hl>uid</hl> - идентификатор владельца элемента.
+
+<hl>gid</hl> - идентификатор группы владельца.
+
+<hl>size</hl> - размер в байтах.
+
+<hl>atime</hl>, <hl>mtime</hl>, и <hl>ctime</hl> - время последнего доступа, изменения и создания элемента.
+
+Прежде, чем мы начнем детально разбираться с <hl>mode</hl>, давайте рассмотрим несколько вспомогательных функций:
+
+<hl>isFile()</hl> вернет <hl>True</hl>, если это файл.
+
+<hl>isDirectory()</hl> вернет </hl>True</hl>, если это директория.
+
+В <a href="http://nodejs.org/api/fs.html#fs_class_fs_stats">документации по fs.Stat</a> перечислены еще несколько подобных функций.
+
+Обратиться к остальным значениям можно обычным для JavaScript способом:
+К примеру, вот так можно получить значение для 'size':
+
+<h2>Размер файла в Node.js</h2>
+
+<code lang="javascript">
+console.log('    size: ' + stats["size"]);
+</code>
+
+<h2>Права доступа к файлу</h2>
+
+Раздел документации <a href="http://man7.org/linux/man-pages/man2/stat.2.html">man 2 stat</a> описывает, как трактовать значение <hl>mode</hl>, которое в нашем случае равно 16877.
+
+Нам нужно использовать специальные битовые маски, чтобы определить, установлены ли нужные нам биты в 0 или в 1.
+Например, <hl>mode & 1</hl> будет равно 1, если правый бит в <hl>mode</hl> установлен в 1. 
+
+<hl>mode & 2</hl> будет равно 2, если второй бит справа установлен в 1, и 0, если это не так.
+
+<hl>mode & 4</hl> будет равно 4, если третий (!) бит справа установлен в 1, и 0, если нет. 
+
+К счастью JavaScript все числа, кроме 0, рассматривает как True. Таким образом, мы можем использовать тернарный оператор <hl>?:</hl> для возврата каких-нибудь подходящих символов, если значение выражения отлично от 0, и возвращать <hl>-</hl> если оно равно 0.
+
+Таким образом, мы можем выводить символы <hl>rwx-</hl> по аналогии с командой <hl>ls -ld</hl>.
+
+Кроме прав доступа на файл из <hl>mode</hl> мы можем получить тип файла, но для этого у нас есть более удобный способ, описанный выше.
