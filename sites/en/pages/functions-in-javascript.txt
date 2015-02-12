@@ -1,7 +1,7 @@
 =title Functions in JavaScript
 =timestamp 2015-02-12T13:30:01
 =indexes function
-=status draft
+=status show
 =books javascript
 =author szabgab
 =archive 1
@@ -17,7 +17,9 @@ function.
 
 =abstract end
 
-If you try this example, and open the console to see the output you'll see that the order of the output is
+<try file="examples/js/function.html">
+
+If you try this example, and <a href="/open-javascript-console">open the JavaScript console</a> to see the output you'll see that the order of the output is
 
 <code>
 before
@@ -29,15 +31,14 @@ So as you can see, unlike earlier, the code is not executed in the order it can 
 Although the function is declared before everything else, it is only executed later, when we call it using
 its name <hl>show();</hl>
 
-(don't forget to <a href="/open-javascript-console">open the JavaScript console</a> of your browser.)
-
-<try file="examples/js/function.html">
-
 <h2>Calling a function more than once</h2>
 
 This was not yet very intersting, but in the next example you'll see we can call the same function multiple times.
-This already shows one of the values of functions. It can eliminate code repetition. Of course if the content
-of the function was bigger then the gain, was more obvious. We would still only add one line each time we
+
+<try file="examples/js/function_calls.html">
+
+This already shows one of the values of functions. They can help eliminate code repetition. Of course if the content
+of the function was bigger then the gain was more obvious. We would still only add one line each time we
 call the function, but all the content of the function would be executed.
 
 <code>
@@ -47,8 +48,6 @@ Hello World
 after
 Hello World
 </code>
-
-<try file="examples/js/function_calls.html">
 
 <h2>Function with parameters</h2>
 
