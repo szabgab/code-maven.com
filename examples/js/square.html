@@ -1,10 +1,7 @@
-
 <script src="svg.min.js"></script>
 
-<span id="drawing"></span>
-<script>
-var draw = SVG('drawing');
-draw.size(300, 300);
-var rect = draw.rect(100, 100).attr({ fill: '#f06' });
-</script>
+<div id="drawing"></div>
 
+<script>
+SVG('drawing').size(120, 120).rect(100, 100).attr({ fill: '#f06' });
+</script>
