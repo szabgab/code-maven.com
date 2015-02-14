@@ -1,0 +1,28 @@
+=title Flag of Switzerland in SVG
+=timestamp 2015-02-14T07:30:01
+=indexes svg
+=status draft
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing the Swiss flag in SVG.
+
+=abstract end
+
+<h3>Flag of Switzerland</h3>
+
+<a href="http://en.wikipedia.org/wiki/Flag_of_Switzerland">wikipedia</a> and
+<a href="http://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg">wikimedia svg</a>.
+
+According to <a href="http://www.bk.admin.ch/themen/02268/02385/index.html?lang=de">CD Bund V7.0</a>
+the red colour of the flags is #FF0000, the with of the
+middle width = 1/5 of the full width
+side   width = 1/5 of the full width + 1/6 of the middle width (= 0.2 + 0.2 / 6 = 1.4/6)
+
+<div id="flag_of_switzerland"></div>
+<script src="/try/examples/js/svg_flag_of_switzerland.js"></script>
+

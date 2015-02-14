@@ -1,0 +1,71 @@
+=title SVG (Scalable Vector Graphics) Tutorial and Exercises
+=timestamp 2015-02-14T18:30:01
+=indexes svg
+=status show
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This SVG - <a href="http://en.wikipedia.org/wiki/Scalable_Vector_Graphics">Scalable Vector Graphics</a> tutorial uses small tasks as exercises
+to help you learn how to build images.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+In order to get started check out the <a href="/svg-with-javascript">SVG with JavaScript</a> and/or
+the <a href="http://perlmaven.com/scalable-vector-graphics-with-perl">SVG in Perl</a> article.
+
+Then you can do the following exercises. I've tried to put them in order of growing complexity.
+For each task you'll find a (hopefully) reasonable description of what you should do and you will also see the end-result
+I was expetent. In addition you will find links to the pages where my solutions are presented.
+
+(This is a first draft of this page, more shapes and more exercises will follow.)
+
+<h2>Basic shapes</h2>
+
+<h3>Rectangle</h3>
+
+Draw a blue rectangle with 200px width, 100px height.
+
+<div id="blue_rectangle"></div>
+<script src="/try/examples/js/svg_rectangle.js"></script>
+
+My solution and more examples for <a href="/svg-rectangle">SVG Rectangle</a>.
+
+<h3>Square</h3>
+
+Draw a square with 100px each side. I am not sure. Whatever this color this is:
+
+<div id="square_1"></div>
+<script src="/try/examples/js/svg_square.js"></script>
+
+My <a href="/svg-square">SVG Square</a>.
+
+<h3>Circle</h3>
+
+Draw a nice green circle with 100 px diameter.
+
+<div id="circle_1"></div>
+<script src="/try/examples/js/svg_circle.js"></script>
+
+The <a href="/svg-circle">SVG Circle</a> I managed to create.
+
+<h2>Slightly more advanced tasks</h2>
+
+<h3>Flag of Hungary</h3>
+
+Accoridng to the <a href="http://en.wikipedia.org/wiki/Flag_of_Hungary">Wikipedia</a> and
+the <a href="http://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg">Wikimedia svg</a>,
+the Hungarian flag has a 2:1 ratio and the 3 stripes have the following RGB color values:
+The Red is #CD2A3E, the white is, well, it is white #FFFFFF, and the green is #436F4D.
+
+<div id="flag_of_hungary"></div>
+<script src="/try/examples/js/svg_flag_of_hungary.js"></script>
+
+My drawing of the <a href="/svg-flag-of-hungary">Hungarian flag</a>.
+
+

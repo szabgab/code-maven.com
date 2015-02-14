@@ -1,0 +1,21 @@
+=title SVG Rectangle
+=timestamp 2015-02-14T18:31:01
+=indexes svg
+=status show
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing a rectangular in SVG.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+<div id="blue_rectangle"></div>
+<script src="/try/examples/js/svg_rectangle.js"></script>
+<include file="examples/js/svg_rectangle.js">
+

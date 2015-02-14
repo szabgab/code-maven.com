@@ -1,0 +1,23 @@
+=title SVG Circle
+=timestamp 2015-02-14T18:33:01
+=indexes svg
+=status show
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing a circle in SVG.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+<div id="circle_1"></div>
+<script src="/try/examples/js/svg_circle.js"></script>
+
+<include file="examples/js/svg_circle.js">
+
+

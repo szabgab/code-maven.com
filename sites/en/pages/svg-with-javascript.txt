@@ -2,7 +2,7 @@
 =timestamp 2015-02-13T16:30:01
 =indexes SVG
 =status show
-=books javascript
+=books javascript, svg
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
