@@ -29,7 +29,7 @@ I was expetent. In addition you will find links to the pages where my solutions 
 
 <h3>Rectangle</h3>
 
-Draw a blue rectangle with 200px width, 100px height.
+Draw a blue rectangle of 200px width, 100px height.
 
 <div id="blue_rectangle"></div>
 <script src="/try/examples/js/svg_rectangle.js"></script>
@@ -38,7 +38,7 @@ My solution and more examples for <a href="/svg-rectangle">SVG Rectangle</a>.
 
 <h3>Square</h3>
 
-Draw a square with 100px each side. I am not sure. Whatever this color this is:
+Draw a square of 100px each side. I am not sure. Whatever this color is:
 
 <div id="square_1"></div>
 <script src="/try/examples/js/svg_square.js"></script>
