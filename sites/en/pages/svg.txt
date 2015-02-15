@@ -69,3 +69,19 @@ The Red is #CD2A3E, the white is, well, it is white #FFFFFF, and the green is #4
 My drawing of the <a href="/svg-flag-of-hungary">Hungarian flag</a>.
 
 
+<h2>Flag of Switzerland</h2>
+
+According to the <a href="http://en.wikipedia.org/wiki/Flag_of_Switzerland">Wikipedia</a> entry,
+to the <a href="http://commons.wikimedia.org/wiki/File:Flag_of_Switzerland.svg">Wikimedia svg</a>
+example and to the 
+<a href="http://www.bk.admin.ch/themen/02268/02385/index.html?lang=de">CD Bund V7.0</a>
+the red colour of the flags is #FF0000, the with of the
+middle part is 1/5 of the full width, the width of the sides is 1/5 of the full width + 1/6 of the middle width.
+Which seems to be 0.2 + 0.2 / 6 = 1.4/6 of the full width.
+
+<div id="flag_of_switzerland"></div>
+<script src="/try/examples/js/svg_flag_of_switzerland.js"></script>
+
+My drawing of the <a href="/svg-flag-of-switzerland">Swiss flag</a>.
+
+
