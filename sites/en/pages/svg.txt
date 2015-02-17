@@ -23,6 +23,8 @@ Then you can do the following exercises. I've tried to put them in order of grow
 For each task you'll find a (hopefully) reasonable description of what you should do and you will also see the end-result
 I was expetent. In addition you will find links to the pages where my solutions are presented.
 
+Also see a recommended <a href="http://tutorials.jenkov.com/svg/index.html">svg tutorial</a> by Jakob Jenkov.
+
 (This is a first draft of this page, more shapes and more exercises will follow.)
 
 <h2>Basic shapes</h2>

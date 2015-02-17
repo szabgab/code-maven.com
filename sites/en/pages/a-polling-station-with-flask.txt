@@ -1,0 +1,212 @@
+=title A polling station using Flask
+=timestamp 2015-02-01T07:30:01
+=indexes render_template, request
+=status draft
+=books flask, python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In this series of articles we are going to build an application to run polls and maybe even surveys using Flask.
+
+Let's get started by creating a simple Flask-based application
+
+=abstract end
+
+We create an new directory and in that directory we create a Python script with the following content:
+
+<include file="examples/flask/poll1/poll.py">
+
+We created a route for <hl>/</hl> that will invoke the <hl>root()</hl> function that will return the content of
+the <hl>poll.html</hl> template. The template itself was added in the <hl>templates/</hl> subdirectory.
+
+<include file="examples/flask/poll1/templates/poll.html">
+
+This is how the directory of the project looks like:
+
+<code>
+$ tree
+.
+├── poll.py
+└── templates
+    └── poll.html
+</code>
+
+We can now run <hl>python poll.py</hl> that will tell us
+
+<code>
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+ * Restarting with stat
+</code>
+
+If we open the browser to the give URL, we'll see the following:
+
+<img src="/img/flask_poll_1.png" alt="Flask poll" />
+
+Not much, but it is working. Just like the <a href="/hello-world-with-flask-and-python">hello world</a>, but with a template.
+
+<code>
+$ git init
+$ git add .
+$ git commit -m "step 1 - hello world with a template"
+</code>
+
+
+<h2>Display the poll</h2>
+
+In order to have a poll we need a question and we need a list of values to pick from.
+Later this should be probably placed in a configuration file, but for now let's create
+a dictionary in our application holding the data:
+
+<code lang="python">
+poll_data = {
+   'question' : 'Which web framework do you use?',
+   'fields'   : ['Flask', 'Django', 'TurboGears', 'web2py', 'pylonsproject']
+}
+</code>
+
+We also change the call to <hl>render_template</hl> and pass this dictionary to it
+with an arbitrary key we called <hl>data</hl>.
+
+<include file="examples/flask/poll2/poll.py">
+
+In the template we use the expression <hl>{{ data.question }}</hl> to include the
+question. We use that both as the title of the whole page that will show up as the title
+of the browser tab, and in an <hl>h1</hl> element to have something more visible.
+
+Then we create a form with <hl>action="/poll"></hl> which means we'll have to create another route
+for this in our application. Inside the form, we create a number of <hl>radio</hl> input elements.
+One for each value in the list of possible values. Radio input fields are good here as we would like
+to get exact one answer.
+
+<include file="examples/flask/poll2/templates/poll.html">
+
+After the changes, if we visit our website we'll see the following:
+
+<img src="/img/flask_poll_2.png" alt="Flask poll" />
+
+If we select one of the items and click on the "Vote" button we get this response:
+
+<img src="/img/flask_poll_2_2.png" alt="Flask poll" />
+
+This just means we have not implemented the <hl>/poll</hl> route yet. Let's do that now.
+
+<code>
+$ git add .
+$ git commit -m "add poll data and display it"
+</code>
+
+<h2>Accept the vote</h2>
+
+First step is to add a function to handle the <hl>/poll</hl> route, accept the value from
+the <hl>field</hl> of the form using <hl>request.args.get('field')</hl>. At fist let's just return
+this value to the user:
+
+<code lang="python">
+@app.route('/poll')
+def poll():
+    vote = request.args.get('field')
+    return vote 
+</code>
+
+We can reload the browser and it will show our selection:
+
+<img src="/img/flask_poll_3_1.png" alt="Flask poll" />
+
+The next step is to save the vote somewhere. To be simple, we are going to use a flat file for this.
+At the beginning of the <hl>poll.py</hl> script we add the name of the file in a variable:
+</hl>filename = 'data.txt'</hl> (it is always good to have values in variables),
+and then we open the file to append more content (using <hl>'a'</hl> as the parameter to the <hl>open</hl> function),
+write the vote to the file and close the file.
+
+We are going to have one vote in every line. It will be easy to collect the data later.
+
+<code lang="python">
+@app.route('/poll')
+def poll():
+    vote = request.args.get('field')
+
+    out = open(filename, 'a')
+    out.write( vote + '\n' )
+    out.close()
+
+    return vote 
+</code>
+
+At this point, if we reload the web page, it will already save our vote in the data file, but it will still just echo
+back the vote. Instead of that let's add a slightly nicer thank-you page:
+
+<code lang="python">
+    return render_template('thankyou.html', data=poll_data)
+</code>
+
+The Flask script looks like this now:
+
+<include file="examples/flask/poll3/poll.py">
+
+The thank-you template is this:
+
+<include file="examples/flask/poll3/templates/thankyou.html">
+
+<code>
+$ git add poll.py templates/thankyou.html
+$ git commit -m "save the vote and thank the voter"
+</code>
+
+This version of the voting station could already work, but let's add another page showing the results.
+
+<h2>Show the results</h2>
+
+In order to show the results we'll create another route called <hl>/results</hl> that will read the data file
+and display the number of votes for each one of the candidates.
+
+This is the route:
+
+<code lang="python">
+@app.route('/results')
+def show_results():
+    votes = {}
+    for f in poll_data['fields']:
+        votes[f] = 0
+
+    f  = open(filename, 'r')
+    for line in f:
+        vote = line.rstrip("\n")
+        votes[vote] += 1
+
+    return render_template('results.html', data=poll_data, votes=votes)
+</code>
+
+At first we create a dictionary called <hl>votes</hl> where we are going to collect the number of votes.
+Then we go over the list of expected names from the original list of fields and put an entry for each one of them
+with 0 votes. That will make sure each one of the fields will have a representation in the results, even if no-one voted for it.
+
+Then we open the data file for reading, read line-by-line. Before updating the <hl>votes</hl> dictionary we need to
+remove the trailing newline from the line which we do using <hl>line.rstrip("\n")</hl>.
+
+Finally we pass the votes to the <hl>render_template</hl> function.
+
+The template itself looks like this:
+
+<include file="examples/flask/poll4/templates/results.html">
+
+and this is the full script:
+
+<include file="examples/flask/poll4/poll.py">
+
+If we visit the http://127.0.0.1:5000/results url we'll see a response like this:
+
+<img src="/img/flask_poll_4.png" alt="Flask poll" />
+
+
+<code>
+$ git add poll.py templates/results.html
+$ git commit -m "show the results"
+</code>
+
+<h2>What next?</h2>
+
+
+
