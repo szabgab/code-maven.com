@@ -1,7 +1,7 @@
 =title A polling station using Flask
-=timestamp 2015-02-01T07:30:01
+=timestamp 2015-02-17T17:30:01
 =indexes render_template, request
-=status draft
+=status show
 =books flask, python
 =author szabgab
 =archive 1
