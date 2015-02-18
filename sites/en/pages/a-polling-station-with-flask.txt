@@ -218,5 +218,7 @@ $ git commit -m "show the results"
 
 <h2>What next?</h2>
 
+<a href="/testing-the-flask-poll">Testing the Flask Poll</a>.
+
 
 
