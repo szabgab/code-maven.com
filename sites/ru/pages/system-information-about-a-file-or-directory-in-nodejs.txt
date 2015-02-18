@@ -24,11 +24,11 @@
 
 Эта программа показывает, как использовать асинхронный метод:
 
-<include file="examples/stats.js">
+<include file="examples/node/stats.js">
 
-Предполагается, что эта программа вызывается таким образом: <hl>node examples/stats.js path/to/file</hl>.
+Предполагается, что эта программа вызывается таким образом: <hl>node examples/node/stats.js path/to/file</hl>.
 
-Для примера я запустил <hl>node examples/stats.js examples</hl> (указав в качестве параметра директорию 'examples') и получил такой результат:
+Для примера я запустил <hl>node examples/node/stats.js examples</hl> (указав в качестве параметра директорию 'examples') и получил такой результат:
 
 <code>
 examples
@@ -84,11 +84,11 @@ var path = process.argv[2];
 </code>
 
 После загрузки библиотеки <hl>fs</hl> мы проверяем количество <a href="/argv-raw-command-line-arguments-in-nodejs">аргументов, полученных через командную строку</a>. Если их 2 или меньше (я не уверен, что меньше двух вообще возможно), значит пользователь вообще не передал никаких аргументов.
-(Если пользователь выполнил <hl>node examples/stats.js</hl>, тогда мы получим два аргумента). В этом случае мы выводим пользователю подсказку:
+(Если пользователь выполнил <hl>node examples/node/stats.js</hl>, тогда мы получим два аргумента). В этом случае мы выводим пользователю подсказку:
 
 <code>
-$ node examples/stats.js
-Usage: /home/gabor/code-maven/examples/stats.js path/to
+$ node examples/node/stats.js
+Usage: /home/gabor/code-maven/examples/node/stats.js path/to
 </code>
 
 Глобальная переменная <hl>__filename</hl> (начинается с двух подчеркиваний) содержит полный путь к текущему выполняемому файлу.
