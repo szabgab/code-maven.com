@@ -22,6 +22,11 @@ This is the collection of Flask articles on the Code Maven site.
   <li><a href="/using-templates-in-flask">Using Templates</a></li>
 </ul>
 
+<ul>
+  <li><a href="/a-polling-station-with-flask">A polling station using Flask</a></li>
+  <li><a href="/testing-the-flask-poll">Testing the Flask poll</a></li>
+</ul>
+
 <!--
   <li><a href=""></a></li>
 -->
