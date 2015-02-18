@@ -11,7 +11,9 @@
 
 In this series of articles we are going to build an application to run polls and maybe even surveys using Flask.
 
-Let's get started by creating a simple Flask-based application
+In addition to the articles, you can follow the development of the application in <a href="https://github.com/szabgab/flask-poll">this</a> repository.
+
+Let's get started by creating a simple Flask-based application.
 
 =abstract end
 
@@ -52,6 +54,8 @@ $ git init
 $ git add .
 $ git commit -m "step 1 - hello world with a template"
 </code>
+
+<a href="https://github.com/szabgab/flask-poll/commit/c78124201aeb49a2853cac6dc9d28fc1ee03edb3">commit</a>.
 
 
 <h2>Display the poll</h2>
@@ -97,6 +101,8 @@ This just means we have not implemented the <hl>/poll</hl> route yet. Let's do t
 $ git add .
 $ git commit -m "add poll data and display it"
 </code>
+
+<a href="https://github.com/szabgab/flask-poll/commit/2a293a4051bc4ba3ae4c8b95dd1e02b669a76b82">commit</a>
 
 <h2>Accept the vote</h2>
 
@@ -155,6 +161,8 @@ $ git add poll.py templates/thankyou.html
 $ git commit -m "save the vote and thank the voter"
 </code>
 
+<a href="https://github.com/szabgab/flask-poll/commit/ba5a516c7e1506d7c25807ebd18e9ef388df2b9b">commit</a>
+
 This version of the voting station could already work, but let's add another page showing the results.
 
 <h2>Show the results</h2>
@@ -205,6 +213,8 @@ If we visit the http://127.0.0.1:5000/results url we'll see a response like this
 $ git add poll.py templates/results.html
 $ git commit -m "show the results"
 </code>
+
+<a href="https://github.com/szabgab/flask-poll/commit/9c0f04d7c7d80da68c681dfec2c0f7ad4f4d605a">commit</a>
 
 <h2>What next?</h2>
 
