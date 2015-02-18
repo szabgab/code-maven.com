@@ -18,7 +18,7 @@ bog you down with such details. It was straight forward for me on OSX, and I hav
 
 <h2>Hello World</h2>
 
-<include file="examples/node_hello_world.js">
+<include file="examples/node/hello_world.js">
 
 In the first line of this example we load the <a href="http://nodejs.org/api/http.html">>http</a> library that provides all the necessary to tools
 to run a simple, non-blocking web server.
@@ -41,7 +41,7 @@ to notify the user where to point the browser.
 
 Once I typed this in I was happy and ran my code:
 
-<hl>node examples/node_hello_world.js</hl>
+<hl>node examples/node/hello_world.js</hl>
 
 the output?
 
@@ -56,7 +56,7 @@ Error: listen EADDRINUSE
     at Server._listen2 (net.js:1043:14)
     at listen (net.js:1065:10)
     at Server.listen (net.js:1139:5)
-    at Object.<anonymous> (/Users/gabor/work/articles/code-maven/examples/node_hello_world.js:9:3)
+    at Object.<anonymous> (/Users/gabor/work/articles/code-maven/examples/node/hello_world.js:9:3)
     at Module._compile (module.js:456:26)
     at Object.Module._extensions..js (module.js:474:10)
     at Module.load (module.js:356:32)
@@ -72,7 +72,7 @@ I think it would have been much more useful if the exception included at least a
 
 Anyway, I changed the port number in <hl>s.listen(8081);</hl> and run the code again:
 
-<hl>node examples/node_hello_world.js</hl>
+<hl>node examples/node/hello_world.js</hl>
 
 It printed the following on the console and then waited.
 
@@ -89,11 +89,11 @@ It would be better to keep the port number in some variable, and then use that v
 
 The new code is almost the same:
 
-<include file="examples/node_hello_world_port.js">
+<include file="examples/node/hello_world_port.js">
 
 We run this:
 
-<hl>node examples/node_hello_world_port.js</hl>
+<hl>node examples/node/hello_world_port.js</hl>
 
 If I open a browser now, and point it to http://127.0.0.1:8081/ it will show "Hello World".
 
