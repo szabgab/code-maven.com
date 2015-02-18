@@ -18,9 +18,9 @@ are interested what the request was then we should also take a look at the <hl>r
 In this simple example of an <hl>http server in Node.js</hl> print out some of the values from the request object which is
 an instance of the <a href="http://nodejs.org/api/http.html#http_class_http_clientrequest">http.ClientRequest</a> class.
 
-<include file="examples/http_client_request.js">
+<include file="examples/node/http_client_request.js">
 
-I ran the above script using <hl>node examples/http_client_request.js</hl>
+I ran the above script using <hl>node examples/node/http_client_request.js</hl>
 it printed <hl>Browse to http://127.0.0.1:8081</hl> so I browsed there
 with my regular browser.
 
@@ -58,7 +58,7 @@ Let's start again:
 I ran the server:
 
 <code>
-$ node examples/http_client_request.js 
+$ node examples/node/http_client_request.js 
 Browse to http://127.0.0.1:8081
 </code>
 
@@ -125,7 +125,7 @@ Of course, the data needs to be read in and processed in another way.
 
 <h2>Accepting HTTP POST request in Node.js</h2>
 
-<include file="examples/http_client_request_post.js">
+<include file="examples/node/http_client_request_post.js">
 
 This is another area where the non-blocking nature of Node.js is seen.
 Instead of just reading the data from the request object we add a callback
@@ -144,7 +144,7 @@ and finish our <hl>response</hl> by calling its <hl>end</hl> method.
 Let's try this 
 
 <code>
-$ node examples/http_client_request_post.js 
+$ node examples/node/http_client_request_post.js 
 Browse to http://127.0.0.1:8081
 </code>
 
