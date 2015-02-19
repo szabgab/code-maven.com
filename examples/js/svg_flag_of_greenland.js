@@ -1,5 +1,5 @@
 function flag_of_greenland() {
-    var draw = SVG('flag_of_greenladn');
+    var draw = SVG('flag_of_greenland');
     var width = 300;
     var height = 200;
     draw.size(width+2, height+2);

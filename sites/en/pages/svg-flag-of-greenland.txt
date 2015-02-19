@@ -1,7 +1,7 @@
 =title Flag of Greenland in SVG
 =timestamp 2015-02-19T17:34:01
 =indexes svg
-=status draft
+=status show
 =books javascript, svg
 =author szabgab
 =archive 1
@@ -14,6 +14,11 @@ This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing the fl
 =abstract end
 
 <script src="/try/examples/js/svg.min.js"></script>
+
+According to the <a href="http://en.wikipedia.org/wiki/Flag_of_Greenland">Wikipedia</a> the flag of
+Greenland is from two colors: white and red (PMS 186C). The size is 18:12 parts. The disk is 8 parts
+in diameter and its center is 7 parts from one side.
+
 
 <div id="flag_of_greenland"></div>
 <script src="/try/examples/js/svg_flag_of_greenland.js"></script>
