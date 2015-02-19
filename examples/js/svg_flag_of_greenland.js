@@ -14,5 +14,5 @@ function flag_of_greenland() {
     draw.rect(width, height).dy(height/2).maskWith(circle2).fill('#FFF');
 }
 
-flag_of_greenladn();
+flag_of_greenland();
 
