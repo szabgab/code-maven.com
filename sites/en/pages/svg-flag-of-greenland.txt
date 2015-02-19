@@ -1,0 +1,21 @@
+=title Flag of Greenland in SVG
+=timestamp 2015-02-19T17:34:01
+=indexes svg
+=status draft
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing the flag of Greenland in SVG.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+<div id="flag_of_greenland"></div>
+<script src="/try/examples/js/svg_flag_of_greenland.js"></script>
+<include file="examples/js/svg_flag_of_greenland.js">
+
