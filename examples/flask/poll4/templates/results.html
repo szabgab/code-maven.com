@@ -1,0 +1,19 @@
+<!doctype html>
+<html>
+<head>
+<title>{{ data.question }}</title>
+</head>
+<body>
+<h1>Results for</h1>
+{{ data.question }}
+
+<ul>
+{% for e in votes %}
+  <li>{{ e }} {{ votes[e] }}</li>
+{% endfor %}
+</ul>
+
+</body>
+</html>
+
+

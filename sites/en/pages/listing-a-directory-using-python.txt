@@ -19,7 +19,7 @@ at Python.
 Given a path to a directory the call to <a href="https://docs.python.org/2/library/os.html#os.listdir">os.listdir(path)</a> will return the names of the files, directories, symbolic links, etc.
 in that directory. In the simple case we can go over the elements using a <hl>for in</hl> loop and print out each one of them:
 
-<include file="examples/ls_simple.py">
+<include file="examples/python/ls_simple.py">
 
 In order to make the code Python 3 compatible I added <hl>from __future__ import print_function</hl>.
 The <hl>path</hl> is hard-code <hl>.</hl> indicating the current directory.
@@ -30,7 +30,7 @@ Otherwise the code seems to be straight forward.
 
 In order to make the script more flexible, let's accept an optional(!) directory name on the command line. 
 
-<include file="examples/ls_argv.py">
+<include file="examples/python/ls_argv.py">
 
 For this we also loaded the <hl>sys</hl> module and looked at the <a href="https://docs.python.org/2/library/sys.html#sys.argv">sys.argv</a>.
 This array contains the list of things on the command-line excluding the <hl>python</hl> executable. So the first element (index 0)
@@ -87,4 +87,4 @@ to fetch the size of the file.
 
 The full script can be seen here:
 
-<include file="examples/ls.py">
+<include file="examples/python/ls.py">

@@ -26,7 +26,7 @@ That would allow us to hand several requests in parallel.
 For this we can use the <a href="http://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback">readFile</a>
 method of the <hl>fs</hl> class.
 
-<include file="examples/non-blocking-read-file.js">
+<include file="examples/node/non-blocking-read-file.js">
 
 First we load the <hl>fs</hl> class using the <hl>require</hl> command. Then we call the <hl>readFile</hl> method
 that gets 3 parameters: The name of the file ('DATA' in this case), the encoding of the file ('utf8' in the examples),
@@ -49,6 +49,6 @@ that many of the asynchronous functions have a synchronous counterpart, so there
 For reading a file you can use the <a href="http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options">readFileSync</a>
 method of the <hl>fs</hl> class:
 
-<include file="examples/blocking-read-file.js">
+<include file="examples/node/blocking-read-file.js">
 
 

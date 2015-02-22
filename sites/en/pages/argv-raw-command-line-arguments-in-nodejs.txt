@@ -1,6 +1,6 @@
 =title argv - raw command line arguments in Node.js
 =timestamp 2015-01-29T16:00:01
-=indexes process, argv
+=indexes process, argv, __filename
 =status show
 =books nodejs
 =author szabgab
@@ -33,17 +33,17 @@ By default Node.js provide an object called <a href="http://nodejs.org/api/proce
 that has an element called <a href="http://nodejs.org/api/process.html#process_process_argv">argv</a> which is an
 array holding the list of everything provided on the command line:
 
-<include file="examples/raw_command_line_arguments.js">
+<include file="examples/node/raw_command_line_arguments.js">
 
 Note: you don't even have to load <hl>process</hl> at it is in your process by default.
 
-Running this command: <hl>node examples/raw_command_line_arguments.js -dv --port NUMBER --dir PATH  file1 file2<hl>
+Running this command: <hl>node examples/node/raw_command_line_arguments.js -dv --port NUMBER --dir PATH  file1 file2<hl>
 
 will print out this:
 
 <code>
 [ 'node',
-  '/Users/gabor/work/code-maven.com/examples/raw_command_line_arguments.js',
+  '/Users/gabor/work/code-maven.com/examples/node/raw_command_line_arguments.js',
   '-dv',
   '--port',
   'NUMBER',
@@ -75,4 +75,37 @@ just to name a few.
 
 I don't have an opinion them yet, but I guess one I'll need something complex, I'll have to
 check them out.
+
+<h2>A useful snippet for command line scripts</h2>
+
+When you don't need to process lots of command line options, but you still would like to make sure
+the user provides a value on the command line you can use the following snippet:
+
+<include file="examples/node/argv.js">
+
+In this example we check if the number of elements in the <hl>process.argv</hl> array is less then or
+equal to 2. I don't know if it can be ever less than 2, but if it is only 2, then we know the user
+has not supplied any parameter on the command line. Then we print out the string "Usage: ",
+followed by the name of our file (<hl>__filename</hl> contains the name of the current file) followed by
+some indication of what we expect. Instead of " SOME_PARAM" you might want to add some more descriptive
+string there. For example "MACHINE_NAME" if you are expecting the name of a machine, or "URL" if you
+are expecting a URL.
+
+Then we <a href="/how-to-exit-a-nodejs-script">exit</a> the code, as without that parameter there is no point in executing the rest of the code.
+
+The rest of the code, can be of course anything you want. In our case we only have 
+<hl>console.log('Param: ' + param);</hl> to indicate we reached that point.
+
+This is how the execution works:
+
+<code>
+$ node argv.js 
+Usage: /home/gabor/code-maven/examples/node/argv.js SOME_PARAM
+</code>
+
+<code>
+$ node argv.js hello
+Param: hello
+</code>
+
 

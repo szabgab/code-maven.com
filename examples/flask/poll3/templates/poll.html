@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ data.question }}</title>
+</head>
+<body>
+<h1>{{ data.question }}</h1>
+<form action="/poll">
+  {% for e in data.fields %}
+     <input type="radio" name="field" value="{{ e }}"> {{ e }}<br>
+  {% endfor %}
+  <input type="submit" value="Vote" />
+</form>
+</body>
+</html>

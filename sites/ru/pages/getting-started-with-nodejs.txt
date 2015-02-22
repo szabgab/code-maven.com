@@ -20,7 +20,7 @@
 
 <h2>Hello World</h2>
 
-<include file="examples/node_hello_world.js">
+<include file="examples/node/hello_world.js">
 
 В первой строке этого примера мы загрузили библиотеку <a href="http://nodejs.org/api/http.html">>http</a>, которая предоставляет все необходимые инструменты для запуска простого неблокирующего веб-сервера. 
 
@@ -40,7 +40,7 @@ Node.JS это событийно-ориентированная техноло�
 
 Как только я это написал, то сразу же и запустил:
 
-<hl>node examples/node_hello_world.js</hl>
+<hl>node examples/node/hello_world.js</hl>
 
 Что получилось?
 
@@ -55,7 +55,7 @@ Error: listen EADDRINUSE
     at Server._listen2 (net.js:1043:14)
     at listen (net.js:1065:10)
     at Server.listen (net.js:1139:5)
-    at Object.<anonymous> (/Users/gabor/work/articles/code-maven/examples/node_hello_world.js:9:3)
+    at Object.<anonymous> (/Users/gabor/work/articles/code-maven/examples/node/hello_world.js:9:3)
     at Module._compile (module.js:456:26)
     at Object.Module._extensions..js (module.js:474:10)
     at Module.load (module.js:356:32)
@@ -71,7 +71,7 @@ Error: listen EADDRINUSE
 
 В общем, я изменил порт <hl>s.listen(8081);</hl> и снова запустил код:
 
-<hl>node examples/node_hello_world.js</hl>
+<hl>node examples/node/hello_world.js</hl>
 
 Он вывел вот это в консоль и стал ждать.
 
@@ -89,10 +89,10 @@ Listening on http://127.0.0.1:8080/
 
 Новый вариант кода почти такой же:
 
-<include file="examples/node_hello_world_port.js">
+<include file="examples/node/hello_world_port.js">
 
 Запускаем вот так:
 
-<hl>node examples/node_hello_world_port.js</hl>
+<hl>node examples/node/hello_world_port.js</hl>
 
 Теперь, если я открою браузер и наберу там http://127.0.0.1:8081/, то увижу "Hello World".

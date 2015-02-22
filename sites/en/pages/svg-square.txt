@@ -1,0 +1,26 @@
+=title SVG Square
+=timestamp 2015-02-14T18:32:01
+=indexes svg
+=status show
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing square in SVG.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+Actually a square is just a <a href="/svg-rectangular">rectangular</a> where all the 4 sides are the same length,
+but the color is much nicer here.
+
+<div id="square_1"></div>
+
+<script src="/try/examples/js/svg_square.js"></script>
+
+<include file="examples/js/svg_square.js">
+

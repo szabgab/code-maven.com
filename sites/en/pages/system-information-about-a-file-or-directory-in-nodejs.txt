@@ -34,11 +34,11 @@ data was read from the file-system.
 
 In this script we can see how to use the asynchronous version of this method:
 
-<include file="examples/stats.js">
+<include file="examples/node/stats.js">
 
-The expected use of the script is <hl>node examples/stats.js path/to/file</hl>.
+The expected use of the script is <hl>node examples/node/stats.js path/to/file</hl>.
 
-For example I ran <hl>node examples/stats.js examples</hl> providing the 'examples'
+For example I ran <hl>node examples/node/stats.js examples</hl> providing the 'examples'
 directory as the parameter and got the following output:
 
 <code>
@@ -96,11 +96,11 @@ var path = process.argv[2];
 
 After loading the <hl>fs</hl> module, we check the number of <a href="/argv-raw-command-line-arguments-in-nodejs">arguments passed on the command line</a>.
 If it is 2 or fewer (and I am not even sure fewer would be possible), that means the user has not give any command line parameters.
-(If the user wrote <hl>node examples/stats.js</hl> then this number will be 2.) In that case we print out a usage-message that looks like this:
+(If the user wrote <hl>node examples/node/stats.js</hl> then this number will be 2.) In that case we print out a usage-message that looks like this:
 
 <code>
-$ node examples/stats.js
-Usage: /home/gabor/code-maven/examples/stats.js path/to
+$ node examples/node/stats.js
+Usage: /home/gabor/code-maven/examples/node/stats.js path/to
 </code>
 
 The global variable <hl>__filename</hl> (starting with two underscores) contains the full path to the current JavaScript file.

@@ -22,7 +22,7 @@ for each entry.
 This script will accept (and even require) a path to a directory on the command line,
 and then it will list the content of the directory. (Without recursion.)
 
-<include file="examples/read_dir.js">
+<include file="examples/node/read_dir.js">
 
 If you have read the article about the <a href="/system-information-about-a-file-or-directory-in-nodejs">fetching system information for a single file</a>
 then you already know the first part of the script. The interesting new part is this one:
@@ -51,7 +51,7 @@ The listing will contain everything, except of <hl>.</hl> which point to the cur
 This is how it looked:
 
 <code>
-$ node examples/read_dir.js ~/work/code-maven.com/examples/
+$ node examples/node/read_dir.js ~/work/code-maven.com/examples/
 
 [ 'blocking-read-file.js',
   'node_hello_world.js',
@@ -78,7 +78,7 @@ Now that we know how to get the list of entries in a directory, and that we alre
 <a href="/system-information-about-a-file-or-directory-in-nodejs">fetch the details about a file</a>
 we can combine the two.
 
-<include file="examples/list_dir_direct.js">
+<include file="examples/node/list_dir_direct.js">
 
 This code is quite straight forward. And it is also wrong as we'll see soon.
 
@@ -94,7 +94,7 @@ but the size will be enough for now.
 The output:
 
 <code>
-$ node examples/list_dir_direct.js ~/work/code-maven.com/examples/
+$ node examples/node/list_dir_direct.js ~/work/code-maven.com/examples/
 
 Start: /home/gabor/work/code-maven.com/examples//blocking-read-file.js
 Start: /home/gabor/work/code-maven.com/examples//node_hello_world.js
@@ -169,12 +169,12 @@ The <hl>generate_callback</hl> will create a new function and will return that f
 newly generated function will become the callback of the <hl>fs.stat()</hl> method.
 
 
-<include file="examples/list_dir_generate.js">
+<include file="examples/node/list_dir_generate.js">
 
 The result:
 
 <code>
-$ node examples/list_dir_generate.js ~/work/code-maven.com/examples/
+$ node examples/node/list_dir_generate.js ~/work/code-maven.com/examples/
 Start: /Users/gabor/work/code-maven.com/examples//blocking-read-file.js
 Start: /Users/gabor/work/code-maven.com/examples//node_hello_world.js
 Start: /Users/gabor/work/code-maven.com/examples//node_hello_world_port.js
@@ -218,6 +218,6 @@ the expression in <hl>fs.stat()</hl>. I am not sure if I like this
 or if I prefer the lengthier, but probably more readable version
 with the <hl>generate_callback</hl> function.
 
-<include file="examples/list_dir_noname.js">
+<include file="examples/node/list_dir_noname.js">
 
 

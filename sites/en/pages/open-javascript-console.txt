@@ -1,0 +1,48 @@
+=title Open JavaScript Console
+=timestamp 2015-02-12T13:20:01
+=indexes console
+=status draft
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In this page I am collecting the ways you can open the JavaScript Console on various operating systems in various browsers.
+
+=abstract end
+
+If you'd like to try it, just use this example:
+
+<try file="examples/js/console.html">
+
+<h2>Open JavaScript Console of Chrome on OSX</h2>
+
+Command-Option-J
+
+<h2>Open JavaScript Console of Firefox on OSX</h2>
+
+Command-Option-K
+
+<h2>Open JavaScript Console of Opera on OSX</h2>
+
+Command-Option-I   and the click on "Console"
+
+
+Safari on OSX: 
+
+first enabled the developer tools 
+Safari Preference (or press Command ,)
+Click on "Advanced" setting
+Check the box of "Show Develop menu in menu bar"
+as explained <a href="https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html">here</a>
+Then Command-Option-C will open the console.
+
+
+<h2>MS Windows</h2>
+
+
+<h2>Linux</h2>
+
+
