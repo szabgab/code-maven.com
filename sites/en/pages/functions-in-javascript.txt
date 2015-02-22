@@ -33,7 +33,7 @@ its name <hl>show();</hl>
 
 <h2>Calling a function more than once</h2>
 
-This was not yet very intersting, but in the next example you'll see we can call the same function multiple times.
+This was not yet very interesting, but in the next example you'll see we can call the same function multiple times.
 
 <try file="examples/js/function_calls.html">
 
