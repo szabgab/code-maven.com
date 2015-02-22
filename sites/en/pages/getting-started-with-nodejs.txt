@@ -64,7 +64,7 @@ Error: listen EADDRINUSE
     at Function.Module.runMain (module.js:497:10)
 </code>
 
-It is lovely that it printed the "Listing ...." line on the console, but why did it crash?
+It is lovely that it printed the "Listening ...." line on the console, but why did it crash?
 
 It took me a while to figure out that I had another web server running and listening on port 8080 already.
 
