@@ -47,6 +47,16 @@ Draw a square of 100px each side. I am not sure. Whatever this color is:
 
 My <a href="/svg-square">SVG Square</a>.
 
+<h3>Ellipse</h3>
+
+Draw an ellipse.
+
+<div id="ellipse_1"></div>
+<script src="/try/examples/js/svg_ellipse.js"></script>
+
+The <a href="/svg-ellipse">SVG Ellipse</a> I managed to create.
+
+
 <h3>Circle</h3>
 
 Draw a nice green circle with 100 px diameter.
