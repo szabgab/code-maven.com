@@ -76,6 +76,13 @@ Draw a simple red line.
 The <a href="/svg-line">SVG Line</a> I managed to create.
 
 
+<h3>Polyline</h3>
+
+<div id="polyline_1"></div>
+<script src="/try/examples/js/svg_polyline.js"></script>
+
+The <a href="/svg-polyline">SVG Polyline</a> I managed to create.
+
 
 <h2>Slightly more advanced tasks</h2>
 
