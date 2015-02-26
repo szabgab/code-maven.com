@@ -1,0 +1,26 @@
+=title SVG Polygon
+=timestamp 2015-02-26T22:43:01
+=indexes svg
+=status show
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing a Polygon in SVG.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+<div id="polygon_1"></div>
+<script src="/try/examples/js/svg_polygon_1.js"></script>
+<include file="examples/js/svg_polygon_1.js">
+
+A polygon is very similar to a <a href="/svg-polyline">Polyline</a>, but it is a closed
+shape. The last point in the list of points is connected back to the first point.
+
+In this example we provided 4 points and got some strange shape.
+
