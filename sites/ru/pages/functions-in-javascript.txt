@@ -20,7 +20,7 @@
 
 <try file="examples/js/function.html">
 
-Если вы попробуете (Try!) этот пример и <a href="/open-javascript-console">откроете консоль JavaScript</a>, 
+Если вы попробуете (Try!) этот пример и <a href="http://code-maven.com/open-javascript-console">откроете консоль JavaScript</a>, 
 чтобы посмотреть вывод, то увидите следующий порядок сообщений:
 
 <code>
