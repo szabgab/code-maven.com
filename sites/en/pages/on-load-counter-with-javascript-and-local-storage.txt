@@ -1,0 +1,22 @@
+=title On-load counter with JavaScript and local storage
+=timestamp 2015-02-01T07:30:01
+=indexes localStorage, getElementById
+=status draft
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 
+
+=abstract start
+
+As part of the big <b>Counter Example</b> project, in this article we'll see how to create a simple load-counter
+with plain JavaScript utilizing the Local Storage introduced in HTML5.
+
+=abstract end
+
+<code lang="javascript">
+</code>
+
+<try file="examples/js/counter_on_load.html">
+
+
