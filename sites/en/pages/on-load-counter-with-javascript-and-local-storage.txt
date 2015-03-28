@@ -9,7 +9,8 @@
 
 =abstract start
 
-As part of the big <b>Counter Example</b> project, in this article we'll see how to create a simple load-counter
+As part of the big <a href="http://perlmaven.com/counter">Counter Example</a> project,
+in this article we'll see how to create a simple load-counter
 with plain JavaScript utilizing the Local Storage introduced in HTML5.
 
 =abstract end
