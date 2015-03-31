@@ -1,0 +1,107 @@
+=title Introduction to Handlebars, the JavaScript templating system
+=timestamp 2015-03-31T12:50:01
+=indexes Handlebars, compile, template
+=status show
+=books javascript, handlebars
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In the article about <a href="/input-output-in-plain-javascript">input and output with JavaScript</a>
+you could see the the problem of creating HTML snippet on-the-fly to be included in the rest of the page.
+
+<a href="http://handlebarsjs.com/">Handlebars</a> is a templating system for JavaScript that provides
+help to reduce anxiety over the creation of such pages.
+
+Let's convert the plain JavaScript example to use Handlebar.
+
+=abstract end
+
+<h2>Pure JavaScript version</h2>
+
+This is the example from the <a href="/input-output-in-plain-javascript">input and output with JavaScript</a> article:
+
+<try file="examples/js/pure_js_greating.html">
+
+
+<h2>Switching to Handlebars</h2>
+
+This is the solution using Handlebars:
+
+<try file="examples/js/handlebars_greating.html">
+
+In order to use Handlebars, first we need to load the Handlebars library. We can use it directly from
+<a href="https://cdnjs.com/">CDN JS</a>:
+
+<code>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+</code>
+
+or we could download the same file to our server and load it from there.
+
+We create an HTML snippet and put place holders in double curly braces in it:
+
+<code>
+Hello <b>{{first_name}}</b> {{last_name}}
+</code>
+
+We can deliver the template to the HTML in several ways, but one of the recommended ways is to embed
+it in the <hl>head</hl> of the HTML file withing <hl>script</hl> tags with a unique <hl>id</hl>.
+This way we can easily include several templates and it is much clearer how we would like the final HTML
+to look like.
+
+<code>
+<script id="text-template" type="text/x-handlebars-template">
+   Hello <b>{{first_name}}</b> {{last_name}}
+</script>
+</code>
+
+Then we arrive to JavaScript part. In the JavaScript code we replaced the single line
+combining the content of <hl>fname</hl>, <hl>lname</hl> with some HTML that looked like this:
+
+<code>
+var html = 'Hello <b>' + fname + '</b> ' + lname;
+</code>
+
+with new code:
+
+<code>
+var source   = document.getElementById('text-template').innerHTML;
+var template = Handlebars.compile(source);
+var context = {first_name: fname, last_name: lname};
+var html    = template(context);
+</code>
+
+I know, it looks more complex than we had earlier, and indeed in such a simple case
+when we only need to embed the content of two varaibles in a simple HTML snippet,
+this might be overengineering, but as your application grows you'll see that
+the complexity of the pure JavaScript version would increase while for Handlebar,
+basically that's the whole complexity.
+
+Let's go over those 4 lines.
+
+In the first line we access the <hl>script</hl> element with the id <hl>text-template</hl> where we put the template and using <hl>innerHTML</hl>
+we copy its content to the variable called <hl>source</hl>.
+
+In the second line we compile this template and create a Handlebars object using the <hl>Handlebars.compile()</hl> method. Actually
+what the <hl>compile</hl> method returns is a function that we'll call later.
+
+In the third line we create a mapping from keys that will match the place holders to the values that will replace the place holders.
+These are the values we got from the <hl>input</hl> elements. This is just a plain JavaScript object. Nothing special.
+(You'd call it a hash, associated array or dictionary depending on which other language you are familiar with.)
+
+Finally we ask the template to replace the place holders by the respective values and assign the generated string to the variable <hl>html</hl>
+
+
+Afte that we can go back to what we also had in the plain JavaScript code and embed the new HTML in the existing DOM using
+
+<code>
+document.getElementById('result').innerHTML = html;
+</code>
+
+That's it about the basics of Handlebars. If you'd like to learn more, you can check out the
+documentation on the web site of <a href="http://handlebarsjs.com/">Handlebars</a>
+
+

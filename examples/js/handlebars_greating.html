@@ -1,6 +1,13 @@
 <html>
 <head>
   <title>Hello World</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+
+  <script id="text-template" type="text/x-handlebars-template">
+    Hello <b>{{first_name}}</b> {{last_name}}
+  </script>
+
 </head>
 <body>
 
@@ -16,7 +23,10 @@ function say_hi() {
     var fname = document.getElementById('first_name').value;
     var lname = document.getElementById('last_name').value;
 
-    var html = 'Hello <b>' + fname + '</b> ' + lname;
+    var source   = document.getElementById('text-template').innerHTML;
+    var template = Handlebars.compile(source);
+    var context = {first_name: fname, last_name: lname};
+    var html    = template(context);
 
     document.getElementById('result').innerHTML = html;
 }
@@ -24,6 +34,6 @@ function say_hi() {
 document.getElementById('say').addEventListener('click', say_hi);
 </script>
 
+
 </body>
 </html>
-

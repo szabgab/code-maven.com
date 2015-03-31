@@ -51,5 +51,6 @@ the creation of various templating engines. Basically a template would be an HTM
 and then a function call that gets the HTML snippet (the template) as a parameter, and gets several key-value pairs.
 The function then returns a new HTML snippet in which the place holders were replaced by the value of the appropriate key.
 
-In a similar way, there are many templating system for JavaScript as well. We are going to look at <a href="http://handlebarsjs.com/">HandlebarsJS</a>.
+In a similar way, there are many templating system for JavaScript as well. We are going to look at
+<a href="/introduction-to-handlebars-javascript-templating-system">HandlebarsJS, the JavaScript templating engine</a>.
 
