@@ -1,0 +1,55 @@
+=title Input Output in plain JavaScript
+=timestamp 2015-03-31T09:30:01
+=indexes getElementById, value, addEventListener
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In the first article we saw <a href="/javascript-hello-world-change-the-dom">how to change the DOM to display something</a>,
+and then we saw how to <a href="/handling-events-in-javascript">handle user events</a>. This time we are going to see how to
+get input from the user and combine that with the other two, to create a simple page that can great you.
+
+=abstract end
+
+<try file="examples/js/pure_js_greating.html">
+
+In this example we have a bit more HTML than earlier. In addition to having a <hl>button</h>, and a <hl>div</hl> element
+where we'll show our results, we also have two <hl>input</hl> elements. Each one with its own ID.
+
+If you click on the Try link, you'll see two input boxes and a button:
+
+<img src="/img/input_form.png" alt="Input form" />
+
+
+In the JavaScript code we have a function called <hl>say_hi</hl>. It used the <hl>getElementById</hl> we have already
+seen to locate the DOM element representing the input element with the id <hl>first_name</hl>. The object returned
+has a method <hl>value</hl> that will return the text the user has typed in that field.
+
+We use this technique to retrieve the content of both <hl>input</hl> fields and assign their content to two variables:
+<hl>fname</hl> and <hl>lname</hl>.
+
+Then, using these variable we create an HTML snippet and assign it to a new variable called <hl>html</hl>.
+
+Then we set the <hl>innerHTML</hl> attribute as <a href="/javascript-hello-world-change-the-dom">earlier</a> to show the
+HTML we generated. The result might look like this:
+
+<img src="/img/input_form_and_output.png" alt="Input form and output" />
+
+
+<h2>Creating HTML is cumbersome</h2>
+
+Even in such a simple HTML we wanted to create we had to use <hl>+</hl> several time and the code is quite unreadable.
+Imagine what would happen if we wanted to build a more complex application where we might want to build a list of items,
+or even a table. Building the HTML on the fly and the inserting in the DOM would be quite nasty.
+
+In the back-end systems written in Perl, Python or Ruby, people have encountered the same problem and the solution was
+the creation of various templating engines. Basically a template would be an HTML snippet with some place holders
+and then a function call that gets the HTML snippet (the template) as a parameter, and gets several key-value pairs.
+The function then returns a new HTML snippet in which the place holders were replaced by the value of the appropriate key.
+
+In a similar way, there are many templating system for JavaScript as well. We are going to look at <a href="http://handlebarsjs.com/">HandlebarsJS</a>.
+

@@ -23,7 +23,7 @@ to which event should the specific listener react to.
 
 For this we can use the <hl>addEventListener</hl> method of a DOM element, that will get two parameters. The first one
 is the name of the event, such as <hl>click</hl> or <hl>keyup</hl>, or <hl>change</hl>. The second one is a function.
-(I might need to explain how can you pass a function as a paramater to another function.)
+(I might need to explain how can you pass a function as a parameter to another function.)
 
 Here is the full expression:
 
