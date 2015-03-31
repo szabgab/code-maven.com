@@ -1,0 +1,77 @@
+=title Ajax request for JSON data
+=timestamp 2015-03-31T16:00:01
+=indexes XMLHttpRequest, JSON.parse
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+One of the cornerstones of modern web application is the behind-the-scenes, asynchronous data communication between
+the server and the JavaScript code running in the browsers. While in Ajax, the X stands for XML, in reality many applications
+send data formatted as JSON. In most cases it is more convenient than sending XML.
+
+=abstract end
+
+In order to make this example simple, I've created a JSON file on the server and we will ask the server for that file.
+In more real world situation, the server would generate this JSON file on-demand based on information in its database,
+but currently we are only interested in the part that is in the browser.
+
+<include file="examples/js/data.json">
+
+We have an HTML page, with an <hl>h1</hl> element we are going to fill with the value of the "title" key, and we also
+have a <hl>div</hl> element for which we'll construct a whole HTML snippet.
+
+<try file="examples/js/ajax.html">
+
+The JavaScript code looks like this:
+
+<include file="examples/js/ajax.js">
+
+All the code that is relevant to sending the asynchronous request was placed in a function called <hl>ajax_get</hl>.
+This function expects two parameters. The first one is the URL we request. It can be a URL like <hl>http://somesite.com/some/page</hl>,
+or it can be without the hostname just <hl>/some/page</hl> if we want to send the request to the same server where our JavaScript
+code came from. In either case we can also send parameters by attaching them after the requested URL. Something like this:
+<hl>http://somesite.com/some/page?fname=Foo&lname=Bar</hl>
+
+The second parameter is expected to be a function which will be called when the response arrives from the server.
+
+In our example we expect the response to be a valid JSON string.
+
+Just to quickly go over the function: First we create an <hl>XMLHttpRequest()</hl> object. Then we attach a function
+call to <hl>onreadystatechange</hl> attribute of the object. This function will be executed when the successful response arrives.
+Then we call <hl>open</hl>, this is where we use the <hl>url</hl> and finally we <hl>send</hl> the request. This will finish our function
+call and our application can go on doing its business until...
+
+Until the server responds, at which point the function that was attached to <hl>onreadystatechange</hl> will be called.
+Inside the function we check if this was really a successful request and then we look at the <hl>responseText</hl> attribute
+that will contain the response as plain text. In this example we paste it to the console, just to make it easier to see
+what do we get back. Then there is the <hl>try-catch</hl> block wrapping the call to <hl>JSON.parse</hl>.
+This can save you quite some time if and when the server returns a string that is not properly formatted JSON string.
+(For example an extra or a missing comma.) Then comes the interesting part <hl>callback(data)</hl> we call the function
+<hl>ajax_get</hl> got as the second parameter and we pass the data to it already as a JavaScript object.
+
+That's about the implementation of the <hl>ajax_get<hl> function, but how should we use it?
+
+<code lang="javascript">
+ajax_get('/try/examples/js/data.json', function(data) {
+    document.getElementById("title").innerHTML = data["title"];
+});
+</code>
+
+We call the <hl>ajax_get</hl>, pass to it a url (in this example relative to the current server), and we also pass
+a function that accepts a single variable. This is the callback function and the parameter will have the
+data we received from the server. Then we can access attributes of this JavaScript object as we access any other JavaScript object
+and we set the <hl>innerHTML</hl> of the HTML element with the id "title".
+
+That's how we can use the ajax request.
+
+<h2>Building up the HTML</h2>
+
+In our example code we have a longer function though. After setting the title element, there is a demonstration on how
+to create and html string from various parts of this data object. This is not really necessary for this example, but
+I am going to use this opportunity to show a more convincing reason to use Handlebars that I had in the
+<a href="/introduction-to-handlebars-javascript-templating-system">introduction to Handlebars</a>
+
