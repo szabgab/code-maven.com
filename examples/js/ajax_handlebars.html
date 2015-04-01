@@ -1,0 +1,18 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+ 
+  <script id="text-template" type="text/x-handlebars-template">
+    <h2>{{title}}</h2>
+    <h3>{{description}}</h3>
+    <ul>
+    {{#each articles}}
+        <li><a href="{{url}}">{{title}}</a></li>
+    {{/each}}
+    </ul>
+  </script>
+
+<h1 id="title"></h1>
+<hr>
+<div id="text"></div>
+
+<script src="ajax_handlebars.js"></script>
+
