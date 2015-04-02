@@ -1,0 +1,39 @@
+=title PyPi
+=timestamp 2015-02-01T07:30:01
+=indexes 
+=status draft
+=books javascript, python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+  <script src="/try/examples/js/pypi.js"></script>
+
+  <title>PyPi</title>
+
+  <script id="text-template" type="text/x-handlebars-template">
+    <h2>{{info.name}}</h2>
+    {{info.summary}}<br>
+    {{info.version}} {{info.release_url}}<br>
+    {{info.package_url}}<br>
+    Author: {{info.author}}<br>
+    <pre id="description">{{info.description}}</pre>
+    <ul>
+    {{#each releases}}
+        <li>{{@key}}</li>
+    {{/each}}
+    </ul>
+  </script>
+
+Package name: <input id="name"><button id="show">Show</button>
+(e.g. <a href="#" data-project="silverbarg">silverberg</a> bagofwords)
+<hr>
+<div id="text"></div>
+
+</body>
+</html>
