@@ -1,0 +1,24 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+<script id="text-template" type="text/x-handlebars-template">
+    <h3>{{greeting}}</h3>
+</script>
+
+<button id="show">Show</button>
+<div id="content"></div>
+
+<script>
+Handlebars.registerHelper('greeting', function() {
+    return new Handlebars.SafeString( '<i>Hello World</i>' );
+});
+
+document.getElementById('show').addEventListener('click', function () {
+    var source = document.getElementById('text-template').innerHTML;
+	var template = Handlebars.compile(source);
+	var html = template();
+
+    document.getElementById('content').innerHTML = html;
+});
+
+</script>
+
+

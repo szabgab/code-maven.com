@@ -1,0 +1,39 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+<script id="text-template" type="text/x-handlebars-template">
+    {{link home}}<br>
+    {{link perlmaven}}<br>
+</script>
+
+<button id="show">Show</button>
+<div id="content"></div>
+
+<script>
+Handlebars.registerHelper('link', function(obj) {
+    var url  = obj.url;
+    var text = obj.text;
+    if (text == undefined) {
+        text = url;
+    }
+    return new Handlebars.SafeString( '<a href="' + url + '">' + text + '</a>' );
+});
+
+document.getElementById('show').addEventListener('click', function () {
+    var source = document.getElementById('text-template').innerHTML;
+    var template = Handlebars.compile(source);
+    var html = template({
+        'home' : {
+           'url'  : '/',
+           'text' : 'Code Maven'
+        },
+        'perlmaven' : {
+            'url' : 'http://perlmaven.com/'
+        }
+    });
+
+    document.getElementById('content').innerHTML = html;
+});
+
+</script>
+
+
+
