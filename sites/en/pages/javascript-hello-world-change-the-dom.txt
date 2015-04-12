@@ -45,7 +45,7 @@ One of the attributes of this object is called <hl>innerHTML</hl>.
 If we assign a value to it, that will change the content of the appropriate HTML element.
 
 In this example you can see a simple <hl>div</hl> element (we could have used any element, but divs are sort of neutral
-and that's why they are used usually) with and id <b>display</b>.
+and that's why they are used usually) with an id <b>display</b>.
 
 <try file="examples/js/set_innerhtml.html">
 
