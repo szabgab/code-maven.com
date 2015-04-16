@@ -14,9 +14,8 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
   <script src="/try/examples/js/pypi.js"></script>
 
-  <title>PyPi</title>
-
   <script id="text-template" type="text/x-handlebars-template">
+    {{#abc}}{{/abc}}
     <h2>{{info.name}}</h2>
     {{info.summary}}<br>
     {{info.version}} {{info.release_url}}<br>
@@ -25,15 +24,13 @@
     <pre id="description">{{info.description}}</pre>
     <ul>
     {{#each releases}}
-        <li>{{@key}}</li>
+        <li><a href="#" data-package="{{info.name}}" data-version="{{@key}}">{{@key}}</a></li>
     {{/each}}
     </ul>
   </script>
 
 Package name: <input id="name"><button id="show">Show</button>
-(e.g. <a href="#" data-project="silverbarg">silverberg</a> bagofwords)
+(e.g. <a href="#" class="pypi-link" data-package="silverberg">silverberg</a> <a href="#" class="pypi-link" data-package="bagofwords">bagofwords</a>)
 <hr>
 <div id="text"></div>
 
-</body>
-</html>
