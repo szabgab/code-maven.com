@@ -1,0 +1,58 @@
+=title AngularJS
+=timestamp 2015-02-01T07:30:01
+=indexes 
+=status draft
+=books javascript, angularjs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://angularjs.org/">AngularJS</a> is a JavaScript framework that enhances HTML.
+
+Here you'll find a few simple examples using AngularJS.
+
+For a better introduction I'd recomment the <a href="http://www.angularjsbook.com/">AngularJS Book</a> by Chris Smith.
+
+=abstract end
+
+In order to get started with AngularJS we need to have an HTML page with 3 things:
+
+1) It needs to load the angular.js file from either the Google CDN or from some other source.
+If you'd like to load it from Google CDN then put this in your HTML:
+
+<code>
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.js"></script>
+</code>
+
+You can also download the angular.js file, put it on your server and serve it from there:
+
+<code>
+<script src="angular.js"></script>
+</code>
+
+
+2) Add <hl>ng-app</hl> to one of the HTML elements in our page. Anything within this element will be seen
+as part of our AngularJS code. We can add this to the <hl>body</hl> element as it has been done in our first example,
+and the whole page will be considered as AngularJS.
+
+3) Add an AnglarJS expression.
+
+<try file="examples/js/angular_01.html">
+
+
+<try file="examples/js/angular_02.html">
+
+<try file="examples/js/angular_03.html">
+
+<try file="examples/js/angular_04.html">
+
+<try file="examples/js/angular_10.html">
+
+
+Hello World with Controller:
+
+<include file="examples/js/angular_hello_world.js">
+<try file="examples/js/angular_11.html">
+
