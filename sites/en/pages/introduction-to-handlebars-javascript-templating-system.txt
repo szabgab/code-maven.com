@@ -15,7 +15,7 @@ you could see the the problem of creating HTML snippet on-the-fly to be included
 <a href="http://handlebarsjs.com/">Handlebars</a> is a templating system for JavaScript that provides
 help to reduce anxiety over the creation of such pages.
 
-Let's convert the plain JavaScript example to use Handlebar.
+Let's convert the plain JavaScript example to use Handlebars.
 
 =abstract end
 
@@ -95,7 +95,7 @@ These are the values we got from the <hl>input</hl> elements. This is just a pla
 Finally we ask the template to replace the place holders by the respective values and assign the generated string to the variable <hl>html</hl>
 
 
-Afte that we can go back to what we also had in the plain JavaScript code and embed the new HTML in the existing DOM using
+After that we can go back to what we also had in the plain JavaScript code and embed the new HTML in the existing DOM using
 
 <code>
 document.getElementById('result').innerHTML = html;
