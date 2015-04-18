@@ -53,6 +53,11 @@ and the whole page will be considered as AngularJS.
 
 Hello World with Controller:
 
-<include file="examples/js/angular_hello_world.js">
-<try file="examples/js/angular_11.html">
+<try file="examples/js/controller01/angular_11.html">
+<include file="examples/js/controller01/angular_hello_world.js">
+
+
+
+<include file="examples/js/controller02/angular_hello_world.js">
+<try file="examples/js/controller02/angular_11.html">
 
