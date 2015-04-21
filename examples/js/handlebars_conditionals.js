@@ -1,5 +1,8 @@
 var data = {
-   'cond1' : true
+   'cond1'  : true,
+   'cond2'  : false,
+   'name'   : 'Foo',
+   'answer' : 42
 };
 
 document.getElementById('show').addEventListener('click', function () {
@@ -10,14 +13,29 @@ document.getElementById('show').addEventListener('click', function () {
     document.getElementById('content').innerHTML = html;
 });
 
+Handlebars.registerHelper('if_eq', function(a, b, opts) {
+    if (a == b) {
+        return opts.fn(this);
+    } else {
+        return opts.inverse(this);
+    }
+});
 
-//Handlebars.registerHelper('link', function(obj) {
-//    var url  = obj.url;
-//    var text = obj.text;
-//    if (text == undefined) {
-//        text = url;
-//    }
-//    return new Handlebars.SafeString( '<a href="' + url + '">' + text + '</a>' );
-//});
+
+Handlebars.registerHelper('iff', function(a, operator, b, opts) {
+    var bool = false;
+    if (operator  == '==') {
+        bool = a == b;
+    } else if (operator  == '>') {
+        bool = a > b;
+    } else {
+    }
+
+    if (bool) {
+        return opts.fn(this);
+    } else {
+        return opts.inverse(this);
+    }
+});
 
 

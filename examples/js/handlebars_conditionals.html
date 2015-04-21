@@ -3,11 +3,57 @@
   <title>Handlebars conditionals</title>
 
   <script id="text-template" type="text/x-handlebars-template">
+    <br>#if cond1
     {{#if cond1 }}
-      if cond1<br>
+       true
     {{else}}
-      else cond1<br>
+      false
     {{/if}}
+
+    <br>#if cond2
+    {{#if cond2 }}
+      true
+    {{else}}
+      false
+    {{/if}}
+
+    <br>#if_eq name Foo
+    {{#if_eq name 'Foo'}}
+      true
+    {{else}}
+      false
+    {{/if_eq}}
+    
+    <br>#if_eq name 'Bar'
+    {{#if_eq name 'Bar'}}
+       true
+    {{else}}
+       false
+    {{/if_eq}}
+
+
+
+    <br>#iff name '==' 'Foo'
+    {{#iff name '==' 'Foo'}}
+      true
+    {{else}}
+      false
+    {{/iff}}
+
+    <br>#iff 42 &gt; 40
+    {{#iff answer '>' 40}}
+      true
+    {{else}}
+      false
+    {{/iff}}
+
+    <br>#iff 42 &gt; 50
+    {{#iff answer '>' 50}}
+      true
+    {{else}}
+      false
+    {{/iff}}
+
   </script>
 
 </head>
