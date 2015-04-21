@@ -1,0 +1,18 @@
+=title Handlebars conditional
+=timestamp 2015-04-02T23:30:01
+=indexes Handlebars.registerHelper
+=status draft
+=books javascript, handlebars
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+=abstract end
+
+<try file="examples/js/handlebars_conditionals.html">
+
+<include file="examples/js/handlebars_conditionals.js">
+
+
