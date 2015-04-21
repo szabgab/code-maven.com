@@ -6,12 +6,20 @@ var data = {
 };
 
 document.getElementById('show').addEventListener('click', function () {
-    console.log('click');
     var source = document.getElementById('text-template').innerHTML;
     var template = Handlebars.compile(source);
     var html = template(data);
     document.getElementById('content').innerHTML = html;
 });
+
+document.getElementById('show2').addEventListener('click', function () {
+    document.getElementById('content').innerHTML = 'Look at the console!';
+    var source = document.getElementById('text2-template').innerHTML;
+    var template = Handlebars.compile(source);
+    var html = template(data);
+    document.getElementById('content').innerHTML = html;
+});
+
 
 Handlebars.registerHelper('if_eq', function(a, b, opts) {
     if (a == b) {
@@ -24,11 +32,15 @@ Handlebars.registerHelper('if_eq', function(a, b, opts) {
 
 Handlebars.registerHelper('iff', function(a, operator, b, opts) {
     var bool = false;
-    if (operator  == '==') {
-        bool = a == b;
-    } else if (operator  == '>') {
-        bool = a > b;
-    } else {
+    switch(operator) {
+       case '==':
+           bool = a == b;
+           break;
+       case '>':
+           bool = a > b;
+           break;
+       default:
+           throw "Unknown operator " + operator;
     }
 
     if (bool) {
