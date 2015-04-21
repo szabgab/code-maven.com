@@ -25,7 +25,7 @@ I've created a file with <hl>.rb</hl> extension. Not that it matters a lot,
 but I think editors and IDEs will recognize that this is a Ruby file by that extension
 and will be able to put nice colors on the various parts of the code.
 
-<include file="examples/ruby/hello_world.rb ">
+<include file="examples/ruby/hello_world.rb">
 
 I ran the code and got:
 

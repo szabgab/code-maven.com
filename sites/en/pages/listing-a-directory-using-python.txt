@@ -19,7 +19,7 @@ at Python.
 Given a path to a directory the call to <a href="https://docs.python.org/2/library/os.html#os.listdir">os.listdir(path)</a> will return the names of the files, directories, symbolic links, etc.
 in that directory. In the simple case we can go over the elements using a <hl>for in</hl> loop and print out each one of them:
 
-<include file="examples/python/ls_simple.py">
+<include file="examples/python/ls_plain.py">
 
 In order to make the code Python 3 compatible I added <hl>from __future__ import print_function</hl>.
 The <hl>path</hl> is hard-code <hl>.</hl> indicating the current directory.
