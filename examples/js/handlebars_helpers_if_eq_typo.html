@@ -1,0 +1,33 @@
+<html>
+<head>
+  <title>Handlebars conditionals</title>
+
+  <script id="text-template" type="text/x-handlebars-template">
+    <br>#if_eq name Foo (expected true)
+    {{#if_eq name 'Foo'}}
+      true
+    {{else}}
+      false
+    {{/if}}
+    
+    <br>#if_eq name 'Bar' (expected false)
+    {{#if_eq name 'Bar'}}
+       true
+    {{else}}
+       false
+    {{/if_eq}}
+  </script>
+
+</head>
+<body>
+<button id="show">Show</button>
+<hr>
+<div id="content"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.1/handlebars.min.js"></script>
+<script src="/try/examples/js/handlebars_helpers_if_eq.js"></script>
+
+</body>
+</html>
+

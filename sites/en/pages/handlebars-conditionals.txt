@@ -1,7 +1,7 @@
 =title Handlebars conditional
-=timestamp 2015-04-02T23:30:01
-=indexes Handlebars.registerHelper
-=status draft
+=timestamp 2015-04-22T10:00:01
+=indexes Handlebars.registerHelper, if_eq, comparison, iff
+=status show
 =books javascript, handlebars
 =author szabgab
 =archive 1
@@ -58,6 +58,7 @@ You can try it by clicking on the Try link. In the new page the "show" button wi
 
 In the next example we have implemented a <a href="/handlebars-helpers">Handlebars helper</a> called
 <hl>if_eq</hl>. It expects two parameters and will compare them using <hl>==</hl>.
+The helper itself looks like this:
 
 <code lang="javascript">
 Handlebars.registerHelper('if_eq', function(a, b, opts) {
@@ -69,7 +70,7 @@ Handlebars.registerHelper('if_eq', function(a, b, opts) {
 });
 </code>
 
-The template using this looks like this:
+The template using this looks like this: (<hl>name</hl> is an attribute passed to the <hl>template</hl> function.)
 
 <code>
 {{#if_eq name 'Foo'}}
@@ -90,13 +91,55 @@ The full HTML file including the template looks like this:
 
 You can try it after clicking on the "Try" link.
 
-<h2> </h2>
+<h2>Uncaught Error: if_eq doesn't match if - 3:7</h2>
 
+When I encountered this error it took me quite a while to figure out what went wrong.
+It might have been just something blocking my mind, I am not sure. Can you spot the  problem in the next example:
+
+<try file="examples/js/handlebars_helpers_if_eq_typo.html">
+
+This happened when I started to convert my <hl>if</hl> conditional to an <hl>if_eq</hl> conditional, but I only changed the opening
+expressiong from <hl>{{#if ...}}</hl> to <hl>{{#if_eq ...}}</hl> but not the closing expression that was left as <hl>{{/if}}<hl>.
+Hence the error telling us that <hl>if_eq</hl> does not match <hl>if</hl>. Maybe if the error message had the keywords stand out,
+it would have been easier.
+
+Anyway, look out for such typos. They are a waste of time. Make some more interesting bugs!
 
 <h2>iff - for other conditionals</h2>
 
+Finally we got to build the more generic helper for conditional expressions. I called it <hl>iff</hl>. I am aware of the mathematical
+meaning of it, but it just looked cute and short to be used for a generic comparision helper. The idea is that I'd like to
+be able to write expressions like these:
+
+<code>
+    {{#iff name '==' 'Foo'}}
+</code>
+
+and like this:
+
+<code>
+    {{#iff answer '>' 40}}
+</code>
+
+In the sample I've created two templates. In the first template I used there are 3 such conditionals.
+In the second template there is a single conditional: <hl>{{#iff 4 '*' 5}}</hl> that I included just to
+show what will happen if we supply an operator that is not supported by the <hl>iff</hl> helper. I also added two buttons,
+one to process and show the first template and one to process and show the second template.
+
 <try file="examples/js/handlebars_conditionals.html">
+
+The JavaScript file has the data, the code reacting to clicks and processing the templates and the the partial(!)
+implementation of the <hl>iff</hl> helper. Basically it is just a giant <hl>switch</hl> statement with a separate
+<hl>case</hl> for each valid operator. The <hl>default</hl> behavior, when the given operator is not handled
+by any of the <hl>case</hl> statements, is to <hl>throw</hl> an exception.
 
 <include file="examples/js/handlebars_conditionals.js">
 
+
+<h2>#compare</h2>
+
+After reaching this point I found out that there is already an implementation of such a helper called <hl>#compare</hl>.
+It can be found among the <a href="http://assemble.io/helpers/helpers-comparison.html">comparison helpers</a>.
+
+In any case I think it was interesting to see how to build and use this.
 

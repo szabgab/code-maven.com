@@ -21,15 +21,6 @@ document.getElementById('show2').addEventListener('click', function () {
 });
 
 
-Handlebars.registerHelper('if_eq', function(a, b, opts) {
-    if (a == b) {
-        return opts.fn(this);
-    } else {
-        return opts.inverse(this);
-    }
-});
-
-
 Handlebars.registerHelper('iff', function(a, operator, b, opts) {
     var bool = false;
     switch(operator) {

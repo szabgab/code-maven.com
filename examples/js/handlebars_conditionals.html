@@ -3,36 +3,6 @@
   <title>Handlebars conditionals</title>
 
   <script id="text-template" type="text/x-handlebars-template">
-    <br>#if cond1 (expected true)
-    {{#if cond1 }}
-       true
-    {{else}}
-      false
-    {{/if}}
-
-    <br>#if cond2 (expected false)
-    {{#if cond2 }}
-      true
-    {{else}}
-      false
-    {{/if}}
-
-    <br>#if_eq name Foo (expected true)
-    {{#if_eq name 'Foo'}}
-      true
-    {{else}}
-      false
-    {{/if_eq}}
-    
-    <br>#if_eq name 'Bar' (expected false)
-    {{#if_eq name 'Bar'}}
-       true
-    {{else}}
-       false
-    {{/if_eq}}
-
-
-
     <br>#iff name '==' 'Foo' (expected true)
     {{#iff name '==' 'Foo'}}
       true
