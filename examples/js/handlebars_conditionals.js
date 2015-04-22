@@ -36,8 +36,14 @@ Handlebars.registerHelper('iff', function(a, operator, b, opts) {
        case '==':
            bool = a == b;
            break;
+       case '==':
+           bool = a == b;
+           break;
        case '>':
            bool = a > b;
+           break;
+       case '<':
+           bool = a < b;
            break;
        default:
            throw "Unknown operator " + operator;

@@ -9,7 +9,91 @@
 
 =abstract start
 
+The <a href="http://handlebarsjs.com/">Handlebars JavaScript</a> templating engine provide a single <hl>if</hl>-conditional with an optional <hl>else</hl>,
+but that <hl>if</hl>-statement can only handle a single value, not an expression. You can write
+
+<code>
+{{#if name}}
+..
+{{/if}}
+</code>
+
+but you cannot write
+
+<code>
+{{#if name == 'Foo'}}
+..
+{{/if}}
+</code>
+
+Let's create a <a href="/handlebars-helpers">Handlebars helper</a> that will provide this functionality.
+
 =abstract end
+
+<h2>if conditional</h2>
+
+Before creating the helper though, let's see a full example using the plain <hl>if</hl> statement.
+There are two values in the data object: cond1 and cond2, true and false respectively. The rest of the
+JavaScript code is just fetching the template and letting Handlebars process the data.
+
+<include file="examples/js/handlebars_if.js">
+
+The template itself has two entries like this using each one of the variables:
+
+<code>
+{{#if cond1}}
+    true
+{{else}}
+    false
+{{/if}}
+</code>
+
+The full html code is this:
+
+<try file="examples/js/handlebars_if.html">
+
+You can try it by clicking on the Try link. In the new page the "show" button will trigger the process.
+
+<h2>if_eq</h2>
+
+In the next example we have implemented a <a href="/handlebars-helpers">Handlebars helper</a> called
+<hl>if_eq</hl>. It expects two parameters and will compare them using <hl>==</hl>.
+
+<code lang="javascript">
+Handlebars.registerHelper('if_eq', function(a, b, opts) {
+    if (a == b) {
+        return opts.fn(this);
+    } else {
+        return opts.inverse(this);
+    }
+});
+</code>
+
+The template using this looks like this:
+
+<code>
+{{#if_eq name 'Foo'}}
+      true
+{{else}}
+      false
+{{/if_eq}}
+</code>
+
+The full JavaScript file also contains the data object and the
+code we had earlier combining the template with the data:
+
+<include file="examples/js/handlebars_helpers_if_eq.js">
+
+The full HTML file including the template looks like this:
+
+<try file="examples/js/handlebars_helpers_if_eq.html">
+
+You can try it after clicking on the "Try" link.
+
+<h2> </h2>
+
+
+<h2>iff - for other conditionals</h2>
 
 <try file="examples/js/handlebars_conditionals.html">
 
