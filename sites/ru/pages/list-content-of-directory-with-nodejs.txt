@@ -1,4 +1,4 @@
-=title List content of a directory with Node.js
+=title Содержимое директории на Node.js
 =timestamp 2015-03-28T17:47:01
 =indexes fs.stat
 =status show

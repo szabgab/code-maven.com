@@ -1,0 +1,127 @@
+=title Хелперы Handlebars
+=timestamp 2015-05-03T10:20:01
+=indexes Handlebars.registerHelper
+=status show
+=books javascript, handlebars
+=author szabgab
+=original handlebars-helpers
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Кроме языка шаблонов, который предлагает нам <a href="http://handlebarsjs.com/">Handlebars</a>, он также позволяет создавать обработчики (хендлеры).
+Думаю, что в другой среде это могло бы назваться макросы, или вы можете их рассматривать как подпрограммы.
+
+Они позволяют нам создавать повторно используемые выражения.
+
+=abstract end
+
+На сайте Handlebars есть несколько примеров <a href="http://handlebarsjs.com/block_helpers.html">хелперов блоков</a>,
+но я собираюсь показать немного другие. Давайте начнем с самого простого хелпера.
+Он возвращает HTML сниппет.
+
+<h2>Статический HTML хелпер</h2>
+
+Весь код выглядит вот так, и вы можете его запустить, нажав ссылку <hl>Try!</hl>.
+
+<try file="examples/js/handlebars_helpers_static.html">
+
+Хелпер это сниппет JavaScript кода. Строка (в нашем случае <hl>greeting</hl>) связана с функцией.
+Функция может возвращать простую строку с экранированным HTML, или может вернуть объект <hl>SafeString</hl>,
+который оставит строку такой, какая она есть. В нашем случае, так как мы хотим вернуть HTML сниппет, мы используем
+объект <hl>SafeString</hl>. Обычно такой код помещают во внешний JavaScript файл, например, чтобы использовать его в нескольких проектах.
+
+<code lang="javascript">
+Handlebars.registerHelper('greeting', function() {
+    return new Handlebars.SafeString( '<i>Hello World</i>' );
+});
+</code>
+
+Теперь у нас есть хелпер с именем <hl>greeting</hl> и мы можем использовать его в нашем коде шаблона:
+
+<code lang="javascript">
+    <script id="text-template" type="text/x-handlebars-template">
+        <h3>{{greeting}}</h3>
+    </script>
+</code>
+
+Шаблон это просто HTML сниппет с неколькими плейсхолдерами.
+
+Оставшаяся часть кода в примере это просто обычный Handlebars код, который получает шаблон из HTML кода, компилирует его и генерирует 
+HTML сниппет.
+
+Конечно, демонстрация "Hello World" не так уж интересна, но возможно, если бы хелпер возвращал информацию о копирайте 
+для сайта или возвращал меню, тогда он был бы более интересным.
+
+<h2>Хендлер для ссылок</h2>
+
+Следующий пример основан на одном примере с веб-сайта <a href="http://handlebarsjs.com/block_helpers.html">Handlebars</a>.
+Он уже принимает параметр. Предполагается, что это объект JavaScript имеет атрибут <hl>url</hl> и необязательный атрибут <hl>text</hl>.
+Получив такой объект, этот хендлер вернет HTML ссылку, используя ссылку и текст из объекта.
+Если атрибут 'text' отсутствует в объекте, когда будет использован тот же URL.
+
+Полный пример выглядит вот так:
+
+<try file="examples/js/handlebars_helpers_link.html">
+
+Хендлер выглядит вот так:
+
+<code lang="javascript">
+Handlebars.registerHelper('link', function(obj) {
+    var url  = obj.url;
+    var text = obj.text;
+    if (text == undefined) {
+        text = url;
+    }
+    return new Handlebars.SafeString( '<a href="' + url + '">' + text + '</a>' );
+});
+</code>
+
+Здесь мы связали строку 'link' с функцией, которая принимает единственный параметр.
+Мы копирует атрибуты <hl>url</hl> и <hl>text</hl> в подходящие переменные, но используем <hl>url</hl> в качестве текста ссылки, если он не определен.
+
+Затем мы вручную собираем HTML. Выглядит, как будто мы снова вернулись в эру конкатенации HTML, но не забывайте, что этот код будет
+размещен во внешнем файле JavaScript, и мы будем использовать его в разных частях проекта, или даже в разных проектах. 
+Мы погли бы использовать и здесь шаблонизатор Handlebars, но это не выглядит необходимым.
+
+Как только мы создали этот хендлер, мы можем использовать его в нашем шаблоне:
+
+<code lang="javascript">
+    <script id="text-template" type="text/x-handlebars-template">
+        {{link home}}<br>
+        {{link perlmaven}}<br>
+    </script>
+</code>
+
+В отличие от статического случая, который мы рассмотрели ранее, в этот раз мы используем новое ключевое слово
+<hl>link</hl> наряду с параметром.
+Один раз параметр это 'home', и один раз 'perlmaven'. Это плейсхолдеры, которые будут заменены на данные,
+переданные в функцию <hl>template()</hl>.
+
+В итоге давайте посмотрим на вызов функции <hl>template()</hl> с передаваемыми в нее данными.
+Здесь вы можете видеть, что мы передаем объект с двумя атрибутами - 'home' и 'perlmaven'. 
+Они будут связаны с соответствующими плейсхолдерами в шаблоне. Заметьте, что для 'home' мы передаем оба атрибута - 'url' и 'text',
+в то же время для 'perlmaven' передаем только 'url'.
+
+<code lang="javascript">
+    var html = template({
+        'home' : {
+           'url'  : '/',
+           'text' : 'Code Maven'
+        },
+        'perlmaven' : {
+            'url' : 'http://perlmaven.com/'
+        }
+    });
+</code>
+
+Результат, который вы увидите, будет таким:
+
+<a href="/">Code Maven</a><br>
+<a href="http://perlmaven.com/">http://perlmaven.com/</a><br>
+
+
+
+
