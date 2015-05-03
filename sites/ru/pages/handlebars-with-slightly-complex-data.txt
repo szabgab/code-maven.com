@@ -1,0 +1,56 @@
+=title Handlebars с более сложными данными
+=timestamp 2015-05-03T08:52:01
+=indexes Handlebars
+=status show
+=books javascript, handlebars
+=author szabgab
+=original handlebars-with-slightly-complex-data
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+В статье, где мы впервые рассмотрели <a href="/introduction-to-handlebars-javascript-templating-system">Handlebars (шаблонизатор JavaScript)</a>,
+был работающий пример, но возможно он был недостаточно убедителен в отношении, почему использование Handlebars лучше конкатенации для создания HTML сниппетов.
+
+Затем был еще этот пример с <a href="/ajax-request-for-json-data">Ajax запросом, возвращающим JSON данные</a>.
+Там мы также использовали простой JavaScript, но там было уже совсем неприятно. Давайте теперь посмотрим, как мы можем делать
+те же самые вещи, используя Handlebars.
+
+=abstract end
+
+В предыдущем примере мы получили JSON-ответ со следующим содержимым:
+
+<include file="examples/js/data.json">
+
+Мы использовали этот код:
+
+<include file="examples/js/ajax.js">
+
+<a href="/try/examples/js/ajax.html">Попробовать здесь!</a>
+
+<h2>Используя Handlebars</h2>
+
+Функция <hl>ajax_get</hl> осталась такой же. Она была рассмотрена в статье про <a href="/ajax-request-for-json-data">Ajax запрос</a>.
+
+Изменения в строках 23-25, где вместо конкатенации HTML по фрагментам, мы получаем шаблон из элемента с id <hl>text-template</hl>,
+компилируем исходный код шаблона в функцию <hl>template</hl>, а затем просто передаем в нее данные, которые мы получили
+из Ajax запроса. Намного чище, чем раньше, когда мы должны были думать об использовании одинарных кавычек снаружи так,
+чтобы они не пересекались с двойными кавычками, которые мы хотели использовать для HTML атрибутов. 
+
+<include file="examples/js/ajax_handlebars.js">
+
+Сам шаблон находится в HTML файле в теге <hl>script</hl>.
+
+<try file="examples/js/ajax_handlebars.html">
+
+Плейсхолдеры для <hl>{{title}}</hl> и <hl>{{description}}</hl> это простые значения, которые мы уже видели во
+ <a href="/introduction-to-handlebars-javascript-templating-system">введении в Handlebars</a>, 
+но здесь также есть цикл для прохождения по элементам массива.
+<hl>{{#each articles}}</hl> начинает цикл по элементам массива, лежащего в ключе <hl>articles</hl>.
+Цикл заканчивается, когда мы достигаем инструкции <hl>{{/each}}</hl>.
+Внутри цикла мы можем использовать ключи объектов, которые являются элементами массива <hl>articles</hl>.
+
+Это делает шаблон гораздо чише, чем он был раньше, когда мы использовали конкатенацию.
+
