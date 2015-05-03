@@ -1,4 +1,4 @@
-=title Ajax request for JSON data
+=title Ajax запрос и JSON результат
 =timestamp 2015-04-25T09:00:01
 =indexes XMLHttpRequest, JSON.parse
 =status show
