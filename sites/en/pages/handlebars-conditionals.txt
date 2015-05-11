@@ -99,7 +99,7 @@ It might have been just something blocking my mind, I am not sure. Can you spot 
 <try file="examples/js/handlebars_helpers_if_eq_typo.html">
 
 This happened when I started to convert my <hl>if</hl> conditional to an <hl>if_eq</hl> conditional, but I only changed the opening
-expressiong from <hl>{{#if ...}}</hl> to <hl>{{#if_eq ...}}</hl> but not the closing expression that was left as <hl>{{/if}}<hl>.
+expressiong from <hl>{{#if ...}}</hl> to <hl>{{#if_eq ...}}</hl> but not the closing expression that was left as <hl>{{/if}}</hl>.
 Hence the error telling us that <hl>if_eq</hl> does not match <hl>if</hl>. Maybe if the error message had the keywords stand out,
 it would have been easier.
 
