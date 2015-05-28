@@ -1,0 +1,139 @@
+=title Getting started with Vagrant to set up a virtual environment
+=timestamp 2015-05-28T10:05:01
+=indexes Vagrant
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://www.vagrantup.com/">Vagrant</a> makes it very easy to install and manage virtual environments on your computer.
+With just a few commands it can launch a Virtual Private Server on your desktop/laptop computer in which you can
+freely install anything without interfering with other environments. Then you can as easily clean up and
+remove that virtual environment.
+
+=abstract end
+
+<h2>To Set up a Virtual Environment</h2>
+
+Install <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/">VirtualBox</a>
+then go back to the <a href="https://www.vagrantup.com/">home page of Vagrant</a> and follow the Getting Started instructions.
+
+I have the following versions:
+
+<code>
+$ vagrant -v
+Vagrant 1.7.2
+</code>
+
+<code>
+$ VBoxManage -v
+4.3.24r98716
+</code>
+
+Once I installed those two I run the following:
+
+Create the directory where I am going to have the configuration files for this Vagrant instance.
+
+<code>
+mkdir ~/work/try
+cd ~/work/try
+</code>
+
+Create a file called <hl>Vagrant</hl> in the current directory with some default parameters and indicate that you want to
+have your environment based on the <hl>hashicorp/precise32</hl> which is a generic environment you can start with.
+(If you'd like to have a more Perl-specific environment check out the article on
+<a href="/pro/vagrant-perl-development-environment">Vagrant Perl Development Environment</a>.
+
+<code>
+vagrant init hashicorp/precise32
+</code>
+
+Launch the server. The first time we run this, it will download the necessary VirtualBox image file which can take some time.
+
+<code>
+vagrant up
+</code>
+
+ssh to the machine running on your desktop:
+
+<code>
+vagrant ssh
+</code>
+
+<h2>Do your experiments</h2>
+
+Now you are inside the VirtualBox image. You can freely install stuff, make changes everywhere except in the <hl>/vagrant</hl> directory.
+With that directory you need to be careful becase that is mapped to the directory where you set Vagrant up. (In our case that is the <hl>~/work/try</hl>
+directory.)
+
+This virtual environment is based on Ubuntu.
+
+As Ubuntu gets security and other fixes almost on daily basis, the first thing you might want to do is to update all the packages:
+
+<code>
+vagrant@precise32:~$ sudo aptitude update
+vagrant@precise32:~$ sudo aptitude -y safe-upgrade
+</code>
+
+For me it has installed 181 packages.
+
+Once this is done, you'd need to restart the virtual environment for all the changes to take effect.
+(I have not checked, but I am quite sure there is at least one update that really requires a reboot.)
+
+Exit the ssh session:
+
+<code>
+vagrant@precise32:~$ exit
+</code>
+
+Stop your virtual instance:
+
+<code>
+vagrant halt
+</code>
+
+Start it again:
+
+<code>
+vagrant up
+</code>
+
+ssh to it again:
+
+<code>
+vagrant ssh
+</code>
+
+Then install whatever you'd need
+
+<code>
+vagrant@precise32:~$ sudo aptitude install ....
+</code>
+
+A few things that I usually need:
+
+<code>
+vagrant@precise32:~$ sudo aptitude -y install curl vim
+</code>
+
+
+<h2>Destroy</h2>
+
+After you are done using the virtual environment you can leave the box by typing
+
+<code>
+vagrant@precise32:~$ exit
+</code>
+
+Then you can completely remove all traces of your changes using the following command:
+
+<code>
+vagrant destroy
+</code>
+
+This will still keep the original <hl>hashicorp/precise32</hl> image, taking up some space
+on your hard disk, but it means next time you runt <hl>vagrant up</hl> it will be much faster
+as it won't need to donwload any files.
+
