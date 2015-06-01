@@ -78,7 +78,6 @@ But I know some of the steps:
 
 <ol>
   <li><a href="/html-basics">Basics of HTML to show a page</a></li>
-  <li>HTML skeleton</li>
   <li>Basics of JavaScript to play the game</li>
   <li>HTML5/CSS3 to make the game more persistent</li>
   <li>Some backend-language to store the data on a server</li>

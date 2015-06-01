@@ -144,9 +144,21 @@ It looks like this:
 
 <img src="/img/html_h1.png">
 
-<h2>HTML Skeleton</h2>
+<h2>HTML5 Skeleton</h2>
+
+Before we continue, let's add a few more HTML tags and create a skeleton for an HTML page.
+As many other things, HTML also has version and the requirements change from version to version.
+This skeleton matches the HTML5 requirements:
 
 <try file="examples/tso/5/index.html">
+
+You won't see any difference how this and the preious version looks in the browser.
+The whole page is wrapped in <hl>html</hl> tags and it has two parts. <hl>head</hl> and <hl>body</hl>.
+The <hl>head</hl> is traditionally used load other files such as CSS and JavaScript files, but
+we don't really have to put those entries in the head any more. The <hl>meta</hl> tag still needs to go there,
+as well as the <hl>title</hl> which will set what is shown on the "tab", on the border of the window holding the browser.
+
+The code we had in the previous example goes into the <hl>body</hl>.
 
 
 Now you can visit the <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element">HTML reference guide</a> and try playing with
