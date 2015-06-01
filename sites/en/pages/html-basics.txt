@@ -144,5 +144,10 @@ It looks like this:
 
 <img src="/img/html_h1.png">
 
+<h2>HTML Skeleton</h2>
+
+<try file="examples/tso/5/index.html">
+
+
 Now you can visit the <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element">HTML reference guide</a> and try playing with
 the various HTML elements.
