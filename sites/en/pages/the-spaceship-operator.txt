@@ -50,7 +50,7 @@ Then you can guess again.
 
 What is the best strategy? Is there a strategy that can always win?
 
-<div class="spoiler" text="">
+<div class="spoiler" text="Click for Explanation">
 <p>
 The naive way to find the other space-ship is to shoot one-by-one from 1 to 200. In worst case, if the computer thought 200,
 it will require 200 shots.  If you play a lot, on average you'll hit the target in 100 shots.
