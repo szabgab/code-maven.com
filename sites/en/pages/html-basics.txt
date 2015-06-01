@@ -133,7 +133,7 @@ file is displayed in the browser.
 </p>
 </div>
 
-We can now remove the <hl>br</hl> tag and add an <hl><h1></hl>-pair.
+We can now remove the <hl>br</hl> tag and add an <hl>&lt;h1&gt;</hl>-pair.
 We are supposed to have only a single <hl>h1</hl> pair in any document. They are expected to enclose the main title of the page.
 By default most browsers will show the content of the h1-elements with large letters and will insert a line-break after the closing
 tag of the h1-pair.
