@@ -25,7 +25,7 @@ First let's see the solution with a GET request:
 <include file="examples/flask/echo_get.py">
 
 We have two routes here. The first one, responding to the request of <hl>/</hl> will send back and HTML snippet that
-was embedded in the code. Once we pass the most basic exampeles we are going to start using templates
+was embedded in the code. Once we pass the most basic examples we are going to start using templates
 to separate HTML from the Python code, but for this example we can still get by including the HTML in our script.
 
 This HTML snippet will show up in our browser as a text-box and a button. The <hl>action</hl> property
@@ -33,9 +33,9 @@ of the <hl>form</hl> element tells the browser where to send the data when the u
 The <hl>method</hl> attribute tells the browser which method to use and while <hl>GET</hl> is the default I added it
 explicitly to make the example clearer.
 
-In our case this means when the user clicks on the button the browse will send a <hl>GET</hl> request to <hl>/echo</hl>.
+In our case this means when the user clicks on the button the browser will send a <hl>GET</hl> request to <hl>/echo</hl>.
 
-If we typed in "hello" and clicked on the button, we would see the URL in the address-bar of our browser change to
+If we typed in "hello" and clicked on the button, we would see the URL in the address-bar of our browser changed to
 
 <hl>http://127.0.0.1:5000/echo?text=hello</hl>
 
@@ -71,17 +71,17 @@ There were a few changes here:
 <ol>
   <li>In the embedded HTML we replaced the <hl>GET</hl> method to be <hl>POST</hl></li>
   <li>In the route definition we explicitly said this route handles POST requests: <hl>@app.route("/echo", methods=['POST'])></hl></li>
-  <li>We fetch the value send by the user from the <hl>form</hl> dictionary of <hl>request</hl></li>
+  <li>We fetch the value sent by the user from the <hl>form</hl> dictionary of <hl>request</hl></li>
 </ol>
 
-Not only do we use the <hl>form</hl> dictionary but the recommendation of the Flask tutorial is to access the key dirctly.
+Not only do we use the <hl>form</hl> dictionary but the recommendation of the Flask tutorial is to access the key directly.
 with square brackets: <hl>request.form['text']</hl>.
 
 The reasoning is that it is much harder for the regular user to send in a form without the proper keys, but if
-that happens we would probably want to throw an exception anyway. We won't need to do that manually becasue
+that happens we would probably want to throw an exception anyway. We won't need to do that manually because
 Python will already throw the exception for us.
 
-(If we did not want those expcetions, we could go with code similar to the earlier solution:
+(If we did not want those exceptions, we could go with code similar to the earlier solution:
 <hl>request.form.get('text', '')</hl>
 
 Before running this script, make sure the other one has been stopped. Otherwise you'll get a nasty exception:
@@ -112,7 +112,7 @@ Traceback (most recent call last):
 socket.error: [Errno 48] Address already in use
 </code>
 
-At least this one, unlike <a href="/getting-started-with-nodejs">Node.js</a> will show the corret explanation
+At least this one, unlike <a href="/getting-started-with-nodejs">Node.js</a> will show the correct explanation
 on the last line of the exception.
 
 Once you launched the new script successfully, you also have to remember to reload the page
@@ -155,7 +155,7 @@ $ curl --data '' http://127.0.0.1:5000/echo
 <p>The browser (or proxy) sent a request that this server could not understand.</p>
 </code>
 
-Send a POST request with incorrect filed name (txt instead of text), and see the error:
+Send a POST request with incorrect field name (txt instead of text), and see the error:
 
 <code>
 $ curl --data 'txt=world' http://127.0.0.1:5000/echo
@@ -181,7 +181,7 @@ You said: world
 You can access the values passed in the URL via <hl>request.args</hl> and the values passed in a POST-request via
 <hl>request.form</hl>
 
-Ther recommended way to acces the values is via <hl>request.args.get('key', '')</hl> for GET requests and
+The recommended way to access the values is via <hl>request.args.get('key', '')</hl> for GET requests and
 <hl>request.form['key']</hl> though in both cases we can use the "other" way as well.
 
 
