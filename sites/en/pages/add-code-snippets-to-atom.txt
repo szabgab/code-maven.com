@@ -1,0 +1,78 @@
+=title Add code snippets to Atom - the text editor
+=timestamp 2015-06-03T14:30:01
+=indexes Atom
+=status show
+=books atom
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Snippets are a great feature of any editor or IDE and in <a href="https://atom.io/">Atom</a>
+they are quite simple to use.
+
+=abstract end
+
+<h2>How to use a snippet in Atom</h2>
+
+In a file you start typing the "prefix" of an existing snippet.
+Atom will show you a list of snippets that match the text you started to write.
+If you stop typing you can select one of the entries using the up and down arrow.
+
+<img src="/img/atom_snippet_use.png" alt="Atom snippets in use" />
+
+When you press TAB or ENTER, Atom will insert the code snippet in the place where you started
+to type.
+
+There are many snippets that come with Atom pre-installed and you can easily create
+your own snippets as well.
+
+<h2>Add your own snippet to Atom</h2>
+
+You own snippets need to be defined in the <hl>snippets.cson</hl> file which is located
+in your home directory. For me it was in the <hl>~/.atom/</hl> directory, though I don't
+even have to know that, if I open the "Atom" menu, it has an entry to <hl>Open Your Snippets</hl>
+that will open the <hl>snippets.cson</hl> in your favorite editor.
+
+<img src="/img/atom_snippet_editor.png" alt="Atom menu to open snippet editor" />
+
+In that file you need to add an entry like this
+
+
+<code>
+'.text.html':
+  'HTML 5':
+    'prefix': 'html'
+    'body': '''
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title></title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/3.0.3/handlebars.min.js"></script>
+        <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+        <link href="style.css" rel="stylesheet">
+      </head>
+      <body>
+
+      </body>
+    </html>
+'''
+</code>
+
+This will work for html files.
+
+The first string describes the 'scope' of where this will work.
+
+Each file-type has a scope and each file extension is mapped to a scope.
+Specifically the scope of the HTML files is <hl>text.html.basic</hl>
+and the following extensions are considered HTML files:
+<hl>htm, html, kit, shtml, tmpl, tpl, xhtml</hl>
+
+I know this because I opened the <hl>Settings</hl> (Actually the <hl>Atom / Preferences</hl> menu option)
+and among the <hl>Packages</hl> looked for the one handling HTML files. This is how it looks like:
+
+<img src="img/atom_html_file_type.png" alt="HTML file type in Atom" />
