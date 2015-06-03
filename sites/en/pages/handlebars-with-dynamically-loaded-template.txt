@@ -1,7 +1,7 @@
 =title Handlebars with dynamically loaded and cached template
-=timestamp 2015-06-03T15:30:01
+=timestamp 2015-06-03T18:30:01
 =indexes Handlebars.compile, jQuery.get
-=status draft
+=status show
 =books handlebars, jquery
 =author szabgab
 =archive 1
