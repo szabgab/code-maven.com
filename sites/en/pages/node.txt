@@ -1,0 +1,15 @@
+=title Node.js
+=timestamp 2015-06-03T08:04:00
+=indexes Node.js
+=status show
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+=redirect /category/nodejs
+
+=abstract start
+
+Just redirecting, before creating a proper page for Node.js.
+
+=abstract end

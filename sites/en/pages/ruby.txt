@@ -1,0 +1,15 @@
+=title Ruby
+=timestamp 2015-06-03T08:03:00
+=indexes Ruby
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+=redirect /category/ruby
+
+=abstract start
+
+Just redirecting, before creating a proper page for Ruby.
+
+=abstract end
