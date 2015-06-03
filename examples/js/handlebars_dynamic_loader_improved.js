@@ -5,7 +5,7 @@ function display_template(tmpl, data) {
 
     if (templates[tmpl] === undefined) {
       console.log("need");
-      jQuery.get("/try/examples/js/handlerbars_template_" + tmpl + ".htm", function(resp) {
+      jQuery.get("/try/examples/js/handlebars_template_" + tmpl + ".htm", function(resp) {
           console.log(resp);
           templates[tmpl] = Handlebars.compile(resp);
           display_template(tmpl, data);

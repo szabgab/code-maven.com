@@ -19,7 +19,7 @@ $(document).ready(function() {
 
        if (templates[name] === undefined) {
          console.log("need");
-         jQuery.get("/try/examples/js/handlerbars_template_" + name + ".htm", function(resp) {
+         jQuery.get("/try/examples/js/handlebars_template_" + name + ".htm", function(resp) {
              console.log(resp);
              templates[name] = Handlebars.compile(resp);
              display_template(name, data);
