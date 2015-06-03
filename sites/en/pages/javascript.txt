@@ -1,0 +1,15 @@
+=title JavaScript
+=timestamp 2015-06-03T08:01:00
+=indexes JavaScript
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+=redirect /category/javascript
+
+=abstract start
+
+Just redirecting, before creating a proper page for JavaScript
+
+=abstract end

@@ -1,0 +1,15 @@
+=title Handlebars
+=timestamp 2015-06-03T08:00:00
+=indexes Handlebars
+=status show
+=author szabgab
+=books handlebars
+=archive 1
+=comments_disqus_enable 1
+=redirect /category/handlebars
+
+=abstract start
+
+Just redirecting, before creating a proper page for Handlebars
+
+=abstract end

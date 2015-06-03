@@ -1,0 +1,15 @@
+=title Python
+=timestamp 2015-06-03T08:02:00
+=indexes Python
+=status show
+=author szabgab
+=books python
+=archive 1
+=comments_disqus_enable 1
+=redirect /category/python
+
+=abstract start
+
+Just redirecting, before creating a proper page for Python. 
+
+=abstract end
