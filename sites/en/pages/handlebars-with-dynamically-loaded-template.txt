@@ -1,6 +1,6 @@
 =title Handlebars with dynamically loaded and cached template
 =timestamp 2015-06-03T15:30:01
-=indexes
+=indexes Handlebars.compile, jQuery.get
 =status draft
 =books handlebars, jquery
 =author szabgab
@@ -94,8 +94,15 @@ Then we can call the <hl>display_template</hl> function.
 In case we already had the template in the memory, we can directly call the <hl>display_template</hl>
 function.
 
-<h2></h2>
+<h2>Improved JavaScript code</h2>
 
+After writing all that down I had an idea for improvement. After all, in a real application
+I'll have several jQuery callbacks that will trigger the use of templates. Each one of them
+will need to load the template from server. So better hide all that in a single function,
+the <hl>display_template</hl> function:
 
-<code lang="javascript">
-</code>
+<include file="/examples/js/handlebars_dynamic_loader_improved.js">
+
+In this solution, the code fetching the raw template from the server was
+moved inside the <hl>display_template</hl> function. It is called if the
+template is not in the <hl>templates</hl> object.
