@@ -1,15 +1,24 @@
-=title Handlebars
-=timestamp 2015-06-03T08:00:00
+=title Handlebars Tutorial
+=timestamp 2015-06-03T09:37:00
 =indexes Handlebars
 =status show
 =author szabgab
 =books handlebars
 =archive 1
 =comments_disqus_enable 1
-=redirect /category/handlebars
 
 =abstract start
 
-Just redirecting, before creating a proper page for Handlebars
+<a href="http://handlebarsjs.com/">Handlebars</a> is a HTML templating system written in JavaScript. It can be used both on the client-side
+and on the server side in applications written in <a href="/node">Node.js</a>.
 
 =abstract end
+
+This series of articles ha
+
+<ol>
+  <li><a href="http://code-maven.com/introduction-to-handlebars-javascript-templating-system">Getting Started with Handlebars</a></li>
+  <li><a href="http://code-maven.com/handlebars-with-slightly-complex-data">Handlebars with (slightly) complex data</a></li>
+  <li><a href="http://code-maven.com/handlebars-helpers">Handlebars helpers</a></li>
+  <li><a href="http://code-maven.com/handlebars-conditionals">Handlebars conditional</a></li>
+</ol>
