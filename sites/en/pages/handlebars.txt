@@ -17,8 +17,9 @@ and on the server side in applications written in <a href="/node">Node.js</a>.
 This series of articles ha
 
 <ol>
-  <li><a href="http://code-maven.com/introduction-to-handlebars-javascript-templating-system">Getting Started with Handlebars</a></li>
-  <li><a href="http://code-maven.com/handlebars-with-slightly-complex-data">Handlebars with (slightly) complex data</a></li>
-  <li><a href="http://code-maven.com/handlebars-helpers">Handlebars helpers</a></li>
-  <li><a href="http://code-maven.com/handlebars-conditionals">Handlebars conditional</a></li>
+  <li><a href="/introduction-to-handlebars-javascript-templating-system">Getting Started with Handlebars</a></li>
+  <li><a href="/handlebars-with-slightly-complex-data">Handlebars with (slightly) complex data</a></li>
+  <li><a href="/handlebars-helpers">Handlebars helpers</a></li>
+  <li><a href="/handlebars-conditionals">Handlebars conditional</a></li>
+  <li><a href="/handlebars-with-dynamically-loaded-template">Handlebars with dynamically loaded and cached template</a></li>
 </ol>
