@@ -14,8 +14,6 @@ and on the server side in applications written in <a href="/node">Node.js</a>.
 
 =abstract end
 
-This series of articles ha
-
 <ol>
   <li><a href="/introduction-to-handlebars-javascript-templating-system">Getting Started with Handlebars</a></li>
   <li><a href="/handlebars-with-slightly-complex-data">Handlebars with (slightly) complex data</a></li>
