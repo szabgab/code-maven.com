@@ -1,0 +1,58 @@
+=title Using Underscore in Node.js and in the browser
+=timestamp 2015-06-20T11:00:01
+=indexes _
+=status show
+=books nodejs, javascript, cm
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="http://underscorejs.org/">Underscore.js</a> provides lots of small functions to
+help you use JavaScript as a functional programming language. Besides the actual functions it provides,
+it can also be great for learning more JavaScript as it provides an annotated version of its source code
+and it also allows us to use it both as a Node.js module and in the browser.
+
+Let's see how is that done.
+
+=abstract end
+
+<h2>Use Underscore in Node.js</h2>
+
+Install Underscore.js using <hl>npm install underscore</hl>, that will install it
+locally in the <hl>node_modules</hl> subdirectory. Then write the following code:
+
+<include file="examples/js/node_underscore.js">
+
+and run it <hl>node node_underscore.js</hl>
+
+The output is
+
+<code>
+[ 1, 4, 25, 9 ]
+</code>
+
+We loaded the module using the <hl>require</hl> function and assigned it to the <hl>_</hl>.
+Actually we could have used any variable name, but because this is the "underscore" module
+we use the underscore <hl>_</hl>.
+
+Then we could use the <hl>map</hl> method of this new, <hl>_</hl> object.
+
+<h2>Use Underscore in the Browser</h2>
+
+For this we can download Underscore, or we can use a copy of it from a CDN.
+In either case we need to create an HTML file that will load the underscore library
+and then it will load our own script:
+
+<try file="examples/js/web_underscore.html">
+
+We could have added the HTML header and body, but non of those are required for this to work.
+
+Our script then can look like this:
+
+<include file="examples/js/web_underscore.js">
+
+It looks exactly the same as the code in Node.js, except that we've already loaded the
+Underscore module in the HTML file and it automatically assigned it to the <hl>_</hl> variable.
+
