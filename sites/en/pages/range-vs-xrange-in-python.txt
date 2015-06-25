@@ -3,6 +3,7 @@
 =indexes range, xrange, sys.getsizeof, type
 =status show
 =books python
+=author szabgab
 =archive 1
 =comments_disqus_enable 1
 
