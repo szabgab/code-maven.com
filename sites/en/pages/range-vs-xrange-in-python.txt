@@ -1,0 +1,106 @@
+=title range vs. xrange in Python
+=timestamp 2015-06-25T16:30:01
+=indexes range, xrange, sys.getsizeof, type
+=status show
+=books python
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="/python">Python</a> has a built-in function called <hl>range</hl> that can easily generate a
+a range of whole numbers. There is another built-in function call <hl>xrange</hl> that provides the
+same result, but uses a lot less memory.
+
+=abstract end
+
+<h2>range and xrange</h2>
+
+In the following 3 example we could replace <hl>range</hl> by <hl>xrange</hl> and receive the same result:
+
+<include file="examples/python/range_3_7.py">
+
+From the first number (3) till one before the second number (7):
+
+<pre>
+3
+4
+5
+6
+</pre>
+
+<include file="examples/python/range_5.py">
+
+If there is only one number, that will be the end number and the default start number
+will be 0. Thus <hl>range(5)</hl> is the same as <hl>range(0, 5)</hl>
+
+<pre>
+0
+1
+2
+3
+4
+</pre>
+
+<include file="examples/python/range_step.py">
+
+If there are 3 parameters, the first one is the 3 value becomes the "step" that defaults
+to 1 if the 3rd parameter is not present. The result will be the following:
+
+<pre>
+0
+2
+4
+</pre>
+
+<h2>Variable holding a range</h2>
+
+What if we would like to create a variable that will hold the range?
+We can do that and it is quite simple with either <hl>range</hl>
+or <hl>xrange</hl>
+
+<code lang="python">
+r = range(1000)
+</code>
+
+Then we can go over the elements:
+
+<code lang="python">
+for v in r:
+    pass
+</code>
+
+or we can access them by index:
+
+<code lang="python">
+print(r[4])
+</code>
+
+<h2>Memory Size</h2>
+
+The big difference is in the amount of memory they use:
+
+<include file="examples/python/range-memory.py">
+
+The variable holding the range created by <hl>range</hl> uses 80072 bytes
+while the variable created by <hl>xrange</hl> only uses 40 bytes.
+
+The reason is that <hl>range</hl> creates a list holding all the values while
+<hl>xrange</hl> creates an object that can iterate over the numbers on demand.
+
+<include file="examples/python/range-type.py">
+
+<h2>Speed - Benchmarking range and xrange</h2>
+
+The "cost" of the memory saving is that looking up indexes in xrange
+will take slightly longer. This benchmark code that uses the <hl>timeit</hl>
+module shows that the xrange version is 10% slower:
+
+<include file="examples/python/range-benchmark.py">
+
+The resulting numbers are:
+
+<pre>
+2.16770005226
+2.35304307938
+</pre>
