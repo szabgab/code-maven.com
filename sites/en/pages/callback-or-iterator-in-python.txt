@@ -1,4 +1,4 @@
-=title Callback or Iterator
+=title Callback or Iterator in Python
 =timestamp 2015-06-28T13:10:01
 =indexes for
 =status show

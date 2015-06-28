@@ -23,7 +23,7 @@ In this article we are going to see 2 solutions:
   <li>A function with callback.</li>
 </ul>
 
-Then you can follow-up with a solution using <a href="/callback-or-iterator">iterators</a>.
+Then you can follow-up with a solution using <a href="/callback-or-iterator-in-python">iterators</a>.
 
 =abstract end
 
