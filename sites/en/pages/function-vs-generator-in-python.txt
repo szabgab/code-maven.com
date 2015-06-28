@@ -1,0 +1,57 @@
+=title Function vs Generator in Python
+=timestamp 2015-06-28T15:00:01
+=indexes yield
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We saw how take a <a href="/function-or-callback-in-python">simple function and using callbacks</a> make it more general.
+We also saw how to <a href="/callback-or-iterator-in-python">create an iterator</a> to make our code more straight-forward.
+This time we are going to see how to convert the plain function into a generator that,
+after understanding how generators work, will seem to be the most obvious solution.
+
+=abstract end
+
+<h2>Plain function</h2>
+
+As a reminder let's see the original plain Fibonacci function we started with,
+that we had to change to hold our hard-coded condition, or in the more flexible
+case that we had to make it execute a callback function.
+
+<include file="examples/python/fibonacci_function.py">
+
+<h2>Generator</h2>
+
+<include file="examples/python/fibonacci_generator.py">
+
+The example with the generator is almost exactly the same as the plain function,
+and the way we can use it is exactly the same as we use the
+<a href="/callback-or-iterator-in-python">iterator</a>
+
+The only addition in the generator implementation of the <hl>fibonacci</hl>
+function is that it calls <hl>yield</hl> every time it calcualted one of
+the values. This call pauses the execution of the <hl>fibonacci</hl> function
+and returns the command to the calling entity together with the value passed
+to the <hl>yield</hl> statement.
+
+For the first iteration of the <hl>for</hl> loop the <hl>fibonacci</hl> function
+will start running from its first statement assigning and empty list to <hl>values</hl>.
+
+When it encounters the <hl>yield</hl> statement it will return the value in <hl>values[-1]</hl>
+that will be assigned to <hl>f</hl> of the <hl>for</hl> loop and it will let the <hl>for</hl>
+loop execute its code. There we can put any condition to break-out from the loop.
+
+If we don't <hl>break</hl> on the first iteration then on the subsequent
+iterations of the <hl>for</hl> loop the <hl>fibonacci</hl> function will continue
+from the exact state where it was paused. Meaning the content of the <hl>values</hl>
+will be exactly the same as it was left, and the first statement to be executed will the one
+immediately after the <hl>yield</hl> statement which, in this case, will be checking
+if <hl>True</hl> is still true in the <hl>while(True):</hl> statement.
+
+So from the outside the <hl>fibonacci</hl> function will behave just as the
+<a href="/callback-or-iterator-in-python">Fibonacci iterator</a> does which
+makes our code simple.
