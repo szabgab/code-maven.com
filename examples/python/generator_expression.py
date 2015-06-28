@@ -3,7 +3,7 @@ from __future__ import print_function
 import sys
 
 l = [n*2 for n in range(1000)] # List comprehension
-g = (n*2 for n in range(1000))  # Generator expression
+g = (n*2 for n in range(1000)) # Generator expression
 
 print(type(l))  # <type 'list'>
 print(type(g))  # <type 'generator'>
