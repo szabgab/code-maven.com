@@ -23,6 +23,8 @@ In this article we are going to see 2 solutions:
   <li>A function with callback.</li>
 </ul>
 
+Then you can follow-up with a solution using <a href="/callback-or-iterator">iterators</a>.
+
 =abstract end
 
 In order to avoid the need to explain the a complex algorithm we are going to use
@@ -44,7 +46,7 @@ enough memory to prepare the list up-front.
 So let's see a simple implementation of the Fibonacci series and then tweak that
 solution.
 
-<include file="examples/fibonacci_function.py">
+<include file="examples/python/fibonacci_function.py">
 
 There is nothing fancy in this implementation, but I won't recommend you run it as
 it does not have any output and it does not have any condition to stop. So if
@@ -73,7 +75,7 @@ and the first question we need to answer is
 
 So we enhance the function to return the first value that can be divided by 17:
 
-<include file="examples/fibonacci_function_mod_17.py">
+<include file="examples/python/fibonacci_function_mod_17.py">
 
 We just included the following statement, that check if dividing the current
 value of the series can be divided by 17 without remainder:
@@ -106,7 +108,7 @@ on the number of elements checked.
 
 The full code is here:
 
-<include file="examples/fibonacci_function_with_safety.py">
+<include file="examples/python/fibonacci_function_with_safety.py">
 
 <h2>What was the problem?</h2>
 
@@ -186,7 +188,7 @@ def check_17(v):
 
 The full implementation look like this:
 
-<include file="examples/fibonacci_function_callback.py">
+<include file="examples/python/fibonacci_function_callback.py">
 
 This solution is much better than the one had earlier. Now we don't need to change
 the fibonacci function based on the question we are asking. We could move

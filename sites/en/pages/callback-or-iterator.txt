@@ -21,7 +21,7 @@ Just as a reminder, here is our solution with a callback. We have a function cal
 fibonacci that goes over the elements of the series and for each element it
 calls the <hl>check_17</hl> function passed to it.
 
-<include file="examples/fibonacci_function_callback.py">
+<include file="examples/python/fibonacci_function_callback.py">
 
 The fact that we had to be able to signal to the <hl>fibonacci</hl>
 function when to stop made our code slightly more complex than we hoped for.
@@ -38,7 +38,7 @@ that will return the next element.
 The object internally will keep the current state of the iteration, which in our case
 means it needs to keep the last two elements of the series.
 
-<include file="examples/fibonacci_iterator.py">
+<include file="examples/python/fibonacci_iterator.py">
 
 Calling  <hl>fib = Fibonacci()</hl> will create an iterator object and as such,
 we'll be able to use the <hl>for in</hl> construct on it to iterate over the
