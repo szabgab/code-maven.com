@@ -1,6 +1,6 @@
 =title Plain function or Callback - An example in Python
 =timestamp 2015-06-28T11:30:01
-=indexes
+=indexes callback
 =status show
 =books python
 =author szabgab
