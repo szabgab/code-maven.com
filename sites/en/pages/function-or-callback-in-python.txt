@@ -165,7 +165,7 @@ It accepts a value <hl>v</hl>, the current value of the series.
 It returns <hl>True</hl> and the value it found once it found a value that can
 be divided by 17.
 
-It returns <hl>True<hl> and <hl>None</hl> if it reached the safety limit we set.
+It returns <hl>True</hl> and <hl>None</hl> if it reached the safety limit we set.
 The True will indicate to the fibonacci function that the search has ended,
 and the None will indicate to the end-user that no answer was found.
 
