@@ -199,3 +199,9 @@ used will benefit from it.
 
 Even better, the functions we create as callback can also be reused for by calling
 each other or by passing them to other sequence-generating functions.
+
+<h2>Iterators and Generators</h2>
+
+There are two additional solutions to this problem.
+One is by creating an <a href="/callback-or-iterator-in-python">iterator</a>
+and the other one by creating a <a href="/function-vs-generator-in-python">generator</a>.
