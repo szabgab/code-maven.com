@@ -1,0 +1,35 @@
+=title urllib vs urllib2 in Python - fetch the content of 404 or raise exception?
+=timestamp 2015-07-06T15:30:01
+=indexes urllib, urllib2
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+A small snippet of code using <a href="https://docs.python.org/2/library/urllib.html">urllib</a> and
+<a href="https://docs.python.org/2/library/urllib2.html">urllib2</a> of Python to fetch a page.
+
+The difference I've just encountered is that urllib will return the content of a page even
+if the page is not found (404) while urllib2 will throw an exception.
+
+=abstract end
+
+<h2>urllib</h2>
+
+<include file="examples/python/try_urllib.py">
+
+Running <hl>python try_urllib.py https://www.python.org/xyz</hl> will print a big HTML page
+because <a href="https://www.python.org/xyz">https://www.python.org/xyz</a> is a big HTML page.
+
+<h2>urllib2</h2>
+
+<include file="examples/python/try_urllib2.py">
+
+Running <hl>python try_urllib2.py https://www.python.org/xyz</hl> will print
+
+<code>
+HTTP Error 404: OK
+</code>
