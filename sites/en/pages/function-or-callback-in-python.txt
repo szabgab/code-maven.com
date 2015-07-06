@@ -10,7 +10,7 @@
 =abstract start
 
 What if you need to process a series of values to answer a certain question,
-that you cannot have in memory as a list?
+that you cannot store in memory as a list?
 For example when you read a huge file? Or if you can calculate the next value based on
 some of the previous values and some external information that comes to light during
 processing. Even a random series. Or if the series is infinite and you don't know up-front
@@ -20,7 +20,7 @@ In this article we are going to see 2 solutions:
 
 <ul>
   <li>A plain function.</li>
-  <li>A function with callback.</li>
+  <li>A function with a callback.</li>
 </ul>
 
 Then you can follow-up with a solution using <a href="/callback-or-iterator-in-python">iterators</a>
@@ -28,11 +28,11 @@ and another solution using <a href="/function-vs-generator-in-python">generators
 
 =abstract end
 
-In order to avoid the need to explain the a complex algorithm we are going to use
+In order to avoid the need to explain a complex algorithm, we are going to use
 the well-known Fibonacci series and the question we need to answer is
 "What is the first number in the series that can be divided by 17."
 
-A much more complex such use-case would be if you needed to go over DNA sequences
+A much more complex use-case like that would be if you needed to go over DNA sequences
 in a database, constantly refining your request for the next sequence before
 locating one that fits your requirements.
 
@@ -49,8 +49,9 @@ solution.
 
 <include file="examples/python/fibonacci_function.py">
 
-There is nothing fancy in this implementation, but I won't recommend you run it as
-it does not have any output and it does not have any condition to stop. So if
+There is nothing fancy in this implementation, but I don't recommend that you
+run it, as
+it does not have any output, and it does not have a stop condition. So if
 you run it, it will appear to be "stuck".
 
 You could include a
@@ -70,7 +71,7 @@ to limit the series.
 
 <h2>Our "question" - divide by 17</h2>
 
-Just to remind your our taks is to "research the Fibonacci series",
+Just to remind you that our task is to "research the Fibonacci series",
 and the first question we need to answer is
 "What is the first number in the Fibonacci series that can be divided by 17?"
 
@@ -78,8 +79,8 @@ So we enhance the function to return the first value that can be divided by 17:
 
 <include file="examples/python/fibonacci_function_mod_17.py">
 
-We just included the following statement, that check if dividing the current
-value of the series can be divided by 17 without remainder:
+We just included the following statement, which checks if the current
+value of the series can be wholly divided by 17:
 
 <code lang="python">
 if values[-1] % 17 == 0:
@@ -87,7 +88,7 @@ if values[-1] % 17 == 0:
 </code>
 
 We have also changed the code to return the Fibonacci number that fulfills
-our requirement. That's much better that if the function printed the result.
+our requirement. It is much better now that the program prints the result.
 
 Running that script will stop at 34.
 
@@ -122,7 +123,7 @@ or maybe
 I can just copy-paste the function and change the condition.
 
 That sounds simple, but that means we have lots of copies of the code implementing
-the Fibonacci function. What if our algorithm is much longer? Do we still want to
+the Fibonacci function. What if our algorithm is much larger? Do we still want to
 have that code to be copied over and over again?
 
 What if we find a bug in our algorithm (or just found a better way to calculate it)
@@ -137,13 +138,13 @@ every element in the Fibonacci sequence.
 <h2>Callback function</h2>
 
 The <hl>fibonacci</hl> function now looks like this:
-It accepts a parameter called <hl>cb</hl> where we expect a function to
-be passed and once the have calculated the new element in the series we call
-the callback function passing the most recent element to it <hl>cb(values[-1])</hl>.
+it accepts a parameter called <hl>cb</hl> which is expected to be a function
+and once we have calculated the new element in the series we call
+the callback function passing the most recent element to it: <hl>cb(values[-1])</hl>.
 
-The returned value is expected to be a list or tuple in which the first element
+The returned value is expected to be a list or a tuple in which the first element
 will be <hl>True</hl> or <hl>False</hl> indicating if we have found the answer (True)
-or not yet (False). If it was True, we return the second element of the result.
+or not yet (False). If it i True, we return the second element of the result.
 
 <code lang="python">
 def fibonacci(cb):
@@ -172,8 +173,8 @@ It returns <hl>True</hl> and <hl>None</hl> if it reached the safety limit we set
 The True will indicate to the fibonacci function that the search has ended,
 and the None will indicate to the end-user that no answer was found.
 
-Lastly we return a tuple with only one <hl>False</hl> value indicating to
-the fibonacci that this was not a good value and we are expecting to be called
+Lastly, we return a tuple with only one <hl>False</hl> value indicating to
+the fibonacci function that this was not a good value and we are expecting to be called
 with another value.
 
 <code lang="python">
@@ -194,8 +195,8 @@ The full implementation look like this:
 This solution is much better than the one had earlier. Now we don't need to change
 the fibonacci function based on the question we are asking. We could move
 the fibonacci function to a module, import it and use it as an external resource.
-If it needs fixing it can be fixed in one place and all the places it is being
-used will benefit from it.
+If it needs fixing, it can be fixed in one place, and all the places it is
+used will benefit from that.
 
 Even better, the functions we create as callback can also be reused for by calling
 each other or by passing them to other sequence-generating functions.
@@ -203,5 +204,5 @@ each other or by passing them to other sequence-generating functions.
 <h2>Iterators and Generators</h2>
 
 There are two additional solutions to this problem.
-One is by creating an <a href="/callback-or-iterator-in-python">iterator</a>
-and the other one by creating a <a href="/function-vs-generator-in-python">generator</a>.
+One is by creating an <a href="/callback-or-iterator-in-python">iterator</a>,
+and the other one is by creating a <a href="/function-vs-generator-in-python">generator</a>.
