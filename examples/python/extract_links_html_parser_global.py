@@ -1,14 +1,15 @@
-
 from __future__ import print_function
 import urllib2, sys
 from HTMLParser import HTMLParser
+
+links = []
 
 class MyHTMLParser(HTMLParser):
     def handle_starttag(self, tag, attrs):
         if tag != 'a':
             return
         attr = dict(attrs)
-        print(attr)
+        links.append(attr)
 
 def extract():
     if len(sys.argv) != 2:
@@ -25,6 +26,9 @@ def extract():
         return
 
     parser = MyHTMLParser()
+    parser.links = []
     parser.feed(html)
+    for l in links:
+        print(l)
 
 extract()

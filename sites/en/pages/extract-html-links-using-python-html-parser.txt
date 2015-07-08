@@ -1,0 +1,81 @@
+=title Extract HTML links using Python HTML Parser
+=timestamp 2015-07-08T09:30:01
+=indexes HTMLParser, handle_starttag, urllib2
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We have seen how to <a href="/print-html-links-using-python-htmlparser">parse the HTML file and print the links</a> using
+the HTMLParser module of Python, but instead of printing them to the screen we should somehow process the links.
+
+That's what we are going to do now. We are going to extract the links and let some other code collect or process them.
+
+=abstract end
+
+<h2>Using a global variable</h2>
+
+<include file="examples/python/extract_links_html_parser_global.py">
+
+In this solution we added a  global variable called <hl>links</hl> that
+starts out as an empty list (line 5).
+
+<code lang="python">
+  links = []
+</code>
+
+Then within <hl>MyHTMLParser</hl>, the subclass of
+<a href="https://docs.python.org/2/library/htmlparser.html">HTMLParser</a>,
+we append each link to this list (line 12).
+
+<code lang="python">
+links.append(attr)
+</code>
+
+Finally, once the processing is over, we can go over the extracted list of links
+and print them or do whatever we need to do with them (lines 31-32).
+
+<code lang="python">
+for l in links:
+    print(l)
+</code>
+
+An alternative would be to do some processing instead of collecting the links,
+that would mean calling a function from within the parser (on line 12)
+and passing the link to it. That would still probably need some global variable where we collect
+the results of that processing.
+
+Another alternative would be to use an attribute of the parser object to
+collect the links:
+
+<h2>Using attribute of the parser</h2>
+
+<include file="examples/python/extract_links_html_parser_attribute.py">
+
+In this solution, right after creating the parser, in line 27, we attached a new attribute to it:
+
+<code lang="python">
+parser.links = []
+</code>
+
+then, inside the parser subclass we append the links to this attribute (line 10):
+
+<code lang="python">
+self.links.append(attr)
+</code>
+
+And finally we loop over the collected links (lines 29-30):
+
+<code lang="python">
+for l in parser.links:
+    print(l)
+</code>
+
+This seems to be cleaner than the previous solution because we don't use a global
+variable, but we take a risk. We have assumed the HTMLParser class does not
+have an attribute called <hl>links</hl> and if in the future it gets one, our
+code will break. Which means we need to be more careful with upgrades.
+Maybe we should also add a comment explaining the problem.

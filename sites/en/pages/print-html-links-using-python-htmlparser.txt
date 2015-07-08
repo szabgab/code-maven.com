@@ -15,7 +15,7 @@ and try to extract all the links from the HTML file. For this we are going to us
 
 =abstract end
 
-<include file="examples/python/print_links_htmlparser.py">
+<include file="examples/python/print_links_html_parser.py">
 
 The <hl>extract</hl> function first expects a URL on the command line, and then using that URL
 and the urllib2 library, it fetches the HTML served on that URL.
@@ -47,4 +47,5 @@ We don't need to do anything with such tags.
 If it is an <hl>a</hl> tag, we convert the attributes to a dictionary and then print
 them out.
 
-Later we'll see how can we collect this information for later use.
+In the next article we'll see how can we <a href="/extract-html-links-using-python-html-parser">collect this information</a>
+for later use.
