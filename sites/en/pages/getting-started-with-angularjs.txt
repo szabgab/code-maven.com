@@ -52,7 +52,7 @@ Add <hl>ng-app</hl> to one of the HTML elements in our page. Anything within thi
 as part of our AngularJS code. We can add this to the <hl>html</hl> element, to the <hl>body</hl>, or even
 a <hl>div</hl> as it has been done in our first example.
 
-<h3>3) Add an AngularJS expression.</h3>
+<h2>3) Add an AngularJS expression.</h2>
 
 AngularJS has various elements. An <b>expression</b> is a code snipped wrapped
 in <hl>{{ }}</hl>. It can contain a limited set of JavaScript expressions.
