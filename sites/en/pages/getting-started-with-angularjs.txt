@@ -1,0 +1,125 @@
+=title Getting started with AngularJS
+=timestamp 2015-07-20T23:30:01
+=indexes expressions
+=status show
+=books javascript, angularjs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://angularjs.org/">AngularJS</a> is a JavaScript framework that enhances HTML.
+
+Here you'll find a few simple examples using AngularJS.
+
+For a better introduction you might want to look at
+the <a href="http://www.angularjsbook.com/">AngularJS Book</a> by Chris Smith
+or the <a href="https://www.ng-book.com/">ng-book</a> by Ari Lerner.
+
+=abstract end
+
+In order to get started with AngularJS we need to have an HTML page with 3 things:
+
+<h2>1) Loading angular.js</h2>
+
+We need to load the angular.js file from one of the CDNs or from the local disk.
+
+If you'd like to load it from Google CDN then put this in your HTML:
+
+<code>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+</code>
+
+If you'd like to use the Cloudflare CDNjs, use this entry:
+
+<code>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
+</code>
+
+You can also download the angular.min.js file, put it on your server and serve it from there:
+
+<code>
+<script src="angular.min.js"></script>
+</code>
+
+In the above examples I used version 1.4.2 of AngularJS, but by the time you read this
+Angular might have a newer releases in the 1.x series and you might want to use that version.
+
+<h2>2) Add ng-app</h2>
+
+Add <hl>ng-app</hl> to one of the HTML elements in our page. Anything within this element will be seen
+as part of our AngularJS code. We can add this to the <hl>html</hl> element, to the <hl>body</hl>, or even
+a <hl>div</hl> as it has been done in our first example.
+
+<h3>3) Add an AngularJS expression.</h3>
+
+AngularJS has various elements. An <b>expression</b> is a code snipped wrapped
+in <hl>{{ }}</hl>. It can contain a limited set of JavaScript expressions.
+
+That brings us to our first example. Even before writing a Hello
+
+<h2>Hello World with AngularJS</h2>
+
+<try file="examples/angular/hello_world.html">
+
+In our very first example, the expression is a hard-coded string. Nothing fancy.
+Even a bit insulting.
+
+The result is <hl>Hello World</hl>.
+
+<h2>Simple AngularJS expression</h2>
+
+In our next example, the expression is a hard-coded computation.
+
+<try file="examples/angular/first_expression.html">
+
+The result is <hl>Hello Angular 42</hl>.
+
+Angular executed the expression and displayed the result.
+
+Remember, this runs in the browser, so if you click on "view source", you'll
+see the code as it was in the html file.
+
+<h2>Variables in AngularJS expressions</h2>
+
+In the next, still very simple example, we can see that we can assign values
+to variables, and then we can use those variables in the expression.
+
+Note: we don't use the <hl>var</hl> for variable assignment here because these
+are actually attributes on an internal object of AngularJS.
+
+<try file="examples/angular/variables_in_expressions.html">
+
+<h2>Separate variable assignment and usage into two expressions.</h2>
+
+We can even have the assignment in one expression and use those variables in
+another expression. Not only that, but the location of those expressions in the HTML
+file does not matter. As we can see in the following example, we can use the
+variables even before the assignment:
+
+<try file="examples/angular/assignment_and_expression.html">
+
+The result will be:
+
+<code>
+Result 42
+Assignment: 19
+Result 42
+</code>
+
+There is a slight problem though, the last result of the expression where we had the assignment
+is also displayed. That's why we see the 19 on the page.
+
+The solution is to add another statement to the assignment expression that does
+not return any visible value. It can be <hl>null</hl> or <hl>''</hl> (the empty string).
+
+<try file="examples/angular/assignment_and_expression_fixed.html">
+
+The result will be:
+
+<code>
+Result 42
+Assignment:
+Result 42
+</code>
