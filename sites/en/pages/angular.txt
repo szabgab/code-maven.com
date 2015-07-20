@@ -1,6 +1,6 @@
 =title AngularJS
 =timestamp 2015-02-01T07:30:01
-=indexes
+=indexes angular
 =status draft
 =books javascript, angularjs
 =author szabgab
