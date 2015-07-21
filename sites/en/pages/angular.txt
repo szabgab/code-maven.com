@@ -12,8 +12,10 @@
 
 =abstract end
 
-
-<try file="examples/js/angular_10.html">
+<ol>
+  <li><a href="/getting-started-with-angularjs">Getting Started with AngularJS (expressions)</a></li>
+  <li><a href="/angularjs-first-binding">AngularJS: First binding</a></li>
+</ol>
 
 
 Hello World with Controller:

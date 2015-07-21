@@ -1,6 +1,6 @@
 =title Getting started with AngularJS
 =timestamp 2015-07-20T23:30:01
-=indexes expressions
+=indexes ng-app, {{, }}
 =status show
 =books javascript, angularjs
 =author szabgab
