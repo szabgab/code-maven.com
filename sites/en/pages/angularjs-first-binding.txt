@@ -1,7 +1,7 @@
 =title AngularJS - first binding
-=timestamp 2015-07-21T07:30:01
+=timestamp 2015-07-24T07:30:01
 =indexes ng-model
-=status draft
+=status show
 =books angularjs, javascript
 =author szabgab
 =archive 1
