@@ -1,0 +1,124 @@
+=title Начало работы с AngularJS
+=timestamp 2015-08-01T13:52:01
+=indexes ng-app, {{, }}
+=status show
+=books javascript, angularjs
+=author szabgab
+=translator name2rnd
+=original getting-started-with-angularjs
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://angularjs.org/">AngularJS</a> это JavaScript фреймворк, который расширяет HTML.
+
+Здесь мы рассмотрим несколько простых примеров использования AngularJS.
+Для лучшего понимания, возможно, вы заходите взглянуть на <a href="http://www.angularjsbook.com/">AngularJS Book</a>
+от Chris Smith или <a href="https://www.ng-book.com/">ng-book</a> от Ari Lerner.
+
+=abstract end
+
+Чтобы начать работу с AngularJS, нам нужна HTML страница с тремя вещами:
+
+<h2>1) Загрузить angular.js</h2>
+
+Нам нужно загрузить файл angular.js с одного из CDN или с локального диска.
+
+Если вы хотите загрузить его с Google CDN, тогда добавьте в HTML такой код:
+
+<code>
+<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js"></script>
+</code>
+
+Если хотите использовать Cloudflare CDNjs, тогда такой:
+
+<code>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.2/angular.min.js"></script>
+</code>
+
+Также вы можете скачать файл angular.min.js, загрузить его на ваш сервер и подключить вот так:
+
+<code>
+<script src="angular.min.js"></script>
+</code>
+
+В примерах выше я использовал версию 1.4.2 AngularJS, но ко времени, когда вы будете читать эту статью,
+у Angular может выйти новый релиз, и, возможно, вы захотите использовать новую версию.
+
+<h2>2) Добавить ng-app</h2>
+
+Добавьте <hl>ng-app</hl> к одному из элементов на вашей странице. Все, имеющее этот элемент, будет рассматриваться
+как часть AngularJS кода. Мы можем добавить это к элементу <hl>html</hl>, <hl>body</hl>, 
+или даже <hl>div</hl>, как это сделано в нашем первом примере.
+
+<h2>3) Добавить выражение AngularJS.</h2>
+
+AngularJS имеет различные элементы. Выражение (<b>expression</b>) это фрагмент кода, помещенный в
+<hl>{{ }}</hl>. Он может содержать ограниченный набор выражений JavaScript.
+
+Теперь мы подошли к нашему первому примеру. Еще даже до написания Hello
+
+<h2>Hello World с AngularJS</h2>
+
+<try file="examples/angular/hello_world.html">
+
+В нашем самом первом примере выражение это просто фиксированная строка. Ничего особенного.
+Даже немного оскорбительно.
+
+И результат - <hl>Hello World</hl>.
+
+<h2>Простое выражение AngularJS</h2>
+
+В нашем следующем примере выражение это вычисление.
+
+<try file="examples/angular/first_expression.html">
+
+Результат - <hl>Hello Angular 42</hl>.
+
+Angular выполнил выражение и показал результат.
+
+Запомните, это работает в браузере, так что если вы нажмете "view source", то увидите 
+этот код как и обычный html файл.
+
+<h2>Переменные в выражениях AngularJS</h2>
+
+В следующем все еще очень простом примере, мы сможем увидеть, как можно присваивать значения переменным,
+а затем мы сможем использовать эти переменные в выражениях.
+
+Замечание: здесь мы не используем <hl>var</hl> для присвоения значений переменным, потому что
+это на самом деле атрибуты внутреннего объекта AngularJS.
+
+<try file="examples/angular/variables_in_expressions.html">
+
+<h2>Разделим установку переменной и ее использование на два выражения.</h2>
+
+Мы можем даже присвоить значение переменной в одном выражении, а использовать ее в другом.
+И не только. Даже расположение этих выражений в HTML не имеет значения.
+Как мы можем выдеть в следующем примере, мы можем использовать переменную даже до ее установки:
+
+<try file="examples/angular/assignment_and_expression.html">
+
+Результатом будет:
+
+<code>
+Result 42
+Assignment: 19
+Result 42
+</code>
+
+Здесь есть некоторая проблема: последний результат выражения, в котором мы присваиваем значение, тоже отображается.
+Вот поэтому мы видим 19 на странице.
+
+Для решения проблемы можно добавить другой оператор к выражению присваивания,
+который не будет возвращать видимого значения. Это может быть <hl>null</hl> или <hl>''</hl> (пустая строка).
+
+<try file="examples/angular/assignment_and_expression_fixed.html">
+
+Результатом будет:
+
+<code>
+Result 42
+Assignment:
+Result 42
+</code>
