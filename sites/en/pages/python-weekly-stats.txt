@@ -1,0 +1,68 @@
+=title Python Weekly statistics (using urllib2, HTMLParser and pickle)
+=timestamp 2015-08-02T16:30:01
+=indexes urllib2, pickle, HTMLParser
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The <a href="http://www.pythonweekly.com/">Python Weekly</a> is a weekly newsletter curated by Rahul Chaudhary
+and sent out every Thursday. It has an <a href="http://www.pythonweekly.com/archive/">archive</a>,
+though unfortunately I only found the first 81 issues in there and on July 30 2015 it was already issue 202.
+
+Nevertheless, I think it is an interesting exercise to collect link statistics from these issues.
+
+Specifically, I wanted to know which hosts are featured the most in the Python Weekly.
+
+=abstract end
+
+The result is that there were a total of 2399 links to 910 different hosts in the first 81 issues of the Python weekly.
+The top featured hosts were:
+
+<ul>
+<li><a href="http://github.com/">github.com</a> 420</li>
+<li><a href="http://www.meetup.com/">www.meetup.com</a> 134</li>
+<li><a href="http://jobs.pythonweekly.com/">jobs.pythonweekly.com</a> 106</li>
+<li><a href="http://www.amazon.com/">www.amazon.com</a> 66</li>
+<li><a href="http://www.youtube.com/">www.youtube.com</a> 45</li>
+<li><a href="http://meetup.bostonpython.com/">meetup.bostonpython.com</a> 31</li>
+<li><a href="http://bitbucket.org/">bitbucket.org</a> 27</li>
+<li><a href="http://launchbit.com/">launchbit.com</a> 21</li>
+<li><a href="http://code.google.com/">code.google.com</a> 20</li>
+<li><a href="http://www.slideshare.net/">www.slideshare.net</a> 20</li>
+<li><a href="http://vimeo.com/">vimeo.com</a> 17</li>
+<li><a href="http://meetup.dcpython.org/">meetup.dcpython.org</a> 15</li>
+<li><a href="http://www.djangoproject.com/">www.djangoproject.com</a> 14</li>
+<li><a href="http://cloud.google.com/">cloud.google.com</a> 14</li>
+<li><a href="http://eli.thegreenplace.net/">eli.thegreenplace.net</a> 14</li>
+<li><a href="http://www.ibm.com/">www.ibm.com</a> 13</li>
+<li><a href="http://morepypy.blogspot.com/">morepypy.blogspot.com</a> 12</li>
+<li><a href="http://blog.pythonisito.com/">blog.pythonisito.com</a> 12</li>
+<li><a href="http://www.djangonyc.org/">www.djangonyc.org</a> 11</li>
+<li><a href="http://speakerdeck.com/">speakerdeck.com</a> 11</li>
+<li><a href="http://jakevdp.github.com/">jakevdp.github.com</a> 11</li>
+<li><a href="http://inventwithpython.com/">inventwithpython.com</a> 10</li>
+<li><a href="http://charlesleifer.com/">charlesleifer.com</a> 10</li>
+<li><a href="http://emptysquare.net/">emptysquare.net</a> 10</li>
+<li><a href="http://www.mightydeals.com/">www.mightydeals.com</a> 10</li>
+<li><a href="http://pycon.blogspot.com/">pycon.blogspot.com</a> 10</li>
+<li><a href="http://www.blog.pythonlibrary.org/">www.blog.pythonlibrary.org</a> 9</li>
+<li><a href="http://www.jeffknupp.com/">www.jeffknupp.com</a> 8</li>
+<li><a href="http://radiofreepython.com/">radiofreepython.com</a> 8</li>
+<li><a href="http://agiliq.com/">agiliq.com</a> 8</li>
+<li><a href="http://pydanny.com/">pydanny.com</a> 8</li>
+<li><a href="http://googleappengine.blogspot.com/">googleappengine.blogspot.com</a> 8</li>
+<li><a href="http://net.tutsplus.com/">net.tutsplus.com</a> 8</li>
+<li><a href="http://tech.yipit.com/">tech.yipit.com</a> 8</li>
+<li><a href="http://www.mutualmobile.com/">www.mutualmobile.com</a> 8</li>
+<li><a href="http://www.python.org/">www.python.org</a> 8</li>
+</ul>
+
+
+<code lang="python">
+</code>
+
+<include file="examples/python/python_weekly_stats.py">
