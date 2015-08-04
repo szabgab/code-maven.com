@@ -1,0 +1,9 @@
+<script src="angular.min.js"></script>
+<script src="hello_user_controller.js"></script>
+<div ng-app="HelloUserApp">
+    <div ng-controller="HelloUserController">
+        <input ng-model="name" ng-keyup="NameChange()">
+        <h1>{{greeting}}</h1>
+        <h2>{{name}}</h2>
+    </div>
+</div>
