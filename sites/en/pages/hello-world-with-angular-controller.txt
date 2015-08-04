@@ -59,7 +59,7 @@ This was a fairly simple example with a hard-coded value assigned to an attribut
 Let's see a slightly more complex example in which we handle input from the user and process that input in
 the controller. The processing will be very simple, just concatenating with a fixed string.
 
-<include file="examples/angular/hello_world_controller.js">
+<include file="examples/angular/hello_user_controller.js">
 
 In this case, the attribute <hl>NameChange</hl> we add to the <hl>$scope</hl> is a function
 and that function will create the <hl>$scope.greeting</hl> attribute using the value from the
@@ -67,7 +67,7 @@ and that function will create the <hl>$scope.greeting</hl> attribute using the v
 
 In the HTML
 
-<try file="examples/angular/hello_world_controller.html">
+<try file="examples/angular/hello_user_controller.html">
 
 The <hl>ng-model="name"</hl> connects the input element to the <hl>$scope.name</hl>.
 
