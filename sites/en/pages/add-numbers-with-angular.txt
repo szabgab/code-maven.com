@@ -1,0 +1,58 @@
+=title Add numbers with AngularJS
+=timestamp 2015-06-01T07:30:01
+=indexes ng-controller, ng-model
+=status draft
+=books angularjs, javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+After writing the most basic examples, I wanted to create a small calulator with Angular. It is one of the simplest
+code examples I can imagine after the "Hello World" and "Echo" examples.
+
+So I set out to create a page using <a href="/angular">AngularJS</a> that will add two numbers.
+
+=abstract end
+
+<h2>Add naive</h2>
+
+The naive solution, that did not work was to have two <hl>input</hl> elements with <hl>ng-model</hl> for 'a' and 'b'
+and then to have an expression adding the two values.
+
+<try file="examples/angular/add.html">
+
+Unfortunately JavaScript and thus Angular handles the input values as strings, even if they are really numbers
+in those strings and then using the <hl>+</hl> operator on the strings acts as concatenation. Thus, if we try
+the above examples and type 2 and 3 in the two boxes, we'll see 23 as output.
+
+<h2>Add numbers with controller</h2>
+
+First, just like in the <a href="/hello-world-with-angular-controller">Hello User</a> example,
+we <a href="/hello-world-with-angular-controller">create a module and a controller</a>
+Within the controller we create a function called <hl>AddNumbers</hl> attached to the
+<hl>$scope</a>. In that function we take the values from the two <hl>input</hl> elements
+and convert them to <hl>Number</hl> with plain JavaScript function call. (In order to aviod using
+and <hl>undefined</hl> value we default both numbers to 0.) Then we add the values and
+assign it to the newly created <hl>sum</hl> attribute.
+
+<include file="examples/angular/add_numbers_controller.js">
+
+In the HTML file we can then use that <hl>sum</hl> attribute as part of a simple expression.
+In order to trigger the <hl>AddNumbers</hl> function, we also add <hl>ng-keyup</hl> attributes
+to both of the <hl>input</hl> elements:
+
+<try file="examples/angular/add_numbers_controller.html">
+
+Try it! It works great!
+
+While I was writing this I had this thought that there must be a more simple solution,
+that this might be over-engineering this problem and indeed there is a much easier solution.
+
+<h2>Add numbers</h2>
+
+As it turns out it is quite easy to tell Angular that we would like to treat the values as numbers.
+We only need to add <hl>type="number"</hl> to each one of <hl>input</hl> elements:
+
+<try file="examples/angular/add_numbers.html">
