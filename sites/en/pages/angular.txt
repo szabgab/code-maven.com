@@ -16,5 +16,6 @@
   <li><a href="/getting-started-with-angularjs">Getting Started with AngularJS (expressions)</a></li>
   <li><a href="/angularjs-first-binding">AngularJS: First binding</a></li>
   <li><a href="/hello-world-with-angular-controller">Hello World with AngularJS module and controller</a></li>
+  <li><a href="/add-numbers-with-angular">Add numbers with AngularJS</a></li>
 </ol>
 
