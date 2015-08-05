@@ -1,0 +1,17 @@
+<script src="angular.min.js"></script>
+<script>
+angular.module("CounterApp", [])
+    .controller("CounterController", function($scope) {
+        $scope.counter = 0;
+        $scope.decrement = function() {
+            $scope.counter--;
+        };
+})
+</script>
+<div ng-app="CounterApp">
+    <div ng-controller="CounterController">
+        <button ng-click="counter = counter + 1">Increment</button>
+        <button ng-click="decrement()">Decrement</button>
+        {{counter}}
+    </div>
+</div>
