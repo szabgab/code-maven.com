@@ -17,5 +17,6 @@
   <li><a href="/angularjs-first-binding">AngularJS: First binding</a></li>
   <li><a href="/hello-world-with-angular-controller">Hello World with AngularJS module and controller</a></li>
   <li><a href="/add-numbers-with-angular">Add numbers with AngularJS</a></li>
+  <li><a href="/simple-in-memory-counter-with-angularjs">Simple in-memory counter with AngularJS</a>
 </ol>
 
