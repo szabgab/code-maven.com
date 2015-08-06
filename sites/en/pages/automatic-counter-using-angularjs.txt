@@ -1,0 +1,106 @@
+=title Automatic counter and the clock using AngularJS
+=timestamp 2015-08-06T21:00:01
+=indexes $timeout, ng-click
+=status show
+=books angularjs, javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We have seen <a href="/simple-in-memory-counter-with-angularjs">how to create a counter in AngularJS</a> in which we incremented (or deceremented) the counter by clicking
+on a button. In this example we'll automatically increased the counter as time passes.
+
+Don't forget to check out the other <a href="http://perlmaven.com/counter">counter examples</a>!
+
+=abstract end
+
+<h2>Schedule future execution using $timeout</h2>
+
+<try file="examples/angular/automatic_counter.html">
+
+In this example the controller function expects two parameters, the <hl>$scopt</hl>
+that contains the attributes we interact with in our HTML page and<hl>$timeout</hl>
+which is a function similar to the plain JavaScript <hl>setTimeout</hl> function.
+(Atually this is called <b>dependency injection</b> and not parameters, but let's not worry about that now.
+Especially as I don't understand it yet.)
+
+<hl>$timeout</hl> is a function that receives two parameters: a callback function object and a time expressed in millisecond.
+It schedules the execution of the function object delayed by the time given. Passing 1000 as the second parameter
+means we want the callback function to run 1 second after this call was made.
+
+Inside the controller function the first thing is that we create an attribute called <hl>counter</hl> and
+set the default value of it to 0. We want to start counting from 0.
+
+Then we create a function called <hl>updateCounter</hl> that, when called, will increment the <hl>counter</hl> and use <hl>$timeout</hl>
+to schedule itself 1 second later as well. Effectively this means that every time <hl>updateCounter</hl> runs,
+it increments the counter and asks the system to run it again 1 second later. This means the function will run every 1 second.
+
+Then the last step is to call <hl>updateCounter</hl> for the first time to initiate the endless loop.
+
+<h2>Counter with stop button</h2>
+
+this timer will be executed every second, but if we would like to stop it?
+We'll see an example with an additional button, that will stop the counter.
+
+<hl>$timeout</hl> returns a <hl>promise</hl> object we can later use to cancel the timer.
+In order to have that <hl>promise</hl> available to us when needed, I've created a variable
+called <hl>timer</hl> and assigned the return value of <hl>$timeout</hl> to it.
+(Of course I could have used any name here.)
+
+Then I've added a button to the HTML and using <hl>ng-click</hl> configured it to run then
+<hl>stopCounter</hl> method when clicked.
+
+The only thing left was to create the <hl>stopCounter</hl> method.
+
+At first I created it using <hl>var stopCounter = function() { ... }</hl>
+just as the <hl>updateCounter</hl>, but that did not work. Because we want to
+call it from the HTML, we need to add this method to the <hl>$scope</hl>. Hence
+I had to change the definition to be:
+<hl>$scope.stopCounter = function() { ... }</hl>.
+
+Inside we have the statement <hl>$timeout.cancel(timer);</hl> that will cancel the
+timer. Go ahead. Try it!
+
+<try file="examples/angular/automatic_counter_with_stop.html">
+
+
+<h2>Counter with stop and start buttons</h2>
+
+As an extra feature I wanted to see how can I add another button, to start the counter again.
+
+The first version was simple. I just added a button and a new function:
+
+<code lang="javascript">
+$scope.startCounter = function() {
+    updateCounter();
+};
+</code>
+
+and the corresponding HTML button to call it.
+
+The problem with this solution was that it allowed me to click the start button
+several times in a row and the counter started to go much faster and sometimes jumped by 2 or by 3.
+What actually happened that every time I clicked on the <hl>start</hl> button, a new timer
+was created and I had several timers waiting in parallel.
+
+I had to somehow make sure that only one timer exists at any given time. Either by disabling
+the <hl>start</hl< button after it was clicked or by checking if there is already a live
+timer and launching a new one only if there was no live counter.
+
+I picked this solution as I was more interested in the JavaScript/AngularJS solution.
+I had to make two changes. One in the <hl>stopCounter</hl> function. I've added
+
+<code lang="javascript">
+timer = null;
+</code>
+
+After all once we have cancelled the timer, there is no point in having an unusable
+object around.
+
+Then in the <hl>startCounter</hl> I could check if <hl>timer</hl> is not <hl>null</hl>
+and create the new $timeout object only if the timer was <hl>null</hl>.
+
+
+<try file="examples/angular/automatic_counter_with_stop_star.html">
