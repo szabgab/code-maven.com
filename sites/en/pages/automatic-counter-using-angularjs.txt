@@ -1,4 +1,4 @@
-=title Automatic counter and the clock using AngularJS
+=title Automatic counter using AngularJS
 =timestamp 2015-08-06T21:00:01
 =indexes $timeout, ng-click
 =status show
@@ -86,7 +86,7 @@ What actually happened that every time I clicked on the <hl>start</hl> button, a
 was created and I had several timers waiting in parallel.
 
 I had to somehow make sure that only one timer exists at any given time. Either by disabling
-the <hl>start</hl< button after it was clicked or by checking if there is already a live
+the <hl>start</hl> button after it was clicked or by checking if there is already a live
 timer and launching a new one only if there was no live counter.
 
 I picked this solution as I was more interested in the JavaScript/AngularJS solution.
@@ -103,4 +103,4 @@ Then in the <hl>startCounter</hl> I could check if <hl>timer</hl> is not <hl>nul
 and create the new $timeout object only if the timer was <hl>null</hl>.
 
 
-<try file="examples/angular/automatic_counter_with_stop_star.html">
+<try file="examples/angular/automatic_counter_with_stop_start.html">
