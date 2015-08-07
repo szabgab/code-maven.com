@@ -1,0 +1,16 @@
+<script src="angular.min.js"></script>
+<script>
+angular.module('todoApp', [])
+    .controller('todoController', function($scope){
+        $scope.tasks = [];
+        $scope.add = function() {
+            $scope.tasks.push($scope.title);
+        }
+    })
+</script>
+<div ng-app="todoApp" ng-controller="todoController">
+    <input ng-model="title"><button ng-click="add()">Add</button>
+    <ul>
+        <li ng-repeat="t in tasks">{{ t }}</li>
+    </ul>
+</div>

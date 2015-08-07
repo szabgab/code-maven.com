@@ -41,4 +41,4 @@ This is what allows us to use the function in the Angular directive inside the H
 The JavaScript code calculating the result of the simple math operations is straight forward
 albeit a bit boring.
 
-<try file="examples/angular/calculator.js">
+<include file="examples/angular/calculator.js">
