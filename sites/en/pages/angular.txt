@@ -1,4 +1,4 @@
-=title AngularJS
+=title AngularJS Tutorial
 =timestamp 2015-02-01T07:30:01
 =indexes angular
 =status draft
@@ -9,6 +9,13 @@
 
 =abstract start
 
+<a href="https://angularjs.org/">AngularJS</a> is a JavaScript framework that enhances HTML.
+
+Here you'll find a few simple examples using AngularJS, slowly building up to become a Tutorial.
+
+For other introductions you might want to look at the <a href="http://www.angularjsbook.com/">AngularJS Book</a> by Chris Smith
+or the <a href="https://www.ng-book.com/">ng-book</a> by Ari Lerner. Once you get over the first steps, reading the
+<a href="https://docs.angularjs.org/">AngularJS API and documentation</a> becomes quite useful.
 
 =abstract end
 
@@ -17,6 +24,7 @@
   <li><a href="/angularjs-first-binding">AngularJS: First binding</a></li>
   <li><a href="/hello-world-with-angular-controller">Hello World with AngularJS module and controller</a></li>
   <li><a href="/add-numbers-with-angular">Add numbers with AngularJS</a></li>
-  <li><a href="/simple-in-memory-counter-with-angularjs">Simple in-memory counter with AngularJS</a>
+  <li><a href="/simple-in-memory-counter-with-angularjs">Simple in-memory counter with AngularJS</a></li>
+  <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
+  <li><a href="/calculator-in-angularjs">A calculator in AngularJS</a></li>
 </ol>
-

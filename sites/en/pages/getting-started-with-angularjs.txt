@@ -9,13 +9,7 @@
 
 =abstract start
 
-<a href="https://angularjs.org/">AngularJS</a> is a JavaScript framework that enhances HTML.
-
-Here you'll find a few simple examples using AngularJS.
-
-For a better introduction you might want to look at
-the <a href="http://www.angularjsbook.com/">AngularJS Book</a> by Chris Smith
-or the <a href="https://www.ng-book.com/">ng-book</a> by Ari Lerner.
+<a href="/angular">AngularJS</a> is a JavaScript framework that enhances HTML.
 
 =abstract end
 
