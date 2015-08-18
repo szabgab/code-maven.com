@@ -83,7 +83,7 @@ The appropriate <hl>delete</hl> function made me scratch my head a bit, but fina
 got it:
 
 <code lang="javascript">
-$scope.delete = function(v) {
+$scope.delete = function() {
     $scope.tasks.splice(this.$index, 1);
 }
 </code>

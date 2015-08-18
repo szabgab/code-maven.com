@@ -27,4 +27,5 @@ or the <a href="https://www.ng-book.com/">ng-book</a> by Ari Lerner. Once you ge
   <li><a href="/simple-in-memory-counter-with-angularjs">Simple in-memory counter with AngularJS</a></li>
   <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
   <li><a href="/calculator-in-angularjs">A calculator in AngularJS</a></li>
+  <li><a href="/todo-in-angularjs">TODO in AngularJS</a> Submit input box on pressing ENTER. ng-repeate and handling duplicate values in ng-repeate.</li>
 </ol>
