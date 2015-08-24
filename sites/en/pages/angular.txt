@@ -1,8 +1,8 @@
 =title AngularJS Tutorial
-=timestamp 2015-02-01T07:30:01
+=timestamp 2015-08-24T12:30:01
 =indexes angular
-=status draft
-=books javascript, angularjs
+=status show
+=books angularjs, javascript
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
