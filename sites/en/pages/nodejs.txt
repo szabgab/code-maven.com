@@ -1,15 +1,25 @@
 =title Node.js
-=timestamp 2015-06-03T08:04:00
+=timestamp 2015-09-15T08:04:00
 =indexes Node.js
 =status show
 =books nodejs
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
-=redirect /category/nodejs
 
 =abstract start
 
-Just redirecting, before creating a proper page for Node.js.
-
 =abstract end
+
+<ul>
+  <li><a href="/getting-started-with-nodejs">Getting started with Node.js</a></li>
+  <li><a href="/reading-a-file-with-nodejs">Reading a file with Node.js - blocking and non-blocking</a></li>
+  <li><a href="/argv-raw-command-line-arguments-in-nodejs">argv - raw command line arguments in Node.js</a></li>
+  <li><a href="/how-to-exit-a-nodejs-script">How to exit a Node.js script</a></li>
+  <li><a href="/system-information-about-a-file-or-directory-in-nodejs">How to get system information of a file or directory in Node.js (stat)</a></li>
+  <li><a href="/list-content-of-directory-with-nodejs">List content of a directory with Node.js</a></li>
+  <li><a href="/http-client-request-in-nodejs">HTTP Client request in Node.js (GET request and data from POST request)</a></li>
+  <li><a href="/building-a-crawler-in-nodejs">Building a web client (a crawler) using Node.js</a></li>
+  <li><a href="/javascript-function-that-accepts-any-number-of-arguments">JavaScript function that accepts any number of arguments</a></li>
+  <li><a href="/using-underscore-in-nodejs-and-in-the-borwser">Using Underscore in Node.js and in the browser</a></li>
+</ul>
