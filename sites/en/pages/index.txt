@@ -10,6 +10,21 @@
 <h2>Welcome to the Code Maven!</h2>
 
 <div class="main-content">
+<ul>
+  <li><a href="/angular">AngularJS Tutorial</a></li>
+  <li><a href="/flask">Flask</a>, the Python microframework.</li>
+  <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
+  <li><a href="/javascript">JavaScript</a></li>
+  <li><a href="/node">NodeJS</a></li>
+  <li><a href="/python">Python</a></li>
+  <li><a href="/ruby">Ruby</a></li>
+  <li><a href="/svg">SVG</a></li>
+  <li><a href="http://perlmaven.com/">Perl</a></li>
+</ul>
+</div>
+
+
+<div class="main-content">
 For now, just read the articles...
 <p>
 If you want to make sure you don't miss any new articles, you can <a href="http://code-maven.com/pm/register">subscribe</a> to the

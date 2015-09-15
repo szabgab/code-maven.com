@@ -16,11 +16,15 @@ This is the collection of Flask articles on the Code Maven site.
 
 =abstract end
 
+<h2>Flask Tutorial</h2>
+
 <ul>
   <li><a href="/hello-world-with-flask-and-python">Hello World</a></li>
   <li><a href="/echo-with-flask-and-python">Echo</a></li>
   <li><a href="/using-templates-in-flask">Using Templates</a></li>
 </ul>
+
+<h2>Other Flask articles</h2>
 
 <ul>
   <li><a href="/a-polling-station-with-flask">A polling station using Flask</a></li>
