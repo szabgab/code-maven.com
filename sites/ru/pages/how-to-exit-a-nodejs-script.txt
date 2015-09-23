@@ -19,5 +19,5 @@
 
 У встроенного модуля <a href="http://nodejs.org/api/process.html">process</a> есть метод <a href="http://nodejs.org/api/process.html#process_process_exit_code">exit</a>:
 
-<include file="examples/process_exit.js">
+<include file="examples/node/process_exit.js">
 

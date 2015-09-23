@@ -23,7 +23,7 @@ Node предоставляет библиотеку <a href="http://nodejs.org/
 
 Для этого мы можем использовать метод <a href="http://nodejs.org/api/fs.html#fs_fs_readfile_filename_options_callback">readFile</a> из класса <hl>fs</hl>.
 
-<include file="examples/non-blocking-read-file.js">
+<include file="examples/node/non-blocking-read-file.js">
 
 Для начала мы загружаем класс <hl>fs</hl> с помощью команды <hl>require</hl>. Затем вызываем метод <hl>readFile</hl>, который получает 3 параметра: имя файла ('DATA' в нашем случае), кодировку файла ('utf8' в примере) и функцию. Эта функция будет вызывана, когда завершится операция чтения файла. Функция получит два параметра. Первый - информация о каких-либо ошибках, второй - содержимое файла.
 
@@ -36,4 +36,4 @@ Node предоставляет библиотеку <a href="http://nodejs.org/
 
 Для чтения файлов вы можете использовать метод <a href="http://nodejs.org/api/fs.html#fs_fs_readfilesync_filename_options">readFileSync</a> из класса <hl>fs</hl>:
 
-<include file="examples/blocking-read-file.js">
+<include file="examples/node/blocking-read-file.js">

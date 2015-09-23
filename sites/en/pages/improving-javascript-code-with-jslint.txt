@@ -168,5 +168,5 @@ I went with the slightly cumbersome solution and replaced <hl>i++</hl> by <hl>i 
 
 This brought me to this result:
 
-<include file="examples/sum_numbers_fixed.js">
+<include file="examples/js/sum_numbers_fixed.js">
 
