@@ -1,0 +1,107 @@
+=title Range in Ruby
+=timestamp 2015-09-24T23:30:01
+=indexes .., ..., to_a, reverse
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Ruby has two operators to generate a range of values. <hl>..</hl> is inclusive and <hl>...</hl> is exclusive.
+
+=abstract end
+
+<h2>..</h2>
+
+<include file="examples/ruby/range_two.rb">
+
+Will generate
+
+<code>
+0
+1
+2
+3
+</code>
+
+including the beginning and the end similar to how the range in Perl works.
+
+<h2>...</h2>
+
+If we use 3 dots instead of two, then the range
+will include the lower limit, but not the higher limit.
+Similar to how <hl>range</hl> in Python works.
+
+<include file="examples/ruby/range_three.rb">
+
+<code>
+0
+1
+2
+</code>
+
+
+<h2>reverse range</h2>
+
+If the limit on the left hand side is higher than on the right hand side,
+the range operator won't return any values.
+
+<include file="examples/ruby/range_two_wrong.rb">
+
+It does not return any value.
+
+As an alternative we can create a growing list of number and then call the <hl>reverse</hl> method on them.
+For this however first we need to convert the rnage to an array:
+
+<include file="examples/ruby/range_two_reverse.rb">
+
+printing:
+
+<code>
+7
+6
+5
+4
+</code>
+
+
+<h2>Range of letters</h2>
+
+In additonal to ceating ranges of numbers, Ruby can also create a range of letters:
+
+<include file="examples/ruby/range_letters.rb">
+
+<code>
+a
+b
+c
+d
+</code>
+
+<h2>Range of characters</h2>
+
+Not only that, but we can use any two characters in the visible part of the ASCII table:
+
+<include file="examples/ruby/range_chars.rb">
+
+<code>
+Z
+[
+\
+]
+^
+_
+`
+a
+</code>
+
+
+<h2>Range with variables</h2>
+
+We can also use variables as the lower and upper limits:
+
+<include file="examples/ruby/range_var.rb">
+
+
