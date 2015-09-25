@@ -146,4 +146,20 @@ Fetched 1 record(s) in 0ms
 Fetched 2 record(s) in 1ms
 </code>
 
+<h2>findAndModify and upsert</h2>
+
+An even better solution is to use the <hl>findAndModify</hl> function call, and even include an
+<hl>upsert</hl> field to make sure the docuemnt is created if it does not exist.
+
+<code>
+> db.counter.findAndModify({ query: { '_id' : 'y' }, update : { '$inc' : { val : 1 } }, new: true, upsert: true })
+{
+  "_id": "y",
+  "val": 1
+}
+</code>
+
+
+
+
 
