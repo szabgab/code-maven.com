@@ -1,6 +1,6 @@
 =title Counter in MongoDB client
 =timestamp 2015-09-25T10:30:01
-=indexes MongoDB, insert, find, update, _id, $inc
+=indexes MongoDB, insert, find, update, _id, $inc, findAndModify, upsert
 =status show
 =books mongodb
 =author szabgab
