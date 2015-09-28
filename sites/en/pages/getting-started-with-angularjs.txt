@@ -9,7 +9,7 @@
 
 =abstract start
 
-<a href="/angular">AngularJS</a> is a JavaScript framework that enhances HTML.
+<a href="/angularjs">AngularJS</a> is a JavaScript framework that enhances HTML.
 
 =abstract end
 

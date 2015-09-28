@@ -9,7 +9,7 @@
 
 =abstract start
 
-When learning <a href="/angular">AngularJS</a>, or any other <a href="/javascript">JavaScript</a>
+When learning <a href="/angularjs">AngularJS</a>, or any other <a href="/javascript">JavaScript</a>
 framework for building Single Page Web Applications you can go only so far without a back-end to
 access.
 

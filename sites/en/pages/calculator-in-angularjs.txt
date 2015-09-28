@@ -15,7 +15,7 @@ this example. A simple calculator in AngularJS.
 
 =abstract end
 
-If you have followed the <a href="/angular">previous articles</a> then you'll see in this case
+If you have followed the <a href="/angularjs">previous articles</a> then you'll see in this case
 I've separated the HTML part and the JavaScript part.
 
 <h2>The HTML</h2>

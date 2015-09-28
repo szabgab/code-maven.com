@@ -12,7 +12,7 @@
 After writing the most basic examples, I wanted to create a small calulator with Angular. It is one of the simplest
 code examples I can imagine after the "Hello World" and "Echo" examples.
 
-So I set out to create a page using <a href="/angular">AngularJS</a> that will add two numbers.
+So I set out to create a page using <a href="/angularjs">AngularJS</a> that will add two numbers.
 
 =abstract end
 

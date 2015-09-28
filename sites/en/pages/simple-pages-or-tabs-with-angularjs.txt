@@ -1,0 +1,26 @@
+=title Simple pages or tabs using AngularJS
+=timestamp 2015-09-28T13:30:01
+=indexes files
+=status draft
+=books angularjs
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Even though we are calling this applications <b>"Single Page Applications"</b>, because we let the browser talk to the server behind the
+scenes, in the end in many application we'll have multiple "views". For example Gmail has the "list inbox" view and the "show single email" view
+and probably a few other views.
+
+=abstract end
+
+<h2>Simple page with multiple tabs</h2>
+
+This is probably the most simple implementation:
+
+<try file="examples/angular/simple_tabs.html">
+
+We create a variable called <hl>page</hl> which is actually connectected to the <hl>$scope</hl>
+
+

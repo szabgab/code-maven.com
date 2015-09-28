@@ -11,7 +11,7 @@
 
 <div class="main-content">
 <ul>
-  <li><a href="/angular">AngularJS Tutorial</a></li>
+  <li><a href="/angularjs">AngularJS Tutorial</a></li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
   <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
   <li><a href="/javascript">JavaScript</a></li>
