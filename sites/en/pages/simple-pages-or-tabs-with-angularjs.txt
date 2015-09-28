@@ -19,7 +19,7 @@ and probably a few other views.
 
 This is probably the most simple implementation:
 
-<try file="examples/angular/simple_tabs.html">
+<try file="examples/angular/simple_pages.html">
 
 We create a variable called <hl>page</hl> which is actually connectected to the <hl>$scope</hl>
 
