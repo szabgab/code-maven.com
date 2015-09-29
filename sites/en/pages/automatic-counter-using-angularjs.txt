@@ -20,7 +20,7 @@ Don't forget to check out the other <a href="http://perlmaven.com/counter">count
 
 <try file="examples/angular/automatic_counter.html">
 
-In this example the controller function expects two parameters, the <hl>$scopt</hl>
+In this example the controller function expects two parameters, the <hl>$scope</hl>
 that contains the attributes we interact with in our HTML page and<hl>$timeout</hl>
 which is a function similar to the plain JavaScript <hl>setTimeout</hl> function.
 (Atually this is called <b>dependency injection</b> and not parameters, but let's not worry about that now.
