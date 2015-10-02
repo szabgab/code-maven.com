@@ -1,10 +1,10 @@
 <h1>Title</h1>
 
 <div id="ad_code_maven">
-This is shown to people arriving from another Code-Maven page.
+Internal visitor arriving from another Code-Maven page.
 </div>
 <div id="ad_others">
-This is shown to people arriving from anywhere except any other Code-Maven page.
+This is shown to people arriving from outside of th Code-Maven site.
 </div>
 
 
@@ -16,8 +16,9 @@ Text.
 
 <script>	
 console.log(document.referrer);
+console.log(document.referrer.split('/')[2]);
 
-if (document.referrer === 'http://code-maven.com/') { 
+if (document.referrer.split('/')[2] === 'code-maven.com') { 
     document.getElementById('ad_code_maven').style.display = 'block'; 
     document.getElementById('ad_others').style.display = 'none'; 
 } else {
