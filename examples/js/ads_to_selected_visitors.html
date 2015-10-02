@@ -1,0 +1,27 @@
+<h1>Title</h1>
+
+<div id="ad_code_maven">
+This is shown to people arriving from another Code-Maven page.
+</div>
+<div id="ad_others">
+This is shown to people arriving from anywhere except any other Code-Maven page.
+</div>
+
+
+
+<p>
+Text.
+</p>
+
+
+<script>	
+console.log(document.referrer);
+
+if (document.referrer === 'http://code-maven.com/') { 
+    document.getElementById('ad_code_maven').style.display = 'block'; 
+    document.getElementById('ad_others').style.display = 'none'; 
+} else {
+    document.getElementById('ad_code_maven').style.display = 'none'; 
+    document.getElementById('ad_others').style.display = 'block'; 
+}
+</script>

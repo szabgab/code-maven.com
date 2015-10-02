@@ -1,0 +1,23 @@
+=title Show ads to visitors based on referrer
+=description Show or hide HTML snippets (ads or anything else) to people based on the previously visited site.
+=timestamp 2015-02-01T07:30:01
+=indexes JavaScript
+=status draft
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+People who arrive to my site from Google are usually new visitors. I'd like to treat them differently from other visitors and
+show them a special offer to register to our newsletter.
+
+
+=abstract end
+
+
+
+<try file="examples/js/ads_to_selected_visitors.html">
+
+
