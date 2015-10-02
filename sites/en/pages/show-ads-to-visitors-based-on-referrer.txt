@@ -1,8 +1,8 @@
 =title Show ads to visitors based on referrer
 =description Show or hide HTML snippets (ads or anything else) to people based on the previously visited site.
-=timestamp 2015-02-01T07:30:01
-=indexes JavaScript
-=status draft
+=timestamp 2015-10-02T18:30:01
+=indexes JavaScript, document.referre, document.getElementById, style.display
+=status show
 =books javascript
 =author szabgab
 =archive 1
@@ -10,14 +10,29 @@
 
 =abstract start
 
-People who arrive to my site from Google are usually new visitors. I'd like to treat them differently from other visitors and
-show them a special offer to register to our newsletter.
-
+You might want to treat visitors to your site differently based on where they came from. Especially if they came from another
+page on the same site. You can easily achieve this using some JavaScript code and looking at the <hl>referrer</hl>.
 
 =abstract end
 
-
-
 <try file="examples/js/ads_to_selected_visitors.html">
+
+In most browsers the attribute <hl>document.referrer</hl> contains the page that was visited earlier.
+It is normally set by the browser wen you click on a link or when you are somehow forwarded from one page to another.
+
+If you type in a new URL in the address bar and press ENTER them this attriibute will be empty.
+
+We can use this attribute to identify which other site and which page sent the visitor to us.
+We can use the full value in <hl>document.referrer</hl> or we can extract part of if. For example
+<hl>document.referrer.split('/')[2]</hl> will extract the domain name.
+
+
+We can then locate an HTML element using <hl>getElementById</hl> and the <hl>id</hl> of the element and we can
+set the <hl>display</hl> attribute  to either <hl>'none'</hl> to remove the element  from the DOM and make it disappear,
+or we can set it to <hl>'block'</hl> to show it. (We could also set it to <hl>'inline'</hl> if you'd like to show it in the
+same line as another element. There are a few additional values it can take, but these are the most common.
+
+In our code example we have two <hl>div</hl> elements. One of them is shown to 'internal visitors', the others to everyone else.
+Of course, you could use similar conditions to show specific message to people coming from Google or from any other site.
 
 
