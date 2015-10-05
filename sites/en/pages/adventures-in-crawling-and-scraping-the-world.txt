@@ -138,5 +138,11 @@ fetch http://example.com/abc instead?
    <li><a href="http://www.oreilly.com/openbook/webclient/">Web Client Programming with Perl</a></li>
 </ul>
 
+<h2>Other</h2>
+
+<ul>
+  <li><a href="http://scrapinghub.com/">Scraping Hub</a> is scraping as a service.</li>
+  <li><a href="https://www.deepcrawl.com/">DeepCrawl</a></li>
+</ul>
 
 
