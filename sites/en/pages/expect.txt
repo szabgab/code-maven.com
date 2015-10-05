@@ -1,7 +1,7 @@
 =title What is Expect
 =timestamp 2015-10-05T08:30:01
 =indexes Expect
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -110,9 +110,23 @@ Though I was not very surprised when it gave <a href="https://en.wikipedia.org/w
 
 Then when I wanted to leave, at first time my expectation was not met.
 
+<h2>What if something goes wrong?</h2>
+
+In the above interaction almost everything was perfect. Just as we <b>expected</b>. (Except when we typed in <hl>exit</hl> and it returned 0.)
+In the real world however all kinds of things can go wrong and we have to handle those situations as well. For example what if we try to
+access the remote server using <hl>ssh</hl> but the server is down or it is otherwise busy. The ssh client might quite and our own local shell
+would print our local prompt without giving any error message. It might give some error message and then show the local prompt. Or it might just wait.
+And wait. As humans, after a while we would conclude that the remote server is not responding, press Ctrl-C and leave <hl>ssh</hl>.
+
+Even if the remote server works it can have several different responses when we try to access it. If we have the appropriate private-key/public-key pair
+it will let us in and we'll see the remote banner and remote prompt. Otherwise it will prompt for a <hl>Username:</hl> and a <hl>Password:</hl>. 
+In other cases it might assume the same username we have on our local system and prompt only for <hl>Password:</hl>.
+
+When writing an automated script we'll have to make sure it can handle all these cases and probably all kinds of other cases I have not thought about.
+
 <h2>What is Expect then?</h2>
 
-So <hl>Expect</hl> is a tool that will help us automate the interaction of any application with a Command Line Interface (CLI).
+So <hl>Expect</hl> is a tool that will help us automate the interaction with any application that has a Command Line Interface (CLI).
 
 There are a number of implementation of Expect in a number of programming languages. Their features and their usage differs from each other,
 but in general they try to provide an easy automation of CLI apps.
@@ -123,4 +137,5 @@ but in general they try to provide an easy automation of CLI apps.
   <li><a href="https://github.com/pexpect/pexpect">pexpect in Python</a>
   <li>Ruby rexpect</a>
 </ul>
+
 
