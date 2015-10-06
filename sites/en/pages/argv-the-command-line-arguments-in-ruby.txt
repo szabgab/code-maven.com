@@ -1,0 +1,86 @@
+=title ARGV - the command line arguments of a Ruby program
+=timestamp 2015-10-06T22:30:01
+=indexes ARGV, to_i
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When you run a script written in Ruby you can put all kinds of values on the command line after the name of the script:
+
+For example:
+
+<hl>ruby code.rb abc.txt  def.txt qqrq.txt</hl>
+
+or like this:
+
+<hl>ruby code.rb Hello --machine big -d -tl</hl>
+
+The question though, how can the Ruby program know what was given on the command line?
+
+=abstract end
+
+Ruby maintains an array called <hl>ARGV</hl> with the values passed on the command line.
+We can access the elements of this array, just as any other array:
+
+<hl>ARGV[0]</hl> is going to be the first value after the name of the script.
+
+We can iterate over the elements either directly with a <hl>for</hl> loop:
+
+<include file="examples/ruby/command_line_argv.rb">
+
+or iterating over the <a href="/range-in-ruby">range</a> of indexes,
+and accessing the elements using that index.
+
+<include file="examples/ruby/command_line_argv_with_index.rb">
+
+<code>
+$ ruby command_line_argv_with_index.rb foo bar --machine big
+0 foo
+1 bar
+2 --machine
+3 big
+</code>
+
+
+<h2>Verifying the number of arguments</h2>
+
+For a simple input validation we can check the length of the <hl>ARGV</hl>
+array. Report if we have not received enough arguments and exit the program early.
+
+<include file="examples/ruby/command_line_argv_check_length.rb">
+
+Running this script we get:
+
+<code>
+$ ruby command_line_argv_check_length.rb one
+Too few arguments
+
+$ ruby command_line_argv_check_length.rb one two
+Working on ["one", "two"]
+</code>
+
+
+<h2>Values received on the command line are strings</h2>
+
+In this snippet of code we first check if we got exactly 2 parameters and we do, we add them together:
+
+<include file="examples/ruby/command_line_argv_add.rb">
+
+<code>
+ruby command_line_argv_add.rb 23 19
+2319
+</code>
+
+The result might not be surprising to you if you know that the values the user passes on the command line are received as strings.
+Eeven if they are actually numbers.  If we would like to use them as number we have to convert them using <hl>to_i</hl>:
+
+<code>
+$ ruby command_line_argv_add_numbers.rb 23 19
+42
+</code>
+
+

@@ -1,4 +1,4 @@
-=title Show ads to visitors based on referrer
+=title Show ads to visitors based on referrer using JavaScript only
 =description Show or hide HTML snippets (ads or anything else) to people based on the previously visited site.
 =timestamp 2015-10-02T18:30:01
 =indexes JavaScript, document.referre, document.getElementById, style.display
