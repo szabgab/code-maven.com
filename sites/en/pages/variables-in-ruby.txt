@@ -1,0 +1,62 @@
+=title Variables and Variable Interpolation in Ruby
+=timestamp 2015-10-06T10:50:01
+=indexes puts, +, #{}
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Using simple values as in <a href="/getting-started-with-ruby">introduction to Ruby</a> article will get you bored soon. It is much more interesting
+to create names that can hold values and then use those names. These names we call "variables", because usually their content can be changes.
+
+=abstract end
+
+Variable nanes can starte with any lower~ or uppercase letter or underscore. They can contain lowercase, uppercase letters, digits, and underscores.
+Once we have assigned value to a variable we can use <hl>puts</hl> to print the content of the variable
+
+
+We can also use the variables for other operations. For example to add them together:
+
+<include file="examples/ruby/add_numbers.rb">
+
+<code>
+$ ruby add_numbers.rb 
+42
+</code> 
+
+
+With this we can create a variable containing the name of the user, and then welcome that user by <b>concatenating</b> together
+two strings and the variable using <hl>+</hl> as string addition.
+
+<include file="examples/ruby/hello_name.rb">
+
+<code>
+$ ruby hello_name.rb 
+Hello Foo Bar, how are you?
+</code>
+
+<h2>Interpolation or variable embedding</h2>
+
+There is however another way to create the same result:
+
+<include file="examples/ruby/hello_name_embedded.rb">
+
+
+Here we used the <hl>#{}</hl> construct to tell ruby, instead of the word 'name' it needs to take the content of the variable called 'name'
+and include that in the string.
+
+<h2>Variable declaration in Ruby</h2>
+
+In Ruby there is no need to <b>declare</b> a variable. It just has to appear in an assignment before it is used in any other expression.
+
+<include file="examples/ruby/bad_variable.rb ">
+
+<code>
+$ ruby bad_variable.rb 
+23
+bad_variable.rb:5:in `<main>': undefined local variable or method `y' for main:Object (NameError)
+</code>
+

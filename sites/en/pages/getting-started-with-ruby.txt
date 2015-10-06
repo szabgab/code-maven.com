@@ -1,6 +1,6 @@
 =title Getting started with Ruby
 =timestamp 2015-02-08T15:30:01
-=indexes print, puts, length, reverse
+=indexes print, puts, length, reverse, to_s
 =status show
 =books ruby
 =author szabgab
