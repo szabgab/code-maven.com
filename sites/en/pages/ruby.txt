@@ -6,7 +6,7 @@
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
-=redirect /category/ruby
+=redirect /ruby-tutorial
 
 =abstract start
 
