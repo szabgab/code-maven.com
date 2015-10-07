@@ -1,7 +1,7 @@
 =title Ruby Tutorial
-=timestamp 2015-10-06T22:40:00
+=timestamp 2015-10-07T08:40:00
 =indexes Ruby
-=status draft
+=status show
 =books ruby
 =author szabgab
 =archive 1
