@@ -24,6 +24,7 @@ This is the beginning of my Ruby Tutorial
 </ul>
 
 <ul>
+  <li><a href="/reading-csv-file-in-ruby">Reading CSV file in Ruby</a></li>
   <li><a href="/iterate-over-character-of-a-string-in-ruby">Iterate over characters of a string in Ruby</a> (split, each_char)</li>
 </ul>
 
