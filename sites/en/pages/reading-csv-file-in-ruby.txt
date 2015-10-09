@@ -1,0 +1,37 @@
+=title Reading CSV file in Ruby
+=timestamp 2015-10-09T16:30:01
+=indexes CSV 
+=status show 
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Ruby comes with a standard library called <a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html">CSV</a> to make it easy to read
+files with Comman Separated values
+
+=abstract end
+
+<h2>CSV file</h2>
+
+In this CSV file the 3rd fields in every "row" is a number. We would like to sum these numbers.
+
+<include file="examples/ruby/data.csv">
+
+If it was a simpler file We could read it line-by-line and use <hl>split</hl> to cut it into parts,
+but in this file there is a field that has a comman in it. Plain <hl>split</hl> would not be able to
+handle the field enclosed in quote marks <hl>"</hl> containing a comma.
+
+This file also has a field with an embedded newline. So the physical rows of the file, marked by <hl>\n</hl> newlines
+are not the same as the logical lines that and good CSV parser would understand.
+
+<include file="examples/ruby/add_third_column.rb">
+
+In this example first we <b>load the CVS module</b> then we use the <hl>CVS.foreach(filename)</hl> construct
+to iterate over the file loical row by logical row. On each iteration the variable <hl>row<hl> is going to be
+an array. The third element can be accessed using index 2.  We have to convert the value to a number using
+<hl>to_i</hl> and then we can add it to the variable <hl>sum</hl>
+
+
