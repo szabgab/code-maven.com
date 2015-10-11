@@ -49,9 +49,9 @@ in either of them.
 
 This first one using <hl>gets</hl> and <hl>while</hl> looks more similar to what someone coming form Perl 5 would write:
 
-<include file="read_file_by_line_while.rb">
+<include file="examples/ruby/read_file_by_line_while.rb">
 
 The other one using <hl>each</hl> looks more Rubyish:
 
-<include file="read_file_by_line_each.rb"> 
+<include file="examples/ruby/read_file_by_line_each.rb"> 
 
