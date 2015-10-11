@@ -31,7 +31,7 @@ puts fh   #  #&lt;StringIO:0x007fc41c8bc238&gt;
 </code>
 
 Once we get the object we can apply the same methods as on regular filehandle. For example we can use the <hl>read</hl> method
-to read in the content of the whole page.  As opposed to the case when we <a href="/open-file-and-read-content-in-ruby">read regular files</>,
+to read in the content of the whole page.  As opposed to the case when we <a href="/open-file-and-read-content-in-ruby">read regular files</a>,
 in this case there is no efficiency reason to read the content line-by-line. The way HTTP works it does not make much sense. By the time
 we start reading the page the whole document have arrived and is located in the memory of our program. We can as well copy it
 to our internal variable using the <hl>read</hl> method.
