@@ -1,0 +1,51 @@
+=title Download an HTML page using Ruby
+=timestamp 2015-10-11T16:30:01
+=indexes open-uri, User-Agent
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+While a page on a web-site is totally different from a file, several languages provide a way to read them as if they were regular files.
+I am not sure if this is a good idea, but it certainly works for some people.
+
+In Ruby the <a href="http://ruby-doc.org/stdlib-2.1.0/libdoc/open-uri/rdoc/OpenURI.html">open-uri</a> modules provides this simplified interface.
+
+=abstract end
+
+After loading the module with <hl>require</hl> it overrides the standard <hl>open</hl> function so from now on,
+in addition to <a href="/open-file-and-read-content-in-ruby">opening regular files</a>,
+it will be able to 'open' URLs as well. Of course it can only open them read-only as
+we can only fetch pages cannot push them out, but it can get all kinds of additional parameters.
+
+<include file="examples/ruby/download.rb">
+
+The <hl>open</hl> in such cases will return an instance of <hl>StringIO</hl>.
+If we were printing out the contet of <hl>fh</hl> we would get:
+
+<code>
+puts fh   #  #&lt;StringIO:0x007fc41c8bc238&gt;
+</code>
+
+Once we get the object we can apply the same methods as on regular filehandle. For example we can use the <hl>read</hl> method
+to read in the content of the whole page.  As opposed to the case when we <a href="/open-file-and-read-content-in-ruby">read regular files</>,
+in this case there is no efficiency reason to read the content line-by-line. The way HTTP works it does not make much sense. By the time
+we start reading the page the whole document have arrived and is located in the memory of our program. We can as well copy it
+to our internal variable using the <hl>read</hl> method.
+
+
+<h2>Lie about who are we</h2>
+
+When a browser access a web site it tells the site what kind of browser is that, which version etc.
+The same happens when we "open" a web page using the <hl>open</hl> function supplied by the <hl>open-uri</hl> module.
+
+By default <hl>opern-uri</hl> calls it 'browser' <hl>Ruby</hl> which does not say mutch.
+We can change it to whatever we want by passing "User-Agent" to the <hl>open</hl> call:
+
+<include file="examples/ruby/download_user_agent.rb">
+
+This string will be written in the Access log of the web server we connect to.
+
