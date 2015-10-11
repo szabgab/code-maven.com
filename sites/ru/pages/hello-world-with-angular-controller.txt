@@ -17,7 +17,7 @@
 
 =abstract end
 
-<h2>Котроллер Hello World</h2>
+<h2>Контроллер Hello World</h2>
 
 <try file="examples/angular/hello_world_controller.html">
 
