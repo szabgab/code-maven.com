@@ -21,6 +21,9 @@ This is the beginning of my Ruby Tutorial
   <li><a href="/for-loop-in-ruby">For loop in Ruby (iterating over array elements)</a></li>
   <li><a href="/range-in-ruby">Range in Ruby</a>(..  and ...)</li>
   <li><a href="/argv-the-command-line-arguments-in-ruby">ARGV - the command line arguments of a Ruby program</a></li>
+  <li><a href="/open-file-and-read-content-in-ruby">Open file and read content in Ruby</a></li>
+  <li><a href="/download-a-page-using-ruby">Download an HTML page using Ruby</a></li>
+  <li><a href="/basic-data-structures-in-ruby">Basic data structures in Ruby (Scalar, Array, Hash)</a></li>
 </ul>
 
 <ul>
