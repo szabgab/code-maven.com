@@ -1,0 +1,26 @@
+=title Exercises
+=timestamp 2015-10-13T18:00:01
+=indexes exercises, projects
+=status draft
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When learning a programming language, the most important thing is to practice.
+Here are some exercises you can do. At first I am going to follow the Perl programming
+course I have been teaching for many years, but of course these exercises can be solved
+in many other languages.
+
+=abstract end
+
+
+<ol>
+  <!-- <li><a href="/exercise-hello-world">Hello World</a></li> -->
+  <a href= 
+</ol>
+
+
+

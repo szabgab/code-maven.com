@@ -1,0 +1,38 @@
+=title Exercise: Hello World
+=timestamp 2015-10-13T18:20:01
+=indexes exercises, projects
+=status draft
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+First exercise - checking your environment.
+
+=abstract end
+
+<slidecast file="/media/videos/beginner-perl/exercise-hello-world" youtube="t2ria8wh6Dg" />
+
+Try your environment:
+
+<ul>
+  <li>Make sure you have access to the right version of your language.
+     <ul>
+       <li>Perl 5: (5.8.x) or newer. version 5.22 is already out</li>
+       <li>Perl 6: Rakudo 2015.09 or newer</li>
+       <li>Ruby 2.0.0</li>
+     </ul>
+  </li>
+  <li>Check you can read the documentation.
+    <ul>
+       <li>Perl 5: perldoc</li>
+    </ul>
+  </li>
+  <li>Check if you have a good editor with syntax highlighting</li>
+  <li>Write a simple script that prints     Hello world</li>
+  <li>Add comments to your code</li>
+  <li>Add user documentation to your code</li>
+</ul>
+

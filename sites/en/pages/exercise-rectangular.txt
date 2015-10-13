@@ -1,0 +1,37 @@
+=title Exercise: rectangular
+=timestamp 2015-10-13T18:01:39
+=indexes exercise
+=status draft
+=books beginner_video
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: rectangular
+
+=abstract end
+
+Write a program that computes the area of a rectangular.
+
+<ul>
+  <li>Start by having two hard coded values. Multiply them and print the result. The result should be 42:
+    <code>
+    $ run
+    42
+    </code>
+  </li>
+  <li>Then change the code to prompt the user for two numbers. Multiply them and print the result:
+    <code>
+    $ run
+    First number: 7
+    Second number: 6
+    42
+    </code>
+  </li>
+  <li></li>
+  <li>Further modify the program to warn if one of the numbers given was negative.</li>
+</ul>
+
+
+
