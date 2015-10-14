@@ -52,7 +52,7 @@ and include that in the string.
 
 In Ruby there is no need to <b>declare</b> a variable. It just has to appear in an assignment before it is used in any other expression.
 
-<include file="examples/ruby/bad_variable.rb ">
+<include file="examples/ruby/bad_variable.rb">
 
 <code>
 $ ruby bad_variable.rb 

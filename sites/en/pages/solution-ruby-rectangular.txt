@@ -1,0 +1,19 @@
+=title Solution: rectangular in Ruby (Standard IO)
+=timestamp 2015-03-12T11:01:39
+=indexes exercise
+=status draft
+=books beginner_video
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: rectangular
+
+=abstract end
+
+
+<include file="examples/ruby/add_numbers.rb">
+
+<include file="">
+
