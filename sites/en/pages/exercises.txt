@@ -1,7 +1,7 @@
 =title Exercises
-=timestamp 2015-10-13T18:00:01
+=timestamp 2015-10-14T09:00:01
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =archive 1
@@ -18,9 +18,7 @@ in many other languages.
 
 
 <ol>
-  <li><a href="/exercise-hello-world">Hello World</a></li>
+  <li><a href="/exercise-hello-world">Hello World (print, documentation, comments)</a></li>
   <li><a href="/exercise-rectangular">Rectangular (Standard I/O)</li>
 </ol>
-
-
 
