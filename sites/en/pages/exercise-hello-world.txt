@@ -1,5 +1,5 @@
 =title Exercise: Hello World
-=timestamp 2015-10-13T18:20:01
+=timestamp 2015-10-14T09:20:01
 =indexes exercises, projects
 =status show
 =books ruby, python, javascript, php

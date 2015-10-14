@@ -1,5 +1,5 @@
 =title Exercise: Calculate the area of a rectangular
-=timestamp 2015-10-13T18:01:39
+=timestamp 2015-10-14T09:16:39
 =indexes exercise
 =status show
 =books beginner_video
@@ -22,17 +22,17 @@ $ perl example.pl
 </code>
   </li>
   <li>Then change the code to prompt the user for two numbers. Multiply them and print the result:
-    <code>
-    $ perl example.pl
-    First number: 7
-    Second number: 6
-    42
+<code>
+$ perl example.pl
+First number: 7
+Second number: 6
+42
 
-    # ruby example.rb
-    First number: 3
-    Second number: 11 
-    33
-    </code>
+# ruby example.rb
+First number: 3
+Second number: 11 
+33
+</code>
   </li>
   <li>Further modify the program to warn if one of the numbers given was negative.
 <code>
