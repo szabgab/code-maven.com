@@ -34,5 +34,6 @@ This exercise is the first step of this game.
 <ul>
   <li><a href="/number-guessing-in-ruby">Number guessing in Ruby</a></li>
   <li><a href="/number-guessing-in-python">Number guessing in Python</a></li>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game">Number guessing in Perl 5</a></li>
   <li><a href="http://perl6maven.com/number-guessing-game">Number guessing in Perl 6</a></li>
 </ul>
