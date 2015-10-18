@@ -1,7 +1,7 @@
 =title Solution: Number guessing game in Ruby
 =timestamp 2015-10-18T11:00:01
-=indexes exercises
-=status draft
+=indexes exercises, rand, gets, print, puts, if, elsif, else
+=status show
 =books ruby
 =author szabgab
 =archive 1
