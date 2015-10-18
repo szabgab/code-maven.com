@@ -1,0 +1,29 @@
+=title Exercise: Sum of numbers in a file
+=timestamp 2015-10-19T00:00:01
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Let's implement something slightly useful.
+
+In this exercise we have a file called <hl>numbers.txt</hl> that has numbers in it.
+Each line is a number.
+
+Our aim is to add the numbers and print the result.
+
+=abstract end
+
+<include file="examples/data/numbers.txt">
+
+Expected result is 126.
+
+<h2>Solutions</h2>
+<ul>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers</a></li>
+</ul>
+

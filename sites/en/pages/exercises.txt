@@ -21,5 +21,6 @@ in many other languages.
   <li><a href="/exercise-hello-world">Hello World (print, documentation, comments)</a></li>
   <li><a href="/exercise-rectangular">Rectangular (Standard I/O)</a></li>
   <li><a href="/exercise-number-guessing-game">Number guessing game</a></li>
+  <li><a href="/exercise-sum-of-numbers-in-file">Sum of numbers in a file</a></li>
 </ol>
 
