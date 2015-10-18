@@ -1,0 +1,52 @@
+=title Solution: Number guessing game in Python
+=timestamp 2015-10-18T12:00:01
+=indexes exercises, random, randrange, int, if, else, elif
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In this <a href="/exercises">exercise</a>, you were asked to create the first version of the
+<a href="/exercise-number-guessing-game">Number guessing game</a>. Here we are going
+to see a solution in Python.
+
+=abstract end
+
+<h2>Solution in Python 2</h2>
+
+<include file="examples/python/number_guessing.py">
+
+The first thing is to load the <a href="https://docs.python.org/2/library/random.html">random</a> module.
+It has a method called <hl>randrange</hl> that can generate an integer number ina given range.
+In our case we wanted to have a number that can be 1 .. 200 but because of the way the Python range works
+we had to call the method with 201 as the ranges in Python never include the upper boundary.
+
+the commneted out
+<code>
+# print hidden
+</code>
+
+is only there so if we remove the commenting, then we can see what was the hidden value and we can check
+if the program works as expected.
+
+Then we use the <hl>raw_input</hl> function to prompt and to read the value from the standard input.
+Just as in Ruby, here too the value we receive is a string. We use the <hl>int</hl> function to convert it
+to an integer number.
+
+Once we have the <hl>guess</hl> we can compare it to the <hl>hidden</hl> number and provide feedback to
+the user.
+
+<h2>Solution in Python 3</h2>
+
+<include file="examples/python3/number_guessing.py">
+
+There are two differences compared to the Python 2 solution:
+
+<ol>
+  <li><hl>print()</hl> is now a function. It requires parentheses around the parameters.</li>
+  <li>Instead of <hl>raw_input</hl>, now we should use the plain <hl>input</hl> function to get values from standard input.</li>
+</ol>
+

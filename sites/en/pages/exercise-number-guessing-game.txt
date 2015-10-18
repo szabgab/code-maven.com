@@ -33,4 +33,5 @@ This exercise is the first step of this game.
 
 <ul>
   <li><a href="/number-guessing-in-ruby">Number guessing in Ruby</a></li>
+  <li><a href="/number-guessing-in-python">Number guessing in Python</a></li>
 </ul>

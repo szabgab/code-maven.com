@@ -10,7 +10,8 @@
 =abstract start
 
 In this <a href="/exercises">exercise</a>, you were asked to create the first version of the
-<a href="/exercise-number-guessing-game">Number guessing game</a>.
+<a href="/exercise-number-guessing-game">Number guessing game</a>. We are going to see a solution
+in Ruby.
 
 =abstract end
 

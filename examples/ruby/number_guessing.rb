@@ -12,6 +12,3 @@ elsif guess < hidden
 else
     puts "Your guess is bigger that the hidden number"
 end
-
-
-
