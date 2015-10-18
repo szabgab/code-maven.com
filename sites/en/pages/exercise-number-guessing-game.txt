@@ -28,3 +28,9 @@ This exercise is the first step of this game.
   <li>At this point the user only has one guess, though as a bounus you can allow the user to guess several times.</li>
 </ol>
 
+
+<h2>Solutions</h2>
+
+<ul>
+  <li><a href="/number-guessing-in-ruby">Number guessing in Ruby</a></li>
+</ul>
