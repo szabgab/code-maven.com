@@ -1,0 +1,33 @@
+=title Exercise: add more statistics
+=timestamp 2015-04-27T06:01:25
+=indexes exercises, projects
+=status draft
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: add more statistics
+
+See other <a href="/exercises">exercises</a>
+
+=abstract end
+
+Take the solution from the <a href="/exercise-sum-of-numbers-in-file">count sum exercise</a> where we added up the numbers in each row of a file,
+and add additional statistical values:
+
+<ul>
+  <li>minumum</li>
+  <li>maximum</li>
+  <li>average</li>
+</ul>
+
+If you are following the <a href="/exercises">exercises</a> then caluclating median and standard deviation might too difficult at this point, but you can give them a try.
+
+
+<h2>Solutions</h2>
+<ul>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-add-more-statistics">Perl 5 - add more statistics</a></li>
+</ul>
+
