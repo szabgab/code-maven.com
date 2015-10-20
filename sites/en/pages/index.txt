@@ -23,6 +23,9 @@
 </ul>
 </div>
 
+<div class="main-content">
+<a href="/exercises">Programming Exercises</a> for any language.
+</div>
 
 <div class="main-content">
 For now, just read the articles...

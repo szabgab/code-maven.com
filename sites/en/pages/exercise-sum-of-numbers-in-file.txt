@@ -22,6 +22,36 @@ Our aim is to add the numbers and print the result.
 
 Expected result is 126.
 
+
+<h2>Tools</h2>
+
+Some of the tools you might need to solve this exercise.
+
+<ul>
+  <li>Perl:
+    <ul>
+      <li><a href="http://perlmaven.com/beginner-perl-maven-scalar-values-and-variables">Scalar values and variabels in Perl</a></li>
+      <li><a href="http://perlmaven.com/beginner-perl-maven-numerical-operators">Numerical operators in Perl</a></li>
+      <li><a href="http://perlmaven.com/beginner-perl-maven-open-file">Open file in Perl</a></li>
+      <li><a href="http://perlmaven.com/beginner-perl-maven-while-loop">Perl while loop</a></li>
+    </ul>
+  </li>
+  <li>Ruby:
+    <ul>
+      <li><a href="/open-file-and-read-content-in-ruby">Open file and ead content line-by-line in Ruby</a></li>
+      <li>Convert string to number in Ruby</li>
+      <li>map in Ruby</li>
+      <li>reduce in Ruby</li>
+    </ul>
+  </li>
+  <li>Python:
+    <ul>
+      <li>Open file in Python</li>
+      <li></li>
+    </ul>
+  </li>
+</ul>
+    
 <h2>Solutions</h2>
 <ul>
   <li><a href="http://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers in a file</a></li>
