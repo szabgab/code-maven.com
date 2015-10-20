@@ -11,7 +11,7 @@
 
 Let's implement something slightly useful.
 
-In this exercise we have a file called <hl>numbers.txt</hl> that has numbers in it.
+In this <a href="/exercises">exercise</a> we have a file called <hl>numbers.txt</hl> that has numbers in it.
 Each line is a number.
 
 Our aim is to add the numbers and print the result.
