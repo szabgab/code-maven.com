@@ -38,8 +38,9 @@ Some of the tools you might need to solve this exercise.
   </li>
   <li>Ruby:
     <ul>
-      <li><a href="/open-file-and-read-content-in-ruby">Open file and ead content line-by-line in Ruby</a></li>
+      <li><a href="/open-file-and-read-content-in-ruby">Open file and read content line-by-line in Ruby</a></li>
       <li>Convert string to number in Ruby</li>
+      <li>For the advanced version:</li>
       <li>map in Ruby</li>
       <li>reduce in Ruby</li>
     </ul>

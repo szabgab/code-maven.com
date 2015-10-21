@@ -1,7 +1,7 @@
 =title Exercise: add more statistics
-=timestamp 2015-04-27T06:01:25
+=timestamp 2015-10-21T07:01:25
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
@@ -10,7 +10,7 @@
 
 Exercise: add more statistics
 
-See other <a href="/exercises">exercises</a>
+See other <a href="/exercises">exercises</a>.
 
 =abstract end
 

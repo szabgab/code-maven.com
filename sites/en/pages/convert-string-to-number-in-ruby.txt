@@ -1,0 +1,28 @@
+=title Convert String to Number in Ruby
+=timestamp 2015-02-17T17:30:01
+=indexes String, to_i, to_f, to_r
+=status draft
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When reading data from a file or from other external resources, they always arrive in Ruby as a 
+<a href="http://ruby-doc.org/core-2.2.0/String.html">String</a> object.
+
+If we would like to use them as numbers we first need to convert them to numbers.
+
+But which number?
+
+=abstract end
+
+The <a href="http://ruby-doc.org/core-2.2.0/String.html">String</a> objects in Ruby have several methods to convert
+the string object into a number.
+
+<ul>
+  <li><hl>to_i</hl> will convert the String to an <a href="http://ruby-doc.org/core-2.2.0/Integer.html">Integer</a>.</li>
+  <li><hl>to_f</hl> will convert the String to an <a href="http://ruby-doc.org/core-2.2.0/Float.html">Float</a>, a floating pont</li>
+</ul>
+
