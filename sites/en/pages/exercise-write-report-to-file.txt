@@ -18,7 +18,7 @@ Take your solution from the <a href="/exercise-add-more-statistics">Add more sta
 into a file.
 
 
-<h2>Tool2</h2>
+<h2>Tools</h2>
 
 <ul>
   <li><a href="http://perlmaven.com/beginner-perl-maven-write-to-file">Write to file in Perl (screencast)</a> and <a href="http://perlmaven.com/writing-to-files-with-perl">writing to file in Perl (article)</a></li>
