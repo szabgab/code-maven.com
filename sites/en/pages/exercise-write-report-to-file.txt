@@ -1,7 +1,7 @@
 =title Exercise: write report to file
-=timestamp 2015-04-27T06:01:25
+=timestamp 2015-10-21T22:01:25
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
@@ -16,6 +16,13 @@ See other <a href="/exercises">exercises</a>
 
 Take your solution from the <a href="/exercise-add-more-statistics">Add more statistics</a> exercise, and write the result
 into a file.
+
+
+<h2>Tool2</h2>
+
+<ul>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-write-to-file">Write to file in Perl (screencast)</a> and <a href="http://perlmaven.com/writing-to-files-with-perl">writing to file in Perl (article)</a></li>
+</ul>
 
 
 <h2>Solutions</h2>
