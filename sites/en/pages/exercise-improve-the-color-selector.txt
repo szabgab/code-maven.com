@@ -1,7 +1,7 @@
 =title Exercise: Improve the color selector
 =timestamp 2015-10-23T16:01:25
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
