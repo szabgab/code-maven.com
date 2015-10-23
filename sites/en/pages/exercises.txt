@@ -26,8 +26,8 @@ in many other languages.
   <li><a href="/exercise-add-more-statistics">Add more statistics</a></li>
   <li><a href="/exercise-write-report-to-file">Write report to file</a></li>
   <li><a href="/exercise-color-selector">Color selector</a></li>
-<!--
   <li><a href="/exercise-improve-the-color-selector">Improve the color selector</a></li>
+<!--
   <li><a href="/exercise-analyze-apache-log-file-count-every-host">Analyze Apache log file</a> (count all the hits from all the clients)</li>
 -->
 </ol>
