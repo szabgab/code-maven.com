@@ -1,0 +1,45 @@
+=title Exercise: count digits
+=timestamp 2015-07-02T13:20:26
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: count digits in a file
+
+=abstract end
+
+Given a file like this, that has rows of numbers in it without anything, but a single space in between the numbers.
+Our task is to count how many times each digit appears.
+
+<include file="examples/data/count_digits.txt">
+
+Our expected output looks like this:
+
+<code>
+0 1
+1 5
+2 9
+3 11
+4 9
+5 8
+6 4
+7 2
+8 0
+9 1
+</code>
+
+
+<h2>Tools</h2>
+<ul>
+   <li></li>
+</ul>
+
+<h2>Solutions</h2>
+
+<ul>
+   <li><a href="http://perlmaven.com/beginner-perl-maven-count-digits">Perl 5 count digits</a></li>
+</ul>

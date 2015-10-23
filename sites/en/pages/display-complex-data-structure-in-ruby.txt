@@ -1,0 +1,24 @@
+=title Pretty printing complex data structures in Ruby - like Data::Dumper in Perl
+=timestamp 2015-10-22T07:30:01
+=indexes pp
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Creating complex data structures (hashes of hashes of arrays of hashes of arrays....) is easy in Ruby.
+
+Unedrstanding what we have on our hand can be a bit more difficult.
+
+Perl has a build in modules called <a href="https://metacpan.org/pod/Data::Dumper">Data::Dumper</a>
+that can be used to pirnt complex data structures, for example when
+<a href="http://perlmaven.com/debugging-perl-scripts">debugging Perl programs</a>.
+
+Ruby has <a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/pp/rdoc/PP.html">pp, the Pretty Printer</a> for the same purpose.
+
+=abstract end
+
+
