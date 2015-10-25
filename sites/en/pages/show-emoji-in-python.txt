@@ -17,7 +17,7 @@ Unicode characters.
 =abstract end
 
 There is a Python module, surprisingly called <a href="https://github.com/carpedm20/emoji">emoji</a> that allows
-us to include Enoji in Python based applications.  A simple example would look like this:
+us to include Emoji in Python based applications.  A simple example would look like this:
 
 <include file="examples/python/show_emoji.py">
 
