@@ -1,0 +1,51 @@
+=title Простой in-memory счетчик с AngularJS
+=timestamp 2015-10-25T17:54:01
+=indexes ng-app, ng-click, ng-init
+=status show
+=books angularjs, javascript
+=original simple-in-memory-counter-with-angularjs
+=translator name2rnd
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+В статье <a href="http://perlmaven.com/counter">о примерах счетчиков</a> мы видели много вариантов реализации.
+Вот один с использованием <a href="/angularjs">AngularJS</a>.
+
+=abstract end
+
+<h2>Простая кнопка для увеличения счетчика</h2>
+
+<try file="examples/angular/in_memory_counter.html">
+
+В этом примере у нас есть HTML кнопка с двумя Angular-атрибутами.
+Содержимое атрибута <hl>ng-init</hl> будет выполнено один раз во время загрузки страницы. Он задает начальное значение атрибута <hl>counter</hl>.
+
+Содержимое атрибута <hl>ng-click</hl> будет выполняться каждый раз во время нажатия кнопки. Он будет увеличить счетчик на 1.
+(<hl>counter++</hl> здесь не работает)
+
+Когда страница загружается, мы видим кнопку "Increment" и число 0. Как только мы нажмем на кнопку, число увеличится на 1.
+
+<h2>Кнопки для увеличения (инкремент) и уменьшения (декремент)</h2>
+
+В следующем примере у нас есть новая кнопка - для уменьшения счетчика на 1.
+К тому же, чтобы этот шаг сделать более явным, мы перенесли атрибут <hl>ng-init</hl>
+в отдельный элемент <hl>div</hl>, который не отображается.
+
+<try file="examples/angular/in_memory_counter_with_decrement.html">
+
+<h2>In-memory счетчик с помощью контроллера</h2>
+
+С целью подготовки к более сложным действиям в третьем примере мы перенесли код, уменьшающий счетчик, в контроллер.
+(Кнопка, увеличивающая счетчик, осталась без изменений.)
+
+В этот раз мы создали <a href="/hello-world-with-angular-controller">модуль и контроллер Angular</a>,
+в котором установили значение по умолчанию для переменной <hl>$scope.counter</hl> в 0 и определили метод <hl>decrement</hl>.
+Так как это уже чистый JavaScript, то мы можем делать автоинкремент и автодекремент с помощью выражения: <hl>counter--</hl>.
+
+В HTML мы установили атрибут <hl>ng-click="decrement()"</hl>, который обозначает, что метод <hl>decrement</hl>
+будет вызыван каждый раз, когда будет нажата кнопка.
+
+<try file="examples/angular/in_memory_counter_with_controller.html">
