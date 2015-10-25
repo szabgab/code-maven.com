@@ -1,0 +1,45 @@
+=title Простой калькулятор на AngularJS
+=timestamp 2015-10-25T19:02:01
+=indexes ng-app, ng-controller, ng-model
+=status show
+=books angularjs, javascript
+=author szabgab
+=translator name2rnd
+=original calculator-in-angularjs
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Не так давно я сделал пример про <a href="/add-numbers-with-angular">сложение чисел на AngularJS</a>.
+В этой статье мы создадим простой калькулятор на AngularJS.
+
+=abstract end
+
+Если вы следили за <a href="/angularjs">предыдущими статьями</a>, тогда вы увидите, что в этот раз
+я разделил HTML и JavaScript.
+
+<h2>HTML</h2>
+
+Вы также увидите, что HTML все еще очень прост, хотя он содержит новый элемент.
+В этом примере объявления <hl>ng-app</hl> и <hl>ng-controller</hl> находятся
+в одном и том же элементе HTML. Зачем создавать дополнительный слой, если
+мы можем это все сделать в одном элементе <hl>div</hl>?
+
+Кроме того у нас есть два элемента <hl>input</hl> и один <hl>select</hl>.
+Каждый из них имеет свой собственный атрибут <hl>ng-model</hl>.
+
+Последняя часть HTML это директива <hl>{{ result() }}</hl>.
+Думаю, это первый раз, когда у нас в директиве указан вызов функции.
+
+<try file="examples/angular/calculator.html">
+
+<h2>JavaScript</h2>
+
+В JavaScript мы создали <hl>модуль и контроллер Angular</hl> и
+описали функцию <hl>result</hl> как атрибут текущего <hl>$scope</hl>.
+Именно это позволяет использовать функции в директивах Angular внутри HTML.
+
+JavaScript считает результат простых операций, там все очевидно, хотя и немного скучно.
+
+<include file="examples/angular/calculator.js">
