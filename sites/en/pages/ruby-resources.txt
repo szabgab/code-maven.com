@@ -32,7 +32,7 @@ Gems are 3rd-party libraries for Ruby. <a href="http://rubygems.org/">rubygems.o
 <h2>Screencasts</h2>
 
 <a href="http://railscasts.com/">railscasts.com</a> holds lot of screencasts about Ruby on Rails.
-Many can be watched free of charge. For some you need to pay.  The production of new episodes has stopped in Jue 2013.
+Many can be watched free of charge. For some you need to pay.  The production of new episodes has stopped in June 2013.
 
 <a href="http://www.rubytapas.com/">rubytapas.com</a> a subscription only series of screencasts (2 every week) about programming
 in Ruby.
