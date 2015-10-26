@@ -1,7 +1,7 @@
 =title Exercise: display unique rows of a file
-=timestamp 2015-07-02T13:20:26
+=timestamp 2015-10-26T22:20:26
 =indexes exercises, projects
-=status draft 
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
