@@ -1,7 +1,7 @@
 =title Exercise: Analyze Apache log file - count every host
-=timestamp 2015-10-19T09:20:01
+=timestamp 2015-10-27T07:20:01
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =archive 1

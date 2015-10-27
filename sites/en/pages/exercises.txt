@@ -31,8 +31,9 @@ in many other languages.
   <li><a href="/exercise-improve-number-guessing-game">Improve number guessing game</a></li>
   <li><a href="/exercise-display-unique-rows-of-a-file">Display unique rows of a file</a></li>
   <li><a href="/exercise-sort-mixed-string">Sort mixed strings</a></li>
-<!--
   <li><a href="/exercise-analyze-apache-log-file-count-every-host">Analyze Apache log file</a> (count all the hits from all the clients)</li>
+<!--
+  <li><a href="/exercise-sort-scores">Sort scores</a></li>
 -->
 </ol>
 
