@@ -1,4 +1,4 @@
-=title Analyze Apache log file - count localhost in ruby
+=title Analyze Apache log file - count localhost in Ruby
 =timestamp 2015-10-27T08:30:01
 =indexes index, substr, open, ARGV, []
 =status show
