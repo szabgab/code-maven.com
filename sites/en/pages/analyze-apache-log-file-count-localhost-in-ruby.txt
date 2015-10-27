@@ -1,0 +1,54 @@
+=title Analyze Apache log file - count localhost in ruby
+=timestamp 2015-10-27T08:30:01
+=indexes index, substr, open, ARGV, []
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The <a href="/exercise-analyze-apache-log-file-count-localhost">exercise</a> was, that give a log file created by the Apache web server (or for that matter by any web server), to 
+count how many hits arrived from localhost (IP 127.0.0.1) and how many have arrived from any other place.
+
+=abstract end
+
+The log file look like this:
+
+<include file="examples/data/apache_access.log">
+
+<h2>The Algorithm:</h2>
+
+We need two counters, one for counting the hits from 127.0.0.1 and one to count all the other hits.
+Then we need to go over all the lines. Extract the IP address, and based on its value to increment one
+of the counters.
+
+
+We expect the program to be used as <hl>ruby apache_localhost.rb  data/apache_access.log</hl>.
+That is, we expect the user to provide the name of the Apache log file as a parameter on the command line.
+
+Therefore in the first few lines we check if the user has supplied any filename on the command line by checking
+the <a href="/argv-the-command-line-arguments-in-ruby">number of elements in ARGV</a>. If the given number of
+parameters is not 1, then we tell the user how to use our program and <hl>exit</hl>.
+
+Then we copy the name of the file from <hl>ARGV</hl> to an internal variable called <hl>filename</hl>. Mostly for readability of the code.
+
+Then we create the two counters and initialize them to 0.
+
+The we <a href="/open-file-and-read-content-in-ruby">open the file for reading</a> and read it line-by-line using <hl>each</hl>.
+On each iteration the variable <hl>line</hl> will hold the current line form the file.
+
+The IP address is the first value in every row up till the first space.
+There are a number of ways to extract it from the line. In this case we used the <hl>index</hl> method on the <hl>line</hl>
+passing a space to it. That will return the location of the first space in the <hl>line</hl>. Because the string indexing starts with 0,
+this number will be also the length of the IP address. Hence we have assigned the result to a variable called <hl>length</hl>.
+
+We can use this variable then to extract the substring from the <hl>line</hl> that starts on character 0 and includes <hl>length</hl> characters.
+We can do that by providing the index of the beginning of the substring and the length of the substring we would like to extract.
+That will be the IP address from the current line.
+
+What remains is to check if this equals to 127.0.0.1 (localhost) and increment the appropriate counter.
+
+<include file="examples/ruby/apache_localhost.rb">
+
