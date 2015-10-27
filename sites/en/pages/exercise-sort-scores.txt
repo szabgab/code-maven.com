@@ -1,7 +1,7 @@
 =title Exercise: sort scores
-=timestamp 2015-10-21T07:01:25
+=timestamp 2015-10-27T18:01:25
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
