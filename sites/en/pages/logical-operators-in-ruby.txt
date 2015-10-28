@@ -1,0 +1,43 @@
+=title Logical operators in Ruby (and, or, not), (&&, ||, !)
+=timestamp 2015-02-17T17:30:01
+=indexes 
+=status draft
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In Ruby there are two sets of logical operators:
+
+<hl>and</hl>, <hl>or</hl>, <hl>not</hl>
+
+<hl>&&</hl>, <hl>||</hl>, <hl>!</hl>
+
+=abstract end
+
+Normally you can use either set of the operators but it is not recommended to mix
+them in the same expression. The difference between the two sets is the precedence.
+The operators that are words (and, or, not) are lower in the operator precedence table
+than the other three.
+
+Logical operators are used when in a cnonditional expression, for example in an <hl>if</hl>
+statement or in the Ternary operatory, we would like to combine 2 ore more conditions.
+
+For example we would like to check if the <hl>age</hl> of the user is bigger that 18, but smaller than 23.
+
+We can write:
+
+<hl>age > 18 and age < 23</hl>
+
+The same can also be written as 
+
+<hl>age > 18 && age < 23</hl>
+
+There is no real difference between the two expressions. The <hl>&&</hl> are there mostly for historical reasons
+as they were used in many programming languages before Ruby. <hl>and</hl> is usually much more readable.
+
+
+
+
