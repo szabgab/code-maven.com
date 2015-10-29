@@ -1,5 +1,5 @@
 =title Arrays in Ruby
-=timestamp 2015-10-23T23:23:23
+=timestamp 2015-10-29T14:31:23
 =indexes [], array
 =status show
 =books ruby
