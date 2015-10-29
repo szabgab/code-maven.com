@@ -2,6 +2,7 @@
 =timestamp 2015-10-27T18:01:25
 =indexes exercises, projects
 =status show
+=tags screencast
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
