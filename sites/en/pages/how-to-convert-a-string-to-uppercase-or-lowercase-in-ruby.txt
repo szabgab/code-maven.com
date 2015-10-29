@@ -1,0 +1,42 @@
+=title How to convert a string to UPPERCASE or lowercase in Ruby?
+=timestamp 2015-10-29T19:30:01
+=indexes uppercase, lowercase, uc, lc, to_lower, to_upper, downcase, upcase
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Ruby strings have methods to convert them to uppercase and lowercase. The method names
+of the methods are <hl>upcase</hl> and <hl>downcase</hl> respectively.
+
+=abstract end
+
+Calling the <hl>downcase</hl> or <hl>upcase</hl> method on a string will return the lowercase or uppercase
+version of the string, but the original variable won't change.
+
+<code>
+name = 'Foo'
+puts name           # Ruby
+puts name.downcase  # ruby
+puts name.upcase    # RUBY
+puts name           # Ruby
+</code>
+
+Calling the same methods followed by an exclamation mark will both return lowercase/uppercase version
+of the string and will also change the content of the variable.
+
+<code>
+puts name.downcase! # ruby
+puts name           # ruby
+
+puts name.upcase!   # RUBY
+puts name           # RUBY
+</code>
+
+<h2>Full example</h2>
+
+<include file="examples/ruby/case.rb">
+
