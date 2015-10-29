@@ -1,7 +1,6 @@
 =title Exercise: Count words in a file
 =timestamp 2015-10-28T21:20:34
 =indexes exercises, projects
-=tags screencast
 =status show
 =books ruby, python, javascript, php
 =author szabgab
