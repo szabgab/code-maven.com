@@ -1,6 +1,6 @@
 =title Arrays in Ruby
 =timestamp 2015-10-29T14:31:23
-=indexes [], array
+=indexes [], array, push, pop, shift, unshift
 =status show
 =books ruby
 =author szabgab
@@ -101,7 +101,7 @@ If we want to add one or more elements to an array, we can use the <hl>push</hl>
 <code>
 names.push 'Hello', 'World'
 pp names     # ["Foo", "Happy", "Baz", "Moo", nil, nil, "Far Away", "Hello", "World"]
-<code>
+</code>
 
 
 <h2>pop</h2>

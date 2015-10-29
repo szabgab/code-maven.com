@@ -33,15 +33,23 @@ Our expected output looks like this:
 </code>
 
 
-<h2>Tools</h2>
+<h2>Tools for Perl 5</h2>
 <ul>
    <li><a href-"http://perlmaven.com/perl-tutorial">The Perl 5 tutorial</a> in general.</a>
    <li><a href="http://perlmaven.com/beginner-perl-maven-shift">Perl 5: shift from @ARGV</a></li>
    <li><a href="http://perlmaven.com/beginner-perl-maven-open-or-die">Perl 5: open a file for reading or die</a>.</li>
+   <li><a href="http://perlmaven.com/perl-arrays">Perl 5: Arrays</a></li>
    <li><a href="http://perlmaven.com/chomp">Perl 5: chomp, remove trailing newlines</a>.</li>
    <li><a href="http://perlmaven.com/perl-split">Perl 5: split, to cut a string into pieces</a>.</li>
+</ul>
+
+<h2>Tools for Ruby</h2>
+
+<ul>
    <li><a href="http://code-maven.com/argv-the-command-line-arguments-in-ruby">Ruby: ARGV for command line parameters</a></li>
    <li><a href="http://code-maven.com/open-file-and-read-content-in-ruby">Ruby: Open file and read content</a></li>
+   <li><a href="http://code-maven.com/ruby-arrays">Ruby: Arrays</a></li>
+   <li><a href="http://code-maven.com/for-loop-in-ruby">Ruby: Iterate over elements of a an array</a></li>
 </ul>
 
 <h2>Solutions</h2>
