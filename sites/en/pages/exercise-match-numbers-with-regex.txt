@@ -1,8 +1,8 @@
 =title Exercise: Match numbers with regex
-=timestamp 2015-07-19T06:01:06
+=timestamp 2015-10-30T18:01:06
 =indexes exercises, projects
 =tags screencast
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1
