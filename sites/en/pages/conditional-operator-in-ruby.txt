@@ -1,0 +1,50 @@
+=title The conditional operator in Ruby
+=timestamp 2015-10-23T23:23:23
+=indexes ?:
+=status show
+=books ruby
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+The official name of the <hl>? :</hl> operator is the <a href="https://en.wikipedia.org/wiki/%3F:">conditional operator</a>,
+though most people know it as the <b>ternary operator</b> indicating the number of operands it has.
+
+=abstract end
+
+There are several <b>unary operators</b> that handle a single operand. For example <hl>-</hl> can be unary operator.
+
+Most of the operators ad <b>binary operators</hl> that handle two operands. For example <hl>*</hl> always needs two operands to
+work on, but in most cases <hl>-</hl> is also used as a binary operatory.
+
+There is only one <b>ternary operator</b>, that has 3 operands. It is called the <b>conditional operator</b>, but because
+it is the only one with 3 operands, most of the people call it <b>the ternary operator</b>.
+
+
+<h2>Conditional Operator in Ruby</h2>
+
+In general it looks like this:
+
+<code>
+CONDITION ? EVALUATE_IF_CONDITION_WAS_TRUE : EVALUATE_IF_CONDITION_WAS_FALSE
+</code>
+
+It evaluates the <hl>CONDITION</hl>. If it is <hl>true</hl> then the code evaluates the part between <hl>?</hl> and <hl>:</hl> and returns the result.
+If the <hl>CONDITION</hl> is false, then the middle part is skipped and the 3rd part is evaluated and the result of that expression is returned.
+
+<h2>Example puts</h2>
+
+In this example the return value of the conditional operator is passed to <hl>puts</hl>
+
+<code>
+filename = ARGV.shift
+puts filename ? filename : 'No file given'
+</code>
+
+<h2>Example smaller</h2>
+
+In this example we check whihc one of the two random values is smaller and return that one:
+
+<include file="examples/ruby/smaller_ternary.rb">
+

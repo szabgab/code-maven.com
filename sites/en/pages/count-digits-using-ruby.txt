@@ -1,0 +1,62 @@
+=title Count digits in Ruby
+=timestamp 2015-10-23T23:23:23
+=indexes open, split
+=status show
+=books ruby
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+In this exercise we have to <a href="http://code-maven.com/exercise-count-digits">count digits in a file</a>.
+
+=abstract end
+
+<h2>The algorightm</h2>
+
+We need to go over the file line-by-line.
+For each line then we need to go over it character-by-character. If it is a digit, we need to increment the appropriate counter.
+We could use 10 different variables (c0, c1, ... c9) to count the number of occurances of the respective digits, but there is
+a much more comfortable solution using <a href="http://code-maven.com/ruby-arrays">arrays</a>. Specifically we use and array called <hl>count</hl> in with 10 elements.
+In <hl>count[0]</hl> we will count the number 0s in <hl>count[1]</hl> we will count the number of 1s, ... 
+up till <hl>count[9]</hl> in which we will count the number of 9s.
+
+<h2>The solution in Ruby</h2>
+
+In this solution written in <a href="/ruby">Ruby</a>, we start by getting the name of the file to be process on the command line.
+
+At first we check if <a href="http://code-maven.com/argv-the-command-line-arguments-in-ruby">ARGV</a> has the right number of arguments.
+If not we print an error message and <hl>exit</hl>.
+
+Then we declare the <hl>count</hl> array.
+
+Get the name of the file from the first element of the <hl>ARGV</hl> array containing the values from the command line
+and <a href="http://code-maven.com/open-file-and-read-content-in-ruby">open it for reading</a> and iterate over
+it using <hl>each</hl>.
+
+In each iteration  <hl>line</hl> will contain a single line. We need to go over it character by character.
+There are a number of ways to do this. In this solution I've decided to spplit the string into individual characters and
+then to iterate over the characters.
+
+Using the <a href="">split</a> method with an empty string we cut up the string at every place where the empty string matches.
+Meaning we split up the string between any two charctes. The result is a list of charcters assigned to the <hl>chars</hl> array.
+
+Then we <a href="http://code-maven.com/for-loop-in-ruby">iterate over the elements of this array</a>. In each iteration <hl>c</hl>
+is a single character from the source file. Based on our assumption, it is either a digit (0-9) or space.
+
+If it is not a space <hl>if c != ' ' then</hl> we would like to increment the appropriate counter.
+
+Then if this is our first encounter with the particular digit we need to initialize the array element that
+will count that digit.
+
+Then in every case we increment it by one.
+
+At the end of the loop we have counted all the digits. We need to display the results.
+
+We iterate over all the numbers between 0 and 9 and print out the number, and the counter of that number.
+
+We could have printed the content of <hl>count[i]</hl< directly, but then we would have holes for the digits
+that don't appear in our source. (In this case 4 and 6). That would not look right. Any observer would think there is
+a bug in the code. It is much better to print 0 if the digit never appeared. We do that by using 
+the <a herf="">conditional operator</a>.
+

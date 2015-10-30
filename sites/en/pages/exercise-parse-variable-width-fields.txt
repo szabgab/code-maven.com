@@ -1,0 +1,26 @@
+=title Exercise: parse variable width fields
+=timestamp 2015-07-10T11:30:38
+=indexes exercises, projects
+=tags screencast
+=status draft
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: parse variable width fields
+
+=abstract end
+
+<slidecast file="/media/videos/beginner-perl/exercise-parse-variable-width-fields" youtube="6NoHj4sehWc" />
+
+<h2>Tools</h2>
+
+<h2>Solutions</h2>
+<!--
+<ul>
+  <li><a href=""></a></li>
+</ul>
+-->
+

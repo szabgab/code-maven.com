@@ -1,0 +1,23 @@
+=title Count web server hits using Ruby
+=timestamp 2015-10-28T08:30:01
+=indexes index, substr, open, ARGV, []
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The <a href="/exercise-analyze-apache-log-file-count-localhost">exercise</a> was, that given a log file created by the Apache web server (or by any web server), to 
+count how many hits arrived from each individual IP address.
+
+=abstract end
+
+Earlier we saw a solution in which we <a href="/analyze-apache-log-file-count-localhost-in-ruby">counted the number of hits to locl host vs any other address</a>.
+That program already had the part that read the file line-by-line and extracted the IP address.
+
+This time we just need to change the method of counting.
+
+
+<include file="examples/ruby/apache_count_hits.rb">
