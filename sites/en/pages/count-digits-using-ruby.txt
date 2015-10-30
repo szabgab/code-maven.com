@@ -1,7 +1,7 @@
 =title Count digits in Ruby
 =timestamp 2015-10-23T23:23:23
 =indexes open, split
-=status show
+=status draft
 =books ruby
 =author szabgab
 =comments_disqus_enable 1
