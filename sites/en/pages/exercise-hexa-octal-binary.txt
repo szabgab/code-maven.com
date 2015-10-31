@@ -1,8 +1,8 @@
 =title Exercise: Match hexa, octal, binary numbers
-=timestamp 2015-07-19T18:01:07
+=timestamp 2015-10-31T09:01:07
 =indexes exercises, projects
 =tags screencast
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =comments_disqus_enable 1

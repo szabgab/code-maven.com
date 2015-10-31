@@ -36,13 +36,13 @@ in many other languages.
   <li><a href="/exercise-sort-scores">Sort scores</a></li>
   <li><a href="/exercise-sort-based-on-secondary-condition">Sort based on secondary condition</a></li>
   <li><a href="/exercise-regexes-part-1">Regex Exercises - part 1</a></li>
+  <li><a href="/exercise-match-numbers-with-regex.txt">Match numbers with regex</a></li>
+  <li><a href="/exercise-hexa-octal-binary">Match hexa, octal, binary numbers</a></li>
   <li><a href="/exercise-sort-snmp-numbers">Sort SNMP numbers</a></li>
   <li><a href="/exercise-parse-hours-log-file-and-create-time-report">Parse hours log file and create time report</a></li>
-  <li><a href="/exercise-match-numbers-with-regex.txt">Match numbers with regex</a></li>
 </ol>
 
 <!--
-  <li><a href="/exercise-hexa-octal-binary">Match hexa, octal, binary numbers</a></li>
   <li><a href="/exercise-parse-ini-file">Parse INI or Config files.</a></li>
   <li><a href="/exercise-parse-variable-width-fields"></a></li>
 -->
