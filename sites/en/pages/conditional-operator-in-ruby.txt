@@ -15,7 +15,7 @@ though most people know it as the <b>ternary operator</b> indicating the number 
 
 There are several <b>unary operators</b> that handle a single operand. For example <hl>-</hl> can be unary operator.
 
-Most of the operators ad <b>binary operators</hl> that handle two operands. For example <hl>*</hl> always needs two operands to
+Most of the operators ad <b>binary operators</b> that handle two operands. For example <hl>*</hl> always needs two operands to
 work on, but in most cases <hl>-</hl> is also used as a binary operatory.
 
 There is only one <b>ternary operator</b>, that has 3 operands. It is called the <b>conditional operator</b>, but because
