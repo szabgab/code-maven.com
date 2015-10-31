@@ -38,7 +38,7 @@ In each iteration  <hl>line</hl> will contain a single line. We need to go over 
 There are a number of ways to do this. In this solution I've decided to spplit the string into individual characters and
 then to iterate over the characters.
 
-Using the <a href="">split</a> method with an empty string we cut up the string at every place where the empty string matches.
+Using the <a href="http://code-maven.com/ruby-split">split</a> method with an empty string we cut up the string at every place where the empty string matches.
 Meaning we split up the string between any two charctes. The result is a list of charcters assigned to the <hl>chars</hl> array.
 
 Then we <a href="http://code-maven.com/for-loop-in-ruby">iterate over the elements of this array</a>. In each iteration <hl>c</hl>
@@ -58,5 +58,7 @@ We iterate over all the numbers between 0 and 9 and print out the number, and th
 We could have printed the content of <hl>count[i]</hl< directly, but then we would have holes for the digits
 that don't appear in our source. (In this case 4 and 6). That would not look right. Any observer would think there is
 a bug in the code. It is much better to print 0 if the digit never appeared. We do that by using 
-the <a herf="">conditional operator</a>.
+the <a href="">conditional operator</a>.
+
+<include file="examples/ruby/count_digits.rb">
 

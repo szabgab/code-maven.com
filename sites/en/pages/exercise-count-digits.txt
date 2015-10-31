@@ -56,4 +56,5 @@ Our expected output looks like this:
 
 <ul>
    <li><a href="http://perlmaven.com/beginner-perl-maven-count-digits">Perl 5 count digits</a></li>
+   <li><a href="http://code-maven.com/count-digits-using-ruby">Ruby: count digits</a></li>
 </ul>
