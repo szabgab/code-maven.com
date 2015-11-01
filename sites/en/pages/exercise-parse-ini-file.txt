@@ -45,7 +45,7 @@ $VAR1 = {
         };
 </code>
 
-<h2>Tools/h2>
+<h2>Tools</h2>
 
 <ul>
   <li></li>
