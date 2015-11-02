@@ -1,7 +1,7 @@
 =title Convert String to Number in Ruby
-=timestamp 2015-02-17T17:30:01
-=indexes String, to_i, to_f, to_r
-=status draft
+=timestamp 2015-11-02T15:00:01
+=indexes String, to_i, to_f, to_r, +, base
+=status show
 =books ruby
 =author szabgab
 =archive 1
@@ -9,12 +9,12 @@
 
 =abstract start
 
-When reading data from a file or from other external resources, they always arrive in Ruby as a 
-<a href="http://ruby-doc.org/core-2.2.0/String.html">String</a> object.
+When reading data from a file or from other external resources, they always arrive in Ruby as 
+<a href="http://ruby-doc.org/core-2.2.0/String.html">String</a> objects.
 
 If we would like to use them as numbers we first need to convert them to numbers.
 
-But which number?
+But which number and how?
 
 =abstract end
 
@@ -24,5 +24,111 @@ the string object into a number.
 <ul>
   <li><hl>to_i</hl> will convert the String to an <a href="http://ruby-doc.org/core-2.2.0/Integer.html">Integer</a>.</li>
   <li><hl>to_f</hl> will convert the String to an <a href="http://ruby-doc.org/core-2.2.0/Float.html">Float</a>, a floating pont</li>
+  <li><hl>to_r</hl> will convert the String to a  <a href="http://ruby-doc.org/core-2.2.0/Rational.html">Rational</a> number.</li>
+  <li><hl>to_c</hl> will convert the String to a  <a href="http://ruby-doc.org/core-2.2.0/Complex.html">Complex</a> number.</li>
 </ul>
+
+
+<h2>Concatenation</h2>
+
+Given two numerical values that are actually <hl>String</hl> object (because of the quotation marks around them), if we use the <hl>+</hl>
+operator it will work as concatenation.
+
+<code>
+a = "2"
+b = "3"
+puts a+b  # 23
+</code>
+
+
+<h2>no implicit conversion of Fixnum into String (TypeError)</h2>
+
+If one of the values is a <hl>String</hl> object and the other one is a real number (no quotes), and we try to add them together as
+in the next example:
+
+<code>
+puts "2"+3 
+</code>
+
+We'll get an exception: <hl>no implicit conversion of Fixnum into String (TypeError)</hl>
+
+
+<h2>String tha looks like an integer</h2>
+
+A <hl>String</hl> that holds an integer can be converted to an Integer, a Float, a Rational number, or a Complex number:
+
+<code>
+puts a.to_i # 2
+puts a.to_f # 2.0
+puts a.to_r # 2/1
+puts a.to_c # 2+0i
+</code>
+
+<h2>Setting the base: Converting binary, octal, hexadecimal to decimal</h2>
+
+Normally <hl>to_i</hl> assumes that our original number in the String object is in 10-base representation, but if you would like to change that?
+
+What if you'd like to treat the String as a binary number, an octal number, or a hexadecimal number? You just pass <hl>base=</hl> with the
+appropriate number to the <hl>to_i</hl> method:
+
+<code>
+puts "11".to_i            # 11
+puts "11".to_i(base=2)    # 3
+puts "11".to_i(base=16)   # 17
+</code>
+
+Of course hexadecimal "numbers" can also contain the letters a-f. The <hl>to_i</hl> fuction can deal with that too.
+
+<code>
+puts "aB".to_i(base=16)   # 171
+</code>
+
+Which brings up the question, what will happen if we use <hl>to_i</hl> without base on a string with hexadecimal number in it,
+or just any base with values that are not part of the 'digits' it can handle? They all silently return 0.
+
+<code>
+puts "aB".to_i            # 0
+puts "9".to_i(base=8)     # 0
+</code>
+
+
+That leads us to the question: <b>What happens if not all the characters ar convertable to number?</b>: The answer is simple.
+<hl>to_i</hl> will convert all the 'digits' on from the beginning of the string up to the point where it does not understand
+any more. Then it will abandon the rest of the string. Even if there are more understandable digits later on.
+
+<code>
+puts "2x3".to_i           # 2
+puts "2 3".to_i           # 2
+</code>
+
+
+<h2>Converting to Floating point and Rational number</hl>
+
+We can use the other methods to convert a string to a Floating point, a Rational number, or even a Complex number:
+Some of thoes will understand a decimal point in the <hl>String</hl>
+
+<code>
+c = "14.6"
+puts c.to_i    # 14
+puts c.to_f    # 14.6
+puts c.to_r    # 73/5
+puts c.to_c    # 14.6+0i
+</code>
+
+Some of them will even understand the letter <hl>e</hl> marking exponent in the String:
+
+<code>
+e = "2.3e4x5"
+puts e         # 2.3e4x5
+puts e.to_i    # 2
+puts e.to_f    # 23000.0
+puts e.to_r    # 23000/1
+puts e.to_c    # 23000.0+0i
+</code>
+
+<h2>Full example</h2>
+
+<include file="examples/ruby/string_to_number.rb">
+
+
 
