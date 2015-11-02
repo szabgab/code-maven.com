@@ -102,7 +102,7 @@ puts "2 3".to_i           # 2
 </code>
 
 
-<h2>Converting to Floating point and Rational number</hl>
+<h2>Converting to Floating point and Rational number</h2>
 
 We can use the other methods to convert a string to a Floating point, a Rational number, or even a Complex number:
 Some of thoes will understand a decimal point in the <hl>String</hl>
