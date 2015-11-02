@@ -1,0 +1,51 @@
+=title Exercise: Add numbers taken from a CSV file
+=timestamp 2015-11-02T16:01:25
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: Add numbers taken from a CSV file
+
+See other <a href="/exercises">exercises</a>.
+
+=abstract end
+
+Given a CSV file like this:
+
+<include file="examples/data/process_csv_file.csv">
+
+Write a script that will take the values of the 3rd in this Comma Separated Values file
+and add them together.
+
+
+Can your code also handle this file?
+
+<include file="examples/data/distance.csv">
+
+<h2>Tools</h2>
+
+<ul>
+  <li><a href="http://perlmaven.com/perl-split">Perl 5 split</a></li>
+  <!-- <li><a href="http://perlmaven.com/csv">Perl 5 CSV</a></li> -->
+  <li><a href="http://code-maven.com/ruby-split">Ruby split</a></li>
+  <li><a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html">Ruby CSV</a></li>
+</ul>
+
+
+<h2>Solutions in Perl 5</h2>
+<ul>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-process-csv-file">Perl 5 Process CSV file</a></li>
+  <li><a herf="http://perlmaven.com/beginner-perl-maven-process-csv-file-short-version">Perl 5 Process CSV file short version</a></li>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-oneliner-sum-of-csv">Perl 5 One-liner sum of column in CSV</a></li>
+  <li><a href="http://perlmaven.com/beginner-perl-maven-text-csv-xs">Process CSV file using Text::CSV_XS</a></li>
+</ul>
+
+<h2>Solution Ruby</h2>
+<ul>
+   <li><a href="http://code-maven.com/reading-csv-file-in-ruby">Reading CSV file in Ruby</a></li>
+</ul>
+

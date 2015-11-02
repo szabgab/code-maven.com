@@ -18,7 +18,7 @@ files with Comman Separated values
 
 In this CSV file the 3rd fields in every "row" is a number. We would like to sum these numbers.
 
-<include file="examples/ruby/data.csv">
+<include file="examples/data/distance.csv">
 
 If it was a simpler file We could read it line-by-line and use <hl>split</hl> to cut it into parts,
 but in this file there is a field that has a comman in it. Plain <hl>split</hl> would not be able to
