@@ -17,36 +17,58 @@ in many other languages.
 =abstract end
 
 
+<h2>Introduction</h2>
 <ol>
   <li><a href="/exercise-hello-world">Hello World (print, documentation, comments)</a></li>
+</ol>
 
+<h2>Scalars</h2>
+<ol>
   <li><a href="/exercise-rectangular">Calculate Area of Rectangular (Standard I/O, if)</a></li>
   <li><a href="/exercise-number-guessing-game">Number guessing game (random, prompt, if)</a></li>
+</ol>
 
+<h2>Files</h2>
+<ol>
   <li><a href="/exercise-sum-of-numbers-in-file">Sum of numbers in a file (open, loop +=)</a></li>
   <li><a href="/exercise-analyze-apache-log-file-count-localhost">Analyze Apache log file</a> (count localhost vs others, index, substr)</li>
   <li><a href="/exercise-add-more-statistics">Add more statistics</a></li>
   <li><a href="/exercise-write-report-to-file">Write report to file</a></li>
+</ol>
 
+<h2>Lists and Arrays</h2>
+<ol>
   <li><a href="/exercise-color-selector">Color selector</a></li>
   <li><a href="/exercise-add-numbers-from-csv-file">Add numbers taken from CSV file</a></li>
   <li><a href="/exercise-improve-the-color-selector">Improve the color selector</a></li>
   <li><a href="/exercise-improve-number-guessing-game">Improve number guessing game</a></li>
+</ol>
 
+<h2>Advanced Arrays</h2>
+<ol>
   <li><a href="/exercise-count-digits">Count digits</a></li>
   <li><a href="/exercise-sort-based-on-secondary-condition">Sort based on secondary condition</a></li>
   <li><a href="/exercise-display-unique-rows-of-a-file">Display unique rows of a file</a></li>
   <li><a href="/exercise-sort-mixed-string">Sort mixed strings</a></li>
+</ol>
 
+<h2>Subroutines</h2>
+<ol>
   <!-- <li><a href="">Number guessing in a subroutine</a></li> -->
+</ol>
 
+<h2>Hashes, Dictionaries</h2>
+<ol>
   <li><a href="/exercise-count-words-in-a-file">Count words in a file</a></li>
   <!-- <li><a href="">Parse HTTP GET parameters</a></li> -->
   <!-- Further improve the color selector ?? -->
   <li><a href="/exercise-sort-scores">Sort scores</a></li>
   <li><a href="/exercise-analyze-apache-log-file-count-every-host">Analyze Apache log file</a> (count all the hits from all the clients)</li>
   <li><a href="/exercise-parse-variable-width-fields">Parse file with variable width fields</a></li>
+</ol>
 
+<h2>Regular Expressions, Regexes</h2>
+<ol>
   <li><a href="/exercise-regexes-part-1">Regex Exercises - part 1</a></li>
   <li><a href="/exercise-match-numbers-with-regex.txt">Match numbers with regex</a></li>
   <li><a href="/exercise-hexa-octal-binary">Match hexa, octal, binary numbers</a></li>
@@ -57,10 +79,17 @@ in many other languages.
   <li><a href="/exercise-parse-hours-log-file-and-create-time-report">Parse hours log file and create time report</a></li>
   <li><a href="/exercise-parse-ini-file">Parse INI or Config files.</a></li>
   <!-- Parse Perl file ?? -->
-
-  <!-- Install Module from CPAN/PyPi/Gems/etc -->
-
-  <!-- Traverse directory implementing du -->
-  <!-- Other 'applications' -->
 </ol>
+
+
+<h2>Shell</h2>
+
+<h2>3rd party libraries</h2>
+
+<!-- Install Module from CPAN/PyPi/Gems/etc -->
+
+<!-- Traverse directory implementing du -->
+<!-- Other 'applications' -->
+
+
 
