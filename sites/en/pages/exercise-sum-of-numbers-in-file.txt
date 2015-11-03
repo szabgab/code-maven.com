@@ -56,6 +56,6 @@ Some of the tools you might need to solve this exercise.
 <h2>Solutions</h2>
 <ul>
   <li><a href="http://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers in a file</a></li>
-  <li><a href="/solution-ruby-sum-of-numbers-in-file">Ruby: sum of numbers in a file</a></li>
+  <li><a href="/sum-of-numbers-in-file-using-ruby">Ruby: sum of numbers in a file</a></li>
 </ul>
 
