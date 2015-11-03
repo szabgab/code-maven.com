@@ -60,7 +60,7 @@ in many other languages.
 <h2>Hashes, Dictionaries</h2>
 <ol>
   <li><a href="/exercise-count-words-in-a-file">Count words in a file</a></li>
-  <!-- <li><a href="">Parse HTTP GET parameters</a></li> -->
+  <li><a href="/exercise-parse-http-get-parameters">Parse HTTP GET parameters</a></li>
   <!-- Further improve the color selector ?? -->
   <li><a href="/exercise-sort-scores">Sort scores</a></li>
   <li><a href="/exercise-analyze-apache-log-file-count-every-host">Analyze Apache log file</a> (count all the hits from all the clients)</li>

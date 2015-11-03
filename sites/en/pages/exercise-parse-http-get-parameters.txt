@@ -1,0 +1,55 @@
+=title Exercise: Parse HTTP GET parameters
+=timestamp 2015-11-03T21:00:01
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When you visit a web-site, fill in a form and submit it, in some cases you will see the URL containing a question mark <hl>?</hl>
+followed by a long list of key-value pairs. These are the HTTP parameters of this GET request.
+
+Every programming language has plenty of libraries handling these values properly, but we can also use them as an exercise.
+
+=abstract end
+
+
+So given a string like this:  <hl>fname=Foo&lname=Bar&email=foo@bar.com</hl>
+or a string like this <hl>ip=127.0.0.1&machine=foobar</hl> create a hash/dictionary/associative array that will hold the key-value
+pairs found in the string.
+
+Given <hl>fname=Foo&lname=Bar&email=foo@bar.com</hl> the data structure should look like this:
+
+<code>
+{
+  'fname' : 'Foo',
+  'lname' : 'Bar',
+  'email' : 'foo@bar.com'
+}
+</code>
+
+Given this string <hl>ip=127.0.0.1&machine=foobar</hl> the data structure should look like this:
+
+<code>
+{
+  'ip'      : '127.0.0.1',
+  'machine' : 'foobar'
+}
+</code>
+
+
+For extra bonus try to handle this case as well:
+
+Given <hl>fname=Foo&lname=Bar&email=foo@bar.com&email=here@there.or</hl> the data structure should look like this:
+
+<code>
+{
+  'fname' : 'Foo',
+  'lname' : 'Bar',
+  'email' : [ 'foo@bar.com', 'here@there.or' ]
+}
+</code>
+
