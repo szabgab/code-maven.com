@@ -72,8 +72,8 @@ in many other languages.
   <li><a href="/exercise-regexes-part-1">Regex Exercises - part 1</a></li>
   <li><a href="/exercise-match-numbers-with-regex.txt">Match numbers with regex</a></li>
   <li><a href="/exercise-hexa-octal-binary">Match hexa, octal, binary numbers</a></li>
-  <!-- Roman numbers -->
-  <!-- HTTP GET with regexe -->
+  <li><a href="/exercise-match-roman-numbers">Match Roman numbers</a></li>
+  <!-- HTTP GET with regex -->
   <!-- Split file path with regex -->
   <li><a href="/exercise-sort-snmp-numbers">Sort SNMP numbers</a></li>
   <li><a href="/exercise-parse-hours-log-file-and-create-time-report">Parse hours log file and create time report</a></li>

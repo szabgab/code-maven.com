@@ -1,0 +1,58 @@
+=title Exercise: Match Roman numbers
+=timestamp 2015-11-04T23:01:07
+=indexes exercises, projects
+=tags screencast
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: Match Roman numbers
+
+=abstract end
+
+I usually give this as a bonus exercise for people who finish all the other exercises early. Let's see if you can do this?
+
+Write a function that return "true" if the given value is a <a href="https://en.wikipedia.org/wiki/Roman_numerals">Roman number</a>. Can you even write a Roman to "normal"
+(also known as <a href="https://en.wikipedia.org/wiki/Arabic_numerals">Arabic</a>) number converter?
+
+Roman numbers are:
+
+<code>
+I    = 1
+II   = 2
+III  = 3
+IV   = 4
+V    = 5
+VI   = 6
+VII  = 7
+VIII = 8
+IX   = 9
+X    = 10
+...
+</code>
+
+<code>
+I     = 1
+V     = 5
+X     = 10
+L     = 50
+C     = 100
+D     = 500
+M     = 1000
+</code>
+
+<slidecast file="/media/videos/beginner-perl/exercise-roman-numbers" youtube="0QI6QAZxNwg" />
+
+
+<h2>Tools</h2>
+<ul>
+</ul>
+
+<h2>Solution</h2>
+<ul>
+</ul>
+
+
