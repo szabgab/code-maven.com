@@ -89,7 +89,12 @@ in many other languages.
 <!-- Install Module from CPAN/PyPi/Gems/etc -->
 
 <!-- Traverse directory implementing du -->
-<!-- Other 'applications' -->
 
+<h2>Simple applications</h2>
+
+<ol>
+  <li><a href="/exercise-implement-linux-wc">Exercise: Implement the wc command of Linux/Unix (word count)</a></li>
+</ol>
+ 
 
 

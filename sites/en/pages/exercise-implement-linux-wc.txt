@@ -1,0 +1,75 @@
+=title Exercise: Implement the wc command of Linux/Unix (word count)
+=timestamp 2015-11-05T06:31:25
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: Implement the <hl>wc</hl> command of Linux/Unix
+
+See other <a href="/exercises">exercises</a>.
+
+=abstract end
+
+A sample execution of <hl>wc</hl> looks like this:
+
+<code>
+$ wc *
+      11      34     249 README.pod
+       2       4     128 authors.txt
+      37     110     773 check_examples.pl
+wc: examples: read: Is a directory
+    2737    2738   27627 python_weekly.pickle
+wc: sites: read: Is a directory
+       9      15     149 sites.yml
+wc: static: read: Is a directory
+    2796    2901   28926 total
+</code>
+
+That is. Given a list of things on the command line it counts the number of "lines", "words", and "characters" for each file
+printing them in 3 columns (in that order) followed by the name of the file.
+
+At the end it will print the totals of each column.
+
+If it encounters something that is not a file (e.g. a directory) it prints a warning and goes on.
+
+In our case there were 3 directories 'examples', 'sites', and 'static'.
+
+Optionally allow the user to supply any of the 3 flags: <hl>-l</hl> to print the line count, <hl>-w</hl> to print the word count, or <hl>-c</hl> to print the charater count.
+By default it prints all 3.
+
+If no input file is provided, <hl>wc</hl> will work on the content arriving on the Standard Input. This means we can write this:
+
+<code>
+$ find . | wc -l
+</code>
+
+and get back the number of file in the directory tree starting in our current working directory.
+
+<h2>Suggestion</h2>
+
+<a href="http://code-maven.com/exercise-count-words-in-a-file">Count words in a file</a> is a simpler exercise. Solve that first!
+
+<h2>Tools - Perl 5</h2>
+
+<ul>
+  <li><a href="http://perlmaven.com/open-and-read-from-files">Perl 5: Open file and read content</a></li>
+  <li><a href="http://perlmaven.com/argv-in-perl">Perl 5: @ARGV</a></li>
+  <li><a href="http://perlmaven.com/warn">Perl 5: warn</a></li>
+  <li>Printing to STDERR</li>
+</ul>
+
+<h2>Tools - Ruby</h2>
+
+<ul>
+   <li><a href="http://code-maven.com/open-file-and-read-content-in-ruby">Ruby: Open file and read content in Ruby</a></li>
+   <li><a href="http://code-maven.com/argv-the-command-line-arguments-in-ruby">Ruby: ARGV command line parameters</a></li>
+   <li>Printing to Standard Error</li>
+</ul>
+ 
+<h2>Solutions</h2>
+
+
