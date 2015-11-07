@@ -100,6 +100,7 @@ in many other languages.
 
 <ol>
   <li><a href="/exercise-send-plain-text-email">Send plain text e-mail</a></li>
+  <li><a href="/exercise-send-html-email">Send HTML e-mail</a></li>
 </ol>
 
 

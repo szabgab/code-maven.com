@@ -1,4 +1,4 @@
-=title Send plain text e-mail
+=title Exercise: Send plain text e-mail
 =timestamp 2015-11-07T09:40:01
 =indexes exercises, projects
 =status show
