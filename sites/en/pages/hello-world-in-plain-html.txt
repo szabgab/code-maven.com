@@ -1,0 +1,20 @@
+=title Hello World in plain HTML
+=timestamp 2015-11-07T11:00:01
+=indexes HTML
+=status draft 
+=tags screencast
+=books html
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The first step in building web applications is to learn about HTML and the first thing there is to
+learn is to create an HTML file showing <b>Hello World!</b>.
+
+=abstract end
+
+<try file="examples/html/hello_world.html">
+
+
