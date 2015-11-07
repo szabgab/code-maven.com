@@ -1,7 +1,7 @@
 =title Hello World in plain HTML
-=timestamp 2015-11-07T11:00:01
+=timestamp 2015-11-07T11:30:01
 =indexes HTML
-=status draft 
+=status show
 =tags screencast
 =books html
 =author szabgab
@@ -15,6 +15,28 @@ learn is to create an HTML file showing <b>Hello World!</b>.
 
 =abstract end
 
+<h2>Plain text as HTML</h2>
+
+As you can read in the <a href="/html-basics">HTML Basics</a>, even plain text can be considered to be "HTML".
+If we create a file with <hl>.html</hl> and open it with a web browser such as Firefox, Chrome, Opera, Safari, or even Internet Explorer,
+then the browser will try to do its best to display the content of the file as HTML.
+
+Therefore the most simple solution is to create a file with <hl>.html</hl> and have the following content in it:
+
 <try file="examples/html/hello_world.html">
 
+You can either click on the "try" link to see it working, or you can copy the content of the example and open it
+from your hard disk using the <b>File/Open</b> menu option of your browser.
+
+
+<h2>HTML 5 skeleton</h2>
+
+A better solution is to provide a full HTML5 skeleton.
+
+<try file="examples/html/hello_world_html5.html">
+
+In this example we have "Hello World!" twice. The one in the <hl>title</hl> element is the
+one that is displayed on "tab" of the web browser or on the frame of the window showing the web browser.
+
+The one inside the <hl>body</hl> element is the one that we usually see in the browser.
 

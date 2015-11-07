@@ -41,6 +41,6 @@ Try your environment:
 </ul>
 
 <!--
-<h2>solutions</h2>
+<h2>Solutions</h2>
 -->
 
