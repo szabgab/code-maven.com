@@ -1,0 +1,19 @@
+=title Exercise: Send e-mail with attachment
+=timestamp 2015-11-07T10:50:01
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: Send e-mail with attachment.
+
+=abstract end
+
+Extend your solution for <a href="http://code-maven.com/exercise-send-plain-text-email">sending plain text e-mail</a>
+by allowing the user to provide  a list of filename and send the e-mail with the given files included
+as attachments.
+
