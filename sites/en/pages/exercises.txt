@@ -96,5 +96,11 @@ in many other languages.
   <li><a href="/exercise-implement-linux-wc">Exercise: Implement the wc command of Linux/Unix (word count)</a></li>
 </ol>
  
+<h2>Mix</h2>
+
+<ol>
+  <li><a href="/exercise-send-plain-text-email">Send plain text e-mail</a></li>
+</ol>
+
 
 

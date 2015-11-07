@@ -60,6 +60,8 @@ and get back the number of file in the directory tree starting in our current wo
   <li><a href="http://perlmaven.com/argv-in-perl">Perl 5: @ARGV</a></li>
   <li><a href="http://perlmaven.com/warn">Perl 5: warn</a></li>
   <li>Printing to STDERR</li>
+  <li>Create functions</li>
+  <li>Check file type (file, directory, etc)</li>
 </ul>
 
 <h2>Tools - Ruby</h2>
