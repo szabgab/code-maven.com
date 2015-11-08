@@ -1,0 +1,54 @@
+=title Personal Bookmarks
+=timestamp 2015-11-14T09:00:01
+=indexes exercises, projects
+=status draft
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The objective of this project is to provide a web application to store bookmarks.
+
+=abstract end
+
+Each entry has a
+<ul>
+  <li>URL</li>
+  <li>A title that could be fetched from the web site or typed in manually.</li>
+  <li>0 or more tags. Each tag can be a few words long.</li>
+  <li>A short description.</li>
+  <li>Private note. This comment should be never made public even if the entry is public.</li>
+  <li>It should be either public - anyone can see it. Or private - only I can see it.</li>
+  <li>Date when the item was added.</li>
+  <li>Date when the item was last edited.</li>
+</ul>
+
+
+The most basic version can work without any authentication. Assuming it is working on
+my own computer without external access. In this case the private/public question is not relevant.
+
+An improved version can have an authentication part. It does not need a registration part as
+it is a personal system. Only one person, the owner should be ableto add/edit/delete items.
+
+The logged in user should be able to
+
+<ul>
+  <li>Add a new item</li>
+  <li>Edit an exsting item</li>
+  <li>Delete an existing item</li>
+</ul>
+
+The system should support "fully private" version. In this case we have a single user and all the
+items are private. There is not even an option to set an item to be public.
+
+
+A search form that allows the user to search based on tags and/or based on content of the title, the description or even the url.
+
+If the site is in private mode then only the logged in user can search.
+
+If the site is in public mode, then anyone can search, but private entries can be only found by the logged in user.
+One must take care that even the autocomplete suggestion system (if there is one) won't suggest words or tags
+from private entries as that can reveal information.
+

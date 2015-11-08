@@ -38,5 +38,10 @@ created earlier. Each soultion should have several versions:
 
 <ul>
   <li><a href="/hello-world-in-plain-html">Hello World! in plain HTML</a></li>
+  <li><a href="/getting-started-with-nodejs">Node.js</a></li>
+  <li><a href="/hello-world-with-flask-and-python">Flask (Python)</a></li>
+  <li><a href="http://perl6maven.com/getting-started-with-bailador">Bailador (Perl 6)</a></li>
+<!-- Dancer 2 -->
+<!-- Sinatra -->
 </ul>
 
