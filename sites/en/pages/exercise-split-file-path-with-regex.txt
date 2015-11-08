@@ -1,4 +1,4 @@
-=title Split file path using regex
+=title Exercise: Split file path using regex
 =timestamp 2015-11-08T21:00:01
 =indexes exercises, projects
 =tags screencast
