@@ -37,11 +37,12 @@ created earlier. Each soultion should have several versions:
 <h2>Solutions</h2>
 
 <ul>
-  <li><a href="/hello-world-in-plain-html">Hello World! in plain HTML</a></li>
-  <li><a href="/getting-started-with-nodejs">Node.js</a></li>
-  <li><a href="/hello-world-with-flask-and-python">Flask (Python)</a></li>
-  <li><a href="http://perl6maven.com/getting-started-with-bailador">Bailador (Perl 6)</a></li>
-<!-- Dancer 2 -->
-<!-- Sinatra -->
+  <li><a href="http://code-maven.com/hello-world-in-plain-html">Hello World! in plain HTML</a></li>
+  <li><a href="http://code-maven.com/getting-started-with-nodejs">Node.js: Getting Started with Node.js</a></li>
+  <li><a href="http://code-maven.com/hello-world-with-flask-and-python">Python: Hello world with Flask and Python</a></li>
+  <li><a href="http://perl6maven.com/getting-started-with-bailador">Perl 6: Getting started with Bailador</a></li>
+  <li><a href="http://perlmaven.com/getting-started-with-psgi">Perl 5: Getting started with PSGI</a></li>
+  <li><a href="http://perlmaven.com/pro/hello-world-with-plack-cgi">Perl 5: Hello World with Plack in CGI mode</a></li>
+  <li><a href="http://perlmaven.com/hello-world-with-dancer2">Perl 5: Hello World with Dancer2</a></li>:w
 </ul>
 
