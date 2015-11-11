@@ -110,7 +110,7 @@ in many other languages.
 <ol>
   <li><a href="/exercise-web-hello-world">Hello World</a></li>
   <li><a href="/exercise-web-echo">Echo in a web application</li>
-  <!-- <li><a href="/personal-bookmarks">Personal Bookmarks</a></li> -->
+  <li><a href="/personal-bookmarks">Personal Bookmarks</a></li>
   <!-- <li><a href="/url-shortener">URL Shortener</a></li> -->
 </ol>
 
