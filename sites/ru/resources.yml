@@ -4,7 +4,7 @@ text:
 menu:
   - dir: right
     menu:
-      - title: Type keyword:
+      - title: 'Type keyword:'
         url: /keywords
       - searchbox: 1
       - title: Archive
