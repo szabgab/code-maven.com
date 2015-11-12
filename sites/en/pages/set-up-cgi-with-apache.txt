@@ -1,0 +1,127 @@
+=title Set up CGI with Apache on Ubuntu Linux
+=timestamp 2015-11-12T08:30:01
+=indexes CGI, Apache, curl, Ubuntu, Bash
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+CGI, the Common Gateway Interface is a simple  way to write web applications. Especially when you are running Apache as the web server.
+Recently I wanted to show a few examples using CGI in various programming languages, but first I had to make sure CGI is enabled on my server.
+
+=abstract end
+
+I have been using the an <a href="http://perlmaven.com/vagrant-perl-development-environment">Ubuntu based Vagrant image</a> for my experiments
+but I think the same steps will work in any other Ubuntu-based or any Debian based system.
+
+
+<h2>Install Apache 2</h2>
+
+If you don't have it installed yet, you will need to install the web servers itself:
+
+<code>
+$ sudo apt-get install apache2
+</code>
+
+<h2>Install curl</h2>
+
+<hl>curl</hl> can be used to fetch web pages. 
+It is not a requirement for our set up, but it is nice to have on the server as it can be used to check the pages
+without opening a real browser. Besides, at least in my set up, I have configured the web server on a Virtual Environment,
+but I have not set up port-forwarding for port 80 yet and thus I would not be able to access the web server from my
+desktop. (The article about <a href="http://perlmaven.com/vagrant-perl-development-environment">Vagrant development environment</a>
+has explanation how to set up the port forwarding.)
+
+<code>
+$ sudo apt-get install curl
+</code>
+
+<h2>Try the web server</h2>
+
+At this point we can try if the web server works:
+
+<code>
+$ curl http://127.0.0.1/
+</code>
+
+It will print some HTML on the screen.
+
+
+<h2>Configure CGI</h2>
+
+I looked around the <hl>/etc/apache2</hl> directory, which is the standard place to find the
+configuration files of Apache. I've found the <hl>/etc/apache2/conf-available/serve-cgi-bin.conf</hl>
+file that has a symbolic link from <hl>/etc/apache2/conf-enabled/serve-cgi-bin.conf</hl>.
+It has a section that maps the /cgi-bin path in the URLs to the <hl>/usr/lib/cgi-bin/</hl>
+directory in the hard disk and enables CGI execution in this directory.
+
+<include file="examples/apache/serve-cgi-bin.conf">
+
+That's not enough though. We also need to enable the CGI module of Apache.
+
+The installed modules of Apache can be found in the <hl>/etc/apache2/mods-available</hl> directory.
+The cgi module is called <hl>cgi.load</hl>
+
+The enabled modules have symbolic links in <hl>/etc/apache2/mods-enabled</hl>, but as I found out,
+the CGI module did not have a symbolic link there: The CGI module was not enabled by default.
+
+<code>
+$ cd /etc/apache2/mods-enabled
+$ sudo ln -s ../mods-available/cgi.load
+</code>
+
+Added the symbolic link.
+
+
+<h2>Reload Apache configuration</h2>
+
+As the configuration of Apache has changed we need to tell Apache to reload its configuration files:
+
+<code>
+$ sudo service apache2 reload
+</code>
+
+
+<h2>Create the first CGI script</h2>
+
+Now that we have enable CGI we can create our first CGI script.
+
+This first CGI example will be created in Bash.
+Later on you can check out the solutions to the various <a href="http://code-maven.com/exercises">web exercises</a>
+Especially the <a href="http://code-maven.com/exercise-web-hello-world">Hello World!</a> exercise and
+the <a href="http://code-maven.com/exercise-web-echo">Web Echo</a> exercise and their solutions.
+
+
+I've created a file called <hl>/usr/lib/cgi-bin/hw.sh</hl> using <hl>sudo vim /usr/lib/cgi-bin/hw.sh</hl>
+
+<include file="examples/apache/hw.sh">
+
+Made it executable:
+
+<code>
+$ sudo chmod +x /usr/lib/cgi-bin/hw.sh
+</code>
+
+Then I could access it through Apache using:
+
+<code>
+$ curl http://127.0.0.1/cgi-bin/hw.sh
+Hello World!
+</code>
+
+<h2>Troubleshooting</h2>
+
+If the <hl>curl</hl> request returns <hl>404 Not Found</hl> then either the file is not in the correct place, or the
+URL given to curl is incorrect.
+
+
+If the <hl>curl</hl> requests return <hl>500 Internal Server Error</hl> you might have forgotten to make the script
+executable using <hl>sudo chmod +x /usr/lib/cgi-bin/hw.sh</hl>
+
+or the hashbang line (The first line that should look like this <hl>#!/bin/bash</hl> was not typed in correctly.
+
+Lastly, the 500 error might occur if the first line printed by the script is not <hl>Content-type: text/html</hl>
+followed by 2(!) newlines.
+
