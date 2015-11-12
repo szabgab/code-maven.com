@@ -1,4 +1,4 @@
-=title Hello World using CGI in ruby
+=title Hello World using CGI in Ruby
 =timestamp 2015-11-12T14:00:01
 =indexes cgi
 =status show
