@@ -24,6 +24,7 @@ one with POST.
   <li><a href="/http-client-request-in-nodejs">Node.js (part 1)</a></li>
   <li><a href="/echo-with-flask-and-python">Flask (Python)</a></li>
   <li><a href="http://perl6maven.com/echo-text-with-bailador">Bailador (Perl 6)</a></li>
-  <li><a href="http://perlmaven.com/getting-started-with-perl-dancer">Perl 5: Getting started with Perl Dancer - Creating an Echo application</a><li>
+  <li><a href="http://perlmaven.com/pro/echo-with-plain-cgi">Echo with plain CGI</a></li>
+  <li><a href="http://perlmaven.com/getting-started-with-perl-dancer">Perl 5: Getting started with Perl Dancer - Creating an Echo application</a></li>
 </ul>
 
