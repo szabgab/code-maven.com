@@ -102,6 +102,7 @@ in many other languages.
   <li><a href="/exercise-send-plain-text-email">Send plain text e-mail</a></li>
   <li><a href="/exercise-send-html-email">Send HTML e-mail</a></li>
   <li><a href="/exercise-send-email-with-attachment">Send e-mail with attachments</a></li>
+  <li><a href="/compare-wikipedia-translations">Compare Wikipedia translations</a></li>
 </ol>
 
 

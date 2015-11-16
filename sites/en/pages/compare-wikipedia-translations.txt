@@ -1,0 +1,75 @@
+=title Exercise: Compare the Wikipedia translations
+=timestamp 2015-11-16T12:30:01
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Given an article on the <a href="https://en.wikipedia.org/">English Wikipedia</a>, for example
+about <a href="https://en.wikipedia.org/wiki/Perl">Perl</a>,
+<a href="https://en.wikipedia.org/wiki/Python_%28programming_language%29">Python</a>,
+<a href="https://en.wikipedia.org/wiki/Ruby_%28programming_language%29">Ruby</a>,
+<a href="https://en.wikipedia.org/wiki/PHP">PHP</a>, or <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>,
+create a program that will fetch the size of all the translated versions of this article
+from every language on Wikipedia.
+
+=abstract end
+
+
+Depending on the level of investigation you'd like to do you can start implementing right away or you could read one or more
+of the <b>hint</b> that explain what you need to fetch.
+
+<h2>Hints</h2>
+
+Wikipedia provides an <a href="https://www.mediawiki.org/wiki/API:Main_page">API to fetch the content of the page</a> in
+raw format. It also provide a lot more details about its <a href="https://www.mediawiki.org/wiki/Wikibase/API">API</a>,
+including information about <a href="https://www.mediawiki.org/wiki/API:Properties">API::Properties</a>.
+
+The language links are served by <a href="https://www.wikidata.org/">Wikidata</a>.
+
+<h2>Hints</h2>
+
+This URL will return the content of the 'Perl' page of the English version of the Wikipedia in JSON format:
+
+<code>
+https://en.wikipedia.org/w/api.php?action=query&prop=revisions&rvprop=content&format=json&titles=Perl
+</code>
+
+This URL will return the list of translated versions of the page with Q-id Q42:
+
+<code>
+https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&props=sitelinks&ids=Q42
+</code>
+
+Given a title (in this case PHP), the following URL will return the Q-id of the page:
+
+<code>
+https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&format=json&titles=PHP'
+</code>
+
+<h2>Hints</h2>
+
+There seem to be 4 types of language links returned from <a href="https://www.wikidata.org/">Wikidata</a>:
+
+Plain Wikipedia links that end in the word 'wiki' such as <hl>itwiki</hl>, <hl>newwiki, or <hl>pdcwiki</hl>. They
+can be 2 or more characters. The real URL is the same without the last 4 characters.
+
+Wikipedia links with underscores such as <hl>zh_yuewiki</hl>, <hl>bat_smgwiki</hl>, or <hl>zh_min_nanwiki</hl>
+are quite similar, but we need to replace the underscore <hl>_</hl> characters by dash <hl>-</hl> characters.
+
+<a href="https://en.wikiquote.org/">Wikiquote</a> links. For exampe <hl>enwikiquote</hl> which map to https://en.wikiquote.org/.
+
+<a href="https://fr.wikibooks.org/">Wikibook</a> links, such as <hl>frwikibook</hl> which map to https://fr.wikibooks.org/.
+
+
+<h2>Tools</h2>
+
+<h2>Solutions</h2>
+
+<a href="https://github.com/szabgab/wikipedia-stats">wikipedia stats in GitHub</a>
+
+
