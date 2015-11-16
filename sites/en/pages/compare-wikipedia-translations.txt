@@ -55,7 +55,7 @@ https://en.wikipedia.org/w/api.php?action=query&prop=pageprops&format=json&title
 
 There seem to be 4 types of language links returned from <a href="https://www.wikidata.org/">Wikidata</a>:
 
-Plain Wikipedia links that end in the word 'wiki' such as <hl>itwiki</hl>, <hl>newwiki, or <hl>pdcwiki</hl>. They
+Plain Wikipedia links that end in the word 'wiki' such as <hl>itwiki</hl>, <hl>newwiki</hl>, or <hl>pdcwiki</hl>. They
 can be 2 or more characters. The real URL is the same without the last 4 characters.
 
 Wikipedia links with underscores such as <hl>zh_yuewiki</hl>, <hl>bat_smgwiki</hl>, or <hl>zh_min_nanwiki</hl>
