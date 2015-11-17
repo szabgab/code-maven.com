@@ -20,13 +20,13 @@ Now, as an execise, let's create a URL shortener.
 
 =abstract end
 
-See other <a href="/projects">projects</a>
+See other <a href="/exercises">projects and exercises</a>
 
 Before going out and building the application itself, let's describe how should it work:
 
-<h2>Public shortener</h2>
+<h2>Public URL shortener</h2>
 
-A public shortener would work like this:
+A public URL shortener would work like this:
 
 <ol>
   <li>A random visitor arrives to the main page. Pastes a URL, receives a short URL on our site.  e.g. http://exitlog.org/r/xY30pQ</li>
@@ -92,6 +92,7 @@ A public shortener would work like this:
       <li>Show the country distribution of links.</li>
     </ul>
   </li>
+</ul>
 
 
 <h2>Private URL shortener</h2>
