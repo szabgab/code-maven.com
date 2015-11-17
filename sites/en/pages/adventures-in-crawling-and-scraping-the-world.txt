@@ -2,7 +2,7 @@
 =timestamp 2015-10-04T11:30:01
 =indexes Mechanize
 =status show
-=books perl, python, ruby, javasript, nodejs
+=books perl, python, ruby, javascript, nodejs
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
