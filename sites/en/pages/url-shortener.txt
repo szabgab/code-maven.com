@@ -92,7 +92,7 @@ A public URL shortener would work like this:
       <li>Show the country distribution of links.</li>
     </ul>
   </li>
-</ul>
+</ol>
 
 
 <h2>Private URL shortener</h2>
