@@ -26,5 +26,6 @@ one with POST.
   <li><a href="http://perl6maven.com/echo-text-with-bailador">Bailador (Perl 6)</a></li>
   <li><a href="http://perlmaven.com/pro/echo-with-plain-cgi">Echo with plain CGI</a></li>
   <li><a href="http://perlmaven.com/getting-started-with-perl-dancer">Perl 5: Getting started with Perl Dancer - Creating an Echo application</a></li>
+  <li><a href="http://perlmaven.com/pro/echo-with-plack-cgi">Perl 5: Echo with Plack in CGI mode</a></li>
 </ul>
 

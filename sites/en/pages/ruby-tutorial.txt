@@ -9,8 +9,8 @@
 
 =abstract start
 
-This is the beginning of my Ruby Tutorial
-
+This is the beginning of my Ruby Tutorial. Either read this, or head over to the <a href="http://code-maven.com/exercises">Programming Exercises</a>
+and start solving them using Ruby.
 
 =abstract end
 
@@ -22,7 +22,7 @@ This is the beginning of my Ruby Tutorial
   <li><a href="/range-in-ruby">Range in Ruby</a>(..  and ...)</li>
   <li><a href="/argv-the-command-line-arguments-in-ruby">ARGV - the command line arguments of a Ruby program</a></li>
   <li><a href="/open-file-and-read-content-in-ruby">Open file and read content in Ruby</a></li>
-  <li><a href="/download-a-page-using-ruby">Download an HTML page using Ruby</a></li>
+  <li><a href="/download-a-page-using-ruby">Download an HTML page using Ruby</a> (Fetch a URL)</li>
   <li><a href="/basic-data-structures-in-ruby">Basic data structures in Ruby (Scalar, Array, Hash)</a></li>
 </ul>
 
