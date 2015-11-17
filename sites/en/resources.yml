@@ -5,6 +5,10 @@ menu:
         title: Login
       - title: Register
         url: /pm/register
+      - title: Exercises
+        url: /exercises
+      - title: Categories
+        url: /category
   - dir: right
     menu:
       - title: 'Type keyword:'
