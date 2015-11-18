@@ -31,7 +31,7 @@ For example if run this program:
 The output will look something like this:
 
 <code>
-/home/vagrant/localperl/bin:/home/vagrant/node/bin:/home/vagrant/rakudo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 /nothing/here
 </code>
 
@@ -48,7 +48,7 @@ echo $PATH
 It will print the same path as it did with the first call to <hl>system</hl>.
 
 <code>
-/home/vagrant/localperl/bin:/home/vagrant/node/bin:/home/vagrant/rakudo/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
+/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games
 </code>
 
 This means our changes in the Ruby code have not changed the environment variable for the parent process.
