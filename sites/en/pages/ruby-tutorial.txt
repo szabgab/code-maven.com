@@ -41,5 +41,6 @@ and start solving them using Ruby.
   <li><a href="http://code-maven.com/convert-string-to-number-in-ruby">Convert String to Number in Ruby</a></li>
   <li><a href="http://code-maven.com/count-digits-using-ruby">Count digits in Ruby</a></li>
   <li><a href="http://code-maven.com/hello-world-using-cgi-in-ruby">Hello World using CGI in Ruby</a></li>
+  <li><a href="http://code-maven.com/ruby-env">Ruby ENV</a></li>
 </ul>
 

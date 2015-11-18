@@ -1,0 +1,4 @@
+require 'pp'
+
+pp ENV
+
