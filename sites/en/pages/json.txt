@@ -1,6 +1,6 @@
 =title JSON
 =timestamp 2015-11-20T12:30:01
-=indexes 
+=indexes JSON
 =status show
 =author szabgab
 =archive 1
@@ -22,7 +22,7 @@ and are written in different languages. It can be also used as a format for conf
 
 Ajax, that stands for <b>"asynchronous JavaScript and XML"</b>, describes how an application written in JavaScript running in a browser can communicate
 with the application running on the server that is most likely written in some other language, for example in <a href="http://perlmaven.com/">Perl</a>,
-<a href="">Python</a>, <a href="">Ruby</a>, or PHP. 
+<a href="/python">Python</a>, <a href="/ruby">Ruby</a>, or PHP. 
 Originally, as the name indicates, the data sent back-and-forth between the two applications was supposed to be in XML, but today, a large chunk of those applications communicate
 using JSON format. It is more light-weight than XML and fits the purpose much better.
 
