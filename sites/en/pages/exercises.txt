@@ -115,3 +115,9 @@ in many other languages.
   <li><a href="/url-shortener">URL Shortener</a></li>
 </ol>
 
+<h2>Web crawlers</h2>
+
+<ol>
+  <li><a href="/download-a-web-page">Download a web page, fetch a URL</a></li>
+</ol>
+
