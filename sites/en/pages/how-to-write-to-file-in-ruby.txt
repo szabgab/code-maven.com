@@ -1,0 +1,31 @@
+=title How to write to file in Ruby
+=timestamp 2015-11-21T08:30:01
+=indexes File, write
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Writing to a file is quite simple in Ruby. The <a href="http://ruby-doc.org/core-2.2.3/File.html">File</a> library helps us in it.
+
+=abstract end
+
+<h2>Write to file</h2>
+
+<include file="examples/ruby/write_to_file.rb">
+
+If we run this it will create the file <hl>out.txt</hl> if it did not exists before or it will overwrite it if it existed earlier.
+Any previous content will be removed.
+
+
+<h2>Append to file</h2>
+
+If the second parameter to the <hl>new</hl> method is <hl>'a'</hl> and not <hl>'w'</hl> then we are goint to append to the
+end of the file. This mean is the file already has some content, it will be kept and anything new will be added to the end.
+If the file did not exist earlier then this too will create it.
+
+<include file="examples/ruby/append_to_file.rb">
+
