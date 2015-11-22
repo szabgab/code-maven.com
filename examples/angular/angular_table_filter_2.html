@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>Table Filter</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script>
+  angular.module('TableFilterApp', [])
+    .controller('TableFilterController', function($scope) {
+      $scope.planets = [
+        {
+          name : 'Mercury',
+          distance : 0.4,
+          mass : 0.055
+        },
+        {
+          name : 'Venus',
+          distance : 0.7,
+          mass : 0.815
+        },
+        {
+          name : 'Earth',
+          distance: 1,
+          mass : 1
+        },
+        {
+          name : 'Mars',
+          distance : 1.5,
+          mass : 0.107
+        },
+        {
+          name : 'Ceres',
+          distance : 2.77,
+          mass :     0.00015
+        },
+        {
+          name : 'Jupiter',
+          distance : 5.2,
+          mass :   318
+        },
+        {
+          name : 'Saturn',
+          distance : 9.5,
+          mass :    95
+        },
+        {
+          name : 'Uranus',
+          distance : 19.6,
+          mass :   14
+        },
+        {
+          name : 'Neptune',
+          distance : 30,
+          mass : 17
+        },
+        {
+          name : 'Pluto',
+          distance : 39,
+          mass : 0.00218
+        },
+        {
+          name : 'Charon',
+          distance : 39,
+          mass :  0.000254
+        }
+      ];
+      $scope.f = {};
+
+      $scope.filter_by = function(field) {
+        console.log(field);
+        console.log($scope.g[field]);
+        if ($scope.g[field] === '') {
+             delete $scope.f['__' + field];
+             return;
+        }
+        $scope.f['__' + field] = true;
+        $scope.planets.forEach(function(v) { v['__' + field] = v[field] < $scope.g[field]; })
+      }
+    
+    });
+  </script>
+
+</head>
+<body ng-app="TableFilterApp" ng-controller="TableFilterController">
+
+<table>
+<tr><th>Name</th><th>Average Distance</th><th>Mass</th></tr>
+<tr><td><input ng-model="f.name"></td><td><input ng-model="g.distance" ng-change="filter_by('distance')"></td><td><input ng-model="g.mass" ng-change="filter_by('mass')"></td></tr>
+<tr ng-repeat="p in planets | filter:f"><td>{{p.name}}</td><td>{{p.distance}}</td><td>{{p.mass}}</td></tr>
+</table>
+</body>
+</html>
+
+
