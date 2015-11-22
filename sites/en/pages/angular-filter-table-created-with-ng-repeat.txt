@@ -25,7 +25,7 @@ In the first example we have built a table from some data embedded in the code a
 
 The interesting part of the code is in these two lines:
 
-<try file="examples/angular/angular_table_filter_1.js">
+<include file="examples/angular/angular_table_filter_1.js">
 
 The second row is the one that builds the table. It is a regular <hl>ng-repeat</hl> row, but we have
 filtered out the results based on the content of object <hl>f</hl>. The attributes of that object are
@@ -52,7 +52,7 @@ the original key. The assumption is that it is very unlikely that we'll encounte
 The HTML part has changed slightly. Instead of binding the input boxes to attributes of the filter object, we bind them to another object (called g),
 and we also connect the input boxes to functions calls using <hl>ng-change</hl>.
 
-<try file="examples/angular/angular_table_filter_2b.js">
+<include file="examples/angular/angular_table_filter_2b.js">
 
 When the user changes either of the two boxes, Angular will run the <hl>filter_by</hl> function. There first we check if the input box is empty.
 If it is, then we remove the whole condition.
@@ -60,6 +60,6 @@ If it is, then we remove the whole condition.
 If there is a value in the input box, we go over all the object in the <hl>planets</hl> array and add the attribute with the appropriate <hl>true</hl>
 or <hl>false</hl> value. The actual filtering is done by AngularJS.
 
-<try file="examples/angular/angular_table_filter_2.js">
+<include file="examples/angular/angular_table_filter_2.js">
 
 
