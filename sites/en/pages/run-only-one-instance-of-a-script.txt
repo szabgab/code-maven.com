@@ -25,7 +25,7 @@ sure there are no two proccess running at the same time.
 We open that file for reading and then we use the <hl>flock</hl> method of the File class to try to put an
 exclusive lock <hl>LOCK_EX</hl> on it. We are trying to put this lock on it in a non-blocking way: <hl>LOCK_NB</hl>.
 
-If this is the first instance of the script the <hl>flock</hl> will be successful. It will return <hl>true</h>
+If this is the first instance of the script the <hl>flock</hl> will be successful. It will return <hl>true</hl>
 and thus or code can continue printing the current process-id (<hl>$$</hl>) and then going into the real process
 which is represented by a call to <hl>sleep</hl> in our code.
 
