@@ -1,4 +1,4 @@
-=title Run only one instance of a script at the same time - self locking
+=title Run only one instance of a Ruby program at the same time - self locking
 =timestamp 2015-11-23T23:00:01
 =indexes open, flock, $PROGRAM_NAME, LOCK_EX, File::LOCK_NB, $$
 =status show
