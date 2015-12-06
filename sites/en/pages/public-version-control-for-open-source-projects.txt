@@ -1,0 +1,54 @@
+=title Why to have a Public Version Control System for Open Source Projects
+=timestamp 2015-12-01T07:30:01
+=indexes Git, Subversion
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+It is still not an universally accepted best practice, but these days most of the
+companies already use some kind of a version control system for their software development.
+
+Some people still find the version control systems a burden, but with further education
+I think this can be improved.
+
+In my experience open source projects had a much better track record using version control systems,
+but there are still many individuals who write open source code, but either don't use a
+version control system, or don't make it public.
+
+=abstract end
+
+One of the key features of Open Source is that other people can change the code and contribute back to the project.
+
+If there is no public version control system the users who would like to improve the code will need to base their changes
+the most recently published version of the code which might mean that the bug they are trying to fix has already been fixed,
+but it has not been released. That would be both a waste of time and a waste of goodwill.
+
+Two or more people might be solving the same issue during this period without knowing about each others effort. Again, more waste of energy.
+
+If there is no public VCS, the potential contributor will have to create a <hl>diff</hl>, send it by e-mail and the author also needs
+to manually handle the process.
+
+Lack of history: Without a public version control system it will be impossible for potential contributors to see the history of your project.
+To see where and why a bug might have been introduced. Even if they have access to several released versions of your code, collecting
+and comparing those versions is much harder than looking at the log of a version control system. And even if they manage to build
+the history, they can only see changes from version to version which probably contain many unrelated changes.
+
+
+<h2>Using GitHub</h2>
+
+While there are other options for having Public Version Control System, these days Git, and <a href="http://github.com/">GitHub</a>
+seems to be the de-facto standard. Not only does it provide free repository for your open source project it also makes it
+super easy for potential contributors to send in their patches, and it make it extremely easy for you to merge them if you accept
+the change or discuss them if they need further work.
+
+
+<h2>Version control of open source projects</h2>
+
+In order to see how widespread is the use (or the lack of use) of public version control systems, I've started to collect
+information about the use of public VCS-es in Open source projects.
+
+Most <a href="http://perlmaven.com/recent">recent Perl modules on CPAN</a>.
+
