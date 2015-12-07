@@ -8,7 +8,7 @@
 
 =abstract start
 
-It is still not an universally accepted best practice, but these days most of the
+It is still not a universally accepted best practice, but these days most of the
 companies already use some kind of a version control system for their software development.
 
 Some people still find the version control systems a burden, but with further education
@@ -20,21 +20,35 @@ version control system, or don't make it public.
 
 =abstract end
 
-One of the key features of Open Source is that other people can change the code and contribute back to the project.
+One of the key features of Open Source is that other people can change the code and <b>contribute to the project</b>.
 
 If there is no public version control system the users who would like to improve the code will need to base their changes
 the most recently published version of the code which might mean that the bug they are trying to fix has already been fixed,
-but it has not been released. That would be both a waste of time and a waste of goodwill.
+but it has not been released. That would be both a <b>waste of time and a waste of goodwill</b>.
 
-Two or more people might be solving the same issue during this period without knowing about each others effort. Again, more waste of energy.
+Two or more people might be solving the same issue during this period without knowing about each others effort. Again, more <b>waste of energy</b>.
 
 If there is no public VCS, the potential contributor will have to create a <hl>diff</hl>, send it by e-mail and the author also needs
-to manually handle the process.
+to manually handle the process using <hl>patch</hl>.
 
-Lack of history: Without a public version control system it will be impossible for potential contributors to see the history of your project.
+<b>Lack of history</b>: Without a public version control system it will be impossible for potential contributors to see the history of your project.
 To see where and why a bug might have been introduced. Even if they have access to several released versions of your code, collecting
 and comparing those versions is much harder than looking at the log of a version control system. And even if they manage to build
 the history, they can only see changes from version to version which probably contain many unrelated changes.
+
+
+<h2>Let's be positive</h2>
+
+Instead of pointing out the negative thing of not having a public VCS, let's try to see how a public VCS improves life:
+
+Having a <b>public bug tracking system</b> makes it much easire for people to report bugs and see what are the already reported bugs.
+
+Having A <b>VCS coupled with a bug tracker</b> will improve your overall developent process and will probably help improving the quality
+of your code. (And probably the quality of your programming life.) (What "coupled" might mean is that the tickets in the bug-tracking system
+and the commit in the version control system can easily refer to each other.
+
+Having a VCS like GitHub enables <a href="/why-is-git-better-than-subversion-for-open-source-projects">decoupling of core vs contributor</a> open source teams.
+
 
 
 <h2>Using GitHub</h2>
@@ -44,6 +58,10 @@ seems to be the de-facto standard. Not only does it provide free repository for 
 super easy for potential contributors to send in their patches, and it make it extremely easy for you to merge them if you accept
 the change or discuss them if they need further work.
 
+Having a GitHub account can help you with employment. In the answer to the question
+<a href="https://www.quora.com/Why-is-there-an-emerging-notion-that-people-who-dont-use-Github-are-bad-programmers">Why is there an emerging notion that people who don't use Github are bad programmers?</a> <a href="https://github.com/mpj">Mattias Petter Johansson</a> pointed out that having an active GitHub account can help potential employers assess the quality of your code and even
+your attitude toward other programmers. So while this has nothing to do with your own project it can be a valuable asset to you.
+
 
 <h2>Version control of open source projects</h2>
 
@@ -51,4 +69,5 @@ In order to see how widespread is the use (or the lack of use) of public version
 information about the use of public VCS-es in Open source projects.
 
 Most <a href="http://perlmaven.com/recent">recent Perl modules on CPAN</a>.
+
 

@@ -1,0 +1,74 @@
+=title Why is Git better than Subversion for Open Source Projects
+=timestamp 2015-12-01T07:30:01
+=indexes Git, Subversion
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+For a long time while I was still using Subversion I was bombarded by people wanting me to switch to Git. It took me quite some
+time to understand the value in it. Let me tell you my story.
+
+=abstract end
+
+
+I ran a fairly large <a href="http://padre.perlide.org/">open source project</a> that had around 100 contributors througout its life.
+
+We used Subversion on the project server as our public version control system and we used Trac as our bug tracking system. Trac had
+a nice integration with Subversion. We could mention a Track ticket number in our commit comment, or even in the comments of our code
+and Trac would display our source code and our commits in a nice way linking those bits to the relevant tickets. We could also
+mention commit numbers in our bug-reports or in the comments of our bug reports and thos were automatically linked to the relevant commits.
+
+So it was all really nice, but the main reason we used Subversion was that when I started the project Git and GitHub were very young,
+and I did not know how and why to use either of those.  Then we kept using Subversion out of inertia.
+
+In our setup if someone wanted to contribute we some code we had two choices.
+
+1) Let the person create a patch, send it to us (or attach it to a
+bug report) and then wait till we apply it. We had to go through some rather painful manual process to apply the patch. If we wanted
+the patch to be imporved we would need to comment on the patch, the contributor would need to make changes and then we had to review
+the whole change again. The contributor had to include a full change in one diff. It was not easy to send several small pacthes.
+
+If the sam eontributor wanted to work on some other change that relied on the first one being accepted, now s/he had to manage the
+possible changes in the first patch.... A headache.
+
+
+2) The other possibility was to give the person commit rights on our Subversion repository. For this first the person had to 
+create an account on our Trac and then one of the core developers had to give commit bit. This of course is a huge risk.
+If the contributor has different coding style, or different quality expectations, to put it nicely, then you now opened the
+whole project up for that risk.
+Taking away such rights is very unpleasant. I am not sure it is possible without creating a huge mess and some tension in the project.
+
+
+<h2>Git an GitHub to the rescue</h2>
+
+After I started to use Git and more specifically GitHub, I understood that it has a much better model.
+
+As <a href="https://github.com/azawawi">Ahmad M. Zawawi</a> pointed it out to me,
+<b>it enables the decoupling of core vs contributor open source teams</b>.
+
+Only the core developers, and in many open source projects it only means one person, needs to have commit rights on the main repository
+of the project.
+
+Any other contibutor can, without requesting any permission, make changes to the project and send you as many "pacthes" as she wants.
+Each "patch" can be a series of small commits that is much easier to develop and is usually much easier to review than one large change.
+
+The contributor can even create several changes each one depending on the other one and if you ask for some improvements in
+one of the changes, Git makes is very easy for the contributors to reogranize (<hl>rebase</hl>) the subsequent changes.
+
+In other words, GitHub makes it very easy for the "drive-by contributors" to come in, suggest some changes and leave. Without a lot of
+extra administrative work.
+It also makes it very easy for the more persistan contributors to stick around and help with the project without you giving then any extra
+privilages on the project.
+
+On the other side, GiTHub makes it very easy to merge a change offered by one of the contributors ("accept a pull request" in GitHub-speak),
+or to ask for some refinment in the recommended changes.
+
+GitHub also offers integrated bug tracking with all the nice features we had in Trac and much more.
+
+At one point <a href="https://github.com/kaare">Kaare Rasmussen</a> made a large effort and <a href="http://blogs.perl.org/users/kaare/2014/09/padre-is-now-on-github.html">moved Padre to GitHub</a>,
+but unfortunately that was too late for the project. By that time most of the contributors have lost interest in the project, and new
+people have not stepped in their place. 
+
