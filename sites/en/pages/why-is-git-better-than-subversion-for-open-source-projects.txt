@@ -29,7 +29,7 @@ and I did not know how and why to use either of those.  Then we kept using Subve
 In our setup if someone wanted to contribute we some code we had two choices.
 
 <ol>
-  <li>Let the person create a patch, send it to us (or attach it to a
+  <li><b>External contributor:</b> Let the person create a patch, send it to us (or attach it to a
 bug report) and then wait till we apply it. We had to go through some rather painful manual process to apply the patch. If we wanted
 the patch to be improved we would need to comment on the patch, the contributor would need to make changes and then we had to review
 the whole change again. The contributor had to include a full change in one diff. It was not easy to send several small patches.
@@ -38,13 +38,16 @@ If the same contributor wanted to work on some other change that relied on the f
 possible changes in the first patch.... A headache.
 </li>
 
-  <li>The other possibility was to give the person commit rights on our Subversion repository. For this first the person had to 
+  <li><b>Core contributor:</b> The other possibility was to give the person commit rights on our Subversion repository. For this first the person had to 
 create an account on our Trac and then one of the core developers had to give commit bit. This of course is a huge risk.
 If the contributor has different coding style, or different quality expectations, to put it nicely, then you now opened the
 whole project up for that risk.
 Taking away such rights is very unpleasant. I am not sure it is possible without creating a huge mess and some tension in the project.
 </li>
-</ul>
+</ol>
+
+In other words in this model, we had to make people "core contributors" just to make it easy for them to contribute. We had a hard time
+keeping people as "external contributors" without causing them and ourselves massive pain by the process.
 
 
 <h2>Git an GitHub to the rescue</h2>
