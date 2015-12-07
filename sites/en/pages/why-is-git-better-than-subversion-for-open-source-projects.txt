@@ -66,9 +66,9 @@ Each "patch" can be a series of small commits that is much easier to develop and
 The contributor can even create several changes each one depending on the other one and if you ask for some improvements in
 one of the changes, Git makes is very easy for the contributors to reorganize (<hl>rebase</hl>) the subsequent changes.
 
-In other words, GitHub makes it very easy for the "drive-by contributors" to come in, suggest some changes and leave. Without a lot of
+In other words, GitHub makes it very easy for the "<b>drive-by contributors</b>" to come in, suggest some changes and leave. Without a lot of
 extra administrative work.
-It also makes it very easy for the more persistent contributors to stick around and help with the project without you giving then any extra
+It also makes it very easy for the more <b>persistent contributors</b> to stick around and help with the project without you giving then any extra
 privileges on the project.
 
 On the other side, GitHub makes it very easy to merge a change offered by one of the contributors ("accept a pull request" in GitHub-speak),
