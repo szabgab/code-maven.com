@@ -1,0 +1,22 @@
+=title SVG X
+=timestamp 2015-12-24T22:43:01
+=indexes svg
+=status draft
+=books javascript, svg
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is part of the <a href="/svg">SVG Tutorial and exercises</a> drawing a line in SVG.
+
+=abstract end
+
+<script src="/try/examples/js/svg.min.js"></script>
+
+<div id="draw_x"></div>
+<script src="/try/examples/js/svg_x.js"></script>
+
+<include file="examples/js/svg_x.js">
+
