@@ -1,7 +1,7 @@
 =title SVG X
-=timestamp 2015-12-24T22:43:01
+=timestamp 2015-12-24T22:30:01
 =indexes svg
-=status draft
+=status show
 =books javascript, svg
 =author szabgab
 =archive 1
