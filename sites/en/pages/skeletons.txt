@@ -1,0 +1,22 @@
+=title Skeletons
+=timestamp 2015-12-25T08:00:01
+=status show
+=books html
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When you start writing a project it is much easier to start with a skeleton than to stare at a blank page.
+This is a collection of skeletons you might find useful.
+
+=abstract end
+
+<ul>
+  <li><a href="http://code-maven.com/html-skeleton">HTML 5 skeleton</a></li>
+  <li><a href="http://code-maven.com/bootstrap-skeleton">Bootstrap Skeleton</a></li>
+  <li><a href="http://code-maven.com/angular-ui-bootstrap-skeleton">AngularJS UI Boottrap Skeleton</a></li>
+  <li><a href="http://perlmaven.com/dancer2-angularjs-single-page-application">Perl Dancer + AngularJS + Bootstrap skeleton</a></li>
+</ul>
+
