@@ -35,15 +35,18 @@ If there is no English counterpart for the article then start translating!
 
 <h2>Languages</h2>
 
-<ul>
-  <li><a href="/wikipedia/su">Sundanese</a></li>
-  <li><a href="/wikipedia/ace">Acehnese</a></li>
-  <li><a href="/wikipedia/af">Afrikaans</a></li>
-  <li><a href="/wikipedia/hu">Hungarian</a></li>
-  <li><a href="/wikipedia/he">Hebrew</a></li>
-  <li><a href="/wikipedia/ar">Arabic</a></li>
-</ul>
+The languages I have processed so far:
 
-I am going to add other languages, but first I wanted to make some experiments with a few "small" languages. ("small" here refers
-to the number of articles on Wikipedia.)
+<ul>
+    <li><a href="/wikipedia/ace">Acehnese</a></li>
+    <li><a href="/wikipedia/af">Afrikaans</a></li>
+    <li><a href="/wikipedia/ar">Arabic</a></li>
+    <li><a href="/wikipedia/azb">South Azerbaijani</a></li>
+    <li><a href="/wikipedia/he">Hebrew</a></li>
+    <li><a href="/wikipedia/hu">Hungarian</a></li>
+    <li><a href="/wikipedia/ilo">Ilokano</a></li>
+    <li><a href="/wikipedia/mhr">Meadow Mari</a></li>
+    <li><a href="/wikipedia/pam">Kapampangan</a></li>
+    <li><a href="/wikipedia/su">Sundanese</a></li>
+</ul>
 
