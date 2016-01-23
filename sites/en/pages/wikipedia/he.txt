@@ -23,6 +23,14 @@ or they need to be translated to English first and then they need the link to th
 Last updated at 2016-01-23T15:08:29
 <p>
 
+<style>
+.rtl {
+	direction: rtl;
+	text-align: right;
+}
+</style>
+
+<div class="rtl">
 <ul>
 <li><a href="https://he.wikipedia.org/wiki/אליפות_אירופה_בשחמט_2015">אליפות_אירופה_בשחמט_2015  (261710)</a></li>
 <li><a href="https://he.wikipedia.org/wiki/היסטוריה_של_נבחרת_ישראל_בכדורסל">היסטוריה_של_נבחרת_ישראל_בכדורסל  (206424)</a></li>
@@ -275,3 +283,5 @@ Last updated at 2016-01-23T15:08:29
 <li><a href="https://he.wikipedia.org/wiki/כרונולוגיה_של_אירועי_אוקטובר_2000">כרונולוגיה_של_אירועי_אוקטובר_2000  (47896)</a></li>
 <li><a href="https://he.wikipedia.org/wiki/שניאור_זלמן_פוגצ'וב">שניאור_זלמן_פוגצ'וב  (47794)</a></li>
 </ul>
+</div>
+
