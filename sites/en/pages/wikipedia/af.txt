@@ -11,6 +11,8 @@
 =abstract start
 =abstract end
 
+<!-- This is a generated file. Do not edit manually! -->
+
 <p>
 The <a href="https://en.wikipedia.org/wiki/Afrikaans">Afrikaans</a> Wikipedia has 92855 pages. A total of 5218 pages have no link to their English counterpart.
 Here we you can see the 100 largest articles in that don't have links to their English counterparts.
