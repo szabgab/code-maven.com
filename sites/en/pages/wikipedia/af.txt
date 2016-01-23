@@ -1,0 +1,125 @@
+=title Wikipedia: Afrikaans (af)
+=timestamp 2016-01-23T14:20:33
+=indexes wikipedia
+=status show
+=books wikipedia
+=author szabgab
+=archive 0
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+=abstract end
+
+<p>
+The <a href="https://en.wikipedia.org/wiki/Afrikaans">Afrikaans</a> Wikipedia has 92855 pages. A total of 5218 pages have no link to their English counterpart.
+Here we you can see the 100 largest articles in that don't have links to their English counterparts.
+<p>
+These articles either need an interwiki link to the English version of this page (and one from English back to this page),
+or they need to be translated to English first and then they need the link to that article.
+<p>
+Last updated at 2016-01-23T14:20:33
+<p>
+
+<ul>
+<li><a href="https://af.wikipedia.org/wiki/Predikante_van_die_Gereformeerde_Kerke_in_Suid-Afrika">Predikante_van_die_Gereformeerde_Kerke_in_Suid-Afrika  (193461)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Burgersdorp">Gereformeerde_kerk_Burgersdorp  (136554)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Beaufort-Wes">NG_gemeente_Beaufort-Wes  (134109)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Sutherland">NG_gemeente_Sutherland  (122869)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Demokratiese_ontwikkeling_as_uitvloeisel_van_Industrialisering">Demokratiese_ontwikkeling_as_uitvloeisel_van_Industrialisering  (108216)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Steynsburg">Gereformeerde_kerk_Steynsburg  (104315)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Fraserburg">NG_gemeente_Fraserburg  (93359)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Carl_Otto_Hager">Carl_Otto_Hager  (90718)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_Kerke_onder_die_Kruis">Gereformeerde_Kerke_onder_die_Kruis  (84944)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Rondebosch">NG_gemeente_Rondebosch  (83907)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Adriaan_Hofmeyr">Adriaan_Hofmeyr  (77520)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Philippolis">NG_gemeente_Philippolis  (74961)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_monumente_in_die_Wêrelderfenisgebiedslys">Lys_van_monumente_in_die_Wêrelderfenisgebiedslys  (71685)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Middelburg,_Kaap">Gereformeerde_kerk_Middelburg,_Kaap  (71587)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Humpata">Gereformeerde_kerk_Humpata  (70674)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Samuel_Cronwright">Samuel_Cronwright  (68580)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_ingelyfde_NG_gemeentes">Lys_van_ingelyfde_NG_gemeentes  (64499)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_Suid-Afrikaanse_voëls_(gegroepeer)">Lys_van_Suid-Afrikaanse_voëls_(gegroepeer)  (64312)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Die_Transvaler">Die_Transvaler  (64277)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Pietersburg-konsentrasiekamp">Pietersburg-konsentrasiekamp  (60608)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_Suider-Afrikaanse_voëls_volgens_wetenskaplike_name">Lys_van_Suider-Afrikaanse_voëls_volgens_wetenskaplike_name  (60326)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Herman_van_Broekhuizen">Herman_van_Broekhuizen  (58467)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Jan_Hendrik_Hofmeyr_(predikant)">Jan_Hendrik_Hofmeyr_(predikant)  (58319)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_vertalings_na_Afrikaans">Lys_van_vertalings_na_Afrikaans  (57292)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Colin_McKenzie_Fraser">Colin_McKenzie_Fraser  (57141)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Leonore_Veenemans">Leonore_Veenemans  (56245)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/P.D._Rossouw">P.D._Rossouw  (55043)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Strydenburg">Gereformeerde_kerk_Strydenburg  (53794)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Arend_Hofmeyr">Arend_Hofmeyr  (51152)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Pretoria">NG_gemeente_Pretoria  (50784)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Glen_Lynden">NG_gemeente_Glen_Lynden  (49805)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Afrikaanse_kerkbou_in_die_Karoo">Afrikaanse_kerkbou_in_die_Karoo  (48815)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Hanover">NG_gemeente_Hanover  (48098)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Attie_Louw">Attie_Louw  (48075)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Dordrecht">Gereformeerde_kerk_Dordrecht  (47489)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Petrus_Coetzee">Petrus_Coetzee  (47151)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Alexander_Daneel">Alexander_Daneel  (46885)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gewone_luislang">Gewone_luislang  (45587)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Opkoms_van_Japan_as_Wêreldmoondheid">Opkoms_van_Japan_as_Wêreldmoondheid  (45497)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Johannesburg">Gereformeerde_kerk_Johannesburg  (44341)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Kaapse_luiperd">Kaapse_luiperd  (43643)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Mabel_Jansen">Mabel_Jansen  (42902)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Johannesburg">NG_gemeente_Johannesburg  (42429)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Utrecht">NG_gemeente_Utrecht  (42095)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Vereeniging">Gereformeerde_kerk_Vereeniging  (42092)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Servaas_Rossouw">Servaas_Rossouw  (42048)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Britstown">NG_gemeente_Britstown  (42033)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Vrouesendingbond">Vrouesendingbond  (41780)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Stellenbosch">NG_gemeente_Stellenbosch  (41404)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Die_Vaderland">Die_Vaderland  (40924)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Ontdekking_van_Suid-Afrika">Ontdekking_van_Suid-Afrika  (40025)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Adelaide">NG_gemeente_Adelaide  (39820)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Dagbreek_(Sondagkoerant)">Dagbreek_(Sondagkoerant)  (39804)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Robertson">NG_gemeente_Robertson  (39329)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_NG_gemeentes">Lys_van_NG_gemeentes  (39264)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Heidelberg,_Gauteng">NG_gemeente_Heidelberg,_Gauteng  (39132)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Stephanus_Hofmeyr">Stephanus_Hofmeyr  (38482)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Dirk_Postma">Dirk_Postma  (38392)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Engelbertus_le_Boucq">Engelbertus_le_Boucq  (37960)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Kleurlingstemregvraagstuk">Kleurlingstemregvraagstuk  (37411)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_De_Aar">NG_gemeente_De_Aar  (37134)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Somerset-Oos">NG_gemeente_Somerset-Oos  (37094)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Carl_Arnoldus_Bamberger">Carl_Arnoldus_Bamberger  (36851)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_Kerk_Vrystaat">NG_Kerk_Vrystaat  (36567)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Normaalskool,_Steynsburg">Normaalskool,_Steynsburg  (36109)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Johan_de_Ridder">Johan_de_Ridder  (34928)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Gereformeerde_kerk_Reddersburg">Gereformeerde_kerk_Reddersburg  (34713)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Mabel_Malherbe">Mabel_Malherbe  (34417)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Wynand_Louw">Wynand_Louw  (33769)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Geskiedenis_van_Afrikaans">Geskiedenis_van_Afrikaans  (33140)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Afrikaans_hoort_by_Nederlands">Afrikaans_hoort_by_Nederlands  (32350)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Biografie_van_Salvador_Dalí">Biografie_van_Salvador_Dalí  (31788)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Adriaan_Moorrees">Adriaan_Moorrees  (31240)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Frans_Engelenburg">Frans_Engelenburg  (31094)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Tobie_Muller">Tobie_Muller  (31002)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_argaïsmes">Lys_van_argaïsmes  (30708)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Peddie">NG_gemeente_Peddie  (30456)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Burgersdorp">NG_gemeente_Burgersdorp  (30439)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Teologiese_Skool_Burgersdorp">Teologiese_Skool_Burgersdorp  (29977)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Philadelphia">NG_gemeente_Philadelphia  (29973)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Johannesburg-Oos">NG_gemeente_Johannesburg-Oos  (29608)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Politieke_ekonomie_van_Suid-Afrika">Politieke_ekonomie_van_Suid-Afrika  (28778)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Sensuurwet_(Apartheid)">Sensuurwet_(Apartheid)  (28741)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Daniel_Stephanus_Botha">Daniel_Stephanus_Botha  (28280)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Nederduitse_Gereformeerde_Kerk_van_Transvaal">Nederduitse_Gereformeerde_Kerk_van_Transvaal  (27938)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Andries_Dreyer">Andries_Dreyer  (27356)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Grahamstad">NG_gemeente_Grahamstad  (27193)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Jeppestown">NG_gemeente_Jeppestown  (27154)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Jan_Lion_Cachet">Jan_Lion_Cachet  (27067)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Wolwedans_in_die_skemer">Wolwedans_in_die_skemer  (26782)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Hendrik_Snijders">Hendrik_Snijders  (26539)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Fordsburg">NG_gemeente_Fordsburg  (26424)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Lys_van_Suider-Afrikaanse_bome_volgens_wetenskaplike_name">Lys_van_Suider-Afrikaanse_bome_volgens_wetenskaplike_name  (26338)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Helgard_Müller_(predikant)">Helgard_Müller_(predikant)  (26231)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Michiel_Smuts">Michiel_Smuts  (26228)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Graaff-Reinet">NG_gemeente_Graaff-Reinet  (26203)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/NG_gemeente_Merweville">NG_gemeente_Merweville  (26093)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Stefanus_Jacobus_Perold">Stefanus_Jacobus_Perold  (25927)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Annie_Visser">Annie_Visser  (25547)</a></li>
+<li><a href="https://af.wikipedia.org/wiki/Paul_Hendrik_Roux">Paul_Hendrik_Roux  (25418)</a></li>
+</ul>

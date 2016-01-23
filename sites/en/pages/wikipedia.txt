@@ -37,7 +37,8 @@ If there is no English counterpart for the article then start translating!
 
 <ul>
   <li><a href="/wikipedia/su">Sundanese</a></li>
-  <li><a href="/wikipadia/ace">Acehnese</a></li>
+  <li><a href="/wikipedia/ace">Acehnese</a></li>
+  <li><a href="/wikipedia/af">Afrikaans</a></li>
 </ul>
 
 I am going to add other languages, but first I wanted to make some experiments with a few "small" languages. ("small" here refers

@@ -12,7 +12,7 @@
 =abstract end
 
 <p>
-This <a href="https://en.wikipedia.org/wiki/Acehnese_language">Acehnese</a> Wikipedia has 8263 pages. A total of 329 pages have no link to their English counterpart.
+The <a href="https://en.wikipedia.org/wiki/Acehnese_language">Acehnese</a> Wikipedia has 8263 pages. A total of 329 pages have no link to their English counterpart.
 Here we you can see the 100 largest articles in that don't have links to their English counterparts.
 <p>
 These articles either need an interwiki link to the English version of this page (and one from English back to this page),
