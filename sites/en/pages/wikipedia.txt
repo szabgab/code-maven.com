@@ -1,0 +1,45 @@
+=title Wikipedia
+=timestamp 2016-01-23T14:00:01
+=indexes wikipedia
+=status show
+=books wikipedia
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://www.wikipedia.org/">Wikipedia</a> is great, especially if you speak one of the major languages.
+
+Unfortunately there are many people who cannot read these major languages, and even if they can, it is much easer
+to understand thing in their own mother tongue.
+
+On the other hand I have encounterd many articles on Wikipedia that are available in one of the "smaller"
+languages, but not in English. I belive making these available in English as well would be important.
+
+=abstract end
+
+I have a number of projects in mind trying to help people who would like to contribute to Wikipedia
+locate areas with some "low hanging fruits". The first such project is locating all the articles
+that are available in one language, but seeming not available in English. These articles have not link
+to their English counterpart. This can be either just missing the link, or because there is no English translation.
+
+If you'd like to help check out the articles.
+
+If you can locate the English version of the article then click on the "Interwiki link editor" on the lefth-hand
+side of the non-English article and add a link to the Engish version. Then go to the English article and add a link
+in the other direction as well.
+I am not sure, but I think the rest of the Interwiki links will be added automatically by a bot within a few days.
+
+If there is no English counterpart for the article then start translating!
+
+<h2>Languages</h2>
+
+<ul>
+  <li><a href="/wikipedia/su">Sundanese</a></li>
+  <li><a href="/wikipadia/ace">Acehnese</a></li>
+</ul>
+
+I am going to add other languages, but first I wanted to make some experiments with a few "small" languages. ("small" here refers
+to the number of articles on Wikipedia.)
+
