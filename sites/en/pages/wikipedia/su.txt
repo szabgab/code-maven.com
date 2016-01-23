@@ -1,0 +1,125 @@
+=title Wikipedia: Sundanese (su)
+=timestamp 2016-01-23T13:22:02
+=indexes wikipedia
+=status show
+=books wikipedia
+=author szabgab
+=archive 0
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+=abstract end
+
+<p>
+This <a href="https://en.wikipedia.org/wiki/Sundanese_language">Sundanese</a> Wikipedia has 43789 pages. A total of 8729 pages have no link to their English counterpart.
+Here we you can see the 100 largest articles in that don't have links to their English counterparts.
+<p>
+These articles either need an interwiki link to the English version of this page (and one from English back to this page),
+or they need to be translated to English first and then they need the link to that article.
+<p>
+Last updated at 2016-01-23T13:22:02
+<p>
+
+<ul>
+<li><a href="https://su.wikipedia.org/wiki/Sydney">Sydney  (151060)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Seoul">Seoul  (87009)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Laut_Tengah">Laut_Tengah  (69277)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sapédah">Sapédah  (57504)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Hasan_Mustapa">Hasan_Mustapa  (40696)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Incheon">Incheon  (35215)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Wikipédia:Transklusi">Wikipédia:Transklusi  (31219)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Illuminati">Illuminati  (30626)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kabudayaan_Sunda">Kabudayaan_Sunda  (30308)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_Setasiun_Radio_di_Indonésia">Daptar_Setasiun_Radio_di_Indonésia  (30077)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Manga">Manga  (29049)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Uppsala">Uppsala  (28315)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kertamulya,_Bongas,_Indramayu">Kertamulya,_Bongas,_Indramayu  (27201)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Radio_VHF_kalautan">Radio_VHF_kalautan  (25786)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Analisis_Fourier">Analisis_Fourier  (24190)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_Raja_Panjalu_Ciamis">Daptar_Raja_Panjalu_Ciamis  (23474)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Runtuyan_Jalur_Kareta_api_di_Jepang_(J_ka_P)">Runtuyan_Jalur_Kareta_api_di_Jepang_(J_ka_P)  (23325)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Radiasi_éléktromagnétik">Radiasi_éléktromagnétik  (22782)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_lagu_kabangsaan">Daptar_lagu_kabangsaan  (21838)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Runtuyan_Jalur_Kareta_api_di_Jepang_(A_ka_I)">Runtuyan_Jalur_Kareta_api_di_Jepang_(A_ka_I)  (21754)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_carita_dina_Buku_Sarébu_Hiji_Peuting">Daptar_carita_dina_Buku_Sarébu_Hiji_Peuting  (21623)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Runtuyan_Jalur_Kareta_api_di_Jepang_(R_ka_Z)">Runtuyan_Jalur_Kareta_api_di_Jepang_(R_ka_Z)  (20529)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_basa_pamrograman_dumasar_alpabét">Daptar_basa_pamrograman_dumasar_alpabét  (18920)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Undagi">Undagi  (18085)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sino-Basa_Jepang">Sino-Basa_Jepang  (17801)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Leo_Hendrik_Baekeland">Leo_Hendrik_Baekeland  (17741)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sajarah_Cianjur">Sajarah_Cianjur  (17546)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Krisis_moneter_1998">Krisis_moneter_1998  (16853)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Lakonet">Lakonet  (16386)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_paguron_luhur_swasta_di_Jawa_Barat">Daptar_paguron_luhur_swasta_di_Jawa_Barat  (16384)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_paguron_luhur_swasta_di_Jawa_Kulon">Daptar_paguron_luhur_swasta_di_Jawa_Kulon  (16250)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Västerås">Västerås  (16137)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Tabél_periodik_(baku)">Tabél_periodik_(baku)  (16018)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Universitas_Pasundan">Universitas_Pasundan  (15864)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sajarah_Telekomunikasi_di_Indonesia">Sajarah_Telekomunikasi_di_Indonesia  (15513)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kidung_Sunda">Kidung_Sunda  (15389)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Mekarmulya,_Kertajati,_Majalengka">Mekarmulya,_Kertajati,_Majalengka  (15383)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Tiori_informasi">Tiori_informasi  (15128)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sahadat_Buhun">Sahadat_Buhun  (15116)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Élmu_komputer">Élmu_komputer  (15099)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Aspartam">Aspartam  (14338)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Wayang">Wayang  (14184)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/New_York">New_York  (13716)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sajak_Sunda">Sajak_Sunda  (13488)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Wawacan_Layang_Muslimin_Muslimat">Wawacan_Layang_Muslimin_Muslimat  (13451)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Karibia">Karibia  (13443)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kakawihan">Kakawihan  (13399)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Siaran">Siaran  (13394)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Bungkus">Bungkus  (13297)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Machjar_Angga_Koesoemadinata">Machjar_Angga_Koesoemadinata  (12939)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kolagén">Kolagén  (12588)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Permén">Permén  (12372)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Ténjolaya,_Cicaléngka,_Bandung">Ténjolaya,_Cicaléngka,_Bandung  (12336)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Insinyur">Insinyur  (12315)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Linköping">Linköping  (12242)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sajarah_bangsa_jeung_nagara_nu_aya_kiwari">Sajarah_bangsa_jeung_nagara_nu_aya_kiwari  (11745)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Jeungjing">Jeungjing  (11732)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Situs_Cipari">Situs_Cipari  (11603)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Transport_by_country">Transport_by_country  (11181)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Jurusan_Pendidikan_Bahasa_Daérah_(Sunda)_UPI">Jurusan_Pendidikan_Bahasa_Daérah_(Sunda)_UPI  (11071)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Budaya_Sunda">Budaya_Sunda  (10899)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_gubernur_di_Indonésia">Daptar_gubernur_di_Indonésia  (10873)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Gondang">Gondang  (10866)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Power_Metal">Power_Metal  (10540)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Himpunan_Mahasiswa_Pendidikan_Basa_jeung_Sastra_Sunda_UPI">Himpunan_Mahasiswa_Pendidikan_Basa_jeung_Sastra_Sunda_UPI  (10191)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Waktu_jeung_Usum-Usuman">Waktu_jeung_Usum-Usuman  (10179)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sato_Sunda">Sato_Sunda  (9942)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Variogram">Variogram  (9835)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Katem">Katem  (9824)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Ganas_Madu">Ganas_Madu  (9810)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Surachman_R.M.">Surachman_R.M.  (9692)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/2012">2012  (9645)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Ketuk_tilu">Ketuk_tilu  (9634)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Masjid_Agung_Cianjur">Masjid_Agung_Cianjur  (9576)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sorbitol">Sorbitol  (9533)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Vasastan,_Stockholm">Vasastan,_Stockholm  (9441)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Daptar_walungan_di_Indonésia">Daptar_walungan_di_Indonésia  (9223)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Battle_of_Surabaya">Battle_of_Surabaya  (9175)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sintrén">Sintrén  (9137)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kancana,_Cikijing,_Majalengka">Kancana,_Cikijing,_Majalengka  (8824)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Upacara_panjang_jimat">Upacara_panjang_jimat  (8817)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Thomas_Stamford_Bingley_Raffles">Thomas_Stamford_Bingley_Raffles  (8790)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Laju">Laju  (8665)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Abasa">Abasa  (8568)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Kacapian">Kacapian  (8533)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Polistiréna">Polistiréna  (8367)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Klan_Uchiha_(Naruto)">Klan_Uchiha_(Naruto)  (8271)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Wangunan_ambrug_Thane_2013">Wangunan_ambrug_Thane_2013  (8214)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/2011">2011  (8199)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Carita_Purnawijaya">Carita_Purnawijaya  (7997)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sastra_padalangan">Sastra_padalangan  (7893)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Mesin_Tiup">Mesin_Tiup  (7852)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Biodégradasi">Biodégradasi  (7845)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Poliétilén_terephtalate">Poliétilén_terephtalate  (7599)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Pesta_dadung">Pesta_dadung  (7477)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Bursa_saham">Bursa_saham  (7398)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Naskah_Sunda">Naskah_Sunda  (7307)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Sai_(Naruto)">Sai_(Naruto)  (7297)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Statistika">Statistika  (7282)</a></li>
+<li><a href="https://su.wikipedia.org/wiki/Tatakrama_pamingpin_Sunda">Tatakrama_pamingpin_Sunda  (7252)</a></li>
+</ul>
