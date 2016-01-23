@@ -1,5 +1,5 @@
 =title Wikipedia: Hebrew (he)
-=timestamp 2016-01-23T15:08:29
+=timestamp 2016-01-23T15:27:44
 =indexes wikipedia
 =status show
 =books wikipedia
@@ -12,6 +12,12 @@
 =abstract end
 
 <!-- This is a generated file. Do not edit manually! -->
+<style>
+.rtl {
+	direction: rtl;
+	text-align: right;
+}
+</style>
 
 <p>
 The <a href="https://en.wikipedia.org/wiki/Hebrew_language">Hebrew</a> Wikipedia has 772451 pages. A total of 43167 pages have no link to their English counterpart.
@@ -20,15 +26,8 @@ Here we you can see the 250 largest articles in that don't have links to their E
 These articles either need an interwiki link to the English version of this page (and one from English back to this page),
 or they need to be translated to English first and then they need the link to that article.
 <p>
-Last updated at 2016-01-23T15:08:29
+Last updated at 2016-01-23T15:27:44
 <p>
-
-<style>
-.rtl {
-	direction: rtl;
-	text-align: right;
-}
-</style>
 
 <div class="rtl">
 <ul>
