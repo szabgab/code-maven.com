@@ -1,5 +1,5 @@
 =title Wikipedia: Arabic (ar)
-=timestamp 2016-01-23T16:28:14
+=timestamp 2016-01-23T17:30:53
 =indexes wikipedia
 =status show
 =books wikipedia
@@ -20,13 +20,13 @@
 </style>
 
 <p>
-The <a href="https://en.wikipedia.org/wiki/Arabic">Arabic</a> Wikipedia has 2491427 pages. A total of 135669 pages have no link to their English counterpart.
+The <a href="https://en.wikipedia.org/wiki/Arabic">Arabic</a> Wikipedia has 400287 pages. A total of 135669 pages have no link to their English counterpart.
 Here we you can see the 250 largest articles in that don't have links to their English counterparts.
 <p>
 These articles either need an interwiki link to the English version of this page (and one from English back to this page),
 or they need to be translated to English first and then they need the link to that article.
 <p>
-Last updated at 2016-01-23T16:28:14
+Last updated at 2016-01-23T17:30:53
 <p>
 
 <div class="rtl">
