@@ -32,15 +32,17 @@ In the following example, that you can try by clicking on the "Try" link, you ca
 We just need to assign a function to the <hl>window.onbeforeunload</hl> attribute and that function needs
 to return something. That will tell the browser that it should display a pop-up window asking the user if she
 wants to leave the page. 
-Firefox will just ask <hl>This page is asking you to confirm that you want to leave - data you have entered may not be saved.</hl>.
 
-<img src="/img/firefox_confirm_navigate.png" title="Firefox: This page is asking you to confirm that you want to leave - data you have entered may not be saved.">
+Firefox will just ask <hl>This page is asking you to confirm that you want to leave - data you have entered may not be saved.</hl>.<br>
+<img src="/img/firefox_confirm_navigate.png" title="Firefox: This page is asking you to confirm that you want to leave - data you have entered may not be saved."><br>
 
-Chrome will be more specific "Confirm Reload" + "Are you sure you want to reload this page?",
-<img src="/img/chrome_confirm_reload.png" title="Chrome: Confirm Reload - Are you sure you want to reload this page?">
-or "Confirm Navigation" + "Are you sure you want to leave this page?" and it will 
-even include the text we returned from the function.
-<img src="/img/chrome_confirm_navigation.png" title="Chrome: Confirm Navigation - Are you sure you want to leave this page?">
+Chrome will be more specific "Confirm Reload" + "Are you sure you want to reload this page?",<br>
+<img src="/img/chrome_confirm_reload.png" title="Chrome: Confirm Reload - Are you sure you want to reload this page?"><br>
+
+or "Confirm Navigation" + "Are you sure you want to leave this page?"<br>
+<img src="/img/chrome_confirm_navigation.png" title="Chrome: Confirm Navigation - Are you sure you want to leave this page?"><br>
+
+It will even include the text we returned from the function.
 
 
 If the function does not call <hl>return</hl> and just falls out at the end of the function,
