@@ -44,6 +44,10 @@ or "Confirm Navigation" + "Are you sure you want to leave this page?"<br>
 
 It will even include the text we returned from the function.
 
+Safari will ask "Are you sure you want to leave this page?" and include our text.<br>
+<img src="img/safari_leave_page.png" title="Safari: Are you sure you want to leave this page?"><br>
+
+Opera totally disregarded the code. I wonder if it would work if the JavaScript code was in a separate file.
 
 If the function does not call <hl>return</hl> and just falls out at the end of the function,
 or if it calls <hl>return;</hl> without returning any value then the the browser will not ask anything
