@@ -1,0 +1,13 @@
+<h1 id="home">Warn before leaving the page</h1>
+
+<script>
+// Warning before leaving the page (back button, or outgoinglink)
+window.onbeforeunload = function() {
+   return "Do you really want to leave our brilliant application?";
+   //if we return nothing here (just calling return;) then there will be no pop-up question at all
+   //return;
+};
+</script>
+
+<a href="http://code-maven.com/">Code Maven</a>
+

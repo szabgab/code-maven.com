@@ -33,6 +33,16 @@ I am not sure, but I think the rest of the Interwiki links will be added automat
 
 If there is no English counterpart for the article then start translating!
 
+
+<h2>Notes</h2>
+
+<ul>
+  <li><a href="http://www.andiamo.co.uk/resources/expansion-and-contraction-factors">Expansion and contraction factors in translation</a></li>
+  <li>Document lenght difference between English and other languages</li>
+  <li><a href="https://www.w3.org/International/articles/article-text-size.en">Text size in translation</a></li>
+</ul>
+
+
 <h2>Languages</h2>
 
 The languages I have processed so far:

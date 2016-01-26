@@ -1,0 +1,65 @@
+=title Prevent leaving the page using plain JavaScript
+=timestamp 2016-01-26T19:50:01
+=indexes onbeforeunload
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In many case, but espeically in single-page applications when there is some unsaved data in the browser you might want to make
+sure the user does not accidently leave the page without first saving the data. This can be achived using the <hl>onbeforeunload</hl>
+(read "on before unload") event.
+
+=abstract end
+
+This even will trigger whenever the user is trying to leave the page by
+
+<ul>
+  <li>clicking the "Back" button</li>
+  <li>reloading the page</li>
+  <li>typing in a new URL</li>
+  <li>clicking on a link on your page</li>
+  <li>or even when trying to close the current tab or the whole browser</li>
+</ul>
+
+In the following example, that you can try by clicking on the "Try" link, you can see how it is implemented.
+
+<try file="examples/js/prevent_leaving_the_page.html">
+
+We just need to assign a function to the <hl>window.onbeforeunload</hl> attribute and that function needs
+to return something. That will tell the browser that it should display a pop-up window asking the user if she
+wants to leave the page. 
+Firefox will just ask <hl>This page is asking you to confirm that you want to leave - data you have entered may not be saved.</hl>.
+
+<img src="/img/firefox_confirm_navigate.png" title="Firefox: This page is asking you to confirm that you want to leave - data you have entered may not be saved.">
+
+Chrome will be more specific "Confirm Reload" + "Are you sure you want to reload this page?",
+<img src="/img/chrome_confirm_reload.png" title="Chrome: Confirm Reload - Are you sure you want to reload this page?">
+or "Confirm Navigation" + "Are you sure you want to leave this page?" and it will 
+even include the text we returned from the function.
+<img src="/img/chrome_confirm_navigation.png" title="Chrome: Confirm Navigation - Are you sure you want to leave this page?">
+
+
+If the function does not call <hl>return</hl> and just falls out at the end of the function,
+or if it calls <hl>return;</hl> without returning any value then the the browser will not ask anything
+and it will just do whatever we told it to do. (Reload the page, navigate away, etc.)
+
+This allows us write some conditional code that will only show the popup of there is any data
+that needs saving.
+
+<code lang="javascript">
+window.onbeforeunload = function() {
+   if (data_needs_saving()) {
+       return "Do you really want to leave our brilliant application?";
+   } else {
+      return;
+   }
+};
+</code>
+
+
+
+
