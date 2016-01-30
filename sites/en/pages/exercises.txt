@@ -119,5 +119,6 @@ in many other languages.
 
 <ol>
   <li><a href="/download-a-web-page">Download a web page, fetch a URL</a></li>
+  <li><a href="/ted">TED</a>
 </ol>
 
