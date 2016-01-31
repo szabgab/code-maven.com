@@ -43,5 +43,5 @@ Probably the biggest obstacle to implementing these ideas is the lack of public 
 They do have an <a href="http://developer.ted.com/">API</a>, but as of January 2016 they don't allow
 new registration to get an API key.
 
-So if I would like to implement either of these I'll need to scrap the web pages of TED.
+So if I would like to implement either of these I'll need to <a href="http://perlmaven.com/pro/web-scraping-ted">scrap the web pages of TED</a>.
 
