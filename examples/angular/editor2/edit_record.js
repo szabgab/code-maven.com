@@ -6,7 +6,7 @@ angular.module("EditRecordApp", [])
 
     $scope.edit = function(idx) {
         $scope.editor = {
-            'name' : $scope.recors[ idx ].name
+            'name' : $scope.records[ idx ].name
         };
         $scope.current_record = idx;
         $scope.page = 'editor'
