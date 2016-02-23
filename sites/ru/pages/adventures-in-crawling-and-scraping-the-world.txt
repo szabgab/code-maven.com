@@ -1,0 +1,141 @@
+=title Crawling и scraping
+=timestamp 2016-02-23T17:44:01
+=indexes Mechanize
+=status show
+=books perl, python, ruby, javascript, nodejs
+=author szabgab
+=original adventures-in-crawling-and-scraping-the-world
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Хотя два слова <hl>crawling</hl> и <hl>scraping</hl> обычно взаимозаменяемы - по крайней мере, когда мы говорим о веб -
+они могут иметь слегка различающиеся значения. Crawling обычно подразумевает переход от страницы к странице, перемещаясь между сайтами.
+Scraping в свою очередь обычно подразумеваем анализ одной или очень ограниченного набора страниц.
+
+Хотя, может быть, я просто выдумал это различие. Кто знает, что другие имеют в виду под этими словами?
+
+=abstract end
+
+<hl>Боты</hl>, <hl>Роботы</hl>, <hl>Веб-пауки</hl>, как правило, относятся к программам, которые реализуют <hl>crawling</hl> или <hl>scraping</hl>
+
+<h2>Задачи</h2>
+
+Самая простая задача это скачать заданный URL.
+
+Затем, если нам вернулась HTML страница, мы можем:
+
+Скачать картинки.
+
+Скачать конкретные файлы. (Изображения это одна из возможностей, но возможно, вы бы хотели скачать все JavaScript файлы или все видео, или ...)
+
+<h2>Встречающиеся проблемы</h2>
+
+<b>Исключение</b> Есть части веб-сайта, которые вы не хотите обходить. Либо потому что вам не интересно, 
+или потому что вы хотите быть хорошим посетителем и соблюдать описанное в файле <hl>robots.txt</hl>.
+<hl>robots.txt</hl> это файл, описывающий предпочтения владельца сайта относительно того, какие роботы могут посещать какие области сайта.
+
+<b>Глубина</b> - на какое количество кликов от стартовой страницы вы хотите погрузиться?
+
+<b>Одновременная загрузка</b> - с одной строны, скачивание страниц одной за другой может занять много времени.
+С другой стороны, скачивание 100 страниц одновременно может привести к ваше блокировке на сайте.
+Вам нужно найти верный баланс.
+
+<b>Пауза между страницами</b> для облегчения нагрузки, что мы генерируем на сервере - мы можем захотеть сделать паузу между скачиванием страниц
+с одного и того же сервера.
+
+<b>Стартовые страницы</b> Какой-то способ описать больше одной стартовой страницы.
+
+<b>Циклы</b> Избежание повторяющихся загрузок одних и тех же страниц.
+
+<b>Условия использования</b> некоторые веб-сайты могут иметь официальные документы, описывающие, что вы уполномочены скачивать и что вы можете с этим потом делать.
+К примеру, показ аналогичного контента на другом сайте, как это было на оригинальном сайте, обычно не то, что вам стоит делать.
+
+Обработка JavaScript на веб-сайте. 
+
+Обработка параметров в URL. http://examples.org/  http://examples.org/?id=42 Это одна и та же страница? Когда мы встретим вторую, нам нужно удалить параметры после "?"?
+
+Обработка кнопок. Нужно ли нам обходить нажатия по кнопкам или только по ссылкам?
+
+Обработка форм. Должен ли наш обходчик заполнять формы и нажимать на кнопки? Какие значения он должен заполнить?
+
+Кросс-ссылки: Когда мы хотим обойти один или несколько конкретных сайтов, мы должны быть уверены, что ссылки не ведут на внешние ресурсы.
+С другой стороны мы бы хотели разрешить переходить по ссылками между сайтами из предопределенного списка URL.
+
+С www или без wwww. Все еще есть сайты, которые предоставляют один и тот же контент с обоих сайтов www.example.com и example.com вместо редиректов
+с одного на другой. Мы должны решить, рассматривать это как два разных сайта, или мы бы хотели обойти только один из них.
+Что делать, если будут ссылки с одного на другой? Должны ли мы заменить один URL другим, делая вид, что там на самом деле редирект?
+Другими словами, если мы решили проиндексировать example.com, но там есть ссылка на http://www.example.com/abc стоит ли пробовать скачать http://example.com/abc вместо этого?
+
+<h2>Инструменты</h2>
+
+<h3>JavaScript / NodeJS</h3>
+
+<ul>
+  <li><a href="https://nodejs.org/api/http.html">http</a> (посмотрите, как сделать <a href="/building-a-crawler-in-nodejs">crawler на NodeJS</a>)</li>
+  <li><a href="https://github.com/sylvinus/node-crawler">node-crawler</a></li>
+  <li><a href="https://www.npmjs.com/package/node-jsdom">node-jsdom</a></li>
+  <li><a href="https://github.com/virushuo/node-crawler-cheerio">node-crawler-cheerio</a></li>
+  <li><a href="http://phantomjs.org/">PhantomJS</a></li>
+</ul>
+
+<h3>Python</h3>
+
+<ul>
+  <li><a href="https://docs.python.org/2/library/urllib.html">urllib</a></li>
+  <li><a href="https://docs.python.org/2/library/urllib2.html">urllib2</a></li>
+  <li><a href="http://scrapy.org/">Scrapy</a></li>
+</ul>
+
+<h3>Perl 5</h3>
+
+<ul>
+  <li><a href="https://metacpan.org/pod/LWP::Simple">LWP::Simple</a></li>
+  <li><a href="https://metacpan.org/pod/LWP::UserAgent">LWP::UserAgent</a></li>
+  <li><a href="https://metacpan.org/pod/WWW::Mechanize">WWW::Mechanize</a></li>
+  <li><a href="https://metacpan.org/pod/WWW::Spyder">WWW::Spyder</a></li>
+  <li><a href="https://metacpan.org/pod/WWW::Crawler::Lite">WWW::Crawler::Lite</a></li>
+  <li><a href="https://metacpan.org/pod/WWW::Crawler::Mojo">WWW::Crawler::Mojo</a></li>
+  <li><a href="https://metacpan.org/pod/Web::Query">Web::Query</a></li>
+  <li><a href="https://metacpan.org/pod/Mojo::UserAgent">Mojo::UserAgent</a> и <a href="http://blogs.perl.org/users/stas/2013/01/web-scraping-with-modern-perl-part-1.html">mojo-crawler</a> and <a href="https://gist.github.com/creaktive/4607326">yada-crawler</a></li>
+  <li><a href="https://metacpan.org/pod/Scrappy">Scrappy</a></li>
+  <li><a href="https://metacpan.org/pod/Web::Scraper">Web::Scraper</a></li>
+  <li><a href="http://perlmaven.com/pro/web-scraping-with-html-treebuilder">Web scraping with HTML::TreeBuilder</a></li>
+  <li><a href="http://perlmaven.com/simple-way-to-fetch-many-web-pages">A Simple way to download many web pages using Perl: LWP::Simple and HTTP::Tiny</a></li>
+  <li><a href="http://perlmaven.com/fetching-several-web-pages-in-parallel-using-anyevent">Fetching several web pages in parallel using AnyEvent</a></li>
+</ul>
+
+<h3>Ruby</h3>
+
+<ul>
+  <l"><a href="https://rubygems.org/gems/mechanize">mechanize</a></li>
+  <li><a href="https://rubygems.org/gems/excon">excon</a></li>
+  <li><a href="https://rubygems.org/gems/httparty">httparty</a></li>
+  <li><a href="https://www.ruby-toolbox.com/projects/httpclient">httpclient</a></li>
+  <li><a href="https://www.ruby-toolbox.com/projects/curb">curb</a></li>
+  <li><a href="https://www.ruby-toolbox.com/projects/typhoeus">Typhoeus</a></li>
+  <li><a href="https://www.ruby-toolbox.com/projects/patron">Patron</a></li>
+</ul>
+
+
+<h2>Альтернатива: Common Crawl</h2>
+
+<a href="http://commoncrawl.org/">Common Crawl</a>
+
+<h2>Книги</h2>
+
+<ul>
+   <li><a href="http://shop.oreilly.com/product/0636920034391.do">Web Scraping with Python</a></li>
+   <li><a href="http://www.oreilly.com/openbook/webclient/">Web Client Programming with Perl</a></li>
+</ul>
+
+<h2>Другое</h2>
+
+<ul>
+  <li><a href="http://scrapinghub.com/">Scraping Hub</a> is scraping as a service.</li>
+  <li><a href="https://www.deepcrawl.com/">DeepCrawl</a></li>
+</ul>
+
+
