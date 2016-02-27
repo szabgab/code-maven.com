@@ -1,0 +1,84 @@
+=title ARGV - аргументы командной строки в Ruby
+=timestamp 2016-02-27T20:45:01
+=indexes ARGV, to_i
+=status show
+=books ruby
+=author szabgab
+=original argv-the-command-line-arguments-in-ruby
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Когда вы запускаете скрипт на Ruby, то можете указать любые значения в командной строке после имени скрипта:
+
+Например:
+
+<hl>ruby code.rb abc.txt  def.txt qqrq.txt</hl>
+
+или вот так:
+
+<hl>ruby code.rb Hello --machine big -d -tl</hl>
+
+Вопрос в том, как программа на Ruby понимает, что передано в командной строке.
+
+=abstract end
+
+Ruby предоставляет массив <hl>ARGV</hl> со значениями из командной строки.
+Мы можем получить доступ к элементам этого массива так же, как и в случае любого другого массива:
+
+<hl>ARGV[0]</hl> это первое значение после имени скрипта.
+
+Мы можем обойти все элементы либо с помощью цикла <hl>for</hl>:
+
+<include file="examples/ruby/command_line_argv.rb">
+
+либо с помощью <a href="/range-in-ruby">диапазона</a> индексов, получая элементы по индексу.
+
+<include file="examples/ruby/command_line_argv_with_index.rb">
+
+<code>
+$ ruby command_line_argv_with_index.rb foo bar --machine big
+0 foo
+1 bar
+2 --machine
+3 big
+</code>
+
+<h2>Проверка количества аргументов</h2>
+
+Для простой валидации переданных значений мы можем проверить длину массива <hl>ARGV</hl>.
+И если мы получили недостаточно аргументов, то сообщить об этом и преждевременно завершить работу программы.
+
+<include file="examples/ruby/command_line_argv_check_length.rb">
+
+Запустив скрипт, мы получим:
+
+<code>
+$ ruby command_line_argv_check_length.rb one
+Too few arguments
+
+$ ruby command_line_argv_check_length.rb one two
+Working on ["one", "two"]
+</code>
+
+<h2>Значения из командной строки имеют тип строка</h2>
+
+Во фрагменте кода мы сначала проверяем, получили ли мы точно 2 параметра, и если да, то суммируем их:
+
+<include file="examples/ruby/command_line_argv_add.rb">
+
+<code>
+ruby command_line_argv_add.rb 23 19
+2319
+</code>
+
+Результат вас не удивит, если вы знаете, что переданные в командную строку значения, приходят в программу как строки.
+Даже если это на самом деле числа. Если мы хотим использовать их как числа, то нужно их сконвертировать с помощью <hl>to_i</hl>:
+
+<code>
+$ ruby command_line_argv_add_numbers.rb 23 19
+42
+</code>
+
