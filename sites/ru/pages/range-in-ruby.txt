@@ -1,0 +1,104 @@
+=title Диапазоны в Ruby
+=timestamp 2016-02-27T20:57:01
+=indexes .., ..., to_a, reverse
+=status show
+=books ruby
+=author szabgab
+=original range-in-ruby
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Ruby имеет два оператора для генерации диапазона значений. <hl>..</hl> - включающий и <hl>...</hl> - исключающий.
+
+=abstract end
+
+<h2>..</h2>
+
+<include file="examples/ruby/range_two.rb">
+
+Сгенерирует
+
+<code>
+0
+1
+2
+3
+</code>
+
+включая начало и конец, так же как это работает в Perl.
+
+<h2>...</h2>
+
+Если мы будем использовать 3 точки вместо двух, тогда диапазон будет включать нижнюю границу, и не будет включать верхнюю.
+Так же, как диапазоны <hl>range</hl> работают в Python.
+
+<include file="examples/ruby/range_three.rb">
+
+<code>
+0
+1
+2
+</code>
+
+<h2>Обратный диапазон</h2>
+
+Если граница слева больше, чем граница справа, тогда оператор диапазона не вернет значений.
+
+<include file="examples/ruby/range_two_wrong.rb">
+
+Значения не возвращаются.
+
+Как вариант, мы можем сгенерировать возрастающий список чисел, а затем вызвать для него метод <hl>reverse</hl>.
+Для этого нам нужно сначала сконвертировать диапазон в массив:
+
+<include file="examples/ruby/range_two_reverse.rb">
+
+напечатает:
+
+<code>
+7
+6
+5
+4
+</code>
+
+<h2>Буквенные диапазоны</h2>
+
+В дополнение к созданию диапазонов чисел, Ruby может также создавать буквенные диапазоны:
+
+<include file="examples/ruby/range_letters.rb">
+
+<code>
+a
+b
+c
+d
+</code>
+
+<h2>Диапазоны символов</h2>
+
+Но и не только это. Мы можем использовать два любых символа из видимой части таблицы ASCI:
+
+<include file="examples/ruby/range_chars.rb">
+
+<code>
+Z
+[
+\
+]
+^
+_
+`
+a
+</code>
+
+
+<h2>Диапазоны с переменными</h2>
+
+В качестве нижней и верхней границ мы можем использовать переменные:
+
+<include file="examples/ruby/range_var.rb">
+
