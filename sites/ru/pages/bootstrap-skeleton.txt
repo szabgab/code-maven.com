@@ -1,0 +1,20 @@
+=title Bootstrap Skeleton
+=timestamp 2016-02-28T19:35:01
+=indexes bootstrap
+=status show
+=books html
+=author szabgab
+=original bootstrap-skeleton
+=translator name2rnd
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="http://getbootstrap.com/">Bootstrap</a> это HTML-фреймворк, который позволяет легко делать красивые, mobile-friendly веб-сайты.
+Вы можете начать с использования этого каркаса или можете скачать соответствующие файлы и использовать их с вашего собственного сервера.
+
+=abstract end
+
+<include file="examples/html/bootstrap-skeleton.html">
+
