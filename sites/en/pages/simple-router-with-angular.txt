@@ -14,7 +14,7 @@ The <a href="https://docs.angularjs.org/api/ngRoute">ngRoute</a> service provide
 
 =abstract end
 
-<try file="examples/angular/simple_router.html">
+<try file="examples/angular/simple_router/simple_router.html">
 
 We need to load both AngularJS and the Angular Route service.
 
@@ -50,7 +50,7 @@ So for example example.html#/xyz  will be automatically redirected to example.ht
 
 <h2>Route page with button</h2>
 
-<try file="examples/angular/simple_router_with_button.html">
+<try file="examples/angular/simple_router/simple_router_with_button.html">
 
 In the second example there is an additional element. A button that helps us show how to change
 the page from within the  controller. In order for this to work we had to inject the
