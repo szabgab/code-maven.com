@@ -1,4 +1,4 @@
-title Функция vs Генератор в Python
+=title Функция vs Генератор в Python
 =timestamp 2016-03-19T10:57:01
 =indexes yield
 =status show
