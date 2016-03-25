@@ -1,0 +1,379 @@
+=title Deploying Python Flask using uWSGI and Nginx on Ubuntu 14.04
+=timestamp 2016-03-25T12:30:01
+=indexes Python, uWSGI, Nginx, Ubuntu, Flask
+=books flask
+=status show
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+The following is a tutorial on how to set up uWSGI with an Nginx front end to serve a <a href="/flask">Flask</a> based
+application.
+
+In this tutorial we will only use the packages that are supplied by Ubuntu and we will deal with a very simple
+<a href="http://code-maven.com/hello-world-with-flask-and-python">Hello World</a> application.
+
+=abstract end
+
+It was tested on an Ubuntu 14.04 x64 droplet of <a href="/digitalocean">Digital Ocean</a> though a very
+similar process was used earlier on Ubuntu 13.10 <a href="http://perlmaven.com/deploying-pyton-with-uwsgi-on-ubuntu-13-10">for plain Python web application</a>.
+
+After you create a droplet with Ubuntu 14.04 x64 you'll get an e-mail with your IP address
+and the password of root. In this example I'll use 1.2.3.4 as the IP address. You'll have to replace
+the commands with the IP address of your server.
+
+First just ssh to the server. On Linux/Unix/OSX you would type this:
+
+<code>
+$ ssh root@1.2.3.4
+</code>
+
+On Windows you'd probably install <a href="http://www.chiark.greenend.org.uk/~sgtatham/putty/download.html">putty</a> and use that.
+
+You don't have to, but I recommend, the first thing you do after logging in to the server is to update the packages to the latest by typing the following:
+
+<code>
+# aptitude update
+# aptitude -y safe-upgrade
+</code>
+
+Then reboot:
+
+<code>
+# reboot
+</code>
+
+This will disconnect you from the server. After a few seconds you can continue and connect again using <hl>ssh</hl>
+
+Personally I have a public key on file at <a href="/digitalocean">Digital Ocean</a> that they install on the server
+when it is created so I did not have to do the following, but if you don't yet have a public key with them,
+I'd recommend copying your public ssh key to let you ssh without password:
+
+<code lang="bash">
+$ scp ~/.ssh/id_rsa.pub root@1.2.3.4:.ssh/authorized_keys
+$ ssh root@1.2.3.4
+</code>
+
+If the first command worked well, then the second won't ask for a password.
+
+<h2>Hello World using Pyton Flask</h2>
+
+Before the deployment options, let's write and try our
+<a href="http://code-maven.com/hello-world-with-flask-and-python">Hello World using Flask</a>.
+
+Check the version of Python. I got the following:
+
+<code lang="bash">
+# python --version
+Python 2.7.6
+</code>
+
+Then create a user called <b>dev</b> so we won't do everything as root.
+
+<code>
+# adduser --gecos '' --disabled-password  dev
+</code>
+
+Switch to the new user and create a directory for the project.
+
+<code lang="bash">
+# su - dev 
+$ mkdir project
+$ cd project/
+</code>
+
+In the project/ directory create a file called app.py with the following content:
+
+
+<code lang="pyhton">
+from flask import Flask
+import time 
+
+app = Flask(__name__)
+
+@app.route("/")
+def main():
+   return "Hello World at " + time.time().__str__() + "\n";
+
+if __name__ == "__main__":
+    app.run(debug=False)
+</code>
+
+This is slightly more complex than the Hello World in our stand-alone, as it also includes the timestamp
+to make it easy to observe that the code runs again on every reload of the browser.
+
+Please also note, our <hl>app.run()</hl> call is protected by <hl>if __name__ == "__main__":</hl>
+so the code will only run immediately when this file is executed as a script and not when it
+is loaded as a module.
+
+Let's run our application:
+
+<code lang="bash">
+$ python app.py 
+Traceback (most recent call last):
+  File "app.py", line 1, in <module>
+    from flask import Flask
+ImportError: No module named flask
+<code>
+
+<h2>ImportError: No module named flask</h2>
+
+Well, we can't use Flask without installing it, can we?
+
+In order to make life a bit easier down the road I've opened a second terminal window and ssh-ed to the server in that window as well.
+Now I have one window where I am used "dev" and another window where I am user "root".
+
+I've installed Flask provided and pre-packaged by Ubuntu. In the window where I am "root":
+
+<code lang="bash">
+# aptitude -y install python-flask
+</code>
+
+Then I could switch back to my "dev" window and run the application again:
+
+<code lang="bash">
+$ python app.py 
+ * Running on http://127.0.0.1:5000/
+</code>
+
+in order to try it, I've switched to the "root" window and used <hl>curl</hl> to fetch the page:
+
+<code lang="bash">
+curl http://127.0.0.1:5000/
+Hello World at 1458888407.29
+</code>
+
+At this point I could ran the <hl>curl</hl> command a few more times to see how time is passing....
+
+
+Anyway, I switched back to the "dev" console where I saw a new line on the screen:
+
+<code>
+127.0.0.1 - - [25/Mar/2016 04:47:43] "GET / HTTP/1.1" 200 -
+</code>
+
+This is just the server telling me about the request I generated using <hl>curl</hl> and that it served it well.
+
+At this point I've also tried to access the server using my regular browser typing in 
+<hl>http://1.2.3.4:5000/</hl> but I have not received any response. Apparently the default server of Flask only listens
+on localhost (127.0.0.1).
+
+I pressed <hl>Ctrl-C</hl> to stop the web server.
+
+<h2>Install and setting up uWSGI</h2>
+
+Now that we know our "application" works we can make the next step and serve it using uWSGI which is a much more robust
+server than the one used for our development.
+
+First thing was to switch to the "root" window and install uWSGI and the Python Plugin for it:
+
+<code>
+# aptitude -y install uwsgi  uwsgi-plugin-python
+</code>
+
+Then, just for good measures, I've checked the version number:
+
+<code lang="bash">
+# uwsgi --version
+1.9.17.1-debian
+</code>
+
+Once I had uWSGI installed I've tried to launch it with the "Hello World application" on port 9090:
+
+I've got a lot of output
+
+<code lang="bash">
+$ uwsgi --http-socket :9090 --plugin python --wsgi-file app.py 
+
+*** Starting uWSGI 1.9.17.1-debian (64bit) on [Fri Mar 25 02:56:14 2016] ***
+compiled with version: 4.8.2 on 23 March 2014 17:15:32
+os: Linux-3.13.0-79-generic #123-Ubuntu SMP Fri Feb 19 14:27:58 UTC 2016
+nodename: flask
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /home/dev/project
+detected binary path: /usr/bin/uwsgi-core
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 3750
+your memory page size is 4096 bytes
+detected max file descriptor number: 1024
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address :9090 fd 3
+Python version: 2.7.6 (default, Jun 22 2015, 18:01:27)  [GCC 4.8.2]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1723c80
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 72792 bytes (71 KB) for 1 cores
+*** Operational MODE: single process ***
+unable to find "application" callable in file app.py
+unable to load app 0 (mountpoint='') (callable not found or import error)
+*** no app loaded. going in full dynamic mode ***
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (and the only) (pid: 2128, cores: 1)
+</code>
+
+It seemed to be working sow I switched to the "root" window and using </hl>curl</hl> on port 9090
+I've tried my luck:
+
+<code lang="bash">
+root@flask:~# curl http://127.0.0.1:9090/
+Internal Server Error
+</code>
+
+That does not look good.
+
+In the meantime, in the "dev" window where I launched the server I've got some additional output:
+
+
+<code lang="bash">
+--- no python application found, check your startup logs for errors ---
+[pid: 4384|app: -1|req: -1/1] 127.0.0.1 () {24 vars in 247 bytes}
+     [Fri Mar 25 04:59:12 2016] GET / => generated 21 bytes in 0 msecs (HTTP/1.1 500) 1 headers in 57 bytes (0 switches on core 0)
+</code>
+
+Stopped the server using Ctrl-C.
+
+<h2>uWSGI needs an "application"</h2>
+
+The key word both in this error message and in the initial output was <b>application</b>.
+Apparently uWSGI is looking for an object called "application" in our web, well, application.
+
+There are a number of ways to solve this:
+
+1) We can replace the word <hl>app</hl> by <hl>application</hl> in our code.
+
+2) We can keep using @app, but also create a copy of "app" called "application" like this:
+
+<code lang="pyhton">
+application = app  # make uwsgi happy
+</code>
+
+3) We can tell uWSGI that our "application" is called "app" by adding
+<hl>--callable app</hl> to our command line:
+
+Using the new command line I've launched the server again:
+
+<code>
+$ uwsgi --http-socket :9090 --plugin python --wsgi-file app.py --callale app
+</code>
+
+This time, after switching to the "root" window, I got the expected response to the
+<hl>curl http://127.0.0.1:9090</hl> command.
+
+Now you can already visit the we site by following th URL:
+http://1.2.3.4:9090 (remember to replace the IP with the one you have).
+
+
+Further uWSGI configuration (3 processes handle the requests) can be provided
+on the command line:
+
+<code>
+$ uwsgi --http-socket :9090 --plugin python --wsgi-file app.py --callable app --process 3
+</code>
+
+But, instead of  the command line, it is probably better to create a configuration
+file called <hl>/home/dev/project/my-uwsgi.ini</hl> with the following content:
+
+<code>
+[uwsgi]
+http-socket    = :9090
+plugin    = python
+wsgi-file = /home/dev/project/app.py
+process   = 3
+callable = app
+</code>
+
+Now we can launch the server using the following command:
+
+<code>
+uwsgi --ini project-uwsgi.ini
+</code>
+
+We can try it from the other window or from our own browser.
+
+We can shut it down by pressing Ctrl-C.
+
+We can then, using the "root" window, create a symbolic link so uWSGI will start our server automatically
+when the server boots up:
+
+<code>
+# ln -s /home/dev/project/my-uwsgi.ini /etc/uwsgi/apps-enabled/
+</code>
+
+and launch the service as root with the following command:
+
+<code>
+# service uwsgi start
+</code>
+
+At this time it might be worth to reload the page in our browser again, to make sure every thing still works.
+
+
+<h2>Add Nginx to the mix</h2>
+
+Install Nginx and remove the default configuration file:
+
+<code>
+# aptitude install nginx
+# service nginx start
+# rm /etc/nginx/sites-enabled/default
+</code>
+
+Instead of that create a new configuration file in
+<hl>/home/dev/project/my-nginx.conf</hl>
+with the following content:
+
+<code>
+server {
+  location /hello/ {
+    include uwsgi_params;
+    uwsgi_pass 127.0.0.1:9090;
+  }
+}
+</code>
+
+
+Create a symbolic link in the directory of Nginx so when Nginx starts this configuration
+file is taken in account.
+
+<code>
+# ln -s /home/dev/project/my-nginx.conf /etc/nginx/sites-enabled/
+# service nginx restart
+</code>
+
+Now you can visit http://1.2.3.4/ and see <b>502 Bad Gateway</b>.
+What a bummer.
+
+<h2>502 Bad Gateway</h2>
+
+Looking at the error log of Nginx in <hl>/var/log/nginx/error.log</hl> I see the following:
+
+<code>
+upstream prematurely closed connection while reading response header from upstream, client: 192.117.127.193, server: ,
+request: "GET / HTTP/1.1", upstream: "uwsgi://127.0.0.1:9090", host: "159.203.101.19"
+</code>
+
+Apparently what was missing was that I had to replace <b>http-socket</b> by <b>socket</b> in my-uwsgi.ini file.
+I did that and restarted uWSGI using
+
+<code>
+# service uwsgi restart
+</code>
+
+The application started to work!
+
+
+<h2>Troubleshooting</h2>
+
+There are two places to look for error messages: <hl>/var/log/nginx/error.log</hl> is the error log of Nginx
+and <hl>/var/log/uwsgi/app/my-uwsgi.log</hl> where the log of uWSGI can be found. Assuming you called the config file
+my-uswgi.ini.
+
+For other options you might want to check out the <a href="http://flask.pocoo.org/docs/0.10/deploying/uwsgi/">Deploying Flask on uWSGI</a> in the documentation.
+
+
