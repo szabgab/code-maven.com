@@ -115,7 +115,7 @@ Traceback (most recent call last):
   File "app.py", line 1, in <module>
     from flask import Flask
 ImportError: No module named flask
-<code>
+</code>
 
 <h2>ImportError: No module named flask</h2>
 
