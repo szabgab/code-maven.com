@@ -1,0 +1,132 @@
+=title Конвертация строк в числа в Ruby
+=timestamp 2016-03-27T21:02:01
+=indexes String, to_i, to_f, to_r, +, base
+=status show
+=books ruby
+=author szabgab
+=archive 1
+=original convert-string-to-number-in-ruby
+=translator name2rnd
+=comments_disqus_enable 1
+
+=abstract start
+
+При чтении данных из файла или другого внешнего ресурса данные всегда приходят в Ruby как 
+объекты <a href="http://ruby-doc.org/core-2.2.0/String.html">String (Строка)</a>.
+
+Если мы хотим использовать их как числа, сначала их нужно сконвертировать в числа.
+
+Но в какие и как?
+
+=abstract end
+
+Объект <a href="http://ruby-doc.org/core-2.2.0/String.html">String</a> в Ruby имеет несколько методов
+конверации в число.
+
+<ul>
+  <li><hl>to_i</hl> сконвертирует String в <a href="http://ruby-doc.org/core-2.2.0/Integer.html">Integer</a>.</li>
+  <li><hl>to_f</hl> сконвертирует String во <a href="http://ruby-doc.org/core-2.2.0/Float.html">Float</a> (с плавающей точкой)</li>
+  <li><hl>to_r</hl> сконвертирует String в <a href="http://ruby-doc.org/core-2.2.0/Rational.html">Rational</a> number (рациональное число).</li>
+  <li><hl>to_c</hl> сконвертирует String в <a href="http://ruby-doc.org/core-2.2.0/Complex.html">Complex</a> number (комплексное число).</li>
+</ul>
+
+
+<h2>Конкатенация</h2>
+
+Если для двух числовых значений, которые на самом деле объекты <hl>String</hl> (из-за обрамляющих кавычек), использовать оператор <hl>+</hl>,
+то он будет работать как конкатенация.
+
+<code>
+a = "2"
+b = "3"
+puts a+b  # 23
+</code>
+
+<h2>no implicit conversion of Fixnum into String (TypeError)</h2>
+
+Если одно из значений это объект <hl>String</hl>, а другое - число (без кавычек), и мы попробуем сложить их друг с другом, как в примере:
+
+<code>
+puts "2"+3 
+</code>
+
+мы получим исключение: <hl>no implicit conversion of Fixnum into String (TypeError)</hl>
+
+<h2>String, которые выглядят как integer</h2>
+
+<hl>String</hl>, содержащие целое число (integer) могут быть сконвертированы в Integer, Float, Rational number, или Complex number:
+
+<code>
+puts a.to_i # 2
+puts a.to_f # 2.0
+puts a.to_r # 2/1
+puts a.to_c # 2+0i
+</code>
+
+<h2>Как задать основание: конвертация двоичных, восьмеричных, шестнадцатеричных значений в десятичные</h2>
+
+По умолчанию <hl>to_i</hl> предполагает, что наш объект String представлен в десятичной системе (основание 10), но что если вы хотите это изменить?
+
+Что если вы хотите рассматривать String как двоичное число, восьмеричное или шестнадцатеричное? Тогда нужно просто передать аргумент <hl>base=</hl>
+с подходящим числом в метод <hl>to_i</hl>:
+
+<code>
+puts "11".to_i            # 11
+puts "11".to_i(base=2)    # 3
+puts "11".to_i(base=16)   # 17
+</code>
+
+Конечно шестнадцатеричные числа могут также содержать символы a-f. Функция <hl>to_i</hl> умеет с ними обращаться.
+
+<code>
+puts "aB".to_i(base=16)   # 171
+</code>
+
+Возникает вопрос, что случится, если мы используем <hl>to_i</hl> без указания основания для строки с шестнадцатеричным числом,
+или с основанием, которое не предусматривает таких символов? Тогда просто вернется 0 (без какой-либо ошибки).
+
+<code>
+puts "aB".to_i            # 0
+puts "9".to_i(base=8)     # 0
+</code>
+
+Это подводит нас к вопросу: <b>Что случится, если не все символы могут быть сконвертированы в число?</b>
+Ответ прост.
+<hl>to_i</hl> сконвертирует все 'digits' от начала до того места, где уже не будет понятно, что делать.
+Оставшаяся часть строки будет отброшена. Даже если там есть еще понимаемые значения.
+
+<code>
+puts "2x3".to_i           # 2
+puts "2 3".to_i           # 2
+</code>
+
+<h2>Конвертация в число с плавающей точкой или рациональное число</h2>
+
+Мы можем использовать остальные методы для конвертации во Floating point (число с плавающей точкой), Rational number (рациональное число), и даже в Complex number (комплексное число):
+Некоторые из них понимают точку в десятичной дроби в <hl>String</hl>
+
+<code>
+c = "14.6"
+puts c.to_i    # 14
+puts c.to_f    # 14.6
+puts c.to_r    # 73/5
+puts c.to_c    # 14.6+0i
+</code>
+
+Некоторые даже понимают символ <hl>e</hl>, обозначающий экспоненту в String:
+
+<code>
+e = "2.3e4x5"
+puts e         # 2.3e4x5
+puts e.to_i    # 2
+puts e.to_f    # 23000.0
+puts e.to_r    # 23000/1
+puts e.to_c    # 23000.0+0i
+</code>
+
+<h2>Полный пример</h2>
+
+<include file="examples/ruby/string_to_number.rb">
+
+
+
