@@ -19,11 +19,11 @@
 все языки на Википедии.
 
 =abstract end
-В зависимости от желаемое глубины изучения, вы можете приступить сразу или посмотреть <b>подсказки</b>.
+В зависимости от степени исследования, которое вы захотите провести, вы можете приступить сразу или посмотреть <b>подсказки</b>.
 
 <h2>Подсказки</h2>
 
-Wikipedia предоставляет <a href="https://www.mediawiki.org/wiki/API:Main_page">API для получения содержимоо страницы</a> в некотором формает.
+Wikipedia предоставляет <a href="https://www.mediawiki.org/wiki/API:Main_page">API для получения содержимого страницы</a> в некотором формает.
 Так же есть более подробная документация об <a href="https://www.mediawiki.org/wiki/Wikibase/API">API</a>,
 включая информацию о <a href="https://www.mediawiki.org/wiki/API:Properties">API::Properties</a>.
 
