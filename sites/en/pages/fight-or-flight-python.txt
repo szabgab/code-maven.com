@@ -343,6 +343,83 @@ and send me an e-mail if something got broken.
 This too will have to improve with time, but most likely the system you need to deal with is so specific to the company
 that you'll have a lot of work setting up either of those systems.
 
+
+<h2>Mocking</h2>
+
+Writing test for simple stand alone function is easy, but your situation will probably not allow that.
+The code you have to deal with have a lot of interdependencies. Function calling each other. Possibly even in a circular manner.
+That's where <b>Mocking</b> or its nastier cousin <b>Monkey Patching</b> can help.
+
+Mocking is a totally legitimate technique while testing. Especially if yuo have to deal with some <b>External services</b>.
+In that case you don't want to hit the external API every time you run the test and you don't want to make your test depend
+on the current availability of that external API or service. For example at one of my clients they had an issue with a test randomly failing
+as their code, that was using some feature on Facebook got a random captcha. This taught the developer to accept that
+"this test sometimes fails" which is a horrible situation becasue it means we won't notice when the code starts to fail due to a real problem.
+
+In addition, having a mock for this external interface we can easily test how our code behaves when that external service is not available
+or when it returns incorrect responses.
+
+Another case if you would like to write <b>"pure unit tests"</b>. In that case you might want to mock all the functions called
+by the "function under test".
+
+The case that might be most relevant to our situation is however, if we have to deal with <b>complex, interdependent functions</b>.
+In that case we might have no choice but to fake the behaviour of some of the functions a whole subsystem, or even the database
+in order to have a controlled environment for our tests.
+
+Let's see two such cases:
+
+<h2>Mocking a function</h2>
+
+In the first case we have a module, cleverly named <b>library.py</b> in which there is a <hl>main</hl>
+function and a <hl>helper</hl> function. While both of these functions are quite banal, try to imagine that both of
+them are several hundred lines long and do a lot of complex stuff.
+
+However, as you can see the helper function has a fault. It will randomly throw an exception.
+When <hl>unit</hl>-testing the <hl>main</hl> function we don't want to deal with the problems the helper function has
+we would like to assume that it behaves properly.
+
+<include file="examples/python/fof/library.py">
+
+That's where we can use the <a href="https://pypi.python.org/pypi/mock">mock</a> module. Basically we replace the <hl>helper</hl>
+function by the new <hl>my_helper</hl> for the duration of the tests. This helper function has hard coded return values for every
+input that will be encountered during our test (which, in our case is the number 2).
+
+<include file="examples/python/fof/test_library.py">
+
+This allows us to write as many test as we want and controll the results we receive from the helper function.
+
+The difficulty here might be if we have a number of such "helper" function and if we don't know what to expect from them.
+
+<h2>Mocking print</h2>
+
+Another really problematic case is when the function we are trying to test has side-effect. Chief among those side-effects
+is printing to the screen. We would like to capture the output and see if it is what we expect.
+
+Another simplified example:
+
+<include file="examples/python/fof/echo_calc.py">
+
+Here is how we can use this module:
+
+<include file="examples/python/fof/use_echo_calc.py">
+
+Here is how we can test it:
+
+<include file="examples/python/fof/test_echo_calc.py">
+
+This way we mock the <hl>print</hl> statement of Python 2
+and collect the output in a string that we can retrieve using the
+<hl>getvalue</hl> method.
+
+<h2>Get other on board</h2>
+
+<ul>
+  <li>Lead by example.</li>
+  <li>Show how tests saved you time.</li>
+  <li>Offer to write tests for their code.</li>
+  <li>Introduce code-review, but ask the other developers to review your code before you review theirs.</li>
+</ul>
+
 <h2>Resources</h2>
 
 Some of the resources I've used for this talk and article that I recommend you read:
