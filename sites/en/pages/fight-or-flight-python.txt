@@ -18,7 +18,7 @@ What do you do now? Fight or flight? In this talk you will hear about a couple o
 
 <h2>The ideal situation</h2>
 
-When you join a company, or switch teams you have certain expectation about the development envrinment and process.
+When you join a company, or switch teams you have certain expectation about the development environment and process.
 The ideal situation looks something like this.
 
 The team use some distributed <b>version control system</b>.  <a href="https://git-scm.com/">Git</a> is your preference,
@@ -28,12 +28,12 @@ The code is divided into small functions or methods with clear input and output 
 If there are side effects they are well documented.
 
 The modules and objects are loosely coupled. While this might be harder to measure than length or complexity of functions,
-but circural dependencies (e.g  module A loads module B which loads module C which load module A) is likely an indication of something
+but circular dependencies (e.g  module A loads module B which loads module C which load module A) is likely an indication of something
 problematic. If you cannot give good names to thing (e.g. you have too many variables called <b>data</b> or <b>input</b> or <b>text</b>)
 that's usually also a good indication.
 
-Microservices. Well, that's just a modren buzz-word, but the point is that if the application is separated in
-clear units with clear borders, that's ususally much better than a large monolithic application.
+Microservices. Well, that's just a modern buzz-word, but the point is that if the application is separated in
+clear units with clear borders, that's usually much better than a large monolithic application.
 
 Documentation of the decisions made and the external API of each module. Many people don't like to write documentation
 because of various reasons. For example they saw too much boiler-plate documentation where a large chunk of it is redundant
@@ -45,12 +45,12 @@ You expect to have plenty of unit and integration tests together with the code c
 
 You expect to have Continuous Integration (CI) system running on the code base reporting if anything gets broken.
 
-You also expect to have a separate development envrionment for each developer, including your own copy of
+You also expect to have a separate development environment for each developer, including your own copy of
 the data. A separate testing or staging environment that is identical to the production environment even it is much smaller.
 
 <h2>The real situation</h2>
 
-The real situation is however very differernt. There are cases where the soure code lives on the production server.
+The real situation is however very different. There are cases where the source code lives on the production server.
 There might be a script to save backup copies with time stamp (the first seeds of a home-made version control system)
 but that's it. You don't have a development environment not to even mention a testing environment.
 
@@ -113,10 +113,10 @@ Both for yourself and for the company in general which is crucial.
 After all if you don't think the company will benefit from your work then you probably should not
 do it while getting paid.
 
-It is also importent because once you get management to understand the real value in the changes
+It is also important because once you get management to understand the real value in the changes
 you make it will be much easier for you to do them.
 
-Therefore before we talk about the value this process will bring you, the develper, let's see
+Therefore before we talk about the value this process will bring you, the developer, let's see
 what does this bring to the business?
 
 <h2>Business Value</h2>
@@ -143,7 +143,7 @@ a more detailed explanation. A few additional points that you might mention.
 Is employee satisfaction a real thing? If your company cares, then you might mention the following
 points as well. If not, then these are mostly for you and for your co-workers when you talk to them.
 
-Try to get management buy-in, but if you cannot, and you still think the comany will benefit from it, do it anyway.
+Try to get management buy-in, but if you cannot, and you still think the company will benefit from it, do it anyway.
 It is for your sanity.
 
 <h2>Programmer value</h2>
@@ -156,19 +156,19 @@ It is for your sanity.
   <li>Your sanity.</li>
 </ul>
 
-I am not really sure which one might be the most convincing among thes. Maybe the idea
+I am not really sure which one might be the most convincing among these. Maybe the idea
 that writing test for the feature you add will help you protect your code from future changes.
-Both from your own future changes and from the changes other developers might inroduce
+Both from your own future changes and from the changes other developers might introduce
 in libraries that your code uses.
 
-I don't know about you, but when I touch an untested piece of code I get nerveous. I don't know how the changes I make 
+I don't know about you, but when I touch an untested piece of code I get nervous. I don't know how the changes I make 
 might impact the rest of the application which slows me down a lot. I spend a lot of time worrying and a lot
 of time trying to figure out if my changes don't break anything. I am never sure.
 
 <h2>Measure your progress</h2>
 
 Unlike developers, managers don't have a gut feeling about the code as they are too removed from it.
-They need some way to measure your work. What is intersting for them, mentioned above, is the speed of development
+They need some way to measure your work. What is interesting for them, mentioned above, is the speed of development
 and the quality of code.
 
 Unfortunately in our industry we don't have really good way to estimate the length of a project. We are often off by
@@ -180,7 +180,7 @@ Number of bugs might be a better indication, but that too requires some way to c
 1 bug in an implementation of FizzBuzz is much worse than having 100 bugs in the implementation
 of a flight management application, but having any of those 100 bugs can have a much worse impact.)
 
-You probably won’t be able to properly measure any of these.
+You probably won't be able to properly measure any of these.
 So we have to find other ways to measure our progress.
 
 There are a number of other ways, that don't have a clear and direct impact on the business,
@@ -206,7 +206,7 @@ This usually means people will tend to wait with their commit till "everything i
 valuable aspects of a version control system. Having you own version control system will allow you to make lots of small commits and
 then, when you are done you can commit to the official VCS of the company.
 
-<a href="https://git-scm.com/">Git</a> is great for thsi as it does not need a server.
+<a href="https://git-scm.com/">Git</a> is great for this as it does not need a server.
 
 <h2>virtualenv</h2>
 
@@ -226,8 +226,8 @@ of Python.
 are more powerful.
 
 
-It does not really matter which one you start using. As a new progammer on this team you'll have to learn a lot
-about the code-base and the challenges it imposese for writing tests.
+It does not really matter which one you start using. As a new programmer on this team you'll have to learn a lot
+about the code-base and the challenges it imposes for writing tests.
 
 The more important question though is what kind of tests you should be writing?
 
@@ -242,10 +242,10 @@ That's where the real value of tests are.
 
 <h2>Integration or unit tests ?</h2>
 
-That's a much more reasonalbe question, but the distinction is far from clear.
+That's a much more reasonable question, but the distinction is far from clear.
 
 In the ideal case, a unit test checks the behavior of a single function. It should not depend on
-the behaviour of the functions called by the "function under test".
+the behavior of the functions called by the "function under test".
 
 An "integration test" on the other hand would test how various subsystems work together.
 
@@ -264,7 +264,7 @@ Or possible more correctly:
 
 In other words <b>"Integrations tests"</b> are the same as <b>"unit tests"</b>, just the units are bigger.
 
-Morover in spaghetti code every unit test is also an integration tests as all the units are tightly "integrated".
+Moreover in spaghetti code every unit test is also an integration tests as all the units are tightly "integrated".
 
 In a nutshell, don't fret about the naming. Especially not at the beginning.
 But be prepared to constantly refactor your tests as well.
@@ -274,20 +274,20 @@ I won't provide a deep tutorial to testing Python code, but let's just see a sim
 <h2>First simple test</h2>
 
 We have a module called <hl>my_calc.py</hl> that has a function called <hl>sum</hl>.
-We can observe its behaviour with the following code:
+We can observe its behavior with the following code:
 
 <include file="examples/python/fof/use_my_calc.py">
 
-Some people will actually write such examples while developing code to obseve the behaviour of their new code.
-Then they will either discard it or let it lay around withut turning them into proper test scripts. It is quite unfortunate
-becasue with little investment they could have converted it to long-lasting test.
+Some people will actually write such examples while developing code to observe the behavior of their new code.
+Then they will either discard it or let it lay around without turning them into proper test scripts. It is quite unfortunate
+because with little investment they could have converted it to long-lasting test.
 
 In other words, they have paid the price of writing the tests without reaping the real benefits of it down the road
 that they can execute the tests thousands of times.
 
 <include file="examples/python/fof/test_my_calc.py">
 
-We can easily run the test script and if everything works fine we get a report that looks lke this:
+We can easily run the test script and if everything works fine we get a report that looks like this:
 
 <code lang="bash">
 $ py.test test_my_calc.py 
@@ -350,11 +350,11 @@ Writing test for simple stand alone function is easy, but your situation will pr
 The code you have to deal with have a lot of interdependencies. Function calling each other. Possibly even in a circular manner.
 That's where <b>Mocking</b> or its nastier cousin <b>Monkey Patching</b> can help.
 
-Mocking is a totally legitimate technique while testing. Especially if yuo have to deal with some <b>External services</b>.
+Mocking is a totally legitimate technique while testing. Especially if you have to deal with some <b>External services</b>.
 In that case you don't want to hit the external API every time you run the test and you don't want to make your test depend
 on the current availability of that external API or service. For example at one of my clients they had an issue with a test randomly failing
 as their code, that was using some feature on Facebook got a random captcha. This taught the developer to accept that
-"this test sometimes fails" which is a horrible situation becasue it means we won't notice when the code starts to fail due to a real problem.
+"this test sometimes fails" which is a horrible situation because it means we won't notice when the code starts to fail due to a real problem.
 
 In addition, having a mock for this external interface we can easily test how our code behaves when that external service is not available
 or when it returns incorrect responses.
@@ -363,7 +363,7 @@ Another case if you would like to write <b>"pure unit tests"</b>. In that case y
 by the "function under test".
 
 The case that might be most relevant to our situation is however, if we have to deal with <b>complex, interdependent functions</b>.
-In that case we might have no choice but to fake the behaviour of some of the functions a whole subsystem, or even the database
+In that case we might have no choice but to fake the behavior of some of the functions a whole subsystem, or even the database
 in order to have a controlled environment for our tests.
 
 Let's see two such cases:
@@ -386,7 +386,7 @@ input that will be encountered during our test (which, in our case is the number
 
 <include file="examples/python/fof/test_library.py">
 
-This allows us to write as many test as we want and controll the results we receive from the helper function.
+This allows us to write as many test as we want and control the results we receive from the helper function.
 
 The difficulty here might be if we have a number of such "helper" function and if we don't know what to expect from them.
 
