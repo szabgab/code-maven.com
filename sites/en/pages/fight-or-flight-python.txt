@@ -276,7 +276,7 @@ I won't provide a deep tutorial to testing Python code, but let's just see a sim
 We have a module called <hl>my_calc.py</hl> that has a function called <hl>sum</hl>.
 We can observe its behaviour with the following code:
 
-<include file="examples/python/fof/use_calc.py">
+<include file="examples/python/fof/use_my_calc.py">
 
 Some people will actually write such examples while developing code to obseve the behaviour of their new code.
 Then they will either discard it or let it lay around withut turning them into proper test scripts. It is quite unfortunate
