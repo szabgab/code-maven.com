@@ -16,7 +16,8 @@ This is a collection of skeletons you might find useful.
 <ul>
   <li><a href="http://code-maven.com/html-skeleton">HTML 5 skeleton</a></li>
   <li><a href="http://code-maven.com/bootstrap-skeleton">Bootstrap Skeleton</a></li>
-  <li><a href="http://code-maven.com/angular-ui-bootstrap-skeleton">AngularJS UI Boottrap Skeleton</a></li>
+  <li><a href="http://code-maven.com/angular-skeleton">AngularJS Skeleton</a></li>
+  <li><a href="http://code-maven.com/angular-ui-bootstrap-skeleton">AngularJS UI Bootstrap Skeleton</a></li>
   <li><a href="http://perlmaven.com/dancer2-angularjs-single-page-application">Perl Dancer + AngularJS + Bootstrap skeleton</a></li>
 </ul>
 

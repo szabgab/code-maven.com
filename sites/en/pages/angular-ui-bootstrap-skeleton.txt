@@ -9,7 +9,7 @@
 
 =abstract start
 
-To make <a href="https://angularjs.org/">AngularJS</a> and work <a href="http://getbootstrap.com/">Bootstrap</a> work nicely together
+To make <a href="https://angularjs.org/">AngularJS</a> and <a href="http://getbootstrap.com/">Bootstrap</a> work nicely together
 you can use the <a href="https://angular-ui.github.io/bootstrap/">Angular UI Bootstrap</a> project.
 
 =abstract end

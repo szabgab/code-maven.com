@@ -1,0 +1,18 @@
+=title AngularJS Skeleton
+=timestamp 2016-05-06T13:40:01
+=indexes angularjs
+=status show
+=books angularjs, html
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+A simple <a href="https://angularjs.org/">AngularJS</a> skeleton.
+
+=abstract end
+
+<include file="examples/html/angular-skeleton.html">
+
+
