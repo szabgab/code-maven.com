@@ -1,0 +1,45 @@
+=title Exercise: add more statistics
+=timestamp 2016-05-12T17:01:25
+=indexes exercises, projects
+=status show
+=books ruby, python, javascript, php
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+Exercise: create calculator
+
+See other <a href="/exercises">exercises</a>.
+
+=abstract end
+
+Create a command line calucaltor that will prompt for two numbers and an operator
+and will calculate the result. Handle the following operators: <hl>+</hl>, <hl>-</hl>, <hl>*</hl>, and <hl>/</hl>. 
+
+An interaction should look like this:
+
+<pre>
+$ mycalc
+First number: 23
+Second number: 19
+Operator: +
+Result: 42
+</pre>
+
+where the numbers 23, 19 and the operator + are typed in by the user.
+
+<!--
+<h2>Tools</h2>
+<ul>
+  <li><a href=""></a></li>
+</ul>
+
+
+<h2>Solutions</h2>
+<ul>
+  <li><a href=""></a></li>
+</ul>
+
+-->
+

@@ -26,6 +26,7 @@ in many other languages.
 <ol>
   <li><a href="/exercise-rectangular">Calculate Area of Rectangular (Standard I/O, if)</a></li>
   <li><a href="/exercise-number-guessing-game">Number guessing game (random, prompt, if)</a></li>
+  <li><a href="/exercise-calculator">Create calculator</a></li>
 </ol>
 
 <h2>Files</h2>
