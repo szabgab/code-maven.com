@@ -1,7 +1,7 @@
 =title Why is Git better than Subversion for Open Source Projects
 =timestamp 2016-05-13T15:30:01
 =indexes Git, Subversion
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -91,7 +91,8 @@ but unfortunately that was too late for the project. By that time most of the co
 and new people have not stepped in their place. 
 
 The code is still there, people are still using Padre.
-There are a number of stand-alone module such as a href="https://metacpan.org/pod/Parse::ErrorString::Perl">Parse::ErrorString::Perl</a>
+There are a number of stand-alone module such as
+<a href="https://metacpan.org/pod/Parse::ErrorString::Perl">Parse::ErrorString::Perl</a>
 and <a href="https://metacpan.org/pod/Debug::Client">Debug::Client</a> that came out of the project.
 
 Unfortunately the momentum is gone.
