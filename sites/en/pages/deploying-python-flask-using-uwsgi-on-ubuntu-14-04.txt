@@ -330,7 +330,7 @@ with the following content:
 
 <code>
 server {
-  location /hello/ {
+  location / {
     include uwsgi_params;
     uwsgi_pass 127.0.0.1:9090;
   }
