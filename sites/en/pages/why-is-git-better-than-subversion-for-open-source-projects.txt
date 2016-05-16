@@ -1,4 +1,4 @@
-=title Why is Git better than Subversion for Open Source Projects
+=title Why Git is better than Subversion for Open Source Projects
 =timestamp 2016-05-13T15:30:01
 =indexes Git, Subversion
 =status show
@@ -55,19 +55,19 @@ In other words in this model, we had to make people "core contributors" just to 
 We had a hard time keeping people as "external contributors" without causing them and ourselves massive pain by the process.
 
 
-<h2>Git an GitHub to the rescue</h2>
+<h2>Git and GitHub to the rescue</h2>
 
-After I've started to use Git and more specifically GitHub, I understood that it has a much better model.
+After I've started to use Git and more specifically GitHub, I understood that it had a much better model.
 
-As <a href="https://github.com/azawawi">Ahmad M. Zawawi</a> pointed it out to me,
+As <a href="https://github.com/azawawi">Ahmad M. Zawawi</a> pointed out to me,
 <b>it makes it easy to offer different rights to collaborators (core developers) and contributors of an open source project</b>.
 
-Only the core developers, and in many open source projects it only means one person, need to have commit rights on the main repository
+Only the core developers, and in many open source projects it means only one person, need to have commit rights on the main repository
 of the project.
 
 Any other contributor can, without requesting any permission, make changes to the project and send you as many "patches" as she wants.
 Each "patch" can be a series of small commits that is much easier to develop and is usually much easier to review than one large change.
-In GitHub terminology these "patches" are call "pull-requests".
+In GitHub terminology, these "patches" are called "pull-requests".
 
 The contributor can even create several changes each one depending on the other one and if you ask for some improvements in
 one of the changes, Git makes is very easy for the contributors to reorganize (<hl>rebase</hl>) the subsequent changes.
@@ -87,15 +87,15 @@ GitHub also offers integrated bug tracking with all the nice features we had in 
 
 At one point <a href="https://github.com/kaare">Kaare Rasmussen</a> made a huge
 effort and <a href="http://blogs.perl.org/users/kaare/2014/09/padre-is-now-on-github.html">moved Padre to GitHub</a>,
-but unfortunately that was too late for the project. By that time most of the contributors have lost interest in the project,
-and new people have not stepped in their place. 
+but unfortunately that was too late for the project. By that time, most of the contributors have lost interest in the project,
+and new people have not stepped in their place.
 
 The code is still there, people are still using Padre.
 There are a number of stand-alone module such as
 <a href="https://metacpan.org/pod/Parse::ErrorString::Perl">Parse::ErrorString::Perl</a>
 and <a href="https://metacpan.org/pod/Debug::Client">Debug::Client</a> that came out of the project.
 
-Unfortunately the momentum is gone.
+Unfortunately, however, the momentum is gone.
 
 
 <h2>Conclusion</h2>
