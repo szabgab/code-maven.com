@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="DemoApp">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
+  <script src="recursive_generated_fixed.js"></script>
+  <script type="text/ng-template" id="tree_view">
+  {{ node.title }}
+    <ul ng-if="node.tree">
+        <li ng-repeat="node in node.tree" ng-include="'tree_view'">
+        </li>
+    </ul>
+  </script>
+</head>
+<body  ng-controller="DemoController">
+    <ul>
+        <li ng-repeat="node in tree" ng-include="'tree_view'"></li>
+    </ul>
+</body>
+</html>
