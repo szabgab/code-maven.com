@@ -1,4 +1,4 @@
-=title Why to have a Public Version Control System for Open Source Projects
+=title Why to have Public Version Control System for Open Source Projects?
 =timestamp 2015-12-01T07:30:01
 =indexes Git, Subversion
 =status draft
@@ -22,46 +22,48 @@ version control system, or don't make it public.
 
 One of the key features of Open Source is that other people can change the code and <b>contribute to the project</b>.
 
-If there is no public version control system the users who would like to improve the code will need to base their changes
-the most recently published version of the code which might mean that the bug they are trying to fix has already been fixed,
+<h2>What if there is no public VCS?</h2>
+
+If there is no public version control system (VCS) the users who would like to improve the code will need to base their changes
+on the most recently published version of the code. This might mean that the bug they are trying to fix has already been fixed,
 but it has not been released. That would be both a <b>waste of time and a waste of goodwill</b>.
 
 Two or more people might be solving the same issue during this period without knowing about each others effort. Again, more <b>waste of energy</b>.
 
 If there is no public VCS, the potential contributor will have to create a <hl>diff</hl>, send it by e-mail and the author also needs
-to manually handle the process using <hl>patch</hl>.
+to manually handle the process using <hl>patch</hl>. This is how it was done before, but we can do much better today.
 
 <b>Lack of history</b>: Without a public version control system it will be impossible for potential contributors to see the history of your project.
-To see where and why a bug might have been introduced. Even if they have access to several released versions of your code, collecting
-and comparing those versions is much harder than looking at the log of a version control system. And even if they manage to build
-the history, they can only see changes from version to version which probably contain many unrelated changes.
-
+For example to see where and why a bug might have been introduced.
+Even if they have access to several released versions of your code, collecting
+and comparing those versions is much harder than looking at the log of a version control system.
+Even if they manage to build the history, they can only see changes from released version to
+released version which probably contain many unrelated changes.
 
 <h2>Let's be positive</h2>
 
-Instead of pointing out the negative thing of not having a public VCS, let's try to see how a public VCS improves life:
+Instead of pointing out the negative aspects of not having a public VCS, let's try to see how a public VCS improves life:
 
-Having a <b>public bug tracking system</b> makes it much easire for people to report bugs and see what are the already reported bugs.
+Slightly unrelated, but having a <b>public bug tracking system</b> makes it much easier for people to report bugs and see what are the already reported bugs.
 
-Having A <b>VCS coupled with a bug tracker</b> will improve your overall developent process and will probably help improving the quality
-of your code. (And probably the quality of your programming life.) (What "coupled" might mean is that the tickets in the bug-tracking system
-and the commit in the version control system can easily refer to each other.
+Having a <b>public VCS coupled with a bug tracker</b> will improve your overall development process and will
+probably help improving the quality of your code. (And probably the quality of your programming life.)
+What "coupled" might mean in this context is that the tickets in the bug-tracking system
+and the commits in the version control system can easily refer to each other.
 
-Having a VCS like GitHub enables <a href="/why-is-git-better-than-subversion-for-open-source-projects">decoupling of core vs contributor</a> open source teams.
-
-
+Having a public VCS like GitHub enables <a href="/why-is-git-better-than-subversion-for-open-source-projects">decoupling of core vs contributor</a> open source teams.
 
 <h2>Using GitHub</h2>
 
 While there are other options for having Public Version Control System, these days Git, and <a href="http://github.com/">GitHub</a>
-seems to be the de-facto standard. Not only does it provide free repository for your open source project it also makes it
-super easy for potential contributors to send in their patches, and it make it extremely easy for you to merge them if you accept
-the change or discuss them if they need further work.
+seems to be the de-facto standard. Not only does it provide free repository for your open source projects, it also makes it
+super easy for potential contributors to send in their patches. GitHub makes it extremely easy for you to merge them if you accept
+the changes or discuss them if they need further work.
 
 Having a GitHub account can help you with employment. In the answer to the question
-<a href="https://www.quora.com/Why-is-there-an-emerging-notion-that-people-who-dont-use-Github-are-bad-programmers">Why is there an emerging notion that people who don't use Github are bad programmers?</a> <a href="https://github.com/mpj">Mattias Petter Johansson</a> pointed out that having an active GitHub account can help potential employers assess the quality of your code and even
-your attitude toward other programmers. So while this has nothing to do with your own project it can be a valuable asset to you.
-
+<a href="https://www.quora.com/Why-is-there-an-emerging-notion-that-people-who-dont-use-Github-are-bad-programmers">Why is there an emerging notion that people who don't use Github are bad programmers?</a>
+<a href="https://github.com/mpj">Mattias Petter Johansson</a> pointed out that having an active GitHub account can help potential employers assess the quality of your code and even
+your attitude toward other programmers. So while this has nothing to do with your own projects it can be a valuable asset to you.
 
 <h2>Version control of open source projects</h2>
 
@@ -69,5 +71,13 @@ In order to see how widespread is the use (or the lack of use) of public version
 information about the use of public VCS-es in Open source projects.
 
 Most <a href="http://perlmaven.com/recent">recent Perl modules on CPAN</a>.
+
+On the <a href="http://pydigger.com/stats">stats page of PyDigger</a> you can see that about 66% of the Python packages have a GitHub repository
+we could identify. (The others still might have GitHub repository or some other public VCS, but the <a href="http://pydigger.com/">PyDigger</a>
+system could also be improved.
+
+TODO: cpandigger and the others.
+
+
 
 
