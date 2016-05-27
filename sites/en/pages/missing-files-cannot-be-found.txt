@@ -1,7 +1,7 @@
 =title Error 718: Missing files cannot be found.
 =timestamp 2016-05-27T18:00:01
 =indexes error code
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
