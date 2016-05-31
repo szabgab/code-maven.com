@@ -21,7 +21,7 @@ It is usually used for configuration files that need more power that an INI file
 
 This is a sample configuration file used for the code running the Code Maven web site:
 
-<include file="example/data/code_maven_config.yml">
+<include file="examples/data/code_maven_config.yml">
 
 
 <h2>Implementations and examples</h2>
