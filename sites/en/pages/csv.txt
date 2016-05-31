@@ -1,0 +1,102 @@
+=title CSV - Comma Separated Files
+=timestamp 2016-06-31T15:00:01
+=indexes CSV
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+CSV stands for Comma Separated Values, though in reality, the character that separates the values can be anything.
+<hl>,</hl> is probably the most popular one, but there are plenty of files where the separator is semi-colon <hl>;</hl>.
+In other places it is <hl>|</hl>, and yet in other places it is a <hl>\t</hl> TAB.
+The latter is usually also called TSV - Tab Separated Values.
+
+We'll just use the name <b>CSV</b> and mean any of these cases.
+
+=abstract end
+
+A CSV file is great for representing table-like data. Something you could also store in Excel,
+<a href="https://www.libreoffice.org/discover/calc/">Calc of Libre Office</a>, or any other Spreadsheet application.
+Without the formatting and without the calculating of expressions. Just the raw data.
+
+A CSV file can be seen as a table from a relational database, one that you'd normally interrogate using SQL.
+If you need to represent multiple SQL tables, that will require one CSV file for each table.
+
+A rather simple example looks like this:
+
+<include file="examples/data/process_csv_file.csv">
+
+Here each field is separated by a semi-colon <hl>;</hl> and each physical row represents one row in the table.
+
+A more complex example is this one:
+
+<include file="examples/data/distance.csv">
+
+Here the fields are separated using <hl>,</hl> and we can see two special cases:
+
+<h2>Handle embedded speparator characters</h2>
+
+The line starting with "New York" contains a field that has a comma <hl>,</hl> in the middle.
+In order to make it clear that the comma between Moscow and East is part of the element the creator of
+the CSV file can do two things. Either wrap the element in quotes as happend in this example:
+
+<code>
+New York,"Moscow, East",6000,km
+</code>
+
+The character can also be "escaped" using a back-slash <hl>\</hl>. (Escaping here means that the character looses
+its special meaning separating fields.
+
+<hl>New York,Moscow\, East,6000,km</hl>
+
+The software creating the CSV file needs to be able to add these extra marks and the software reading the CSV file must
+be able to understand them and interprete them correctly.
+
+<h2>Embedded newline (Multi-line fields)</h2>
+
+The second special case can be seen in the lines which comprise a single logical row.
+We already know that the quotation character <hl>"</hl> marks the beginning of a field which ends with the next quotation character 
+<hl>"</hl>, but in this case that second charcter is in a subsequent physical row. Effectively here we have a field that has a newline
+embedded in it.
+
+
+<code>
+Local,"Remote
+Location",10,km
+</code>
+
+If you are familiar with any of the Spreadsheet software you probably have already seen files with a few multi-line fields.
+This is how such fields are represented.
+
+Here too, it is very important for the software to be able to parse the file correctly. A simple call to <hl>split</hl>
+won't work properly.
+
+<h2>Header or not?</h2>
+
+In the earlier examples each row contained data, though rows were not necessary aligned along newlines.
+
+In the next example the first row of the file is the header. In that row the values are the names of the columns similar to
+what you would have in a relational database, except that in this case there is no restriction as to what the column
+name can contain. So we have one column with a space in the name and another column where the name (the content of the first row)
+has both space and parenthese.
+
+<include file="examples/data/planets.csv">
+
+When reading such a file one must treat the first row as special. At a minimum it should not be used it as data,
+but maybe it can even be used as way to refernce the values in the various fields.
+
+<h2>Implementations of CSV parsers</h2>
+
+
+<ul>
+  <li><a href="http://perlmaven.com/csv">CSV in Perl</a></li>
+  <li><a href="https://docs.python.org/2/library/csv.html">CSV in Python 2.x</a></li>
+  <li><a href="https://docs.python.org/3/library/csv.html">CSV in Python 3.x</a></li>
+  <li><a href="http://code-maven.com/create-and-download-csv-with-javascript">Create CSV in JavaScript</a></li>
+  <li><a href="http://code-maven.com/reading-csv-file-in-ruby">Read CSV in Ruby</a></li>
+<ul>
+
+See also an <a href="http://code-maven.com/exercise-add-numbers-from-csv-file">exercise to add numbers taken from a CSV file</a>.
+
