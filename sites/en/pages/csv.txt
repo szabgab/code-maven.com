@@ -30,9 +30,13 @@ A rather simple example looks like this:
 
 Here each field is separated by a semi-colon <hl>;</hl> and each physical row represents one row in the table.
 
+(Data: <a href="https://hu.wikipedia.org/wiki/H%C3%B3feh%C3%A9rke">Snowwhite and the 7 Dwarfs</a> in Hungarian.)
+
 A more complex example is this one:
 
 <include file="examples/data/distance.csv">
+
+(Data: totally made up.)
 
 Here the fields are separated using <hl>,</hl> and we can see two special cases:
 
@@ -73,6 +77,7 @@ This is how such fields are represented.
 Here too, it is very important for the software to be able to parse the file correctly. A simple call to <hl>split</hl>
 won't work properly.
 
+
 <h2>Header or not?</h2>
 
 In the earlier examples each row contained data, though rows were not necessary aligned along newlines.
@@ -87,6 +92,8 @@ has both space and parenthese.
 When reading such a file one must treat the first row as special. At a minimum it should not be used it as data,
 but maybe it can even be used as way to refernce the values in the various fields.
 
+(Data source <a href="https://en.wikipedia.org/wiki/Solar_System">Solar System</a>. No really.)
+
 <h2>Implementations of CSV parsers</h2>
 
 
@@ -96,7 +103,7 @@ but maybe it can even be used as way to refernce the values in the various field
   <li><a href="https://docs.python.org/3/library/csv.html">CSV in Python 3.x</a></li>
   <li><a href="http://code-maven.com/create-and-download-csv-with-javascript">Create CSV in JavaScript</a></li>
   <li><a href="http://code-maven.com/reading-csv-file-in-ruby">Read CSV in Ruby</a></li>
-<ul>
+</ul>
 
 See also an <a href="http://code-maven.com/exercise-add-numbers-from-csv-file">exercise to add numbers taken from a CSV file</a>.
 
