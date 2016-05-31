@@ -1,0 +1,36 @@
+=title YAML - YAML Ain't Markup Language
+=timestamp 2016-05-31T16:00:01
+=indexes YAML
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="http://yaml.org/">YAML</a> is a data serialization format with implementations
+in many programming languages. (See <a href="https://en.wikipedia.org/wiki/YAML">Wikipedia on YAML</a>.)
+
+It is similar to <a href="/json">JSON</a>, but looks much nicer and much more readable.
+
+It is usually used for configuration files that need more power that an INI file.
+
+=abstract end
+
+<h2>Example</h2>
+
+This is a sample configuration file used for the code running the Code Maven web site:
+
+<include file="example/data/code_maven_config.yml">
+
+
+<h2>Implementations and examples</h2>
+
+<ul>
+   <li><a href="http://perlmaven.com/yaml">YAML in Perl</a></li>
+   <li>Python</li>
+   <li>Ruby</li>
+   <li>PHP</li>
+   <li>JavaScript</li>
+</ul>
+
