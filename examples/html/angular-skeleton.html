@@ -8,9 +8,9 @@
 
   <script>
    angular.module('DemoApp', [])
-   .controller('DemoController', function($scope) {
+   .controller('DemoController', ['$scope', function($scope) {
        $scope.message = "Hello World";
-   });
+   }]);
   
   </script>
 
