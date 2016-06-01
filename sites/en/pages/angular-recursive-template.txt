@@ -93,3 +93,9 @@ Here is the full JavaScript code:
 Here you can try it:
 
 <try file="examples/angular/recursive_template/recursive_generated_fixed.html">
+
+
+<h3>Screenshots</h3>
+
+<img src="/img/shots/angular-recursive-template.png">
+
