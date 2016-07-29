@@ -17,6 +17,6 @@ JMeter is an Open Source Performance and load testing tool.
 
 <ul>
   <li><a href="https://www.youtube.com/user/JMeterTutorial">JMeter Tutorials</a></li>
-  <li><a href="https://www.youtube.com/user/BlazeMeterSupport"></a></li>
+  <li><a href="https://www.youtube.com/user/BlazeMeterSupport">BlazeMeter Support</a></li>
 </ul>
 
