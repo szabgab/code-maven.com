@@ -1,0 +1,22 @@
+=title JMeter
+=timestamp 2016-02-17T17:30:01
+=indexes jmeter
+=status draft
+=books jmeter
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+JMeter is an Open Source Performance and load testing tool.
+
+=abstract end
+
+<h2>Other videos</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/user/JMeterTutorial">JMeter Tutorials</a></li>
+  <li><a href="https://www.youtube.com/user/BlazeMeterSupport"></a></li>
+</ul>
+
