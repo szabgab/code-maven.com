@@ -1,0 +1,20 @@
+=title How to commafy a number? (How to print number with commas as thousands separators using Python?)
+=timestamp 2016-08-16T14:55:01
+=indexes format
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+=abstract end
+
+<include file="examples/python/commafy.py">
+
+We have imported the <hl>print_function</hl> from the
+<a href="https://docs.python.org/2/library/__future__.html">__future__</a>
+so this code will work on both Python 2 and Python 3.
+
+The key here is the <hl>{:,}</hl> placeholder.
