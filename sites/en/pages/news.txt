@@ -1,0 +1,19 @@
+=title News about Open Source projects
+=timestamp 2016-08-16T17:30:01
+=indexes podcast
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The Code-Maven news is a podcast providing news about Open Source projects.
+Each episode is between 5-20 minutes.
+
+=abstract end
+
+<ul>
+   <li><a href="/news/1">Test 1</a></li>
+</ul>
+

@@ -1,0 +1,14 @@
+=title 1 - Test
+=timestamp 2016-08-16T17:40:01
+=indexes podcast
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Placeholder for the first episode.
+
+=abstract end
+
