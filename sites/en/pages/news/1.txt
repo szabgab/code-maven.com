@@ -1,6 +1,8 @@
 =title 1 - Test
 =timestamp 2016-08-16T17:40:01
 =indexes podcast
+=tags interview, cmnews
+=mp3 /media/news/1/code-maven-news-1.mp3, 13879747, 16:09
 =status draft
 =author szabgab
 =archive 1
@@ -11,4 +13,91 @@
 Placeholder for the first episode.
 
 =abstract end
+
+<screencast file="/media/videos/code-maven-news-1" />
+
+<podcast>
+
+<h2>Transcript</h2>
+<div id="transcript">
+
+  <div class="speaker-section">
+    <span class="speaker-info">Gabor Szabo (szabgab)</span>
+    <span class="timeindex">0:00</span>
+    <div class="text">
+    </div>
+  </div>
+
+  <entry>
+    <t>0:00</t>
+    <w>Gabor Szabo (szabgab)</w>
+    <text>
+    Hello!
+
+    This is Gabor Szabo with the first episode of the Code-Maven news podcast and screencast and interview project and with me is
+    Jason A. Crome who is going to talk about the Perl Dancer project. Hi Jason. How are you?
+    </text>
+  </entry>
+
+  <enrty>
+    <w>Jason A. Crome (JC)</w>
+    <text>Hi! Thanks for having me here today. I am doing great.
+    </text>
+  </entry>
+
+  I hope it's going to be good. This is the first interview in this format. Let's get started. Tell me a little bit about yourself.
+
+  Let's say I've been programming professionally for about probably last 20 years. The last 18 or I've spent, I've started 
+  a technology company with some others in the United States and we were writing software for the local government here in the States.
+  Last year I've retired from that and I've been active in the Perl community for a number of years and when I decided to get back
+  to work last fall one of the things I've gravitated towards was the Dancer project, something that I've used a little bit in the past. And eventually they had me join their team, and I've been doing a lot with that. In November I got hired on by <a href="http://www.allaroundtheworld.fr/">All Around the World</a>
+  a consulting firm out of France there I am the technical lead on a project called Veure which is a
+  <a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game">Massively Multiplayer Online Game (MMORPG)</a> written in Perl.
+
+  Nice.
+
+  I spend a lot if time in Perl these days.
+
+  OK and is it using Dancer for this project or something else?
+
+  Unrelated to Dancer, but there is a lot of overlap with the technology I use in that project that I use in other aspects of my life.
+  I try to use a little bit of Dancer here and there. at my dayjob when I can. Dancer is really personally a passion of mine.
+
+  2:20 Tell me about Dancer. What is Dancer?
+
+  My involvement in Dancer is funny actually. Back in 2012 YAPC in Madison, Wisconsin, USA I was looking for a new web framework.
+  The one that I've been using kind of died out and I set in a couple of talks and Sawyer, one of the project leads he is a very
+  engaging speaker and he had a really good talk about what Dancer was about. It really fit the way that I've worked and I submitted
+  a couple of pull-requests to them that got incorporated. I really didn't get back to it until last fall and a project I used that used Dancer and as I started to running into issues with docs and a coouple of bugs I've noticed, I've started to send in pull-requests and Sawyer contacted me and said: you know if you keep doing this then we are going to have to assilimate you into the core team
+and a little bit later that's actually what happened. But what Dancer is, it is a framework for building Web Applications. And
+for those of you who are familiar with Perl, Perl has this great saying that Making Easy things Easy and Hard Things possible.
+That's really a philosophy that the Dancer framework has stuck with. If you want to build a web up and get up and running quickly then Dancer is a great framework to do it with. If you've never done web programming, if you've never Perl programming actually,
+it's a really nice entry point into the Perl Ecosystem. If you are an experienced Perl programmer you are not going to be disappoinyed either because all of the power and flexibility that the Perl Ecosystem allows you, you can channel that into the Dancer applications.
+You can make pretty large and elaborate web applications pretty easily. The framework takes care of a lot of things a lot of web programmers don't want to think about all the time. It does those things failry easily. Either through the core of the framework or through the number of plugins that it offers. It just does what you need to and it kind of stays out of your way its great.
+
+5:00 OK. I understand that there is something called Dancer and Dancer 2. Are these two versions? What is the relationship between them? Are you using the new one?
+
+Personally my involvement is almost exclusively is with Dancer 2. The history behind this is that Dancer started out as a smaller project by our project founder, Alexis (<a href="https://twitter.com/sukria">Alexis Sukrieh</a>) 
+
+</div>
+
+
+
+<h2>Technical info</2>
+
+Recorded on 17 August 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+There are a couple of places where we had a lot of dropped frames
+and by the end of the recording the noise from the ventillator of my computer became pretty disturbing.
 
