@@ -8,6 +8,7 @@
 =translator name2rnd
 =archive 1
 =comments_disqus_enable 1
+
 =abstract start
 
 Изучая <a href="/angularjs">AngularJS</a> или какие-то другие <a href="/javascript">JavaScript</a>-фреймворки
