@@ -1,8 +1,8 @@
-=title 1 - Test
+=title CMOS #1 Jason Crome on Dancer 2
 =timestamp 2016-08-16T17:40:01
 =indexes podcast
 =tags interview, cmnews
-=mp3 /media/news/1/code-maven-news-1.mp3, 13879747, 16:09
+=mp3 /media/cmos-1-jason-crome-dancer2.mp3, 13879747, 16:09
 =status draft
 =author szabgab
 =archive 1
@@ -14,38 +14,54 @@ Placeholder for the first episode.
 
 =abstract end
 
-<screencast file="/media/videos/code-maven-news-1" />
+<screencast file="/media/cmos-1-jason-crome-dancer2" />
 
 <podcast>
+
+<style>
+#transcript .timestamp {
+   font: bold;
+}
+</style>
+
+<div class="person">
+  <div><a href="https://www.crome-plated.com/">Jason A. Crome</a></div>
+  <div>
+     <a href="https://metacpan.org/author/CROMEDOME">PAUSE</a>,
+     <a href="https://twitter.com/cromedome">@cromedome</a>,
+     <a href="https://github.com/cromedome">GitHub</a>
+  </div>
+</div>
+
 
 <h2>Transcript</h2>
 <div id="transcript">
 
   <div class="speaker-section">
-    <span class="speaker-info">Gabor Szabo (szabgab)</span>
-    <span class="timeindex">0:00</span>
+    <span class="timestamp">0:00</span>
+    <span class="speaker-info">Gabor Szabo (SZABGAB)</span>
     <div class="text">
+      Hello!
+      <p>
+      This is Gabor Szabo with the first episode of the Code-Maven news podcast and screencast and interview project and with me is Jason A. Crome who is going to talk about the Perl Dancer project. Hi Jason. How are you?
     </div>
   </div>
 
-  <entry>
-    <t>0:00</t>
-    <w>Gabor Szabo (szabgab)</w>
-    <text>
-    Hello!
+  <div class="speaker-section">
+    <span class="timestamp">0:20</span>
+    <span class="speaker-info">Jason A. Crome (CROMEDOME)</span>
+    <div class="text">
+       Hi! Thanks for having me here today. I am doing great.
+    </div>
+  </div>
 
-    This is Gabor Szabo with the first episode of the Code-Maven news podcast and screencast and interview project and with me is
-    Jason A. Crome who is going to talk about the Perl Dancer project. Hi Jason. How are you?
-    </text>
-  </entry>
-
-  <enrty>
-    <w>Jason A. Crome (JC)</w>
-    <text>Hi! Thanks for having me here today. I am doing great.
-    </text>
-  </entry>
-
-  I hope it's going to be good. This is the first interview in this format. Let's get started. Tell me a little bit about yourself.
+  <div class="speaker-section">
+    <span class="timestamp">0:26</span>
+    <span class="speaker-info">Gabor Szabo (SZABGAB)</span>
+    <div class="text">
+       I hope it's going to be good. This is the first interview in this format. Let's get started. Tell me a little bit about yourself.
+    </div>
+  </div>
 
   Let's say I've been programming professionally for about probably last 20 years. The last 18 or I've spent, I've started 
   a technology company with some others in the United States and we were writing software for the local government here in the States.
@@ -107,7 +123,7 @@ The easiest thing would be our web site <a href="http://perldancer.org/">perldan
 
 14:46  Thanks, that's great input, I hope that some people wil join you. Do you have any other things that you'd like to add that we have not talked about.
 
-14:57 Yeah actually the <a href="https://www.perl.dance/"Perl Dancer conference</a> is coming up next month in the end of September in Vienna, Austria. Not only it is a great time to come to Vienna, but it is a great time for both beginning and experienced Dancer programmers to come and find some great things about Dancer, learn about things that we have in the works, get to hack on Dancer, with some of your peers and 
+14:57 Yeah actually the <a href="https://www.perl.dance/">Perl Dancer conference</a> is coming up next month in the end of September in Vienna, Austria. Not only it is a great time to come to Vienna, but it is a great time for both beginning and experienced Dancer programmers to come and find some great things about Dancer, learn about things that we have in the works, get to hack on Dancer, with some of your peers and 
 
 It's a pretty long flight from the US to Vienna. Are you going to be there?
 
