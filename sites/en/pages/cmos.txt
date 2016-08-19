@@ -14,6 +14,6 @@ Each episode is between 5-20 minutes.
 =abstract end
 
 <ul>
-   <li><a href="/news/1">Test 1</a></li>
+   <li><a href="/cmos-1-jason-crome-dancer2">CMOS #1 Jason Crome on Dancer 2</a></li>
 </ul>
 
