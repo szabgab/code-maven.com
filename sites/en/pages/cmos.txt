@@ -1,4 +1,4 @@
-=title News about Open Source projects
+=title Code-Maven Open Source podcasts
 =timestamp 2016-08-16T17:30:01
 =indexes podcast
 =status draft

@@ -34,70 +34,56 @@ Placeholder for the first episode.
 </div>
 
 
-<h2>Transcript</h2>
-<div id="transcript">
+<transcript>
 
-  <div class="speaker-section">
-    <span class="timestamp">0:00</span>
-    <span class="speaker-info">Gabor Szabo (SZABGAB)</span>
-    <div class="text">
-      Hello!
-      <p>
-      This is Gabor Szabo with the first episode of the Code-Maven news podcast and screencast and interview project and with me is Jason A. Crome who is going to talk about the Perl Dancer project. Hi Jason. How are you?
-    </div>
-  </div>
+  <entry 0:00 Gabor Szabo (szabgab)>
+    Hello!
 
-  <div class="speaker-section">
-    <span class="timestamp">0:20</span>
-    <span class="speaker-info">Jason A. Crome (CROMEDOME)</span>
-    <div class="text">
-       Hi! Thanks for having me here today. I am doing great.
-    </div>
-  </div>
+    This is Gabor Szabo with the first episode of the Code-Maven news podcast and screencast and interview project and with me is Jason A. Crome who is going to talk about the Perl Dancer project. Hi Jason. How are you?
+  </entry>
 
-  <div class="speaker-section">
-    <span class="timestamp">0:26</span>
-    <span class="speaker-info">Gabor Szabo (SZABGAB)</span>
-    <div class="text">
-       I hope it's going to be good. This is the first interview in this format. Let's get started. Tell me a little bit about yourself.
-    </div>
-  </div>
+  <entry 0:20 Jason A. Crome (CROMEDOME)>
+    Hi! Thanks for having me here today. I am doing great.
+  </entry>
 
-  Let's say I've been programming professionally for about probably last 20 years. The last 18 or I've spent, I've started 
-  a technology company with some others in the United States and we were writing software for the local government here in the States.
-  Last year I've retired from that and I've been active in the Perl community for a number of years and when I decided to get back
-  to work last fall one of the things I've gravitated towards was the Dancer project, something that I've used a little bit in the past. And eventually they had me join their team, and I've been doing a lot with that. In November I got hired on by <a href="http://www.allaroundtheworld.fr/">All Around the World</a>
-  a consulting firm out of France there I am the technical lead on a project called Veure which is a
-  <a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game">Massively Multiplayer Online Game (MMORPG)</a> written in Perl.
+  <entry 0:26 SZABGAB>
+    I hope it's going to be good. This is the first interview in this format. Let's get started. Tell me a little bit about yourself.
+  </entry>
 
-  Nice.
+  <entry 0:30 OTHER>
+    Let's say I've been programming professionally for about probably last 20 years. The last 18 or I've spent, I've started a technology company with some others in the United States and we were writing software for the local government here in the States.
+    Last year I've retired from that and I've been active in the Perl community for a number of years and when I decided to get back to work last fall one of the things I've gravitated towards was the Dancer project, something that I've used a little bit in the past. And eventually they had me join their team, and I've been doing a lot with that. In November I got hired on by <a href="http://www.allaroundtheworld.fr/">All Around the World</a> a consulting firm out of France there I am the technical lead on a project called Veure which is a <a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game">Massively Multiplayer Online Game (MMORPG)</a> written in Perl.
 
-  I spend a lot if time in Perl these days.
+    Nice.
 
-  OK and is it using Dancer for this project or something else?
+    I spend a lot if time in Perl these days.
 
-  Unrelated to Dancer, but there is a lot of overlap with the technology I use in that project that I use in other aspects of my life.
-  I try to use a little bit of Dancer here and there. at my dayjob when I can. Dancer is really personally a passion of mine.
+    OK and is it using Dancer for this project or something else?
 
-  2:20 Tell me about Dancer. What is Dancer?
+    Unrelated to Dancer, but there is a lot of overlap with the technology I use in that project that I use in other aspects of my life.  I try to use a little bit of Dancer here and there. at my dayjob when I can. Dancer is really personally a passion of mine.
+  </entry>
 
-  My involvement in Dancer is funny actually. Back in 2012 YAPC in Madison, Wisconsin, USA I was looking for a new web framework.
-  The one that I've been using kind of died out and I set in a couple of talks and Sawyer, one of the project leads he is a very
-  engaging speaker and he had a really good talk about what Dancer was about. It really fit the way that I've worked and I submitted
-  a couple of pull-requests to them that got incorporated. I really didn't get back to it until last fall and a project I used that used Dancer and as I started to running into issues with docs and a coouple of bugs I've noticed, I've started to send in pull-requests and Sawyer contacted me and said: you know if you keep doing this then we are going to have to assilimate you into the core team
-and a little bit later that's actually what happened. But what Dancer is, it is a framework for building Web Applications. And
-for those of you who are familiar with Perl, Perl has this great saying that Making Easy things Easy and Hard Things possible.
+  <entry 2:20 SZABGAB>
+    Tell me about Dancer. What is Dancer?
+
+    My involvement in Dancer is funny actually. Back in 2012 YAPC in Madison, Wisconsin, USA I was looking for a new web framework.
+    The one that I've been using kind of died out and I set in a couple of talks and Sawyer, one of the project leads he is a very engaging speaker and he had a really good talk about what Dancer was about. It really fit the way that I've worked and I submitted a couple of pull-requests to them that got incorporated. I really didn't get back to it until last fall and a project I used that used Dancer and as I started to running into issues with docs and a coouple of bugs I've noticed, I've started to send in pull-requests and Sawyer contacted me and said: you know if you keep doing this then we are going to have to assilimate you into the core team
+and a little bit later that's actually what happened. But what Dancer is, it is a framework for building Web Applications. And for those of you who are familiar with Perl, Perl has this great saying that Making Easy things Easy and Hard Things possible.
 That's really a philosophy that the Dancer framework has stuck with. If you want to build a web up and get up and running quickly then Dancer is a great framework to do it with. If you've never done web programming, if you've never Perl programming actually,
 it's a really nice entry point into the Perl Ecosystem. If you are an experienced Perl programmer you are not going to be disappoinyed either because all of the power and flexibility that the Perl Ecosystem allows you, you can channel that into the Dancer applications.
 You can make pretty large and elaborate web applications pretty easily. The framework takes care of a lot of things a lot of web programmers don't want to think about all the time. It does those things failry easily. Either through the core of the framework or through the number of plugins that it offers. It just does what you need to and it kind of stays out of your way its great.
+  </entry>
 
-5:00 OK. I understand that there is something called Dancer and Dancer 2. Are these two versions? What is the relationship between them? Are you using the new one?
+  <entry 5:00 SZABGAB>
+    OK. I understand that there is something called Dancer and Dancer 2. Are these two versions? What is the relationship between them? Are you using the new one?
+  </entry>
 
-Personally my involvement is almost exclusively is with Dancer 2. The history behind this is that Dancer started out as a smaller project by our project founder, Alexis (<a href="https://twitter.com/sukria">Alexis Sukrieh</a>). I don't know if quite had the vision at the time when he created Dancer that it will be as wildely successfull as it was, and you know it was not really architected in that kind of growth in mind so when he started to get more elaborate applications there were some things that would shoot you in the foot a little bit. And so the Dancer 2 project was started from the ground up to address these concerns. It took a couple of years to development but early in the middle of last year it hit critical mass, for a lack of a better term and it was pretty feature equivalent to what Dancer 1 had at that point with the exception being the plugin ecosystem with which we have spent most of 2016 adressing actually.
+  <entry 5:10 CROMEDOME>
+    Personally my involvement is almost exclusively is with Dancer 2. The history behind this is that Dancer started out as a smaller project by our project founder, Alexis (<a href="https://twitter.com/sukria">Alexis Sukrieh</a>). I don't know if quite had the vision at the time when he created Dancer that it will be as wildely successfull as it was, and you know it was not really architected in that kind of growth in mind so when he started to get more elaborate applications there were some things that would shoot you in the foot a little bit. And so the Dancer 2 project was started from the ground up to address these concerns. It took a couple of years to development but early in the middle of last year it hit critical mass, for a lack of a better term and it was pretty feature equivalent to what Dancer 1 had at that point with the exception being the plugin ecosystem with which we have spent most of 2016 adressing actually.
 
-OK, so what kinds of plugins are there mostly used or that you use or are recommended or, I don't know...
+    OK, so what kinds of plugins are there mostly used or that you use or are recommended or, I don't know...
 
-My favorite plugins personally ... There is a variety of plugins for everything, there is templating plugins, there is session and state management, there are plugins for MongoDB, for Redis, for MemcacheD, there are plugins available for generating Captcha images, there is authorization frameworks. The core of the framework is actually pretty minimalistic. It let's you say if visitors come to my application and they visit this URL, this is what I am going to present them, this is the code that will happen. And a lot of the additional magic happens in the plugin ecosystem. Dancer knows how to talk to a templating engine, but other then a very simple templating engine that we have out of the box all the rest of the template functionality is provided through plugins. I use a templating fraemwork calle d Template::Toolkit. I've been using it for years and I am very familiar with it and that functionality provided through a plugin. I use Redis a lot for caching. We have both a generic Redis plugin that accesses the functionality of Redis, we actually have a session plugin that stores your application state information in Redis just like it would with any of the other session engines in files or whatever. 
+    My favorite plugins personally ... There is a variety of plugins for everything, there is templating plugins, there is session and state management, there are plugins for MongoDB, for Redis, for MemcacheD, there are plugins available for generating Captcha images, there is authorization frameworks. The core of the framework is actually pretty minimalistic. It let's you say if visitors come to my application and they visit this URL, this is what I am going to present them, this is the code that will happen. And a lot of the additional magic happens in the plugin ecosystem. Dancer knows how to talk to a templating engine, but other then a very simple templating engine that we have out of the box all the rest of the template functionality is provided through plugins. I use a templating fraemwork calle d Template::Toolkit. I've been using it for years and I am very familiar with it and that functionality provided through a plugin. I use Redis a lot for caching. We have both a generic Redis plugin that accesses the functionality of Redis, we actually have a session plugin that stores your application state information in Redis just like it would with any of the other session engines in files or whatever. 
 There is a lot out there. One of the things that  you can do with Dancer 2 that you could not do in Dancer 1 is plugins that use functional provided by other plugins and this was kind of a blocker for some people who wanted to move from Dancer 1 to Dancer 2. Actually the code for plugin 2 was done a long time ago, but one of our project focuses is. 
 
 Can you repeat 
@@ -138,9 +124,9 @@ Thank you. Thanks for having me.
 Bye bye.
 
 Bye.
+  </entry>
 
-
-</div>
+</transcript>
 
 
 
