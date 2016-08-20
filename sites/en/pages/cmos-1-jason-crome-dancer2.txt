@@ -18,12 +18,6 @@ Placeholder for the first episode.
 
 <podcast>
 
-<style>
-#transcript .timestamp {
-   font: bold;
-}
-</style>
-
 <div class="person">
   <div><a href="https://www.crome-plated.com/">Jason A. Crome</a></div>
   <div>
@@ -35,47 +29,49 @@ Placeholder for the first episode.
 
 
 <transcript>
+  <szabgab host1 Gabor Szabo>
+  <cromedome guest1 Jason A. Crome>
 
-  <entry 0:00 Gabor Szabo (szabgab)>
+  <entry 0:00 szabgab>
     Hello!
 
     This is Gabor Szabo with the first episode of the Code-Maven news podcast and screencast and interview project and with me is Jason A. Crome who is going to talk about the Perl Dancer project. Hi Jason. How are you?
   </entry>
 
-  <entry 0:20 Jason A. Crome (CROMEDOME)>
+  <entry 0:20 cromedome>
     Hi! Thanks for having me here today. I am doing great.
   </entry>
 
-  <entry 0:26 SZABGAB>
+  <entry 0:26 szabgab>
     I hope it's going to be good. This is the first interview in this format. Let's get started. Tell me a little bit about yourself.
   </entry>
 
-  <entry 0:30 OTHER>
+  <entry 0:30 cromedome>
     Let's say I've been programming professionally for about probably last 20 years. The last 18 or I've spent, I've started a technology company with some others in the United States and we were writing software for the local government here in the States.
     Last year I've retired from that and I've been active in the Perl community for a number of years and when I decided to get back to work last fall one of the things I've gravitated towards was the Dancer project, something that I've used a little bit in the past. And eventually they had me join their team, and I've been doing a lot with that. In November I got hired on by <a href="http://www.allaroundtheworld.fr/">All Around the World</a> a consulting firm out of France there I am the technical lead on a project called Veure which is a <a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game">Massively Multiplayer Online Game (MMORPG)</a> written in Perl.
   </entry>
 
-  <entry 0:00 SZABGAB>
+  <entry 0:00 szabgab>
     Nice.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     I spend a lot if time in Perl these days.
   </entry>
 
-  <entry 0:00 SZABGAB>
+  <entry 0:00 szabgab>
     OK and is it using Dancer for this project or something else?
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     Unrelated to Dancer, but there is a lot of overlap with the technology I use in that project that I use in other aspects of my life.  I try to use a little bit of Dancer here and there. at my dayjob when I can. Dancer is really personally a passion of mine.
   </entry>
 
-  <entry 2:20 SZABGAB>
+  <entry 2:20 szabgab>
     Tell me about Dancer. What is Dancer?
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     My involvement in Dancer is funny actually. Back in 2012 YAPC in Madison, Wisconsin, USA I was looking for a new web framework.
     The one that I've been using kind of died out and I set in a couple of talks and Sawyer, one of the project leads he is a very engaging speaker and he had a really good talk about what Dancer was about. It really fit the way that I've worked and I submitted a couple of pull-requests to them that got incorporated. I really didn't get back to it until last fall and a project I used that used Dancer and as I started to running into issues with docs and a coouple of bugs I've noticed, I've started to send in pull-requests and Sawyer contacted me and said: you know if you keep doing this then we are going to have to assilimate you into the core team
 and a little bit later that's actually what happened. But what Dancer is, it is a framework for building Web Applications. And for those of you who are familiar with Perl, Perl has this great saying that Making Easy things Easy and Hard Things possible.
@@ -84,7 +80,7 @@ it's a really nice entry point into the Perl Ecosystem. If you are an experience
 You can make pretty large and elaborate web applications pretty easily. The framework takes care of a lot of things a lot of web programmers don't want to think about all the time. It does those things failry easily. Either through the core of the framework or through the number of plugins that it offers. It just does what you need to and it kind of stays out of your way its great.
   </entry>
 
-  <entry 5:00 SZABGAB>
+  <entry 5:00 szabgab>
     OK. I understand that there is something called Dancer and Dancer 2. Are these two versions? What is the relationship between them? Are you using the new one?
   </entry>
 
@@ -92,14 +88,14 @@ You can make pretty large and elaborate web applications pretty easily. The fram
     Personally my involvement is almost exclusively is with Dancer 2. The history behind this is that Dancer started out as a smaller project by our project founder, Alexis (<a href="https://twitter.com/sukria">Alexis Sukrieh</a>). I don't know if quite had the vision at the time when he created Dancer that it will be as wildely successfull as it was, and you know it was not really architected in that kind of growth in mind so when he started to get more elaborate applications there were some things that would shoot you in the foot a little bit. And so the Dancer 2 project was started from the ground up to address these concerns. It took a couple of years to development but early in the middle of last year it hit critical mass, for a lack of a better term and it was pretty feature equivalent to what Dancer 1 had at that point with the exception being the plugin ecosystem with which we have spent most of 2016 adressing actually.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
     OK, so what kinds of plugins are there mostly used or that you use or are recommended or, I don't know...
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     My favorite plugins personally ... There is a variety of plugins for everything, there is templating plugins, there is session and state management, there are plugins for MongoDB, for Redis, for MemcacheD, there are plugins available for generating Captcha images, there is authorization frameworks. The core of the framework is actually pretty minimalistic. It let's you say if visitors come to my application and they visit this URL, this is what I am going to present them, this is the code that will happen. And a lot of the additional magic happens in the plugin ecosystem. Dancer knows how to talk to a templating engine, but other then a very simple templating engine that we have out of the box all the rest of the template functionality is provided through plugins. I use a templating fraemwork calle d Template::Toolkit. I've been using it for years and I am very familiar with it and that functionality provided through a plugin. I use Redis a lot for caching. We have both a generic Redis plugin that accesses the functionality of Redis, we actually have a session plugin that stores your application state information in Redis just like it would with any of the other session engines in files or whatever. 
 There is a lot out there. One of the things that  you can do with Dancer 2 that you could not do in Dancer 1 is plugins that use functional provided by other plugins and this was kind of a blocker for some people who wanted to move from Dancer 1 to Dancer 2. Actually the code for plugin 2 was done a long time ago, but one of our project focuses is. 
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
 Can you repeat 
 
   <entry 9:19 CROMEDOME>
@@ -108,66 +104,66 @@ He individually tested every plugin in the Dancer ecosystem with the new plugin 
 plugins could work without any syntactic changes. Stability and not breaking other peoples code is very important to us.
   </entry>
 
-  <entry 0:00 SZABGAB>
+  <entry 0:00 szabgab>
     Yes. It is a known problem that moving forward and staying backword compatible is not compatible with each other and then you have to make a decision at one point that you more or less stop your progress, I guess. You move much slower to maintain backword compatibility.
 OK, so what kind of project do you know that exist that you can point out.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     The Perl Dancer conference web site is a piece of software for managing the conference registration and that's one application written in Dancer. There is a blog engine called <a href="http://pearlbee.org/">PearlBee</a> that was release last year, earlier this year that was based on Dancer. In face the <a href="http://blogs.perl.org/"<Perl community blog site</a> is in the middle transition to moving to this. I know <a href="http://booking.com/">Booking.com</a> which is a huge sponsor and hugely involved in the Perl community has changed some of their blogging tools to PearlBee as well.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     I can think of a lot of companies that are using Dancer in their applications and behind the scenes, but as far as canned software packages like wikis and blogs I never see a whole lot of those coming out of the Perl community. It always seems like we are focused on getting other jobs done.
   </entry>
 
-  <entry 12:50 SZABGAB>
+  <entry 12:50 szabgab>
      Yeah, I understand. So I think more or less a closing question here. Actually a couple of closing questions. 
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
 Sure
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
 Whan of them is if someone wants to get involved in using Dancer or even want to contribute. Where do these people need to go? How can they find you?
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
 The easiest thing would be our web site <a href="http://perldancer.org/">perldancer.org</a>, we have an IRC channle at <a href="http://irc.perl.org">irc.perl.org</a> #dancer and we are there. It is a very friendly community it is a very beginner friendly we have a very beginner friendly code of conducts and we don't tolerate abuse of new people. We are also on GitHub, if you look on GitHub for Perl Dancer all the plugins and the actual source code can be found there. Our issues, our open tickets are managed at GitHub and we have a lot of tickets out there that are marked beginner friendly or up for grabs. anybody who wants to contribute to Dancer, write a plugin, send us a documentation patch, look for one of the beginner friendly tickes. It is a very eassy project to get involved in. It is a very easy to follow code base. It is a very thriving and happy community of people. It is one of the things that drew me to Dancer over so many of the other open source projects. Is that we really have a great community.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
 14:46  Thanks, that's great input, I hope that some people wil join you. Do you have any other things that you'd like to add that we have not talked about.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
 14:57 Yeah actually the <a href="https://www.perl.dance/">Perl Dancer conference</a> is coming up next month in the end of September in Vienna, Austria. Not only it is a great time to come to Vienna, but it is a great time for both beginning and experienced Dancer programmers to come and find some great things about Dancer, learn about things that we have in the works, get to hack on Dancer, with some of your peers and 
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
 It's a pretty long flight from the US to Vienna. Are you going to be there?
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
 Yes, I am.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
 That's great. So if anywone wants to meet Jason at the Dancer conference in Vienna,
 we put links in the shownotes for the conference and for the other things you have mentioned.
 So thank you very much for coming on the show and I hope that in a couple of month we can catch up again with some updates new release, new information about the project. Thank you.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
 Thank you. Thanks for having me.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 szabgab>
     Bye bye.
   </entry>
 
-  <entry 0:00 OTHER>
+  <entry 0:00 cromedome>
     Bye.
   </entry>
 
