@@ -1,7 +1,7 @@
 =title CMOS #1 Jason Crome on Dancer 2
 =timestamp 2016-08-16T17:40:01
 =indexes podcast
-=tags interview, cmnews
+=tags interview, cmos
 =mp3 /media/cmos-1-jason-crome-dancer2.mp3, 13879747, 16:09
 =status draft
 =author szabgab
@@ -10,7 +10,7 @@
 
 =abstract start
 
-Placeholder for the first episode.
+Interview with Jason A. Crome about the <a href="http://perldancer.org/">Perl Dancer</a> web framework.
 
 =abstract end
 
