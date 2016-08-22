@@ -1,0 +1,64 @@
+=title How to serialize a datetime object as JSON using Python?
+=timestamp 2016-08-22T17:30:01
+=indexes json
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+It is easy to serialize a Python data structure as JSON, we just need to call the <hl>json.dumps</hl> method, but
+if our data stucture contains a <hl>datetime</hl> object we'll get an exception:
+
+<h2>TypeError: datetime.datetime(...) is not JSON serializable</h2>
+
+How can we fix this?
+
+=abstract end
+
+In the first example we can see the problem:
+
+<include file="examples/python/datetime_json_fails.py">
+
+The first call to <hl>json.dumps</hl> works properly, but once we add a key with a value that is a <hl>datetime</hl>
+object, the call throws an exception.
+
+
+<h2>The solution</h2>
+
+The solution is quite simple. The <hl>json.dumps</hl> method can accept an optional parameter called <hl>default</hl> which is expected
+to be a function. Every time JSON tries to convert a value it does not know how to convert it will call the function we passed to it.
+The function will receive the object in question, and it is expected to return the JSON representation of the object.
+
+In the function we just call the <hl>__str__</hl> method of the <hl>datetime</hl> object that will return a string representation of the value.
+This is what we return.
+
+While the condition we have in the function is not required, if we expect to have other types of objects in our data structure
+that need special treatment, we can make sure our function handles them too. As dealing with each object will probably be
+different we check if the current object is one we know to handle and do that inside the <hl>if</hl> statement.
+
+<include file="examples/python/datetime_json.py">
+
+<h2>Other representation of datetime</h2>
+
+The string representation that <hl>__str__</hl> might match our needs, but if not we have other options.
+We can use the <hl>__repr__</hl> method to return the following:
+
+<code>
+{"date": "datetime.datetime(2016, 4, 8, 11, 43, 54, 920632)", "name": "Foo"}
+</code>
+
+We can even hand-craft something like this:
+
+<code>
+        return "{}-{}-{}".format(o.year, o.month, o.day)
+</code>
+
+That will return the following:
+
+<code>
+{"date": "2016-4-8", "name": "Foo"}
+</code>
+
