@@ -14,5 +14,7 @@ Each episode is between 5-20 minutes.
 =abstract end
 
 <ul>
-   <li><a href="/cmos-1-jason-crome-perl-dancer2">CMOS #1 Jason Crome on Perl Dancer 2</a></li>
+   <li><a href="/cmos-0">CMOS #0</a></li>
+   <li><a href="/cmos-1-jason-crome-perl-dancer2">CMOS #1 Jason Crome - Perl Dancer 2</a></li>
+   <li><a href="/cmos-2-sawyer-perl5">CMOS #2 Sawyer - Perl 5</a></li>
 </ul>

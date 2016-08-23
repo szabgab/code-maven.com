@@ -1,0 +1,99 @@
+=title CMOS #2: Sawyer X on Perl 5
+=timestamp 2016-08-23T17:30:03
+=indexes podcast
+=tags interview, cmos
+=mp3 /media/cmos-2-sawyer-perl5.mp3, 13879747, 16:09
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with Sawyer X about the Perl 5 programming language
+
+=abstract end
+
+<screencast file="/media/cmos-2-sawyer-perl5" />
+
+<podcast>
+
+<div class="person">
+  <div><a href="http://blogs.perl.org/users/sawyer_x/">Sawyer X</a></div>
+  <div>
+     <a href="https://metacpan.org/author/XSAWYERX">PAUSE</a>,
+     <a href="https://twitter.com/PerlSawyer">@PerlSawyer</a>,
+     <a href="https://github.com/xsawyerx">GitHub</a>
+  </div>
+</div>
+
+
+<transcript>
+  <szabgab host1 Gabor Szabo>
+  <sawyer guest1 Sawyer>
+
+  <entry 0:00 szabgab>
+    Hello!
+
+    This is Gabor Szabo from the Code-Maven podcast and screencast and video interviews. With me is Sawyer who is current Pumpking of Perl 5 and we are going to talk about Perl, the language and the compiler.
+
+    Hi Sawyer.
+  </entry>
+
+  <entry 0:25 sawyer>
+    Hey!
+  </entry>
+
+  <entry 0:27 szabgab>
+    Please introduce yourself and tell me about you. A little background about yourself and how did you became a Pumpking? What is a Pumpking 
+  </entry>
+
+  <entry 0:38 sawyer>
+   OK. Let's try. A little bit about myself first. I started with Pascal and Assembly and C. Also a bit of C++. At some point, after a friend recommended and suggested at high-school, I've started playing with Perl.
+
+   I started learning the language which the basic was fun. I've learned it in one night. Like 4 am. It was a lot of fun. Then I've started writing some code, doing different stuff. I think the first thing I wrote was actually a program that downloaded all of the comics of a certain comics strip that I liked and put them in nice directories bacause the Internet was not very fast and I wanted to download all of them and then read them at home.
+
+  I've started attending the Tel Aviv Perl Mongers group. TelAviv.pm which you organized. I gave a few talks there and eventually someone, you, convinced me to go to FOSDEM and YAPC::EU where FOSDEM is the Open Source conference in Belgium and YAPC is the European Perl Conference and you suggested I give a talk there.
+
+  I remember we had a discussion about this where you said "Go ahead" and I said "No way" and you said "go ahead" and I said "no way",  and we did it back-and-forth a few times until I said "fine I'll go whatever". 
+
+  It was a lot of fun and I just kept giving talks and I've started to be more and more active in different projects. I became mainly active in the Dancer web framework which I started to use for personal projects and slowly I had more and more interest in it and became the maintainer of it we grew a nice community around that.
+
+  When I moved to The Netherlands where I live right now to work at <a href="http://booking.com/">Booking.com</a> I created another group. We already had <a href="http://perl.nl/amsterdam/">Amsterdam.pm</a> which is a Dutch Perl Mongers group and I founded the <a href="http://amsterdamx.pm.org/">AmsterdamX.pm</a> which is not X for Sawyer X, but it is X for <a href="https://en.wikipedia.org/wiki/Expatriate">eXpat</a>. I really have to stress that. AmsterdamE is not as AmsterdamX for eXpat and the idea is that it is much more comfortable for people who don't speak Dutch and the timing is different and it is a bit different.
+  We found it to be more successful because we had a little participation from eXpats. We have a large group of people doing Perl in Amsterdam and in the area but they would not go to the Perl Monger's meetings so I started that group. 
+
+  This year Ricardo Signes who was the Perl Pumpking for the last few year stepped down from that role and I took over it. Mainly passed on from him less of a "I fought him for it" and that takes most of my time nowedays. I still do a lot of conferences. This month I think I'll be at 3 conferences and along with that Dancer which I am still active in and of course work. That's basically my time nowaday.
+
+  The Perl Pumpking. I don't know if I have a good story for it. I was always interested in internals of Perl, it is written in C and.
+  </entry>
+
+  <entry 4:11 szabgab>
+    What is a Perl Pumpking?
+  </entry>
+
+  <entry 4:13 sawyer>
+    So yeah.
+  </entry>
+
+</transcript>
+
+
+
+<h2>Technical info</h2>
+
+Recorded on 17 August 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+There are a couple of places where we had a lot of dropped frames
+and by the end of the recording the noise from the ventillator of my computer became pretty disturbing.
+
