@@ -9,7 +9,7 @@
 
 =abstract start
 
-JMeter is an Open Source Performance and load testing tool.
+<a href="http://jmeter.apache.org/">Apache JMeter</a> is an Open Source Performance and load testing tool.
 
 =abstract end
 
