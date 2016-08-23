@@ -1,6 +1,7 @@
 =title CMOS #0: Introduction
 =timestamp 2016-08-23T17:30:01
 =indexes podcast
+=tags cmos
 =status draft
 =author szabgab
 =archive 1
