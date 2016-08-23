@@ -8,12 +8,11 @@
 
 =abstract start
 
-The Code-Maven news is a podcast providing news about Open Source projects.
+CMOS - Code-Maven Open Source news is a podcast providing news about Open Source projects.
 Each episode is between 5-20 minutes.
 
 =abstract end
 
 <ul>
-   <li><a href="/cmos-1-jason-crome-dancer2">CMOS #1 Jason Crome on Dancer 2</a></li>
+   <li><a href="/cmos-1-jason-crome-perl-dancer2">CMOS #1 Jason Crome on Perl Dancer 2</a></li>
 </ul>
-

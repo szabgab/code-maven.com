@@ -2,7 +2,7 @@
 =timestamp 2016-08-23T17:30:02
 =indexes podcast
 =tags interview, cmos
-=mp3 /media/cmos-1-jason-crome-dancer2.mp3, 13879747, 16:09
+=mp3 /media/cmos-1-jason-crome-perl-dancer2.mp3, 13879747, 16:09
 =status draft
 =author szabgab
 =archive 1
@@ -14,7 +14,7 @@ Interview with Jason A. Crome about the <a href="http://perldancer.org/">Perl Da
 
 =abstract end
 
-<screencast file="/media/cmos-1-jason-crome-dancer2" />
+<screencast file="/media/cmos-1-jason-crome-perl-dancer2" />
 
 <podcast>
 
