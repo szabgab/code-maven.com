@@ -15,11 +15,12 @@ You can subscribe with your favorite Podcast listener via the <a href="/rss/cmos
 
 =abstract end
 
-<!--
-<ul>
-   <li><a href="/cmos-0">CMOS #0</a></li>
-   <li><a href="/cmos-1-jason-crome-perl-dancer2">CMOS #1 Jason Crome - Perl Dancer 2</a></li>
-   <li><a href="/cmos-2-sawyer-perl5">CMOS #2 Sawyer - Perl 5</a></li>
-</ul>
--->
+The Code-Maven Open Source podcast is planned to be lot of short interviews focusing on the latest news of a diverse set of open source projects. The opening interview with each person will be a bit longers (10-20 minutes) but the subsequent interviews are planned to be 5-10 minutes long.
+
+If you are interested in deep discussions with open source developers, I recommend
+the <a href="https://changelog.com/">ChangeLog</a> and the <a href="https://changelog.com/rfc/">Request For Commits</a>. 
+
+If you are new to progamming I'd recommend the <a href="http://codenewbie.org/">CodeNewbie</a> podcast.
+
+They are awesome.
 
