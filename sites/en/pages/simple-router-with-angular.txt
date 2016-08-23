@@ -1,6 +1,6 @@
 =title Angular example: simple router
 =timestamp 2016-03-12T00:30:01
-=indexes ntRouter, $routeProvider, ng-view
+=indexes ngRouter, $routeProvider, ng-view, template, templateUrl, redirectTo
 =status show
 =books angular
 =author szabgab
