@@ -35,7 +35,7 @@ Interview with Sawyer X about the Perl 5 programming language
   <entry 0:00 szabgab>
     Hello!
 
-    This is Gabor Szabo from the Code-Maven podcast and screencast and video interviews. With me is Sawyer who is current Pumpking of Perl 5 and we are going to talk about Perl, the language and the compiler.
+    This is Gabor Szabo from the Code-Maven podcast and screencast and video interviews. With me is Sawyer who is current Pumpkin of Perl 5 and we are going to talk about Perl, the language and the compiler.
 
     Hi Sawyer.
   </entry>
@@ -45,7 +45,7 @@ Interview with Sawyer X about the Perl 5 programming language
   </entry>
 
   <entry 0:27 szabgab>
-    Please introduce yourself and tell me about you. A little background about yourself and how did you became a Pumpking? What is a Pumpking 
+    Please introduce yourself and tell me about you. A little background about yourself and how did you became a Pumpkin? What is a Pumpkin?
   </entry>
 
   <entry 0:38 sawyer>
@@ -62,17 +62,38 @@ Interview with Sawyer X about the Perl 5 programming language
   When I moved to The Netherlands where I live right now to work at <a href="http://booking.com/">Booking.com</a> I created another group. We already had <a href="http://perl.nl/amsterdam/">Amsterdam.pm</a> which is a Dutch Perl Mongers group and I founded the <a href="http://amsterdamx.pm.org/">AmsterdamX.pm</a> which is not X for Sawyer X, but it is X for <a href="https://en.wikipedia.org/wiki/Expatriate">eXpat</a>. I really have to stress that. AmsterdamE is not as AmsterdamX for eXpat and the idea is that it is much more comfortable for people who don't speak Dutch and the timing is different and it is a bit different.
   We found it to be more successful because we had a little participation from eXpats. We have a large group of people doing Perl in Amsterdam and in the area but they would not go to the Perl Monger's meetings so I started that group. 
 
-  This year Ricardo Signes who was the Perl Pumpking for the last few year stepped down from that role and I took over it. Mainly passed on from him less of a "I fought him for it" and that takes most of my time nowedays. I still do a lot of conferences. This month I think I'll be at 3 conferences and along with that Dancer which I am still active in and of course work. That's basically my time nowaday.
+  This year Ricardo Signes who was the Perl Pumpkin for the last few year stepped down from that role and I took over it. Mainly passed on from him less of a "I fought him for it" and that takes most of my time nowedays. I still do a lot of conferences. This month I think I'll be at 3 conferences and along with that Dancer which I am still active in and of course work. That's basically my time nowaday.
 
-  The Perl Pumpking. I don't know if I have a good story for it. I was always interested in internals of Perl, it is written in C and.
+  The Perl Pumpkin. I don't know if I have a good story for it. I was always interested in internals of Perl, it is written in C and.
   </entry>
 
   <entry 4:11 szabgab>
-    What is a Perl Pumpking?
+    What is a Perl Pumpkin?
   </entry>
 
   <entry 4:13 sawyer>
-    So yeah.
+    So yeah. The Perl Pumpkin is basically the project manager for the Perl 5 language.
+
+    I was always interested in the internals. I came from C which is what Perl is written in. It is very sophisticated C and I never got to those levels, but I was always interested in that I was always trying to keep track of what's going on in the language itself. You know, the underpinning of what we know as the Perl syntax and how that works and optimizations there. Lexing, parsing all that stuff is very fascinating but the mailing list for that is just too much.
+
+   I don't know if you have ever read the <a href="https://lists.perl.org/list/perl5-porters.html">Perl 5 Porters mailing list</a>. The group that maintains Perl is the Perl 5 porters and the name P5P is the name of either the grop or the list of course.
+
+   The list is very hard to follow because it is basically an amalgamation of several different communication channels. So there is the tickets and there is the discussion and then there are some summaries that are sent there for some commits. At least there used to be.
+    It could be a lot of different stuff and they could be all combined into one list which is what P5P reads and writes to. It was just too much to keep track.
+
+    So I started summarizing them. So now I read them every day and the at the end of the week or at the beginning of the week I publish a summary of it that you can read on the list or on a different list that's called <a href="https://lists.perl.org/list/perl5-summary.html">perl 5 summary</a> that's just for summaries or on <a href="https://twitter.com/perl5summaries">Twitter</a> and
+also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
+
+   So I became active in the core group mainly following discussions. Giving notes here and there. Getting more interested in the internals. I was always very active in the community prospective of Perl and I was always wondering about the direction and the vision of Perl and where to move forward with it. Specifically Perl 5.
+
+   So when Ricardo decided to step down he was looking at what kind of people can fill the void and take on this role. I was nominated by someone from the core developer. It was discussed internally and a decision was made that I'd do it appropriately which hopefully I would.
+  </entry>
+
+  <entry 6:40 szabgab>
+    So you are the Pumpkin now.
+  </entry>
+
+  <entry 6:42 sawyer>
   </entry>
 
 </transcript>

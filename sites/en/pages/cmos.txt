@@ -1,7 +1,7 @@
 =title Code-Maven Open Source podcasts
-=timestamp 2016-08-16T17:30:01
+=timestamp 2016-08-23T19:00:01
 =indexes podcast
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -11,10 +11,15 @@
 CMOS - Code-Maven Open Source news is a podcast providing news about Open Source projects.
 Each episode is between 5-20 minutes.
 
+You can subscribe with your favorite Podcast listener via the <a href="/rss/cmos"><img src="/img/feed-icon16x16.png" alt="CMOS RSS feed" /></a>
+
 =abstract end
 
+<!--
 <ul>
    <li><a href="/cmos-0">CMOS #0</a></li>
    <li><a href="/cmos-1-jason-crome-perl-dancer2">CMOS #1 Jason Crome - Perl Dancer 2</a></li>
    <li><a href="/cmos-2-sawyer-perl5">CMOS #2 Sawyer - Perl 5</a></li>
 </ul>
+-->
+
