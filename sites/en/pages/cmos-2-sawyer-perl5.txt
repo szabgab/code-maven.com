@@ -14,7 +14,7 @@ Interview with Sawyer X about the Perl 5 programming language
 
 =abstract end
 
-<screencast file="/media/cmos-2-sawyer-perl5" />
+<screencast file="/media/cmos-2-sawyer-perl5" youtube="FRWaO2GpA7g" />
 
 <podcast>
 

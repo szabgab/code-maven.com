@@ -1,0 +1,74 @@
+=title CMOS #3: Joel Berger on Mojolicious
+=timestamp 2016-08-25T18:08:03
+=indexes podcast, Perl, Mojolicious
+=tags interview, cmos
+=mp3 /media/cmos-3-joel-berger-mojolicious.mp3, 23645783, 26:37
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with Joel Berger about the Mojolicious Web framework
+
+=abstract end
+
+<screencast file="/media/cmos-3-joel-berger-mojolicious" />
+
+<podcast>
+
+<div class="person">
+  <div><a href="http://blogs.perl.org/users/joel_berger/">Joel Berger</a></div>
+  <div>
+     <a href="https://metacpan.org/author/JBERGER">PAUSE</a>,
+     <a href="https://twitter.com/joelaberger">@joelaberger</a>,
+     <a href="https://github.com/jberger">GitHub</a>
+  </div>
+</div>
+
+<!--
+<h2>Links</h2>
+<ul>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+</ul>
+-->
+
+<transcript>
+  <szabgab host1 Gabor Szabo>
+  <jberger guest1 Joel Berger>
+
+  <entry 0:00 szabgab>
+    Hello!
+
+  </entry>
+
+  <entry 0:25 jberger>
+  </entry>
+
+</transcript>
+
+
+
+<h2>Technical info</h2>
+
+Recorded on 24 August 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: Normal
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Medium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+By the end of the recording the noise from the ventillator of my computer became pretty disturbing.
+
