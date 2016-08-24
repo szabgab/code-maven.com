@@ -14,7 +14,7 @@ Interview with Jason A. Crome about the <a href="http://perldancer.org/">Perl Da
 
 =abstract end
 
-<screencast file="/media/cmos-1-jason-crome-perl-dancer2" />
+<screencast file="/media/cmos-1-jason-crome-perl-dancer2" youtube="uVCpubfC9L4" />
 
 <podcast>
 
