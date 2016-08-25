@@ -14,9 +14,8 @@ Interview with Joel Berger about the Mojolicious Web framework
 
 =abstract end
 
-<screencast file="/media/cmos-3-joel-berger-mojolicious" /> 
+<screencast file="/media/cmos-3-joel-berger-mojolicious" youtube="O7JGQqCUOJM" /> 
 
-youtube="O7JGQqCUOJM"
 
 <podcast>
 
