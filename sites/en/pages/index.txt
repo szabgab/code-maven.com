@@ -9,7 +9,7 @@
 
 <h2>Welcome to the Code Maven!</h2>
 
-<div class="podcast-promotion">
+<div class="podcast-promotion main-content">
 <a href="/cmos">CMOS is the Code-Maven Open Source podcast</a> that also includes
 video interviews. Subscriber to <a href="/rss/cmos">this feed</a> with your Podcast listener app.
 </div>
