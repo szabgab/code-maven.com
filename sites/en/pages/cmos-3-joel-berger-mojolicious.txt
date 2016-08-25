@@ -14,7 +14,9 @@ Interview with Joel Berger about the Mojolicious Web framework
 
 =abstract end
 
-<screencast file="/media/cmos-3-joel-berger-mojolicious" />
+<screencast file="/media/cmos-3-joel-berger-mojolicious" /> 
+
+youtube="O7JGQqCUOJM"
 
 <podcast>
 
@@ -27,17 +29,46 @@ Interview with Joel Berger about the Mojolicious Web framework
   </div>
 </div>
 
-<!--
 <h2>Links</h2>
 <ul>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
+   <li><a href="http://mojolicious.org/">Mojolicious</a></li>
+   <li><a href="http://mojolicio.us/">mojolicio.us</a></li>
+   <li><a href="https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013">United States budget sequestration in 2013</a> (sequester) </li>
+   <li><a href="http://chicago.pm.org/">Chicago Perl Mongers</a></li>
+   <li><a href="https://www.servercentral.com/">Service Central ? </a></li>
+   <li><a href="https://nodejs.org/">Node.JS</a></li>
+   <li><a href="https://metacpan.org/pod/POE">POE</a></li>
+   <li><a href="https://metacpan.org/pod/AnyEvent">AnyEvent</a></li>
+   <li><a href="http://blog.kraih.com/">Sebastian Riedel (project leader)</a></li>
+   <li><a href="https://metacpan.org/pod/Mojo::Pg">Mojo::Pg</a> Mojolicious and PostgreSQL</li>
+   <li><a href=""></a> crab on IRC ?</li>
+   <li><a href="https://metacpan.org/pod/DBI">DBI</a></li>
+   <li><a href="https://metacpan.org/pod/DBD::Pg">DBD::Pg</a></li>
+   <li><a href="https://metacpan.org/pod/Mojolicious::Plugin::ForkCall">Mojolicious::Plugin::ForkCall</a> aka. <a href="https://metacpan.org/pod/Mojo::IOLoop::ForkCall">Mojo::IOLoop::ForkCall</a></li>
+   <li><a href="http://thorsen.pm/">Jan Henning Thorsen</a></li>
+   <li><a href="https://metacpan.org/pod/Mojo::IOLoop::ReadWriteFork">Mojo::IOLoop::ReadWriteFork</a></li>
+   <li><a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux">(Bash) Windows Subsystem for Linux</a></li>
+   <li><a href="http://www.cpan.org/">CPAN</a></li>
+   <li><a href="http://code-maven.com/cmos-1-jason-crome-perl-dancer2">Jason Crome on Perl Dancer 2</a></li>
+   <li><a href="https://metacpan.org/pod/Carton">Carton</a></li>
+   <li><a href="https://github.com/kraih/mojo/wiki">Mojolicius Wiki</a></li>
+   <li><a href="http://marcus.nordaaker.com/">Marcus Ramberg</a></li>
+   <li><a href="https://slack.com/">Slack</a></li>
+   <li><a href="https://convos.by/">Convos</a></li>
+   <li><a href=""></a>Toby Ediker Tools?</li>
+   <li><a href="http://www.telenor.com/">Telenor</a></li>
+   <li><a href="https://mail.ru/">mail.ru</a></li>
+   <li><a href="https://www.craigslist.org/">Craigslist</a></li>
+   <li><a href="http://tempi.re/">Glen Hinkle (tempire)</a></li>
+   <li><a href="http://mojocasts.com/">Mojocasts</a></li>
+   <li><a href="https://en.wikipedia.org/wiki/WebSocket">Websockets</a></li>
+   <li><a href="http://plackperl.org/">PSGI</a></li>
+   <li><a href="https://metacpan.org/pod/distribution/Mojolicious/script/morbo">morbo</a></li>
+   <li><a href="http://mojolicious.org/perldoc/Mojo/Server/Hypnotoad">Hypnotoad</a></li>
+   <li><a href="https://metacpan.org/pod/Starman">Starman</a></li>
+   <li><a href="https://metacpan.org/pod/Test::Mojo">Test::Mojo</a></li>
+   <li><a href="https://metacpan.org/pod/Test::Mojo::Role::PSGI">Test::Mojo::Role::PSGI</a></li>
 </ul>
--->
 
 <transcript>
   <szabgab host1 Gabor Szabo>
