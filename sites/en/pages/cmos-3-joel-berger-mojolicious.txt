@@ -32,7 +32,7 @@ Interview with Joel Berger about the Mojolicious Web framework
 <ul>
    <li><a href="http://mojolicious.org/">Mojolicious</a></li>
    <li><a href="http://mojolicio.us/">mojolicio.us</a></li>
-   <li><a href="https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013">United States budget sequestration in 2013</a> (sequester) </li>
+   <li><a href="https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013#Impact_on_research_funding">United States budget sequestration in 2013</a> (sequester) </li>
    <li><a href="http://chicago.pm.org/">Chicago Perl Mongers</a></li>
    <li><a href="https://www.servercentral.com/">Service Central ? </a></li>
    <li><a href="https://nodejs.org/">Node.JS</a></li>
@@ -40,7 +40,7 @@ Interview with Joel Berger about the Mojolicious Web framework
    <li><a href="https://metacpan.org/pod/AnyEvent">AnyEvent</a></li>
    <li><a href="http://blog.kraih.com/">Sebastian Riedel (project leader)</a></li>
    <li><a href="https://metacpan.org/pod/Mojo::Pg">Mojo::Pg</a> Mojolicious and PostgreSQL</li>
-   <li><a href=""></a> crab on IRC ?</li>
+   <li><a href="http://toroid.org"></a>Abhijit Menon-Sen (crab)</li>
    <li><a href="https://metacpan.org/pod/DBI">DBI</a></li>
    <li><a href="https://metacpan.org/pod/DBD::Pg">DBD::Pg</a></li>
    <li><a href="https://metacpan.org/pod/Mojolicious::Plugin::ForkCall">Mojolicious::Plugin::ForkCall</a> aka. <a href="https://metacpan.org/pod/Mojo::IOLoop::ForkCall">Mojo::IOLoop::ForkCall</a></li>
@@ -54,12 +54,14 @@ Interview with Joel Berger about the Mojolicious Web framework
    <li><a href="http://marcus.nordaaker.com/">Marcus Ramberg</a></li>
    <li><a href="https://slack.com/">Slack</a></li>
    <li><a href="https://convos.by/">Convos</a></li>
-   <li><a href=""></a>Toby Ediker Tools?</li>
+   <li><a href="http://www.oetiker.ch/en/oss/projects/"></a>OETIKER+PARTNER AG</li>
+   <li><a href="https://github.com/oetiker"></a>Tobias Oetiker</li>
    <li><a href="http://www.telenor.com/">Telenor</a></li>
    <li><a href="https://mail.ru/">mail.ru</a></li>
    <li><a href="https://www.craigslist.org/">Craigslist</a></li>
    <li><a href="http://tempi.re/">Glen Hinkle (tempire)</a></li>
-   <li><a href="http://mojocasts.com/">Mojocasts</a></li>
+   <li><a href="http://mojocasts.com/e1">Mojocasts</a></li>
+   <li><a href="https://github.com/kraih/mojo/wiki#screencasts">Mojocast Errata</a></li>
    <li><a href="https://en.wikipedia.org/wiki/WebSocket">Websockets</a></li>
    <li><a href="http://plackperl.org/">PSGI</a></li>
    <li><a href="https://metacpan.org/pod/distribution/Mojolicious/script/morbo">morbo</a></li>
