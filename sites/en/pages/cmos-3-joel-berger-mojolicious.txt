@@ -34,7 +34,7 @@ Interview with Joel Berger about the Mojolicious Web framework
    <li><a href="http://mojolicio.us/">mojolicio.us</a></li>
    <li><a href="https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013#Impact_on_research_funding">United States budget sequestration in 2013</a> (sequester) </li>
    <li><a href="http://chicago.pm.org/">Chicago Perl Mongers</a></li>
-   <li><a href="https://www.servercentral.com/">Service Central ? </a></li>
+   <li><a href="https://www.servercentral.com/">ServerCentral</a></li>
    <li><a href="https://nodejs.org/">Node.JS</a></li>
    <li><a href="https://metacpan.org/pod/POE">POE</a></li>
    <li><a href="https://metacpan.org/pod/AnyEvent">AnyEvent</a></li>
