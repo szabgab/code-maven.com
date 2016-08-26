@@ -32,6 +32,9 @@ Interview with Joel Berger about the Mojolicious Web framework
 <ul>
    <li><a href="http://mojolicious.org/">Mojolicious</a></li>
    <li><a href="http://mojolicio.us/">mojolicio.us</a></li>
+   <li><a href="https://archive.org/details/ultrafast_electron_microscopes_berger_phd_thesis.pdf">Joel's PDF Thesis</a></li>
+   <li><a href="https://metacpan.org/pod/Physics::UEMColumn">Physics::UEMColumn, the basis of the thesis</a></li>
+   <li><a href="https://www.youtube.com/watch?v=YnW1hTVQYfA">Modeling Physical Systems with Modern Object Oriented Perl - YAPC::NA 2012</a></li>
    <li><a href="https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013#Impact_on_research_funding">United States budget sequestration in 2013</a> (sequester) </li>
    <li><a href="http://chicago.pm.org/">Chicago Perl Mongers</a></li>
    <li><a href="https://www.servercentral.com/">ServerCentral</a></li>
