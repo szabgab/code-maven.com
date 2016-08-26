@@ -40,7 +40,7 @@ Interview with Joel Berger about the Mojolicious Web framework
    <li><a href="https://metacpan.org/pod/AnyEvent">AnyEvent</a></li>
    <li><a href="http://blog.kraih.com/">Sebastian Riedel (project leader)</a></li>
    <li><a href="https://metacpan.org/pod/Mojo::Pg">Mojo::Pg</a> Mojolicious and PostgreSQL</li>
-   <li><a href="http://toroid.org"></a>Abhijit Menon-Sen (crab)</li>
+   <li><a href="http://toroid.org">Abhijit Menon-Sen (crab)</a></li>
    <li><a href="https://metacpan.org/pod/DBI">DBI</a></li>
    <li><a href="https://metacpan.org/pod/DBD::Pg">DBD::Pg</a></li>
    <li><a href="https://metacpan.org/pod/Mojolicious::Plugin::ForkCall">Mojolicious::Plugin::ForkCall</a> aka. <a href="https://metacpan.org/pod/Mojo::IOLoop::ForkCall">Mojo::IOLoop::ForkCall</a></li>
@@ -54,8 +54,8 @@ Interview with Joel Berger about the Mojolicious Web framework
    <li><a href="http://marcus.nordaaker.com/">Marcus Ramberg</a></li>
    <li><a href="https://slack.com/">Slack</a></li>
    <li><a href="https://convos.by/">Convos</a></li>
-   <li><a href="http://www.oetiker.ch/en/oss/projects/"></a>OETIKER+PARTNER AG</li>
-   <li><a href="https://github.com/oetiker"></a>Tobias Oetiker</li>
+   <li><a href="http://www.oetiker.ch/en/oss/projects/">Oetiker Partner AG</a></li>
+   <li><a href="https://github.com/oetiker">Tobias Oetiker</a></li>
    <li><a href="http://www.telenor.com/">Telenor</a></li>
    <li><a href="https://mail.ru/">mail.ru</a></li>
    <li><a href="https://www.craigslist.org/">Craigslist</a></li>
