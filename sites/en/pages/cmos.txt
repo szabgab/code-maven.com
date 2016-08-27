@@ -17,10 +17,12 @@ You can subscribe with your favorite Podcast listener via the <a href="/rss/cmos
 
 The Code-Maven Open Source podcast is planned to be lot of short interviews focusing on the latest news of a diverse set of open source projects. The opening interview with each person will be 10-20 minutes long. The subsequent interviews are planned to be 5-10 minutes long.
 
+<!--
 If you are interested in deep discussions with open source developers, I recommend
 the <a href="https://changelog.com/">ChangeLog</a> and the <a href="https://changelog.com/rfc/">Request For Commits</a>. 
 
 If you are new to progamming I'd recommend the <a href="http://codenewbie.org/">CodeNewbie</a> podcast.
+-->
 
 They are awesome.
 
