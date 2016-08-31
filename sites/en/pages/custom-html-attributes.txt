@@ -1,0 +1,110 @@
+=title Custom HTML Attributes
+=timestamp 2016-08-31T09:00:01
+=indexes HTML, JavaScript, getElementsByTagName, getAttribute, dataset
+=books javascript, angularjs, html
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+If you are familiar with HTML, and the valid attributes of most of the elements,
+you probably also know that if you provide an attribute that is not one of the official
+attributes of that element the browsers will disregard it.
+
+What you might not know is that those attributes are still parsed and are still part of
+the DOM, the <a href="https://en.wikipedia.org/wiki/Document_Object_Model">Document Object Model</a>.
+
+That is, they are still accessible by JavaScript running in the browser.
+
+=abstract end
+
+Let's see an example.
+
+In the following HTML file we have an <hl>h1</hl> element and some text.
+If you click on the 'try' link you'll be able to see how that is displayed in your brower.
+It shows the text within the <hl>h1</hl> element with bigger letters, because that's what
+we expect from a header element.
+
+<try file="examples/html/html_attribute_h1.html">
+
+We can add a <hl>style</hl> attribute and within that we can add CSS instructions.
+For example we can tell the browser to use smaller fonts for the <hl>h1</hl> element:
+
+<try file="examples/html/html_attribute_style.html">
+
+This works because <hl>style</hl> is a known attribute of <hl>h1</hl> and for
+that matter for every HTML element.
+
+<h2>Custom attribute</h2>
+
+In the next example removed the <hl>style</hl> attribute and added a different
+attribute, called <hl>secret-sauce</hl>. If you open the html in a
+browser you'll see that the content of the <hl>h1</hl> element returned to
+it original size, and you won't see any impact of the new attribute.
+
+<try file="examples/html/custom_html_attribute.html">
+
+No warnings, no errors. That's because the browser simply disregards those attributes.
+
+<h2>Attributes are in the DOM</h2>
+
+While the browser seems to disregard the existance of this attribute, it actually
+parses it and puts it on the DOM. Meaning we can access this attribute using JavaScript.
+
+<try file="examples/html/custom_html_attribute_show.html">
+
+Using <hl>document.getElementsByTagName</hl> we fetch the list of all the
+<hl>h1</hl> elements in the document and the we use the index <hl>[0]</hl> to
+access the first such element. On that element we use the <hl>getAttribute</hl>
+method to access the value of the given attribute.
+
+Then we use <hl>console.log</hl> to print it. click on the 'Try' link and in
+the new window
+<a href="http://code-maven.com/open-javascript-console">open the JavaScript console</a> to see the value.
+
+
+<h2>data-* attributes</h2>
+
+
+HTML5 defined a set of attributes using the prefix <hl>data-</hl> that get special treatment.
+They are not used by the browser, but they, (the broswers) provide access to them through special
+syntax. The objects representing the HTML tags that we retreive from the DOM of modern browsers
+have a standard attribute called <hl>dataset</hl> that provides access to all the <hl>data-*</hl>
+attributes as in this example:
+
+<try file="examples/html/custom_html_attribute_show_data.html">
+
+As you might have noticed however, the names of the attributes in the HTML and the names
+we use in JavaScript to access them are not exactly the same. That's because JavaScript
+cannot have dash <hl>-</hl> in attribute names when using the <hl>.</hl> syntax.
+
+So the attribute name called <hl>data-secret-sauce</hl> in the HTML is accessible as 
+<hl>dataset.secretSauce</hl> in the JavaScript code.
+
+Another issue with this special syntax is that Internet Explorer started to support this
+only in version 11. For older version you'll still have to use the regular <hl>getAttribute</hl>
+syntax.
+
+For further examples check out the 
+<a href="https://developer.mozilla.org/en/docs/Web/Guide/HTML/Using_data_attributes">guide from Mozilla</a>.
+
+
+<h2>ng-* custom attributes used by AngularJS</h2>
+
+<a href="http://code-maven.com/angularjs">AngularJS</a> uses the <hl>ng-</hl> prefix
+for all the custom attributes. This makes it clear to the reader that something
+is related to AngularJS.
+
+Actually Angular will also work with attributes using <hl>data-ng-</hl> prefix, in case
+you'd like to stick to the HTML specifications.
+
+<h2>Caveat</h2>
+
+The problem with the arbitrary attribute names is that if two JavaScript libraries happen to rely
+on the same attribute name and we try to use the two libraries in the same HTML file, then those
+two will collide. Using some kind of project-specific prefix, such as the <hl>ng-</hl> in case
+of AngularJS, can reduce the risk of this problem.
+
+
