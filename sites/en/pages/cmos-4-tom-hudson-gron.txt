@@ -1,0 +1,61 @@
+=title CMOS #4: Tom Hudson - gron for making JSON greppable
+=timestamp 2016-09-03T19:01:01
+=indexes podcast, gron, JSON
+=tags interview, cmos
+=mp3 /media/cmos-4-tom-hudson-gron.mp3, 17224989, 19:24
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with Tom Hudson about <a href="https://github.com/tomnomnom/gron">gron</a>,
+the command line tool that makes JSON greppable.
+
+=abstract end
+
+<screencast file="/media/cmos-4-tom-hudson-gron.mp4" />
+
+<podcast>
+
+<div class="person">
+  <div><a href="https://tomnomnom.com/">Tom Hudson</a></div>
+  <div>
+     <a href="https://twitter.com/TomNomNom">@TomNomNom</a>,
+     <a href="https://github.com/tomnomnom">GitHub</a>
+  </div>
+</div>
+
+
+<transcript>
+  <szabgab host1 Gabor Szabo>
+  <tom guest1 Tom Huson>
+
+  <entry 0:00 szabgab>
+    Hi welcome to CMOS, The Code Maven Open Source podcast and video interview series.
+    I am your host, Gabor Szabo.
+    With me is Tom Hudson and we are going to talk about gron.
+    Hi Tom, how are you?
+
+  </entry>
+  <entry 0:00 tom>
+  </entry>
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
