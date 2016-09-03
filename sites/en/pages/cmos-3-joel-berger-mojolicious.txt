@@ -28,6 +28,7 @@ Interview with Joel Berger about the Mojolicious Web framework
   </div>
 </div>
 
+<div id="links">
 <h2>Links</h2>
 <ul>
    <li><a href="http://mojolicious.org/">Mojolicious</a></li>
@@ -73,6 +74,7 @@ Interview with Joel Berger about the Mojolicious Web framework
    <li><a href="https://metacpan.org/pod/Test::Mojo">Test::Mojo</a></li>
    <li><a href="https://metacpan.org/pod/Test::Mojo::Role::PSGI">Test::Mojo::Role::PSGI</a></li>
 </ul>
+</div>
 
 <transcript>
   <szabgab host1 Gabor Szabo>

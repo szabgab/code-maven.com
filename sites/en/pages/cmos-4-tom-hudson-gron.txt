@@ -1,6 +1,6 @@
 =title CMOS #4: Tom Hudson - gron for making JSON greppable
 =timestamp 2016-09-03T19:01:01
-=indexes podcast, gron, JSON
+=indexes podcast, gron, JSON, go
 =tags interview, cmos
 =mp3 /media/cmos-4-tom-hudson-gron.mp3, 17224989, 19:24
 =status draft
@@ -15,7 +15,7 @@ the command line tool that makes JSON greppable.
 
 =abstract end
 
-<screencast file="/media/cmos-4-tom-hudson-gron.mp4" />
+<screencast file="/media/cmos-4-tom-hudson-gron.mp4" youtube="dxmsuFqB1tU" />
 
 <podcast>
 
@@ -25,6 +25,24 @@ the command line tool that makes JSON greppable.
      <a href="https://twitter.com/TomNomNom">@TomNomNom</a>,
      <a href="https://github.com/tomnomnom">GitHub</a>
   </div>
+</div>
+
+<div id="links">
+<h2>Links</h2>
+The window manager Tom mentioned: <a href="https://github.com/seanpringle/goomwwm">goomwm</a>.
+
+Blog post on fixing a segfault in it despite not knowing C:
+<a href="https://tomnomnom.com/posts/debugging-a-segfault-in-goomwwm">Debugging a segfault in goomwwm</a>
+
+The <a href="http://etherpad.org/">Etherpad</a> project.
+
+The <a href="https://github.com/tomnomnom/etherpad-lite-client">PHP client for Etherpad</a>.
+
+Some 'advanced' examples of <a href="https://github.com/tomnomnom/gron/blob/master/ADVANCED.mkd">gronning and ungronning</a>
+
+The <a href="https://stedolan.github.io/jq/">jq</a> tool.
+
+The <a href="https://github.com/pkg/errors">errors package</a> mentioned.
 </div>
 
 
