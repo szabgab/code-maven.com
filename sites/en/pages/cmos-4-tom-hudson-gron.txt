@@ -15,7 +15,7 @@ the command line tool that makes JSON greppable.
 
 =abstract end
 
-<screencast file="/media/cmos-4-tom-hudson-gron.mp4" youtube="dxmsuFqB1tU" />
+<screencast file="/media/cmos-4-tom-hudson-gron" youtube="dxmsuFqB1tU" />
 
 <podcast>
 
