@@ -46,6 +46,7 @@ the command line tool that makes JSON greppable.
   <li>The <a href="https://github.com/pkg/errors">errors package</a> written by <a href="https://github.com/davecheney">Dave Cheney</a>.</li>
   <li>The <a href="https://stedolan.github.io/jq/">jq</a> tool for manipulating JSON.</li>
   <li>Some "advanced" examples of <a href="https://github.com/tomnomnom/gron/blob/master/ADVANCED.mkd">gronning and ungronning</a></li>
+</ul>
 </div>
 
 <transcript>
