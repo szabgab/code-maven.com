@@ -51,7 +51,7 @@ the command line tool that makes JSON greppable.
 
 <transcript>
   <szabgab host1 Gabor Szabo>
-  <tom guest1 Tom Huson>
+  <tom guest1 Tom Hudson>
 
   <entry 0:00 szabgab>
     Hello there. This is the CMOS, The Code Maven Open Source podcast and video interview series.
@@ -68,6 +68,7 @@ the command line tool that makes JSON greppable.
   <entry 0:20 szabgab>
     I am fine thank you. Let's start
   </entry>
+</transcript>
 
 <h2>Technical info</h2>
 
