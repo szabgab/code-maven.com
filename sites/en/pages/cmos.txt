@@ -1,4 +1,4 @@
-=title Code-Maven Open Source show
+=title CMOS - Code-Maven Open Source podcast
 =timestamp 2016-08-23T19:00:01
 =indexes podcast
 =status show
