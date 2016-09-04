@@ -1,0 +1,73 @@
+=title CMOS # Lucy Greco - DictationBridge - helping the visually impaired
+=timestamp 2016-09-02T19:01:01
+=indexes podcast
+=tags interview, cmos
+=mp3 /media/cmos-5-lucy-greco-dictationbridge.mp3,70780017, 29:31
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with Lucy Greco about <a href="http://dictationbridge.com/">DictationBridge</a>
+an Open Source tool to help the blind an visually impaired.
+
+We also talked a lot about accesibility in general and accessibility of web sites in specific.
+
+=abstract end
+
+<podcast>
+
+<div class="person">
+  <div><a href="http://accessaces.com/">Lucy Greco</a></div>
+  <div>
+     <a href="http://dictationbridge.com/author/lucy/">Lucy at DictationBridge</a>,
+     <a href="https://twitter.com/accessaces">@accessaces</a>,
+     <a href="https://www.linkedin.com/in/lucy-greco-968b491">LinkedIN</a>
+  </div>
+</div>
+
+<div id="links">
+<h2>Links</h2>
+<ul>
+   <li><a href="http://dictationbridge.com/">Dictation Bridge</a></li>
+   <li><a href="https://github.com/dictationbridge">DictationBridge on GitHub</a></li>
+   <li><a href="https://en.wikipedia.org/wiki/Screen_reader">Screen reader</a></li>
+   <li><a href="http://www.nvaccess.org/">NVDA - NonVisual Desktop Access</a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href=""></a></li>
+   <li><a href="https://webaccess.berkeley.edu/">Berkeley Web Access site</a> maintained by Lucy</li>
+</ul>
+</div>
+
+
+<transcript>
+  <szabgab host1 Gabor Szabo>
+  <lucy guest1 Lucy Greco>
+
+  <entry 0:00 szabgab>
+   Hello there! You are listening to the CMOS, The Code Maven Open Source podcast.
+  </entry>
+
+  <entry 0:20 lucy>
+  </entry>
+</transcript>
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+
+Recoding Option:
+  Record Video: None
+</pre>
+
+The recording stopped twice due to network failure but my son managed to stich them together.
+
