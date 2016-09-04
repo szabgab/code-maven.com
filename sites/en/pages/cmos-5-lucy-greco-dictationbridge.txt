@@ -11,7 +11,8 @@
 =abstract start
 
 Interview with Lucy Greco about <a href="http://dictationbridge.com/">DictationBridge</a>
-an Open Source tool to help the blind an visually impaired.
+an Open Source tool to connect screen readers and speach input software to
+help the blind an visually impaired.
 
 We also talked a lot about accesibility in general and accessibility of web sites in specific.
 
@@ -32,13 +33,14 @@ We also talked a lot about accesibility in general and accessibility of web site
 <h2>Links</h2>
 <ul>
    <li><a href="http://dictationbridge.com/">Dictation Bridge</a></li>
-   <li><a href="https://github.com/dictationbridge">DictationBridge on GitHub</a></li>
    <li><a href="https://en.wikipedia.org/wiki/Screen_reader">Screen reader</a></li>
    <li><a href="http://www.nvaccess.org/">NVDA - NonVisual Desktop Access</a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
-   <li><a href=""></a></li>
+   <li><a href="https://www.w3.org/standards/webdesign/accessibility">W3C Web accessibility guidelines</a></li>
+   <li><a href="https://chrome.google.com/webstore/detail/accessibility-developer-t/fpkknkljclfencbdbgkenhalefipecmb?hl=en">Chrome Accessibility Developer Tools</a></li>
+   <li><a href="http://wave.webaim.org/extension/">WebAIM - WAVE Chrome Extension</a></li>
+   <li><a href="https://tenon.io/">Tenon</a></li>
+   <li><a href="http://www.nuance.com/dragon/accessibility-solutions/index.htm">Dragon Accessibility Solutions</a></li>
+   <li><a href="https://github.com/dictationbridge">DictationBridge on GitHub</a></li>
    <li><a href="https://webaccess.berkeley.edu/">Berkeley Web Access site</a> maintained by Lucy</li>
 </ul>
 </div>
