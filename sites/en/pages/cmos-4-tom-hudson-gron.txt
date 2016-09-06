@@ -3,7 +3,7 @@
 =indexes podcast, gron, JSON, go
 =tags interview, cmos
 =mp3 /media/cmos-4-tom-hudson-gron.mp3, 17224989, 19:24
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
