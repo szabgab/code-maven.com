@@ -54,6 +54,20 @@ We also talked a lot about accesibility in general and accessibility of web site
    Hello there! You are listening to the CMOS, The Code Maven Open Source podcast.
 
   [0:21] lucy: Good morning, how are you?
+  
+  [00:23] szabgab: I'm really great, thank you. How are you?
+  
+  [00:26] lucy: I'm excellent, thank you. I'm excited to be on the show with you.
+  
+  [00:32] szabgab: Before we go on, I want to, the first thing I want to is ask about you and how did you get into the project and how did you get into computing, in general, but before that, the people who are listening to this podcast, and maybe watching the video interview, might wonder why this time we don't have a video feed and what's special in this interview, and the main fact is that you don't see, you're blind.
+  
+  [01:07] lucy: Correct, yes, I'm totally blind, I've been blind since birth, and I use computers with something called a <a href="https://en.wikipedia.org/wiki/Screen_reader">screen reader</a>, which your audience may not be familiar with, so screen reader is the generic term for a piece of software, used by a person who's blind or visually-impaired, to access information on the computer screen. 
+  
+    It doesn't just read text, it reads things like buttons, controls, menus. It gives me the ability to say "Bring me to the menubar and read the items on the menu." It gives me the ability to move through a screen and find and discover things like buttons, controls, edit-fields, and hear text as I'm typing it, or be able to navigate an interface on a computer as effectively as a person who can just look at it and point at it with their mouse, I can actually give one of many, many commands to do any of the things I need to do, to be as effective as a sighted person on a computer.
+
+
+
+
 [/transcript]
 
 
