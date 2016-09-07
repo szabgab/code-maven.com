@@ -28,27 +28,24 @@ Interview with Sawyer X about the Perl 5 programming language
 </div>
 
 
-<transcript>
-  <szabgab host1 Gabor Szabo>
-  <sawyer guest1 Sawyer>
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [sawyer guest1 Sawyer]
 
-  <entry 0:00 szabgab>
+  [0:00] szabgab:
     Hello!
 
     This is Gabor Szabo from the Code-Maven podcast and screencast and video interviews. With me is Sawyer who is current Pumpkin of Perl 5 and we are going to talk about Perl, the language and the compiler.
 
     Hi Sawyer.
-  </entry>
 
-  <entry 0:25 sawyer>
+  [0:25] sawyer:
     Hey!
-  </entry>
 
-  <entry 0:27 szabgab>
+  [0:27] szabgab:
     Please introduce yourself and tell me about you. A little background about yourself and how did you became a Pumpkin? What is a Pumpkin?
-  </entry>
 
-  <entry 0:38 sawyer>
+  [0:38] sawyer:
    OK. Let's try. A little bit about myself first. I started with Pascal and Assembly and C. Also a bit of C++. At some point, after a friend recommended and suggested at high-school, I've started playing with Perl.
 
    I started learning the language which the basic was fun. I've learned it in one night. Like 4 am. It was a lot of fun. Then I've started writing some code, doing different stuff. I think the first thing I wrote was actually a program that downloaded all of the comics of a certain comics strip that I liked and put them in nice directories bacause the Internet was not very fast and I wanted to download all of them and then read them at home.
@@ -65,13 +62,11 @@ Interview with Sawyer X about the Perl 5 programming language
   This year Ricardo Signes who was the Perl Pumpkin for the last few year stepped down from that role and I took over it. Mainly passed on from him less of a "I fought him for it" and that takes most of my time nowedays. I still do a lot of conferences. This month I think I'll be at 3 conferences and along with that Dancer which I am still active in and of course work. That's basically my time nowaday.
 
   The Perl Pumpkin. I don't know if I have a good story for it. I was always interested in internals of Perl, it is written in C and.
-  </entry>
 
-  <entry 4:11 szabgab>
+  [4:11] szabgab:
     What is a Perl Pumpkin?
-  </entry>
 
-  <entry 4:13 sawyer>
+  [4:13] sawyer:
     So yeah. The Perl Pumpkin is basically the project manager for the Perl 5 language.
 
     I was always interested in the internals. I came from C which is what Perl is written in. It is very sophisticated C and I never got to those levels, but I was always interested in that I was always trying to keep track of what's going on in the language itself. You know, the underpinning of what we know as the Perl syntax and how that works and optimizations there. Lexing, parsing all that stuff is very fascinating but the mailing list for that is just too much.
@@ -87,31 +82,27 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
    So I became active in the core group mainly following discussions. Giving notes here and there. Getting more interested in the internals. I was always very active in the community prospective of Perl and I was always wondering about the direction and the vision of Perl and where to move forward with it. Specifically Perl 5.
 
    So when Ricardo decided to step down he was looking at what kind of people can fill the void and take on this role. I was nominated by someone from the core developer. It was discussed internally and a decision was made that I'd do it appropriately which hopefully I would. So basically what it means... 
-  </entry>
 
-  <entry 6:40 szabgab>
+  [6:40] szabgab:
     So you are the Pumpkin now.
-  </entry>
 
-  <entry 6:42 sawyer>
+  [6:42] sawyer:
     Yeah, I know. I am still trying to do it right because I am always worried that I am not doing it appropriately. People think that ...
-  </entry>
 
-  <entry 6:54 szabgab>
+  [6:54] szabgab:
     What are you doing?
-  </entry>
 
-  <entry 6:56 sawyer>
+  [6:56] sawyer:
     No one really knows what the Perl Pumpkin does. What it basically means is that I help with discussions and I try to kind of navigate discussions towards actual actions rather than just <a href="https://en.wiktionary.org/wiki/bikeshedding">bikeshedding</a>.
-    Once in a while there are conflicting ideas one person implement things I think it should be this way and another person says it should be done that way and there they just reach a point where they just disagree and they cannot resolve it. Then I come in and I make a decision: OK we are taking this appriach because of A, B, and C. The thing is that I don't know all of the technical details that a lot of the bright people there do know so I mostly liste a lot and then talk to people often times off the list to get more information and then I can make decisions.
-   So actually a lot of my work is not done on the mailing list. You won't see me as much as other people mostly I talk to people outside the mailing list to get a better understanding of topics before I respond. So my response is usually at the end saying: Yes.  Or I don't know, what about this direction?  So that's kind what the Perl Pumpkin does. 
-  </entry>
 
-  <entry 8:10 szabgab>
+    Once in a while there are conflicting ideas one person implement things I think it should be this way and another person says it should be done that way and there they just reach a point where they just disagree and they cannot resolve it. Then I come in and I make a decision: OK we are taking this appriach because of A, B, and C. The thing is that I don't know all of the technical details that a lot of the bright people there do know so I mostly liste a lot and then talk to people often times off the list to get more information and then I can make decisions.
+
+   So actually a lot of my work is not done on the mailing list. You won't see me as much as other people mostly I talk to people outside the mailing list to get a better understanding of topics before I respond. So my response is usually at the end saying: Yes.  Or I don't know, what about this direction?  So that's kind what the Perl Pumpkin does. 
+
+  [8:10] szabgab:
     What does Perl do?
-  </entry>
  
-  <entry 8:11 sawyer>
+  [8:11] sawyer:
     Well Perl allows you to run Perl code. Basically.
 
     I think it would the biggest value of it.  It would be hard to run Perl code without it, but.
@@ -120,29 +111,26 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
 
     But jokes aside, Perl is a language that can solve a lot of different problems.
     It has a multi-paradigm programming perspective. So you can writen in procedural, you can write in Object Oriented, you can write in purely functional, you can write in so many different way so you can apply so many different technologies.
+
     Because it has a good coupling with C, using the XS layer and FFI if you want it, it allows you to interact with C or with C++ code fairly easily and interact with Perl.
     So you can speed up parts of it or combine with libraries etc.
     So it is very high level. It is hyper dynamic which is a term that I really enjoy using for that perspective and it has a lot of really cool features under the hood.
 
     I use it to solve most of the problems that I have.
-  </entry>
 
-  <entry 9:49 szabgab>
+  [9:49] szabgab:
     So what would you say to people who had experience, who knew about Perl maybe 10 or 15 years ago.
     What has changed since then? Has anything changed?
-  </entry>
 
-  <entry 10:01 sawyer>
+  [10:01] sawyer:
     There are so many things that have changed both in fixes, in optimizations in features, in new syntaxes available. There were a lot of things intorduced to solve specific problems and I mean it is very hard to summarize. I tried giving a talk summarizing all the things that have changed since, let's say 5.10 or 5.8 and it's such a long list.
     Let's take two versions back.
     Nowedays Perl is released every few years. Actually released every single year and have a stable release. So let's take just 2. 
-  </entry>
 
-  <entry 10:44 szabgab>
+  [10:44] szabgab:
     So what version are you at now?
-  </entry>
 
-  <entry 10:45 sawyer>
+  [10:45] sawyer:
     We are now at version 5.24. Let's take a look at 5.22. It was released on June 1st I think,
     and it included, just to have a few examples, the diamond operator (<hl>&lt;&gt;</hl>that we have for input, now we have a double diamond operator which is much safer. More secure. You have regular expression bounderies for Unicode. So like a lot of people play with Unicode and work with Unicode and we have several boundaries for spaces, what Unicode considers a word-boundary, what Unicode considers as a sentence-boundaries like graphme cluster boundaries. If you use Unicode, these are great.
     We have added them last year.
@@ -154,6 +142,7 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
     If you have a look at the recent version for example that just released recently.
     It was released in May 9th, 2016 there are a few other stuff.
     So there is Unicode 8 I've already told you about.
+
     There is also postfix dereferencing. Once of the things pissing people off.
     When you have a very big structure that represents an array, or it can also represent a hash.
     You have to write the entire structure all the way to the last element and then you have to wrap it with a dereferencing in order to got what it references which is kind of using a pointer and dereferencing a pointer. 
@@ -162,13 +151,11 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
     These are things that seem simple, but it completely changes the way you write and the way you work, because you only move forward. Which is some of the things people like about functional programming. The way that you move.
     So these actually have a lot of value and this is no longer experiemntal. You can use this.
     Things like optimizing basic operations. Additions, substractions, multiplications, subroutine calls, you know stuff that people tend to use. All of these have been optimized significantly.
-  </entry>
 
-  <entry 13:10 szabgab>
+  [13:10] szabgab:
      So you are talking about speed improvements.
-  </entry>
 
-  <entry 13:13 sawyer>
+  [13:13] sawyer:
      Yes, these would be the optimizations. Subroutine signatures that people really like an use in a lot of other languages we now have, but we are also optimizing it so the next version will have substantial optimization for subroutine signatures.
 
      What else?
@@ -176,13 +163,11 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
      We are introducing the indented heredocs synatax a bunch of other languages have it. Now we'll have that too.
 
      A lot of security related changes. For example Perl developers being familiar the current directory being in what you load when you try to load modules. It also tries the current directory. We are going to remove that. That's a security issue. While people have used it, it is actually very problematic. We realized this and it is going to change in the next version.
-  </entry>
 
-  <entry 14:09 szabgab>
+  [14:09] szabgab:
      So that can actually break a lot of code out there.
-  </entry>
 
-  <entry 14:13 sawyer>
+  [14:13] sawyer:
      Well, so one of the things we actually did was release all of the core modules recently with that removed locally and we have noticed very little breakage. The only breakage was base.pm which is used by quite a few modules and we are probably going to merge a different implementation that implements the same thing but in a safer way base.pm that has a specific usage which is trickier but we couldn't observe other than the base.pm breakage that was major at all.
      So we are kind of safe with that.
 
@@ -190,15 +175,13 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
 
      So if you take a few steps back and you look at all this history. What we have added was a lot of syntax, a lot of changes in bug fixex, security. A lot of optimizations.
      We have plugable keywords so you can write an interpreter within the interpreter. Really crazy stuff like that. These are things that keep evolving and changing in the language and you can't really see all of this unless you look at the global picture. The whole picture of it.
-  </entry>
 
-  <entry 15:46 szabgab>
+  [15:46] szabgab:
     So let's jump to something slightly different. If someone wants to learn Perl or get involved in ...
     I mean learn Perl, let's start with that.
     There are two groups here. One is someone who wants to learn Perl, what would you suggest and the other one if someone wants to get involved in developing Perl in helping and further improving the language. So let's start with the...
-  </entry>
 
-  <entry 16:12 sawyer>
+  [16:12] sawyer:
     If you don't know Perl and you hear this and you think, "hey this sounds like an interesting language, maybe I'd like to learn it" then I'd recommend, there are two books that I highly recommend.
     One is beginning Perl by Ovid, Curtis Poe who goes by Ovid and the other one is Modern Perl by chromatic. I think these are very very good books that cover the essentials.
 
@@ -221,22 +204,18 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
    One additional thing that we have now is that we have another module that we are thinking of making available separately from core as well. Because that would allow people to use it without necessarily having to upgrade Perl. That is a contribution I can make knowing any level of C.
    So I've been trying to collect these nowedays. Haven't got very far but I am trying to collect all of these different things that you can do that don't necessarily would require specific C knowledge.
    Now if you do know C you can always take a look at the existing tickets in <a href="http://rt.perl.org/">rt.perl.org</a> and if there is any ticket there that you wanna play with the Perl source is open sourced fully. Free software just clone it from Git. It's also available on a GitHub mirror, an unofficial GitHub mirror. It's available there. You can just submit patches, you can e-mail the mailing list Perl 5 Porters and you can contact us and say "Hey I'd like to work on something, what do you work on?". Or "I'd like to work on this ticket, what do I do?". You can also comment on the tickets themselves. So that ticket and the whole combination of the mailing list, if you comment on the ticket we'll see it and comment onthe ticket back. If you write on the mailing list everyone will see it as well. So it all gets combined. So no matter how you access us, no matter how you contact us we'll find it.
-  </entry>
 
- <entry 21:02 szabgab>
+ [21:02] szabgab:
    So it either RT, the bug tracking system, or mailing list, or IRC, I guess.
-  </entry>
 
-  <entry 21:09 sawyer>
+  [21:09] sawyer:
     Sure, IRC. We are on irc.perl.org #p5p and you can find us. Not everyone is always online, but drop a note and someone will probably respond soon and I think people can come to just playing with stuff are really great resource perspectives.
     different angle and it is always interesting to see what people play with. 
-  </entry>
 
- <entry 21:38 szabgab>
+ [21:38] szabgab:
   Thank you very much. I wonder if there is any subject that we have not talked about that you'd like to mention here. Shoutout to people.
-  </entry>
 
-  <entry 21:53 sawyer>
+  [21:53] sawyer:
     I'd shoutout to everyone. It's tricky. Tony Cook and Dave Mitchel have been working a lot on the Perl core as part of their grants and they are doing an amazing work optimization, a ton of bugfixes like that.
     We have one amazing contributor who work tirelessly on pretty much anything and thats Father Chrysostomos. I really like this person. He is a really nice guy.
 
@@ -248,35 +227,27 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
     Todd Rinaldo and John Lightsey who worked on the changes to the current directory. They work in the security team at cPanel. And cPanel has like an entire security team that does stuff. They found a slew of these issues and they raised them, they wrote the patches for them. Just fantastic work.
     Matthew Horsfall who is putting the indented heredocs.
     I mean there is a list. I am not gonna be able. I mean if you'r gonna have another episode we can sit down and just go.
-  </entry>
 
-  <entry 23:22 szabgab>
+  [23:22] szabgab:
    We can get back together a couple of month from now and see how things have progressed and maybe when the next version of Perl is released we can talk again.
-  </entry>
 
-  <entry 23:36 sawyer>
+  [23:36] sawyer:
     Yeah absoultely. I think that would be great. It's just there are too many for now.
     Yeah I thin very interesting things are happening. I am very happy to see how the group is working together now. And I'd be interested to see where we are gonna take this. Because we are already introducing syntax, we are already intorucing optimizations, we already introducing lower memory consumptions, the Unicode support that Perl has thanks to Karl Williamsons efforts these are amazing things and we already have all that going on so what we are gonna be doing now is a very big and interesting question to me.
-  </entry>
 
-  <entry 24:22 szabgab>
+  [24:22] szabgab:
     OK, We'll talk about it later. Thank you for coming on the show.
-  </entry>
 
-  <entry 24:26 sawyer>
+  [24:26] sawyer:
     Thank you for having me. I blurbed out as many things as I can in the least amount of time.
-  </entry>
 
-  <entry 24:33 szabgab>
+  [24:33] szabgab:
     Thank you very much. Bye bye.
-  </entry>
 
-  <entry 24:34 sawyer>
+  [24:34] sawyer:
      Yeah. Bye bye.
-  </entry>
 
-
-</transcript>
+[/transcript]
 
 
 
