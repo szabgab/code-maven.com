@@ -46,17 +46,15 @@ We also talked a lot about accesibility in general and accessibility of web site
 </div>
 
 
-<transcript>
-  <szabgab host1 Gabor Szabo>
-  <lucy guest1 Lucy Greco>
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [lucy guest1 Lucy Greco]
 
-  <entry 0:00 szabgab>
+  [0:00] szabgab:
    Hello there! You are listening to the CMOS, The Code Maven Open Source podcast.
-  </entry>
 
-  <entry 0:20 lucy>
-  </entry>
-</transcript>
+  [0:20] lucy:
+[/transcript]
 
 
 <h2>Technical info</h2>
