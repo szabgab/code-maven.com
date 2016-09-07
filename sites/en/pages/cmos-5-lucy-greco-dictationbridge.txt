@@ -155,7 +155,7 @@ This is a demonstration.
 
 [17:09] lucy: of how DictationBridge will echo my text.
 
-[17:12]screenreader: of how DictationBridge will echo my text.
+[17:12] screenreader: of how DictationBridge will echo my text.
 
 [17:15] lucy: If my voice profile is
 
