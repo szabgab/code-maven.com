@@ -71,7 +71,7 @@ It doesn't just read text, it reads things like buttons, controls, menus. It giv
 
 This is a much more powerful thing and the one I'm using is actually an open source screen reader called <a href="http://www.nvaccess.org/">NVDA</a>, which stands for Non-Visual Display Access, and it's been around for about ten years and it's a really fantastic screen reader. I'd say right now it's probably one of the best ones on the market if not the best one on the market.
 
-[03:24} szabgab: Including the commercial, or the paying project, or..?
+[03:24] szabgab: Including the commercial, or the paying project, or..?
 
 [03:30] lucy: Exactly, I mean, more and more people are turning to NVDA as their screen reader, when they're having problems on websites, when they're having problems with applications, and NVDA is coded expertly enough and very, very effective, so places where other screen readers have problems, NVDA can actually excel, and that's because it's a very standard-based piece of software, so they work to the standards, they code to recognize the standards and understand content that is created to standards, where the other screen readers take workarounds and basically break the standards, in very many cases, is what they do. But NVDA is, if your code follows standards, NVDA will read it. If your code is bad, NVDA will do its best, but tends to do a better job than most of the other screen readers, at least under my opinion.
 
