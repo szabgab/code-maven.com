@@ -11,8 +11,8 @@
 =abstract start
 
 Interview with Lucy Greco about <a href="http://dictationbridge.com/">DictationBridge</a>
-an Open Source tool to connect screen readers and speach input software to
-help the blind an visually impaired.
+an Open Source tool to connect screen readers and speech-input software to
+help the blind and visually impaired.
 
 We also talked a lot about accesibility in general and accessibility of web sites in specific.
 
