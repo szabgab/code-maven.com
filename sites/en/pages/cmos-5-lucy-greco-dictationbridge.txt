@@ -32,7 +32,7 @@ We also talked a lot about accesibility in general and accessibility of web site
 <div id="links">
 <h2>Links</h2>
 <ul>
-   <li><a href="http://dictationbridge.com/">Dictation Bridge</a></li>
+   <li><a href="http://dictationbridge.com/">DictationBridge</a></li>
    <li><a href="https://en.wikipedia.org/wiki/Screen_reader">Screen reader</a></li>
    <li><a href="http://www.nvaccess.org/">NVDA - NonVisual Desktop Access</a></li>
    <li><a href="https://www.w3.org/standards/webdesign/accessibility">W3C Web accessibility guidelines</a></li>
