@@ -1,9 +1,9 @@
 =title CMOS # Lucy Greco - DictationBridge - helping the visually impaired
-=timestamp 2016-09-02T19:01:01
+=timestamp 2016-09-08T19:01:01
 =indexes podcast
 =tags interview, cmos
 =mp3 /media/cmos-5-lucy-greco-dictationbridge.mp3,70780017, 29:31
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -22,11 +22,9 @@ We also talked a lot about accesibility in general and accessibility of web site
 
 <div class="person">
   <div><a href="http://accessaces.com/">Lucy Greco</a></div>
-  <div>
-     <a href="http://dictationbridge.com/author/lucy/">Lucy at DictationBridge</a>,
-     <a href="https://twitter.com/accessaces">@accessaces</a>,
-     <a href="https://www.linkedin.com/in/lucy-greco-968b491">LinkedIN</a>
-  </div>
+  <div><a href="http://dictationbridge.com/author/lucy/">Lucy at DictationBridge</a></div>
+  <div><a href="https://twitter.com/accessaces">@accessaces</a></div>
+  <div><a href="https://www.linkedin.com/in/lucy-greco-968b491">LinkedIN</a></div>
 </div>
 
 <div id="links">
@@ -89,7 +87,7 @@ This is a much more powerful thing and the one I'm using is actually an open sou
 
 [05:27] szabgab: Okay.
 
-[05:28] lucy: Okay, we're back to normal, it's all plugged-in again. Okay, so yes, the term is accessible, for what you should be doing with a website, and that's because there are many other disabilities that web-accessible or accessible websites should be working with. So, for example, say a person has limited use of their hands, and they can't move with a mouse, say the only thing they can do it hit the Tab key on the keyboard, or hit one key at a time on the keyboard, with something called a head stick or a mouth stick, and that is literally, a head stick is something that's mounted to their forehead and they literally push buttons on the keyboard by tapping with that stick. A mouth stick is the same thing, except that instead of being mounted on their forehead, it's something that they're holding between their lips, and so by making websites quote accessible, you're actually allowing them, people who are blind and visually-impaired, people who may have no ability to type, people who are using speech-input only, can actually negotiate your websites and work through your websites, much more effectively. 
+[05:28] lucy: Okay, we're back to normal, it's all plugged-in again. Okay, so yes, the term is accessible, for what you should be doing with a website, and that's because there are many other disabilities that web-accessible or accessible websites should be working with. So, for example, say a person has limited use of their hands, and they can't move with a mouse, say the only thing they can do it hit the Tab key on the keyboard, or hit one key at a time on the keyboard, with something called a head stick or a mouth stick, and that is literally, a head stick is something that's mounted to their forehead and they literally push buttons on the keyboard by tapping with that stick. A mouth stick is the same thing, except that instead of being mounted on their forehead, it's something that they're holding between their lips, and so by making websites accessible, you're actually allowing them, people who are blind and visually-impaired, people who may have no ability to type, people who are using speech-input only, can actually negotiate your websites and work through your websites, much more effectively. 
 
 And the way to do this is by following the <a href="https://www.w3.org/standards/techs/wcag#w3c_all">W3C Standards</a>. W3C web-accessibility guidelines 2.0AA is an international standard that, if you follow the rules within there, and if you follow the guidelines and best practices, your website will be much more effective for everyone. Not only for people with disabilities, but we find that when a website actually is accessible to  persons with disabilities, it's actually more usable for everyone. When you start getting to fancy widgets and fancy divs, that you're using custom code that's not really good, pure HTML5, you end up making something that might be a little hard for the person with the disability and also we find that the average human being has problems with them, as well. That's my push for standards.
 
@@ -121,7 +119,7 @@ And the problem is, is speech-dictation software doesn't communicate well with t
 
 [12:55] szabgab: Right, I can  understand this.
 
-[12:58] lucy: And when if comes to using something like Dragon on the computer, if you don't fix the mistakes it makes, it's a learning algorithm, and the recognition can actually get worse if you don't fix it. So you could dictate something like "I live in a house" and it would say "I live in a mouse." And if you don't fix the word "mouse" to "house", it would actually get worse and worse, and eventually one out of every five words would be recognized instead of four out of every five words being recognized. It degenerates very, very quickly. 
+[12:58] lucy: And when it comes to using something like Dragon on the computer, if you don't fix the mistakes it makes, it's a learning algorithm, and the recognition can actually get worse if you don't fix it. So you could dictate something like "I live in a house" and it would say "I live in a mouse." And if you don't fix the word "mouse" to "house", it would actually get worse and worse, and eventually one out of every five words would be recognized instead of four out of every five words being recognized. It degenerates very, very quickly. 
 
 When I used to teach people how to use dictation software, I would tell them it takes a long time, up to three to four weeks, to get a really good voice profile. It's better today, dictation software is much better than that. But it can take you as little as an hour to break a voice profile by not correcting it. I mean it just disintegrates very rapidly. It's really a very serious thing, so you can't be dictating unless you can recognize what the problems are and fix them immediately.
 
