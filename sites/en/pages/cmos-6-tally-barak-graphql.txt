@@ -1,0 +1,88 @@
+=title CMOS #6: Tally Barak on GraphQL
+=timestamp 2016-09-03T19:01:01
+=indexes podcast, GraphQL
+=tags interview, cmos
+=mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with  about <a href="http://www.morffy.com">Tally Barak</a> on how a 13 year old girl inspired her to get into programming, GitHub, Open Source, and specifically on how <a href="http://graphql.org/">GraphQL</a> is the next big thing after SOAP and REST.
+
+=abstract end
+
+<screencast file="/media/cmos-6-tally-barak-graphql" />
+
+<podcast>
+
+<div class="person">
+  <div><a href="https://github.com/Tallyb">GitHub</a></div>
+  <div><a href="https://www.linkedin.com/in/tallybarak">LinkedIN</a></div>
+  <div><a href="https://twitter.com/tally_b">@tally_b</a></div>
+  <div><a href="http://www.morffy.com">Tally Barak</a></div>
+</div>
+
+<div id="links">
+<h2>Links</h2>
+
+<ul>
+  <li><a href="http://github.com/">GitHub</a></li>
+  <li><a href="http://stackoverflow.com/">StackOverflow</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Magic_Software_Enterprises">Magic</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/PowerBuilder">PowerBuilder</a></li>
+  <li><a href="https://nodejs.org/">Node</a></li>
+  <li><a href="https://angularjs.org/">Angular</a></li>
+  <li><a href="https://www.meteor.com/">Meteor</a></li>
+  <li><a href="http://www.angular-meteor.com/"></a>Angular-Meteor</li>
+  <li><a href="https://github.com/apollostack/apollo-server">Apollo Server</a></li>
+  <li><a href="http://www.apollostack.com/">Apollo Stack</a></li>
+  <li><a href="http://graphql.org/">GraphQL</a></li>
+  <li><a href="https://github.com/chentsulin/awesome-graphql">awesome-graphql</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Representational_state_transfer">REST API</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Ajax_(programming)">Ajax</a></li>
+  <li><a href="https://www.meteor.com/company">MDG - Meteor Development Group</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Object-relational_mapping">ORM</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/SOAP">SOAP</a></li>
+  <li><a href="https://facebook.github.io/relay/">Relay</a></li>
+  <li><a href="https://www.youtube.com/watch?v=UBGzsb2UkeY">Zero to GraphQL in 30 Minutes – Steven Luscher</a></li>
+  <li><a href="https://learngraphql.com/">Learn GraphQL</a></li>
+  <li><a href="https://www.getpostman.com/">Postman</a> in the REST world. <a href="https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en">Chrome extension</a></li>
+  <li><a href="https://www.dreamfactory.com/">Dream Factory</a></li>
+  <li><a href="https://lookback.io/">Lookback</a></li>
+</ul>
+
+<!--
+cuts: 3:21 14:46 18:45 
+-->
+
+</div>
+
+[transcript>
+  [szabgab host1 Gabor Szabo]
+  [tally guest1 Tally Barak]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] tally:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+<h2>Technical info</h2>
+
+Recorded on 9 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
