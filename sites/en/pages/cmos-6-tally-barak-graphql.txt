@@ -53,14 +53,14 @@ Interview with  about <a href="http://www.morffy.com">Tally Barak</a> on how a 1
   <li><a href="https://www.dreamfactory.com/">Dream Factory</a></li>
   <li><a href="https://lookback.io/">Lookback</a></li>
 </ul>
+</div>
 
 <!--
 cuts: 3:21 14:46 18:45 
 -->
 
-</div>
 
-[transcript>
+[transcript]
   [szabgab host1 Gabor Szabo]
   [tally guest1 Tally Barak]
 
