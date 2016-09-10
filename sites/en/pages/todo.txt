@@ -100,6 +100,6 @@ CREATE TABLE tasks (
 <h2>Remember the Milk</h2>
 
 If you need more ideas what to include in your TODO list, you can always check out 
-<a href="https://www.rememberthemilk.com/">Remember the Milk</a> which one of the best TODO applications.
+<a href="https://www.rememberthemilk.com/">Remember the Milk</a> which is one of the best TODO applications.
 
 
