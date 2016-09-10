@@ -10,7 +10,9 @@
 
 =abstract start
 
-Interview with Joel Berger about the Mojolicious Web framework
+Mojolicious is a modern, non-blocking Web framework in Perl.
+Joel Berger member of the development team talks about the project
+and on how to get started with it.
 
 =abstract end
 
@@ -19,13 +21,14 @@ Interview with Joel Berger about the Mojolicious Web framework
 
 <podcast>
 
-<div class="person">
-  <div><a href="http://blogs.perl.org/users/joel_berger/">Joel Berger</a></div>
-  <div>
-     <a href="https://metacpan.org/author/JBERGER">PAUSE</a>,
-     <a href="https://twitter.com/joelaberger">@joelaberger</a>,
-     <a href="https://github.com/jberger">GitHub</a>
-  </div>
+<div id="person">
+<h2>Joel Berger</h2>
+<ul>
+  <li><a href="http://blogs.perl.org/users/joel_berger/">Joel Berger</a></li>
+  <li><a href="https://metacpan.org/author/JBERGER">PAUSE</a></li>
+  <li><a href="https://twitter.com/joelaberger">@joelaberger</a></li>
+  <li><a href="https://github.com/jberger">GitHub</a></li>
+</ul>
 </div>
 
 <div id="links">

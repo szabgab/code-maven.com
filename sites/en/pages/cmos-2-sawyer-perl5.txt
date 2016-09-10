@@ -10,7 +10,7 @@
 
 =abstract start
 
-Interview with Sawyer X about the Perl 5 programming language
+Interview with Sawyer X, the current Pumpkin of Perl 5 about the Perl 5 Porters and the programming language in general. He also explains the difference between Amsterdam.pm and AmsterdamX.pm.
 
 =abstract end
 
@@ -18,10 +18,10 @@ Interview with Sawyer X about the Perl 5 programming language
 
 <podcast>
 
-<div class="person">
+<div id="person">
 <h2>Sawyer X</h2>
 <ul>
-  <li><a href="http://blogs.perl.org/users/sawyer_x/">Sawyer X</a></li>
+  <li><a href="http://blogs.perl.org/users/sawyer_x/">Sawyer X blog</a></li>
   <li><a href="https://metacpan.org/author/XSAWYERX">PAUSE</a></li>
   <li><a href="https://twitter.com/PerlSawyer">@PerlSawyer</a></li>
   <li><a href="https://github.com/xsawyerx">GitHub</a></li>

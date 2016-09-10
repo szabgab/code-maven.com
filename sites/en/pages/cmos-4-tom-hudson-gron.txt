@@ -19,12 +19,13 @@ the command line tool that makes JSON greppable.
 
 <podcast>
 
-<div class="person">
-  <div><a href="https://tomnomnom.com/">Tom Hudson</a></div>
-  <div>
-     <a href="https://twitter.com/TomNomNom">@TomNomNom</a>,
-     <a href="https://github.com/tomnomnom">GitHub</a>
-  </div>
+<div id="person">
+<h2>Tom Hudson</h2>
+<ul>
+  <li><a href="https://tomnomnom.com/">Tom Hudson</a></li>
+  <li><a href="https://twitter.com/TomNomNom">@TomNomNom</a></li>
+  <li><a href="https://github.com/tomnomnom">GitHub</a></li>
+</ul>
 </div>
 
 <div id="links">

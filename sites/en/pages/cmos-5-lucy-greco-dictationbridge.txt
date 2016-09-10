@@ -20,11 +20,14 @@ We also talked a lot about accesibility in general and accessibility of web site
 
 <podcast>
 
-<div class="person">
-  <div><a href="http://accessaces.com/">Lucy Greco</a></div>
-  <div><a href="http://dictationbridge.com/author/lucy/">Lucy at DictationBridge</a></div>
-  <div><a href="https://twitter.com/accessaces">@accessaces</a></div>
-  <div><a href="https://www.linkedin.com/in/lucy-greco-968b491">LinkedIN</a></div>
+<div id="person">
+<h2>Lucy Greco</h2>
+<ul>
+  <li><a href="http://accessaces.com/">Lucy Greco</a></li>
+  <li><a href="http://dictationbridge.com/author/lucy/">Lucy at DictationBridge</a></li>
+  <li><a href="https://twitter.com/accessaces">@accessaces</a></li>
+  <li><a href="https://www.linkedin.com/in/lucy-greco-968b491">LinkedIN</a></li>
+</ul>
 </div>
 
 <div id="links">

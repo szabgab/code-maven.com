@@ -20,12 +20,14 @@ Our main subject however is <a href="http://graphql.org/">GraphQL</a> is the nex
 
 <podcast>
 
-<div class="person">
+<div id="person">
   <h2>Tally Barak</h2>
-  <div><a href="https://github.com/Tallyb">GitHub</a></div>
-  <div><a href="https://www.linkedin.com/in/tallybarak">LinkedIN</a></div>
-  <div><a href="https://twitter.com/tally_b">@tally_b</a></div>
-  <div><a href="http://www.morffy.com">Tally Barak</a></div>
+  <ul>
+    <li><a href="https://github.com/Tallyb">GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/tallybarak">LinkedIN</a></li>
+    <li><a href="https://twitter.com/tally_b">@tally_b</a></li>
+    <li><a href="http://www.morffy.com">Tally Barak</a></li>
+  </ul>
 </div>
 
 <div id="links">
