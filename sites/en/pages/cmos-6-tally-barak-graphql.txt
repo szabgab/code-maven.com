@@ -1,24 +1,27 @@
 =title CMOS #6: Tally Barak on GraphQL
-=timestamp 2016-09-03T19:01:01
-=indexes podcast, GraphQL
+=timestamp 2016-09-10T11:01:01
+=indexes podcast, GraphQL, Meteor
 =tags interview, cmos
 =mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
-=status draft
+=status show 
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
 
-Interview with  about <a href="http://www.morffy.com">Tally Barak</a> on how a 13 year old girl inspired her to get into programming, GitHub, Open Source, and specifically on how <a href="http://graphql.org/">GraphQL</a> is the next big thing after SOAP and REST.
+Interview with <a href="http://www.morffy.com">Tally Barak</a> on how a 13 year old girl inspired her to get into programming. Getting back to programming after a 15 year long break. The impact of GitHub and Open Source.
+
+Our main subject however is <a href="http://graphql.org/">GraphQL</a> is the next big thing after SOAP and REST.
 
 =abstract end
 
-<screencast file="/media/cmos-6-tally-barak-graphql" />
+<screencast file="/media/cmos-6-tally-barak-graphql" youtube="Bd6A9TdGhm0" />
 
 <podcast>
 
 <div class="person">
+  <h2>Tally Barak</h2>
   <div><a href="https://github.com/Tallyb">GitHub</a></div>
   <div><a href="https://www.linkedin.com/in/tallybarak">LinkedIN</a></div>
   <div><a href="https://twitter.com/tally_b">@tally_b</a></div>
