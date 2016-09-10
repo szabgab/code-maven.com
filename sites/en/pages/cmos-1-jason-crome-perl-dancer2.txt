@@ -10,7 +10,7 @@
 
 =abstract start
 
-Interview with Jason A. Crome about the <a href="http://perldancer.org/">Perl Dancer</a> web framework.
+Interview with Jason A. Crome one of the core developers of the <a href="http://perldancer.org/">Perl Dancer</a> web framework. We talked about how he got involved in the project and how they handled the upgrade process from Daner 1 to Dancer 2 to avoid breaking any of the plugins.
 
 =abstract end
 
@@ -19,14 +19,27 @@ Interview with Jason A. Crome about the <a href="http://perldancer.org/">Perl Da
 <podcast>
 
 <div class="person">
-  <div><a href="https://www.crome-plated.com/">Jason A. Crome</a></div>
-  <div>
-     <a href="https://metacpan.org/author/CROMEDOME">PAUSE</a>,
-     <a href="https://twitter.com/cromedome">@cromedome</a>,
-     <a href="https://github.com/cromedome">GitHub</a>
-  </div>
+<h2>Jason A. Crome</h2>
+<ul>
+  <li><a href="https://www.crome-plated.com/">Jason A. Crome</a></li>
+  <li><a href="https://metacpan.org/author/CROMEDOME">PAUSE</a></li>
+  <li><a href="https://twitter.com/cromedome">@cromedome</a></li>
+  <li><a href="https://github.com/cromedome">GitHub</a></li>
+</ul>
 </div>
 
+<div id="links">
+<h2>Links</h2>
+<ul>
+  <li><a href="http://www.allaroundtheworld.fr/">All Around the World</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game">Massively Multiplayer Online Game (MMORPG)</a></li>
+  <li><a href="http://booking.com/">Booking.com</a></li>
+  <li><a href="http://perldancer.org/">perldancer.org</a></li>
+  <li><a href="http://irc.perl.org">irc.perl.org</a></li>
+  <li><a href="https://github.com/PerlDancer/">GitHub for Perl Dancer</a></li>
+  <li><a href="https://www.perl.dance/">Perl Dancer conference</a></li>
+</ul>
+</div>
 
 [transcript]
   [szabgab host1 Gabor Szabo]

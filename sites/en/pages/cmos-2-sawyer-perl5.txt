@@ -19,14 +19,28 @@ Interview with Sawyer X about the Perl 5 programming language
 <podcast>
 
 <div class="person">
-  <div><a href="http://blogs.perl.org/users/sawyer_x/">Sawyer X</a></div>
-  <div>
-     <a href="https://metacpan.org/author/XSAWYERX">PAUSE</a>,
-     <a href="https://twitter.com/PerlSawyer">@PerlSawyer</a>,
-     <a href="https://github.com/xsawyerx">GitHub</a>
-  </div>
+<h2>Sawyer X</h2>
+<ul>
+  <li><a href="http://blogs.perl.org/users/sawyer_x/">Sawyer X</a></li>
+  <li><a href="https://metacpan.org/author/XSAWYERX">PAUSE</a></li>
+  <li><a href="https://twitter.com/PerlSawyer">@PerlSawyer</a></li>
+  <li><a href="https://github.com/xsawyerx">GitHub</a></li>
+</ul>
 </div>
 
+<div id="links">
+<h2>Links</h2>
+<ul>
+  <li><a href="http://booking.com/">Booking.com</a></li>
+  <li><a href="http://perl.nl/amsterdam/">Amsterdam.pm</a></li>
+  <li><a href="http://amsterdamx.pm.org/">AmsterdamX.pm</a></li>
+  <li><a href="https://lists.perl.org/list/perl5-porters.html">Perl 5 Porters mailing list</a></li>
+  <li><a href="https://lists.perl.org/list/perl5-summary.html">perl 5 summary</a></li>
+  <li><a href="https://twitter.com/perl5summaries">Twitter @perl5summaries</a></li>
+  <li><a href="http://blogs.perl.org/users/sawyer_x/">Swayer at blogs.perl.org</a></li>
+  <li><a href="http://rt.perl.org/">rt.perl.org</a></li>
+</ul>
+</div>
 
 [transcript]
   [szabgab host1 Gabor Szabo]
@@ -56,7 +70,7 @@ Interview with Sawyer X about the Perl 5 programming language
 
   It was a lot of fun and I just kept giving talks and I've started to be more and more active in different projects. I became mainly active in the Dancer web framework which I started to use for personal projects and slowly I had more and more interest in it and became the maintainer of it we grew a nice community around that.
 
-  When I moved to The Netherlands where I live right now to work at <a href="http://booking.com/">Booking.com</a> I created another group. We already had <a href="http://perl.nl/amsterdam/">Amsterdam.pm</a> which is a Dutch Perl Mongers group and I founded the <a href="http://amsterdamx.pm.org/">AmsterdamX.pm</a> which is not X for Sawyer X, but it is X for <a href="https://en.wikipedia.org/wiki/Expatriate">eXpat</a>. I really have to stress that. AmsterdamE is not as AmsterdamX for eXpat and the idea is that it is much more comfortable for people who don't speak Dutch and the timing is different and it is a bit different.
+		  When I moved to The Netherlands where I live right now to work at <a href="http://booking.com/">Booking.com</a> I created another group. We already had <a href="http://perl.nl/amsterdam/">Amsterdam.pm</a> which is a Dutch Perl Mongers group and I founded the <a href="http://amsterdamx.pm.org/">AmsterdamX.pm</a> which is not X for Sawyer X, but it is X for <a href="https://en.wikipedia.org/wiki/Expatriate">eXpat</a>. I really have to stress that. AmsterdamE is not as AmsterdamX for eXpat and the idea is that it is much more comfortable for people who don't speak Dutch and the timing is different and it is a bit different.
   We found it to be more successful because we had a little participation from eXpats. We have a large group of people doing Perl in Amsterdam and in the area but they would not go to the Perl Monger's meetings so I started that group. 
 
   This year Ricardo Signes who was the Perl Pumpkin for the last few year stepped down from that role and I took over it. Mainly passed on from him less of a "I fought him for it" and that takes most of my time nowedays. I still do a lot of conferences. This month I think I'll be at 3 conferences and along with that Dancer which I am still active in and of course work. That's basically my time nowaday.
