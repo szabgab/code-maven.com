@@ -39,7 +39,7 @@ Interview with Sawyer X, the current Pumpkin of Perl 5 about the Perl 5 Porters 
   <li><a href="https://lists.perl.org/list/perl5-porters.html">Perl 5 Porters mailing list</a></li>
   <li><a href="https://lists.perl.org/list/perl5-summary.html">perl 5 summary</a></li>
   <li><a href="https://twitter.com/perl5summaries">Twitter @perl5summaries</a></li>
-  <li><a href="http://blogs.perl.org/users/sawyer_x/">Swayer at blogs.perl.org</a></li>
+  <li><a href="http://blogs.perl.org/users/sawyer_x/">Sawyer at blogs.perl.org</a></li>
   <li><a href="http://rt.perl.org/">rt.perl.org</a></li>
 </ul>
 </div>
