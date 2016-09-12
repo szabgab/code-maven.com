@@ -5,6 +5,8 @@
 =mp3 /media/cmos-1-jason-crome-perl-dancer2.mp3, 13879747, 16:09
 =status show
 =author szabgab
+=img img/cmos/jason_crome.png
+=alt Jason Crome
 =archive 1
 =comments_disqus_enable 1
 

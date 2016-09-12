@@ -5,6 +5,8 @@
 =mp3 /media/cmos-5-lucy-greco-dictationbridge.mp3,70780017, 29:31
 =status show
 =author szabgab
+=img /img/cmos/lucy_greco.jpeg
+=alt Lucy Greco
 =archive 1
 =comments_disqus_enable 1
 
