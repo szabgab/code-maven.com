@@ -3,6 +3,8 @@
 =indexes podcast, Perl, Perl 5
 =tags interview, cmos
 =mp3 /media/cmos-2-sawyer-perl5.mp3, 13049856, 24:35
+=img /img/cmos/sawyer-lowres.jpg
+=alt Sawyer
 =status show
 =author szabgab
 =archive 1
