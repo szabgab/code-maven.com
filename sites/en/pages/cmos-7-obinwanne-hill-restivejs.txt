@@ -41,6 +41,7 @@ into web programming in Nigeria.
     <li><a href="http://www.lukew.com/about/">Luke Wroblewski</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
     <li><a href="https://mobile.twitter.com/lukew/status/507880029737328640">Device lab of Luke Wroblewski</a></li>
+    <li><a href="https://speckyboy.com/">SpeckyBoy</a></li>
   </ul>
 </div>
 
