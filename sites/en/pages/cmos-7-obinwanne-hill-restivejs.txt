@@ -1,0 +1,73 @@
+=title CMOS #7: Obinwanne Hill on RestiveJS
+=timestamp 2016-09-03T19:01:01
+=indexes podcast, RestiveJS
+=tags interview, cmos
+=mp3 /media/cmos-7-obinwanne-hill-restivejs.mp3, 24752906, 24:28
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href="http://www.obihill.com/">Obinwanne Hill</a> on
+<a href="http://www.restivejs.com/">RestiveJS</a> and how one could get
+into web programming in Nigeria.
+
+=abstract end
+
+<screencast file="/media/cmos-7-obinwanne-hill-restivejs" />
+
+<podcast>
+
+<div id="person">
+  <h2>Obinwanne Hill</h2>
+  <ul>
+    <li><a href="http://www.obihill.com/">Obinwanne Hill</a></li>
+    <li><a href="https://twitter.com/ObiHill">Twitter @ObiHill</a></li>
+    <li><a href="https://github.com/obihill">GitHub</a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="http://www.restivejs.com/">RestiveJS home page</a></li>
+    <li><a href="https://github.com/obihill/restive.js">RestiveJS on GitHub</a></li>
+    <li><a href="http://www.restive.io/">Restive.io the company</a></li>
+    <li><a href="https://jquery.com/">jQuery</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Responsive_web_design">Responsive web design</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [obihill guest1 Obinwanne Hill]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] obihill:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 15 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
