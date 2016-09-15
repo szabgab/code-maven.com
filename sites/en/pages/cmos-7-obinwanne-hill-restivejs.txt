@@ -37,9 +37,10 @@ into web programming in Nigeria.
     <li><a href="http://www.restive.io/">Restive.io the company</a></li>
     <li><a href="https://jquery.com/">jQuery</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Responsive_web_design">Responsive web design</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Media_queries">Media Query</a></li>
+    <li><a href="http://www.lukew.com/about/">Luke Wroblewski</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">CSS</a></li>
+    <li><a href="https://mobile.twitter.com/lukew/status/507880029737328640">Device lab of Luke Wroblewski</a></li>
   </ul>
 </div>
 
