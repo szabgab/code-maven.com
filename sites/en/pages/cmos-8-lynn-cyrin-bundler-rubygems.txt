@@ -1,4 +1,4 @@
-=title CMOS #: 
+=title CMOS #8: Lynn Cyrin on Bundler, RubyGems and Ruby Together
 =timestamp 2016-09-03T19:01:01
 =indexes podcast 
 =tags interview, cmos
