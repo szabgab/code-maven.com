@@ -1,0 +1,88 @@
+=title CMOS #: Ire Aderinokun 
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=tags interview, cmos
+=mp3 /media/cmos-9-ire-aderinokun.mp3, 21405046,
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href="http://ireaderinokun.com/">Ire Aderinokun</a> about
+<a href="http://khaledbot.com/">Khaled Bot</a>, 
+<a href="http://caniuse.bitsofco.de/">The (Unofficial) CanIUse Embed</a>,
+and <a href="http://formhack.io/">Formhack</a>.
+
+=abstract end
+
+<screencast file="/media/cmos-9-ire-aderinokun" />
+
+<podcast>
+
+<div id="person">
+  <h2>Ire Aderinokun</h2>
+  <ul>
+    <li><a href="http://ireaderinokun.com/">Ire Aderinokun</a></li>
+    <li><a href="https://github.com/ireade">GitHub</a></li>
+    <li><a href="https://twitter.com/ireaderinokun">Twitter: @ireaderinokun</a></li>
+    <li><a href="https://bitsofco.de/">Blog: bits of code</a></li>
+    <li><a href="https://medium.com/@ireade">Medium @ireade</a></li>
+    <li><a href="https://www.linkedin.com/in/iaderinokun">LinkedIN</a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="http://www.neopets.com/">NeoPets</a></li>
+    <li><a href="http://caniuse.bitsofco.de/">The (Unofficial) CanIUse Embed</a></li>
+    <li><a href="http://caniuse.com/">Can I use</a></li>
+    <li><a href="http://khaledbot.com/">Khaled Bot</a></li>
+    <li><a href="https://github.com/ireade/khaledbot">KhaledBot at GitHub</a></li>
+    <li><a href="http://formhack.io/">Formhack</a></li>
+    <li><a href="https://github.com/ireade/formhack">Formhack at GiHub</a></li>
+    <li><a href="http://www.bigcabal.com/">Big Cabal Media</a></li>
+    <li><a href="http://techcabal.com/">Tech Cabal</a></li>
+    <li><a href="http://zikoko.com/">Zikoko</a></li>
+    <li><a href="https://www.buzzfeed.com/">BuzzFeed</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/West_African_Pidgin_English">Pidgin</a></li>
+    <li><a href="https://slack.com/">Slack</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/DJ_Khaled">DJ Khaled</a></li>
+    <li><a href="http://khaledipsum.com/">Lorem Khaled Ipsum</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [ireade guest1 Ire Aderinokun]
+
+  [0:00] szabgab:
+    Hello there.
+
+  [0:19] ireade:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
+
+
+
