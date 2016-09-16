@@ -26,9 +26,11 @@ manager at <a href="https://rubytogether.org/">Ruby Together</a> and deal with
     <li><a href="http://lynncyrin.me/">Lynn Cyrin</a></li>
     <li><a href="https://twitter.com/lynncyrin">Twitter @lynncyrin</a></li>
     <li><a href="https://github.com/lynnco">GitHub</a></li>
+    <li><a href="http://peopleofcolorintech.com/interview/episode-60-lynn-cyrin/">Lynn Cyrin on POCIT</a></li>
   </ul>
 </div>
 
+  
 <div id="links">
   <h2>Links</h2>
   <ul>
