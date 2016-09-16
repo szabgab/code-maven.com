@@ -61,7 +61,7 @@ manager at <a href="https://rubytogether.org/">Ruby Together</a> and deal with
 
 [00:21] lynn: Good, good.
 
-[00:21] szabgab:  Good. Before we get on, let's start with your name. I saw you call yourself Lynn "Cyrin" Conway on one hand, but in other places just Lynn Cyrin, can you tell me a little bit about this background?
+[00:21] szabgab: Good. Before we get on, let's start with your name. I saw you call yourself Lynn "Cyrin" Conway on one hand, but in other places just Lynn Cyrin, can you tell me a little bit about this background?
 
 [00:43] lynn: I would call myself Lynn "Cyrin" Conway everywhere but websites like to not have a proper name field so a lot of it's that. So I picked Lynn first, just independently of my last name, and only changed my first name, not changed my last name. So I changed my first name to Lynn and it ended up Lynn Conway, which coincidentally is also the name of another trans-lesbian web developer. So that was nice, I just ran into that, and I was just, "Oh, well should I change it? No, it's kind of cool to have the same name."
 
@@ -69,11 +69,11 @@ So I started to try to build a web developer program and I realized that you can
 
 [01:38] szabgab: Good, so do you have contact with her?
 
-[01:42] lynn:  Yes, I have. It took, I don't know, two years of having the name, but eventually one of my advisers said, "Oh yeah, do you want to meet <a href="https://en.wikipedia.org/wiki/Lynn_Conway">the other Lynn Conway</a>, I know her?" I was, "Oh it would be very cool to know the other Lynn Conway!" I don't have any significant relationship but I said, "Oh yeah, cool, we share all these things and have the same name, that's kind of nice, so, yeah."
+[01:42] lynn: Yes, I have. It took, I don't know, two years of having the name, but eventually one of my advisers said, "Oh yeah, do you want to meet <a href="https://en.wikipedia.org/wiki/Lynn_Conway">the other Lynn Conway</a>, I know her?" I was, "Oh it would be very cool to know the other Lynn Conway!" I don't have any significant relationship but I said, "Oh yeah, cool, we share all these things and have the same name, that's kind of nice, so, yeah."
 
 [02:07] szabgab: That's interesting. Okay, and does she do anything with computers?
 
-[02:12] lynn:  Yes, she does something...not like Ruby/Python, I don't know, like Cs/Perl, that type.
+[02:12] lynn: Yes, she does something...not like Ruby/Python, I don't know, like Cs/Perl, that type.
 
 [02:23] szabgab: Interesting. Okay so tell me a little about your, you do have tons of stuff, I saw Ruby and Python and all these other things, but how did you get started with programming and open source?
 
@@ -83,13 +83,13 @@ So I was writing code right about the same time I started getting into queerness
 
 Open source didn't come up as naturally, I just ran into an open source repository and I liked the idea of open source, it just appealed to me, like innately, at such a level. Since then I've become this huge open source. I would get all of the conferences I've talked at, except <a href="https://www.alterconf.com/">AlterConf</a>, which is a diversity conference, they've all been like <a href="http://opensourcebridge.org/">Open Source Bridge</a> and other alternate conferences. Because I'm just really about open source, I open source all of my stuff, even stuff that people wouldn't ever want to look at, I just put it open source anyway because, "Why not?" I don't have the "Why would I open source this?", for me it's "Give me an explicit reason to not open source this," because otherwise I will.
 
-[05:04] szabgab:  Yeah, okay, that's nice. So at least on GitHub you mentioned <a href="https://rubytogether.org/">Ruby Together</a> as sort of your employer, but do you also have a...are they really your employer? Do they pay you, do you have a job, or...?
+[05:04] szabgab: Yeah, okay, that's nice. So at least on GitHub you mentioned <a href="https://rubytogether.org/">Ruby Together</a> as sort of your employer, but do you also have a...are they really your employer? Do they pay you, do you have a job, or...?
 
 [05:22] lynn: They are my employer in that I get formally, from the government, an employer and they pay me. Everyone at Ruby Together makes $150[???] an hour. It's really nice that everyone makes all the same wages, we'll hire a designer and they won't suddenly make less than the programmers, so that's nice. But yeah, Ruby Together pays me to work on <a href="http://bundler.io/">Bundler</a> and <a href="https://rubygems.org/">RubyGems</a>. I also have a bunch of other things that also pay me but RubyGems is my only formal employer at the moment, everything else is crowdfunded or I own it, so...
 
 [05:56] szabgab: Okay, but do you usually work at companies as well, in the last couple of years, or have you stopped since, I don't know, since you left rocket science?
 
-[06:03] lynn:  Actually, in my tech career I've done tiny contracting work here and there, where I was never an employee, and I think I have two interview chances that I'm working on right now, and those would be my first company jobs, like 40 hours a week things. And it took me three years to get to the point where I wanted or could have a fulltime job, so... The only other fulltime job I ever had, I was a janitor. So yeah, I haven't done the company-thing much.
+[06:03] lynn: Actually, in my tech career I've done tiny contracting work here and there, where I was never an employee, and I think I have two interview chances that I'm working on right now, and those would be my first company jobs, like 40 hours a week things. And it took me three years to get to the point where I wanted or could have a fulltime job, so... The only other fulltime job I ever had, I was a janitor. So yeah, I haven't done the company-thing much.
 
 [06:41] szabgab: Yeah, well, it's great, I'm quite sure that many companies would want your capabilities, I mean, seeing what you do in all this stuff, open source. Maybe except the part, that they don't want to open source everything you write.
 
@@ -97,15 +97,15 @@ Open source didn't come up as naturally, I just ran into an open source reposito
 
 [07:22] szabgab: Yeah, I know, I teach various programming languages and stuff, usually for people working at companies, and they always, I'm trying to tell them, "If you want to show to the next employer, something that you do, then you have to do something in open source." Because you can't usually share what you do at your company.
 
-[07:47] lynn:  Yeah.
+[07:47] lynn: Yeah.
 
-[07:49] szabgab:  That's nice. So let's, among all the things that you do, we thought that we'd talk about, Bundler, and I really have no idea because I'm coming from the Perl background and Python and some front end, even though you can't see it on my website. But I really have no knowledge about Ruby?
+[07:49] szabgab: That's nice. So let's, among all the things that you do, we thought that we'd talk about, Bundler, and I really have no idea because I'm coming from the Perl background and Python and some front end, even though you can't see it on my website. But I really have no knowledge about Ruby?
 
-[08:14] lynn:  So in the Ruby world, there's Bundler, RubyGems, and RubyGems.org, which are three different organizations with different, they used to have different ownership, Ruby's got to resolve that, but I'll get to that in a second. And there used to be three different groups of people with all different admins, working on three different things that <a href="https://en.wikipedia.org/wiki/Pip_(package_manager)">pip</a> all does, so pip's website, the Python packages website, that's RubyGems.org. There's two different parts, pip doesn't really do anything that Bundler does really, some of Bundler stuff is what <a href="https://virtualenv.pypa.io/en/stable/">virtualenv</a> does and it does some stuff that pip would like to have, but really pip is just RubyGems.
+[08:14] lynn: So in the Ruby world, there's Bundler, RubyGems, and RubyGems.org, which are three different organizations with different, they used to have different ownership, Ruby's got to resolve that, but I'll get to that in a second. And there used to be three different groups of people with all different admins, working on three different things that <a href="https://en.wikipedia.org/wiki/Pip_(package_manager)">pip</a> all does, so pip's website, the Python packages website, that's RubyGems.org. There's two different parts, pip doesn't really do anything that Bundler does really, some of Bundler stuff is what <a href="https://virtualenv.pypa.io/en/stable/">virtualenv</a> does and it does some stuff that pip would like to have, but really pip is just RubyGems.
 
 [09:03] szabgab: Wait a second. I know pip, a common code pip in Python, do you talk about the same? Or Ruby has the same names for stuff?
 
-[09:15] lynn:  No, I mean, RubyGems is essentially pip.
+[09:15] lynn: No, I mean, RubyGems is essentially pip.
 
 [09:19] szabgab: Okay.
 
@@ -145,7 +145,7 @@ So I have the great job of making sure the open source contributors have a nice 
 
 [16:13] szabgab: Okay, I see, that's great. Okay, I think I've run out of questions about this. Actually not, there is the Ruby Together, so can you tell a little bit more about the organization, how it works, and how you got together?
 
-[16:36] lynn:  So Ruby Together is really, really similar to <a href="https://www.npmjs.com/">npm</a>, another package manager, if anybody knows what npm, Ruby Together is functionally identical. I think their big difference is npm is like a huge start-up, I don't know how much money it makes, I don't know how much it's worth, but compared to Ruby Together, npm is enormous. 
+[16:36] lynn: So Ruby Together is really, really similar to <a href="https://www.npmjs.com/">npm</a>, another package manager, if anybody knows what npm, Ruby Together is functionally identical. I think their big difference is npm is like a huge start-up, I don't know how much money it makes, I don't know how much it's worth, but compared to Ruby Together, npm is enormous. 
 
 Ruby Together is, I think this is actually how it's legally set up, Ruby Together is basically <a href="https://twitter.com/indirect">André</a>, he's the director of Ruby Together and he's a bunch of other things. So André used to be working on Bundler for free, bundler and RubyGems for free, and he was just working on it, right, because it's open source and he had time, so he was just working on Bundler and RubyGems. 
 
@@ -161,11 +161,11 @@ So he got that enough that he made a non-profit out of it and now there's six of
 
 [19:43] szabgab: Okay, great, thank you again for coming on the show and hopefully see you at another episode!
 
-[19:51] lynn:  Yeah, cool, thank you.
+[19:51] lynn: Yeah, cool, thank you.
 
 [19:52] szabgab: Bye bye.
 
-[19:53] lynn:  Bye.
+[19:53] lynn: Bye.
 
 [/transcript]
 
