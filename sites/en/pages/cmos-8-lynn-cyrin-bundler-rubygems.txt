@@ -36,20 +36,29 @@ manager at <a href="https://rubytogether.org/">Ruby Together</a> and deal with
     <li><a href="https://rubytogether.org/">Ruby Together</a></li>
     <li><a href="http://bundler.io/">Bundler</a></li>
     <li><a href="https://rubygems.org/">RubyGems</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="http://www.pyladies.com/">Python Ladies</a></li>
+    <li><a href="https://www.alterconf.com/">AlterConf</a></li>
+    <li><a href="http://opensourcebridge.org/">Open Source Bridge</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Pip_(package_manager)">pip (Python)</a></li>
+    <li><a href="https://pypi.python.org/">PyPi, the Python Package Index</a></li>
+    <li><a href="https://virtualenv.pypa.io/en/stable/">virtualenv (Python)</a></li>
+    <li><a href="https://rubygems.org/pages/download">gem or RubyGems (the tool you can download)</a></li>
+    <li><a href="http://jruby.org/">JRuby</a></li>
+    <li><a href="https://slack.com/">Slack</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a></li>
+    <li><a href="https://www.npmjs.com/">npm</a></li>
+    <li><a href="https://twitter.com/indirect">André Arko</a></li>
   </ul>
 </div>
 
-
 [transcript]
   [szabgab host1 Gabor Szabo]
-  [foobar guest1 Foo Bar]
+  [lynn guest1 Lynn Cyrin]
 
   [0:00] szabgab:
     Hello there..
 
-  [0:19] foobar:
+  [0:19] lynn:
     Hi I am fine, thank you. How are you?
 [/transcript]
 
