@@ -15,6 +15,9 @@ Interview with <a href="http://ireaderinokun.com/">Ire Aderinokun</a> about
 <a href="http://caniuse.bitsofco.de/">The (Unofficial) CanIUse Embed</a>,
 and <a href="http://formhack.io/">Formhack</a>.
 
+In which I've also learned what are CSS resets.
+Progressive web apps
+
 =abstract end
 
 <screencast file="/media/cmos-9-ire-aderinokun" />
@@ -37,12 +40,6 @@ and <a href="http://formhack.io/">Formhack</a>.
   <h2>Links</h2>
   <ul>
     <li><a href="http://www.neopets.com/">NeoPets</a></li>
-    <li><a href="http://caniuse.bitsofco.de/">The (Unofficial) CanIUse Embed</a></li>
-    <li><a href="http://caniuse.com/">Can I use</a></li>
-    <li><a href="http://khaledbot.com/">Khaled Bot</a></li>
-    <li><a href="https://github.com/ireade/khaledbot">KhaledBot at GitHub</a></li>
-    <li><a href="http://formhack.io/">Formhack</a></li>
-    <li><a href="https://github.com/ireade/formhack">Formhack at GiHub</a></li>
     <li><a href="http://www.bigcabal.com/">Big Cabal Media</a></li>
     <li><a href="http://techcabal.com/">Tech Cabal</a></li>
     <li><a href="http://zikoko.com/">Zikoko</a></li>
@@ -51,8 +48,15 @@ and <a href="http://formhack.io/">Formhack</a>.
     <li><a href="https://slack.com/">Slack</a></li>
     <li><a href="https://en.wikipedia.org/wiki/DJ_Khaled">DJ Khaled</a></li>
     <li><a href="http://khaledipsum.com/">Lorem Khaled Ipsum</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="http://khaledbot.com/">Khaled Bot</a></li>
+    <li><a href="https://github.com/ireade/khaledbot">KhaledBot at GitHub</a></li>
+    <li><a href="http://getbootstrap.com/">Bootstrap</a></li>
+    <li><a href="http://caniuse.bitsofco.de/">The (Unofficial) CanIUse Embed</a></li>
+    <li><a href="http://caniuse.com/">Can I use</a></li>
+    <li><a href="https://github.com/ireade/caniuse-embed">Can I Use embed at GitHub</a></li>
+    <li><a href="http://formhack.io/">Formhack</a></li>
+    <li><a href="https://github.com/ireade/formhack">Formhack at GiHub</a></li>
+    <li><a href="https://github.com/ireade/OfflineFX-Codelab">Offline FX at GitHub</a></li>
   </ul>
 </div>
 
