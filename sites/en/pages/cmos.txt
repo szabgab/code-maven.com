@@ -20,6 +20,7 @@ The Code-Maven Open Source podcast is planned to be lot of short interviews focu
 
 The interviewes will be either developers of the Open Source project, contributors, or plain users. In many, or  maybe even all of the cases it is better to hear about a project from an enthusiastic contributor or user than from the main author. I don't know. We'll see how does this work out.
 
+<!--
 <h2>Other recommended podcasts</h2>
 
 If you are interested in deep discussions with open source developers, I recommend
@@ -33,5 +34,7 @@ They are awesome.
 
 Personally I use <b>Podcast Addict on Android</b> and I've <a href="http://szabgab.com/podcasts.html">described it how</a> along with
 a few other recommended podcasts. In addition there are plenty of <a href="https://www.youtube.com/results?search_query=how+to+listen+to+podcasts">explanations on YouTube</a>.
+
+-->
 
 <h2>The Episodes</h2>
