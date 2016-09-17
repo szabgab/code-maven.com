@@ -278,7 +278,7 @@ Do you have any specific project plans, something else?
 [20:53] ireade: That I'm working on right now? 
 Lately I've been doing a bunch of work with progressive web apps, actually. 
 So I've been playing around with how to create them and things like that. 
-And I think about a month ago, I was giving a talk about progressive web apps and I created this project, which is called <a href="https://github.com/ireade/OfflineFX-Codelab"Offline FX</a>, so it's basically an FX exchange-rate app, but it's a progressive web app, obviously. 
+And I think about a month ago, I was giving a talk about progressive web apps and I created this project, which is called <a href="https://github.com/ireade/OfflineFX-Codelab">Offline FX</a>, so it's basically an FX exchange-rate app, but it's a progressive web app, obviously. 
 So I've been working on that and that's been really interesting. 
 I demoed how I made it into a progressive web app, so I put the source for that on my GitHub as well, so you can see how you can take a web application and convert it to a progressive web application.
 
