@@ -16,9 +16,9 @@ Interview with Sawyer X, the current Pumpkin of Perl 5 about the Perl 5 Porters 
 
 =abstract end
 
-<screencast file="/media/cmos-2-sawyer-perl5" youtube="FRWaO2GpA7g" />
-
 <podcast>
+
+<a href="https://www.youtube.com/watch?v=FRWaO2GpA7g">Watch on YouTube</a> or <a href="/media/cmos-2-sawyer-perl5.mp4">download the mp4</a>.
 
 <div id="person">
 <h2>Sawyer X</h2>
