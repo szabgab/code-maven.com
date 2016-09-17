@@ -3,6 +3,8 @@
 =indexes podcast, gron, JSON, go
 =tags interview, cmos
 =mp3 /media/cmos-4-tom-hudson-gron.mp3, 17224989, 19:24
+=img /img/cmos/tom_hudson.png
+=alt Tom Hudson
 =status show
 =author szabgab
 =archive 1
@@ -15,9 +17,9 @@ the command line tool that makes JSON greppable.
 
 =abstract end
 
-<screencast file="/media/cmos-4-tom-hudson-gron" youtube="dxmsuFqB1tU" />
-
 <podcast>
+
+<a href="https://www.youtube.com/watch?v=dxmsuFqB1tU">Watch on YouTube</a> or <a href="/media/cmos-4-tom-hudson-gron.mp4">download the video</a>.
 
 <div id="person">
 <h2>Tom Hudson</h2>
