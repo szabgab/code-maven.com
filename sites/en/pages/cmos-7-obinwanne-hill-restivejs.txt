@@ -18,7 +18,7 @@ He also told how he got into web programming in Nigeria in the '90s.
 
 =abstract end
 
-<screencast file="/media/cmos-7-obinwanne-hill-restivejs" />
+<screencast file="/media/cmos-7-obinwanne-hill-restivejs" youtube="7JYwWOVeB9w" />
 
 <podcast>
 
