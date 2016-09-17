@@ -3,6 +3,8 @@
 =indexes podcast, Perl, Mojolicious
 =tags interview, cmos
 =mp3 /media/cmos-3-joel-berger-mojolicious.mp3, 23645783, 26:37
+=img /img/cmos/joel_berger.jpg
+=alt Joel Berger
 =status show
 =author szabgab
 =archive 1
@@ -16,10 +18,9 @@ and on how to get started with it.
 
 =abstract end
 
-<screencast file="/media/cmos-3-joel-berger-mojolicious" youtube="O7JGQqCUOJM" /> 
-
-
 <podcast>
+
+<a href="https://www.youtube.com/watch?v=O7JGQqCUOJM">Watch on YouTube</a> or <a href="/media/cmos-3-joel-berger-mojolicious.mp4">download the mp4</a>.
 
 <div id="person">
 <h2>Joel Berger</h2>
