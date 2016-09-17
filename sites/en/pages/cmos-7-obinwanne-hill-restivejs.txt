@@ -54,7 +54,7 @@ He also told how he got into web programming in Nigeria in the '90s.
   [obihill guest1 Obinwanne Hill]
 
   [00:02] szabgab: Hello there, and welcome to CMOS, the Code Maven Open Source podcast and interview series, where we are talking about interesting open source projects, with interesting people.
-I'm your host, Gabor Szabo, and with me is, and I really hope I pronounce your name correctly and please correct me afterwards, Obinwanne Hill, right?
+I'm your host, Gabor Szabo, and with me is, and I really hope I pronounce your name correctly and please correct me afterwards, <a href="http://www.obihill.com/">Obinwanne Hill</a>, right?
 From <a href="http://www.restivejs.com/">RestiveJS</a>. How are you?
 
 [00:28] obihill: Yes, that's correct, Obinwanne Hill. You almost got it, so that's fine.
