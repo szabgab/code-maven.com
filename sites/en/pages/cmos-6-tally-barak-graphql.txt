@@ -3,6 +3,8 @@
 =indexes podcast, GraphQL, Meteor
 =tags interview, cmos
 =mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
+=img /img/cmos/tally_barak.jpg
+=alt Tally Barak
 =status show 
 =author szabgab
 =archive 1
@@ -16,9 +18,9 @@ Our main subject however is <a href="http://graphql.org/">GraphQL</a> is the nex
 
 =abstract end
 
-<screencast file="/media/cmos-6-tally-barak-graphql" youtube="Bd6A9TdGhm0" />
-
 <podcast>
+
+<a href="https://www.youtube.com/watch?v=Bd6A9TdGhm0">Watch on YouTube</a> or <a href="/media/cmos-6-tally-barak-graphql.mp4">download the mp4</a>.
 
 <div id="person">
   <h2>Tally Barak</h2>
