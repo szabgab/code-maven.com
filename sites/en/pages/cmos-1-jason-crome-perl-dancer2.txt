@@ -16,9 +16,9 @@ Interview with Jason A. Crome one of the core developers of the <a href="http://
 
 =abstract end
 
-<screencast file="/media/cmos-1-jason-crome-perl-dancer2" youtube="uVCpubfC9L4" />
-
 <podcast>
+
+<a href="https://www.youtube.com/watch?v=uVCpubfC9L4">Watch on YouTube</a> or <a href="/media/cmos-1-jason-crome-perl-dancer2.mp4">download the mp4</a>.
 
 <div id="person">
 <h2>Jason A. Crome</h2>
