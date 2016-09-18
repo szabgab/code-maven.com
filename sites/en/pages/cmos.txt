@@ -10,7 +10,8 @@
 
 CMOS - Code-Maven Open Source news is a podcast providing news about Open Source projects.
 
-You can subscribe with your favorite Podcast listener via the <a href="/rss/cmos"><img src="/img/feed-icon16x16.png" alt="CMOS RSS feed" /></a>
+You can subscribe with your favorite Podcast listener via the <a href="/rss/cmos">RSS feed <img src="/img/feed-icon16x16.png" alt="CMOS RSS feed" /></a>
+or via <a style="bakground-color:blue;" href="https://itunes.apple.com/il/podcast/code-maven/id1153427237">itunes</a>
 
 =abstract end
 
