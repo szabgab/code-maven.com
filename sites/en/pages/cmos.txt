@@ -8,7 +8,7 @@
 
 =abstract start
 
-CMOS - Code-Maven Open Source news is a podcast providing news about Open Source projects.
+CMOS, the Code-Maven Open Source podcast helps you become familiar with a wide range of projects by interviewing users or developers of these projects.
 
 You can subscribe with your favorite Podcast listener via the <a href="/rss/cmos">RSS feed <img src="/img/feed-icon16x16.png" alt="CMOS RSS feed" /></a>
 or via <a href="https://itunes.apple.com/il/podcast/code-maven/id1153427237">iTunes <img src="/img/itunes.png" alr="iTunes" /></a>
@@ -17,9 +17,17 @@ or via <a href="https://itunes.apple.com/il/podcast/code-maven/id1153427237">iTu
 
 <h2>About the show</h2>
 
-The Code-Maven Open Source podcast is planned to be lot of short interviews focusing on the latest news of a diverse set of open source projects. The opening interview with each person will be 10-20 minutes long. The subsequent interviews are planned to be 5-10 minutes long.
+There were four types of guests so far:
+<ul>
+  <li>Project managers like <a href="http://code-maven.com/cmos-5-lucy-greco-dictationbridge">Lucy Greco</a>.</li>
+  <li>Core developers of a project like <a href="http://code-maven.com/cmos-7-obinwanne-hill-restivejs">Obinwanne Hill</a>.</li>
+  <li>Contributors of a project like <a href="http://code-maven.com/cmos-3-joel-berger-mojolicious">Joel Berger</a>.</li>
+  <li>Enthusiastic users like <a href="http://code-maven.com/cmos-6-tally-barak-graphql">Tally Barak</a>.</li>
+</ul>
 
-The interviewes will be either developers of the Open Source project, contributors, or plain users. In many, or  maybe even all of the cases it is better to hear about a project from an enthusiastic contributor or user than from the main author. I don't know. We'll see how does this work out.
+The episodes usually last less than 25 minutes.
+
+If you would like to talk about an open source project, get in touch with <a href="https://twitter.com/szabgab">Gabor</a>.
 
 <!--
 <h2>Other recommended podcasts</h2>
