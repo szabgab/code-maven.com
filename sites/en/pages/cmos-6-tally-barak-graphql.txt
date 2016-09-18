@@ -3,7 +3,7 @@
 =indexes podcast, GraphQL, Meteor
 =tags interview, cmos
 =mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
-=img /img/cmos/tally_barak.jpg
+=img /img/cmos/tally_barak.png
 =alt Tally Barak
 =status show 
 =author szabgab
