@@ -2,7 +2,7 @@
 =timestamp 2016-09-03T19:01:01
 =indexes podcast 
 =tags interview, cmos
-=mp3 /media/.mp3, 17224989, 19:24
+=mp3 /media/cmos-michael-kennedy.mp3, 44576759, 18:34
 =status draft
 =author szabgab
 =archive 1
@@ -14,7 +14,7 @@ Interview with  about <a href=""></a>.
 
 =abstract end
 
-<screencast file="/media/" />
+<screencast file="/media/cmos-michael-kennedy" />
 
 <podcast>
 
