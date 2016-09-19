@@ -1,9 +1,11 @@
-=title CMOS #8: Lynn Cyrin on Bundler, RubyGems and Ruby Together
-=timestamp 2016-09-03T19:01:01
+=title CMOS #8: Lynn "Cyrin" Conway on Bundler, RubyGems and Ruby Together
+=timestamp 2016-09-19T08:01:01
 =indexes podcast 
 =tags interview, cmos
 =mp3 /media/cmos-8-lynn-cyrin-bundler-rubygems.mp3, 18590774, 19:54
-=status draft
+=img /img/cmos/lynn_cyrin.jpg
+=alt Lynn 'Cyrin' Conway
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -85,7 +87,7 @@ Open source didn't come up as naturally, I just ran into an open source reposito
 
 [05:04] szabgab: Yeah, okay, that's nice. So at least on GitHub you mentioned <a href="https://rubytogether.org/">Ruby Together</a> as sort of your employer, but do you also have a...are they really your employer? Do they pay you, do you have a job, or...?
 
-[05:22] lynn: They are my employer in that I get formally, from the government, an employer and they pay me. Everyone at Ruby Together makes $150??? an hour. It's really nice that everyone makes all the same wages, we'll hire a designer and they won't suddenly make less than the programmers, so that's nice. But yeah, Ruby Together pays me to work on <a href="http://bundler.io/">Bundler</a> and <a href="https://rubygems.org/">RubyGems</a>. I also have a bunch of other things that also pay me but RubyGems is my only formal employer at the moment, everything else is crowdfunded or I own it, so...
+[05:22] lynn: They are my employer in that I get formally, from the government, an employer and they pay me. Everyone at Ruby Together makes $150 an hour. It's really nice that everyone makes all the same wages, we'll hire a designer and they won't suddenly make less than the programmers, so that's nice. But yeah, Ruby Together pays me to work on <a href="http://bundler.io/">Bundler</a> and <a href="https://rubygems.org/">RubyGems</a>. I also have a bunch of other things that also pay me but RubyGems is my only formal employer at the moment, everything else is crowdfunded or I own it, so...
 
 [05:56] szabgab: Okay, but do you usually work at companies as well, in the last couple of years, or have you stopped since, I don't know, since you left rocket science?
 
@@ -103,7 +105,7 @@ Open source didn't come up as naturally, I just ran into an open source reposito
 
 [08:14] lynn: So in the Ruby world, there's Bundler, RubyGems, and RubyGems.org, which are three different organizations with different, they used to have different ownership, Ruby's got to resolve that, but I'll get to that in a second. And there used to be three different groups of people with all different admins, working on three different things that <a href="https://en.wikipedia.org/wiki/Pip_(package_manager)">pip</a> all does, so <a href="https://pypi.python.org/">pip's website</a>, the Python packages website, that's RubyGems.org. There's two different parts, pip doesn't really do anything that Bundler does really, some of Bundler stuff is what <a href="https://virtualenv.pypa.io/en/stable/">virtualenv</a> does and it does some stuff that pip would like to have, but really pip is just RubyGems.
 
-[09:03] szabgab: Wait a second. I know pip, a common code pip in Python, do you talk about the same? Or Ruby has the same names for stuff?
+[09:03] szabgab: Wait a second. I know pip, a command called pip in Python, do you talk about the same? Or Ruby has the same names for stuff?
 
 [09:15] lynn: No, I mean, RubyGems is essentially pip.
 
@@ -111,7 +113,7 @@ Open source didn't come up as naturally, I just ran into an open source reposito
 
 [09:20] lynn: They have basically the same functionality. Then Bundler has some of the functionality of virtualenv, but they're not equivalent. That's where the equivalence starts to get way different, Ruby has a bunch of different environment tools, that one would use. Anyway, what this specifically is, is that there's RubyGems.org, the website. There's RubyGems, the codebase, which that's the thing that downloads and makes RubyGems for you. And then there's Bundler and that handles your environment, and getting your stuff from your package management file, and it stores all the commands of RubyGems, and sends commands to RubyGems.org, and that's how you get the thing.
 
-So there's three different tools, which finally are being merged a bunch. RubyGems, RubyGems.org, and Bundler all have the same menu organization, in Ruby Together. This used to not be the case. There used to be kind of a warring-factions thing going on between Bundler and RubyGems, it was a mess. Anyway, now someone, one person, owns all three of them, and they're trying to make all of this more easy to understand. Sounds nice.
+So there's three different tools, which finally are being merged a bunch. RubyGems, RubyGems.org, and Bundler all have the same managing organization, in Ruby Together. This used to not be the case. There used to be kind of a warring-factions thing going on between Bundler and RubyGems, it was a mess. Anyway, now someone, one person, owns all three of them, and they're trying to make all of this more easy to understand. Sounds nice.
 
 [10:34] szabgab: Okay, so when you're creating a new package in Ruby, do you also use Bundler to bundle together, or is there another thing that you need for packaging? I guess you upload it to RubyGems, right?
 
@@ -153,7 +155,7 @@ And it, this was back in the end of the warring-faction days, RubyGems versus Bu
 
 And then André started working on both of them and something happened, where RubyGems was down for three days, and a lot of big companies lost a lot of money, and André was the one who got it back up. About a week after that, people started being, "Hey, could we pay you money to make sure you're always around, so when it goes down, it's just down for a few hours, not three days?" Three days without being able to install any new packages is huge, "What, the package-manager is down?" That doesn't even make any sense. That's definitely something people wanted to pay for, so it just started almost by accident, with people going to my boss with, "Hey, we'll give you money for this." 
 
-So he got that enough that he made a non-profit out of it and now there's six of us, we go, we help out, we help out on a few other things like ???, there's some people working on <a href="https://github.com/vcr/vcr">VCR</a>, and a bunch of little tools. But mostly it was that people got really tired of RubyGems and Bundler going down, so they started paying money to André, and then André made a non-profit, and so now this is Ruby Together.
+So he got that enough that he made a non-profit out of it and now there's six of us, we go, we help out, we help out on a few other things like smaller libraries, there's some people working on <a href="https://github.com/vcr/vcr">VCR</a>, and a bunch of little tools. But mostly it was that people got really tired of RubyGems and Bundler going down, so they started paying money to André, and then André made a non-profit, and so now this is Ruby Together.
 
 [19:08] szabgab: Okay. Thank you very much. A lot of things I've learned today. Do you have anything we haven't mentioned that you would like to talk about or would you like to shout-out to some people, or...?
 
