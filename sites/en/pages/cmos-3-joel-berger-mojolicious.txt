@@ -20,7 +20,7 @@ and on how to get started with it.
 
 <podcast>
 
-<a href="https://www.youtube.com/watch?v=O7JGQqCUOJM">Watch on YouTube</a> or <a href="/media/cmos-3-joel-berger-mojolicious.mp4">download the mp4</a>.
+<a href="https://www.youtube.com/watch?v=O7JGQqCUOJM">Watch on YouTube</a> or <a href="/media/cmos-3-joel-berger-mojolicious.mp4">download the video</a>.
 
 <div id="person">
 <h2>Joel Berger</h2>

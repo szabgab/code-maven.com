@@ -20,9 +20,13 @@ He also told how he got into web programming in Nigeria in the '90s.
 
 =abstract end
 
+<screencast file="/media/cmos-7-obinwanne-hill-restivejs" youtube="7JYwWOVeB9w" />
+
 <podcast>
 
-<a href="https://www.youtube.com/watch?v=7JYwWOVeB9w">Watch on YouTube</a> or <a href="/media/cmos-7-obinwanne-hill-restivejs.mp4">download the mp4</a>.
+<!--
+<a href="https://www.youtube.com/watch?v=7JYwWOVeB9w">Watch on YouTube</a> or <a href="/media/cmos-7-obinwanne-hill-restivejs.mp4">download the video</a>.
+-->
 
 <div id="person">
   <h2>Obinwanne Hill</h2>

@@ -20,7 +20,7 @@ Our main subject however is <a href="http://graphql.org/">GraphQL</a> is the nex
 
 <podcast>
 
-<a href="https://www.youtube.com/watch?v=Bd6A9TdGhm0">Watch on YouTube</a> or <a href="/media/cmos-6-tally-barak-graphql.mp4">download the mp4</a>.
+<a href="https://www.youtube.com/watch?v=Bd6A9TdGhm0">Watch on YouTube</a> or <a href="/media/cmos-6-tally-barak-graphql.mp4">download the video</a>.
 
 <div id="person">
   <h2>Tally Barak</h2>

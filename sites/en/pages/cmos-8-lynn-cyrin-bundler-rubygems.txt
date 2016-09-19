@@ -18,9 +18,14 @@ manager at <a href="https://rubytogether.org/">Ruby Together</a> and deal with
 
 =abstract end
 
-<screencast file="/media/cmos-8-lynn-cyrin-bundler-rubygems" />
+<screencast file="/media/cmos-8-lynn-cyrin-bundler-rubygems" youtube="oJVfQFcjTJs" />
 
 <podcast>
+
+<!--
+<a href="https://www.youtube.com/watch?v=oJVfQFcjTJs">Watch on YouTube</a> or <a href="/media/cmos-8-lynn-cyrin-bundler-rubygems.mp4">download the video</a>.
+-->
+
 
 <div id="person">
   <h2>Lynn "Cyrin" Conway</h2>
