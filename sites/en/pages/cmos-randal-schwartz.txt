@@ -1,0 +1,83 @@
+=title CMOS #: Randal Schwartz
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=tags interview, cmos
+=mp3 /media/randal-schwartz.mp3, 25823933, 25.01
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/randal-schwartz" />
+
+<podcast>
+
+<div id="person">
+  <h2></h2>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Randal_L._Schwartz">Randal L. Schwartz</a></li>
+    <li><a href="http://www.stonehenge.com/">Stonehenge consulting</a> the company of Randal</li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/PDP-8">PDP-8</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/PDP-11">PDP-11</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Teletype_Model_33">ASR 33</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/TeX">TeX</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Smalltalk">Smalltalk</a></li> 
+    <li><a href="https://twit.tv/shows/floss-weekly">Floss weekly</a></li>
+    <li><a href="http://www.leoville.com/">Leo Laporte</a></li>
+    <li><a href="">Geek crusises podcast?</a></li>
+    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a></li>
+    <li><a href="https://nodejs.org/en/">Node.JS</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/ECMAScript">ECMA 5</a></li>
+    <li><a href="https://www.dartlang.org/">Dart</a></li>
+    <li><a href="https://www.lua.org/">Lua</a></li>
+    <li><a href="http://fisl.softwarelivre.org/">FISL</a></li>
+    <li><a href="http://www.insightcruises.com/">Insight Cruises</a></li>
+    <li><a href="http://www.insightcruises.com/standard_interface/about_neil.htm">Neil Bauman</a></li>
+    <li><a href="http://perl6.org/">Perl 6</a></li>
+    <li><a href="http://act.yapc.eu/">YAPC::EU</a></li>
+    <li><a href="https://www.redhat.com/">Red Hat</a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [randal guest1 Randal Schwrtz]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] randal:
+    Hi 
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+

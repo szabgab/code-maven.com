@@ -1,0 +1,101 @@
+=title CMOS #: Michael Kennedy
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=tags interview, cmos
+=mp3 /media/.mp3, 17224989, 19:24
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with  about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/" />
+
+<podcast>
+
+<div id="person">
+  <h2></h2>
+  <ul>
+    <li><a href="https://blog.michaelckennedy.net/">Michael Kennedy</a></li>
+    <li><a href="https://github.com/mikeckennedy">GitHub</a></li>
+    <li><a href="https://twitter.com/mkennedy">Twitter: @mkennedy</a></li>
+    <li><a href="https://talkpython.fm/">Talk Python To Me</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+More of a facilitator and educator
+   
+Three courses, via kickstarter:
+  <ul>
+    <li><a href="https://talkpython.fm/course">Python Jumpstart by Building 10 Apps</a></li>
+    <li><a href="https://talkpython.fm/pythonic">Write Pythonic Code Like a Seasoned Developer</a></li>
+    <li><a href="https://talkpython.fm/launch">Python for Entrepreneurs</a></li>
+  </ul>
+
+The projects of Michael:
+
+    <li><a href="https://github.com/mikeckennedy/cache-tier">cache tier</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+
+* optimistic_concurrency_mongodb_dotnet
+* mongodb-query-helper-for-dotnet
+* web-apps-hotkeys
+* course demos
+* <a href="https://github.com/mikeckennedy/talk-python-transcripts">transcripts</a>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+
+The projects mentioned on he podcast
+  <ul>
+    <li><a href="https://bitbucket.org/ecollins/passlib/wiki/Home">passlib</a></li>
+    <li><a href="https://hypothesis.readthedocs.io/en/latest/">HypothesisWorks / hypothesis-python</a></li>
+    <li><a href="https://talkpython.fm/episodes/show/67/property-based-testing-with-hypothesis">Episode #67 on hypothesis</a></li>
+    <li><a href="https://github.com/Microsoft/Pyjion">Microsoft / pyjion</a></li>
+    <li><a href="https://talkpython.fm/episodes/show/49/microsoft-s-jit-based-python-project-pyjion">Episode #49 on Pyjiton</a></li>
+    <li><a href="http://www.sqlalchemy.org/">sqlalchemy</a></li>
+    <li><a href="https://talkpython.fm/episodes/show/5/sqlalchemy-and-data-access-in-python">Episode #5 on sqlalchemy</a></li>
+  </ul>
+
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [michael guest1 Michael Kennedy]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] michael:
+    Hi
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
