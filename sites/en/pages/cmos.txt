@@ -17,12 +17,16 @@ or via <a href="https://itunes.apple.com/il/podcast/code-maven/id1153427237">iTu
 
 <h2>About the show</h2>
 
-There were four types of guests so far:
+If you are thinking about suggesting yourself or someone else to be on the show, but were wondering if that would be
+relevant, I've tried to group together the types of guests we had so far:
+
 <ul>
-  <li>Project managers like <a href="http://code-maven.com/cmos-5-lucy-greco-dictationbridge">Lucy Greco</a>.</li>
-  <li>Core developers of a project like <a href="http://code-maven.com/cmos-7-obinwanne-hill-restivejs">Obinwanne Hill</a>.</li>
-  <li>Contributors of a project like <a href="http://code-maven.com/cmos-3-joel-berger-mojolicious">Joel Berger</a>.</li>
-  <li>Enthusiastic users like <a href="http://code-maven.com/cmos-6-tally-barak-graphql">Tally Barak</a>.</li>
+  <li>Project managers like <a href="http://code-maven.com/cmos-5-lucy-greco-dictationbridge">Lucy Greco</a> and
+     <a href="http://code-maven.com/cmos-8-lynn-cyrin-bundler-rubygems">Lynn 'Cyrin' Conway</a></li>
+  <li>Core developers of a project like <a href="http://code-maven.com/cmos-7-obinwanne-hill-restivejs">Obinwanne Hill</a> and
+      <a href="http://code-maven.com/cmos-4-tom-hudson-gron">Tom Hudson</a>, or <a href="http://code-maven.com/cmos-9-ire-aderinokun">Ire Aderinokun</a></li>
+  <li>Contributor of a project like <a href="http://code-maven.com/cmos-3-joel-berger-mojolicious">Joel Berger</a>.</li>
+  <li>Enthusiastic (and very knowledgable) user like <a href="http://code-maven.com/cmos-6-tally-barak-graphql">Tally Barak</a>.</li>
 </ul>
 
 The episodes usually last less than 25 minutes.
