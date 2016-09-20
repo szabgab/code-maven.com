@@ -274,7 +274,7 @@ That's a cool project.
 But I bring it up because there's all of this, there's lots of work around JIT, and experimentation on how the internals of Python run, right now.
  And this is just one of them, that highlights it.
 
-[16:01] name: 
+[16:01] szabgab: 
 That's good.  
 That's a "yes"!
 
