@@ -1,5 +1,6 @@
 =title CMOS #6: Tally Barak on GraphQL
 =timestamp 2016-09-10T11:01:01
+=description Interview with Tally Barak about GrahpQL being the next big protocol after SOAP and REST.
 =indexes podcast, GraphQL, Meteor
 =tags interview, cmos
 =mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
@@ -14,7 +15,7 @@
 
 Interview with <a href="http://www.morffy.com">Tally Barak</a> on how a 13 year old girl inspired her to get into programming. Getting back to programming after a 15 year long break. The impact of GitHub and Open Source.
 
-Our main subject however is <a href="http://graphql.org/">GraphQL</a> is the next big thing after SOAP and REST.
+Our main subject however is <a href="http://graphql.org/">GraphQL</a> being the next big thing after SOAP and REST.
 
 =abstract end
 
