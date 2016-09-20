@@ -1,7 +1,7 @@
 =title CMOS #8: Lynn "Cyrin" Conway on Bundler, RubyGems and Ruby Together
 =timestamp 2016-09-19T08:01:01
 =indexes podcast, Ruby, Bundler, RubyGems
-=description Interview with Lynn "Cyrin" Conway about her work as a project leader at Ruby Together for Bundler and RubyGems.
+=description Interview with Lynn 'Cyrin' Conway about her work as a project leader at Ruby Together for Bundler and RubyGems.
 =tags interview, cmos
 =mp3 /media/cmos-8-lynn-cyrin-bundler-rubygems.mp3, 18590774, 19:54
 =img /img/cmos/lynn_cyrin.jpg
