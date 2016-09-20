@@ -1,8 +1,11 @@
-=title CMOS #: Ire Aderinokun 
+=title CMOS #9: Ire Aderinokun - Khaled Bot, Can I Use Embed, Formhack
 =timestamp 2016-09-03T19:01:01
-=indexes podcast 
+=indexes podcast, CSS, HTML, JavaScript 
+=description Interview with Ire Aderinokun about Khaled Bot, the Can I Use Embed, and Forhack a configurable form reset.
 =tags interview, cmos
-=mp3 /media/cmos-9-ire-aderinokun.mp3, 21405046,
+=mp3 /media/cmos-9-ire-aderinokun.mp3, 21405046, 23:45
+=img /img/cmos/ire_aderinokun.jpg
+=alt Ire Aderinokun
 =status draft
 =author szabgab
 =archive 1
@@ -11,12 +14,11 @@
 =abstract start
 
 Interview with <a href="http://ireaderinokun.com/">Ire Aderinokun</a> about
-<a href="http://khaledbot.com/">Khaled Bot</a>, 
+<a href="http://khaledbot.com/">Khaled Bot</a> a Slack-bot, 
 <a href="http://caniuse.bitsofco.de/">The (Unofficial) CanIUse Embed</a>,
-and <a href="http://formhack.io/">Formhack</a>.
+and <a href="http://formhack.io/">Formhack</a> a configurable form reset.
 
-In which I've also learned what are CSS resets.
-Progressive web apps
+In which I've also learned what are CSS resets and heared about progressive web apps.
 
 =abstract end
 
@@ -96,13 +98,13 @@ Luckily it worked out well because I'm still doing it and I don't have to go bac
 
 [02:37] szabgab: So does either of these, law school or learning psychology, any of these have an impact on your work or ..?
 
-[02:48] ireade: I don't think it has an impact very directly but it's helped me in the self-skills, I think. 
+[02:48] ireade: I don't think it has an impact very directly but it's helped me in the soft-skills aspects, I think. 
 So for example, for law, I learned how to write well and articulate what I'm trying to explain, how I'm trying to explain things to people, so whenever I write things, like articles for my blog, I think that my background in law really helps me try to develop my writing skills. 
 And psychology, I think it helps in user-experience design a lot, because it really allows me to have a high level of empathy for people and think about how they're experiencing something. 
 So I think it helps in that aspect. 
 But generally, it's more impacted my soft skills in this job rather than actually learning how to code.
 
-[03:46] szabgab: Yeah, well I guess the actual code is not, there is the psychology of the users, of course, but it's more of understanding how people might use your website, of course, so there might be a connection between <a href="https://en.wikipedia.org/wiki/User_experience_design">UI</a> and psychology?
+[03:46] szabgab: Yeah, well I guess the actual code is not, there is the psychology of the computer, of course, but it's more of understanding how people might use your website, of course, so there might be a connection between <a href="https://en.wikipedia.org/wiki/User_experience_design">UI</a> and psychology?
 
 [04:10] ireade: Yeah, I think so, because it's all about trying to understand other people, and psychology is also about trying to understand other people, so they really merge in that aspect, yes.
 
@@ -135,7 +137,7 @@ But we're also trying to break out into neighboring countries like Ghana, also p
 So you explained a little bit about how you got into computers and design and building websites, but how did you get from there to building stuff which is open source?
 
 [06:51] ireade: I think it's kind of to do with the way I got into this field to begin with. 
-So because it was a hobby for myself instead of a job, I've always been working on side-projects and things, all of this time, so it just seemed like something sort of natural to develop into making things open source. 
+So because it was a hobby for myself rather than a job, I've always been working on side-projects and things, all of this time, so it just seemed like something natural to develop into making things open source. 
 So whenever I would work on something that I just thought was fun or interesting, I always find it really helpful to make it open source and see what other people think. 
 
 Because that's kind of how I learned myself, by looking at what other people had done, people putting their code online and making things open source so other people can learn from it. 
@@ -145,14 +147,16 @@ And sometimes it's just a silly project that I work on, so it's not even somethi
 [08:03] szabgab: Okay, so what would be the most interesting project that you, I don't know, that made you the happiest to work on, these open source..?
 
 [08:12] ireade: Made me the happiest? 
-Well, that's a difficult question! I worked on a bunch of different things, so different things kind of hit different things for me as well, but I think one of the most fun things that I worked on was the Slack bots, which is called <a href="http://khaledbot.com/">Khaled Bot</a>. 
+
+Well, that's a difficult question! I worked on a bunch of different things, so different things kind of hit different things for me as well, but I think one of the most fun things that I worked on was the Slack bot, which is called <a href="http://khaledbot.com/">Khaled Bot</a>. 
 So I think awhile ago, there was kind of a <a href="https://en.wikipedia.org/wiki/DJ_Khaled">DJ Khaled</a> phase, when people were making things to do with DJ Khaled, and I think I saw someone had made sort of a <a href="http://khaledipsum.com/">Lorem Ipsum version of DJ Khaled</a>. 
 It just kind of brought the idea to me because I was also playing around with Slack bots, to make a <a href="http://khaledbot.com/">DJ Khaled Slack bot</a>, so that was really funny for me to do. 
+
 I was personally cracking up to myself while I was making  it, while I was testing it, and seeing how it works, that was really fun to make.  
 So I just made this bot that pretends to be DJ Khaled, so you can talk to it and then it will say things like "Major Key" and all of that. 
 So that was really fun and I think a lot of people enjoyed it as well, so that was fun for me, probably one of the most fun things. 
 
-Because a lot of my other things, not all of them are just random, fun things. 
+Because a lot of my other projects, not all of them are just random, fun things. 
 Some of them are actual utility, so they're less funny but probably more useful, because I don't think this Khaled bot is very useful!
 
 [09:41] szabgab: So how can people meet this Khaled bot? 
@@ -176,21 +180,24 @@ Good.
 
 [11:15] szabgab: Okay, so what other projects? 
 There's this <a href="http://caniuse.com/">"Can I use?"</a> project, something like that, right? 
-That's on your reference list?
+That's on your website?
 
 [11:25] ireade: Yeah, so this is probably one of the biggest things I've worked on, because it did take a long time for me to do. 
 But because I write a blog, it's called <a href="https://bitsofco.de/">Bits of Code</a>, and I write weekly articles about, for example, development. 
+
 So obviously, when I'm writing about things like CSS features or JavaScript features you come across, you always want to know whether there's support for these features across all the various browsers. 
 So probably the most popular website for this is this website, called <a href="http://caniuse.com/">"Can I Use?"</a> and they actually have their data open source, so they have an API where you can just connect to and just get all the data. 
 
-So I had the idea of creating an embedded widget of the information, so whenever I'm writing a blog post, if I'm talking about Viewport units or CSS variables, I could just drop in the embed, so people could, while they're reading, just see what the support is for this feature at the moment. 
+So I had the idea of creating an embeddable widget of the information, so whenever I'm writing a blog post, if I'm talking about Viewport units or CSS variables, I could just drop in the embed, so people could, while they're reading, just see what the support is for this feature at the moment. 
 So I created that, it's probably one of the biggest things that I've created by myself because I learned a lot, I learned a lot about it because I don't think I'm that amazing at JavaScript but it's through working on things like this that you develop your skills, so it taught me a lot. 
+
 And so I put it up, I think you can go to <a href="http://caniuse.bitsofco.de/">CanIUse.bitsofco.de</a> or if you just Google "Can I Use Embed" it should show up somewhere. 
 So you just have this little widget that you can embed in your blog post or wherever, and you can see the support for something like CSS, JavaScript, HTML features.
 
 [13:12] szabgab: So it can actually tell, it can easily tell what kind of, if a certain feature, so which browser supports a certain feature that you're talking about, right?
 
 [13:23] ireade: Yeah, exactly. 
+
 It has something that kind of looks like a table, and it has all the major browsers, and then you can just say that you want to see what the feature support is for the current versions of each browser. 
 Or you can say you want to see what will be in the future or the past. 
 And then you just drop that there and then it's responsive, so it will look nice on your site.
@@ -198,8 +205,8 @@ And then you just drop that there and then it's responsive, so it will look nice
 [13:47] szabgab: Okay, and if it's embedded, then the other blogs that use this, you actually know what blogs are using this, right? 
 Because you have it in your own log?
 
-[14:00] ireade: Yeah, I haven't done much tracking actually, but occasionally I do see, I think I do have some logs on it. 
-Or sometimes I just see, maybe from reading an article and someone has used it,and then it's surprising to me, because I'm reading an article and someone has embedded it there and it's kind of like, "Oh, that's cool!"
+[14:00] ireade: Yeah, I haven't done much tracking actually, but occasionally I do see, I think I do have some analytics on it. 
+Or sometimes I just see, maybe from reading an article and someone has used it, and then it's surprising to me, because I'm reading an article and someone has embedded it there and it's kind of like, "Oh, that's cool!"
 
 [14:21] szabgab: Yeah, I guess it's a really good thing when you do some work and then suddenly you encounter that someone is using it.
 
@@ -212,8 +219,9 @@ Or are they finished and there's no on-going maintenance?
 
 [15:06] ireade: For the most parts, they are done. 
 I do have a lot of ideas for how to make it better, and I think, I mean I did this almost six months ago, so I feel like if I went back and looked at the code, I probably could make a lot of improvements on it now. 
+
 But for the Embed, in particular, there are some things I want to do. 
-For example, because it's an iframe, you can't really use it in GitHub ReadMes, and that's something that some people have requested, "How can we use it for that?" 
+For example, because it's an iframe, you can't really use it in GitHub READMEs, and that's something that some people have requested, "How can we use it for that?" 
 So I had this idea of making it like a canvas thing, so people can just download it as an image as well. 
 So that's something that's been on my to-do list for awhile, and I hope to have that feature out soon, if I have some time. 
 But if anyone wants to help me out with it, that'd be great as well, because it's open source, people can contribute as well. 
@@ -235,7 +243,7 @@ What is a reset?
 
 [16:48] ireade: Yeah, let me try. 
 So when you are creating forms in HTML, forms and everything looks different in different browsers. 
-So if I just put an input and an event that says "Okay, I want the user to be able to input text here." 
+So if I just put an input element that says "Okay, I want the user to be able to input text here." 
 If I just drop that into the page, it's going to look different between different browsers. 
 
 So a reset, a CSS reset, is basically something that you add to try to normalize the way things look across different browsers. 
@@ -250,21 +258,23 @@ That's basically what it is.
 [18:34] szabgab: So, just to understand, I'm using Bootstrap, is it something that can work with Bootstrap, or these frameworks, or is it something that you would use, if you don't use any of these frameworks?
 
 [18:50] ireade: It's something that you would use if you don't use them. 
+
 Because, so for Bootstrap, they've already defined what the styles are going to look like. 
 So whereas, what this is, is something where you want to define what you want things to look like. 
 In Bootstrap, you can tell like buttons always have a certain look, or all these elements have a certain look, but with this, it's kind of for you to say what you want it to look like. 
+
 So it's more easy to change things using this, rather than using something like Bootstrap, where all the things are already predefined for you. 
 Whereas, this gives you the opportunity to make changes much more easily without having to write out the CSS for everything always from scratch.
 
 [19:33] szabgab: And do you have any idea how many people use this? 
 Or how many websites? 
-Do you have any feel ..?
+Do you have any feedback ..?
 
 [19:40] ireade: I don't know how many people use it, because it's something that you just include in your projects, when you probably minify your CSS. 
 I'd probably be able to tell. 
-But it has almost 300,000 GitHub now, so I guess that's how many people like it, I don't know how many people use it.
+But it has almost 300 stars on GitHub now, so I guess that's how many people like it, I don't know how many people use it.
 
-[20:05] szabgab: Yeah, I guess it's usually a lot more are using it than people just clicking on that, Formhack is not something that many people, and there are not that many people on GitHub either, just using stuff from there. 
+[20:05] szabgab: Yeah, I guess it's usually a lot more are using it than people just clicking on that is an effort that not many people make, and there are not that many people on GitHub either, just using stuff from there. 
 Yeah, that's really nice and do you have more work on that, too?
 
 [20:26] ireade: Not really, I think that has probably cooled down in terms of things that need to be done. 
@@ -276,13 +286,16 @@ What other plans do you have?
 Do you have any specific project plans, something else?
 
 [20:53] ireade: That I'm working on right now? 
+
 Lately I've been doing a bunch of work with progressive web apps, actually. 
 So I've been playing around with how to create them and things like that. 
 And I think about a month ago, I was giving a talk about progressive web apps and I created this project, which is called <a href="https://github.com/ireade/OfflineFX-Codelab">Offline FX</a>, so it's basically an FX exchange-rate app, but it's a progressive web app, obviously. 
+
 So I've been working on that and that's been really interesting. 
 I demoed how I made it into a progressive web app, so I put the source for that on my GitHub as well, so you can see how you can take a web application and convert it to a progressive web application.
 
 [21:42] szabgab: That's cool. 
+
 Okay, it was really very nice to talk to you and very educational about all these projects. 
 Do you think there are any other subjects that we haven't touched, that you would like to talk about? 
 Or anything you haven't mentioned?
@@ -310,7 +323,6 @@ I really thank you for coming on the show, it was really great, and I hope to ha
 [23:42] szabgab: Okay, bye bye.
 
 [23:44] ireade: Okay, bye!
-
 
 [/transcript]
 
