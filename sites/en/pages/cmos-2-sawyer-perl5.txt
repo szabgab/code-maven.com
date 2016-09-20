@@ -1,6 +1,7 @@
 =title CMOS #2: Sawyer X on Perl 5
 =timestamp 2016-08-24T18:08:03
 =indexes podcast, Perl, Perl 5
+=description Interview with Sawyer, the current Pumpkin of Perl 5 about his job herding the cats called Perl 5 Porters.
 =tags interview, cmos
 =mp3 /media/cmos-2-sawyer-perl5.mp3, 13049856, 24:35
 =img /img/cmos/sawyer-lowres.jpg
