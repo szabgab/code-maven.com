@@ -1,0 +1,68 @@
+=title CMOS #: Mohammad S. Anwar
+=timestamp 2016-09-03T19:01:01
+=indexes podcast, Perl, CPAN
+=tags interview, cmos
+=mp3 /media/cmos-mohammad-s-anwar.mp3, 21467513, 23:16
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/cmos-mohammad-s-anwar" />
+
+<podcast>
+
+<div id="person">
+  <h2></h2>
+  <ul>
+    <li><a href="http://www.manwar.org/"></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="http://neilb.org/">Neil Bowers</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [manwar guest1 Mohammad S. Anwar]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] manwar:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
