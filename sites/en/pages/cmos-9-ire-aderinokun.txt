@@ -1,12 +1,12 @@
 =title CMOS #9: Ire Aderinokun - Khaled Bot, Can I Use Embed, Formhack
-=timestamp 2016-09-03T19:01:01
+=timestamp 2016-09-21T08:01:01
 =indexes podcast, CSS, HTML, JavaScript 
 =description Interview with Ire Aderinokun about Khaled Bot, the Can I Use Embed, and Forhack a configurable form reset.
 =tags interview, cmos
 =mp3 /media/cmos-9-ire-aderinokun.mp3, 21405046, 23:45
 =img /img/cmos/ire_aderinokun.jpg
 =alt Ire Aderinokun
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -326,6 +326,7 @@ I really thank you for coming on the show, it was really great, and I hope to ha
 
 [/transcript]
 
+<!--
 <h2>Technical info</h2>
 
 Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -340,8 +341,4 @@ QuickTime Options:
 Recoding Option:
   Record Video: Multi-track
 </pre>
-
-
-
-
-
+-->
