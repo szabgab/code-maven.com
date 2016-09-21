@@ -83,7 +83,7 @@ By the time I was nine, I was actually writing computer programming.
 And we're talking almost 50 years ago, so this was basically reading computer manuals about the <a href="https://en.wikipedia.org/wiki/PDP-8">PDP-8</a> and the <a href="https://en.wikipedia.org/wiki/PDP-11">PDP-11</a>, back in the early days. 
 And writing programs just on paper. 
 I eventually got to code on an <a href="https://en.wikipedia.org/wiki/Teletype_Model_33">ASR 33</a> teletype, time-shared Basic, all upper-case, all very noisy. 
-And did that for five or six years, built an <h ref="https://en.wikipedia.org/wiki/IMSAI_8080">IMSAI 8080</a> and then went out in the real world, programming that type of computer more often. 
+And did that for five or six years, built an <a href="https://en.wikipedia.org/wiki/IMSAI_8080">IMSAI 8080</a> and then went out in the real world, programming that type of computer more often. 
 
 But by the time I was 16, I was gainfully employed, writing <a href="https://en.wikipedia.org/wiki/TeX">TeX</a> actually, I was being trained as a technical writer, which made me double-useful, both as a writer and as a programmer. 
 And that led me to various other careers, as well as being a trainer and eventually owning a company, that sent trainers all over the world, during the Perl heyday. 
