@@ -247,7 +247,7 @@ Give that Google's behind it, given that Google and a number of other companies 
 Given that it does compile down and work in all modern browsers, I easily see the need for like "rent a hotel room for a weekend" and have 20, 50, 100 people show up to learn about it, because single-page applications are all the rage right now, and Dart is a really solid language for that, and Google is betting on that. 
 You may say, "Where is Go in that equation?" 
 Go is great for server-side stuff, and great for the kind of things they're doing on back-ends, and although Dart can also do back-end stuff, essentially replacing Node.JS for that sort of thing, and have a single language for both back-end and front-end. 
-Dart's real win is in the front-end, being able to be transpiled over to Java's web and being able to scale to hundreds of thousands of lines of code for some of their larger applications. 
+Dart's real win is in the front-end, being able to be transpiled over to JavaScript and being able to scale to hundreds of thousands of lines of code for some of their larger applications. 
 I think that's got legs, I'm in on the groundfloor, like I was on Perl, I'm already recognized among the Dart people as being someone who can put things together. 
 I did a one-hour long intro to Dart talk that was reviewed by some of the key people in the Dart community, and they really like what I did with it, so I seem to have, again, that knack for finding something complex and finding the simplest ends of it, and I'm already there with Dart. 
 
@@ -268,7 +268,7 @@ I've had a lot of people write in and say, "I don't always want or understand th
 These sorts of things are really sort of cross-project. 
 You know, you can learn that sort of stuff about anything you want to start, and like I said, I learned a lot already by doing this show and so a lot of the audience is picking that up. 
 And we have a fun time. 
-I tell jokes sometimes and I have a bad way of making really making puns. 
+I tell jokes sometimes and I have a bad way of making really bad puns. 
 And that's kind of the way it works but I really enjoy the show, I'm going to keep doing it. 
 And I told Leo I would just keep doing this as long as he let's me, and he goes, "Well then, that makes two of us. So we'll still be doing this in 20 years, if they let us." 
 And I said, "That sounds like a great promise, Leo, thank you." 
@@ -298,7 +298,7 @@ I look forward to seeing this when it gets published.
 [24:59] szabgab: 
 Bye bye.
 
-[24:59 randal: 
+[24:59] randal: 
 Bye.
 
 [/transcript]
