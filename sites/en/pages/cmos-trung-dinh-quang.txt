@@ -1,0 +1,69 @@
+=title CMOS #: Trung Dinh Quang
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=tags interview, cmos
+=mp3 /media/cmos-10-trung-dinh-quang.mp3, 17224989, 19:24
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/cmos-10-trung-dinh-quang" />
+
+<podcast>
+
+<div id="person">
+  <h2></h2>
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+   github-explorer  what is this really?
+   https://github.com/trungdq88
+   https://twitter.com/trungdq88
+   http://dinhquangtrung.net/
+
+- My website: https://github.com/trungdq88/dinhquangtrung.net
+- My public speaks: https://github.com/trungdq88/public-speaks
+- Free code camp: https://www.freecodecamp.com/
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [foobar guest1 Foo Bar]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] foobar:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
