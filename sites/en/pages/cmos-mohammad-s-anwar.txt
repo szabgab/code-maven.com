@@ -35,10 +35,10 @@ Interview with <a href=""></a> about <a href=""></a>.
     <li><a href="https://www.perl.org/">Perl</a></li>
     <li><a href="http://neilb.org/">Neil Bowers</a></li>
     <li><a href="http://www.cpan.org/">CPAN</a></li>
-    <li><a href="http://search.cpan.org/~manwar/Map-Tube-London-0.77/">Map::Tube</a></li>
-    <li><a href="http://search.cpan.org/~manwar/Games-Domino-0.23/">Domino</a></li>
-    <li><a href="http://search.cpan.org/~manwar/Calendar-Bahai-0.36/">Bahai calendar</a></li>
-    <li><a href="http://search.cpan.org/~manwar/Calendar-Hijri-0.26/">Islamic calendar, Hijri calendar</a></li>
+    <li><a href="https://metacpan.org/pod/Map::Tube::London">Map::Tube::London</a></li>
+    <li><a href="https://metacpan.org/pod/Games::Domino">Games::Domino</a></li>
+    <li><a href="https://metacpan.org/pod/Calendar::Bahai">Calendar::Bahai</a></li>
+    <li><a href="https://metacpan.org/pod/Calendar::Hijri">Calendar::Hijri</a></li>
   </ul>
 </div>
 
@@ -145,7 +145,7 @@ And a few people also came along and joined me and started working together.
 So that was my first thing.
 
 [08:28] szabgab: 
-So is this the module called <a href="http://search.cpan.org/~manwar/Map-Tube-London-0.77/">Map::Tube</a>?
+So is this the module called <a href="https://metacpan.org/pod/Map::Tube::London">Map::Tube</a>?
 
 [08:30] manwar: 
 Yeah, that's called Map::Tube.
@@ -203,7 +203,7 @@ So whatever I did, I sent it as it is, to them.
 And as I expected, I didn't hear from them, so probably they didn't like it. 
 Once I got a feeling that my answer was not accepted, I said, "Okay, I'm going to spend more time now because now I've got a pleasure to go back to the design board, I understand how you play the game of Domino, now I went back and re-did everything from scratch." 
 I said, "I'm going to share it to my Perl  committee on CPAN, so other people can have a look," that's how I started. 
-So I pushed it to CPAN and said, "Here's my game of <a href="http://search.cpan.org/~manwar/Games-Domino-0.23/">Domino</a>." 
+So I pushed it to CPAN and said, "Here's my game of <a href="https://metacpan.org/pod/Games::Domino">Domino</a>." 
 So I'll remember, even when I get old, that was the first game I did using Perl.
 
 [13:34] szabgab: 
@@ -225,7 +225,7 @@ And I look around the calendar thing that's available on the CPAN and I said, "O
 But then I said, "I need to do something different that's not there on the CPAN already." 
 Then I said, "Okay, I'm going to do something like on a console, I'm going to display a colorful calendar, where you can have a colorful text and dates announcing, nice and fancy, color-coded calendar." 
 So I used the JavaScript code, converted it into Perl, and then started with varous different calendars. 
-For example, <a href="http://search.cpan.org/~manwar/Calendar-Bahai-0.36/">Bahai calendar</a>, or <a href="http://search.cpan.org/~manwar/Calendar-Hijri-0.26/">Islamic calendar, Hijri calendar</a>, or different type of calendar, using this JavaScript code, and I converted it to a color-coder so you get a nice colorful calendar on your terminal. 
+For example, <a href="https://metacpan.org/pod/Calendar::Bahai">Bahai calendar</a>, or <a href="https://metacpan.org/pod/Calendar::Hijri">Islamic calendar, Hijri calendar</a>, or different type of calendar, using this JavaScript code, and I converted it to a color-coder so you get a nice colorful calendar on your terminal. 
 So that's how I started that Calendar thing.
 
 [15:30] szabgab: 
