@@ -248,6 +248,8 @@ Sorry for talking too much, bye.
 
 [/transcript]
 
+<!--
+
 <h2>Technical info</h2>
 
 Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -263,4 +265,4 @@ Recoding Option:
   Record Video: Multi-track
 </pre>
 
-
+-->

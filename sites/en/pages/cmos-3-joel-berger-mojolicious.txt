@@ -298,6 +298,8 @@ And Jan Henning Thorsen, another of the Mojo core developers has one called <a h
 
 [/transcript]
 
+<!--
+
 <h2>Technical info</h2>
 
 Recorded on 24 August 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -314,3 +316,5 @@ Recoding Option:
 </pre>
 
 By the end of the recording the noise from the ventillator of my computer became pretty disturbing.
+
+-->

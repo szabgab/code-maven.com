@@ -285,6 +285,7 @@ So we're not setting any dates for anyone right now. But definitely keep an eye 
 
 [/transcript]
 
+<!--
 
 <h2>Technical info</h2>
 
@@ -299,4 +300,4 @@ Recoding Option:
 </pre>
 
 The recording stopped twice due to network failure but my son managed to stich them together.
-
+-->

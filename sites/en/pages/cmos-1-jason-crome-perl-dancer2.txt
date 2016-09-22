@@ -181,7 +181,7 @@ So thank you very much for coming on the show and I hope that in a couple of mon
 [/transcript]
 
 
-
+<!--
 <h2>Technical info</h2>
 
 Recorded on 17 August 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -199,4 +199,4 @@ Recoding Option:
 
 There are a couple of places where we had a lot of dropped frames
 and by the end of the recording the noise from the ventillator of my computer became pretty disturbing.
-
+-->

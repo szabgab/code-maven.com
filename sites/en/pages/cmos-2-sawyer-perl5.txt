@@ -264,7 +264,7 @@ also on <a href="http://blogs.perl.org/users/sawyer_x/">blogs.perl.org</a>.
 
 [/transcript]
 
-
+<!--
 
 <h2>Technical info</h2>
 
@@ -283,4 +283,4 @@ Recoding Option:
 
 There are a couple of places where we had a lot of dropped frames
 and by the end of the recording the noise from the ventillator of my computer became pretty disturbing.
-
+-->

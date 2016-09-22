@@ -180,6 +180,8 @@ We talked about what's in GitHub, apart from just pure code. So that's another e
 
 [/transcript]
 
+<!--
+
 <h2>Technical info</h2>
 
 Recorded on 9 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -194,4 +196,4 @@ QuickTime Options:
 Recoding Option:
   Record Video: Multi-track
 </pre>
-
+-->

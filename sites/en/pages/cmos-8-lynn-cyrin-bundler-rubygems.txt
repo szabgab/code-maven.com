@@ -177,6 +177,7 @@ So he got that enough that he made a non-profit out of it and now there's six of
 
 [/transcript]
 
+<!--
 
 <h2>Technical info</h2>
 
@@ -193,4 +194,4 @@ Recoding Option:
   Record Video: Multi-track
 </pre>
 
-
+-->
