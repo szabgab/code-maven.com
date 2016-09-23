@@ -1,8 +1,11 @@
 =title CMOS #10: Michael Kennedy - Talk Python To Me
 =timestamp 2016-09-03T19:01:01
-=indexes podcast,  
+=indexes podcast, passlib, hypothesis, Pyjithon, sqlalchemy
+=description Interview with Michael Kennedy about 4 Python project that were discussed on his podcast: Talk Python To Me
 =tags interview, cmos
 =mp3 /media/cmos-10-michael-kennedy.mp3, 44576759, 18:34
+=img /img/cmos/michale_kennedy.jpg
+=alt Michael Kennedy
 =status draft
 =author szabgab
 =archive 1
@@ -10,7 +13,11 @@
 
 =abstract start
 
-Interview with  about <a href=""></a>.
+Interview with <a href="https://blog.michaelckennedy.net/">Michael Kennedy</a>, the host of the
+<a href="https://talkpython.fm/">Talk Python To Me</a> podcast and the author of several
+<a href="https://training.talkpython.fm/">Talk Python Training courses</a>.
+
+We talked about a number of project that were discussed on his show: passlib, hypothesis, Pyjithon, and sqlalchemy.
 
 =abstract end
 
@@ -26,6 +33,7 @@ Interview with  about <a href=""></a>.
     <li><a href="https://twitter.com/mkennedy">Twitter: @mkennedy</a></li>
     <li><a href="https://talkpython.fm/">Talk Python To Me</a></li>
     <li><a href="https://github.com/mikeckennedy/talk-python-transcripts">transcripts</a></li>
+    <li><a href="https://training.talkpython.fm/">Talk Python Training courses</a></li>
   </ul>
 </div>
 
@@ -316,7 +324,7 @@ Bye everyone.
 
 [/transcript]
 
-
+<!--
 <h2>Technical info</h2>
 
 Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -331,5 +339,5 @@ QuickTime Options:
 Recoding Option:
   Record Video: Multi-track
 </pre>
-
+-->
 
