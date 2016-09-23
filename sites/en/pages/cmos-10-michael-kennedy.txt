@@ -4,7 +4,7 @@
 =description Interview with Michael Kennedy about 4 Python project that were discussed on his podcast: Talk Python To Me
 =tags interview, cmos
 =mp3 /media/cmos-10-michael-kennedy.mp3, 44576759, 18:34
-=img /img/cmos/michale_kennedy.jpg
+=img /img/cmos/michael_kennedy.jpg
 =alt Michael Kennedy
 =status draft
 =author szabgab
