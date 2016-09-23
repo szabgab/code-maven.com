@@ -21,7 +21,7 @@ We talked about a number of project that were discussed on his show: Scrapy, pas
 
 =abstract end
 
-<screencast file="/media/cmos-10-michael-kennedy" />
+<screencast file="/media/cmos-10-michael-kennedy" youtube="6cmmK7Gsr7A" />
 
 <podcast>
 
