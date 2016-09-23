@@ -1,7 +1,7 @@
 =title CMOS #10: Michael Kennedy - Talk Python To Me
 =timestamp 2016-09-03T19:01:01
-=indexes podcast, passlib, hypothesis, Pyjithon, sqlalchemy
-=description Interview with Michael Kennedy about 4 Python project that were discussed on his podcast: Talk Python To Me
+=indexes podcast, Scrapy, passlib, hypothesis, Pyjithon, sqlalchemy
+=description Interview with Michael Kennedy about several Python project that were discussed on his podcast: Talk Python To Me
 =tags interview, cmos
 =mp3 /media/cmos-10-michael-kennedy.mp3, 44576759, 18:34
 =img /img/cmos/michael_kennedy.jpg
@@ -17,7 +17,7 @@ Interview with <a href="https://blog.michaelckennedy.net/">Michael Kennedy</a>, 
 <a href="https://talkpython.fm/">Talk Python To Me</a> podcast and the author of several
 <a href="https://training.talkpython.fm/">Talk Python Training courses</a>.
 
-We talked about a number of project that were discussed on his show: passlib, hypothesis, Pyjithon, and sqlalchemy.
+We talked about a number of project that were discussed on his show: Scrapy, passlib, hypothesis, Pyjithon, and sqlalchemy.
 
 =abstract end
 
@@ -49,6 +49,7 @@ We talked about a number of project that were discussed on his show: passlib, hy
 
   The projects mentioned on he podcast
   <ul>
+    <li><a href="https://github.com/scrapy/scrapy">Scrapy</a></li>
     <li><a href="https://bitbucket.org/ecollins/passlib/wiki/Home">passlib</a></li>
     <li><a href="https://hypothesis.readthedocs.io/en/latest/">HypothesisWorks / hypothesis-python</a></li>
     <li><a href="https://talkpython.fm/episodes/show/67/property-based-testing-with-hypothesis">Episode #67 on hypothesis</a></li>
@@ -92,7 +93,7 @@ Yeah, absolutely.
 So I consider myself an accidental programmer. 
 I know lots of people like me. 
 So I was working on my PhD in math, working on Silicon Graphics supercomputers, trying to solve math simulations. 
-And I ended up getting into C++, and open Go, and 3D work around there, and I realized, after about a year of that, "Hey, this programming stuff is way more fun than math!" 
+And I ended up getting into C++, and OpenGL, and 3D work around there, and I realized, after about a year of that, "Hey, this programming stuff is way more fun than math!" 
 So I sort of, after a little while, stopped pursuing math and just went into programming, and I've been doing programming for about 20 years. 
 And just everyday, I think, I wake up and, "Wow, today is even more amazing than the world was yesterday!" 
 It's just so exciting to be in this industry and I've done a ton of different types of programming, and like I said, Silicon Graphics, C++, C#, JavaScript, and really Python, the last four or five years.
@@ -145,8 +146,7 @@ But it's super-rewarding, I'm really enjoying it, and my plan for the next few y
 
 [05:15] szabgab: 
 Okay, so let's start and talk a little bit about the open source projects. 
-Are there those that you're involved in? 
-And/or those that you talk about on your shows? 
+Either those that you're involved in and/or those that you talk about on your shows.
 So there are a couple of interesting ones, and I would really like to hear about them.
 
 [05:32] michael: 
@@ -214,7 +214,7 @@ There's all sorts of interesting things, so instead of writing these examples, a
 So Hypothesis is amazing for unit testing, really, really nice.
 
 [11:44] szabgab: 
-Actually, I remember now, I heard about it in one of the recent meet-ups, in our local Python meet-up group. 
+Actually, I remember now, I heard about it in one of the recent meet-ups, in our <a href="http://www.meetup.com/PyWeb-IL/">local Python meet-up group</a>. 
 And the funny thing is that, the same idea, or more or less the same idea, I have been...was part of my training course for a long time. 
 As an idea, without an actual implementation.
 
@@ -265,11 +265,12 @@ But I bring it up because there's all of this, there's lots of work around JIT, 
 
 [16:01] szabgab: 
 That's good.  
-That's a "yes"!
+
+Anything else?
 
 [16:06] michael: 
 Yeah, I've one more that I think everybody should know about, and probably many people do, but if  you're doing anything with relational databases, <a href="http://www.sqlalchemy.org/">SQLAlchemy</a>, is a really great ORM, or object-relational mapper. 
-Write a few classes, input your relationships in there, you can put your contraints, like, "Here's an email address, I want this indexed, so I can search quickly and I want it to be unique, so I don't get duplicate registrations, if I have to reset by email." 
+Write a few classes, input your relationships in there, you can put your constraints, like, "Here's an email address, I want this indexed, so I can search quickly and I want it to be unique, so I don't get duplicate registrations, if I have to reset by email." 
 Things like that. 
 So SQLAlchemy, it's great.
 
