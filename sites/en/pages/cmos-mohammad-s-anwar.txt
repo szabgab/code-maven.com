@@ -80,7 +80,7 @@ COBOL?
 [01:24] manwar: 
 COBOL,  yes, I started with the COBOL and then moved on to <a href="https://en.wikipedia.org/wiki/Pascal_(programming_language)">Pascal</a>, played with Pascal for a couple of months, and then I got attracted toward the <a href="https://en.wikipedia.org/wiki/Visual_Basic">Visual Basic</a> method, Visual Basic programming with an Oracle database, started with this. 
 Then after a couple of years, I moved to Mumbai, where I got the first possibility to work with <a href="https://www.perl.org/">Perl</a>, this was in 98, 99. 
-So those days, <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a>was in demand, but everybody was using CGI for all the web thing, so yeah, that was my first introduction with Perl. 
+So those days, <a href="https://en.wikipedia.org/wiki/Common_Gateway_Interface">CGI</a> was in demand, but everybody was using CGI for all the web thing, so yeah, that was my first introduction with Perl. 
 And since then, I've been using Perl, so that's how I started with Perl. 
 Then I got an offer in London, as a consultant, and I moved from Mumbai to London, and since then I've been here, working for various companies in London, in and around. 
 That's how I built the career.
@@ -195,15 +195,15 @@ So what other modules, you mentioned various calendar and games modules?
 [11:24] manwar: 
 Yeah, there's one more, I would like to share this with you. 
 I remember five or six years ago, I was looking for a new opportunity in London, so I applied for a Perl developer position in one of the big Perl houses in London, and so their selection procedure was, they would send you a Perl task, so you had to produce the task in maybe two hours time and you had to send them back the code. 
-So they sent me a Perl task, saying, "Okay, write a program to play a game of Domino." 
+So they sent me a Perl task, saying, <q>Okay, write a program to play a game of Domino.</q> 
 So for me, that was the first time I had ever heard of the game of Domino. 
 So for me, before even I can think of designing this module, I had to understand how the game works, how you play the game. 
 As I said, I had to start from scratch and I couldn't finish it in time. 
 So whatever I did, I sent it as it is, to them. 
 And as I expected, I didn't hear from them, so probably they didn't like it. 
-Once I got a feeling that my answer was not accepted, I said, "Okay, I'm going to spend more time now because now I've got a pleasure to go back to the design board, I understand how you play the game of Domino, now I went back and re-did everything from scratch." 
-I said, "I'm going to share it to my Perl  committee on CPAN, so other people can have a look," that's how I started. 
-So I pushed it to CPAN and said, "Here's my game of <a href="https://metacpan.org/pod/Games::Domino">Domino</a>." 
+Once I got a feeling that my answer was not accepted, I said, <q>Okay, I'm going to spend more time now because now I've got a pleasure to go back to the design board, I understand how you play the game of Domino, now I went back and re-did everything from scratch.</q> 
+I said, <q>I'm going to share it to my Perl  committee on CPAN, so other people can have a look,</q> that's how I started. 
+So I pushed it to CPAN and said, <q>Here's my game of <a href="https://metacpan.org/pod/Games::Domino">Domino</a>.</q> 
 So I'll remember, even when I get old, that was the first game I did using Perl.
 
 [13:34] szabgab: 
@@ -222,8 +222,8 @@ And in the Calendar namespace?
 Yeah, Calendar one was something, I remember, I came across a JavaScript code, I was looking at it, someone used JavaScript to deal with various types of calendars. 
 And this guy just put in online as open, so anybody can use it and do whatever they want to do with the JavaScript code. 
 And I look around the calendar thing that's available on the CPAN and I said, "Okay, I want to use this JavaScript thing and convert it into Perl." 
-But then I said, "I need to do something different that's not there on the CPAN already." 
-Then I said, "Okay, I'm going to do something like on a console, I'm going to display a colorful calendar, where you can have a colorful text and dates announcing, nice and fancy, color-coded calendar." 
+But then I said, <q>I need to do something different that's not there on the CPAN already.</q> 
+Then I said, <q>Okay, I'm going to do something like on a console, I'm going to display a colorful calendar, where you can have a colorful text and dates announcing, nice and fancy, color-coded calendar.</q> 
 So I used the JavaScript code, converted it into Perl, and then started with varous different calendars. 
 For example, <a href="https://metacpan.org/pod/Calendar::Bahai">Bahai calendar</a>, or <a href="https://metacpan.org/pod/Calendar::Hijri">Islamic calendar, Hijri calendar</a>, or different type of calendar, using this JavaScript code, and I converted it to a color-coder so you get a nice colorful calendar on your terminal. 
 So that's how I started that Calendar thing.
@@ -248,23 +248,23 @@ So what I noticed was, besides doing these command-line things, you also, I look
 
 [16:41] manwar: 
 Yeah, I'm glad you asked me this question. 
-Because as I said, I try to follow Neil Bowers as closely as possible, so when I came across his personal website, which is <a href="http://neilb.org/">neilb.org</a>, so first thing I did was, "Okay, I'm going to reserve my own webname," so I came over to <a href="http://www.manwar.org">manwar.org</a>, just to follow him, the way he did neilb.org, so I said mine was going to be manwar.org. 
+Because as I said, I try to follow Neil Bowers as closely as possible, so when I came across his personal website, which is <a href="http://neilb.org/">neilb.org</a>, so first thing I did was, <q>Okay, I'm going to reserve my own webname,</q> so I came over to <a href="http://www.manwar.org">manwar.org</a>, just to follow him, the way he did neilb.org, so I said mine was going to be manwar.org. 
 So I decided first thing, was my domain. 
-And then I thought, "What am I going to do?" 
+And then I thought, <q>What am I going to do?</q> 
 So let's see what Neil Bower is doing. 
-On his website, one of the sections is where he mentioned his various stats, like how many people uploaded to CPAN on a daily basis or weekly basis or yearly basis, kind of data, I said, "Yeah, very nice." 
-But I said, "I'm not going to copy what he did, I'm going to convert that into a different format." 
+On his website, one of the sections is where he mentioned his various stats, like how many people uploaded to CPAN on a daily basis or weekly basis or yearly basis, kind of data, I said, <q>Yeah, very nice.</q> 
+But I said, <q>I'm not going to copy what he did, I'm going to convert that into a different format.</q> 
 Exactly the same data, but in a different format. 
 I'm going to convert it into some kind of a graph, using JavaScript thing, using JSON data, converted that into a friendly chart, so that's how that all started. 
 
 So I try to keep that and that's how I also got into, I came across that Neil Bowers had started this other trend, where he used to push one change to CPAN on a daily basis and he did that for 101 consecutive days and after that he stopped it. 
 I think he had some kind of challenge among his friends and some other people in his group started doing that, and he was like a leading and then he stopped after awhile. 
-And I said, "Oh wow, I wish I could do that 101 consecutive days." 
+And I said, <q>Oh wow, I wish I could do that 101 consecutive days.</q> 
 And that's how I started and since then I've been doing it 692 days, today's the 692 consecutive day I've been pushing one change every day to CPAN. 
 
 And then I came across <a href="http://search.cpan.org/~barbie/">Barbie</a> who did, I think, 370-some odd days, consecutive days. 
-I thought whether I'm going to beat Barbie or not but I'll try and Barbie even mentioned in one of his <a hred="http://blogs.perl.org/users/barbie/2015/03/a-year-of-cpan-uploads.html">blogs</a>, saying, "I'm going to stop it after one year, I'm not going to carry on, it's too much. 
-But I think Mohammad is going to carry farther from me." 
+I thought whether I'm going to beat Barbie or not but I'll try and Barbie even mentioned in one of his <a href="http://blogs.perl.org/users/barbie/2015/03/a-year-of-cpan-uploads.html">blogs</a>, saying, <q>I'm going to stop it after one year, I'm not going to carry on, it's too much. 
+But I think Mohammad is going to carry farther from me.</q> 
 He said, good luck to me. 
 I'm carrying on, I don't know how long I'm going to carry on.
 
@@ -272,7 +272,7 @@ I'm carrying on, I don't know how long I'm going to carry on.
 So that's why you needed the modules that I ...?
 
 [19:37] manwar: 
-Yeah, after a point, I said "I have nothing more to do." 
+Yeah, after a point, I said <q>I have nothing more to do.</q> 
 So I need to go and see if I can adopt some of the most popular modules so I can do some kind of contributions, so I'll have something to push on a daily basis. 
 So that's why, yeah.
 
@@ -302,7 +302,7 @@ Would you like to say anything else just for this episode and then...?
 
 [20:42] manwar: 
 Yeah, one thing I want to say, the reason I get so much excited towards this contribution part of it is I've seen people who contribute in a big way to Perl, in general. 
-My ambition, like every time I do something and contribute in whatever small way I do, I said, "I wish I could do a bigger project in Perl," for example, there's a Dancer project going on and for example, <a href="https://metacpan.org/">meta::cpan</a>, the group of people who are working on that. 
+My ambition, like every time I do something and contribute in whatever small way I do, I said, <q>I wish I could do a bigger project in Perl,</q> for example, there's a Dancer project going on and for example, <a href="https://metacpan.org/">meta::cpan</a>, the group of people who are working on that. 
 Those are big projects.
 My ambition is, my next target is one day, I would like to be part of the code team for those so I can do something very interesting. 
 Whatever I do so far, I don't think is anywhere near them, so I wish one day, I can go and join that code team of Perl developers and contribute in a big way.
