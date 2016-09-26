@@ -1,20 +1,27 @@
-=title CMOS #: Mohammad S. Anwar
-=timestamp 2016-09-03T19:01:01
+=title CMOS #11: Mohammad S. Anwar - Contributing to CPAN every single day
+=timestamp 2016-09-26T08:01:01
 =indexes podcast, Perl, CPAN
+=description The leader of the daily CPAN contribution quest by far on inspiration and enjoying the contribution.
 =tags interview, cmos
-=mp3 /media/cmos-mohammad-s-anwar.mp3, 21467513, 23:16
-=status draft
+=mp3 /media/cmos-11-mohammad-s-anwar.mp3, 21467513, 23:16
+=img /img/cmos/mohammad_anwar.jpg
+=alt  Mohammad S. Anwar
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
 
-Interview with <a href=""></a> about <a href=""></a>.
+Interview with <a href="http://www.manwar.org/">Mohammad Anwar</a> on his contribution
+to CPAN. Mohammad has released a Perl module to CPAN every single day in the last 699 day
+and he still going strong.
+
+Hear him talk about the inspiration.
 
 =abstract end
 
-<screencast file="/media/cmos-mohammad-s-anwar" />
+<screencast file="/media/cmos-11-mohammad-s-anwar" />
 
 <podcast>
 
@@ -348,7 +355,7 @@ Bye.
 
 [/transcript]
 
-
+<!--
 <h2>Technical info</h2>
 
 Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -364,4 +371,4 @@ Recoding Option:
   Record Video: Multi-track
 </pre>
 
-
+-->
