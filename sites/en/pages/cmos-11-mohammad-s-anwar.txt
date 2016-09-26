@@ -21,7 +21,7 @@ Hear him talk about the inspiration.
 
 =abstract end
 
-<screencast file="/media/cmos-11-mohammad-s-anwar" />
+<screencast file="/media/cmos-11-mohammad-s-anwar" youtube="hS0LRP3uwW4" />
 
 <podcast>
 
