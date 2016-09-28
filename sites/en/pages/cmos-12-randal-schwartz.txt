@@ -1,12 +1,12 @@
 =title CMOS #12: Randal Schwartz the host of FLOSS Weekly
-=timestamp 2016-09-03T19:01:01
-=indexes podcast 
+=timestamp 2016-09-28T22:01:01
+=indexes podcast, FLOSS Weekly, Perl, Dart 
 =description Randal Schwartz the host of FLOSS Weekly, the largest Open Source podcast and the most prolific author of Perl books.
 =tags interview, cmos
 =mp3 /media/cmos-12-randal-schwartz.mp3, 25823933, 25.01
 =img /img/cmos/randal-schwartz.jpg
 =alt Randal Schwartz
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -17,7 +17,7 @@ Interview with <a href=""></a> about <a href=""></a>.
 
 =abstract end
 
-<screencast file="/media/cmos-12-randal-schwartz" />
+<screencast file="/media/cmos-12-randal-schwartz" youtube="YU41eecLtNI" />
 
 <podcast>
 
@@ -27,6 +27,7 @@ Interview with <a href=""></a> about <a href=""></a>.
     <li><a href="http://www.stonehenge.com/">Stonehenge consulting</a> the company of Randal</li>
     <li><a href="https://github.com/RandalSchwartz">GitHub</a></li>
     <li><a href="https://twitter.com/merlyn">Twitter: @merlyn</a></li>
+    <li><a href="https://plus.google.com/+RandalLSchwartz">Google+</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Randal_L._Schwartz">Randal L. Schwartz</a></li>
   </ul>
 </div>
