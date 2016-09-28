@@ -13,7 +13,7 @@
 
 =abstract start
 
-Interview with <a href=""></a> about <a href=""></a>.
+Interview with <a href="https://youtu.be/YU41eecLtNI">Randal Schwartz</a> the host of the <a href="https://twit.tv/shows/floss-weekly">FLOSS weekly netcast</a> and the most prolific author of Perl books.
 
 =abstract end
 
@@ -35,17 +35,9 @@ Interview with <a href=""></a> about <a href=""></a>.
 <div id="links">
   <h2>Links</h2>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/PDP-8">PDP-8</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/PDP-11">PDP-11</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Teletype_Model_33">ASR 33</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/TeX">TeX</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Smalltalk">Smalltalk</a></li> 
     <li><a href="https://twit.tv/shows/floss-weekly">Floss weekly</a></li>
     <li><a href="http://www.leoville.com/">Leo Laporte</a></li>
-    <li><a href="">Geek crusises podcast?</a></li>
     <li><a href="https://www.docker.com/">Docker</a></li>
-    <li><a href="https://en.wikipedia.org/wiki/Single-page_application">Single-page application</a></li>
-    <li><a href="https://nodejs.org/en/">Node.JS</a></li>
     <li><a href="https://en.wikipedia.org/wiki/ECMAScript">ECMA 5</a></li>
     <li><a href="https://www.dartlang.org/">Dart</a></li>
     <li><a href="https://www.lua.org/">Lua</a></li>
