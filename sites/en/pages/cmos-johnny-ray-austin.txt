@@ -1,0 +1,77 @@
+=title CMOS #: Johnny Ray Austin
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=description
+=tags interview, cmos
+=mp3 /media/cmos-johnny-ray-austin.mp3, 17224989, 19:24
+=img /img/cmos/
+=alt 
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/cmos-johnny-ray-austin" />
+
+<podcast>
+
+<div id="person">
+  <h2>Johnny Ray Austin</h2>
+  <ul>
+    <li><a href="https://johnnyray.me/"></a></li>
+    <li><a href="https://twitter.com/recursivefunk"@recursivefunk</a></li>
+    <li>Director of Technology at <a href="https://isl.co/">ISL</a></li>
+    <li><a href="https://medium.com/@recursivefunk">Blog</a></li>
+    <li><a href="https://github.com/recursivefunk">GitHub</a></li>
+    <li><a href="http://technical.ly/dc/2016/08/08/johnny-ray-austin/">iStrategyLabs’ Johnny Ray Austin almost became an aerospace engineer</a></li>
+  </ul>
+</div>
+    
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/istrategylabs">ISL GitHub repo</a></li>
+    <li><a href="https://github.com/istrategylabs/mo-static">mo-static</a></li>
+    <li><a href="https://github.com/istrategylabs/mo-django">mo-django</a></li>
+    <li><a href="">mo NodeJS ???</a></li>
+    <li><a href="https://vuejs.org/">Vue.js</a></li>
+    <li><a href="http://emberjs.com/">ember.js</a></li>
+    <li><a href="https://www.djangoproject.com/">Django</a></li>
+    <li><a href="https://github.com/audreyr/cookiecutter">cookiecutter</a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [jra guest1 Johnny Ray Austin]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] jra:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
