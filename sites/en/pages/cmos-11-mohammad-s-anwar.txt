@@ -228,7 +228,7 @@ And in the Calendar namespace?
 [14:03] manwar: 
 Yeah, Calendar one was something, I remember, I came across a JavaScript code, I was looking at it, someone used JavaScript to deal with various types of calendars. 
 And this guy just put in online as open, so anybody can use it and do whatever they want to do with the JavaScript code. 
-And I look around the calendar thing that's available on the CPAN and I said, "Okay, I want to use this JavaScript thing and convert it into Perl." 
+And I look around the calendar thing that's available on the CPAN and I said, <q>Okay, I want to use this JavaScript thing and convert it into Perl.</q> 
 But then I said, <q>I need to do something different that's not there on the CPAN already.</q> 
 Then I said, <q>Okay, I'm going to do something like on a console, I'm going to display a colorful calendar, where you can have a colorful text and dates announcing, nice and fancy, color-coded calendar.</q> 
 So I used the JavaScript code, converted it into Perl, and then started with varous different calendars. 
