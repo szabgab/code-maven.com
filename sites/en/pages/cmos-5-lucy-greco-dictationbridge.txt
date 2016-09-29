@@ -67,7 +67,7 @@ We also talked a lot about accesibility in general and accessibility of web site
 
 [01:07] lucy: Correct, yes, I'm totally blind, I've been blind since birth, and I use computers with something called a <a href="https://en.wikipedia.org/wiki/Screen_reader">screen reader</a>, which your audience may not be familiar with, so screen reader is the generic term for a piece of software, used by a person who's blind or visually-impaired, to access information on the computer screen. 
 
-It doesn't just read text, it reads things like buttons, controls, menus. It gives me the ability to say "Bring me to the menubar and read the items on the menu." It gives me the ability to move through a screen and find and discover things like buttons, controls, edit-fields, and hear text as I'm typing it, or be able to navigate an interface on a computer as effectively as a person who can just look at it and point at it with their mouse, I can actually give one of many, many commands to do any of the things I need to do, to be as effective as a sighted person on a computer.
+It doesn't just read text, it reads things like buttons, controls, menus. It gives me the ability to say <q>Bring me to the menubar and read the items on the menu.</q> It gives me the ability to move through a screen and find and discover things like buttons, controls, edit-fields, and hear text as I'm typing it, or be able to navigate an interface on a computer as effectively as a person who can just look at it and point at it with their mouse, I can actually give one of many, many commands to do any of the things I need to do, to be as effective as a sighted person on a computer.
 
 [02:19] szabgab: Right, so as I understand it, the screen reader is only reading the text and you are still typing, and I guess you don't move the mouse, do you?
 
@@ -125,13 +125,13 @@ And the problem is, is speech-dictation software doesn't communicate well with t
 
 [12:55] szabgab: Right, I can  understand this.
 
-[12:58] lucy: And when it comes to using something like Dragon on the computer, if you don't fix the mistakes it makes, it's a learning algorithm, and the recognition can actually get worse if you don't fix it. So you could dictate something like "I live in a house" and it would say "I live in a mouse." And if you don't fix the word "mouse" to "house", it would actually get worse and worse, and eventually one out of every five words would be recognized instead of four out of every five words being recognized. It degenerates very, very quickly. 
+[12:58] lucy: And when it comes to using something like Dragon on the computer, if you don't fix the mistakes it makes, it's a learning algorithm, and the recognition can actually get worse if you don't fix it. So you could dictate something like <q>I live in a house</q> and it would say <q>I live in a mouse.</q> And if you don't fix the word <q>mouse</q> to <q>house,</q> it would actually get worse and worse, and eventually one out of every five words would be recognized instead of four out of every five words being recognized. It degenerates very, very quickly. 
 
 When I used to teach people how to use dictation software, I would tell them it takes a long time, up to three to four weeks, to get a really good voice profile. It's better today, dictation software is much better than that. But it can take you as little as an hour to break a voice profile by not correcting it. I mean it just disintegrates very rapidly. It's really a very serious thing, so you can't be dictating unless you can recognize what the problems are and fix them immediately.
 
 [14:16] szabgab: So how does the <a href="http://dictationbridge.com/">DictationBridge</a> solve this problem?
 
-[14:19] lucy: So what DictationBridge is, is at the core is a DLL that one of our engineers has developed that captures the text that's being dictated, before it's actually typed to the screen, and speaks it to us. It does actually let it be typed to the screen immediately, but it speaks the text that is being captured, and echoes it back to me, so that I can hear that a mistake was made, and then I can use the Dragon correction facilities to fix that problem, or the Microsoft Speech correction facilities to fix that problem, and tell it "No, I didn't mean a mouse, I meant house" and it would go ahead and fix that, and help me at least maintain a good voice profile. 
+[14:19] lucy: So what DictationBridge is, is at the core is a DLL that one of our engineers has developed that captures the text that's being dictated, before it's actually typed to the screen, and speaks it to us. It does actually let it be typed to the screen immediately, but it speaks the text that is being captured, and echoes it back to me, so that I can hear that a mistake was made, and then I can use the Dragon correction facilities to fix that problem, or the Microsoft Speech correction facilities to fix that problem, and tell it <q>No, I didn't mean a mouse, I meant house</q> and it would go ahead and fix that, and help me at least maintain a good voice profile. 
 
 One of the other things that DictationBridge does is, both Dragon and Microsoft Speech, which we're working with both of those, have terrible interfaces. The screen reader can't actually grasp a lot of the information in those interfaces, for example, the Microsoft Speech dictation correction-window is a floating window that the screen reader couldn't actually grasp and figure out where it is on the screen, because it's not really there in a focusable place. And of course, if you try to focus in that window, the window goes away. So we've got some coding that will actually tell the screen reader where that window is, it will read the information in that window, and it will let us control the window and keep it on the screen. So it's not only giving us the echo back but it's giving us the ability to use the tools in an accessible way.
 
@@ -177,9 +177,9 @@ This is a demonstration.
 
 [17:33] screenreader: you will note that
 
-[17:34] lucy: when I use the words "wake up"
+[17:34] lucy: when I use the words <q>wake up</q>
 
-[17:36] screenreader: when I use the words "wake up"
+[17:36] screenreader: when I use the words <q>wake up</q>
 
 [17:38] lucy: the microphone did not actually echo back.
 
