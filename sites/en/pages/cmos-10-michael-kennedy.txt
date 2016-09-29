@@ -93,9 +93,9 @@ Yeah, absolutely.
 So I consider myself an accidental programmer. 
 I know lots of people like me. 
 So I was working on my PhD in math, working on Silicon Graphics supercomputers, trying to solve math simulations. 
-And I ended up getting into C++, and OpenGL, and 3D work around there, and I realized, after about a year of that, "Hey, this programming stuff is way more fun than math!" 
+And I ended up getting into C++, and OpenGL, and 3D work around there, and I realized, after about a year of that, <q>Hey, this programming stuff is way more fun than math!</q> 
 So I sort of, after a little while, stopped pursuing math and just went into programming, and I've been doing programming for about 20 years. 
-And just everyday, I think, I wake up and, "Wow, today is even more amazing than the world was yesterday!" 
+And just everyday, I think, I wake up and, <q>Wow, today is even more amazing than the world was yesterday!</q> 
 It's just so exciting to be in this industry and I've done a ton of different types of programming, and like I said, Silicon Graphics, C++, C#, JavaScript, and really Python, the last four or five years.
 
 [02:10] szabgab: 
@@ -107,7 +107,7 @@ Yeah, no it's not that much.
 It's odd that I would be one of the more-visible voices in the community, given that I've only been doing it for that long. 
 But when I created my podcast, there were zero Python podcasts. 
 There had been some good ones, but they all stopped for whatever reason, and there's a year and a half with no Python podcasts. 
-And I thought, "Well, if I can't listen to one, that's cool, I want these stories to exist, maybe I'll just have to make it myself." 
+And I thought, <q>Well, if I can't listen to one, that's cool, I want these stories to exist, maybe I'll just have to make it myself.</q> 
 So I did and the community has been so supportive, and they really seem to appreciate the conversations and the people I have on the show. 
 I mean, my show is all about the guests, I try to not make it about me. 
 So it's just finding interesting people and projects, and talk about it.
@@ -119,7 +119,7 @@ Yeah, so if I recall, somewhere I heard that you are actually turning it into a 
 Oh, yeah, so that's an interesting aspect, and I think that that touches on why some of the other podcasts failed. 
 As you know, it is a tremendous amount of work to continuously schedule, and produce, and research, the shows, and I had the chance, at the beginning of this year, back in February, a little bit before then, I had more and more ad sponsorships coming on my show. 
 I had sold out the ads for all of 2016 and it was, it turned out to be enough revenue that I could use it as a base, to sort of build other projects and what-not. 
-And I decided, "Go do something amazing, and try to make this my full-time job." 
+And I decided, <q>Go do something amazing, and try to make this my full-time job.</q> 
 So in February, I made my podcast my full-time job, and I've been building online courses that go deeper into some of the topics we cover on the podcast, for people. 
 And I've done that mostly through Kickstarter, but also through my online <a href="https://blog.michaelckennedy.net/">website</a>.
 
@@ -161,7 +161,7 @@ And just the amazing stuff that they're doing.
 So an example that really surprised me, was this open source library called <a href="https://github.com/scrapy/scrapy">Scrapy</a>. 
 So Scrapy is a screen-scraping library for Python, and you can go in and say, suppose you want to go to some kind of website, they don't have an API but the data is clearly accessible with a CSS selector, as most data is. 
 You can go in and basically turn that webpage into an API with the Scrapy library. 
-I thought, "Okay, that's cool," and I talked to probably the guy who created it, and he said, "Now what we're doing is, we create a business around this open source library." 
+I thought, <q>Okay, that's cool,</q> and I talked to probably the guy who created it, and he said, <q>Now what we're doing is, we create a business around this open source library.</q> 
 Now if I had to ask you, how would you create a business around an open source library that does web-scraping? 
 It's great that it's popular, maybe consulting, maybe training, but it's not really too much of that. 
 What they're doing is they created web-scraping as a service. 
@@ -177,7 +177,7 @@ Wow, that's great.
 That really surprised me, when I heard that, but I'm really happy for them, and that's great and so, I picked out a couple that people talk about on my show, that I thought were really cool. 
 My favorite one to talk about is this one called <a href="https://bitbucket.org/ecollins/passlib/wiki/Home">Passlib</a>, because day after day we hear about all of these companies that make major security mistakes around their web apps. 
 If you have a web app either for your own company, your side project, or for the business that you work for, and it gets hacked, like these things do where the database gets leaked. 
-Not even necessarily through your app, like the <a href="https://www.patreon.com/">Patreon</a> guys got "hacked," their site got hacked because somebody left a development server up and running, and the server itself was not properly secured. 
+Not even necessarily through your app, like the <a href="https://www.patreon.com/">Patreon</a> guys got <q>hacked,</q> their site got hacked because somebody left a development server up and running, and the server itself was not properly secured. 
 It was not that there was any vulnerability in the code, it's just woops, the testing server was improperly secured. 
 And so if somebody gets hold of your code, that's not good. 
 Right, it's not good if they get hold of your data, but Passlib, what it does, is it employs all the best practices to automatically use the right hashing for one-way encryption on your code. 
@@ -205,10 +205,10 @@ A little bit, I think from you, from another podcast perhaps.
 [10:33] michael: 
 Yeah, perhaps. 
 So the idea is, with a traditional unit test, we had to come up with a nomenclature around this, words, and so we called that example-based testing. 
-The way people normally write tests, is they say, "Here's a test, and if I have this user, and they have this ID, or maybe they're this age, and they try to create an account with this email, something will happen." 
+The way people normally write tests, is they say, <q>Here's a test, and if I have this user, and they have this ID, or maybe they're this age, and they try to create an account with this email, something will happen.</q> 
 Or, if you tried to purchase this thing for this price, something would happen. 
 And you actually set up those numbers and details. 
-With Hypothesis, you express things like, "I would like to test, with one of the existing users, buying this product, with some number between 0 and 100." 
+With Hypothesis, you express things like, <q>I would like to test, with one of the existing users, buying this product, with some number between 0 and 100.</q> 
 And it will try all the permutations and variations, and it will seek out and find those little edge cases, where you're off by one or, if you don't say anything, it'll try to buy it for a negative price, and your system should catch that, but if it doesn't... 
 There's all sorts of interesting things, so instead of writing these examples, and having one by one cases, you give it the relationships of the data, and it automatically tries a bunch of variations. 
 So Hypothesis is amazing for unit testing, really, really nice.
@@ -237,7 +237,7 @@ It can't give you the expected value, right?
 [13:01] michael: 
 Yes, I think there are ways to check the expected value, but you have to basically compute the expected value or something like that. 
 So it's not automatic. 
-It will do interesting things, like if you've got to go through a series of steps, it will try the steps in a bunch of different orders, and if it finds an error, it will say, "Well, I tried to create an account and then buy something, and that worked and it should have failed because you didn't enter your billing information" or whatever. 
+It will do interesting things, like if you've got to go through a series of steps, it will try the steps in a bunch of different orders, and if it finds an error, it will say, <q>Well, I tried to create an account and then buy something, and that worked and it should have failed because you didn't enter your billing information</q> or whatever. 
 It'll go through some pretty advanced stuff, but it's not magic. 
 Most of the time, it's just, instead of writing one example test, you might one property-based test and it's really like 100 example tests. 
 Yeah, so Hypothesis, that's definitely one of the cool projects that's out there.
@@ -245,7 +245,7 @@ Yeah, so Hypothesis, that's definitely one of the cool projects that's out there
 Another one that I'd like to point out, because it's probably the stand-out project in this area, but this area is very interesting right now, is this thing called <a href="https://github.com/Microsoft/Pyjion">Pyjion</a>, from Microsoft of all places, for Python. 
 And what it is, it is an extension to the main, primary Python runtime or implementation on the <a href="http://cython.org/">CPython</a> implementation, that adds <a href="https://en.wikipedia.org/wiki/Just-in-time_compilation">JIT</a> capability, as a general concept. 
 So right now Python is an interpretative language, unless you use other implementations, or runtimes like <a href="http://pypy.org/">PyPy</a>, <a href="http://ironpython.net/">IronPython</a>, <a href="http://www.jython.org/">Jython</a>. 
-But those all come with drawbacks, "Oh you can get this really great performance, like Pypy's five times faster, but you can't use a bunch of the libraries you know." 
+But those all come with drawbacks, <q>Oh you can get this really great performance, like Pypy's five times faster, but you can't use a bunch of the libraries you know.</q> 
 Similarly, for IronPython, and so on. 
 But this Pyjion thing is basically, instead of forking the implementation and rewriting it, it's trying to create a framework for people to plugin different JIT implementations into the existing one. 
 So as a community, everybody can come together and work on making the language faster, without forking it with these trade-offs.
@@ -256,7 +256,7 @@ That's interesting, seems like far, far away from the others, that are more like
 [15:12] michael: 
 Well, yes, right, you would not be using this. 
 But hopefully this is a foundation of things to come, that makes all of the libraries faster. 
-But I think it's really interesting because they're saying, "We're building this JIT framework and this library to help you implement JITs in C++, and they actually have two implementations of their JIT. 
+But I think it's really interesting because they're saying, <q>We're building this JIT framework and this library to help you implement JITs in C++,</q> and they actually have two implementations of their JIT. 
 One is the .NET core framework, which is cross-platform, this new thing from Microsoft, and it has a JIT in it. 
 But they're also using the V8 JavaScript compiler as one of the JIT implementations for Python, which is just, they're trying some funky stuff. 
 That's a cool project.
@@ -270,7 +270,7 @@ Anything else?
 
 [16:06] michael: 
 Yeah, I've one more that I think everybody should know about, and probably many people do, but if  you're doing anything with relational databases, <a href="http://www.sqlalchemy.org/">SQLAlchemy</a>, is a really great ORM, or object-relational mapper. 
-Write a few classes, input your relationships in there, you can put your constraints, like, "Here's an email address, I want this indexed, so I can search quickly and I want it to be unique, so I don't get duplicate registrations, if I have to reset by email." 
+Write a few classes, input your relationships in there, you can put your constraints, like, <q>Here's an email address, I want this indexed, so I can search quickly and I want it to be unique, so I don't get duplicate registrations, if I have to reset by email.</q> 
 Things like that. 
 So SQLAlchemy, it's great.
 
