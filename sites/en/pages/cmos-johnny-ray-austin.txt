@@ -52,7 +52,7 @@ Interview with <a href=""></a> about <a href=""></a>.
   [jra guest1 Johnny Ray Austin]
 
   [00:02] szabgab: 
-Hello there,  you're listening to the CMOS, to the Code Maven open source podcast and video interview series, I'm your host, Gabor Szabo, and with me is Johnny Ray Austin. 
+Hello there,  you're listening to the CMOS, to the Code Maven open source podcast and video interview series, I'm your host, Gabor Szabo, and with me is <a href="https://johnnyray.me/">Johnny Ray Austin</a>. 
 Hi Johnny!
 
 [00:13] jra: 
