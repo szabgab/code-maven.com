@@ -117,10 +117,10 @@ So, tell me your secrets, with the podcast?
 
 [04:17] randal: 
 Well, one of the things is that I crowd-source everything. 
-As I kept looking at what I needed to do to produce a particular show, it was like well, I've got to have a guest, and when I got through the short-list of all my friends, that would be good guests, I started asking the audience, "What do you want to see?" 
-And then they would throw project names at me, and then I was like, "Okay, now I've got to go look up the contact name for that, and I've got to convince him that this little, dinky podcast, which wasn't very well-known in the early days, is something they want to do." 
-And I got smarter about it after awhile, just being practical about it, I said, "Okay, I don't want to contact these people, I want the audience member to contact these people." 
-So I started saying, "Here's how you get on the podcast, here's how you get somebody on the podcast. You contact them." 
+As I kept looking at what I needed to do to produce a particular show, it was like well, I've got to have a guest, and when I got through the short-list of all my friends, that would be good guests, I started asking the audience, <q>What do you want to see?</q> 
+And then they would throw project names at me, and then I was like, <q>Okay, now I've got to go look up the contact name for that, and I've got to convince him that this little, dinky podcast, which wasn't very well-known in the early days, is something they want to do.</q> 
+And I got smarter about it after awhile, just being practical about it, I said, <q>Okay, I don't want to contact these people, I want the audience member to contact these people.</q> 
+So I started saying, <q>Here's how you get on the podcast, here's how you get somebody on the podcast. You contact them.</q> 
 The project leader, community coordinator, somebody that would be a good representative, and tell them how much you enjoy FLOSS Weekly, and have them contact me, my email address is on the website, merlyn@stonehenge.com. 
 And that's how 95% of our guests over the last nine years have been brought in. 
 By crowd-sourcing it that way, I only had to close the deal, I had to set up the public spreadsheet of all the upcoming open to-be-scheduled shows.
@@ -149,15 +149,15 @@ If I know too much, I might not ask a question.
 Whereas, if I just remain genuinely curious about how this fits in here and how that fits in there, and is there anything else like this, that sort of thing, then I'm acting as a proxy for the audience, who are probably having the same questions that I have. 
 I'm a little bit of a generalist, so it's kind of nice to be able to look at all things, and try to figure out what's going on. 
 
-The other thing I've been observing is, in the early days, I was always curious about, "How do you make money? If you give away your stuff for free?" 
+The other thing I've been observing is, in the early days, I was always curious about, <q>How do you make money? If you give away your stuff for free?</q> 
 And over the years, we've seen probably a dozen different models of how people have done this. 
-All the way from, "Well, it's just a labor of love, so we really don't care about making money" all the way up to, "Well we set it on top an entire business, around the idea that we could give away our core product, and leverage the resources of the community, to help us figure out directions to go, to actually get programming resources, people adding features that are appropriate to them, maybe even things like internationalization, which is always a tough issue, if you don't hire 50 different people to translate your stuff for you, but maybe somebody in Brazil wants to tranlate it into Brazilian Portuguese for you." 
+All the way from, <q>Well, it's just a labor of love, so we really don't care about making money</q> all the way up to, <q>Well we set it on top an entire business, around the idea that we could give away our core product, and leverage the resources of the community, to help us figure out directions to go, to actually get programming resources, people adding features that are appropriate to them, maybe even things like internationalization, which is always a tough issue, if you don't hire 50 different people to translate your stuff for you, but maybe somebody in Brazil wants to tranlate it into Brazilian Portuguese for you.</q> 
 
 That sort of thing, it's been really remarkable, seeing people at both ends of the spectrum. 
-We've also seen people sort of in the middle, where they say, "Well, we'll open source our core product but we'll keep some of it held back and ..." 
+We've also seen people sort of in the middle, where they say, <q>Well, we'll open source our core product but we'll keep some of it held back and ...</q> 
 
 Eventually even some of those go to open source from top to bottom, so we're really happy with that. 
-We also encourage people who are sort of in the middle there, to create some sort of governance board, that's outside of them, so that the project really does have an independence, and it can be more trustworthy that it will remain even if the company decides, "Oh, we're not going to do that any more. We're going to do something in Fortran or something."
+We also encourage people who are sort of in the middle there, to create some sort of governance board, that's outside of them, so that the project really does have an independence, and it can be more trustworthy that it will remain even if the company decides, <q>Oh, we're not going to do that any more. We're going to do something in Fortran or something.</q>
 
 [09:07] szabgab: 
 So, what are the, I guess you see all kinds of trends, based on your interviews or, can you pick something out from there and point out what kinds of trends you might see?
@@ -176,7 +176,7 @@ But Dart looks closer, as a language, to something like Java, with optional typi
 So I'm learning Dart in the background, I actually have a couple applications for it already, that as I learn more, I'll be able to deploy. 
 I'm also learning things like <a href="https://angularjs.org/">Angular</a>, so I can have reactive front-ends, and again, it's like there's not enough hours in the day for me to learn everything I want to learn. 
 
-I'm keeping up with Perl, but not really, I still see a feature, like in Perl 5.16, and I go, "Oh, that's in relatively modern Perl, no wonder I don't know about it." 
+I'm keeping up with Perl, but not really, I still see a feature, like in Perl 5.16, and I go, <q>Oh, that's in relatively modern Perl, no wonder I don't know about it.</q> 
 I think of Perl as whatever was back in 5.10 and 5.12, that's the latest that I was writing my books for, my trainings for. 
 So the stuff that's coming out in 5.18 and 5.20 and 5.22 now, is sort of beyond me, I just can't keep up with Perl-delta, and that's a scary thing for the number one prolific author about Perl, to not be able to keep up with what's happening in the Perl community, this is clearly an indication that Perl is alive and well, and I've kind of missed the boat, now.
 
@@ -243,7 +243,7 @@ Are you going to go back to Perl and learn what the new things in Perl are, or a
 
 [18:16] randal: 
 Well, I download and compile <a href="http://perl6.org/">Perl 6</a> every day. 
-And every time I go to <a href="http://www.yapc.org/">YAPC</a> or some other place where they're talking about Perl 6, I get excited about it, for all of a month, and then I come back and then I go, "How am I going to use this practically? None of my current clients are demanding that." 
+And every time I go to <a href="http://www.yapc.org/">YAPC</a> or some other place where they're talking about Perl 6, I get excited about it, for all of a month, and then I come back and then I go, <q>How am I going to use this practically? None of my current clients are demanding that.</q> 
 
 Clearly if I were to write training materials for that, I'd have to present it at least to 200 people, whether that's 10 classes of 20, or a giant 200 person week-end event, that's sort of the minimum for amortizing the inception cost for any class that I've ever written. 
 So I use the 200 number as kind of a rule of thumb. 
@@ -253,9 +253,9 @@ So I continue to watch what people are doing with Perl 6, I continue compiling i
 
 But, as I mentioned earlier, I think Dart has legs. 
 Given that Google's behind it, given that Google and a number of other companies are already deploying public-facing projects in it. 
-Given that it does compile down and work in all modern browsers, I easily see the need for like "rent a hotel room for a weekend" and have 20, 50, 100 people show up to learn about it, because single-page applications are all the rage right now, and Dart is a really solid language for that, and Google is betting on that. 
+Given that it does compile down and work in all modern browsers, I easily see the need for like <q>rent a hotel room for a weekend</q> and have 20, 50, 100 people show up to learn about it, because single-page applications are all the rage right now, and Dart is a really solid language for that, and Google is betting on that. 
 
-You may say, "Where is Go in that equation?" 
+You may say, <q>Where is Go in that equation?</q> 
 Go is great for server-side stuff, and great for the kind of things they're doing on back-ends, and although Dart can also do back-end stuff, essentially replacing Node.JS for that sort of thing, and have a single language for both back-end and front-end. 
 Dart's real win is in the front-end, being able to be transpiled over to JavaScript and being able to scale to hundreds of thousands of lines of code for some of their larger applications. 
 I think that's got legs, I'm in on the groundfloor, like I was on Perl, I'm already recognized among the Dart people as being someone who can put things together. 
@@ -278,15 +278,15 @@ In fact I just had a converstaion recently with Leo, we're one of the smaller sh
 He likes what I'm doing with it, he likes the directions I'm taking it, he likes the team I've put together, who were able to pick up the show, even when I was absent for six weeks, in the hospital recently, without notice unfortunately, I guess that's always the way you end up in the hospital. 
 
 So my team picked up, and Aaron Newcomb did a great job of hosting while I was gone, but Leo likes the team I've built and Leo likes the kinds of guests I'm getting on, the variety especially. 
-I've had a lot of people write in and say, "I don't always want or understand the thing you're talking about, but I listen to the way you interview them, and I listen to the things you're able to pull out, like what's the governance model, how are you making money with this, what got you started?" 
+I've had a lot of people write in and say, <q>I don't always want or understand the thing you're talking about, but I listen to the way you interview them, and I listen to the things you're able to pull out, like what's the governance model, how are you making money with this, what got you started?</q> 
 These sorts of things are really sort of cross-project. 
 You know, you can learn that sort of stuff about anything you want to start, and like I said, I learned a lot already by doing this show and so a lot of the audience is picking that up. 
 And we have a fun time. 
 
 I tell jokes sometimes and I have a bad way of making really bad puns. 
 And that's kind of the way it works but I really enjoy the show, I'm going to keep doing it. 
-And I told Leo I would just keep doing this as long as he let's me, and he goes, "Well then, that makes two of us. So we'll still be doing this in 20 years, if they let us." 
-And I said, "That sounds like a great promise, Leo, thank you." 
+And I told Leo I would just keep doing this as long as he let's me, and he goes, <q>Well then, that makes two of us. So we'll still be doing this in 20 years, if they let us.</q> 
+And I said, <q>That sounds like a great promise, Leo, thank you.</q> 
 So yeah, I'll be doing FLOSS Weekly for at least awhile longer.
 
 [23:45] szabgab: 
@@ -302,7 +302,7 @@ I think it's partially because I need to figure out what to pitch to the Perl co
 Oh wait, I could just be press again! 
 That's the other thing, is that FLOSS Weekly has allowed me to apply as press for OSCon for the last few years, even though I don't have an actual talk to give. 
 And <a href="https://www.redhat.com/">Red Hat</a> actually invited me to their conference, as press. 
-And I thought, "Well, that's the first time that's happened. That really says I've made it. That really says that FLOSS Weekly is recognized as legitimate press." 
+And I thought, <q>Well, that's the first time that's happened. That really says I've made it. That really says that FLOSS Weekly is recognized as legitimate press.</q> 
 So I'm wearing a whole 'nother hat, so my hat tree of all my hats, hanging up in the corner, has gotten a whole 'nother rung.
 
 [24:52] szabgab: 
