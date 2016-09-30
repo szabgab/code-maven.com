@@ -142,7 +142,7 @@ So whenever I would work on something that I just thought was fun or interesting
 
 Because that's kind of how I learned myself, by looking at what other people had done, people putting their code online and making things open source so other people can learn from it. 
 So as much as possible, whenever I do something, I always try to give back in that way because it was so important, it was such an important part to me learning, that I try to contribute as well. 
-And sometimes it's just a silly project that I work on, so it's not even something that I would make money off of, so it's just kind of fun to show people, "Oh, this is how I made this funny Slack bots or something like that."
+And sometimes it's just a silly project that I work on, so it's not even something that I would make money off of, so it's just kind of fun to show people, <q>Oh, this is how I made this funny Slack bots or something like that.</q>
 
 [08:03] szabgab: Okay, so what would be the most interesting project that you, I don't know, that made you the happiest to work on, these open source..?
 
@@ -153,7 +153,7 @@ So I think awhile ago, there was kind of a <a href="https://en.wikipedia.org/wik
 It just kind of brought the idea to me because I was also playing around with Slack bots, to make a <a href="http://khaledbot.com/">DJ Khaled Slack bot</a>, so that was really funny for me to do. 
 
 I was personally cracking up to myself while I was making  it, while I was testing it, and seeing how it works, that was really fun to make.  
-So I just made this bot that pretends to be DJ Khaled, so you can talk to it and then it will say things like "Major Key" and all of that. 
+So I just made this bot that pretends to be DJ Khaled, so you can talk to it and then it will say things like <q>Major Key</q> and all of that. 
 So that was really fun and I think a lot of people enjoyed it as well, so that was fun for me, probably one of the most fun things. 
 
 Because a lot of my other projects, not all of them are just random, fun things. 
@@ -169,8 +169,8 @@ So you can just add it to your Slack team and whenever you're having conversatio
 
 [10:32] szabgab: Okay, especially I guess when there's some tense situations maybe, then you can just ask Khaled bot to lighten up?
 
-[10:42] ireade: Yeah, one of my favorite features that I added, kind of for this purpose, was if you are just in a private conversation with the Khaled bot, you can just say, "Okay, just go and send something, go and talk to this person." 
-So maybe if someone is having an argument, you can privately just say, "Okay, go and just send a key to this person." 
+[10:42] ireade: Yeah, one of my favorite features that I added, kind of for this purpose, was if you are just in a private conversation with the Khaled bot, you can just say, <q>Okay, just go and send something, go and talk to this person.</q> 
+So maybe if someone is having an argument, you can privately just say, <q>Okay, go and just send a key to this person.</q> 
 And then in the middle of maybe a heated argument, DJ Khaled would just pop up and just say something, so I guess that's a good utility for the bots.
 
 [11:10] szabgab: Okay, so we made it useful now! 
@@ -179,19 +179,19 @@ Good.
 [11:13] ireade: Yeah, exactly.
 
 [11:15] szabgab: Okay, so what other projects? 
-There's this <a href="http://caniuse.com/">"Can I use?"</a> project, something like that, right? 
+There's this <a href="http://caniuse.com/"><q>Can I use?</q></a> project, something like that, right? 
 That's on your website?
 
 [11:25] ireade: Yeah, so this is probably one of the biggest things I've worked on, because it did take a long time for me to do. 
 But because I write a blog, it's called <a href="https://bitsofco.de/">Bits of Code</a>, and I write weekly articles about, for example, development. 
 
 So obviously, when I'm writing about things like CSS features or JavaScript features you come across, you always want to know whether there's support for these features across all the various browsers. 
-So probably the most popular website for this is this website, called <a href="http://caniuse.com/">"Can I Use?"</a> and they actually have their data open source, so they have an API where you can just connect to and just get all the data. 
+So probably the most popular website for this is this website, called <a href="http://caniuse.com/"><q>Can I Use?</q></a> and they actually have their data open source, so they have an API where you can just connect to and just get all the data. 
 
 So I had the idea of creating an embeddable widget of the information, so whenever I'm writing a blog post, if I'm talking about Viewport units or CSS variables, I could just drop in the embed, so people could, while they're reading, just see what the support is for this feature at the moment. 
 So I created that, it's probably one of the biggest things that I've created by myself because I learned a lot, I learned a lot about it because I don't think I'm that amazing at JavaScript but it's through working on things like this that you develop your skills, so it taught me a lot. 
 
-And so I put it up, I think you can go to <a href="http://caniuse.bitsofco.de/">CanIUse.bitsofco.de</a> or if you just Google "Can I Use Embed" it should show up somewhere. 
+And so I put it up, I think you can go to <a href="http://caniuse.bitsofco.de/">CanIUse.bitsofco.de</a> or if you just Google <q>Can I Use Embed</q> it should show up somewhere. 
 So you just have this little widget that you can embed in your blog post or wherever, and you can see the support for something like CSS, JavaScript, HTML features.
 
 [13:12] szabgab: So it can actually tell, it can easily tell what kind of, if a certain feature, so which browser supports a certain feature that you're talking about, right?
@@ -206,7 +206,7 @@ And then you just drop that there and then it's responsive, so it will look nice
 Because you have it in your own log?
 
 [14:00] ireade: Yeah, I haven't done much tracking actually, but occasionally I do see, I think I do have some analytics on it. 
-Or sometimes I just see, maybe from reading an article and someone has used it, and then it's surprising to me, because I'm reading an article and someone has embedded it there and it's kind of like, "Oh, that's cool!"
+Or sometimes I just see, maybe from reading an article and someone has used it, and then it's surprising to me, because I'm reading an article and someone has embedded it there and it's kind of like, <q>Oh, that's cool!</q>
 
 [14:21] szabgab: Yeah, I guess it's a really good thing when you do some work and then suddenly you encounter that someone is using it.
 
@@ -221,7 +221,7 @@ Or are they finished and there's no on-going maintenance?
 I do have a lot of ideas for how to make it better, and I think, I mean I did this almost six months ago, so I feel like if I went back and looked at the code, I probably could make a lot of improvements on it now. 
 
 But for the Embed, in particular, there are some things I want to do. 
-For example, because it's an iframe, you can't really use it in GitHub READMEs, and that's something that some people have requested, "How can we use it for that?" 
+For example, because it's an iframe, you can't really use it in GitHub READMEs, and that's something that some people have requested, <q>How can we use it for that?</q> 
 So I had this idea of making it like a canvas thing, so people can just download it as an image as well. 
 So that's something that's been on my to-do list for awhile, and I hope to have that feature out soon, if I have some time. 
 But if anyone wants to help me out with it, that'd be great as well, because it's open source, people can contribute as well. 
@@ -243,14 +243,14 @@ What is a reset?
 
 [16:48] ireade: Yeah, let me try. 
 So when you are creating forms in HTML, forms and everything looks different in different browsers. 
-So if I just put an input element that says "Okay, I want the user to be able to input text here." 
+So if I just put an input element that says <q>Okay, I want the user to be able to input text here.</q> 
 If I just drop that into the page, it's going to look different between different browsers. 
 
 So a reset, a CSS reset, is basically something that you add to try to normalize the way things look across different browsers. 
-Because by default, different browsers may add specific CSS rules to specific elements on the page, so you want to add something at the very beginning of your CSS to just say "Make sure everything is the same."
+Because by default, different browsers may add specific CSS rules to specific elements on the page, so you want to add something at the very beginning of your CSS to just say <q>Make sure everything is the same.</q>
 
 So forms in particular are quite difficult, because the different browsers, they have a lot more heavy influence on the way these things look, so form elements tend to look much more different between different browsers, more than other elements on the page. 
-I wanted to create a reset for forms that was also configurable, so instead of just saying "Make sure everything is this width, or has no margins, or no paddings, or something like that," it's something that you can actually configure. 
+I wanted to create a reset for forms that was also configurable, so instead of just saying <q>Make sure everything is this width, or has no margins, or no paddings, or something like that,</q> it's something that you can actually configure. 
  As you're doing the resets, you're also defining what you want it to look like as well. 
 So instead of just a basic reset, it's just something that you can, as you're doing the reset, you can style it the way you want it to be. 
 That's basically what it is.
