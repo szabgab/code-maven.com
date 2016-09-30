@@ -1,7 +1,7 @@
 =title CMOS #: Johnny Ray Austin
 =timestamp 2016-09-03T19:01:01
 =indexes podcast 
-=description Interview with Johnny Ray Austin about the mo project for creating Django based projects and VueJS for front-end development.
+=description Interview with Johnny Ray Austin about the Mo project for creating Django based projects and VueJS for front-end development.
 =tags interview, cmos
 =mp3 /media/cmos-johnny-ray-austin.mp3, 17224989, 19:24
 =img /img/cmos/johnn-ray-austin.jpg
@@ -13,7 +13,7 @@
 
 =abstract start
 
-Interview with <a href=""></a> about <a href=""></a>.
+Interview with <a href="https://johnnyray.me/">Johnny Ray Austin</a> about how changed his major from aerospace engineering to computer science and found the field he loves! He's now the Director of Technology at ISL (formerly called iStrategy Labs), which does a lot of social media AOR (agency of record), website design/development, applications, and content work. The ISL Mo project, available on their <a href="https://github.com/istrategylabs">GitHub</a>, includes skeletons for static, Django, and Node.js website deployments, to allow developers to get up and running in minutes, with a framework that complies with current best standards.
 
 =abstract end
 
@@ -119,7 +119,7 @@ So kind of move it around, left and right, up and down, or whatnot.
 But it would actually control the physical crane that was situated in a warehouse or something like that. 
 And then whatever you were able to pull out, I think you actually won that prize or something. 
 
-So that's like the sort of thing we're famous for, but other than those type of things, we do traditional web application development, websites, we do a lot of social AOR work and things like that, content production.
+So that's like the sort of thing we're famous for, but other than those type of things, we do traditional web application development, websites, we do a lot of social AOR (social media agency of record) work and things like that, content production.
 
 [05:05] szabgab: 
 So this project you mentioned, the Mo project?
@@ -312,7 +312,7 @@ Thank you, bye.
 
 <h2>Technical info</h2>
 
-Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+Recorded on 3 September 2016 with <q>Ecamm Network Call Recorder for Skype v2.6.1<q> using the following settings:
 
 <pre>
 QuickTime Options:
