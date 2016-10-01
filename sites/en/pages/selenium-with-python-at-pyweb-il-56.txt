@@ -35,4 +35,12 @@ that has responsive-design, and we had a script to test the responsiveness, thou
 I've included these examples so you can learn from <b>my</b> mistakes.
 These were both examples in progress that should be further improved for real use.
 
+<h2>Additional comments by Miki Tebeka</h2>
+
+An example on running selenium "headless" (without screen)
+<a href="https://github.com/tebeka/selenium/blob/master/Dockerfile">Dockerfile</a>
+and
+<a href="https://github.com/tebeka/selenium/blob/master/docker-test.sh">docker-test</a>
+
+
 
