@@ -1,0 +1,45 @@
+=title Logging in JavaScript applications
+=timestamp 2016-10-02T07:30:01
+=indexes console, log, debug, warn, error, info
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When writing a complex web application one of the important debugging tools is using the logging facility
+the environment provides. This can help the developer see what's going in the application without interfering
+with the real UI.
+
+=abstract end
+
+The standard way to print a message to the <a href="http://code-maven.com/open-javascript-console">JavaScript console of the web browser</a>
+is using the <hl>log</hl> method of the <hl>console</hl> object. It accepts a list of strings and objects and prints them to the console.
+
+Actually, the <hl>console</hl> object has several additional methods that can be used to fine-tune the logging.
+There <hl>debug</hl>, <hl>info</hl>, <hl>log</hl>, <hl>warn</hl>, <hl>error</hl>.
+
+In our sample JavaScript code we use all 5 of them:
+
+<include file="examples/javascript/logging/logging.js">
+
+If you'd like to try the code, here is the HTML file that will load it including a link
+to the explanation on <a href="http://code-maven.com/open-javascript-console">opening the JavaScript console</a>
+in your favorite browser.
+
+<try file="examples/javascript/logging/logging.html">
+
+If you don't want to try it now, you can check out these screenshots of the output:
+
+In Chrome the various methods have different color and accompanying icon:
+
+<img src="http://code-maven.com/img/javascript_logging_in_chrome.png" alt="console logging in Chrome" />
+
+In FireFox they are all the same color, but you still get a few icons:
+
+<img src="http://code-maven.com/img/javascript_logging_in_firefox.png" alt="console logging in FireFox" />
+
+In both case, the right-hand side of the log-line displays the line number in the original file which makes it
+easier to understand which part of the code emitted the log message.
