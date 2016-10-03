@@ -1,10 +1,12 @@
-=title CMOS #13: Trung Đinh Quang
+=title CMOS #13: Trung Đinh Quang on GitHub Explorer - a progressive web app
 =timestamp 2016-10-03T22:01:01
 =indexes podcast 
 =description About GitHub Explorer and build a web site that looks like a Windows 7 desktop.
 =tags interview, cmos
 =mp3 /media/cmos-13-trung-dinh-quang.mp3, 17224989, 19:24
-=status draft
+=img /img/cmos/trung-dinh-quang.jpg
+=alt Trung Đinh Quang
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
