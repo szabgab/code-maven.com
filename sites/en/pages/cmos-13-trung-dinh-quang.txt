@@ -1,9 +1,9 @@
 =title CMOS #13: Trung Đinh Quang on GitHub Explorer - a progressive web app
 =timestamp 2016-10-03T22:01:01
-=indexes podcast 
+=indexes podcast, progressive, CSS, JavaScript, Windows 7
 =description About GitHub Explorer and build a web site that looks like a Windows 7 desktop.
 =tags interview, cmos
-=mp3 /media/cmos-13-trung-dinh-quang.mp3, 17224989, 19:24
+=mp3 /media/cmos-13-trung-dinh-quang.mp3, 15891910, 17:26
 =img /img/cmos/trung-dinh-quang.jpg
 =alt Trung Đinh Quang
 =status show
@@ -19,12 +19,12 @@ web app and the <a href="http://dinhquangtrung.net/">Windows 7 clone</a>.
 
 =abstract end
 
-<screencast file="/media/cmos-13-trung-dinh-quang" />
+<screencast file="/media/cmos-13-trung-dinh-quang" youtube="HzF_BZeo-cg" />
 
 <podcast>
 
 <div id="person">
-  <h2></h2>
+  <h2>Trung Đinh Quang</h2>
   <ul>
     <li><a href="http://dinhquangtrung.net/">Trung Đinh Quang</a></li>
     <li><a href="https://github.com/trungdq88">GitHub</a></li>
