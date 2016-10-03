@@ -1,8 +1,9 @@
-=title CMOS #: Trung Dinh Quang
-=timestamp 2016-09-03T19:01:01
+=title CMOS #13: Trung Đinh Quang
+=timestamp 2016-10-03T22:01:01
 =indexes podcast 
+=description About GitHub Explorer and build a web site that looks like a Windows 7 desktop.
 =tags interview, cmos
-=mp3 /media/cmos-10-trung-dinh-quang.mp3, 17224989, 19:24
+=mp3 /media/cmos-13-trung-dinh-quang.mp3, 17224989, 19:24
 =status draft
 =author szabgab
 =archive 1
@@ -10,30 +11,25 @@
 
 =abstract start
 
-Interview with <a href=""></a> about <a href=""></a>.
+Interview with <a href="http://dinhquangtrung.net/">Trung Đinh Quang</a> from Vietnam
+is talking about <a href="https://github-e.com/">GitHub Explorer</a> his showcase for progressive
+web app and the <a href="http://dinhquangtrung.net/">Windows 7 clone</a>.
 
 =abstract end
 
-<screencast file="/media/cmos-10-trung-dinh-quang" />
+<screencast file="/media/cmos-13-trung-dinh-quang" />
 
 <podcast>
 
 <div id="person">
   <h2></h2>
   <ul>
-    <li><a href="http://dinhquangtrung.net/">Trung Dinh Quang</a></li>
+    <li><a href="http://dinhquangtrung.net/">Trung Đinh Quang</a></li>
     <li><a href="https://github.com/trungdq88">GitHub</a></li>
     <li><a href="https://twitter.com/trungdq88">Twitter</a></li>
   </ul>
 </div>
-   github-explorer  what is this really?
-   https://github.com/trungdq88
-   https://twitter.com/trungdq88
-   http://dinhquangtrung.net/
 
-- My website: https://github.com/trungdq88/dinhquangtrung.net
-- My public speaks: https://github.com/trungdq88/public-speaks
-- Free code camp: https://www.freecodecamp.com/
 <div id="links">
   <h2>Links</h2>
   <ul>
@@ -47,10 +43,10 @@ Interview with <a href=""></a> about <a href=""></a>.
 
 [transcript]
   [szabgab host1 Gabor Szabo]
-  [trung guest1 Trung Dinh Quang]
+  [trung guest1 Trung Đinh Quang]
 
   [00:02] szabgab: 
-Hello there, this is the CMOS, the Code Maven Open Source podcast and video interview series, I'm your host, Gabor Szabo, and with me is <a href="http://dinhquangtrung.net/">Trung Dinh Quang</a>. 
+Hello there, this is the CMOS, the Code Maven Open Source podcast and video interview series, I'm your host, Gabor Szabo, and with me is <a href="http://dinhquangtrung.net/">Trung Đinh Quang</a>. 
 Hello there!
 
 [00:15] trung: 
@@ -60,7 +56,7 @@ Hi.
 Have I pronounced your name properly or could you...?
 
 [00:20] trung: 
-Yeah, it's correct, Trung Dinh Quang, yeah.
+Yeah, it's correct, Trung Đinh Quang, yeah.
 
 [00:23] szabgab: 
 Okay, great.
@@ -89,7 +85,7 @@ And the condition is quite good here, so it's no problem.
 Oh, so you prefer to sit there instead of in the office, right?
 
 [01:08] trung: 
-Yeah, the company is quite open on the place to work, I can even work at home, but I think it's better to come to work at the shop and meet people and have a better condition, yeah.
+Yeah, the company is quite open on the place to work, I can even work at home, but I think it's better to come to work at the coffee shop and meet people and have a better condition, yeah.
 
 [01:23] szabgab: 
 Okay, so what kinds of things do you do, at this company?
@@ -121,7 +117,7 @@ Or high tech or, I don't know how to define this, where you are?
 
 [02:54] trung: 
 I got a lot of interest going in computers when I was very young. 
-I started working when I was 15, right then I was using <a href="https://en.wikipedia.org/wiki/Visual_Basic">Visual Basic</a> to write Window applications, so some fun projects. 
+I started working when I was 15, back then I was using <a href="https://en.wikipedia.org/wiki/Visual_Basic">Visual Basic</a> to write Window applications, so some fun projects. 
 And then I got into the <a href="https://en.wikipedia.org/wiki/.NET_Framework">.NET framework</a>, the Microsoft technologies and just three years ago, I started to work on web development heavily, with <a href="http://www.restivejs.com/">Restive</a> single-page web applications, and web technology with a lot of cool stuff on the Google technologies, and simple <a href="https://facebook.github.io/react/">React from Facebook</a> and <a href="https://angular.io/">Angular</a>, and a lot of framework and libraries in the web development.
 
 [03:46] szabgab: 
@@ -158,7 +154,7 @@ Well not really, I heard about progressive web app, but I don't really know what
 Yeah, so the progressive web apps is a new kind of the way to build applications. 
 You don't have to build native application for every kind of applications. 
 So now, progressive web app is a way to build app, to have native experience in it, it performs very fast, it can send you push notifications, it can work offline, and a lot of cool stuff, you'll look at that later. 
-And GitHub Explorer is one of the experiments that I have built and that one is particularly took a lot of invention from the community, which is why you found it on GitHub, right? 
+And <a href="https://github-e.com/">GitHub Explorer</a> is one of the experiments that I have built and that one is particularly took a lot of invention from the community, which is why you found it on GitHub, right? 
 So the main reason, the purpose of the project is, I want to demonstrate how a web application can perform as well as a native application. 
 So if you go to the <a href="https://github-e.com">GitHub-e.com</a>, on your mobile browser, and you start to touch anywhere, you can see the animation and the transition of the pages, as very, very well. 
 I have started it on my three-years old phone, which is a kind of low-budget phone, and I think that phone is not compatible to the native applications, so that's what's the purpose of the project. 
@@ -175,8 +171,8 @@ But yeah, you can try to simulate the phone on your browser, to see how it works
 [06:55] szabgab: Okay.
 
 [06:56] trung: 
-The progressive web app now is working very well and you can use some advanced features like, at your home screen, working offline. 
-You can open the app without condition. 
+The progressive web app now is working very well on Android and you can use some advanced features like, at your home screen, working offline. 
+You can open the app without connection. 
 So, that's a lot of conditions I have put in.
 
 [07:17] szabgab: 
@@ -193,7 +189,7 @@ The GitHub however, they don't have features like push notification, so maybe I'
 Do you have a specific idea, what you're going to build?
 
 [08:22] trung: 
-Well, yes, so far but I'm still choosing for, but one thing it has to demonstate all the stuff from the progressive web app and it has to be useful as well. 
+Well, yes, several but I'm still choosing for, but one thing it has to demonstate all the stuff from the progressive web app and it has to be useful as well. 
 The GitHub Explorer, it can demonstrate something, but if you look at my app, you can see that it's not very useful, because the GitHub as well, they have their mobile layout for the mobile devices. 
 So yeah, it's kind of more a demonstration, and I want to build something more useful. 
 So it's going to take time for that.
@@ -209,23 +205,24 @@ You mean the new company, for the website, for the idea?
 Yeah, so if GitHub didn't have its own UI for mobile, then they would want to take yours, right?
 
 [09:38] trung: 
-I think that would be the case, too, but right now they do have mobile layouts from ??? but it's not from Restive. 
+I think that would be the case, too, but right now they do have mobile layouts for mobile devices but it's not progressive. 
 It cannot work offline or cannot send main notification when I have a new pull-request, it's very simple. 
 So yeah, maybe I don't know, maybe they will contact me for, or some other guy, to make a progressive web app version of their mobile layout, I don't know. 
 But that could be the case.
 
 [10:09] szabgab: 
 That would be interesting, I think so. 
-Okay, so I also saw your <a href="http://dinhquangtrung.net/">own website</a>, which was really surprising when I visited it, because it has windows. 
+Okay, so I also saw your <a href="http://dinhquangtrung.net/">own website</a>, which was really surprising when I visited it, because it has Windows. 
 It basically looks like a Windows desktop was running in my browser. 
 So what's that about?
 
 [10:33] trung: 
 Yeah, that was my very old project, from two or three years ago, when I got bored. 
 In the time, I was learning CSS and trying to emulate some fancy design from a famous designer. 
-And nothing, whenever I make a version of my Windows 7, that was the system I was using at the time, and I was trying to build that with pure CSS and illustrate, and when I got the interface done, I thought maybe we could try to make that work, as well. 
+And nothing, whenever I make a version of my Windows 7, that was the system I was using at the time, and I was trying to build that with pure CSS and JavaScript, and when I got the interface done, I thought maybe we could try to make that work, as well. 
 And then, if we can spend more time, we can build that into some kind of cloud-computing, cloud operating system, where everyone can log in and feel like they are using their own PC, on the web. 
 So that was kind of interesting, but I wasn't have enough time to do all of that, and with the technology, and I think I can't finish that at the time. 
+
 So it was stopped at the stage where I passed my interest in stuff on the website and it's become more like my portfolio website, where I put my small contributions, as you see. 
 If you take a look at the <a href="http://dinhquangtrung.net/game/cstrike/">Counter Strike Game</a> in there, in that Windows, because I tried to build the whole ecosystem for the apps, and yeah, it stopped right there. 
 Right now, I don't want to actively develop that any more.
@@ -242,7 +239,7 @@ Okay, that's great.
 
 [12:34] trung: 
 I can send you a link later. 
-The problem with this project is I tried not to use any framework or library, everything was written in JavaScript, which right now, I wouldn't say that it's a good idea. 
+The problem with this project is I tried not to use any framework or library, everything was written in Vanilla JavaScript, which right now, I wouldn't say that it's a good idea. 
 Because if I'm going to build that right now, I'm going to use React or other single-page application framework, Angular 2 maybe, but yeah, that website wasn't using any other libraries or...I think that's one reason why it took me so long to finish and the source code is not very well-structured, as well, I was learning JavaScript with OOP from a book, and that's what I was experimenting with it. 
 It was kind of fun to work on and I was happy when people went into my website and see that and they are suprised, <q>What is this? Is this a real Windows?</q> 
 Because it's not, you know.
@@ -266,11 +263,11 @@ Anyway, do you have other projects that you might want to talk about?
 
 [14:20] trung: 
 Let me see. 
-Design and writing code, I'm actively working on, sharing in the community, in Viet Nam, I come from Viet Nam, we have technology events like <a href="http://www.barcampsaigon.org/">Barcamp</a>, <a href="http://2017.vietnamtechconference.org/">TechCon</a> for our university, and <a href="https://www.freecodecamp.com/">Free Code Camp</a>, which is popular in the world, too. 
+Besides of writing code, I'm actively working on, sharing in the community, in Vietnam, I come from Vietnam, we have technology events like <a href="http://www.barcampsaigon.org/">Barcamp</a>, <a href="http://2017.vietnamtechconference.org/">TechCon</a> for our university, and <a href="https://www.freecodecamp.com/">Free Code Camp</a>, which is popular in the world, too. 
 And I got a lot of sharing in those events, which sharing knowledge about technology is, it's what I do in my company, so yeah, that's an interesting thing I want to do.
 
 [15:06] szabgab: 
-Do you have a lot of these meet-ups or community things in Viet Nam?
+Do you have a lot of these meet-ups or community things in Vietnam?
 
 [15:14] trung: 
 I have just graduated one year ago, so I started to join in meet-ups and events from one year ago and from now, let me remember, I gave out about <a href="https://github.com/trungdq88/public-speaks">six or seven talks</a> about web technologies in the community, and doing open source. 
@@ -278,7 +275,7 @@ That's not very much, but I'm keen to do it more in the future.
 
 [15:49] szabgab: 
 Well, that's great. 
-As a closing question, I would want to, do you have any suggestions to people who want to get into open source or programming, especially people from Viet Nam?
+As a closing question, I would want to.. Do you have any suggestions to people who want to get into open source or programming, especially people from Vietnam?
 
 [16:07] trung: 
 I talk about that a lot at the events, where I got a lot of people who are at the medium level. 
@@ -301,7 +298,7 @@ See you, bye!
 
 [/transcript]
 
-
+<!--
 <h2>Technical info</h2>
 
 Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
@@ -317,4 +314,4 @@ Recoding Option:
   Record Video: Multi-track
 </pre>
 
-
+-->
