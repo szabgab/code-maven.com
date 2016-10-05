@@ -3,7 +3,7 @@
 =indexes podcast 
 =description Interview with Johnny Ray Austin about the Mo project for creating Django based projects and VueJS for front-end development.
 =tags interview, cmos
-=mp3 /media/cmos-14-johnny-ray-austin.mp3, 17224989, 19:24
+=mp3 /media/cmos-14-johnny-ray-austin.mp3, 20580712, 20:49
 =img /img/cmos/johnn-ray-austin.jpg
 =alt Johnny Ray Austin
 =status draft
@@ -17,7 +17,7 @@ Interview with <a href="https://johnnyray.me/">Johnny Ray Austin</a> about how c
 
 =abstract end
 
-<screencast file="/media/cmos-14-johnny-ray-austin" />
+<screencast file="/media/cmos-14-johnny-ray-austin" youtube="6j4tUUwOU3w" />
 
 <podcast>
 
@@ -308,21 +308,4 @@ Bye bye.
 Thank you, bye.
 
 [/transcript]
-
-
-<h2>Technical info</h2>
-
-Recorded on 3 September 2016 with <q>Ecamm Network Call Recorder for Skype v2.6.1<q> using the following settings:
-
-<pre>
-QuickTime Options:
-  Audio Encoding: Uncompressed
-  Video Quality: High
-  Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
-
-Recoding Option:
-  Record Video: Multi-track
-</pre>
-
 
