@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+ 
+  <script>
+   angular.module('DemoApp', [])
+   .controller('DemoController', ['$scope', '$log', function($scope, $log) {
+       $scope.message = "Hello World";
+       $log.debug('logging hello');
+   }]);
+  
+  </script>
+ 
+</head>
+<body ng-app="DemoApp" ng-controller="DemoController">
+ 
+<h1>Main Title</h1>
+ 
+</body>
+</html>
+
