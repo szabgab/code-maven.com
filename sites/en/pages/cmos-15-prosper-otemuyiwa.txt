@@ -1,12 +1,12 @@
 =title CMOS #15: Prosper Otemuyiwa - Laravel
-=timestamp 2016-09-03T19:01:01
+=timestamp 2016-10-07T21:01:01
 =indexes podcast 
 =description Prosper Otemuyiwa
 =tags interview, cmos
 =mp3 /media/cmos-15-prosper-otemuyiwa.mp3, 25462851, 27:37
 =img /img/cmos/prosper-otemuyiwa.jpg
 =alt Prosper Otemuyiwa
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
