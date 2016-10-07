@@ -13,7 +13,7 @@
 
 =abstract start
 
-Interview with <a href=""></a> about <a href=""></a>.
+Interview with <a href="http://goodheads.io/">Prosper Otemuyiwa</a> from Nigeria about <a href="https://laravel.com">Laravel</a>, being a GDE and a lot of other things.
 
 =abstract end
 
