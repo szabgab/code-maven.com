@@ -13,7 +13,7 @@
 
 =abstract start
 
-Interview with <a href="https://johnnyray.me/">Johnny Ray Austin</a> about how changed his major from aerospace engineering to computer science and found the field he loves! He's now the Director of Technology at ISL (formerly called iStrategy Labs), which does a lot of social media AOR (agency of record), website design/development, applications, and content work. The ISL Mo project, available on their <a href="https://github.com/istrategylabs">GitHub</a>, includes skeletons for static, Django, and Node.js website deployments, to allow developers to get up and running in minutes, with a framework that complies with current best standards.
+Interview with <a href="https://johnnyray.me/">Johnny Ray Austin</a> about how changed his major from aerospace engineering to computer science and found the field he loves! He's now the Director of Technology at <b>ISL</b> (formerly called iStrategy Labs), which does a lot of social media AOR (agency of record), website design/development, applications, and content work. The ISL Mo project, available on their <a href="https://github.com/istrategylabs">GitHub</a>, includes skeletons for static, Django, and Node.js website deployments, to allow developers to get up and running in minutes, with a framework that complies with current best standards.
 
 =abstract end
 
