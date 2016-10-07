@@ -1,0 +1,65 @@
+=title CMOS #15: Prosper Otemuyiwa
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=description Prosper Otemuyiwa
+=tags interview, cmos
+=mp3 /media/cmos-15-prosper-otemuyiwa.mp3, 25462851 , 
+=img /img/cmos/prosper-otemuyiwa
+=alt Prosper Otemuyiwa
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<podcast>
+
+<div id="person">
+  <h2>Prosper Otemuyiwa</h2>
+  <ul>
+    <li><a href="http://goodheads.io/">GoodHeads</a></li>
+    <li><a href="https://twitter.com/unicodeveloper">Twitter: @unicodeveloper</a></li>
+    <li><a href="https://github.com/unicodeveloper">GitHub</a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://en.wikipedia.org/wiki/Igbo_language">Igbo languag</a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [unicodeveloper guest1 Prosper Otemuyiwa]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] foobar:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+
+<!--
+
+<h2>Technical info</h2>
+
+Recorded on 7 October 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+
+Recoding Option:
+  Record Video: Audio only
+</pre>
+
+-->
