@@ -31,8 +31,23 @@ Interview with <a href=""></a> about <a href=""></a>.
 <div id="links">
   <h2>Links</h2>
   <ul>
-    <li><a href="https://en.wikipedia.org/wiki/Igbo_language">Igbo languag</a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://developers.google.com/experts/">Google Developer Expert</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/National_Youth_Service_Corps">National Youth Service Corps (NYSC)</a></li>
+    <li><a href="https://en.wikipedia.org/wiki/Igbo_language">Igbo language</a></li>
+    <li><a href="https://andela.com/">Andela</a></li>
+    <li><a href="https://github.com/unicodeveloper/awesome-opensource-apps">awesome-opensource-apps</a></li>
+    <li><a href="https://laravel.com/">Laravel</a></li>
+    <li><a href="https://forge.laravel.com/">Laravel Forge</a></li>
+    <li><a href="https://laravel.com/docs/envoy">Envoy</a></li>
+    <li><a href="https://laracasts.com/">Laracast</a></li>
+    <li><a href="http://railscasts.com/">Railscasts</a></li>
+    <li><a href="https://github.com/unicodeveloper/laravel-paystack">laravel-paystack</a></li>
+    <li><a href="https://github.com/unicodeveloper/laravel-emoji">laravel-emoji</a></li>
+    <li><a href="https://github.com/unicodeveloper/laravel-mentions">laravel-mentions</a></li>
+    <li><a href="https://github.com/unicodeveloper/laravel-hackathon-starter">laravel-hackathon-starter</a></li>
+    <li><a href="https://github.com/unicodeveloper/jwt-for-babies">jwt-for-babies</a></li>
+    <li><a href="https://github.com/unicodeveloper/es6-for-babies">es6-for-babies</a></li>
+    <li><a href="https://auth0.com/docs/jwt">auth0 jwt</a></li>
   </ul>
 </div>
 
@@ -43,7 +58,7 @@ Interview with <a href=""></a> about <a href=""></a>.
   [0:00] szabgab:
     Hello there..
 
-  [0:19] foobar:
+  [0:19] unicodeveloper:
     Hi I am fine, thank you. How are you?
 [/transcript]
 
