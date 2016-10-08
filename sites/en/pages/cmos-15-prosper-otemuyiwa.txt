@@ -40,6 +40,7 @@ Interview with <a href="http://goodheads.io/">Prosper Otemuyiwa</a> from Nigeria
     <li><a href="https://forge.laravel.com/">Laravel Forge</a></li>
     <li><a href="https://laravel.com/docs/envoy">Envoy</a></li>
     <li><a href="https://laracasts.com/">Laracast</a></li>
+    <li><a href="https://twitter.com/jeffrey_way">Jeffrey Way</a></li>
     <li><a href="http://railscasts.com/">Railscasts</a></li>
     <li><a href="https://github.com/unicodeveloper/laravel-paystack">laravel-paystack</a></li>
     <li><a href="https://github.com/unicodeveloper/laravel-emoji">laravel-emoji</a></li>
