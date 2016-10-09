@@ -1,0 +1,139 @@
+=title Stack trace in JavaScript
+=timestamp 2016-10-10T02:00:11
+=indexes console, trace, arguments, callee, caller
+=tags screencast
+=status show
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+We have already seen 5 levels of <a href="http://code-maven.com/logging-in-javascript">logging in JavaScript</a>. Each one showed the line number where the
+function was called. That's very nice, but if the same function can be called in multiple places then having
+that context can improve your understand what has happened.
+
+Printing a full stack trace can help a lot.
+
+=abstract end
+
+<h2>Using console.trace</h2>
+
+Luckily the <hl>console</hl> object also has a method called <hl>trace</hl>.
+
+In the following example we have a few totally useless functions calling each other and then
+calling the <hl>add</hl> function, that calls <hl>console.trace</hl>.
+
+<include file="examples/javascript/logging/logging_trace.js">
+
+The output in <a href="http://code-maven.com/open-javascript-console">the JavaScript web console</a>
+of Chrome looks like this:
+
+<img src="http://code-maven.com/img/javascript_trace_in_chrome.png" alt="console trace in Chrome" />
+
+In Firefox it looks like this:
+
+<img src="http://code-maven.com/img/javascript_trace_in_firefox.png" alt="console trace in Firefox" />
+
+If you'd like to try it yourself, here is the HTML that will load the above JavaScript file.
+
+<try file="examples/javascript/logging/logging_trace.html">
+
+
+<h2>Stack trace as a string</h2>
+
+There are cases when you might not necessarily want to print the stacktrace immediately,
+or you might even want to save it or send it to the server. For such cases, it would be nice
+to be able to get a string version of the stack trace.
+
+The following solutions are based on ideas found on
+<a href="http://stackoverflow.com/questions/591857/how-can-i-get-a-javascript-stack-trace-when-i-throw-an-exception">this</a>
+and <a href="http://ivan-gandhi.livejournal.com/942493.html">this</a> page.
+
+<h2>Stack trace with Error object</h2>
+
+In this solution we create and <hl>Error</hl> object and then return (and print)
+the <hl>stack</hl> attribute.
+
+The full JavaScript code looks like this:
+
+<include file="examples/javascript/logging/logging_trace_with_error.js">
+
+The corresponding HTML file is not very intersting, but it is included to make
+it easier for you to try it:
+<try file="examples/javascript/logging/logging_trace_with_error.html">
+
+The output in Chrome:
+<img src="http://code-maven.com/img/javascript_trace_with_error_in_chrome.png" alt="console trace in Chrome" />
+
+and in FireFox:
+<img src="http://code-maven.com/img/javascript_trace_with_error_in_firefox.png" alt="console trace in Firefox" />
+
+
+<h2>Stack trace using caller object</h2>
+
+In this solution we have implemented a function called <hl>stacktrace</hl>
+that will return a string representing the call history to the point
+where <hl>stacktrace()</hl> was called.
+
+Internally it uses another function called <hl>st2</hl> that will be called
+recursively traversing the call-tree up till the point where we reach the main
+body of our JavaScript script.
+
+<include file="examples/javascript/logging/logging_stacktrace.js">
+
+At the end of the declaration of <hl>stacktrace</hl> we call <hl>st2</hl>
+with the <hl>arguments.callee.caller</hl>.
+<a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments">arguments</a> is
+a special object that belongs to the current function call and that contains a lot of
+information about the current call. For example the <hl>callee</hl> attribute refers to the
+currently executing function which is <hl>stacktrace</hl>.
+
+We can probably replace <hl>return st2(arguments.callee.caller);</hl>
+by <hl>return st2(stacktrace.caller);</hl>, but then we repeat the function name which
+will make it harder to rename the function.
+
+the <hl>st2</hl> function is then called recursively and it returns the stacktrace string so far.
+When it reaches the top-most function call (in our case <hl>main</hl>) the next recursive call
+will be with an <hl>undefined</hl> value received from <hl>f.caller</hl>. That will make it
+return an empty string without further recursive calls.
+
+If <hl>f</hl> is not yet <hl>undefined</hl> we build up the current call at the current
+level of the stacktrace.
+We use the <a href="https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Functions/arguments">arguments</a>
+object of the current function. Because it is not a real Array we cannot use <hl>join</hl> and we have to
+loop over the elements to build up the list of arguments received by this call. That's what is saved
+in the <hl>args</hl> array.
+
+<hl>f.toString()</hl> returns the string representation of the function <hl>f</hl>.
+Each such string representation starts with <hl>function some_name(param, param) {</hl>.
+<hl>split('(')</hl> cuts that string at the <hl>(</hl> characters in the source code of
+the function, including the first <hl>(</hl> in the argument declaration.
+
+The <hl>[0]</hl> means we take the first element from the returned array. That returns
+<hl>function some_name</hl>. Calling <hl>substring(9)</hl> take all the characters
+except the first 9 and returns that string. The returned string is the name of the
+function. In our example it is <hl>some_name</hl>. That's how we can extract the name
+of the currently called function.
+
+Now that we have both the name of the current function and the list of parameters it
+received we can create a string that represents the call.
+
+The result looks like this in Chrome:
+
+<img src="http://code-maven.com/img/javascript_stacktrace_chrome.png" alt="console trace in Chrome" />
+
+and this in FireFox:
+
+<img src="http://code-maven.com/img/javascript_stacktrace_firefox.png" alt="console trace in Firefox" />
+
+
+If you'd like to try it yourself, here is the corresponding html file:
+<try file="examples/javascript/logging/logging_stacktrace.html">
+
+
+<h2>The console API</h2>
+
+For even further details check out the
+<a href="https://developer.chrome.com/devtools/docs/console-api">console API of Chrome</a>
+and the
+<a href="https://developer.mozilla.org/en/docs/Web/API/console">console API of FireFox</a>.
