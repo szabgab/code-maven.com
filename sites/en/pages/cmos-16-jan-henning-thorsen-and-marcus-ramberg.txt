@@ -39,9 +39,9 @@ Interview with <a href=""></a> about <a href=""></a>.
     <li><a href="https://convos.by/">Convos</a></li>
     <li><a href="https://github.com/Nordaaker/convos">Convos on GitHub</a></li>
     <li><a href="http://www.irchelp.org/">IRC</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="http://www.reisegiganten.no/">Reisegiganten</a> where they both work now</li>
+    <li><a href="http://telenor.no">Telenor</a> where Jan used to work</li>
+    <li><a href="http://www.uio.no/">UIO (University of Oslo)</a> where Marcus used to work</li>
   </ul>
 </div>
 
