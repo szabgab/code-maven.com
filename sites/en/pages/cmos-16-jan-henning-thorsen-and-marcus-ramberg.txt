@@ -1,0 +1,79 @@
+=title CMOS #16: Jan Henning Thorsen and Marcus Ramberg about Convos the web based IRC client 
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=description Convos
+=tags interview, cmos
+=mp3 /media/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3, 27466201, 30.02
+=img /img/cmos/
+=alt Jan Henning Thorsen and Marcus Ramberg
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/cmos-16-jan-henning-thorsen-and-marcus-ramberg" />
+
+<podcast>
+
+<div id="person">
+  <h2>Jan Henning Thorsen and Marcus Ramberg</h2>
+  <ul>
+    <li><a href="https://github.com/marcusramberg">Marcus Ramber on GitHub</a></li>
+    <li><a href="http://marcus.nordaaker.com/">Marcus Ramberg</a></li>
+    <li><a href="https://twitter.com/marcusramberg">@marcusramberg</a></li>
+    <li><a href="https://github.com/jhthorsen">Jan Henning Thorsen on GitHub</a></li>
+    <li><a href="http://thorsen.pm/">Jan Henning Thorsen</a></li>
+    <li><a href="https://twitter.com/jhthorsen">@jhthorsen</a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://convos.by/">Convos</a></li>
+    <li><a href="https://github.com/Nordaaker/convos">Convos on GitHub</a></li>
+    <li><a href="http://www.irchelp.org/">IRC</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [batman guest1 Jan Henning Thorsen]
+  [marcus guest2 Marcus Ramberg]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] batman:
+    Hi I am fine, thank you. How are you?
+
+  [0:20] marcus:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
+
+<h2>Technical info</h2>
+
+Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
+
+<pre>
+QuickTime Options:
+  Audio Encoding: Uncompressed
+  Video Quality: High
+  Video Image Size: 854 x 480 (Wide)
+  Video Frame Rate: Maxium
+
+Recoding Option:
+  Record Video: Multi-track
+</pre>
+
+
