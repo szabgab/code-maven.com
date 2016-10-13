@@ -82,8 +82,8 @@ So, let's talk about one thing that we talked about a little bit earlier, about 
 
 [00:45] unicodeveloper: 
 Oh, okay, so how that came about, actually very funny. 
-Back in college, somebody called me <q>Unicode,</q> you know when he entered my room. 
-Because a lot of people come to my room to look for programming solutions, to ask me how they could go on, creating apps and stuff, but in the university. 
+Back in college, somebody called me <q>Unicode</q>, you know when he entered my room. 
+Because a lot of people come to my room to look for programming solutions, to ask me how they could go on, creating apps and stuff, back in the university. 
 So he called me Unicode, it sounded nice. I also got to an internal place just in Gberigbe, immediately I was done with school. 
 And my boss there, too, was calling me Unicode. 
 So I was, <q>Okay.</q> 
@@ -138,10 +138,13 @@ And what else...I think it was cool for me but for some other people, it was not
 Some people were angry, trying it for one year. 
 But for me, it was kind of a nice experience.
 
+[4:14] szabgab: OK.
+
+[4:16] unicodeveloper:
 Yeah, so after my youth service, I joined an organization called <a href="https://andela.com/">Andela</a>. 
 Andela was barely started, so I joined an organization called Andela where I started working as a technical trainer. 
 So if you don't know Andela, a little context. 
-Andela is the company that Mark Zuckerberg and Google Ventures invested in some of them, to the tune of a million dollars. 
+Andela is the company that Mark Zuckerberg and Google Ventures invested in some 24 million dollars. 
 It was on the news. 
 And Mark Zuckerberg came to Africa recently and that was one of the places he came to check out. 
 So that's a little context about Andela. 
@@ -209,7 +212,7 @@ Yes, yes, I do.
 Awesome-opensource-apps is a... so, one of the things I observed when I was in Andela, was I discovered that when people get into programming for the first time, they learn the fundamentals of programming. 
 They learn operators, they learn functions, they learn ???, these are the basics of programming, right? 
 Now how do you transition from learning the basics of programming to building a full-fledged app, okay? 
-So you come and you say <q>Oh, I'm going to use HTTMS with these.</q> 
+So you come and you say <q>Oh, I'm going to use HTTL and CSS with these.</q> 
 Or there's a database that maintains this information. 
 Or, okay there's this, oh that's wrong. 
 How do you put all these resources together, how do you put all this stuff together? How do you get to do push notifications? How do you get to understand how programmer workers work? 
@@ -271,7 +274,7 @@ Can you explain what is it? I know the name, mostly..?
 
 [12:52] unicodeveloper: 
 So Laravel is an open source framework, that's built on PHP, so Laravel currently, quote me anywhere, currently Laravel is the best PHP framework to use to build web applications because a lot of things are taken care of for you. 
-Like you have inbuilt application system, you have a very bubbly Laravel community, you have a lot of Laravel packages, that you can just plug into your application and within a couple of hours you have a fully-functional web app. 
+Like you have built-in authentication system, you have a very bubbly Laravel community, you have a lot of Laravel packages, that you can just plug into your application and within a couple of hours you have a fully-functional web app. 
 And it's just awesome, the community is great. So that's one thing I love about Laravel.
 
 [13:32] szabgab: 
@@ -298,6 +301,7 @@ Oh my god, I just love Laravel.
 [14:59] szabgab: 
 Okay, that's great. 
 Actually there is a dog behind you somewhere, we can hear it. 
+
 Anyway, what I actually wanted to ask you, is how do people get into Laravel today? 
 So if someone wants to start using it, what would you suggest to do?
 
@@ -338,19 +342,19 @@ Then I also did <a href="https://github.com/unicodeveloper/laravel-emoji">Larave
 You can also dump an emoji down with another name, and all of that. 
 
 And you also have <a href="https://github.com/unicodeveloper/laravel-mentions">Laravel-Mentions</a>, so Laravel-Mentions is a package that helps you to be able to do the type of mentioning you do on Facebook. 
-So on Facebook you do <q>apps Prosper,</q> it brings the dropdown, I mean once you are on apps, it brings the dropdown of the potential people you are trying to mention. 
+So on Facebook you do <q>@Prosper,</q> it brings the dropdown, I mean once you are on @, it brings the dropdown of the potential people you are trying to mention. 
 So with that package, it's a good application, a Laravel application, that package was done in PHP and JavaScript. 
-So once you do the apps and connect it to your database, it brings suggestions once you put the first character, it will bring suggestions of the person you're trying to mention easily. 
+So once you do the @ and connect it to your database, it brings suggestions once you put the first character, it will bring suggestions of the person you're trying to mention easily. 
 So you don't have to swear at it. 
 And this is the package for that. 
 
 Then, I think one of the most popular ones I did, was the <a href="https://github.com/unicodeveloper/laravel-hackathon-starter">Laravel-Hackathon-Starter</a>, so I don't know if I should call that one a package or a build app. 
-It's more of a build app, it's true. 
+It's more of a boiler-plate tool.
 So for people who want to build web applications, very fast, you don't want to think about it, think about adding emojis or use this API, it just gets the boilerplates. 
-So the boilerplate has integration with several internet providers, it has integration with about 80 APIs from Slack, API from Clockwork, to Linkly, different levels of API that you need. Message API, all of that. 
+So the boilerplate has integration with several internet providers, it has integration with about 80 APIs from Slack, API from Clockwork, to LinkedIN, different levels of API that you need. Message API, all of that. 
 All of that, in just one piece. 
 So what I was really thinking about is really people who want to be MVPs. And people that find themselves in hackathons. In hackathons you don't have time, you just want to build your products. 
-So if you want to build in Laravel, you can just use my build-up leads, everything is set up for you from the authentication to the social media downloading to all the APIs you need to use, at least 18 of them. 
+So if you want to build in Laravel, you can just use my boilerplates, everything is set up for you from the authentication to the social media login to all the APIs you need to use, at least 18 of them. 
 So you can choose from, you can just filter them out and before you know it, your hackathon app is ready. 
 So and I also thought, <q>Oh, this can just work for every piece, not just hackathons.</q> 
 And it's funny how I put it out there and within a week, it became very popular, got a lot of stars, the PHP editor of Sitepoint got to know about it. 
@@ -374,7 +378,7 @@ Maybe I'll learn a little about Laravel and see, it's interesting actually to bu
 Exactly, exactly, totally makes sense.
 
 [20:21] szabgab: 
-Okay, so as an ending of this podcast, what are your plans, open sourcewise or workwise?
+Okay, so as an ending of this podcast, what are your plans, open-sourcewise or workwise?
 
 [20:35] unicodeveloper: 
 Okay, so I...oh my God, I have a lot of plans! 
@@ -394,7 +398,7 @@ So you can build a clone of AirBnB, build a clone of Facebook, a lot of that.
 And I'll go through the process from scratch to finish. 
 
 So those are the ideas I have around in my head right now. 
-Also, for example, I work on Auth0, we just released a handbook called the JWT Handbook, where you can learn all about JWT web cookies, it's good that I was also part of the people, I did code-samples for the book and did some edits and the book is out there now, so anybody that wants to know about JWT, you can go to <a href="https://auth0.com/docs/jwt">Auth0 website</a> and also just download the book. 
+Also, for example, I work on <a href="https://auth0.com/">Auth0</a>, we just released a handbook called the JWT Handbook, where you can learn all about JWT web cookies, it's good that I was also part of the people, I did code-samples for the book and did some edits and the book is out there now, so anybody that wants to know about JWT, you can go to <a href="https://auth0.com/docs/jwt">Auth0 website</a> and also just download the book. 
 
 So those are the things I've been working on and thinking about right now concerning the open source community. 
 Recently also, my friend and I, Kristen, she is from an Angular community here in Nigeria, so we plan to do talks around Angular 2, and all of that. So those are my ideas.
