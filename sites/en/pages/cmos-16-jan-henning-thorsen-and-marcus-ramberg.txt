@@ -516,20 +516,3 @@ Bye.
 
 [/transcript]
 
-
-<h2>Technical info</h2>
-
-Recorded on 3 September 2016 with "Ecamm Network Call Recorder for Skype v2.6.1" using the following settings:
-
-<pre>
-QuickTime Options:
-  Audio Encoding: Uncompressed
-  Video Quality: High
-  Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
-
-Recoding Option:
-  Record Video: Multi-track
-</pre>
-
-
