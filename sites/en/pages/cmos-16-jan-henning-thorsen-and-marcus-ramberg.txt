@@ -76,7 +76,7 @@ But many of the listeners don't. And I actually don't know why are you Batman?
 So please tell me a little bit about your history, how did you get into programming, how did you get into open source, and then from there we get to the product that you want to talk about.
 
 [01:03] batman: 
-Right, so in 2001, I started working for a cable company, and they wanted me to make a partitioning system for them, and I didn't know any programming at the moment. 
+Right, so in 2001, I started working for a cable company, and they wanted me to make a provisioning system for them, and I didn't know any programming at the moment. 
 So I started Googling and the first thing that came up was some Perl code, so from now I'm really happy that I...like the first hit wasn't PHP instead. 
 Because if PHP was number one on Google, then I would be programming in PHP instead.
 
