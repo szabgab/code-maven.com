@@ -84,7 +84,7 @@ So, let's talk about one thing that we talked about a little bit earlier, about 
 Oh, okay, so how that came about, actually very funny. 
 Back in college, somebody called me <q>Unicode</q>, you know when he entered my room. 
 Because a lot of people come to my room to look for programming solutions, to ask me how they could go on, creating apps and stuff, back in the university. 
-So he called me Unicode, it sounded nice. I also got to an internal place just in Gberigbe, immediately I was done with school. 
+So he called me Unicode, it sounded nice. I also got to to intern at a place just immediately I was done with school.
 And my boss there, too, was calling me Unicode. 
 So I was, <q>Okay.</q> 
 So I wanted to create a Twitter handle, no actually I had a Twitter handle, and I was trying to revamp it. 
@@ -210,7 +210,7 @@ I think that's a repository that you maintain, right?
 [08:52] unicodeveloper: 
 Yes, yes, I do. 
 Awesome-opensource-apps is a... so, one of the things I observed when I was in Andela, was I discovered that when people get into programming for the first time, they learn the fundamentals of programming. 
-They learn operators, they learn functions, they learn ???, these are the basics of programming, right? 
+They learn operators, they learn functions, they learn return types, now those are the basics of programming, right? 
 Now how do you transition from learning the basics of programming to building a full-fledged app, okay? 
 So you come and you say <q>Oh, I'm going to use HTTL and CSS with these.</q> 
 Or there's a database that maintains this information. 
@@ -291,7 +291,7 @@ Okay, so how would you get started with Laravel? If someone wants to learn it?
 
 [14:19] unicodeveloper: 
 Oh, so I got into Laravel in 2014, so I joined just before I started the one-year program that I told you about. 
-I joined a company called Cox, that was the name of it, I was dealing with market PCs and stores. 
+I joined a company called Cart, that was the name of it, I was dealing with market PCs and stores. 
 So we were meant to rebuild the platform, using Laravel. 
 And there's not a lot of difference between Ruby and Laravel, so that was the best option. 
 So we had to start researching about how to build an application in Laravel. 
@@ -382,7 +382,7 @@ Okay, so as an ending of this podcast, what are your plans, open-sourcewise or w
 
 [20:35] unicodeveloper: 
 Okay, so I...oh my God, I have a lot of plans! 
-I am very much a community person so I...it's a passion for me to see upcoming developers grow from this stage where they knew nothing, where they are looking like Jon Snow, to this stage where they become ??. 
+I am very much a community person so I...it's a passion for me to see upcoming developers grow from this stage where they knew nothing, where they are looking like Jon Snow, to this stage where they become Jon Skeet. 
 Like they become a programming badass. 
 So I'm always thinking about projects, open source projects, and also articles on software that I can write. 
 
