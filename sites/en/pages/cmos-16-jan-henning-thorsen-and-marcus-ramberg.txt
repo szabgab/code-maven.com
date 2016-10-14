@@ -1,10 +1,10 @@
 =title CMOS #16: Jan Henning Thorsen and Marcus Ramberg about Convos, the web-based IRC client 
-=timestamp 2016-09-03T19:01:01
-=indexes podcast 
+=timestamp 2016-10-14T13:45:01
+=indexes podcast, Convos, IRC, chat 
 =description Convos
 =tags interview, cmos
 =mp3 /media/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3, 27466201, 30.02
-=img /img/cmos/
+=img /img/cmos/jan-henning-thorsen-and-marcus-ramberg.jpg
 =alt Jan Henning Thorsen and Marcus Ramberg
 =status draft
 =author szabgab
