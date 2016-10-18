@@ -38,7 +38,7 @@ how has the content changed. So let's see how does that work out.
 
 In this example we have created the same object as above, printed it to the console, changed it, and then printed it again:
 
-<include file=examples/javascript/logging/logging_changed_object.js">
+<include file="examples/javascript/logging/logging_changed_object.js">
 
 <img src="http://code-maven.com/img/javascript_logging_changed_object_chrome.png" alt="Logging JavaScript changed object in Chrome" />
 
@@ -66,7 +66,7 @@ using the <hl>stringify</hl> and <hl>parse</hl> methods of the <hl>JSON</hl> obj
 Effectively for every logging we first convert the object to a <a href="http://code-maven.com/json">JSON string</a>
 and then convert it back to a JavaScript object before sending it off to <hl>console.log</hl>.
 
-<include file=examples/javascript/logging/logging_cloned_object.js">
+<include file="examples/javascript/logging/logging_cloned_object.js">
 
 The output now looks as we expect. The content of the object is shown properly.
 
