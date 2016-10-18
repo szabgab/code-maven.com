@@ -1,7 +1,6 @@
 =title Stack trace in JavaScript
 =timestamp 2016-10-10T02:00:11
 =indexes console, trace, arguments, callee, caller
-=tags screencast
 =status show
 =author szabgab
 =comments_disqus_enable 1
