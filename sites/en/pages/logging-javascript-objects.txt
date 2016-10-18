@@ -1,0 +1,105 @@
+=title Showing objects in the JavaScript console without going mad
+=timestamp 2016-10-18T21:30:01
+=indexes JSON.parse, JSON.stringify
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We have already seen how to <a href="http://code-maven.com/logging-in-javascript">print logging in JavaScript</a>, but the really interesting
+part is when we would like to see the content of variables. Especially variable that hold objects.
+
+It is actually quite easy, but there is a catch.
+
+=abstract end
+
+<h2>Logging JavaScript object</h2>
+
+In this example we create a simple object and then use the <hl>console.log</hl> function to print
+it to the <a href="http://code-maven.com/open-javascript-console">JavaScript console of the browser</a>.
+
+<include file="examples/javascript/logging/logging_object.js">
+
+The result shows the object. In Chrome, after clicking on the small <hl>+</hl> sign it looks like this:
+
+<img src="http://code-maven.com/img/javascript_logging_object_chrome.png" alt="Logging JavaScript object in Chrome" />
+
+Here is the HTML you might need to try it right here.
+
+<try file=examples/javascript/logging/logging_object.html">
+
+<h2>Logging JavaScript object that changes</h2>
+
+Printing out the content of an object is important, but we usually do that when we would like to see
+how has the content changed. So let's see how does that work out.
+
+In this example we have created the same object as above, printed it to the console, changed it, and then printed it again:
+
+<include file=examples/javascript/logging/logging_changed_object.js">
+
+<img src="http://code-maven.com/img/javascript_logging_changed_object_chrome.png" alt="Logging JavaScript changed object in Chrome" />
+
+Oh-oh. That does not look good. The JavaScript object printed both before and after the change has the same content.
+In this example it is obvious that there is some problem, but in the real world this object might further change before
+you look at the output and it will always reflect the last state of the object and not the one that was in it when you called
+<hl>console.log</hl>
+
+No matter what, you'll spend a lot of time wondering what's going on in your code.
+
+The problem is that in some browsers (at lest Chrome), the <hl>console.log</hl> does not really print the
+object. It only "connects" it to the console. So when you look at it later you'll see the content
+of the object at the time when you look at the object.
+
+You can try it yourself with the following HTML that loads the above JavaScript.
+
+<try file=examples/javascript/logging/logging_changed_object.html">
+
+<h2>Clone the object before printing</h2>
+
+The solution is to copy the content of the object when printing it to the console.
+There are a number of ways to do that in plain JavaScript. We are going to see one
+using the <hl>stringify</hl> and <hl>parse</hl> methods of the <hl>JSON</hl> object.
+
+Effectively for every logging we first convert the object to a <a href="http://code-maven.com/json">JSON string</a>
+and then convert it back to a JavaScript object before sending it off to <hl>console.log</hl>.
+
+<include file=examples/javascript/logging/logging_cloned_object.js">
+
+The output now looks as we expect. The content of the object is shown properly.
+
+<img src="http://code-maven.com/img/javascript_logging_cloned_object_chrome.png" alt="Logging JavaScript cloned object in Chrome" />
+
+You can try it yourself using this HTML file:
+
+<try file=examples/javascript/logging/logging_cloned_object.html">
+
+<hl>Solutions</hl>
+
+There are a number of ways to achieve similar results.
+
+We used the  <hl>JSON.parse(JSON.stringify(obj))</hl> to create a real clone and let the browser do its folding of the data structure.
+
+If you'd like to type less it is enough to write <hl>JSON.stringify(obj)</hl>,
+but then you get a single string which might be hard to read if the object has a lot of data in it.
+
+You could also use the longer <hl>JSON.stringify(obj, null, 4)</hl> that will beautify the
+content of the object by showing each element on a separate line and indenting the internal
+elements 4 spaces.
+
+The drawback of these options is that a large object might take up a lot of
+real-estate in the console and it might be harder to navigate.
+
+You'll have to experiment yourself.
+
+<h2>Cloning JavaScript object in AgularJS</h2>
+
+If you are using <a href="http://code-maven.com/angularjs">AngularJS</a> you can use the
+<hl>angular.clone(obj)</hl> method to clone the object.
+
+<h2>Cloning JavaScript object in JQuery</h2>
+
+In JQuery there is a method called <a href="https://api.jquery.com/jquery.extend/">extend</a> that can
+achieve the same this way: <hl>$.extend({}, obj)</hl>.
