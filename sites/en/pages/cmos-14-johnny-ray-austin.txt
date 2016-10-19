@@ -25,8 +25,8 @@ Interview with <a href="https://johnnyray.me/">Johnny Ray Austin</a> about how c
   <h2>Johnny Ray Austin</h2>
   <ul>
     <li><a href="https://johnnyray.me/">Johnny Ray Austin</a></li>
-    <li><a href="https://twitter.com/recursivefunk"@recursivefunk>Twitter</a></li>
-    <li>Director of Technology at <a href="https://isl.co/">ISL</a></li>
+    <li><a href="https://twitter.com/recursivefunk">Twitter: @recursivefunk</a></li>
+    <li>Director of Technology at <a href="https://isl.co/">ISL</a> <a href="https://twitter.com/istrategylabs">@istrategylabs</a></li>
     <li><a href="https://medium.com/@recursivefunk">Blog</a></li>
     <li><a href="https://github.com/recursivefunk">GitHub</a></li>
     <li><a href="http://technical.ly/dc/2016/08/08/johnny-ray-austin/">iStrategyLabs’ Johnny Ray Austin almost became an aerospace engineer</a></li>
