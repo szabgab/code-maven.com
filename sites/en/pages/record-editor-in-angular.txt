@@ -26,7 +26,7 @@ Each record looks like this:
 
 The whole HTML page is a single Angular Module with a single Angular Controller.
 There are two "pages" similar to what we were doing in the
-<a href="http://code-maven.com/simple-pages-or-tabs-with-angularjs">simple pages and tabs with Angular JS</a>
+<a href="/simple-pages-or-tabs-with-angularjs">simple pages and tabs with Angular JS</a>
 example.
 
 The first page is the listing of the records. Nothing fancy. Next to each value there is a button that will call

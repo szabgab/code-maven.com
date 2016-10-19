@@ -7,7 +7,7 @@
 
 =abstract start
 
-We have already seen 5 levels of <a href="http://code-maven.com/logging-in-javascript">logging in JavaScript</a>. Each one showed the line number where the
+We have already seen 5 levels of <a href="/logging-in-javascript">logging in JavaScript</a>. Each one showed the line number where the
 function was called. That's very nice, but if the same function can be called in multiple places then having
 that context can improve your understand what has happened.
 
@@ -24,14 +24,14 @@ calling the <hl>add</hl> function, that calls <hl>console.trace</hl>.
 
 <include file="examples/javascript/logging/logging_trace.js">
 
-The output in <a href="http://code-maven.com/open-javascript-console">the JavaScript web console</a>
+The output in <a href="/open-javascript-console">the JavaScript web console</a>
 of Chrome looks like this:
 
-<img src="http://code-maven.com/img/javascript_trace_in_chrome.png" alt="console trace in Chrome" />
+<img src="/img/javascript_trace_in_chrome.png" alt="console trace in Chrome" />
 
 In Firefox it looks like this:
 
-<img src="http://code-maven.com/img/javascript_trace_in_firefox.png" alt="console trace in Firefox" />
+<img src="/img/javascript_trace_in_firefox.png" alt="console trace in Firefox" />
 
 If you'd like to try it yourself, here is the HTML that will load the above JavaScript file.
 
@@ -62,10 +62,10 @@ it easier for you to try it:
 <try file="examples/javascript/logging/logging_trace_with_error.html">
 
 The output in Chrome:
-<img src="http://code-maven.com/img/javascript_trace_with_error_in_chrome.png" alt="console trace in Chrome" />
+<img src="/img/javascript_trace_with_error_in_chrome.png" alt="console trace in Chrome" />
 
 and in FireFox:
-<img src="http://code-maven.com/img/javascript_trace_with_error_in_firefox.png" alt="console trace in Firefox" />
+<img src="/img/javascript_trace_with_error_in_firefox.png" alt="console trace in Firefox" />
 
 
 <h2>Stack trace using caller object</h2>
@@ -119,11 +119,11 @@ received we can create a string that represents the call.
 
 The result looks like this in Chrome:
 
-<img src="http://code-maven.com/img/javascript_stacktrace_chrome.png" alt="console trace in Chrome" />
+<img src="/img/javascript_stacktrace_chrome.png" alt="console trace in Chrome" />
 
 and this in FireFox:
 
-<img src="http://code-maven.com/img/javascript_stacktrace_firefox.png" alt="console trace in Firefox" />
+<img src="/img/javascript_stacktrace_firefox.png" alt="console trace in Firefox" />
 
 
 If you'd like to try it yourself, here is the corresponding html file:

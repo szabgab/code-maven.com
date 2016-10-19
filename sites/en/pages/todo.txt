@@ -9,8 +9,8 @@
 
 =abstract start
 
-Creating a TODO list is a fairly standard exercise soon after one have created a <a href="http://code-maven.com/exercise-web-hello-world">web based Hello World</a>
-and an <a href="http://code-maven.com/exercise-web-echo">web based echo</a>. Let's describe the task here and see how what interesting features we might include.
+Creating a TODO list is a fairly standard exercise soon after one have created a <a href="/exercise-web-hello-world">web based Hello World</a>
+and an <a href="/exercise-web-echo">web based echo</a>. Let's describe the task here and see how what interesting features we might include.
 
 See other <a href="/exercises">projects and exercises</a>.
 
@@ -31,7 +31,7 @@ The problem might arise if we type in the exact same task twice. We might want t
 
 A slight improvement is to use a unique number as the ID of each task. This usually can be a counter starting from 1.
 The advantage is that it is easr to refer to a task by ID which will be fixed during the life of the task while we might
-change the title of the task. Having and ID and a title can still easily be stored in a single <a href="http://code-maven.com/csv">CSV file</a>.
+change the title of the task. Having and ID and a title can still easily be stored in a single <a href="/csv">CSV file</a>.
 Each row will have two fields, the first one is the id, the second one is the title.
 
 The problem which might, or might not bother you is that we need a way to know what is the next id to allocate.
@@ -47,8 +47,8 @@ we need to have some other file to store that number.
 
 This already starts to make the "database" a bit too complex.
 
-For such case I'd probably either use some other file format (e.g. <a href="http://code-maven.com/json">JSON</a>
-or <a href="http://code-maven.com/yaml">YAML</a>), or a real database, such as <a href="https://www.sqlite.org/">SQLite</a>.
+For such case I'd probably either use some other file format (e.g. <a href="/json">JSON</a>
+or <a href="/yaml">YAML</a>), or a real database, such as <a href="https://www.sqlite.org/">SQLite</a>.
 
 For SQLite case here is a sample code for creating the table:
 

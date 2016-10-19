@@ -31,7 +31,7 @@ Can your code also handle this file?
 <ul>
   <li><a href="http://perlmaven.com/perl-split">Perl 5 split</a></li>
   <!-- <li><a href="http://perlmaven.com/csv">Perl 5 CSV</a></li> -->
-  <li><a href="http://code-maven.com/ruby-split">Ruby split</a></li>
+  <li><a href="/ruby-split">Ruby split</a></li>
   <li><a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html">Ruby CSV</a></li>
 </ul>
 
@@ -46,6 +46,6 @@ Can your code also handle this file?
 
 <h2>Solution Ruby</h2>
 <ul>
-   <li><a href="http://code-maven.com/reading-csv-file-in-ruby">Reading CSV file in Ruby</a></li>
+   <li><a href="/reading-csv-file-in-ruby">Reading CSV file in Ruby</a></li>
 </ul>
 

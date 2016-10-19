@@ -105,7 +105,7 @@ Usage: /home/gabor/code-maven/examples/node/stats.js path/to
 
 The global variable <hl>__filename</hl> (starting with two underscores) contains the full path to the current JavaScript file.
 
-Then we call <hl>process.exit()</hl> to <a href="http://code-maven.com/how-to-exit-a-nodejs-script">leave the Node.js script</a> early.
+Then we call <hl>process.exit()</hl> to <a href="/how-to-exit-a-nodejs-script">leave the Node.js script</a> early.
 Before reaching the end of the file.
 
 The last step in this part of the code is to fetch element 3 of the <hl>argv</hl> which is the value the user has passed on the

@@ -9,7 +9,7 @@
 
 =abstract start
 
-Let's create a Web Application for flight ticket vendor as one of the <a href="http://code-maven.com/exercises">projects</a>.
+Let's create a Web Application for flight ticket vendor as one of the <a href="/exercises">projects</a>.
 
 =abstract end
 

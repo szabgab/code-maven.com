@@ -45,8 +45,8 @@ document.getElementById('add').addEventListener('click', add);
 show();
 </code>
 
-The first line locates the HTML element that has the id "add" using the <a href="http://code-maven.com/javascript-hello-world-change-the-dom">getElementById</a>
-method. On the returned object we call the <a href="http://code-maven.com/handling-events-in-javascript">addEventListener</a> method and assign the 
+The first line locates the HTML element that has the id "add" using the <a href="/javascript-hello-world-change-the-dom">getElementById</a>
+method. On the returned object we call the <a href="/handling-events-in-javascript">addEventListener</a> method and assign the 
 <hl>add</hl> function to the <hl>click</hl> event. This code will make sure then whenever the user clicks on the "Add" button, the <hl>add</hl> function
 will be called.
 
@@ -68,7 +68,7 @@ The 4 function we have in our code are the following:
 I put the word in quotes as it is not really a database in the same way most people consider databases,
 but then any place we can persistently store data could be called a "database".
 
-Specifically we are going to use the <a href="http://code-maven.com/on-load-counter-with-javascript-and-local-storage">localStorage</a>
+Specifically we are going to use the <a href="/on-load-counter-with-javascript-and-local-storage">localStorage</a>
 facility. It is a key-value pair database in the browser. We can store any string in it and that data will be available to us
 when we return to the same page later. We just have to remember, the information stored in <hl>localStorage</hl> is not going to
 be sent to the server and it won't be available on the same page if we visit it from another computer, or even from the same computer,

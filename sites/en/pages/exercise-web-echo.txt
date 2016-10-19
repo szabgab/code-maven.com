@@ -27,6 +27,6 @@ one with POST.
   <li><a href="http://perlmaven.com/pro/echo-with-plain-cgi">Perl 5: Echo with plain CGI</a></li>
   <li><a href="http://perlmaven.com/getting-started-with-perl-dancer">Perl 5: Getting started with Perl Dancer - Creating an Echo application</a></li>
   <li><a href="http://perlmaven.com/pro/echo-with-plack-cgi">Perl 5: Echo with Plack in CGI mode</a></li>
-  <li><a href="http://code-maven.com/echo-with-cgi-in-ruby">Ruby: echo with CGI</a></li>
+  <li><a href="/echo-with-cgi-in-ruby">Ruby: echo with CGI</a></li>
 </ul>
 

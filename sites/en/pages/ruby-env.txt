@@ -14,7 +14,7 @@ envrionment variables such as PATH or HOME.
 
 =abstract end
 
-We can see them all using <a href="http://code-maven.com/display-complex-data-structure-in-ruby">pp, the pretty printer of Ruby</a>.
+We can see them all using <a href="/display-complex-data-structure-in-ruby">pp, the pretty printer of Ruby</a>.
 
 <include file="examples/ruby/env.rb">
 

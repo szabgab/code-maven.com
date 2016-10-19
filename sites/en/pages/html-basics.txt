@@ -90,10 +90,10 @@ If there is a closing tag, it is always the same name with a leading slash <hl>/
 
 The opening part of the tags can also have so called "attributes". In the next example we see an <hl>a</hl> tag
 that has both an opening side and a closing side. It also has an attribute called <hl>href</hl> with a value
-<hl>http://code-maven.com/</hl>.
+<hl>/</hl>.
 
 <code>
-<a href="http://code-maven.com/">Code Maven</a>
+<a href="/">Code Maven</a>
 </code>
 
 There is a whole <a href="https://developer.mozilla.org/en/docs/Web/HTML/Element">reference guide for HTML</a>,

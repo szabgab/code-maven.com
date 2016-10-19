@@ -62,7 +62,7 @@ method to access the value of the given attribute.
 
 Then we use <hl>console.log</hl> to print it. click on the 'Try' link and in
 the new window
-<a href="http://code-maven.com/open-javascript-console">open the JavaScript console</a> to see the value.
+<a href="/open-javascript-console">open the JavaScript console</a> to see the value.
 
 
 <h2>data-* attributes</h2>
@@ -93,7 +93,7 @@ For further examples check out the
 
 <h2>ng-* custom attributes used by AngularJS</h2>
 
-<a href="http://code-maven.com/angularjs">AngularJS</a> uses the <hl>ng-</hl> prefix
+<a href="/angularjs">AngularJS</a> uses the <hl>ng-</hl> prefix
 for all the custom attributes. This makes it clear to the reader that something
 is related to AngularJS.
 

@@ -46,15 +46,15 @@ Our expected output looks like this:
 <h2>Tools for Ruby</h2>
 
 <ul>
-   <li><a href="http://code-maven.com/argv-the-command-line-arguments-in-ruby">Ruby: ARGV for command line parameters</a></li>
-   <li><a href="http://code-maven.com/open-file-and-read-content-in-ruby">Ruby: Open file and read content</a></li>
-   <li><a href="http://code-maven.com/ruby-arrays">Ruby: Arrays</a></li>
-   <li><a href="http://code-maven.com/for-loop-in-ruby">Ruby: Iterate over elements of a an array</a></li>
+   <li><a href="/argv-the-command-line-arguments-in-ruby">Ruby: ARGV for command line parameters</a></li>
+   <li><a href="/open-file-and-read-content-in-ruby">Ruby: Open file and read content</a></li>
+   <li><a href="/ruby-arrays">Ruby: Arrays</a></li>
+   <li><a href="/for-loop-in-ruby">Ruby: Iterate over elements of a an array</a></li>
 </ul>
 
 <h2>Solutions</h2>
 
 <ul>
    <li><a href="http://perlmaven.com/beginner-perl-maven-count-digits">Perl 5 count digits</a></li>
-   <li><a href="http://code-maven.com/count-digits-using-ruby">Ruby: count digits</a></li>
+   <li><a href="/count-digits-using-ruby">Ruby: count digits</a></li>
 </ul>

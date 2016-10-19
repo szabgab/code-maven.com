@@ -12,7 +12,7 @@ The following is a tutorial on how to set up uWSGI with an Nginx front end to se
 application.
 
 In this tutorial we will only use the packages that are supplied by Ubuntu and we will deal with a very simple
-<a href="http://code-maven.com/hello-world-with-flask-and-python">Hello World</a> application.
+<a href="/hello-world-with-flask-and-python">Hello World</a> application.
 
 =abstract end
 
@@ -60,7 +60,7 @@ If the first command worked well, then the second won't ask for a password.
 <h2>Hello World using Pyton Flask</h2>
 
 Before the deployment options, let's write and try our
-<a href="http://code-maven.com/hello-world-with-flask-and-python">Hello World using Flask</a>.
+<a href="/hello-world-with-flask-and-python">Hello World using Flask</a>.
 
 Check the version of Python. I got the following:
 

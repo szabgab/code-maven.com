@@ -81,7 +81,7 @@ puts names[5]       # (nothing)
 
 <h2>Going over the elements of the array</h2>
 
-There are a number of ways to <a href="http://code-maven.com/for-loop-in-ruby">iterate over the elements of an array</a>.
+There are a number of ways to <a href="/for-loop-in-ruby">iterate over the elements of an array</a>.
 
 <h2>Pretty Print values for debugging</h2>
 

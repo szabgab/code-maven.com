@@ -89,9 +89,9 @@ $ sudo service apache2 reload
 Now that we have enable CGI we can create our first CGI script.
 
 This first CGI example will be created in Bash.
-Later on you can check out the solutions to the various <a href="http://code-maven.com/exercises">web exercises</a>
-Especially the <a href="http://code-maven.com/exercise-web-hello-world">Hello World!</a> exercise and
-the <a href="http://code-maven.com/exercise-web-echo">Web Echo</a> exercise and their solutions.
+Later on you can check out the solutions to the various <a href="/exercises">web exercises</a>
+Especially the <a href="/exercise-web-hello-world">Hello World!</a> exercise and
+the <a href="/exercise-web-echo">Web Echo</a> exercise and their solutions.
 
 
 I've created a file called <hl>/usr/lib/cgi-bin/hw.sh</hl> using <hl>sudo vim /usr/lib/cgi-bin/hw.sh</hl>

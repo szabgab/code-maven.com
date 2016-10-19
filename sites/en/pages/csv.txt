@@ -101,9 +101,9 @@ but maybe it can even be used as way to refernce the values in the various field
   <li><a href="http://perlmaven.com/csv">CSV in Perl</a></li>
   <li><a href="https://docs.python.org/2/library/csv.html">CSV in Python 2.x</a></li>
   <li><a href="https://docs.python.org/3/library/csv.html">CSV in Python 3.x</a></li>
-  <li><a href="http://code-maven.com/create-and-download-csv-with-javascript">Create CSV in JavaScript</a></li>
-  <li><a href="http://code-maven.com/reading-csv-file-in-ruby">Read CSV in Ruby</a></li>
+  <li><a href="/create-and-download-csv-with-javascript">Create CSV in JavaScript</a></li>
+  <li><a href="/reading-csv-file-in-ruby">Read CSV in Ruby</a></li>
 </ul>
 
-See also an <a href="http://code-maven.com/exercise-add-numbers-from-csv-file">exercise to add numbers taken from a CSV file</a>.
+See also an <a href="/exercise-add-numbers-from-csv-file">exercise to add numbers taken from a CSV file</a>.
 

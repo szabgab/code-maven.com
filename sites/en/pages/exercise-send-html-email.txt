@@ -13,7 +13,7 @@ Exercise: Send HTML e-mail.
 
 =abstract end
 
-Extend your solution for <a href="http://code-maven.com/exercise-send-plain-text-email">sending plain text e-mail</a>
+Extend your solution for <a href="/exercise-send-plain-text-email">sending plain text e-mail</a>
 by allowing the user to provide both a <b>plain text</b> version of the e-mail and an <b>HTML</hl> version of it
 and send the e-mail that will contain both.
 

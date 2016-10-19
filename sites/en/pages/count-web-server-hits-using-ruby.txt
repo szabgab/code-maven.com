@@ -26,7 +26,7 @@ In that hash the keys are going to be the IPs and the values are going to be the
 
 A hash can start out empty and grow dynamically.
 
-So we created an empty hash called <hl>count</hl>. We <a href="http://code-maven.com/open-file-and-read-content-in-ruby">open the file</a>, iterate over it line-by-line.
+So we created an empty hash called <hl>count</hl>. We <a href="/open-file-and-read-content-in-ruby">open the file</a>, iterate over it line-by-line.
 Locate the first space that's just after the IP address and use the returned value to fetch the IP address.
 Now that we have the current IP address in a variable we can check if this is the first time we see it,
 by asking if it the value of it is "true". If it is we increment it by 1. If this is the first time we

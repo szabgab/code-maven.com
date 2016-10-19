@@ -9,7 +9,7 @@
 
 =abstract start
 
-The <a href="http://code-maven.com/exercise-web-hello-world">Hello World exercise</a> is usually the first thing people do in every language and
+The <a href="/exercise-web-hello-world">Hello World exercise</a> is usually the first thing people do in every language and
 in every environment. Here we are going to do it using Ruby and the cgi module that comes with Ruby.
 
 =abstract end
@@ -17,7 +17,7 @@ in every environment. Here we are going to do it using Ruby and the cgi module t
 <h2>Hello World in plain Ruby</h2>
 
 Writing a Hello World! script in Ruby that can run as a CGI program is quite simple.
-You need to make sure that your web <a href="http://code-maven.com/set-up-cgi-with-apache">server is set up to handle CGI requests</a>,
+You need to make sure that your web <a href="/set-up-cgi-with-apache">server is set up to handle CGI requests</a>,
 and then you need to create a simple script:
 
 <include file="examples/ruby/web_hello_world.rb">

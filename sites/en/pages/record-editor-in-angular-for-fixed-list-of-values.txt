@@ -10,7 +10,7 @@
 =abstract start
 
 Earlier we have started to build an editor in Angular to edit a record. In the first article we have prepared
-and editor for a simple <a href="http://code-maven.com/record-editor-in-angular">input box for free text</a>.
+and editor for a simple <a href="/record-editor-in-angular">input box for free text</a>.
 
 This time we'll add an editor for a record where the user must choose from a fixed list of values.
 

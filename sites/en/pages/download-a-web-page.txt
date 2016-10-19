@@ -24,6 +24,6 @@ the content it received in the given file.
 <h2>Solutions</h2>
 
 <ul>
-  <li><a href="http://code-maven.com/download-a-page-using-ruby">Ruby: Download an HTML page using Ruby</a></li>
+  <li><a href="/download-a-page-using-ruby">Ruby: Download an HTML page using Ruby</a></li>
 </ul>
 

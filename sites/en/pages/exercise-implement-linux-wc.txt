@@ -51,7 +51,7 @@ and get back the number of file in the directory tree starting in our current wo
 
 <h2>Suggestion</h2>
 
-<a href="http://code-maven.com/exercise-count-words-in-a-file">Count words in a file</a> is a simpler exercise. Solve that first!
+<a href="/exercise-count-words-in-a-file">Count words in a file</a> is a simpler exercise. Solve that first!
 
 <h2>Tools - Perl 5</h2>
 
@@ -67,8 +67,8 @@ and get back the number of file in the directory tree starting in our current wo
 <h2>Tools - Ruby</h2>
 
 <ul>
-   <li><a href="http://code-maven.com/open-file-and-read-content-in-ruby">Ruby: Open file and read content in Ruby</a></li>
-   <li><a href="http://code-maven.com/argv-the-command-line-arguments-in-ruby">Ruby: ARGV command line parameters</a></li>
+   <li><a href="/open-file-and-read-content-in-ruby">Ruby: Open file and read content in Ruby</a></li>
+   <li><a href="/argv-the-command-line-arguments-in-ruby">Ruby: ARGV command line parameters</a></li>
    <li>Printing to Standard Error</li>
 </ul>
  

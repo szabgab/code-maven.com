@@ -57,7 +57,7 @@ and on how to get started with it.
    <li><a href="https://metacpan.org/pod/Mojo::IOLoop::ReadWriteFork">Mojo::IOLoop::ReadWriteFork</a></li>
    <li><a href="https://en.wikipedia.org/wiki/Windows_Subsystem_for_Linux">(Bash) Windows Subsystem for Linux</a></li>
    <li><a href="http://www.cpan.org/">CPAN</a></li>
-   <li><a href="http://code-maven.com/cmos-1-jason-crome-perl-dancer2">Jason Crome on Perl Dancer 2</a></li>
+   <li><a href="/cmos-1-jason-crome-perl-dancer2">Jason Crome on Perl Dancer 2</a></li>
    <li><a href="https://metacpan.org/pod/Carton">Carton</a></li>
    <li><a href="https://github.com/kraih/mojo/wiki">Mojolicius Wiki</a></li>
    <li><a href="http://marcus.nordaaker.com/">Marcus Ramberg</a></li>

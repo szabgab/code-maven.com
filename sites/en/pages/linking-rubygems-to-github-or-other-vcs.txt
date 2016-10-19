@@ -9,7 +9,7 @@
 
 =abstract start
 
-Having a <a href="http://code-maven.com/public-version-control-for-open-source-projects">Public Version Control system</a> for your project is 
+Having a <a href="/public-version-control-for-open-source-projects">Public Version Control system</a> for your project is 
 quite important, make it easy for people to find it. RubyGems makes it very easy.
 
 =abstract end

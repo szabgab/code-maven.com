@@ -9,7 +9,7 @@
 
 =abstract start
 
-We have already seen how to <a href="http://code-maven.com/logging-in-javascript">print logging in JavaScript</a>, but the really interesting
+We have already seen how to <a href="/logging-in-javascript">print logging in JavaScript</a>, but the really interesting
 part is when we would like to see the content of variables. Especially variable that hold objects.
 
 It is actually quite easy, but there is a catch.
@@ -19,13 +19,13 @@ It is actually quite easy, but there is a catch.
 <h2>Logging JavaScript object</h2>
 
 In this example we create a simple object and then use the <hl>console.log</hl> function to print
-it to the <a href="http://code-maven.com/open-javascript-console">JavaScript console of the browser</a>.
+it to the <a href="/open-javascript-console">JavaScript console of the browser</a>.
 
 <include file="examples/javascript/logging/logging_object.js">
 
 The result shows the object. In Chrome, after clicking on the small <hl>+</hl> sign it looks like this:
 
-<img src="http://code-maven.com/img/javascript_logging_object_chrome.png" alt="Logging JavaScript object in Chrome" />
+<img src="/img/javascript_logging_object_chrome.png" alt="Logging JavaScript object in Chrome" />
 
 Here is the HTML you might need to try it right here.
 
@@ -40,7 +40,7 @@ In this example we have created the same object as above, printed it to the cons
 
 <include file="examples/javascript/logging/logging_changed_object.js">
 
-<img src="http://code-maven.com/img/javascript_logging_changed_object_chrome.png" alt="Logging JavaScript changed object in Chrome" />
+<img src="/img/javascript_logging_changed_object_chrome.png" alt="Logging JavaScript changed object in Chrome" />
 
 Oh-oh. That does not look good. The JavaScript object printed both before and after the change has the same content.
 In this example it is obvious that there is some problem, but in the real world this object might further change before
@@ -63,14 +63,14 @@ The solution is to copy the content of the object when printing it to the consol
 There are a number of ways to do that in plain JavaScript. We are going to see one
 using the <hl>stringify</hl> and <hl>parse</hl> methods of the <hl>JSON</hl> object.
 
-Effectively for every logging we first convert the object to a <a href="http://code-maven.com/json">JSON string</a>
+Effectively for every logging we first convert the object to a <a href="/json">JSON string</a>
 and then convert it back to a JavaScript object before sending it off to <hl>console.log</hl>.
 
 <include file="examples/javascript/logging/logging_cloned_object.js">
 
 The output now looks as we expect. The content of the object is shown properly.
 
-<img src="http://code-maven.com/img/javascript_logging_cloned_object_chrome.png" alt="Logging JavaScript cloned object in Chrome" />
+<img src="/img/javascript_logging_cloned_object_chrome.png" alt="Logging JavaScript cloned object in Chrome" />
 
 You can try it yourself using this HTML file:
 
@@ -96,7 +96,7 @@ You'll have to experiment yourself.
 
 <h2>Cloning JavaScript object in AgularJS</h2>
 
-If you are using <a href="http://code-maven.com/angularjs">AngularJS</a> you can use the
+If you are using <a href="/angularjs">AngularJS</a> you can use the
 <hl>angular.clone(obj)</hl> method to clone the object.
 
 <h2>Cloning JavaScript object in JQuery</h2>

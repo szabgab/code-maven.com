@@ -10,7 +10,7 @@
 =abstract start
 
 In <a href="/getting-started-with-angularjs">getting started with AngularJS</a> we saw how simple expressions work,
-and then we created our <a href="http://code-maven.com/angularjs-first-binding">first binding</a>. This time we look
+and then we created our <a href="/angularjs-first-binding">first binding</a>. This time we look
 at two simple examples using AngularJS modules and controllers.
 
 =abstract end
