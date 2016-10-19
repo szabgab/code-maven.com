@@ -1,0 +1,67 @@
+=title CMOS #17: Moyinoluwa Adeyemi
+=timestamp 2016-09-03T19:01:01
+=indexes podcast 
+=description
+=tags interview, cmos
+=mp3 /media/cmos-17-moyinoluwa-adeyemi.mp3, 19573318, 21:57
+=img /img/cmos/moyinoluwa-adeyemi.jpg
+=alt Moyinoluwa Adeyemi
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/cmos-17-moyinoluwa-adeyemi" />
+
+<podcast>
+
+
+   Android watchface that tells the time in Yoruba 
+   Watch Face for the Radar community
+   Face-detector
+
+   Machine Learning for Android Developers with the Mobile Vision API— Part 1 — Face Detection
+   https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f
+
+   About her: 
+     http://techherng.com/moyinoluwa-adeyemi/
+     http://womenofrubies.com/2016/08/10/meetprofile-moyinoluwa-adeyemi-the-woman-who-built-an-android-watch-that-tells-time-in-yoruba/
+     http://woman.ng/2016/08/how-moyinoluwa-adeyemi-built-an-android-watch-face-that-tells-time-in-yoruba/
+     http://sundayadelajablog.com/tag/moyinoluwa-adeyemi/
+     http://howafrica.com/this-is-moyinoluwa-adeyemi-the-nigerian-lady-who-builds-watchface-that-tells-time-in-local-dialect-yoruba/
+
+<div id="person">
+  <h2>Moyinoluwa Adeyemi</h2>
+  <ul>
+    <li><a href="https://twitter.com/moyheen">@moyheen on Twitter</a></li>
+    <li><a href="https://github.com/moyheen">GitHub</a></li>
+    <li><a href="https://ng.linkedin.com/in/moyinoluwa">LinkedIN</a></li>
+    <li><a href="https://medium.com/@moyinoluwa">@moyinoluwa on Medium</a></li>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href=""></a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [moyheen guest1 Moyinoluwa Adeyemi]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] moyheen:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
