@@ -1,7 +1,7 @@
 =title CMOS #17: Moyinoluwa Adeyemi
 =timestamp 2016-09-03T19:01:01
 =indexes podcast 
-=description
+=description Android Watch Face in Yoruba, Facial recognition API in Android
 =tags interview, cmos
 =mp3 /media/cmos-17-moyinoluwa-adeyemi.mp3, 19573318, 21:57
 =img /img/cmos/moyinoluwa-adeyemi.jpg
@@ -51,6 +51,7 @@ Interview with <a href=""></a> about <a href=""></a>.
   <h2>Links</h2>
   <ul>
     <li><a href=""></a></li>
+    <li>Not an article, <a href="http://www.codenewbie.org/podcast/algorithms">Carina C. Zona interviewed at @codenewbie</a> starting at 21:00 she talks about bias in digital photography.</li>
   </ul>
 </div>
 
