@@ -1,7 +1,7 @@
 =title CMOS #1: Jason Crome on Perl Dancer 2
 =timestamp 2016-08-23T19:01:01
 =indexes podcast, Perl, Dancer, web
-=description Interview with Jason Crome about the Perl Dancer web framework and how they handled the fine art of changes while providing backward compatibiity.
+=description Interview with Jason Crome about the Perl Dancer web framework and how they handled the fine art of changes while providing backward compatibility.
 =tags interview, cmos
 =mp3 /media/cmos-1-jason-crome-perl-dancer2.mp3, 13879747, 16:09
 =status show
@@ -13,7 +13,7 @@
 
 =abstract start
 
-Interview with Jason A. Crome one of the core developers of the <a href="http://perldancer.org/">Perl Dancer</a> web framework. We talked about how he got involved in the project and how they handled the upgrade process from Daner 1 to Dancer 2 to avoid breaking any of the plugins.
+Interview with Jason A. Crome one of the core developers of the <a href="http://perldancer.org/">Perl Dancer</a> web framework. We talked about how he got involved in the project and how they handled the upgrade process from Dancer 1 to Dancer 2 to avoid breaking any of the plugins.
 
 =abstract end
 
@@ -97,7 +97,7 @@ That's really a philosophy that the Dancer framework has stuck with. If you want
     Okay. I understand that there is something called Dancer and Dancer 2. Are these two versions? What is the relationship between them? Are you using the new one?
 
   [5:10] cromedome:
-    Personally my involvement is almost exclusively with Dancer 2. The history behind these is that Dancer started out as a smaller project by our project founder, Alexis (<a href="https://twitter.com/sukria">Alexis Sukrieh</a>). I don't know if he quite had the vision, at the time when he created Dancer, that it was going to be as wildly successfull as it was. 
+    Personally my involvement is almost exclusively with Dancer 2. The history behind these is that Dancer started out as a smaller project by our project founder, Alexis (<a href="https://twitter.com/sukria">Alexis Sukrieh</a>). I don't know if he quite had the vision, at the time when he created Dancer, that it was going to be as wildly successful as it was. 
     It was not really architected with that kind of growth in mind, so when he started to get more elaborate applications there were some things that would shoot you in the foot a little bit. And so the Dancer 2 project was started, from the ground up, to address these concerns. 
     It took a couple of years of development, but early in the middle of last year it hit critical mass, for a lack of a better term, and it was pretty feature equivalent to what Dancer 1 had at that point, with the exception being the plugin ecosystem. Which is what we have spent most of 2016 addressing, actually.
 
@@ -127,7 +127,7 @@ Can you repeat...?
     It was kind of funny, there were still a couple of them that we could not patch, so we even spent some time building a compatibility layer, so that the Dancer 1 plugins could still use plugin 2  with no syntactic changes. Stability and not breaking other peoples code, is very important to us.
 
   [10:57] szabgab:
-    Yeah, It's a known problem, that moving forward and staying backword compatible, is not compatible with each other, and then you have to make a decision at one point, that you more or less stop your progress, I guess. You can move much slower in order to maintain backword compatibility.
+    Yeah, It's a known problem, that moving forward and staying backward compatible, is not compatible with each other, and then you have to make a decision at one point, that you more or less stop your progress, I guess. You can move much slower in order to maintain backward compatibility.
 
     Okay, so what kind of project do you know that exist, that are using Dancer, that you can point out?
 
@@ -166,7 +166,7 @@ Can you repeat...?
      Yes, I am.
 
   [15:38] szabgab:
-    That's great. So if anywone wants to meet Jason at the Dancer conference in Vienna, we put links in the shownotes for the conference and for the other things you have mentioned. 
+    That's great. So if anyone wants to meet Jason at the Dancer conference in Vienna, we put links in the show-notes for the conference and for the other things you have mentioned. 
 So thank you very much for coming on the show and I hope that in a couple of month, we can catch up again with some updates, new releases, new information about the project. Thank you very much.
 
   [16:06] cromedome:
@@ -198,5 +198,5 @@ Recoding Option:
 </pre>
 
 There are a couple of places where we had a lot of dropped frames
-and by the end of the recording the noise from the ventillator of my computer became pretty disturbing.
+and by the end of the recording the noise from the ventilator of my computer became pretty disturbing.
 -->
