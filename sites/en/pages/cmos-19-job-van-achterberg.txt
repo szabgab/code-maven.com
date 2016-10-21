@@ -1,4 +1,4 @@
-=title CMOS #19: Job van Achterberg
+=title CMOS #19: Job van Achterberg - Inclusive design
 =timestamp 2016-09-03T19:01:01
 =indexes podcast, accessibility, a11y, The Netherlands
 =description Job van Achterberg on accessibility a11y
@@ -24,16 +24,13 @@ Interview with <a href=""></a> about <a href=""></a>.
 <div id="person">
   <h2>Job van Achterberg</h2>
   <ul>
-    <li><a href="https://twitter.com/detonite"></a></li>
-    <li><a href="https://github.com/jkva"></a></li>
+    <li><a href="https://twitter.com/detonite">@detonite at Twitter</a></li>
+    <li><a href="https://github.com/jkva">GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/jobva">LinkedIN</a></li>
-    <li><a href=""></a></li>
     <li><a href="https://www.youtube.com/watch?v=Cgo_iYw09K0">YAPC::EU::2016: Fun With Assistive Tech (video)</a></li>
     <li><a href="http://www.slideshare.net/jkva/yapceu2016-how-to-make-your-web-application-work-for-everyone">YAPC::EU::2016, How to make your web application work for everyone (slides)</a></li>
-    <li><a href=""></a></li>
   </ul>
 </div>
-    "Inclusive design"
 
 <div id="links">
   <h2>Links</h2>
