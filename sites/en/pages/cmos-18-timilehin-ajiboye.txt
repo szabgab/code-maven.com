@@ -1,0 +1,56 @@
+=title CMOS #18: Timilehin Ajiboye
+=timestamp 2016-09-03T19:01:01
+=indexes podcast, Nigeria
+=description Timilehin Ajiboye
+=tags interview, cmos
+=mp3 /media/cmos-18-timilehin-ajiboye.mp3, 17224989, 19:24
+=img /img/cmos/timilehin-ajiboye.png
+=alt 
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Interview with <a href=""></a> about <a href=""></a>.
+
+=abstract end
+
+<screencast file="/media/cmos-18-timilehin-ajiboye" />
+
+<podcast>
+
+<div id="person">
+  <h2>Timilehin Ajiboye</h2>
+  <ul>
+    <li><a href="https://github.com/timigod">timigod on GitHub</a></li>
+    <li><a href="https://twitter.com/timigod">@timigod on Twitter</a></li>
+    <li><a href="https://medium.com/@timigod">@timigod on Medium</a></li>
+    <li><a href="http://helloworld.ng/">Hello World</a></li>
+  </ul>
+</div>
+
+<div id="links">
+  <h2>Links</h2>
+  <ul>
+    <li><a href="https://github.com/timigod/client_manager">Client Manager</a></li>
+    <li><a href="https://github.com/resque/resque">Resque</a></li>
+    <li><a href="https://github.com/davidcelis/api-pagination">API Pagination</a></li>
+    <li><a href="https://github.com/norman/friendly_id">Friendly ID</a></li>
+    <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
+    <li><a href="http://rubyonrails.org/">Ruby on Rails</a></li>
+  </ul>
+</div>
+
+[transcript]
+  [szabgab host1 Gabor Szabo]
+  [timigod guest1 Timilehin Ajiboye]
+
+  [0:00] szabgab:
+    Hello there..
+
+  [0:19] timigod:
+    Hi I am fine, thank you. How are you?
+[/transcript]
+
