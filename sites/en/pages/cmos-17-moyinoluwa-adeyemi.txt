@@ -31,6 +31,7 @@ Interview with <a href="https://twitter.com/moyheen">Moyinoluwa Adeyemi</a> abou
   </ul>
 </div>
 
+<!--
 <div id="links">
   <h2>Links - articles about Moyinoluwa Adeyemi</h2>
   <ul>
@@ -41,6 +42,7 @@ Interview with <a href="https://twitter.com/moyheen">Moyinoluwa Adeyemi</a> abou
     <li><a href="http://howafrica.com/this-is-moyinoluwa-adeyemi-the-nigerian-lady-who-builds-watchface-that-tells-time-in-local-dialect-yoruba/">More about the Yorùbá Watch</a></li>
   </ul>
 </div>
+-->
 
 <div id="links">
   <h2>Links</h2>
@@ -48,7 +50,9 @@ Interview with <a href="https://twitter.com/moyheen">Moyinoluwa Adeyemi</a> abou
     <li><a href="http://radar.techcabal.com/">The Radar Online Tech Community in Nigeria</a></li>
     <li><a href="https://en.wikipedia.org/wiki/Yorùbá_language">The Yorùbá Language</a></li>
     <li><a href="https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f">Moyinoluwa Adeyemi writes about Machine Learning in Android / Face Detection</a></li>
+<!--
     <li>A podcast where <a href="http://www.codenewbie.org/podcast/algorithms">Carina C. Zona interviewed at @codenewbie</a> starting at 21:00 she talks about racial bias in photographic film in the U.S. in the 1950s and how that carried over into digital photography.</li>
+-->
   </ul>
 </div>
 
