@@ -1,7 +1,7 @@
 =title CMOS #6: Tally Barak on GraphQL
 =timestamp 2016-09-10T11:01:01
 =description Interview with Tally Barak about GrahpQL being the next big protocol after SOAP and REST.
-=indexes podcast, GraphQL, Meteor
+=indexes podcast, GraphQL, Meteor, web, Israel
 =tags interview, cmos
 =mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
 =img /img/cmos/tally_barak.png

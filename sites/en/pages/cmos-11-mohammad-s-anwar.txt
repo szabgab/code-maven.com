@@ -1,6 +1,6 @@
 =title CMOS #11: Mohammad S. Anwar - Contributing to CPAN every single day
 =timestamp 2016-09-26T08:01:01
-=indexes podcast, Perl, CPAN
+=indexes podcast, Perl, CPAN, UK, India
 =description The leader of the daily CPAN contribution quest by far on inspiration and enjoying the contribution.
 =tags interview, cmos
 =mp3 /media/cmos-11-mohammad-s-anwar.mp3, 21467513, 23:16

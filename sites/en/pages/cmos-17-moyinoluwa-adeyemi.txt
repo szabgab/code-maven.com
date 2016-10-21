@@ -1,7 +1,7 @@
-=title CMOS #17: Moyinoluwa Adeyemi
-=timestamp 2016-09-03T19:01:01
-=indexes podcast 
-=description Android Watch Face in Yorùbá, Facial recognition API in Android
+=title CMOS #17: Moyinoluwa Adeyemi creating Android Watch in Yorùbá
+=timestamp 2016-10-21T10:01:01
+=indexes podcast, Android, Face recognition, Nigeria
+=description Creating Android Watch Face in Yorùbá. Facial recognition API in Android - putting eye patches in the right spot.
 =tags interview, cmos
 =mp3 /media/cmos-17-moyinoluwa-adeyemi.mp3, 19573318, 21:57
 =img /img/cmos/moyinoluwa-adeyemi.jpg
@@ -97,11 +97,12 @@ And it's like a developer agency, although we started to sell our own products n
 
 [02:13] szabgab: 
 Okay, so do you...so I understand that most of the things are out-sourcing but you also have your own product now?
+
 [02:22] moyheen: 
 Yeah, well we build apps for other companies but we also are starting to have our own product now. 
 
 [02:30] szabgab: 
-And are your clients primarily in Nigeria, African countries? 
+And are your clients primarily in Nigeria, other African countries? 
 
 [02:34] moyheen: 
 Yes, primarily Nigerian, most of them. 
@@ -128,7 +129,7 @@ Okay, so what...?
 [04:16] moyheen: 
 So the open source one I built was an analog one, for <a href="http://radar.techcabal.com/">Radar</a>, a tech community, an online tech community for Nigeria, the biggest actually. 
 And well, the notebook kind of looked like a watch already, so I thought, why not just make this into watches. 
-And programming for Android in not really common for programmers in this region, so they love excitement. 
+And programming for Android is not really common for programmers in this region, so they love excitement. 
 So people were excited so then I learned how to get started, which was what's the open source code. 
 
 [04:50] szabgab: 
@@ -165,8 +166,8 @@ So even if you don't have an Android web device, you can still tell the time on 
 Okay, I understand. And are these both open source, the applications? 
 
 [06:11] moyheen: 
-No, the Yorùbá one is not open source, although I plan to open source the code, but just the confession, because I did that myself. 
-I talked to a couple of lookouts because I worked with them to get the translation from Yorùbá to what the app needed. 
+No, the Yorùbá one is not open source, although I plan to open source the code, but just the conversion, because I did that myself. 
+I talked to a couple of local speakers because I worked with them to get the translation from Yorùbá to what the app needed. 
 So translate from realtime into Yorùbá, so I'm going to open source that. 
 I've not gotten around to doing that yet but I plan to do that someday. 
 
@@ -216,8 +217,8 @@ About the app?
 Yeah? 
 
 [08:51] moyheen: 
-Well, it's on the Google Play Store, so anybody that wants it can go download it. 
-It's still Yorùbá Watch Faces, I don't know if that name is correct since it's more than a watch face now, but it's still called Yorùbá Watch Faces on Google Play Store. 
+Well, it's on the <a href="https://play.google.com/store/apps/details?id=com.moyinoluwa.yorubawatchfaces&hl=en">Google Play Store</a>, so anybody that wants it can go download it. 
+It's still Yorùbá Watch Faces, I don't know if that name is correct since it's more than a watch face now, but it's still called <a href="https://play.google.com/store/apps/details?id=com.moyinoluwa.yorubawatchfaces&hl=en">Yorùbá Watch Faces on Google Play Store</a>. 
 
 [09:12] szabgab: 
 Do you have some way to encourage people? 
@@ -244,7 +245,7 @@ Yeah, okay, so very recently there was the <a href="https://developers.google.co
 After I attended the presentation, I thought it was cool, so I had free time on my hands and decided to check it out. 
 It was fine and interesting because at least for the face detection, there are three APIs for mobile developers, and I checked out the face detection, it looked interesting. 
 I tried to...I went through the <a href="https://codelabs.developers.google.com/">Codelab by Google</a>, and tried to replicate it and then make it personal. 
-I'll use my ?? out of it, when I started learning it, I found how interesting it would be to take images, get them, and then transpose other images on top of them. 
+I'll build my own thing out of it, when I started learning it, I found how interesting it would be to take images, get them, and then transpose other images on top of them. 
 So I thought I'd never read an article about this before, about the official work from Google site, but it's VR that they write about. 
 
 [11:36] szabgab: 
@@ -273,8 +274,8 @@ Yes, the face of people.
 Okay, and then what kind of calls do you have like a landmark, get me the left eye or get me the right eye, like this? 
 
 [12:46] moyheen: 
-So each eye, I discovered that each of the landmarks on ?? have a nickname, but I don't know what those numbers stand for, but I checked on it and I discovered all the faces had unique numbers that were identical, so the left eye was, I think four, I'd have to check that again, but each of the landmarks had unique numbers so all I did was, if the landmarks type is four, then put this image there. 
-If the landmarks time is say five, and then five is the cheek, put another image there. 
+So each eye, I discovered that each of the landmarks have unique numbers, but I don't know what those numbers stand for, but I checked on it and I discovered all the faces had unique numbers that were identical, so the left eye was, I think four, I'd have to check that again, but each of the landmarks had unique numbers so all I did was, if the landmarks type is four, then put this image there. 
+If the landmarks type is say five, and then five is the cheek, put another image there. 
 So all I did was just detect the landmarks and then put images based on what landmark it was. 
 
 [13:29] szabgab: 
@@ -295,7 +296,7 @@ It's a pity, when is it going to be there?
 
 [14:37] moyheen: 
 I'll have to do a lot more work before it can go on there. For now, like I wrote in the article, I didn't follow any best practices. 
-I just wanted to show what was possible so I'll have to clean up the code, maybe add a couple of more featurew, because I don't think anybody's going to just download an app that's just putting an eye patch over their left eye? 
+I just wanted to show what was possible so I'll have to clean up the code, maybe add a couple of more featurs, because I don't think anybody's going to just download an app that's just putting an eye patch over their left eye? 
 
 [15:02] szabgab: 
 Well, you might be surprised! 
@@ -313,11 +314,13 @@ How well it works?
 And then you can upload it to the apps store and tell people, this is for demo and this is for learning it, so don't expect anything, but I need feedback for how it behaves, works for you? 
 
 [16:10] moyheen: 
-Okay, I think I'll pursue that. I didn't look at it that way. 
+Okay, I think I'll consider that. I didn't look at it that way. 
 
 [16:16] szabgab: 
 So there's a very, I don't know, strange and interesting aspect of this, because when I saw <a href="https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f#.qzflujbdj">that article</a>, and you had this picture with five people, I think, and the landmarks pointed out. 
-And obviously all the people were black, and the interesting thing is, just a couple of weeks ago I read an article <a href="http://www.codenewbie.org/podcast/algorithms">(actually this podcast, where the interviewee is talking about film development in years past, at 21:00)</a> explaining that most of the photo-recognition software algorithms work much better for light or white faces, than for dark and black. 
+And obviously all the people were black, and the interesting thing is, just a couple of weeks ago I read an article explaining that most of the photo-recognition software algorithms work much better for light or white faces, than for dark and black. 
+
+(Actually this was a <a href="http://www.codenewbie.org/podcast/algorithms">podcast</a> where Carina C. Zona, the interviewee, is talking about film development in years past. Starting at 21:00.)
 
 [16:56] moyheen: 
 Oh, really? 
@@ -334,7 +337,7 @@ Yeah, I don't know if this software has the same issues or not.
 Or even if any of this whole thing is really true, I haven't really researched it. 
 I just read an article about it, like a week or two ago, and well, I was surprised, obviously, a little bit, maybe not too surprised, because I mean, I don't know, these strange things do happen. 
 But I was wondering first of all, whether you know about it, apparently you don't. 
-And would be interested, have you tried the software on white people as well? 
+And would be interested, if have you tried the software on white people as well? 
 
 [18:26] moyheen: 
 Well, I haven't but now that you mention it, maybe I'll go back and do that and edit my article, but I wasn't expecting any issues and I didn't have any real issues with it, it worked as expected. 

@@ -1,6 +1,6 @@
 =title CMOS #4: Tom Hudson - gron for making JSON greppable
 =timestamp 2016-09-06T20:01:01
-=indexes podcast, gron, JSON, go
+=indexes podcast, gron, JSON, go, UK
 =description Interview with Tom Hudson about gron, the command line tool that can help you make JSON greppable to learn how an API works.
 =tags interview, cmos
 =mp3 /media/cmos-4-tom-hudson-gron.mp3, 17224989, 19:24

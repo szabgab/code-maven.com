@@ -1,6 +1,6 @@
 =title CMOS #15: Prosper Otemuyiwa - Laravel
 =timestamp 2016-10-07T21:01:01
-=indexes podcast 
+=indexes podcast, Laravel, web, Hackathon, Nigeria
 =description Prosper Otemuyiwa
 =tags interview, cmos
 =mp3 /media/cmos-15-prosper-otemuyiwa.mp3, 25462851, 27:37

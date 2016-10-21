@@ -1,6 +1,6 @@
 =title CMOS #3: Joel Berger on Mojolicious
 =timestamp 2016-09-01T14:08:03
-=indexes podcast, Perl, Mojolicious
+=indexes podcast, Perl, Mojolicious, USA
 =description Interview with Joel Berger one of the core developers of Mojolicious, the Perl-base web framework with rainbows and unicorns.
 =tags interview, cmos
 =mp3 /media/cmos-3-joel-berger-mojolicious.mp3, 23645783, 26:37

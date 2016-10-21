@@ -1,6 +1,6 @@
 =title CMOS #7: Obinwanne Hill on RestiveJS
 =timestamp 2016-09-17T14:01:01
-=indexes podcast, RestiveJS
+=indexes podcast, RestiveJS, Nigeria
 =description Interview with Obinwanne Hill about RestiveJS, the JQuery plugin that helps creating responsive web sites without using Media Query.
 =tags interview, cmos
 =mp3 /media/cmos-7-obinwanne-hill-restivejs.mp3, 24752906, 24:28

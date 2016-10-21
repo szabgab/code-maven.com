@@ -1,6 +1,6 @@
 =title CMOS #10: Michael Kennedy - Talk Python To Me
 =timestamp 2016-09-23T20:01:01
-=indexes podcast, Scrapy, passlib, hypothesis, Pyjithon, sqlalchemy
+=indexes podcast, Scrapy, passlib, hypothesis, Pyjithon, sqlalchemy, USA
 =description Interview with Michael Kennedy about several Python project that were discussed on his podcast: Talk Python To Me
 =tags interview, cmos
 =mp3 /media/cmos-10-michael-kennedy.mp3, 44576759, 18:34

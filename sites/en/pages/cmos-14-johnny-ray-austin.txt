@@ -1,6 +1,6 @@
 =title CMOS #14: Johnny Ray Austin - Mo - Django - VueJS
 =timestamp 2016-10-06T19:01:01
-=indexes podcast 
+=indexes podcast, Django, VueJS,  web, USA
 =description Interview with Johnny Ray Austin about the Mo project for creating Django based projects and VueJS for front-end development.
 =tags interview, cmos
 =mp3 /media/cmos-14-johnny-ray-austin.mp3, 20580712, 20:49

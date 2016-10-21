@@ -1,6 +1,6 @@
 =title CMOS #12: Randal Schwartz the host of FLOSS Weekly
 =timestamp 2016-09-28T22:01:01
-=indexes podcast, FLOSS Weekly, Perl, Dart 
+=indexes podcast, FLOSS Weekly, Perl, Dart, USA
 =description Randal Schwartz the host of FLOSS Weekly, the largest Open Source podcast and the most prolific author of Perl books.
 =tags interview, cmos
 =mp3 /media/cmos-12-randal-schwartz.mp3, 25823933, 25.01

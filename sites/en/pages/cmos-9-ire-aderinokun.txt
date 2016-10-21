@@ -1,6 +1,6 @@
 =title CMOS #9: Ire Aderinokun - Khaled Bot, Can I Use Embed, Formhack
 =timestamp 2016-09-21T08:01:01
-=indexes podcast, CSS, HTML, JavaScript 
+=indexes podcast, CSS, HTML, JavaScript, Nigeria 
 =description Interview with Ire Aderinokun about Khaled Bot, the Can I Use Embed, and Forhack a configurable form reset.
 =tags interview, cmos
 =mp3 /media/cmos-9-ire-aderinokun.mp3, 21405046, 23:45
