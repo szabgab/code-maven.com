@@ -6,7 +6,7 @@
 =mp3 /media/cmos-17-moyinoluwa-adeyemi.mp3, 19573318, 21:57
 =img /img/cmos/moyinoluwa-adeyemi.jpg
 =alt Moyinoluwa Adeyemi
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
