@@ -233,7 +233,7 @@ So otherwise, I mean, how many people would look for it, right?
 [09:31] moyheen: 
 Well, not so much for now. 
 But at a time you really need it, I don't think you would think of it. 
-But we're doing a lot of publicity so anybody I meet, I ask them, <a>Do you have this on your phone?</q> 
+But we're doing a lot of publicity so anybody I meet, I ask them, <q>Do you have this on your phone?</q> 
 If they say no, they are going to download it immediately. 
 But I've been doing a lot of word of mouth but I guess I'll have to figure out how to improve that. 
 But then it started as a side projects, I didn't go into it thinking I was going to solve this problem, so I'll have to just think about how to promote it. 
@@ -241,11 +241,11 @@ How to promote the app.
 
 [10:09] szabgab: 
 Okay, I also saw another article from you. 
-I don't know if it has more parts or only the first part, about the <a href="https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f"> face detection</a>. 
+I don't know if it has more parts or only the first part, about the <a href="https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f">face detection</a>. 
 Tell me about that one, please? 
 
 [10:23] moyheen: 
-Yeah, okay, so very recently there was the <a href="https://developers.google.com/startups/accelerator/">Google Launch pad</a> Summit in Nigeria by the <a href="https://developers.google.com/">Google Developer</a> developing, and one of the sessions was machine learning with the Google API's methods, and that looks cool. 
+Yeah, okay, so very recently there was the <a href="https://developers.google.com/startups/accelerator/">Google Launchpad</a> Summit in Nigeria by the <a href="https://developers.google.com/">Google Developer</a> developing, and one of the sessions was machine learning with the Google API's methods, and that looks cool. 
 After I attended the presentation, I thought it was cool, so I had free time on my hands and decided to check it out. 
 It was fine and interesting because at least for the face detection, there are three APIs for mobile developers, and I checked out the face detection, it looked interesting. 
 I tried to...I went through the <a href="https://codelabs.developers.google.com/">Codelab by Google</a>, and tried to replicate it and then make it personal. 
