@@ -32,6 +32,14 @@ Interview with <a href=""></a> about <a href=""></a>.
   </ul>
 </div>
 
+Some notes I had:
+* W3C markup validator - https://validator.w3.org/
+* HTML5 validator - https://validator.nu/, https://validator.github.io/validator/
+* The Paciello Group Colour Contrast Analyser - https://www.paciellogroup.com/resources/contrastanalyser/
+* Deque Systems aXe chrome extension - https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd, https://github.com/dequelabs/axe-core
+* NoCoffee Chrome Extension - https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl
+* NVAccess NVDA - http://www.nvaccess.org/
+
 <div id="links">
   <h2>Links</h2>
   <ul>
