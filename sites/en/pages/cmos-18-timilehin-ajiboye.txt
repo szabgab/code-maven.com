@@ -1,10 +1,10 @@
-=title CMOS #18: Timilehin Ajiboye
+=title CMOS #18: Timi Ajiboye
 =timestamp 2016-09-03T19:01:01
-=indexes podcast, Nigeria, Ruby Gems
-=description Timilehin Ajiboye
+=indexes podcast, Nigeria, Ruby Gems, Sails.js
+=description Timi Ajiboye, A Nigerian Ruby developer, tells us about his current and future projects, some in Sails.js.
 =tags interview, cmos
-=mp3 /media/cmos-18-timilehin-ajiboye.mp3, 17224989, 19:24
-=img /img/cmos/timilehin-ajiboye.png
+=mp3 /media/cmos-18-timi-ajiboye.mp3, 17224989, 19:24
+=img /img/cmos/timi-ajiboye.png
 =alt 
 =status draft
 =author szabgab
@@ -22,7 +22,7 @@ Interview with Timi Ajiboy, a great discussion of his view of open source, and h
 <podcast>
 
 <div id="person">
-  <h2>Timilehin Ajiboye</h2>
+  <h2>Timi Ajiboye</h2>
   <ul>
     <li><a href="https://github.com/timigod">timigod on GitHub</a></li>
     <li><a href="https://twitter.com/timigod">@timigod on Twitter</a></li>
@@ -34,10 +34,12 @@ Interview with Timi Ajiboy, a great discussion of his view of open source, and h
 <div id="links">
   <h2>Links</h2>
   <ul>
+    <li><a href="http://cruncherapp.co/">Cruncher</a></li>
     <li><a href="https://github.com/timigod/client_manager">Client Manager</a></li>
     <li><a href="https://github.com/resque/resque">Resque</a></li>
     <li><a href="https://github.com/davidcelis/api-pagination">API Pagination</a></li>
     <li><a href="https://github.com/norman/friendly_id">Friendly ID</a></li>
+    <li><a href="https://hellosails.com/">HelloSails</a></li>
     <li><a href="https://www.ruby-lang.org/en/">Ruby</a></li>
     <li><a href="http://rubyonrails.org/">Ruby on Rails</a></li>
   </ul>
@@ -45,7 +47,7 @@ Interview with Timi Ajiboy, a great discussion of his view of open source, and h
 
 [transcript]
   [szabgab host1 Gabor Szabo]
-  [timigod guest1 Timilehin Ajiboye]
+  [timigod guest1 Timi Ajiboye]
 
 [00:02] szabgab: 
 Hello there, this is the CMOS, the Code Maven open source podcast and interview video series. I'm Gabor Szabo, your host, and with me is Timi Ajiboye from Nigeria. How are you, Timi? 
@@ -110,9 +112,10 @@ All kinds. I personally can do web and Android and iOS. Yeah, all kinds, all sor
 
 [05:53] szabgab: 
 Okay, so what is the biggest open source project that you have been involved, or the most, the one that's most interesting that you think?
+
 [06:08] timigod: 
 Most interesting...yeah, the bank parser one. 
-The one where we all had to make...there were like five of us so we said, <a>Okay, you make a parser for this bank, this format, you do Excel and this bank.</q> 
+The one where we all had to make...there were like five of us so we said, <q>Okay, you make a parser for this bank, this format, you do Excel and this bank.</q> 
 It was fun, that was my first gem, so for me it was the first gem that I had something to do with. It was fun. It was nice to see how everybody just works on separate parts and everything come together. 
 The other one, which is the one I made alone, for now, with no contributors, is <a href="https://github.com/timigod/client_manager">Client Manager</a>. 
 Basically it is to authenticate clients from, if you've been in an API and you want to make it from an application or your iOS to access that API, you just need to install Client Manager to your app and it does a lot of that for you automatically. 
@@ -160,7 +163,7 @@ Those are things that I would like to do in the future of the gem, so it's prett
 Okay, do you know how many people are using it? 
 
 [09:58] timigod: 
-It's sort of dropped around ten days ago, but I have seen on <a hred="https://rubygems.org/">RubyGems</a>, I have about 170 downloads, yeah 172 downloads. 
+It's sort of dropped around ten days ago, but I have seen on <a href="https://rubygems.org/">RubyGems</a>, I have about 170 downloads, yeah 172 downloads. 
 
 [10:15] szabgab: 
 Do you get feedback from people? 
@@ -204,7 +207,7 @@ But no community like <a href="http://rubyonrails.org/">Ruby Rails</a>, which is
 And even sometimes, people say there are too many gems, or they are too heavy, or they're too...someone will go and make a gem that is lightweight. 
 Like I love Rails and the core group of them that I really like, it's small and they do tiny but indispensable things. 
 
-There's one called  <a href="https://github.com/norman/friendly_id">Friendly ID</a>. So Friendly ID automatically helps you handle slogs for your modules, so you can have your blog posts but you want to have slogs and you want that slog you be in the URL, rather than in /post/number, you know? 
+There's one called <a href="https://github.com/norman/friendly_id">Friendly ID</a>. So Friendly ID automatically helps you handle slogs for your modules, so you can have your blog posts but you want to have slogs and you want that slog you be in the URL, rather than in /post/number, you know? 
 Friendly ID just automatically does it with ease, you just need to add like two lines to your model, and it automatically handles slog creation. 
 
 [13:26] szabgab: 
