@@ -1,7 +1,7 @@
 =title CMOS #17: Moyinoluwa Adeyemi creating Android Watch in Yorùbá
 =timestamp 2016-10-21T10:01:01
 =indexes podcast, Android, Face recognition, Nigeria
-=description Creating Android Watch Face in Yorùbá. Facial recognition API in Android - putting eye patches in the right spot.
+=description Creating Android Watch Face in Yorùbá. Facial recognition API in Android, using <q>landmarks</q> for the facial features, to locate specific parts of the face.
 =tags interview, cmos
 =mp3 /media/cmos-17-moyinoluwa-adeyemi.mp3, 19573318, 21:57
 =img /img/cmos/moyinoluwa-adeyemi.jpg
