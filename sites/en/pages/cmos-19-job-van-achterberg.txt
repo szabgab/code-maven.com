@@ -35,18 +35,13 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
 <div id="links">
   <h2>Links</h2>
   <ul>
-    <li><a href="Tenon.io">Tenon.io</a></li>
+    <li><a href="https://tenon.io/">Tenon.io</a></li>
     <li><a href="http://www.http://www.allaroundtheworld.fr/">All Around the World</a></li>
     <li><a href="https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl">NoCoffee (Chrome)</a></li>
-    <li><a href="https://validator.w3.org/">W3 validator</a></li>
-    <li><a href="https://github.com/w3c/markup-validator">W3 validator on GitHub</a></li>
-    <li><a href="https://html5.validator.nu/">HTML5 validator</a></li>
-    <li><a href="https://github.com/validator/validator">HTML5 validator on GitHub</a></li>
+    <li><a href="https://validator.w3.org/">W3 validator</a> and <a href="https://github.com/w3c/markup-validator">on GitHub</a></li>
+    <li><a href="https://html5.validator.nu/">HTML5 validator</a> and <a href="https://github.com/validator/validator">on GitHub</a></li>
     <li><a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google Chrome Accessibility Toolkit on GitHub</a></li>
-    <li><a href="http://www.deque.com/products/aXe/>aXe</a></li
-    <li><a href="https://github.com/dequelabs/axe-core">aXe on GitHub</a></li>
-    <li><a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">aXe for Chrome</a></li>
-    <li><a href="https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/">aXe for FireFox</a></li>    
+    <li>The <a href="http://www.deque.com/products/aXe/>aXe tool</a>, <a href="https://github.com/dequelabs/axe-core">on GitHub</a>, <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">Chrome plug-in</a>, and <a href="https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/">FireFox plug-in</a></li>    
   </ul>
 </div>
 
@@ -135,7 +130,7 @@ You're fighting fires either way.
 [05:11] szabgab: 
 Okay, yeah! I'm not sure that's the same category, but anyway... 
 Okay, so you do quite a lot of things with accessibility. 
-Actually we started to talk about this podcast back when I interviewed <a href-"https://code-maven.com/cmos-5-lucy-greco-dictationbridge">Lucy</a> about <a href="http://dictationbridge.com/">DictationBridge</a>. 
+Actually we started to talk about this podcast back when I interviewed <a href="https://code-maven.com/cmos-5-lucy-greco-dictationbridge">Lucy</a> about <a href="http://dictationbridge.com/">DictationBridge</a>. 
 
 [05:31] job: 
 Right. 
@@ -154,7 +149,7 @@ You know that phrase that they used to say on the internet?
 <a href="https://en.wikipedia.org/wiki/On_the_Internet,_nobody_knows_you%27re_a_dog"><q>Nobody knows you're a dog.</q></a> 
 And they had this picture of a dog using a computer, I think it was FarSide comics, I'm not sure. 
 But the whole idea is, on the internet, nobody knows if you're wearing glasses. 
-Nobody knows if you're using a screen reader, if you're using the keyboard or the mouse, but there are so many sites that you can only use with a mouse, or you can't keyboard through them, or you can use your keyboard, but you don't get a visual indicator of what's currently being focused.  
+Nobody knows if you're using a screen reader, if you're using the keyboard or the mouse, but there are so many sites that you can only use with a mouse, or you can't keyboard through them, or you can use your keyboard, but you don't get a visual indicator of what's currently being focused. 
 
 And I would say that probably 80 - 90% of the web is really hard to use for people with disabilities, for people who are just using keyboards, for people who are eating a sandwich and only have one hand available, and they want to still browse the web. 
 So the web was initially conceived by <a href="https://en.wikipedia.org/wiki/Tim_Berners-Lee">Berners-Lee</a> with the idea of a medium that would be available to everybody. 
@@ -162,7 +157,7 @@ And there's this nice <a href="https://en.wikiquote.org/wiki/Tim_Berners-Lee">qu
 And then it's kind of frustrating to see that so many large parts of the web are inaccessible, while it's not actually too hard to make it accessible. 
 And it's just a matter of spreading that knowledge. 
 
-So I went to yet another <a href="https://www.perl.dance/speakers/78-job-van-achterberg">Perl conference</a>, in Romania this year, and I spoke on inclusive design, where I basically had a little Dancer replication that showed side-by-side a gait-diff and an original application that I took from the web, a little to-do JavaScript application. 
+So I went to yet another <a href="https://www.perl.dance/speakers/78-job-van-achterberg">Perl conference</a>, in Romania this year, and I spoke on inclusive design, where I basically had a little Dancer replication that showed side-by-side a git-diff and an original application that I took from the web, a little to-do JavaScript application. 
 And I would show, with small changes, how I would make it a bit more accessible with each change, showing which code I changed, what the difference was from the old version to the new version, now it became easier to use. 
 
 And a lot of developers came up to me afterwards, saying <q>Oh well, this is really interesting. We'd like to learn more.</q> 
@@ -170,7 +165,7 @@ And that's a great sign, at least from the Perl community itself, that they real
 
 I gave the same talk at the <a href="https://www.perl.dance/">Dancer conference</a> in Vienna and I get the reaction like <q>Oh can we see how accessible <a href="https://metacpan.org/">meta::cpan</a> is?</q> 
 You know, the Perl package website? 
-And I said, <q>Sure, let's check,</q> and so I ran it through <a href="Tenon.io">Tenon.io</a>, which is an online accessibility checker that analyzes your page, see how accessible it is. 
+And I said, <q>Sure, let's check,</q> and so I ran it through <a href="https://tenon.io/">Tenon.io</a>, which is an online accessibility checker that analyzes your page, see how accessible it is. 
 And I said, <q>See, here's this nice overview of issues!</q> 
 And right away they wanted to sit down and see how we can fix this, which I think is just a great attitude the Perl community has. 
 To not be defensive, <q>Oh, well, you know, people are trying...</q> 
@@ -280,7 +275,7 @@ So that's Perl you know, it's just keeping the web working behind the scenes.
 So the older HTML DTD validators are written in Perl. 
 So that's at <a href="https://validator.w3.org/">validator.w3.org</a>. 
 
-There's also a newer one, at  <a href="https://html5.validator.nu/">html5.validator.nu</a>, which is more of a modern, living-standard, HTML5 validator. 
+There's also a newer one, at <a href="https://html5.validator.nu/">html5.validator.nu</a>, which is more of a modern, living-standard, HTML5 validator. 
 
 But they're both open, so you can just go through the source on GitHub (<a href="https://github.com/w3c/markup-validator">W3</a> and <a href="https://github.com/validator/validator">Nu HTML5</a>). 
 The newer one is written in Java, I think, but what's cool about both of these tools, is that they have an API as well. 
@@ -297,7 +292,7 @@ So there are libraries for that, that help.
 There is, I think the <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google Chrome Accessibility Toolkit</a> is on GitHub, which is a JavaScript library that you can use to query the DOM and run checks on it. 
 
 But there's also a toolkit that's make by Deque Systems, which is an accessibility company, they do mostly consultancy around accessibility work. 
-But they also have something called the <a href="http://www.deque.com/products/aXe/>aXe</a>, and it's the open source accessibility engine, which basically is a whole bunch of JavaScript validation rules. 
+But they also have something called the <a href="http://www.deque.com/products/aXe/">aXe</a>, and it's the open source accessibility engine, which basically is a whole bunch of JavaScript validation rules. 
 So since it's a rule-set, you can include it, they've built it that way so it can be included with your own tools. 
 So you can use their checks to validate your own projects. 
 And it's <a href="https://github.com/dequelabs/axe-core">open source</a>, so lots of other people are also adding rules to that. 
@@ -325,7 +320,7 @@ But there are, there's the <a href="http://webaim.org/discussion/">WebAIM mailin
 There are various forums, there's of course, forums like <a href="https://www.sitepoint.com/">SitePoint</a>, they're not accessibility-specific, but you can ask your questions there. 
 
 There are, again there are tools that will mainly catch a lot of the, for lack of a better term, low-hanging fruit. 
-For instance, the aXe tooling I talked about earlier, the <a href="http://www.deque.com/products/aXe/>Deque aXe</a>, there's a <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">Chrome integrator</a> so what it does, is in your Chrome inspector tools, and there's also that for <a href="https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/">FireFox</a>, but in your Chrome inspector tools, you get this new tab, it says <q>aXe</q>, and you can say, <q>Analyze this page.</q> 
+For instance, the aXe tooling I talked about earlier, the <a href="http://www.deque.com/products/aXe/">Deque aXe</a>, there's a <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">Chrome integrator</a> so what it does, is in your Chrome inspector tools, and there's also that for <a href="https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/">FireFox</a>, but in your Chrome inspector tools, you get this new tab, it says <q>aXe</q>, and you can say, <q>Analyze this page.</q> 
 So it chugs for a bit and it shows you this whole list, <q>This element has this problem, here's how to fix it. This element has that problem, here's how to fix it.</q> 
 And that already shows you a lot of the basic stuff that you can catch that way and the whole point of that, is that the tooling prevents, that sort of automated tooling, it prevents regression. 
 
