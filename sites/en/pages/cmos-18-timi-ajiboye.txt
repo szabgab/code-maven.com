@@ -99,7 +99,7 @@ Can you tell me about that a little bit? What kind of soft, things you are doing
 
 [05:03] timigod: 
 Yeah, mostly, I do stuff for clients. 
-That's most of my workload. But I have some, we have, <a href="http://helloworld.ng/">Hello</a> has, we have some personnel, projects that we would like to get off the ground. 
+That's most of my workload. But I have some, we have, <a href="http://helloworld.ng/">Helloworld</a> has, we have some personnel, projects that we would like to get off the ground. 
 One of them was Cruncher, like I said. 
 To help you make sense of your bank statements, how you spent money. 
 There are some other ones in the pipeline, like chat bots, but mostly we just build anything for clients. 
