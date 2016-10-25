@@ -1,12 +1,12 @@
-=title CMOS #18: Timi Ajiboye
-=timestamp 2016-09-03T19:01:01
-=indexes podcast, Nigeria, Ruby Gems, Sails.js
+=title CMOS #18: Timi Ajiboye on Client Manager, Resque, Friendly ID and other Rails gems
+=timestamp 2016-10-25T11:01:01
+=indexes podcast, Ruby Gems, Sails.js, Nigeria
 =description Timi Ajiboye, A Nigerian Ruby developer, tells us about his current and future projects, some in Sails.js.
 =tags interview, cmos
 =mp3 /media/cmos-18-timi-ajiboye.mp3, 17224989, 19:24
 =img /img/cmos/timi-ajiboye.png
-=alt 
-=status draft
+=alt Timi Ajiboye
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -25,8 +25,8 @@ Interview with Timi Ajiboy, a great discussion of his view of open source, and h
   <h2>Timi Ajiboye</h2>
   <ul>
     <li><a href="https://github.com/timigod">timigod on GitHub</a></li>
-    <li><a href="https://twitter.com/timigod">@timigod on Twitter</a></li>
-    <li><a href="https://medium.com/@timigod">@timigod on Medium</a></li>
+    <li><a href="https://twitter.com/timigod">@timigod</a> on Twitter</li>
+    <li><a href="https://medium.com/@timigod">@timigod</a> on Medium</li>
     <li><a href="http://helloworld.ng/">Hello World</a></li>
   </ul>
 </div>
