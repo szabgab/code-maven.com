@@ -13,7 +13,7 @@
 
 =abstract start
 
-Interview with Timi Ajiboy, a great discussion of his view of open source, and his work in Ruby, his favorite Ruby Gems, and his new projects in Sails.js!
+Interview with Timi Ajiboye, a great discussion of his view of open source, and his work in Ruby, his favorite Ruby Gems, and his new projects in Sails.js!
 
 =abstract end
 
