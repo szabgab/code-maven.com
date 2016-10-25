@@ -65,7 +65,7 @@ Yeah, yeah, I do. It's quite...yes, I do. Everybody does.
 Okay, I was wondering because I actually haven't seen a lot of those from Nigeria recently, but I saw a lot from other places, so I was wondering whether, at one point I started joking about it, oh, so many people from Nigeria on my podcast, so that's cool. Anyway, so let's start with your background a little bit, how did you get into programming and how did you get into open source? 
 
 [01:14] timigod: 
-Okay, how I got into programming. I've always been sort of drawn towards computers and technology. What really got me into programming was when I was ten, I saw my uncle messing around on his computer and I was like, <q>What are you doing?</q> And he said, <q>This is digital basic.</q> Like, show me. So he taught me how to hide UI elements or display them, or how to get values from what the user's inputting, so I made like a calculator, around when I was eleven. Yeah, so since then, I've always understood sort of programming, since I was ten. 
+Okay, how I got into programming. I've always been sort of drawn towards computers and technology. What really got me into programming was when I was ten, I saw my uncle messing around on his computer and I was like, <q>What are you doing?</q> And he said, <q>This is Visual Basic.</q> Like, show me. So he taught me how to hide UI elements or display them, or how to get values from what the user's inputting, so I made like a calculator, around when I was eleven. Yeah, so since then, I've always understood sort of programming, since I was ten. 
 
 [01:56] szabgab: 
 Okay, and when did you get into open source? 
