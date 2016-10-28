@@ -1,12 +1,12 @@
 =title CMOS #19: Job van Achterberg - Inclusive design
-=timestamp 2016-09-03T19:01:01
+=timestamp 2016-10-28T13:01:01
 =indexes podcast, accessibility, a11y, The Netherlands, open source tools
 =description Job van Achterberg on accessibility (a11y) and various open source tools to help achieve it
 =tags interview, cmos
 =mp3 /media/cmos-19-job-van-achterberg.mp3, 28149915, 28:21
 =img /img/cmos/job-van-achterberg.png
 =alt Job van Achterberg
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -17,7 +17,7 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
 
 =abstract end
 
-<screencast file="/media/cmos-19-job-van-achterberg" />
+<screencast file="/media/cmos-19-job-van-achterberg" youtube="3aIImV11B0I" />
 
 <podcast>
 
