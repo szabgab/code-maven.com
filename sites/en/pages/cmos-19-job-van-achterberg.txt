@@ -63,7 +63,7 @@ Just to other people who are listening or watching, we know actually each other,
 
 [00:46] job: 
 Oh, how far back. 
-It's my parent's fault, they bought this old <a href="https://en.wikipedia.org/wiki/BBC_Micro">32KB BBC micro</a> and, you know it had a floppy drive, you'd turn it on and you'd get a basic prompt. 
+It's my parents' fault, they bought this old <a href="https://en.wikipedia.org/wiki/BBC_Micro">32KB BBC micro</a> and, you know it had a floppy drive, you'd turn it on and you'd get a basic prompt. 
 So back in the old days, and it came with these books to learn programming, and that's kind of how that started. 
 You figured out you could make a machine to do stuff and you want to make it do more stuff and that's, yeah, I discovered I liked that and eventually got a job into system administration and got into, <q>Okay, well we need a website, and it needs to be dynamic!</q> 
 <q>Oh, I think I've read about this Perl, and that you can build dynamic websites with it, so let's try that!</q> 
