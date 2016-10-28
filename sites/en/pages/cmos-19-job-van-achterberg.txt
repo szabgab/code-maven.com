@@ -63,7 +63,7 @@ Just to other people who are listening or watching, we know actually each other,
 
 [00:46] job: 
 Oh, how far back. 
-It's my parents fault, they bought this old <a href="https://en.wikipedia.org/wiki/BBC_Micro">32KB BBC micro</a> and, you know if had a floppy drive, you'd turn it on and you'd get a basic prompt. 
+It's my parent's fault, they bought this old <a href="https://en.wikipedia.org/wiki/BBC_Micro">32KB BBC micro</a> and, you know it had a floppy drive, you'd turn it on and you'd get a basic prompt. 
 So back in the old days, and it came with these books to learn programming, and that's kind of how that started. 
 You figured out you could make a machine to do stuff and you want to make it do more stuff and that's, yeah, I discovered I liked that and eventually got a job into system administration and got into, <q>Okay, well we need a website, and it needs to be dynamic!</q> 
 <q>Oh, I think I've read about this Perl, and that you can build dynamic websites with it, so let's try that!</q> 
@@ -97,7 +97,7 @@ Are these local clients?
 [03:04] job: 
 No, that's actually a nice question. 
 Both of them are international, so my main client, where I work four days a week, <a href="http://www.http://www.allaroundtheworld.fr/">All Around the World</a>, is composed of people from all over the world, as the name suggests. 
-And the client I work Fridays, <a href="Tenon.io">Tenon.io</a>, is actually also international, but mainly Americans. 
+And the client I work Fridays, <a href="https://tenon.io/">Tenon.io</a>, is actually also international, but mainly Americans. 
 So I tend to work from home, I'm a voluntary firefighter, and volunteer departments always have trouble finding people to be available during the day, when their pager goes. 
 Speaking of which, I hope it won't go during this podcast, because I'll have to run out of the house. 
 But I have a little desk there, I get to do work, and I'm the first guy in the truck when the pager goes, so these things actually combine very well at this moment. 
@@ -157,27 +157,27 @@ And there's this nice <a href="https://en.wikiquote.org/wiki/Tim_Berners-Lee">qu
 And then it's kind of frustrating to see that so many large parts of the web are inaccessible, while it's not actually too hard to make it accessible. 
 And it's just a matter of spreading that knowledge. 
 
-So I went to yet another <a href="https://www.perl.dance/speakers/78-job-van-achterberg">Perl conference</a>, in Romania this year, and I spoke on inclusive design, where I basically had a little Dancer replication that showed side-by-side a git-diff and an original application that I took from the web, a little to-do JavaScript application. 
+So I went to yet another <a href="http://act.yapc.eu/ye2016/talk/6709/">Perl conference</a>, in Romania this year, and I spoke on inclusive design, where I basically had a little <a href="https://metacpan.org/pod/Dancer2">Dancer</a> application that showed side-by-side a git-diff and an original application that I took from the web, a little to-do JavaScript application. 
 And I would show, with small changes, how I would make it a bit more accessible with each change, showing which code I changed, what the difference was from the old version to the new version, now it became easier to use. 
 
 And a lot of developers came up to me afterwards, saying <q>Oh well, this is really interesting. We'd like to learn more.</q> 
 And that's a great sign, at least from the Perl community itself, that they really want to make sure things improve. 
 
-I gave the same talk at the <a href="https://www.perl.dance/">Dancer conference</a> in Vienna and I get the reaction like <q>Oh can we see how accessible <a href="https://metacpan.org/">meta::cpan</a> is?</q> 
+I gave the same talk at the <a href="https://www.perl.dance/speakers/78-job-van-achterberg">Dancer conference</a> in Vienna and I get the reaction like <q>Oh can we see how accessible <a href="https://metacpan.org/">meta::cpan</a> is?</q> 
 You know, the Perl package website? 
 And I said, <q>Sure, let's check,</q> and so I ran it through <a href="https://tenon.io/">Tenon.io</a>, which is an online accessibility checker that analyzes your page, see how accessible it is. 
 And I said, <q>See, here's this nice overview of issues!</q> 
 And right away they wanted to sit down and see how we can fix this, which I think is just a great attitude the Perl community has. 
 To not be defensive, <q>Oh, well, you know, people are trying...</q> 
 It's just like <q>No, let's sit down and fix it. We know there are problems now, we can get work done.</q> 
-And I think if we can get that sort of attitude to much more of development, towards this whole, <q>It's our job, to make sure what we build works for everybody.</q> 
+And I think if we can get that sort of attitude to much more of web development, towards this whole, <q>It's our job, to make sure what we build works for everybody.</q> 
 We can really make the web better for everybody and we're all getting older, I mean, lots of us have glasses, I only have one decent eye. 
 I mean, I've tried to set some age, I know my eyesight's going to get worse, and it's also in our own interest to make sure that what we build works well for people, because you sometimes hear from companies, <q>Oh well, people with bad eyesight or disabilities, they don't use our web shop. Because we cater to the young people.</q> 
 Yeah but our generation is also going to be older in 20 years, and we're still going to be doing all our shopping online, so...it's going to affect us more and more. 
-And I'm getting on my venting chair here, right now! 
+And I'm kind of on my venting chair here, right now! 
 
 But what I'm trying to do is make projects I work on accessible and I organize meetups, where we bring developers and designers together, and we try to create this exchange of ideas and knowledge to make sure that we know how to make stuff work, for as many people as possible. 
-So yesterday we had one, and we had three speakers, which was very much around how to design a website, while keeping the very broad <a href="https://en.wikipedia.org/wiki/Autism_spectrum">Autism Spectrum</a> in mind. 
+So yesterday we had one [meetup], and we had three speakers, which was very much around how to design a website, while keeping the very broad <a href="https://en.wikipedia.org/wiki/Autism_spectrum">Autism Spectrum</a> in mind. 
 So what are the things we should consider with moving content, and bright colors, and lots of moving things? 
 And changing context quickly? 
 And it is not so much having to check off all the little checkboxes, on making sure something is accessible, it's more about knowing what you're building, thinking about what is it going to be like, and making sure that you test it. 
@@ -235,7 +235,7 @@ Yeah.
 [15:57] job: 
 So for the audience, it's technology that reads out a page, or your desktop. 
 So there are a bunch of closed one, for example MacOS comes with a <a href="http://www.apple.com/accessibility/osx/voiceover/">VoiceOver</a>, which I use a lot to test webpage accessibility. 
-And on Windows, there is, amongst others, like <a href="https://en.wikipedia.org/wiki/JAWS_(screen_reader)">JAWS</a>, which is really, really, really expensive, thousands of dollars (note: this information is outdated. See <a href="http://sales.freedomscientific.com/Category/11_1/JAWS%C2%AE_Screen_Reader.aspx">the pricing page</a>). 
+And on Windows, there is, amongst others, like <a href="https://en.wikipedia.org/wiki/JAWS_(screen_reader)">JAWS</a>, which is really, really, really expensive, thousands of dollars (note: this depends on your local Optelec dealer. See <a href="http://sales.freedomscientific.com/Category/11_1/JAWS%C2%AE_Screen_Reader.aspx">the pricing page</a>). 
 
 There's <a href="https://en.wikipedia.org/wiki/NonVisual_Desktop_Access">NVDA</a>, which you can download, and the <a href="https://github.com/nvaccess/nvda">code's on GitHub</a>. 
 And essentially, it's been written by two blind developers, Jamie and Michael, and it's just really impressive, and it gets better all the time. 
@@ -255,7 +255,7 @@ So what's easy for them, for blind people, it's hard for people who can see, bec
 
 [18:18] job: 
 Yeah, the visual structure, we're really used to in our life. 
-You know, there are whole debates on where your bracket should be, but yeah who cares, because it's interpreted differently that way by them. 
+You know, there are whole debates on where your brackets should be, but yeah who cares, because it's interpreted differently that way by them. 
 So there's also contributions from other people when it comes to translations. 
 Which is just made so much easier, because you can just use something like GitHub to issue your own pull-request and collaborate and, I mean I know, they're just absolutely swamped doing so much stuff, so making it possible for other people to contribute just really helps everybody. 
 
@@ -287,7 +287,7 @@ Thinking of all the tools I'm using, so there is another one, there's actually t
 So the W3 validator is basically just document-side declaration validation, schema validation. 
 And the HTML5 one is a bit more modern, it will catch a bit more things but there's only so many actual problems you can find with those. 
 
-It won't check any of SPAR for example, at least I don't think it checks the state of rel attributes, for accessibility and whether you're using those right. 
+It won't check any of [garbled] for example, at least I don't think it checks the state of ARIA attributes, for accessibility and whether you're using those right. 
 So there are libraries for that, that help. 
 There is, I think the <a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google Chrome Accessibility Toolkit</a> is on GitHub, which is a JavaScript library that you can use to query the DOM and run checks on it. 
 
@@ -298,7 +298,7 @@ So you can use their checks to validate your own projects.
 And it's <a href="https://github.com/dequelabs/axe-core">open source</a>, so lots of other people are also adding rules to that. 
 But for instance, those are rules that will go a bit deeper and say, <q>Oh, your headings aren't in the correct order.</q> 
 Or, <q>You're starting with an h2 heading and you actually don't have an h1 heading.</q> 
-Or, <q>You're not using the value for this rel attribute correctly.</q> 
+Or, <q>You're not using the value for this ARIA attribute correctly.</q> 
 Or basic stuff like contrast rules or font-size rules, and it is difficult to catch all accessibility problems. 
 I don't think we'll ever get there, there will always be an amount of work that you have to check manually. 
 There's always going to be the human factor, because otherwise, you get back to that accessibility checkbox that I discussed already. 
@@ -316,7 +316,7 @@ But most of the people are not close enough to where you live.
 
 [24:36] job: 
 Right, well there are various accessibility meetups around the world. 
-But there are, there's the <a href="http://webaim.org/discussion/">WebAIM mailing list</a>, so there's the Web Accessibility Initiative, on that mailing list anyone can just ask questions there. 
+But there are, there's the <a href="http://webaim.org/discussion/">WebAIM mailing list</a>, so there's the Web Accessibility Initiative (note: Web Accessibility In Mind), on that mailing list anyone can just ask questions there. 
 There are various forums, there's of course, forums like <a href="https://www.sitepoint.com/">SitePoint</a>, they're not accessibility-specific, but you can ask your questions there. 
 
 There are, again there are tools that will mainly catch a lot of the, for lack of a better term, low-hanging fruit. 
@@ -327,13 +327,13 @@ And that already shows you a lot of the basic stuff that you can catch that way 
 And that's the most important thing, because accessibility shouldn't be something you do at the end, when you're done. 
 <q>Okay, I've built my site, let's see how accessible it is.</q> 
 It should be part of the beginning, like you start out writing tests and documentation, and you start out writing decent, accessible code. 
-And you iterate and iterate and iterate, in a nice age-old fashion, but in the same sense, you just make sure that you run your code through your automated tooling and you catch all the basic stuff there. 
+And you iterate and iterate and iterate, in a nice agile fashion, but in the same sense, you just make sure that you run your code through your automated tooling and you catch all the basic stuff there. 
 
 And for everything else, there's manual testing, like you can hire companies for that, or you can, of course, ask friends to run through your site. 
 But there are entire companies that specialize, by having a diverse set of people that will go through your site, and tell you what problems they can find. 
 And there are companies like Deque and the <a href="https://www.paciellogroup.com/">Paciello Group</a>, which will audit your entire site, for a fee of course. 
 So yeah, if you don't have that option, these open tools are a great alternative to already make sure that your baseline is pretty good. 
-And personally I'm just happy people will make the effort to make sure that their pages are accessible. 
+And personally I'm just happy people will take the effort to make sure that their pages are accessible. 
 
 [27:10] szabgab: 
 Okay, I think we are getting really close to the time when we have to finish this conversation. 
@@ -347,7 +347,7 @@ So any shout out that you would like to say to people?
 Anything that you haven't mentioned that you really want to? 
 
 [27:34] job: 
-Oh boy, it's difficult. 
+Oh boy, that's difficult. 
 Shout outs, no I don't want to play favoritism, I think...just, you know, the accessibility community and the awesome stuff a lot of people are doing. 
 A lot of them in their own free time, to make sure that, making the web work for everybody just becomes easier every day. 
 
