@@ -41,7 +41,7 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
     <li><a href="https://validator.w3.org/">W3 validator</a> and <a href="https://github.com/w3c/markup-validator">on GitHub</a></li>
     <li><a href="https://html5.validator.nu/">HTML5 validator</a> and <a href="https://github.com/validator/validator">on GitHub</a></li>
     <li><a href="https://github.com/GoogleChrome/accessibility-developer-tools">Google Chrome Accessibility Toolkit on GitHub</a></li>
-    <li>The <a href="http://www.deque.com/products/aXe/>aXe tool</a>, <a href="https://github.com/dequelabs/axe-core">on GitHub</a>, <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">Chrome plug-in</a>, and <a href="https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/">FireFox plug-in</a></li>    
+    <li>The <a href="http://www.deque.com/products/aXe/">aXe tool</a>, <a href="https://github.com/dequelabs/axe-core">on GitHub</a>, <a href="https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd">Chrome plug-in</a>, and <a href="https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/">FireFox plug-in</a></li>    
   </ul>
 </div>
 
