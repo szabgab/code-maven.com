@@ -1,0 +1,183 @@
+=title Git and GitHub workflow contributing to a project
+=timestamp 2016-04-01T07:30:01
+=indexes Git, GitHub
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We'll see how to contribute to the a project hosted on GitHub.
+
+In this exemple we assume our GitHub user name is "cm-demo" and the project we would like to contribute is this repository: <a href="https://github.com/szabgab/codeandtalk.com">https://github.com/szabgab/codeandtalk.com</a>
+
+
+=abstract end
+
+<h2>Preparations</h2>
+
+<ol>
+  <li>Register on <a href="https://github.com/">GitHub</a>. The user for our example is called <b>cm-demo</b></li>
+  <li>Install Git command line client.</li>
+  <li>Configure the client setting your name and e-mail.</li>
+</ol>
+
+
+<h2>Clean your GitHub user</h2>
+
+In the rest of the tutorial we assume you don't have a fork  of the repository yet, so if you've already played with this
+repository, let's have a clean start. If you have a fork of the repo on GitHub,
+that is if you have this: <a href="https://github.com/cm-demo/codeandtalk.com">https://github.com/cm-demo/codeandtalk.com</a>
+(with your username, of course), then remove it. (Settings / Delete this repository)
+
+Also if you have a copy of the project on your own computer, remove that too.
+
+
+<h2>Forking</h2>
+
+The first step is to <q>fork</q> the project on GitHub. That is to create a copy ofthe project in your account on GitHub.
+Visit the URL of the project: <a href="https://github.com/szabgab/codeandtalk.com">https://github.com/szabgab/codeandtalk.com</a>
+click on <b>Fork</b> in thetop-right corner. It will create your copy as <a href="https://github.com/cm-demo/codeandtalk.com">https://github.com/cm-demo/codeandtalk.com</a>.
+(Your GitHub username instead of cm-demo.)
+
+<h2>Clone to your computer</h2>
+
+Then you need to clone the repository to your computer. (That will copy the repository from <b>your</b> GitHub account to your computer:
+
+<code>
+$ cd projects
+$ git clone https://github.com/cm-demo/codeandtalk.com.git
+Cloning into 'codeandtalk.com'...
+...
+
+
+$ cd codeandtalk.com
+</code>
+
+This will create a directory called codeandtalk.com inside the current directory.
+
+<h2>Set up upstream</h2>
+
+In order for you to be able to follow changes in the original project you need to connect
+the original repository. You do this by issuing the following command:
+
+<code>
+$ git remote add upstream https://github.com/szabgab/codeandtalk.com.git
+</code>
+
+The URL here is quite similar to the one we used for cloning the project, but the username
+is not our username, but that of the project owner.
+
+<h2>Create a branch for your work</h2>
+
+<code>
+$ git checkout -b first
+Switched to a new branch 'first'
+</code>
+
+<h2>Make changes</h2>
+
+Add files, make changes to files with your regular editor.
+
+Add the changes and the new files to your local copy of the project:
+
+<code>
+git add file/that/changed.txt
+git add new/file.txt
+git commit -m "Explain your changes here"
+</code>
+
+This is a "commit".  You can make repeted changes and repeated commits. If the project allows you can also verify that
+your changes are correct. In the case of the codeandtalk.com project run 
+
+<code>
+python bin/generate.py
+</code>
+
+If it does not give you any error messages then you are good to go.
+
+<h2>Push out your changes to GitHub</h2>
+
+Once you are satisfied with your changes you can push them out (all the changes at once) using the follwing command:
+
+<code>
+$ git push --set-upstream origin first
+</code>
+
+Here, the last word is the name of your branch. So I used the word "first".
+
+This command pushes out the whole branch (all the changes in this branch) to your copy of the project on GitHub.
+
+<h2>Send a pull-request</h2>
+
+If you visit your copy (clone) of the project on Github at <a href="https://github.com/cm-demo/codeandtalk.com">https://github.com/cm-demo/codeandtalk.com</a>
+you will see a message with the name of your branch  ("first" in our case) and a button "Compare &amp; pull request".
+Clicking on that button will show you a form in which there is some text already (usually the message you wrote for the most recent commit).
+
+You can add more text, but that's not a requirement. Click on the button "Create pull request".
+
+This will create a "pull request" and also send a message to the owner of the project (User szabgab in this case.)
+It will also redirect you to the page of the "pull request". In our case this was it:
+<a href="https://github.com/szabgab/codeandtalk.com/pull/38">https://github.com/szabgab/codeandtalk.com/pull/38</a> but of
+course the actually URL will depend on the project and the number of pull-requests that were sent earlier.
+
+<h2>Failing automatic tests</h2>
+
+If the project is configured to have online automatic tests, then after a while those tests will run and you will see the
+results on the page of "the pull request".
+
+The <b>codeandtalk.com</b> project is configured to run these automatic tests. If the tests fail you'll see a message
+"All checks have failed" and a link to see the "Details". 
+
+This probably means you've forgotten to run the tests locally, disregarded the failure there, or have committed
+andpushed out only part of your changes.
+
+At this point you need to go back to your files, make the necessary changes in the files. Add those changes to
+your local git. Exactly as described above in the <b>Make changes</b> section.
+
+Then you can proceed to push out these changes as well but this time it is enough to type
+
+<code>
+git push
+</code>
+
+as git already knows where to push this branch.
+This will update the pull-request on GitHub and re-run the automatic tests.
+
+
+<h2>Succesful automatic test</h2>
+
+If the page of the pull-request shows "All checks have passed"> then it means everything was fine.
+
+At this point you could go on working one more changes, but for simplicity we'll wait till the owner of the project
+integrates (merges) your changes.
+
+<h2>Update your local copy from the project</h2>
+
+<code>
+$ git checkout main
+$ git pull upstream main
+</code>
+
+
+Start new branch:
+
+<code>
+$ git checkout -b second
+</code>
+
+... and repeate the whole thing above starting from the branching.
+
+
+
+<h2>Clean up local branches</h2>
+
+This is not required, but after a branch you worked on, that you sent the pull-request for,
+has been merged you can delete the local copy of the branch using:
+
+<code>
+git branch -D first
+</code>
+
+
