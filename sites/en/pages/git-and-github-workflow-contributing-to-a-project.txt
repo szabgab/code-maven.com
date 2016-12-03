@@ -130,6 +130,8 @@ results on the page of "the pull request".
 The <b>codeandtalk.com</b> project is configured to run these automatic tests. If the tests fail you'll see a message
 "All checks have failed" and a link to see the "Details". 
 
+<img src="/img/github_tests_failed.png" alt="GitHub tests failed" />
+
 This probably means you've forgotten to run the tests locally, disregarded the failure there, or have committed
 andpushed out only part of your changes.
 
@@ -150,8 +152,12 @@ This will update the pull-request on GitHub and re-run the automatic tests.
 
 If the page of the pull-request shows "All checks have passed"> then it means everything was fine.
 
+<img src="/img/github_tests_passed.png" alt="GitHub tests passed" />
+
 At this point you could go on working one more changes, but for simplicity we'll wait till the owner of the project
 integrates (merges) your changes.
+
+<img src="/img/github_merged.png" alt="GitHub merged" />
 
 <h2>Update your local copy from the project</h2>
 
