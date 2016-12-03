@@ -10,10 +10,21 @@
 
 We'll see how to contribute to the a project hosted on GitHub.
 
-In this exemple we assume our GitHub user name is "cm-demo" and the project we would like to contribute is this repository: <a href="https://github.com/szabgab/codeandtalk.com">https://github.com/szabgab/codeandtalk.com</a>
-
-
 =abstract end
+
+<h2>Customize the article</h2>
+
+In this exemple we assume our GitHub user name is "cm-demo" and the project we would like to contribute is this repository:
+<a href="https://github.com/szabgab/codeandtalk.com">https://github.com/szabgab/codeandtalk.com</a>.
+
+<!--
+but if you'd like we can customize the text for you to show the values relevant to you:
+
+<table>
+  <tr><td>Project you'd like to contribute to:</td><td><input id="github_project" value="https://github.com/szabgab/codeandtalk.com"></td></tr>
+  <tr><td>Your username:</td><td><input id="github_username" value="cm-demo"></td></tr>
+</table>
+-->
 
 <h2>Preparations</h2>
 
@@ -26,17 +37,17 @@ In this exemple we assume our GitHub user name is "cm-demo" and the project we w
 
 <h2>Clean your GitHub user</h2>
 
-In the rest of the tutorial we assume you don't have a fork  of the repository yet, so if you've already played with this
+In the tutorial we assume you don't have a fork of the repository yet, so if you've already played with this
 repository, let's have a clean start. If you have a fork of the repo on GitHub,
 that is if you have this: <a href="https://github.com/cm-demo/codeandtalk.com">https://github.com/cm-demo/codeandtalk.com</a>
-(with your username, of course), then remove it. (Settings / Delete this repository)
+(When checking, replace <b>cm-demo</b> with your username, and <b>codeandtak.com</b> with the project you are planning to contribute to), then remove it.
+(Click on the <b>Settings</b> and inside click on <b>Delete this repository</b>.)
 
 Also if you have a copy of the project on your own computer, remove that too.
 
-
 <h2>Forking</h2>
 
-The first step is to <q>fork</q> the project on GitHub. That is to create a copy ofthe project in your account on GitHub.
+The first step is to <q>fork</q> the project on GitHub. That is to create a copy of the project in your account on GitHub.
 Visit the URL of the project: <a href="https://github.com/szabgab/codeandtalk.com">https://github.com/szabgab/codeandtalk.com</a>
 click on <b>Fork</b> in thetop-right corner. It will create your copy as <a href="https://github.com/cm-demo/codeandtalk.com">https://github.com/cm-demo/codeandtalk.com</a>.
 (Your GitHub username instead of cm-demo.)
