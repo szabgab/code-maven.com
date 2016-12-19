@@ -1,0 +1,48 @@
+=title Quality and Value
+=timestamp 2016-11-19T14:01:01
+=indexes Agile, Quality
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We talk a lot about creating high-quality (software) products or services, but it is not evan clear what do we mean by quality.
+Maybe what we should really talk about is creating value. But to whom? To the client? To the shareholder? To the employees?
+
+On this page I am collecting some concepts and links related to the subject. In time I hope this will be transformed
+into something usable.
+
+=abstract end
+
+<ul>
+  <li>Continuous Integration</li>
+  <li>Continuous Deployment</li>
+  <li>Deployment Rings</li>
+  <li>Who can deploy code?</li>
+  <li>Rollback</li>
+  <li>A/B Testing</li>
+  <li>Automated tests</li>
+  <li>Monitoring</li>
+  <li>Schema changes - how often, who can do it? Rollback?</li>
+  <li>Developer velocity</li>
+  <li>Response time (for bugs and feature requests)</li>
+  <li>Project management (Waterfall, Agile?)</li>
+  <li>Cloud hardware (services) vs your own servers?</li>
+  <li>Engineers mentoring each other?</li>
+  <li>Unified Engineering</li>
+  <li>Culture</li>
+</ul>
+
+<h3>Videos and podcasts</h3>
+<ul>
+  <li><a href="http://www.angryweasel.com/ABTesting/">AB Testing podcast by Alan and Brent</a></li>
+  <li><a href="https://codeandtalk.com/v/yapc-eu-2016/curtis-poe-when-you-dont-want-agile-yapceurope-2016">When you don't want Agile</a></li>
+</ul>
+
+<h3>Other related videos</h3>
+<ul>
+   <li><a href="https://codeandtalk.com/v/scaleconf-sa-2016/bethany-macri-retrospective-scaling-infrastructure-at-etsy">Retrospective: Scaling Infrastructure at Etsy</a></li>
+</ul>
+
