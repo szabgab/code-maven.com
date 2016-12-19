@@ -1,5 +1,5 @@
 =title Quality and Value
-=timestamp 2016-11-19T14:01:01
+=timestamp 2016-12-19T14:01:01
 =indexes Agile, Quality
 =status show
 =author szabgab
