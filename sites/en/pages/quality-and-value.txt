@@ -33,6 +33,45 @@ into something usable.
   <li>Engineers mentoring each other?</li>
   <li>Unified Engineering</li>
   <li>Culture</li>
+  <li>DevOps</li>
+  <li>Containers</li>
+  <li>Microservices</li>
+  <li>Feature flags or feature toggles</li>
+  <li>Tribalism - who else in our vertical market is already using this?</li>
+  <li>Telemetry</li>
+  <li>Visibility of data from production</li>
+  <li>Insights</li>
+  <li>Centralized logging</li>
+  <li>Data Science</li>
+  <li>Version Control - do you keep your 3rd party modules versioned?</li>
+  <li>Reproducable infrastructure</li>
+  <li>Development: Velocity of shipping</li>
+  <li>Operations: <a href="https://en.wikipedia.org/wiki/Service-level_agreement">SLA</a> - <a href="https://en.wikipedia.org/wiki/Mean_time_to_repair">MTTR</a>, uptime</li>
+  <li>The Wall of Confusion (Development is just throwing wall over the wall to Operations)</li> 
+  <li>Development wants change, Operations want stability</li>
+  <li>Communication</li>
+  <li>Health-checks</li>
+  <li>CAP Theorem also applies to human interaction within a company.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Value_stream_mapping">value stream mapping</a></li>
+  <li>Technical Debt</li>
+  <li><a href="http://martinfowler.com/bliki/TestPyramid.html">testing pyramid</a></li>
+</ul>
+
+<h3>Open Source Project Management</h3>
+<ul>
+   <li>Mentoring</li>
+   <li>Issue queue workflow</li>
+   <li>Governance</li>
+   <li>Conflict resolution</li>
+   <li>Cultural barriers <a href="https://en.wikipedia.org/wiki/Hofstede's_cultural_dimensions_theory">Hofstede's cultural dimensions theory</a></li>
+   <li>Language barriers</li>
+   <li>Time management</li>
+   <li>How to handle with pull-request that needs more work?</li>
+   <li>Processes that work 5-10 people will not work when you have 1,000-5,000 people.</li>
+   <li>Focus on the Human element</li>
+   <li></li>
+   <li></li>
+   <li></li>
 </ul>
 
 <h3>Videos and podcasts</h3>
