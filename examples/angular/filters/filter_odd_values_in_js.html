@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+ 
+  <script>
+
+   angular.module('DemoApp', [])
+   .controller('DemoController', ['$scope', '$filter', function($scope, $filter) {
+        $scope.numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+
+        var odd = function(input) { return input % 2 === 1 };
+
+        $scope.odd_numbers_angular = $filter('filter')($scope.numbers, odd);
+
+        $scope.odd_numbers_plain = $scope.numbers.filter(odd);
+   }]);
+  </script>
+ 
+</head>
+<body ng-app="DemoApp" ng-controller="DemoController">
+<h1>Show only odd numbers using filter in JavaScript</h1>
+
+<ul>
+  <li ng-repeat="n in numbers">{{n}}</li>
+</ul>
+
+<hr>
+<ul>
+  <li ng-repeat="n in odd_numbers_angular">{{n}}</li> 
+</ul>
+
+<hr>
+<ul>
+  <li ng-repeat="n in odd_numbers_plain">{{n}}</li> 
+</ul>
+
+ 
+ 
+</body>
+</html>
