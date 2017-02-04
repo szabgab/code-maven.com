@@ -1,5 +1,5 @@
 =title Wikipedia: Ilokano (ilo)
-=timestamp 2016-01-23T21:18:28
+=timestamp 2017-02-04T15:44:59
 =indexes wikipedia
 =status show
 =books wikipedia
@@ -14,40 +14,45 @@
 <!-- This is a generated file. Do not edit manually! -->
 <style>
 .rtl {
-	direction: rtl;
-	text-align: right;
+    direction: rtl;
+    text-align: right;
 }
 </style>
 
 <p>
-The <a href="https://en.wikipedia.org/wiki/Ilokano_language">Ilokano</a> Wikipedia has 6809 pages. A total of 53 pages have no link to their English counterpart.
-Here we you can see the 250 largest articles in that don't have links to their English counterparts.
+The <a href="https://en.wikipedia.org/wiki/Ilokano_language">Ilokano</a> Wikipedia has 7,888 pages. A total of 62 pages have no link to their English counterpart.
+Here you can see the 250 largest articles that don't have links to their English counterparts.
 <p>
 These articles either need an interwiki link to the English version of this page (and one from English back to this page),
-or they need to be translated to English first and then they need the link to that article.
+or they need to be translated to English first and then they need the link to the English version.
 <p>
-Last updated at 2016-01-23T21:18:28
+Last updated at 2017-02-04T15:44:59 using dump from 20170201
 <p>
 
 <div>
 <ul>
-<li><a href="https://ilo.wikipedia.org/wiki/Augusto_De_Luca">Augusto_De_Luca  (9801)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Batikuleng">Batikuleng  (3287)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Pebrero_31">Pebrero_31  (3266)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Mateo_24:14">Mateo_24:14  (2403)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Aurelio_S._Agcaoili">Aurelio_S._Agcaoili  (2128)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Dionisio_S._Bulong">Dionisio_S._Bulong  (1977)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Listaan_dagiti_babai_a_prime_minister_ti_pagilian">Listaan_dagiti_babai_a_prime_minister_ti_pagilian  (1833)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Joel_B._Manuel">Joel_B._Manuel  (1639)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/1992_GRAAFIL">1992_GRAAFIL  (1463)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/1996_GRAAFIL">1996_GRAAFIL  (1453)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Dungdunguenkanto">Dungdunguenkanto  (1331)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Meliton_Gal._Brillantes">Meliton_Gal._Brillantes  (1241)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Bong_Gordon">Bong_Gordon  (1208)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/1982_GRAAFIL">1982_GRAAFIL  (1153)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/GNU/Linux">GNU/Linux  (1019)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Dinamarka">Dinamarka  (9,757)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Augusto_De_Luca">Augusto_De_Luca  (9,513)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Rehion_ti_Isla_ti_Negros">Rehion_ti_Isla_ti_Negros  (4,113)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Biolohiko_a_pannakaidasig">Biolohiko_a_pannakaidasig  (3,469)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Pebrero_31">Pebrero_31  (3,266)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Trigo">Trigo  (3,134)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Mateo_24:14">Mateo_24:14  (2,403)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Aurelio_S._Agcaoili">Aurelio_S._Agcaoili  (2,128)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Dionisio_S._Bulong">Dionisio_S._Bulong  (1,977)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Listaan_dagiti_babai_a_prime_minister_ti_pagilian">Listaan_dagiti_babai_a_prime_minister_ti_pagilian  (1,833)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Joel_B._Manuel">Joel_B._Manuel  (1,639)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/SM_City_Bacoor">SM_City_Bacoor  (1,565)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/1992_GRAAFIL">1992_GRAAFIL  (1,463)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/1996_GRAAFIL">1996_GRAAFIL  (1,453)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Dungdunguenkanto">Dungdunguenkanto  (1,331)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Meliton_Gal._Brillantes">Meliton_Gal._Brillantes  (1,251)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Bong_Gordon">Bong_Gordon  (1,218)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/1982_GRAAFIL">1982_GRAAFIL  (1,153)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/GNU/Linux">GNU/Linux  (1,019)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1983_GRAAFIL">1983_GRAAFIL  (906)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1987_GRAAFIL">1987_GRAAFIL  (902)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Arinaya">Arinaya  (870)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1985_GRAAFIL">1985_GRAAFIL  (867)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1986_GRAAFIL">1986_GRAAFIL  (866)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1980_GRAAFIL">1980_GRAAFIL  (853)</a></li>
@@ -59,26 +64,30 @@ Last updated at 2016-01-23T21:18:28
 <li><a href="https://ilo.wikipedia.org/wiki/Pamulinawen">Pamulinawen  (749)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1990_GRAAFIL">1990_GRAAFIL  (735)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1984_GRAAFIL">1984_GRAAFIL  (711)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/San_Jose_(panangilawlawag)">San_Jose_(panangilawlawag)  (683)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/1988_GRAAFIL">1988_GRAAFIL  (648)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/GRAAFIL">GRAAFIL  (563)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Pinapaitan">Pinapaitan  (551)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/O_Naraniag_a_Bulan">O_Naraniag_a_Bulan  (529)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Igid_Diay_Baybay">Igid_Diay_Baybay  (523)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Joselito_Mendoza">Joselito_Mendoza  (513)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Isla_ti_Cebu">Isla_ti_Cebu  (483)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Joselito_Mendoza">Joselito_Mendoza  (520)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Isla_Cebu">Isla_Cebu  (499)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Sinanglaw">Sinanglaw  (477)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Bantay_Ansad">Bantay_Ansad  (437)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Baybay_Pundaquit">Baybay_Pundaquit  (391)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Ti_Ayat_ti_Maysa_nga_Ubing">Ti_Ayat_ti_Maysa_nga_Ubing  (390)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Raul_Makalalad_Bakalzo">Raul_Makalalad_Bakalzo  (386)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Manpower_Resources_of_Asia">Manpower_Resources_of_Asia  (385)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Ilocos_(panangilawlawag)">Ilocos_(panangilawlawag)  (383)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Lamao_National_High_School">Lamao_National_High_School  (380)</a></li>
-<li><a href="https://ilo.wikipedia.org/wiki/Raul_Makalalad_Bakalzo">Raul_Makalalad_Bakalzo  (376)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Kanal_Babuyan">Kanal_Babuyan  (363)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Merkurio_(panangilawlawag)">Merkurio_(panangilawlawag)  (341)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Irlanda_(panangilawlawag)">Irlanda_(panangilawlawag)  (338)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Espaniol">Espaniol  (295)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Balimbing">Balimbing  (282)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Hapon_(panangilawlawag)">Hapon_(panangilawlawag)  (278)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Saturno_(panangilawlawag)">Saturno_(panangilawlawag)  (229)</a></li>
+<li><a href="https://ilo.wikipedia.org/wiki/Macapagal">Macapagal  (215)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Limay_Polytechnic_College">Limay_Polytechnic_College  (196)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Camarines">Camarines  (179)</a></li>
 <li><a href="https://ilo.wikipedia.org/wiki/Maximo_B._Dalog">Maximo_B._Dalog  (161)</a></li>

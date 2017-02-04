@@ -1,5 +1,5 @@
 =title Wikipedia: Yorùbá (yo)
-=timestamp 2017-02-04T14:43:34
+=timestamp 2017-02-04T15:47:20
 =indexes wikipedia
 =status show
 =books wikipedia
@@ -26,7 +26,7 @@ Here you can see the 250 largest articles that don't have links to their English
 These articles either need an interwiki link to the English version of this page (and one from English back to this page),
 or they need to be translated to English first and then they need the link to the English version.
 <p>
-Last updated at 2017-02-04T14:43:34 using dump from 20170201
+Last updated at 2017-02-04T15:47:20 using dump from 20170201
 <p>
 
 <div>
@@ -160,11 +160,11 @@ Last updated at 2017-02-04T14:43:34 using dump from 20170201
 <li><a href="https://yo.wikipedia.org/wiki/Santiago_de_Cali">Santiago_de_Cali  (3,298)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Oko,_Nàìjíríà">Oko,_Nàìjíríà  (3,289)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Létà_(ábídí)">Létà_(ábídí)  (3,287)</a></li>
-<li><a href="https://yo.wikipedia.org/wiki/Surulere,_Lagos_State">Surulere,_Lagos_State  (3,272)</a></li>
-<li><a href="https://yo.wikipedia.org/wiki/Ilawe-Èkìtì">Ilawe-Èkìtì  (3,272)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Effon-Alaiye">Effon-Alaiye  (3,272)</a></li>
-<li><a href="https://yo.wikipedia.org/wiki/Mubi,_Nàìjíríà">Mubi,_Nàìjíríà  (3,272)</a></li>
+<li><a href="https://yo.wikipedia.org/wiki/Ilawe-Èkìtì">Ilawe-Èkìtì  (3,272)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ise,_Nàìjíríà">Ise,_Nàìjíríà  (3,272)</a></li>
+<li><a href="https://yo.wikipedia.org/wiki/Mubi,_Nàìjíríà">Mubi,_Nàìjíríà  (3,272)</a></li>
+<li><a href="https://yo.wikipedia.org/wiki/Surulere,_Lagos_State">Surulere,_Lagos_State  (3,272)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ben_Murray-Bruce">Ben_Murray-Bruce  (3,250)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ehoro">Ehoro  (3,236)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ìranraẹnilọ́wọ́">Ìranraẹnilọ́wọ́  (3,222)</a></li>
@@ -182,8 +182,8 @@ Last updated at 2017-02-04T14:43:34 using dump from 20170201
 <li><a href="https://yo.wikipedia.org/wiki/Fíìmù">Fíìmù  (2,775)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Pẹ̀lẹ́">Pẹ̀lẹ́  (2,762)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ofa">Ofa  (2,658)</a></li>
-<li><a href="https://yo.wikipedia.org/wiki/Orílẹ̀-èdè_alábàágbépọ̀">Orílẹ̀-èdè_alábàágbépọ̀  (2,636)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Mọfọ́lọ́jì_èdè_Yorùbá">Mọfọ́lọ́jì_èdè_Yorùbá  (2,636)</a></li>
+<li><a href="https://yo.wikipedia.org/wiki/Orílẹ̀-èdè_alábàágbépọ̀">Orílẹ̀-èdè_alábàágbépọ̀  (2,636)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ilu_Ọyẹ́">Ilu_Ọyẹ́  (2,521)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Sadiiki">Sadiiki  (2,519)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ife">Ife  (2,483)</a></li>
@@ -233,8 +233,8 @@ Last updated at 2017-02-04T14:43:34 using dump from 20170201
 <li><a href="https://yo.wikipedia.org/wiki/Joseph_Kasa-Vubu">Joseph_Kasa-Vubu  (1,125)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Àwọn_Ọba_Ilẹ̀_Nàìjíríà">Àwọn_Ọba_Ilẹ̀_Nàìjíríà  (1,096)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ìpèsè">Ìpèsè  (1,057)</a></li>
-<li><a href="https://yo.wikipedia.org/wiki/Lacey_Duvalle">Lacey_Duvalle  (1,055)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Felix_Ohiwerei">Felix_Ohiwerei  (1,055)</a></li>
+<li><a href="https://yo.wikipedia.org/wiki/Lacey_Duvalle">Lacey_Duvalle  (1,055)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Orúkọ_Àdúgbò_ní_Ọ̀fà,_Ìpínlẹ̀_Kwárà,_Nàìjíríà">Orúkọ_Àdúgbò_ní_Ọ̀fà,_Ìpínlẹ̀_Kwárà,_Nàìjíríà  (1,054)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Ògún_(Ọdúnjọ)">Ògún_(Ọdúnjọ)  (1,044)</a></li>
 <li><a href="https://yo.wikipedia.org/wiki/Mya_Mason">Mya_Mason  (1,033)</a></li>
