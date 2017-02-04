@@ -58,5 +58,6 @@ The languages I have processed so far:
     <li><a href="/wikipedia/mhr">Meadow Mari</a></li>
     <li><a href="/wikipedia/pam">Kapampangan</a></li>
     <li><a href="/wikipedia/su">Sundanese</a></li>
+    <li><a href="/wikipedia/yo">Yorùbá</a></li>
 </ul>
 
