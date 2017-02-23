@@ -54,7 +54,7 @@ Host default
   UserKnownHostsFile /dev/null
   StrictHostKeyChecking no
   PasswordAuthentication no
-  IdentityFile /Users/gabor/work/.vagrant/machines/default/virtualbox/private_key
+  IdentityFile /Users/gabor/work/.vagrant/private_key
   IdentitiesOnly yes
   LogLevel FATAL
   ForwardX11 yes
@@ -66,7 +66,7 @@ that holds the private key we need to use.
 In addition we need to supply the <hl>-X</hl> flag that tells ssh to use the X-forwarding.
 
 <code>
-ssh ubuntu@127.0.0.1 -p 2222 -i /Users/gabor/work/.vagrant/machines/default/virtualbox/private_key -X
+ssh ubuntu@127.0.0.1 -p 2222 -i /Users/gabor/work/.vagrant/private_key -X
 </code>
 
 Then you can already start desktop GUI applications.
@@ -80,7 +80,7 @@ and alias for the command by adding this to your <hl>~/.bashrc</hl> or <hl>~/.ba
 host. (Assuming Linux or OSX)
 
 <code>
-alias vssh='ssh ubuntu@127.0.0.1 -p 2222 -i /Users/gabor/work/.vagrant/machines/default/virtualbox/private_key -X'
+alias vssh='ssh ubuntu@127.0.0.1 -p 2222 -i /Users/gabor/work/.vagrant/private_key -X'
 </code>
 
 and the reloading it using <hl>source</hl>.
