@@ -13,7 +13,7 @@ Recently I wanted to show a few examples using CGI in various programming langua
 
 =abstract end
 
-I have been using the an <a href="http://perlmaven.com/vagrant-perl-development-environment">Ubuntu based Vagrant image</a> for my experiments
+I have been using the an <a href="https://perlmaven.com/vagrant-perl-development-environment">Ubuntu based Vagrant image</a> for my experiments
 but I think the same steps will work in any other Ubuntu-based or any Debian based system.
 
 
@@ -31,7 +31,7 @@ $ sudo apt-get install apache2
 It is not a requirement for our set up, but it is nice to have on the server as it can be used to check the pages
 without opening a real browser. Besides, at least in my set up, I have configured the web server on a Virtual Environment,
 but I have not set up port-forwarding for port 80 yet and thus I would not be able to access the web server from my
-desktop. (The article about <a href="http://perlmaven.com/vagrant-perl-development-environment">Vagrant development environment</a>
+desktop. (The article about <a href="https://perlmaven.com/vagrant-perl-development-environment">Vagrant development environment</a>
 has explanation how to set up the port forwarding.)
 
 <code>
@@ -122,6 +122,16 @@ executable using <hl>sudo chmod +x /usr/lib/cgi-bin/hw.sh</hl>
 
 or the hashbang line (The first line that should look like this <hl>#!/bin/bash</hl> was not typed in correctly.
 
+Another common source of error is the difference between the newlines in MS Windows and Linux in <a href="https://perlmaven.com/what-is-a-text-file">text files</a>.
+You have to make sure that your script has the Unix/Linux line-ending. One of the best ways might be to run
+<hl>dos2unix hw.sh</hl> that will replace the Windows-newlines by Unix-newlines.
+
 Lastly, the 500 error might occur if the first line printed by the script is not <hl>Content-type: text/html</hl>
 followed by 2(!) newlines.
+
+<h2>Further reading</h2>
+
+Check out all the articles related to <a href="https://perlmaven.com/cgi">CGI and Perl</a> and
+<a href="/hello-world-using-cgi-in-ruby">CGI and Ruby</a>.
+
 
