@@ -1,4 +1,4 @@
-=title Ajax request for JSON data
+=title Ajax request for JSON data with vanilla JavaScript
 =timestamp 2015-03-31T16:00:01
 =indexes XMLHttpRequest, JSON.parse
 =status show
