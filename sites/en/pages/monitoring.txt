@@ -1,0 +1,74 @@
+=title Server Monitoring
+=timestamp 2017-06-21T07:30:01
+=indexes monitoring
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+My notes as I am working on setting up monitoring of some servers.
+
+=abstract end
+
+<a href="https://www.pingdom.com/">Pingdom</a> - External active monitoring of availability of various services (ping, http, etc.) including transactions.
+
+<a href="https://www.pagerduty.com/">Pager Duty</a>
+
+<a href="https://newrelic.com/">New Relic</a>
+
+<a href="https://www.terraform.io/">Terraform</a>
+
+<h2>The world of StatsD</h2>
+
+StatsD is a combination of a number of services and protocols.
+<ul>
+  <li>StatsD client (talking in UDP to the dameon)</li>
+  <li>StatsD dameon (talking in batches with the data aggregator)</li>
+  <li>Data aggregator (some kind of a database)</li>
+  <li>Graphing service (used the data in the aggregator)</li>
+</ul>
+
+Data points can be supplied by our application. These use the StatsD client library available in most of the programming languages.
+They can also be supplied by tools related to our application. (e.g. the tools used to deploy a new version.)
+There can be also some generic data collector that collects generic server-related data. (e.g. CPU load, memory usage, disk usage).
+
+The data points are sent by the StatsD clients to the StatsD daemon that usually runs on the same machine via UDP.
+That means the data collection has minimal impact on our service and even if the daemon is down, it does not impact our
+service. Just the logging data is lost.
+
+There are several <a href="https://github.com/etsy/statsd/wiki">StatsD daemon</a> implementations. Apparently the one by Etsy is the most popular.
+
+There are several Data aggregators and Graphings tools (<a href="https://github.com/etsy/statsd/wiki/Backends">StatsD Backends</a>)
+
+<a href="https://graphiteapp.org/">Graphite</a> is an Open Source backend.
+  <a href="https://www.youtube.com/watch?v=V6Rxs9LeKew">Build your own monitoring dashboard with Graphite, Statsd, & Grafana</a>
+  <a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-use-graphite-on-an-ubuntu-14-04-server">How To Install and Use Graphite on an Ubuntu 14.04 Server</a>
+
+<a  href="http://ganglia.sourceforge.net/">Ganglia</a>
+
+<a href="https://www.datadoghq.com/">DataDog</a> is an integrated service providing both data aggregation, graphs and integration with lots of other tools and services.
+
+Plain database backends (MySQL, InfluxDB, MongoDB) ?
+
+<h3>Metric types used in StatsD</h3>
+<ul>
+   <li>count   (incr, decr) (e.g. every request)</li>
+   <li>amount (e.g. elapsed time)</li>
+</ul>
+
+<h2>Other tools</h2>
+
+<ul>
+  <li><a href="https://collectd.org/">Collectd</a>   to collect statistics</li>
+  <li><a href="http://oss.oetiker.ch/rrdtool/">RRDTool</a></li>
+  <li><a href="https://grafana.com/">Grafana</a>    to display graphs</li>
+  <li>Munin - <a href="http://www.slideshare.net/zembutsu/practical-resource-monitoring-with-munin-english-editon">Practical resource monitoring with Munin</a></li>
+  <li><a href="http://www.cacti.net/">Cacti</a></li>
+  <li><a href="https://www.mrtg.com/">MRTG</a></li>
+  <li><a href="http://www.zabbix.com/">Zabbix</a></li>
+  <li><a href="https://www.nagios.org/">Nagios</a></li>
+  <li><a href="http://graphite.readthedocs.io/en/latest/carbon-daemons.html">collecting data with Carbon daemon</a></li>
+</ul>
+
