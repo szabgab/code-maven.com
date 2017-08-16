@@ -1,0 +1,91 @@
+=title Project Management, Quality Assurance, and Test Automation in Open Source Projects
+=timestamp 2017-08-16T07:30:01
+=indexes testing, automated testing, QA, open source
+=status show
+=books qa
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Some Open Source projects are almost exclusively developed inside a corporation which provides Project management, development, and QA just as the do for their proprietary products.
+
+Others, actually most of the Open Source projects, don't have a dedicated project manager and QA team. They don't even have a paid team of developers. Just a few volunteers who spend their own time to work on the project they care about. 
+
+Yet there are plenty of high-quality Open Source project that provide an enormous value to their users and to the world in general.
+
+In this article series we are going to look at some Open Source projects and see how they do this.
+
+=abstract end
+
+We are going to look at projects that are pure volunteer-based and projects that are (almost 100%) internal to a company. Project where the company releases the source code under an Open Source license, but there is effectively no developer community outside the company.
+
+<h2>The audience - are these articles for you?</h2>
+
+You might be a software developer, team leader, QA engineer, QA manager, or CxO in a company with extensive technology who has been wondering: Can we trust Open Source projects?
+
+You might be even wondering: Can we learn anything from the open source world and implement in our company to improve the quality of our proprietary software?
+
+Finally, you might recognize the value you have already received from the Open Source world and you would like to <b>"give back"</b>. Learning about quality and value creation in Open Source projects is the first step towards contributing to one of the projects.
+
+
+<h2>Content</h2>
+<p>
+While the main focus of these articles is the testing phase it is often easier to understand how it works if we see the whole development process of the project.
+Especially as in most of the cases testing is integrated in the development process of the applications and is done by the developers themselves.
+
+These are some of the issues we are going to look at, but the list will change as we learn more about the practices of the various Open Source projects.
+
+<ul>
+    <li>Who are the developers? Are they employed by one or more companies to work on the project? Are they volunteers or paid? Who pays them?</li>
+    <li>Who makes the decisions in the project? A core team? A project manager?</li>
+
+    <li>Which Version Control System (VCS) are they using? Git? Subversion? Mercurial?</li>
+    <li>Who has the right to commit to the version control system? (is there a rule-book for that?)
+</li>
+
+    <li>Which bug-tracking system is used?</li>
+
+    <li>What versions of the software are supported?</li>
+    <li>In which language(s) is the product written?</li>
+    <li>How to compile/build the product? (Link to the instructions is enough)</li>
+
+    <li>Is there a test suite for automated tests?</li>
+    <li>Where are the tests located? Same repository? Which directory?</li>
+    <li>In which languages(s) are the tests written?</li>
+    <li>How to run the tests?</li>
+
+    <li>Are they running smoke test?</li>
+    <li>Is there an CI (Continuous Integration) system?</li>
+    <li>Do they have a test farm? Is it company owned or volunteer based as well?</li>
+    <li>Where are the test reports?</li>
+    <li>How easy is it to setup smoke testing?</li>
+    <li>Do they have centralized management of the testing effort or is it distributed?</li>
+    <li>What is the automated test coverage?</li>
+
+    <li>Are there parts that need manual testing? (That would be very hard to test automatically.)</li>
+    <li>Are there manual testers involved?</li>
+</ul>
+
+<h2>Relevant material</h2>
+<ul>
+   <li><a href="http://producingoss.com/">Producing Open Source Software</a> by Karl Fogel is an excellent book about the subject.</li>
+</ul>
+
+<h2>History</h2>
+
+The first version of this article was written in 2007, exactly 10 years ago. Then it was followed by a number of articles discussing several open source projects. Since then a lot has changed in the Open Source developer world. We are going to revisit the projects covered in the old articles and discuss plenty of other projects as well.
+
+<h2>Old Articles</h2>
+<ul>
+    <li><a href="https://szabgab.com/quality-assurance-of-perl-5.html">Quality Assurance of Perl 5</a></li>
+    <li><a href="https://szabgab.com/smoked-parrot.html">Smoked Parrot</a></li>
+    <li><a href="https://szabgab.com/testing-sqlite.html">Testing SQLite</a></li>
+    <li><a href="https://szabgab.com/testing-nut-the-network-ups-tools.html">Testing NUT, the Network UPS Tools</a></li>
+    <li><a href="https://szabgab.com/testing-ghc-the-glasgow-haskell-compiler.html">Testing GHC, the Glasgow Haskell Compiler</a></li>
+    <li><a href="https://szabgab.com/testing-ruby.html">Testing Ruby</a></li>
+    <li><a href="https://szabgab.com/testing-pugs-and-perl-6.html">Testing Pugs and Perl 6</a></li>
+</ul>
+
+
