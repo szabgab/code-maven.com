@@ -68,6 +68,13 @@ These are some of the issues we are going to look at, but the list will change a
     <li>Are there manual testers involved?</li>
 </ul>
 
+Diversity of test environment:
+<ul>
+   <li>OS-es: Linux , *BSD , OSX, Windows  (build farm by volunteers)</li>
+   <li>Compiler (clang gcc, Visual Studio, mingws, etc)</li>
+   <li>Database backends (MySQL, PostgreSQL, SQLite, Oracle, MS SQL Server, Sybase, etc.)</li>
+</ul>
+
 <h2>Relevant material</h2>
 <ul>
    <li><a href="http://producingoss.com/">Producing Open Source Software</a> by Karl Fogel is an excellent book about the subject.</li>
@@ -86,6 +93,7 @@ The first version of this article was written in 2007, exactly 10 years ago. The
     <li><a href="https://szabgab.com/testing-ghc-the-glasgow-haskell-compiler.html">Testing GHC, the Glasgow Haskell Compiler</a></li>
     <li><a href="https://szabgab.com/testing-ruby.html">Testing Ruby</a></li>
     <li><a href="https://szabgab.com/testing-pugs-and-perl-6.html">Testing Pugs and Perl 6</a></li>
+    <li><a href="https://szabgab.com/testing-postgressql.html">Testing PostgresSQL</a></li>
 </ul>
 
 
