@@ -61,10 +61,10 @@ Plain database backends (MySQL, InfluxDB, MongoDB) ?
 <h2>Other tools</h2>
 
 <ul>
-  <li><a href="https://collectd.org/">Collectd</a>   to collect statistics</li>
+  <li><a href="https://collectd.org/">Collectd</a> to collect statistics and save in RDDTool or send to a StatsD data collector. (without the need for a StatsD daemon)</li>
   <li><a href="http://oss.oetiker.ch/rrdtool/">RRDTool</a></li>
   <li><a href="https://grafana.com/">Grafana</a>    to display graphs</li>
-  <li>Munin - <a href="http://www.slideshare.net/zembutsu/practical-resource-monitoring-with-munin-english-editon">Practical resource monitoring with Munin</a></li>
+  <li><a href="http://munin-monitoring.org/">Munin</a> - <a href="http://www.slideshare.net/zembutsu/practical-resource-monitoring-with-munin-english-editon">Practical resource monitoring with Munin</a></li>
   <li><a href="http://www.cacti.net/">Cacti</a></li>
   <li><a href="https://www.mrtg.com/">MRTG</a></li>
   <li><a href="http://www.zabbix.com/">Zabbix</a></li>
