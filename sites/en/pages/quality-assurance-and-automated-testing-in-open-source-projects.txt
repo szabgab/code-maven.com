@@ -15,6 +15,8 @@ Others, actually most of the Open Source projects, don't have a dedicated projec
 
 Yet there are plenty of high-quality Open Source project that provide an enormous value to their users and to the world in general.
 
+How does that work? How do Open Source projects ensure high quality?
+
 In this article series we are going to look at some Open Source projects and see how they do this.
 
 =abstract end
@@ -95,5 +97,14 @@ The first version of this article was written in 2007, exactly 10 years ago. The
     <li><a href="https://szabgab.com/testing-pugs-and-perl-6.html">Testing Pugs and Perl 6</a></li>
     <li><a href="https://szabgab.com/testing-postgressql.html">Testing PostgresSQL</a></li>
 </ul>
+
+<h2>Case Studies</h2>
+
+
+<h2>Newsletter</h2>
+
+If you are interested in hearing about new entries in this series, sign up to our
+<a href="https://mail.szabgab.com/cgi-bin/mailman/listinfo/test-automation-tips">newsletter</a> called
+Test Automation Tips.
 
 
