@@ -1,0 +1,41 @@
+=title Command-line counter in Python
+=timestamp 2017-08-21T10:30:01
+=indexes os.path.exists, open, with, read, write
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Part of the big <a href="https://perlmaven.com/counter">counter example</a> project, let's see the
+simple command line counter for a single number implemented in Python.
+
+=abstract end
+
+<include file="examples/python/counter.py">
+
+The <hl>os.path.exists</hl> method checks if a file exists.
+
+Normally in Python if we <hl>open</hl> a file it does <b>not</b>
+get closed automatically. If we forget to call <hl>close</hl> all
+kinds of bad things can happen.
+
+In order to force the call of close it is recommended to wrap any file operation
+in a <hl>with</hl> statement. The <hl>with</hl> statement arranges the <hl>close</hl>
+method to be called on the filehandle when the execution leaves the code inside the <hl>with</hl>
+statement.
+
+<hl>open</hl> defaults to read-only.
+
+The <hl>read</hl> method reads in the whole content of the file which in our case is just a number.
+
+By default everything we read from a file is considered as a string. We can use the <hl>int</hl> function to convert the value to Integer.
+
+In Python there is no <hl>++</hl> so we use the <hl>+= 1</hl> construct to increment the number by one.
+
+In order to save the new counter in the file, first we need to open the file for writing using <hl>open(filename, 'w')</hl> and then we can use the <hl>write</hl> method to actually write out the data. It expects a string so we need to convert our Integer to String using the <hl>str</hl> function.
+
+No need to explicitly close the file as leaving the <hl>with</hl> statement will automatically call the <hl>close</hl> method.
+
