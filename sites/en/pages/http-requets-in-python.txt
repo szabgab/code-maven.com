@@ -1,0 +1,139 @@
+=title Send HTTP Requests in Python
+=timestamp 2017-08-25T14:30:01
+=indexes requests, GET, header, status_code, text
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Accessing web sites from a Python program is not very difficult, but using
+the <a href="http://docs.python-requests.org/">requests</a> library makes it even fun.
+
+Let's see a few examples.
+
+=abstract end
+
+We are going to use the <a href="http://httpbin.org/">httpbin.org</a> site that provides an excellent set of end-point for us to experiment with. The site has both an http and an https version. (BTW It was created by the same author as the requests package.)
+
+<include file="examples/python/requests_get_html.py">
+
+After importing the module we can call its <hl>get</hl> method passing a URL to it.
+It will return <a href="http://docs.python-requests.org/en/master/user/advanced/#request-and-response-objects">requests.models.Response</a> object.
+
+Some of the methods it has are:
+
+<hl>r.status_code</hl> is the <a href="https://en.wikipedia.org/wiki/List_of_HTTP_status_codes">HTTP status code</a>. On success it is 200.
+
+<hl>r.headers</hl> is a dictionary of all the entries in the header. for example for the above request I got the following header:
+
+<code>
+{'content-length': '12150', 'server': 'nginx', 'connection': 'keep-alive', 'access-control-allow-credentials': 'true',
+'date': 'Thu, 05 Jan 2017 09:45:02 GMT', 'access-control-allow-origin': '*', 'content-type': 'text/html; charset=utf-8'}
+</code>
+
+We could look at the <a href="https://en.wikipedia.org/wiki/Media_type">Content-Type</a> that the server sent us using the simple dictionary access code: <hl>r.headers['content-type']</hl> that, in the above case, will print
+
+<code>
+text/html; charset=utf-8
+</code>
+
+<hl>r.text</hl> contains the full content of the page. The content that you would get if you opened the page in your browser and the clicked on "view source", or that you would get if you ran <hl>curl</hl> with the given URL.
+
+You will get the exact same behavior if you change the URL to be https.
+
+<h2>Asking for JSON</h2>
+
+Asking for a page that would return JSON is exactly the same as asking for an HTML page.
+The difference is only in the returned values:
+
+<include file="examples/python/requests_get_json_ip.py">
+
+The content-type is
+
+<code>
+application/json
+</code>
+
+The text is a JSON string. In the case of the 
+
+<code>
+{
+  "origin": "31.168.125.94"
+}
+</code>
+
+The <hl>json</hl> method converts the JSON string into a Python data structure.
+In our case it is a dictionary holding a single key and the IP address of our computer
+as the value:
+
+<code>
+{u'origin': u'31.168.135.94'}
+</code>
+
+We can access the individual values (in this case the IP address), just as
+we do with any other dictionary in Python:
+
+<code>
+data['origin']
+</code>
+
+<h2>Get the User Agent</h2>
+
+Another URL the <a href="http://httpbin.org/">httpbin.org</a> site provides return
+the <a href="http://httpbin.org/user-agent">user-agent</a> of our client. When
+I visited that URL with my FireFox browser I got the following response:
+
+<code>
+{
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.12; rv:50.0) Gecko/20100101 Firefox/50.0"
+}
+</code>
+
+When I visited in with Chrome, I got this:
+
+<code>
+{
+  "user-agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"
+}
+</code>
+
+When I ran the Python script: 
+
+<include file="pro/examples/python/requests_get_json_ua.py">
+
+I got the following:
+
+<code>
+{
+  "user-agent": "python-requests/2.3.0 CPython/2.7.12 Darwin/16.3.0"
+}
+</code>
+
+This means that the server can tell both the IP address I use and the browser I have when accessing the site and even the operating system on my computer.
+Based on this information they can return different data to different users.
+
+I've heard that certain sites will show you higher prices if you are using a Mac as they assume you'll be ready to pay a higher price.
+
+Other sites will refuse to serve you unless you use a "human browser".
+They would notice the "user-agent" of your Python application and return error.
+
+<h2>Setting the User-agent in Python requests</h2>
+
+Luckily the requests library makes it very easy to change the User-Agent string supplied in the request and to fake any browser.
+
+<include file="pro/examples/python/requests_get_json_ua_changed.py">
+
+The only thing you need to do is to supply the <hl>headers</hl>
+key with a dictionary including the User Agent:
+
+<code>
+    headers = {'User-agent': 'Internet Explorer/2.0'}
+</code>
+
+If you run this program it will send the request as if it was Internet Explorer 2.0
+and let the system administrator wonder if you are really stuck with such an old browser.
+
+
