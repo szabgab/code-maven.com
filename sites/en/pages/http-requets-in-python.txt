@@ -102,7 +102,7 @@ When I visited in with Chrome, I got this:
 
 When I ran the Python script: 
 
-<include file="pro/examples/python/requests_get_json_ua.py">
+<include file="examples/python/requests_get_json_ua.py">
 
 I got the following:
 
@@ -124,7 +124,7 @@ They would notice the "user-agent" of your Python application and return error.
 
 Luckily the requests library makes it very easy to change the User-Agent string supplied in the request and to fake any browser.
 
-<include file="pro/examples/python/requests_get_json_ua_changed.py">
+<include file="examples/python/requests_get_json_ua_changed.py">
 
 The only thing you need to do is to supply the <hl>headers</hl>
 key with a dictionary including the User Agent:
