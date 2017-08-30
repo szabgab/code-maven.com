@@ -1,0 +1,18 @@
+=title Testing with PyTest
+=timestamp 2017-01-01T07:30:01
+=indexes pytest, testing
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<iframe width="840" height="480" src="https://www.youtube.com/embed/nznkU7Em5ns" frameborder="0" allowfullscreen></iframe>
+
+<a href="http://pyvideo.org/pycon-israel-2017/testing-with-pytest.html">Testing with PyTest  on PyVideo</a>
+
+This presentation was recorded at <a href="http://il.pycon.org/2017/">PyCon Israel 2017</a>
+
