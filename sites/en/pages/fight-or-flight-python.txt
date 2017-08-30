@@ -1,7 +1,7 @@
 =title Fight or Flight? - dealing with real world applications in Python
 =timestamp 2017-08-30T08:30:01
 =indexes pytest, mock
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
@@ -16,7 +16,7 @@ What do you do now? Fight or flight? In this talk you will hear about a couple o
 
 =abstract end
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/z0XHW9nYpv8" frameborder="0" allowfullscreen></iframe>
+<iframe width="840" height="480" src="https://www.youtube.com/embed/z0XHW9nYpv8" frameborder="0" allowfullscreen></iframe>
 
 <h2>The ideal situation</h2>
 
