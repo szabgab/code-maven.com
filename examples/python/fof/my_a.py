@@ -1,7 +1,5 @@
 import my_b
 
-
-
 def run():
     print("run of my_a")
 

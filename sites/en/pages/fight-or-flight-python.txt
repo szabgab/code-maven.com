@@ -1,5 +1,5 @@
 =title Fight or Flight? - dealing with real world applications in Python
-=timestamp 2016-04-01T07:30:01
+=timestamp 2017-08-30T08:30:01
 =indexes pytest, mock
 =status draft
 =books python
@@ -9,19 +9,21 @@
 
 =abstract start
 
-You have just landed a new job as a hero Python developer. Your first task is simple. Make a little tweak to an existing application.
+You have just landed a new job as a Python developer. Your first task is simple. Make a little tweak to an existing application.
 To your horror you discover the code is a mess written in the past 10 years by many different people who have just started their career as Python programmers.
 They all have already move on. They left behind the code, but it has no tests and no documentation. Oh and by the way, the company depends on the application.
 What do you do now? Fight or flight? In this talk you will hear about a couple of ways to fight with such a beast.
 
 =abstract end
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/z0XHW9nYpv8" frameborder="0" allowfullscreen></iframe>
+
 <h2>The ideal situation</h2>
 
 When you join a company, or switch teams you have certain expectation about the development environment and process.
-The ideal situation looks something like this.
+The ideal situation looks something like this:
 
-The team use some distributed <b>version control system</b>.  <a href="https://git-scm.com/">Git</a> is your preference,
+The team uses some distributed <b>version control system</b>.  <a href="https://git-scm.com/">Git</a> is your preference,
 but you'd be ok with something similar as well.
 
 The code is divided into small functions or methods with clear input and output for each function with very little, or possibly no side-effects.
@@ -37,9 +39,9 @@ clear units with clear borders, that's usually much better than a large monolith
 
 Documentation of the decisions made and the external API of each module. Many people don't like to write documentation
 because of various reasons. For example they saw too much boiler-plate documentation where a large chunk of it is redundant
-or irrelevant. (Who wrote the code, what changes were made, when. This can be extracted from the version control system.)
+or irrelevant. (Who wrote the code, what changes were made, when. All this can be extracted from the version control system.)
 The main purpose of the function should be clear from its name.
-Others just fear their writing capabilities in English is not good enough.
+Others just fear their writing capabilities in English are not good enough.
 
 You expect to have plenty of unit and integration tests together with the code covering most if not all the codebase.
 
@@ -57,7 +59,7 @@ but that's it. You don't have a development environment not to even mention a te
 In other cases you might have a separate development environment, even a version control system,
 but there is only a single central database of the production data. You have to work on that.
 
-The functions are huge, several hundred sometimes even a thousand lines each.
+The functions are huge, several hundred sometimes even a few thousand lines each.
 In addition they call each other in a rather unpredictable manner in many cases
 creating circular dependencies of tightly coupled modules.
 
@@ -67,6 +69,14 @@ Here are two modules that each depends on the other:
 
 <include file="examples/python/fof/my_b.py">
 
+You can run <hl>python my_a.py</hl> and get a response:
+
+<code>
+run of my_b
+run of my_a
+</code>
+
+but the circular dependency makes it very hard to follow what's going on.
 
 The code is full of global variables and code that touch attributes in other modules.
 
@@ -81,10 +91,17 @@ But then if we use it this way:
 then it will be very difficult to understand the code. Especially in large, applications
 where any piece of code might access <hl>xb.var</hl>.
 
-People might have even employed monkey patching to make some code
-work they want it to work.
+Running <hl>python xa.py</hl> gives:
 
-In most of cases there are no tests and there is no documentation either, or if there is
+<code>
+23
+42
+</code>
+
+People might have even employed <b>monkey patching</b> to make some code
+work the way they want it to work.
+
+In most of the cases there are no tests and there is no documentation either, or if there is
 it is either redundant out of date.
 
 <h2>The Solution</h2>
@@ -96,7 +113,7 @@ There are basically two solutions for this. Fight or Flight.
 If you feel the whole organization is soaked in a bad culture that won't allow for change then your best
 bet might be to find another place to work. There are plenty of places that need good developers.
 
-Just make sure you understand that ideal situation you hope for rarely exist. In every place
+Just make sure you understand that the ideal situation you hope for rarely exist. In every place
 you'll see entropy in action.
 
 If this is what you decide, you don't need to read on.
@@ -106,7 +123,7 @@ Or maybe you do, so you'll know what to do when things are not so perfect.
 <h2>Fight</h2>
 
 The real solution is to fight the situation. To start moving from the current situation towards the ideal one.
-It will be a long process, but you'll learn a lot. It will have a lot of frustrating days, you'll encounter setbacks,
+It will be a long process, but you'll learn a lot. It will bring a lot of frustrating days, you'll encounter setbacks,
 but step-by-step you'll be able to improve the situation.
 
 Both for yourself and for the company in general which is crucial.
@@ -157,7 +174,7 @@ It is for your sanity.
 </ul>
 
 I am not really sure which one might be the most convincing among these. Maybe the idea
-that writing test for the feature you add will help you protect your code from future changes.
+that writing tests for the feature you add will help you protect your code from bugs caused by future changes.
 Both from your own future changes and from the changes other developers might introduce
 in libraries that your code uses.
 
@@ -176,9 +193,9 @@ Unfortunately in our industry we don't have really good way to estimate the leng
 "margin of error" for the estimation of the project. That's very hard to show. Especially as the projects we do
 have a lot of differences and thus it is hard to compare them.
 
-Number of bugs might be a better indication, but that too requires some way to compare projects. (Having
+Number of bugs might be a better indication, but that too requires some way to compare projects. Having
 1 bug in an implementation of FizzBuzz is much worse than having 100 bugs in the implementation
-of a flight management application, but having any of those 100 bugs can have a much worse impact.)
+of a flight management application, but having any of those 100 bugs can have a much worse impact.
 
 You probably won't be able to properly measure any of these.
 So we have to find other ways to measure our progress.
@@ -198,15 +215,17 @@ but they are measurable and provide some indication that we are in the right tra
 
 If the company does not have it yet, then the very first thing you need to do is to set up some kind of a version control system.
 It will help you make changes to the code and make it easy to go back to earlier version if you break something.
-It will also help you notice if someone else has change the code.
+It will also help you notice if someone else has changed the code.
 
-Even if the company already has a version control system such as Clear Case, they might have made the development process cumbersome.
+If the company already has a version control system, they might have made the development process cumbersome.
 For example they might require a ticket in the bug tracking system to be opened and signed by a manager for each change.
 This usually means people will tend to wait with their commit till "everything is finished" which eliminates one of the most
 valuable aspects of a version control system. Having you own version control system will allow you to make lots of small commits and
 then, when you are done you can commit to the official VCS of the company.
 
 <a href="https://git-scm.com/">Git</a> is great for this as it does not need a server.
+
+Of course if the official VCS is Git or something as flexible as Git, then you don't need this extra work.
 
 <h2>virtualenv</h2>
 
@@ -222,9 +241,9 @@ Use one of the test frameworks of Python.
 (and <a href="https://pypi.python.org/pypi/unittest2">unittest2</a>) come with the installation
 of Python.
 
-<a href="https://pypi.python.org/pypi/nose/">nose</a> and <a href="http://pytest.org/">pytest</a>
-are more powerful.
+<a href="https://pypi.python.org/pypi/nose/">nose</a> is more powerful but it is not in favor any more.
 
+These days <a href="http://pytest.org/">pytest</a> seems to be the most recommended testing framework.
 
 It does not really matter which one you start using. As a new programmer on this team you'll have to learn a lot
 about the code-base and the challenges it imposes for writing tests.
@@ -269,7 +288,7 @@ Moreover in spaghetti code every unit test is also an integration tests as all t
 In a nutshell, don't fret about the naming. Especially not at the beginning.
 But be prepared to constantly refactor your tests as well.
 
-I won't provide a deep tutorial to testing Python code, but let's just see a simple example.
+In this article I don't provide a deep tutorial to testing Python code, but let's just see a simple example.
 
 <h2>First simple test</h2>
 
@@ -330,41 +349,39 @@ Just in case you'd like to try it, the actual code looks like this:
 
 <include file="examples/python/fof/my_calc.py">
 
-
 <h2>Continuous Integration</h2>
 
 Once you have any tests it is time to set up some kind of Continuous Integration system. You can pick one of the
 ready made CI systems such as <a href="https://en.wikipedia.org/wiki/Jenkins_%28software%29">Jenkins</a>,
-<a href="https://en.wikipedia.org/wiki/Buildbot">Buildbot</a>, and I think even
-<a href="https://en.wikipedia.org/wiki/Travis_CI">Travis-CI</a> can be installed, but I think I'd just start
+<a href="https://en.wikipedia.org/wiki/Buildbot">Buildbot</a>, but I think I'd just start
 with a simple cron-job and a few lines of Python code to fetch the latest revision of the code, run the tests
 and send me an e-mail if something got broken.
 
 This too will have to improve with time, but most likely the system you need to deal with is so specific to the company
-that you'll have a lot of work setting up either of those systems.
-
+that you'll have a lot of work setting up either of those CI systems.
 
 <h2>Mocking</h2>
 
 Writing test for simple stand alone function is easy, but your situation will probably not allow that.
-The code you have to deal with have a lot of interdependencies. Function calling each other. Possibly even in a circular manner.
+The code you have to deal with have a lot of interdependencies. Functions calling each other. Possibly even in a circular manner.
 That's where <b>Mocking</b> or its nastier cousin <b>Monkey Patching</b> can help.
 
 Mocking is a totally legitimate technique while testing. Especially if you have to deal with some <b>External services</b>.
 In that case you don't want to hit the external API every time you run the test and you don't want to make your test depend
 on the current availability of that external API or service. For example at one of my clients they had an issue with a test randomly failing
-as their code, that was using some feature on Facebook got a random captcha. This taught the developer to accept that
-"this test sometimes fails" which is a horrible situation because it means we won't notice when the code starts to fail due to a real problem.
+as their code, that was using some feature on Facebook got a random captcha. This taught the developers to accept that
+"this test sometimes fails" which late become "some tests fail".
+This is a horrible situation because it means we won't notice when the code starts to fail due to a real problem.
 
-In addition, having a mock for this external interface we can easily test how our code behaves when that external service is not available
-or when it returns incorrect responses.
+In addition, having a mock for this external interface allows us to easily test how our code behaves when that external service is not available
+or when it returns incorrect responses. Something would be hard to test with the real service.
 
 Another case if you would like to write <b>"pure unit tests"</b>. In that case you might want to mock all the functions called
 by the "function under test".
 
 The case that might be most relevant to our situation is however, if we have to deal with <b>complex, interdependent functions</b>.
-In that case we might have no choice but to fake the behavior of some of the functions a whole subsystem, or even the database
-in order to have a controlled environment for our tests.
+In that case we might have no choice but to fake the behavior of some of the functions, a whole subsystem, or even the database
+in order to have a <b>controlled environment</b> for our tests.
 
 Let's see two such cases:
 
@@ -374,14 +391,14 @@ In the first case we have a module, cleverly named <b>library.py</b> in which th
 function and a <hl>helper</hl> function. While both of these functions are quite banal, try to imagine that both of
 them are several hundred lines long and do a lot of complex stuff.
 
-However, as you can see the helper function has a fault. It will randomly throw an exception.
+However, as you can see, the helper function has a fault. It will randomly throw an exception.
 When <hl>unit</hl>-testing the <hl>main</hl> function we don't want to deal with the problems the helper function has
-we would like to assume that it behaves properly.
+we would like to assume that it behaves correctly.
 
 <include file="examples/python/fof/library.py">
 
 That's where we can use the <a href="https://pypi.python.org/pypi/mock">mock</a> module. Basically we replace the <hl>helper</hl>
-function by the new <hl>my_helper</hl> for the duration of the tests. This helper function has hard coded return values for every
+function by the new <hl>my_helper</hl> for the duration of the tests. This fake helper function has hard-coded return values for every
 input that will be encountered during our test (which, in our case is the number 2).
 
 <include file="examples/python/fof/test_library.py">
@@ -395,7 +412,7 @@ The difficulty here might be if we have a number of such "helper" function and i
 Another really problematic case is when the function we are trying to test has side-effect. Chief among those side-effects
 is printing to the screen. We would like to capture the output and see if it is what we expect.
 
-Another simplified example:
+A simplified example:
 
 <include file="examples/python/fof/echo_calc.py">
 
@@ -411,10 +428,13 @@ This way we mock the <hl>print</hl> statement of Python 2
 and collect the output in a string that we can retrieve using the
 <hl>getvalue</hl> method.
 
-<h2>Get other on board</h2>
+<h2>Get others on board</h2>
+
+Once you set up your testing environment and started to write tests it is time to expand your reach.
+A couple of ideas what to do:
 
 <ul>
-  <li>Lead by example.</li>
+  <li>Lead by example. - Write lots of tests for the code you write or change.</li>
   <li>Show how tests saved you time.</li>
   <li>Offer to write tests for their code.</li>
   <li>Introduce code-review, but ask the other developers to review your code before you review theirs.</li>
