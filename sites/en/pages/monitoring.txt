@@ -1,14 +1,14 @@
 =title Server Monitoring
-=timestamp 2017-06-21T07:30:01
+=timestamp 2017-08-31T09:30:01
 =indexes monitoring
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
 
-My notes as I am working on setting up monitoring of some servers.
+Some notes as I am working on setting up monitoring of some servers.
 
 =abstract end
 
