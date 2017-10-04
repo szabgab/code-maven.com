@@ -1,0 +1,210 @@
+=title Doctest in Python
+=timestamp 2017-10-04T17:30:01
+=indexes doctest, __doc__
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+There are several testing libraries in Python. One of the simplest is called
+<a href="https://docs.python.org/3/library/doctest.html">doctest</a>.
+It is good for stand-alone libraries, not something where you need a lot of work to
+set up the environment, but then it is a great way to also ensure that the documentation
+is correct.
+
+=abstract end
+
+<h2>A simple module</h2>
+
+Let's create a simple module that has a function to check
+if two given strings are <a href="https://en.wikipedia.org/wiki/Anagram">Anagram</a>
+
+<include file="examples/python/dt/mymod_1.py">
+
+It is not perfect, but it works in some of the cases.
+
+For example this call will return <hl>True</hl>:
+
+<code lang="python">
+is_anagram("silent", "listen")
+</code>
+
+This call too:
+
+<code lang="python">
+is_anagram("abc", "acb")
+</code>
+
+On the other hand this call will return <hl>False</hl>
+
+<code lang="python">
+is_anagram("one", "two")
+</code>
+
+
+<h2>Documentation of functions</h2>
+
+You probably know that you can add strings, even multi-line strings
+to your code and if they are not assigned to any variable and not used in
+any function, Python will just desregard them.
+
+In addition if this string happens to be the first statement immediately after
+the <hl>def</hl> line declaring a function then this string will be considered
+to be "The documentation of the function".
+
+Here it is:
+
+<include file="examples/python/dt/mymod_2.py">
+
+We can then access this string using the <hl>__doc__</hl> attribute of the function object:
+
+<include file="examples/python/dt/use_mymod_2.py">
+
+If we run this script we get:
+
+<code lang="python">
+ $ python use_mymod_2.py
+
+    Any Text
+    Can be documentation
+
+</code>
+
+<h2>Interactive Shell</h2>
+
+You probably also know the Interactive Shell of python.
+If you type in <hl>python</hl> on the command line without
+any additional paramters you'll find yourself in the interactive
+shell where you can type in commands to Python directly:
+The 3 &gt; signs are the prompt:
+
+<code lang="python">
+$ python
+>>> 2 + 3
+5
+</code>
+
+We could also import a module and use its functions
+
+<code lang="python">
+>>> from mymod_2 import is_anagram
+>>> is_anagram("silent", "listen")
+True
+>>> is_anagram("abc", "acb")
+True
+>>>> is_anagram("one", "two")
+False
+</code>
+
+
+<h2>Doctests</h2>
+
+The <a href="https://docs.python.org/3/library/doctest.html">doctest</a> module
+will read the documentation of the functions in your code, assuming it looks
+like a session from the Interactive Shell. It will execute the commands it finds
+and compares the results with the expected result found in the documentation.
+
+<include file="examples/python/dt/mymod_3.py">
+
+We need two things for this:
+
+We added some documentation to ou function that looks like a session from the interactive shell.
+(No need to import the function.)
+
+We also have some code at the end of the file that will import the <hl>doctes</hl> module
+and run the <hl>testmod</hl> function that will look for functions and the documentation
+of the functions in the same file. It is protected by an <hl>if</hl> statement to make sure
+the doctest related code only executes when we run our file directly and not when we load it
+as a module.
+
+If we run the file directly it will have no output. It is a bit strange, but that's how doctest
+indicates that everything is fine.
+
+<code>
+python mymod_3.py
+</code>
+
+We could also add the <hl>-v</hl> verbos flag and we would get a lot of details on the execution:
+
+<code>
+$ python mymod_3.py -v
+
+Trying:
+    is_anagram("abc", "acb")
+Expecting:
+    True
+ok
+Trying:
+    is_anagram("silent", "listen")
+Expecting:
+    True
+ok
+Trying:
+    is_anagram("one", "two")
+Expecting:
+    False
+ok
+1 items had no tests:
+    __main__
+1 items passed all tests:
+   3 tests in __main__.is_anagram
+3 tests in 2 items.
+3 passed and 0 failed.
+Test passed.
+</code>
+
+
+<h2>Failing tesst</h2>
+
+In the above case all the calls returned the expected result.
+What if someonf ask us if <hl>"nag a ram"</hl> is an anagram of the word <hl>"anagram"</hl>
+which should be.
+
+We can add another test case:
+
+
+<code lang="python">
+>>> is_anagram("anagram", "nag a ram")
+True
+</code>
+
+<include file="examples/python/dt/mymod_4.py">
+
+If we run our module now, we will get an error message:
+
+<code>
+$ python mymod_4.py
+**********************************************************************
+File "mymod_4.py", line 10, in __main__.is_anagram
+Failed example:
+    is_anagram("anagram", "nag a ram")
+Expected:
+    True
+Got:
+    False
+**********************************************************************
+1 items had failures:
+   1 of   4 in __main__.is_anagram
+***Test Failed*** 1 failures.
+</code>
+
+The test has failed as our <hl>is_anagram</hl> function assumes that there are the exact
+same amount of whitespaces in both strings.
+
+At this point, you the programmer can decide what should be the behaviour of the <hl>is_anagram</hl>
+function change the function and update the tests if necessary.
+
+<h2>Conclusion</h2>
+
+Having doctests in the code will provide the reader with well tested examples the reader can copy
+and paste.
+
+It makes sure the examples in the documentation and the code don't diverger.
+
+It will help reduce the risk for when someone makes changes to the code (a re factoring, a bug fix, a new feature) 
+making it much less likely that the behaviour would change, that there will be some regression
+of the code.
+
+
