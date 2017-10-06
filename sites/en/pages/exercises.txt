@@ -125,3 +125,8 @@ in many other languages.
   <li><a href="/ted">TED</a>
 </ol>
 
+<h2>Perl specific exercises</h2>
+
+<ul>
+  <li>Ynon Perek has a bunch of other <a href="https://www.ynonperek.com/2017/09/25/perl-exercises/">Perl related exercises</a></li>
+</ul>
