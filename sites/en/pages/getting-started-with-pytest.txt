@@ -10,7 +10,7 @@
 =abstract start
 
 While we can use either <a href="/doctest-in-python">doctest</a> or
-<a href="https://perlmaven.com/pro/introduction-to-python-unittest">unittest</a> without installing
+<a href="/introduction-to-python-unittest">unittest</a> without installing
 any extra module, today, it seems to most recommended testing library for Python is the
 <a href="http://pytest.org/">pytest</a>. In this article we'll see how to start using it.
 
