@@ -1,4 +1,4 @@
-=title Count number of lines in a file and divide it by number of seconds in a day
+=title Count number of lines in a file and divide it by number of seconds in a day using Bash
 =timestamp 2016-11-30T08:20:01
 =indexes Bash
 =status show
