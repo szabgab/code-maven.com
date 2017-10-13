@@ -86,6 +86,14 @@ Diversity of test environment:
 
 The first version of this article was written in 2007, exactly 10 years ago. Then it was followed by a number of articles discussing several open source projects. Since then a lot has changed in the Open Source developer world. We are going to revisit the projects covered in the old articles and discuss plenty of other projects as well.
 
+<h2>Articles by others</h2>
+<ul>
+   <li><a href="http://sqlite.org/testing.html">How SQLite Is Tested</a></li>
+   <li><a href="https://www.confluent.io/blog/apache-kafka-tested/">How Apache Kafka is Tested</a></li>
+   <li><a href="https://daniel.haxx.se/blog/2017/10/12/testing-curl/">Testing curl</a> by Daniel Stenberg. Author and maintainer.</li>
+</ul>
+
+
 <h2>Old Articles</h2>
 <ul>
     <li><a href="https://szabgab.com/quality-assurance-of-perl-5.html">Quality Assurance of Perl 5</a></li>
