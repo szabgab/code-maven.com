@@ -14,19 +14,19 @@ The Code Maven site is for people who are interested in programming. It grew out
 
 The Code Maven site, on the other hand, will cover all kinds of subjects.
 
-For now, the guiding line is that everything that interests the author
+For now, the guiding line is everything that interests the authors
 (mostly <a href="http://szabgab.com/">Gabor Szabo</a>), but guest-posts are also welcome.
 
 <h2>Planned Topics</h2>
 
-Currently the planned subjects are <a href="http://nodejs.org/">Node.js</a>, 
-<a href="https://angularjs.org/">Angular.js</a>, <a href="http://backbonejs.org/">Backbond.js</a> and JavaScript in general.
+Currently the planned subjects are <a href="http://nodejs.org/">Node.js</a>,
+<a href="https://angularjs.org/">Angular.js</a>, <a href="http://backbonejs.org/">Backbone.js</a> and JavaScript in general.
 
 <a href="https://www.python.org/">Python</a>.
 
 <a href="https://www.ruby-lang.org/">Ruby</a>.
 
-Perl probably is not going to be covered here as it is being covered on <a href="http://perlmaven.com/">Perl Maven</a> and on
+Perl probably is not going to be covered here as it is being covered on the <a href="http://perlmaven.com/">Perl Maven</a> and on
 the <a href="http://perl6maven.com/">Perl 6 Maven</a> sites.
 
 <a href="https://www.dartlang.org/">Dart</a>.
