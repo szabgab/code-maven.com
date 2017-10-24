@@ -4,7 +4,7 @@
 =status draft
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -15,11 +15,11 @@ I mean either languages you already use, languages you'd need to learn, or you'd
 
 =abstract end
 
-I started to run this 1-question survey a few days ago first asking the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then the subscribers of the <a href="http://perlweekly.com/">Perl Weekly</a> newsletter. So currently there is a certain bias towards Perl. How will you change that?
+I started to run this 1-question survey a few days ago first asking the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then the subscribers of the <a href="http://perlweekly.com/">Perl Weekly</a> newsletter. So currently there is a certain bias towards Perl.
 
 Once you filled out the survey I have a separate form where you can subscribe to my newsletter. I am going to send out the results of this survey in that newsletter and the call for the next survey when I run that. Otherwise I won't spam you.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtnpHaKRIS9-uUcPOwAltq3eew6o2GPqVCdoXRtfHhRizWKQ/viewform?embedded=true#responses" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtnpHaKRIS9-uUcPOwAltq3eew6o2GPqVCdoXRtfHhRizWKQ/viewform?embedded=true#responses" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 
