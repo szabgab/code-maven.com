@@ -15,7 +15,9 @@ I mean either languages you already use, languages you'd need to learn, or you'd
 
 =abstract end
 
+<!--
 I started to run this 1-question survey a few days ago first asking the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then the subscribers of the <a href="http://perlweekly.com/">Perl Weekly</a> newsletter. So currently there is a certain bias towards Perl.
+-->
 
 Once you filled out the survey you will see a link to the book with a deep discount. I hope that will be useful to you.
 
