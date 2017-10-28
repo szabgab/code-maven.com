@@ -19,5 +19,6 @@ This is a collection of skeletons you might find useful.
   <li><a href="/angular-skeleton">AngularJS Skeleton</a></li>
   <li><a href="/angular-ui-bootstrap-skeleton">AngularJS UI Bootstrap Skeleton</a></li>
   <li><a href="http://perlmaven.com/dancer2-angularjs-single-page-application">Perl Dancer + AngularJS + Bootstrap skeleton</a></li>
+  <li><a href="https://perlmaven.com/pro/minimal-example-generating-html-with-python-jinja">Skeleton: A minimal example generating HTML with Python Jinja</a></li>
 </ul>
 
