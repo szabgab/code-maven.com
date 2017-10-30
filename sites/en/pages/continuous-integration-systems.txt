@@ -8,9 +8,9 @@
 
 =abstract start
 
-There are plenty of ogranizations that use Continuous Integration Systems and a lot that don't.
-In this 1-qiestion survey I would like to know what do you use if anything at all?
-Multiple selecttions are welcome as I know some people and some organizations use several CI systems.
+There are plenty of organizations that use Continuous Integration Systems and a lot that don't.
+In this 1-question survey I would like to know what do you use if anything at all?
+Multiple selections are welcome as I know some people and some organizations use several CI systems.
 
 =abstract end
 
@@ -50,7 +50,7 @@ There is also a separate form where you can subscribe to the "Code-Maven Surveys
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
-<h2>Linkes to the CI systems in the survey</h2>
+<h2>Links to the CI systems in the survey</h2>
 
 <ul>
   <li><a href="https://www.appveyor.com/">Appveyor</a></li>
