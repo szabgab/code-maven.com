@@ -8,13 +8,15 @@
 
 =abstract start
 
-There are plenty of ogranizations that use Continuous Integration systems and a lot that don't use them at all. This time I would like to know what do you use?
-
-If you are missing the item you'd want to select, send me an e-mail to szabgab@gmail.com and I'll add it ASAP.
+There are plenty of ogranizations that use Continuous Integration Systems and a lot that don't.
+In this 1-qiestion survey I would like to know what do you use if anything at all?
+Multiple selecttions are welcome as I know some people and some organizations use several CI systems.
 
 =abstract end
 
-I have also added a separate form where you can subscribe to the "Code-Maven Surveys" newsletter. I am going to send out the results of this survey in that newsletter and the call for the next survey when I run that. Otherwise I won't spam you.
+When you submit your answer you'll get a coupon to buy my book about  Git, GitHub, Testing, Travis-CI, Appveyor at a deep discount. Don't miss that link!
+
+There is also a separate form where you can subscribe to the "Code-Maven Surveys" newsletter. I am going to send out the results of this survey in that newsletter and the call for the next survey when I run that. Otherwise I won't spam you.
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelWcUS5iPieIlCLBdcHhszB9IjNVmRIAgNLxsKcxxLMAt0gg/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
