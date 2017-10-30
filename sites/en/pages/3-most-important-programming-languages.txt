@@ -9,23 +9,120 @@
 =abstract start
 
 I am writing a book on <a href="https://leanpub.com/collab-dev-git/">Collaborative Development using Git and GitHub</a> and
-as you might have noticed I write about a lot of stuff on this web site. In order to know which languages should I cover in the book and what subjects should I write about, I'd like to know what are the 3 most important programming languages to you.
+as you might have noticed I write about a lot of stuff on this web site. In order to know which languages should I cover in the book and what subjects should I write about, I asked what are the 3 most important programming languages to my readers.
 
-I mean either languages you already use, languages you'd need to learn, or you'd like to learn.
+I mean either languages they already use, languages they'd need to learn, or they'd like to learn.
 
 =abstract end
 
-<!--
-I started to run this 1-question survey a few days ago first asking the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then the subscribers of the <a href="http://perlweekly.com/">Perl Weekly</a> newsletter. So currently there is a certain bias towards Perl.
--->
+<h2>The results</h2>
 
-Once you filled out the survey you will see a link to the book with a deep discount. I hope that will be useful to you.
+They surey ran between 2017.10.20-2017.10.30. We got 425 responses.
 
-I have also added a separate form where you can subscribe to the "Code-Maven Surveys" newsletter. I am going to send out the results of this survey in that newsletter and the call for the next survey when I run that. Otherwise I won't spam you.
+On 2017.10.20 I sent the out the link to the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then on 2017.10.23 I've included it in the <a href="http://perlweekly.com/archive/326.html">326th edition</a> of the <a href="http://perlweekly.com/">Perl Weekly newsletter</a>. Later I've also posted it on <a href="https://www.linkedin.com/feed/update/urn:li:activity:6328506959322583040">LinkedIN</a> and <a href="https://twitter.com/szabgab/status/922737627572461569">Tweeted</a> about it.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdtnpHaKRIS9-uUcPOwAltq3eew6o2GPqVCdoXRtfHhRizWKQ/viewform?embedded=true#responses" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+So a strong bias towards Perl is expected.
+
+During the survey I've added several new items:
+
+<ul>
+  <li>Rust</li>
+  <li>Haskell</li>
+  <li>Zsh</li>
+  <li>Elixir</li>
+  <li>Erlang</li>
+</ul>
+
+People also asked for these two, but I have not added them. Maybe next time I run the survey.
+<ul>
+  <li>SQL</li>
+  <li>PowerShell</li>
+</ul>
+
+In addition, at the beginning there was one item called "Perl" that was later replace by "Perl 5" and "Perl 6".
+
+<h3>First language</h3>
+
+<ul>
+  <li>Perl 40.2%</li>
+  <li>Perl 5 20.9%</li>
+  <li>Python 9.9%</li>
+  <li>C 5.2%</li>
+  <li>JavaScript 4.9 %</li>
+  <li>Java 3.5%</li>
+  <li>C++ 3.3%</li>
+  <li>Bash 3.1%</li>
+</ul>
+
+<h3>Second language</h3>
+
+<ul>
+  <li>JavaScript 20.2%</li>
+  <li>Python 16.7%</li>
+  <li>Perl 12.2%</li>
+  <li>Bash 12%</li>
+  <li>C 6.4%</li>
+  <li>Java 6.1%</li>
+  <li>C++ 5.2%</li>
+  <li>Perl 5 4.7%</li>
+  <li>Go 2.8</li>
+  <li>C# 2.8</li>
+</ul>
+
+<h3>Third language</h3>
+
+<ul>
+  <li>JavaScript 16.9%</li>
+  <li>Python 13.4%</li>
+  <li>PHP 6.4%</li>
+  <li>Bash 15.5%</li>
+  <li>C 9.9%</li>
+  <li>C++ 6.8%</li>
+  <li>Go 6.4%</li>
+  <li>Java 4.7%</li>
+  <li>Perl 3.8%</li>
+  <li>Perl 5 2.8%</li>
+</ul>
+
+<h2>Total</h2>
+
+There were a total 1275 answers (3* 425 responendts) this is the distribution of the answers.
+
+<table>
+<tr><td>Perl</td><td>239</td><td>18.74 %</td></tr>
+<tr><td>JavaScript</td><td>179</td><td>14.03 %</td></tr>
+<tr><td>Python</td><td>170</td><td>13.33 %</td></tr>
+<tr><td>Bash</td><td>130</td><td>10.19 %</td></tr>
+<tr><td>Perl 5</td><td>121</td><td>9.49 %</td></tr>
+<tr><td>C</td><td>91</td><td>7.13 %</td></tr>
+<tr><td>C++</td><td>65</td><td>5.09 %</td></tr>
+<tr><td>Java</td><td>61</td><td>4.78 %</td></tr>
+<tr><td>Go</td><td>48</td><td>3.76 %</td></tr>
+<tr><td>PHP</td><td>38</td><td>2.98 %</td></tr>
+<tr><td>C#</td><td>29</td><td>2.27 %</td></tr>
+<tr><td>Ruby</td><td>20</td><td>1.56 %</td></tr>
+<tr><td>Swift</td><td>17</td><td>1.33 %</td></tr>
+<tr><td>Scala</td><td>12</td><td>0.94 %</td></tr>
+<tr><td>Perl 6</td><td>10</td><td>0.78 %</td></tr>
+<tr><td>Lua</td><td>9</td><td>0.7 %</td></tr>
+<tr><td>Delphi/Pascal</td><td>8</td><td>0.62 %</td></tr>
+<tr><td>Objective-C</td><td>6</td><td>0.47 %</td></tr>
+<tr><td>Haskell</td><td>6</td><td>0.47 %</td></tr>
+<tr><td>Rust</td><td>5</td><td>0.39 %</td></tr>
+<tr><td>Erlang</td><td>4</td><td>0.31 %</td></tr>
+<tr><td>Zsh</td><td>4</td><td>0.31 %</td></tr>
+<tr><td>Elixir</td><td>3</td><td>0.23 %</td></tr>
+</table>
 
 
+<h2>Raw data</h2>
+
+The raw data can be downloaded <a href="https://github.com/szabgab/code-maven.com/blob/main/surveys/3-most-important-programming-languages.csv">here</a>.
+
+
+<h2>Newsletter</h2>
+
+If you'd like to get notified when I run other surveys subscribe to the "Code-Maven Surveys" newsletter below. 
 
 <!-- Begin MailChimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -55,4 +152,7 @@ I have also added a separate form where you can subscribe to the "Code-Maven Sur
 </div>
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
+
+
+Next survey: <a href="/continuous-integration-systems">Continuous Integration Systems</a>
 
