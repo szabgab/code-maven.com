@@ -17,30 +17,6 @@ I mean either languages they already use, languages they'd need to learn, or the
 
 <h2>The results</h2>
 
-They surey ran between 2017.10.20-2017.10.30. We got 425 responses.
-
-On 2017.10.20 I sent the out the link to the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then on 2017.10.23 I've included it in the <a href="http://perlweekly.com/archive/326.html">326th edition</a> of the <a href="http://perlweekly.com/">Perl Weekly newsletter</a>. Later I've also posted it on <a href="https://www.linkedin.com/feed/update/urn:li:activity:6328506959322583040">LinkedIN</a> and <a href="https://twitter.com/szabgab/status/922737627572461569">Tweeted</a> about it.
-
-So a strong bias towards Perl is expected.
-
-During the survey I've added several new items:
-
-<ul>
-  <li>Rust</li>
-  <li>Haskell</li>
-  <li>Zsh</li>
-  <li>Elixir</li>
-  <li>Erlang</li>
-</ul>
-
-People also asked for these two, but I have not added them. Maybe next time I run the survey.
-<ul>
-  <li>SQL</li>
-  <li>PowerShell</li>
-</ul>
-
-In addition, at the beginning there was one item called "Perl" that was later replace by "Perl 5" and "Perl 6".
-
 <h3>First language</h3>
 
 <ul>
@@ -86,7 +62,7 @@ In addition, at the beginning there was one item called "Perl" that was later re
 
 <h2>Total</h2>
 
-There were a total 1275 answers (3* 425 responendts) this is the distribution of the answers.
+There were a total 1275 answers (3* 425 respondents) this is the distribution of the answers.
 
 <table>
 <tr><td>Perl</td><td>239</td><td>18.74 %</td></tr>
@@ -118,6 +94,32 @@ There were a total 1275 answers (3* 425 responendts) this is the distribution of
 <h2>Raw data</h2>
 
 The raw data can be downloaded <a href="https://github.com/szabgab/code-maven.com/blob/main/surveys/3-most-important-programming-languages.csv">here</a>.
+
+<h2>Background</h2>
+
+The survey ran between 2017.10.20-2017.10.30. We got 425 responses.
+
+On 2017.10.20 I sent the out the link to the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a> site then on 2017.10.23 I've included it in the <a href="http://perlweekly.com/archive/326.html">326th edition</a> of the <a href="http://perlweekly.com/">Perl Weekly newsletter</a>. Later I've also posted it on <a href="https://www.linkedin.com/feed/update/urn:li:activity:6328506959322583040">LinkedIN</a> and <a href="https://twitter.com/szabgab/status/922737627572461569">Tweeted</a> about it.
+
+So a strong bias towards Perl is expected.
+
+During the survey I've added several new items:
+
+<ul>
+  <li>Rust</li>
+  <li>Haskell</li>
+  <li>Zsh</li>
+  <li>Elixir</li>
+  <li>Erlang</li>
+</ul>
+
+People also asked for these two, but I have not added them. Maybe next time I run the survey.
+<ul>
+  <li>SQL</li>
+  <li>PowerShell</li>
+</ul>
+
+In addition, at the beginning there was one item called "Perl" that was later replace by "Perl 5" and "Perl 6".
 
 
 <h2>Newsletter</h2>
