@@ -16,7 +16,7 @@ If you are missing the item you'd want to select, send me an e-mail to szabgab@g
 
 I have also added a separate form where you can subscribe to the "Code-Maven Surveys" newsletter. I am going to send out the results of this survey in that newsletter and the call for the next survey when I run that. Otherwise I won't spam you.
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelWcUS5iPieIlCLBdcHhszB9IjNVmRIAgNLxsKcxxLMAt0gg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelWcUS5iPieIlCLBdcHhszB9IjNVmRIAgNLxsKcxxLMAt0gg/viewform?embedded=true" width="760" height="900" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 <!-- Begin MailChimp Signup Form -->
@@ -48,6 +48,7 @@ I have also added a separate form where you can subscribe to the "Code-Maven Sur
 <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
 <!--End mc_embed_signup-->
 
+<h2>Linkes to the CI systems in the survey</h2>
 
 <ul>
   <li><a href="https://www.appveyor.com/">Appveyor</a></li>
@@ -60,5 +61,8 @@ I have also added a separate form where you can subscribe to the "Code-Maven Sur
   <li><a href="https://jenkins.io/">Jenkins</a></li>
   <li><a href="https://travis-ci.org/">Travis CI</a></li>
   <li><a href="https://www.jetbrains.com/teamcity/">TeamCity</a></li>
-  <li><a href=""></a></li>
 </ul>
+
+<!-- 
+  <li><a href=""></a></li>
+-->
