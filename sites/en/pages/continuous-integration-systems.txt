@@ -109,9 +109,9 @@ I've Tweeted about it, posted on LinkedIn and on reddit.com/r/programming, but a
 </ul>
 
 
-<a href="https://github.com/blog/2463-github-welcomes-all-ci-tools">CI Tools used by GitHub projects</a>
+<h2>Other</h2>
 
-<!-- 
-  <li><a href=""></a></li>
--->
+Just as I was about to publish the results I saw this post on the <a href="https://github.com/blog/2463-github-welcomes-all-ci-tools">CI Tools used by GitHub projects</a>.
+
+The previous survey, I've asked what are <a href="/3-most-important-programming-languages">the 3 most important Programming languages to you</a>.
 
