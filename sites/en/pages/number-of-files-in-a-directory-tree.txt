@@ -1,0 +1,132 @@
+=title Show number of files in a directory tree using Shell
+=timestamp 2017-11-16T07:30:01
+=indexes ls -1, wc -l, find -type f
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Given a directory tree such as in the following example, we would like to know 
+
+<ol>
+  <li>How many files are in it?</li>
+  <li>How many files are in each one of the subdirectories?</li>
+</ol>
+
+<code>
+groups/
+  all.txt
+  people/
+    John.txt
+    Jane.txt
+  maskots/
+    Foo.txt
+    Bar.txt
+  other -> maskots
+</code>
+
+All that using the Unix/Linux Shell.
+
+=abstract end
+
+<h2>Number of items in the directory</h2>
+
+If we would like to know the number of files in the <hl>groups</hl> directory we can run 
+<hl>ls -1 groups</hl> (that's the number one in the options), That will list
+all the items in the directory:
+
+<code lang="shell">
+$ ls -1 groups
+all.txt
+maskots
+people
+other
+</code>
+
+We can then pipe it through <hl>wc -l</hl> (that's the lower case L in the options) that will count
+and display the number of lines in the standard input:
+
+<code lang="shell">
+$ ls -1 groups | wc -l
+     4
+</code>
+
+<hl>wc</hl> stands for word-count, the <hl>-l</hl> flag tells it to count lines.
+
+This contains everything in the directory: files, directories, symbolic links and whatnot.
+In addition it only counts the items in the immediate directory. Not in the whole tree.
+
+This is not really what we wanted though.
+
+<h2>Number of items in the directory tree</h2>
+
+If we run the <hl>find</hl> command and only give it the name of the directory it will "find" everything within
+that directory tree. Including all its subdirectories.
+
+<code lang="shell">
+$ find groups
+groups
+groups/all.txt
+groups/maskots
+groups/maskots/Bar.txt
+groups/maskots/Foo.txt
+groups/other
+groups/people
+groups/people/Jane.txt
+groups/people/John.txt
+</code>
+
+Note: It lists 'other', but not the 2 files that are inside the directory where 'other' links to.
+In other words: it won't descend into directories pointed to by symbolic links.
+In the unlikely case that we wanted to follow symbolic links we can run <hl>find -L groups</hl>.
+
+We can count the number of entries using <hl>wc -l</hl> as we did with the <hl>ls</hl>.
+
+<code lang="shell">
+$ find groups | wc -l
+     9
+</code>
+
+This contains all the items in the whole directory tree.
+Files, directories, symbolic links, etc.
+
+<h2>Number of files in the dirctory tree</h2>
+
+If we would like to count only the files, we can tell <hl>find</hl> to print out only the names of the files using the
+<hl>-type f</hl> option:
+
+<code lang="shell">
+$ find groups -type f
+groups/all.txt
+groups/maskot/Bar.txt
+groups/maskot/Foo.txt
+groups/people/Jane.txt
+groups/people/John.txt
+</code>
+
+Piping it through the <hl>wc -l</hl> we get:
+
+
+<code lang="shell">
+$ find groups -type f | wc -l
+       5
+</code>
+
+<h2>Number of files in the directory</h2>
+
+Though this was not our original task, but if we would like to know the number of
+<b>files</b> in the directory (and not the whole tree) we can use <hl>find</hl>
+to restrict the item type to file as we already did, and we can also ask it to
+go only 1 level deep in the directory structure. Meaning not to traverse.
+
+<code lang="shell">
+$ find groups -maxdepth 1 -type f | wc -l
+       1
+</code>
+
+
+(The groups directory tree can be found <a href="https://github.com/szabgab/code-maven.com/tree/main/examples/groups">here</a>.)
+
