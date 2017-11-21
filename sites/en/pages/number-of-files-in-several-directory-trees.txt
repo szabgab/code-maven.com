@@ -1,0 +1,111 @@
+=title Show number of files in several directory trees using Shell
+=timestamp 2017-11-21T08:00:01
+=indexes ls -1, wc -l, find -type f, -maxdepth, -mindepth, ``, $(), for
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+We already know how to <a href="https://code-maven.com/number-of-files-in-a-directory-tree">Show number of files in a single directory tree using Shell</a>, but what if given a directory,
+we would like to know the number of files in each one of its subdirectories separately?
+
+=abstract end
+
+We assume the same directory structure as in that other article:
+
+<code>
+groups/
+  all.txt
+  people/
+    John.txt
+    Jane.txt
+  maskots/
+    Foo.txt
+    Bar.txt
+  other -> maskots
+</code>
+
+In the <a href="https://code-maven.com/number-of-files-in-a-directory-tree">previous article</a>
+we reached this solution for a single directory:
+
+<code lang="bash">
+$ find groups -type f | wc -l
+</code>
+
+Now we need to go over all the subdirectories and run the above expression for each one of them.
+
+<h2>Wildecard expansion</h2>
+
+In our first attempt we use the wildecard expansion <hl>groups/*</hl> to list all the
+item in the "groups" directory. We go over it in a <hl>for</hl> loop and for each iteration
+we echo the name of the thing and call the above expression.
+
+<code lang="bash">
+$ for x in  groups/*; do (echo $x; find $x -type f | wc -l) ; done
+
+groups/all.txt
+1
+groups/maskots
+2
+groups/other
+0
+groups/people
+2
+</code>
+
+The  output includes the directories 'maskots' and 'people' as we wanted, but it
+also includes "all.txt" which is a plain file and 'other' which is a symbolic link.
+
+<h2>Find with backtick</h2>
+
+We can use <hl>find</hl> here too with <hl>type</hl> directory and <hl>maxdepth</hl> 1,
+but that will return the root directory as well:
+
+<code lang="bash">
+$ find groups -maxdepth 1 -type d
+
+groups
+groups/maskots
+groups/people
+</code>
+
+In this case we can also include <hl>mindepth</hl> to make sure only the right depth is included:
+
+
+<code lang="bash">
+$ find groups -maxdepth 1 -mindepth 1 -type d
+
+groups/maskots
+groups/people
+</code>
+
+Using this we can now write:
+
+<code lang="bash">
+$ for x in  `find groups -maxdepth 1 -mindepth 1 -type d`; do (echo $x; find $x -type f | wc -l) ; done
+
+groups/maskots
+       2
+groups/people
+       2
+</code>
+
+
+<h2>Using result interpolation</h2>
+
+Instead of the backticks <hl>``</hl>, it is usually better to write <hl>$()</hl>.
+The result is the same:
+
+<code lang="bash">
+$ for x in  $(find groups -maxdepth 1 -mindepth 1 -type d ); do (echo $x; find $x -type f | wc -l) ; done
+
+groups/maskots
+       2
+groups/people
+       2
+</code>
+
+
