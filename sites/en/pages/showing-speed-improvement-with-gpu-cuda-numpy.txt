@@ -1,21 +1,22 @@
-=title Showing speed improvement using a GPU with CUDA and Python with numpy,
+=title Showing speed improvement using a GPU with CUDA and Python with numpy on Nvidia Quadro 2000D
 =timestamp 2017-12-10T10:30:01
-=indexes numpy, numba, GPU
-=status draft
+=indexes numpy, numba, GPU, cuda, conda, Nvidia
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
 
-I just installed Linux on an old but used-to-be powerful machine that has a <b>Nvidia Quadro 2000D</b> GPU. I wanted to see how to use CPU acceleration with a simply Python program. It took me some time and some hand holding to get there. Let me share the result.
+I just installed Linux on an old computer that used to be powerful that has a <b>Nvidia Quadro 2000D</b> GPU. I wanted to see how to use the GPU to speed up computation done in a simple Python program. It took me some time and some hand holding to get there. Let me share the journey and the results.
+
+In a nutshell: Using the GPU has overhead costs. If the computation is not heavy enough, then the cost (in time) of using a GPU might be larger than the gain. On the other hand if the computation is heavy, you can see a huge improvement in speed.
 
 =abstract end
 
 <h2>Installation</h2>
 
-
-Once I had Ubuntu 17.10 installed (desktop edition) I went to install all the Python stuff. Ubuntu alrady comes with Python 3. I installed virualenv and then using virtualenv I've installed all the Python modules I needed. That did not work out. When I ran the code that was supposed to use the GPU (see the code below) I got an error:
+Once I had Ubuntu 17.10 installed (desktop edition) I went to install all the Python stuff. Ubuntu already comes with Python 3. I installed <hl>virtualenv</hl> using <hl>apt</hl> and then using <hl>pip</hl> I've installed all the Python modules I needed in the virtualenv. That did not work out well. When I ran the code that was supposed to use the GPU (see the code below) I got an error:
 
 <code>
 numba.cuda.cudadrv.error.NvvmSupportError: libNVVM cannot be found. Do `conda install cudatoolkit`:
@@ -24,7 +25,7 @@ library nvvm not found
 
 OK. I deactivated the virtualenv and installed <a href="https://conda.io/miniconda.html">Miniconda</a>.
 
-Some stuff I needed fir the rest of the installation:
+Some stuff I needed for the rest of the installation:
 
 <code>
 sudo add-apt-repository ppa:graphics-drivers/ppa
@@ -50,11 +51,17 @@ conda install numpy
 conda install numba
 </code>
 
-After that fight I write a short Python script based on <a href="https://devblogs.nvidia.com/parallelforall/numba-python-cuda-acceleration/">this article</a>. 
+Once I've managed to install everything I wrote a short Python script based on <a href="https://devblogs.nvidia.com/parallelforall/numba-python-cuda-acceleration/">this article</a>. 
 
 <include file="examples/python/vector_addition_with_gpu.py">
 
-That was an utter disappointment. The GPU actually slowed down the operations.
+That was an utter disappointment. The GPU actually slowed down the operations though if we look closely we can see that the slow down ratio is much worse for the smaller vectors. I tried creating bigger matrices and multiply them, but there is a limit to the size of the matrices this GPU can handle. Whenever I supplied a number that created a matrix which was too big I got an exception:
+
+<code>
+numba.cuda.cudadrv.driver.CudaAPIError: [1] Call to cuLaunchKernel results in CUDA_ERROR_INVALID_VALUE
+</code>
+
+Even when I got close to the limit the CPU was still a lot faster than the GPU.
 
 <code>
 $ python speed.py cpu 100000
@@ -68,19 +75,50 @@ $ python speed.py cuda 11500000
 Time: 0.47120747699955245
 </code>
 
-In the meantime I was monitoring the GPU using
+In the meantime I was monitoring the GPU using <hl>nvidia-smi</hl>.  Occasionally it showed that the Python process is running, but otherwise it was not useful to me.
 
 <code>
 watch -n 0.5 nvidia-smi
 </code>
 
-occassionally it showed that the Python process is running, but otherwise it was not useful to me.
+I asked on <a href="https://stackoverflow.com/questions/47710707/cuda-gpu-is-slower-than-cpu-in-simple-numpy-operation">Stack Overflow</a>. I got some good suggestions, especially from <a href="https://stackoverflow.com/users/2244081/ignacio-vergara-kausel">Ignacio Vergara Kausel</a>. He pointed me to <a href="https://github.com/ContinuumIO/gtc2017-numba/blob/master/2%20-%20CUDA%20Basics.ipynb">a notebook</a> (that apparently was also linked from a comment in the original article I skimmed) that showed a much better example. It even showed the problem I was facing. That is the GPU slowing down the operations.
 
-I tried creating bigger matrices and multiply them, but there is a limit to the size of the matrices this GPU can handle and even when I got close to the limit the CPU was still a lot faster than the GPU.
-
-I asked on <a href="https://stackoverflow.com/questions/47710707/cuda-gpu-is-slower-than-cpu-in-simple-numpy-operation">Stack Overflow</a>. I got some good suggestions, especially from <a href="https://stackoverflow.com/users/2244081/ignacio-vergara-kausel">Ignacio Vergara Kausel</a>. He pointed me to <a href="https://github.com/ContinuumIO/gtc2017-numba/blob/master/2%20-%20CUDA%20Basics.ipynb">a notebook</a> (that apparently was also linked from a comment in the original article) that showed a much better 
+Based on that article I've created a new script that would be able to demonstrate the speed improvement.
 
 <include file="examples/python/math_with_gpu.py">
 
+<code>
+$ python math_with_gpu.py
+1
+Time: 0.011146817007102072
+Time: 0.13940549999824725
+10
+Time: 0.12172191697754897
+Time: 0.023090153001248837
+100
+Time: 1.2920606719853822
+Time: 0.03889427299145609
+1000
+Time: 12.961911355989287
+Time: 0.1976439240097534
+</code>
 
+
+That is, if we calculate sinus once, the CPU is still faster.
+If we calculate it 10 times, the GPU is already faster.
+(I think I found them roughly the same speed at 6 iterations.)
+
+The actual ratios of the 4 measurement points are here:
+
+<code>
+ 0.08
+ 5.27
+33.22
+65.58
+</code>
+
+It surprised me that the speed improvement only doubled when we went from 100 iteration to 1000 iteration.
+I though it would have a much bigger impact. I'll need to create more complex examples to understand that part.
+
+In an case, we can see that for tasks with relatively low computational complexity we might actually lose time using the GPU, but as our computations becomes more and more intensive, we do see a gain even from a relatively old and weak GPU.
 

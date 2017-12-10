@@ -17,7 +17,7 @@ def with_cuda(x, count):
 
 data = np.random.uniform(-3, 3, size=1000000).astype(np.float32)
 
-for c in [1, 10, 100]:
+for c in [1, 10, 100, 1000]:
     print(c)
     for f in [with_cpu, with_cuda]:
         start = timer()
