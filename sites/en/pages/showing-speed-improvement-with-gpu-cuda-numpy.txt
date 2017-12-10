@@ -1,0 +1,86 @@
+=title Showing speed improvement using a GPU with CUDA and Python with numpy,
+=timestamp 2017-12-10T10:30:01
+=indexes numpy, numba, GPU
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+I just installed Linux on an old but used-to-be powerful machine that has a <b>Nvidia Quadro 2000D</b> GPU. I wanted to see how to use CPU acceleration with a simply Python program. It took me some time and some hand holding to get there. Let me share the result.
+
+=abstract end
+
+<h2>Installation</h2>
+
+
+Once I had Ubuntu 17.10 installed (desktop edition) I went to install all the Python stuff. Ubuntu alrady comes with Python 3. I installed virualenv and then using virtualenv I've installed all the Python modules I needed. That did not work out. When I ran the code that was supposed to use the GPU (see the code below) I got an error:
+
+<code>
+numba.cuda.cudadrv.error.NvvmSupportError: libNVVM cannot be found. Do `conda install cudatoolkit`:
+library nvvm not found
+</code>
+
+OK. I deactivated the virtualenv and installed <a href="https://conda.io/miniconda.html">Miniconda</a>.
+
+Some stuff I needed fir the rest of the installation:
+
+<code>
+sudo add-apt-repository ppa:graphics-drivers/ppa
+sudo apt-get update
+sudo aptitude install nvidia-cuda-dev
+sudo aptitude install python3-dev
+</code>
+
+Install Miniconda:
+
+<code>
+wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh
+chmod +x Miniconda3-latest-Linux-x86_64.sh
+./Miniconda3-latest-Linux-x86_64.sh
+source ~/.bashrc
+</code>
+
+Install the tools I needed:
+
+<code>
+conda install cudatoolkit
+conda install numpy
+conda install numba
+</code>
+
+After that fight I write a short Python script based on <a href="https://devblogs.nvidia.com/parallelforall/numba-python-cuda-acceleration/">this article</a>. 
+
+<include file="examples/python/vector_addition_with_gpu.py">
+
+That was an utter disappointment. The GPU actually slowed down the operations.
+
+<code>
+$ python speed.py cpu 100000
+Time: 0.0001056949986377731
+$ python speed.py cuda 100000
+Time: 0.11871792199963238
+
+$ python speed.py cpu 11500000
+Time: 0.013704434997634962
+$ python speed.py cuda 11500000
+Time: 0.47120747699955245
+</code>
+
+In the meantime I was monitoring the GPU using
+
+<code>
+watch -n 0.5 nvidia-smi
+</code>
+
+occassionally it showed that the Python process is running, but otherwise it was not useful to me.
+
+I tried creating bigger matrices and multiply them, but there is a limit to the size of the matrices this GPU can handle and even when I got close to the limit the CPU was still a lot faster than the GPU.
+
+I asked on <a href="https://stackoverflow.com/questions/47710707/cuda-gpu-is-slower-than-cpu-in-simple-numpy-operation">Stack Overflow</a>. I got some good suggestions, especially from <a href="https://stackoverflow.com/users/2244081/ignacio-vergara-kausel">Ignacio Vergara Kausel</a>. He pointed me to <a href="https://github.com/ContinuumIO/gtc2017-numba/blob/master/2%20-%20CUDA%20Basics.ipynb">a notebook</a> (that apparently was also linked from a comment in the original article) that showed a much better 
+
+<include file="examples/python/math_with_gpu.py">
+
+
+
