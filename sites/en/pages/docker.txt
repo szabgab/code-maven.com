@@ -1,0 +1,119 @@
+=title Docker
+=timestamp 2017-01-01T07:30:01
+=indexes files
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+Build a Docker image
+
+<code>
+docker build -t NAME .
+</code>
+
+List Docker Images
+
+<code>
+docker images
+</code>
+
+List Running Docker Containers
+
+<code>
+docker ps
+</code>
+
+List All Docker Containers, includig the ones that were stopped
+
+<code>
+docker ps -a
+</code>
+
+Run a docker image in an interactive mode and open /bin/bash
+
+<code>
+docker run -it IMAGE /bin/bash
+</code>
+
+Run the Docker image called IMAGE as the container called NAME in an interactive mode.
+Attach the current working directory in the host filesystem to the /opt in the container.
+
+<code>
+docker run -it -v $(pwd):/opt --name NAME IMAGE
+</code>
+
+List all the docker containers in quiet mode - CONTAINER IDs only
+
+<code>
+docker ps -aq
+</code>
+
+Remove docker container by DOCKER ID
+
+<code>
+docker rm DOCKER_ID
+</code>
+
+Combine the above two and remove all exited (stopped) the Docker containers:
+
+<code>
+docker rm $(docker ps -aq)
+</code>
+
+
+
+
+<code>
+docker run -it  -d -p 8080:80 sudoku  /bin/bash
+</code>
+
+Attach to running container based on CONTAINER ID that can be listed by <hl>docker ps -a</hl>.
+
+<code>
+docker attach CONTAINER_ID
+</code>
+
+Then we can exit the container.
+
+
+<h2>Docker Hub</h2>
+
+Once we havd a Dockerfile in our GitHub project we can configure Docker to host our public image.
+For this we need to register on the <a href="https://hub.docker.com/">Docker HUB</a>. In there we need
+to click on Create/Create Automated Build in the menu. If we have not linked our GitHub account yet then we need
+to do it now. (See <a href="https://docs.docker.com/docker-hub/builds/">Configure automated builds on Docker Hub</a>
+for further details.)
+
+
+<h2>Digital Ocean</h2>
+
+The docker-machine command allows us to use VPS-es on various cloud service providers, for example on <a href="/digitalocean">Digital Ocean</a>. There is an article on <a href="https://docs.docker.com/machine/examples/ocean/">Docker for Digital Ocean</a>.
+
+<code>
+$ docker-machine create --driver digitalocean --digitalocean-access-token xxxxx docker-sandbox
+</code>
+
+Where xxxx is the Access token you generate in your Digital Ocean account. docker-sandbox is an arbitrary name that will be used as the name of the VPS on Digial Ocean.
+
+<code>
+$ docker-machine ls
+$ docker-machine ip docker-sandbox
+$ docker-machine inspect docker-sandbox
+</code>
+
+There all Run locally and lists the machne we have in the cloud and maybe also locally or inspect the configuration of one of the machines.
+
+<code>
+docker-machine env docker-sandbox
+</code>
+
+<code>
+eval $(docker-machine env docker-sandbox)
+</code>
+
+
+
