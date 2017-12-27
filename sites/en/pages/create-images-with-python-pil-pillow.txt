@@ -1,4 +1,4 @@
-=title Created images with Python PIL and Pillow and write text on them
+=title Create images with Python PIL and Pillow and write text on them
 =timestamp 2017-12-27T11:30:01
 =indexes PIL, Pillow, Image, ImageDraw, ImageFont
 =status show
