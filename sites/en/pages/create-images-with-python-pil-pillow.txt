@@ -31,7 +31,7 @@ The <b>color</b> can be a word such as 'red', or a triplet for RGB colors of 3 v
 
 This script:
 
-<include file="pro/examples/python/pil_new_red_image.py">
+<include file="examples/python/pil_new_red_image.py">
 
 will create this image:
 
@@ -39,7 +39,7 @@ will create this image:
 
 We can also use the individual RGB values in their decimal form taken from some color wheel or other color selector application.
 
-<include file="pro/examples/python/pil_new_color_image.py">
+<include file="examples/python/pil_new_color_image.py">
 
 The result is this:
 
@@ -51,7 +51,7 @@ The result is this:
 For this we also need to import <hl>ImageDraw</hl>. We pass the location of the top-left corner of the text,
 the text itself, and the color of the text. There are number of other parameters you can pass to this method.
 
-<include file="pro/examples/python/pil_write_text_on_image.py">
+<include file="examples/python/pil_write_text_on_image.py">
 
 The result is this:
 
@@ -68,7 +68,7 @@ Alternatively you could include the font-file in your application and then you c
 In this example we load the font using the <hl>truetype</hl> method of the <hl>ImageFont</hl> passing to it the path to
 the fonts and the size of the fonts to be loaded.
 
-<include file="pro/examples/python/pil_write_text_on_image_select_font.py">
+<include file="examples/python/pil_write_text_on_image_select_font.py">
 
 The result is this:
 
