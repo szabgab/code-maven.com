@@ -1,0 +1,76 @@
+=title Created images with Python PIL and Pillow and write text on them
+=timestamp 2017-12-27T11:30:01
+=indexes PIL, Pillow, Image, ImageDraw, ImageFont
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+Pillow is a fork of PIL. You should use Pillow these days.
+
+<h2>Install Pillow</h2>
+
+Before you can use it you need to install the Pillow library.
+Read the <a href="https://pillow.readthedocs.io/">documentation of Pillow</a> on how to install it on your operating system.
+
+<h2>Draw a simple image with one color</h2>
+
+<code lang="python">
+from PIL import Image, ImageDraw
+img = Image.new(mode, size, color)
+img.save(filename)
+</code>
+
+There are various values for <b>mode</b> listed in the documentation of Pillow. For example RGB and RGBA can be modes.
+The <b>size</b> is a tuple in the form of (width, height) in pixels.
+The <b>color</b> can be a word such as 'red', or a triplet for RGB colors of 3 values between 0-255.
+
+This script:
+
+<include file="pro/examples/python/pil_new_red_image.py">
+
+will create this image:
+
+<img src="/img/pil_red.png" alt="red rectangular" />
+
+We can also use the individual RGB values in their decimal form taken from some color wheel or other color selector application.
+
+<include file="pro/examples/python/pil_new_color_image.py">
+
+The result is this:
+
+<img src="/img/pil_color.png" alt="red rectangular" />
+
+
+<h2>Writing text on image</h2>
+
+For this we also need to import <hl>ImageDraw</hl>. We pass the location of the top-left corner of the text,
+the text itself, and the color of the text. There are number of other parameters you can pass to this method.
+
+<include file="pro/examples/python/pil_write_text_on_image.py">
+
+The result is this:
+
+<img src="/img/pil_text.png" alt="" />
+
+
+<h2>Selecting the font</h2>
+
+There are a number of ways to select the font used for writing on the image. We need to import and use the <hl>ImageFont</hl>
+to load a TrueType font. Mac OSX supplies a bunch of fonts that are located in the <hl>/Library/Fonts/</hl>.
+On other platforms you'll need to locate the files yourself and then pass the full path to the function.
+Alternatively you could include the font-file in your application and then you can know where is the font-file relative to your code.
+
+In this example we load the font using the <hl>truetype</hl> method of the <hl>ImageFont</hl> passing to it the path to
+the fonts and the size of the fonts to be loaded.
+
+<include file="pro/examples/python/pil_write_text_on_image_select_font.py">
+
+The result is this:
+
+<img src="/img/pil_text_font.png" alt="" />
+
