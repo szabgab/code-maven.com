@@ -7,8 +7,8 @@ menu:
         url: /pm/register
       - title: Exercises
         url: /exercises
-      - title: CMOS
-        url: /cmos
+      - title: Slides
+        url: /slides
       - title: Categories
         url: /category
   - dir: right
