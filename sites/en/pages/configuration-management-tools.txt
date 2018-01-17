@@ -1,0 +1,41 @@
+=title Survey: Configuration Management Tools
+=timestamp 2017-11-09T09:30:01
+=indexes survey
+=status draf
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+Does your company use any Configuration Management tools? Which one(s)?
+
+=abstract end
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnXylKFogjBpiFILjuCGx5QyqPyaSTGj0y_czpadD6FYHRGg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+
+<h2>Links to the CM systems in the survey</h2>
+
+<ul>
+  <li><a href="https://www.ansible.com/">Ansible</a></li>
+  <li><a href="https://cfengine.com/">CFEngine</a></li>
+  <li><a href="https://www.chef.io/">Chef</a></li>
+  <li><a href="https://www.docker.com/">Docker</a></li>
+  <li><a href="https://docs.microsoft.com/en-us/powershell/dsc/overview">PowerShell DSC</a></li>
+  <li><a href="https://puppet.com/">Puppet</a></li>
+  <li><a href="https://www.rexify.org/">Rex</a></li>
+  <li><a href="https://saltstack.com/">SaltStack</a></li>
+  <li><a href="https://github.com/melezhik/sparrowdo">Sparrowdo</a></li>
+</ul>
+
+<h2>Other Surveys</h2>
+
+<ul>
+  <li><a href="/3-most-important-programming-languages">The 3 most important Programming languages to you</a></li>
+  <li><a href="/continuous-integration-systems">Continuous Integration Systems</a></li>
+</ul>
+
+<h2>DevOps Workshops in Israel</h2>
+
+If you are interested in DevOps workshop, check out the ones I work on in the <a href="https://www.meetup.com/Code-Mavens/">Code Mavens</a> Meetup group. e.g. <a href="https://www.meetup.com/Code-Mavens/events/246815054/">Devops workshops: Linux as a virtual environment</a>.
