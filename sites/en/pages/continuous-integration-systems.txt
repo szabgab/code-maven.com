@@ -16,7 +16,7 @@ Multiple selections were welcome as we know some people and some organizations u
 
 There is also a form where you can subscribe to the "Code-Maven Surveys" newsletter. I am going to send out the results of this survey in that newsletter and the call for the next survey when I run that. Otherwise I won't spam you.
 
-<h2>The Restuls</h2>
+<h2>The Results</h2>
 
 <ul>
   <li>Jenkins 41.6%</li>
@@ -48,7 +48,7 @@ The raw data can be downloaded <a href="https://github.com/szabgab/code-maven.co
 
 The survey ran between 2017.10.30-2017.11.09. We got 238 responses.
 
-The suvey was sent to the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a>  and<a href="https://code-maven.com/">Code Maven</a>  sites.
+The survey was sent to the subscribers of the <a href="https://perlmaven.com/">Perl Maven</a>  and<a href="https://code-maven.com/">Code Maven</a>  sites.
 It was included it in the <a href="http://perlweekly.com/archive/327.html">327th edition</a> of the <a href="http://perlweekly.com/">Perl Weekly newsletter</a>.
 I've Tweeted about it, posted on LinkedIn and on reddit.com/r/programming, but after a few hours I've removed it from there.
 
