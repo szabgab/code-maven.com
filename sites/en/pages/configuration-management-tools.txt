@@ -12,7 +12,7 @@ Does your company use any Configuration Management tools? Which one(s)?
 
 =abstract end
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnXylKFogjBpiFILjuCGx5QyqPyaSTGj0y_czpadD6FYHRGg/viewform?embedded=true" width="760" height="1500" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnXylKFogjBpiFILjuCGx5QyqPyaSTGj0y_czpadD6FYHRGg/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 
 <h2>Links to the CM systems in the survey</h2>
