@@ -1,7 +1,7 @@
 =title Survey: Configuration Management Tools
 =timestamp 2017-11-09T09:30:01
 =indexes survey
-=status draf
+=status draft
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
