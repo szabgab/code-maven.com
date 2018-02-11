@@ -37,7 +37,6 @@ category as they try to provide a solution to several topics.
     <li><a href="https://bitbucket.org/">Bitbucket</a></li>
     <li><a href="https://gogs.io/">Gogs</a></li>
     <li><a href="https://about.gitlab.com/">GitLab</a></li>
-    <li><a href=""></a></li>
 </ul>
 
 
@@ -94,7 +93,6 @@ category as they try to provide a solution to several topics.
     <li><a href="https://www.zendesk.com/">Zendesk</a></li>
     <li><a href="https://www.zoho.eu/desk/">Zoho desk</a></li>
     <li><a href="https://freshdesk.com/">Freshdesk</a></li>
-    <li><a href=""></a></li>
 </ul>
 
 <h2>Scheduling and Incident management</h2>
