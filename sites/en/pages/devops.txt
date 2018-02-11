@@ -1,0 +1,174 @@
+=title DevOps
+=timestamp 2018-02-11T07:30:01
+=indexes Devops
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+DevOps is a big field covering many topics with lots of products and services supporting it.
+
+=abstract end
+
+
+I've tried to put them in categories, but some of the tools could have been placed in more than one
+category as they try to provide a solution to several topics.
+
+<h2>Operating System</h2>
+<ul>
+    <li><a href="https://www.ubuntu.com/">Ubuntu</a></li>
+    <li><a href="https://www.centos.org/">CentOS</a></li>
+    <li><a href="https://getfedora.org/">Fedora</a></li>
+    <li><a href="https://www.debian.org/">Debian</a></li>
+    <li><a href="https://www.freebsd.org/">FreeBSD</a></li>
+</ul>
+
+
+<h2>Version Control Systems - Source Control Management</h2>
+<ul>
+    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="https://www.mercurial-scm.org/">Mercurial</a></li>
+    <li><a href="https://subversion.apache.org/">Subversion</a></li>
+    <li><a href="https://www.perforce.com/">Perforce</a></li>
+    <li><a href="https://www.visualstudio.com/tfs/">Team Foundation Server</a></li>
+    <li><a href="https://github.com/">Github</a></li>
+    <li><a href="https://bitbucket.org/">Bitbucket</a></li>
+    <li><a href="https://gogs.io/">Gogs</a></li>
+    <li><a href="https://about.gitlab.com/">GitLab</a></li>
+    <li><a href=""></a></li>
+</ul>
+
+
+<h2>Testing Tools and plugins</h2>
+<ul>
+    <li><a href="http://www.seleniumhq.org/">Selenium</a></li>
+    <li><a href="http://phantomjs.org/">PhantomJS</a></li>
+    <li><a href="https://cucumber.io/">Cucumber</a></li>
+</ul>
+
+
+<h2>Conginuous Integration</h2>
+<ul>
+    <li><a href="https://jenkins.io/">Jenkins</a></li>
+    <li><a href="https://travis-ci.org/">Travis-CI</a></li>
+    <li><a href="https://www.appveyor.com/">Appveyor</a></li>
+    <li><a href="https://circleci.com/">Circle CI</a></li>
+    <li><a href="https://www.shippable.com/">Shippable</a></li>
+</ul>
+
+<a href="/continuous-integration-systems">Continuous Integration Systems</a>.
+
+<h2>Configuration Management</h2>
+<ul>
+    <li><a href="https://www.ansible.com/">Ansible</a></li>
+    <li><a href="https://cfengine.com/">CFEngine</a></li>
+    <li><a href="https://www.chef.io/">Chef</a></li>
+    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://docs.microsoft.com/en-us/powershell/dsc/overview">PowerShell DSC</a></li>
+    <li><a href="https://puppet.com/">Puppet</a></li>
+    <li><a href="https://www.rexify.org/">Rex</a></li>
+    <li><a href="https://saltstack.com/">SaltStack</a></li>
+    <li><a href="https://github.com/melezhik/sparrowdo">Sparrowdo</a></li>
+</ul>
+
+<a href="/configuration-management-tools">Configuration Management Tools</a>.
+
+<h2>Product Management</h2>
+<ul>
+    <li><a href="https://www.atlassian.com/software/jira">Jira</a></li>
+    <li><a href="https://basecamp.com/">Basecamp</a></li>
+    <li><a href="https://www.ca.com/us/company/acquisitions/rally-is-now-ca-technologies.html">Rally</a></li>
+    <li><a href="https://www.pivotaltracker.com/">Pivotal Tracker</a></li>
+    <li><a href="https://www.teamwork.com/">Teamwork</a></li>
+    <li><a href="https://www.changepoint.com/">Changepoint</a> (Daptiv)</li>
+    <li><a href="https://www.workfront.com/">Workfront</a></li>
+    <li><a href="https://www.versionone.com/">Version One</a></li>
+    <li><a href="https://taiga.io/">Taiga</a></li>
+    <li><a href="https://waffle.io/">Waffle</a></li>
+</ul>
+
+<h2>Customer Service Desk</h2>
+<ul>
+    <li><a href="https://www.zendesk.com/">Zendesk</a></li>
+    <li><a href="https://www.zoho.eu/desk/">Zoho desk</a></li>
+    <li><a href="https://freshdesk.com/">Freshdesk</a></li>
+    <li><a href=""></a></li>
+</ul>
+
+<h2>Scheduling and Incident management</h2>
+<ul>
+    <li><a href="https://www.pagerduty.com/">Pager Duty</a></li>
+    <li><a href="https://victorops.com/">Victor Ops</a></li>
+    <li><a href="https://www.opsgenie.com/">OpsGenie</a></li>
+</ul>
+
+<h2>Monitoring</h2>
+<ul>
+    <li><a href="http://truesightpulse.bmc.com/">BMC TrueSight Pulse</a> (was Boundary)</li>
+    <li><a href="https://www.datadoghq.com/">Data Dog</a></li>
+    <li><a href="https://www.nagios.org/">Nagios</a></li>
+    <li><a href="https://stackify.com/">Stackify</a></li>
+    <li><a href="https://scoutapp.com/">Scout</a></li>
+    <li><a href="https://www.dynatrace.com/solutions/cloud-native-application-monitoring/">Dynatrace</a> (was Ruxit)</li>
+    <li><a href="https://rollbar.com/">Rollbar</a></li>
+</ul>
+
+<h2>Security Auditing</h2>
+<ul>
+    <li><a href="https://evident.io/">Evident.IO</a></li>
+    <li><a href="https://www.tripwire.com/">Tripwire</a></li>
+    <li><a href="https://www.metasploit.com/">Metasploit</a></li>
+    <li><a href="https://www.rapid7.com/products/nexpose/">Nexpose</a></li>
+    <li><a href="https://docs.kali.org/">Kali</a></li>
+    <li><a href="https://www.tenable.com/products/nessus/nessus-professional">Nessus</a></li>
+    <li><a href="https://www.beyondtrust.com/products/beyondsaas/">BeyondSAAS</a></li>
+    <li><a href="https://www.beyondtrust.com/products/retina-network-security-scanner">Retina</a></li>
+    <li><a href="https://www.coresecurity.com/vulnerability-insight">Core Insight</a></li>
+    <li><a href="https://dome9.com/">Dome9</a></li>
+    <li><a href="https://www.alienvault.com/">Alien Vault</a></li>
+    <li><a href="https://www.alertlogic.com/">Alert Logic</a></li>
+</ul>
+
+<h2>Analytics</h2>
+<ul>
+    <li><a href="https://newrelic.com/">New Relic</a></li>
+    <li><a href="https://www.librato.com/">Librato</a></li>
+</ul>
+
+
+<h2>Log Management</h2>
+<ul>
+    <li><a href="https://www.elastic.co/products/elasticsearch">Elastic Search</a></li>
+    <li><a href="https://www.elastic.co/products/logstash">Logstash</a></li>
+    <li><a href="https://www.elastic.co/products/kibana">Kibana</a></li>
+    <li><a href="https://www.sumologic.com/">Sumologic</a></li>
+    <li><a href="https://logentries.com/">LogEntries</a></li>
+    <li><a href="https://www.splunk.com/">Splunk</a></li>
+    <li><a href="https://www.loggly.com/">Loggly</a></li>
+</ul>
+
+
+<h2>Cloud Hosting</h2>
+<ul>
+    <li><a href="https://aws.amazon.com/">Amazon AWS</a></li>
+    <li><a href="https://www.digitalocean.com/">Digital Ocean</a></li>
+    <li><a href="https://www.linode.com/">Linode</a></li>
+    <li><a href="https://azure.microsoft.com/">Microsoft Azure</a></li>
+    <li><a href="https://cloud.google.com/">Google Cloud Services</a></li>
+</ul>
+
+
+<h2>Serverless Architectures</h2>
+<ul>
+    <li><a href="https://aws.amazon.com/lambda/">AWS Lambda</a></li>
+    <li><a href="https://azure.microsoft.com/en-us/services/functions/">Azure Functions</a></li>
+    <li><a href="https://cloud.google.com/functions/">Google Cloud functions</a></li>
+    <li><a href="http://fission.io/">Fission.IO</a> serverless functions on Kubernetes</li>
+    <li><a href="https://console.bluemix.net/openwhisk/">IBM Cloud Functions</a></li>
+</ul>
+
+
+Inspired by the <a href="https://www.mindmeister.com/512461824/devops-ecosystem">DevOps Ecosystem</a> by Erik Rogneby.
+
