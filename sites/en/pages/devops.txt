@@ -167,6 +167,14 @@ category as they try to provide a solution to several topics.
     <li><a href="https://console.bluemix.net/openwhisk/">IBM Cloud Functions</a></li>
 </ul>
 
+<h2>Virtualization - Containers</h2>
+<ul>
+    <li><a href="https://www.vagrantup.com/">Vagrant</a></li>
+    <li><a href="https://www.virtualbox.org/">VirtualBox</a></li>
+    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="https://kubernetes.io/">Kubernetes</a></li>
+</ul>
+
 
 Inspired by the <a href="https://www.mindmeister.com/512461824/devops-ecosystem">DevOps Ecosystem</a> by Erik Rogneby.
 
