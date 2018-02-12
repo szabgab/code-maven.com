@@ -48,7 +48,7 @@ category as they try to provide a solution to several topics.
 </ul>
 
 
-<h2>Conginuous Integration</h2>
+<h2>Continuous Integration</h2>
 <ul>
     <li><a href="https://jenkins.io/">Jenkins</a></li>
     <li><a href="https://travis-ci.org/">Travis-CI</a></li>
