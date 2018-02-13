@@ -22,6 +22,8 @@ ready to invest in your employees.
 
 <h2>Topics currently available</h2>
 
+The topics are primarily related to DevOps, test automation, and other development best practices.
+
 <ul>
    <li>Linux as a Virtual environment - Getting started with Linux.</li>
    <li>Version Control with Git.</li>
