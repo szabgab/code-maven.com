@@ -1,4 +1,4 @@
-=title Interactive shell with cmd in Python
+=title Create your own interactive shell with cmd in Python
 =timestamp 2018-02-15T22:30:01
 =indexes cmd, CLI
 =status show
