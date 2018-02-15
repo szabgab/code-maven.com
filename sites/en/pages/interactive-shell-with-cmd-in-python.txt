@@ -161,7 +161,7 @@ We can still exit the application:
 <code>
 (Cmd) exit
 Bye
-</cide>
+</code>
 
 
 <h2>Prompt and banner</h2>
