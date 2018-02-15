@@ -171,7 +171,7 @@ The default prompt is <hl>(Cmd)</hl> but we can override it using the <hl>prompt
 In addition we can set a text to be the banner, that is the text shown when we launch the application, before the first prompt
 is shown. We only need to assign the text to the <hl>intro</hl> attribute.
 
-<include file="examples/python/cli/promp.py">
+<include file="examples/python/cli/prompt.py">
 
 If we run this application we'll see:
 
