@@ -112,6 +112,7 @@ category as they try to provide a solution to several topics.
     <li><a href="https://www.dynatrace.com/solutions/cloud-native-application-monitoring/">Dynatrace</a> (was Ruxit)</li>
     <li><a href="https://rollbar.com/">Rollbar</a></li>
     <li><a href="https://www.zabbix.com/">Zabbix</a></li>
+    <li><a href="https://mmonit.com/monit/">monit</a></li>
 </ul>
 
 <h2>Security Auditing</h2>
@@ -156,6 +157,7 @@ category as they try to provide a solution to several topics.
     <li><a href="https://www.linode.com/">Linode</a></li>
     <li><a href="https://azure.microsoft.com/">Microsoft Azure</a></li>
     <li><a href="https://cloud.google.com/">Google Cloud Services</a></li>
+    <li><a href="https://www.openstack.org/">OpenStack</a></li>
 </ul>
 
 
