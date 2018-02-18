@@ -191,9 +191,20 @@ entered that does not correspond to any of the <hl>do_*</hl> methods.
 
 In this example we catch stand-alone <hl>x</hl> and <hl>q</hl> characters and call the <hl>do_exit</hl> method for them.
 
+
+<h2>Ctrl-d EOF</h2>
+
+You might have noticed thet if you press <hl>Ctrl-d</hl>, the standard way to exit most command line application, our examples print <b>*** Unknown syntax: EOF</b>. That's because Ctrl-d send an EOF (End Of File) signal and by default Cmd does not know what to do with it.
+
+The solution is to implement the <hl>do_EOF</hl> method that will be called when the user presses <hl>Ctl-d</hl>. As we already have a <hl>do_exit</hl> method, we can just assign that to the <hl>do_EOF</hl> and have both do the same. In order to provide help for the EOF, we can include a function
+called <hl>help_EOF</hl> that is assigned the <hl>help_exit</hl> function.
+
 <h2 id="full">Full example</h2>
 
 This examples includes all of the above techniques.
 
 <include file="examples/python/cli/full.py">
+
+
+See also the <a href="https://wiki.python.org/moin/CmdModule">Cmd wiki page</a>.
 
