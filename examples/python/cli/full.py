@@ -15,9 +15,6 @@ class MyPrompt(Cmd):
     def help_add(self):
        print("Add a new entry to the system.")
 
-    def do_edit(self, inp):
-        t = "this is some ext"
-
     def default(self, inp):
         if inp == 'x' or inp == 'q':
             return self.do_exit(inp)
