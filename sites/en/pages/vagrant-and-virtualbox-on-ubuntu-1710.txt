@@ -1,0 +1,77 @@
+=title Vagrant and VirtualBox on Ubuntu 17.10
+=timestamp 2018-02-20T15:30:01
+=indexes Vagrant, VirtualBox, Ubuntu, Linux
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+I have computer at home with 16Gb memory on which I've installed Ubuntu 17.10. It also has plenty of disk space, so it is going to be much better for experimenting with multi-server setups than my MacBook Air that only has 4Gb memory and 128 Gb SSD storage which is usually full.
+
+While I could certainly sit at that Linux machine as a desktop, I opted to use it mostly to use it as a server and ssh into it.
+
+Now in order to experiment with multiple server setups easily I needed Vagrant and VirtualBox and I wanted to install another Ubuntu as a guest operating system.
+
+=abstract end
+
+<h2>Which version of Vagrant and VirtualBox?</h2>
+
+I usually prefer to use the packages provided by the OS vendor, that could be installed using the standard package management system.
+Unfortunately the version of Vagrant and VirtualBox that are packaged by Ubuntu are old and due to some changes in the web service provided by Hashicorp (the organization behind Vagrant) they don't work any more.
+
+Instead of that I went with the latest and greatest:
+
+<h2>Install VirtualBox</h2>
+
+Download the latest version of deb file from <a href="https://www.virtualbox.org/wiki/Linux_Downloads">VirtualBox Linux downloads</a> and then run
+
+<code>
+sudo apt install ./virtualbox-5.2_5.2.6-120293~Ubuntu~zesty_amd64.deb
+</code>
+
+Certainly by the time you run this the version and so the name of the file will change.
+
+<h2>Install Vagrant</h2>
+
+Download the .deb file for Debian from <a href="https://www.vagrantup.com/downloads.html">Vagrant downloads</a> and then run:
+
+<code>
+sudo apt install ./vagrant_2.0.2_x86_64.deb
+</code>
+
+
+<h2>Verify the installed versions</h2>
+
+<code>
+$ virtualbox -h
+Oracle VM VirtualBox Manager 5.2.6
+...
+</code>
+
+<code>
+$ vagrant -v
+Vagrant 2.0.2
+</code>
+
+
+<h2>Create first VirtualBox using vagrant</h2>
+
+This is actually and older version of Ubuntu. Xenial Xerus is version 16.04 which is an LTS version.
+
+<code>
+$ vagrant init ubuntu/xenial64
+$ vagrant up
+$ vagrant ssh
+</code>
+
+That's it. I am inside the Virtualbox.
+
+I can exit it using <hl>exit</hl> and then I can shut down the VirtualBox by running
+
+<code>
+$ vagrant halt
+</code>
+
+
