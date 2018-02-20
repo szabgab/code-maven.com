@@ -1,6 +1,6 @@
-=title Vagrant and VirtualBox on Ubuntu 17.10
+=title Vagrant and VirtualBox on Ubuntu 17.10 and CentOS 7
 =timestamp 2018-02-20T15:30:01
-=indexes Vagrant, VirtualBox, Ubuntu, Linux
+=indexes Vagrant, VirtualBox, Ubuntu, CentOS, Linux, apt-get, yum
 =status show
 =author szabgab
 =archive 1
@@ -56,11 +56,13 @@ Vagrant 2.0.2
 </code>
 
 
-<h2>Create first VirtualBox using vagrant</h2>
+<h2>Create first Ubuntu-based VirtualBox using Vagrant</h2>
 
 This is actually and older version of Ubuntu. Xenial Xerus is version 16.04 which is an LTS version.
 
 <code>
+$ mkdir ubuntu
+$ cd ubuntu
 $ vagrant init ubuntu/xenial64
 $ vagrant up
 $ vagrant ssh
@@ -68,10 +70,42 @@ $ vagrant ssh
 
 That's it. I am inside the Virtualbox.
 
+In order to have everything up to date I also ran:
+
+<code>
+$ sudo apt-get update
+$ sudo apt-get upgrade
+</code>
+
+
 I can exit it using <hl>exit</hl> and then I can shut down the VirtualBox by running
 
 <code>
 $ vagrant halt
+</code>
+
+
+Note: The <hl>intit</hl> command created a file called <hl>Vagrantfile</hl> that contains
+the configuration of the Vagrant image.
+
+<h2>Install Centos/7 based VirtualBox</h2>
+
+Just to further my experiments I've also created a separate VirtualBox using CentOS 7.
+
+For this I created a second directory as we'll need a separate <hl>Vagrantfile</hl>.
+
+<code>
+$ mkdir centos
+$ cd centos
+$ vagrant init centos/7
+$ vagrant up
+$ vagrant ssh
+</code>
+
+We can update it to the latest pacakges using:
+
+<code>
+$ yum update
 </code>
 
 
