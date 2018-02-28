@@ -1,0 +1,64 @@
+=title Display notification from the Mac command line
+=timestamp 2018-02-28T10:30:01
+=indexes Apple, Mac, osascript, display, say
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Quite often I run some job on the command line that takes a few minutes. Staring at the terminal waiting for the job to finish is not fun.
+Switching to check what's on Facebook I end up wasting an hour looking at pictures of cats and dogs. If I am lucky.
+
+I am trying something new now. I'm trying to send myself an alert whenever a task is done. For this to work first I had to find a way to
+send a notification from the command line.
+
+=abstract end
+
+<h2>The tools</h2>
+
+<a href="https://ss64.com/osx/osascript.html">osascript</a> is a tool that comes with Mac that can execute code written in AppleScript, JavaScript
+and maybe a few other languages. If the previous link stops working typing <hl>man osascript</hl> in the Mac Terminal should give you the explanation.
+
+<a href="https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/">AppleScript</a> is a scripting language created by Apple. It has a bunch of <a href="https://developer.apple.com/library/content/documentation/AppleScript/Conceptual/AppleScriptLangGuide/reference/ASLR_cmds.html">commands</a>. There are a couple of interesting ones, for example: <hl>display</hl> and <hl>say</hl>.
+
+<h2>display</h2>
+
+The <hl>display</hl> command can send a notification to the standard notification system of Mac that will show a pop-up for a few seconds and that can be listed by clicking on the hamburger icon in the top-right corner of the screen (at the right end of the menu bar).
+
+We could write an AppleScript in a file and use osascript to run the file, but osascript can also execute one-liners where all the commands are on the command-line.
+That seems to be more useful at this point.
+
+<h2>display hello world</h2>
+
+The AppleScript code to send a notification with the text "hello world!" looks like this:
+
+<code>
+display notification "hello world!"
+</code>
+
+In order to run it on the command line we need to wrap that code in single-quotes and use the <hl>-e</hl> flag of <hl>osascript</hl>.
+
+<code>
+osascript -e 'display notification "hello world!"'
+</code>
+
+The result is a pop-up like this that shows up in the top right corner of the screen and disappears after about 3 seconds:
+
+<img src="/img/notification_hello_world.png" alt="Notification" />
+
+You can open the Notification center (the hamburger icon in the top right corner of the screen) that will look somthing like this: (assuming the only notification
+you have is the one we just sent.)
+
+<img src="/img/notification_hello_world_in_list.png" alt="Notification" />
+
+You can clear the list of notifications by clicking on the <hl>x</hl>.
+
+<h2>notification with title</h2>
+
+We can also add a title to
+osascript -e 'display notification "hello world!" with title "This is the title"'
+
+<img src="/img/notification_hello_world_with_title.png" alt="Notification" />
+
