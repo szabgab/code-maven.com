@@ -1,7 +1,7 @@
 =title Display notification from the Mac command line
 =timestamp 2018-02-28T10:30:01
 =indexes Apple, Mac, osascript, display, say
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -48,17 +48,147 @@ The result is a pop-up like this that shows up in the top right corner of the sc
 
 <img src="/img/notification_hello_world.png" alt="Notification" />
 
-You can open the Notification center (the hamburger icon in the top right corner of the screen) that will look somthing like this: (assuming the only notification
+You can open the Notification center (the hamburger icon in the top right corner of the screen) that will look something like this: (assuming the only notification
 you have is the one we just sent.)
 
 <img src="/img/notification_hello_world_in_list.png" alt="Notification" />
 
 You can clear the list of notifications by clicking on the <hl>x</hl>.
 
-<h2>notification with title</h2>
+<h2>display notification with title</h2>
 
-We can also add a title to
+The default title of the notification was "Script Editor".  We can also set it in the AppleScript command:
+
+<code>
+display notification "hello world!" with title "This is the title"
+</code>
+
+and with <hl>osascript</hl>:
+
+<code>
 osascript -e 'display notification "hello world!" with title "This is the title"'
+</code>
+
+The result is better:
 
 <img src="/img/notification_hello_world_with_title.png" alt="Notification" />
+
+<h2>display notification with subtitle</h2>
+
+If we have a title we can also have a subtitle:
+
+The AppleScript command:
+
+<code>
+display notification "hello world!" with title "Greeting" subtitle "More text"
+</code>
+
+With osascript:
+
+<code>
+osascript -e 'display notification "hello world!" with title "Greeting" subtitle "More text"'
+</code>
+
+This is how the result looks like:
+
+<img src="/img/notification_hello_world_with_subtitle.png">
+
+
+<h2>display notification and make sound</h2>
+
+In addition to the visual notification, the <hl>display</hl> command can also include a sound effect.
+The sound can be one of the files in <hl>/System/Library/Sounds</hl> or in <hl>~/Library/Sounds</hl>.
+
+The AppleScript command:
+
+<code>
+display notification "hello world!" with title "Greeting" subtitle "More text" sound name "Submarine"
+</code>
+
+executed by <hl>osascript</hl>:
+
+<code>
+osascript -e 'display notification "hello world!" with title "Greeting" subtitle "More text" sound name "Submarine"'
+</code>
+
+If the name of the sound is incorrect Mac will make an alert sound.
+
+<h2>Longer text</h2>
+
+If we try to send a longer text:
+
+<code>
+osascript -e 'display notification "hello world! This is a longer message and we would like to see how is it going to be displayed." with title "Greeting" subtitle "More text"'
+</code>
+
+The pop-up notification will only display the beginning:
+
+<img src="/img/notification_longer_message.png">
+
+but we can see the full text in the notification center:
+
+<img src="/img/notification_longer_message_full_text.png">
+
+
+
+<h2>display alert with confirmation request</h2>
+
+There is another way to create a notification using the <hl>display alert</hl> command. The syntax is a bit different.
+The string that comes immediately after the <hl>display alert</hl> is the title and then one can optionally add a <hl>message</hl>
+parameter with a longer explanation.
+
+the AppleScript command:
+
+<code>
+display alert "Hello World!" message "longer text can be added in the message field and it will be all shown on the pop-up alert."
+</code>
+
+The <hl>osascript</hl> wrapped command:
+
+<code>
+osascript -e 'display alert "Hello World!" message "longer text can be added in the message field and it will be all shown on the pop-up alert."'
+</code>
+
+The result is a pop-up window in the middle of the screen that also stays there till you click on the OK button.
+
+<img src="/img/alert_hello_world.png">
+
+The alert won't be recorded in the notification center of your Mac.
+
+
+<h2>Saying Hello World</h2>
+
+Finally there is also the <hl>say</hl> command that can vocalize any text you give to it.
+
+The AppleScript command:
+
+<code>
+say "Hello World!"
+</code>
+
+wrapped in <hl>osascript</hl> on the command line:
+
+<code>
+osascript -e 'say "Hello World!"'
+</code>
+
+This does not have any visual effect, but it is quite surprising when your computer starts to talk to you.
+
+
+<h2>Execute after the long-running program</h2>
+
+The whole article was written because I wanted to get some alert after a long-running program ends.
+Here we substitute the long-running program with <hl>sleep 2</hl>. We can then include a call to
+<hl>osascript</hl> or even two calls to <hl>osascript</hl> to be executed immediately after the
+main command (the sleep 2) ends.
+
+<code>
+sleep 2; osascript -e 'say "Hello World!"'; osascript -e 'display alert "hello world"'
+</code>
+
+I put in two ways of notification so I'll hear some text if I am near the computer but does not watch the screen
+and I'll get a pop-up that remains on the screen later. So even if I am out of the room when the process ends,
+I'll see the pop-up when I return to my computer.
+
+
 
