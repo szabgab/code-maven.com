@@ -1,0 +1,62 @@
+=title Ansible
+=timestamp 2018-03-04T10:30:01
+=indexes Ansible, pip
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://www.ansible.com/">Ansible</a> is one of the leading Configuration Management systems.
+It allows you to describe the expected state of your servers one-by-one or grouped by their task and then
+it ensures all the servers are in the correct state only relying on standard ssh access.
+
+No agent is required on the host. You only need to install Ansible on the computer(s) from which you wish to manage
+your servers.
+
+In this series we are going to look at various features of Ansible.
+
+=abstract end
+
+<h2>Installing Ansible</h2>
+
+Before you can start using Ansible you need to install it on the management machine. Your notebook or some in-house
+machine in the company. One thing you need to remember about security is that the user who can run ansible will have
+virtually unlimited control of all your servers. So make sure the account that is set up to run ansible has adequate
+authentication set up.
+
+I am setting it up on my Macbook air in my own account. I am going to use my own public key to allow me access to the privileged
+user on the servers. I'd better not share my private key with anyone then.
+
+There are a number of ways to <a href="http://docs.ansible.com/ansible/latest/intro_installation.html">install Ansible</a>.
+
+Ansible is written in Python and as I already have Python 3 installed on my machine I went with <hl>virtualenv</hl> and <hl>pip</hl> here.
+
+<code>
+$ virtualenv venv
+$ source venv/bin/activate
+$ pip install ansible
+</code>
+
+After a while I had Ansible installed.
+
+<code>
+$ ansible --version
+</code>
+
+Shows the version number of Ansible. (I have 2.4.1.0) with some additional information.
+
+<code>
+$ ansible -h
+</code>
+
+provides help. It lists many of the parameters we can use with the <hl>ansible</hl> command.
+
+More to come soon.
+
+<!--
+<ol>
+   <li><a href=""></a></li>
+</ol>
+-->
