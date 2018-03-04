@@ -86,3 +86,5 @@ If you are interested in contributing to one of the projects that does not have 
 is a link to the VCS. If they don't have one, you might want to reconsider contributing to that project, or if you have a lot of energy you might volunteer to introduce
 version control to the developer.
 
+<img src="/img/Git-Logo-2Color.png" alt="Git logo">
+
