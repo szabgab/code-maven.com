@@ -60,3 +60,5 @@ More to come soon.
    <li><a href=""></a></li>
 </ol>
 -->
+
+<img src="/img/ansible-logo.jpg" alt="Ansible logo">
