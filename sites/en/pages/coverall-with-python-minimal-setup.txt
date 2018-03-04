@@ -49,4 +49,4 @@ You also need to tell Travis-CI to run the <hl>coveralls</hl> command after the 
 
 That's it. Your coverage reports should start flowing to Coveralls.io.
 
-
+<img src="/img/coveralls-stomp-out-bugs.png" "coveralls logo stomp out bugs">
