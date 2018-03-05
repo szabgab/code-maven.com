@@ -1,4 +1,4 @@
-=title List Comprehension vs Generator Expressions
+=title List Comprehension vs Generator Expressions in Python
 =timestamp 2015-06-26T09:00:01
 =indexes (), []
 =status show
