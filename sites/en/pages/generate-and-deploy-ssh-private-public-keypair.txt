@@ -1,6 +1,6 @@
 =title Generate and deploy ssh private public keypair (ssh-keygen, ssh-copy-id)
 =timestamp 2018-03-06T14:30:01
-=indexes ssh-keygen, ssh-copy-id
+=indexes ssh, ssh-keygen, ssh-copy-id, id_rsa
 =status show
 =author szabgab
 =archive 1
