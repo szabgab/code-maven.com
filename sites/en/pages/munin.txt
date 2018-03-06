@@ -1,0 +1,17 @@
+=title Munin
+=timestamp 2018-01-01T07:30:01
+=indexes Munin, monitoring
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+I am running this on <a href="/vagrant-and-virtualbox-on-ubuntu-1710">Vagrant and VirtualBox on Ubuntu 17.10</a>, but any Ubuntu-based maching should act the same.
+
+<code>
+sudo apt-get install munin
+</code>
+
