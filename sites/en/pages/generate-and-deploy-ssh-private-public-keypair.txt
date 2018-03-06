@@ -55,7 +55,7 @@ This generates two files: <hl>~/.ssh/id_rsa</hl> is the private key. You need to
 <hl>~/.ssh/id_rsa.pub</hl> is the public key. This you can distribute to anyone. You can even advertise it
 on your site. One, theoretically, cannot compute the private key based on the public key in any reasonable time.
 
-<h2>Deploy the public key</hl>
+<h2>Deploy the public key</h2>
 
 Basically you need to take the content of <hl>~/.ssh/id_rsa.pub</hl> on the manager machine and
 append it to the content of <hl>~/.ssh/authorized_keys</hl> and make sure both the <hl>~/.ssh</hl> directory
