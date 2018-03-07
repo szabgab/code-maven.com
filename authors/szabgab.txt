@@ -1,0 +1,9 @@
+Gabor who runs the Code Maven site helps companies set up <b>test automation</b>, CI/CD
+<b>Continuous Integration</b> and <b>Continuous Deployment</b> and other <b>DevOps</b> related
+systems.
+<p>
+Gabor can help your team improve their development speed and reduce the risk of bugs.
+<p>
+He is the author of a number of <a href="https://leanpub.com/u/szabgab">eBooks</a>.
+<p>
+<a href="https://szabgab.com/contact.html">Contact Gabor</a> for more details.
