@@ -1,0 +1,273 @@
+=title Getting Started with Ansible on Mac - managing CentOS on Digital Ocean
+=timestamp 2018-03-07T16:00:01
+=indexes Ansible, Digital Ocean, ssh, ping, date, uptime, free
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In this example we'll take a freshly installed Linux box running CentOS 7.4 on a 
+<a href="/digitalocean">Digital Ocean droplet</a> and use <a href="/ansible">Ansible</a> to make basic configurations.
+
+I assume that you already have <a href="/ansible">Ansible installed</a> on your desktop/notebook, whatever machine is
+in front of you. If not, check out the linked article.
+
+=abstract end
+
+<h2>Create the host machine on Digital Ocean</h2>
+
+For this article I've created the host machine manually.
+
+Visit <a href="/digitalocean">Digital Ocean</a>, sign up if you don't have an account yet. (Using that link you are supposed to get $10 credit).
+
+If you have not done so yet, <a href="/generate-and-deploy-ssh-private-public-keypair">Create an ssh keypair</a> and upload the public key under the "SSH keys" section of the <a href="ttps://cloud.digitalocean.com/settings/security">Security</a> of your <a href="https://cloud.digitalocean.com/settings/profile">Profile</a>. This will be useful as this will allow you to connect to the remote host without providing a password.
+
+Now, in order to create your first Droplet, visit the <a href="https://cloud.digitalocean.com/droplets">list of droplets</a> and click on the "Create" button and select "Droplets".
+
+<ol>
+  <li>Select <hl>CentOS 7.4 64 bit</hl> as that's what we are checking out now. For size select the smallest. Even that is way to big for our needs.</li>
+  <li>For <hl>datacenter</hl> select whatever you like. I usually just select New York 1.</li>
+  <li>"Select additional options" can be left alone for now.</li>
+  <li>At "Add your SSH keys" you should see the SSH key you added earlier. Select the checkbox next to it.</li>
+  <li>Make sure you are asking for 1 Droplet.</li>
+  <li>The hostname can be anything now. Even the one they offer.</li>
+  <li>Click "Create".</li>
+</ol>
+
+After about 30 second your Droplet will be ready.
+
+<img src="/img/digital-ocean-centos-created.png">
+
+Hover over the IP address and a link <hl>copy</hl> will appear. Click on that to get the IP address in your clipboard.
+If you can paste from there in your editor then you can save some extra work.
+
+Create a file called <hl>inventory.cfg</hl> with the following content, just use the IP address of your Droplet instead of mine:
+
+<include file="examples/ansible/centos_first/inventory.cfg">
+
+The "inventory file" of Ansible is a single configuration file that holds all the hosts you'd like to manage. The hosts can be grouped in various ways, but now as we only have one machine we created a group called "all". and put the IP address of the machine in that group.
+
+<h2>Check if Ansible can access the hosts using Ping</h2>
+
+Let's verify that Ansible can access the machine.
+Just as with network you'd use the <a href="https://en.wikipedia.org/wiki/Ping_(networking_utility)">ping</a> command, Ansible also provides a command called "ping" that checks if the remote machine is accessible to Ansible. Instead of sending <a href="https://en.wikipedia.org/wiki/Internet_Control_Message_Protocol">ICMP packets</a>, the ping of Ansible will try to log in to the remote machine using standard SSH.
+
+Run the following command:
+
+<code>
+$ ansible -i inventory.cfg all -u root -m ping
+</code>
+
+It will first ask you to check the authenticity of the host by displaying a message like this:
+
+<code>
+The authenticity of host '159.65.236.52 (159.65.236.52)' can't be established.
+ECDSA key fingerprint is SHA256:5G1v0wAEaqgQVfXrrqYlp4kRFTLJc263H3CvcqUEnlg.
+Are you sure you want to continue connecting (yes/no)?
+</code>
+
+If you type in <hl>yes</hl> then it will add the signature of the host to 
+<hl>~/.ssh/known_hosts</hl> and it won't bother you again with the same question.
+
+The command will continue and print
+
+<code>
+159.65.236.52 | SUCCESS => {
+    "changed": false,
+    "failed": false,
+    "ping": "pong"
+}
+</code>
+
+
+If you don't want to check the authenticity of the host you can tell ansible to tell the ssh command using the <hl>--ssh-common-args</hl> flag to not check the authenticity and to not save the signature in the known_hosts file.
+
+<code>
+$ ansible -i inventory.cfg all -u root -m ping --ssh-common-args "-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no"
+</code>
+
+This will have the same output as the earlier command.
+
+<code>
+159.65.236.52 | SUCCESS => {
+    "changed": false,
+    "failed": false,
+    "ping": "pong"
+}
+</code>
+
+Let's see the details of the command:
+
+<ul>
+    <li>The <hl>-t inventory.cfg</hl> tells ansible the location of the inventory file.</li>
+    <li><hl>all</hl> selects the host(s) upon which we'd like to act.</li>
+    <li><hl>-u root</hl> tells Ansible to use user <hl>root</hl> on the remote server.</li>
+    <li><hl>-m ping</hl> tells Ansible to execute the "ping" module.</li>
+    <li><hl>--ssh-common-args</hl> tells ansible to pass the  <hl>-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no</hl> flags to the ssh command it uses.</li>
+</ul>
+
+
+<h2>authenticity of the host</h2>
+
+For the upcoming command I'll assume that when you ran the previous command you ran it without the special parameter for ssh
+and then you typed "yes" when the ssh client wanted to save the signature in the "~/.ssh/known_hosts" file. If not run this again:
+
+<code>
+$ ansible -i inventory.cfg all -u root -m ping
+</code>
+
+The next time you run the above command it should work without asking any further questions.
+
+<h2>Collect information from the remote server</h2>
+
+Ansible has plenty of modules, but it also allows you to execute arbitrary command on the remote machine:
+
+<b>Fetch the date of the remote machine</b>
+
+<code>
+$ ansible -i inventory.cfg all -u root -a date 
+</code>
+
+<code>
+159.65.236.52 | SUCCESS | rc=0 >>
+Wed Mar  7 11:35:52 UTC 2018
+</code>
+
+<b>Get the hostname of the remote host<b>:
+
+<code>
+ansible -i inventory.cfg all -u root -a hostname
+</code>
+
+<code>
+159.65.236.52 | SUCCESS | rc=0 >>
+centos-s-1vcpu-1gb-nyc1-01
+</code>
+
+<b>uptime</b>
+
+<code>
+$  ansible -i inventory.cfg all -u root -a uptime
+</code>
+
+<code>
+159.65.236.52 | SUCCESS | rc=0 >>
+11:40:38 up 41 min,  1 user,  load average: 0.05, 0.03, 0.05
+</code>
+
+<b>free memory</b>
+
+<code>
+$  ansible -i inventory.cfg all -u root -a free
+</code>
+
+<code>
+159.65.236.52 | SUCCESS | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:        1016224       83256      780424       13048      152544      767372
+Swap:             0           0           0
+</code>
+
+<b>free memory in megabytes</b>
+
+<code>
+$  ansible -i inventory.cfg all -u root -a "free -m"
+</code>
+
+
+<code>
+159.65.236.52 | SUCCESS | rc=0 >>
+              total        used        free      shared  buff/cache   available
+Mem:            992          81         761          12         149         749
+Swap:             0           0           0
+</code>
+
+
+<h2>Upgrade everything on the CentOS server</h2>
+
+Usually when you get a new server some of the packages might be already out of date. Some might have had some security fixes.
+So updating them to the latest version i usually a good idea.
+
+<code>
+ansible -i inventory.cfg all -u root -m yum -a "name=* state=latest"
+</code>
+
+It will run a long time. Probably several minutes. Hopefully it will end with success with a big blob of output that starts with
+
+<code>
+159.65.236.52 | SUCCESS => {
+    "changed": true,
+    "failed": false,
+</code>
+
+IF you run the same command again, this time will say everything is up-to-date:
+
+<code>
+159.65.236.52 | SUCCESS => {
+    "changed": false,
+    "failed": false,
+    "msg": "",
+    "rc": 0,
+    "results": [
+        "Nothing to do here, all packages are up to date"
+    ]
+}
+</code>
+
+
+<h2>Rebooting the CentOS server using Ansible</h2>
+
+We can run the regular <hl>shutdown</hl> command with some flags:
+
+<code>
+$  ansible -i inventory.cfg all -u root -a "/sbin/shutdown -r now"
+</code>
+
+This command will reboot the server immediately, but you will see an error message. Basically
+because Ansible does not have time to properly disconnect before the server shuts down its ssh connection.
+
+<code>
+159.65.236.52 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Shared connection to 159.65.236.52 closed.\r\n",
+    "unreachable": true
+}
+</code>
+
+You can delay the shutdown by one minutes (it only works with increments of minutes)
+
+<code>
+$  ansible -i inventory.cfg all -u root -a "/sbin/shutdown -r +1"
+</code>
+
+That will return with success and a warning and a minute later the host will reboot itself.
+
+<code>
+ [WARNING]: Module invocation had junk after the JSON data:   Broadcast message from root@centos-s-1vcpu-1gb-nyc1-01 (Wed 2018-03-07
+13:46:31 UTC):    The system is going down for reboot at Wed 2018-03-07 13:47:31 UTC!
+
+159.65.236.52 | SUCCESS | rc=0 >>
+Shutdown scheduled for Wed 2018-03-07 13:47:31 UTC, use 'shutdown -c' to cancel.
+</code>
+
+To avoid that warnings we can even tell the <hl>shutdown</hl> command to avoid the broadcast:
+
+<code>
+$  ansible -i inventory.cfg all -u root -a "/sbin/shutdown --no-wall -r +1"
+</code>
+
+That looks like the cleanest so far:
+
+<code>
+159.65.236.52 | SUCCESS | rc=0 >>
+Shutdown scheduled for Wed 2018-03-07 14:00:08 UTC, use 'shutdown -c' to cancel.
+</code>
+
+
+<h2>Conclusion</h2>
+
+That's enough for now. We'll get deeper in an upcoming article.
+
+
