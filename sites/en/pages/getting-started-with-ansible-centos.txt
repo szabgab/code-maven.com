@@ -1,7 +1,7 @@
 =title Getting Started with Ansible on Mac - managing CentOS on Digital Ocean
 =timestamp 2018-03-07T16:00:01
 =indexes Ansible, Digital Ocean, ssh, ping, date, uptime, free
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
