@@ -55,10 +55,12 @@ provides help. It lists many of the parameters we can use with the <hl>ansible</
 
 More to come soon.
 
-<!--
 <ol>
-   <li><a href=""></a></li>
+   <li><a href="/getting-started-with-ansible-centos">Getting Started with Ansible on Mac - managing CentOS on Digital Ocean</a></li>
 </ol>
+
+<!--
+   <li><a href=""></a></li>
 -->
 
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">
