@@ -135,7 +135,7 @@ $ ansible -i inventory.cfg all -u root -a date
 Wed Mar  7 11:35:52 UTC 2018
 </code>
 
-<b>Get the hostname of the remote host<b>:
+<b>Get the hostname of the remote host</b>:
 
 <code>
 ansible -i inventory.cfg all -u root -a hostname
