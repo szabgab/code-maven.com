@@ -82,6 +82,11 @@ in many other languages.
   <!-- Parse Perl file ?? -->
 </ol>
 
+<h2>Linux</h2>
+
+<ol>
+    <li><a href="/exercise-linux-as-a-virtual-environment-nginx">Linux as a Virtual Environment - install + nginx</a>
+</ol>
 
 <h2>Shell</h2>
 
