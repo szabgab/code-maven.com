@@ -9,7 +9,7 @@
 
 =abstract start
 
-These exerciese were given to the participants of the <a href="http://devops-workshops.code-maven.com/">DevOps Workshop</a> on using Linux as a Virtual OS on Windows (or Mac or another Linux).
+These exercises were given to the participants of the <a href="http://devops-workshops.code-maven.com/">DevOps Workshop</a> on using Linux as a Virtual OS on Windows (or Mac or another Linux).
 
 A few exercises that you could do to practice what we have learned during the workshop.
 Some will go way beyond it and make you learn a lot more about using Linux on the command line.
@@ -33,7 +33,7 @@ Some will go way beyond it and make you learn a lot more about using Linux on th
 
 So far is basically the same as we had during the workshop. Use the <a href="http://code-maven.com/ws1">slides</a> as your guide.
 
-<h2>Additinal tasks</h2>
+<h2>Additional tasks</h2>
 
 <ol>
     <li>Create a new file called a.txt with "hello" in it.</li>
