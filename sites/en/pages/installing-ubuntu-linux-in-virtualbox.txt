@@ -66,10 +66,35 @@ It will download an <hl>exe</hl> file on Windows or <hl>dmg</hl> file on OSX. On
 
 <h2>Configure VirtualBox</h2>
 
-A small warning: the different versions of VirtualBox have slightly different UI and Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>.
+A small warning: the different versions of VirtualBox have slightly different UI and Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>. In your version they might look slightly different.
 
-Open VirtualBox - Press the "new" button on the left
+<b>Open VirtualBox - Press the "new" button on the left</b>
 
 <img src="/img/vb1/virtualbox_1.png">
+
+<b>Type in any name</b>
+
+If the name starts with "ubu" it will setup the type to Linux and the version to ubuntu 64-bit for you automatically.
+If you go with a totally different name (e.g. foobar), then you can slect the <hl>Type</hl> and <hl>Version</hl> yourself.
+
+Click on Continue.
+
+<img src="/img/vb1/virtualbox_2.png">
+
+<b>Continue the setup with the values VirtualBox is suggesting for you.</b>
+
+<ul>
+    <li>Memory size: 1024 Mb.
+    <li>Hard disk: Create a virtual hard disk now (Recommended size is 10 Gb).
+    <li>Hard disk file type: VDI (VirtualBox Disk Image).
+    <li>Storage on physical hard disk: Dynamically allocated.
+    <li>File location and size: `ubuntu` is fine. 10 Gb.
+</ul>
+
+<img src="/img/vb1/virtualbox_3.png">
+
+<img src="/img/vb1/virtualbox_4.png">
+
+
 
 
