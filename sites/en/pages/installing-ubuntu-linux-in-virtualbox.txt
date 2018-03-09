@@ -1,7 +1,7 @@
 =title Installing Ubuntu Linux in VirtualBox on top of Windows, Mac, or another Linux system
-=timestamp 2018-01-01T07:30:01
-=indexes VirtualBox, Ubuntu
-=status draft
+=timestamp 2018-03-09T08:30:01
+=indexes VirtualBox, Ubuntu, Linux
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
