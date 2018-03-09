@@ -14,6 +14,8 @@ It could also run on Solaris, but who has Solaris on their notebook or desktop c
 
 This method is not the simplest, but it will make it easier to understand the system and other options (e.g. <a href="/vagrant-and-virtualbox-on-ubuntu-1710">Vagrant</a> use this process behind the scene.
 
+The installation and all the setup can take 1-2 hours. Much shorter when you do it for a second time.
+
 =abstract end
 
 <h2>What is Linux, what is Ubuntu</h2>
@@ -66,7 +68,7 @@ It will download an <hl>exe</hl> file on Windows or <hl>dmg</hl> file on OSX. On
 
 <h2>Configure VirtualBox</h2>
 
-A small warning: the different versions of VirtualBox have slightly different UI and Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>. In your version they might look slightly different.
+A small warning: the different versions of VirtualBox have slightly different UI and Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Most of the screenshots were taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>. In your version they might look slightly different.
 
 <b>Open VirtualBox - Press the "new" button on the left</b>
 
@@ -119,4 +121,75 @@ If this was real hardware you'd have a physical CD-rom and you'd want to instert
 <img src="/img/vb1/virtualbox_4.png">
 
 After you saved it you can click on "Start" to launch the new Linux machine.
+
+<h2>Install Ubuntu</h2>
+
+Once you clicked on the "Start" button of your VirtualBox image, it will "turn on the computer".
+As with real hardware it will look for a storage device that can be booted. The first one it checks is the CD drive.
+(The sequence is usually configured in the BIOS of the computer.)
+As we "inserted" our CD in the drive the machine will find it and start to boot from it that will step you
+through the installation process.
+
+<ol>
+    <li>Start the installation of Ubuntu - Select the defaults.</li>
+    <li>Your preferred language: English.</li>
+    <li>"Install Ubuntu Server".</li>
+    <li>Select a language - English.</li>
+    <li>Your location: "Untied States".</li>
+    <li>Detect keyboard?  No.</li>
+    <li>Configure the keyboards: English (US)</li>
+    <li>Keyboard layout: English (US)</li>
+</ol>
+
+When you get to the hostname section choose whatever you like. "ubuntu" is fine for this installation.
+
+<img src="/img/vb1/linux_install_1.png">
+
+
+<ol>
+    <li>Type in your full name.</li>
+    <li>Select a username for yourself.</li>
+    <li>Type in a good password. (twice)</li>
+    <li>Home directory encryption: No</li>
+    <li>Timezone (it decided Asia/Jerusalem for me): Yes</li>
+    <li>Partition disks: select "Guided - use entire disk"  (no LVM)</li>
+    <li>SCSI3 ...</li>
+    <li>Write the changes to disks?  YES!!!!</li>
+    <li>...</li>
+    <li>Configure the package manager proxy (leave it empty)</li>
+    <li>...</li>
+    <li>Upgrades of the system: "No automatic updates"</li>
+    <li>Software selection: don't select anything now.</li>
+    <li>...</li>
+    <li>Install the GRUB boot loader on a hard disk - YES</li>
+    <li>...</li>
+</ol>
+
+When the installation is complete, it will unmount the Ubuntu image we setup at the beginning.
+Continue to reboot:
+
+<img src="/img/vb1/linux_install_2.png">
+
+<b>Linux console login screen</b>
+
+When you are done installing after the reboot the host screen should look like this:
+
+<img src="/img/vb1/linux_install_3.png">
+
+Type in your username and password. You should see a prompt now.
+
+That's it. You have a working Ubuntu Linux server in a VirtualBox image running on your personal computer.
+
+In the next article we'll continue with some experimentation, but if you are familiar with Linux you can already start using it.
+
+One thing I'd mention here is how to <b>run off the machine</b>.
+
+Type in (without the '$' that just represents the prompt in our example:
+
+<code>
+$ sudo shutdown -P now
+</code>
+
+It will ask for your password. Once you typed it in it will shut down the Linux server and then it will power off your VirtualBox image.
+
 
