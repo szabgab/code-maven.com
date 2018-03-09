@@ -1,0 +1,75 @@
+=title Installing Ubuntu Linux in VirtualBox on top of Windows, Mac, or another Linux system
+=timestamp 2018-01-01T07:30:01
+=indexes VirtualBox, Ubuntu
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+There are many ways to get started if you'd like to experiment with Linux. In this article I'am going to explain one using VirtualBox on top of an MS Windows or Mac OSX system. It could also be used on top of an already existing Linux installation, and for experimentation it might be better to use this than the Operating System you already have on your computer.
+
+It could also run on Solaris, but who has Solaris on their notebook or desktop computer.
+
+This method is not the simplest, but it will make it easier to understand the system and other options (e.g. <a href="/vagrant-and-virtualbox-on-ubuntu-1710">Vagrant</a> use this process behind the scene.
+
+=abstract end
+
+<h2>What is Linux, what is Ubuntu</h2>
+
+A very quick recap:
+On one hand Linux officially refers to the "Linux kernel" which is the core of what makes a computer work for you.
+On the other hand most people use the word "Linux" to describe a "Linux Distribution" that includes 10s of thousands of programs, including the Linux kernerl. A "distribution" is like a package in which some team collected many useful software. Editors, games, databases, web servers, etc. and of course the kernel.
+
+There are many distribution <a href="https://distrowatch.com/">DistroWatch</a> has a list of "top 100". In this article we are going to use <a href="https://www.ubuntu.com/">Ubuntu</a>, one of the popular distributions.
+
+<img src="/img/vb1/Tux.png" alt="Tux - The logo of Linux (the kernel)" />
+
+<h2>Our steps</h2>
+
+<ol>
+    <li>Download the ISO image of <a href="https://www.ubuntu.com/">Ubuntu Server</a></li>
+    <li>Download, install, and configure <a href="https://www.virtualbox.org/">VirtualBox</a></li>
+</ol>
+
+<h2>Download Ubuntu Server ISO image</h2>
+
+Visit <a href="https://www.ubuntu.com/">Ubuntu Server</a> and specifically the
+<a href="https://www.ubuntu.com/download/server">Ubuntu server download</a> page.
+Select the most recent one. At the time of this writing it is <b>Ubuntu Server 17.10.1</b>
+because it was released in 2017 October. (The 1 is just a sub-release number, not the date.)
+
+An ISO image is a single file that looks like a CD-rom from the inside. They can be burned on physical CDs
+or can be used by other software (e.g. VirtualBox) to pretend it is a real CD.
+
+We'll use the downloaded file in a minute. While we are waiting for it to download, let's do something else:
+
+<h2>VirtualBox</h2>
+
+<a href="https://www.virtualbox.org/">VirtualBox</a> is an application that can run on MS Windows, Mac OSX, or Linux
+and then it can create Virtual computers. From the inside that virtual computer will look like any other computer.
+It will have some memory, CPUs, disk(s), a CD player, a video card with some memory, network card(s). Whatever you decide.
+The Opearting System installed in it, which we'll refer to as the <b>guest</b>, won't really know it is not running on real hardware.
+
+From the point of view of your operating system, the one that you already have on your computer (Most likely some version of MS Windowsor Mac OSX) it is just a directory with a few files in it.
+
+When your guest operating system is running it is allocated a certain amount of memory, CPU, etc. just like any other application on your system. If you turn off your guest operating system, then all that is freed up and it will only take up space on your hard-disk.
+
+You can remove those files any time, but then you will lose your installation.
+
+<h2>Download and Install VirtualBox</h2>
+
+Visit <a href="https://www.virtualbox.org/">VirtualBox</a> and on the big blue button to get to the <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox download</a> page. Select the latest version (for me it was VirtualBox 5.2.8) and the name of your host Operating System. So probably Windows or OSX.
+
+It will download an <hl>exe</hl> file on Windows or <hl>dmg</hl> file on OSX. Once the download ended, run these programs, agree to everything you usually agree when you install a program. It is the standar Windows and OSX installation process. Nothing fancy.
+
+<h2>Configure VirtualBox</h2>
+
+A small warning: the different versions of VirtualBox have slightly different UI and Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>.
+
+Open VirtualBox - Press the "new" button on the left
+
+<img src="/img/vb1/virtualbox_1.png">
+
+
