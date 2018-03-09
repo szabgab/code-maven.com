@@ -74,7 +74,7 @@ A small warning: the different versions of VirtualBox have slightly different UI
 
 <b>Type in any name</b>
 
-If the name starts with "ubu" it will setup the type to Linux and the version to ubuntu 64-bit for you automatically.
+If the name starts with "ubu" it will setup the type to Linux and the version to Ubuntu 64-bit automatically.
 If you go with a totally different name (e.g. foobar), then you can slect the <hl>Type</hl> and <hl>Version</hl> yourself.
 
 Click on Continue.
@@ -83,18 +83,40 @@ Click on Continue.
 
 <b>Continue the setup with the values VirtualBox is suggesting for you.</b>
 
+You should not worry about the exact values. Most of these can be changed later on and it is for your experimentatin anyway.
+So the worst case you go over the installation again and learn it even better.
+
+Remember what your guest operating will see as a "hard disk" is a single file on your host operating system.
+
 <ul>
-    <li>Memory size: 1024 Mb.
-    <li>Hard disk: Create a virtual hard disk now (Recommended size is 10 Gb).
-    <li>Hard disk file type: VDI (VirtualBox Disk Image).
-    <li>Storage on physical hard disk: Dynamically allocated.
-    <li>File location and size: `ubuntu` is fine. 10 Gb.
+    <li>Memory size: 1024 Mb. If you are tight on memory in your computer, you can go with as low as 256 Mb.</li>
+    <li>Hard disk: Create a virtual hard disk now. Recommended size is 10 Gb. (It will not really take up that much space. See next entries.)</li>
+    <li>Hard disk file type: VDI (VirtualBox Disk Image).</li>
+    <li>Storage on physical hard disk: Dynamically allocated. (So the disk will grow as you need it.)</li>
+    <li>File location and size: `ubuntu` is fine. 10 Gb.</li>
 </ul>
 
 <img src="/img/vb1/virtualbox_3.png">
 
+When you are done you'll be back to the opening screen of VirtualBox and you'll see your box listed on the left hand side.
+In this screenshot you see 3 boxes:
+
+<img src="/img/vb1/virtualbox_3_2.png">
+
+<b>Insert the CD in the virutal CD driver of VirtualBox</b>
+
+You can now check the <hl>Settings</hl> of your box where you can change most of the parameters. (Don't do that just yet :).
+
+If this was real hardware you'd have a physical CD-rom and you'd want to instert it in the CD drive to boot from it. As our machine is virtual, and as we only have an ISO image (has the download finished by now?) we do this in software. We make a small change in the configuration of our VirtualBox image to pretend we have a CD in the drive.
+
+<ol>
+    <li>Right-click on the icon of your new server and select "Settings".</li>
+    <li>Select the "Storage" section.</li>
+    <li>Click on the "empty" CD icon and select the Ubuntu .iso file you have downloaded before.</li>
+    <li>Save this setup.</li>
+</ul>
+
 <img src="/img/vb1/virtualbox_4.png">
 
-
-
+After you saved it you can click on "Start" to launch the new Linux machine.
 
