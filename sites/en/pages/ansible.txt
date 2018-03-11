@@ -21,8 +21,16 @@ In this series we are going to look at various features of Ansible.
 
 <h2>Installing Ansible</h2>
 
-Before you can start using Ansible you need to install it on the management machine. Your notebook or some in-house
-machine in the company. One thing you need to remember about security is that the user who can run ansible will have
+Before you can start using Ansible you need to install it on the management machine. 
+
+Ansible runs on Linux/Unix machines including Mac OSX. (There is no plan to port it to run on MS Windows.) This is the manegement machine.
+
+It can control (manage) both Linux/Unix machines and boxes running MS Windows.
+
+Your notebook or some in-house machine in the company can work. If you only have Windows machines you can install Linux as a virtual
+environment. e.g. <a href="/installing-ubuntu-linux-in-virtualbox">Ubuntu Linux in VirtualBox</a>.
+
+One thing you need to remember about security is that the user who can run ansible will have
 virtually unlimited control of all your servers. So make sure the account that is set up to run ansible has adequate
 authentication set up.
 
