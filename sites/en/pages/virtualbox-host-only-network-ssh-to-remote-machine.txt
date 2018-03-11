@@ -19,7 +19,9 @@ at a hosting company. The ssh clients are also more suitable to work than the Vi
 
 =abstract end
 
-VirtualBox creates virual networking for the boxes you run in it. By default 
+<h2>VirtualBox and networking</h2>
+
+VirtualBox creates virtual networking for the boxes you run in it. By default 
 VirtualBox set up a network with <a href="https://en.wikipedia.org/wiki/Network_address_translation">NAT (Network Address Translation)</a>. It gave our Linux box an IP address, configured your host machine as a router and allowed users on the machine to access the outside world. For example that's how we could <a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a>.
 
 We cannot however access the box from the outside world. Not even from our host machine.
@@ -27,7 +29,7 @@ We cannot however access the box from the outside world. Not even from our host 
 On one hand it is good that noone from the Internet can access our box, but we'd like to be able to ssh into the virtual box at
 least from our own Notebook/desktop computer. Later we'll also want to be able to set up several boxes and allow them to communicate among themselves.
 
-There are plenty of ways to set this up. We are going to use "Host-only networks". That is a network configuratiom option provided by VirtualBox that allows your host to access your guest OS-es as if they were on some local network.
+There are plenty of ways to set this up. We are going to use "Host-only networks". That is a network configuration option provided by VirtualBox that allows your host to access your guest OS-es as if they were on some local network.
 
 <h2>Create host-only network for VirtualBox</h2>
 
@@ -36,11 +38,11 @@ VirtualBoxes to use that network as well.
 
 Turn off your guest operating system (<hl>sudo shutdown -P now</hl>).
 
-In order to create (or verify the exitance of) a Host-Only network click on <b>Global Tools</b> in the top-right corner of the VirtualBox window. It should look like this:
+In order to create (or verify the existence of) a Host-Only network click on <b>Global Tools</b> in the top-right corner of the VirtualBox window. It should look like this:
 
 <img src="/img/vb1/vboxnet1.png">
 
-Here clieck on <b>Host Network Manager</b> the lower of the two boxes.
+Here click on <b>Host Network Manager</b> the lower of the two boxes.
 
 Here you might see 0 or more lines. The image is from a OSX host. I think on Windows hosts the "Name" field might hold some much longer name.
 
@@ -67,16 +69,131 @@ Click on the <hl>Network</hl> tab.
 
 Adapter 1 is set to NAT.
 
+<img src="/img/vb1/adapter1.png">
 
 Click to Adapter 2
 
-Select "Attached toL" "Host-only Adapter".
+Select "Attached to:" "Host-only Adapter".
 
 Name: select the vboxnet0 or whatever it is called on your system.
 
 Press OK.
 
-<img src="/img/vb1/adapter1.png">
-
 <img src="/img/vb1/adapter2.png">
+
+By this you configured the the Host-only networking for this box.
+
+Let's boot it now and make sure that Ubuntu is also configured properly.
+
+<h2>Add interface to Ubuntu Linux</h2>
+
+Once the box is running, log in and run the following command:
+
+<code>
+$ ifconfig -a
+</code>
+
+This one shows the active network interfaces. We have two. The one created for the NAT Adapter
+and the "lo" the loopback interface so the computer can talk to itself.
+
+<img src="/img/vb1/ifconfig-1.png">
+
+<code>
+$ ifconfig -a
+</code>
+
+Will show all the interfaces, including the one that is not currently enabled.
+Here we can see an extra interface called <b>enp0s8</b> that does not have an associated IP address.
+
+<img src="/img/vb1/ifconfig-2.png">
+
+
+We need to edit the file of the interfaces: <b>/etc/network/interfaces</b>.
+As it is owned by root we need to use <hl>sudo</hl>. If you are not familiar with more powerful
+editors then use <a href="/nano">nano</a>:
+
+
+<code>
+$ sudo nano /etc/network/interfaces
+</code>
+
+Add the following lines to the end of the file:
+
+<code>
+auto enp0s8
+iface enp0s8 inet static
+address 192.168.56.10
+netmask 255.255.255.0
+</code>
+
+Then we need to start the network card. We can either restart the machine using <hl>sudo shutdown -r now</hl> or
+we can install a software that can do it for us:
+
+<code>
+$ sudo apt-get install ifupdown
+</code>
+
+Start the network interface:
+
+<code>
+$ sudo ifup enp0s8
+</code>
+
+You can verify that the interface was configured by running <hl>ifconfig</hl> again and observing that there
+are now 3 network cards listed and each one of them has an IP address.
+
+
+In addition you can test this by opening the Cmd window of your Windows machine and type in
+
+<code>
+ping 192.168.56.10
+</code>
+
+You should be able to see 4 responses.
+
+<h2>Install ssh server</h2>
+
+By default this Ubuntu installation does not come with an ssh server so 
+if you have not done so yet you will need to install it:
+
+<code>
+$ sudo apt-get install ssh
+</code>
+
+This installs and starts the server.
+
+<h2>Self ssh</h2>
+
+You can try the ssh server for locally by trying to connect from your Linux box back to your Linux box.
+
+Type in:
+
+<code>
+$ ssh localhost
+</code>
+
+At first it will ask you to verify the "host" which in this case means the "remote machine" which is our Ubuntu Linux.
+If you type in <hl>yes</hl> the ssh client will save the key of your sever in a file called <hl>.ssh/known_hosts</hl>
+so it won't need to ask this question again and it will go on to ask you for your "remote" password.
+As "remote" and "local" are the same machine now this the password of your Linux user.
+
+<img src="/img/vb1/ssh-1.png">
+
+If this is successful you can now open your ssh client on your desktop and connect to the Ubuntu machine.
+
+On Windows you will need to <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">download putty.exe</a> (No need for the .msi file. Just download the exe and run it from the download directory or from the desktop)
+
+You will need to type in the IP address of the "remote machine" which is our Ubuntu box <hl>192.168.56.10</hl> and then it will ask you for username and password.
+
+
+<h2>Vocabulary clarification</h2>
+
+VirtualBox uses <hl>host</hl> to describe your main operating system.
+VirtualBox uses <hl>guest</hl> to describe the OS that is installed inside the VB image.
+
+In networking terms the computer you sitting at is usually called the <hl>client</hl>. The machine you are connecting to is usually called the server or the host.
+
+In our setup the terms get mixed. Especially the word <hl>host</hl> It can both refer to your Windows system (VirtualBox host) and to the Ubuntu box which (network host). So make sure you understand when do refer to one and when to the other.
+
+If it is still unclear, let me know and I'll try to further clarify it.
 
