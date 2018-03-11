@@ -17,8 +17,10 @@ A Linux mini-series
     <li><a href="/installing-ubuntu-linux-in-virtualbox">Installing Ubuntu Linux in VirtualBox on top of Windows, Mac, or another Linux system</a></li>
     <li><a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a></li>
     <li>...</li>
+    <li><a href="https://code-maven.com/exercise-linux-as-a-virtual-environment-nginx">exercises</a></li>
 </ol>
 
 <!--
     <li><a href=""></a></li>
 -->
+
