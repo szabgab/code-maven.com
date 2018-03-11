@@ -1,0 +1,23 @@
+=title Linux
+=timestamp 2018-03-11T11:30:01
+=indexes Linux 
+=status show
+=books linux
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+A Linux mini-series
+
+=abstract end
+
+<ol>
+    <li><a href="/installing-ubuntu-linux-in-virtualbox">Installing Ubuntu Linux in VirtualBox on top of Windows, Mac, or another Linux system</a></li>
+    <li><a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a></li>
+</ol>
+
+<!--
+    <li><a href=""></a></li>
+-->
