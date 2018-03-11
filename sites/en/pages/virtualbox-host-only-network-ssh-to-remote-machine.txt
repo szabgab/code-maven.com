@@ -1,0 +1,82 @@
+=title VirtualBox host-only network - ssh to remote machine
+=timestamp 2018-01-01T07:30:01
+=indexes Linux, ssh, VirtualBox 
+=status draft
+=books linux
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is a strange article that includes several seemingly unrelated subjects. We need this because after we 
+<a href="/installing-ubuntu-linux-in-virtualbox">installed Ubuntu in VirtualBox</a> we can only log in to
+it via the window of VirtualBox. Instead of that we would like to be able to use some <hl>ssh</hl> client
+such as the <hl>ssh</hl> command on an OSX or Linux, or Putty on a Windows machine.
+
+We prefer the ssh client as that's how you'd interact with a Linux machine if it was running on a server
+at a hosting company. The ssh clients are also more suitable to work than the VirtualBox window.
+
+=abstract end
+
+VirtualBox creates virual networking for the boxes you run in it. By default 
+VirtualBox set up a network with <a href="https://en.wikipedia.org/wiki/Network_address_translation">NAT (Network Address Translation)</a>. It gave our Linux box an IP address, configured your host machine as a router and allowed users on the machine to access the outside world. For example that's how we could <a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a>.
+
+We cannot however access the box from the outside world. Not even from our host machine.
+
+On one hand it is good that noone from the Internet can access our box, but we'd like to be able to ssh into the virtual box at
+least from our own Notebook/desktop computer. Later we'll also want to be able to set up several boxes and allow them to communicate among themselves.
+
+There are plenty of ways to set this up. We are going to use "Host-only networks". That is a network configuratiom option provided by VirtualBox that allows your host to access your guest OS-es as if they were on some local network.
+
+<h2>Create host-only network for VirtualBox</h2>
+
+First we need to create or enable a Host-only network of VitualBox. Then we are going to tell each one of our (currently one :)
+VirtualBoxes to use that network as well.
+
+Turn off your guest operating system (<hl>sudo shutdown -P now</hl>).
+
+In order to create (or verify the exitance of) a Host-Only network click on <b>Global Tools</b> in the top-right corner of the VirtualBox window. It should look like this:
+
+<img src="/img/vb1/vboxnet1.png">
+
+Here clieck on <b>Host Network Manager</b> the lower of the two boxes.
+
+Here you might see 0 or more lines. The image is from a OSX host. I think on Windows hosts the "Name" field might hold some much longer name.
+
+<img src="/img/vb1/vboxnet0.png">
+
+If you don't have any entry then you need to create one.
+
+Click on the <b>Create+</b> button in the top left corner.
+
+If you host operating system is MS Windows, this operation might need Windows Admin rights. Look for the popup window that 
+might be in the background.
+
+Set the IPV4 Address/Mask to <hl>192.168.56.1/24</hl> to be similar to my setup. You don't need to enable the DHCP server for our configuration, but it won't hurt either so if it on, leave it on.
+
+<h2>Add host-only network to your VirtualBox guest</h2>
+
+Each VirtualBox guest need to be configured to use the Host-only network of VirtualBox.
+
+For this click on <hl>Machine Tools</hl>
+
+Select your machine and click on Settings.
+
+Click on the <hl>Network</hl> tab.
+
+Adapter 1 is set to NAT.
+
+
+Click to Adapter 2
+
+Select "Attached toL" "Host-only Adapter".
+
+Name: select the vboxnet0 or whatever it is called on your system.
+
+Press OK.
+
+<img src="/img/vb1/adapter1.png">
+
+<img src="/img/vb1/adapter2.png">
+
