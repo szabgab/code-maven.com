@@ -18,6 +18,8 @@ A Linux mini-series
     <li><a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a></li>
     <li><a href="/nano">Nano the simplest editor for Linux</a></li>
     <li><a href="/virtualbox-host-only-network-ssh-to-remote-machine">VirtualBox host-only network - ssh to remote machine</a></li>
+    <li><a href="/setup-2-ubuntu-boxes-in-virtualbox-to-communicate-with-each-other">Setup 2 Ubuntu boxes in VirtualBox to communicate with each other</a></li>
+    <li><a href="/generate-and-deploy-ssh-private-public-keypair">Generate and deploy ssh private public keypair (ssh-keygen, ssh-copy-id)</a></li>
     <li>...</li>
     <li><a href="/exercise-linux-as-a-virtual-environment-nginx">exercises</a></li>
 </ol>
