@@ -1,7 +1,7 @@
 =title VirtualBox host-only network - ssh to remote machine
 =timestamp 2018-01-01T07:30:01
 =indexes Linux, ssh, VirtualBox 
-=status draft
+=status show
 =books linux
 =author szabgab
 =archive 1
