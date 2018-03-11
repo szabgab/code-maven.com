@@ -50,6 +50,15 @@ Later on we'll be able to automate that part as well.
 For now however it might be better for you to do all the step manually so you better understand them and
 you'll be able to experiment with them
 
+<h2>Reduce memory allocation</h2>
+
+If our physical computer only has 4 Gb memory then you won't be able to run 4 boxes of 1 Gb each.
+If this setup is mostly to experiment with networking and/or Ansible, then we don't need that much memory
+for the boxes anyway. So before I cloned the boxes I've configured the one I have to have only 256 Mb memory.
+
+For this I had to shut down the linux box. Select the machine in the VirtualBox gui. click on Setup.
+Select the "System" tab, and adjuts the memory.
+
 <h2>Clone the VM</h2>
 
 Shut down the Ubuntu box (<hl>sudo shutdown -P now</hl> will work well.)
