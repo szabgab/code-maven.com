@@ -72,7 +72,7 @@ before it copied the public key, but then it creates the necessary directory and
 new public key. We just need to provide the IP address of the remote server.
 
 <code>
-ssh-copy-id 192.168.56.10
+ssh-copy-id 192.168.56.11
 </code>
 
 The output looks like this:
@@ -81,17 +81,17 @@ The output looks like this:
 /usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed: "/home/foo/.ssh/id_rsa.pub"
 /usr/bin/ssh-copy-id: INFO: attempting to log in with the new key(s), to filter out any that are already installed
 /usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if you are prompted now it is to install the new keys
-foo@192.168.56.10's password:
+foo@192.168.56.11's password:
 
 Number of key(s) added: 1
 
-Now try logging into the machine, with:   "ssh '192.168.56.10'"
+Now try logging into the machine, with:   "ssh '192.168.56.11'"
 and check to make sure that only the key(s) you wanted were added.
 </code>
 
 Then you can <hl>ssh</hl> to the remote machine without providing a password.
 
 <code>
-$ ssh 192.168.56.10
+$ ssh 192.168.56.11
 </code>
 
