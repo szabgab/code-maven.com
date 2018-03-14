@@ -41,6 +41,19 @@ There are a number of ways to <a href="http://docs.ansible.com/ansible/latest/in
 
 Ansible is written in Python and as I already have Python 3 installed on my machine I went with <hl>virtualenv</hl> and <hl>pip</hl> here.
 
+
+<h3>Setting up Virtualenv on Ubuntu 17.04</h3>
+
+If you have a bare-bones Ubuntu 17.04 then this is how you set up a virtualenv for python3:
+
+<code>
+$ sudo apt-get install virtualenv python3-virtualenv python3-pip
+$ virtualenv venv --python=python3
+$ source venv/bin/activate
+</code>
+
+<h3>Setting up Ansible on Ubuntu 17.04</h3>
+
 <code>
 $ virtualenv venv
 $ source venv/bin/activate
@@ -65,6 +78,7 @@ More to come soon.
 
 <ol>
    <li><a href="/getting-started-with-ansible-centos">Getting Started with Ansible on Mac - managing CentOS on Digital Ocean</a></li>
+   <li><a href="/ansible-on-ubuntu-in-virtual-box-environment">Ansible on Ubuntu in VirtualBox environment - using Python 3</a></li>
 </ol>
 
 <!--
@@ -72,3 +86,6 @@ More to come soon.
 -->
 
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">
+
+
+
