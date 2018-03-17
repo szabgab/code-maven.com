@@ -26,11 +26,4 @@ In this series we are going to look at various features of Ansible.
    <li><a href="/enable-ansible-passwordless-sudo">Enable passwordless sudo for Ansible</a></li>
 </ol>
 
-<!--
-   <li><a href=""></a></li>
--->
-
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">
-
-
-

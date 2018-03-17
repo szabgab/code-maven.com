@@ -22,7 +22,7 @@ For this article I've created the host machine manually.
 
 Visit <a href="/digitalocean">Digital Ocean</a>, sign up if you don't have an account yet. (Using that link you are supposed to get $10 credit).
 
-If you have not done so yet, <a href="/generate-and-deploy-ssh-private-public-keypair">Create an ssh keypair</a> and upload the public key under the "SSH keys" section of the <a href="ttps://cloud.digitalocean.com/settings/security">Security</a> of your <a href="https://cloud.digitalocean.com/settings/profile">Profile</a>. This will be useful as this will allow you to connect to the remote host without providing a password.
+If you have not done so yet, <a href="/generate-and-deploy-ssh-private-public-keypair">Create an ssh keypair</a> and upload the public key under the "SSH keys" section of the <a href="https://cloud.digitalocean.com/settings/security">Security</a> of your <a href="https://cloud.digitalocean.com/settings/profile">Profile</a>. This will be useful as this will allow you to connect to the remote host without providing a password.
 
 Now, in order to create your first Droplet, visit the <a href="https://cloud.digitalocean.com/droplets">list of droplets</a> and click on the "Create" button and select "Droplets".
 

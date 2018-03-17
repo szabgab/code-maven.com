@@ -42,7 +42,7 @@ In order to improve your work-environment you could also add the above line to t
 
 Given that we can already ssh into <hl>ubu-box-1</hl> this a bit unnecessary, but for the methodology, let's use the command line <hl>ping</hl> program to see if the "remote" host is accessible on the IP level: (Stop with Ctrl-C)
 
-<ode>
+<code>
 $ ping 192.168.56.11
 PING 192.168.56.11 (192.168.56.11) 56(84) bytes of data.
 64 bytes from 192.168.56.11: icmp_seq=1 ttl=64 time=0.370 ms

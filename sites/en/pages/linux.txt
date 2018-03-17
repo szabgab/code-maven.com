@@ -24,9 +24,5 @@ A Linux mini-series
     <li><a href="/exercise-linux-as-a-virtual-environment-nginx">exercises</a></li>
 </ol>
 
-<!--
-    <li><a href=""></a></li>
--->
-
 <img src="/img/vb1/Tux.png" alt="Tux - The logo of Linux (the kernel)" />
 
