@@ -4,3 +4,5 @@
 *.pickle
 .DS_Store
 /.idea/
+/examples/python/cli/.cache
+github-token
