@@ -16,7 +16,7 @@ Sometime we need to reboot the servers using Ansible
 <h2>Ad-hoc command to reboot a single server</h2>
 
 <code>
-$ ansible -i inventory.cfg  192.168.56.11 -b -a "shutdown -r now"
+$ ansible -i inventory.cfg  192.168.56.11 -b -a "/sbin/shutdown -r now"
 </code>
 
 This reboots the server, but the reboot starts before Ansible finishes its work and thus it gives the following error message.
@@ -35,11 +35,34 @@ This reboots the server, but the reboot starts before Ansible finishes its work 
 We can tell the <hl>shudown</hl> command to wait 1 minute (or more) and reboot only after that. (Probably 1-2 sec would be enought but as far as I know you cannot specify that for the <hl>shutdown command</hl>.) This gives enough time for Ansible to return a success report. It returns immediately and the machine shuts down (and because of the <hl>-r</hl> flag reboots) 1 minutes later.
 
 <code>
-$ ansible -i inventory.cfg  192.168.56.11 -b -a "shutdown -r +1"
+$ ansible -i inventory.cfg  192.168.56.11 -b -a "/sbin/shutdown -r +1"
 </code>
 
 <code>
 192.168.56.11 | SUCCESS | rc=0 >>
 Shutdown scheduled for Sun 2018-03-18 17:01:40 IST, use 'shutdown -c' to cancel.
 </code>
+
+<h2>Reboot in a playbook</h2>
+
+<code>
+---
+- hosts: all
+  tasks:
+     - command: /sbin/shutdown -r now
+</code>
+
+<code>
+---
+- hosts: all
+  tasks:
+     - name: reboot
+      command: /sbin/shutdown -r now
+</code>
+
+<code>
+ansible-playbook -i inventory.cfg --limit 192.168.56.11 -b reboot.yml
+</code>
+
+This was also discussed in the <a href="/getting-started-with-ansible-centos">Getting started with Ansible on CentOS</a> article.
 
