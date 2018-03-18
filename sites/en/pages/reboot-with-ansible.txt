@@ -1,0 +1,45 @@
+=title Reboot using Ansible
+=timestamp 2018-03-18T17:00:01
+=indexes Ansible
+=status show
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Sometime we need to reboot the servers using Ansible
+
+=abstract end
+
+<h2>Ad-hoc command to reboot a single server</h2>
+
+<code>
+$ ansible -i inventory.cfg  192.168.56.11 -b -a "shutdown -r now"
+</code>
+
+This reboots the server, but the reboot starts before Ansible finishes its work and thus it gives the following error message.
+
+<code>
+192.168.56.11 | UNREACHABLE! => {
+    "changed": false,
+    "msg": "Failed to connect to the host via ssh: Shared connection to 192.168.56.11 closed.\r\n",
+    "unreachable": true
+}
+</code>
+
+
+<h2>Ad-hoc command for delayed reboot</h2>
+
+We can tell the <hl>shudown</hl> command to wait 1 minute (or more) and reboot only after that. (Probably 1-2 sec would be enought but as far as I know you cannot specify that for the <hl>shutdown command</hl>.) This gives enough time for Ansible to return a success report. It returns immediately and the machine shuts down (and because of the <hl>-r</hl> flag reboots) 1 minutes later.
+
+<code>
+$ ansible -i inventory.cfg  192.168.56.11 -b -a "shutdown -r +1"
+</code>
+
+<code>
+192.168.56.11 | SUCCESS | rc=0 >>
+Shutdown scheduled for Sun 2018-03-18 17:01:40 IST, use 'shutdown -c' to cancel.
+</code>
+

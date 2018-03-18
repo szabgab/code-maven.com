@@ -25,6 +25,7 @@ In this series we are going to look at various features of Ansible.
    <li><a href="/getting-started-with-ansible-centos">Getting Started with Ansible on Mac - managing CentOS on Digital Ocean</a></li>
    <li><a href="/ansible-on-ubuntu-in-virtual-box-environment">Ansible on Ubuntu in VirtualBox environment - using Python 3</a></li>
    <li><a href="/enable-ansible-passwordless-sudo">Enable passwordless sudo for Ansible</a></li>
+   <li><a href="/reboot-with-ansible">Reboot using Ansible</a></li>
 </ol>
 
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">
