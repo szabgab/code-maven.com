@@ -20,6 +20,7 @@ In this series we are going to look at various features of Ansible.
 =abstract end
 
 <ol>
+   <li><a href="/setup-for-learning-ansible">Setup for Learning Ansible </a></li>
    <li><a href="/installing-ansible">Installing Ansible</a></li>
    <li><a href="/getting-started-with-ansible-centos">Getting Started with Ansible on Mac - managing CentOS on Digital Ocean</a></li>
    <li><a href="/ansible-on-ubuntu-in-virtual-box-environment">Ansible on Ubuntu in VirtualBox environment - using Python 3</a></li>
