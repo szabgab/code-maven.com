@@ -164,7 +164,7 @@ This installs and starts the server.
 
 <h2>Self ssh</h2>
 
-You can try the ssh server for locally by trying to connect from your Linux box back to your Linux box.
+You can try the ssh server locally by trying to connect from your virtual Linux box back to the same virtual Linux box. Every linux machine has the IP address <hl>127.0.0.1</hl> to refer to itself, and by default every Linux machine maps the name <hl>localhost</hl> to this IP address. So if we <hl>ssh</hl> to <hl>localhost</hl> we effectively talking to ourselves.
 
 Type in:
 
@@ -184,6 +184,61 @@ If this is successful you can now open your ssh client on your desktop and conne
 On Windows you will need to <a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">download putty.exe</a> (No need for the .msi file. Just download the exe and run it from the download directory or from the desktop)
 
 You will need to type in the IP address of the "remote machine" which is our Ubuntu box <hl>192.168.56.10</hl> and then it will ask you for username and password.
+
+<h2>@ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @</h2>
+
+If this is not the first time you are setting up machines you might easily encounter an error message that looks like this:
+
+<code>
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the ECDSA key sent by the remote host is
+SHA256:HnZL2cdy+SVZ0PUwajmqndUgqWl0n7dLMEP3o4ZDZSw.
+Please contact your system administrator.
+Add correct host key in /Users/dpinchoff/.ssh/known_hosts to get rid of this message.
+Offending ECDSA key in /Users/dpinchoff/.ssh/known_hosts:2
+ECDSA host key for 192.168.56.10 has changed and you have requested strict checking.
+Host key verification failed
+</code>
+
+<h3>Explanation</h3>
+
+When you ssh to a machine the first time, ssh will ask the ECDSA key of the host. It will then ask you to verify that the key
+it received from the host is the correct key. This is used so you, the user, will know that you are connecting to the server
+you intended to connect and not some other machine posing as that server. The question looks like this:
+
+<img src="/img/vb1/ssh-1.png">
+
+When you say "yes" to this, the signature of that server is saved in the <hl>~/.ssh/known_hosts</hl> file. One line for each server you connect to in the format of
+
+<code>
+hostname server-key
+</code>
+
+or
+
+<code>
+IP-address server-key
+</code>
+
+Any subsequent time you connect to the same machine, ssh will verify that the key the remote server sends is the same as listed for the given hostname or IP address in the <hl>~/.ssh/known_hosts</hl> file.
+If it is the same key, the ssh process will continue and then the server will try to verify that you are who you claim to be. Either by asking your password or by asking you to use your private key to make sure it corresponds to the public key it has on file. (In the <hl>~/.ssh/authorized_keys</hl> file on the remote machine)
+If the ssh does not find the hostname or IP address of the remote machine in the <hl>~/.ssh/known_hosts</hl> file of your local user, then it asks the question as we described above. If, however, the hostname was found, but the signature the server sent you is not the same as you have on file, then you get the above error message. (That claims to be as WARNING.)
+
+This can happen either if you replaced the server machine with another machine, but used the same IP address and/or same hostname. Or if some other machine poses as your server. This is what's usually called <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">man-in-the-middle attack</a>. Even if the attacker is a woman called Mallory. It can happen for example if one of the boxes that acts as a router between you and the remote machine where your traffic passes will suddenly try to act as that remote server. If you don't notice this, you might type in your password and let the owner of that box, the man in the middle, know your password.
+
+So if you get such message, start by being suspicious.
+
+This can easily happen if you are currently playing with virtual images on your computer and you clone them and change their IP address and maybe you destroy one and then create a new machine with the same IP as you had earlier. In that case it is safe to accept the new signature. The way do that is that you edit the <hl>~/.ssh/known_hosts</hl> file on the computer from which you run the ssh client and remove the line that corresponds to the specific server. This is the line that was mentioned in the above error message, in this case it is line 2 in the <hl>~/.ssh/known_hosts</hl> file .
+
+<code>
+Offending ECDSA key in /Users/dpinchoff/.ssh/known_hosts:2
+</code>
+
+Remove line 2 from <hl>~/.ssh/known_hosts</hl>. Then try to ssh again. It will ask you to verify the key of the remote host. When you say "yes" it will save that key in the <hl>~/.ssh/known_hosts</hl> file.
 
 
 <h2>Vocabulary clarification</h2>
