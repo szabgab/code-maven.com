@@ -1,0 +1,116 @@
+=title Install and configure Nginx using Ansible
+=timestamp 2018-01-01T07:30:01
+=indexes files
+=status draft
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Probably one of the easiest and most straight forward things we can do using Ansible is to install and configure a web server.
+Specifically Nginx.
+
+=abstract end
+
+Let's log in to our management machine and use the <hl>curl</hl> on the command line to check  if the web server on
+our server is accessible:
+
+<code>
+curl http://192.168.56.11
+</code>
+
+The response is
+
+<code>
+curl: (7) Failed to connect to 192.168.56.11 port 80: Connection refused
+</code>
+
+because there is no web server on that box.
+
+<h2>Install Nginx on Ubuntu</h2>
+
+We need to have inventory file that lists all the boxes we would like to manage.
+
+<code>
+[web]
+192.168.56.11
+
+[web:vars]
+ansible_python_interpreter=/usr/bin/python3
+</code>
+
+Here we have a group called "web" (you can have any arbitrary name there) and the single remote machine is listed in that group.
+The <hl>ansible_python_interpreter=/usr/bin/python3</hl> is there so Ansible will use Python 3 on the remote machine.
+
+We create an Ansible Playbook to ensure we have the latest version of Nginx installed.
+
+<code>
+---
+- hosts: all
+  tasks:
+    - name: ensure nginx is at the latest version
+      apt: name=nginx state=latest
+    - name: start nginx
+      service:
+          name: nginx
+          state: started
+</code>
+
+In this playbook we have one task that has two steps. The "- name: ...." are only there for the humans, to make sense of the commands.
+The first step <hl>apt: name=nginx state=latest</hl> tells the <hl>apt</hl> module that we want the latest version of the <hl>nginx</hl> package to be installed.
+The next step tells Linux to make sure the <hl>service</hl> called <hl>nginx</hl> is <hl>started</hl>.
+Interestingly on the current version of Ubuntu you don't necessarily need the latter as Ubuntu takes care of it, but it is better to explicitely say what is that state you require. Especially if you will ever want to uninstall and then re-install nginx.
+
+
+I assume you've already <a href="/enable-ansible-passwordless-sudo">set up passwordless sudo</a> so we don't need to supply the <hl>-K</hl> or <hl>--ask-become-pass</hl> flags.
+
+<code>
+$ ansible-playbook -i inventory.cfg nginx.yml -b
+</code>
+
+The <hl>-b</hl> tells ansible to become <hl>root</hl> on the remote server using <hl>sudo</hl>. The output looks like this:
+
+<code>
+PLAY [all] *******************************************************************************************************
+
+TASK [Gathering Facts] *******************************************************************************************
+ok: [192.168.56.11]
+
+TASK [ensure nginx is at the latest version] *********************************************************************
+changed: [192.168.56.11]
+
+PLAY RECAP *******************************************************************************************************
+192.168.56.11              : ok=2    changed=1    unreachable=0    failed=0
+</code>
+
+Then we can try <hl>curl</hl> again. This time we get some HTML output that I have trimmed for bravity.
+Apparently the default page.
+
+<code>
+$ curl http://192.168.56.1111
+<!DOCTYPE html>
+....
+</code>
+
+
+<h2>Uninstall Nginx</h2>
+
+In order to allow us to see the full cycle we 
+
+<code>
+---
+- hosts: all
+  tasks:
+    - name: stop nginx
+      service:
+          name: nginx
+          state: stopped
+    - name: ensure nginx is not installed
+      apt: name=nginx state=absent
+</code>
+
+TBD.  setting state=absent and runing the playbook reported <hl>changed=1</hl> but the web server was still installed and running.
+
+
