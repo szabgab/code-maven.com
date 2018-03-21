@@ -128,7 +128,7 @@ That is in <hl>/home/foo/static-site</hl>.
 
 <h2>The Ansible Playbook to set up Nginx</h2>
 
-<include file="examples/ansible/nginx.cfg">
+<include file="examples/ansible/nginx.yml">
 
 Then I run this command:
 
