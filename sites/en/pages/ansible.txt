@@ -28,6 +28,7 @@ In this series we are going to look at various features of Ansible.
    <li><a href="/reboot-with-ansible">Reboot using Ansible</a></li>
    <li><a href="/waiting-with-ansible-pausing-playbook">Waiting with Ansible, pausing a Playbook</a></li>
    <li><a href="/install-and-configure-nginx-using-ansible">Install and configure Nginx using Ansible</a></li>
+   <li><a href="/installing-perl-and-cpan-modules-using-ansible">Installing Perl and CPAN modules using Ansible</a></li>
 </ol>
 
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">
