@@ -66,3 +66,29 @@ ansible-playbook -i inventory.cfg --limit 192.168.56.11 -b reboot.yml
 
 This was also discussed in the <a href="/getting-started-with-ansible-centos">Getting started with Ansible on CentOS</a> article.
 
+<h2>Forgetting to become root</h2>
+
+With all the explanation, the next time I tried to reboot a server I forgot to tell Ansible to <b>become root</b>.
+Or in other words, I've forgotten to supply the <hl>-b</hl> flag.
+
+<code>
+$ ansible -i inventory.cfg 192.168.56.11 -a "/sbin/shutdown -r now"
+</code>
+
+The response was violent.
+
+<code>
+192.168.56.11 | FAILED | rc=1 >>
+Failed to set wall message, ignoring: Interactive authentication required.
+Failed to reboot system via logind: Interactive authentication required.
+Failed to open /dev/initctl: Permission denied
+Failed to talk to init daemon.non-zero return code
+</code>
+
+It took me a while to understand what happened, but afer a while I figure it out:
+
+<code>
+$ ansible -i inventory.cfg 192.168.56.11 -a "/sbin/shutdown -r now -b"
+</code>
+
+
