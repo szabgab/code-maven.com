@@ -1,0 +1,8 @@
+- hosts: all
+  gather_facts: yes
+  tasks:
+    - name: 'Module version'
+      command: perl -mPath::Tiny -E 'say $Path::Tiny::VERSION'
+      register: out
+    - debug: msg={{out.stdout}}
+
