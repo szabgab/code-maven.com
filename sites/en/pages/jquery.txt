@@ -1,0 +1,17 @@
+=title jQuery
+=timestamp 2018-01-01T07:30:01
+=indexes jQuery
+=status draft
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+=abstract end
+
+<include file="examples/jquery/index.html">
+
+<include file="examples/jquery/code.js">
+
