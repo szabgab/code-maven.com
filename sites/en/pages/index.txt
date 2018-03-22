@@ -11,7 +11,8 @@
 
 <div class="main-content">
 <ul>
-  <li><a href="/angularjs">AngularJS Tutorial</a></li>
+  <li><a href="/linux">Linux</a></li>
+  <li><a href="/ansible">Ansible</a></li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
   <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
   <li><a href="/javascript">JavaScript</a></li>
@@ -19,7 +20,6 @@
   <li><a href="/python">Python</a></li>
   <li><a href="/ruby">Ruby</a></li>
   <li><a href="/svg">SVG</a></li>
-  <li><a href="http://perlmaven.com/">Perl</a></li>
 </ul>
 </div>
 

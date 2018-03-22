@@ -9,43 +9,28 @@
 =comments_disqus_enable 0
 =show_social 0
 
-The Code Maven site is for people who are interested in programming. It grew out from the
-<a href="http://perlmaven.com/">Perl Maven</a> site that deals exclusively with programming in Perl.
+<h2>Contact info</h2>
 
-The Code Maven site, on the other hand, will cover all kinds of subjects.
+The Code-Maven site is maintained by <a href="http://szabgab.com/">Gabor Szabo</a>.
+You can <a href="https://szabgab.com/contact.html">contact him</a>.
 
-For now, the guiding line is everything that interests the authors
-(mostly <a href="http://szabgab.com/">Gabor Szabo</a>), but guest-posts are also welcome.
+<h2>Main Topics</h2>
 
-<h2>Planned Topics</h2>
-
-Currently the planned subjects are <a href="http://nodejs.org/">Node.js</a>,
-<a href="https://angularjs.org/">Angular.js</a>, <a href="http://backbonejs.org/">Backbone.js</a> and JavaScript in general.
-
-<a href="https://www.python.org/">Python</a>.
-
-<a href="https://www.ruby-lang.org/">Ruby</a>.
-
-Perl probably is not going to be covered here as it is being covered on the <a href="http://perlmaven.com/">Perl Maven</a> and on
-the <a href="http://perl6maven.com/">Perl 6 Maven</a> sites.
-
-<a href="https://www.dartlang.org/">Dart</a>.
-
-HTML/CSS or if you prefer HTML5/CSS3.
-
-...just to name a few....
-
+<ul>
+  <li><a href="/linux">Linux</a></li>
+  <li><a href="/ansible">Ansible</a></li>
+  <li><a href="/flask">Flask</a>, the Python microframework.</li>
+  <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
+  <li><a href="/javascript">JavaScript</a></li>
+  <li><a href="/nodejs">NodeJS</a></li>
+  <li><a href="/python">Python</a></li>
+  <li><a href="/ruby">Ruby</a></li>
+  <li><a href="/svg">SVG</a></li>
+</ul>
 
 <h2>Source</h2>
 
 The source of all the articles and examples can be found in <a href="https://github.com/szabgab/code-maven.com">this repository</a>.
 
-The source code of the website can be found in <a href="https://github.com/szabgab/Perl-Maven">this repository</a>.
-
 Patches are welcome!
-
-<h2 id="translations">Translations</h2>
-
-Volunteers have translated some of the Code Maven pages. All the translations can be found in the same
-<a href="https://github.com/szabgab/code-maven.com">GitHub repository</a>.
 
