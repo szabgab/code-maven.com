@@ -1,0 +1,23 @@
+=title Jenkins
+=timestamp 2018-03-24T07:30:01
+=indexes Jenkins, Devops
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://jenkins.io/">Jenkins</a> is an automation server. It allows for all kinds of automations. It is primarily used for Build automation, Continuous Integration, and Continuous Deployment.
+
+=abstract end
+
+This is a placeholder for the Jenkins article series. While we are getting ready to the series, feel free to check out the 
+<a href="https://code-maven.com/slides/jenkins/">Jenkins slides</a>.
+
+<!--
+<ol>
+    <li><a href=""></a></li>
+</ol>
+-->
+

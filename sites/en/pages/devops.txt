@@ -23,6 +23,7 @@ category as they try to provide a solution to several topics.
     <li><a href="https://getfedora.org/">Fedora</a></li>
     <li><a href="https://www.debian.org/">Debian</a></li>
     <li><a href="https://www.freebsd.org/">FreeBSD</a></li>
+    <li>The <a href="/linux">Linux</a> series provides some introduction.</li>
 </ul>
 
 
@@ -50,7 +51,7 @@ category as they try to provide a solution to several topics.
 
 <h2>Continuous Integration</h2>
 <ul>
-    <li><a href="https://jenkins.io/">Jenkins</a></li>
+    <li><a href="https://jenkins.io/">Jenkins</a> - the <a href="/jenkins">Jenkins series</a> will cover it.</li>
     <li><a href="https://travis-ci.org/">Travis-CI</a></li>
     <li><a href="https://www.appveyor.com/">Appveyor</a></li>
     <li><a href="https://circleci.com/">Circle CI</a></li>
@@ -61,7 +62,7 @@ category as they try to provide a solution to several topics.
 
 <h2>Configuration Management</h2>
 <ul>
-    <li><a href="https://www.ansible.com/">Ansible</a></li>
+    <li><a href="https://www.ansible.com/">Ansible</a> - the <a href="/ansible">Ansible series</a> is an introduction</li>
     <li><a href="https://cfengine.com/">CFEngine</a></li>
     <li><a href="https://www.chef.io/">Chef</a></li>
     <li><a href="https://www.docker.com/">Docker</a></li>
