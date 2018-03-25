@@ -15,9 +15,12 @@
 This is a placeholder for the Jenkins article series. While we are getting ready to the series, feel free to check out the 
 <a href="https://code-maven.com/slides/jenkins/">Jenkins slides</a>.
 
-<!--
 <ol>
-    <li><a href=""></a></li>
+    <li><a href="/install-jenkins-on-ubuntu">Install Jenkins on Ubuntu</a></li>
+    <li>Triggers from Version Control Systems</li>
+    <li>Report failures.</li>
+    <li>Send alerts</li>
+    <li>Collect test coverage data.</li>
 </ol>
--->
+
 

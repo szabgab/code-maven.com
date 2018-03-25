@@ -1,8 +1,8 @@
 =title Install Jenkins on Ubuntu
-=timestamp 2018-01-01T07:30:01
+=timestamp 2018-03-25T19:30:01
 =indexes Vagrant
 =status draft
-=books jenkins
+=books jenkins, Vagrant, VirtualBox, Ubuntu
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -113,16 +113,21 @@ The next page will offer you to Customize Jenkins:
 
 <img src="/img/customize-jenkins.png">
 
-Select <hl></hl>
+Select <hl>Install suggested plugins</hl>
+
+You will see a progress window saying <hl>Getting Started</hl>:
 
 <img src="/img/getting-started-jenkins.png">
 
+After a while it finished and shows a new page asking you to
+<hl>Create Firs Admin User</hl>:
 
 <img src="/img/create-first-admin-user-jenkins.png">
 
-<img src="/img/jankins-is-ready.png">
+I typed in "foobar" as the username, "Foo Bar" as the Full name
+and my real e-mail address.
 
+Then that's done you will see a page confirming our success:
 
-sudo apt-get install -y python
-sudo apt-get install -y virtualenv
-sudo apt-get install -y postfix
+<img src="/img/jenkins-is-ready.png">
+
