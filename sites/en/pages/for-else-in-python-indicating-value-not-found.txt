@@ -19,14 +19,14 @@ In most of the languages it is a bit cumbersome.
 
 For example this very simple example in which we are looking for an even number:
 
-<include file="pro/examples/python/for_else/find_even_number.py">
+<include file="examples/python/for_else/find_even_number.py">
 
 If we run this program it will set the name <hl>even</hl> to be 4 which is what we wanted.
 
 The problem is that if there is no match (there is no even number) then the variable <hl>even</hl>
 will never get a value and thus it will be undeclared.
 
-<include file="pro/examples/python/for_else/no_even_number.py">
+<include file="examples/python/for_else/no_even_number.py">
 
 Running this program will result in the following exception:
 
@@ -46,7 +46,7 @@ set a default value to the <hl>even</hl> variable before we enter the loop.
 That way if we pass all the values without finding a match, the variable <hl>even</hl>
 already has a value:
 
-<include file="pro/examples/python/for_else/default_result.py">
+<include file="examples/python/for_else/default_result.py">
 
 <code>
 $ python default_result.py
@@ -59,7 +59,7 @@ None
 
 A more elegant way that can be written in Python is the use of <hl>else</hl> after the <hl>for</hl>-loop.
 
-<include file="pro/examples/python/for_else/for_else.py">
+<include file="examples/python/for_else/for_else.py">
 
 The code in the <hl>else</hl> part will be executed if the loop has finished normally, without calling <hl>break</hl>.
 
