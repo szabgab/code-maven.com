@@ -1,7 +1,7 @@
 =title Survey: Configuration Management Tools
-=timestamp 2017-11-09T09:30:01
+=timestamp 2018-03-28T20:30:01
 =indexes survey
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
@@ -12,21 +12,25 @@ Does your company use any Configuration Management tools? Which one(s)?
 
 =abstract end
 
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnXylKFogjBpiFILjuCGx5QyqPyaSTGj0y_czpadD6FYHRGg/viewform?embedded=true" width="760" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-
+The survey had 59 responses. It ran in the beginning of 2018.
 
 <h2>Links to the CM systems in the survey</h2>
 
 <ul>
-  <li><a href="https://www.ansible.com/">Ansible</a></li>
-  <li><a href="https://cfengine.com/">CFEngine</a></li>
-  <li><a href="https://www.chef.io/">Chef</a></li>
-  <li><a href="https://www.docker.com/">Docker</a></li>
-  <li><a href="https://docs.microsoft.com/en-us/powershell/dsc/overview">PowerShell DSC</a></li>
-  <li><a href="https://puppet.com/">Puppet</a></li>
-  <li><a href="https://www.rexify.org/">Rex</a></li>
-  <li><a href="https://saltstack.com/">SaltStack</a></li>
-  <li><a href="https://github.com/melezhik/sparrowdo">Sparrowdo</a></li>
+  <li>We don't use any CM tool  19 (32.2%)
+  <li><a href="https://www.ansible.com/">Ansible</a> 18 (30.5%) </li>
+  <li><a href="https://cfengine.com/">CFEngine</a> 1 (1.7%)</li>
+  <li><a href="https://www.chef.io/">Chef</a> 6 (10.2%)</li>
+  <li><a href="https://www.docker.com/">Docker</a> 19 (32.2%)</li>
+  <li><a href="https://docs.microsoft.com/en-us/powershell/dsc/overview">PowerShell DSC</a> 3 (5.1%)</li>
+  <li><a href="https://puppet.com/">Puppet</a> 9 (15.3%)</li>
+  <li><a href="https://www.rexify.org/">Rex</a> 8 (13.6%)</li>
+  <li><a href="https://saltstack.com/">SaltStack</a> 4 (6.8%)</li>
+  <li><a href="https://github.com/melezhik/sparrowdo">Sparrowdo</a> 2 (3.4%)</li>
+  <li><a href="http://www.quattor.org/">Quattor</a> 1 (1.7%)</li>
+  <li><a href="https://www.microfocus.com/products/change-management/starteam/">StarTeam</a> 1 (1.7%)</li>
+  <li><a href="https://en.wikipedia.org/wiki/Environment_Modules_(software)">Environment Modules</a> 1 (1.7%)</li>
+  <li>planned copy</li>
 </ul>
 
 <h2>Other Surveys</h2>
@@ -36,6 +40,3 @@ Does your company use any Configuration Management tools? Which one(s)?
   <li><a href="/continuous-integration-systems">Continuous Integration Systems</a></li>
 </ul>
 
-<h2>DevOps Workshops in Israel</h2>
-
-If you are interested in DevOps workshop, check out the ones I work on in the <a href="https://www.meetup.com/Code-Mavens/">Code Mavens</a> Meetup group. e.g. <a href="https://www.meetup.com/Code-Mavens/events/246815054/">Devops workshops: Linux as a virtual environment</a>.
