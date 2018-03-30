@@ -6,10 +6,19 @@
 =books python
 =archive 1
 =comments_disqus_enable 1
-=redirect /category/python
 
 =abstract start
 
-Just redirecting, before creating a proper page for Python. 
+Articles about Python
 
 =abstract end
+
+<ul>
+  <li><a href="https://code-maven.com/listing-a-directory-using-python">Listing a directory using Python</a></li>
+<!--
+  <li><a href=""></a></li>
+  <li><a href=""></a></li>
+-->
+</ul>
+
+Find additional Python-related articels in the <a href="/flask">Flask</a> series.
