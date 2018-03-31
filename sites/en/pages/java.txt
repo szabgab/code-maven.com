@@ -9,7 +9,7 @@
 
 =abstract start
 
-Articles about Java. 
+A placeholder fo articles about Java. 
 
 =abstract end
 
