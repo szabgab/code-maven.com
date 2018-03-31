@@ -1,4 +1,4 @@
-require "CSV"
+require "csv"
 
 
 filename = File.dirname(File.dirname(File.expand_path(__FILE__))) + '/data/distance.csv'
