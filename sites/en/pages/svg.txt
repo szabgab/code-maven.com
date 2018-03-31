@@ -144,3 +144,9 @@ in diameter and its center is 7 parts from one side.
 
 My drawing of the <a href="/svg-flag-of-greenland">flag of Greenland</a>.
 
+<h2>Other</h2>
+
+<ul>
+   <li><a href="/svg-linear-gradient">SVG Linear Gradient</a></li>
+</ul>
+
