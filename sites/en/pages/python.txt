@@ -14,11 +14,38 @@ Articles about Python
 =abstract end
 
 <ul>
-  <li><a href="https://code-maven.com/listing-a-directory-using-python">Listing a directory using Python</a></li>
+  <li><a href="/listing-a-directory-using-python">Listing a directory using Python</a></li>
+  <li><a href="/how-to-insert-a-dictionary-in-another-dictionary-in-python">How to insert a dictionary in another dictionary in Python (How to merge two dictionaries)</a></li>
+  <li><a href="/range-vs-xrange-in-python">range vs. xrange in Python</a></li>
+  <li><a href="/list-comprehension-vs-generator-expression">List Comprehension vs Generator Expressions in Python</a></li>
+  <li><a href="/function-or-callback-in-python">Plain function or Callback - An example in Python</a></li>
+  <li><a href="/callback-or-iterator-in-python">Callback or Iterator in Python</a></li>
+  <li><a href="/function-vs-generator-in-python">Function vs Generator in Python</a></li>
+  <li><a href="/urllib-vs-urllib2">urllib vs urllib2 in Python - fetch the content of 404 or raise exception?</a></li>
+  <li><a href="/print-html-links-using-python-htmlparser">Print HTML links using Python HTML Parser</a></li>
+  <li><a href="/extract-html-links-using-python-html-parser">Extract HTML links using Python HTML Parser</a></li>
+  <li><a href="/creating-an-iterator-in-python">Creating an Iterator in Python</a></li>
+  <li><a href="/python-weekly-stats">Python Weekly statistics (using urllib2, HTMLParser and pickle)</a></li>
+  <li><a href="/number-guessing-in-python">Solution: Number guessing game in Python</a></li>
+  <li><a href="/show-emoji-in-python">Show Emoji in Python code</a></li>
+  <li><a href="/for-else-in-python-indicating-value-not-found">for-else in Python indicating "value not found"</a></li>
+  <li><a href="/interactive-shell-with-cmd-in-python">Create your own interactive shell with cmd in Python</a></li>
+  <li><a href="/create-images-with-python-pil-pillow">Create images with Python PIL and Pillow and write text on them</a></li>
+  <li><a href="/showing-speed-improvement-with-gpu-cuda-numpy">Showing speed improvement using a GPU with CUDA and Python with numpy on Nvidia Quadro 2000D</a></li>
+  <li><a href="/introduction-to-python-unittest">Introduction to Python unittest</a></li>
+  <li><a href="/doctest-in-python">Doctest in Python</a></li>
+  <li><a href="/getting-started-with-pytest">Testing Python: Getting started with Pytest</a></li>
+  <li><a href="/http-requests-in-python">Send HTTP Requests in Python</a></li>
+  <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a></li>
+  <li><a href="/never-use-input-in-python2">Never use input() in Python 2</a></li>
+  <li><a href="/parallel-processing-using-fork-in-python">Parallel processing in Python using fork</a></li>
+  <li><a href="/static-server-in-python">Static web server in Python</a></li>
+  <li><a href="/serialize-datetime-object-as-json-in-python">How to serialize a datetime object as JSON using Python?</a></li>
+
 <!--
-  <li><a href=""></a></li>
   <li><a href=""></a></li>
 -->
 </ul>
 
 Find additional Python-related articels in the <a href="/flask">Flask</a> series.
+
