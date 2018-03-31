@@ -1,0 +1,23 @@
+=title Java
+=timestamp 2018-03-31T08:02:00
+=indexes Java 
+=status show
+=author szabgab
+=books java
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Articles about Java. 
+
+=abstract end
+
+<ul>
+  <li><a href="/hello-world-in-java">Hello World in Java</a></li>
+
+<!--
+  <li><a href=""></a></li>
+-->
+</ul>
+
