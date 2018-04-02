@@ -106,6 +106,3 @@ The output will be some HTML, that will look like the following image if you use
 
 <img src="/img/php-info-centos7.png">
 
-
-<include file="examples/php/">
-
