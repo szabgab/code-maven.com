@@ -15,6 +15,7 @@ Articles about PHP.
 
 <ul>
   <li><a href="/php-development-environment-on-centos">PHP development environment on CentOS</a></li>
+  <li><a href="/accept-get-and-post-parameters-in-php">Accept GET and POST parameters in PHP - use htmlspecialchars</a></li>
 <!--
   <li><a href=""></a></li>
 -->

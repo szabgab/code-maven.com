@@ -1,7 +1,7 @@
-=title Accept GET and POST parameters in PHP - what is htmlspecialchars
+=title Accept GET and POST parameters in PHP - use htmlspecialchars
 =timestamp 2018-04-02T16:30:01
 =indexes $_GET, $_POST, htmlspecialchars
-=status draft
+=status show
 =books php
 =author szabgab
 =archive 1
