@@ -1,7 +1,7 @@
 =title PHP development environment on CentOS
 =timestamp 2018-04-02T14:30:01
 =indexes PHP, CentOS, Vagrant
-=status draft
+=status show
 =books php
 =author szabgab
 =archive 1
@@ -94,7 +94,7 @@ They should all display <hl>Hello World!</hl>.
 
 <h2>First PHP page</h2>
 
-Now we can remove <hl>/var/www/html/index.html</hl> and create <hl>/var/www/html/index.php</hl> instead with the following conent:
+Now we can remove <hl>/var/www/html/index.html</hl> and create <hl>/var/www/html/index.php</hl> instead with the following content:
 
 <code>
 <?php phpinfo() ?>
@@ -105,4 +105,58 @@ Then use <hl>curl</hl> or your regular browser again with the same address as ea
 The output will be some HTML, that will look like the following image if you use a regular browser:
 
 <img src="/img/php-info-centos7.png">
+
+That looks quite good.
+
+However normally you'd not want to display all this information for a random visitor, but this can be very useful to understand the environment you code runs on.
+
+If we look at the error log of our web server using:
+
+<code>
+sudo less /var/log/httpd/error_log
+</code>
+
+
+Then we'll see a warning:
+
+<code>
+PHP Warning:  phpinfo(): It is not safe to rely on the system's timezone settings. You are *required* to use the date.timezone setting or the date_default_timezone_set() function. In case you used any of those methods and you are still getting this warning, you most likely misspelled the timezone identifier. We selected the timezone 'UTC' for now, but please set date.timezone to select your timezone. in /var/www/html/index.php on line 1
+</code>
+
+In order to avoid this warning we can change the <hl>index.php</hl> file to contain the following:
+
+<code>
+<?php
+    date_default_timezone_set('UTC');
+    phpinfo();
+?>
+</code>
+
+After the change we can setup a continuous monitoring on the <hl>error_log</hl> file by using:
+
+<code>
+sudo tail -f /var/log/httpd/error_log
+</code>
+
+In one terminal, while we edit the files in another terminal.
+
+
+Reload the web page. The content of the page looks the same, but there is no
+new warning in the error_log file.
+
+<h2>Hello World in PHP</h2>
+
+Change the <hl>/var/www/html/index.php</hl> file again to the following content and reload the
+page or rerun <hl>curl</hl>.
+
+<code>
+<?php
+    echo "Hello PHP World!";
+?>
+</code>
+
+The output will only contain the text <hl>Hello PHP World!</hl>.
+
+So we managed to print some text from our PHP code.
+
 
