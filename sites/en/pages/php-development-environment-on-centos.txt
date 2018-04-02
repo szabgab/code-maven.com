@@ -1,0 +1,111 @@
+=title PHP development environment on CentOS
+=timestamp 2018-04-02T14:30:01
+=indexes PHP, CentOS, Vagrant
+=status draft
+=books php
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<code>
+vagrant init centos/7
+</code>
+
+Edit the <hl>Vagrantfile</hl> and add the following line to be able to access the web server
+on the guest from the host machine.
+
+<code>
+config.vm.network "forwarded_port", guest: 80, host: 8080
+</code>
+
+Then run the following commands:
+
+<code>
+vagrant up
+vagrant ssh
+</code>
+
+That will land you at the prompt inside the guest operating system.
+
+There we need to update the packages and install Apache and PHP:
+
+<code>
+sudo yum -y update
+sudo yum -y install httpd
+sudo yum -y install php
+</code>
+
+Then we want to start the Apache web server and also make sure that it will start automatically
+every time we boot the machine:
+
+<code>
+sudo systemctl start httpd.service
+sudo systemctl enable httpd.service
+</code>
+
+By default CentOS has configured Apache to serve files from the <hl>/var/www/html/</hl> directory.
+We'll have to create files there and then edit them.
+In order to make this more convenient we would like to allow our current user called <hl>vagrant</hl>
+to be able to do that.
+
+So we change the ownership of that directory:
+
+<code>
+sudo chown vagrant.vagran /var/www/html/
+</code>
+
+<h2>Try the web server</h2>
+
+At this point the web server is read to serve your files. We just have not created any files yet.
+So let's see what happens?
+
+From inside the Vagrant virtual Linux machine try the following:
+
+<code>
+curl http://localhost/
+</code>
+
+Or from the host machine visit http://localhost:8080
+
+This will print the default CentOS missing file page.
+
+If you use a real browser you will see something like this:
+
+<img src="/img/centos-apache-default-web-page.png">
+
+<h2>First HTML page</h2>
+
+Before we try PHP, let's create a simple HTML page!
+Create <hl>/var/www/html/index.html</hl> and put in it:
+
+<hl>Hello World!</hl>
+
+Use <hl>curl</hl> again
+
+On the terminal inside the Vagrant VirtualBox: <hl>curl http://localhost/</hl>.
+
+On the host machine: <hl>curl http://localhost:8080/</hl> or visit <hl>http://localhost:8080/</hl> with a regular browser on your desktop.
+
+They should all display <hl>Hello World!</hl>.
+
+
+<h2>First PHP page</h2>
+
+Now we can remove <hl>/var/www/html/index.html</hl> and create <hl>/var/www/html/index.php</hl> instead with the following conent:
+
+<code>
+<?php phpinfo() ?>
+</code>
+
+Then use <hl>curl</hl> or your regular browser again with the same address as earlier.
+
+The output will be some HTML, that will look like the following image if you use a regular browser:
+
+<img src="/img/php-info-centos7.png">
+
+
+<include file="examples/php/">
+
