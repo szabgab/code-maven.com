@@ -1,0 +1,42 @@
+=title Improve the compilation time of your project!
+=timestamp 2018-04-04T11:30:01
+=indexes DevOps
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In order to improve the speed of software development one needs to be able to create faster development cycles and provide a shorter feedback loop. One of the ways to improve the development cycles is to reduce the time it takes to compile the project - if it is in a language where compilation is necessary.
+
+The Linux kernel has 20 million lines of C code and I've just compiled in in 36 minutes on an old 4-core machine. PostgreSQL has 1 million lines of code and most of the build farm machines report 8-12 minute build time.
+
+How long does it take to compile your software?
+
+=abstract end
+
+
+<h2>How long does it take to compile the Linux kernel?</h2>
+
+The Linux kernel has about 20 million lines of C code according to both the
+<a href="https://www.linuxcounter.net/statistics/kernel">Linux counter</a> and the
+<a href="https://www.openhub.net/p/linux">OpenHub for Linux</a>.
+
+The compilation time will largely depend on the the configuration you have, so this number
+is not representative but I've just compiled it on an old 4-core machine and this is what <hl>time</hl> reported:
+
+<code>
+real    36m49.545s
+user    130m15.245s
+sys     9m35.052s
+</code>
+
+So it used the 4 cores very well and it took 36 minutes to compile the kernel.
+
+<h2>How long does it take to compile PostgreSQL?</h2>
+
+According to the <a href="https://www.openhub.net/p/postgres">OpenHub on PostgreSQL</a> it has about 1 million lines of C code.
+
+Most of the machines in the <a href="https://buildfarm.postgresql.org/">PostgreSQL build farm report around 12-14 minutes. That includes both compilation and testing! Some machines took longer and a few ran in 8 minutes. I assume the differences are primarily due to the number of cores used in parallel.
+
