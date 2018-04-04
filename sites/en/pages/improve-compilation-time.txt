@@ -38,5 +38,5 @@ So it used the 4 cores very well and it took 36 minutes to compile the kernel.
 
 According to the <a href="https://www.openhub.net/p/postgres">OpenHub on PostgreSQL</a> it has about 1 million lines of C code.
 
-Most of the machines in the <a href="https://buildfarm.postgresql.org/">PostgreSQL build farm report around 12-14 minutes. That includes both compilation and testing! Some machines took longer and a few ran in 8 minutes. I assume the differences are primarily due to the number of cores used in parallel.
+Most of the machines in the <a href="https://buildfarm.postgresql.org/">PostgreSQL build farm</a> report around 12-14 minutes. That includes both compilation and testing! Some machines took longer and a few ran in 8 minutes. I assume the differences are primarily due to the number of cores used in parallel.
 
