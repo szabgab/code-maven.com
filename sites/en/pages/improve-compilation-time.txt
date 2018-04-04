@@ -12,10 +12,11 @@ In order to improve the speed of software development one needs to be able to cr
 
 The Linux kernel has 20 million lines of C code and I've just compiled in in 36 minutes on an old 4-core machine. PostgreSQL has 1 million lines of code and most of the build farm machines report 8-12 minute build time.
 
-How long does it take to compile your software?
+<b>How long does it take to compile your software?</b>
 
 =abstract end
 
+For comparison here are two Open Source projects:
 
 <h2>How long does it take to compile the Linux kernel?</h2>
 
