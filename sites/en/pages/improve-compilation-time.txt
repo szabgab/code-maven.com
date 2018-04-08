@@ -41,3 +41,9 @@ According to the <a href="https://www.openhub.net/p/postgres">OpenHub on Postgre
 
 Most of the machines in the <a href="https://buildfarm.postgresql.org/">PostgreSQL build farm</a> report around 12-14 minutes. That includes both compilation and testing! Some machines took longer and a few ran in 8 minutes. I assume the differences are primarily due to the number of cores used in parallel.
 
+<h2>Some related articles</h2>
+
+<ul>
+   <li><a href="https://medium.com/tripaneer-techblog/reducing-compilation-times-ca524484beeb">Reducing compilation times for D</a></li>
+</ul>
+
