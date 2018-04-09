@@ -21,6 +21,7 @@
   <li><a href="/ruby">Ruby</a></li>
   <li><a href="/svg">SVG</a></li>
   <li><a href="/java">Java</a></li>
+  <li><a href="/php">PHP</a></li>
 </ul>
 </div>
 
