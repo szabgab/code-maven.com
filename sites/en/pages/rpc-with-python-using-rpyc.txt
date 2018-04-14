@@ -47,7 +47,7 @@ INFO:SLAVE/18812:server started on [0.0.0.0]:18812
 
 <include file="examples/python/rpyc_modules.py">
 
-This example, as all the other exaples here require the name or IP address of remote server on the command line.
+This example, as all the other examples here require the name or IP address of remote server on the command line.
 So you'd run
 
 <code>
@@ -62,7 +62,7 @@ or you'd run
 python rpyc_modules.py localhost
 </code>
 
-if you had only one computer and wanted to see how you cantalk to yourself.
+if you had only one computer and wanted to see how you can talk to yourself.
 
 In this simple script we connect to a remote server using the following call:
 
@@ -89,7 +89,7 @@ print(rsys.version)
 
 The same with the <hl>os</hl> module in the above code.
 
-<h2>Persisten variables on the server</h2>
+<h2>Persistent variables on the server</h2>
 
 On the next example we use the <hl>execute</hl> and <hl>eval</hl> methods of the connection object.
 The <hl>execute</hl> method will, execute arbitrary code on the server. In our example first we
@@ -97,7 +97,7 @@ create a variable with a new value. Then we change the content of the variable.
 
 Finally we use the <hl>eval</hl> method to evaluate an expression and return the results.
 
-<include file="examples/python/rpyc_variable.py">
+<include file="examples/python/rpyc_variables.py">
 
 The super nice thing is that it will take any data structure we have on the server and replicate it locally.
 So in the second set of calls we create a dictionary on the server, we modify it, and then we copy it back to the client
@@ -120,7 +120,7 @@ conn.namespace["scores"]["Bar"] += 58
 
 <include file="examples/python/rpyc_exception.py">
 
-If an excpetion occures on the server, it is printed to the console of the server
+If an exception occurs on the server, it is printed to the console of the server
 and the exception itself is propagated to the client.
 
 Meaning that the last print-statement will not be executed.
