@@ -22,7 +22,7 @@ Peace of mind for both developers and managers.
    <li>Automated Acceptance testing</li>
    <li>Automation (usually means CI or something similar)</li>
    <li>Continuous Deployment</li>
-   <li>Pair programming</li>
+   <li><a href="/pair-programming">Pair programming</a></li>
    <li>Frequent commits</li>
    <li>Frequent code-review</li>
    <li>collective code ownership</li>
@@ -43,6 +43,7 @@ Peace of mind for both developers and managers.
     <li><a href="http://www.netobjectives.com/system/files/WorkingEffectivelyWithLegacyCode.pdf">Working Effectively with Legacy Code</a> (short pdf)</li>
     <li><a href="https://www.mountaingoatsoftware.com/articles/introducing-an-agile-process-to-an-organization">Introducing An Agile Process to an Organization</a></li>
     <li><a href="https://explore.versionone.com/state-of-agile/versionone-11th-annual-state-of-agile-report-2">State of Agile 2017</a></li>
+    <li><a href="https://builttoadapt.io/whats-the-value-of-ci-cd-c2e6c39450bd">What's the Value of CI/CD?</a></li>
 </ul>
 
 <h2>Counter points</h2>
@@ -73,5 +74,11 @@ Peace of mind for both developers and managers.
             <li>Use mocking in the meantime.</li>
         </ul>
     </li>
+</ul>
+
+<h2>Tools</h2>
+
+<ul>
+   <li><a href="https://www.mikogo.com/">Mikogo</a> for remote screen sharing</li>
 </ul>
 

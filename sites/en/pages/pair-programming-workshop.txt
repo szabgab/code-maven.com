@@ -7,7 +7,17 @@
 =comments_disqus_enable 1
 
 =abstract start
+
+
 =abstract end
+
+<h2>Related aritcles</h2>
+
+<ul>
+    <li><a href="https://collaboration.csc.ncsu.edu/laurie/Papers/ESE%20WilliamsPairProgramming_V2.pdf">research complied on Pair Programming by Laurie Williams</a></li>
+    <li><a href="https://medium.freecodecamp.org/want-to-be-a-developer-you-should-probably-be-pair-programming-2c6ec12c4866">Want to be a developer? You should probably be Pair Programming.</a></li>
+</ul>
+
 
 Why work in pairs? Because you already know how to program alone. You can do that as much as you like at work or at home. Let's try something else now.
 
@@ -29,6 +39,19 @@ You are recommended to use TDD - Test Driven Development.  You'll get help if yo
 If you already have a person you'd like to work with that's fine, though I'd recommend our random pairing process to everyone. We'll put the names on pieces of paper. Put them in a hat and pull the names for the pairs from there.
 
 <h2>Working in pairs</h2>
+
+<ul>
+    <li>Driver - Navigator</li>
+    <li>Joint  discussion  and  brainstorming - typist</li>
+    <li>Teacher - Observer</li>
+</ul>
+
+Switching roles
+
+<ul>
+   <li>Time based (Pomodoro) e.g. every 5, 15, or 25 minutes.</li>
+   <li>Ping-Pong: A: Test, B: implement, refactor, test for next task.</li>
+</ul>
 
 We are going to experiment with the Driver-Navigator method starting with 5 min rotations. In this method one person is the driver who writes the code. The other person is the Navigator who tells the driver what to write.
 
