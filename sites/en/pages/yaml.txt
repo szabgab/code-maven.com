@@ -1,15 +1,14 @@
 =title YAML - YAML Ain't Markup Language
-=timestamp 2016-05-31T16:00:01
+=timestamp 2018-04-17T10:00:01
 =indexes YAML
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
 
-<a href="http://yaml.org/">YAML</a> is a data serialization format with implementations
-in many programming languages. (See <a href="https://en.wikipedia.org/wiki/YAML">Wikipedia on YAML</a>.)
+<a href="http://yaml.org/">YAML</a> that stands for <b>YAML Ain't Markup Language</b> is a human friendly data serialization format with implementations in many programming languages. (See <a href="https://en.wikipedia.org/wiki/YAML">Wikipedia on YAML</a>.)
 
 It is similar to <a href="/json">JSON</a>, but looks much nicer and much more readable.
 
@@ -23,14 +22,15 @@ This is a sample configuration file used for the code running the Code Maven web
 
 <include file="examples/data/code_maven_config.yml">
 
-
 <h2>Implementations and examples</h2>
 
 <ul>
    <li><a href="http://perlmaven.com/yaml">YAML in Perl</a></li>
-   <li>Python</li>
-   <li>Ruby</li>
-   <li>PHP</li>
-   <li>JavaScript</li>
+   <li><a href="/python">Python</a></li>
+   <li><a href="/ruby">Ruby</a></li>
+   <li><a href="/php">PHP</a></li>
+   <li><a href="/java">Java</a></li>
+   <li><a href="/javascript">JavaScript</a></li>
+   <li><a href="/nodejs">NodeJS</a></li>
 </ul>
 
