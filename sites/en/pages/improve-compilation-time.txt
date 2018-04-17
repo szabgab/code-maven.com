@@ -45,5 +45,6 @@ Most of the machines in the <a href="https://buildfarm.postgresql.org/">PostgreS
 
 <ul>
    <li><a href="https://medium.com/tripaneer-techblog/reducing-compilation-times-ca524484beeb">Reducing compilation times for D</a></li>
+   <li><a href="https://gcc.gnu.org/wiki/Visibility">Why is the new C++ visibility support so useful?</a></li>
 </ul>
 
