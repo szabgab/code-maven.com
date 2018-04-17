@@ -1,12 +1,5 @@
-# This is the main configuration file of your Dancer app
-# env-related settings should go to environments/$env.yml
-# all the settings in this file will be loaded at Dancer's startup.
-
-# Your application's name
+# This is the main configuration file of the Code-Maven web site
 appname: "Code::Maven"
-
-# The default layout to use for your application (located in
-# views/layouts/main.tt)
 layout: "system"
 
 # when the charset is set to UTF-8 Dancer will handle for you
@@ -27,6 +20,5 @@ engines:
       start_tag: '<%'
       end_tag:   '%>'
 
-
-session: "YAML"
+session: "JSON"
 
