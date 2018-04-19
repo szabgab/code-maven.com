@@ -1,6 +1,6 @@
-=title Pair Programming Workshop
+=title Pair Programming
 =timestamp 2017-01-01T07:30:01
-=indexes Pair
+=indexes Agile, XP
 =status draft
 =author szabgab
 =archive 1
@@ -11,19 +11,38 @@
 
 =abstract end
 
+
+<h2>Advantages of Pair Programming</h2>
+
+<ul>
+    <li>Improved software quality - less bugs - cheaper software</li>
+    <li>Improved knowledge sharing</li>
+    <li>Faster learning</li>
+    <li>Higher job satisfaction (better team morale)</li>
+</ul>
+
 <h2>Related aritcles</h2>
 
 <ul>
     <li><a href="https://collaboration.csc.ncsu.edu/laurie/Papers/ESE%20WilliamsPairProgramming_V2.pdf">research complied on Pair Programming by Laurie Williams</a></li>
     <li><a href="https://medium.freecodecamp.org/want-to-be-a-developer-you-should-probably-be-pair-programming-2c6ec12c4866">Want to be a developer? You should probably be Pair Programming.</a></li>
+    <li><a href="https://www.isixsigma.com/industries/software-it/defect-prevention-reducing-costs-and-enhancing-quality/">Defect Prevention: Reducing Costs and Enhancing Quality</a> - explaining that finding bugs later costs a lot more than finding bugs during development.</li>
+    <li><a href="https://xbsoftware.com/blog/cost-bugs-software-testing/">The Cost of Bugs: Why You Can’t Ignore Software Testing</a></li>
 </ul>
 
+
+<h2>Pair Programming Workshops</h2>
+
+These workshops are organized in Israel via the <a href="https://www.meetup.com/Code-Mavens/">Code Mavens</a> Meetup group.
+
+
+In these workshop we provide an opportunity to experiment with Pair Programming without the pressure and fear involved in production code.  
 
 Why work in pairs? Because you already know how to program alone. You can do that as much as you like at work or at home. Let's try something else now.
 
 <h2>Objectives</h2>
 
-The primary objective of this session is to let you experiment with TDD and pair programming. To let you learn from each other without the pressure and fear involved in production code.
+The primary objective of this session is to let you experiment with TDD and pair programming. To let you learn from each other
 
 <h2>Task</h2>
 
@@ -31,14 +50,25 @@ At the beginning of the session you are going to be presented by a task to work 
 
 <h2>Development Methodology</h2>
 
-You are recommended to use TDD - Test Driven Development.  You'll get help if you don't know how to start.
+You are recommended to use TDD - Test Driven Development. You'll get help if you don't know how to start.
+
+<h2>Development Languages</h2>
+
+You can use any language you'd like, but you need to find a pair who will want to use the same language. The best would be if posted the language of your preference as a comment to this announcement and see if others respond. In any case I'd glad to see developers in the following languages join us:
+
+- JavaScript
+- Perl
+- Python
 
 
 <h2>Pairing</h2>
 
-If you already have a person you'd like to work with that's fine, though I'd recommend our random pairing process to everyone. We'll put the names on pieces of paper. Put them in a hat and pull the names for the pairs from there.
+If you already have a person you'd like to work with that's fine.
 
-<h2>Working in pairs</h2>
+
+Random pairing process: We'll put the names on pieces of paper. Put them in a hat and pull the names for the pairs from there.
+
+<h2>Patterns for working in pairs</h2>
 
 <ul>
     <li>Driver - Navigator</li>
@@ -46,32 +76,67 @@ If you already have a person you'd like to work with that's fine, though I'd rec
     <li>Teacher - Observer</li>
 </ul>
 
-Switching roles
+In the Driver-Navigator pattern one person, the driver, writes the code. The other person, the Navigator, tells the driver what to write.  The Navigator explains the task at the highest possible abstraction that matches the knowledge and experience level of the driver.
+
+
+<h2>Patterns for switching roles</h2>
 
 <ul>
    <li>Time based (Pomodoro) e.g. every 5, 15, or 25 minutes.</li>
+   <li>Ping-Pong: frequent role changing</li>
    <li>Ping-Pong: A: Test, B: implement, refactor, test for next task.</li>
+   <li>Ping-Pong: Change after every implemented method</li>
+   <li>Far sight navigator: Navigator is looking ahead, planning. They don't switch very often</li>
+   <li>Silent: the pairs don't speak. One implements test, other implements the code.</li>
 </ul>
 
 We are going to experiment with the Driver-Navigator method starting with 5 min rotations. In this method one person is the driver who writes the code. The other person is the Navigator who tells the driver what to write.
 
 The navigator explains the task at the highest possible abstraction that matches the knowledge and experience level of the driver.
 
-Every 5 minutes the Driver and the Navigator switch roles.
-
 As time progresses you will pay attention how you work and you can adjust.
 The critical part is that you both pay attention.
 
 <h2>Requirements</h2>
 
-We assume you already know Python at some level. (data structures, function, modules.)
-You bring your own computer. (In the end we'll need one computer per pair.)
+You bring your own computer. (In the end we'll need one computer per pair, but you might be switching computer as well.
 
 <h2>Expectations</h2>
 
-In order to be good at pair programming one needs to work that way for many hours. The two-three hours session we have will only give you a taste, but we'll repeat the experience again.
+Pair programming is not good for everyone and even people who eventually start likeing it might not work well with evey potential pair.
+
+In addition, in order to be good at pair programming one needs to work that way for many hours.
+A single workshop of 2-4 hours will only give you a taste.
+In order to really see the benefit most people have to practice it during several of these 2-4 hours long sessions.
 
 <h2>Retrospective</h2>
 
 At the end of the session we are going to have a retrospective. This is 10 min session in which every one can tell us about their experience. What did they learn. How would they improve the pairing and the whole workshop.
+
+
+<h2>Tools for remote pairing</h2>
+
+From <a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray gSchool talk: Tools for Pair Programming (remote or otherwise)</a>
+
+<ul>
+   <li>Network connection</li>
+   <li>Shared coding environment</li>
+   <li>Person-to-Person communication (video, audio, text)</li>
+</ul>
+
+<ul>
+   <li>Multi-user editors (Cloud9, SubEthaEdit)</li>
+   <li>Screen sharing (VNC, Skype, JoinMe, iChat)</li>
+   <li>Terminal: (SSH and tmux or screen)</li>
+   <li>one dev hosts on their machine or all devs SSH to a shared server</li>
+</ul>
+
+The setup of Sam Livingston-Gray:
+
+<ul>
+    <li>Network layer: SSH over Hamachi</li>
+    <li>Code: wemux + vim <a href="https://github.com/livingsocial/ls-pair">ls-pair</a></li>
+    <li>For pairing: FaceTime in iPad (built-in mic and speaker)</li>
+    <li>For meetings of pairs with n > 2: Google Hangout (external mic and speaker, plus $3 Shush.app for push-to-talk)</li>
+</ul>
 
