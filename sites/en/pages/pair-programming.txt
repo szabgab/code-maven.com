@@ -1,33 +1,58 @@
 =title Pair Programming
-=timestamp 2017-01-01T07:30:01
+=timestamp 2017-04-20T14:30:01
 =indexes Agile, XP
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
 
+<a href="https://en.wikipedia.org/wiki/Pair_programming">Pair programming</a> is one of the key elements of <a href="https://en.wikipedia.org/wiki/Extreme_programming">Exrteme Programming</a>. It is an <a href="https://en.wikipedia.org/wiki/Agile_software_development">agile software development technique</a> in which two programmers work together at one workstation.
+
+In this article we'll see some explanation on why it is good and how to do it. You'll also see information on how to do it locally and remotely.
+
+Finally this also includes the description of the Pair Programming workshops I run.
 
 =abstract end
-
 
 <h2>Advantages of Pair Programming</h2>
 
 <ul>
-    <li>Improved software quality - less bugs - cheaper software</li>
-    <li>Improved knowledge sharing</li>
-    <li>Faster learning</li>
-    <li>Higher job satisfaction (better team morale)</li>
+    <li>Better software through faster feedback</li>
+    <li>Better problem solving.</li>
+    <li>Improved software quality - less bugs - cheaper software.</li>
+    <li>Improved knowledge sharing. (The vacation of the leaving of one person will have smaller impact the knowladge of the company)</li>
+    <li>Faster learning. (Of new techniques and of the code-base itself.)</li>
+    <li>Higher job satisfaction (better team morale).</li>
+    <li>It is Fun</li>
 </ul>
 
-<h2>Related aritcles</h2>
+<h2>Disadvantages of Pair Programming</h2>
+
+<ul>
+    <li>At first it might be difficult to convince management that you are not wasting time.</li>
+    <li>Pair programming is exhausting. Plan for breaks! Even with breaks you will not be able to sustain it for 8-9 hours every day.</li>
+    <li>Personal hygiene is even more important than when you work in the same office.</li>
+</ul>
+
+<h2>Related articles</h2>
 
 <ul>
     <li><a href="https://collaboration.csc.ncsu.edu/laurie/Papers/ESE%20WilliamsPairProgramming_V2.pdf">research complied on Pair Programming by Laurie Williams</a></li>
     <li><a href="https://medium.freecodecamp.org/want-to-be-a-developer-you-should-probably-be-pair-programming-2c6ec12c4866">Want to be a developer? You should probably be Pair Programming.</a></li>
     <li><a href="https://www.isixsigma.com/industries/software-it/defect-prevention-reducing-costs-and-enhancing-quality/">Defect Prevention: Reducing Costs and Enhancing Quality</a> - explaining that finding bugs later costs a lot more than finding bugs during development.</li>
     <li><a href="https://xbsoftware.com/blog/cost-bugs-software-testing/">The Cost of Bugs: Why You Can’t Ignore Software Testing</a></li>
+    <li><a href="https://thomassundberg.wordpress.com/2012/06/15/pair-programing/">Pair Programing by Thomas Sundberg</a></li>
+    <li><a href="http://blog.code-cop.org/2012/08/remote-pair-practice.html">Remote Pair Practice by Code Cop</a></li>
+    <li>Book: <a href="https://www.google.com/search?q=pair+programming+illuminated">Pair Programming Illuminated</a></li>
+</ul>
+
+<h3>Cockburn , Laurie Williams: XP 2000 pair programming</h3>
+<ul>
+    <li>15% more time</li>
+    <li>15% less bugs</li>
+    <li><a href="http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.26.9064">The Costs and Benefits of Pair Programming (2000) </a>
 </ul>
 
 
@@ -35,40 +60,58 @@
 
 These workshops are organized in Israel via the <a href="https://www.meetup.com/Code-Mavens/">Code Mavens</a> Meetup group.
 
-
 In these workshop we provide an opportunity to experiment with Pair Programming without the pressure and fear involved in production code.  
 
-Why work in pairs? Because you already know how to program alone. You can do that as much as you like at work or at home. Let's try something else now.
+You already know how to program alone. You can do that as much as you like at work or at home. Here we try something else.
 
-<h2>Objectives</h2>
+<h3>Audience</h3>
 
-The primary objective of this session is to let you experiment with TDD and pair programming. To let you learn from each other
+Both students and experienced developers are welcome!
 
-<h2>Task</h2>
+<h3>Objectives</h3>
 
-At the beginning of the session you are going to be presented by a task to work on. We will then divide into pairs and each pair will implement the task.
+The primary objective of this session is to let you experiment with Pair Programming. To let you learn from each other without the pressure and fear involved in production code.
 
-<h2>Development Methodology</h2>
+<h3>Process</h3>
+
+<ul>
+    <li>At the beginning of the workshop you'll get an explanation about Pair Programming and our process</li>
+    <li>Then you'll get a task that you can implement in a few hours of work.</li>
+    <li>We will also arrange that each one of you will have a pair to work with.</li>
+    <li>Then you'll do the work in pairs.</li>
+    <li>At the end we'll have a review of the results.</li>
+</ul>
+
+<h2>Pairing process</h2>
+
+If you already have a person you'd like to work with that's fine.
+Otherwise we have two strategies:
+
+<ul>
+    <li>We will group the people by programming language they'd like to use. Then within each group we arrenge for proficiency in that languages and we'll try to put together people who are close to each other in term of proficiency.</li>
+    <li>Random pairing process: We'll put the names on pieces of paper. Put them in a hat and pull the names for the pairs from there.</li>
+</ul>
+
+<h3>Development Methodology</h3>
 
 You are recommended to use TDD - Test Driven Development. You'll get help if you don't know how to start.
 
-<h2>Development Languages</h2>
+<h3>Development Languages</h3>
 
 You can use any language you'd like, but you need to find a pair who will want to use the same language. The best would be if posted the language of your preference as a comment to this announcement and see if others respond. In any case I'd glad to see developers in the following languages join us:
 
-- JavaScript
-- Perl
-- Python
+<ul>
+    <li>JavaScript</li>
+    <li>Perl</li>
+    <li>Python</li>
+</ul>
 
+<h3>Spoken Languages</h3>
 
-<h2>Pairing</h2>
+There will be a short presentation in Hebrew which can be switched to English if some people have hard time understanding Hebrew.
+The pairs can speak whatever language they both know. Hebrew, English, Arabic, Russian, Hungarian...
 
-If you already have a person you'd like to work with that's fine.
-
-
-Random pairing process: We'll put the names on pieces of paper. Put them in a hat and pull the names for the pairs from there.
-
-<h2>Patterns for working in pairs</h2>
+<h3>Patterns for working in pairs</h3>
 
 <ul>
     <li>Driver - Navigator</li>
@@ -78,8 +121,7 @@ Random pairing process: We'll put the names on pieces of paper. Put them in a ha
 
 In the Driver-Navigator pattern one person, the driver, writes the code. The other person, the Navigator, tells the driver what to write.  The Navigator explains the task at the highest possible abstraction that matches the knowledge and experience level of the driver.
 
-
-<h2>Patterns for switching roles</h2>
+<h3>Patterns for switching roles</h3>
 
 <ul>
    <li>Time based (Pomodoro) e.g. every 5, 15, or 25 minutes.</li>
@@ -97,26 +139,35 @@ The navigator explains the task at the highest possible abstraction that matches
 As time progresses you will pay attention how you work and you can adjust.
 The critical part is that you both pay attention.
 
-<h2>Requirements</h2>
+<h3>Requirements</h3>
 
 You bring your own computer. (In the end we'll need one computer per pair, but you might be switching computer as well.
 
-<h2>Expectations</h2>
+You will work very closely with another person. Please take extra care of your <b>Personal hygiene</b>. Bring some chewing gums if necessary.
 
-Pair programming is not good for everyone and even people who eventually start likeing it might not work well with evey potential pair.
+<h3>Expectations</h3>
+
+Pair programming might not be good for everyone and even people who eventually start likeing it might not work well with evey potential pair.
 
 In addition, in order to be good at pair programming one needs to work that way for many hours.
 A single workshop of 2-4 hours will only give you a taste.
-In order to really see the benefit most people have to practice it during several of these 2-4 hours long sessions.
+In order to really see the benefit most people have to practice it during several 2-4 hours long sessions.
 
-<h2>Retrospective</h2>
+<h3>Retrospective</h3>
 
 At the end of the session we are going to have a retrospective. This is 10 min session in which every one can tell us about their experience. What did they learn. How would they improve the pairing and the whole workshop.
+
+<h3>Tools for local pairing</h3>
+
+<ul>
+    <li>One computer to be used by both people.</li>
+    <li>If your setup is very different (OS, editor, etc.) it might be easier to use a Git repository to pass the code back-and-forth and switch computers when switching driver.</li>
+</ul>
 
 
 <h2>Tools for remote pairing</h2>
 
-From <a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray gSchool talk: Tools for Pair Programming (remote or otherwise)</a>
+From <a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray gSchool talk: Tools for Pair Programming (remote or otherwise)</a> and from <a href="https://www.youtube.com/watch?v=Yq1qgWvSIdI">Thomas Sundberg "(Remote) Pair programming"</a>.
 
 <ul>
    <li>Network connection</li>
@@ -129,6 +180,7 @@ From <a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray g
    <li>Screen sharing (VNC, Skype, JoinMe, iChat)</li>
    <li>Terminal: (SSH and tmux or screen)</li>
    <li>one dev hosts on their machine or all devs SSH to a shared server</li>
+   <li><a href="https://www.teamviewer.com/">Teamviewer</a></li>
 </ul>
 
 The setup of Sam Livingston-Gray:
@@ -139,4 +191,5 @@ The setup of Sam Livingston-Gray:
     <li>For pairing: FaceTime in iPad (built-in mic and speaker)</li>
     <li>For meetings of pairs with n > 2: Google Hangout (external mic and speaker, plus $3 Shush.app for push-to-talk)</li>
 </ul>
+
 
