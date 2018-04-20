@@ -46,6 +46,7 @@ Finally this also includes the description of the Pair Programming workshops I r
     <li><a href="https://thomassundberg.wordpress.com/2012/06/15/pair-programing/">Pair Programing by Thomas Sundberg</a></li>
     <li><a href="http://blog.code-cop.org/2012/08/remote-pair-practice.html">Remote Pair Practice by Code Cop</a></li>
     <li>Book: <a href="https://www.google.com/search?q=pair+programming+illuminated">Pair Programming Illuminated</a></li>
+    <li><a href="https://www.youtube.com/watch?v=rIcUXcyC6BA">I Have Pair Programmed for 27,000 Hours: Ask Me Anything!</a></li>
 </ul>
 
 <h3>Cockburn , Laurie Williams: XP 2000 pair programming</h3>
@@ -88,7 +89,7 @@ If you already have a person you'd like to work with that's fine.
 Otherwise we have two strategies:
 
 <ul>
-    <li>We will group the people by programming language they'd like to use. Then within each group we arrenge for proficiency in that languages and we'll try to put together people who are close to each other in term of proficiency.</li>
+    <li>We will group the people by programming language they'd like to use. Then within each group we might(!) arrange for proficiency in that languages and we'll try to put together people who are close to each other in term of proficiency.</li>
     <li>Random pairing process: We'll put the names on pieces of paper. Put them in a hat and pull the names for the pairs from there.</li>
 </ul>
 
