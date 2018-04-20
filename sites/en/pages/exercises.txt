@@ -100,6 +100,7 @@ in many other languages.
 
 <ol>
   <li><a href="/exercise-implement-linux-wc">Exercise: Implement the wc command of Linux/Unix (word count)</a></li>
+  <li><a href="/one-dimensional-spacefight">One dimensional spacefight (aka. The spaceship operator)</a></li>
 </ol>
  
 <h2>Mix</h2>

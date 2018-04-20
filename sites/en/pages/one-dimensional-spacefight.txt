@@ -1,0 +1,93 @@
+=title One dimensional spacefight (aka. The spaceship operator)
+=timestamp 2018-04-20T16:30:01
+=indexes CodeMaven
+=status show
+=books exercises
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+You are the pilot of a spaceship and your task is to fire upon and hit the enemy spaceship.
+
+You are in one-dimensional space.
+
+=abstract end
+
+
+<h2>Level 0</h2>
+
+<ul>
+   <li>The computer creates a random integer number between 0-100 "the space" which is the distance of the spaceship from you</li>
+   <li>You guess the distance by typing in a number.</li>
+   <li>The computer write if it is a hit or not</li>
+</ul>
+
+<h2>Level 1</h2>
+
+<ul>
+    <li>The computer can tell you if your shot was too short or too long.</li>
+    <li>The computer will allow you to shoot multiple times.</li>
+</ul>
+
+<h2>Level 2</h2>
+
+<ul>
+    <li>If the user hits x, s/he leaves the game without finishing it.</li>
+</ul>
+
+<h2>Level 3</h2>
+
+<ul>
+    <li>If the user presses 's', show the hidden value (cheat)</li>
+    <li>If the user presses 'd' the game gets into debug mode: the system starts to show the current number to guess every time, just before asking the user for new input. Pressing 'd' again turns off debug mode. (It is a toggle.)</li>
+</ul>
+
+<h2>Level 4</h2>
+
+<ul>
+    <li>The 'm' button is another toggle. It is called 'move mode'. When it is 'on', the object move a little bit after every step (+/-2). Pressing 'm' again will turn this feature off.</li>
+</ul>
+
+<h2>Level 5</h2>
+
+<ul>
+    <li>Let the user guess several times.</li>
+    <li>Pressing 'n' will skip this game and start a new one (generate new number to guess).</li>
+</ul>
+
+
+<code>
+Allow the user to type
+n   - skip this game and start a new one (generate new number to guess)
+s   - show the hidden value (cheat)
+d   - debug mode 
+      (It is a toggle. 
+       Pressing once the system starts to show the current
+       number to guess every time before asking the user for new input
+       pressing again, turns off the behavior.
+       )
+m   - move mode
+      (It is a toggle.
+       Pressing once the object will start to move a little bit after
+       every step. Pressing again will turn this feature off.)
+x   - exit
+</code>
+
+<ul>
+    <li>Make the size of the space configurable.</li>
+    <li>Make sure the enemy does not wander off the training field.</li>
+    <li>Give warning if the user shoots out of space.</li>
+    <li>Keep track of the minimum and maximum number of hits (in a file or database).</li>
+</ul>
+
+<h2>Level</h2>
+
+Refactor the code to be nice small functions e.g. for
+
+<ul>
+    <li>moving of the spaceship</li>
+    <li>checking the hit</li>
+</ul>
+
