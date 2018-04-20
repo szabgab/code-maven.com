@@ -1,4 +1,4 @@
-=title Exercise: add more statistics
+=title Exercise: Create calculator
 =timestamp 2016-05-12T17:01:25
 =indexes exercises, projects
 =status show
@@ -8,14 +8,10 @@
 
 =abstract start
 
-Exercise: create calculator
-
-See other <a href="/exercises">exercises</a>.
-
-=abstract end
-
 Create a command line calucaltor that will prompt for two numbers and an operator
 and will calculate the result. Handle the following operators: <hl>+</hl>, <hl>-</hl>, <hl>*</hl>, and <hl>/</hl>. 
+
+=abstract end
 
 An interaction should look like this:
 
