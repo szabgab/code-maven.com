@@ -49,6 +49,13 @@ Finally this also includes the description of the Pair Programming workshops I r
     <li><a href="https://medium.freecodecamp.org/want-to-be-a-developer-you-should-probably-be-pair-programming-2c6ec12c4866">Want to be a developer? You should probably be Pair Programming.</a> (an explanation with some strange imagery)</li>
     <li><a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray gSchool talk: Tools for Pair Programming (remote or otherwise)</a> (45 min video)</li>
     <li><a href="https://www.youtube.com/watch?v=Yq1qgWvSIdI">Thomas Sundberg "(Remote) Pair programming"</a> (45 min video)</li>
+    <li><a href="https://medium.com/@jdxcode/how-to-pair-program-d6741077e513"">How to Pair Program</a></li>
+    <li><a href="https://www.thoughtworks.com/insights/blog/effective-navigation-in-pair-programming">Effective Navigation in Pair Programming</a></li>
+    <li><a href="https://blog.rapid7.com/2017/01/27/5-rules-of-pair-programming-etiquette/">5 Rules of Pair Programming Etiquette</a></li>
+    <li><a href="https://www.coursereport.com/blog/how-to-get-the-most-out-of-pair-programming">How To: Get the Most Out of Pair Programming</a></li>
+    <li><a href="http://www.extremeprogramming.org/rules/pair.html">XP - Pair Programming</a></li>
+    <li><a href="https://www.wikihow.com/Pair-Program">How to Pair Program</a></li>
+    <li><a href="https://medium.com/@fagnerbrack/pair-programming-8cfbf2dc4d00">Pair Programming</a> a 4-part series of articles</li>
 </ul>
 
 <h3>Cockburn , Laurie Williams: XP 2000 pair programming</h3>
