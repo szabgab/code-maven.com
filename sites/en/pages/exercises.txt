@@ -43,14 +43,11 @@ in many other languages.
   <li><a href="/exercise-add-numbers-from-csv-file">Add numbers taken from CSV file</a></li>
   <li><a href="/exercise-improve-the-color-selector">Improve the color selector</a></li>
   <li><a href="/exercise-improve-number-guessing-game">Improve number guessing game</a></li>
-</ol>
-
-<h2>Advanced Arrays</h2>
-<ol>
   <li><a href="/exercise-count-digits">Count digits</a></li>
   <li><a href="/exercise-sort-based-on-secondary-condition">Sort based on secondary condition</a></li>
   <li><a href="/exercise-display-unique-rows-of-a-file">Display unique rows of a file</a></li>
   <li><a href="/exercise-sort-mixed-string">Sort mixed strings</a></li>
+  <li><a href="/exercise-queue">Queue</a></li>
 </ol>
 
 <h2>Subroutines</h2>

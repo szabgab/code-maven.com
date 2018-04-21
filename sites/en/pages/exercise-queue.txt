@@ -1,0 +1,42 @@
+=title Exercise: Queue
+=timestamp 2018-04-21T12:30:01
+=indexes CodeMaven
+=status show
+=books exercises
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The application should manage a queue of people.
+
+=abstract end
+
+<ul>
+  <li>It will prompt the user for a new name by printing <hl>:</hl>.</li>
+  <li>The user can type in a name and press ENTER.</li>
+  <li>The app will add the name to the queue.</li>
+  <li>If the user types in "n" then the application will print the first name in the queue.</li>
+</ul>
+
+A sample interaction will look like this:
+
+<code>
+: Foo
+: Bar
+: Moo
+: n
+  next is Foo
+: n
+  next is Bar
+: Peter
+: n
+  next is Moo
+: n
+  next is Peter
+: n
+  the queue is empty
+</code>
+
+
