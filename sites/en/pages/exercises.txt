@@ -47,7 +47,9 @@ in many other languages.
   <li><a href="/exercise-sort-based-on-secondary-condition">Sort based on secondary condition</a></li>
   <li><a href="/exercise-display-unique-rows-of-a-file">Display unique rows of a file</a></li>
   <li><a href="/exercise-sort-mixed-string">Sort mixed strings</a></li>
-  <li><a href="/exercise-queue">Queue</a></li>
+  <li><a href="/exercise-queue">Queue at the Doctor</a></li>
+  <li><a href="/exercise-number-is-prime">Check if number is prime</a></li>
+  <li><a href="/exercise-reverse-polish-calculator</a>Reverse Polish Calculator</li>
 </ol>
 
 <h2>Subroutines</h2>

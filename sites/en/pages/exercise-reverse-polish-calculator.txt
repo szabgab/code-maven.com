@@ -1,0 +1,26 @@
+=title Exercise: Implement Reverse Polish Calculator
+=timestamp 2018-04-21T12:45:01
+=indexes CodeMaven
+=status show
+=books exercise
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Implement <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Reverse Polish Calculator</a>
+
+=abstract end
+
+e.g.
+
+<code>
+3
+4
++
+=
+</code>
+
+Would print 7
+
