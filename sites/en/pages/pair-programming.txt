@@ -33,20 +33,22 @@ Finally this also includes the description of the Pair Programming workshops I r
 <ul>
     <li>At first it might be difficult to convince management that you are not wasting time.</li>
     <li>Pair programming is exhausting. Plan for breaks! Even with breaks you will not be able to sustain it for 8-9 hours every day.</li>
-    <li>Personal hygiene is even more important than when you work in the same office.</li>
+    <li>Personal hygiene is even more important than when you "just" work in the same office.</li>
 </ul>
 
 <h2>Related articles</h2>
 
 <ul>
-    <li><a href="https://collaboration.csc.ncsu.edu/laurie/Papers/ESE%20WilliamsPairProgramming_V2.pdf">research complied on Pair Programming by Laurie Williams</a></li>
-    <li><a href="https://medium.freecodecamp.org/want-to-be-a-developer-you-should-probably-be-pair-programming-2c6ec12c4866">Want to be a developer? You should probably be Pair Programming.</a></li>
-    <li><a href="https://www.isixsigma.com/industries/software-it/defect-prevention-reducing-costs-and-enhancing-quality/">Defect Prevention: Reducing Costs and Enhancing Quality</a> - explaining that finding bugs later costs a lot more than finding bugs during development.</li>
-    <li><a href="https://xbsoftware.com/blog/cost-bugs-software-testing/">The Cost of Bugs: Why You Can’t Ignore Software Testing</a></li>
-    <li><a href="https://thomassundberg.wordpress.com/2012/06/15/pair-programing/">Pair Programing by Thomas Sundberg</a></li>
+    <li><a href="https://collaboration.csc.ncsu.edu/laurie/Papers/ESE%20WilliamsPairProgramming_V2.pdf">Research complied on Pair Programming by Laurie Williams</a></li>
+    <li><a href="https://xbsoftware.com/blog/cost-bugs-software-testing/">The Cost of Bugs: Why You Can’t Ignore Software Testing</a> (A nice graph showing the relation of time passed since bug introduced vs. cost of fixing the bug.</li>
+    <li><a href="https://www.isixsigma.com/industries/software-it/defect-prevention-reducing-costs-and-enhancing-quality/">Defect Prevention: Reducing Costs and Enhancing Quality</a> - explaining that finding bugs later costs a lot more than finding bugs during development. Some research is included.</li>
+    <li><a href="https://thomassundberg.wordpress.com/2012/06/15/pair-programing/">Pair Programing by Thomas Sundberg</a> actually this article on <a href="http://www.thinkcode.se/blog/2012/06/15/pair-programing">Pair Programing</a>.</li>
     <li><a href="http://blog.code-cop.org/2012/08/remote-pair-practice.html">Remote Pair Practice by Code Cop</a></li>
-    <li>Book: <a href="https://www.google.com/search?q=pair+programming+illuminated">Pair Programming Illuminated</a></li>
-    <li><a href="https://www.youtube.com/watch?v=rIcUXcyC6BA">I Have Pair Programmed for 27,000 Hours: Ask Me Anything!</a></li>
+    <li><a href="https://www.google.com/search?q=pair+programming+illuminated">Pair Programming Illuminated</a> (book)</li>
+    <li><a href="https://www.youtube.com/watch?v=rIcUXcyC6BA">I Have Pair Programmed for 27,000 Hours: Ask Me Anything!</a> (30 min video)</li>
+    <li><a href="https://medium.freecodecamp.org/want-to-be-a-developer-you-should-probably-be-pair-programming-2c6ec12c4866">Want to be a developer? You should probably be Pair Programming.</a> (an explanation with some strange imagery)</li>
+    <li><a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray gSchool talk: Tools for Pair Programming (remote or otherwise)</a> (45 min video)</li>
+    <li><a href="https://www.youtube.com/watch?v=Yq1qgWvSIdI">Thomas Sundberg "(Remote) Pair programming"</a> (45 min video)</li>
 </ul>
 
 <h3>Cockburn , Laurie Williams: XP 2000 pair programming</h3>
@@ -188,7 +190,6 @@ At the end of the session we are going to have a retrospective. This is 10 min s
 
 <h2>Tools for remote pairing</h2>
 
-From <a href="https://www.youtube.com/watch?v=W_hsEi_UZHE">Sam Livingston-Gray gSchool talk: Tools for Pair Programming (remote or otherwise)</a> and from <a href="https://www.youtube.com/watch?v=Yq1qgWvSIdI">Thomas Sundberg "(Remote) Pair programming"</a>.
 
 <ul>
    <li>Network connection</li>
@@ -226,7 +227,5 @@ Some generic ideas for tasks (or Katas)
     <li>Project that depends on multiple languages.</li>
 </ul>
 
-
-
-
+<a href="/exercises">Exercises and task</a> to do in a Coding Dojo.
 
