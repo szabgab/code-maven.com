@@ -65,6 +65,26 @@ In these workshop we provide an opportunity to experiment with Pair Programming 
 
 You already know how to program alone. You can do that as much as you like at work or at home. Here we try something else.
 
+We would like to learn from each other something we can rarely do in a company where everyone is responsible for their own code. And no, code reviews as they are done in most places usually don't help that much. 
+
+In this workshop our primary objective is to experience how pair programming works and to experiment with various setups. You are going to work in pairs. We will start with the driver navigator approach with 5 min per rotation. Each pair can then adjust as they feel right. The point of the session is to learn what works for you. The navigator driver technique means in each pair one person will be the navigator who thinks about the big picture and who tell the driver what to write. Then, after a few minutes of work the two people will switch task.
+There will be questions for example what to do if one person is familiar with a module/library that could help in your work and other one not. For how long will you stop to explain the benefits of that library? How much time will you spend teaching the other person. These issues and the way you handle them is part of the experiment. Different pairs will reach different conclusions.
+
+A the beginning of the workshop you will get a project to work on. Your task will be to try to impement the project along with tests as you feel fit.
+
+At the end of the workshop we will have a retrospective in which every person will be able to tell what was their experience. What would they change in the process and in the workshop to make it better for them.
+
+A few things to remember.
+You will be working much closer to another person. Make sure this does not cause any unpleasant feeling.
+You will work on a single computer. The owner of the computer will be much more comfortable with the keyboard of that computer and the tools ans the setting will reflect the preferences of that person. Make sure this does not impide on the work done by the other person. ( as much as you might love and know vim, don't force the other person to use it when it is their turn to drive. On the other hand you can use this opportunity to show why do you love your editor.
+Make sure both of you can comfortably see the code. This means the fonts are large enough for both people and the color scheme works for both person. Some people are used to dark background others prefer white background. Some people are color blind and it is hard for them to see specific colors. Be prepared to change font size and the color of your editor. 
+Be flexible and be patient with each other.
+In every cycle the navigator is expected to do most of the talking, but the driver should also be able to voice their opinion. They are also encouraged to say what they are writing.
+If you really cannot work on each others environment you could try to switch computers when you switch roles. For this youll need to be able to rapidly transfer the files you are working on from one syatem to another. Git and github can be used for that.
+
+Also remember that in a single 2 hour session you wont really learn pair programing. It takes several such sessions till you start feeling the positive impact of it. This workshop is there to allow you to taste it and to get started with it.
+Working with a person you don't know much have both advantages and disadvantages. Try to see the bright side of it.
+
 <h3>Audience</h3>
 
 Both students and experienced developers are welcome!
@@ -192,5 +212,21 @@ The setup of Sam Livingston-Gray:
     <li>For pairing: FaceTime in iPad (built-in mic and speaker)</li>
     <li>For meetings of pairs with n > 2: Google Hangout (external mic and speaker, plus $3 Shush.app for push-to-talk)</li>
 </ul>
+
+<h2>Coding Dojo</h2>
+
+Some generic ideas for tasks (or Katas)
+
+<ul>
+    <li>From scratch given the full task up-front.</li>
+    <li>Where the task is given step by step.</li>
+    <li>Give an existing applications that needs refactoring.</li>
+    <li>Where the tests already exist, the participants only need to implement the code.</li>
+    <li>Project that depends on one language only.</li>
+    <li>Project that depends on multiple languages.</li>
+</ul>
+
+
+
 
 
