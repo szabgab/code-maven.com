@@ -173,4 +173,12 @@ to access the function and call it with any parameter.
 
 <include file="examples/python/rpyc_exception.py">
 
+<include file="examples/python/rpyc_timeout.py">
 
+<include file="examples/python/rpyc_reconnect_objects.py">
+
+<include file="examples/python/rpyc_ping.py">
+
+
+
+<include file="examples/python/rpyc_with_reconnect.py">
