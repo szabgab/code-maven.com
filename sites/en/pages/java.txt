@@ -15,6 +15,7 @@ A placeholder fo articles about Java.
 
 <ul>
   <li><a href="/hello-world-in-java">Hello World in Java</a></li>
+  <li><a href="/calculator-in-java">Calculator in Java</a></li>
 
 <!--
   <li><a href=""></a></li>
