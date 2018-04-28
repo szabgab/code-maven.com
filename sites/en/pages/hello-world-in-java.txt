@@ -11,6 +11,8 @@
 
 The standard way to get started with any language is to write a program that will print "Hello World". Here is the one for Java.
 
+For other languages see the <a href="/exercise-hello-world">Hello World exercise</a>.
+
 =abstract end
 
 <h2>Install Java</h2>

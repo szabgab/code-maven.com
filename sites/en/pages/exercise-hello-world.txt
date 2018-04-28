@@ -40,7 +40,8 @@ Try your environment:
   <li>Add user documentation to your code.</li>
 </ul>
 
-<!--
 <h2>Solutions</h2>
--->
 
+<ul>
+    <li><a href="/hello-world-in-java">Java</a></li>
+</ul>
