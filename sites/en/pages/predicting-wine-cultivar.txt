@@ -1,7 +1,7 @@
 =title Predicting wine cultivar
-=timestamp 2018-01-01T07:30:01
+=timestamp 2018-04-28T23:30:01
 =indexes CodeMaven
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
@@ -11774,7 +11774,7 @@ div#notebook {
         }
     });
     </script>
-    <!-- End of mathjax configuration -->
+
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
@@ -11782,28 +11782,28 @@ div#notebook {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In supervised machine learning (ML) the goal is to have an accurate model, which based on previous tagged data predicts on new data.</p>
+<p>In supervised machine learning (ML) the goal is to have an accurate model, which based on previously tagged data provides predictions for new data.</p>
 <p>The number one question when it comes to modeling is:
-"How can I improve my results?"</p>
+<strong>"How can I improve my results?"</strong></p>
 <p>There are several basic ways to improve your prediction model:</p>
 <ol>
 <li>Hyperparameters optimization</li>
 <li>Feature extraction</li>
-<li>Selecting an other model</li>
-<li>Adding more data (not in all cases)</li>
-<li>Feature selection (not in all cases)</li>
+<li>Selecting another model</li>
+<li>Adding more data</li>
+<li>Feature selection</li>
 </ol>
-<p>In this blog post, I'll show you a one of the above methods.
+<p>In this blog post, I'll walk you through how I used <strong>Feature Selection</strong> to improve my model.
 For the demonstration I'll use the <a href="https://archive.ics.uci.edu/ml/datasets/Wine">'Wine' dataset from UCI ML repository</a></p>
-<p>Most of the functions are from the sklearn (scikit-learn) module - I recommend reading their <a href="http://scikit-learn.org/">documentation</a></p>
-<p>For the ploting functions make sure to check out <a href="https://matplotlib.org/">matplotlib's documentation</a> and <a href="https://seaborn.pydata.org">seaborn's documentation</a>.
-Both are great ploting modules with great documentation.</p>
+<p>Most of the functions are from the <a href="http://scikit-learn.org/">sklearn (scikit-learn) module</a>.</p>
+<p>For the plotting functions make sure to read about <a href="https://matplotlib.org/">matplotlib</a> and <a href="https://seaborn.pydata.org">seaborn</a>.
+Both are great plotting modules with great documentation.</p>
 <p>Before we jump into the ML model and prediction we need to understand our data.
 The process of understanding the data is called EDA - exploratory data analysis.</p>
 <h3 id="EDA---exploratory-data-analysis.">EDA - exploratory data analysis.<a class="anchor-link" href="#EDA---exploratory-data-analysis.">&#182;</a></h3><p>UCI kindly gave us some basic information about the data set.
 I'll quote some of the more important info given:
 "These data are the results of a chemical analysis of wines grown in the same region in Italy but derived from three different cultivars. The analysis determined the quantities of 13 constituents found in each of the three types of wines ... All attributes are continuous ... 1st attribute is class identifier (1-3)"</p>
-<p>It seems like a classification problem with 3 class labels and 13 numeric attributes.
+<p>Based on this, it seems like a classification problem with 3 class labels and 13 numeric attributes.
 A classification problem with the goal of predicting the specific cultivar the wine was derived from.</p>
 
 </div>
@@ -11820,7 +11820,6 @@ A classification problem with the goal of predicting the specific cultivar the w
 <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
 <span class="o">%</span><span class="k">matplotlib</span> inline
-<span class="c1"># this is only for jupyter notebook</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set</span><span class="p">()</span> <span class="c1">#sets a style for the seaborn plots.</span>
 </pre></div>
 
@@ -11992,7 +11991,7 @@ A classification problem with the goal of predicting the specific cultivar the w
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>I named the first columns as 'label'.
 This is the target attribute - what we are trying to predict.
-This is a classification problem, so the class label ('label') is not a numeric but a nominal value. that's why I'm telling pandas this columns dtype is 'str'.</p>
+This is a classification problem, so the class label ('label') is not a numeric but a nominal value. that's why I'm telling Pandas this columns dtype is 'str'.</p>
 
 </div>
 </div>
@@ -12126,7 +12125,7 @@ Name: label, dtype: int64
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>It's important to check the amount of instances in each class. There is difference between the class labels but It isn't a huge difference.
 If the difference was bigger we would be in an imbalanced problem.
-Which brings along a lot of other things we would need to do, but this is for an other post.</p>
+That would require a lot of other things to do, but this is for another post.</p>
 
 </div>
 </div>
@@ -12441,8 +12440,8 @@ We can resolve the problem by plotting each column side by side.</p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>This is a better way to plot the data.</p>
-<p>We can see that we have some outliers (baced on the <a href="https://en.wikipedia.org/wiki/Interquartile_range">IQR calculation</a>) in almost all the feaures.
-This outliers deserve a second look, but we won't deal with them right now.</p>
+<p>We can see that we have some outliers (based on the <a href="https://en.wikipedia.org/wiki/Interquartile_range">IQR calculation</a>) in almost all the feaures.
+These outliers deserve a second look, but we won't deal with them right now.</p>
 
 </div>
 </div>
@@ -12513,9 +12512,8 @@ Pair plot is good for small amout of features and for first glance at the column
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>The diagonal line from the top left side to the right buttom side of the pair plot are histograms of the columns.</p>
 <p>Good feature combination for me is a feature combination that separates some of the class labels.
-'Flavanoids' is looking like a good feature combined with the other ones, same goes for 'Proline'.
-and the combination of 'Proline' and 'OD280/OD315_of_diluted_wines' is also looking good.</p>
-<p>On the other hand 'Malic_acid' is not looking as a good feature at all.</p>
+'Flavanoids' in row 7 looks like a good feature combined with the other ones. Same goes for 'Proline' in the last row.</p>
+<p>On the other hand 'Malic_acid' (2nd row) does not look like a good feature at all.</p>
 <p>We can have a further look at some features:</p>
 
 </div>
@@ -12622,7 +12620,7 @@ and the combination of 'Proline' and 'OD280/OD315_of_diluted_wines' is also look
 <div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This is a good feature comination to sapatare the red ones (label 3)</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># This is a good feature comination to separate the red ones (label 3)</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">lmplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="s1">&#39;Color_intensity&#39;</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="s1">&#39;Flavanoids&#39;</span><span class="p">,</span> <span class="n">hue</span><span class="o">=</span><span class="s1">&#39;label&#39;</span><span class="p">,</span> <span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">,</span> <span class="n">fit_reg</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
 </pre></div>
 
@@ -12672,7 +12670,7 @@ and the combination of 'Proline' and 'OD280/OD315_of_diluted_wines' is also look
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">sns</span><span class="o">.</span><span class="n">boxplot</span><span class="p">(</span><span class="n">x</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;label&#39;</span><span class="p">],</span> <span class="n">y</span><span class="o">=</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;OD280/OD315_of_diluted_wines&#39;</span><span class="p">])</span>
-<span class="c1"># this is a vey good feature to saperate label 1 and 3</span>
+<span class="c1"># this is a vey good feature to separate label 1 and 3</span>
 </pre></div>
 
 </div>
@@ -12719,9 +12717,9 @@ and the combination of 'Proline' and 'OD280/OD315_of_diluted_wines' is also look
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Another thing that is good to check is the feature corrolation. we don't like features that corrolate with each other so much.</p>
+<p>Another thing that is good to check is the feature correlation. We don't like features that correlate with each other so much.</p>
 <p>We will use the <a href="https://en.wikipedia.org/wiki/Pearson_correlation_coefficient">Pearson correlation</a> to compute pairwise correlation of columns in our data.
-It's worth to emphasize* that the Pearson correlation is only good for linear correlation, but as we saw from the pair plot, our data dosen't seem to correlate in any other way.</p>
+It's worth to emphasize that the Pearson correlation is only good for linear correlation, but as we saw from the pair plot, our data dosen't seem to correlate in any other way.</p>
 
 </div>
 </div>
@@ -12779,9 +12777,9 @@ It's worth to emphasize* that the Pearson correlation is only good for linear co
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>There is a corrolation between Total_phenols - Flavanoids =&gt; 0.9 which is strong.
-Typically I would delete one of the corralting features but for now I won't do nothing.
-Let's plot these feautes to see the corrolation.</p>
+<p>There is a correlation between Total_phenols - Flavanoids =&gt; 0.9 which is strong.
+Typically I would delete one of the correlting features, but for now I won't do it.
+Let's plot these feautes to see the correlation.</p>
 
 </div>
 </div>
@@ -12846,11 +12844,8 @@ Let's plot these feautes to see the corrolation.</p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As I mentioned before there are several ways in which you can improve your ML model.
-Changing the classifier is the least recommended step to do.
-The least recommended because it will have a much smaller affect on the model's score then feature selection and feature extraction or any other way I listed above.</p>
-<p>I won't get into this step also because it is one of the easiest steps to improve your model.
-Today I'll focus on feature selection, and in the next blogs to come we'll get into other ways as well.</p>
+<p>As I mentioned before there are several ways in which you can improve your ML model.</p>
+<p>Today I'll focus on <strong>feature selection</strong>, a very basic way to improve your model's score.</p>
 
 </div>
 </div>
@@ -12874,7 +12869,7 @@ Today I'll focus on feature selection, and in the next blogs to come we'll get i
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Let's load the 'train_test_split' function, and separate our data into only the feature vectors and the target vector.
-we will split our data into 25% test and 75% train.</p>
+We will split our data into 25% test and 75% train.</p>
 <p>The 'stratify' parameter will ensure equal distribution of subgroups.
 It will keep the ration between the classes in the train and test data as they were in the actual full data.</p>
 
@@ -12901,7 +12896,7 @@ It will keep the ration between the classes in the train and test data as they w
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>I'll start with a simple classifier called <a href="http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">knn (k-nearest neighbors)</a>.</p>
+<p>I'll start with a very simple classifier called <a href="http://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html">knn (k-nearest neighbors)</a>.</p>
 <p>Knn classifies an object (a new data point) by the majority vote of its k nearest neighbors in the feature space.</p>
 
 </div>
@@ -12961,9 +12956,9 @@ avg / total       0.70      0.69      0.67        45
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>As we can see this is a pretty bad result.</p>
 <p>The key question which will help us decide in which way we should improve our model is "whether our model is <a href="https://en.wikipedia.org/wiki/Overfitting">overfitting or underfitting</a>?"</p>
-<p>But before I'll answer this question, there is something we didn't do before and it's essential:
+<p>Before I'll answer this question, there is something we didn't do and it's essential in this case:
 When we are using KNN or any other algorithm which is based on distances (like the <a href="https://en.wikipedia.org/wiki/Euclidean_distance">Euclidean distance</a> in our case), normalization of the data is necessery.
-I'll be using the mean normaliztion method, which is subtracting the feature's mean and dividing by it's standard deviation.</p>
+I'll be using the mean normaliztion method, which is subtracting the feature's mean and dividing by it's standard deviation. This is basically converting each data point into it's <a href="https://en.wikipedia.org/wiki/Standard_score">Z-score</a>.</p>
 
 </div>
 </div>
@@ -13026,7 +13021,7 @@ avg / total       0.91      0.89      0.89        45
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Great improvment!</p>
-<p>I used a "Pipeline" in this part. "Pipeline" is a function in sklearn that combines several other functions and enables us to use other sklearn functions a with only one fit command. more on this you can check out <a href="http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html">here</a> and in a future blog post.</p>
+<p>I used a "Pipeline" in this part. "Pipeline" is a function in sklearn that combines several other functions and enables us to use other sklearn functions with only one fit command. More on this you can read <a href="http://scikit-learn.org/stable/modules/generated/sklearn.pipeline.Pipeline.html">here</a> and in a future blog post.</p>
 <p>So as I mentioned before, we need to understand if our mode is over or under fitting.</p>
 
 </div>
@@ -13091,12 +13086,12 @@ avg / total       0.91      0.89      0.89        45
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>As we can see from the plot and from the accuracy scores, we are in an overfitting situation - We have a good score on the train, but a low score on the test and by adding data we improve the model's results.
-This means the model is bad for unseen data and very good with the data he was trained on.</p>
+This means the model is bad for unseen data and very good with the data it was trained on.</p>
 <p>In an overfitting case there are a few things which need and can be done to improve our model:</p>
 <ol>
-<li>Add more data - not possible in this case</li>
-<li>Remove unimportante features in order to make your model less complex - aka feature selection</li>
-<li>Add regulization *</li>
+<li>Add more data - not possible in this case.</li>
+<li>Remove unimportant features in order to make the model less complex - aka. feature selection.</li>
+<li>Add regulization.</li>
 </ol>
 
 </div>
@@ -13107,8 +13102,8 @@ This means the model is bad for unseen data and very good with the data he was t
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Feature-selection">Feature selection<a class="anchor-link" href="#Feature-selection">&#182;</a></h2><p>One of the ways to avoid overfitting is by selecting a subset of features from the data.
-There is a lot of ways to do feature selection, the most basic one in my opinion is removing correlating features.</p>
-<p>As we checked before 'Total_phenols' and 'Flavanoids' are pretty correlating features, let's see what happens if we drop one of them.</p>
+There are a lot of ways to do feature selection. The most basic one in my opinion is removing correlating features.</p>
+<p>As we checked before 'Total_phenols' and 'Flavanoids' are closely correlating features. Let's see what happens if we drop one of them!</p>
 
 </div>
 </div>
@@ -13166,11 +13161,11 @@ avg / total       0.92      0.91      0.91        45
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>Truly as we expected this step improved our model's score, but we are still overfitting.</p>
-<p>Another feature selection method (and my favourite) is by using an other algorithm's feature importance.
-Many algorithms rank the importance of the features in the data, baces on which feature helped the most to distinguish between the target labels.
+<p>Another feature selection method (and my favourite) is by using another algorithm's feature importance.
+Many algorithms rank the importance of the features in the data, based on which feature helped the most to distinguish between the target labels.
 From this ranking we can learn which features were more and less important and select just the one's which contribute the most.</p>
 <p>Let's fit the train data in a <a href="http://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html">Random Forest classifier</a> and print the feature importance scores.</p>
-<p>Random Forest is an ensamble that fits a number of decision tree classifiers. Ensamble methods use multiple learning algorithms to obtain better predictive performance than could be obtained from any of it's learning algorithms alone, in our case from a simple Decision tree.</p>
+<p>Random Forest is an ensamble that fits a number of decision tree classifiers. Ensamble methods use multiple learning algorithms to obtain better predictive performance than could be obtained from any of its learning algorithms alone, in our case from a simple Decision tree.</p>
 
 </div>
 </div>
@@ -13255,9 +13250,9 @@ Proline                       0.216350
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As we can see from the plot there are feature which are more important then others and we can see 5-7 features which stand out a bit then others.
+<p>As we can see from the plot there are features that are more important than others and we can see 5-7 features which stand out.
 I'll use the feature important scores to put a threshold for my model feature selection function.</p>
-<p><a href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html">"SelectFromModel"</a> is a sklearn function with takes an estimator and a threshold, extracts from the estimator the feature importance scores and returns only the features with a score above the given threshold.</p>
+<p><a href="http://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectFromModel.html">"SelectFromModel"</a> is a sklearn function which takes an estimator and a threshold, extracts from the estimator the feature importance scores and returns only the features with a score above the given threshold.</p>
 
 </div>
 </div>
@@ -13324,7 +13319,7 @@ avg / total       0.98      0.98      0.98        45
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>An improvment of 8-9% in this high scores is super great and difficult.
-And this is a very good score just by itself ! Now we can improve our score in other ways.</p>
+This is a very good score just by itself! Now we can improve our score in other ways.</p>
 <p>My point was to show how I improved my score with this very simple KNN model.
 I also wanted to show you how a few simple steps can improve your model and get a high score.</p>
 
@@ -13333,3 +13328,5 @@ I also wanted to show you how a few simple steps can improve your model and get 
 </div>
     </div>
   </div>
+</body>
+
