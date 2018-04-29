@@ -1,4 +1,4 @@
-=title Predicting wine cultivar
+=title Better Predicting Wine Cultivar with Feature Selection
 =timestamp 2018-04-28T23:30:01
 =indexes CodeMaven
 =status show
