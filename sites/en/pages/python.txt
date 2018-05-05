@@ -38,6 +38,8 @@ Articles about Python
   <li><a href="/parallel-processing-using-fork-in-python">Parallel processing in Python using fork</a></li>
   <li><a href="/static-server-in-python">Static web server in Python</a></li>
   <li><a href="/serialize-datetime-object-as-json-in-python">How to serialize a datetime object as JSON using Python?</a></li>
+  <li><a href="https://perlmaven.com/pro/openweathermap-api-using-python">Using the Open Weather Map API with Python</a></li>
+  <li><a href="https://perlmaven.com/pro/minimal-example-generating-html-with-python-jinja">Skeleton: A minimal example generating HTML with Python Jinja</a></li>
 </ul>
 
 <h2>Python Testing</h2>
@@ -47,6 +49,10 @@ Articles about Python
   <li><a href="/doctest-in-python">Doctest in Python</a></li>
   <li><a href="/getting-started-with-pytest">Testing Python: Getting started with Pytest</a></li>
   <li><a href="/pytest-fixtures">Python testing with Pytest: Order of test functions - fixtures</a></li>
+  <li><a href="/pytest-assert-error-reporting">Python Pytest assertion error reporting</a></li>
+  <li><a href="https://perlmaven.com/pro/temporary-files-and-directory-for-pytest">Python: Temporary files and directory for Pytest</a></li>
+  <li><a href="https://perlmaven.com/pro/testing-random-numbers-in-python">Testing random numbers in Python using mocks</a></li>
+  <li><a href="https://perlmaven.com/pro/mocking-input-and-output-for-python-testing">Mocking input and output for Python testing</a></li>
 </ul>
 
 Find additional Python-related articels in the <a href="/flask">Flask</a> series.
