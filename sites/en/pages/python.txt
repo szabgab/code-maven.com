@@ -50,7 +50,7 @@ Articles about Python
   <li><a href="/getting-started-with-pytest">Testing Python: Getting started with Pytest</a></li>
   <li><a href="/pytest-fixtures">Python testing with Pytest: Order of test functions - fixtures</a></li>
   <li><a href="/pytest-assert-error-reporting">Python Pytest assertion error reporting</a></li>
-  <li><a href="https://perlmaven.com/pro/temporary-files-and-directory-for-pytest">Python: Temporary files and directory for Pytest</a></li>
+  <li><a href="/temporary-files-and-directory-for-pytest">Python: Temporary files and directory for Pytest</a></li>
   <li><a href="https://perlmaven.com/pro/testing-random-numbers-in-python">Testing random numbers in Python using mocks</a></li>
   <li><a href="https://perlmaven.com/pro/mocking-input-and-output-for-python-testing">Mocking input and output for Python testing</a></li>
 </ul>
