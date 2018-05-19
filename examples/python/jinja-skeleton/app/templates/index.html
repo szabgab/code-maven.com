@@ -1,0 +1,15 @@
+<h1>{{ h1 }}</h1>
+
+{% if show_one %}
+  <h2>one</h2>
+{% endif %}
+
+{% if show_two %}
+  <h2>two</h2>
+{% endif %}
+
+<ul>
+{% for name in names %}
+   <li>{{ name }}</li>
+{% endfor %}
+</ul>
