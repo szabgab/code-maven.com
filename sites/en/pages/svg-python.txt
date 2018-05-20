@@ -14,3 +14,7 @@
 
 <include file="examples/python/svg_rectangle.py">
 
+<img src="/img/arrow.svg" />
+
+<include file="examples/python/svg_arrow.py">
+
