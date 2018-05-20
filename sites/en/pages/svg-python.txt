@@ -1,0 +1,16 @@
+=title SVG with Python
+=timestamp 2018-01-01T07:30:01
+=indexes CodeMaven
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<img src="/img/rect.svg" />
+
+<include file="examples/python/svg_rectangle.py">
+
