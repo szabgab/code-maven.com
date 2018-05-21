@@ -1,0 +1,97 @@
+=title Mocking input and output for Python testing
+=timestamp 2018-05-21T18:50:01
+=indexes testing, pytest, mocking, capsys
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+One of the recommendations when writing well designed applications is to separate concerns.
+So one function to get input. Another to do the computation (business logic). A  third function to generate the output.
+
+Unfortunately in many applications people mix these things. Especially if they have not tried to test the application.
+
+So when you start writing tests to such an application, one that might have functions with hundreds or thousands of lines
+of code, you need to be able untangle the code.
+
+In this article we'll override the input and output of a CLI (Command Line Interface) based application.
+
+=abstract end
+
+For our purposes we'll use this "application". It has a single function that has input, output and some "business logic". (Yeah, I know, adding two numbers is probably not such a huge business these days.)
+
+<include file="examples/python/mock-input/app.py">
+
+We then have a test like this:
+
+<include file="examples/python/mock-input/test_app.py">
+
+In this code we have two lines in which we replace the <hl>input</hl> and <hl>print</hl> functions of the <hl>app</hl> object. The overriding of <hl>print</hl> seems to be the simpler here.
+
+Every time the code in <hl>app</hl> calls <hl>print<hl> our <hl>lambda</hl> function will append the value to the list called <hl>output</hl> we have declared earlier. It won't print anything to the screen.  (In case you are not familiar with <hl>lambda</hl> it creates an anonymous function on the fly.)
+
+Overriding the <hl>input</hl> function is similar, but that required two statements, so we could not do it in a <hl>lambda</hl>. Hence we created a function called <hl>mock_input</hl> (a totally arbitrary name) and then assigned that function to the <hl>app.input</hl>. That means every time <hl>input</hl> is called inside the <hl>app</hl> object, Python will call our <hl>mock_input</hl> function instead of the built-in <hl>input</hl> function.
+
+Normally the <hl>input</hl> function of Python 3 does 2 things: prints the received string to the screen and then collects any text typed in on the keyboard. Our function will also do two things: Append the received string to the list called <hl>output</hl> just as the <hl>lambda</hl> function of <hl>print</hl> does and then take the first value from the list called <hl>input_values</hl> and return that.
+
+This allows us to prepare a list of answers we would like to give to the application and this function will help us pretend we have actually typed those in when the application asked for it.
+
+
+Once we prepared all this we call the main function of the application: <hl>app.main()</hl>.
+
+This will call the fake <hl>input</hl> function and the fake <hl>print</hl> function, but the rest of the code won't know about the change. So the rest, the business logic, we work as it should.
+
+Then we can assert whether the values collected in the <hl>output</hl> list are the same values as we expected them.
+
+We can run the test by typing <hl>pytest test_app.py</hl> in the directory where we have both of these files.
+(In our case that is the <hl>examples/python/mock-input/</hl> directory.
+
+The above works, but we might have better solutions:
+
+<h2>capsys</h2>
+
+<hl>capsys</hl> is one of the built-in fixtures <a href="https://pytest.org/">Pytest</a> provides.
+It helps us capture everything that goes to the standard output and the standard error during the execution of a test.
+
+In order to use it we need to include the parameter <hl>capsys</hl> in the list of parameters our test function expects. (In our case this is the only parameter.) Seeing that the function expects the <hl>capsys</hl> object Pytest will call our function passing in the <hl>capsys</hl> object (this technique is called dependency injection.) Pytest will also set up everything necessary to capture both the output and error stream.
+
+That means we don't need to (and we really should not) override the <hl>print</hl> function and in the <hl>mock_input</hl> function we don't save the parameter string in an <hl>output</hl> list. Actually, because our <hl>mock_input function only has one statement in it, we could have converted it to a <hl>lambda</hl>. But I digress.
+
+Once we have our setup we call <hl>app.main()</hl> just as in the previous case. Then we can call the
+<hl>readouterr</hl> method of the <hl>capsys</hl> object that will return two strings. Whatever was printed to the standard output and whatever was printed to the standard error since the beginning of the test function.
+
+We can compare these two to the expected strings.
+
+<include file="examples/python/mock-input/test_app_capsys.py">
+
+Using <hl>capsys</hl> has the advantage that it is a built-in tool and that it can be used to check both the correct output and that nothing was printed to the error channel.
+
+In other cases we might use it to make sure the expected error message was printed to the error channel.
+
+We should also notice that in this solution we don't capture the output that should have been generated by the <hl>input</hl> function as that part was swallowed by our mocking function. This might be clearer or more confusing to you depending on your expectations.
+
+We also had to include the new-line <hl>\n</hl> in our expected string.
+
+Try: <hl>pytest test_app_capsys.py</hl>
+
+<h2>capsys capturing the prompts as well</h2>
+
+If you'd like to include the prompt strings in the captured output, it can also be easily done.
+You just need to print them in the <hl>mock_input</hl> function.
+
+<include file="examples/python/mock-input/test_app_capsys_print.py">
+
+Then we also need to include those strings in the expected output.
+
+(We used <hl>end = ''</hl> in the <hl>print</hl> function inside the <hl>mock_input</hl> function as that's how <hl>input</hl> prints the prompt string.)
+
+Try: <hl>pytest test_app_capsys_print.py</hl>
+
+<h2>Warning</h2>
+
+If you have all the 3 test files and the application in the same directory and you run <hl>pytest</hl> it will run all 3 test files and then some of them will fail. This is because they run in the same process and we override parts of the <hl>app</hl> in different ways in the different test files.
+In a real application you would stick to one of the above solution for all of your test files and then this problem would not happen.
+
