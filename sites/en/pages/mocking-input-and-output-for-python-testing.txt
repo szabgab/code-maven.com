@@ -58,7 +58,7 @@ It helps us capture everything that goes to the standard output and the standard
 
 In order to use it we need to include the parameter <hl>capsys</hl> in the list of parameters our test function expects. (In our case this is the only parameter.) Seeing that the function expects the <hl>capsys</hl> object Pytest will call our function passing in the <hl>capsys</hl> object (this technique is called dependency injection.) Pytest will also set up everything necessary to capture both the output and error stream.
 
-That means we don't need to (and we really should not) override the <hl>print</hl> function and in the <hl>mock_input</hl> function we don't save the parameter string in an <hl>output</hl> list. Actually, because our <hl>mock_input function only has one statement in it, we could have converted it to a <hl>lambda</hl>. But I digress.
+That means we don't need to (and we really should not) override the <hl>print</hl> function and in the <hl>mock_input</hl> function we don't save the parameter string in an <hl>output</hl> list. Actually, because our <hl>mock_input</hl> function only has one statement in it, we could have converted it to a <hl>lambda</hl>. But I digress.
 
 Once we have our setup we call <hl>app.main()</hl> just as in the previous case. Then we can call the
 <hl>readouterr</hl> method of the <hl>capsys</hl> object that will return two strings. Whatever was printed to the standard output and whatever was printed to the standard error since the beginning of the test function.
