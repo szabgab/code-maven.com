@@ -31,7 +31,7 @@ We then have a test like this:
 
 In this code we have two lines in which we replace the <hl>input</hl> and <hl>print</hl> functions of the <hl>app</hl> object. The overriding of <hl>print</hl> seems to be the simpler here.
 
-Every time the code in <hl>app</hl> calls <hl>print<hl> our <hl>lambda</hl> function will append the value to the list called <hl>output</hl> we have declared earlier. It won't print anything to the screen.  (In case you are not familiar with <hl>lambda</hl> it creates an anonymous function on the fly.)
+Every time the code in <hl>app</hl> calls <hl>print</hl> our <hl>lambda</hl> function will append the value to the list called <hl>output</hl> we have declared earlier. It won't print anything to the screen.  (In case you are not familiar with <hl>lambda</hl> it creates an anonymous function on the fly.)
 
 Overriding the <hl>input</hl> function is similar, but that required two statements, so we could not do it in a <hl>lambda</hl>. Hence we created a function called <hl>mock_input</hl> (a totally arbitrary name) and then assigned that function to the <hl>app.input</hl>. That means every time <hl>input</hl> is called inside the <hl>app</hl> object, Python will call our <hl>mock_input</hl> function instead of the built-in <hl>input</hl> function.
 
