@@ -1,0 +1,25 @@
+=title jq
+=timestamp 2018-01-01T07:30:01
+=indexes jq, json
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<code>
+curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer $DO_API_TOKEN" "https://api.digitalocean.com/v2/images?type=distribution" > images.json
+</code>
+
+<code>
+jq keys images.json
+
+jq .images[].slug images.json
+
+jq .links images.json  | jq keys
+
+jq .images images.json  | jq keys      are all numbers
+</code>
+
