@@ -22,6 +22,8 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-hello-world">Hello World in Groovy</a></li>
   <li><a href="/groovy-read-from-stdin">Reading from STDIN in Groovy</a></li>
   <li><a href="/groovy-types">Groovy types</a></li>
+  <li><a href="/groovy-undeclared-variable">Groovy: Undeclared variable - runtime exception - groovy.lang.MissingPropertyException</a></li>
+  <li><a href="/groovy-number-guessing-game">Groovy: Number guessing game</a></li>
 </ul>
 
 <h2>Other resources</h2>
