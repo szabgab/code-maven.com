@@ -1,0 +1,29 @@
+=title Groovy: Undeclared variable - runtime exception - groovy.lang.MissingPropertyException
+=timestamp 2018-05-27T09:30:01
+=indexes def, MissingPropertyException
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Unlike the "strongly typed" languges, Groovy does not check the existance of all the variables at compile time.
+This can lead to run-time exceptions such as <hl>groovy.lang.MissingPropertyException</hl>
+
+=abstract end
+
+<include file="examples/groovy/undeclared_variable.groovy">
+
+In this script we declare and use a variable called <hl>val</hl>, but in one point,
+in the second <hl>if</hl>-statement, we used the variable name <hl>value</hl>. Presumably by mistake.
+
+If the input is 10 or more the code runs smoothly, but if the input is less than 10 then we get a run-time exception:
+
+<code>
+Caught: groovy.lang.MissingPropertyException: No such property: value for class: undeclared_variable
+groovy.lang.MissingPropertyException: No such property: value for class: undeclared_variable
+	at undeclared_variable.run(undeclared_variable.groovy:6)
+</code>
+
