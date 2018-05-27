@@ -13,6 +13,7 @@
 <ul>
   <li><a href="/linux">Linux</a></li>
   <li><a href="/ansible">Ansible</a></li>
+  <li><a href="/jenkins">Jenkins</a></li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
   <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
   <li><a href="/javascript">JavaScript</a></li>
@@ -22,6 +23,8 @@
   <li><a href="/svg">SVG</a></li>
   <li><a href="/java">Java</a></li>
   <li><a href="/php">PHP</a></li>
+  <li><a href="/groovy">Groovy</a></li>
+  <li><a href="https://perlmaven.com/">Perl</a></li>
 </ul>
 </div>
 
@@ -29,7 +32,9 @@
 <a href="/exercises">Programming Exercises</a> for any language.
 </div>
 
+<!--
 <div class="main-content">
 If you want to make sure you don't miss any new articles, you can <a href="/pm/register">subscribe</a> to the
 Code Maven newsletter, follow via <a href="/atom">atom feed</a> or <a href="https://twitter.com/szabgab">Twitter</a>
 </div>
+-->
