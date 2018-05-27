@@ -54,7 +54,7 @@ append a newline to the end of the output.
 
 <include file="examples/groovy/hello_world_with_newline.groovy">
 
-<h2>Read from STDION in Groovy</h2>
+<h2>Read from STDIN in Groovy</h2>
 
 Reading from the Standard Input, normally the keyboard, is also quite easy.
 
@@ -72,4 +72,22 @@ operator to concatenate the values.
 A shorter alternative is to use the <a href="https://docs.oracle.com/javase/7/docs/api/java/io/Console.html">Console</a> object, but rumors say that it might not work inside an IDE. It works when running in the terminal.
 
 <include file="examples/groovy/input_from_console.groovy">
+
+<h2>Converting string to Integer</h2>
+
+When we read a value from the standard input it arrives as a string. It cannot be used in numerical operations
+even if the input looks like a number.
+In order to use it as a number we have to tell Groovy to treat it as a number. For example as an Integer.
+That's what "as Integer" is for in the next example:
+
+<h2>Rectangular</h2>
+
+See the <a href="/exercise-rectangular">rectangular exercise</a>.
+
+<include file="examples/groovy/rectangular.groovy">
+
+<h2>Other resources</h2>
+
+<a href="https://learnxinyminutes.com/docs/groovy/">Learn X in Y minutes Where X=Groovy</a>
+
 
