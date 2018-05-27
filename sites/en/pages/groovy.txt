@@ -86,6 +86,12 @@ See the <a href="/exercise-rectangular">rectangular exercise</a>.
 
 <include file="examples/groovy/rectangular.groovy">
 
+<h2>Articles</h2>
+
+<ul>
+  <li><a href="/groovy-types">Groovy types</a></li>
+</ul>
+
 <h2>Other resources</h2>
 
 <a href="https://learnxinyminutes.com/docs/groovy/">Learn X in Y minutes Where X=Groovy</a>
