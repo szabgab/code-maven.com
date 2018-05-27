@@ -1,0 +1,51 @@
+=title Hello World in Groovy
+=timestamp 2018-05-01T07:30:01
+=indexes print, println, 
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<h2>Install Groovy</h2>
+
+There are plenty of ways you can <a href="http://groovy-lang.org/documentation.html#gettingstarted">download and install Groovy</a>.
+As I am trying it on Mac OSX and as I already use <a href="https://brew.sh/">Homebrew</a> I just ran
+
+<code>
+brew install groovy
+</code>
+
+and it installed it for me.
+
+<h2>The version of Groovy</h2>
+
+Then I ran the following command to see which version o f Groovy do I have and on top of which version of the JVM it runs:
+
+<code>
+$ groovy -v
+
+Groovy Version: 2.4.15 JVM: 1.8.0_60 Vendor: Oracle Corporation OS: Mac OS X
+</code>
+
+<h2>Hello World in Goovy</h2>
+
+Unlike in Java there is not need for a lot of cermony. You can use the <hl>print</hl> function to
+print a string to the screen. You can include <hl>\n</hl> to embed a newline character.
+There is no need for semi-colon <hl>;</hl> at the end of the statement.
+
+<include file="examples/groovy/hello_world.groovy">
+
+<pre>
+$ groovy hello_world.groovy
+</pre>
+
+Alternatively you can use the <hl>println</hl> function that will automatically
+append a newline to the end of the output.
+
+<include file="examples/groovy/hello_world_with_newline.groovy">
+
+

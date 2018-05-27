@@ -1,6 +1,6 @@
 =title Groovy
 =timestamp 2018-05-24T09:30:01
-=indexes Groovy, print, println, Console, System, readLine
+=indexes Groovy
 =status show
 =books groovy
 =author szabgab
@@ -12,88 +12,19 @@
 <a href="http://groovy-lang.org/">Groovy</a> is a general purpose language that runs on the top of the JVM, the Java Virtual Machine
 that seems to allow developers to be a lot more productive than using Java.
 
-My primary reasin for looking into it is that it is the language used for the <a href="https://jenkins.io/">Jenkins</a> Pipelines.
+My primary reason for looking into it is that it is the language used for the <a href="https://jenkins.io/">Jenkins</a> Pipelines.
 
 =abstract end
-
-<h2>Install Groovy</h2>
-
-There are plenty of ways you can <a href="http://groovy-lang.org/documentation.html#gettingstarted">download and install Groovy</a>.
-As I am trying it on Mac OSX and as I already use <a href="https://brew.sh/">Homebrew</a> I just ran
-
-<code>
-brew install groovy
-</code>
-
-and it installed it for me.
-
-<h2>The version of Groovy</h2>
-
-Then I ran the following command to see which version o f Groovy do I have and on top of which version of the JVM it runs:
-
-<code>
-$ groovy -v
-
-Groovy Version: 2.4.15 JVM: 1.8.0_60 Vendor: Oracle Corporation OS: Mac OS X
-</code>
-
-<h2>Hello World in Goovy</h2>
-
-Unlike in Java there is not need for a lot of cermony. You can use the <hl>print</hl> function to
-print a string to the screen. You can include <hl>\n</hl> to embed a newline character.
-There is no need for semi-colon <hl>;</hl> at the end of the statement.
-
-<include file="examples/groovy/hello_world.groovy">
-
-<pre>
-$ groovy hello_world.groovy
-</pre>
-
-Alternatively you can use the <hl>println</hl> function that will automatically
-append a newline to the end of the output.
-
-<include file="examples/groovy/hello_world_with_newline.groovy">
-
-<h2>Read from STDIN in Groovy</h2>
-
-Reading from the Standard Input, normally the keyboard, is also quite easy.
-
-<hl>System.in</hl> represents the Standard Input channel.
-
-<hl>def</hl> defines a variable name. There is no need to declare the type of the variable.
-
-<hl>println</hl> only takes one argument, so instead of passing a list of values we use the <hl>+</hl>
-operator to concatenate the values.
-
-<include file="examples/groovy/input_from_stdin.groovy">
-
-<h2>Read from Console in Groovy</h2>
-
-A shorter alternative is to use the <a href="https://docs.oracle.com/javase/7/docs/api/java/io/Console.html">Console</a> object, but rumors say that it might not work inside an IDE. It works when running in the terminal.
-
-<include file="examples/groovy/input_from_console.groovy">
-
-<h2>Converting string to Integer</h2>
-
-When we read a value from the standard input it arrives as a string. It cannot be used in numerical operations
-even if the input looks like a number.
-In order to use it as a number we have to tell Groovy to treat it as a number. For example as an Integer.
-That's what "as Integer" is for in the next example:
-
-<h2>Rectangular</h2>
-
-See the <a href="/exercise-rectangular">rectangular exercise</a>.
-
-<include file="examples/groovy/rectangular.groovy">
 
 <h2>Articles</h2>
 
 <ul>
+  <li><a href="/groovy-hello-world">Hello World in Groovy</a></li>
+  <li><a href="/groovy-read-from-stdin">Reading from STDIN in Groovy</a></li>
   <li><a href="/groovy-types">Groovy types</a></li>
 </ul>
 
 <h2>Other resources</h2>
 
 <a href="https://learnxinyminutes.com/docs/groovy/">Learn X in Y minutes Where X=Groovy</a>
-
 
