@@ -145,11 +145,13 @@ The pairs can speak whatever language they both know. Hebrew, English, Arabic, R
 
 <ul>
     <li>Driver - Navigator</li>
+    <li>Driver - Observer (aka Teacher - Observer)</li>
     <li>Joint  discussion  and  brainstorming - typist</li>
-    <li>Teacher - Observer</li>
 </ul>
 
-In the Driver-Navigator pattern one person, the driver, writes the code. The other person, the Navigator, tells the driver what to write.  The Navigator explains the task at the highest possible abstraction that matches the knowledge and experience level of the driver.
+In the Driver-Navigator pattern one person, the Driver, writes the code. The other person, the Navigator, tells the driver what to write.  The Navigator explains the task at the highest possible abstraction that matches the knowledge and experience level of the driver.
+
+In the Driver-Observer pattern the Driver writes the code and articulates and explains what is being done. The Observer watches to learn and to find issues with the code. The Observer is free to ask questions.
 
 <h3>Patterns for switching roles</h3>
 

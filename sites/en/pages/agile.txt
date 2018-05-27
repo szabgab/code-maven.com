@@ -42,6 +42,7 @@ Peace of mind for both developers and managers.
 <ul>
     <li><a href="http://www.netobjectives.com/system/files/WorkingEffectivelyWithLegacyCode.pdf">Working Effectively with Legacy Code</a> (short pdf)</li>
     <li><a href="https://www.mountaingoatsoftware.com/articles/introducing-an-agile-process-to-an-organization">Introducing An Agile Process to an Organization</a></li>
+    <li><a href="http://stateofagile.versionone.com/">State of Agile</a></li>
     <li><a href="https://explore.versionone.com/state-of-agile/versionone-11th-annual-state-of-agile-report-2">State of Agile 2017</a></li>
     <li><a href="https://builttoadapt.io/whats-the-value-of-ci-cd-c2e6c39450bd">What's the Value of CI/CD?</a></li>
 </ul>
