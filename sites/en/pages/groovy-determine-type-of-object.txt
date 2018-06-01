@@ -9,7 +9,12 @@
 
 =abstract start
 
+Creating an object called <hl>obj</hk> of type <a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html">java.util.ArrayList</a> which implements the <a href="https://docs.oracle.com/javase/7/docs/api/java/util/List.html">java.util.List</a> interface.
+
+<hl>instanceof</hl> checks if obj is the subclass of some class.
+
+<hl>getClass</hl> returns the exact type of an object.
+
 =abstract end
 
 <include file="examples/groovy/check_type.groovy">
-

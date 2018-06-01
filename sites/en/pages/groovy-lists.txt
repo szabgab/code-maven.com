@@ -1,0 +1,38 @@
+=title Groovy: Lists
+=timestamp 2018-06-01T09:00:01
+=indexes List, ArrayList, LinkedList, size, for, each, eachWithIndex
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Square brackets <hl>[]</hl> create a list that implements the
+<a href="https://docs.oracle.com/javase/7/docs/api/java/util/List.html">List</a> interface.
+
+By default it is of type <a href="https://docs.oracle.com/javase/7/docs/api/java/util/ArrayList.html">ArrayList</a>
+though you can create a list of type <a href="https://docs.oracle.com/javase/7/docs/api/java/util/LinkedList.html">LinkedList</a> as well.
+
+=abstract end
+
+<include file="examples/groovy/lists.groovy">
+
+There are several ways to iterate over the elements of a list.
+
+There is the old-school way of using a <hl>for</hl> loop. This is like in most of the other languages
+uses a variable to go over the indexes from 0 to the size-1 and then use this index to access the real value
+in the list. The name of this internal variable is typically i or j and it does not need to be declared using <hl>def</hl>.
+
+
+The <h2>each</hl> method will also iterate over the elements of the list. For each iteration it will put the current value
+in a varaible called <hl>it</hl> and then execute the block that follows the <hl>each</hl> statement. The <hl>it</hl> is similar
+to to <hl>$_</hl> of Perl and the <hl>_</hl> of Python.
+
+Optionally we can set the name of this internal variable by providing it right after the opening <hl>{</hl> of the block,
+followed by an arrow.
+
+Fnally we can also use the <hl>eachWithIndex</hl> in which case we need to define the name of two variables.
+The first one will get the current value, the second one will get the index of the current value.
+
