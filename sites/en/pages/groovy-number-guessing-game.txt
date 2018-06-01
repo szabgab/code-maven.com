@@ -1,6 +1,6 @@
 =title Groovy: Number guessing game
 =timestamp 2018-05-27T10:00:01
-=indexes Random
+=indexes Random, nextInt, System.in.newReader().readLine
 =status show
 =books groovy
 =author szabgab

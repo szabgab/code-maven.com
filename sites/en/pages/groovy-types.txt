@@ -67,6 +67,12 @@ but we can assign any type of value to it and it will be automatically converted
 
 <include file="examples/groovy/variable_types_boolean.groovy">
 
+<a href="http://docs.groovy-lang.org/latest/html/documentation/core-semantics.html#Groovy-Truth">Groovy Truth</a> provides the details of the coercion to boolean values.
+
+
+
+<h2>Syntax</h2>
+
 See the <a href="http://groovy-lang.org/syntax.html">Groovy syntax</a> for more details</a>
 
 
