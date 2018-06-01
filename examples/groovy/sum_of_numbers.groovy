@@ -1,10 +1,14 @@
 sum = 0
 
-def 
 fh = new File('examples/data/numbers.txt')
-fh.eachLine( { println x } )
+println fh.getClass()        // class java.io.File
 
-println "The sum is: " + sum
+def lines = fh.readLines()
+
+lines.each { line ->
+    sum += line as Integer
+}
+
+println "The sum is: " + sum   // 126
 
 
-# http://groovy-lang.org/syntax.html#_lists

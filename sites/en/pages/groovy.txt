@@ -27,6 +27,7 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-number-guessing-game">Groovy: Number guessing game</a> Random, nextInt, System.in.newReader().readLine</li>
   <li><a href="/groovy-determine-type-of-object">Determine type of an object in Groovy</a> instanceof, getClass</li>
   <li><a href="/groovy-lists">Lists in Groovy</a> List, ArrayList, LinkedList, size, for, each, eachWithIndex</li>
+  <li><a href="/groovy-sum-of-numbers">sum of numbers</a> File, readLines, LineNumberReader, newReader, readLine</li>
 </ul>
 
 <h2>Other resources</h2>

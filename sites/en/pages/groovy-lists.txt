@@ -33,6 +33,8 @@ to to <hl>$_</hl> of Perl and the <hl>_</hl> of Python.
 Optionally we can set the name of this internal variable by providing it right after the opening <hl>{</hl> of the block,
 followed by an arrow.
 
-Fnally we can also use the <hl>eachWithIndex</hl> in which case we need to define the name of two variables.
+Finally, we can also use the <hl>eachWithIndex</hl> in which case we need to define the name of two variables.
 The first one will get the current value, the second one will get the index of the current value.
 
+
+Read more about <a href="http://groovy-lang.org/syntax.html#_lists">lists in Groovy</a>.
