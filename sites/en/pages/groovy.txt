@@ -28,7 +28,9 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-determine-type-of-object">Determine type of an object in Groovy</a> instanceof, getClass</li>
   <li><a href="/groovy-lists">Lists in Groovy</a> List, ArrayList, LinkedList, size, for, each, eachWithIndex</li>
   <li><a href="/groovy-sum-of-numbers">Sum of numbers</a> File, readLines, LineNumberReader, newReader, readLine</li>
-  <li><a href="/groovy-color-selector">Color selector exercise</a></li>
+  <li><a href="/groovy-color-selector">Solution to the "Color selector" exercise</a></li>
+  <li><a href="/groovy-read-csv-file">Read CSV file in Groovy</a> @Grab, import, File, getText, parseCSV, separators, readFirstLine
+</li>
 </ul>
 
 <h2>Other resources</h2>

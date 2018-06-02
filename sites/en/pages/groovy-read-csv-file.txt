@@ -1,0 +1,66 @@
+=title Groovy: read CSV file
+=timestamp 2018-06-02T11:30:01
+=indexes @Grab, import, File, getText, parseCSV, separators, readFirstLine
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Groovy does not seem to provide a built-in CSV reader, but there are a number of third-party open source implementations.
+
+In this case I am using <a href="http://xlson.com/groovycsv/">GroovyCSV</a> that has its source at <a href="https://github.com/xlson/groovycsv">GitHub</a>.
+
+=abstract end
+
+<h2>Read CSV file and add number in the 3rd column</h2>
+
+This is the solution to the <a href="/exercise-add-numbers-from-csv-file">exercise</a> in which we need to read the file
+
+<include file="examples/data/process_csv_file.csv">
+
+and add the numbers in the 3rd column.
+
+In another case we need to read this file:
+
+<include file="examples/data/distance.csv">
+
+and again add the 3rd column
+
+The solution for the first file looks like this:
+
+<include file="examples/groovy/add_numbers_from_csv_semicolon.groovy">
+
+The first line tells Groovy to use the <a href="http://docs.groovy-lang.org/latest/html/documentation/grape.html">Grape dependency management</a> tool and install the package. This will happen the first time we run our code. In subsequent runs it will already use the locally intsalled version of the module.
+
+<code lang="groovy">
+@Grab('com.xlson.groovycsv:groovycsv:1.3')
+</code>
+
+The second line tells Groovy to import the <hl>parseCsv</hl> class from the already installed library.
+
+<code lang="groovy">
+import static com.xlson.groovycsv.CsvParser.parseCsv
+</code>
+
+The we open the file using the <a href="http://docs.groovy-lang.org/latest/html/groovy-jdk/java/io/File.html">File</a> class and read in the whole content using the <hl>getText</hl> method.
+
+<code lang="groovy">
+fh = new File('examples/data/distance.csv')
+def csv_content = fh.getText('utf-8')
+</code>
+
+The <hl>parseCSV</hl> function expects the content of the CSV file as its first parameter and then it can also accept configuration options. In our case we set the <hl>separator</hl> to be <hl>;</hl> as our file uses that instead of plain comma <hl>,</hl>
+We also set the <hl>readFirstLine</hl> to be <hl>true</hl> as we wanted the first row to be treated as data and not as header.
+
+The defaults are <hl>,</hl> and <hl>false</hl> respectively. There are some other parameter one can set.
+
+The call to <hl>parseCSV</hl> return an instance of <hl>com.xlson.groovycsv.CsvIterator</hl>. We can use that to iterate over the rows.Each iteration <hl>line</hl> holding an array of the fields of the current line. We can use regular array indexing to access index 2 which is the 3rd column as arrays are 0-based.
+
+<include file="examples/groovy/add_numbers_from_csv.groovy">
+
+The second file uses <hl>,</hl> as separators which is the default so we don't need to set that explicitly.
+Other than that the two solutions are identical.
+
