@@ -4,6 +4,10 @@
 *.pickle
 *.class
 .DS_Store
-/.idea/
 /examples/python/cli/.cache
 github-token
+
+
+# IntelliJ files
+.idea/
+*.iml
