@@ -30,6 +30,7 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-sum-of-numbers">Sum of numbers</a> File, readLines, LineNumberReader, newReader, readLine</li>
   <li><a href="/groovy-color-selector">Solution to the "Color selector" exercise</a></li>
   <li><a href="/groovy-read-csv-file">Read CSV file in Groovy</a> @Grab, import, File, getText, parseCSV, separators, readFirstLine
+  <li><a href="/groovy-count-digits">Solution to the count digits exercies</a></li>
 </li>
 </ul>
 

@@ -49,3 +49,8 @@ Can your code also handle this file?
    <li><a href="/reading-csv-file-in-ruby">Reading CSV file in Ruby</a></li>
 </ul>
 
+
+<h2>Solution in Groovy</h2>
+<ul>
+   <li><a href="/groovy-read-csv-file">Readng CSV file in Groovy</a></li>
+</ul>
