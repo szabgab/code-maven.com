@@ -1,0 +1,21 @@
+=title Groovy: listing the content of a directory, traversing a directory tree
+=timestamp 2018-06-03T14:30:01
+=indexes File, eachFile, eachFileRecurse 
+=status draft
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Listing all the files and subdirectories in a given path.
+
+Traversing a directory tree sytarting from a specific path.
+
+=abstract end
+
+<include file="examples/groovy/directory_listing.groovy">
+
+<include file="examples/groovy/traverse_directory_tree.groovy">
+

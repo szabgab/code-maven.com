@@ -1,0 +1,38 @@
+=title Groovy: reading and writing files - appending content
+=timestamp 2018-06-03T14:30:01
+=indexes File, getText, readLines, newReader, readLine, write, append
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In order to handle files Groovy has a class called <a href="http://docs.groovy-lang.org/latest/html/groovy-jdk/java/io/File.html">File</a>. Let's see some of the basic operations you can do with files.
+
+=abstract end
+
+<include file="examples/groovy/read_file.groovy">
+
+<h2>Write a new file</h2>
+
+This will remove the content of the old file and start a new file.
+
+<include file=""examples/groovy/write_file.groovy">
+
+This will append to the end of the file.
+
+<include file="examples/groovy/append_file.groovy">
+
+
+<h2>Write and Append</h2>
+
+If we mix the calls to <hl>write</hl> and to <hl>append</hl> we'll get some strange results.
+For example the following code will only store "third" in the file.
+
+<include file="examples/groovy/write_append_file.groovy">
+
+Don't do this!
+
+
