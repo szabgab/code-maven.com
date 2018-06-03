@@ -1,5 +1,5 @@
 =title Groovy: listing the content of a directory, traversing a directory tree
-=timestamp 2018-06-03T14:30:01
+=timestamp 2018-06-03T15:30:01
 =indexes File, eachFile, eachFileRecurse 
 =status show
 =books groovy
