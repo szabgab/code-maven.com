@@ -40,6 +40,8 @@ Articles about Python
   <li><a href="/serialize-datetime-object-as-json-in-python">How to serialize a datetime object as JSON using Python?</a></li>
   <li><a href="https://perlmaven.com/pro/openweathermap-api-using-python">Using the Open Weather Map API with Python</a></li>
   <li><a href="/minimal-example-generating-html-with-python-jinja">Skeleton: A minimal example generating HTML with Python Jinja</a></li>
+  <li><a href="/simple-logging-in-python">Simple logging in Python</a></li>
+  <li><a href="/logging-in-python">Logging in Python</a></li>
 </ul>
 
 <h2>Python Testing</h2>
