@@ -1,0 +1,110 @@
+=title Simple logging in Python
+=timestamp 2018-06-12T08:30:01
+=indexes logging, time, strftime
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Python provides a built-in library called <a href="https://docs.python.org/3/library/logging.html">logging</a> to make it easy to add logging to any module or application in a unified way. Let's see how can we use it.
+
+=abstract end
+
+<h2>Simple logging</h2>
+
+The most simple way to get started with logging is to import the <hl>logging</hl> module and then call
+the various logging methods on it. There are 5 primary <a href="https://docs.python.org/3/library/logging.html#levels">levels of logging</a>. Each one has a corresponding numeric value and a method to log on that level.
+
+In addition we can call the <hl>log</hl> method passing to it the level as provided by the appropriate name in upper case (<hl>logging.WARNING</hl> in our example) or we can even pass the numerical value by ourself, though that makes of a much less readable code.
+
+<include file="examples/python/simple_logging.py">
+
+If we run the above script we get the following output:
+
+<code>
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical
+WARNING:root:another warning
+ERROR:root:another error
+</code>
+
+<ul>
+   <li>By default the <hl>logging</hl> module only displays the levels WARNING and up.</li>
+   <li>By default it prints then to the Standard Error channel (STDERR).</li>
+   <li>The format is LEVEL followed by the name of the default logger (root), followed by the message</li>
+</ul>
+
+<h2>Basic Configuration: Set the log level for logging in Python</h2>
+
+We can easily adjust the level of logging to be INFO and above by calling the <hl>basicConfig</hl> method:
+
+<include file="examples/python/simple_logging_set_level.py">
+
+The output will be:
+
+<code>
+INFO:root:info
+WARNING:root:warning
+ERROR:root:error
+CRITICAL:root:critical
+</code>
+
+<h2>Send log to a file</h2>
+
+We can also configure the logging module to save the log messages in a file, <b>instead</b> of the STDERR
+by adding the <hl>filename</hl> parameter to the <hl>basicConfig</hl> method call:
+
+<code>
+logging.basicConfig(level = logging.INFO, filename = "my.log")
+</code>
+
+This will create the log file if it does not exists and append the content of the file, if it already existed.
+
+
+This means the file can grow in size quite fast so a better idea might be to use some kind of a log-file rotation tool
+or to create log files for limited time periods. E.g. One file per day. For this we can use the <a href="http://strftime.org/">time.strftime</a> method:
+
+<include file="examples/python/simple_logging_to_file.py">
+
+This will use files in the following format: <hl>my-2018-06-12.log</hl>. Please don't use British or American date formats here.
+Those are really confusing and break the sorting order.
+
+Alternatively you could change it by adding <hl>filemode = 'w'</hl> that will change the mode of operation from "append" to "write"
+and will overwrite the file every time we run our application. This usually is not very useful as this mean we lose all the old logs.
+
+<h2>Formatting the log message, including date</h2>
+
+We can replace the default log message format using the <hl>format</hl> parameter and some keywords representing the various fields
+supplied by the logging module:
+
+<include file="examples/python/simple_logging_format.py">
+
+The output will look like this:
+
+<code>
+2018-06-12 08:46:22,942  WARNING    MainProcess  root warning
+2018-06-12 08:46:22,942  ERROR      MainProcess  root error
+2018-06-12 08:46:22,942  CRITICAL   MainProcess  root critical
+</code>
+
+
+<h2>Change the date format in the log</h2>
+
+Though I don't really recommend to change the date format, you can do that by passing the <hl>datefmt</hl> parameter
+with a string using the <a href="http://strftime.org/">strftime</a> tags.
+
+<include file="examples/python/simple_logging_format_date.py">
+
+The output will then change to:
+
+<code>
+2018-06-12-08-51-30  WARNING    MainProcess  root warning
+2018-06-12-08-51-30  ERROR      MainProcess  root error
+2018-06-12-08-51-30  CRITICAL   MainProcess  root critical
+</code>
+
+
