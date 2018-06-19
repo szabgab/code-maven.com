@@ -2,7 +2,7 @@
 =timestamp 2018-04-20T16:30:01
 =indexes CodeMaven
 =status show
-=books exercises
+=books exercise
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
