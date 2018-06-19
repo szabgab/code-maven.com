@@ -2,7 +2,7 @@
 =timestamp 2016-03-12T00:30:01
 =indexes ngRouter, $routeProvider, ng-view, template, templateUrl, redirectTo
 =status show
-=books angular
+=books angularjs
 =author szabgab
 =archive 1
 =comments_disqus_enable 1

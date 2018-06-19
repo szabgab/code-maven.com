@@ -2,7 +2,7 @@
 =timestamp 2016-05-18T23:30:01
 =indexes $rootScopeProvider, digestTtl, ng-repeat, ng-include, config
 =status show
-=books angular
+=books angularjs
 =author szabgab
 =archive 1
 
