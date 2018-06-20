@@ -14,15 +14,30 @@
 The Code-Maven site is maintained by <a href="http://szabgab.com/">Gabor Szabo</a>.
 You can <a href="https://szabgab.com/contact.html">contact him</a>.
 
-<h2>Main Topics</h2>
+<h2>Paid services</h2>
+
+Gabor helps teams at various points in their journey to faster development process with more stable releases.
+Starting from improved use of your Version Control System, via the introduction of Automated Tests. (Unit, Integration, Acceptance, etc.) Through virtualization and containerization, Continuous Integration and Continuous Deployment towards a cloud-based infrastructure.
+
+At whatever point you are in this process Gabor can help you get started or move on.
+
+
+<h2>Main Topics on this site</h2>
+
+This site is primarily because Gabor likes to explain things. Hopefully some of the articles will help you too.
 
 <ul>
-  <li><a href="/linux">Linux</a></li>
   <li><a href="/ansible">Ansible</a></li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
+  <li><a href="/groovy">Groovy</a></li>
   <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
+  <li><a href="/java">Java</a></li>
   <li><a href="/javascript">JavaScript</a></li>
+  <li><a href="/jenkins">Jenkins</a></li>
+  <li><a href="/linux">Linux</a></li>
   <li><a href="/nodejs">NodeJS</a></li>
+  <li><a href="https://perlmaven.com/">Perl</a></li>
+  <li><a href="/php">PHP</a></li>
   <li><a href="/python">Python</a></li>
   <li><a href="/ruby">Ruby</a></li>
   <li><a href="/svg">SVG</a></li>
