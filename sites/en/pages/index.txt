@@ -10,22 +10,22 @@
 <h2>Welcome to the Code Maven!</h2>
 
 <div class="main-content">
-<h3>The main topics in ABC order</h3>
+<h3>The main topics</h3>
 <ul>
   <li><a href="/ansible">Ansible</a></li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
-  <li><a href="/groovy">Groovy</a></li>
+  <li><a href="/groovy">Groovy</a>, the programming language used for Jenkins pipelines.</li>
   <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
   <li><a href="/java">Java</a></li>
   <li><a href="/javascript">JavaScript</a></li>
-  <li><a href="/jenkins">Jenkins</a></li>
+  <li><a href="/jenkins">Jenkins</a>, the automation server used for Continuous Integration and Continuous Delivery.</li>
   <li><a href="/linux">Linux</a></li>
   <li><a href="/nodejs">NodeJS</a></li>
   <li><a href="https://perlmaven.com/">Perl</a></li>
   <li><a href="/php">PHP</a></li>
   <li><a href="/python">Python</a></li>
   <li><a href="/ruby">Ruby</a></li>
-  <li><a href="/svg">SVG</a></li>
+  <li><a href="/svg">SVG</a>, Scalable Vector Graphics examples in JavaScript and Python.</li>
 </ul>
 </div>
 
