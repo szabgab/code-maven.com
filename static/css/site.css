@@ -7,4 +7,6 @@
   border-radius: 15px;
 }
 
-
+.question {
+  font: bold;
+}
