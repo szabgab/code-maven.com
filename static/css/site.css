@@ -7,6 +7,30 @@
   border-radius: 15px;
 }
 
+.qa {
+/*
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  border-radius: 15px;
+  border-color: #000;
+  border-style: solid;
+  padding: 10px;
+*/
+}
+
 .question {
   font-weight: bold;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.answer {
+  margin-left: 20px;
+}
+
+#rnd-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
