@@ -13,6 +13,8 @@
 <img src="/img/rnd/yonatan-bergman.png" title="Yonatan Bergman">
 <a href="https://www.linkedin.com/in/yonbergman/">Yonatan Bergman</a> Senior Director Of Engineering at <a href="https://www.wework.com/">WeWork</a> leading the Tel Aviv office of WeWork.
 
+The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is an excellent place to get more insight.
+
 =abstract end
 
 <div class="qa">
@@ -42,6 +44,21 @@
     We don't have remote engineers or teams but we are dispersed across 5 R&D centers. New York, Tel Aviv, San Fransisco, Shanghai and Singapore.
   </div>
 </div>
+
+<div class="qa">
+  <div class="question">
+    How much interaction is among the people in different locations vs. inside a single office?
+  </div>
+  <div class="answer">
+It really depends on the group. We strive for all our first level teams (aka squads) to be fully co-located. Meaning that
+everyone engineering, product, design all sit in the same physical location, in most cases even right next to each other. As
+you go up our org chart the groups become more distributed.
+This leads to a lot of interaction amongst the people in your squad that are in your office, for groups that share missions
+across offices they have more need to collaborate via email, Slack and video conferences.
+We also have guilds and other structures to increase interaction in one office outside of the squad structure.
+  </div>
+</div>
+
 
 <div class="qa">
   <div class="question">
@@ -112,6 +129,9 @@
     What Agile practices do you employ? (Daily stand-up, Sprints, Retrospectives, ...)
   </div>
   <div class="answer">
+    It mostly depends on the team to choose, but the vast majority do hold major practices of some variation of
+    agile/scrum/kanban. Including daily stand-ups, weekly grooming sessions as part of sprints (we mostly adhere to 2 week
+    sprints, but again depending on the team). As far as I most of the teams do hold retros too.
   </div>
 </div>
 
@@ -120,6 +140,9 @@
     What does DevOps mean in your company? (Do you have a dedicated developer experience/developer tools team?)
   </div>
   <div class="answer">
+    DevOps is part of the responsibility of the squad, you develop the code, you deploy and monitor it too :)
+    You break it you fix it mentality.
+     We do have a dedicated foundations team that leads strategy, tooling and training in the world of Devops.
   </div>
 </div>
 
@@ -128,6 +151,7 @@
     Is anyone on-call? Who? (Developers, DevOps people, ...?)
   </div>
   <div class="answer">
+    Depends on the system and the team, but developers are on-call for their own systems.
   </div>
 </div>
 
@@ -136,14 +160,19 @@
     What is the development process like? (The lifecycle of a piece of committed code, branching strategy)
   </div>
   <div class="answer">
+     Every change into our master branch goes through dedicated feature/fix branches that get merged in after they get reviewed
+using GitHub pull request feature. During that time the code goes through our CI which usually means testing it, linting it
+and any other automation that we have set up for that system.
   </div>
 </div>
 
 <div class="qa">
   <div class="question">
-    Do you do pair-programming? Mob-programming?
+    Do you do pair-programming?
   </div>
   <div class="answer">
+    We support pair-programming including certain offices having dedicated pair-programming stations, but like most other places
+    I don't think we actually do it that often.
   </div>
 </div>
 
@@ -153,6 +182,10 @@
     Do you do code reviews? How often? What is code review like?
   </div>
   <div class="answer">
+    We love code reviews, each piece of code that reaches production usually sees two other sets of eyes. We've been very strict
+    about integrating tools like linters into our CI process to decrease the effect of bike-shedding during CRs. Everyone does
+    CRs to everyone and it's absolutely crucial for us since we hold an inner-sourcing model where any team can contribute code
+    to any system.
   </div>
 </div>
 
