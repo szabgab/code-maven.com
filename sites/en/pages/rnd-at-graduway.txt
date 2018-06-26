@@ -115,6 +115,7 @@ We also use an on-site contractor for some DevOps-y work (see below). The challe
 <div class="qa">
   <div class="question">
     What kind of cloud infrastructure do you use?
+  </div>
   <div class="answer">
     We've been through the three big players, and are about to settle on AWS with the release of our Next-Generation Product.
   </div>
