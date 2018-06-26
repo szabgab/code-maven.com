@@ -130,7 +130,7 @@
 
 <div class="qa">
   <div class="question">
-    Do you do pair-programming?
+    Do you do pair-programming? Mob-programming?
   </div>
   <div class="answer">
   </div>

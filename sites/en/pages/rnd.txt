@@ -1,0 +1,29 @@
+=title RnD at $company?
+=timestamp 2018-01-01T07:30:01
+=indexes RnD
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This is a series of blog posts, interviews with Engineering managers at various hi-tech companies in Israel.
+Inspired by the <a href="https://increment.com/development/what-its-like-to-be-a-developer-at/">What it is like to a developer at ...</a> 
+that was mentioned on a recent <a href="http://www.reversim.com/2018/06/341-bumpers-48.html">episode of the Reversim podcast</a> (in Hebrew).
+
+I am extending it a bit, focusing on companies with RnD offices in Israel, and turning it into a series of aricles.
+
+=abstract end
+
+I am interested in the life of all the people in the Enginnering department: Developers, QA engineers, DevOps engineers, IT, etc.
+Anyone who is related to the creation of value to the customers.
+
+I am also very much interested in the practices and processes employed.
+
+I think these issues can be interesting to all the engineers around the world.
+
+<ul>
+  <li><a href=""></a></li>
+</ul>
+
