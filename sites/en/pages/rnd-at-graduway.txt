@@ -8,7 +8,7 @@
 
 =abstract start
 
-<a href="https://graduway.com/">Graduway</a> a Raanan, Israel based tech company that provides SaaS products aimed at universities, schools, enterprises, and other organization.
+<a href="https://graduway.com/">Graduway</a> a Raanana, Israel based tech company that provides SaaS products aimed at universities, schools, enterprises, and other organizations.
 
 <a id="rnd-logo" href="https://graduway.com/"><img src="/img/rnd/graduway.png" title="Graduway logo"></a>
 
