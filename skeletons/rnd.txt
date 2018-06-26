@@ -42,15 +42,6 @@
 
 <div class="qa">
   <div class="question">
-    How much interaction is among the people in different locations vs. inside a single office?
-  </div>
-  <div class="answer">
-  </div>
-</div>
-
-
-<div class="qa">
-  <div class="question">
     What are the most common tools that engineers use?
   </div>
   <div class="answer">
@@ -125,7 +116,6 @@
     Is anyone on-call? Who? (Developers, DevOps people, ...?)
   </div>
   <div class="answer">
-    Depends on the system and the team, but developers are on-call for their own systems.
   </div>
 </div>
 
