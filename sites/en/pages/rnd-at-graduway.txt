@@ -8,7 +8,7 @@
 
 =abstract start
 
-<a id="rnd-logo" href="https://graduway.com/"><img src="/img/rnd/graduway.jpg" title="Graduway logo"></a>
+<a id="rnd-logo" href="https://graduway.com/"><img src="/img/rnd/graduway.png" title="Graduway logo"></a>
 
 <img src="/img/rnd/antony-gelberg.png" title="Antony Gelberg">
 <a href="https://www.linkedin.com/in/antgel/">Antony Gelberg</a> VP R&amp;D You can also reach him <a href="https://twitter.com/antgel">@antgel</a>.
