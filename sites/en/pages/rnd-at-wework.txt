@@ -11,7 +11,7 @@
 <a id="rnd-logo" href="https://www.wework.com/"><img src="/img/rnd/wework.png" title="WeWork logo"></a>
 
 <img src="/img/rnd/yonatan-bergman.png" title="Yonatan Bergman">
-<a href="https://www.linkedin.com/in/yonbergman/">Yonatan Bergman</a> Senior Director Of Engineering at <a href="https://www.wework.com/">WeWork</a> leading the Tel Aviv office of WeWork.
+<a href="https://www.linkedin.com/in/yonbergman/">Yonatan Bergman</a> Senior Director Of Engineering at <a href="https://www.wework.com/">WeWork</a> leading the Tel Aviv, Israel office of WeWork.
 
 The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is an excellent place to get more insight.
 
