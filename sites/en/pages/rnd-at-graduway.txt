@@ -1,6 +1,6 @@
 =title RnD at Graduway
 =timestamp 2018-01-01T07:30:01
-=indexes RnD, Graduway
+=indexes RnD
 =status draft
 =author szabgab
 =archive 1
