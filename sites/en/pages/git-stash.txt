@@ -151,7 +151,7 @@ will drop the one before the most recent entry in the stash. Renumber all the ot
 
 So if we had a <hl>git stash list</hl> like this:
 
-<code
+<code>
 stash@{0}: WIP on submit: 2ead3e3... Add button to main page
 stash@{1}: On master: 9cc0589... Fix typo in e-mail
 stash@{2}: On master: 9b80575... Introduce bug #42
