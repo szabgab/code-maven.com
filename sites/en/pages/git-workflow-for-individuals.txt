@@ -196,4 +196,5 @@ You won't have a separate commit for the merge. The history of the project would
 
 The only drawback of this approach that I can see is that now it is really hard to know which commits were part of the implementation of any given feature. For this it is important to include some identification in every commit. E.g. the number of the issue (ticket) describing the feature.
 
+<img src="/img/Git-Logo-2Color.png">
 
