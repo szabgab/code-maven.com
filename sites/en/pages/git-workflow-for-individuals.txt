@@ -131,9 +131,9 @@ What is rebase?
 Let's assume this history in which time flows from left to right. After some older changes we created the B-branch at the C (common) SHA1. From that point both "master" made progress (M1-M4) and the feature branch made progress (B1-3).
 
 <pre>
-older -C - M1 - M2 - M3 - M4
-        \
-         \ B1 - B2 - B3
+older - C - M1 - M2 - M3 - M4
+         \
+          \ B1 - B2 - B3
 </pre>
 
 We need to switch to our feature branch and then rebase to master with the following commands:
@@ -146,9 +146,9 @@ $ git rebase master
 The result will look like this:
 
 <pre>
-older -C - M1 - M2 - M3 - M4
-                            \
-                             \ B1 - B2 - B3
+older - C - M1 - M2 - M3 - M4
+                             \
+                              \ B1 - B2 - B3
 </pre>
 
 that is, we moved the changes of the feature branch as if they started from M4.
@@ -189,7 +189,7 @@ $ git merge feature-name
 The result will look like this:
 
 <pre>
-older -C - M1 - M2 - M3 - M4 - B1 - B2 - B3
+older - C - M1 - M2 - M3 - M4 - B1 - B2 - B3
 </pre>
 
 You won't have a separate commit for the merge. The history of the project would look like one long straight path.
