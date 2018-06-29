@@ -1,0 +1,96 @@
+=title Git Workflow for teams using a single remote repository
+=timestamp 2018-01-01T07:30:01
+=indexes git
+=status draft
+=books git
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Once you know what interesting <a href="/git-workflow-for-individuals">workflows are there for individuals</a> you can start
+thinking about the workflow for your team. Let's see our options using a single remote repository.
+
+=abstract end
+
+<h2>Centralized workflow - single master</h2>
+
+In the centralized workflow we use a single repository on the server and a single branch called "master". Everyone clones the 
+central git repository. Everyone makes local changes on the "master" branch.
+When a developer wants to push out the changes to the server two things can happen. If the server was not updated since this developer cloned the repository or since she pushed to it the last time, then this new "git push" will work.
+
+If however there are changes on the server that are not yet present in the local git repository of the developer then first she needs to bring them to her computer. This can be done using <hl>git pull</hl> that will result in a local merge, or it can be done using
+<hl>git pull --rebase</hl> that will rebase the local change on top of the changes that come from the remote server.
+
+In either case, after the <hl>pull</hl> the developer can now <hl>push</hl> oit her changes. (Assuming noone has updated the remote server since the <hl>pull</hl>.)
+
+A huge advantage is that this workflow is very simple to learn, but we have to think about speed of progress and code stability.
+
+We can have two approaches. We can demand "master" to be always in a releasable state or we can allow the developers to mess it up and then have "code freeze" before each release.
+
+In the "master is stable" approach people have to be very careful about the changes they make as to not break "master".
+If the code in "master" gets broken (e.g. it does not compile, does not pass tests) that will impact the work of every developer and break the promise. This apprach means that at every time, even when we are in the middle of implementing a feature we need to be able to release the code. We might use <b>feature flags</b> to hide the not yet fully developed feature from the real users.
+
+The "allow masrer to be a mess" approach is different. In this case every time we want to release a new version we would declare a "code freeze" in which only bug-fixes relevant to the upcoming release are allowed to be pushed to the central repository. Sometimes these "code freezes" take several weeks. During this time many of the developers are stuck. They cannot push new code to the central repository. So even if they make changes locally they cannot properly cooperate with other developers.
+
+The latter approach usually creates a lot of downtime and a lot of frustration.
+
+<h2>Single remote - feature branches</h2>
+
+In this workflow we still use a single remote server, but this time we use feature-branches to develop code.
+We keep "master" always in a releasable state. For every feature, for every bug-fix we create a separate branch.
+Unlike in the single developer mode however, here we will most likely push out the feature-branch to the central
+repository to allow cooperation with others.
+
+
+Start from the master branch:
+
+<code>
+$ git checkout master
+</code>
+
+Create a feature branch locally and switch to it: (could have been one command <hl>git checkout -b feature</hl>)
+
+<code>
+$ git branch feature
+$ git checkout feature
+</code>
+
+Make some local changes:
+
+<code>
+$ git add .
+$ git commit -m "message"
+</code>
+
+Push out the branch and set up the local branch to be mapped to the remote branch.
+
+<code>
+$ git push -u origin feature
+</code>
+
+Other developers can now start working on this branch. For this they need to do the following:
+
+In a clean workspace switch to the "master" branch and pull everything from the remote server.
+
+<code>
+$ git checkout master
+$ git pull
+</code>
+
+Set up the local branch following the remote feature branch:
+
+<code>
+$ git branch feature origin/feature
+</code>
+
+From this point on the "feature" branch can be used by both developers. They can simply "push" to it their local changes
+and "pull" from the remote server the changes done by the other developers.
+
+Unlike in the <a href="/git-workflow-for-individuals">single developer</a> mode, rebasing on top of "master" is
+more complex in this situation. The problem is that when we rebase we actually rewrite the whole history of our branch.
+Other developers working on the same branch will be left on the old history and it will become a mess.
+
+
+
