@@ -95,3 +95,9 @@ Other developers working on the same branch will be left on the old history and 
 
 <img src="/img/Git-Logo-2Color.png">
 
+
+<include file="examples/git/two-dev-master-merge.sh">
+
+<include file="examples/git/two-dev-master-rebase.sh">
+
+

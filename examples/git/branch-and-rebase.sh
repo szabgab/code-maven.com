@@ -58,6 +58,10 @@ git commit -m "fourth line"
 
 gitk --all
 
+git checkout add-button
+git rebase master
+
+git checkout master
 git merge add-button -m "Merge add-button"
 
 gitk --all

@@ -33,7 +33,6 @@ echo "Third line" >> README
 git add .
 git commit -m "third line"
 
-# Create branch and make some changes there
 git branch add-button
 git checkout add-button
 
@@ -51,19 +50,8 @@ git checkout master
 
 gitk --all
 
-# Make changes on "master" as well
-echo "Fourth line" > README
-git add .
-git commit -m "fourth line"
-
-gitk --all
-
-git merge add-button -m "Merge add-button"
+git merge add-button
 
 gitk --all
 
 git branch -d add-button
-
-gitk --all
-
-

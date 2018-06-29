@@ -209,3 +209,5 @@ files or different areas of the same file.
 
 <include file="examples/git/branch-and-merge.sh">
 
+<include file="examples/git/branch-and-rebase.sh">
+
