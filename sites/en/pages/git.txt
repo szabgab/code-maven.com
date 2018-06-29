@@ -97,6 +97,8 @@ drwxr-xr-x  9 gabor  staff  288 Apr  6 18:19 .git
    <li><a href="/coverall-with-python-minimal-setup">Minimal setup for Coverage report at Coveralls for Python projects hosted on GitHub</a></li>
    <li><a href="/why-is-git-better-than-subversion-for-open-source-projects">Why Git is better than Subversion for Open Source Projects</a></li>
    <li><a href="/merge-one-commit-from-a-pull-request">Merge only one commit from a Pull-request on GitHub</a></li>
+   <li><a href="/git-stash">git stash</a></li>
+   <li><a href="/git-workflow-for-individuals">Git workflow for individuals</a></li>
 </ul>
 
 
