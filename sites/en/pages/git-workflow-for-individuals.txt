@@ -198,3 +198,14 @@ The only drawback of this approach that I can see is that now it is really hard 
 
 <img src="/img/Git-Logo-2Color.png">
 
+<h2>Shell scripts to demo use-cases</h2>
+
+Branch that can be merged without any problem as master has not moved at all.
+
+<include file="examples/git/branch-and-merge-fast-forward.sh">
+
+Branch merged with a merge commit, but without any conflict as the chanes on "master" and the changes in the branch were in different
+files or different areas of the same file.
+
+<include file="examples/git/branch-and-merge.sh">
+

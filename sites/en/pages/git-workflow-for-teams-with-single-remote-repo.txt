@@ -93,4 +93,5 @@ more complex in this situation. The problem is that when we rebase we actually r
 Other developers working on the same branch will be left on the old history and it will become a mess.
 
 
+<img src="/img/Git-Logo-2Color.png">
 

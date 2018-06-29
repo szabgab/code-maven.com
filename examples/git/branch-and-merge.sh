@@ -50,6 +50,15 @@ git checkout master
 
 gitk --all
 
+# Make changes on "master" as well
+echo "Fourth line" > README
+git add .
+git commit -m "fourth line"
+
+gitk --all
+
 git merge add-button
 
 gitk --all
+
+git branch -d add-button
