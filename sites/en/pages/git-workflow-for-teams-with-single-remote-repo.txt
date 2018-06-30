@@ -1,7 +1,7 @@
 =title Git Workflow for teams using a single remote repository
-=timestamp 2018-01-01T07:30:01
+=timestamp 2018-06-30T11:30:01
 =indexes git
-=status draft
+=status show
 =books git
 =author szabgab
 =archive 1
@@ -85,13 +85,14 @@ Set up the local branch following the remote feature branch:
 $ git branch feature origin/feature
 </code>
 
-From this point on the "feature" branch can be used by both developers. They can simply "push" to it their local changes
-and "pull" from the remote server the changes done by the other developers.
+From this point on the "feature" branch can be used by both developers. They can simply "push" their local changes to
+the remote branch  and "pull" from the remote server the changes done by the other developers. If for the <hl>pull</hl>
+command we also use the <hl>--rebase</hl> flag then the history on this branch will be a nice straight line just as the
+individual developer ggot when she used <hl>rebase</hl> to the <hl>master</hl> branch.
 
-Unlike in the <a href="/git-workflow-for-individuals">single developer</a> mode, rebasing on top of "master" is
-more complex in this situation. The problem is that when we rebase we actually rewrite the whole history of our branch.
-Other developers working on the same branch will be left on the old history and it will become a mess.
-
+However, following the <hl>master</hl> branch will be trickier. If we rebase our feature branch onto the master branch we
+might do so while there are changes in our feature branch on the remote server or at other developers and then this will
+totally mess up our history. So don't do that. Instead, have short-lived feature branches.
 
 <img src="/img/Git-Logo-2Color.png">
 
@@ -99,5 +100,9 @@ Other developers working on the same branch will be left on the old history and 
 <include file="examples/git/two-dev-master-merge.sh">
 
 <include file="examples/git/two-dev-master-rebase.sh">
+
+<include file="examples/git/two-dev-feature-merge.sh">
+
+<include file="examples/git/two-dev-feature-rebase.sh">
 
 
