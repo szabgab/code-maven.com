@@ -1,14 +1,18 @@
 import subprocess
 import time
 
-p = subprocess.Popen("pytest -s", shell=True)
+p = subprocess.Popen("python hello.py", shell=True)
+#p = subprocess.Popen("pytest -s", shell=True)
+#p = subprocess.Popen(["pytest", "-s"], shell=False)
 #p.wait()
 
 while True:
    print("Checking")
-   if p.poll():
+   poll = p.poll()
+   print(poll)
+   if poll != None:
        break
-   time.sleep(1)
+   time.sleep(0.3)
 
 
 print(p.returncode)
