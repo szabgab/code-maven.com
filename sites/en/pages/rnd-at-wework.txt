@@ -1,4 +1,4 @@
-=title What it is like to work in RnD at WeWork?
+=title RnD at WeWork
 =timestamp 2018-01-01T07:30:01
 =indexes RnD, WeWork
 =status draft

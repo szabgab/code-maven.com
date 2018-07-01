@@ -1,6 +1,6 @@
-=title RnD at 
+=title RnD at Cellex Networks
 =timestamp 2018-01-01T07:30:01
-=indexes RnD,
+=indexes RnD
 =status draft
 =author szabgab
 =archive 1
@@ -8,10 +8,10 @@
 
 =abstract start
 
-<a id="rnd-logo" href=""><img src="/img/rnd/" title=""></a>
+<a id="rnd-logo" href="http://www.cellexnetworks.com/"><img src="/img/rnd/cellex-networks.jpg" title="Cellex Networks logo"></a>
 
-<img src="/img/rnd/" title="">
-<a href=""></a> 
+<img src="/img/rnd/yoni-lavi.jpg" title="Yoni Lavi">
+<a href="https://www.linkedin.com/in/yoni-lavi-7511413/">Yoni Lavi</a> Co-founder, VP R&amp;D and Product.
 
 =abstract end
 
@@ -20,6 +20,7 @@
     What kind products / services does your company develop / maintain? (web based, on-site appliance, hardware, etc.)
   </div>
   <div class="answer">
+  Sofrware/Hardware appliance.
   </div>
 </div>
 
@@ -28,23 +29,20 @@
     Number of engineers: 
   </div>
   <div class="answer">
+    10 engineers, out of which 2 are in India.
   </div>
 </div>
 
-
-<div class="qa">
-  <div class="question">
-    Are there any remote engineers? (If yes, how does that work out?)
-  </div>
-  <div class="answer">
-  </div>
-</div>
 
 <div class="qa">
   <div class="question">
     What are the most common tools that engineers use?
   </div>
   <div class="answer">
+   <ul>
+     <li>Visual Studio development environment</li>
+     <li>Visual Code</li>
+   </ul>
   </div>
 </div>
 
@@ -53,6 +51,10 @@
     Which languages do engineers code in?
   </div>
   <div class="answer">
+    <ul>
+      <li>C++</li>
+      <li>Angular/Java Script</li>
+    </ul>
   </div>
 </div>
 
@@ -61,6 +63,7 @@
     Which operating systems do you use?
   </div>
   <div class="answer">
+     Windows
   </div>
 </div>
 
@@ -69,6 +72,7 @@
     Which databases do you use?
   </div>
   <div class="answer">
+     MS SQL, MongoDB
   </div>
 </div>
 
@@ -77,6 +81,7 @@
     What are the development environments? (OS, editor, Vagrant? Docker?)
   </div>
   <div class="answer">
+      Windows, Visual Studio, .net
   </div>
 </div>
 
@@ -85,6 +90,7 @@
     What is the system architecture? (Monolith, Microservices, Mix, etc…?)
   </div>
   <div class="answer">
+    Distributed architecture, remote units connects with the centralized server. In the centralized server there are numerous micro services. 
   </div>
 </div>
 
@@ -93,6 +99,7 @@
     What kind of cloud infrastructure do you use?
   </div>
   <div class="answer">
+     Amazon.
   </div>
 </div>
 
@@ -101,6 +108,7 @@
     What Agile practices do you employ? (Daily stand-up, Sprints, Retrospectives, ...)
   </div>
   <div class="answer">
+     Workng in Sprints, Daly stand-up. soft version of SCRUM.
   </div>
 </div>
 
@@ -109,6 +117,7 @@
     What does DevOps mean in your company? (Do you have a dedicated developer experience/developer tools team?)
   </div>
   <div class="answer">
+     No dedicated DevOps team. No real DevOps.
   </div>
 </div>
 
@@ -117,6 +126,7 @@
     Is anyone on-call? Who? (Developers, DevOps people, ...?)
   </div>
   <div class="answer">
+    Service team is on call, developers usually are not. 
   </div>
 </div>
 
@@ -125,23 +135,16 @@
     What is the development process like? (The lifecycle of a piece of committed code, branching strategy)
   </div>
   <div class="answer">
+     Features are listed in backlog, a more detailed design is performed for high-priority features, work-items are being added to Sprints. A detailed design is done as part of the sprint, tests are done at the end.
   </div>
 </div>
-
-<div class="qa">
-  <div class="question">
-    Do you do pair-programming? Mob-programming?
-  </div>
-  <div class="answer">
-  </div>
-</div>
-
 
 <div class="qa">
   <div class="question">
     Do you do code reviews? How often? What is code review like?
   </div>
   <div class="answer">
+    Yes, Team leaders review the code before commit (Pull request).
   </div>
 </div>
 
@@ -150,6 +153,7 @@
     How is testing done? (Manual QA? What kind of tests are run? How long does a test cycle run?)
   </div>
   <div class="answer">
+    New features are being tested manually, automated tests for regression. 
   </div>
 </div>
 
@@ -158,6 +162,7 @@
     How is code released / deployed? (How often? Who can do it? Do you have staging environment? Deployment circles?)
   </div>
   <div class="answer">
+    We have releases every 3 months and hot-fixes per need (1-2 a month).
   </div>
 </div>
 
@@ -166,6 +171,11 @@
     What is an average day-in-the-life of someone on one of the engineering teams?
   </div>
   <div class="answer">
+    <ul>
+      <li>60% development of new features.</li>
+      <li>30% bug fixes</li>
+      <li>10% analysis of field issues.</li>
+    </ul>
   </div>
 </div>
 
@@ -174,22 +184,8 @@
     What makes your company a special place to be an engineer?
   </div>
   <div class="answer">
+     A lot of autonomy, development in many different development environment (Android, C++, Embedded, .net, etc.) 
   </div>
 </div>
 
-<div class="qa">
-  <div class="question">
-    What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
-  </div>
-  <div class="answer">
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
-    Any disaster you could share with us?
-  </div>
-  <div class="answer">
-  </div>
-</div>
 
