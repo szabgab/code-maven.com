@@ -202,7 +202,7 @@ The only drawback of this approach that I can see is that now it is really hard 
 
 Branch that can be merged without any problem as master has not moved at all.
 
-<include file="examples/git/branch-and-merge-fast-forward.sh">
+<linkto file="examples/git/branch-and-merge-fast-forward.sh">
 
 Branch merged with a merge commit, but without any conflict as the chanes on "master" and the changes in the branch were in different
 files or different areas of the same file.
