@@ -207,7 +207,7 @@ Branch that can be merged without any problem as master has not moved at all.
 Branch merged with a merge commit, but without any conflict as the chanes on "master" and the changes in the branch were in different
 files or different areas of the same file.
 
-<include file="examples/git/branch-and-merge.sh">
+<linkto file="examples/git/branch-and-merge.sh">
 
-<include file="examples/git/branch-and-rebase.sh">
+<linkto file="examples/git/branch-and-rebase.sh">
 
