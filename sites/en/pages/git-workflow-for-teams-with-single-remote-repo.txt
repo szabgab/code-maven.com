@@ -97,12 +97,12 @@ totally mess up our history. So don't do that. Instead, have short-lived feature
 <img src="/img/Git-Logo-2Color.png">
 
 
-<include file="examples/git/two-dev-master-merge.sh">
+<linkto file="examples/git/two-dev-master-merge.sh">
 
-<include file="examples/git/two-dev-master-rebase.sh">
+<linkto file="examples/git/two-dev-master-rebase.sh">
 
-<include file="examples/git/two-dev-feature-merge.sh">
+<linkto file="examples/git/two-dev-feature-merge.sh">
 
-<include file="examples/git/two-dev-feature-rebase.sh">
+<linkto file="examples/git/two-dev-feature-rebase.sh">
 
 
