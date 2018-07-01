@@ -1,0 +1,15 @@
+import subprocess
+import time
+
+p = subprocess.Popen("pytest -s", shell=True)
+#p.wait()
+
+while True:
+   print("Checking")
+   if p.poll():
+       break
+   time.sleep(1)
+
+
+print(p.returncode)
+
