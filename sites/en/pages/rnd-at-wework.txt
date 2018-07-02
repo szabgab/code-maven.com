@@ -41,7 +41,7 @@ The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is a
     Are there any remote engineers? (If yes, how does that work out?)
   </div>
   <div class="answer">
-    We don't have remote engineers or teams but we are dispersed across 5 R&D centers. New York, Tel Aviv, San Fransisco, Shanghai and Singapore.
+    We don't have remote engineers or teams but we are dispersed across 5 R&D centers. New York, Tel Aviv, San Fransisco, Shanghai, and Singapore.
   </div>
 </div>
 
@@ -76,8 +76,8 @@ We also have guilds and other structures to increase interaction in one office o
     Which languages do engineers code in?
   </div>
   <div class="answer">
-    Because we build an maintain an eco-system of about a 100 services we have a lot of languages depending on the application and the use case.
-    We have Ruby on Rails, Java/Kotlin, Go, Scala, Python and NodeJS on the backend. We're predominantly doing React on the web but we do have some BackboneJS and Angular. Mobile is mostly native (Swift and Java). 
+    Because we build and maintain an eco-system of about a 100 services we have a lot of languages depending on the application and the use case.
+    We have Ruby on Rails, Java/Kotlin, Go, Scala, Python, and NodeJS on the backend. We're predominantly doing React on the web but we do have some BackboneJS and Angular. Mobile is mostly native (Swift and Java). 
   </div>
 </div>
 
@@ -86,7 +86,7 @@ We also have guilds and other structures to increase interaction in one office o
     Which operating systems do you use?
   </div>
   <div class="answer">
-    Most of our engineers develop on OSX and our services are deployed on multiple OSes
+    Most of our engineers develop on OSX and our services are deployed on multiple OSes.
   </div>
 </div>
 
@@ -95,7 +95,7 @@ We also have guilds and other structures to increase interaction in one office o
     Which databases do you use?
   </div>
   <div class="answer">
-    Mostly relational databases like Postgresql, we do have Redis and elasticsearch for some use cases and Redshift as our DW.
+    Mostly relational databases like PostgreSQL, we do have Redis and Elasticsearch for some use cases and Redshift as our DW.
   </div>
 </div>
 
@@ -124,7 +124,7 @@ We also have guilds and other structures to increase interaction in one office o
   <div class="answer">
     It mostly depends on the team to choose, but the vast majority do hold major practices of some variation of
     agile/scrum/kanban. Including daily stand-ups, weekly grooming sessions as part of sprints (we mostly adhere to 2 week
-    sprints, but again depending on the team). As far as I most of the teams do hold retros too.
+    sprints, but again depending on the team). As far as I know most of the teams do hold retros too.
   </div>
 </div>
 
@@ -134,7 +134,7 @@ We also have guilds and other structures to increase interaction in one office o
   </div>
   <div class="answer">
     DevOps is part of the responsibility of the squad, you develop the code, you deploy and monitor it too :)
-    You break it you fix it mentality.
+    "You break it you fix it" mentality.
      We do have a dedicated foundations team that leads strategy, tooling and training in the world of Devops.
   </div>
 </div>
@@ -230,7 +230,7 @@ and any other automation that we have set up for that system.
     What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
   </div>
   <div class="answer">
-   When we past a certain threshold of engineers (about a 100) we understood that the engagement model with teams like devops and QA doesn't scale. We shifted the dev platform group from a service provider organization to a strategy and tooling org. This was a painful move for us because we haven't yet had the skills embedded in all our squads and we didn't have the self serve infrastructure already in place.
+   When we past a certain threshold of engineers (about a 100) we understood that the engagement model with teams like devops and QA doesn't scale. We shifted the dev platform group from a <a href="/service-provider">service provider organization</a> to a <a href="/tooling-teams">strategy and tooling org</a>. This was a painful move for us because we haven't yet had the skills embedded in all our squads and we didn't have the self serve infrastructure already in place.
   </div>
 </div>
 
@@ -239,7 +239,7 @@ and any other automation that we have set up for that system.
     Any disaster you could share with us?
   </div>
   <div class="answer">
-    About a year ago we onboarded our biggest enterprise client at the time, which included 10's of thousands of employees. Our system for adding new members wasn't equipped to handle that load and the set of services and events that propogated brought our system to a halt. That happened during the busiest day of the month when we onboard all the new members joining WeWork. We quickly scrambled to scale the relevant servers and clean the queues and after about an hour of troubleshooting the issue everything was back to normal. Since then we added circuit breakers and reconfigured the onboarding flow sow that it can scale with the number of new users added to the system.
+    About a year ago we onboarded our biggest enterprise client at the time, which included 10's of thousands of employees. Our system for adding new members wasn't equipped to handle that load and the set of services and events that propogated brought our system to a halt. That happened during the busiest day of the month when we onboard all the new members joining WeWork. We quickly scrambled to scale the relevant servers and clean the queues and after about an hour of troubleshooting the issue everything was back to normal. Since then we added <a href="/circuit-breaker">circuit breakers</a> and reconfigured the onboarding flow sow that it can scale with the number of new users added to the system.
   </div>
 </div>
 
@@ -251,5 +251,4 @@ and any other automation that we have set up for that system.
     If you're looking to experience what it means to be at a true hyper growth company, where your team and group double in size every year, where new projects and business lines start every quarter and where you can have a major impact no matter who you are. If you're looking to join a company that has a net-positive effect on the world and the people in it and if you're looking to join a group of diverse people from different backgrounds, skillsets and experience that love working together - WeWork is the place for you.
   </div>
 </div>
-
 
