@@ -194,6 +194,7 @@ and any other automation that we have set up for that system.
     How is testing done? (Manual QA? What kind of tests are run? How long does a test cycle run?)
   </div>
   <div class="answer">
+   We try to avoid manual QA as much as possible. We aim at the bottom of the testing pyramid with a majority for unit and regression testing and a bit ui testing where relevant. Testing cycles take from a few minutes to an hour depending on the project.
   </div>
 </div>
 
@@ -202,6 +203,7 @@ and any other automation that we have set up for that system.
     How is code released / deployed? (How often? Who can do it? Do you have staging environment? Deployment circles?)
   </div>
   <div class="answer">
+    Code is deployed on a need to basis. Meaning mostly once or several times a day. We have a staging environment and for majority of projects we spin up an environment per pull request as well.
   </div>
 </div>
 
@@ -210,6 +212,14 @@ and any other automation that we have set up for that system.
     What is an average day-in-the-life of someone on one of the engineering teams?
   </div>
   <div class="answer">
+    <ul>
+      <li>Come in the morning for the daily standup, on the way there stop at the barista station and pick up your fav coffee.</li>
+      <li>Start working on one of the tasks in the sprint, spend some time code reviewing or pairing on someone else tasks.</li>
+      <li>Because it's WeWork we usually have some sort of community happy hour for the members of our building that we join.</li>
+      <li>An optional guild meeting on some advance technical topic that you can decide to skip if you're too busy.</li>
+      <li>Deploy your code from earlier today to production just in time to hop on a call with your colleagues in New York about that design review they're working on.</li>
+      <li>Head out for the day 🌔</li>
+    </ul>
   </div>
 </div>
 
@@ -218,6 +228,7 @@ and any other automation that we have set up for that system.
     What makes your company a special place to be an engineer?
   </div>
   <div class="answer">
+    WeWork is special because on the one hand the company is so big and is doing a lot of things but on the other hand we’re not that many engineers. That means people get to work on a lot of different types of problems and systems in order to deliver value.
   </div>
 </div>
 
@@ -226,6 +237,7 @@ and any other automation that we have set up for that system.
     What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
   </div>
   <div class="answer">
+   When we past a certain threshold of engineers (about a 100) we understood that the engagement model with teams like devops and QA doesn't scale. We shifted the dev platform group from a service provider organization to a strategy and tooling org. This was a painful move for us because we haven't yet had the skills embedded in all our squads and we didn't have the self serve infrastructure already in place.
   </div>
 </div>
 
@@ -234,6 +246,17 @@ and any other automation that we have set up for that system.
     Any disaster you could share with us?
   </div>
   <div class="answer">
+    About a year ago we onboarded our biggest enterprise client at the time, which included 10's of thousands of employees. Our system for adding new members wasn't equipped to handle that load and the set of services and events that propogated brought our system to a halt. That happened during the busiest day of the month when we onboard all the new members joining WeWork. We quickly scrambled to scale the relevant servers and clean the queues and after about an hour of troubleshooting the issue everything was back to normal. Since then we added circuit breakers and reconfigured the onboarding flow sow that it can scale with the number of new users added to the system.
   </div>
 </div>
+
+<div class="qa">
+  <div class="question">
+    What else would you like to tell people interested to the work at WeWork?
+  </div>
+  <div class="answer">
+    If you're looking to experience what it means to be at a true hyper growth company, where your team and group double in size every year, where new projects and business lines start every quarter and where you can have a major impact no matter who you are. If you're looking to join a company that has a net-positive effect on the world and the people in it and if you're looking to join a group of diverse people from different backgrounds, skillsets and experience that love working together - WeWork is the place for you.
+  </div>
+</div>
+
 

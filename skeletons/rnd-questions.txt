@@ -41,3 +41,10 @@ Outside of the interview:
 * What would you like to know about the RnD of other companies? What else should I ask?
 * Who and/or which company would you suggest to interview?
 
+<div class="qa">
+  <div class="question">
+  </div>
+  <div class="answer">
+  </div>
+</div>
+
