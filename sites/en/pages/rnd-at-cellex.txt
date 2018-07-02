@@ -20,7 +20,7 @@
     What kind products / services does your company develop / maintain? (web based, on-site appliance, hardware, etc.)
   </div>
   <div class="answer">
-  Sofrware/Hardware appliance.
+  Software/Hardware appliance.
   </div>
 </div>
 
@@ -87,7 +87,7 @@
 
 <div class="qa">
   <div class="question">
-    What is the system architecture? (Monolith, Microservices, Mix, etc…?)
+    What is the system architecture? (Monolith, Microservices, Mix, etc...?)
   </div>
   <div class="answer">
     Distributed architecture, remote units connects with the centralized server. In the centralized server there are numerous micro services. 
@@ -108,7 +108,7 @@
     What Agile practices do you employ? (Daily stand-up, Sprints, Retrospectives, ...)
   </div>
   <div class="answer">
-     Workng in Sprints, Daly stand-up. soft version of SCRUM.
+     Working in Sprints, Daly stand-up. soft version of SCRUM.
   </div>
 </div>
 
