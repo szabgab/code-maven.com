@@ -111,6 +111,7 @@ We also have guilds and other structures to increase interaction in one office o
 <div class="qa">
   <div class="question">
     What kind of cloud infrastructure do you use?
+  </div>
   <div class="answer">
     Mix of cloud providers based on our needs.
   </div>
