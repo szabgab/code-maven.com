@@ -10,9 +10,9 @@
 
 <a href="https://graduway.com/">Graduway</a> a Raanana, Israel based tech company that provides SaaS products aimed at universities, schools, enterprises, and other organizations.
 
-<a id="rnd-logo" href="https://graduway.com/"><img src="/img/rnd/graduway.png" title="Graduway logo"></a>
+<a id="rnd-logo" href="https://graduway.com/"><img src="/img/rnd/graduway.png" alt="Graduway logo"></a>
 
-<img src="/img/rnd/antony-gelberg.png" title="Antony Gelberg">
+<img src="/img/rnd/antony-gelberg.png" alt="Antony Gelberg">
 <a href="https://www.linkedin.com/in/antgel/">Antony Gelberg</a> VP R&amp;D. You can also reach him <a href="https://twitter.com/antgel">@antgel</a>.
 
 =abstract end

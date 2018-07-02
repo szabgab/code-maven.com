@@ -8,9 +8,9 @@
 
 =abstract start
 
-<a id="rnd-logo" href=""><img src="/img/rnd/" title=""></a>
+<a id="rnd-logo" href=""><img src="/img/rnd/" alt=""></a>
 
-<img src="/img/rnd/" title="">
+<img src="/img/rnd/" alt="">
 <a href=""></a> 
 
 =abstract end

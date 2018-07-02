@@ -8,9 +8,9 @@
 
 =abstract start
 
-<a id="rnd-logo" href="http://www.cellexnetworks.com/"><img src="/img/rnd/cellex-networks.jpg" title="Cellex Networks logo"></a>
+<a id="rnd-logo" href="http://www.cellexnetworks.com/"><img src="/img/rnd/cellex-networks.jpg" alt="Cellex Networks logo"></a>
 
-<img src="/img/rnd/yoni-lavi.jpg" title="Yoni Lavi">
+<img src="/img/rnd/yoni-lavi.jpg" alt="Yoni Lavi">
 <a href="https://www.linkedin.com/in/yoni-lavi-7511413/">Yoni Lavi</a> Co-founder, VP R&amp;D and Product.
 
 =abstract end
