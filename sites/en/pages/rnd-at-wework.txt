@@ -101,14 +101,6 @@ We also have guilds and other structures to increase interaction in one office o
 
 <div class="qa">
   <div class="question">
-    What are the development environments? (OS, editor, Vagrant? Docker?)
-  </div>
-  <div class="answer">
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
     What is the system architecture? (Monolith, Microservices, Mix, etc…?)
   </div>
   <div class="answer">
