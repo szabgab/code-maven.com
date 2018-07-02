@@ -1,0 +1,24 @@
+=title Internal Service Provider
+=timestamp 2018-07-02T13:00:01
+=indexes CodeMaven
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+There are several ways to structure an Engineering organization. One of the traditional ways is to create Service Provides.
+For example the QA department or team. The IT department. The Information Security (InfoSec) department.
+
+These are similar to other functions of the organization: Marketing, Sales, HR, Legal, Finance etc.
+
+These days some organizations also have dedicated DevOps teams.
+
+=abstract end
+
+Organization that is structured this way emphasize the collective expertise in one subject that belongs to one team.
+Usually they see the people inside one team more interchangeable. They have a high level of expertise in their field,
+but usually have limited understanding of other parts of the organiation.
+
+
