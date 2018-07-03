@@ -1,0 +1,148 @@
+=title Per project (per directory) private ssh keys for git
+=timestamp 2018-07-03T16:30:01
+=indexes git, ssh, ssh-keygen
+=status show
+=books git
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+I wanted to show how two people with two separate accounts on GitHub, Bitbucket, or GitLab can work in a cooperation.
+For this I had to make sure that when I interact with the remote server I use it with the correct account.
+
+=abstract end
+
+In order to log in to the same server (e.g. GitHub) with two different accounts I use two browsers. For user A I use Firefox.
+For user B I use Chrome.
+
+For <hl>push</hl> and <hl>pull</hl> it was a bit trickier. I think I could have used <hl>https</hl> access, but that would mean for every interaction I have to type in my password. I wanted to avoid that. So I wanted to use ssh access.
+
+So I will need a separate set of ssh-keypairs for each user and I'll need to set up some configuration that will always use the correct keypair.
+
+<hl>ssh</hl> allows the use of a configuration file located in <hl>~/.ssh/config</hl> that allows us to configure different keypairs (identity files) per host. This is how an entry in that file looks like:
+
+<code>
+host github.com
+   HostName github.com
+   IdentityFile ~/.ssh/id_rsa
+   User szabgab
+</code>
+
+This however does not help us as this is based on the target hostname and I'd like to access the same host, and even use the same remote username (git) but use two different Identity files.
+
+<h2>The solution</h2>
+
+Generate new Identity files:
+
+<code>
+mkdir id_a
+ssh-keygen -f id_a/id_rsa -N ''
+<code>
+
+The <hl>-N ''</hl> will tell the command to use an empty passphrase. The <hl>-f id_a/id_rsa</hl> tells the command where to save the new Identity file. The Public key will be saved next to it with .pub extension.
+
+We can then take the public key and upload it to our cloud-based Git server to the account of user "A".
+
+We do the same with user "B".
+
+
+The next command will configure git to use the ssh command passing it the path of the identity file of A.
+Basically the first command will changes the file <hl>~/.gitconfig</hl> adding
+
+<code>
+[core]
+    sshCommand = ssh -i /full/path/to/id_a/id_rsa"
+</code>
+
+The <hl>clone</hl> command will use this <hl>ssh</hl> and finally we remove the entry from the global configuration file.
+
+<code>
+git config --global core.sshCommand "ssh -i /full/path/to/id_a/id_rsa"
+git clone ...
+git config --global --unset core.sshCommand
+</code>
+
+Configure each cloned directory to use its own identity file and its own user and email for
+the identification of commits.
+
+<code>
+cd project-dir
+git config --local core.sshCommand "ssh -i /full/path/to/id_a/id_rsa"
+git config --local user.name "User A"
+git config --local user.email A@code-maven.com
+</code>
+
+This will change the <hl>.git/config</hl> file in the current directory.
+
+<h2>Full steps</h2>
+
+Let's assume we have two Bitbucket users: Mary and Joe with usernames "mary" and "joe" respectively.
+Mary has a private repository called  <hl>https://bitbucket.org/mart/demo</hl>.
+She configures it to make it writable by Joe as well. (Done on the web interface of BitBucket.)
+
+We create directory to use for this whole project:
+
+<code>
+cd ~
+mkdir demo
+cd demo
+</code>
+
+We create directories for the identity files:
+
+<code>
+mkdir mary
+mkdir joe
+</code>
+
+We generate two Identity Files:
+
+<code>
+ssh-keygen -f mary/id_rsa -N ''
+ssh-keygen -f joe/id_rsa -N ''
+</code>
+
+We upload the content of <hl>mary/id_rsa.pub</hl> to the BitBucket account of Mary and the
+content of <hl>joe/id_rsa.pub</hl> to the BitBucket account of Joe.
+
+We clone the repository of Mary with the credentials of Mary to the local directory called "demo_mary"
+but we also make sure to remove her credentials from the global configuration file.
+
+<code>
+git config --global core.sshCommand "ssh -i mary/id_rsa"
+git clone git@bitbucket.org:mary/demo.git demo_mary
+git config --global --unset core.sshCommand
+</code>
+
+Then we configure this newly cloned repository to use the credentials of Mary:
+
+<code>
+cd demo_mary
+git config --local core.sshCommand "ssh -i mary/id_rsa"
+git config --local user.name "Mary"
+git config --local user.email mary@code-maven.com
+</code>
+
+Then we go back to the common directory and do the same for Joe:
+
+We clone the repository of Mary using the credentials of Joe and then remove
+those credentials from the global configuration file:
+
+<code>
+cd ..
+git config --global core.sshCommand "ssh -i joe/id_rsa"
+git clone git@bitbucket.org:mary/demo.git demo_joe
+git config --global --unset core.sshCommand
+</code>
+
+Then we configure this newly cloned repository to use the credentials of Joe:
+
+<code>
+cd demo_joe
+git config --local core.sshCommand "ssh -i joe/id_rsa"
+git config --local user.name "Joe"
+git config --local user.email joe@code-maven.com
+</code>
+
