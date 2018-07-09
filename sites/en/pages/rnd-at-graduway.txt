@@ -1,6 +1,6 @@
-=title RnD at Graduway
+=title R&D at Graduway
 =timestamp 2018-01-01T07:30:01
-=indexes RnD
+=indexes R&D
 =status draft
 =author szabgab
 =archive 1

@@ -1,6 +1,6 @@
-=title RnD at Cellex Networks
+=title R&D at Cellex Networks
 =timestamp 2018-01-01T07:30:01
-=indexes RnD
+=indexes R&D
 =status draft
 =author szabgab
 =archive 1

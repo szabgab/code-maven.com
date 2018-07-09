@@ -1,6 +1,6 @@
-=title RnD at 
+=title R&D at 
 =timestamp 2018-01-01T07:30:01
-=indexes RnD,
+=indexes R&D
 =status draft
 =author szabgab
 =archive 1
