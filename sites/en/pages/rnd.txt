@@ -1,6 +1,6 @@
-=title RnD at $company?
+=title R&D at $company?
 =timestamp 2018-07-08T07:30:01
-=indexes RnD
+=indexes R&D
 =status show
 =author szabgab
 =archive 1
