@@ -8,7 +8,7 @@
 
 =abstract start
 
-As an employee you usually work at the same company for 2-4 years or event more.
+As an employee you usually work at the same company for 2-4 years or even more.
 
 That does not give you a lot of chances to learn how others, in other companies work.
 
