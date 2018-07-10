@@ -16,7 +16,6 @@
 Yonatan is an experienced software engineer and manager with an eye for design and a passion for building great products and teams. Focused on consistently improving and nurturing team culture, productivity, technical excellence, as well as empowering those around him. <a href="https://github.com/yonbergman">GitHub</a> Twitter: <a href="https://twitter.com/yonbergman">@yonbergman</a>.
 </div>
 
-The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is an excellent place to get more insight.
 
 =abstract end
 
@@ -264,6 +263,8 @@ and any other automation that we have set up for that system.
   </div>
   <div class="answer">
     If you're looking to experience what it means to be at a true hyper growth company, where your team and group double in size every year, where new projects and business lines start every quarter and where you can have a major impact no matter who you are. If you're looking to join a company that has a net-positive effect on the world and the people in it and if you're looking to join a group of diverse people from different backgrounds, skillsets and experience that love working together - WeWork is the place for you.
+
+The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is an excellent place to get more insight.
   </div>
 </div>
 
