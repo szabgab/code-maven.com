@@ -28,8 +28,16 @@
   margin-left: 20px;
 }
 
+/*
 .rnd-author {
    padding-bottom: 20px;
+}
+*/
+
+.rnd-author:after {
+    content: '';
+    display: block;
+    clear: both;
 }
 
 .rnd-author-img {
