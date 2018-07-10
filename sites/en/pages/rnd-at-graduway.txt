@@ -12,8 +12,10 @@
 
 <a id="rnd-logo" href="https://graduway.com/"><img src="/img/rnd/graduway.png" alt="Graduway logo"></a>
 
-<img src="/img/rnd/antony-gelberg.png" alt="Antony Gelberg">
-<a href="https://www.linkedin.com/in/antgel/">Antony Gelberg</a> VP R&amp;D. You can also reach him <a href="https://twitter.com/antgel">@antgel</a>.
+<div class="rnd-author">
+  <img class="rnd-author-img" src="/img/rnd/antony-gelberg.png" alt="Antony Gelberg">
+  <a href="https://www.linkedin.com/in/antgel/">Antony Gelberg</a> VP R&amp;D. You can also reach him <a href="https://twitter.com/antgel">@antgel</a>.
+</div>
 
 =abstract end
 

@@ -10,8 +10,10 @@
 
 <a id="rnd-logo" href=""><img src="/img/rnd/" alt=""></a>
 
-<img src="/img/rnd/" alt="">
-<a href=""></a> 
+<div class="rnd-author">
+  <img class="rnd-author-img" src="/img/rnd/" alt="">
+  <a href=""></a> 
+</div>
 
 =abstract end
 

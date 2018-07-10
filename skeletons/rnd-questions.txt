@@ -35,6 +35,7 @@ What else would you like to tell people interested in the work at your company?
 Some extra questions:
 * How much interaction is among the people in different locations vs. inside a single office?
 * Could you elaborate the steps you took to introduce Agile principles? What were the obstacles and how did you overcome them?
+* What is the onboarding process? Where do (new) employees go if they have a question regarding the organization and its products?
 
 
 Outside of the interview:

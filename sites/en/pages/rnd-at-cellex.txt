@@ -11,8 +11,10 @@
 <a id="rnd-logo" href="http://www.cellexnetworks.com/"><img src="/img/rnd/cellex-networks.jpg" alt="Cellex Networks logo"></a>
 Cellex Networks located in Bnei Brak, Israel builds and sells tools to monitor network traffic from the point of view of the customer.
 
-<img src="/img/rnd/yoni-lavi.jpg" alt="Yoni Lavi">
-<a href="https://www.linkedin.com/in/yoni-lavi-7511413/">Yoni Lavi</a> Co-founder, VP R&amp;D and Product.
+<div class="rnd-author">
+  <img class="rnd-author-img" src="/img/rnd/yoni-lavi.jpg" alt="Yoni Lavi">
+  <a href="https://www.linkedin.com/in/yoni-lavi-7511413/">Yoni Lavi</a> Co-founder, VP R&amp;D and Product.
+</div>
 
 =abstract end
 
