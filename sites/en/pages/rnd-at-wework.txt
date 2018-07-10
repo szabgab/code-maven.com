@@ -12,6 +12,7 @@
 
 <img src="/img/rnd/yonatan-bergman.png" alt="Yonatan Bergman">
 <a href="https://www.linkedin.com/in/yonbergman/">Yonatan Bergman</a> Senior Director Of Engineering at <a href="https://www.wework.com/">WeWork</a> leading the Tel Aviv, Israel office of WeWork.
+Yonatan is an experienced software engineer and manager with an eye for design and a passion for building great products and teams. Focused on consistently improving and nurturing team culture, productivity, technical excellence, as well as empowering those around him. <a href="https://github.com/yonbergman">GitHub</a> Twitter: <a href="https://twitter.com/yonbergman">@yonbergman</a>.
 
 The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is an excellent place to get more insight.
 
@@ -23,6 +24,8 @@ The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is a
   </div>
   <div class="answer">
     We build a whole array of products/api/services that help WeWork scale and provide a holistic experience for our members. The majority are cloud hosted web services/Interfaces, mobile applications and some hardware.
+
+    We build the software the creates the OS to run the company of the future. Everything from streamlining construction and real-estate deals, operating our sales and marketing flows. All the way to sensor networks that give you insights into space utilization,  a mobile app that behaves as a remote control to the building from meeting rooms, guest registration and a console that let's help community managers foster culture inside existing companies and locations. 
   </div>
 </div>
 
@@ -56,6 +59,16 @@ you go up our org chart the groups become more distributed.
 This leads to a lot of interaction amongst the people in your squad that are in your office, for groups that share missions
 across offices they have more need to collaborate via email, Slack and video conferences.
 We also have guilds and other structures to increase interaction in one office outside of the squad structure.
+  </div>
+</div>
+
+<div class="qa">
+  <div class="question">
+     What are quads and guilds?
+  </div>
+  <div class="answer">
+    Squads are our first level team, smallest multi-discipline team. Usually 8-12 people including engineers, product managers and designers.
+    Guilds are a-formal groups of interest around technical and non-technical topics like React, Databases or API design.
   </div>
 </div>
 
