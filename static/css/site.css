@@ -28,6 +28,11 @@
   margin-left: 20px;
 }
 
+.rnd-author-img {
+    float: left;
+    margin-right: 5px;    
+}
+
 #rnd-logo {
     display: block;
     margin-left: auto;

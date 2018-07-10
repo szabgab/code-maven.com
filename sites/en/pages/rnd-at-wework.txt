@@ -10,9 +10,11 @@
 
 <a id="rnd-logo" href="https://www.wework.com/"><img src="/img/rnd/wework.png" alt="WeWork logo"></a>
 
-<img src="/img/rnd/yonatan-bergman.png" alt="Yonatan Bergman">
-<a href="https://www.linkedin.com/in/yonbergman/">Yonatan Bergman</a> Senior Director Of Engineering at <a href="https://www.wework.com/">WeWork</a> leading the Tel Aviv, Israel office of WeWork.
+<div class="rnd-author">
+  <img class="rnd-author-img" src="/img/rnd/yonatan-bergman.png" alt="Yonatan Bergman">
+  <a href="https://www.linkedin.com/in/yonbergman/">Yonatan Bergman</a> Senior Director Of Engineering at <a href="https://www.wework.com/">WeWork</a> leading the Tel Aviv, Israel office of WeWork.
 Yonatan is an experienced software engineer and manager with an eye for design and a passion for building great products and teams. Focused on consistently improving and nurturing team culture, productivity, technical excellence, as well as empowering those around him. <a href="https://github.com/yonbergman">GitHub</a> Twitter: <a href="https://twitter.com/yonbergman">@yonbergman</a>.
+</div>
 
 The <a href="http://engineering.wework.com/">engineering blog of WeWork</a> is an excellent place to get more insight.
 
