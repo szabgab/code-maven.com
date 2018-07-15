@@ -99,6 +99,7 @@ drwxr-xr-x  9 gabor  staff  288 Apr  6 18:19 .git
    <li><a href="/merge-one-commit-from-a-pull-request">Merge only one commit from a Pull-request on GitHub</a></li>
    <li><a href="/git-stash">git stash</a></li>
    <li><a href="/git-workflow-for-individuals">Git workflow for individuals</a></li>
+   <li><a href="/git-config">git config</a></li>
 </ul>
 
 

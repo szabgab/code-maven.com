@@ -1,0 +1,16 @@
+=title git config
+=timestamp 2018-07-15T20:30:01
+=indexes git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+=abstract end
+
+The <hl>.gitconfig</hl> file in my home directory:
+
+<include file="examples/gitconfig.txt">
+
