@@ -1,36 +1,3 @@
-Interviewee name, title, LinkedIn and/or Twitter links and/or other ways to contact. (if s/he wants it)
-
-What kind products / services does your company develop / maintain? (web based, on-site appliance, hardware, etc.)
-Number of engineers: 
-Are there any remote engineers? (If yes, how does that work out?)
-
-What are the most common tools that engineers use?
-Which languages do engineers code in?
-Which operating systems do you use?
-Which databases do you use?
-What are the development environments? (OS, editor, Vagrant? Docker?)
-What is the system architecture? (Monolith, Microservices, Mix, etc.?)
-What kind of cloud infrastructure do you use?
-
-What Agile practices do you employ? (Daily stand-up, Sprints, Retrospectives, ...)
-What does DevOps mean in your company? (Do you have a dedicated developer experience/developer tools team?)
-Is anyone on-call? Who? (Developers, DevOps people, ...?)
-
-What is the development process like? (The lifecycle of a piece of committed code, branching strategy)
-Do you do pair-programming? Mob-programming?
-Do you do code reviews? How often? What is code review like?
-
-How is testing done? (Manual QA? What kind of tests are run? How long does a test cycle run?)
-How is code released / deployed? (How often? Who can do it? Do you have staging environment? Deployment circles?)
-
-What is an average day-in-the-life of someone on one of the engineering teams?
-What makes ... a special place to be an engineer?
-
-What are the biggest pleasures and challenges in your job?
-What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
-Any disaster you could share with us?
-
-What else would you like to tell people interested in the work at your company?
 
 Some extra questions:
 * How much interaction is among the people in different locations vs. inside a single office?

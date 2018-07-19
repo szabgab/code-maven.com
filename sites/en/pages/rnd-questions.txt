@@ -8,7 +8,10 @@
 
 =abstract start
 
+
 <a id="rnd-logo" href=""><img src="/img/rnd/" alt=""></a>
+
+<b>Interviewee name, title, LinkedIn and/or Twitter links and/or other ways to contact. (if s/he wants it) Some additional information about you.</b>
 
 <div class="rnd-author">
   <img class="rnd-author-img" src="/img/rnd/" alt="">
@@ -19,7 +22,7 @@
 
 <div class="qa">
   <div class="question">
-    What kind products / services does your company develop / maintain? (web based, on-site appliance, hardware, etc.)
+    What kind of products / services does your company develop / maintain? (web based, mobile, desktop, on-site appliance, embedded, hardware, etc.)
   </div>
   <div class="answer">
   </div>
@@ -92,7 +95,7 @@
 
 <div class="qa">
   <div class="question">
-    What kind of cloud infrastructure do you use?
+    Do you use "the cloud"? What kind of cloud infrastructure do you use?
   </div>
   <div class="answer">
   </div>
@@ -124,7 +127,7 @@
 
 <div class="qa">
   <div class="question">
-    What is the development process like? (The lifecycle of a piece of committed code, branching strategy)
+    What is the development process like? (The lifecycle of a piece of committed code, branching strategy. How do developers cooperate?)
   </div>
   <div class="answer">
   </div>
@@ -132,7 +135,7 @@
 
 <div class="qa">
   <div class="question">
-    Do you do pair-programming? Mob-programming?
+    Do you practice pair-programming? Mob-programming?
   </div>
   <div class="answer">
   </div>
@@ -141,7 +144,7 @@
 
 <div class="qa">
   <div class="question">
-    Do you do code reviews? How often? What is code review like?
+    Do you have code reviews? How often? What is code review like?
   </div>
   <div class="answer">
   </div>
@@ -149,7 +152,7 @@
 
 <div class="qa">
   <div class="question">
-    How is testing done? (Manual QA? What kind of tests are run? How long does a test cycle run?)
+    How is testing done? (Manual QA? What kind of tests do you run? How long does a test cycle take?)
   </div>
   <div class="answer">
   </div>
@@ -181,6 +184,14 @@
 
 <div class="qa">
   <div class="question">
+    What are the biggest pleasures and challenges in your job?
+  </div>
+  <div class="answer">
+  </div>
+</div>
+
+<div class="qa">
+  <div class="question">
     What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
   </div>
   <div class="answer">
@@ -190,6 +201,21 @@
 <div class="qa">
   <div class="question">
     Any disaster you could share with us?
+  </div>
+  <div class="answer">
+  </div>
+</div>
+
+<div class="qa">
+  <div class="question">
+    What else would you like to tell people interested in the work at your company?
+  </div>
+  <div class="answer">
+  </div>
+</div>
+
+<div class="qa">
+  <div class="question">
   </div>
   <div class="answer">
   </div>
