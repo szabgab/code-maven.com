@@ -26,7 +26,7 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-undeclared-variable">Groovy: Undeclared variable - runtime exception - groovy.lang.MissingPropertyException</a> def, MissingPropertyException</li>
   <li><a href="/groovy-number-guessing-game">Groovy: Number guessing game</a> Random, nextInt, System.in.newReader().readLine</li>
   <li><a href="/groovy-determine-type-of-object">Determine type of an object in Groovy</a> instanceof, getClass</li>
-  <li><a href="/groovy-lists">Lists in Groovy</a> List, ArrayList, LinkedList, size, for, each, eachWithIndex</li>
+  <li><a href="/groovy-lists">Lists in Groovy</a> List, ArrayList, LinkedList, size, for, each, eachWithIndex, count</li>
   <li><a href="/groovy-sum-of-numbers">Sum of numbers</a> File, readLines, LineNumberReader, newReader, readLine</li>
   <li><a href="/groovy-color-selector">Solution to the "Color selector" exercise</a></li>
   <li><a href="/groovy-read-csv-file">Read CSV file in Groovy</a> @Grab, import, File, getText, parseCSV, separators, readFirstLine

@@ -44,5 +44,5 @@ Read more about <a href="http://groovy-lang.org/syntax.html#_lists">lists in Gro
 
 The <hl>count</hl> method will count how many times a values appears in a list. It can be used to check if the values is in the list at all.
 
-<include file="examples/groovy/element_in_lists.groovy">
+<include file="examples/groovy/element_in_list.groovy">
 
