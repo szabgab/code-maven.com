@@ -1,6 +1,6 @@
 =title Groovy: Lists
 =timestamp 2018-06-01T09:00:01
-=indexes List, ArrayList, LinkedList, size, for, each, eachWithIndex
+=indexes List, ArrayList, LinkedList, size, for, each, eachWithIndex, count
 =status show
 =books groovy
 =author szabgab
@@ -26,7 +26,7 @@ uses a variable to go over the indexes from 0 to the size-1 and then use this in
 in the list. The name of this internal variable is typically i or j and it does not need to be declared using <hl>def</hl>.
 
 
-The <h2>each</hl> method will also iterate over the elements of the list. For each iteration it will put the current value
+The <hl>each</hl> method will also iterate over the elements of the list. For each iteration it will put the current value
 in a varaible called <hl>it</hl> and then execute the block that follows the <hl>each</hl> statement. The <hl>it</hl> is similar
 to to <hl>$_</hl> of Perl and the <hl>_</hl> of Python.
 
@@ -38,3 +38,11 @@ The first one will get the current value, the second one will get the index of t
 
 
 Read more about <a href="http://groovy-lang.org/syntax.html#_lists">lists in Groovy</a>.
+
+
+<h2>Is element in list? How many times?</h2>
+
+The <hl>count</hl> method will count how many times a values appears in a list. It can be used to check if the values is in the list at all.
+
+<include file="examples/groovy/element_in_lists.groovy">
+
