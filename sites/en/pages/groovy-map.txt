@@ -1,0 +1,15 @@
+=title Groovy map (dictionary, hash, associative array)
+=timestamp 2018-07-31T22:30:01
+=indexes map, containsKey, key, value
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+=abstract end
+
+<include file="examples/groovy/elements_of_map.groovy">
+
