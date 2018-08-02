@@ -1,0 +1,16 @@
+=title Groovy: JSON - reading and writing
+=timestamp 2018-08-02T08:30:01
+=indexes JSON
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/groovy/reading_json.groovy">
+
+
+<a href="http://groovy-lang.org/json.html">Groovy JSON module</a>

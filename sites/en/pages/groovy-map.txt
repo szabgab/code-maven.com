@@ -13,3 +13,5 @@
 
 <include file="examples/groovy/elements_of_map.groovy">
 
+<a href="http://groovy-lang.org/syntax.html#_maps">maps</a>
+
