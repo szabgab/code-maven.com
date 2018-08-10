@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  gather_facts: False
+  become: False
+
+  tasks:
+    - debug:
+        msg: Just echo something
