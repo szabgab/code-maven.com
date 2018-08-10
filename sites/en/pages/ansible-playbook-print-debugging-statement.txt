@@ -1,0 +1,90 @@
+=title Ansible playbook: print debugging statement
+=timestamp 2018-08-10T13:30:01
+=indexes ansible-playbook, debug, msg
+=status show
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+A simple Ansible playbook example showing how to print debugging statements.
+
+=abstract end
+
+Create an Ansible Playbook file which is just a <a href="/yaml">YAML</a> file:
+
+<include file="examples/ansible/debug_playbook.yml">
+
+Run it as 
+
+<code>
+$  ansible-playbook examples/ansible/debug_playbook.yml
+</code>
+
+The result will look like this:
+
+<code>
+ [WARNING]: Unable to parse /etc/ansible/hosts as an inventory source
+
+ [WARNING]: No inventory was parsed, only implicit localhost is available
+
+ [WARNING]: provided hosts list is empty, only localhost is available. Note that the implicit
+localhost does not match 'all'
+
+
+PLAY [Demo] *****************************************************************************************
+
+TASK [debug] ****************************************************************************************
+ok: [localhost] => {
+    "msg": "Just echo something"
+}
+
+PLAY RECAP ******************************************************************************************
+localhost                  : ok=1    changed=0    unreachable=0    failed=0
+</code>
+
+
+We run this on the local machine called <hl>localhost</hl>. It generates a few warnings, but we don't need an extra machine to play with.
+If you'd like to eliminate these warnings you can create an inventory file that onlys lists localhost:
+
+<include file="examples/ansible/localhost.cfg">
+
+And supply it on the command line:
+
+<code>
+$  ansible-playbook -i examples/ansible/localhost.cfg  examples/ansible/debug_playbook.yml
+</code>
+
+
+<h2>Incorrect indentation: Ignoring invalid attribute: msg</h2>
+
+One thing you need to be aware is that YAML derives its structure from the indentations and thus you need to make sure the <hl>msg</hl> tag is indented properly. If the indentation is incorrect as in the next example:
+
+<include file="examples/ansible/debug_playbook_bad.yml">
+
+Then running it:
+
+<code>
+$  ansible-playbook -i examples/ansible/localhost.cfg  examples/ansible/debug_playbook_bad.yml
+</code>
+
+will yield the following output including the warning:
+
+<code>
+ [WARNING]: Ignoring invalid attribute: msg
+
+
+PLAY [Demo] *****************************************************************************************
+
+TASK [debug] ****************************************************************************************
+ok: [127.0.0.1] => {
+    "msg": "Hello world!"
+}
+
+PLAY RECAP ******************************************************************************************
+127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=0
+</code>
+
+
