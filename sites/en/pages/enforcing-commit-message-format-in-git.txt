@@ -1,0 +1,85 @@
+=title Enforcing commit message format in Git - on the client side
+=timestamp 2018-08-10T12:30:01
+=indexes git, commit-msg
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+By default git allows you to include anything in a commit message. This freedom is nice, but when I need to look back on the commit history it is very useful to be able to connect commits to specific issues.
+
+This could be done by including the issue number in every commit message. (Even if in  your setting it is called ticket number or bug number.). e.g. <hl>#42</hl>.
+
+Git provides ways to enforce that you every commit has such a string in it, but this enforcement can only be done on the server. Too late if I made several commit on the client without the required part.
+
+You can, however, ask git on your own computer to help you enforce this rule.
+
+=abstract end
+
+In your workspace on your computer the whole git database is in the <hl>.git</hl> subdirectory of your workspace. Inside there is a directory called <hl>.git/hooks/</hl> with a bunch of file with th extension "sample". These are or example scripts to have actions at various stages of your work life-cycle.
+
+Here is what I did: I create a file called <hl>.git/hooks/commit-msg</hl> with the following content:
+
+<code lang="shell">
+#!/bin/sh
+
+test "" = "$(grep '^#\d* - ' "$1")" && {
+   echo >&2 "******  Start the commit message with a # character followed by the task-id!"
+   exit 1
+}
+
+exit 0
+</code>
+
+Made it executable with
+
+<code>
+chmod +x .git/hooks/commit-msg
+</code>
+
+From this point on, in this repository I'll have to make sure the commit message starts with
+<hl>#</hl> followed by a number, followed by a <hl> - </hl>. The rest is optional.
+
+<h2>How the commit-msg hook works:</h2>
+
+Before a commit is recorded the commit message is saved in a temporary file and this script is executed passing the name of the file as the first parameter. If the exit code of this script is 0 (meaning success) then the commit can go on. If the exit code is any other number (meaning failure) then the commit is aborted. The above code checks if the content of the file (of which the name is located in variable <hl>$1</hl> contains the correct format.
+
+
+<h2>Enforce task-by-name</h2>
+
+If you don't have a bug-tracking system, or you don't always want to require a bug number, I'd still suggest to require some kind of identification to the commits that will make it easier later to connect commits that are related to the same task.
+
+This slight modification requires some kind of a word consisting of letters, digits, and the underscore immediately after the <hl>#</hl> tag.
+
+<code lang="shell">
+#!/bin/sh
+
+test "" = "$(grep '^#\w* - ' "$1")" && {
+   echo >&2 "******  Start the commit message with a # character followed by the task!"
+   exit 1
+}
+
+exit 0
+</code>
+
+So a commit message can look like:
+
+<code>
+#refactoring - merging 4 cases of copy-paste into a function call
+</code>
+
+
+<h2>Select from specific names</h2>
+
+The above still allows for typos in the identifier that is mainly a problem as it will make it much harder to list the related commits.
+
+The next one, written in Perl, that should still be called <hl>.git/hooks/commit-msg</hl> has a list of acceptable task names.
+It checks if the text starts with one of those.
+
+<include file="examples/commit-msg.pl">
+
+Using this will require you to update the <hl>.git/hooks/commit-msg</hl> file with the current task names, but will enforce the specific names.
+
+
