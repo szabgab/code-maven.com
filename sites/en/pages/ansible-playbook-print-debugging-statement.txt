@@ -87,22 +87,6 @@ PLAY RECAP *********************************************************************
 127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=0
 </code>
 
-<h2>No name</h2>
-
-<code>
-$  ansible-playbook -i examples/ansible/localhost.cfg  examples/ansible/debug_playbook_noname.yml
-
-PLAY [localhost] ************************************************************************************
-
-TASK [debug] ****************************************************************************************
-ok: [127.0.0.1] => {
-    "msg": "Just echo something"
-}
-
-PLAY RECAP ******************************************************************************************
-127.0.0.1                  : ok=1    changed=0    unreachable=0    failed=0
-</code>
-
 
 <h2>No name</h2>
 
