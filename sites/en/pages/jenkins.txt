@@ -23,4 +23,219 @@ This is a placeholder for the Jenkins article series. While we are getting ready
     <li>Collect test coverage data.</li>
 </ol>
 
+<h2>How to set environment variables in Jenkins?</h2>
+
+A section called <hl>environment</hl> can be added to the pipeline
+
+<code>
+environment {
+    SOME_NAME = "some value"
+}
+</code>
+
+<code>
+pipeline {
+   agent none
+   environment {
+       field = 'some'
+   }
+   stages {
+       stage ('Preparation') {
+           agent { label 'master'}
+           environment {
+               JENKINS_PATH = sh(script: 'pwd', , returnStdout: true).trim()
+           }
+           steps {
+               echo "Hello world"
+               echo "PATH=${JENKINS_PATH}"
+               sh 'echo "JP=$JENKINS_PATH"'
+          }
+      }
+   }
+}
+</code>
+
+
+<h2>How to use environment variables in the environment section of Jenkins?</h2>
+
+<code>
+         environment {
+               PATH = "/path/to/dir:${env.PATH}"
+               JNK_PATH = "${env.WORKSPACE}\\subdir"
+           }
+</code>
+
+The above only works when the environment section is inside a "stage" but would yield "null" for
+WORKSPACE outside the stages.
+
+<h2>Set environemt executing code</h2>
+
+<code>
+environment {
+    field = func()
+}
+
+def func() {
+    ...
+    return "value"
+}
+</code>
+
+
+<h2>Send e-mail notifications</h2>
+
+<code>
+def notify(status) {
+   wrap([$class: 'BuildUser']) {
+       emailext (
+       subject: "${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]'",
+       body: """<p>${status}: Job '${env.JOB_NAME} [${env.BUILD_NUMBER}]':</p>
+       <p>Check console output at "<a href="${env.BUILD_URL}">${env.JOB_NAME} [${env.BUILD_NUMBER}]</a>"</p>""",
+       to: "${BUILD_USER_EMAIL}",
+       from: 'jenkins@company.com')
+   }
+}
+</code>
+
+
+<h2>Add badges</h2>
+
+<code>
+   manager.addBadge("error.gif", "Failed build")
+</code>
+
+<h2>Add some text to the job using shortText</h2>
+
+<code>
+script {
+   manager.addShortText("Some text")
+   manager.addShortText("\ntext")
+   manager.addShortText("same line", "black", "lightgreen", "0px", "white")
+}
+</code>
+
+
+<h2>Run external code, capture output</h2>
+
+<code>
+script {
+      v = sh(script: 'echo " 42"; echo', returnStdout: true).trim()
+      echo v
+      echo "a${v}b"
+}
+</code>
+
+<hl>bat</hl> for windows.
+
+<h2>catch and print error in jenkins</h2>
+
+<code>
+pipeline {
+   agent none
+   stages {
+       stage ('Catch crash') {
+           agent { label 'master'}
+           steps {
+               echo "before crash"
+               script {
+                   try {
+                       sh 'exit 1'
+                   } catch (err) {
+                       echo "exception caught, going on"
+                       println err // java.lang.ClassCastException:
+org.jenkinsci.plugins.workflow.steps.EchoStep.message expects class java.lang.String but received
+class hudson.AbortException
+                   }
+               }
+               echo "after crash"
+           }
+       }
+       stage ('Continue after crash') {
+           agent { label 'master'}
+           steps {
+               echo "stage after crash"
+           }
+       }
+   }
+}
+</code>
+
+<h2>dir and tmp ar problematic</h2>
+
+<code>
+  stages {
+       stage ('Run external exe') {
+           agent { label 'master'}
+           steps {
+               sh 'pwd'
+               dir('/tmp/gabor') {
+                   echo "inside"
+                   sh 'pwd'
+                   //sh 'sudo ./do-something.py'
+               }
+               sh 'pwd'
+               //sh "sudo sh -c 'cd /tmp; ./do-something.py; cd -'"
+           }
+       }
+</code>
+
+<code>
+java.io.IOException: Failed to mkdirs: /tmp@tmp/durable-e569697c
+        at hudson.FilePath.mkdirs(FilePath.java:1170)
+        at
+org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController.<init>(FileMonitori
+ngTask.java:156)
+        at
+org.jenkinsci.plugins.durabletask.BourneShellScript$ShellController.<init>(BourneShellScript.java
+:198)
+        at
+org.jenkinsci.plugins.durabletask.BourneShellScript$ShellController.<init>(BourneShellScript.java
+:190)
+        at
+org.jenkinsci.plugins.durabletask.BourneShellScript.launchWithCookie(BourneShellScript.java:111)
+        at
+org.jenkinsci.plugins.durabletask.FileMonitoringTask.launch(FileMonitoringTask.java:86)
+        at
+org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.start(DurableTaskStep
+.java:182)
+        at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:229)
+        at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)
+        at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+        at sun.reflect.GeneratedMethodAccessor1989.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+        at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+        at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+        at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+        at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+        at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:157)
+        at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+        at
+org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterc
+eptor.java:133)
+        at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)
+        at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:159)
+        at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)
+        at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)
+        at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+        at WorkflowScript.run(WorkflowScript:16)
+</code>
+
+<h2>Jenkins / Groovy -  define functions and call them with parameters</h2>
+
+<code>
+def report(status) {
+   println "status=${status}"
+}
+</code>
+
+and call them
+
+<code>
+report("text")
+</code>
+
 
