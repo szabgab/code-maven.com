@@ -56,6 +56,9 @@ Adding the following to the <hl>.git/config</hl> file of your project will enfor
     mergeOptions = --ff-only
 </code>
 
+This is also describe by <a href="https://twitter.com/mvuksano">Marko Vuksanovic</a> 
+in <a href="https://medium.com/@mvuksano/git-tips-use-only-fast-forward-merges-with-rebase-c80c9d260a83">Git tips: Use only fast-forward merges (with rebase)</a>
+
 <h2>Team Foundation Server</h2>
 
 TFS allows the admins to set 
