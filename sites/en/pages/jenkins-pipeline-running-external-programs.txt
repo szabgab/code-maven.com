@@ -1,0 +1,73 @@
+=title Jenkins Pipeline: running external programs with sh or bat
+=timestamp 2018-08-20T21:30:01
+=indexes sh, bat
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+From within a Jenkins pipeline you can any external program. If your pipeline will run on Unix/Linux you need to use the <hl>sh</hl> command.
+If your pipeline will run on MS Windows you'll need to use the <hl>bat</hl> command.
+
+Naturally the commands you pass to these will also need to make sense on the specific operating system.
+
+In this example first we use the internal <hl>echo</hl> command of Jenkins.
+
+Then we call <hl>sh</hl> and run the <hl>echo</hl> of our Unix shell.
+
+Then we execute the <hl>hostname</hl> command and finally the </hl>uptime</hl> command.
+
+=abstract end
+
+<code lang="groovy">
+pipeline {
+    agent { label 'master' }
+    stages {
+        stage('build') {
+            steps {
+                echo "Hello World!"
+                sh "echo Hello from the shell"
+                sh "hostname"
+                sh "uptime"
+            }
+        }
+    }
+}
+</code>
+
+The result looks like this:
+
+<code>
+Started by user Gabor Szabo
+Running in Durability level: MAX_SURVIVABILITY
+[Pipeline] node
+Running on Jenkins in /var/lib/jenkins/workspace/simple-pipeline
+[Pipeline] {
+[Pipeline] stage
+[Pipeline] { (build)
+[Pipeline] echo
+Hello World!
+[Pipeline] sh
+[simple-pipeline] Running shell script
++ echo Hello from the shell
+Hello from the shell
+[Pipeline] sh
+[simple-pipeline] Running shell script
++ hostname
+s17
+[Pipeline] sh
+[simple-pipeline] Running shell script
++ uptime
+ 17:15:35 up 3 days,  1:59,  0 users,  load average: 0.00, 0.00, 0.00
+[Pipeline] }
+[Pipeline] // stage
+[Pipeline] }
+[Pipeline] // node
+[Pipeline] End of Pipeline
+Finished: SUCCESS
+</code>
+
+
