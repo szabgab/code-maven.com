@@ -160,7 +160,7 @@ class hudson.AbortException
 }
 </code>
 
-<h2>dir and tmp ar problematic</h2>
+<h2>dir and tmp are problematic</h2>
 
 <code>
   stages {
