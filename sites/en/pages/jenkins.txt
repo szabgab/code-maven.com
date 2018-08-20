@@ -68,7 +68,7 @@ pipeline {
 The above only works when the environment section is inside a "stage" but would yield "null" for
 WORKSPACE outside the stages.
 
-<h2>Set environemt executing code</h2>
+<h2>Set environment executing code</h2>
 
 <code>
 environment {
