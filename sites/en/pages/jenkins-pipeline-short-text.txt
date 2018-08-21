@@ -1,0 +1,25 @@
+=title Jenkins Pipeline: Add some text to the job using shortText
+=timestamp 2018-08-21T22:30:01
+=indexes addShortText
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+This will add text to the specific job on the summary page of the classic UI.
+The text does not show up on the BlueOcean UI.
+
+=abstract end
+
+<code lang="groovy">
+script {
+   manager.addShortText("Some text")
+   manager.addShortText("\ntext")
+   manager.addShortText("same line", "black", "lightgreen", "0px", "white")
+}
+</code>
+
+

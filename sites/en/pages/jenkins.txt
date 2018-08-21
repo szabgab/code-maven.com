@@ -87,17 +87,6 @@ def func() {
    manager.addBadge("error.gif", "Failed build")
 </code>
 
-<h2>Add some text to the job using shortText</h2>
-
-<code>
-script {
-   manager.addShortText("Some text")
-   manager.addShortText("\ntext")
-   manager.addShortText("same line", "black", "lightgreen", "0px", "white")
-}
-</code>
-
-
 <h2>Run external code, capture output</h2>
 
 <code>
