@@ -1,0 +1,43 @@
+=title Jenkins Pipeline: Send e-mail notifications
+=timestamp 2018-08-21T20:30:01
+=indexes emailext, BuildUser
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Configuring Jenkins to send e-mail will be covered later. For now let's see a few snippets of pipeline code that will send the e-mail.
+
+=abstract end
+
+<code lang="groovy">
+emailext (
+    subject: "Job '${env.JOB_NAME} ${env.BUILD_NUMBER}'",
+    body: """<p>Check console output at <a href="${env.BUILD_URL}">${env.JOB_NAME}</a></p>""",
+    to: "report@code-maven.com",
+    from: "jenkins@code-maven.com"
+)
+</code>
+
+
+
+<h2>BuildUser plugin and e-mail</h2>
+
+<code>
+def notify(status) {
+   wrap([$class: 'BuildUser']) {
+       emailext (
+       subject: "${status}: Job ${env.JOB_NAME} ([${env.BUILD_NUMBER})",
+       body: """
+       Check console output at <a href="${env.BUILD_URL}">${env.JOB_NAME} (${env.BUILD_NUMBER})</a>""",
+       to: "${BUILD_USER_EMAIL}",
+       from: 'jenkins@company.com')
+   }
+}
+</code>
+
+
+
