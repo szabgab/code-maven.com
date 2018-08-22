@@ -1,7 +1,7 @@
 =title Time left in process (progress bar) in Python
 =timestamp 2018-08-22T07:30:01
 =indexes datetime
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
