@@ -70,4 +70,32 @@ s17
 Finished: SUCCESS
 </code>
 
+<h2>MS Windows</h2>
+
+A few examples in Windows:
+
+Show the name of the computer (a bit like hostname on Unix):
+
+<code>
+bat 'wmic computersystem get name'
+</code>
+
+Print out the content of the PATH environment variable as seen by Windows.
+
+<code>
+bat 'echo %PATH%'
+</code>
+
+Of course we could have printed the PATH environment variable without invoking an external call:
+
+<code>
+echo env.PATH
+</code>
+
+Print out all the environment variables seen by Windows.
+
+<code>
+echo bat(returnStdout: true, script: 'set')
+</code>
+
 
