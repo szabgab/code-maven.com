@@ -12,6 +12,36 @@
 
 =abstract end
 
+<h2>Connect to Google instance</h2>
+
+<code>
+gcloud compute ssh NAME
+</code>
+
+List all the instances:
+
+<code>
+gcloud compute instances list
+</code>
+
+Make sure the zone configured in your configuration is the same where the instance can be found or the command will not find the instance by name.
+
+See more about <a href="https://cloud.google.com/compute/docs/instances/connecting-to-instance">connecting to instances</a>.
+
+<h2>Access instance using ssh</h2>
+
+In the <a href="https://console.cloud.google.com/compute/metadata/sshKeys">SSH Keys</a> 
+of the <a href="https://console.cloud.google.com/compute/metadata">Metadata</a> of your "Project"
+add the public key of your ssh keypair with your username as "username".
+
+After that every <b>new</b> instance will have this public key installed and so you can use plain old ssh (or Putty if you are using MS Windows) to connect to the machine.
+
+If you are ready to take the risk you can also use the following flags to connect without saving the key of the server in the known_hosts file of your local computer.
+
+<code>
+ssh -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no  EXTERNAL_IP
+</code>
+
 <h2>Projects</h2>
 
 Projects are the biggest units of organization inside GCP. They allow you to configure access control to your engineers.
@@ -80,5 +110,4 @@ You can switch between local configurations using:
 <code>
 gcloud config configurations activate
 </code>
-
 
