@@ -12,6 +12,7 @@
 <div class="main-content">
 <h3>The main topics</h3>
 <ul>
+  <li><a href="/angularjs">Angular JS</a></li>
   <li><a href="/ansible">Ansible</a></li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
   <li><a href="/groovy">Groovy</a>, the programming language used for Jenkins pipelines.</li>

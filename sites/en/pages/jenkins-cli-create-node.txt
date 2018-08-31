@@ -10,7 +10,7 @@
 =abstract start
 
 In some situation you might need to add nodes (aka. agents) programmatically to a Jenkins setup.
-This is a shell script to register the new node based on the <a href="//gist.github.com/ChristopherDavenport/bc5ba7a33d5dd5fc975da81c4a270a90">gist of Christopher Davenport</a>.
+This is a shell script to register the new node based on the <a href="https://gist.github.com/ChristopherDavenport/bc5ba7a33d5dd5fc975da81c4a270a90">gist of Christopher Davenport</a>.
 
 =abstract end
 
