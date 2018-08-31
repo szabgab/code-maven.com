@@ -1,0 +1,84 @@
+=title gcloud - the command line tool for Google Cloud Platform
+=timestamp 2018-08-31T08:00:01
+=indexes gcloud, compute, config
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="https://cloud.google.com/sdk/gcloud/">gcloud</a> is a command-line tool to access the services and the configurations of provided by the <a href="https://console.cloud.google.com/">console</a> of GCP.
+
+=abstract end
+
+<h2>Projects</h2>
+
+Projects are the biggest units of organization inside GCP. They allow you to configure access control to your engineers.
+
+This is a collection of a few useful commands.
+
+<h2>Projects and Compute Instances</h2>
+
+List all the Compute Instances (virtual machines) in the currently configured project and
+return the results as JSON.
+
+<code>
+gcloud compute instances list --format='json'
+</code>
+
+List all the Compute Instances in the project supplied on the command line. For this you don't need to configure each project, you just need to be logged in and you need to have access rights to the specific project.
+
+<code>
+gcloud compute instances list --project PROJECT --format=json
+</code>
+
+<h3>Stop instance</h3>
+
+It will stop the instance (move to TERMINATED state) but won't delete it.
+
+<code>
+gcloud compute instances stop --project PROJECT --zone ZONE NAME --format json
+</code>
+
+<h2>List all the values of a label</h2>
+
+Each compute instance can have labels on it that can help understanding why do we have a machine and it can be used in billing to see what do spend our money on - by category.
+
+Just to have a look we fetch all the labels called "role" together with the name of each instance from the given project.
+
+<code>
+gcloud compute instances list --format='csv(labels.role,name)' --project development-42
+</code>
+
+In this example we would like to know what values does the label "role" have in the project called "development-42". First we list the values from all the instances in CSV format. This will contain the list but it will also contain the name of the field ("role" in our case) as the first line of the result. So we filter it out using the <hl>tail</hl> command. Then we <hl>sort</hl> the values and run through <hl>uniq</hl>. That gives us each name once.
+
+<code>
+gcloud compute instances list --format='csv(labels.role)' --project development-42 | tail +2 | sort | uniq
+</code>
+
+<h2>List all the local configurations</h2>
+
+Instead of supplying all the values on the command line for every command (e.g. name of the project, zone, etc.) we can have local configurations with with defaults. Each configuration has a name and a bunch of key-value pairs.
+
+The command
+
+<code>
+gcloud init
+</code>
+
+can be used to create new configurations or to change existing ones.
+
+BTW the configuration files are stored in <hl>~/.config/gcloud/configurations/</hl>
+
+<code>
+gcloud config configurations list --format json
+</code>
+
+You can switch between local configurations using:
+
+<code>
+gcloud config configurations activate
+</code>
+
+
