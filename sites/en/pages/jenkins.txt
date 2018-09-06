@@ -213,4 +213,96 @@ and call them
 report("text")
 </code>
 
+<h2>BUILD USER</h2>
+
+Need the <a href="https://wiki.jenkins.io/display/JENKINS/Build+User+Vars+Plugin">Build User Vars Plugin</a> and then write the following code:
+
+<code>
+pipeline {
+   agent { label 'master' }
+   stages {
+       stage('build') {
+           steps {
+               wrap([$class: 'BuildUser']) {
+                   echo BUILD_USER
+                   echo BUILD_USER_ID
+                   echo BUILD_USER_FIRST_NAME
+                   echo BUILD_USER_LAST_NAME
+               }
+               script {
+                   wrap([$class: 'BuildUser']) {
+                       build_user_id = BUILD_USER_ID
+                   }
+               }
+               echo build_user_id
+           }
+       }
+   }
+}
+</code>
+
+<h2>Environment variables on Linux</h2>
+
+<code>
+sh 'printenv'
+sh 'env'
+</code>
+
+<h2>Input during the process</h2>
+
+<code>
+pipeline {
+   agent { label 'master' }
+   stages {
+       stage('build') {
+           steps {
+               echo "Hello World!"
+               //input("Continue?")
+               echo "OK"
+               //input(
+               //    message: 'Was this successful?', parameters: [
+               //   [$class: 'BooleanParameterDefinition', defaultValue: true, description: '',
+name: 'Please confirm you agree with this']
+               //])
+
+       /*
+               script {
+                   res = input(
+                       message: 'Was this successful?', parameters: [
+                       [$class: 'BooleanParameterDefinition', defaultValue: false, description:
+'', name: 'Apple'],
+                       [$class: 'BooleanParameterDefinition', defaultValue: false, description:
+'', name: 'Banana']
+                   ])
+                                      print(res)
+               }
+*/
+               script {
+                   values = ['Apple', 'Banana', 'Peach']
+                   parameters = []
+                   values.each {
+                       echo it
+                       parameters.add( [$class: 'BooleanParameterDefinition', defaultValue:
+false, description: '', name: it ] )
+                   }
+
+                   res = input(
+                       message: 'Was this successful?', parameters: parameters
+                   )
+                                                         print(res)
+               }
+
+
+               //                input(
+//                    message: 'What now?', parameters: [
+//                        [$class: 'AppDetectorParamaterDefinition')
+//                ])
+                                  //echo result
+                              // python scripts/aws_instances.py --what selftest --command start
+           }
+       }
+   }
+}
+</code>
+
 
