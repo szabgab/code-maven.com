@@ -36,6 +36,8 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-regex">Groovy - Regular Expressions - regexes</a></li>
   <li><a href="/groovy-map">Groovy map (dictionary, hash, associative array)</a>  map, containsKey, key, value</li>
   <li><a href="/groovy-json">Groovy JSON</a></li>
+  <li><a href="/groovy-date-time">Groovy: Date, Time, Timezone</a></li>
+  <li><a href="/groovy-import-functions-from-another-file">Groovy: import and use functions from another file</a></li>
 </li>
 </ul>
 
