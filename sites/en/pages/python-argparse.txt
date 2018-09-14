@@ -1,4 +1,4 @@
-=title Python argpars to parse command line arguments
+=title Python argparse to process command line arguments
 =timestamp 2018-09-06T07:30:01
 =indexes argparse
 =status show
