@@ -71,6 +71,21 @@ It will stop the instance (move to TERMINATED state) but won't delete it.
 gcloud compute instances stop --project PROJECT --zone ZONE NAME --format json
 </code>
 
+<h3>Start instance</h3>
+
+It will start the instance (move to RUNNING state).
+
+<code>
+gcloud compute instances start --project PROJECT --zone ZONE NAME --format json
+</code>
+
+<h2>Get Information about an instance</h2>
+
+<code>
+gcloud compute instances describe NAME --zone ZONE --project PROJECT
+gcloud compute instances describe NAME --zone ZONE --project PROJECT --format json
+</code>
+
 <h2>List all the values of a label</h2>
 
 Each compute instance can have labels on it that can help understanding why do we have a machine and it can be used in billing to see what do spend our money on - by category.
