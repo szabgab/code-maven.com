@@ -1,0 +1,52 @@
+=title Digital Ocean API
+=timestamp 2018-09-14T12:10:01
+=indexes curl, DO, API
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="/digitalocean">Digital Ocean</a> is a cloud provider with a nice and simple interface. I have been using it for many years for a number of servers. It also has a nice API that we can use to automate the administration of instances.
+
+=abstract end
+
+Let's see a few examples that you might need from the API.
+
+In order to use it first you need to <a href="/digitalocean">sign up to Digital Ocean</a>. Without
+an account there is no point using the API.
+
+Then you need to create an <a href="https://cloud.digitalocean.com/account/api/tokens">API token</a> with read-write access.
+
+Keep this code somewhere safe as people who have access to this token can manage your instances.
+
+In order no to copy the token in every command I've created an environment variable:
+
+<pre>
+export DO_API_TOKEN=....
+</pre>
+
+<h2>Get the list of images</h2>
+
+<code>
+curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer $DO_API_TOKEN" "https://api.digitalocean.com/v2/images?type=distribution" > images.json
+</code>
+
+Use <a href="https://stedolan.github.io/jq/">jq</a> to see the file in a readable way:
+
+<pre>
+jq . images.json  | less
+</pre>
+
+or to list the slugs only:
+
+jq .images[].slug images.json
+
+
+<h2>Get the list of Droplet sizes</h2>
+
+<code>
+curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer $DO_TOKEN" 'https://api.digitalocean.com/v2/sizes' > sizes.json
+</code>
+
