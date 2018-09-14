@@ -19,7 +19,7 @@ In order to handle files Groovy has a class called <a href="http://docs.groovy-l
 
 This will remove the content of the old file and start a new file.
 
-<include file=""examples/groovy/write_file.groovy">
+<include file="examples/groovy/write_file.groovy">
 
 This will append to the end of the file.
 

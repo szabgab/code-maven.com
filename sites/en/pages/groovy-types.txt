@@ -73,6 +73,6 @@ but we can assign any type of value to it and it will be automatically converted
 
 <h2>Syntax</h2>
 
-See the <a href="http://groovy-lang.org/syntax.html">Groovy syntax</a> for more details</a>
+See the <a href="http://groovy-lang.org/syntax.html">Groovy syntax</a> for more details.
 
 
