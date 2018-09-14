@@ -1,0 +1,16 @@
+=title Groovy: Closures
+=timestamp 2018-09-14T11:30:01
+=indexes closures
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<a href="http://groovy-lang.org/closures.html">closures</a>
+
+<include file="examples/groovy/dispatch_closures.gvy">
+
