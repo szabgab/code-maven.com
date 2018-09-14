@@ -1,0 +1,2 @@
+println(Math.random())
+

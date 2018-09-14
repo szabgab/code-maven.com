@@ -1,0 +1,37 @@
+=title Groovy: Random numbers, random selection from list of values
+=timestamp 2018-09-14T11:00:01
+=indexes Random, next, nextInt, Math.random
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In order to generate pseudo-random numbers in Groovy, we can use the 
+<a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random--">Math.random()</a>
+method or the <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Random.html">Random</a>
+class provided by Java.
+
+=abstract end
+
+<h2>Random float</h2>
+
+The <hl>random</hl> method will generate a floating point number between 0 and 1.
+(0 included 1 excluded).
+
+<include file="examples/groovy/random_float.gvy">
+
+<h2>Random integers</h2>
+
+<include file="examples/groovy/random_integers.gvy">
+
+In the next example we have a list of one-letter strings and we would like to
+pick one of the elements randomly. So we need an integer between 0 and the size of the
+array.
+
+We run it in a loop so we can see more values picked.
+
+<include file="examples/groovy/random_selection.gvy">
+
