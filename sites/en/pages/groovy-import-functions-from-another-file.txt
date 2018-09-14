@@ -17,6 +17,8 @@ In this example we see how to do that with simple functions.
 
 =abstract end
 
+<h2>Importing function</h2>
+
 In this example we have a very simple "library" file with a simple function:
 
 <include file="examples/groovy/function_tools.gvy">
@@ -32,4 +34,14 @@ groovy function_script.gvy
 </pre>
 
 In the code we gave the path to the library so in this version it needs to be next to the code loading it.
+
+<h2>Importing class methods</h2>
+
+This is the class:
+
+<include file="examples/groovy/class_tools.gvy">
+
+This is the script:
+
+<include file="examples/groovy/class_script.gvy">
 
