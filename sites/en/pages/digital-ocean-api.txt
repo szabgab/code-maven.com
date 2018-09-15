@@ -14,6 +14,8 @@
 
 Let's see a few examples that you might need from the API.
 
+<h2>Generate an API token</h2>
+
 In order to use it first you need to <a href="/digitalocean">sign up to Digital Ocean</a>. Without
 an account there is no point using the API.
 
@@ -41,12 +43,33 @@ jq . images.json  | less
 
 or to list the slugs only:
 
+<pre>
 jq .images[].slug images.json
-
+</pre>
 
 <h2>Get the list of Droplet sizes</h2>
 
 <code>
 curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer $DO_TOKEN" 'https://api.digitalocean.com/v2/sizes' > sizes.json
 </code>
+
+
+<h2>Get list of SSH keys in your account</h2>
+
+<pre>
+curl -X GET -H "Content-Type: application/json" -H "Authorization: Bearer $DO_API_TOKEN" "https://api.digitalocean.com/v2/account/keys" > ssh.json
+<pre>
+
+And then the following to print the IDs and the names respectively.
+
+<pre>
+jq .ssh_keys[].id  ssh.json
+jq .ssh_keys[].name  ssh.json
+</pre>
+
+or both of them:
+
+<pre>
+jq '.ssh_keys[] | "\(.id) \(.name)"'  ssh.json
+</pre>
 
