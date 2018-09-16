@@ -1,5 +1,5 @@
 =title tmux
-=timestamp 2018-01-01T07:30:01
+=timestamp 2018-09-16T07:30:01
 =indexes tmux
 =status show
 =author szabgab
