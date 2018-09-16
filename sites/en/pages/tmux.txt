@@ -1,4 +1,4 @@
-=title tmux
+=title tmux a terminal multiplexer
 =timestamp 2018-09-16T07:30:01
 =indexes tmux
 =status show
@@ -7,9 +7,66 @@
 =comments_disqus_enable 1
 
 =abstract start
+
+<hl>tmux</hl> is great to kep a session on a remote computer alive even you get disconnected because of a network failure.
+
+Here is my modest configuration file and some command I use.
+
+
 =abstract end
 
-<hl>~/.tmux.conf</hl>
 
 <include file="examples/tmux.conf">
+
+<ul>
+   <li>ssh to remote machine</li>
+   <li>Save the above file in <hl>~/.tmux.conf</hl></li>
+   <li>Install <hl>tmux</hl> if it is not installed yet.</li>
+</ul>
+
+<ul>
+   <li>Start tmux by running <hl>tmux</hl></li>
+   <li><hl>Ctrl-a  Ctrl-d</hl>  - detach (then you can close your ssh session with <hl>Ctrl-d</hl> keeping the tmux session alive</li>
+   <li>Next time when you connect to the server, run <hl>tmux a</hl> to attach to the existing session</li>
+</ul>
+
+<h2>Buffers</h2>
+
+<ul>
+    <li><hl>Ctrl-a c</hl>    Create another buffer</li>
+    <li><hl>Ctrl-a 0</hl>    Jump to buffer 0</li>
+    <li><hl>Ctrl-a 1</hl>    Jump to buffer 1</li>
+    <li>...</li>
+    <li><hl>Ctrl-a ,</hl>    Set the name of the buffer</li>
+    <li><hl>Ctrl-a w</hl>    Select bufferi (list view)</li>
+    <li><hl>Ctrl-a s</hl>    Select buffer (tree view)</li>
+    <li><hl>Ctrl-a f</hl>    Select buffer search (ENTER on empty search to see full list)</li>
+    <li><hl>Ctrl-d</hl> or <hl>exit</hl> will close the buffer</ul>
+</ul>
+
+<h2>Windows</h2>
+
+Each buffer can be split up into windows.
+
+<ul>
+   <li><hl>Ctrl-a "</hl> Split window vertically</li>
+   <li><hl>Ctrl-a %</hl> Split window horizontally</li>
+   <li><hl>Ctrl-a (arrows)</hl> Swith to another window</li>
+   <li><hl>Ctrl-a x</hl> Close current window</li>
+</ul> 
+
+<h2>Ctrl-a</h2>
+<ul>
+    <li><hl>Ctrl-a Ctrl-a</hl> is a <hl>Ctrl-a</hl> (jump to the beginning of the line)</li>
+</ul>
+
+
+<h2>Help</h2>
+
+<ul>
+    <li><hl>Ctrl-a ?</hl> list keyboard binding. The <hl>bind-key</hl> is Ctrl-b by default but we have configured it to be <hl>Ctrl-a</hl>.<li>
+    <li><hl>ESC ESC</hl> pressed twice will leave the help window</li>
+    <li><hl>Ctrl-s</hl> Search in help window</li>
+</ul>
+
 

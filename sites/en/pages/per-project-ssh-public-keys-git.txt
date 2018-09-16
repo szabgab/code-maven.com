@@ -53,7 +53,7 @@ Basically the first command will changes the file <hl>~/.gitconfig</hl> adding
 
 <code>
 [core]
-    sshCommand = ssh -i /full/path/to/id_a/id_rsa"
+    sshCommand = "ssh -i /full/path/to/id_a/id_rsa"
 </code>
 
 The <hl>clone</hl> command will use this <hl>ssh</hl> and finally we remove the entry from the global configuration file.
