@@ -1,0 +1,15 @@
+=title tmux
+=timestamp 2018-01-01T07:30:01
+=indexes tmux
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<hl>~/.tmux.conf</hl>
+
+<include file="examples/tmux.conf">
+
