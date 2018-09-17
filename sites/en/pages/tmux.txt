@@ -8,25 +8,36 @@
 
 =abstract start
 
-<hl>tmux</hl> is great to kep a session on a remote computer alive even you get disconnected because of a network failure.
+<hl>tmux</hl> is great to keep a session on a remote computer alive even when you get disconnected because of a network failure
+or because you need to move from one network access point to another.
+
+The interactive process you ran on the remote machine keeps running.
+
+The editor you opened on the remote machine stays open. Even if you are in the middle of a cut-and-paste,
+when the connection is lost, you can still reconnect and you don't lose anything.
+
+It can provide you with multiple buffers and split-windows to do more than one operation at the same time via a single
+<hl>ssh</hl> connection.
 
 Here is my modest configuration file and some command I use.
 
-
 =abstract end
 
+<h2>My Configuration file</h2>
 
 <include file="examples/tmux.conf">
 
+<h2>Start using</h2>
+
 <ul>
-   <li>ssh to remote machine</li>
+   <li>ssh to remote machine (use Putty if your desktop runs Windows)</li>
    <li>Save the above file in <hl>~/.tmux.conf</hl></li>
-   <li>Install <hl>tmux</hl> if it is not installed yet.</li>
+   <li>Install <hl>tmux</hl> if it is not installed yet. e.g. <hl>sudo apt-get install tmux</hl></li>
 </ul>
 
 <ul>
    <li>Start tmux by running <hl>tmux</hl></li>
-   <li><hl>Ctrl-a  Ctrl-d</hl>  - detach (then you can close your ssh session with <hl>Ctrl-d</hl> keeping the tmux session alive</li>
+   <li><hl>Ctrl-a Ctrl-d</hl> - detach from the tmux session (then you can close your ssh session with <hl>Ctrl-d</hl> keeping the tmux session alive</li>
    <li>Next time when you connect to the server, run <hl>tmux a</hl> to attach to the existing session</li>
 </ul>
 
@@ -38,7 +49,7 @@ Here is my modest configuration file and some command I use.
     <li><hl>Ctrl-a 1</hl>    Jump to buffer 1</li>
     <li>...</li>
     <li><hl>Ctrl-a ,</hl>    Set the name of the buffer</li>
-    <li><hl>Ctrl-a w</hl>    Select bufferi (list view)</li>
+    <li><hl>Ctrl-a w</hl>    Select buffer (list view)</li>
     <li><hl>Ctrl-a s</hl>    Select buffer (tree view)</li>
     <li><hl>Ctrl-a f</hl>    Select buffer search (ENTER on empty search to see full list)</li>
     <li><hl>Ctrl-d</hl> or <hl>exit</hl> will close the buffer</ul>
@@ -51,7 +62,7 @@ Each buffer can be split up into windows.
 <ul>
    <li><hl>Ctrl-a "</hl> Split window vertically</li>
    <li><hl>Ctrl-a %</hl> Split window horizontally</li>
-   <li><hl>Ctrl-a (arrows)</hl> Swith to another window</li>
+   <li><hl>Ctrl-a (arrows)</hl> switch to another window</li>
    <li><hl>Ctrl-a x</hl> Close current window</li>
 </ul> 
 
@@ -68,5 +79,26 @@ Each buffer can be split up into windows.
     <li><hl>ESC ESC</hl> pressed twice will leave the help window</li>
     <li><hl>Ctrl-s</hl> Search in help window</li>
 </ul>
+
+<h2>Multiple sessions</h2>
+
+I never needed to run two <hl>tmux</hl> session on the same remote machine, but sometimes I forgot that I already have one running and instead of using <hl>tmux a</hl> to attache to an existing one I ran <hl>tmux</hl> that created a new one.
+
+If I recognize it immediately I can just quit it (e.g. with <hl>Ctrl-d</hl>) and then get into my regular session.
+
+If, however I start working and get disconnected, when I reconnect I might want to decide which one to connect to.
+
+From the outside (after <hl>ssh</hl> connection was established, but before you attach to <hl>tmux</hl>, you can run:
+<hl>tmux list-sessions</hl> that will, well, list the sessions.
+
+<pre>
+0: 1 windows (created Mon Jul 23 04:52:55 2018) [135x61]
+3: 1 windows (created Mon Sep 17 04:27:08 2018) [135x61]
+</pre>
+
+Then you can attach yourself to any of the existing session:
+
+<hl>tmux a -t 0</hl>
+
 
 
