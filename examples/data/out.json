@@ -1,0 +1,28 @@
+{
+   "no_index" : {
+      "directory" : [
+         "t",
+         "inc"
+      ]
+   },
+   "name" : "Perl-Maven",
+   "author" : [
+      "Gabor Szabo"
+   ],
+   "prereqs" : {
+      "runtime" : {
+         "requires" : {
+            "App::Ack" : "0",
+            "Acme::MetaSyntactic" : "1.012",
+            "Archive::Any" : "0",
+            "Code::Explain" : "0.02"
+         }
+      }
+   },
+   "meta-spec" : {
+      "version" : "2",
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec"
+   },
+   "abstract" : "Web application running the Perl Maven sites",
+   "generated_by" : "ExtUtils::MakeMaker version 7.08, CPAN::Meta::Converter version 2.150005"
+}

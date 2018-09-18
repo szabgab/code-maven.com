@@ -7,6 +7,11 @@
 =comments_disqus_enable 1
 
 =abstract start
+
+<a href="https://stedolan.github.io/jq/">jq</a> is the swiss army knife for dealing with JSON files.
+
+Alternatively, you can write your own <a href="/json-beautifier">JSON beautifier</a> in one line of your facorite languge.
+
 =abstract end
 
 <code>
