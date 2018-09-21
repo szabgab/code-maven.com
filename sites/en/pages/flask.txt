@@ -30,6 +30,8 @@ This is the collection of Flask articles on the Code Maven site.
   <li><a href="/a-polling-station-with-flask">A polling station using Flask</a></li>
   <li><a href="/testing-the-flask-poll">Testing the Flask poll</a></li>
   <li><a href="/deploying-python-flask-using-uwsgi-on-ubuntu-14-04">Deploying Python Flask using uWSGI and Nginx on Ubuntu 14.04</a></li>
+  <li><a href="/how-to-print-number-with-commas-as-thousands-separator">How to commafy a number?</a></li>
+
 </ul>
 
 <!--
