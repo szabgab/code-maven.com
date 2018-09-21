@@ -29,7 +29,7 @@ Every time though I have to spend some time figuring out how to lay out my files
 We have a 
 
 <include file="examples/python/jinja-skeleton-flat/generate_from_filesystem.py">
-<include file="examples/python/jinja-skeleton-flat/index.html">
+<include file="examples/python/jinja-skeleton-flat/templates/index.html">
 
 
 In our example, the result is saved in the 'html' directory and it looks like this:
