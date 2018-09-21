@@ -100,5 +100,8 @@ Then you can attach yourself to any of the existing session:
 
 <hl>tmux a -t 0</hl>
 
+<h2>Copy Paste in tmux</h2>
+
+See the article about <a href="http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/">select-copy-paste in tmux</a>.
 
 
