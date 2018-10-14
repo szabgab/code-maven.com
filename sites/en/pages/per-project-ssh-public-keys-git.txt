@@ -146,3 +146,12 @@ git config --local user.name "Joe"
 git config --local user.email joe@code-maven.com
 </code>
 
+<h2>The short solution</h2>
+
+<code>
+GIT_SSH_COMMAND="ssh -i /full/path/to/id_a/id_rsa" git clone ...
+git config --local core.sshCommand "ssh -i /full/path/to/id_a/id_rsa"
+git config --local user.name "User A"
+git config --local user.email A@code-maven.com
+</code>
+
