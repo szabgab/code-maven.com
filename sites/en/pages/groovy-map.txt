@@ -26,3 +26,7 @@ g['name'].add("foo")
 g['name'].add("bar")
 println(g)
 </code>
+
+<h2>Return map from a function</h2>
+
+<include file="examples/groovy/return_map.gvy">
