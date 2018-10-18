@@ -1,6 +1,6 @@
 =title gcloud - the command line tool for Google Cloud Platform
 =timestamp 2018-08-31T08:00:01
-=indexes gcloud, compute, config
+=indexes gcloud, compute, config, gsutil
 =status show
 =author szabgab
 =archive 1
@@ -124,5 +124,10 @@ You can switch between local configurations using:
 
 <code>
 gcloud config configurations activate
+</code>
+
+
+<code>
+gsutil ls
 </code>
 
