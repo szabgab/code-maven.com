@@ -53,3 +53,5 @@ My primary reason for looking into it is that it is the language used for the <a
 <h2>Return multiple values from a function</h2>
 
 <incude file="examples/groovy/return_multiple_values.gvy">
+
+<incude file="examples/groovy/regex.groovy">
