@@ -90,6 +90,6 @@ The above request returned the following JSON:
 I used <a href="https://stedolan.github.io/jq/">jq</a> to beautify the JSON structure.
 
 You can go on further experiment with the other API end-point, or you can start building
-and application using these requests in <a href="/pro/openweathermap-api-using-perl">Perl</a> or in <a href="/openweathermap-api-using-python">Python</a>.
+and application using these requests in <a href="https://perlmaven.com/pro/openweathermap-api-using-perl">Perl</a> or in <a href="/openweathermap-api-using-python">Python</a>.
 
 

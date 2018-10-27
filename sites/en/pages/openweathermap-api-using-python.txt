@@ -8,7 +8,7 @@
 
 =abstract start
 
-In <a href="https://perlmaven.com/pro/openweathermap-api-using-curl">Using the Open Weather Map API with curl</a> we saw how to fetch the weather using <hl>curl</hl>.
+In <a href="/openweathermap-api-using-curl">Using the Open Weather Map API with curl</a> we saw how to fetch the weather using <hl>curl</hl>.
 Now we are going to use Python as that will make it easier to use this as part of a larger application.
 Before you read this article, make sure you read the one using <hl>curl</hl>.
 
