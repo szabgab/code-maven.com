@@ -22,4 +22,5 @@ Notes:
 <ul>
    <li>"Agent" and "node" is often used interchangably and in the old days they were called "slaves" so you will still see that word used in some documentation and in the code.</li>
    <li>The origrinal name of the Jenkins project was Hudson and that too still appears in a lot of the code.</li>
+   <li>remove the -remoting flag</li>
 </ul>

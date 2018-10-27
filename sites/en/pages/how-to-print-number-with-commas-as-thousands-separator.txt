@@ -18,3 +18,21 @@ We have imported the <hl>print_function</hl> from the
 so this code will work on both Python 2 and Python 3.
 
 The key here is the <hl>{:,}</hl> placeholder.
+
+<h2>Commafy in Jinja and Flask</h2>
+
+We can create new filters for Jinja and add them to the environment:
+
+<include file="examples/python/jinja-commafy/generate_from_filesystem.py">
+
+In the template we can filter values using this new filter:
+
+<include file="examples/python/jinja-commafy/page.html">
+
+The output will look like this:
+
+<code>
+12345678
+
+12,345,678
+</code>
