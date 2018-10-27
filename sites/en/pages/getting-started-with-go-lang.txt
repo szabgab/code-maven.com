@@ -1,0 +1,17 @@
+=title Getting Started with Go-Lang
+=timestamp 2017-01-01T07:30:01
+=indexes files
+=status draft
+=books go
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<a href="https://golang.org/dl/">Download Go</a> and then install it.
+
+
+<include file="examples/go/src/hello_world/hello_world.go">
+
