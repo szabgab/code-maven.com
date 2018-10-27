@@ -1,0 +1,21 @@
+=title Python CLI
+=timestamp 2018-01-01T07:30:01
+=indexes files
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/python/cli/editor.py">
+
+<include file="examples/python/cli/input.py">
+
+<include file="examples/python/cli/set_get.py">
+
+<include file="examples/python/cli/test_full.py">
+
+
