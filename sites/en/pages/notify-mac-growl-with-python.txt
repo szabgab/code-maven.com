@@ -1,0 +1,23 @@
+=title Send notification on Mac OSX 
+=timestamp 2017-01-01T07:30:01
+=indexes files
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<code lang="perl">
+</code>
+
+<include file="pro/examples/python/notify_with_growl.py">
+
+<a href="http://growl.info/">Growl</a> is a notification system for Mac OSX.
+
+https://metacpan.org/pod/Mac::Growl
+
+https://pypi.python.org/pypi/gntp
+
