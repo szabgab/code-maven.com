@@ -1,0 +1,14 @@
+=title Return multiple values from a function
+=timestamp 2018-10-30T11:40:01
+=indexes return
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<incude file="examples/groovy/return_multiple_values.gvy">
+
