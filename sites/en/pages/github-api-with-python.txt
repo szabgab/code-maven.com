@@ -10,7 +10,7 @@
 =abstract start
 =abstract end
 
-<include file="pro/examples/python/github_fetch_file_content.py">
+<include file="examples/python/github_fetch_file_content.py">
 
-<include file="pro/examples/python/github_list_files.py">
+<include file="examples/python/github_list_files.py">
 
