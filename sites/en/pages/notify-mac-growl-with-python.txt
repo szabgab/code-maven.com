@@ -13,7 +13,7 @@
 <code lang="perl">
 </code>
 
-<include file="pro/examples/python/notify_with_growl.py">
+<include file="examples/python/notify_with_growl.py">
 
 <a href="http://growl.info/">Growl</a> is a notification system for Mac OSX.
 
