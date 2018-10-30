@@ -1,0 +1,16 @@
+=title GitHub API with Python
+=timestamp 2018-01-01T07:30:01
+=indexes files
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="pro/examples/python/github_fetch_file_content.py">
+
+<include file="pro/examples/python/github_list_files.py">
+

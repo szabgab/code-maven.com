@@ -1,0 +1,37 @@
+=title Zabbix
+=timestamp 2018-01-01T07:30:01
+=indexes files
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+Visit the <a href="https://www.zabbix.com/documentation/">Zabbix documentation</a>.
+It will automatically redirect you to the latest version of Zabbix and show what other versions are available. At the time of this writing 3.4 was the latest stable release and 4.0 was in development.
+
+In the Zabbix Manual you'll find Installation  / Installation from packages / Ubuntu.
+That only mentions the LTS versions of Ubuntu but you can also use one of the other versions.
+Ubuntu itself packages Zabbix.
+
+<code>
+sudo apt-get install zabbix-server-mysql
+</code>
+
+It asked the root password for MySQL. I gave it <hl>vagrant</hl> as I was running this inside a Vagrant-created VirtualBox.
+
+
+<code>
+sudo apt-get install zabbix-proxy-sqlite3
+</code>
+
+<code>
+sudo apt-get install zabbix-frontend-php
+</code>
+
+Among many other things, this also installs the Apache web server.
+
+
+
