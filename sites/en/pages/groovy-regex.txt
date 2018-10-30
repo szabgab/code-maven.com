@@ -14,4 +14,4 @@
 
 <include file="examples/groovy/match_basename.groovy">
 
-<incude file="examples/groovy/regex.groovy">
+<include file="examples/groovy/regex.groovy">
