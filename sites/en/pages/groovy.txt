@@ -40,7 +40,8 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-import-functions-from-another-file">Groovy: import and use functions from another file</a></li>
   <li><a href="/groovy-random-numbers">Groovy: Random numbers, random selection from list of values</a></li>
   <li><a href="/groovy-closures">Groovy: Closures</a></li>
-</li>
+  <li><a href="/groovy-remove-spaces-from-string">Groovy: remove spaces from a string</a> (replaceAll)</li>
+  <li><a href="">Groovy: temporary file with auto delete</a> (File, createTempFile, deleteOnExit, absolutePath)</li>
 </ul>
 
 <h2>Other resources</h2>
@@ -55,3 +56,5 @@ My primary reason for looking into it is that it is the language used for the <a
 <incude file="examples/groovy/return_multiple_values.gvy">
 
 <incude file="examples/groovy/regex.groovy">
+
+

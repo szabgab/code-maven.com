@@ -1,0 +1,16 @@
+=title Groovy: temporary file with autodelete
+=timestamp 2018-10-30T10:30:01
+=indexes File, createTempFile, write, absolutePath, delete
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/groovy/temp_file.gvy">
+
+<include file="examples/groovy/temp_file_oop.gvy">
+

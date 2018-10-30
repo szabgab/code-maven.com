@@ -1,0 +1,14 @@
+=title Groovy: remove spaces from a string
+=timestamp 2018-10-30T09:30:01
+=indexes replaceAll
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/groovy/remove_spaces.gvy">
+
