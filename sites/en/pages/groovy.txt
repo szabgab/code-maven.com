@@ -41,7 +41,8 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-random-numbers">Groovy: Random numbers, random selection from list of values</a></li>
   <li><a href="/groovy-closures">Groovy: Closures</a></li>
   <li><a href="/groovy-remove-spaces-from-string">Groovy: remove spaces from a string</a> (replaceAll)</li>
-  <li><a href="">Groovy: temporary file with auto delete</a> (File, createTempFile, deleteOnExit, absolutePath)</li>
+  <li><a href="/groovy-temporary-file">Groovy: temporary file with auto delete</a> (File, createTempFile, deleteOnExit, absolutePath)</li>
+  <li><a href="/groovy-relative-path">Groovy: relative path</a> (SourceURI, Path, Paths, get, getParent, resolveSibling)</li>
 </ul>
 
 <h2>Other resources</h2>
