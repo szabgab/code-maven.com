@@ -71,5 +71,90 @@ This will allow us to reuse the code in this file as part of another Flask-based
 
 (In Perl this kind of behavior is referred to as a <a href="http://www.masteringperl.org/category/chapters/modulinos/">Modulino</a>.)
 
+<h2>A better Hello World example</h2>
+
+<includ file="examples/flask/hw/hello_world.py">
+
+This version cannot be launched with plain "python" we will need to use the already installed <hl>flak</hl> command.
+
+Change to the directory where you put the "hello_world.py" file and then run:
+
+<code>
+FLASK_APP=hello_world flask run
+</code>
+
+It will print you a warnng:
+
+<code>
+ * Serving Flask app "hello_world.py"
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: off
+ * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+</code>
+
+That's fine for development.
+
+<h2>Run Flask on a different port</h2>
+
+If port 5000 is already in use you can tell flask to use a different port:
+
+<code>
+FLASK_APP=hello_world flask run --port 3000
+</code>
+
+<h2>Autoreload Flask app</h2>
+
+When you are developing you application you will make frequent edits to the code.
+In order for Flask to use the new code you will need to stop and start again the
+Flask application. That's boring and a waste of energy.
+
+Instead of that you can turn on debug mode by setting the <hl>FLASK_DEBUG</hl>
+environment variable:
+
+<code>
+FLASK_APP=hello_world FLASK_DEBUG=1 flask run
+</code>
+
+IF you visit the page http://127.0.0.1:5000/ you can see the current results.
+Then you can edit the file in a separate window (e.g. change the text returned 
+to "Hello Flask!". On the terminal you will see that Flask notices the change
+and restarts the application.
+
+Then you can reload the browser page and see the new content.
+
+
+<h2>Listen on all the IP addresses</h2>
+
+By default Flask will only listen on 127.0.0.1, that means you can access the web application
+only from your own computer. This is a good security measurement.
+However if you are running your code in some virtual computer (e.g. VirtualBox, Docker, etc.)
+and your browser runs in your own computer, you will not be able to access the web application
+as it only listens to itself.
+
+The specific virtual environment might allow you to map an internal port to an external port,
+but Flask also provides a way.
+
+you can supply the <hl>--host<hl> flag:
+
+<code>
+FLASK_APP=hello_world flask run --host 0.0.0.0
+</code>
+
+
+<h2>Everything together</h2>
+
+<code>
+FLASK_APP=hello_world FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 3000
+</code>
+
+
+
+
+
+
+
+
 
 
