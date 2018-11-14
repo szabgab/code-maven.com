@@ -1,0 +1,51 @@
+=title at - running a command at some time in the future in Linux (relative time or absolute time)
+=timestamp 2018-11-14T07:30:01
+=indexes at
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+=abstract end
+
+<h2>Install "at" on Ubuntu</h2>
+
+<code>
+sudo apt-get install at
+</code>
+
+<h2>Commands in a file - relative time</h2>
+
+Save your commands in a file. e.g.   <b>run.sh</b> will look like this:
+
+<code>
+date > a.txt
+whoami >> a.txt
+</code>
+
+Then schedule it to be execute a minute later:
+
+<code>
+at now + 1 minute < run.sh
+</code>
+
+
+<h2>Run without file - relative time</h2>
+
+<code>
+echo "date > b.txt" | at now + 1 minute
+</code>
+
+A minute later you can check your file system. You'll see a new file called "b.txt" with the date in it.
+
+
+<h2>Run without file - absolute time</h2>
+
+<code>
+echo "date > c.txt" | at 04:58
+</code>
+
+At 04:58 the file c.txt will be created with the timestamp in it.
+
