@@ -1,6 +1,6 @@
-=title Python: Capture standar output, standard error, and the exit code of a subprocess
+=title Python: Capture standard output, standard error, and the exit code of a subprocess
 =timestamp 2018-11-17T14:40:01
-=indexes subprocess, stderr, stdout, exit, returncode
+=indexes subprocess, stderr, stdout, exit, returncode, PYTHONUNBUFFERED
 =status show
 =books python
 =author szabgab
@@ -24,11 +24,57 @@ call. It is not complex to write one and can be useful.
 
 <include file="examples/python/run.py">
 
+<h2>Running the external program directly</h2>
+
+<code>
+$ python examples/python/run.py
+
+STDOUT: Hello World!
+STDERR: Welcome to the dark side!
+STDOUT: Second line
+STDERR: Warning
+</code>
+
+<code>
+echo $?
+42
+</code>
+
 <h2>The results</h2>
 
 <code>
-out: 'Hello World!'
-err: 'Welcome to the dark side!'
-exit: 1
+out: 'STDOUT: Hello World!
+STDOUT: Second line
+'
+err: 'STDERR: Welcome to the dark side!
+STDERR: Warning
+'
+exit: 42
 </code>
+
+As you can see in this case the standard output and standard error are separated. You can't tell the exact order.
+
+<h2>Capture STDOUT and STDERR together</h2>
+
+Sometimes it is better to be able to capture the two together:
+
+<include file="examples/python/capture_together.py">
+
+Here we had <hl>stderr = subprocess.STDOUT</hl> instead of
+<hl>stderr = subprocess.PIPE</hl>.
+
+<code>
+out: 'STDOUT: Hello World!
+STDERR: Welcome to the dark side!
+STDOUT: Second line
+STDERR: Warning
+'
+err: 'None'
+exit: 42
+</code>
+
+In order for this to work properly on a Python script we'll need to turn off output buffering
+for the child process.
+This can be done by setting the <hl>PYTHONUNBUFFERED</hl> environment variable.
+
 
