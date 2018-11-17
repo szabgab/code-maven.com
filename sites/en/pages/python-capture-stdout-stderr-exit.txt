@@ -1,0 +1,34 @@
+=title Python: Capture standar output, standard error, and the exit code of a subprocess
+=timestamp 2018-11-17T14:40:01
+=indexes subprocess, stderr, stdout, exit, returncode
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+I might be missing the obvious, but I don't think the <hl>subprocess</hl> module has a method
+that will capture the standard output, standard error, and the exit code of a subprocess in a single
+call. It is not complex to write one and can be useful.
+
+=abstract end
+
+<h2>The code that captures theresults</h2>
+
+<include file="examples/python/capture.py">
+
+
+<h2>A sample external program</h2>
+
+<include file="examples/python/run.py">
+
+<h2>The results</h2>
+
+<code>
+out: 'Hello World!'
+err: 'Welcome to the dark side!'
+exit: 1
+</code>
+
