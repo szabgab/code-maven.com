@@ -44,6 +44,7 @@ Articles about Python
   <li><a href="/logging-in-python">Logging in Python</a></li>
   <li><a href="/python-argparse">Python argparse to process command line arguments</a></li>
   <li><a href="/how-to-print-number-with-commas-as-thousands-separator">How to commafy a number? (How to print number with commas as thousands separators using Python?)</a></li>
+  <li><a href="/python-seek">seek, tell</a></li>
 </ul>
 
 <h2>Python Testing</h2>
