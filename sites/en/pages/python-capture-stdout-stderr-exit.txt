@@ -1,6 +1,6 @@
 =title Python: Capture standard output, standard error, and the exit code of a subprocess
 =timestamp 2018-11-17T14:40:01
-=indexes subprocess, stderr, stdout, exit, returncode, PYTHONUNBUFFERED
+=indexes subprocess, stderr, stdout, exit, returncode, PYTHONUNBUFFERED, tee
 =status show
 =books python
 =author szabgab
@@ -77,4 +77,27 @@ In order for this to work properly on a Python script we'll need to turn off out
 for the child process.
 This can be done by setting the <hl>PYTHONUNBUFFERED</hl> environment variable.
 
+<h2>Tee: Capture and also print</h2>
+
+Finally in this example we both collect the out and at the same time keep printing to the screen.
+Just to show off we captur STDOUT and STDERR both individually and mixed together.
+
+You'll probably use some subset of these features.
+
+<include file="examples/python/capture_tee.py">
+
+<code>
+python examples/python/capture_tee.py 
+</code>
+
+<code>
+STDOUT: Hello World!
+STDERR: Welcome to the dark side!
+STDOUT: Second line
+STDERR: Warning
+out: '['STDOUT: Hello World!\n', 'STDOUT: Second line\n']'
+err: '['STDERR: Welcome to the dark side!\n', 'STDERR: Warning\n']'
+err: '['STDOUT: Hello World!\n', 'STDERR: Welcome to the dark side!\n', 'STDOUT: Second line\n', 'STDERR: Warning\n']'
+exit: 42
+</code>
 
