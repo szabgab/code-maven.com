@@ -131,3 +131,33 @@ gcloud config configurations activate
 gsutil ls
 </code>
 
+<h2>Labels</h2>
+
+List all the instances with stop_at label:
+
+<code>
+gcloud compute instances list --filter="labels.stop_at:*" --format='csv(labels.stop_at,name)' --project NAME-OF-PROJECT
+</code>
+
+All the instances with stop_at label with value 'never':
+
+<code>
+gcloud compute instances list --filter="labels.stop_at:never" --format='csv(labels.stop_at,name)' --project NAME-OF-PROJECT
+</code>
+
+List all the instances without a stop_at label:
+
+<code>
+gcloud compute instances list --filter="NOT labels.stop_at:*" --format='csv(name)' --project NAME-OF-PROJECT
+</code>
+
+List all the instances without a stop_at label (without CSV header row):
+
+<code>
+gcloud compute instances list --filter="NOT labels.stop_at:*" --format='csv[no-heading](name)' --project NAME-OF-PROJECT
+</code>
+
+<h2>Set default value in case of missing label</h2>
+
+<include file="examples/perl/gcloud_set_default_label.pl">
+
