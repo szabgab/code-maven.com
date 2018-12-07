@@ -121,6 +121,6 @@ eval $(docker-machine env docker-sandbox)
 
 <ul>
    <li><a href="https://perlmaven.com/getting-started-with-perl-on-docker">Getting started with Perl on Docker</a></li>
-   <li><a href="https://perlmaven.com/pro/distributing-perl-script-using-docker">Distributing a Perl script using Docker container</a></li>
+   <li><a href="https://perlmaven.com/distributing-perl-script-using-docker">Distributing a Perl script using Docker container</a></li>
 </ul>
 
