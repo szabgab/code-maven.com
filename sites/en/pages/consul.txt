@@ -1,0 +1,16 @@
+=title consul
+=timestamp 2018-12-15T20:30:01
+=indexes consul
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+A sample Python script to access information in a <a href="https://www.consul.io/">Consul</a> service.
+
+=abstract end
+
+<include file="examples/python/list_consul.py">
+
