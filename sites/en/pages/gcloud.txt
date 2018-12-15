@@ -161,3 +161,5 @@ gcloud compute instances list --filter="NOT labels.stop_at:*" --format='csv[no-h
 
 <include file="examples/perl/gcloud_set_default_label.pl">
 
+<include file="examples/python/list_gcloud_buckets.py">
+
