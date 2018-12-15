@@ -1,7 +1,7 @@
 =title RPC with Python using RPyC
-=timestamp 2018-04-14T10:30:01
+=timestamp 2018-12-15T20:40:01
 =indexes rpyc 
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
@@ -180,11 +180,9 @@ to access the function and call it with any parameter.
 <include file="examples/python/rpyc_ping.py">
 
 
-
 <include file="examples/python/rpyc_with_reconnect.py">
 
 
-Modules problem, might be solved with property
-https://code-maven.com/slides/python-programming/property-fixing-bad-api-with-decorators [code-maven.com]
-modules - https://github.com/tomerfiliba/rpyc/blob/c362ebc9969b4385bbebf3043ecd97ef2a374e96/rpyc/core/service.py#L109
+Modules problem, might be solved with <a href="/slides/python-programming/property-fixing-bad-api-with-decorators">properties</a>
+<a href="https://github.com/tomerfiliba/rpyc/blob/c362ebc9969b4385bbebf3043ecd97ef2a374e96/rpyc/core/service.py#L109">L109</a>
 
