@@ -1,0 +1,14 @@
+=title Python and PostgreSQL
+=timestamp 2018-12-18T14:30:01
+=indexes PostgrSQL
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+
+<include file="examples/python/postgresql_connect.py">
+
