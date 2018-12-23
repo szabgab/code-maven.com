@@ -8,7 +8,7 @@
 =comments_disqus_enable 1
 
 =abstract start
-Never use <hl>input()</hl> in Python 2. It is a secuurity hazard!
+Never use <hl>input()</hl> in Python 2. It is a security hazard!
 
 =abstract end
 
@@ -24,7 +24,7 @@ Not yet?
 
 What if someone typed in <hl>os.remove(__file__)</hl>
 
-That would remove the curren python file.
+That would remove the current python file.
 
 What if instead of the <hl>ls -l</hl> in <hl>os.system("ls -l")</hl> 
 someone typed in <hl>rm -rf /</hl>.
@@ -33,7 +33,7 @@ All your files would be gone before you know it.
 
 The problem is that <a href="https://docs.python.org/2/library/functions.html#input">input(prompt)</a>
 in Python 2 is the same as <hl>eval(raw_input(prompt))</hl> which means that after reading in the
-content of the standard input, python will immediatel try to evaluate it.
+content of the standard input, python will immediately try to evaluate it.
 
 That's never a good idea. I don't know how Guido thought it would be a good idea to have this feature in the language.
 
