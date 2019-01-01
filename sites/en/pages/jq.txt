@@ -87,3 +87,19 @@ jq .no_index.directory[0] examples/data/in.json
 <h2>Array as the top level item</h2>
 
 If the top level is an array <hl>jq keys data.json</hl> will list the indexes <hl>jq .[0].name data.json</hl> will fetch the "name" field of the first element.
+
+<h2>Generating JSON</h2>
+
+<code>
+echo '{}' | jq --arg name 'Foo Bar' --arg email 'foo@bar.com' '.name |= $name | .address |= $email'
+</code>
+
+generates this:
+
+<code>
+{
+  "name": "Foo Bar",
+  "address": "foo@bar.com"
+}
+</code>
+
