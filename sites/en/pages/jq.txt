@@ -103,3 +103,30 @@ generates this:
 }
 </code>
 
+<h2>Adding values to JSON</h2>
+
+Given a JSON file, eg. <hl>template.json</h2> with the following content:
+
+<code>
+{
+    "title": "Example"
+}
+</code>
+
+We can add fields to it:
+
+<code>
+jq --arg name 'Foo Bar' --arg email 'foo@bar.com' '.name |= $name | .address |= $email' template.json 
+</code>
+
+The result will look like this:
+
+<code>
+{
+  "title": "Example",
+  "name": "Foo Bar",
+  "address": "foo@bar.com"
+}
+</code>
+
+
