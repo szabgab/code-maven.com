@@ -85,3 +85,5 @@ The path to the new directory will look like this:
 /home/gabor/tmp/ci-PWDTbA19TA
 </code>
 
+
+For further options you might want to check out the <a href="https://www.gnu.org/software/autogen/mktemp.html">documentation of mktemp</a>.
