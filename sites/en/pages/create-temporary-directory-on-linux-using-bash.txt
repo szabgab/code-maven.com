@@ -1,5 +1,5 @@
 =title Create temporary directory on Linux using Bash
-=timestamp 2018-01-11T07:30:01
+=timestamp 2019-01-11T07:30:01
 =indexes mktemp
 =status show
 =author szabgab
