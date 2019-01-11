@@ -46,6 +46,7 @@ category as they try to provide a solution to several topics.
     <li><a href="http://www.seleniumhq.org/">Selenium</a></li>
     <li><a href="http://phantomjs.org/">PhantomJS</a></li>
     <li><a href="https://cucumber.io/">Cucumber</a></li>
+    <li><a href="https://github.com/test-kitchen/test-kitchen">Test Kitche</a></li>
 </ul>
 
 
@@ -180,6 +181,15 @@ category as they try to provide a solution to several topics.
     <li><a href="https://github.com/projectatomic/buildah">Buildah</a> for <a href="https://www.opencontainers.org/">Open Containers</a> (aka. <a href="https://github.com/opencontainers/">OCI</a>)</li>
 </ul>
 
+<h2>Other</h2>
+<ul>
+    <li><a href="https://www.terraform.io/">Terraform</a> - Write, Plan, and Create Infrastructure as Code</li>
+    <li><a href="https://www.packer.io/">Packer</a> - Build Automated Machine Images</li>
+    <li><a href="https://www.consul.io/">Consul</a> - Service Mesh Made Easy</li>
+</ul>
+
 
 Inspired by the <a href="https://www.mindmeister.com/512461824/devops-ecosystem">DevOps Ecosystem</a> by Erik Rogneby.
+
+More from <a href="https://opensource.com/article/18/12/cicd-tools-sysadmins">7 CI/CD tools for sysadmins</a> by Dan Barker</a>
 
