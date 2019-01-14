@@ -1,3 +1,5 @@
 import random
-print(random.random())
+
+def g():
+    print(random.random())
 

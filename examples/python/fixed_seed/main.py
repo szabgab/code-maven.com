@@ -1,5 +1,11 @@
 import random
-random.seed(42)
 import other
 
-print(random.random())
+#random.seed(42)
+
+def f():
+   print(random.random())
+
+
+f()
+other.g()
