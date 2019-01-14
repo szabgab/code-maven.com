@@ -1,5 +1,5 @@
 =title Python: Repeat the same random numbers using seed
-=timestamp 2018-01-14T14:30:01
+=timestamp 2019-01-14T14:30:01
 =indexes random, seed
 =status show
 =author szabgab
