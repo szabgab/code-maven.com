@@ -1,11 +1,11 @@
-=title CMOS #: 
-=timestamp 2016-09-03T19:01:01
-=indexes podcast 
+=title CMOS #:
+=timestamp 2019-01-03T19:01:01
+=indexes podcast
 =description
 =tags interview, cmos
 =mp3 /media/.mp3, 17224989, 19:24
 =img /img/cmos/
-=alt 
+=alt
 =status draft
 =author szabgab
 =archive 1
