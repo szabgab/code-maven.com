@@ -1,4 +1,4 @@
-=title Create temporary directory on Linux using Bash
+=title Create temporary directory on Linux with Bash using mktemp
 =timestamp 2019-01-11T07:30:01
 =indexes mktemp, date
 =status show
