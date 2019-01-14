@@ -28,7 +28,7 @@ The solution is to use the <hl>split</hl> method of the <hl>shlex</hl> module.
 
 In this example we use both. The <hl>str.split()</hl> and the <hl>shlex.split()</hl>
 
-<include file="python examples/python/split_command_line.py">
+<include file="examples/python/split_command_line.py">
 
 The results are here:
 
