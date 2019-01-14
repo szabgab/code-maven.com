@@ -1,6 +1,6 @@
 =title Python: split command line into pieces as the shell does - shlex.split()
 =timestamp 2019-01-14T07:30:01
-=indexes shlex, python
+=indexes shlex, split
 =status show
 =author szabgab
 =archive 1
