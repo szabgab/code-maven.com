@@ -1,0 +1,29 @@
+=title Functions in Linux shell (bash)
+=timestamp 2019-01-17T20:30:01
+=indexes shell, bash, function, return
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<h2>Define and call a function in Bash</h2>
+
+<include file="examples/shell/hello_world_function.sh">
+
+
+<h2>Return value from shell function</h2>
+
+<include file="examples/shell/return_from_function.sh">
+
+
+<h2>Parameter passing to functions in shell</h2>
+
+<include file="examples/shell/parameter_passing.sh">
+
+<h2>Early return from shell functions</h2>
+
+<include file="examples/shell/early_return.sh">
+
