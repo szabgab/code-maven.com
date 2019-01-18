@@ -27,3 +27,5 @@
 
 <include file="examples/shell/early_return.sh">
 
+
+See also <a href="https://www.linuxjournal.com/content/return-values-bash-functions">Returning Values from Bash Functions</a>
