@@ -163,3 +163,26 @@ gcloud compute instances list --filter="NOT labels.stop_at:*" --format='csv[no-h
 
 <include file="examples/python/list_gcloud_buckets.py">
 
+
+<h2>Images</h2>
+
+List all the available images
+
+<code>
+gcloud compute images list
+</code>
+
+
+List all the images created by the user (non-standard images) and format the output as JSON.
+
+<code>
+gcloud compute images list --no-standard-images --format=json
+</code>
+
+List the names of all the non-standard images.
+
+<code>
+gcloud compute images list --no-standard-images --format='csv[no-heading](name)'
+</code>
+
+
