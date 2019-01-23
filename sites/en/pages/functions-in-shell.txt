@@ -29,3 +29,18 @@
 
 
 See also <a href="https://www.linuxjournal.com/content/return-values-bash-functions">Returning Values from Bash Functions</a>
+
+
+<h2>Empty shell functions</h2>
+
+<include file="examples/shell/empty.sh">
+
+This does not work, but gives this error:
+
+<code>
+./empty.sh: line 3: syntax error near unexpected token `}'
+./empty.sh: line 3: `}'
+</code>
+
+<include file="examples/shell/empty_with_colon.sh">
+
