@@ -18,7 +18,20 @@ Measure time internally.
 
 =abstract end
 
-<h2>Measure time externally</h2>
+<h2>Measure elapsed time internally in a script</h2>
+
+This is the other type of elapsed time measuring.
+
+<include file="examples/shell/measure_time.sh">
+
+The output:
+
+<code>
+It took 1 seconds to sleep of 1 second...
+</code>
+
+
+<h2>Measure elapsed time externally</h2>
 
 Let's say you have a command such as <hl>run_this_thing</hl> and you'd like to measure how long it takes to run.
 You can run it as
@@ -85,18 +98,5 @@ sys   0m4.000s
 </code>
 
 Here, the 2 seconds per each CPU were executed within a 2.5 seconds timeframe.
-
-
-<h2>Measure elapsed time internally in a script</h2>
-
-This is the other type of elapsed time measuring.
-
-<include file="examples/shell/measure_time.sh">
-
-The output:
-
-<code>
-It took 1 seconds to sleep of 1 second...
-</code>
 
 
