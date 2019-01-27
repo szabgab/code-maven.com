@@ -1,6 +1,6 @@
 =title RPC with Python using RPyC
 =timestamp 2018-12-15T20:40:01
-=indexes rpyc 
+=indexes rpyc
 =status show
 =books python
 =author szabgab
