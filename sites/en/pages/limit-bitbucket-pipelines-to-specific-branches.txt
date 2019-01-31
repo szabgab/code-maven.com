@@ -1,0 +1,42 @@
+=title Limit Bitbucket pipelines to specific branches
+=timestamp 2019-01-31T09:30:01
+=indexes Bitbucket, Pipeline, CI
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Bitbucket pipelines use an inclusive model, that's it, you can only say which branches you would like the pipeline to run
+on, and you cannot exclude specific branches.
+
+So you can say <b>run on "master", "dev", and "feature/*"</b>  but you cannot say <b>skip on "experiment"</b>.
+
+=abstract end
+
+All of this is controlled in the <b>bitbucket-pipelines.yml</b> file in the root of the repository.
+Whenever you push out some changes to a branch, Bitbucket will look at the file in that branch.
+So if you make changes to the pipeline configuration file in master, it will only affect an existing branch
+if it merges the changes from master (or rebases onto master).
+
+In the following example we configured that the "master" branch, the "dev" branch and any branch that starts with
+"feature/" will execute one set of commands.
+
+The "work" branch will execute a different set of commands.
+
+None of the other branches will initiate a build.
+
+<include file="examples/bitbucket-branches/bitbucket-pipelines.yml">
+
+Pay attention, there are <b>no spaces!</b> in the list of branches!
+
+The above configuration will not run for a branch called <b>feature/a/b</b> as a single <b>*</b> only
+captures a single directory level. If you'd like to have any number of directory levels, you can use
+<b>**</b>. As in <b>feature/**</b>.
+
+Check out the valid <a
+href="https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html#Configurebitbucket-pipelines.yml-globbing_patterns">globbing
+patterns</a>.
+
+

@@ -1,0 +1,10 @@
+pipelines:
+  branches:
+    '{master,dev,feature/*}':
+      - step:
+          script:
+            - echo "master, dev, or feature/*"
+    work:
+      - step:
+          script:
+            - echo "work"
