@@ -1,0 +1,35 @@
+=title dot file or configuration files
+=timestamp 2019-02-03T07:30:01
+=indexes CodeMaven
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+When setting up a new account on a Linux machine there are many things one can configure.
+This is a collection of the "dot files", (the ones that usually start with a dot and therefore are hidden)
+that I use.
+
+=abstract end
+
+<ul>
+  <li><a href="/tmux">tmux</a></li>
+  <li><a href="/git-config">git config</a> (<a href="/enforcing-commit-message-format-in-git">Enforcing commit message format in Git - on the client side</a>)</li>
+</ul>
+
+<h2>Bash</h2>
+
+<pre>
+alias xssh='ssh -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no'
+alias myscp='scp -q -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no'
+alias rm='rm -i'
+alias mv='mv -i'
+alias cp='cp -i'
+alias ll='ls -l'
+alias l='ls -la'
+export HISTSIZE=1000
+export EDITOR=vim
+</pre>
+
