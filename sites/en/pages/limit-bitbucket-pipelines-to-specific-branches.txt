@@ -83,6 +83,7 @@ The history will look like this:
 
 <img src="/img/revert-rm-commit.png">
 
+<h2>Remove the bitbucket-pipelines.yml file and retore it by rewriting history</h2>
 
 The other solution involves rewriting the history.
 First you remove the bitbucket-pipelines.yml as seen above and make some changes.
