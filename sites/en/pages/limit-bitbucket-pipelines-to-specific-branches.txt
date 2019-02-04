@@ -39,4 +39,82 @@ Check out the valid <a
 href="https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html#Configurebitbucket-pipelines.yml-globbing_patterns">globbing
 patterns</a>.
 
+<h2>Exclude or skip specific branches</h2>
+
+There is a workaround for the lack of exclusive configuration.
+We can configure a default action, that will work on every branch.
+Then we can create a basically empty branch-configuration for every branch we want to skip.
+
+In this example we have a <b>default</b> configuration that does the real testing.
+Then there is a configuration for certain branches we only call "echo" and tell the world we are skipping this branch.
+
+<include file="examples/bitbucket-default/bitbucket-pipelines.yml">
+
+Bitbucket will still run the pipeline for these branches, and it will report them as successes after running for a
+number of seconds. Just to execute the <b>echo</b> command.
+
+
+<h2>Exclude by removing the bitbucket-pipelines.yml</h2>
+
+Another option is to remove the bitbucket-pipelines.yml file in the branches where we don't want the pipeline to run.
+This is in a way a clean solution, but it involves either two strange commits (removing the bitbucket-pipelines.yml and
+adding it back), or it involves the rewriting the history.
+In either case you have to remember to do that before you merge back to the main branch of your project.
+
+<code>
+git checkout -b some-branch
+git rm bitbucket-pipelines.yml
+git commit -m 'remove bitbucket-pipelines.yml to skip the pipeline in this branch'
+</code>
+
+Then code, commit and push as much as you like.
+
+Then <b>revert<b> the removal of the bitbucket-pipelines.yml file:
+
+<code>
+git revert SHA1-of-the-removal-commit
+</code>
+
+This will add another commit the reverses the one where you removed the file.
+
+From that point the pipeline is live again.
+
+The history will look like this:
+
+<img src="/img/revert-rm-commit.png">
+
+
+The other solution involves rewriting the history.
+First you remove the bitbucket-pipelines.yml as seen above. Then when you want the
+file to come back you remove the commit that removed the file. (You change the history.)
+
+
+<code>
+git rebase -i SHA1-of-the-removal^
+</code>
+
+It will open your default editor listing all the commit starting with the one we wanted to remove.
+Something like this:
+
+
+<code>
+pick 62e820e remove bitbucket-pipelines.yml to skip the pipeline in this branch
+pick e94ce98 one
+pick 7d15fc5 two
+</code>
+
+we can mark it to be delete by replacing the <b>pick</b> by <b>d</b> like this:
+
+<code>
+d 62e820e remove bitbucket-pipelines.yml to skip the pipeline in this branch
+pick e94ce98 one
+pick 7d15fc5 two
+</code>
+
+
+Then we save the file and close it.
+
+The result will look like this:
+
+
 

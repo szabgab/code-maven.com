@@ -1,0 +1,10 @@
+pipelines:
+  default:
+    - step:
+        script:
+          - echo "run default, do the real work of CI"
+  branches:
+    '{experiment/*,scratch}':
+      - step:
+          script:
+            - echo "skip this branch"
