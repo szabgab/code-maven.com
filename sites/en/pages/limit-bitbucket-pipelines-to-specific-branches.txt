@@ -117,4 +117,8 @@ Then we save the file and close it.
 The result will look like this:
 
 
+<img src="img/git-remove-commit-in-middle.png">
+
+<img src="img/git-remove-file.png">
+
 
