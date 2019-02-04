@@ -69,7 +69,7 @@ git commit -m 'remove bitbucket-pipelines.yml to skip the pipeline in this branc
 
 Then code, commit and push as much as you like.
 
-Then <b>revert<b> the removal of the bitbucket-pipelines.yml file:
+Then <b>revert</b> the removal of the bitbucket-pipelines.yml file:
 
 <code>
 git revert SHA1-of-the-removal-commit
@@ -85,9 +85,15 @@ The history will look like this:
 
 
 The other solution involves rewriting the history.
-First you remove the bitbucket-pipelines.yml as seen above. Then when you want the
-file to come back you remove the commit that removed the file. (You change the history.)
+First you remove the bitbucket-pipelines.yml as seen above and make some changes.
+The history will look something like this:
 
+
+<img src="img/git-remove-file.png">
+
+Then, when you want the <b>bitbucket-pipelines.yml</b> file to come back you remove the commit that removed the file. (You change the history.)
+
+First you run:
 
 <code>
 git rebase -i SHA1-of-the-removal^
@@ -103,7 +109,8 @@ pick e94ce98 one
 pick 7d15fc5 two
 </code>
 
-we can mark it to be delete by replacing the <b>pick</b> by <b>d</b> like this:
+We can mark the commit to be deleted by replacing the <b>pick</b> by <b>d</b> at the beginning of the specific row
+(first row in this case) like this:
 
 <code>
 d 62e820e remove bitbucket-pipelines.yml to skip the pipeline in this branch
@@ -114,11 +121,8 @@ pick 7d15fc5 two
 
 Then we save the file and close it.
 
-The result will look like this:
-
+The resulting histroy will look like this:
 
 <img src="img/git-remove-commit-in-middle.png">
-
-<img src="img/git-remove-file.png">
 
 
