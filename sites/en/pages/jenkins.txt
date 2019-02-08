@@ -309,3 +309,17 @@ false, description: '', name: it ] )
 
 <a href="https://gist.github.com/cenkalti/5089392">gist</a>
 
+<h2>List agents by name and by label</h2>
+
+<code>
+def jenkins = Jenkins.instance
+def computers = jenkins.computers
+computers.each {
+   //  println "${it.displayName} ${it.hostName}"
+}
+
+def labels = jenkins.getLabels()
+labels.each {
+   println "${it.displayName}"
+}
+</code>
