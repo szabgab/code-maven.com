@@ -1,0 +1,73 @@
+=title Flask routes - URL mapping - views
+=timestamp 2019-02-09T23:30:01
+=indexes Flask
+=status show
+=books flask
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href=/flask">Flask</a> allows you to have a very flexible mapping of URL pathes to function calls. Let's see what can
+you do.
+
+=abstract end
+
+<include file="examples/flask/routing/app.py">
+
+You can start the application by running
+
+<code>
+FLASK_APP=app FLASK_DEBUG=1 flask run
+</code>
+
+And then you can access it using some of the following URLs:
+
+<code>
+http://localhost:5000/
+http://localhost:5000/some/path
+http://localhost:5000/user/foobar
+http://localhost:5000/user/          Not Found!
+</code>
+
+Feel free to try anything you like. Below you'll find the test cases that will help you see which
+route matches which URLs.
+
+A few notes:
+
+<ul>
+    <li>Simple &lt;varname&gt; captures anything except slashes.</li>
+    <li><b>string</b> is the default prefix so we don't really need to include it. It captures everything except a slash <b>/</b></li>
+    <li><b>int</b> accepts various <a href="https://www.fileformat.info/info/unicode/category/Nd/list.htm">unicode digits</a> as well</li>
+    <li><b>float</b> accpets a floating point numnber like 123.4, but it does not accept 1. or .1  or a simple integer like 42 without any dot.</li>
+    <li><b>path</b> accepts any character, including slashes <b>/</b>.</li>
+</ul>
+
+You can use more than one placeholders in a route definition and you can even have fixed elements between the
+placeholders, though I am not sure when would you want to have that.
+
+
+<h2>Testing the routes</h2>
+
+I've also included sample code that will test each one of the given routes.
+
+<include file="examples/flask/routing/test_app.py">
+
+As they are writtent these two files need to be in the same directory. You can cd in that directory on your terminal and
+run:
+
+<code>
+pytest
+</code>
+
+If you run it with the <hl>-s</hl> flag then you'll also see the output from the <hl>print</hl> statements in the test
+file.
+
+<code>
+pytest -s
+</code>
+
+
+
+<a href="http://exploreflask.com/en/latest/views.html">See also</a>
