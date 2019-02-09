@@ -14,7 +14,23 @@ you do.
 
 =abstract end
 
+A few notes for placeholders:
+
+<ul>
+    <li>Simple &lt;varname&gt; captures anything except slashes.</li>
+    <li>&lt;<b>string</b>:varname&gt; is the default prefix so we don't really need to include it. It captures everything except a slash <b>/</b></li>
+    <li>&lt;<b>int</b>:varname&gt; accepts various <a href="https://www.fileformat.info/info/unicode/category/Nd/list.htm">unicode digits</a> as well</li>
+    <li>&lt;<b>float</b>:varname&gt; accpets a floating point numnber like 123.4, but it does not accept 1. or .1  or a simple integer like 42 without any dot.</li>
+    <li>&lt;<b>path</b>:varname&gt; accepts any character, including slashes <b>/</b>.</li>
+</ul>
+
+This a sample Flask file with several possible path mappings.
+
+Including one where we created our own rule to match routes that contain a valid IPv4 address.
+
 <include file="examples/flask/routes/app.py">
+
+<include file="examples/flask/routes/converters.py">
 
 You can start the application by running
 
@@ -33,16 +49,6 @@ http://localhost:5000/user/          Not Found!
 
 Feel free to try anything you like. Below you'll find the test cases that will help you see which
 route matches which URLs.
-
-A few notes:
-
-<ul>
-    <li>Simple &lt;varname&gt; captures anything except slashes.</li>
-    <li><b>string</b> is the default prefix so we don't really need to include it. It captures everything except a slash <b>/</b></li>
-    <li><b>int</b> accepts various <a href="https://www.fileformat.info/info/unicode/category/Nd/list.htm">unicode digits</a> as well</li>
-    <li><b>float</b> accpets a floating point numnber like 123.4, but it does not accept 1. or .1  or a simple integer like 42 without any dot.</li>
-    <li><b>path</b> accepts any character, including slashes <b>/</b>.</li>
-</ul>
 
 You can use more than one placeholders in a route definition and you can even have fixed elements between the
 placeholders, though I am not sure when would you want to have that.

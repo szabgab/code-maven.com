@@ -131,3 +131,18 @@ def test_strange_multiple():
     assert rv.status == '200 OK'
     assert b'The input is foo and 42' == rv.data
 
+def test_ip_address():
+    myapp = app.demoapp.test_client()
+
+    rv = myapp.get('/ip/1.2.3.4')
+    assert rv.status == '200 OK'
+    assert b'The IP is 1.2.3.4' == rv.data
+
+    rv = myapp.get('/ip/1.2.3')
+    assert rv.status == '404 NOT FOUND'
+    assert b'404 Not Found' in rv.data
+
+    rv = myapp.get('/ip/1.2.0.256')
+    assert rv.status == '404 NOT FOUND'
+    assert b'404 Not Found' in rv.data
+

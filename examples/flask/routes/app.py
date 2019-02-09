@@ -39,3 +39,10 @@ def machine(name, code):
     return "The input is {} and {}".format(name, code)
 
 
+import converters
+demoapp.url_map.converters['ipv4'] = converters.IPv4Converter
+
+@demoapp.route('/ip/<ipv4:address>')
+def ip_address(address):
+    return "The IP is {}".format(address)
+
