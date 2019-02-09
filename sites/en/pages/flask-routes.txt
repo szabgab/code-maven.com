@@ -14,7 +14,7 @@ you do.
 
 =abstract end
 
-<include file="examples/flask/routing/app.py">
+<include file="examples/flask/routes/app.py">
 
 You can start the application by running
 
@@ -52,7 +52,7 @@ placeholders, though I am not sure when would you want to have that.
 
 I've also included sample code that will test each one of the given routes.
 
-<include file="examples/flask/routing/test_app.py">
+<include file="examples/flask/routes/test_app.py">
 
 As they are writtent these two files need to be in the same directory. You can cd in that directory on your terminal and
 run:
