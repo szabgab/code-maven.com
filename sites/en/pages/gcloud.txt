@@ -186,3 +186,25 @@ gcloud compute images list --no-standard-images --format='csv[no-heading](name)'
 </code>
 
 
+<h2>Create an instance using a public image</h2>
+
+Creating an instance called "demo".
+
+<code>
+gcloud compute instances create demo --image-project ubuntu-os-cloud --image-family ubuntu-1804-lts
+</code>
+
+<h2>Create an instance using a private image</h2>
+
+<code>
+gcloud compute instances create demo --image-project NAME-OF-YOUR-PROJECT --image-family ubuntu-1804-lts
+</code>
+
+<h2>Delete an instance</h2>
+
+<code>
+gcloud compute instances delete demo --project NAME-OF-YOUR-PROJECT  --zone us-central1-c --quiet
+</code>
+
+Without the <hl>--quiet</hl> flag it will ask for confirmation.
+
