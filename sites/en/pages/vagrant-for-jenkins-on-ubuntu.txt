@@ -1,0 +1,29 @@
+=title Vagrant for Jenkins on Ubuntu
+=timestamp 2019-02-15T12:30:01
+=indexes Jenkins, Vagrant, Ubuntu
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+A simple Vagrantfile you can use to set up Jenkins and start using it.
+
+=abstract end
+
+<include file="examples/vagrant-jenkins-ubuntu/Vagrantfile">
+
+<ul>
+  <li>Create an empty directory.</li>
+  <li>Copy the above file to it as <b>Vagrantfile</b>.</li>
+  <li>Install <a href="https://www.vagrantup.com/">Vagrant</a> and <a href="https://www.virtualbox.org/">VirtualBox</a> if you don't have them yet.</li>
+  <li>cd to the directory and run <b>vagrant up</b>. It will take a while to download the image and then to install Jenkins in the image.</li>
+  <li>Then on your computer browse to http://localhost:8080/  It will want to get a secret code.</li>
+  <li>On the command line type int <b>vagrant ssh</b> this will ssh into the VirtualBox running Jenkins</li>
+  <li>type <b>sudo cat /var/lib/jenkins/secrets/initialAdminPassword</b> to get the secret, copy that secret to the browser</li>
+  <li>Install the defaults, create a user for yourself.</li>
+  <li>At this point I got a blank page (seems to be some bug) so I switched back to the terminal and restarted the machine by typiing in <b>sudo reboot</b>.</li>
+  <li>Once the machine started again you can reload the page in the browser and it will (most likely) show you the login page of Jenkins.</li>
+</ul>
+
