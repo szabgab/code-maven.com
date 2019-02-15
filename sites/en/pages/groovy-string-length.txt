@@ -1,0 +1,17 @@
+=title Gtoovy string length
+=timestamp 2019-02-15T22:30:01
+=indexes length
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The <hl>length</hl> method of a string object in Grooy will return the number of characters in the string:
+
+=abstract end
+
+<include file="examples/groovy/length.gvy">
+
