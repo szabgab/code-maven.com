@@ -46,6 +46,14 @@ Articles about Python
   <li><a href="/how-to-print-number-with-commas-as-thousands-separator">How to commafy a number? (How to print number with commas as thousands separators using Python?)</a></li>
   <li><a href="/python-seek">seek, tell</a></li>
   <li><a href="/python-capture-stdout-stderr-exit">Capture standar output, standard error, and the exit code of a subprocess</a> (subprocess)</li>
+  <li><a href="/python-iterate-list-of-tuples">Iterate over list of tuples</a></li>
+  <li><a href="/print-version-number-of-python-module">Print version number of Python module</a></li>
+  <li><a href="/repeat-the-same-random-numbers">Repeat the same random numbers using seed</a></li>
+  <li><a href="/split-command-line-into-pieces">split command line into pieces as the shell does - shlex.split()</a></li>
+  <li><a href="/python-context-tools">Python context tools - cwd, tmpdir</a></li>
+  <li><a href="/python-postgresql">Python and PostgreSQL</a></li>
+  <li><a href="/rpc-with-python-using-rpyc">RPC with Python using RPyC</a></li>
+
 </ul>
 
 <h2>Python Testing</h2>
@@ -59,6 +67,8 @@ Articles about Python
   <li><a href="/temporary-files-and-directory-for-pytest">Python: Temporary files and directory for Pytest</a></li>
   <li><a href="/testing-random-numbers-in-python">Testing random numbers in Python using mocks</a></li>
   <li><a href="/mocking-input-and-output-for-python-testing">Mocking input and output for Python testing</a></li>
+  <li><a href="/testing-random-numbers-in-python">Testing random numbers in Python using mocks</a></li>
+  <li><a href="/python-fixing-random-numbers-for-testing">Fixing random numbers for testing</a></li>
 </ul>
 
 Find additional Python-related articels in the <a href="/flask">Flask</a> series.
