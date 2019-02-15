@@ -20,6 +20,7 @@
     <li><a href="/jenkins-send-email-notifications">Jenkins Pipeline: Send e-mail notifications</a></li>
     <li><a href="/jenkins-pipeline-short-text">Jenkins Pipeline: Add some text to the job using shortText</a></li>
     <li><a href="/jenkins-cli-create-node">Jenkins CLI: create node</a></li>
+    <li><a href="/jenkins-pipeline-environment-variables">Jenkins Pipeline - set and use environment variables</a></li>
     <li>Triggers from Version Control Systems</li>
     <li>Report failures.</li>
     <li>Send alerts</li>
@@ -27,64 +28,6 @@
     <li><a href="/jenkins-pipeline-builduser">Jenkins Pipeline BuildUser plugin</a></li>
     <li><a href="https://code-maven.com/slides/jenkins/">Jenkins slides</a></li>
 </ol>
-
-<h2>How to set environment variables in Jenkins?</h2>
-
-A section called <hl>environment</hl> can be added to the pipeline
-
-<code>
-environment {
-    SOME_NAME = "some value"
-}
-</code>
-
-<code>
-pipeline {
-   agent none
-   environment {
-       field = 'some'
-   }
-   stages {
-       stage ('Preparation') {
-           agent { label 'master'}
-           environment {
-               JENKINS_PATH = sh(script: 'pwd', , returnStdout: true).trim()
-           }
-           steps {
-               echo "Hello world"
-               echo "PATH=${JENKINS_PATH}"
-               sh 'echo "JP=$JENKINS_PATH"'
-          }
-      }
-   }
-}
-</code>
-
-
-<h2>How to use environment variables in the environment section of Jenkins?</h2>
-
-<code>
-         environment {
-               PATH = "/path/to/dir:${env.PATH}"
-               JNK_PATH = "${env.WORKSPACE}\\subdir"
-           }
-</code>
-
-The above only works when the environment section is inside a "stage" but would yield "null" for
-WORKSPACE outside the stages.
-
-<h2>Set environment executing code</h2>
-
-<code>
-environment {
-    field = func()
-}
-
-def func() {
-    ...
-    return "value"
-}
-</code>
 
 <h2>Add badges</h2>
 
@@ -367,4 +310,11 @@ try {
        timestamps()
    }
 </code>
+
+<h2>Scripts</h2>
+
+<b>Scripts not permitted to use method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object
+(org.jenkinsci.plugins.workflow.cps.EnvActionImpl keys). Administrators can decide whether to approve or reject this
+signature.</b>
+
 

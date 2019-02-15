@@ -1,0 +1,166 @@
+=title Jenkins Pipeline - set and use environment variables
+=timestamp 2019-02-15T18:30:01
+=indexes Jenkins, Devops, printenv, sort, sh, environment
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+
+=abstract end
+
+<h2>How to list the environment variables available to Jenkins Pipeline</h2>
+
+<include file="examples/jenkins/list_environment.Jenkinsfile">
+
+In this example we list the environment variables using the <b>printenv</b> command of Unix/Linux
+which we pipe through the Unix <b>sort</b> command so we'll see the environment variables in a sorted list.
+
+We invoke it using the <b>sh</b> command of the Jenkins Pipeline.
+
+Before we do that we set a new variable called "color" in the <b>environment</b> section of the Jenkins Pipeline.
+
+On Unix/Linux:
+
+<code>
+sh('printenv | sort')
+</code>
+
+On Windows you could run:
+
+<code>
+bat('set')
+</code>
+
+The output will looks something like this:
+
+<code>
+BUILD_DISPLAY_NAME=#18
+BUILD_ID=18
+BUILD_NUMBER=18
+BUILD_TAG=jenkins-list_environment_variables-18
+BUILD_URL=http://localhost:8080/job/list_environment_variables/18/
+DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/110/bus
+EXECUTOR_NUMBER=1
+HOME=/var/lib/jenkins
+HUDSON_COOKIE=40cd788e-91bd-4ebd-86c9-c10333fa27a9
+HUDSON_HOME=/var/lib/jenkins
+HUDSON_SERVER_COOKIE=912830efeb6e2316
+HUDSON_URL=http://localhost:8080/
+JENKINS_HOME=/var/lib/jenkins
+JENKINS_NODE_COOKIE=dbf878e6-0ae5-4ffe-a32c-aa7876f975ce
+JENKINS_SERVER_COOKIE=durable-f6e3ca8e5d2310d4d5695d128db1ea2f
+JENKINS_URL=http://localhost:8080/
+JOB_BASE_NAME=list_environment_variables
+JOB_DISPLAY_URL=http://localhost:8080/job/list_environment_variables/display/redirect
+JOB_NAME=list_environment_variables
+JOB_URL=http://localhost:8080/job/list_environment_variables/
+LANG=C.UTF-8
+LOGNAME=jenkins
+MAIL=/var/mail/jenkins
+NODE_LABELS=master
+NODE_NAME=master
+PATH=/usr/local/bin:/usr/bin:/bin:/usr/local/games:/usr/games:/snap/bin
+PWD=/var/lib/jenkins/workspace/list_environment_variables
+RUN_CHANGES_DISPLAY_URL=http://localhost:8080/job/list_environment_variables/18/display/redirect?page=changes
+RUN_DISPLAY_URL=http://localhost:8080/job/list_environment_variables/18/display/redirect
+SHELL=/bin/bash
+SHLVL=1
+STAGE_NAME=example
+USER=jenkins
+WORKSPACE=/var/lib/jenkins/workspace/list_environment_variables
+XDG_DATA_DIRS=/usr/local/share:/usr/share:/var/lib/snapd/desktop
+XDG_RUNTIME_DIR=/run/user/110
+XDG_SESSION_ID=c1
+_=/usr/bin/daemon
+color=blue
+</code>
+
+<h2>List the environment variables without running the shell</h2>
+
+The <hl>env</hl> object is of type
+<a href="https://javadoc.jenkins.io/plugin/workflow-cps/org/jenkinsci/plugins/workflow/cps/EnvActionImpl.html">class org.jenkinsci.plugins.workflow.cps.EnvActionImpl</a>.
+
+<include file="examples/jenkins/list_environment_internally.Jenkinsfile">
+
+We use the <b>getEnvironment</b> method that returns a <a
+href="https://javadoc.jenkins-ci.org/hudson/EnvVars.html">hudson.EnvVars</a> object.
+This is a Groovy map so we can already use the <b>each</b> method to go over the keys and values.
+
+This however only seem to list the internal variables of Jenkins and for example <b>PATH</b> was not
+in the list even though we can access it as <b>env.PATH</b>.
+
+
+<h2>How to set environment variables in Jenkins?</h2>
+
+As also seen above, a section called <hl>environment</hl> can be added to the pipeline
+
+<code>
+environment {
+    SOME_NAME = "some value"
+}
+</code>
+
+Then it can be accessed using the following syntax:
+
+<code>
+env.SOME_NAME
+</code>
+
+
+
+<code>
+pipeline {
+   agent none
+   environment {
+       field = 'some'
+   }
+   stages {
+       stage ('Preparation') {
+           agent { label 'master'}
+           environment {
+               JENKINS_PATH = sh(script: 'pwd', , returnStdout: true).trim()
+           }
+           steps {
+               echo "Hello world"
+               echo "PATH=${JENKINS_PATH}"
+               sh 'echo "JP=$JENKINS_PATH"'
+          }
+      }
+   }
+}
+</code>
+
+
+<h2>How to use environment variables in the environment section of Jenkins?</h2>
+
+<code>
+environment {
+    PATH = "/path/to/dir:${env.PATH}"
+    JNK_PATH = "${env.WORKSPACE}\\subdir"
+}
+</code>
+
+The above only works when the environment section is inside a "stage" but would yield "null" for
+WORKSPACE outside the stages.
+
+<h2>Set environment executing code</h2>
+
+<code>
+environment {
+    field = func()
+}
+
+def func() {
+    ...
+    return "value"
+}
+</code>
+
+A working example:
+
+<include file="examples/jenkins/set_environment_by_script.Jenkinsfile">
+
+
