@@ -92,10 +92,33 @@ Of course we could have printed the PATH environment variable without invoking a
 echo env.PATH
 </code>
 
-Print out all the environment variables seen by Windows.
+<h2>Print out all the environment variables seen by Windows.</h2>
 
 <code>
 echo bat(returnStdout: true, script: 'set')
+</code>
+
+<h2>Get the disk size of a local disk</h2>
+
+<code>
+script {
+    def disk_size = sh(script: "df / --output=avail | tail -1", returnStdout: true).trim() as Integer
+    println("disk_size = ${disk_size}")
+}
+</code>
+
+
+Full examples:
+
+<include file="examples/jenkins/list_disk_size.Jenkinsfile">
+
+<h2>Get the disk size of a remote disk</h2>
+
+<code>
+script {
+    def disk_size = sh(script: "ssh remote-server df / --output=avail | tail -1", returnStdout: true).trim() as Integer
+    println("disk_size = ${disk_size}")
+}
 </code>
 
 

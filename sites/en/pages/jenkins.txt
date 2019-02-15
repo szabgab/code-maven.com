@@ -13,9 +13,10 @@
 =abstract end
 
 <ol>
-    <li><a href="/install-jenkins-on-ubuntu">Install Jenkins on Ubuntu</a></li>
+    <li><a href="/install-jenkins-on-ubuntu">Install Jenkins on Ubuntu</a> (using Vagrant)</li>
+    <li><a href="/vagrant-for-jenkins-on-ubuntu">Vagrant for Jenkins on Ubuntu</a></li>
     <li><a href="/jenkins-pipeline-hello-world">Jenkins Pipeline - Hello World</a></li>
-    <li><a href="/jenkins-pipeline-running-external-programs">Jenkins Pipeline: running external programs with sh or bat</a></li>
+    <li><a href="/jenkins-pipeline-running-external-programs">Jenkins Pipeline: running external programs with sh or bat</a>, returnStdout, trim</li>
     <li><a href="/jenkins-send-email-notifications">Jenkins Pipeline: Send e-mail notifications</a></li>
     <li><a href="/jenkins-pipeline-short-text">Jenkins Pipeline: Add some text to the job using shortText</a></li>
     <li><a href="/jenkins-cli-create-node">Jenkins CLI: create node</a></li>
@@ -23,6 +24,7 @@
     <li>Report failures.</li>
     <li>Send alerts</li>
     <li>Collect test coverage data.</li>
+    <li><a href="/jenkins-pipeline-builduser">Jenkins Pipeline BuildUser plugin</a></li>
     <li><a href="https://code-maven.com/slides/jenkins/">Jenkins slides</a></li>
 </ol>
 
@@ -213,34 +215,6 @@ and call them
 report("text")
 </code>
 
-<h2>BUILD USER</h2>
-
-Need the <a href="https://wiki.jenkins.io/display/JENKINS/Build+User+Vars+Plugin">Build User Vars Plugin</a> and then write the following code:
-
-<code>
-pipeline {
-   agent { label 'master' }
-   stages {
-       stage('build') {
-           steps {
-               wrap([$class: 'BuildUser']) {
-                   echo BUILD_USER
-                   echo BUILD_USER_ID
-                   echo BUILD_USER_FIRST_NAME
-                   echo BUILD_USER_LAST_NAME
-               }
-               script {
-                   wrap([$class: 'BuildUser']) {
-                       build_user_id = BUILD_USER_ID
-                   }
-               }
-               echo build_user_id
-           }
-       }
-   }
-}
-</code>
-
 <h2>Environment variables on Linux</h2>
 
 <code>
@@ -382,5 +356,15 @@ try {
    print "There was a problem fetching the artifacts"
 }
 
+</code>
+
+
+<h2>Options</h2>
+
+<code>
+   options {
+       ansiColor('xterm')
+       timestamps()
+   }
 </code>
 
