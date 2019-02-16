@@ -318,3 +318,12 @@ try {
 signature.</b>
 
 
+<h2>archiveArtifacts can be called multiple times</h2>
+
+<code>
+archiveArtifacts artifacts: 'mydata.json', onlyIfSuccessful: true
+writeJSON(file: 'otherfile.log', json: data, pretty: 4)
+archiveArtifacts artifacts: '*.log', onlyIfSuccessful: true
+</code>
+
+
