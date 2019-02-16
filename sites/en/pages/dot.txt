@@ -33,3 +33,14 @@ export HISTSIZE=1000
 export EDITOR=vim
 </pre>
 
+<h2>ssh config</h2>
+
+<code>
+Host 10.* 172.31.* 172.32.* 172.33.* 172.34.*
+   StrictHostKeyChecking no
+   UserKnownHostsFile /dev/null
+</code>
+
+in ~/.ssh/config
+
+

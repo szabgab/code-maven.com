@@ -404,3 +404,37 @@ for (item in config.sources) {
   item.value
   item.key
 </code>
+
+<h2>Sending e-mail problem fixed</h2>
+
+https://stackoverflow.com/questions/20188456/how-to-change-the-security-type-from-ssl-to-tls-in-jenkins
+
+* Sending e-mail
+ In Manage Jenkins -> Configure System in the
+    Extended mail section set the
+       SMTP:  smtp.office365.com
+       Domain name: @company.com
+         Advanced:
+             Use SMTP Authentication: +
+             User Name: cicdserver@company.com
+             Password:              SMTP port: 587
+    E-mail notification section:
+        SMTP server: smtp.office365.com
+    Default user e-mail suffix: @company.com
+        Advanced
+              User Name: cicdserver@company.com
+              Password:               SMTP port: 587
+
+
+ Shut down Jenkins (via the Windows services)
+ Open the file: C:\Program Files (x86)\Jenkins\jenkins.xml
+ and change the arguments line to be:
+ <arguments>-Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle  -Dmail.smtp.starttls.enable=true -jar
+"%BASE%\jenkins.war" --httpPort=8080 --webroot="%BASE%\war"</arguments>
+ (specifically add:  -Dmail.smtp.starttls.enable=true  )
+ Then start Jenkins again.
+
+
+Client was not authenticated to send anonymous mail
+Error sending to the following VALID addresses
+
