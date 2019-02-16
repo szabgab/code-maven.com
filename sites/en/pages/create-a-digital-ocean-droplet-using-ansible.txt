@@ -1,0 +1,65 @@
+=title Create a Digital Ocean Droplet using Ansible
+=timestamp 2018-01-01T07:30:01
+=indexes Ansible
+=status draft
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+<a href="/digitalocean">Digital Ocean</a> is one of the cloud services providing Virtual Private Servers VPSs at a very low price.
+The smallest instance cost $5 / month but you can rent them by the hour as well. Excellent platform to experiment with multi-server
+setups. Excellent to run your real infrastructure.
+
+Ansible comes with a set of modules that allow use to create, manage, and destroy VPSs they call Droplets.
+
+=abstract end
+
+<h2></h2>
+
+Create an account on <a href="/digitalocean">Digital Ocean</a>.
+
+Create an <a href="https://cloud.digitalocean.com/settings/api/tokens">API token</a> (aka. API key) for read and write.
+Asign the token to the <hl>DO_API_TOKEN</hl> environment variable by writing the following in your shell, or in
+your .bashrc file if you'd like it to be more permanent.
+
+<code>
+export DO_API_TOKEN=...
+</code>
+
+We will need an additional Python module called <hl>dopy</hl>.
+
+<code>
+$ pip install dopy
+</code>
+
+<a href="https://developers.digitalocean.com/documentation/changelog/api-v2/new-size-slugs-for-droplet-plan-changes/">
+
+<a href="/digital-ocean-api">Digital Ocean API</a>
+
+<include file="examples/ansible/do/do_inventory.cfg">
+
+<include file="examples/ansible/do/create_droplet.yml">
+
+<code>
+ansible-playbook -i do_inventory.cfg create_droplet.yml
+</code>
+
+<include file="examples/ansible/do/">
+
+<code>
+</code>
+
+        image_id: ubuntu-16-04-x32
+
+        #ssh_key_ids: 1
+        #unique_name: yes
+
+"name 'basestring' is not defined"
+
+python 3 issue.
+
+ansible -i inventory.cfg all -m user -a 'name=foo password=$6$3Sp1fVYn$.qD7j67bHb/qmIenamR8vn0xFAckhMrEffshixLx7yOmOKgZUvPio4d/tpdV8JVC3zEPa5. shell=/bin/bash'
+
