@@ -1,0 +1,52 @@
+=title Python - Elasticsearch - Consul
+=timestamp 2019-01-01T07:30:01
+=indexes CodeMaven
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<code>
+from elasticsearch import Elasticsearch
+from datetime import datetime
+import consul
+
+# pip install elasticsearch
+
+def get_hosts():
+   con = consul.Consul()
+   id, nodes = con.catalog.service('elastic')
+   hosts = []
+   for n in nodes:
+       hosts.append(n['Address'])
+   return hosts
+
+
+def submit_to_es(doc):
+   hosts = get_hosts()
+   #print(hosts)
+   now = datetime.now()
+   es = Elasticsearch(hosts)
+   doc['timestamp'] = now
+   name = now.strftime('job-%Y-%m')
+   #print(name)
+   res = es.index(index = name, doc_type = 'job', body = doc)
+   print(res)
+
+def example():
+   doc = {
+       'job' : 'self-test',
+       'text' : 'some text',
+   }
+   submit_to_es(doc)
+
+if __name__ == '__main__':
+   example()
+
+</code>
+
+
