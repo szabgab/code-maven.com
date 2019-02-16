@@ -1,0 +1,23 @@
+---
+- hosts: localhost
+  gather_facts: False
+  become: False
+  tasks:
+    - debug:
+        msg: "Debug statement"
+
+    - shell: /usr/bin/uptime
+      register: result
+
+    - debug:
+        var: result
+
+
+ #       verbosity: 2
+
+
+
+#If vebosity 2 is set then the results will be only printed if -vv is supplied
+
+# echo results of local commands
+#ansible-playbook -vv try.yml

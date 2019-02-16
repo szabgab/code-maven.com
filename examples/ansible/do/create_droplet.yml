@@ -1,0 +1,19 @@
+---
+- hosts: all
+  tasks:
+    - digital_ocean:
+        state: present
+        command: droplet
+        name: ws-2
+        size_id: s-1vcpu-1gb
+        region_id: nyc1
+        ssh_key_ids: 56534
+        image_id: ubuntu-17-10-x64
+        wait_timeout: 500
+      register: my_droplet
+    
+    - debug:
+        msg: "ID is {{ my_droplet.droplet.id }}"
+    
+    - debug:
+        msg: "IP is {{ my_droplet.droplet.ip_address }}"

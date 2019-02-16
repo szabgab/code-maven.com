@@ -394,3 +394,13 @@ That does not help in case there is an exception in the functions.
 
 
 
+<h2>http_request</h2>
+
+<code>
+response = httpRequest discovery_url
+println response
+config_str = response.getContent()
+for (item in config.sources) {
+  item.value
+  item.key
+</code>
