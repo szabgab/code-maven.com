@@ -44,3 +44,18 @@ This does not work, but gives this error:
 
 <include file="examples/shell/empty_with_colon.sh">
 
+
+<h2>A Bash function can be called only after declaration</h2>
+
+<code>
+# qqrq    # ./func.sh: line 2: qqrq: command not found
+
+function qqrq()
+{
+   echo "hello"
+}
+
+qqrq
+</code>
+
+
