@@ -10,10 +10,10 @@
 <h2>Welcome to the Code Maven!</h2>
 
 <div class="main-content">
-<h3>The main topics</h3>
+<h3>The main topics in abc order</h3>
 <ul>
-  <li><a href="/angularjs">Angular JS</a></li>
-  <li><a href="/ansible">Ansible</a></li>
+  <li><a href="/angularjs">Angular JS</a> - some old articles about Angular 1.</li>
+  <li><a href="/ansible">Ansible</a> - the configuration management system.</li>
   <li><a href="/flask">Flask</a>, the Python microframework.</li>
   <li><a href="/groovy">Groovy</a>, the programming language used for Jenkins pipelines.</li>
   <li><a href="/handlebars">Handlebars</a> the HTML templating system written in JavaScript.</li>
