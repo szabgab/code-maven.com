@@ -53,6 +53,7 @@ Articles about Python
   <li><a href="/python-context-tools">Python context tools - cwd, tmpdir</a></li>
   <li><a href="/python-postgresql">Python and PostgreSQL</a></li>
   <li><a href="/rpc-with-python-using-rpyc">RPC with Python using RPyC</a></li>
+  <li><a href="/fermat-primality-test">Fermat primality test</a></li>
 
 </ul>
 
