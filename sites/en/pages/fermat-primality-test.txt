@@ -13,6 +13,8 @@ There are a number of ways to check if a number is a <a href="https://en.wikiped
 number</a>. Some of these are Probabilistic tests. Like the
 <a href="https://en.wikipedia.org/wiki/Primality_test#Fermat_primality_test">Fermat primality test</a>.
 
+Using <a href="https://en.wikipedia.org/wiki/Coprime_integers">Coprime integers</a>
+
 =abstract end
 
 I wrote this when I working on an example for testing random-based code.
