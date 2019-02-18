@@ -31,7 +31,14 @@
 </div>
 
 <div class="main-content">
-<a href="/exercises">Programming Exercises</a> for any language.
+<ul>
+    <li><a href="/exercises">Programming Exercises</a> for any language.</li>
+</ul>
+</div>
+
+<div class="main-content">
+Most of the article are written by <a herf="https://szabgab.com/">Gabor Szabo</a> who provides Automation and DevOps
+related services. (Setting up CI systems, intorducing test automation, moving the company to "the cloud", etc.)
 </div>
 
 <!--
