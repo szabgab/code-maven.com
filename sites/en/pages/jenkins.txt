@@ -438,3 +438,5 @@ https://stackoverflow.com/questions/20188456/how-to-change-the-security-type-fro
 Client was not authenticated to send anonymous mail
 Error sending to the following VALID addresses
 
+<include file="examples/jenkins/variables.Jenkinsfile">
+

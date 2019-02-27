@@ -31,6 +31,14 @@ alias ll='ls -l'
 alias l='ls -la'
 export HISTSIZE=1000
 export EDITOR=vim
+</code>
+
+Make bash write to the <hl>.bash_history</hl> file immediately and read it on every command.
+Allowing you to search and use the history created in one terminal to be used in another terminal.
+
+<code>
+shopt -s histappend
+export PROMPT_COMMAND="history -a; history -c; history -r;"
 </pre>
 
 <h2>ssh config</h2>
