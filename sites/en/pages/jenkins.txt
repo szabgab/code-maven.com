@@ -440,3 +440,19 @@ Error sending to the following VALID addresses
 
 <include file="examples/jenkins/variables.Jenkinsfile">
 
+
+<h2>Parallel stages</h2>
+
+<include file="examples/jenkins/parallel.Jenkinsfile">
+
+<h2>Skip steps</h2>
+
+Jenkins pipeline stop early with success
+How to indicate that a job is successful
+<a href="https://stackoverflow.com/questions/37690920/jenkins-pipeline-conditional-step-stage">pipeline conditional step
+stage</a>
+
+<include file="examples/jenkins/skip_step.Jenkinsfile">
+
+<include file="examples/jenkins/worker_job.Jenkinsfile">
+
