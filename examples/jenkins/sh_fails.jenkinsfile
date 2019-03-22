@@ -1,0 +1,15 @@
+pipeline {
+   agent { label 'master' }
+   stages {
+       stage('only') {
+           steps {
+               println("one")
+               sh "ls -l"
+               println("two")
+               sh "ls -l no_such"
+               println("three")
+           }
+       }
+   }
+}
+

@@ -456,3 +456,8 @@ stage</a>
 
 <include file="examples/jenkins/worker_job.Jenkinsfile">
 
+
+<h2>jenkins sh commnad fails - jenkins stops</h2>
+
+<include file="examples/jenkins/sh_fails.jenkinsfile">
+
