@@ -1,0 +1,37 @@
+=title Stop and disable apt-get using Ansible
+=timestamp 2019-03-26T07:30:01
+=indexes apt-get, Ansible
+=status show
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+Disable the apt services to avoid collision between the apt-get update that runs when we start a new instance
+and the Ansible process that tries to install modules
+
+<code>
+- name: Stop services
+  service:
+    name: "{{ item }}"
+    enabled: no
+  with_items:
+    - apt-daily
+    - apt-daily.timer
+    - apt-daily-upgrade
+    - apt-daily-upgrade.timer
+
+- name: Disable services
+  service:
+    name: "{{ item }}"
+    enabled: no
+  with_items:
+    - apt-daily
+    - apt-daily.timer
+    - apt-daily-upgrade
+    - apt-daily-upgrade.timer
+</code>
+
