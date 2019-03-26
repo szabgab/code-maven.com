@@ -1,0 +1,14 @@
+=title Bash: while loop
+=timestamp 2019-03-26T08:30:01
+=indexes CodeMaven
+=status draft
+=books bash, while
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="">
+
