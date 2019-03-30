@@ -107,13 +107,13 @@ end
 Итак, главная страница <a href="/">Code Maven</a> имеет размер 20,558 байт.
 
 <code>
-$ node crawl_02.js http://perlmaven.com/
+$ node crawl_02.js https://perlmaven.com/
 Got response: 200
 end
 18487
 </code>
 
-По-видимому, главная страница <a href="http://perlmaven.com/">Perl Maven</a> меньше.
+По-видимому, главная страница <a href="https://perlmaven.com/">Perl Maven</a> меньше.
 
 А что на счет страниц, которые зависли?
 

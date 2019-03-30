@@ -31,7 +31,7 @@ ruby read_file.rb  some/file.txt
 Метод <hl>read</hl> этого класса прочитает все содержимое файла, которое мы сохраняем в переменную <hl>content</hl>.
 Это полное содержимое файла, включая переводы строк.
 
-По сути это тоже самое, что и <a href="http://perlmaven.com/slurp">slurp в Perl</a>
+По сути это тоже самое, что и <a href="https://perlmaven.com/slurp">slurp в Perl</a>
 
 <h2>Читаем файл построчно</h2>
 

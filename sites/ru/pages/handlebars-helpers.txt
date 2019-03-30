@@ -112,7 +112,7 @@ Handlebars.registerHelper('link', function(obj) {
            'text' : 'Code Maven'
         },
         'perlmaven' : {
-            'url' : 'http://perlmaven.com/'
+            'url' : 'https://perlmaven.com/'
         }
     });
 </code>
@@ -120,7 +120,7 @@ Handlebars.registerHelper('link', function(obj) {
 Результат, который вы увидите, будет таким:
 
 <a href="/">Code Maven</a><br>
-<a href="http://perlmaven.com/">http://perlmaven.com/</a><br>
+<a href="https://perlmaven.com/">http://perlmaven.com/</a><br>
 
 
 
