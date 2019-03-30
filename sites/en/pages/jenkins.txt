@@ -461,3 +461,22 @@ stage</a>
 
 <include file="examples/jenkins/sh_fails.jenkinsfile">
 
+
+
+<h2>Repository branch filter for Git</h2>
+
+It will start multiple jobs if more than one branch was pushed out.
+It is triggered even if there were no new commits in the branch that was pushed out
+
+By default it will run every branch matching the filter, even if that branch was last changed 2 years ago.
+This can be a problem if for some reason your have hundreds or thousands of historical branches.
+
+<code>
+:^origin/(work|dev)-.*
+</code>
+
+You can limit this by selecting another option and setting the ancestry date to limit how many days
+you are ready to go back in time.
+
+
+
