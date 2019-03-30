@@ -1,0 +1,97 @@
+=title Counter Examples
+=timestamp 2019-03-30T21:40:01
+=indexes counter, ++
+=status show
+=books counter
+=author szabgab
+=comments_disqus_enable 1
+
+=abstract start
+
+In this project we are going to implement a counter with various front-ends and back-ends.
+
+=abstract end
+
+The simpler version of the counter script handles a single counter. Every time we run  the counter it will fetch the latest value from
+the "back-end", increment it by one, display the new value, and save the new value back to the "back-end". An interaction might look like this:
+
+<code>
+$ count
+  1
+$ count
+  2
+$ count
+  3
+</code>
+
+The slightly more complex version will receive a string as an input and for each string it will maintain a separate counter.
+So an interaction might look like this:
+
+<code>
+$ count foo
+  foo: 1
+$ count foo
+  foo: 2
+$ count bar
+  bar: 1
+$ count foo
+  foo: 3
+</code>
+
+The front-end can be command line, or web, or maybe some other GUI.
+
+The back-end is some kind of a "database".  It can be a plain text file, some data serialization format, a relational database, a NoSQL database
+and who knows what else.
+
+This is going to be a long project, but it might help understand various techniques for data serialization.
+
+<ul>
+  <li><a href="/on-load-counter-with-javascript-and-local-storage">On-load counter with JavaScript and local storage</a></li>
+  <li><a href="/simple-in-memory-counter-with-angularjs">In-memory counter using AngularJS</a></li>
+  <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
+  <li><a href="/counter-in-mongodb-client">Several counters in MongoDB client</a></li>
+  <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a> for a single counter.</li>
+  <li>A <a href="https://perlmaven.com/command-line-counter">command-line counter script in Perl</a> that uses a plain file called <hl>counter.txt</hl> for a single counter.</li>
+  <li><a href="https://perlmaven.com/multiple-command-line-counters">Multiple command line counters with plain TSV text file back-end in Perl.</a></li>
+  <li><a href="https://perlmaven.com/counter-with-database-backend-using-dbix-class">A command line counter with database back-end using Perl DBIx::Class</a></li>
+  <li><a href="https://perlmaven.com/command-line-counter-with-json-backend">Command line counter with JSON backend in Perl.</a></li>
+  <li><a href="https://perlmaven.com/counter-with-dancer-sessions">Counter with Perl Dancer session</a></li>
+  <li><a href="https://perlmaven.com/command-line-counter-with-mongodb">Command line counter in Perl with MongoDB as storage</a></li>
+  <li><a href="https://perlmaven.com/pro/counter-with-mojolicious-lite">Counter with Perl Mojolicious Lite</a></li>
+  <li><a href="https://perlmaven.com/command-line-counter-with-memchached">Command line counter with Memcached using Perl</a></li>
+  <li><a href="https://perlmaven.com/increase-numbers-in-a-file">Increasing numbers in a text file using Perl</a></li>
+</ul>
+
+
+<!--
+<h2>Front-end</h2>
+
+<ul>
+    <li>command line</li>
+    <li>web based:
+        <ul>
+            <li>plain CGI</li>
+            <li>CGI with Ajax</li>
+            <li>plain PSGI</li>
+            <li>PSGI with Ajax</li>
+            <li>Dancer</li>
+            <li>Mojolicious</li>
+        </ul>
+    </li>
+</ul>
+
+<h2>Back-end</h2>
+
+<ul>
+  <li>several counters each one in its own file</li>
+  <li>several counters in a .txt file in CSV format</li>
+  <li>several counters in a yaml/json file</li>
+  <li>1 counter in SQLite</li>
+  <li>several counters in SQLite</li>
+  <li>1 counter in MySQL</li>
+  <li>several counters in MySQL</li>
+  <li>  ? PostgreSQL</li>
+  <li>1 counter in MongoDB</li>
+  <li>several counters in MongoDB</li>
+</ul>
+-->
