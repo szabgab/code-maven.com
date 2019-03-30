@@ -5,11 +5,11 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 
+=comments_disqus_enable
 
 =abstract start
 
-As part of the big <a href="http://perlmaven.com/counter">Counter Example</a> project,
+As part of the big <a href="/counter">Counter Example</a> project,
 in this article we'll see how to create a simple load-counter
 with plain JavaScript utilizing the Local Storage introduced in HTML5.
 

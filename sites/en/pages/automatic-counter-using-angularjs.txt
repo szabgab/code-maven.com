@@ -12,7 +12,7 @@
 We have seen <a href="/simple-in-memory-counter-with-angularjs">how to create a counter in AngularJS</a> in which we incremented (or deceremented) the counter by clicking
 on a button. In this example we'll automatically increased the counter as time passes.
 
-Don't forget to check out the other <a href="http://perlmaven.com/counter">counter examples</a>!
+Don't forget to check out the other <a href="/counter">counter examples</a>!
 
 =abstract end
 

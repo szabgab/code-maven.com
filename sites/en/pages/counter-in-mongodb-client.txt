@@ -9,7 +9,7 @@
 
 =abstract start
 
-In the <a href="http://perlmaven.com/counter">big counter example</a> mostly we use programming languages, but this time I am going to use the MongoDB client
+In the <a href="/counter">big counter example</a> mostly we use programming languages, but this time I am going to use the MongoDB client
 to implement a counter. Later we can use this example to build counters using some programming language and MongoDB as the storage facility.
 
 =abstract end
@@ -23,7 +23,7 @@ $ mongo
 Switch to a database: (We call it <hl>test</hl>)
 
 <code>
-> use test 
+> use test
 </code>
 
 

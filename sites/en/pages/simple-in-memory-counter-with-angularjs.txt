@@ -9,7 +9,7 @@
 
 =abstract start
 
-In the <a href="http://perlmaven.com/counter">big counter example</a> we see a number of implementations of counters.
+In the <a href="/counter">big counter example</a> we see a number of implementations of counters.
 Here is one using <a href="/angularjs">AngularJS</a>.
 
 =abstract end

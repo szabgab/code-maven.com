@@ -9,7 +9,7 @@
 
 =abstract start
 
-Part of the big <a href="https://perlmaven.com/counter">counter example</a> project, let's see the
+Part of the big <a href="/counter">counter example</a> project, let's see the
 simple command line counter for a single number implemented in Python.
 
 =abstract end

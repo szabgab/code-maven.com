@@ -11,7 +11,7 @@
 
 =abstract start
 
-В статье <a href="http://perlmaven.com/counter">о примерах счетчиков</a> мы видели много вариантов реализации.
+В статье <a href="https://code-maven.com/counter">о примерах счетчиков</a> мы видели много вариантов реализации.
 Вот один с использованием <a href="/angularjs">AngularJS</a>.
 
 =abstract end
