@@ -53,7 +53,7 @@ and even supply the empty string as the default value.  <hl>request.args.get('te
 
 The reason we prefer the latter here is that in Python, if we try to access a dictionary key that does not exist,
 even just for reading, Python will throw an exception. (In other words, Python does not provide
-<a href="http://perlmaven.com/autovivification">/autovivification</a>.
+<a href="https://perlmaven.com/autovivification">/autovivification</a>.
 
 The user can easily edit the values in the address bar. If she decides
 to remove all the attributes and send in a request to <hl>http://127.0.0.1:5000/echo</hl> then request will throw an

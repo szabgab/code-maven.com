@@ -23,5 +23,5 @@ print them in descending order.
 <h2>Solutions</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-improve-apache-analyzer">Perl 5: Counting the number of hits in an Apche log file.</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-improve-apache-analyzer">Perl 5: Counting the number of hits in an Apche log file.</a></li>
 </ul>

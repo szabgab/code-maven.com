@@ -34,7 +34,7 @@ JSLint found 3 issues with this code. Issues #2 and #3 are fairly trivial. Inste
 
 <h2>use strict</h2>
 
-The first one, on the other hand is slightly more involved. Just as in <a href="http://perlmaven.com/">Perl</a>,
+The first one, on the other hand is slightly more involved. Just as in <a href="https://perlmaven.com/">Perl</a>,
 JavaScript also allows a lot of bad practices, and just as with Perl, the developers of JavaScript cannot just
 eliminate the features that allow these bad practices. Such move would break tons of code that worked earlier.
 

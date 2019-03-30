@@ -35,12 +35,12 @@ Our expected output looks like this:
 
 <h2>Tools for Perl 5</h2>
 <ul>
-   <li><a href-"http://perlmaven.com/perl-tutorial">The Perl 5 tutorial</a> in general.</a>
-   <li><a href="http://perlmaven.com/beginner-perl-maven-shift">Perl 5: shift from @ARGV</a></li>
-   <li><a href="http://perlmaven.com/beginner-perl-maven-open-or-die">Perl 5: open a file for reading or die</a>.</li>
-   <li><a href="http://perlmaven.com/perl-arrays">Perl 5: Arrays</a></li>
-   <li><a href="http://perlmaven.com/chomp">Perl 5: chomp, remove trailing newlines</a>.</li>
-   <li><a href="http://perlmaven.com/perl-split">Perl 5: split, to cut a string into pieces</a>.</li>
+   <li><a href-"https://perlmaven.com/perl-tutorial">The Perl 5 tutorial</a> in general.</a>
+   <li><a href="https://perlmaven.com/beginner-perl-maven-shift">Perl 5: shift from @ARGV</a></li>
+   <li><a href="https://perlmaven.com/beginner-perl-maven-open-or-die">Perl 5: open a file for reading or die</a>.</li>
+   <li><a href="https://perlmaven.com/perl-arrays">Perl 5: Arrays</a></li>
+   <li><a href="https://perlmaven.com/chomp">Perl 5: chomp, remove trailing newlines</a>.</li>
+   <li><a href="https://perlmaven.com/perl-split">Perl 5: split, to cut a string into pieces</a>.</li>
 </ul>
 
 <h2>Tools for Ruby</h2>
@@ -55,7 +55,7 @@ Our expected output looks like this:
 <h2>Solutions</h2>
 
 <ul>
-   <li><a href="http://perlmaven.com/beginner-perl-maven-count-digits">Perl 5 count digits</a></li>
+   <li><a href="https://perlmaven.com/beginner-perl-maven-count-digits">Perl 5 count digits</a></li>
    <li><a href="/count-digits-using-ruby">Ruby: count digits</a></li>
    <li><a href="/groovy-count-digits">Groovy: count digits</a></li>
 </ul>

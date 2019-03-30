@@ -21,7 +21,7 @@ and are written in different languages. It can be also used as a format for conf
 <h2>Use cases of JSON</h2>
 
 Ajax, that stands for <b>"asynchronous JavaScript and XML"</b>, describes how an application written in JavaScript running in a browser can communicate
-with the application running on the server that is most likely written in some other language, for example in <a href="http://perlmaven.com/">Perl</a>,
+with the application running on the server that is most likely written in some other language, for example in <a href="https://perlmaven.com/">Perl</a>,
 <a href="/python">Python</a>, <a href="/ruby">Ruby</a>, or PHP. 
 Originally, as the name indicates, the data sent back-and-forth between the two applications was supposed to be in XML, but today, a large chunk of those applications communicate
 using JSON format. It is more light-weight than XML and fits the purpose much better.
@@ -37,7 +37,7 @@ is being used as the data format in <a href="https://www.mongodb.org/">MongoDB</
 <h2>Implementations and articles</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/json">JSON in Perl</a></li>
+  <li><a href="https://perlmaven.com/json">JSON in Perl</a></li>
   <li><a href="/ajax-request-for-json-data">Ajax request for JSON data</a></li>
   <li><a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/json/rdoc/JSON.html">JSON module in Ruby</a></li>
   <li><a href="https://docs.python.org/2/library/json.html">json in Python 2</a></li>

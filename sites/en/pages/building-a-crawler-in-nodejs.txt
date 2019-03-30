@@ -107,13 +107,13 @@ end
 So the front page of the <a href="/">Code Maven</a> site has 20,558 bytes.
 
 <code>
-$ node crawl_02.js http://perlmaven.com/
+$ node crawl_02.js https://perlmaven.com/
 Got response: 200
 end
 18487
 </code>
 
-Apparently the front page of the <a href="http://perlmaven.com/">Perl Maven</a> site is smaller.
+Apparently the front page of the <a href="https://perlmaven.com/">Perl Maven</a> site is smaller.
 
 What about the pages that got stuck?
 

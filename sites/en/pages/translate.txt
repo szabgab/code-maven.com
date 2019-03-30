@@ -15,7 +15,7 @@ Experimenting with mapping functions among languages.
 
 
 <ul>
-  <li><a href="http://perlmaven.com/undef-and-defined-in-perl">Perl: undef</a></li>
+  <li><a href="https://perlmaven.com/undef-and-defined-in-perl">Perl: undef</a></li>
   <li><a href="">Python None</a></li>
   <li><a href="">Ruby Nil</a></li>
   <li><a href="">SQL, PHP, Java: NULL</a></li>

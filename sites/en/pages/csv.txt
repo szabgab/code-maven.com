@@ -98,7 +98,7 @@ but maybe it can even be used as way to refernce the values in the various field
 
 
 <ul>
-  <li><a href="http://perlmaven.com/csv">CSV in Perl</a></li>
+  <li><a href="https://perlmaven.com/csv">CSV in Perl</a></li>
   <li><a href="https://docs.python.org/2/library/csv.html">CSV in Python 2.x</a></li>
   <li><a href="https://docs.python.org/3/library/csv.html">CSV in Python 3.x</a></li>
   <li><a href="/create-and-download-csv-with-javascript">Create CSV in JavaScript</a></li>

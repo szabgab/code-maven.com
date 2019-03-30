@@ -28,17 +28,17 @@ The task is to write a scrip that will count how many requests came from 127.0.0
 
 <h2>Tools</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-open-file">Perl 5: open the file for reading or die</a></li>
-  <li><a href="http://perlmaven.com/chomp">Perl 5: chomp remove trailing newlines</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-string-functions-index">Perl 5: index</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-substr">Perl 5: substr</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-open-file">Perl 5: open the file for reading or die</a></li>
+  <li><a href="https://perlmaven.com/chomp">Perl 5: chomp remove trailing newlines</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-string-functions-index">Perl 5: index</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-substr">Perl 5: substr</a></li>
   <li><a href="/argv-the-command-line-arguments-in-ruby">Ruby: ARGV command line parameters</a>.</li>
   <li><a href="/open-file-and-read-content-in-ruby">Ruby: open a file for reading and iterate over it</a>.</li>
 </ul>
 
 <h2>Solutions</h2>
 <ul>
-   <li><a href="http://perlmaven.com/beginner-perl-maven-analyze-apache-log-file">Perl 5 - Analyze Apache log file - count localhost</a></li>
+   <li><a href="https://perlmaven.com/beginner-perl-maven-analyze-apache-log-file">Perl 5 - Analyze Apache log file - count localhost</a></li>
    <li><a href="/analyze-apache-log-file-count-localhost-in-ruby">Ruby - Analyze Apache log file - count localhost</a></li>
 </ul>
 

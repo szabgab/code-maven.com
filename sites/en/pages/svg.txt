@@ -17,7 +17,7 @@ to help you learn how to build images.
 <script src="/try/examples/js/svg.min.js"></script>
 
 In order to get started check out the <a href="/svg-with-javascript">SVG with JavaScript</a> and/or
-the <a href="http://perlmaven.com/scalable-vector-graphics-with-perl">SVG in Perl</a> article.
+the <a href="https://perlmaven.com/scalable-vector-graphics-with-perl">SVG in Perl</a> article.
 
 Then you can do the following exercises. I've tried to put them in order of growing complexity.
 For each task you'll find a (hopefully) reasonable description of what you should do and you will also see the end-result

@@ -17,7 +17,7 @@ In this tutorial we will only use the packages that are supplied by Ubuntu and w
 =abstract end
 
 It was tested on an Ubuntu 14.04 x64 droplet of <a href="/digitalocean">Digital Ocean</a> though a very
-similar process was used earlier on Ubuntu 13.10 <a href="http://perlmaven.com/deploying-pyton-with-uwsgi-on-ubuntu-13-10">for plain Python web application</a>.
+similar process was used earlier on Ubuntu 13.10 <a href="https://perlmaven.com/deploying-pyton-with-uwsgi-on-ubuntu-13-10">for plain Python web application</a>.
 
 After you create a droplet with Ubuntu 14.04 x64 you'll get an e-mail with your IP address
 and the password of root. In this example I'll use 1.2.3.4 as the IP address. You'll have to replace

@@ -24,7 +24,7 @@ and then you need to create a simple script:
 
 It has a few elements that other, command line script, might not necessarily need.
 
-The first line, also called the <a href="http://perlmaven.com/hashbang">hashbang</a> line needs to point to the Ruby interpreter/compiler.
+The first line, also called the <a href="https://perlmaven.com/hashbang">hashbang</a> line needs to point to the Ruby interpreter/compiler.
 in our case this means the first line is <hl>#!/usr/bin/ruby</hl>. Please note, there are no spaces in that line and it must be the first
 line in the file. It is used by Apache and the Unix/Linux environment to determine which interpreter will understand the code in this file.
 

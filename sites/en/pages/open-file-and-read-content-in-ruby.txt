@@ -31,7 +31,7 @@ instnce of the the <a href="http://ruby-doc.org/core/File.html">File</a> class.
 The <hl>read</hl> method of this class will read in the content of the file and we have assigned it to the varibale
 <hl>content</hl>. This is the whole content of the file, including the embedded newlines.
 
-This is basicallt the same as the <a href="http://perlmaven.com/slurp">slurp mode in Perl</a>
+This is basicallt the same as the <a href="https://perlmaven.com/slurp">slurp mode in Perl</a>
 
 
 <h2>Read file line-by-line</h2>

@@ -72,7 +72,7 @@ your attitude toward other programmers. So while this has nothing to do with you
 In order to see how widespread is the use (or the lack of use) of public version control systems, I've started to collect
 information about the use of public VCS-es in Open source projects.
 
-We can check the <a href="http://perlmaven.com/recent">recent Perl modules on CPAN</a> to see which one
+We can check the <a href="https://perlmaven.com/recent">recent Perl modules on CPAN</a> to see which one
 <a href="http://cpan.perlmaven.com/#lab/no-repository">has no repository in the META files</a> and which on
 <a href="http://cpan.perlmaven.com/#lab/no-license">has no "license" field in the META files</a>.
 

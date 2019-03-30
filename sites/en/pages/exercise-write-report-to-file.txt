@@ -21,14 +21,14 @@ into a file.
 <h2>Tools</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-write-to-file">Write to file in Perl (screencast)</a> and <a href="http://perlmaven.com/writing-to-files-with-perl">writing to file in Perl (article)</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-write-to-file">Write to file in Perl (screencast)</a> and <a href="http://perlmaven.com/writing-to-files-with-perl">writing to file in Perl (article)</a></li>
 </ul>
 
 
 <h2>Solutions</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-write-report-to-file">Perl 5 - write report to file</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-write-report-to-file">Perl 5 - write report to file</a></li>
 </ul>
 
 

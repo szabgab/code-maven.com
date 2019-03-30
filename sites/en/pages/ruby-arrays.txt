@@ -8,7 +8,7 @@
 
 =abstract start
 
-Arrays in Ruby are similar to <a href="http://perlmaven.com/perl-arrays">arrays in Perl</a> and lists in Python.
+Arrays in Ruby are similar to <a href="https://perlmaven.com/perl-arrays">arrays in Perl</a> and lists in Python.
 They can hold a bunch of unrelated values in slots indexed from 0 up.
 
 Similar to the other two dynamic languages, arrays in ruby can also grow and shrink as the user needs them.
@@ -85,7 +85,7 @@ There are a number of ways to <a href="/for-loop-in-ruby">iterate over the eleme
 
 <h2>Pretty Print values for debugging</h2>
 
-Similar to the <a href="http://perlmaven.com/debugging-perl-scripts">Data::Dumper module in Perl</a>,
+Similar to the <a href="https://perlmaven.com/debugging-perl-scripts">Data::Dumper module in Perl</a>,
 Ruby has the <hl>pp</hl> library for Pretty Printing data structures.
 It makes it easy to print out the content of an array:
 

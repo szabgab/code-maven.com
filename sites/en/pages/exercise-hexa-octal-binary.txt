@@ -26,11 +26,11 @@ Write 3 functions that return "true" if the given value is a
 
 <h2>Tools</h2>
 <ul>
-  <li><a href="http://perlmaven.com/perl-tutorial">Perl 5: The Regex chapters in the Perl Tutorial</a></li>
+  <li><a href="https://perlmaven.com/perl-tutorial">Perl 5: The Regex chapters in the Perl Tutorial</a></li>
 </ul>
 
 <h2>Solution</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-hexa-octal-binary">Perl 5 match hexa, octal, and binary numbers</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-hexa-octal-binary">Perl 5 match hexa, octal, and binary numbers</a></li>
 </ul>
 

@@ -41,10 +41,10 @@ Finaly, keep track of the minimum and maximum score (number of guesses till hit)
 <h2>Solutions</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-multiple-guesses">Perl 5: Improve the number guessing game - multiple guesses</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-exit">Perl 5: Improve the number guessing game - exit</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-s-show">Perl 5: Improve the number guessing game - s for show</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-n-next-game">Perl 5: Improve the number guessing game - n for next game</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-d-debug-toggle">Perl 5: Improve the number guessing game - d for debug mode</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-m-move-toggle">Perl 5: Improve the number guessing game - m for move mode</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-multiple-guesses">Perl 5: Improve the number guessing game - multiple guesses</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-exit">Perl 5: Improve the number guessing game - exit</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-s-show">Perl 5: Improve the number guessing game - s for show</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-n-next-game">Perl 5: Improve the number guessing game - n for next game</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-d-debug-toggle">Perl 5: Improve the number guessing game - d for debug mode</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number-guessing-game-m-move-toggle">Perl 5: Improve the number guessing game - m for move mode</a></li>
 </ul>

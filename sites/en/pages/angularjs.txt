@@ -36,5 +36,5 @@ or the <a href="https://www.ng-book.com/">ng-book</a> by Ari Lerner. Once you ge
 <h2>Other</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/dancer2-angularjs-single-page-application">Single Page Application with Perl Dancer and AngularJS</a></li>
+  <li><a href="https://perlmaven.com/dancer2-angularjs-single-page-application">Single Page Application with Perl Dancer and AngularJS</a></li>
 </ul>

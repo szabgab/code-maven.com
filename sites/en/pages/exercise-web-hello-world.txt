@@ -42,10 +42,10 @@ created earlier. Each soultion should have several versions:
   <li><a href="/getting-started-with-nodejs">Node.js: Getting Started with Node.js</a></li>
   <li><a href="/hello-world-with-flask-and-python">Python: Hello world with Flask and Python</a></li>
   <li><a href="http://perl6maven.com/getting-started-with-bailador">Perl 6: Getting started with Bailador</a></li>
-  <li><a href="http://perlmaven.com/pro/hello-world-with-plain-cgi">Perl 5: Hello World with plain CGI</a></li>
-  <li><a href="http://perlmaven.com/getting-started-with-psgi">Perl 5: Getting started with PSGI</a></li>
-  <li><a href="http://perlmaven.com/pro/hello-world-with-plack-cgi">Perl 5: Hello World with Plack in CGI mode</a></li>
-  <li><a href="http://perlmaven.com/hello-world-with-dancer2">Perl 5: Hello World with Dancer2</a></li>
+  <li><a href="https://perlmaven.com/pro/hello-world-with-plain-cgi">Perl 5: Hello World with plain CGI</a></li>
+  <li><a href="https://perlmaven.com/getting-started-with-psgi">Perl 5: Getting started with PSGI</a></li>
+  <li><a href="https://perlmaven.com/pro/hello-world-with-plack-cgi">Perl 5: Hello World with Plack in CGI mode</a></li>
+  <li><a href="https://perlmaven.com/hello-world-with-dancer2">Perl 5: Hello World with Dancer2</a></li>
   <li><a href="/hello-world-using-cgi-in-ruby">Ruby: Hello World using CGI</a></li>
 </ul>
 

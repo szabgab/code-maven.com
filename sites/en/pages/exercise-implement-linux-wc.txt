@@ -56,9 +56,9 @@ and get back the number of file in the directory tree starting in our current wo
 <h2>Tools - Perl 5</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/open-and-read-from-files">Perl 5: Open file and read content</a></li>
-  <li><a href="http://perlmaven.com/argv-in-perl">Perl 5: @ARGV</a></li>
-  <li><a href="http://perlmaven.com/warn">Perl 5: warn</a></li>
+  <li><a href="https://perlmaven.com/open-and-read-from-files">Perl 5: Open file and read content</a></li>
+  <li><a href="https://perlmaven.com/argv-in-perl">Perl 5: @ARGV</a></li>
+  <li><a href="https://perlmaven.com/warn">Perl 5: warn</a></li>
   <li>Printing to STDERR</li>
   <li>Create functions</li>
   <li>Check file type (file, directory, etc)</li>

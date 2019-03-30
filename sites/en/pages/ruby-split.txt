@@ -11,7 +11,7 @@
 
 <a href="http://ruby-doc.org/core-2.2.0/String.html">String</a> objects in Ruby have a method called
 <a href="http://ruby-doc.org/core-2.2.0/String.html#method-i-split">split</a>. It is similar to the
-<a href="http://perlmaven.com/perl-split">split function of Perl</a>. It can cut up a string into
+<a href="https://perlmaven.com/perl-split">split function of Perl</a>. It can cut up a string into
 pieces along a pre-defined string or regex returning an array of smaller strings.
 
 =abstract end

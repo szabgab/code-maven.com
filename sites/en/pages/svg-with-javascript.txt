@@ -25,7 +25,7 @@ an XML file containing instructions to draw an image.  <a href="http://svgjs.com
 a JavaScript library that makes it easy to create such XML file and even without saving them
 to disk, to use them to draw images on a web site.
 
-Just as we saw a <a href="http://perlmaven.com/scalable-vector-graphics-with-perl">examples for SVG images drawn with Perl</a>,
+Just as we saw a <a href="https://perlmaven.com/scalable-vector-graphics-with-perl">examples for SVG images drawn with Perl</a>,
 let's see a few simple examples with the JavaScript library.
 
 <script src="/try/examples/js/svg.min.js"></script>

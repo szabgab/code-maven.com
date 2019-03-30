@@ -27,12 +27,12 @@ As there might be several definitions of what a number is, you need to create se
 
 <h2>Tools</h2>
 <ul>
-  <li><a href="http://perlmaven.com/perl-tutorial">Perl 5: The Regex chapters in the Perl Tutorial</a></li>
+  <li><a href="https://perlmaven.com/perl-tutorial">Perl 5: The Regex chapters in the Perl Tutorial</a></li>
 </ul>
 
 <h2>Solution</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-number">Perl 5 match numbers with regex</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-number">Perl 5 match numbers with regex</a></li>
 </ul>
 
 

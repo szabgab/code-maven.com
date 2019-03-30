@@ -9,7 +9,7 @@
 
 =abstract start
 
-Recently I was asked <a href="http://perlmaven.com/how-to-insert-a-hash-in-another-hash">how to insert a hash in another hash in Perl</a>
+Recently I was asked <a href="https://perlmaven.com/how-to-insert-a-hash-in-another-hash">how to insert a hash in another hash in Perl</a>
 and I thought I should look at this in Python as well.
 
 =abstract end

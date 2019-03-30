@@ -33,6 +33,6 @@ each command type was given.
 
 <h2>Solutions</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-parse-variable-width-fields">Perl 5: parse variablew width fields</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-parse-variable-width-fields">Perl 5: parse variablew width fields</a></li>
 </ul>
 

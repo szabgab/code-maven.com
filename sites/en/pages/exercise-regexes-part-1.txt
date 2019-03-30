@@ -47,15 +47,15 @@ You can use the script at the end of the page as a starting point but you will h
 
 
 <h2>Perl</h2>
-For Perl check out the respective <a href="http://perlmaven.com/beginner-perl-maven-exercise-regexes-1">regex exercise</a> page on the Perl Maven site.
+For Perl check out the respective <a href="https://perlmaven.com/beginner-perl-maven-exercise-regexes-1">regex exercise</a> page on the Perl Maven site.
 
 
 <h2>Solution - Perl 5</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-regexes-1">Perl 5 regexes 1</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-regexes-2">Perl 5 regexes 2</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-solution-regexes-3">Perl 5 regexes 3</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-regexes-1">Perl 5 regexes 1</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-regexes-2">Perl 5 regexes 2</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-solution-regexes-3">Perl 5 regexes 3</a></li>
 </ul>
 
 

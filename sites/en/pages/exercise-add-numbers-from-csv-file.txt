@@ -29,8 +29,8 @@ Can your code also handle this file?
 <h2>Tools</h2>
 
 <ul>
-  <li><a href="http://perlmaven.com/perl-split">Perl 5 split</a></li>
-  <!-- <li><a href="http://perlmaven.com/csv">Perl 5 CSV</a></li> -->
+  <li><a href="https://perlmaven.com/perl-split">Perl 5 split</a></li>
+  <!-- <li><a href="https://perlmaven.com/csv">Perl 5 CSV</a></li> -->
   <li><a href="/ruby-split">Ruby split</a></li>
   <li><a href="http://ruby-doc.org/stdlib-2.0.0/libdoc/csv/rdoc/CSV.html">Ruby CSV</a></li>
 </ul>
@@ -38,10 +38,10 @@ Can your code also handle this file?
 
 <h2>Solutions in Perl 5</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-process-csv-file">Perl 5 Process CSV file</a></li>
-  <li><a herf="http://perlmaven.com/beginner-perl-maven-process-csv-file-short-version">Perl 5 Process CSV file short version</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-oneliner-sum-of-csv">Perl 5 One-liner sum of column in CSV</a></li>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-text-csv-xs">Process CSV file using Text::CSV_XS</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-process-csv-file">Perl 5 Process CSV file</a></li>
+  <li><a herf="https://perlmaven.com/beginner-perl-maven-process-csv-file-short-version">Perl 5 Process CSV file short version</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-oneliner-sum-of-csv">Perl 5 One-liner sum of column in CSV</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-text-csv-xs">Process CSV file using Text::CSV_XS</a></li>
 </ul>
 
 <h2>Solution Ruby</h2>

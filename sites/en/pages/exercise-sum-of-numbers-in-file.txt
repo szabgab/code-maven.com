@@ -30,10 +30,10 @@ Some of the tools you might need to solve this exercise.
 <ul>
   <li>Perl:
     <ul>
-      <li><a href="http://perlmaven.com/beginner-perl-maven-scalar-values-and-variables">Scalar values and variabels in Perl</a></li>
-      <li><a href="http://perlmaven.com/beginner-perl-maven-numerical-operators">Numerical operators in Perl</a></li>
-      <li><a href="http://perlmaven.com/beginner-perl-maven-open-file">Open file in Perl</a></li>
-      <li><a href="http://perlmaven.com/beginner-perl-maven-while-loop">Perl while loop</a></li>
+      <li><a href="https://perlmaven.com/beginner-perl-maven-scalar-values-and-variables">Scalar values and variabels in Perl</a></li>
+      <li><a href="https://perlmaven.com/beginner-perl-maven-numerical-operators">Numerical operators in Perl</a></li>
+      <li><a href="https://perlmaven.com/beginner-perl-maven-open-file">Open file in Perl</a></li>
+      <li><a href="https://perlmaven.com/beginner-perl-maven-while-loop">Perl while loop</a></li>
     </ul>
   </li>
   <li>Ruby:
@@ -55,7 +55,7 @@ Some of the tools you might need to solve this exercise.
     
 <h2>Solutions</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers in a file</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers in a file</a></li>
   <li><a href="/sum-of-numbers-in-file-using-ruby">Ruby: sum of numbers in a file</a></li>
   <li><a href="/groovy-sum-of-numbers">Groovy: sum of numbers</a></li>
 </ul>

@@ -48,12 +48,12 @@ Bad selection
 
 <h2>Tools</h2>
 <ul>
-  <li><a href="http://perlmaven.com/perl-arrays">Arrays in Perl 5</a></li>
+  <li><a href="https://perlmaven.com/perl-arrays">Arrays in Perl 5</a></li>
 </ul>
 
 
 <h2>Solutions</h2>
 <ul>
-  <li><a href="http://perlmaven.com/beginner-perl-maven-array-indexes">Perl 5: Color selector, menu from array</a></li>
+  <li><a href="https://perlmaven.com/beginner-perl-maven-array-indexes">Perl 5: Color selector, menu from array</a></li>
 </ul>
 

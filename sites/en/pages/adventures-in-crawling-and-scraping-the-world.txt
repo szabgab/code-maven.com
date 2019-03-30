@@ -109,9 +109,9 @@ fetch http://example.com/abc instead?
   <li><a href="https://metacpan.org/pod/Mojo::UserAgent">Mojo::UserAgent</a> and <a href="http://blogs.perl.org/users/stas/2013/01/web-scraping-with-modern-perl-part-1.html">mojo-crawler</a> and <a href="https://gist.github.com/creaktive/4607326">yada-crawler</a></li>
   <li><a href="https://metacpan.org/pod/Scrappy">Scrappy</a></li>
   <li><a href="https://metacpan.org/pod/Web::Scraper">Web::Scraper</a></li>
-  <li><a href="http://perlmaven.com/pro/web-scraping-with-html-treebuilder">Web scraping with HTML::TreeBuilder</a></li>
-  <li><a href="http://perlmaven.com/simple-way-to-fetch-many-web-pages">A Simple way to download many web pages using Perl: LWP::Simple and HTTP::Tiny</a></li>
-  <li><a href="http://perlmaven.com/fetching-several-web-pages-in-parallel-using-anyevent">Fetching several web pages in parallel using AnyEvent</a></li>
+  <li><a href="https://perlmaven.com/pro/web-scraping-with-html-treebuilder">Web scraping with HTML::TreeBuilder</a></li>
+  <li><a href="https://perlmaven.com/simple-way-to-fetch-many-web-pages">A Simple way to download many web pages using Perl: LWP::Simple and HTTP::Tiny</a></li>
+  <li><a href="https://perlmaven.com/fetching-several-web-pages-in-parallel-using-anyevent">Fetching several web pages in parallel using AnyEvent</a></li>
 </ul>
 
 <h3>Ruby</h3>

@@ -52,7 +52,7 @@ that I add these files by mistake.
 Depending on your environment and your editor you might want to add other
 files and/or other expressions to the <hl>.gitignore</hl> file of your project.
 I have written an article explainig a bit more about
-<a href="http://perlmaven.com/dont-keep-generated-files-in-version-control">generated files and VCS-es</a>.
+<a href="https://perlmaven.com/dont-keep-generated-files-in-version-control">generated files and VCS-es</a>.
 Though that article has some Perl specific elements, it also provides some general explanation.
 In any case, GitHub maintains a <a href="https://github.com/github/gitignore">repository of gitignore files</a>
 for various languages, projects, editors and operating systems. That can be a useful starting point.
