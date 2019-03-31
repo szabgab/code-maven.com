@@ -13118,12 +13118,12 @@ div#notebook {
 <div class="text_cell_render border-box-sizing rendered_html">
 <h1 id="Applied-Imbalanced-Data-Solutions">Applied Imbalanced Data Solutions<a class="anchor-link" href="#Applied-Imbalanced-Data-Solutions">&#182;</a></h1><h4 id="What-Is-Imbalanced-Data?">What Is Imbalanced Data?<a class="anchor-link" href="#What-Is-Imbalanced-Data?">&#182;</a></h4><p>Imbalanced data is when the classes are not represented equally.
 One class has a lot more instances than the other class (or classes).</p>
-<p>A lot of real world datasets and problems don't have equal number of samples in each class. &lt;/br&gt;
+<p>A lot of real world datasets and problems don't have equal number of samples in each class.
 The most common example of an imbalanced problem is fraud detection where most of the data is not a fraud ...</p>
-<p>Imbalanced datasets can cause a lot of frustration. &lt;/br&gt;
+<p>Imbalanced datasets can cause a lot of frustration.
 In this blog post I'll show you some of the ways I deal with imbalanced datasets.</p>
-<h4 id="Which-dataset-are-we-going-to-use-?">Which dataset are we going to use ?<a class="anchor-link" href="#Which-dataset-are-we-going-to-use-?">&#182;</a></h4><p>We will use the <a href="https://www.kaggle.com/joniarroba/noshowappointments">"Medical Appointment No Shows" dataset from Kaggle</a>.&lt;/br&gt;
-This dataset includes 300k medical appointments and 15 variables (characteristics) of each appointment. &lt;/br&gt;
+<h4 id="Which-dataset-are-we-going-to-use-?">Which dataset are we going to use ?<a class="anchor-link" href="#Which-dataset-are-we-going-to-use-?">&#182;</a></h4><p>We will use the <a href="https://www.kaggle.com/joniarroba/noshowappointments">"Medical Appointment No Shows" dataset from Kaggle</a>.
+This dataset includes 300k medical appointments and 15 variables (characteristics) of each appointment.
 The goal is to predict if the patient is or isn't going to show-up.</p>
 <p>This blog's purpose is just to show how to handle imbalanced data, therefore I won't get into much data cleaning and feature engineering.</p>
 <p>We'll load some modules, load the data and initilize a first basic model.</p>
@@ -13391,7 +13391,7 @@ The goal is to predict if the patient is or isn't going to show-up.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This is looking as an imbalanced data indeed.&lt;/br&gt;
+<p>This is looking as an imbalanced data indeed.
 Almost 4 times more 'No' instances than 'Yes' ones.</p>
 
 </div>
@@ -13427,7 +13427,7 @@ Almost 4 times more 'No' instances than 'Yes' ones.</p>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>As I mentioned before, I'll first initilize a very simple model for demonstration purpose only. <br/>
+<p>As I mentioned before, I'll first initilize a very simple model for demonstration purpose only.
 So for now I'll drop date and categorical features, which would have required some feature extraction and engineering work.</p>
 <p>Let's see our data now:</p>
 
@@ -13655,7 +13655,7 @@ score on test set: 0.7980602200347423
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>At first glance this is looking like a very good score for this pretty simple model and data.<br/>
+<p>At first glance this is looking like a very good score for this pretty simple model and data.
 Let's look at the classification report to see the scores for each class.</p>
 
 </div>
@@ -13703,14 +13703,14 @@ weighted avg       0.64      0.80      0.71     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>After this further look you can see this is a very bad.<br/>
-Althogh we got almost 80% accuracy score we actually have a model which isn't that smart (and not that good).&lt;/br&gt;
+<p>After this further look you can see this is a very bad.
+Althogh we got almost 80% accuracy score we actually have a model which isn't that smart (and not that good).
 <strong>It always predicts a show-up</strong> ("No" means the person did show to the appointment).</p>
-<p>The test data contains of 27631 samples, 5579 (~20%) samples are 'Yes' and the rest (~80%) are 'No'.&lt;/br&gt;
+<p>The test data contains of 27631 samples, 5579 (~20%) samples are 'Yes' and the rest (~80%) are 'No'.
 The model predicts 'No' all the time, and this is why we have 100% recall and only 80% precision scores.</p>
-<p>This model won't achieve our goal and help us predict if the patient is or isn't going to show-up.&lt;/br&gt;
+<p>This model won't achieve our goal and help us predict if the patient is or isn't going to show-up.
 The model will always say the patient is going to show, no matter what is the data.</p>
-<p><strong>This is a great example why the simple accuracy score evaluating matrix is not always good.</strong>&lt;/br&gt;
+<p><strong>This is a great example why the simple accuracy score evaluating matrix is not always good.</strong>
 In this types of problems accuracy score won't give you a good evaluation of your model.</p>
 
 </div>
@@ -13720,7 +13720,7 @@ In this types of problems accuracy score won't give you a good evaluation of you
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <p>There are some possible ways to deal with this imbalanced problem. The two main ways are:</p>
-<p>1) Resample your data.<br/>
+<p>1) Resample your data.
 2) Give weights to samples/classes in your data.</p>
 
 </div>
@@ -13729,18 +13729,18 @@ In this types of problems accuracy score won't give you a good evaluation of you
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="1)-Resample-your-data">1) Resample your data<a class="anchor-link" href="#1)-Resample-your-data">&#182;</a></h3><p>Resample your data is basically over-sampling or under-sampling your training data. &lt;/br&gt;
-<strong>Over-sampling</strong> is the process of <strong>adding or duplicating</strong> one (or more) class' data points in order to balance the ratio between class distributions in a data set.&lt;/br&gt;
-<strong>Under-sampling</strong> is the process of <strong>removing</strong> one (or more) class' data points in order to balance the ratio between class distributions in a data set.&lt;/br&gt;
-<a href="https://en.wikipedia.org/wiki/Oversampling_and_undersampling_in_data_analysis">You can read more about these techniques here</a>&lt;/br&gt;
+<h3 id="1)-Resample-your-data">1) Resample your data<a class="anchor-link" href="#1)-Resample-your-data">&#182;</a></h3><p>Resample your data is basically over-sampling or under-sampling your training data.
+<strong>Over-sampling</strong> is the process of <strong>adding or duplicating</strong> one (or more) class' data points in order to balance the ratio between class distributions in a data set.
+<strong>Under-sampling</strong> is the process of <strong>removing</strong> one (or more) class' data points in order to balance the ratio between class distributions in a data set.
+<a href="https://en.wikipedia.org/wiki/Oversampling_and_undersampling_in_data_analysis">You can read more about these techniques here</a>
 I'll show you the basic ways of oversampling and undersampling, as well as a synthetic way of doing so.</p>
-<h4 id="How-Do-I-Choose-between-over-and-under-sampling?">How Do I Choose between over and under sampling?<a class="anchor-link" href="#How-Do-I-Choose-between-over-and-under-sampling?">&#182;</a></h4><p><span style="color:green"> The Oversampling's plus is using all the variety of the data and not losing any sample.</span>&lt;/br&gt;
+<h4 id="How-Do-I-Choose-between-over-and-under-sampling?">How Do I Choose between over and under sampling?<a class="anchor-link" href="#How-Do-I-Choose-between-over-and-under-sampling?">&#182;</a></h4><p><span style="color:green"> The Oversampling's plus is using all the variety of the data and not losing any sample.</span>
 <span style="color:red">It's downside is increasing the number of samples, which can make some algorithms slower.</span></p>
-<p><span style="color:green">The Undersampling's plus is by decreasing the number of samples which can yield faster running algorithms.</span>&lt;/br&gt;
+<p><span style="color:green">The Undersampling's plus is by decreasing the number of samples which can yield faster running algorithms.</span>
 <span style="color:red">It's downside is losing some of the data's variety, which in some cases can damage the results.</span></p>
-<p>In my opinion the best way is to do <strong>both</strong> over and under sampling at the same time.&lt;/br&gt;
-By this I mean undersample a bit from the majority class but don't compare the ratio with the minority class, and oversample the minority class a bit but not to much as well.&lt;/br&gt;</p>
-<h4 id="Oversample">Oversample<a class="anchor-link" href="#Oversample">&#182;</a></h4><p>Oversample only on the train data and predict on the imbalanced test data.&lt;/br&gt;
+<p>In my opinion the best way is to do <strong>both</strong> over and under sampling at the same time.
+By this I mean undersample a bit from the majority class but don't compare the ratio with the minority class, and oversample the minority class a bit but not to much as well.</p>
+<h4 id="Oversample">Oversample<a class="anchor-link" href="#Oversample">&#182;</a></h4><p>Oversample only on the train data and predict on the imbalanced test data.
 We would basically duplicate some of the data - simple as that.</p>
 
 </div>
@@ -13824,7 +13824,7 @@ weighted avg       0.72      0.63      0.66     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>This is way better.<br/>
+<p>This is way better.
 We can see we have a lower score on the "No" recall but a better score on the overall "Yes" predictions.</p>
 
 </div>
@@ -13833,7 +13833,7 @@ We can see we have a lower score on the "No" recall but a better score on the ov
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Undersample">Undersample<a class="anchor-link" href="#Undersample">&#182;</a></h4><p>Undersample only on the train data and predict on the imbalanced test data. <br/>
+<h4 id="Undersample">Undersample<a class="anchor-link" href="#Undersample">&#182;</a></h4><p>Undersample only on the train data and predict on the imbalanced test data.
 We would basically drop some of the data - again, simple as that.</p>
 
 </div>
@@ -13930,7 +13930,7 @@ weighted avg       0.72      0.64      0.67     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In this case the oversampling and the undersampling were almost the same. &lt;/br&gt;</p>
+<p>In this case the oversampling and the undersampling were almost the same.</p>
 
 </div>
 </div>
@@ -13938,10 +13938,10 @@ weighted avg       0.72      0.64      0.67     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h4 id="Synthetic-Minority-Over-sampling-Technique-(SMOTE)">Synthetic Minority Over-sampling Technique (SMOTE)<a class="anchor-link" href="#Synthetic-Minority-Over-sampling-Technique-(SMOTE)">&#182;</a></h4><p>This is basically generating more samples from the minority class. <br/>
-The SMOTE algorithm is based on the K-nearest neighbors technique.<br/>
+<h4 id="Synthetic-Minority-Over-sampling-Technique-(SMOTE)">Synthetic Minority Over-sampling Technique (SMOTE)<a class="anchor-link" href="#Synthetic-Minority-Over-sampling-Technique-(SMOTE)">&#182;</a></h4><p>This is basically generating more samples from the minority class.
+The SMOTE algorithm is based on the K-nearest neighbors technique.
 Creating additional data points close to the minority class.</p>
-<p>We will use the SMOTE algorithm by using the <a href="http://contrib.scikit-learn.org/imbalanced-learn/stable/">imbalanced-learn/imblearn module</a>.&lt;/br&gt;
+<p>We will use the SMOTE algorithm by using the <a href="http://contrib.scikit-learn.org/imbalanced-learn/stable/">imbalanced-learn/imblearn module</a>.
 This module has a lot of intresting methods. We will start with the "SMOTE" method under "over_sampling".</p>
 
 </div>
@@ -13966,7 +13966,7 @@ This module has a lot of intresting methods. We will start with the "SMOTE" meth
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We used the the default parameters of the "SMOTE" method.&lt;/br&gt;
+<p>We used the the default parameters of the "SMOTE" method.
 Of course changing these parameters can yield better results.</p>
 <p>Let's see how the "SMOTE" method changed the distribution of our train data:</p>
 
@@ -14055,7 +14055,7 @@ weighted avg       0.72      0.64      0.67     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>The default parameters of the "SMOTE" had the same results as the simple oversampling in this case.<br/>
+<p>The default parameters of the "SMOTE" had the same results as the simple oversampling in this case.
 I'll recommend changing the "SMOTE" parameters and maybe using other methods from this <a href="https://pypi.org/project/imblearn/">imblearn</a> module.</p>
 
 </div>
@@ -14064,9 +14064,9 @@ I'll recommend changing the "SMOTE" parameters and maybe using other methods fro
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="2)-Give-weights-to-samples/classes-in-your-data.">2) Give weights to samples/classes in your data.<a class="anchor-link" href="#2)-Give-weights-to-samples/classes-in-your-data.">&#182;</a></h3><h4 id="Sample-&amp;-Class-Weight">Sample &amp; Class Weight<a class="anchor-link" href="#Sample-&amp;-Class-Weight">&#182;</a></h4><p>Sample-Weights is an array of weights that are assigned to individual samples.<br/>
+<h3 id="2)-Give-weights-to-samples/classes-in-your-data.">2) Give weights to samples/classes in your data.<a class="anchor-link" href="#2)-Give-weights-to-samples/classes-in-your-data.">&#182;</a></h3><h4 id="Sample-&amp;-Class-Weight">Sample &amp; Class Weight<a class="anchor-link" href="#Sample-&amp;-Class-Weight">&#182;</a></h4><p>Sample-Weights is an array of weights that are assigned to individual samples.
 This array tells the classifier which samples should have more influence on the predictions.</p>
-<p>We use Sample-Weight in the same way on samples from the same class, so in our case it's more like Class-Weight.<br/>
+<p>We use Sample-Weight in the same way on samples from the same class, so in our case it's more like Class-Weight.
 Higher Class-Weight/Sample-Weight means you want to put more emphasis on this class/sample.</p>
 <p><strong>Sample-Weight and Class-Weight give weights to a sample/class to use a modified loss function.</strong></p>
 
@@ -14090,8 +14090,8 @@ Higher Class-Weight/Sample-Weight means you want to put more emphasis on this cl
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>You can compute sample-weights by using the "utils" sub-module of Sklearn.<br/>
-The function above, computes the same sample-weight for each class instance, so it would be same as class-weight.<br/>
+<p>You can compute sample-weights by using the "utils" sub-module of Sklearn.
+The function above, computes the same sample-weight for each class instance, so it would be same as class-weight.
 The “balanced” mode uses the values of y to automatically adjust weights inversely proportional to class frequencies in the input data.</p>
 <p>The sample-weights array go to the 'fit' method.</p>
 
@@ -14145,7 +14145,7 @@ weighted avg       0.72      0.64      0.67     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>In some of Sklearn's algorithms you can pass a "class-weight" parameter instead of computing it as I just showed you.&lt;/br&gt;
+<p>In some of Sklearn's algorithms you can pass a "class-weight" parameter instead of computing it as I just showed you.
 Let's see an example of that:</p>
 
 </div>
@@ -14198,7 +14198,7 @@ weighted avg       0.72      0.64      0.67     27632
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>Same scores for sample and class weights.<br/>
+<p>Same scores for sample and class weights.
 In this case the scores are very similar to the manual over/under sampling as well.</p>
 
 </div>
