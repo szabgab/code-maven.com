@@ -45,3 +45,14 @@ In the opening of each `<entry>` we write the timestamp of when it starts in the
 and then the nickname of the person who speaks.
 
 
+## Convert Jupyter notebooks:
+
+```
+ipython nbconvert --to html ../kaggle-NoShowAppointments/No-show_unbalanced_data.ipynb
+mv ../kaggle-NoShowAppointments/No-show_unbalanced_data.html static/html/no-show-unbalanced-data.html
+
+```
+
+Then create a regular article that links to that page.
+
+
