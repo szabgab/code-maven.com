@@ -1,0 +1,28 @@
+
+
+def checkout_from_reference(commit) {
+    def reponame = 'code-maven'
+    def repo_url = "git@bitbucket.org:USER/${reponame}.git"
+
+    echo "Checkout SHA from reference $commit"
+    checkout([
+        $class: 'GitSCM',
+        branches: [[name: commit]],
+        doGenerateSubmoduleConfigurations: false,
+        extensions: [
+            [$class: 'RelativeTargetDirectory', relativeTargetDir: reponame],
+            [$class: 'CloneOption', reference: "/opt/${reponame}"]
+        ],
+        submoduleCfg: [],
+        userRemoteConfigs: [
+            [credentialsId: 'jenkins-git-credentials', url: repo_url]
+        ]
+    ])
+    // just to show we are in the right commit:
+    dir(reponame) {
+        sh(script: "git rev-parse HEAD")
+    }
+}
+
+
+
