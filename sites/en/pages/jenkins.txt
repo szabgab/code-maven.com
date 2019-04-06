@@ -257,9 +257,9 @@ httpRequest authentication: 'df8-b86d-3272', consoleLogResponseBody: true, httpM
 
 <h2>Scripts</h2>
 
-<b>Scripts not permitted to use method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object
+<strong>Scripts not permitted to use method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object
 (org.jenkinsci.plugins.workflow.cps.EnvActionImpl keys). Administrators can decide whether to approve or reject this
-signature.</b>
+signature.</strong>
 
 
 <h2>archiveArtifacts can be called multiple times</h2>
