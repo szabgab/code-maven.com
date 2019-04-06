@@ -32,7 +32,7 @@ Then, when we wanted to clone the repository we had code like this:
 
 <include file="examples/jenkins/clone_using_reference.jenkinsfile">
 
-This function can get a <b>sha1</b> or a name of a <b>branch<b> to check out.
+This function can get a <b>sha1</b> or a name of a <b>branch</b> to check out.
 
 Internally it has two variables <b>reponame</b> is the short name of the repository.
 <b>repo_url</b> is the URL to the original repository. In this case it was in bitbucket.
