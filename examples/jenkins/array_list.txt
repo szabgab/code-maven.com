@@ -1,0 +1,12 @@
+try {
+   List<String> subnets = new ArrayList<String>()
+   def subnetsRaw = "gcloud compute networks subnets list --project=${GCE_PROJECT} --network=corp-development --format=(NAME)".execute().text
+   for (subnet in  subnetsRaw.split()) {
+       subnets.add(subnet)
+   }
+   return subnets
+} catch (Exception e) {
+   print e
+   print "There was a problem fetching the artifacts"
+}
+

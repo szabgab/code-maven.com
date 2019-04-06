@@ -1,0 +1,36 @@
+java.io.IOException: Failed to mkdirs: /tmp@tmp/durable-e569697c
+        at hudson.FilePath.mkdirs(FilePath.java:1170)
+        at org.jenkinsci.plugins.durabletask.FileMonitoringTask$FileMonitoringController.<init>(FileMonitori
+ngTask.java:156)
+        at org.jenkinsci.plugins.durabletask.BourneShellScript$ShellController.<init>(BourneShellScript.java
+:198)
+        at org.jenkinsci.plugins.durabletask.BourneShellScript$ShellController.<init>(BourneShellScript.java
+:190)
+        at org.jenkinsci.plugins.durabletask.BourneShellScript.launchWithCookie(BourneShellScript.java:111)
+        at org.jenkinsci.plugins.durabletask.FileMonitoringTask.launch(FileMonitoringTask.java:86)
+        at org.jenkinsci.plugins.workflow.steps.durable_task.DurableTaskStep$Execution.start(DurableTaskStep
+.java:182)
+        at org.jenkinsci.plugins.workflow.cps.DSL.invokeStep(DSL.java:229)
+        at org.jenkinsci.plugins.workflow.cps.DSL.invokeMethod(DSL.java:153)
+        at org.jenkinsci.plugins.workflow.cps.CpsScript.invokeMethod(CpsScript.java:122)
+        at sun.reflect.GeneratedMethodAccessor1989.invoke(Unknown Source)
+        at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+        at java.lang.reflect.Method.invoke(Method.java:498)
+        at org.codehaus.groovy.reflection.CachedMethod.invoke(CachedMethod.java:93)
+        at groovy.lang.MetaMethod.doMethodInvoke(MetaMethod.java:325)
+        at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1213)
+        at groovy.lang.MetaClassImpl.invokeMethod(MetaClassImpl.java:1022)
+        at org.codehaus.groovy.runtime.callsite.PogoMetaClassSite.call(PogoMetaClassSite.java:42)
+        at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCall(CallSiteArray.java:48)
+        at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:113)
+        at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:157)
+        at org.kohsuke.groovy.sandbox.GroovyInterceptor.onMethodCall(GroovyInterceptor.java:23)
+        at org.jenkinsci.plugins.scriptsecurity.sandbox.groovy.SandboxInterceptor.onMethodCall(SandboxInterc
+eptor.java:133)
+        at org.kohsuke.groovy.sandbox.impl.Checker$1.call(Checker.java:155)
+        at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:159)
+        at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)
+        at org.kohsuke.groovy.sandbox.impl.Checker.checkedCall(Checker.java:129)
+        at com.cloudbees.groovy.cps.sandbox.SandboxInvoker.methodCall(SandboxInvoker.java:17)
+        at WorkflowScript.run(WorkflowScript:16)
+
