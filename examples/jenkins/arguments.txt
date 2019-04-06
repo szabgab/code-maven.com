@@ -1,0 +1,3 @@
+<arguments>-Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle  -Dmail.smtp.starttls.enable=true -jar
+"%BASE%\jenkins.war" --httpPort=8080 --webroot="%BASE%\war"</arguments>
+

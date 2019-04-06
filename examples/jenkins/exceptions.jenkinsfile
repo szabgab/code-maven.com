@@ -1,0 +1,45 @@
+pipeline {
+   agent none
+   options {
+       ansiColor('xterm')
+       timestamps()
+   }
+   parameters {
+       string(name: 'machine', defaultValue: 'asos', description: 'Some text input')
+       string(name: 'size',   defaultValue: '23', description: 'Some number input')
+   }
+   environment {
+       answer = 42
+       // machine_name = params.machine  // -> Environment variable values must either be single quoted, double quoted, or function calls.
+       machine_name = set_machine_name(params.machine)
+   }
+   stages {
+       stage('try') {
+           agent { label 'master' }
+           steps {
+               script {
+                   sh "hostname"
+                   print("params.machine=${params.machine}")
+                   print("params.size=${params.size}")
+                   print("env.answer=${env.answer}")
+                   print("env.machine_name=${env.machine_name}")
+
+               }
+           }
+       }
+       stage('try-agent') {
+           agent { label 'jenkins-simple-slave' }
+           steps {
+               script {
+                   sh "hostname"
+               }
+           }
+       }
+   }
+}
+
+def set_machine_name(value) {
+   return value
+}
+
+

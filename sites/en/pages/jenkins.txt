@@ -276,50 +276,7 @@ archiveArtifacts artifacts: '*.log', onlyIfSuccessful: true
 They cannot be earlier defined environment variables or parameter values.
 We can however overcome this limitation by calling a function and passing the values to it.
 
-pipeline {
-   agent none
-   options {
-       ansiColor('xterm')
-       timestamps()
-   }
-   parameters {
-       string(name: 'machine', defaultValue: 'asos', description: 'Some text input')
-       string(name: 'size',   defaultValue: '23', description: 'Some number input')
-   }
-   environment {
-       answer = 42
-       // machine_name = params.machine  // -> Environment variable values must either be single quoted, double quoted, or function calls.
-       machine_name = set_machine_name(params.machine)
-   }
-   stages {
-       stage('try') {
-           agent { label 'master' }
-           steps {
-               script {
-                   sh "hostname"
-                   print("params.machine=${params.machine}")
-                   print("params.size=${params.size}")
-                   print("env.answer=${env.answer}")
-                   print("env.machine_name=${env.machine_name}")
-
-               }
-           }
-       }
-       stage('try-agent') {
-           agent { label 'jenkins-simple-slave' }
-           steps {
-               script {
-                   sh "hostname"
-               }
-           }
-       }
-   }
-}
-
-def set_machine_name(value) {
-   return value
-}
-
+<include file="examples/jenkins/exceptions.jenkinsfile">
 
 <h2>Jenkins environment</h2>
 
@@ -354,7 +311,7 @@ for (item in config.sources) {
 https://stackoverflow.com/questions/20188456/how-to-change-the-security-type-from-ssl-to-tls-in-jenkins
 
 * Sending e-mail
- In Manage Jenkins -> Configure System in the
+ In Manage Jenkins - Configure System in the
     Extended mail section set the
        SMTP:  smtp.office365.com
        Domain name: @company.com
@@ -373,8 +330,9 @@ https://stackoverflow.com/questions/20188456/how-to-change-the-security-type-fro
  Shut down Jenkins (via the Windows services)
  Open the file: C:\Program Files (x86)\Jenkins\jenkins.xml
  and change the arguments line to be:
- <arguments>-Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle  -Dmail.smtp.starttls.enable=true -jar
-"%BASE%\jenkins.war" --httpPort=8080 --webroot="%BASE%\war"</arguments>
+
+<include file="examples/jenkins/arguments.txt">
+
  (specifically add:  -Dmail.smtp.starttls.enable=true  )
  Then start Jenkins again.
 
@@ -393,8 +351,7 @@ Error sending to the following VALID addresses
 
 Jenkins pipeline stop early with success
 How to indicate that a job is successful
-<a href="https://stackoverflow.com/questions/37690920/jenkins-pipeline-conditional-step-stage">pipeline conditional step
-stage</a>
+<a href="https://stackoverflow.com/questions/37690920/jenkins-pipeline-conditional-step-stage">pipeline conditional step stage</a>
 
 <include file="examples/jenkins/skip_step.Jenkinsfile">
 

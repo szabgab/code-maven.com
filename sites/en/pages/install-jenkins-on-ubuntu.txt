@@ -52,14 +52,7 @@ vagrant ssh
 
 Execute the following commands inside the VirtualBox image (after you ran <hl>vagrant ssh</hl> and were logged in to the Virtual Box).
 
-<code>
-sudo apt-get update
-sudo apt-get -y upgrade
-wget -q -O - https://pkg.jenkins.io/debian-stable/jenkins.io.key | sudo apt-key add -
-echo "deb https://pkg.jenkins.io/debian-stable binary/" | sudo tee -a  /etc/apt/sources.list > /dev/null
-sudo apt-get update
-sudo apt-get install -y jenkins
-</code>
+<include file="examples/jenkins/sudo.txt">
 
 <h2>Check if Vagrant is running</h2>
 

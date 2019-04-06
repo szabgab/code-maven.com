@@ -18,7 +18,7 @@ In this example first we use the internal <hl>echo</hl> command of Jenkins.
 
 Then we call <hl>sh</hl> and run the <hl>echo</hl> of our Unix shell.
 
-Then we execute the <hl>hostname</hl> command and finally the </hl>uptime</hl> command.
+Then we execute the <hl>hostname</hl> command and finally the <hl>uptime</hl> command.
 
 =abstract end
 
