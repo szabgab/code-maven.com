@@ -1,0 +1,24 @@
+        stage('second') {
+            steps {
+                script {
+                    if (manager.logContains("three")) {
+                        manager.addWarningBadge("drei")
+                    } else {
+                        manager.addWarningBadge("kein drei")
+                    }
+                }
+            }
+        }
+
+
+         print("A disk image was created: zorg-1552278641")
+
+         def matcher = manager.getLogMatcher(/.* (zorg-\d+).*/)
+         print(matcher)
+         if (matcher?.matches()) {
+             def image_name = matcher.group(1)
+             print(image_name)
+             manager.addShortText(image_name)
+         }
+
+

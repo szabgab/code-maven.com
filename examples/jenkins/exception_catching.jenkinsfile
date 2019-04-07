@@ -1,0 +1,69 @@
+pipeline {
+    agent { label 'master' }
+    stages {
+        stage('only') {
+            steps {
+                script {
+                    println("one")
+                    sh "ls -l"
+                    println("two")
+
+                    try {
+                        //sh "ls -l no_such"
+                        a = 10
+                        b = 0
+                        c = a/b
+
+                    }
+                    catch(Exception ex) {
+                         //currentBuild.result = 'FAILURE'
+                        println("exception")
+                        println(ex) // hudson.AbortException: script returned exit code 2
+                        println(ex.toString())
+                        println(ex.getMessage())
+                        println(ex.getStackTrace())
+                    }
+
+                    //} catch(ArrayIndexOutOfBoundsException ex) {
+                    //println("Catching the Array out of Bounds exception");
+                    //}catch(Exception ex) {
+
+                    println("three")
+                    is_it_the_answer(42)
+                    echo "try again"
+                    is_it_the_answer(23)
+                }
+            }
+        }
+        stage('second') {
+            steps {
+                script {
+//                    if (manager.logContains("three")) {
+//                        manager.addWarningBadge("tres")
+//                    } else {
+//                        manager.addWarningBadge("nem harom")
+//                    }
+
+                }
+            }
+        }
+    }
+}
+
+def is_it_the_answer(n) {
+    if (n == 42) {
+        return 'yes'
+    }
+    throw new Exception('Nope')
+}
+
+
+                    try {
+                        is_it_the_answer(23)
+                    } catch (err) {
+                        print(err)
+                        print(err.getMessage())
+                    }
+
+
+

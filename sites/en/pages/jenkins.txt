@@ -394,4 +394,21 @@ In a pipeline
 https://cleverbuilder.com/articles/jenkins-shared-library/
 https://jenkins.io/doc/book/pipeline/shared-libraries/
 
+<h2>Exceptions</h2>
+
+When you encounter one of those 40-lines long Java stack-traces, look for <b>WorkflowScript</b> to locate the source of the problem.
+
+<include file="examples/jenkins/exception_catching.jenkinsfile">
+
+<h2>Jenkins parse console output</h2>
+
+
+The <b>logContains</b> can parse the log created be the previous stages (but not the current stage)
+It can also be used in a post-action.
+
+"manager" is org.jvnet.hudson.plugins.groovypostbuild.GroovyPostbuildRecorder$BadgeManager@41fe3861
+
+<a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin">Postbuild plugin</a>
+
+<include file="examples/jenkins/parse_console_output.jenkinsfile">
 
