@@ -379,6 +379,15 @@ This can be a problem if for some reason your have hundreds or thousands of hist
 You can limit this by selecting another option and setting the ancestry date to limit how many days
 you are ready to go back in time.
 
+<ul>
+    <li>Strategy for choosing what to build</li>
+    <li>Choosing strategy: Ancestry</li>
+    <li>Maximum Age of Commit: 1</li>
+</ul>
+
+In a pipeline
+
+<include file="examples/jenkins/branch_filter_age_limit.jenkinsfile">
 
 <h2>Jenkins Pipeline code reuse</h2>
 

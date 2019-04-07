@@ -1,0 +1,12 @@
+
+checkout([
+    $class: 'GitSCM',
+    branches: [[name: '*/master']],
+    doGenerateSubmoduleConfigurations: false,
+    extensions: [[
+        $class: 'BuildChooserSetting',
+        buildChooser: [$class: 'AncestryBuildChooser', ancestorCommitSha1: '', maximumAgeInDays: 1]
+    ]],
+    submoduleCfg: [],
+    userRemoteConfigs: [[]]
+])
