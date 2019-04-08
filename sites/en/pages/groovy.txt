@@ -47,6 +47,8 @@ My primary reason for looking into it is that it is the language used for the <a
   <li><a href="/groovy-string-length">String length</a></li>
   <li><a href="/groovy-substring">Substring</a></li>
   <li><a href="/groovy-for-loop-break-continue">for loop - break - continue</a></li>
+  <li><a href="/groovy-code-reuse">Groovy code reuse</a></li>
+  <li><a href="/groovy-functions">Groovy functions</a></li>
 </ul>
 
 <h2>Other resources</h2>

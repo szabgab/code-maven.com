@@ -1,0 +1,33 @@
+=title Groovy code reuse
+=timestamp 2019-04-08T20:30:01
+=indexes Groovy
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In programming we care a lot about code reuse. Partly bacause we are lazy and we don't want to write the same code
+twice. Partially because we know that we will find bugs in our code and we'll need to fix them.
+If we have written the same code twice we now will have to fix the same problem in two places.
+Knowing how bad we are in tracking our code we will surelly forget some of the copies.
+
+So here are a number of ways how you can reuse code in <a href="/groovy">Groovy</a>.
+
+
+=abstract end
+
+<ul>
+    <li><a href="/groovy-functions">Groovy Functions</a>. Insides the same file we can create functions and call them from various places in the file. See also
+<a href="/groovy-return-multiple-values-from-function">Return multiple values from a function</a></li>
+    <li>Classes provide a better abstraction of certain functionality in our code. Given a class we can create several
+instances that will all have the same behavior. In this example we are still restricted to a single file.</li>
+    <li><a href="/groovy-import-functions-from-another-file">Import and reused functions.</a> We can import functions from other files allowing us to reuse the same functions in several
+places. Also allowing us to distribute our functions and let other use them as well. Either within the organization or
+maybe even outside of it.</li>
+    <li>Import variables (or constants). Same as importing functions.</li>
+    <li>Import class. Like importing functions, but provide whole classes.</li>
+</ul>
+
