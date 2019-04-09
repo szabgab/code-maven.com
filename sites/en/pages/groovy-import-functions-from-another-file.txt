@@ -60,3 +60,20 @@ This is the script:
 
 <include file="examples/groovy/b/tools/other.groovy">
 
+
+<h2>Import static methods from a class</h2>
+
+This is probably the version most similar to importing individual functions.
+
+
+<include file="examples/groovy/d/main.groovy">
+
+<include file="examples/groovy/d/tools.groovy">
+
+<h2>Import static methods from a class from a subdirectory</h2>
+
+<include file="examples/groovy/e/main.groovy">
+
+<include file="examples/groovy/e/some/other/Tools.groovy">
+
+
