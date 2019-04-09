@@ -1,14 +1,19 @@
-=title Bash: while loop
-=timestamp 2019-03-26T08:30:01
-=indexes CodeMaven
-=status draft
-=books bash, while
+=title Bash: while loop - break - continue
+=timestamp 2019-04-09T14:40:01
+=indexes while, break, continue
+=status show
+=books bash
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
+
 =abstract end
 
-<include file="">
+<include file="examples/shell/while_loop.sh">
+
+<include file="examples/shell/while_loop_break.sh">
+
+<include file="examples/shell/while_loop_continue.sh">
 
