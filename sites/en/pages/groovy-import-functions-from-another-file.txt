@@ -45,3 +45,18 @@ This is the script:
 
 <include file="examples/groovy/class_script.gvy">
 
+<h2>Importing class methods</h2>
+
+
+<include file="examples/groovy/a/main.groovy">
+
+<include file="examples/groovy/a/tools.groovy">
+
+
+<h2>Import class from a subdirectory</h2>
+
+
+<include file="examples/groovy/b/main.groovy">
+
+<include file="examples/groovy/b/tools/other.groovy">
+
