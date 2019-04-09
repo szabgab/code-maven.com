@@ -1,0 +1,8 @@
+; For Mailgun:
+mg                  3600 IN TXT    "v=spf1 include:mailgun.org ~all"
+mx._domainkey.mg    3600 IN TXT    ("v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDKPkTXnvRQ6KIc0sA3FOZea5nunP3FhJVp6JKDkt7pqo5mtduiA/tN6E7OrE8rzgrWI50+DVYSMwxfOb5d9WLhwVlVc20dFM4ibTkcYNwDsZtPZHIbYpV/3hMjKIyZ1pauAmU05Lp0dtjf9vucIfdu4ysFol2rdenRNTt1Z+WwVwIDAQAB");
+
+mg   3600   IN   MX    10    mxa.mailgun.org.
+mg   3600   IN   MX    10    mxb.mailgun.org.
+email.mg   3600   IN   CNAME  mailgun.org.
+
