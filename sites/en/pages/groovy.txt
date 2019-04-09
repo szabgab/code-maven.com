@@ -51,6 +51,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-for-loop-break-continue">for loop - break - continue</a></li>
   <li><a href="/groovy-code-reuse">Groovy code reuse</a></li>
   <li><a href="/groovy-functions">Groovy functions</a></li>
+  <li><a href="/groovy-evaluate-code-in-other-files">Groovy: evaluate code in another file</a></li>
 </ul>
 
 <h2>Other resources</h2>

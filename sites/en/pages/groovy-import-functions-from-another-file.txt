@@ -9,11 +9,11 @@
 
 =abstract start
 
-Code reuse is an important part of programming. The smallest possible way is to create functions and call them
+<a href="/groovy-code-reuse">Code reuse</a> is an important part of programming. The smallest possible way is to create functions and call them
 several times in the same code. The next step is to have a set of functions in a file and use those functions in
 several other files.
 
-In this example we see how to do that with simple functions.
+In these examples we see how to do that with simple functions and methods of classes.
 
 =abstract end
 
