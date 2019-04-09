@@ -14,6 +14,8 @@ that seems to allow developers to be a lot more productive than using Java.
 
 My primary reason for looking into it is that it is the language used for the <a href="https://jenkins.io/">Jenkins</a> Pipelines.
 
+Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy book</a>.
+
 =abstract end
 
 <h2>Articles</h2>
