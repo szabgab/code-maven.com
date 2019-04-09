@@ -55,6 +55,7 @@ Articles about Python
   <li><a href="/rpc-with-python-using-rpyc">RPC with Python using RPyC</a></li>
   <li><a href="/fermat-primality-test">Fermat primality test</a></li>
   <li><a href="/python-uuid">Python UUID - Universally unique identifier</a></li>
+  <li><a href="/python-time-left">Time left in process (progress bar) in Python</a></li>
 </ul>
 
 <h2>Python Testing</h2>
