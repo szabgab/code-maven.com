@@ -54,7 +54,7 @@ Articles about Python
   <li><a href="/python-postgresql">Python and PostgreSQL</a></li>
   <li><a href="/rpc-with-python-using-rpyc">RPC with Python using RPyC</a></li>
   <li><a href="/fermat-primality-test">Fermat primality test</a></li>
-
+  <li><a href="/python-uuid">Python UUID - Universally unique identifier</a></li>
 </ul>
 
 <h2>Python Testing</h2>
@@ -69,6 +69,7 @@ Articles about Python
   <li><a href="/mocking-input-and-output-for-python-testing">Mocking input and output for Python testing</a></li>
   <li><a href="/testing-random-numbers-in-python">Testing random numbers in Python using mocks</a></li>
   <li><a href="/python-fixing-random-numbers-for-testing">Fixing random numbers for testing</a></li>
+  <li><a href="/pytest-fixtures-temporary-directory">Python: PyTest fixtures - temporary directory - tmpdir</a></li>
 </ul>
 
 Find additional Python-related articels in the <a href="/flask">Flask</a> series.
