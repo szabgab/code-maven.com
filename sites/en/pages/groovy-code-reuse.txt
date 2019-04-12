@@ -22,7 +22,7 @@ So here are a number of ways how you can reuse code in <a href="/groovy">Groovy<
 <ul>
     <li><a href="/groovy-functions">Groovy Functions</a>. Insides the same file we can create functions and call them from various places in the file. See also
 <a href="/groovy-return-multiple-values-from-function">Return multiple values from a function</a></li>
-    <li>Classes provide a better abstraction of certain functionality in our code. Given a class we can create several
+    <li><a href="/groovy-classes">Groovy classes</a> provide a better abstraction of certain functionality in our code. Given a class we can create several
 instances that will all have the same behavior. In this example we are still restricted to a single file.</li>
     <li><a href="/groovy-import-functions-from-another-file">Import and reused functions.</a> We can import functions from other files allowing us to reuse the same functions in several
 places. Also allowing us to distribute our functions and let other use them as well. Either within the organization or
