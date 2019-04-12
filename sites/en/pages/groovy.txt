@@ -54,6 +54,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-evaluate-code-in-other-files">Groovy: evaluate code in another file</a></li>
   <li><a href="/groovy-classes">Groovy classes</a></li>
   <li><a href="/groovy-function-overloading">Groovy function overloading</a></li>
+  <li><a href="/groovy-variable-scope">Groovy variable scope</a> (def)</li>
 </ul>
 
 <h2>Other resources</h2>
