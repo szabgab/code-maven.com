@@ -1,0 +1,16 @@
+=title Groovy file and directory attributes
+=timestamp 2019-04-16T15:50:01
+=indexes File, canExecute, isFile, isDirectory
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/groovy/file.groovy">
+
+See also <a href="https://docs.oracle.com/javase/9/docs/api/java/io/File.html">File</a>
+
