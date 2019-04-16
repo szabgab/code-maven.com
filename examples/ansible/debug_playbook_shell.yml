@@ -1,0 +1,26 @@
+---
+- name: Everything
+  hosts: localhost
+  tasks:
+      #- name: run shell command
+      #- shell: hostname
+    - debug: msg="hello world"
+
+    - debug:
+        msg: "one two"
+
+    - shell: hostname
+      register: hostname
+    - debug:
+        var: hostname
+
+
+    - debug:
+        msg: "This is hostname: {{ hostname.stdout_lines[0] }}"
+
+    - shell: |
+        hostname
+        whoami
+      register: res
+    - debug:
+        var: res

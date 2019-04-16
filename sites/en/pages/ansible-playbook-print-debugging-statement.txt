@@ -114,3 +114,8 @@ PLAY RECAP *********************************************************************
 
 </code>
 
+
+<h2>Print results of shell commands</h2>
+
+<include file="examples/ansible/debug_playbook_shell.yml">
+
