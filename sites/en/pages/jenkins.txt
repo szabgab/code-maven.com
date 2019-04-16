@@ -413,3 +413,9 @@ It can also be used in a post-action.
 
 <include file="examples/jenkins/parse_console_output.jenkinsfile">
 
+<h2>readJSON</h2>
+
+<a href="https://stackoverflow.com/questions/46841877/java-lang-nosuchmethoderror-no-such-dsl-method-readjson">no such dsl method</a>
+
+
+
