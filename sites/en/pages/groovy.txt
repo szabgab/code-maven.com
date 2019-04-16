@@ -55,6 +55,11 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-classes">Groovy classes</a></li>
   <li><a href="/groovy-function-overloading">Groovy function overloading</a></li>
   <li><a href="/groovy-variable-scope">Groovy variable scope</a> (def)</li>
+  <li><a href="sites/en/pages/groovy-recursive-functions.txt">Recursive functions</a></li>
+  <li>Command line parameters</li>
+  <li>STDOUT/STDERR</li>
+  <li>Read/Write JSON, YAML, INI, XML files</li>
+  <li>HTTP request</li>
 </ul>
 
 <h2>Other resources</h2>
