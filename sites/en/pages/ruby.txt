@@ -43,6 +43,7 @@ and start solving them using Ruby.
   <li><a href="/hello-world-using-cgi-in-ruby">Hello World using CGI in Ruby</a></li>
   <li><a href="/ruby-env">Ruby ENV</a></li>
   <li><a href="/how-to-write-to-file-in-ruby">How to write to a file in Ruby</a></li>
+  <li><a href="/logical-operators-in-ruby">Logical operators in Ruby (and, or, not), (&&, ||, !)</a></li>
 </ul>
 
 

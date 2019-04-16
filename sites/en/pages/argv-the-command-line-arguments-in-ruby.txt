@@ -78,6 +78,8 @@ ruby command_line_argv_add.rb 23 19
 The result might not be surprising to you if you know that the values the user passes on the command line are received as strings.
 Eeven if they are actually numbers.  If we would like to use them as number we have to convert them using <hl>to_i</hl>:
 
+<include file="examples/ruby/command_line_argv_add_numbers.rb">
+
 <code>
 $ ruby command_line_argv_add_numbers.rb 23 19
 42
