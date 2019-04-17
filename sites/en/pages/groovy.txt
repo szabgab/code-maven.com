@@ -60,6 +60,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li>Command line parameters</li>
   <li><a href="/groovy-exit">Groovy exit - System.exit - early exit from Groovy script</a></li>
   <li><a href="/groovy-file-and-directory-attributes">Groovy file and directory attributes</a> File, canExecute, isFile, isDirectory</li>
+  <li><a href="/groovy-join">Groovy join elements of array</a> (join)</li>
   <li>STDOUT/STDERR</li>
   <li>Read/Write JSON files</li>
   <li>Read/Write YAML files</li>
