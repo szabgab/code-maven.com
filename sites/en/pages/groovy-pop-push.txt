@@ -1,0 +1,42 @@
+=title Groovy pop push
+=timestamp 2019-04-20T07:30:01
+=indexes pop, push, size
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+In Groovy you can use an array as if it was a stack pushing elements to the end and poping elements from the end.
+
+
+=abstract end
+
+<include file="examples/groovy/push_pop.groovy">
+
+<code>
+[Mary, Joe, Fanny, George, Liz, Peter]
+Peter
+[Mary, Joe, Fanny, George, Liz]
+</code>
+
+
+<h2>Pop from empty array raises exception</h2>
+
+<include file="examples/groovy/pop_empty.groovy">
+
+
+<code>
+Caught: java.util.NoSuchElementException: Cannot pop() an empty List
+java.util.NoSuchElementException: Cannot pop() an empty List
+	at pop_empty.run(pop_empty.groovy:2)
+</code>
+
+
+<h2>Check emptyness before calling pop</h2>
+
+To avoid the exception we can check the <hl>size</hl> of the array before calling <hl>pop</hl>.
+
+<include file="examples/groovy/pop_check_empty.groovy">
