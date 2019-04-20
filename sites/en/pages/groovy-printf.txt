@@ -1,0 +1,21 @@
+=title Groovy: Formatted printing with printf and sprintf
+=timestamp 2019-04-20T09:30:01
+=indexes printf, sprintf
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+The function <hl>printf</hl> can be use to format a string and print to screen.
+
+The function <hl>sprintf</hl> can be used to format a string for later use.
+
+=abstract end
+
+A few examples:
+
+<include file="examples/groovy/printf.groovy">
+
