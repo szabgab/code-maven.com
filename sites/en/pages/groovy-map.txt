@@ -1,6 +1,6 @@
 =title Groovy map (dictionary, hash, associative array)
 =timestamp 2018-07-31T22:30:01
-=indexes map, containsKey, key, value, keySet
+=indexes map, containsKey, key, value, keySet, values
 =status show
 =books groovy
 =author szabgab
@@ -11,8 +11,22 @@
 
 =abstract end
 
-<include file="examples/groovy/elements_of_map.groovy">
+<h2>Groovy map access elements</h2>
 
+<code>
+g = [:]       // create map
+println(g)
+
+g['name'] = []   // create array
+println(g)
+
+g['name'].add("foo")
+g['name'].add("bar")
+println(g)
+</code>
+
+
+<include file="examples/groovy/elements_of_map.groovy">
 
 <h2>Get all the keys ina Groovy map</h2>
 
@@ -27,20 +41,15 @@ blue
 #0000FF
 </code>
 
+
+<h2>Sorted keys of a Groovy map</h2>
+
 <include file="examples/groovy/sorted_keys_of_map.groovy">
 
+<h2>Values of a Groovy map</h2>
 
-<code>
-g = [:]       // create map
-println(g)
+<include file="examples/groovy/sorted_keys_of_map.groovy">
 
-g['name'] = []   // create array
-println(g)
-
-g['name'].add("foo")
-g['name'].add("bar")
-println(g)
-</code>
 
 <h2>Return map from a function</h2>
 
