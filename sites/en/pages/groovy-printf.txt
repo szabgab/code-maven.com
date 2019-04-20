@@ -19,3 +19,6 @@ A few examples:
 
 <include file="examples/groovy/printf.groovy">
 
+
+<include file="examples/groovy/printf_width.groovy">
+

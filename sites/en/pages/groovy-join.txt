@@ -1,7 +1,7 @@
 =title Groovy: join elements of an array
 =timestamp 2019-04-17T20:30:01
 =indexes join
-=status draft
+=status show
 =books groovy
 =author szabgab
 =archive 1
