@@ -36,7 +36,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-files">reading and writing files - appending content in Groovy</a> File, getText, readLines, newReader, readLine, write, append</li>
   <li><a href="/groovy-directory-listing">listing the content of a directory, traversing a directory tree</a> eachFile, eachFileRecurse </li>
   <li><a href="/groovy-regex">Groovy - Regular Expressions - regexes</a></li>
-  <li><a href="/groovy-map">Groovy map (dictionary, hash, associative array)</a>  map, containsKey, key, value, (keys, values)</li>
+  <li><a href="/groovy-map">Groovy map (dictionary, hash, associative array)</a>  map, containsKey, key, value, keySet, sort (keys, values)</li>
   <li><a href="/groovy-json">Groovy JSON</a></li>
   <li><a href="/groovy-date-time">Groovy: Date, Time, Timezone</a></li>
   <li><a href="/groovy-import-functions-from-another-file">Groovy: import and use functions from another file</a></li>
@@ -63,6 +63,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-join">Groovy join elements of array</a> (join)</li>
   <li><a href="/groovy-pop-push">Groovy pop push</a></li>
   <li><a href="/groovy-printf">Groovy: Formatted printing with printf and sprintf</a></li>
+  <li><a href="/groovy-system-properties">Groovy system properties</a></li>
   <li>STDOUT/STDERR</li>
   <li>Read/Write JSON files</li>
   <li>Read/Write YAML files</li>

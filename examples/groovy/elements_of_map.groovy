@@ -4,6 +4,6 @@ println colors.containsKey('red')
 println colors.containsKey('black')
 
 for (p in colors) {
-   println p.key
-   println p.value
+    println p.key
+    println p.value
 }
