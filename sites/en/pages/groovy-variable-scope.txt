@@ -37,7 +37,7 @@ a global variable that will remain in scope even after the function has finished
 We can use the <hl>def</hl> keyword to declare a variable local.
 In the first example we can see that there is a global variable (which was not declared using <b>def</b>)
 which is then accessible inside the function (println) just as we saw in the first example.
-Once we use the <b>def</hl> keyword to declare the same variable name inside the function it creates a
+Once we use the <b>def</b> keyword to declare the same variable name inside the function it creates a
 new variable, hiding the global one.
 
 Once we exit the function the local version is destroyed and outside the function we access the global variable again.
