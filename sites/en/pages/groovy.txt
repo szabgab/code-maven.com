@@ -67,6 +67,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-path-to-current-script">Groovy path to current executable script</a></li>
   <li><a href="/groovy-exception-handling">Exception handling</a> (try, catch, Exception)</li>
   <li><a href="/groovy-throw-exception">Throw (raise) exception</a><li>
+  <li><a href="/groovy-casting">Casting</a> Integer, String, ...</li>
   <li>STDOUT/STDERR</li>
   <li>Read/Write JSON files</li>
   <li>Read/Write YAML files</li>
@@ -81,4 +82,6 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
     <li><a href="https://learnxinyminutes.com/docs/groovy/">Learn X in Y minutes Where X=Groovy</a></li>
     <li><a href="http://docs.groovy-lang.org/">Documentation of Groovy</a></li>
 </ul>
+
+<include file="examples/groovy/enum_planets.groovy">
 
