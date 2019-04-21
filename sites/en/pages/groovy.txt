@@ -65,6 +65,8 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-printf">Groovy: Formatted printing with printf and sprintf</a></li>
   <li><a href="/groovy-system-properties">Groovy system properties</a></li>
   <li><a href="/groovy-path-to-current-script">Groovy path to current executable script</a></li>
+  <li><a href="/groovy-exception-handling">Exception handling</a> (try, catch, Exception)</li>
+  <li><a href="/groovy-throw-exception">Throw (raise) exception</a><li>
   <li>STDOUT/STDERR</li>
   <li>Read/Write JSON files</li>
   <li>Read/Write YAML files</li>
