@@ -32,6 +32,7 @@ Articles about Python
   <li><a href="/interactive-shell-with-cmd-in-python">Create your own interactive shell with cmd in Python</a></li>
   <li><a href="/create-images-with-python-pil-pillow">Create images with Python PIL and Pillow and write text on them</a></li>
   <li><a href="/python-get-size-of-image-using-pil-pillow">Get size of image using PIL or Pillow</a></li>
+  <li><a href="/python-write-text-on-images-pil-pillow">Write text on existing image using Python PIL - Pillow</a></li>
   <li><a href="/showing-speed-improvement-with-gpu-cuda-numpy">Showing speed improvement using a GPU with CUDA and Python with numpy on Nvidia Quadro 2000D</a></li>
   <li><a href="/http-requests-in-python">Send HTTP Requests in Python</a></li>
   <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a></li>
