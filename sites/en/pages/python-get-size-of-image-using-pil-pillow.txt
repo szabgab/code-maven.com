@@ -1,0 +1,17 @@
+=title Python: get size of image using PIL or Pillow
+=timestamp 2019-04-22T12:30:01
+=indexes PIL, Pillow
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/python/pil_get_image_size.py">
+
+<hl>size</hl> returns a tuple of (width, height) of the image.
+
+
