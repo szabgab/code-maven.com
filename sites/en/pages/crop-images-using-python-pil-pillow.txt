@@ -1,0 +1,15 @@
+=title Crop images using Python PIL - Pillow
+=timestamp 2019-04-22T15:15:01
+=indexes PIL, Pillow
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+
+<include file="examples/python/crop_image.py">
+
