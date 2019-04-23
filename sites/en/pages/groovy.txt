@@ -37,7 +37,7 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-directory-listing">listing the content of a directory, traversing a directory tree</a> eachFile, eachFileRecurse </li>
   <li><a href="/groovy-regex">Groovy - Regular Expressions - regexes</a></li>
   <li><a href="/groovy-map">Groovy map (dictionary, hash, associative array)</a>  map, containsKey, key, value, keySet, sort (keys, values)</li>
-  <li><a href="/groovy-json">Groovy JSON</a></li>
+  <li><a href="/groovy-json">Groovy Read/Write JSON files</a></li>
   <li><a href="/groovy-date-time">Groovy: Date, Time, Timezone</a></li>
   <li><a href="/groovy-import-functions-from-another-file">Groovy: import and use functions from another file</a></li>
   <li><a href="/groovy-random-numbers">Groovy: Random numbers, random selection from list of values</a></li>
@@ -69,7 +69,6 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-throw-exception">Throw (raise) exception</a><li>
   <li><a href="/groovy-casting">Casting</a> Integer, String, ...</li>
   <li>STDOUT/STDERR</li>
-  <li>Read/Write JSON files</li>
   <li>Read/Write YAML files</li>
   <li>Read/Write INI files</li>
   <li>Read/Write XML files</li>

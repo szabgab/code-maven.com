@@ -1,6 +1,6 @@
 =title Groovy: JSON - reading and writing
 =timestamp 2018-08-02T08:30:01
-=indexes JSON
+=indexes JSON, JsonSlurper, parseText
 =status show
 =books groovy
 =author szabgab
@@ -8,9 +8,21 @@
 =comments_disqus_enable 1
 
 =abstract start
+
+We can use the <a href="http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonSlurper.html">JsonSlurper</a> class
+to parse JSON strings.
+
 =abstract end
 
-<include file="examples/groovy/reading_json.groovy">
+<h2>Parse JSON string</h2>
+
+If we have JSON string in a Groovy variable we can parse it to become a Groovy map:
+
+<include file="examples/groovy/parsing_json.groovy">
+
+<h2>Creating JSON string</h2>
+
+<include file="examples/groovy/creating_json.groovy">
 
 
 <a href="http://groovy-lang.org/json.html">Groovy JSON module</a>
