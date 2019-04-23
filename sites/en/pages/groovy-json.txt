@@ -22,7 +22,7 @@ If we have JSON string in a Groovy variable we can parse it to become a Groovy m
 
 <h2>Creating JSON string</h2>
 
-<include file="examples/groovy/creating_json.groovy">
+<include file="examples/groovy/create_json.groovy">
 
 
 <a href="http://groovy-lang.org/json.html">Groovy JSON module</a>
