@@ -9,12 +9,19 @@
 
 =abstract start
 
-We can use the <a href="http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonSlurper.html">JsonSlurper</a> class
-to parse JSON strings.
+<a href="/json">JSON</a> is one of the most popular language-independent formats for data serialization.
+It is also heavily used for configuration files.
+
+Groovy comes with a module called <a href="http://docs.groovy-lang.org/latest/html/gapi/groovy/json/">json</a>
+to handle various use-cases with JSON.
 
 =abstract end
 
 <h2>Parse JSON string</h2>
+
+We can use the <a href="http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonSlurper.html">JsonSlurper</a> class
+to parse JSON strings.
+
 
 If we have JSON string in a Groovy variable we can parse it to become a Groovy map:
 
@@ -22,7 +29,33 @@ If we have JSON string in a Groovy variable we can parse it to become a Groovy m
 
 <h2>Creating JSON string</h2>
 
+<a href="http://docs.groovy-lang.org/latest/html/gapi/groovy/json/JsonOutput.html">JsonOutput</a> has several methods.
+<hl>toJson</hl> returns a JSON string in one line. <hl>prettyPrint</hl> returns a nicely formatted JSON string.
+The latter takes up more space, but it is also human-readable.
+
+
 <include file="examples/groovy/create_json.groovy">
 
+In the output you can see both the result of <hl>toString</hl> and the result of <hl>prettyPring</hl>.
+
+<include file="examples/groovy/create_json.txt">
+
+
+<h2>Read JSON from file</h2>
+
+<include file="examples/groovy/read_json.groovy">
+
+The <hl>parse</hl> method accepts a File object, reads in the content of the file and then parses it.
+
+
+<h2>Write JSON file</h2>
+
+In order to write a JSON file, you need to create the JSON string (either as a plain string or as a beautified string)
+and then use the File class to save it.
+
+<include file="examples/groovy/write_json.groovy">
+
+<h2>More JSON</h2>
 
 <a href="http://groovy-lang.org/json.html">Groovy JSON module</a>
+

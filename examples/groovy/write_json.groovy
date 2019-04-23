@@ -1,5 +1,13 @@
 import groovy.json.JsonOutput
 
+if (args.size() < 1) {
+    println("Missing filename")
+    System.exit(1)
+}
+
+filename = args[0]
+
+
 def data = [
     name: "Foo Bar",
     year: "2018",
@@ -9,7 +17,6 @@ def data = [
 ]
 
 def json_str = JsonOutput.toJson(data)
-println(json_str)
-
 def json_beauty = JsonOutput.prettyPrint(json_str)
-println(json_beauty)
+File file = new File(filename)
+file.write(json_beauty)
