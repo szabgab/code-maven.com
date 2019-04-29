@@ -1,6 +1,7 @@
 [user]
-    name = Gabor Szabo
-    email = gabor@szabgab.com
+    name = Foo Bar
+    email = foo@bar.com
+
 [alias]
     st = status
     co = checkout
@@ -10,18 +11,28 @@
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
     changed = diff-tree -r --no-commit-id --name-only
     last = changed HEAD
-    
+
     # pull and update submodules
     pullall = !git pull && git submodule update --init --recursive
+
 [push]
     default = simple
+
 [core]
     excludesfile = /Users/gabor/.gitignore
+
 [difftool "sourcetree"]
     cmd = opendiff \"$LOCAL\" \"$REMOTE\"
     path = 
+
 [mergetool "sourcetree"]
     cmd = /Users/gabor/Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
     trustExitCode = true
+
+# Location of the commit message template file
 [commit]
     template = /Users/gabor/.stCommitMsg
+
+# git pull defaults to git pull --rebase
+[pull]
+    rebase = true
