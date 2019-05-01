@@ -1,0 +1,16 @@
+=title Jenkins report the name of the stage that failed
+=timestamp 2019-05-01T20:30:01
+=indexes Jenkins
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+Store the STAGE_NAME in a variable and read it in the post-section
+
+<include file="examples/jenkins/report_stage.jenkinsfile">
+

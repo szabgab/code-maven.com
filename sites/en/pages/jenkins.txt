@@ -447,3 +447,27 @@ jenkins collect status from invoked jobs
 
 <include file="examples/jenkins/status_from_build.Jenkinsfile">
 
+<h2>links and badges</h2>
+
+https://jenkins.io/doc/pipeline/steps/badge/
+manager.addBadge("star-gold.gif", "Successful build")
+
+https://jenkins.io/doc/pipeline/steps/
+
+https://jenkins.io/doc/pipeline/steps/pipeline-build-step/#-build-%20build%20a%20job
+
+https://jenkins.io/doc/pipeline/steps/pipeline-input-step/
+
+
+<code>
+               script {
+                    manager.addShortText("\n${params.cluserName}", "black", "yellow", "0px", "white")
+                    manager.addShortText("${params.clusterId}-${params.command}", "black", "lightgreen", "0px", "white")
+                    manager.addShortText("${params.services}", "black", "AliceBlue", "0px", "white")
+                    if (params.usage) {
+                        manager.addShortText("${params.usage}", "DimGray", "AliceBlue", "0px", "white")
+                    }
+                }
+</code>
+
+

@@ -1,0 +1,31 @@
+
+pipeline {
+    agent { label 'master' }
+    stages {
+        stage('first') {
+            steps {
+                script {
+                    last_started = env.STAGE_NAME
+                    echo "in first"
+                    def a = 0
+                    def b = 10 / a
+                }
+            }
+        }
+        stage('second') {
+            steps {
+                script {
+                    last_started = env.STAGE_NAME
+                    echo "in second"
+                }
+            }
+        }
+    }
+    post {
+        failure {
+            echo "last_started: $last_started"
+        }
+    }
+}
+
+
