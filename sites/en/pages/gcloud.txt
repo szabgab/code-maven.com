@@ -208,3 +208,36 @@ gcloud compute instances delete demo --project NAME-OF-YOUR-PROJECT  --zone us-c
 
 Without the <hl>--quiet</hl> flag it will ask for confirmation.
 
+<h2>Getting started with IAM and service accounts</h2>
+
+Install <hl>gcloud</hl> but do not configure it and especially do not authenticate.
+
+<code>
+gcloud config configurations list
+
+NAME     IS_ACTIVE  ACCOUNT  PROJECT  DEFAULT_ZONE  DEFAULT_REGION
+default  True
+</code>
+
+Visit <a href="https://console.cloud.google.com/iam-admin/serviceaccounts/create">IAM &amp; admin / Service accounts</a>.
+Click on Create service account. Type in a name (e.g. demo-account)
+
+Select a Role (Compute Viewer) and click on Continue.
+
+click on "Create a key" , select JSON and click on Create.
+It will offer you to download a JSON file.
+
+
+Make sure you keep this file safe. Both because you won't be able to re-create it (you'll need to create a new key if
+you lose this) but also because whoever has this file will automatically have access to your Gcloud account with all the
+rights you'll assign to this service account.
+
+<code>
+gcloud auth activate-service-account --key-file=google.json
+</code>
+
+<code>
+export GOOGLE_APPLICATION_CREDENTIALS=/home/foobar/google.json
+</code>
+
+
