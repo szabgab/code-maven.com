@@ -51,6 +51,10 @@ script {
 
 <h2>catch and print error in jenkins</h2>
 
+jenkins exception try - catch
+
+https://fraaargh.wordpress.com/2018/06/20/get-a-jobs-console-logfile-from-a-jenkins-pipeline/
+
 <code>
 pipeline {
    agent none
@@ -81,6 +85,24 @@ class hudson.AbortException
    }
 }
 </code>
+
+<code>
+                    try {
+                        //sh "ls -l no_such"
+                        a = 10
+                        b = 0
+                        c = a/b
+                    }
+                    catch(Exception ex) {
+                         //currentBuild.result = 'FAILURE'
+                        println("exception")
+                        println(ex) // hudson.AbortException: script returned exit code 2
+                        println(ex.toString())
+                        println(ex.getMessage())
+                        println(ex.getStackTrace())
+                    }
+</code>
+
 
 <h2>dir and tmp are problematic</h2>
 
@@ -417,5 +439,11 @@ It can also be used in a post-action.
 
 <a href="https://stackoverflow.com/questions/46841877/java-lang-nosuchmethoderror-no-such-dsl-method-readjson">no such dsl method</a>
 
+<h2>jenkins build step</h2>
 
+https://jenkins.io/doc/pipeline/steps/pipeline-build-step/
+
+jenkins collect status from invoked jobs
+
+<include file="examples/jenkins/status_from_build.Jenkinsfile">
 
