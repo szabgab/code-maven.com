@@ -77,7 +77,7 @@ Sometimes we might want it to be in some other directory. For example I've creat
 directory in my home directory and wanted to place the temporary directories inside that
 directory:
 
-<include file="examples/ci-date.sh">
+<include file="examples/ci-other.sh">
 
 The path to the new directory will look like this:
 
