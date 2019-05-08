@@ -1,0 +1,17 @@
+=title Counter with Python and MongoDB
+=timestamp 2019-05-08T22:30:01
+=indexes pymongo, find_one_and_update
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Part of the <a href="/counter">counter examples</a> using Python and MongoDB.
+
+=abstract end
+
+<include file="examples/python/count_with_mongo.py">
+

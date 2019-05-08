@@ -51,6 +51,10 @@ This is going to be a long project, but it might help understand various techniq
   <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
   <li><a href="/counter-in-mongodb-client">Several counters in MongoDB client</a></li>
   <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a> for a single counter.</li>
+  <li><a href="/python-counter-with-mongodb">Python and MongoDB</a></li>
+</ul>
+
+<ul>
   <li>A <a href="https://perlmaven.com/command-line-counter">command-line counter script in Perl</a> that uses a plain file called <hl>counter.txt</hl> for a single counter.</li>
   <li><a href="https://perlmaven.com/multiple-command-line-counters">Multiple command line counters with plain TSV text file back-end in Perl.</a></li>
   <li><a href="https://perlmaven.com/counter-with-database-backend-using-dbix-class">A command line counter with database back-end using Perl DBIx::Class</a></li>
