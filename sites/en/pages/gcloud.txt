@@ -241,3 +241,7 @@ export GOOGLE_APPLICATION_CREDENTIALS=/home/foobar/google.json
 </code>
 
 
+<a href="/gcloud-shutdown-script">Google Cloud shutdown script</a> triggered by manual or automatic shutdown (of
+preemptible instances.)
+
+
