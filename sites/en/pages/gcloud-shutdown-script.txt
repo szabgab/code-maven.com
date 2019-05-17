@@ -26,6 +26,8 @@ In order to try this
    <li>check if /root/out.txt has been generated and if its content is similar to what the original curl returned.</li>
 </ul>
 
+The shutdown-script:
+
 <code>
 while true; do curl -s https://httpbin.org/get?time=$(date +%s) >> /root/out.txt ; sleep 5; done
 </code>
