@@ -1,4 +1,4 @@
-=title qx or backticks in python
+=title qx or backticks in python - capture the outout of external programs
 =timestamp 2019-05-17T10:00:01
 =indexes qx, subprocess, check_output
 =status show
