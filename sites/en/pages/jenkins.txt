@@ -471,3 +471,26 @@ https://jenkins.io/doc/pipeline/steps/pipeline-input-step/
 </code>
 
 
+<h2>Elapsed time</h2>
+
+<include file="examples/jenkins/elapsed_time.Jenkinsfile">
+
+
+<h2>Serialize regex</h2>
+
+After a regex matching Jenkins sometimes wants to serialize the object, but it cannot do it and thus is raises an
+exception. (I have not yet figured out when does this happen.)
+
+<include file="examples/jenkins/serialize_regex.Jenkinsfile">
+
+<h2>Send mail</h2>
+
+<code>
+emailext (
+    subject: "Test by Gabor",
+    body: "Test from Gabor",
+    to: 'foo@bar.com',
+    from: 'jenkins-noreply@example.com',
+    listId: 'gabor-experimental',
+)
+</code>

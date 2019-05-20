@@ -84,3 +84,24 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
 
 <include file="examples/groovy/enum_planets.groovy">
 
+
+<h2>Elapsed time</h2>
+
+<include file="examples/groovy/elapsed_time.groovy">
+
+<h2>Groovy regex</h2>
+
+1) Interpolation can be used
+2) matcher.matches    vs being null ?
+3) \b to mark end of word
+
+
+<code>
+def exp = 'line'
+
+def matcher = (text =~ /\b$exp\b/)
+println("hi")
+if (matcher) {
+    println("match")
+}
+</code>
