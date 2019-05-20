@@ -1,0 +1,43 @@
+// catch exception
+// stop process early reporting failure
+
+pipeline {
+    agent { label 'master' }
+    parameters {
+       string(name: 'hostname', defaultValue: 'gabor-dev', description: 'Hostname or IP address')
+    }
+    stages {
+        stage('first') {
+            steps {
+                script {
+                    echo "Checking $params.hostname"
+                    try {
+                        sh("ping -c 1 $params.hostname")
+                    }  catch(Exception e) {
+                       println("Exception: ${e}")
+                       error("Could not find host $params.hostname, is it on?")
+                       return
+                    }
+                    echo "still in first"
+                }
+            }
+        }
+        stage('second') {
+            steps {
+                script {
+                    echo "in second"
+                }
+            }
+        }
+    }
+    post {
+        always {
+            echo "in post always"
+        }
+        failure {
+            echo "in post failure"
+        }
+    }
+}
+
+

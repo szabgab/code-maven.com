@@ -494,3 +494,24 @@ emailext (
     listId: 'gabor-experimental',
 )
 </code>
+
+
+<h2>Jenkins - check if host is accessible</h2>
+
+<incljude file="examples/jenkins/ping_host.jenkinsfile">
+
+<h2>last started stage</h2>
+
+<code>
+//   last_started = env.STAGE_NAME
+</code>
+
+<h2>Early stop</h2>
+
+jenkins - skip rest of the current stage, early end of current stage  - stop the whole job reporting error
+
+<code>
+return  // skipping rest of the current stage, running next stage
+error("Some error message")  // raise an exception stop the whole job
+</code>
+

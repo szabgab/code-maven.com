@@ -103,3 +103,35 @@ drwxr-xr-x  9 gabor  staff  288 Apr  6 18:19 .git
 </ul>
 
 
+<h2>How to get the most recent tag in a tag series?</h2>
+
+Let's say a build process tags each commit that was used by a build and puts the build number on that tag.
+e.g. use tags like <b>build-42</b>
+
+How do we get the most recent one?
+
+Update the local git repository:
+
+<code>
+git checkout master
+git pull
+</code>
+
+List the 5 most recent build- tags:
+
+<code>
+git tag -l 'build-*' | tail -5
+</code>
+
+The same with full sha:
+
+<code>
+git tag -l 'build-*' --format '%(refname:strip=2) %(objectname)' | tail -5
+</code>
+
+The same with short sha:
+
+<code>
+git tag -l 'build-*' --format '%(refname:strip=2) %(objectname:short)' | tail -f
+</code>
+
