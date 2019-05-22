@@ -1,4 +1,4 @@
-=title Bash shell relative path
+=title Bash shell path relative to current script
 =timestamp 2019-05-22T22:30:01
 =indexes realpath, dirname, $0
 =status show

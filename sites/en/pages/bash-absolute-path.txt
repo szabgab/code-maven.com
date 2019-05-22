@@ -10,6 +10,8 @@
 =abstract start
 
 There can be many reasons why you'd want to get the exact location of your currently running script.
+For example to calculate the <a href="/bash-shell-relative-path">relative path</a> in a reliable way.
+
 Luckily there is a command called <hl>realpath</hl> that will calculate and print the absolute path
 of a given path.
 
