@@ -1,0 +1,20 @@
+=title Bash shell substring
+=timestamp 2019-05-22T23:30:01
+=indexes substring
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/shell/substring.sh">
+
+<code>
+Hello World!
+Hell
+o Wo
+</code>
+
