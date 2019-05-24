@@ -12,7 +12,7 @@
 
 <ul>
   <li><a href="/bash-shell-substring">Bash shell substring</a></li>
-  <li><a href="/bash-absolute-path>Bash: get absolute path to current script</a></li>
+  <li><a href="/bash-absolute-path">Bash: get absolute path to current script</a></li>
   <li><a href="/bash-shell-relative-path">Bash shell path relative to current script</a></li>
   <li><a href="/bash-while-loop">Bash: while loop - break - continue</a></li>
   <li><a href="/functions-in-shell">Functions in Linux shell (bash)</a></li>
