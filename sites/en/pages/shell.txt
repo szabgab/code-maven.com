@@ -1,0 +1,32 @@
+=title Unix/Linux Shell - Bash
+=timestamp 2019-05-24T07:30:01
+=indexes bash
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<ul>
+  <li><a href="/bash-shell-substring">Bash shell substring</a></li>
+  <li><a href="/bash-absolute-path>Bash: get absolute path to current script</a></li>
+  <li><a href="/bash-shell-relative-path">Bash shell path relative to current script</a></li>
+  <li><a href="/bash-while-loop">Bash: while loop - break - continue</a></li>
+  <li><a href="/functions-in-shell">Functions in Linux shell (bash)</a></li>
+  <li><a href="/create-temporary-directory-on-linux-using-bash">Create temporary directory on Linux with Bash using mktemp</a></li>
+  <li><a href="/count-lines-in-a-file-and-divide-by-seconds-in-a-day">Count number of lines in a file and divide it by number of seconds in a day using Bash</a></li>
+  <li><a href="/measure-elapsed-time-in-shell">Measure elapsed time in Linux shell using time and date</a></li>
+  <li><a href="/number-of-files-in-several-directory-trees">Show number of files in several directory trees using Shell</a></li>
+  <li><a href="/number-of-files-in-a-directory-tree">Show number of files in a directory tree using Shell</a></li>
+</ul>
+
+<ul>
+  <li><a href="/slides/bash/">Bash scripting slides</a></li>
+</ul>
+
+<!--
+  <li><a href=""></a></li>
+-->
