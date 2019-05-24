@@ -23,6 +23,7 @@
     <li><a href="/jenkins-pipeline-builduser">Jenkins Pipeline BuildUser plugin</a></li>
     <li><a href="/jenkins-pipeline-environment-variables">Jenkins Pipeline - set and use environment variables</a></li>
     <li><a href="/jenkins-git-check-out-using-reference">Jenkins Pipeline: git checkout using reference to speed up cloning large repositories</a></li>
+    <li><a href="/jenkins-report-failed-stage-name">Jenkins report the name of the stage that failed</a></li>
 
     <li>Triggers from Version Control Systems</li>
     <li>Report failures.</li>
