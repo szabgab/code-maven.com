@@ -105,3 +105,28 @@ if (matcher) {
     println("match")
 }
 </code>
+
+
+
+<h2>groovy time duration - elapsed time</h2>
+
+<code>
+import groovy.time.TimeDuration
+
+tdx = new TimeDuration(0, 0 , 0, 2000)
+println(tdx)
+</code>
+
+http://docs.groovy-lang.org/2.4.9/html/gapi/groovy/time/TimeDuration.html
+
+
+duration:
+
+<code>
+println(currentBuild.getClass()) //  class org.jenkinsci.plugins.workflow.support.steps.build.RunWrapper  https://javadoc.jenkins.io/plugin/workflow-support/org/jenkinsci/plugins/workflow/support/steps/build/RunWrapper.html
+println("duration: ${currentBuild.durationString}") // duration: 0.35 sec and counting
+println(currentBuild.getDuration()) //  397   (miliseconds)
+println(currentBuild.getDurationString()) // 0.4 sec and counting
+
+https://stackoverflow.com/questions/51788139/how-to-get-jenkins-build-job-duration
+</code>
