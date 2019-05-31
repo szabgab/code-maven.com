@@ -135,3 +135,10 @@ The same with short sha:
 git tag -l 'build-*' --format '%(refname:strip=2) %(objectname:short)' | tail -f
 </code>
 
+
+<h2>git commits on one branch but not on another branch</h2>
+
+<code>
+git log one --not another
+</code>
+
