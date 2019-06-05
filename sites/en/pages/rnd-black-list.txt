@@ -184,10 +184,6 @@ We do not at this time.
   </div>
   <div class="answer">
 We do code reviews once or twice during the development cycle. This is mainly to ensure we're following best practices and that there are no obvious security vulnerabilities. We perform a code review by logging into a developer’s machine and viewing the code directly. In a way, it's a bit like pair-programming without actually sitting next to each other.
-How is testing done? (Manual QA? What kind of tests are run? How long does a test cycle run?)
-We do a lot of manual testing and some automated testing as well. However, we're in the process of expanding our automated testing suite with the help of Browserstack.
-How is code released / deployed? (How often? Who can do it? Do you have staging environment? Deployment circles?)
-As mentioned above, our staging consists of individual developer sandboxes that run a production image. We push new features and bug fixes frequently and do not follow any specific deployment schedule.
   </div>
 </div>
 
@@ -196,6 +192,7 @@ As mentioned above, our staging consists of individual developer sandboxes that 
     How is testing done? (Manual QA? What kind of tests do you run? How long does a test cycle take?)
   </div>
   <div class="answer">
+We do a lot of manual testing and some automated testing as well. However, we're in the process of expanding our automated testing suite with the help of Browserstack.
   </div>
 </div>
 
@@ -204,6 +201,7 @@ As mentioned above, our staging consists of individual developer sandboxes that 
     How is code released / deployed? (How often? Who can do it? Do you have staging environment? Deployment circles?)
   </div>
   <div class="answer">
+As mentioned above, our staging consists of individual developer sandboxes that run a production image. We push new features and bug fixes frequently and do not follow any specific deployment schedule.
   </div>
 </div>
 
