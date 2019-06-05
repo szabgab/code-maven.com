@@ -211,12 +211,6 @@ As mentioned above, our staging consists of individual developer sandboxes that 
   </div>
   <div class="answer">
 Our focus is on getting work done and not working set hours. I'm very much a fan of David Hansson's ideology here. In engineering at least, I encourage our small team to take ownership of certain products and services. Our end goal is to deliver great products to our user base. If that means going for a run or having some family time during the day, and working in the evening instead, that’s entirely fine.
-What makes your company a special place to be an engineer?
-One is the flexibility. The other is knowing that the work you do is having such a big impact on the lives of screenwriters all over the world who otherwise would never be able to break into the industry. There are also other perks like being able to attend certain major film festivals and meet interesting people along the way.
-What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
-We've gone through a number of site redesigns to get to the current look and feel. A little over a year ago we, we went through a major site overhaul where were ripped apart a lot of the front-end UI and switched to the Foundation Framework. This was challenging because every page was being rebuilt from scratch essentially. However, we knew it was a necessary move for a cleaner more intuitive UI.
-Could you elaborate the steps you took to introduce Agile principles? What were the obstacles and how did you overcome them?
-I became a certified ScrumMaster by attending one of the live courses first. This was helpful because I was able to see the challenges that other people were going through and learn from some of the mistakes. We slowly introduced a more minimalist version of it at the Black List. It was fairly easy to implement because of our small size and we continue to use it to this day.
   </div>
 </div>
 
@@ -277,14 +271,16 @@ Sprints provide us with focus on rapid incremental development and feedback.
     What makes your company a special place to be an engineer?
   </div>
   <div class="answer">
+One is the flexibility. The other is knowing that the work you do is having such a big impact on the lives of screenwriters all over the world who otherwise would never be able to break into the industry. There are also other perks like being able to attend certain major film festivals and meet interesting people along the way.
   </div>
 </div>
 
 <div class="qa">
   <div class="question">
-    What are the biggest pleasures and challenges in your job?
+Could you elaborate the steps you took to introduce Agile principles? What were the obstacles and how did you overcome them?
   </div>
   <div class="answer">
+I became a certified ScrumMaster by attending one of the live courses first. This was helpful because I was able to see the challenges that other people were going through and learn from some of the mistakes. We slowly introduced a more minimalist version of it at the Black List. It was fairly easy to implement because of our small size and we continue to use it to this day.
   </div>
 </div>
 
@@ -293,6 +289,7 @@ Sprints provide us with focus on rapid incremental development and feedback.
     What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
   </div>
   <div class="answer">
+We've gone through a number of site redesigns to get to the current look and feel. A little over a year ago we, we went through a major site overhaul where were ripped apart a lot of the front-end UI and switched to the Foundation Framework. This was challenging because every page was being rebuilt from scratch essentially. However, we knew it was a necessary move for a cleaner more intuitive UI.
   </div>
 </div>
 
