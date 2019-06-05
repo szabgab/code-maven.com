@@ -87,10 +87,11 @@ Our team uses a combination of engineering and communication tools:
   </div>
   <div class="answer">
     <ul>
-      <li>Mainly modern Perl (<a href="https://perlmaven.com/moose">Moose</a> /
+      <li>Mainly modern <a href="https://www.perl.org/">Perl</a>
+               (<a href="https://perlmaven.com/moose">Moose</a> /
                <a href="https://metacpan.org/pod/HTML::Mason">Mason</a> /
                <a href="https://perlmaven.com/catalyst">Catalyst</a>)</li>
-      <li><a href="https://jquery.com/">jQuery</a> and Foundation on the front-end</li>
+      <li><a href="https://jquery.com/">jQuery</a> and <a href="https://foundation.zurb.com/">Foundation</a> on the front-end</li>
     </ul>
   </div>
 </div>
@@ -200,7 +201,7 @@ Developers
     What is the development process like? (The lifecycle of a piece of committed code, branching strategy. How do developers cooperate?)
   </div>
   <div class="answer">
-Whether we're fixing a bug or building a new feature, we work within a separate branch. Features are tested on sandbox by a developer working on it and also a dedicated product manager. Once we're satisfied with a new feature, we marge and push it up to production. We push new code frequently and do not follow a specific release schedule.
+Whether we're fixing a bug or building a new feature, we work within a separate branch. Features are tested on sandbox by a developer working on it and also a dedicated product manager. Once we're satisfied with a new feature, we merge and push it up to production. We push new code frequently and do not follow a specific release schedule.
   </div>
 </div>
 
@@ -231,7 +232,7 @@ We do not at this time.
     Do you have code reviews? How often? What is code review like?
   </div>
   <div class="answer">
-We do code reviews once or twice during the development cycle. This is mainly to ensure we're following best practices and that there are no obvious security vulnerabilities. We perform a code review by logging into a developer’s machine and viewing the code directly. In a way, it's a bit like pair-programming without actually sitting next to each other.
+We do code reviews once or twice during the development cycle. This is mainly to ensure we're following best practices and that there are no obvious security vulnerabilities. We perform a code review by logging into a developer's machine and viewing the code directly. In a way, it's a bit like pair-programming without actually sitting next to each other.
   </div>
 </div>
 
@@ -258,7 +259,7 @@ As mentioned above, our staging consists of individual developer sandboxes that 
     What is an average day-in-the-life of someone on one of the engineering teams?
   </div>
   <div class="answer">
-Our focus is on getting work done and not working set hours. I'm very much a fan of David Hansson's ideology here. In engineering at least, I encourage our small team to take ownership of certain products and services. Our end goal is to deliver great products to our user base. If that means going for a run or having some family time during the day, and working in the evening instead, that’s entirely fine.
+Our focus is on getting work done and not working set hours. I'm very much a fan of David Hansson's ideology here. In engineering at least, I encourage our small team to take ownership of certain products and services. Our end goal is to deliver great products to our user base. If that means going for a run or having some family time during the day, and working in the evening instead, that's entirely fine.
   </div>
 </div>
 
@@ -267,7 +268,7 @@ Our focus is on getting work done and not working set hours. I'm very much a fan
     Any disaster you could share with us?
   </div>
   <div class="answer">
-In the early days, we hosted the site on a single rack server in a Boston data center. This was all we could afford at the time. I remember one night a hard drive crashed and I raced to the data center to replace it. Luckily, it had a RAID setup so no data was lost. However, it quickly made me realize we needed to switch to something more reliable. We moved to Rackspace shortly before a major public launch, and again later to AWS. I still have the old server we originally launched on. Some day when we’re further along, I’ll turn it on to check out the original site.
+In the early days, we hosted the site on a single rack server in a Boston data center. This was all we could afford at the time. I remember one night a hard drive crashed and I raced to the data center to replace it. Luckily, it had a RAID setup so no data was lost. However, it quickly made me realize we needed to switch to something more reliable. We moved to Rackspace shortly before a major public launch, and again later to AWS. I still have the old server we originally launched on. Some day when we're further along, I'll turn it on to check out the original site.
   </div>
 </div>
 
