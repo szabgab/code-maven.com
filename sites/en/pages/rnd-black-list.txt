@@ -50,6 +50,18 @@ All of engineering work is conducted remotely. We find remote work to be efficie
 
 <div class="qa">
   <div class="question">
+Are the remote developers in the same time zone? Do you have all your communication asynchronous or do you have on-line meetings? How? How often?
+  </div>
+  <div class="answer">
+Team is geographically dispersed between California, Massachusetts and Vermont.
+Developers are on same time zone on the east coast.
+We do both scheduled online meetings (once per week) and some asynchronous communication via email / Slack throughout the week.
+  </div>
+</div>
+
+
+<div class="qa">
+  <div class="question">
     What are the most common tools that engineers use?
   </div>
   <div class="answer">
@@ -116,10 +128,22 @@ We have a developer sandbox image that is identical to what we run on production
 
 <div class="qa">
   <div class="question">
+Isn't using AWS for development slow?
+  </div>
+  <div class="answer">
+Not particularly. There is the added step of having to SSH to one's development machine.
+Besides that, it's not all that different from developing locally.
+The advantage of this for us is being able to develop in an environment we know is identical to what we run on production so there are no surprises.
+  </div>
+</div>
+
+
+<div class="qa">
+  <div class="question">
     What is the system architecture? (Monolith, Microservices, Mix, etc...?)
   </div>
   <div class="answer">
-When we started off, we were definitely a monolith. These days, it's a blend. While the core application is still somewhat of a monolith, we've been migrating to microservices whenever we see it to be appropriate. 
+When we started off, we were definitely a monolith. These days, it's a blend. While the core application is still somewhat of a monolith, we've been migrating to microservices whenever we see it to be appropriate.
   </div>
 </div>
 
@@ -165,6 +189,18 @@ Developers
   </div>
   <div class="answer">
 Whether we're fixing a bug or building a new feature, we work within a separate branch. Features are tested on sandbox by a developer working on it and also a dedicated product manager. Once we're satisfied with a new feature, we marge and push it up to production. We push new code frequently and do not follow a specific release schedule.
+  </div>
+</div>
+
+<div class="qa">
+  <div class="question">
+If your developers can push all the time to production, what does having sprints provide you?
+  </div>
+  <div class="answer">
+Well, I think there is a myth that in scrum code can only be released at the end of the sprint.
+For us, scrum is about commitment to working on certain tasks we can complete in one week's time.
+We may or may not be ready to release that product or feature at the end of the week, but at the very least we can get some feedback on its functionality from our product team.
+Sprints provide us with focus on rapid incremental development and feedback.
   </div>
 </div>
 
@@ -223,48 +259,6 @@ In the early days, we hosted the site on a single rack server in a Boston data c
   </div>
 </div>
 
-<div class="qa">
-  <div class="question">
-    What else would you like to tell people interested in the work at your company?
-  </div>
-  <div class="answer">
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
-Are the remote developers in the same time zone? Do you have all your communication asynchronous or do you have on-line meetings? How? How often?
-  </div>
-  <div class="answer">
-Team is geographically dispersed between California, Massachusetts and Vermont.
-Developers are on same time zone on the east coast.
-We do both scheduled online meetings (once per week) and some asynchronous communication via email / Slack throughout the week.
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
-Isn't using AWS for development slow?
-  </div>
-  <div class="answer">
-Not particularly. There is the added step of having to SSH to one's development machine.
-Besides that, it's not all that different from developing locally.
-The advantage of this for us is being able to develop in an environment we know is identical to what we run on production so there are no surprises.
-  </div>
-</div>
-
-
-<div class="qa">
-  <div class="question">
-If your developers can push all the time to production, what does having sprints provide you?
-  </div>
-  <div class="answer">
-Well, I think there is a myth that in scrum code can only be released at the end of the sprint.
-For us, scrum is about commitment to working on certain tasks we can complete in one week's time.
-We may or may not be ready to release that product or feature at the end of the week, but at the very least we can get some feedback on its functionality from our product team.
-Sprints provide us with focus on rapid incremental development and feedback.
-  </div>
-</div>
 
 <div class="qa">
   <div class="question">
