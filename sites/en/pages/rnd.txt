@@ -20,6 +20,14 @@ This will provide some insight into how these R&amp;D teams work. With a focus o
 
 =abstract end
 
+<h2>Most recent interviews</h2>
+<ul>
+  <li><a href="/rnd-at-wework">WeWork</a></li>
+  <li><a href="/rnd-at-graduway">Graduway</a></li>
+  <li><a href="/rnd-at-cellex">Cellex</a></li>
+</ul>
+
+
 Every interview starts with a set of standard questions and then we go into some of the more interesting parts and try to see more details.
 
 If there are questions you think would be really interesting to ask, don't hesitate to let me know.
@@ -34,13 +42,6 @@ Anyone who is related to the creation of value to the customers.
 I am also very interested in the practices and processes employed. After all that's what I help companies with.
 
 I think these issues can be interesting to all the engineers around the world and hope that you too will learn from them.
-
-<h2>Most recent interviews</h2>
-<ul>
-  <li><a href="/rnd-at-wework">WeWork</a></li>
-  <li><a href="/rnd-at-graduway">Graduway</a></li>
-  <li><a href="/rnd-at-cellex">Cellex</a></li>
-</ul>
 
 
 <!--
