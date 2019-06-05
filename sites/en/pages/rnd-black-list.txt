@@ -44,7 +44,8 @@ Total team size is 8 with 2 full stack engineers. We also have hundreds of freel
     Are there any remote engineers? (If yes, how does that work out?)
   </div>
   <div class="answer">
-All of engineering work is conducted remotely. We find remote work to be efficient and cost effective. Tools such as Slack and Github are obviously crucial to being able to collaborate and get work done.
+All of engineering work is conducted remotely. We find remote work to be efficient and cost effective. Tools such as <a
+href="https://slack.com/">Slack</a> and <a href="https://github.com/">Github</a> are obviously crucial to being able to collaborate and get work done.
   </div>
 </div>
 
@@ -67,14 +68,14 @@ We do both scheduled online meetings (once per week) and some asynchronous commu
   <div class="answer">
 Our team uses a combination of engineering and communication tools:
     <ul>
-      <li>Vim for development</li>
-      <li>AWS CLI</li>
-      <li>Airbrake for error monitoring</li>
-      <li>BrowserStack for test automation</li>
-      <li>Castle.io</li>
-      <li>Chrome developer tools</li>
-      <li>Kali Linux for auditing & vulnerability testing</li>
-      <li>Jira for project management and sprints</li>
+      <li><a href="https://www.vim.org/">Vim</a> for development</li>
+      <li><a href="https://aws.amazon.com/cli/">AWS CLI</a></li>
+      <li><a href="https://airbrake.io/">Airbrake</a> for error monitoring</li>
+      <li><a href="https://www.browserstack.com/">BrowserStack</a> for test automation</li>
+      <li><a href="https://castle.io/">Castle.io</a></li>
+      <li><a href="https://developers.google.com/web/tools/chrome-devtools/">Chrome developer tools</a></li>
+      <li><a href="https://www.kali.org/">Kali Linux</a> for auditing & vulnerability testing</li>
+      <li><a href="https://www.atlassian.com/software/jira">Jira</a> for project management and sprints</li>
       <li>Slack / Google Hangouts</li>
     </ul>
   </div>
@@ -86,8 +87,10 @@ Our team uses a combination of engineering and communication tools:
   </div>
   <div class="answer">
     <ul>
-      <li>Mainly modern Perl (Moose / Mason / Catalyst)</li>
-      <li>jQuery & Foundation on the front-end</li>
+      <li>Mainly modern Perl (<a href="https://perlmaven.com/moose">Moose</a> /
+               <a href="https://metacpan.org/pod/HTML::Mason">Mason</a> /
+               <a href="https://perlmaven.com/catalyst">Catalyst</a>)</li>
+      <li><a href="https://jquery.com/">jQuery</a> and Foundation on the front-end</li>
     </ul>
   </div>
 </div>
@@ -111,8 +114,8 @@ Our team uses a combination of engineering and communication tools:
   </div>
   <div class="answer">
   <ul>
-    <li>MariaDB</li>
-    <li>Memcached</li>
+    <li><a href="https://mariadb.org/">MariaDB</a></li>
+    <li><a href="https://memcached.org/">Memcached</a></li>
   </ul>
   </div>
 </div>
@@ -162,6 +165,15 @@ We originally started in a data center on a single rack server. We migrated to R
   </div>
   <div class="answer">
 We do weekly sprints. Our stand-ups are more like Slack-ups since engineering works remotely. We've taken the best principles of Scrum and adapted for a small team size.
+  </div>
+</div>
+
+<div class="qa">
+  <div class="question">
+Could you elaborate the steps you took to introduce Agile principles? What were the obstacles and how did you overcome them?
+  </div>
+  <div class="answer">
+I became a certified ScrumMaster by attending one of the live courses first. This was helpful because I was able to see the challenges that other people were going through and learn from some of the mistakes. We slowly introduced a more minimalist version of it at the Black List. It was fairly easy to implement because of our small size and we continue to use it to this day.
   </div>
 </div>
 
@@ -259,6 +271,14 @@ In the early days, we hosted the site on a single rack server in a Boston data c
   </div>
 </div>
 
+<div class="qa">
+  <div class="question">
+    What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
+  </div>
+  <div class="answer">
+We've gone through a number of site redesigns to get to the current look and feel. A little over a year ago we, we went through a major site overhaul where were ripped apart a lot of the front-end UI and switched to the Foundation Framework. This was challenging because every page was being rebuilt from scratch essentially. However, we knew it was a necessary move for a cleaner more intuitive UI.
+  </div>
+</div>
 
 <div class="qa">
   <div class="question">
@@ -266,24 +286,6 @@ In the early days, we hosted the site on a single rack server in a Boston data c
   </div>
   <div class="answer">
 One is the flexibility. The other is knowing that the work you do is having such a big impact on the lives of screenwriters all over the world who otherwise would never be able to break into the industry. There are also other perks like being able to attend certain major film festivals and meet interesting people along the way.
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
-Could you elaborate the steps you took to introduce Agile principles? What were the obstacles and how did you overcome them?
-  </div>
-  <div class="answer">
-I became a certified ScrumMaster by attending one of the live courses first. This was helpful because I was able to see the challenges that other people were going through and learn from some of the mistakes. We slowly introduced a more minimalist version of it at the Black List. It was fairly easy to implement because of our small size and we continue to use it to this day.
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
-    What was a major problem you as an engineering organization have encountered in the last year and how did you solve it?
-  </div>
-  <div class="answer">
-We've gone through a number of site redesigns to get to the current look and feel. A little over a year ago we, we went through a major site overhaul where were ripped apart a lot of the front-end UI and switched to the Foundation Framework. This was challenging because every page was being rebuilt from scratch essentially. However, we knew it was a necessary move for a cleaner more intuitive UI.
   </div>
 </div>
 
