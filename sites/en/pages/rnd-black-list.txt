@@ -8,14 +8,14 @@
 
 =abstract start
 
-<a href="https://blcklst.com/">The Black List</a> is a Los Angeles based screenplay discovery and evaluation platform.
-We're a home to over 60,000 screenwriters and have hosted nearly 70,000 screenplays since our inception in 2012.
-
-<a id="rnd-logo" href="https://blcklst.com/"><img src="/img/rnd/" alt="The Black List logo"></a>
+<a id="rnd-logo" href="https://blcklst.com/"><img src="/img/rnd/the-black-list.png" alt="The Black List logo"></a>
 
 <div class="rnd-author">
   <img class="rnd-author-img" src="/img/rnd/dino-simone.png" alt="Dino Simone">
-  <a href="https://www.linkedin.com/in/dinosimone/">Dino Simone</a> - Co-founder and CTO of The Black List
+  <a href="https://www.linkedin.com/in/dinosimone/">Dino Simone</a> - Co-founder and CTO of The Black List.
+  <p>
+  <a href="https://blcklst.com/">The Black List</a> is a Los Angeles based screenplay discovery and evaluation platform.
+  We're a home to over 60,000 screenwriters and have hosted nearly 70,000 screenplays since our inception in 2012.
 </div>
 
 =abstract end
