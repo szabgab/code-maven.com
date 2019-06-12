@@ -31,6 +31,7 @@ In this series we are going to look at various features of Ansible.
    <li><a href="/installing-perl-and-cpan-modules-using-ansible">Installing Perl and CPAN modules using Ansible</a></li>
    <li><a href="/ansible-playbook-print-debugging-statement">Ansible playbook: print debugging statement</a></li>
    <li><a href="/ansible-disable-apt-get">Stop and disable apt-get using Ansible</a></li>
+   <li><a href="/ansible-playbook-uptime-python3">Ansible playbook listing uptime using python3</a></li>
 </ol>
 
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">

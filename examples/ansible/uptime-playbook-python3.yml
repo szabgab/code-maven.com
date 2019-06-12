@@ -1,0 +1,10 @@
+- hosts: 127.0.0.1
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
+  tasks:
+    - name: just display
+      shell: uptime
+      register: hostname
+    - debug:
+        var: hostname
