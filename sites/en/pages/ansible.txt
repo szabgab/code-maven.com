@@ -33,6 +33,7 @@ In this series we are going to look at various features of Ansible.
    <li><a href="/ansible-disable-apt-get">Stop and disable apt-get using Ansible</a></li>
    <li><a href="/ansible-playbook-uptime-python3">Ansible playbook listing uptime using python3</a></li>
    <li><a href="/ansible-playbook-remove-file">Ansible playbook remove file</a></li>
+   <li><a href="/ansible-playbook-remove-directory">Ansible playbook remove directory</a></li>
 </ol>
 
 <img src="/img/ansible-logo.jpg" alt="Ansible logo">

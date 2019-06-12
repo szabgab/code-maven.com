@@ -1,0 +1,21 @@
+=title Ansible playbook remove directory
+=timestamp 2019-06-12T19:40:01
+=indexes file, absent
+=status show
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/ansible/remove-directory.yml">
+
+
+<code>
+ansible-playbook remove-directory.yml
+</code>
+
+See also <a href="https://docs.ansible.com/ansible/latest/modules/file_module.html">Ansible file module</a>.
+
