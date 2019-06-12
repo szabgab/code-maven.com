@@ -1,0 +1,9 @@
+- hosts: 127.0.0.1
+  vars:
+    ansible_python_interpreter: /usr/bin/python3
+
+  tasks:
+    - name: Remove file
+      file:
+        path: /tmp/hello.txt
+        state: absent
