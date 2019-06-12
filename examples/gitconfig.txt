@@ -9,6 +9,10 @@
     try = merge --no-commit --no-ff
     files = log --name-only
     lg = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
+    # git impact order --topo-order
+    topo = log --color --topo-order --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+
     changed = diff-tree -r --no-commit-id --name-only
     last = changed HEAD
 
