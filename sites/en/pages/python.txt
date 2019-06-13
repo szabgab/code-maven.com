@@ -62,7 +62,6 @@ Articles about Python
   <li><a href="/python-time-left">Time left in process (progress bar) in Python</a></li>
   <li><a href="/python-counter-with-mongodb">Python counter with MongoDB</a></li>
   <li><a href="/qx-in-python">qx in Python</a> execute external code and capture STDOUT</li>
-  <li><a href="/python-unittest-fails-exit-code-0">Python unittest fails, but return exit code 0 - how to fix</a></li>
 </ul>
 
 
@@ -80,6 +79,7 @@ Articles about Python
   <li><a href="/testing-random-numbers-in-python">Testing random numbers in Python using mocks</a></li>
   <li><a href="/python-fixing-random-numbers-for-testing">Fixing random numbers for testing</a></li>
   <li><a href="/pytest-fixtures-temporary-directory">Python: PyTest fixtures - temporary directory - tmpdir</a></li>
+  <li><a href="/python-unittest-fails-exit-code-0">Python unittest fails, but return exit code 0 - how to fix</a></li>
 </ul>
 
 Find additional Python-related articels in the <a href="/flask">Flask</a> series.
