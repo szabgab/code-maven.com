@@ -15,7 +15,7 @@
 
 <div class="rnd-author">
   <img class="rnd-author-img" src="/img/rnd/" alt="">
-  <a href=""></a> 
+  <a href=""></a>
 </div>
 
 =abstract end
@@ -30,7 +30,7 @@
 
 <div class="qa">
   <div class="question">
-    Number of engineers: 
+    Number of engineers:
   </div>
   <div class="answer">
   </div>
@@ -87,7 +87,7 @@
 
 <div class="qa">
   <div class="question">
-    What is the system architecture? (Monolith, Microservices, Mix, etc…?)
+    What is the system architecture? (Monolith, Microservices, Mix, etc...?)
   </div>
   <div class="answer">
   </div>
@@ -103,7 +103,7 @@
 
 <div class="qa">
   <div class="question">
-    What Agile practices do you employ? (Daily stand-up, Sprints, Retrospectives, ...)
+    What "Agile practices" do you employ? (Daily stand-up, Sprints, Retrospectives, ...)
   </div>
   <div class="answer">
   </div>
@@ -127,7 +127,7 @@
 
 <div class="qa">
   <div class="question">
-    What is the development process like? (The lifecycle of a piece of committed code, branching strategy. How do developers cooperate?)
+    What is the development process like? (The lifecycle of a piece of committed code, branching strategy. How do developers cooperate?)  Could you describe the process from commit/check-in to deplyment?
   </div>
   <div class="answer">
   </div>
@@ -176,14 +176,6 @@
 
 <div class="qa">
   <div class="question">
-    What makes your company a special place to be an engineer?
-  </div>
-  <div class="answer">
-  </div>
-</div>
-
-<div class="qa">
-  <div class="question">
     What are the biggest pleasures and challenges in your job?
   </div>
   <div class="answer">
@@ -201,6 +193,15 @@
 <div class="qa">
   <div class="question">
     Any disaster you could share with us?
+  </div>
+  <div class="answer">
+  </div>
+</div>
+
+
+<div class="qa">
+  <div class="question">
+    What makes your company a special place to be an engineer?
   </div>
   <div class="answer">
   </div>
