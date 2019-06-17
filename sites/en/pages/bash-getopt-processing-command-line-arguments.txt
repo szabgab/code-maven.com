@@ -1,0 +1,26 @@
+=title Bash: processing command line arguments with getopt
+=timestamp 2019-06-17T07:30:01
+=indexes getopt
+=status show
+=books bash
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/shell/cli.sh">
+
+<code>
+$ ./cli.sh --name "Foo Bar" --debug -v
+0: ./cli.sh
+1: --name
+2: Foo Bar
+0: ./cli.sh
+1: ./cli.sh
+2: --name
+Foo Bar
+1
+1
+</code>
