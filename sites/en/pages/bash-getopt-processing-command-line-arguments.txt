@@ -1,4 +1,4 @@
-=title Bash: processing command line arguments with getopt
+=title Bash: parsing command line arguments with getopt
 =timestamp 2019-06-17T07:30:01
 =indexes getopt
 =status show
@@ -8,18 +8,36 @@
 =comments_disqus_enable 1
 
 =abstract start
+
+In this example we have a function that can optionally! accept the following parameters:
+
 =abstract end
+
+<code>
+-v
+-d
+--debug
+--name VALUE
+</code>
+
+
+The call to <gl>getopt</hl> defines the accepted names.
+The <hl>-o dv</hl> defines that we accept two short switches <hl>-v</hl> and <hl>-d</hl>.
+The <hl>--long debug</hl> defines that we accept the <hl>--debug</hl> switch.
+The <hl>--long name:</hl> defines that we accept the <hl>--name</hl> option followed by some value.
+
+Then we have a whole <hl>while</hl> loop to actually take out the values from the list on the comand line
+and to assign the appropriate values to variables.
+Either 1 to the variables representing the switches, or the actual value passed to the <hl>--name</hl> option.
+
+At the end we need to call this function with the <hl>args $0 "$@"</hl> expression.
 
 <include file="examples/shell/cli.sh">
 
+<h2>An example calling it</h2>
+
 <code>
 $ ./cli.sh --name "Foo Bar" --debug -v
-0: ./cli.sh
-1: --name
-2: Foo Bar
-0: ./cli.sh
-1: ./cli.sh
-2: --name
 Foo Bar
 1
 1
