@@ -1,0 +1,21 @@
+=title Calling Java from Python
+=timestamp 2019-06-17T20:30:01
+=indexes Java, Python, jpype
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<code>
+pip install JPype1
+</code>
+
+<include file="examples/python/java.py">
+
+See the <a href="https://github.com/jpype-project/jpype/blob/master/doc/userguide.rst">jpype userguide</a>
+
+I tried this Python 3.7.3 running on Linux.
