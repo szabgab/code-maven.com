@@ -78,7 +78,7 @@ Then create a user called <b>dev</b> so we won't do everything as root.
 Switch to the new user and create a directory for the project.
 
 <code lang="bash">
-# su - dev 
+# su - dev
 $ mkdir project
 $ cd project/
 </code>
@@ -88,7 +88,7 @@ In the project/ directory create a file called app.py with the following content
 
 <code lang="pyhton">
 from flask import Flask
-import time 
+import time
 
 app = Flask(__name__)
 
@@ -110,7 +110,7 @@ is loaded as a module.
 Let's run our application:
 
 <code lang="bash">
-$ python app.py 
+$ python app.py
 Traceback (most recent call last):
   File "app.py", line 1, in <module>
     from flask import Flask
@@ -366,6 +366,19 @@ I did that and restarted uWSGI using
 </code>
 
 The application started to work!
+
+<h2>The correct uwsgi config file</h2>
+
+This time with socket and not http-socket!
+
+<code>
+[uwsgi]
+socket    = :9090
+plugin    = python
+wsgi-file = /home/dev/project/app.py
+process   = 3
+callable = app
+</code>
 
 
 <h2>Troubleshooting</h2>
