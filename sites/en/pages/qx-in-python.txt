@@ -47,5 +47,12 @@ This is the output:
 This is a blocking operation so your Python code will wait till the external program finishes to run.
 
 
+<h2>qxx - capture both stdout and stderr</h2>
+
+<include file="examples/python/qxx.py">
+
+<h2>See also</h2>
+
+<a href="/python-capture-stdout-stderr-exit">capture STDOUT, STDERR, and exit in python</a>.
 
 
