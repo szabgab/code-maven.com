@@ -1,12 +1,15 @@
 =title Elastic Search - updating complex data structure
-=timestamp 2018-01-01T07:30:01
-=indexes Elastic
-=status draft
+=timestamp 2019-06-25T06:30:01
+=indexes ElasticSearch
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
 
 =abstract start
+
+Just some snippets for experimenting with ElasticSearch
+
 =abstract end
 
 <code>
