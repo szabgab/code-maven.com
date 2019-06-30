@@ -14,3 +14,10 @@ The <hl>.gitconfig</hl> file in my home directory:
 
 <include file="examples/gitconfig.txt">
 
+
+
+<h2>List of recently changed files:</h2>
+
+<code>
+git log --name-only --pretty=format:'' -n 20 | grep ^[a-zA-Z0-9] | sort | uniq
+</code>
