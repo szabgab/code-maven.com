@@ -49,7 +49,7 @@ Articles about Python
   <li><a href="/python-argparse">Python argparse to process command line arguments</a></li>
   <li><a href="/how-to-print-number-with-commas-as-thousands-separator">How to commafy a number? (How to print number with commas as thousands separators using Python?)</a></li>
   <li><a href="/python-seek">seek, tell</a></li>
-  <li><a href="/python-capture-stdout-stderr-exit">Capture standar output, standard error, and the exit code of a subprocess</a> (subprocess)</li>
+  <li><a href="/python-capture-stdout-stderr-exit">Capture standard output, standard error, and the exit code of a subprocess</a> (subprocess)</li>
   <li><a href="/python-iterate-list-of-tuples">Iterate over list of tuples</a></li>
   <li><a href="/print-version-number-of-python-module">Print version number of Python module</a></li>
   <li><a href="/repeat-the-same-random-numbers">Repeat the same random numbers using seed</a></li>
@@ -62,7 +62,31 @@ Articles about Python
   <li><a href="/python-time-left">Time left in process (progress bar) in Python</a></li>
   <li><a href="/python-counter-with-mongodb">Python counter with MongoDB</a></li>
   <li><a href="/qx-in-python">qx in Python</a> execute external code and capture STDOUT</li>
+  <li><a href="/calling-java-from-python">Calling Java from Python</a></li>
+  <li><a href="/python-elasticsearch">Python and ElasticSearch</a></li>
+  <li><a href="/python-daemon">Python daemon (background service)</a></li>
+  <li><a href="/python-print-stack-trace-after-catching-exception">Python: print stack trace after catching exception</a></li>
+  <li><a href="/python-logging-in-a-library">Python: logging in a library even before enabling logging</a></li>
 </ul>
+
+<h2>Algrithms and data structures in Python</h2>
+
+This is going to be a series of articles show various common algorithms and data structures implemented and explained in Python.
+I am basing a lot of my ideas on the excellent book
+<a href="http://shop.oreilly.com/product/9781565923980.do">Mastering Algorithms with Perl</a>.
+
+<ul>
+   <li>Queues FIFO</li>
+   <li>Stacks LIFO</li>
+   <li>Dequese (Double ended queue)</li>
+   <li>Binary search</li>
+   <li>Hashing</li>
+   <li>Arrays</li>
+   <li>Linked Lists</li>
+   <li>...</li>
+</ul>
+
+
 
 
 
