@@ -1,0 +1,15 @@
+=title Show how much disk space is used in every Amazon S3 bucket
+=timestamp 2019-07-19T15:30:01
+=indexes boto, boto3, s3
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+
+<include file="examples/python/s3_du.py">
+
