@@ -1,0 +1,88 @@
+=title Bash set -e to stop script on failure
+=timestamp 2019-07-20T12:00:01
+=indexes set, -e, +e
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Normally if one of the commands executed by a shell script fails it set an exit code different from 0, but the script
+will not stop. In some cases this might be the proper behavior, but in many cases, especially in a CI system
+you'll probably want your shell script to fail of one of its commands failed.
+
+The <hl>-e</hl> tells Bash to stop immediately if one of the statements it executes has an exit-code different from 0.
+
+=abstract end
+
+<h2>Exit code</h2>
+
+Every command you run on the command line of Linux has an exit code. 0 indicates success. Any other number is a failure.
+The variable <hl>$?</hl> contains the exit-code of the previous command.
+
+E.g. a successful command:
+
+<code>
+$ ls
+...  (the content of the directory)
+
+$ echo $?
+0
+</code>
+
+A failed command:
+
+<code>
+$ ls some-place-that-does-not-exist
+ls: cannot access 'some-place-that': No such file or directory
+
+$ echo $?
+2
+</code>
+
+
+<h2>Shell script without -e</h2>
+
+In this script we have 3 commands. The 2nd fails, but it does not bother the main script. It keeps working and
+executes the 3rd command.
+
+<include file="examples/shell/no-set-e.sh">
+
+<code>
+$ ./examples/shell/no-set-e.sh
+Start
+ls: cannot access 'some-incorrect-path': No such file or directory
+Still working
+
+
+$ echo $?
+0
+</code>
+
+Not only that, but the whole script indicates success (its own exit code is set to be 0) even thought some part of it
+have failed.
+
+
+
+<h2>Shell script with -e</h2>
+
+We can set the <hl>-e</hl> either on the sh-bang line or with the <hl>set -e</hl> command.
+We can turn it off using the <hl>set +e</hl> command.
+
+<include file="examples/shell/set-e.sh">
+
+<code>
+$ ./examples/shell/set-e.sh
+Start
+ls: cannot access 'some-incorrect-path': No such file or directory
+
+$ echo $?
+2
+</code>
+
+Here, as you can see, after the 2nd command fails, the whole script stops and the exit-code of the script is set
+to a non-zero number indicating failure.
+
+

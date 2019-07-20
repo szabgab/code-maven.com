@@ -1,6 +1,6 @@
 =title Bash set -x to print statements as they are executed
 =timestamp 2019-07-20T11:30:01
-=indexes set, -x
+=indexes set, -x, +x
 =status show
 =books shell
 =author szabgab
