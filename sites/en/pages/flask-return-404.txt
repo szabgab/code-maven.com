@@ -31,7 +31,7 @@ def page_not_found(error):
 <h2>Return 404 in the middle of a route</h2>
 
 <code lang="python">
-@catapp.route("/book/&lt;isbn&gt;")
+@app.route("/book/&lt;isbn&gt;")
 def book(isbn)
     ...
     if isbn not in all_the_isbns:
