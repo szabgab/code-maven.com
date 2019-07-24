@@ -58,3 +58,7 @@ How to make sure your software does not deteriorate?
 If you have a shrink-wrap product, one that the clients download to the computer and install, you might be facing a very long 
 
 
+<a href="https://www.reddit.com/r/devops/comments/5vhgw6/where_to_start_with_devops/">Where to start with DevOps?</a>
+
+<a href="https://hackernoon.com/devops-for-startups-5-tricks-for-successful-adoption-ef4d563d0b05">DevOps for Startups: 5 tricks for successful adoption</a>
+
