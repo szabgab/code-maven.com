@@ -21,6 +21,9 @@
     # pull and update submodules
     pullall = !git pull && git submodule update --init --recursive
 
+    plog = log --all --decorate --abbrev-commit --pretty=medium --graph
+    meld = difftool --dir-diff
+
 [push]
     default = simple
 
@@ -42,3 +45,14 @@
 # git pull defaults to git pull --rebase
 [pull]
     rebase = true
+
+[diff]
+   tool = meld
+
+[difftool]
+   prompt = false
+
+[difftool "meld"]
+   cmd = meld "$LOCAL" "$REMOTE"
+
+

@@ -14,7 +14,11 @@ The <hl>.gitconfig</hl> file in my home directory:
 
 <include file="examples/gitconfig.txt">
 
+Install <b>meld</b> for better comparing of files
 
+<code>
+sudo apt-get install meld
+</code>
 
 <h2>List of recently changed files:</h2>
 
