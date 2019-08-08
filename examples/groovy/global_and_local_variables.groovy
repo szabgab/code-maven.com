@@ -9,4 +9,4 @@ def f() {
 
 
 f()
-println(x)          // 23
+println(x)          // 42
