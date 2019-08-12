@@ -1,0 +1,66 @@
+=title ps does not show name of the shell script only -bash or bash - Linux
+=timestamp 2019-08-12T07:30:01
+=indexes ps, bash
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Recently, on a CentOS box I've noticed that when I run <hl>ps -ef</hl> or <hl>ps axuw</hl> some of my scripts don't show
+up. I also checked this on Ubuntu 19.04 with similar results.
+
+TLDR: add <hl>#!/bin/bash</hl> as the first line of your Bash script.
+
+I ran a little experiment.
+
+=abstract end
+
+Created a script called <b>hello.sh</b> with the following content:
+
+<include file="examples/shell/hello.sh">
+
+Made it executable: <hl>chmod +x hello.sh</hl> and ran it:
+
+<code>
+./hello.sh &
+</code>
+
+I tried to see if I can find the process using ps and grepping for the name of the process, but it did not show up.
+
+<code>
+ps -ef | grep hello
+</code>
+
+Then I did the same but this time grepping for the process ID. (That's why I printed it in my experimental script.)
+
+<code>
+ps -ef | grep 12345
+</code>
+
+This time I saw the process and the name of the process was <hl>-bash</hl>.
+
+<h2>sh-bang line</h2>
+
+Usually in Linux/Unix the first line of each script should point to the command that will be able to interpret the code
+in the file. It is called <a href="https://en.wikipedia.org/wiki/Shebang_(Unix)">sh-bang</a>.
+
+I've added it to the script (and renamed it becasue the web site can only have one file with the same name):
+
+<include file="examples/shell/hello_again.sh">
+
+Making this executable: <hl>chmod +x hello_again.sh</hl> and runing this the same way: <hl>./hello_again.sh</hl>.
+This time the full name showed up in the output of <hl>ps</hl>.
+
+<h2>Running with bash</h2>
+
+I tried also running it with <hl>bash</hl> like this:
+
+<code>
+bash hello_again.sh
+</code>
+
+On Ubuntu it seems it showd up with the full name, but as I recall in CentOS it had the same result as the first
+version, showing up only as <hl>-bash</hl>.
+
