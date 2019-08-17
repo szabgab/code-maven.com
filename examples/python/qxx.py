@@ -1,4 +1,4 @@
-iimport subprocess
+import subprocess
 
 def qxx(cmd):
     proc = subprocess.Popen(cmd,
@@ -7,5 +7,7 @@ def qxx(cmd):
                shell = True,
     )
     stdout, stderr = proc.communicate()
+    if proc.returncode != 0:
+        raise Exception("Error executing {}".formart(cmd))
     return stdout
 
