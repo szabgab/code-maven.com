@@ -67,6 +67,8 @@ Articles about Python
   <li><a href="/python-daemon">Python daemon (background service)</a></li>
   <li><a href="/python-print-stack-trace-after-catching-exception">Python: print stack trace after catching exception</a></li>
   <li><a href="/python-logging-in-a-library">Python: logging in a library even before enabling logging</a></li>
+  <li><a href="/python-atexit-exit-handle">Python atexit exit handle - like the END block of Perl</a></li>
+  <li><a href="/python-traversing-dependecy-tree">Traversing dependency tree</a></li>
 </ul>
 
 <h2>Algrithms and data structures in Python</h2>
