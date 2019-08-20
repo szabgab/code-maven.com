@@ -1,7 +1,7 @@
 =title Testing with PyTest
-=timestamp 2017-01-01T07:30:01
+=timestamp 2019-08-20T07:10:01
 =indexes pytest, testing
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
