@@ -1,0 +1,16 @@
+=title Groovy get the list of keys of a map as an ArrayList
+=timestamp 2019-08-24T08:30:01
+=indexes keySet, ArrayList, getClass
+=status show
+=books groovy
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<include file="examples/groovy/list_keys.groovy">
+
+If you only want to <a href="/groovy-iterate-over-map-keys">iterate over the map keys</a>,
+you don't need to convert them into and ArrayList.
