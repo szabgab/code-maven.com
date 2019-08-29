@@ -1,0 +1,70 @@
+=title Meetup Venues in Israel
+=timestamp 2019-01-01T07:30:01
+=indexes Meetup
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<h2>Google for Startups (was Google Campus) - Tel Aviv</h2>
+
+<a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> that was used to called Google Campus is located in
+HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
+
+They have 3 options to host events.
+
+<ul>
+   <li>The Event Space (which fits 142 people)</li>
+   <li>The Classroom (that fits 24 people)</li>
+   <li>The Cafe (60 people)</li>
+</ul>
+
+They are open Sunday-Thursday 6:00-23:00 and you can schedule events during the day as well.
+
+They have an on-line registration form to apply where you can see the available time-slots.
+Soon after you submit your request to hold an event they send you their approval or they might ask
+for clarification.
+
+They are usually open to any type of technical event.
+
+<h2>Floor 28 Amazon AWS - Tel Aviv</h2>
+
+<a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
+shopping mall in 121 Menachem Begin, Tel Aviv. They are on the 28th floor (surprised?) of the Azrieli Sarona tower.
+
+TBD. Available spaces. How to apply.
+
+<h2>Microsoft Startup Hub - Tel Aviv</h2>
+
+<a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> located in Dubnov 7, Tel Aviv.
+
+<h2>DoiT International - Tel Aviv</h2>
+
+<a href="https://www.doit-intl.com/">DoiT International (Israel)</a>
+
+Located at David Elazar 12, Tel Aviv-Yafo.
+
+
+<h2>ironSource - Tel Aviv</h2>
+
+<a href="https://www.ironsrc.com/">ironSource</a>
+Located at Derech Menachem Begin 121 · Tel Aviv-Yafo
+
+<h2>RedisLabs - Tel Aviv</h2>
+
+<a href="https://redislabs.com/">RedisLabs</a>.
+
+Located in Igal Alon 94 Alon 2 Tower 32nd Floor, Tel-Aviv. It seems they are only interested in events related to Redis.
+
+
+<!--
+Name.
+Location (address)
+The available spaces.
+How to get a space to organize an event. (The process of registration)
+What kind of events are they interested in.
+At what time can event be organized?
+-->
