@@ -5,21 +5,26 @@
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
+=embedded_ad 0
 
 =abstract start
+
+Meetup organizers are always looking for interesting places to hold their events. I hope that this
+collection will help them find some venues they have not tried yet.
+
 =abstract end
 
-<h2>Google for Startups (was Google Campus) - Tel Aviv</h2>
+<h2>Google for Startups - Tel Aviv</h2>
 
-<a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> that was used to called Google Campus is located in
+<a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> (was Google Campus) is located in
 HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
 
 They have 3 options to host events.
 
 <ul>
-   <li>The Event Space (which fits 142 people)</li>
-   <li>The Classroom (that fits 24 people)</li>
-   <li>The Cafe (60 people)</li>
+   <li>The Event Space (142 people) good for presentations.</li>
+   <li>The Classroom (24 people) good for presentations and hands-on workshops.</li>
+   <li>The Cafe (60 people) good for hands-on workshops, hackathons.</li>
 </ul>
 
 They are open Sunday-Thursday 6:00-23:00 and you can schedule events during the day as well.
