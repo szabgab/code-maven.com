@@ -64,12 +64,31 @@ Located at Derech Menachem Begin 121 · Tel Aviv-Yafo
 
 Located in Igal Alon 94 Alon 2 Tower 32nd Floor, Tel-Aviv. It seems they are only interested in events related to Redis.
 
+<h2>Haifa</h2>
 
-<!--
-Name.
-Location (address)
-The available spaces.
-How to get a space to organize an event. (The process of registration)
-What kind of events are they interested in.
-At what time can event be organized?
--->
+<h3>hiCenter - Haifa</h3>
+
+<a href="https://hicenter.co.il/">hiCenter</a>
+at 32 Sderot Hameginim, Haifa 3326226, Israel
+had a number of events. The have their of <a href="https://www.meetup.com/hiCenter-Campus-Meetup-Group/">hiCenter Meetup group</a>
+
+<h3>IBM research labs - Haifa</h3>
+
+<a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs Haifa</a>
+
+<h2>Jerusalem</h2>
+
+It seems in Jerusalem there are only very few Meetup groups and every time they meet at a different venue. If you'd like
+to find a venue there, it is probably best to talk to the organizers of one of the few existing groups.
+
+
+<h2>The questions</h2>
+<ul>
+    <li>Name.</li>
+    <li>Location (address).</li>
+    <li>The available spaces. (number of people, types of events)</li>
+    <li>How to get a space to organize an event. (The process of registration)</li>
+    <li>What kind of events are they interested in?</li>
+    <li>At what time can event be organized?</li>
+</ul>
+
