@@ -105,7 +105,21 @@ had a number of events. The have their of <a href="https://www.meetup.com/hiCent
 It seems in Jerusalem there are only very few Meetup groups and every time they meet at a different venue. If you'd like
 to find a venue there, it is probably best to talk to the organizers of one of the few existing groups.
 
+The biggest ones are
+<a href="https://www.meetup.com/MadeinJLM/">Made in JLM- Jerusalem Tech & Start-Up Community</a> has over 3,000 members,
+<a href="https://www.meetup.com/DataTalks-JLM-Machine-and-Deep-Learning-in-the-Holy-City/">JerusML - Machine and Deep
+Learning in the Holy City</a> has 1,600 members.
+
+Search for more
+<a
+href="https://www.meetup.com/find/?allMeetups=true&radius=10&userFreeform=Jerusalem%2C+Israel&mcId=c1017961&change=yes&sort=recommended&eventFilter=mysugg">groups
+in Jerusalem</a>.
+
 <h2>Beer Sheva</h2>
 
+Find
+<a
+herf="https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg">groups
+in Beer Sheva</a>.
 
 
