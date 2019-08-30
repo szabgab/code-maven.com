@@ -14,7 +14,7 @@ collection will help them find some venues they have not tried yet.
 
 =abstract end
 
-<h2>Google for Startups - Tel Aviv</h2>
+<h2><a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> - Tel Aviv</h2>
 
 <a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> (was Google Campus) is located in
 HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
@@ -38,9 +38,7 @@ They are usually open to any type of technical event.
 <h2>Floor 28 Amazon AWS - Tel Aviv</h2>
 
 <a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
-shopping mall in 121 Menachem Begin, Tel Aviv. They are on the 28th floor (surprised?) of the Azrieli Sarona tower.
-
-TBD. Available spaces. How to apply.
+shopping mall in 121 Menachem Begin, Tel Aviv. Not surprisingly they are on the 28th floor of the Azrieli Sarona tower.
 
 <h2>Microsoft Startup Hub - Tel Aviv</h2>
 
@@ -51,7 +49,6 @@ TBD. Available spaces. How to apply.
 <a href="https://www.doit-intl.com/">DoiT International (Israel)</a>
 
 Located at David Elazar 12, Tel Aviv-Yafo.
-
 
 <h2>ironSource - Tel Aviv</h2>
 
@@ -66,13 +63,17 @@ Located in Igal Alon 94 Alon 2 Tower 32nd Floor, Tel-Aviv. It seems they are onl
 
 <h2>Haifa</h2>
 
-<h3>hiCenter - Haifa</h3>
+There are a number of Meetup groups in Haifa. One of them, the <a href="https://www.meetup.com/Haifa-Tech-Talks/">Haifa Tech Talks</a>
+had event in many different locations so if you'd like to organize an event in Haifa it might be a good idea to contact
+them and cooperate with them.
+
+<h2>hiCenter - Haifa</h2>
 
 <a href="https://hicenter.co.il/">hiCenter</a>
 at 32 Sderot Hameginim, Haifa 3326226, Israel
 had a number of events. The have their of <a href="https://www.meetup.com/hiCenter-Campus-Meetup-Group/">hiCenter Meetup group</a>
 
-<h3>IBM research labs - Haifa</h3>
+<h2>IBM research labs - Haifa</h2>
 
 <a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs Haifa</a>
 
