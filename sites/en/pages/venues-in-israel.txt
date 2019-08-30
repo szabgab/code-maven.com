@@ -54,6 +54,9 @@ for clarification.
 
 They are usually open to any type of technical event.
 
+They also have their own calendar of events and promote your event to their members.
+
+
 <h2><a href="https://floor28.co.il/">Floor 28 Amazon AWS</a> - Tel Aviv</h2>
 
 <a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
@@ -95,6 +98,7 @@ had a number of events. The have their of <a href="https://www.meetup.com/hiCent
 <h2><a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs</a> - Haifa</h2>
 
 <a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs Haifa</a>
+<a href="https://www.meetup.com/Haifa-Cloud/">Haifa Cloud</a> held their events there.
 
 <h2>Jerusalem</h2>
 
