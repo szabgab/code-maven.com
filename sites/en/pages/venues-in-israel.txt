@@ -118,8 +118,7 @@ in Jerusalem</a>.
 <h2>Beer Sheva</h2>
 
 Find
-<a
-herf="https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg">groups
+<a href="https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg">groups
 in Beer Sheva</a>.
 
 
