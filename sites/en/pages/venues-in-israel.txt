@@ -1,4 +1,4 @@
-=title Meetup Venues in Israel
+=title Free Meetup Spaces in Israel
 =timestamp 2019-01-01T07:30:01
 =indexes Meetup
 =status draft
@@ -9,15 +9,34 @@
 
 =abstract start
 
-Meetup organizers are always looking for interesting places to hold their events. I hope that this
-collection will help them find some venues they have not tried yet.
+If you are an event organizer with a new group it might be tricky to find a good place for your gathering,
+but even if you already have a large group with a long history you might be interested
+to find alternative places to hold your events.
+It can broaden the membership and can make your group more accessible to pepple living and working in other areas of the country.
+
+On this page you'll find some of the best venues where you can organize your events. The majority seem to be in the
+center of the country, especially in Tel Aviv, but I included information about other cities as well.
 
 =abstract end
+
+<h2>The questions</h2>
+
+Throught this post I am trying to answer the following questions about each place:
+
+<ul>
+    <li>Name of the place. Obviously.</li>
+    <li>Location (address).</li>
+    <li>The available spaces. (number of people, types of events: presentations only, hands-on events as well, or just round-table chats?)</li>
+    <li>How to get a time-slot to organize an event? (The process of registration)</li>
+    <li>What kind of events and content are they interested in?</li>
+    <li>At what time can event be organized?</li>
+</ul>
 
 <h2><a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> - Tel Aviv</h2>
 
 <a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> (was Google Campus) is located in
 HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
+On the other hand arriving by car can be tricky.
 
 They have 3 options to host events.
 
@@ -35,27 +54,27 @@ for clarification.
 
 They are usually open to any type of technical event.
 
-<h2>Floor 28 Amazon AWS - Tel Aviv</h2>
+<h2><a href="https://floor28.co.il/">Floor 28 Amazon AWS</a> - Tel Aviv</h2>
 
 <a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
 shopping mall in 121 Menachem Begin, Tel Aviv. Not surprisingly they are on the 28th floor of the Azrieli Sarona tower.
 
-<h2>Microsoft Startup Hub - Tel Aviv</h2>
+<h2><a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> - Tel Aviv</h2>
 
 <a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> located in Dubnov 7, Tel Aviv.
 
-<h2>DoiT International - Tel Aviv</h2>
+<h2><a href="https://www.doit-intl.com/">DoiT International</a> - Tel Aviv</h2>
 
 <a href="https://www.doit-intl.com/">DoiT International (Israel)</a>
 
 Located at David Elazar 12, Tel Aviv-Yafo.
 
-<h2>ironSource - Tel Aviv</h2>
+<h2><a href="https://www.ironsrc.com/">ironSource</a> - Tel Aviv</h2>
 
 <a href="https://www.ironsrc.com/">ironSource</a>
 Located at Derech Menachem Begin 121 · Tel Aviv-Yafo
 
-<h2>RedisLabs - Tel Aviv</h2>
+<h2><a href="https://redislabs.com/">RedisLabs</a> - Tel Aviv</h2>
 
 <a href="https://redislabs.com/">RedisLabs</a>.
 
@@ -67,13 +86,13 @@ There are a number of Meetup groups in Haifa. One of them, the <a href="https://
 had event in many different locations so if you'd like to organize an event in Haifa it might be a good idea to contact
 them and cooperate with them.
 
-<h2>hiCenter - Haifa</h2>
+<h2><a href="https://hicenter.co.il/">hiCenter</a> - Haifa</h2>
 
 <a href="https://hicenter.co.il/">hiCenter</a>
 at 32 Sderot Hameginim, Haifa 3326226, Israel
 had a number of events. The have their of <a href="https://www.meetup.com/hiCenter-Campus-Meetup-Group/">hiCenter Meetup group</a>
 
-<h2>IBM research labs - Haifa</h2>
+<h2><a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs</a> - Haifa</h2>
 
 <a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs Haifa</a>
 
@@ -82,14 +101,7 @@ had a number of events. The have their of <a href="https://www.meetup.com/hiCent
 It seems in Jerusalem there are only very few Meetup groups and every time they meet at a different venue. If you'd like
 to find a venue there, it is probably best to talk to the organizers of one of the few existing groups.
 
+<h2>Beer Sheva</h2>
 
-<h2>The questions</h2>
-<ul>
-    <li>Name.</li>
-    <li>Location (address).</li>
-    <li>The available spaces. (number of people, types of events)</li>
-    <li>How to get a space to organize an event. (The process of registration)</li>
-    <li>What kind of events are they interested in?</li>
-    <li>At what time can event be organized?</li>
-</ul>
+
 
