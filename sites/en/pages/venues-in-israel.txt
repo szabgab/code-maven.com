@@ -120,6 +120,10 @@ had a number of events. The have their of <a href="https://www.meetup.com/hiCent
 <a href="https://www.research.ibm.com/labs/haifa/visitor.shtml">IBM research labs Haifa</a>
 <a href="https://www.meetup.com/Haifa-Cloud/">Haifa Cloud</a> held their events there.
 
+<h2><a href="https://www.wix.engineering/">Wix</a> - Haifa</h2>
+
+<a href="https://www.wix.engineering/">Wix</a> at Derech HaAtzmaut 45, Haifa.
+
 <h2 id="jerusalem">Jerusalem</h2>
 
 It seems in Jerusalem there are only very few Meetup groups and every time they meet at a different venue. If you'd like
@@ -137,7 +141,11 @@ in Jerusalem</a>.
 
 <h2 id="beer-sheva">Beer Sheva</h2>
 
-Find
+<h2><a href="https://www.wix.engineering/">Wix</a> - Beer Sheva</h2>
+
+Wix has an office in Torat HaYahasut 11, Beer Sheva where they organize events. See the Tel Aviv listing above.
+
+In addition you can find
 <a href="https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg">groups
 in Beer Sheva</a>.
 
