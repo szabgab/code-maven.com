@@ -57,14 +57,17 @@ On the other hand arriving by car can be tricky.
 
 They have 3 options to host events.
 
-<ul>
-   <li>The Event Space (142 people) good for presentations.</li>
-   <li>The Classroom (24 people) good for presentations and hands-on workshops.</li>
-   <li>The Cafe (60 people) good for hands-on workshops, hackathons.</li>
-</ul>
+The Event Space (142 people) good for presentations.
+
+<img class="room" src="/static/img/venues-il/google-startup-event-space.jpg" />
+
+The Classroom (24 people) good for presentations and hands-on workshops.
 
 <img class="room" src="/static/img/venues-il/google-startup-class.jpg" />
 
+The Cafe (60 people) good for hands-on workshops, hackathons.
+
+<img class="room" src="/static/img/venues-il/google-startup-cafe.jpg" />
 
 They are open Sunday-Thursday 6:00-23:00 and you can schedule events during the day as well.
 
