@@ -19,6 +19,12 @@ center of the country, especially in Tel Aviv, but I included information about 
 
 =abstract end
 
+<style>
+.room {
+}
+</style>
+
+
 <h2>The questions</h2>
 
 Throught this post I am trying to answer the following questions about each place:
@@ -41,7 +47,7 @@ Throught this post I am trying to answer the following questions about each plac
 </ul>
 
 
-<h2 id="tel-aviv">>Tel Aviv</h2>
+<h2 id="tel-aviv">Tel Aviv</h2>
 
 <h2><a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> - Tel Aviv</h2>
 
@@ -56,6 +62,9 @@ They have 3 options to host events.
    <li>The Classroom (24 people) good for presentations and hands-on workshops.</li>
    <li>The Cafe (60 people) good for hands-on workshops, hackathons.</li>
 </ul>
+
+<img class="room" src="/static/img/venues-il/google-startup-class.jpg" />
+
 
 They are open Sunday-Thursday 6:00-23:00 and you can schedule events during the day as well.
 
