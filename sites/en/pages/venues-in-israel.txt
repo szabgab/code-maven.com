@@ -115,6 +115,11 @@ Located at Derech Menachem Begin 121 · Tel Aviv-Yafo
 
 Located in Igal Alon 94 Alon 2 Tower 32nd Floor, Tel-Aviv. It seems they are only interested in events related to Redis.
 
+<h2><a href="https://www.tikalk.com/">Tikal</a> - Tel Aviv</h2>
+
+<a href="https://www.tikalk.com/">Tikal</a> has it office in Kiryat Atidim, Building 7, 3rd Floor.  Tel Aviv.
+
+
 <h2 id="haifa">Haifa</h2>
 
 There are a number of Meetup groups in Haifa. One of them, the <a href="https://www.meetup.com/Haifa-Tech-Talks/">Haifa Tech Talks</a>
