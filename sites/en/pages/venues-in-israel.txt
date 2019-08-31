@@ -55,7 +55,7 @@ Throught this post I am trying to answer the following questions about each plac
 HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
 On the other hand arriving by car can be tricky.
 
-They have 3 options to host events.
+There are 3 options to host events:
 
 The Event Space (142 people) good for presentations.
 
@@ -71,13 +71,13 @@ The Cafe (60 people) good for hands-on workshops, hackathons.
 
 They are open Sunday-Thursday 6:00-23:00 and you can schedule events during the day as well.
 
-They have an on-line registration form to apply where you can see the available time-slots.
+There is an on-line registration form to apply where you can see the available time-slots.
 Soon after you submit your request to hold an event they send you their approval or they might ask
 for clarification.
 
 They are usually open to any type of technical event.
 
-They also have their own calendar of events and promote your event to their members.
+They also have their own <a href="https://www.campus.co/tel-aviv/en/events/">calendar of events</a> and promote your event to their members.
 
 
 <h2><a href="https://floor28.co.il/">Floor 28 Amazon AWS</a> - Tel Aviv</h2>
