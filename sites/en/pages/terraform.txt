@@ -1,0 +1,41 @@
+=title Terraform
+=timestamp 2019-01-01T07:30:01
+=indexes CodeMaven
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+infrastructure as code
+HashiCorp Terraform
+
+<include file="examples/terraform/1/main.tf">
+
+<code>
+terraform init
+terraform apply
+</code>
+
+
+<include file="examples/terraform/2/main.tf">
+
+<include file="examples/terraform/count/main.tf">
+
+
+links
+
+https://www.terraform.io/docs/configuration-0-11/interpolation.html#math
+
+https://www.terraform.io/docs/configuration/resources.html
+
+
+
+
+<include file="examples/terraform/google/main.tf">
+
+<include file="examples/terraform/google/startup.sh">
+
+<include file="examples/terraform/google/dev.tfvars">
