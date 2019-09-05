@@ -39,7 +39,17 @@ Throught this post I am trying to answer the following questions about each plac
 </ul>
 
 <ul>
-   <li><a href="#tel-aviv">Tel Aviv</a></li>
+   <li><a href="#tel-aviv">Tel Aviv</a>
+     <ul>
+       <li><a href="google">Google</a></li>
+       <li><a href="amazon">Amazon</a></li>
+       <li><a href="microsoft">Microsoft</a></li>
+       <li><a href="wix-tel-aviv">Wix</a></li>
+       <li><a href="doit">DoIt</a></li>
+       <li><a href="ironsource">ironSource</a></li>
+       <li><a href="tikal">Tikal</a></li>
+     </ul>
+   </li>
    <li><a href="#haifa">Haifa</a></li>
    <li><a href="#jerusalem">Jerusalem</a></li>
    <li><a href="#beer-sheva">Beer Sheva</a></li>
@@ -49,7 +59,7 @@ Throught this post I am trying to answer the following questions about each plac
 
 <h2 id="tel-aviv">Tel Aviv</h2>
 
-<h2><a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> - Tel Aviv</h2>
+<h2 id="google"><a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> - Tel Aviv</h2>
 
 <a href="https://www.campus.co/tel-aviv/en">Google for Startups</a> (was Google Campus) is located in
 HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
@@ -80,16 +90,16 @@ They are usually open to any type of technical event.
 They also have their own <a href="https://www.campus.co/tel-aviv/en/events/">calendar of events</a> and promote your event to their members.
 
 
-<h2><a href="https://floor28.co.il/">Floor 28 Amazon AWS</a> - Tel Aviv</h2>
+<h2 id="amazon"><a href="https://floor28.co.il/">Floor 28 Amazon AWS</a> - Tel Aviv</h2>
 
 <a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
 shopping mall in 121 Menachem Begin, Tel Aviv. Not surprisingly they are on the 28th floor of the Azrieli Sarona tower.
 
-<h2><a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> - Tel Aviv</h2>
+<h2 id="microsof"><a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> - Tel Aviv</h2>
 
 <a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> located in Dubnov 7, Tel Aviv.
 
-<h2><a href="https://www.wix.engineering/">Wix</a> - Tel Aviv</h2>
+<h2 id="wix-tel-aviv"><a href="https://www.wix.engineering/">Wix</a> - Tel Aviv</h2>
 
 Wix itself has a number of Meetup groups, the biggets one being the <a href="https://www.meetup.com/at-wix/">At Wix</a>.
 In addition they host events of a number of other groups.
@@ -98,24 +108,45 @@ In addition they host events of a number of other groups.
 but they also have places in <a href="#beer-sheva">Beer Sheva</a> and <a href="#haifa">Haifa</a>.
 
 
-<h2><a href="https://www.doit-intl.com/">DoiT International</a> - Tel Aviv</h2>
+<h2 id="doit"><a href="https://www.doit-intl.com/">DoiT International</a> - Tel Aviv</h2>
 
 <a href="https://www.doit-intl.com/">DoiT International (Israel)</a>
 
 Located at David Elazar 12, Tel Aviv-Yafo.
 
-<h2><a href="https://www.ironsrc.com/">ironSource</a> - Tel Aviv</h2>
+<h2 id="ironsource"><a href="https://www.ironsrc.com/">ironSource</a> - Tel Aviv</h2>
 
 <a href="https://www.ironsrc.com/">ironSource</a>
-Located at Derech Menachem Begin 121 · Tel Aviv-Yafo
+Located at Azrieli Sarona, 121 Derech Menachem Begin, Tel Aviv-Yafo
 
-<h2><a href="https://redislabs.com/">RedisLabs</a> - Tel Aviv</h2>
+They and auditorium that seats 150 people on couches, chairs and steps. It's a great set-up for a presentation.
+
+There are interested in all kinds of tech, creative and content meet-ups.
+
+They don't have their own calendar of events and you can't check the availability of their space
+on-line, but f you'd like to organize an event there,
+you can send an email to events@ironsource.com and add as many details of your event as possible.
+
+
+The auditorium:
+<img class="room" src="/static/img/venues-il/ironsource-empty.jpg" />
+
+The auditorium packed with people:
+
+<img class="room" src="/static/img/venues-il/ironsource-full.jpg" />
+
+The terrace:
+
+<img class="room" src="/static/img/venues-il/ironsource-outside.jpg" />
+
+
+<h2 id="redislab"><a href="https://redislabs.com/">RedisLabs</a> - Tel Aviv</h2>
 
 <a href="https://redislabs.com/">RedisLabs</a>.
 
 Located in Igal Alon 94 Alon 2 Tower 32nd Floor, Tel-Aviv. It seems they are only interested in events related to Redis.
 
-<h2><a href="https://www.tikalk.com/">Tikal</a> - Tel Aviv</h2>
+<h2 id="tikal"><a href="https://www.tikalk.com/">Tikal</a> - Tel Aviv</h2>
 
 <a href="https://www.tikalk.com/">Tikal</a> has it office in Kiryat Atidim, Building 7, 3rd Floor.  Tel Aviv.
 
