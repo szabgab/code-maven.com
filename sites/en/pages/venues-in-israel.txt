@@ -119,13 +119,14 @@ Located at David Elazar 12, Tel Aviv-Yafo.
 <a href="https://www.ironsrc.com/">ironSource</a>
 Located at Azrieli Sarona, 121 Derech Menachem Begin, Tel Aviv-Yafo
 
-They and auditorium that seats 150 people on couches, chairs and steps. It's a great set-up for a presentation.
+They have an auditorium that seats 150 people on couches, chairs and steps. It's a great set-up for a presentation.
 
-There are interested in all kinds of tech, creative and content meet-ups.
+They are interested in all kinds of tech, creative and content meet-ups.
 
-They don't have their own calendar of events and you can't check the availability of their space
-on-line, but f you'd like to organize an event there,
-you can send an email to events@ironsource.com and add as many details of your event as possible.
+Thers is no calendar of events and you can't check the availability of their space
+on-line, but if you'd like to organize an event there,
+you can send an email to events@ironsource.com adding as many details of your event as possible, and they will get back
+to you soon.
 
 
 The auditorium:
@@ -138,7 +139,7 @@ The auditorium packed with people:
 
 The terrace:
 
-<img class="room" src="/static/img/venues-il/ironsource-outside.jpg" />
+<a href="/static/img/venues-il/ironsource-outside-big.jpg"><img class="room" src="/static/img/venues-il/ironsource-outside.jpg" /></a>
 
 
 <h2 id="redislab"><a href="https://redislabs.com/">RedisLabs</a> - Tel Aviv</h2>
