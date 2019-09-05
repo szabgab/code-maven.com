@@ -131,11 +131,11 @@ to you soon.
 
 The auditorium:
 
-<img class="room" src="/static/img/venues-il/ironsource-empty.jpg" />
+<a href="/static/img/venues-il/ironsource-empty-big.jpg"><img class="room" src="/static/img/venues-il/ironsource-empty.jpg" /></a>
 
 The auditorium packed with people:
 
-<img class="room" src="/static/img/venues-il/ironsource-full.jpg" />
+<a href="/static/img/venues-il/ironsource-full-big.jpg"><img class="room" src="/static/img/venues-il/ironsource-full.jpg" /></a>
 
 The terrace:
 
