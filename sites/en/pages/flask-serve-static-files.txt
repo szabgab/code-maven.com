@@ -25,6 +25,9 @@ Flask can do it easily, out of the box.
 The key is that you put the static files in a directory called <b>static</b> next to the main application file
 and in the HTML skeleton you refer to the files as <b>/static/...</b>.
 
+I put the css file in a subdirectory called css and the image in a subdirectory called img. This is not a requirement,
+but might be a good practice to arrange them this way. 
+
 
 See the example:
 
