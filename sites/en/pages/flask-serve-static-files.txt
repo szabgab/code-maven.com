@@ -45,5 +45,3 @@ The template itself is also simple. It is based on the <a href="/html-skeleton">
 
 <include file="examples/flask/stat/static/css/style.css">
 
-<include file="examples/flask/stat/static/img/code_maven_128.png">
-
