@@ -1,7 +1,7 @@
-=title Python Flask: serve statif file (css, javascript, images, etc.)
+=title Python Flask: serve static files: (CSS, JavaScript, images, etc.)
 =timestamp 2019-09-06T07:30:01
 =indexes flask
-=status draft
+=status show
 =books flask
 =author szabgab
 =archive 1
@@ -20,6 +20,13 @@ Flask can do it easily, out of the box.
 
 =abstract end
 
+<h2>static</h2>
+
+The key is that you put the static files in a directory called <b>static</b> next to the main application file
+and in the HTML skeleton you refer to the files as <b>/static/...</b>.
+
+
+See the example:
 
 We have the following directory layout:
 
@@ -40,8 +47,28 @@ The "application" is rather simple. It has only one page returning a rendered te
 <include file="examples/flask/stat/web.py">
 
 The template itself is also simple. It is based on the <a href="/html-skeleton">HTML 5 skeleton</a>
+and it refers to both a CSS file and an image using the path from the directory where
+the application file is found.
 
 <include file="examples/flask/stat/templates/main.html">
 
+The CSS itself is also very simple, its content is not relevant for our purposes.
+
 <include file="examples/flask/stat/static/css/style.css">
+
+<h2>How to run this</h2>
+
+There are two simple ways to run this in developlent. For both you need to open your terminal (cmd window if you are on
+Windows), change to the directory where the application file (web.py in our case) can be found.
+
+<code>
+python web.py
+</code>
+
+A better way, that provides more control over how to run this is to use:
+
+<code>
+FLASK_APP=web FLASK_DEBUG=1 flask run --port 3000 --host 127.0.0.1
+</code>
+
 
