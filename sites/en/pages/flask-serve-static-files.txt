@@ -1,0 +1,49 @@
+=title Python Flask: serve statif file (css, javascript, images, etc.)
+=timestamp 2019-09-06T07:30:01
+=indexes flask
+=status draft
+=books flask
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+Unless it is only an API returning JSON files, in a web application you will have many static files.
+Images, CSS files, JavaScript files, etc. Usually on your production server you will want these
+to be served by a web server such as nginx or Apache as those are faster and more suitable for such job.
+
+However during development you probably won't want to have a web server on your computer. For that time
+you probbaly need Flask to serve the static files as well.
+
+Flask can do it easily, out of the box.
+
+=abstract end
+
+
+We have the following directory layout:
+
+<code>
+.
+├── static
+│   ├── css
+│   │   └── style.css
+│   └── img
+│       └── code_maven_128.png
+├── templates
+│   └── main.html
+└── web.py
+</code>
+
+The "application" is rather simple. It has only one page returning a rendered template:
+
+<include file="examples/flask/stat/web.py">
+
+The template itself is also simple. It is based on the <a href="/html-skeleton">HTML 5 skeleton</a>
+
+<include file="examples/flask/stat/templates/main.html">
+
+<include file="examples/flask/stat/static/css/style.css">
+
+<include file="examples/flask/stat/static/img/code_maven_128.png">
+
