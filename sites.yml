@@ -2,6 +2,14 @@ en:
   url: https://code-maven.com/
   english: English
   name: English
+es:
+  url: https://es.code-maven.com/
+  english: Spanish
+  name: Español
+he:
+  url: https://he.code-maven.com/
+  english: Hebrew
+  name: עברית
 hu:
   url: https://hu.code-maven.com/
   english: Hungarian

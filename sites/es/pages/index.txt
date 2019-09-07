@@ -1,5 +1,5 @@
-=title Code Maven - Magyarul
-=timestamp 2019-09-07T14:00:03
+=title Code Maven en Español
+=timestamp 2019-09-07T20:00:03
 =status show
 =show_date 0
 =author 0
@@ -7,7 +7,7 @@
 =comments_disqus_enable 0
 =show_related 0
 
-<h2>Űdvözöllek a Code Maven magyar változatán!</h2>
+<h2>Bienvenidas y bienvenidos al Code Maven en Español!</h2>
 
 <div class="main-content">
 </div>
