@@ -7,7 +7,7 @@
 =comments_disqus_enable 0
 =show_related 0
 
-<h2>Űdvözöllek a Code Maven magyar változatán!</h2>
+<h2>Üdvözöllek a Code Maven magyar változatán!</h2>
 
 <div class="main-content">
 </div>
