@@ -1,0 +1,25 @@
+=title HAProxy
+=timestamp 2019-01-01T07:30:01
+=indexes CodeMaven
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<code lang="perl">
+</code>
+
+<img src="/img/" alt="" />
+
+https://tecadmin.net/how-to-configure-haproxy-statics/
+https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
+
+
+<include file="examples/haproxy/haproxy.cfg">
+
+<include file="examples/haproxy/web.py">
+
+python web.py 5001
