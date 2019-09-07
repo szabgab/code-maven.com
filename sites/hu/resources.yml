@@ -1,0 +1,13 @@
+menu:
+  - dir: left
+    menu:
+      - login: 1
+        title: Login
+      - title: Register
+        url: /pm/register
+  - dir: right
+    menu:
+      - title: Archívum
+        url: /archive
+      - atom: 1
+

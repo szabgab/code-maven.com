@@ -2,6 +2,10 @@ en:
   url: https://code-maven.com/
   english: English
   name: English
+hu:
+  url: https://hu.code-maven.com/
+  english: Hungarian
+  name: Magyar
 ru:
   url: https://ru.code-maven.com/
   english: Russian
