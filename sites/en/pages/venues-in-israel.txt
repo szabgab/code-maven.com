@@ -95,9 +95,11 @@ They also have their own <a href="https://www.campus.co/tel-aviv/en/events/">cal
 <a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
 shopping mall in 121 Menachem Begin, Tel Aviv. Not surprisingly they are on the 28th floor of the Azrieli Sarona tower.
 
-<h2 id="microsof"><a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> - Tel Aviv</h2>
+<h2 id="microsof"><a href="https://developer.microsoft.com/en-us/reactor/">Microsoft Reactor</a> - Tel Aviv</h2>
 
-<a href="http://starthub.co.il/theteam.html">Microsoft Startup Hub</a> located in Dubnov 7, Tel Aviv.
+<a href="https://developer.microsoft.com/en-us/reactor/">Microsoft Reactor</a> located in Dubnov 7, Tel Aviv.
+
+It is open 9:00-18:00 Sunday-Thursday.
 
 <h2 id="wix-tel-aviv"><a href="https://www.wix.engineering/">Wix</a> - Tel Aviv</h2>
 
