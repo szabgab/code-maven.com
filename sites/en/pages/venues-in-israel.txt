@@ -95,11 +95,24 @@ They also have their own <a href="https://www.campus.co/tel-aviv/en/events/">cal
 <a href="https://floor28.co.il/">AWS Floor28</a> is also located walking distance from the Azrieli
 shopping mall in 121 Menachem Begin, Tel Aviv. Not surprisingly they are on the 28th floor of the Azrieli Sarona tower.
 
-<h2 id="microsof"><a href="https://developer.microsoft.com/en-us/reactor/">Microsoft Reactor</a> - Tel Aviv</h2>
+<h2 id="microsof"><a href="https://developer.microsoft.com/en-us/reactor/Location/Tel%20Aviv">Microsoft Reactor</a> - Tel Aviv</h2>
 
-<a href="https://developer.microsoft.com/en-us/reactor/">Microsoft Reactor</a> located in Dubnov 7, Tel Aviv.
+The <a href="https://developer.microsoft.com/en-us/reactor/Location/Tel%20Aviv">Microsoft Reactor</a> is located in Dubnov 7, Tel Aviv.
 
-It is open 9:00-18:00 Sunday-Thursday.
+It is open 9:00-18:00 Sunday-Thursday though events can last till 21:30 as well.
+
+The event space can be used as a Classroom for max 120 people or as a theater for max 170 people.
+
+<img class="room" src="/static/img/venues-il/microsoft-tlv-space.jpg" />
+
+There is also a kitchen area with some free refreshments:
+
+<img class="room" src="/static/img/venues-il/microsoft-tlv-kitchen.jpg" />
+
+They have their own event-calendar on the <a href="https://developer.microsoft.com/en-us/reactor/">web site of the
+Reactor</a> where you can check availability of the space and they have
+an on-line form to request the space.
+
 
 <h2 id="wix-tel-aviv"><a href="https://www.wix.engineering/">Wix</a> - Tel Aviv</h2>
 
