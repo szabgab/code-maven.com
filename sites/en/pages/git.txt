@@ -13,6 +13,33 @@ Getting started with Git for <a href="https://leanpub.com/collab-dev-git/">Colla
 
 =abstract end
 
+<h2>The Git series</h2>
+
+<ul>
+   <li><a href="/git-stash">git stash</a></li>
+   <li><a href="/git-workflow-for-individuals">Git workflow for individuals</a></li>
+   <li><a href="/git-config">git config</a></li>
+   <li><a href="/pro/start-git-with-a-local-repository">Start Git with a local repository</a></li>
+</ul>
+
+<h2>Git on MS Windows</h2>
+
+<ul>
+   <li><a href="/pro/download-and-install-git-on-ms-windows">Download and install Git on MS Windows</a></li>
+   <li><a href="/pro/getting-started-with-git-on-ms-windows">Getting started with Git on MS Windows</a></li>
+</ul>
+
+<h2>Other articles</h2>
+
+<ul>
+   <li><a href="/github-pull-requests-waiting-for-me">Filtering GitHub pull requests waiting for me</a></li>
+   <li><a href="/coverall-with-python-minimal-setup">Minimal setup for Coverage report at Coveralls for Python projects hosted on GitHub</a></li>
+   <li><a href="/why-is-git-better-than-subversion-for-open-source-projects">Why Git is better than Subversion for Open Source Projects</a></li>
+   <li><a href="/merge-one-commit-from-a-pull-request">Merge only one commit from a Pull-request on GitHub</a></li>
+</ul>
+
+
+
 <h2>Getting Help for Git</h2>
 
 Besides just typing your question in your favorite search engine, there are several places right on your command-line
@@ -89,19 +116,6 @@ $  ls -Al
 total 0
 drwxr-xr-x  9 gabor  staff  288 Apr  6 18:19 .git
 </code>
-
-<h2>Other articles</h2>
-
-<ul>
-   <li><a href="/github-pull-requests-waiting-for-me">Filtering GitHub pull requests waiting for me</a></li>
-   <li><a href="/coverall-with-python-minimal-setup">Minimal setup for Coverage report at Coveralls for Python projects hosted on GitHub</a></li>
-   <li><a href="/why-is-git-better-than-subversion-for-open-source-projects">Why Git is better than Subversion for Open Source Projects</a></li>
-   <li><a href="/merge-one-commit-from-a-pull-request">Merge only one commit from a Pull-request on GitHub</a></li>
-   <li><a href="/git-stash">git stash</a></li>
-   <li><a href="/git-workflow-for-individuals">Git workflow for individuals</a></li>
-   <li><a href="/git-config">git config</a></li>
-</ul>
-
 
 <h2>How to get the most recent tag in a tag series?</h2>
 
