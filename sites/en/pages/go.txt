@@ -1,0 +1,15 @@
+=title Golang
+=timestamp 2019-09-14T10:00:01
+=indexes CodeMaven
+=status show
+=books go
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="/pro/skeleton-go-program">Skeleton Go program - error messages in Go</a></li>
+</ul>
