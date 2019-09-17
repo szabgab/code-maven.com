@@ -37,7 +37,7 @@ The Operating system has a mechanism of sending signals to processes. One of the
 
 The command <hl>signal.alarm(8)</hl> tells the operating system to send an ALRM signal to your process 8 seconds later.
 
-The call <hl>signal.signal(signal.SIGALRM, alarm_handler)<hl> tells Python to stop whatever it is currently doing and
+The call <hl>signal.signal(signal.SIGALRM, alarm_handler)</hl> tells Python to stop whatever it is currently doing and
 execude the <hl>alarm_handle</hl> function that we implemented earlier. If the alarm_handle does not raise any exception
 then Python will resume its original execution. In order to break out that potentially infinite loop we raise an
 exception.
