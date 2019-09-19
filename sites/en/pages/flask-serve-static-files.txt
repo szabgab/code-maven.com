@@ -5,7 +5,7 @@
 =books flask
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -26,7 +26,7 @@ The key is that you put the static files in a directory called <b>static</b> nex
 and in the HTML skeleton you refer to the files as <b>/static/...</b>.
 
 I put the css file in a subdirectory called css and the image in a subdirectory called img. This is not a requirement,
-but might be a good practice to arrange them this way. 
+but might be a good practice to arrange them this way.
 
 
 See the example:
