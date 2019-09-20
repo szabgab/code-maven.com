@@ -4,7 +4,7 @@
 =status show
 =books ruby, python, javascript, php
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -21,7 +21,7 @@ A 2
 C 3
 B 2
 D 4
-C 1 
+C 1
 </code>
 
 Create another file in which the first character is unique:

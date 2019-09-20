@@ -1,11 +1,11 @@
 =title Reading CSV file in Ruby
 =timestamp 2015-10-09T16:30:01
-=indexes CSV 
-=status show 
+=indexes CSV
+=status show
 =books ruby
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

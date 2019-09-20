@@ -5,11 +5,11 @@
 =books ruby
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
-The <a href="/exercise-analyze-apache-log-file-count-localhost">exercise</a> was, that give a log file created by the Apache web server (or for that matter by any web server), to 
+The <a href="/exercise-analyze-apache-log-file-count-localhost">exercise</a> was, that give a log file created by the Apache web server (or for that matter by any web server), to
 count how many hits arrived from localhost (IP 127.0.0.1) and how many have arrived from any other place.
 
 =abstract end

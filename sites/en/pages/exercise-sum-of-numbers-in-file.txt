@@ -5,7 +5,7 @@
 =books ruby, python, javascript, php
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -52,7 +52,7 @@ Some of the tools you might need to solve this exercise.
     </ul>
   </li>
 </ul>
-    
+
 <h2>Solutions</h2>
 <ul>
   <li><a href="https://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers in a file</a></li>

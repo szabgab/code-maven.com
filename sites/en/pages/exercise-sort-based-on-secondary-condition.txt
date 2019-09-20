@@ -4,7 +4,7 @@
 =status show
 =books ruby, python, javascript, php
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -21,4 +21,4 @@ So first come the short strings, but within each length we have abc order.
   <li><a href="https://perlmaven.com/beginner-perl-maven-sort">Perl 5: How to sort based on secondary condition in Perl</a></li>
 <!--  <li><a href="">Ruby: How to sort in Ruby based on secondary condition?</li></li> -->
 </ul>
- 
+

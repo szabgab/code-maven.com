@@ -5,7 +5,7 @@
 =books ruby
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -20,7 +20,7 @@ ruby read_file.rb  some/file.txt
 </code>
 
 This program expects us to supply the name of a file on the the command line and then uses <a href="/argv-the-command-line-arguments-in-ruby">ARGV</a>
-to access this value. Actually at first we check if the user has supplied the correct number of parameters and 
+to access this value. Actually at first we check if the user has supplied the correct number of parameters and
 exit the program if not.
 
 Then we use the <hl>open</hl> call top open the file for reading. This will return an

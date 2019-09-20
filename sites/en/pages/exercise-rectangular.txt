@@ -4,7 +4,7 @@
 =status show
 =books beginner_video
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -30,7 +30,7 @@ Second number: 6
 
 # ruby example.rb
 First number: 3
-Second number: 11 
+Second number: 11
 33
 </code>
   </li>
