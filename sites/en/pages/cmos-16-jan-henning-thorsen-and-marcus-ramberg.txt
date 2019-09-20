@@ -1,4 +1,4 @@
-=title CMOS #16: Jan Henning Thorsen and Marcus Ramberg about Convos, the web-based IRC client 
+=title CMOS #16: Jan Henning Thorsen and Marcus Ramberg about Convos, the web-based IRC client
 =timestamp 2016-10-14T13:45:01
 =indexes podcast, Convos, IRC, chat, Norway
 =description Convos, the web based IRC client that won't lose your connection even when you are off-line.
@@ -6,10 +6,10 @@
 =mp3 /media/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3, 27466201, 30.02
 =img /img/cmos/jan-henning-thorsen-and-marcus-ramberg.jpg
 =alt Jan Henning Thorsen and Marcus Ramberg
-=status show 
+=status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -50,7 +50,7 @@ Interview with <a href="http://thorsen.pm/">Jan Henning Thorsen</a> and <a href=
   [batman guest1 Jan Henning Thorsen]
   [marcus guest2 Marcus Ramberg]
 
-[00:01] szabgab: 
+[00:01] szabgab:
 Hello there, this is the CMOS, the Code Maven Open Source podcast and video interview series and I'm your host, Gabor Szabo, and with me here is Jan Henning Thorsen, also known as Batman, and Marcus Ramberg, also known as Marcus. 
 What is your nickname?
 
@@ -300,7 +300,9 @@ And then you can start connecting to global IRC servers, so the only reason you 
 Well, if you need a company chat, basically.
 
 [15:41] batman: 
-So Convos is built on the Perl Toolchain but it's...the installer script is custom-made for Convos to make it super simple to install. And that's one of the things that I think is really cool, is that people are joining our Convos help chat and then they're, <a>Oh how do I install this?</q> 
+So Convos is built on the Perl Toolchain but it's...the installer script is custom-made for Convos to make it super
+simple to install. And that's one of the things that I think is really cool, is that people are joining our Convos help
+chat and then they're, <q>Oh how do I install this?</q> 
 And I'm just pointing them to the installation guide and then they're <q>Oh man, I just installed it and it was so simple!<q> 
 So you don't need any knowledge of the Perl Toolchain yourself, so you don't need to know how to use CPAN or cpanminus or any of that, you can just download Convos and then it will bootstrap itself.
 
