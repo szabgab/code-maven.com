@@ -4,7 +4,7 @@
 =status show
 =books ruby
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -18,7 +18,7 @@ We need to go over the file line-by-line.
 For each line then we need to go over it character-by-character. If it is a digit, we need to increment the appropriate counter.
 We could use 10 different variables (c0, c1, ... c9) to count the number of occurances of the respective digits, but there is
 a much more comfortable solution using <a href="/ruby-arrays">arrays</a>. Specifically we use an array called <hl>count</hl> with 10 elements in it.
-In <hl>count[0]</hl> we will count the number 0s, in <hl>count[1]</hl> we will count the number of 1s, ... 
+In <hl>count[0]</hl> we will count the number 0s, in <hl>count[1]</hl> we will count the number of 1s, ...
 up till <hl>count[9]</hl> in which we will count the number of 9s.
 
 <h2>The solution in Ruby</h2>

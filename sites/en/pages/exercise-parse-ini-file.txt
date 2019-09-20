@@ -5,7 +5,7 @@
 =status show
 =books beginner_video
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -28,7 +28,7 @@ In other extended cases multi-line values are also allowed.
 For our purpuse we can go with simple ini files.
 
 The task is to create a script that can parse such input file and create a hash-of-hashes (dictionary of dictionaries in Python)
-where the primary key is the section name, the secondary key is the 'key' and the value is the value in each line. 
+where the primary key is the section name, the secondary key is the 'key' and the value is the value in each line.
 
 The Perl dump of the above INI file would look like this:
 
