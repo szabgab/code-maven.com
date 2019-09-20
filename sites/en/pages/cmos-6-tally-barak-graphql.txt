@@ -6,10 +6,10 @@
 =mp3 /media/cmos-6-tally-barak-graphql.mp3, 22528898, 25:41
 =img /img/cmos/tally_barak.png
 =alt Tally Barak
-=status show 
+=status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

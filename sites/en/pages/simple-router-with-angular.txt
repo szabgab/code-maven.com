@@ -5,7 +5,7 @@
 =books angularjs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -35,7 +35,7 @@ The <a href="https://docs.angularjs.org/api/ngRoute/provider/$routeProvider">$ro
 will have a mapping of URL pathes and what to show when each one is hit.
 
 Assuming the page lives at the URL <hl>http://example.com/example.html</hl> all the pages will be seen
-as anchors of that page. So for example the '/abc' route will be 
+as anchors of that page. So for example the '/abc' route will be
 <hl>http://example.com/example.html#/abc</hl>
 
 In our example if the user arrives to the <hl>/abc</hl> Angular will take the content of the

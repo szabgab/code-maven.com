@@ -9,7 +9,7 @@
 =img img/cmos/jason_crome.png
 =alt Jason Crome
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

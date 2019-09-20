@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -32,11 +32,11 @@ Then run your code as you'd do normally and when it reaches the specific instruc
 see the following:
 
 <code>
-Python 2.7.9 (default, Apr  2 2015, 15:34:55) 
+Python 2.7.9 (default, Apr  2 2015, 15:34:55)
 [GCC 4.9.2] on linux2
 Type "help", "copyright", "credits" or "license" for more information.
 (InteractiveConsole)
->>> 
+>>>
 
 </code>
 

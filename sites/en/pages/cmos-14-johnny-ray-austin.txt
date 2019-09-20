@@ -9,7 +9,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -32,7 +32,7 @@ Interview with <a href="https://johnnyray.me/">Johnny Ray Austin</a> about how c
     <li><a href="http://technical.ly/dc/2016/08/08/johnny-ray-austin/">iStrategyLabs’ Johnny Ray Austin almost became an aerospace engineer</a></li>
   </ul>
 </div>
-    
+
 <div id="links">
   <h2>Links</h2>
   <ul>

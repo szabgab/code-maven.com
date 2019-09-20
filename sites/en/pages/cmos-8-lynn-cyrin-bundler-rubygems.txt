@@ -9,7 +9,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -38,7 +38,7 @@ manager at <a href="https://rubytogether.org/">Ruby Together</a> and deal with
   </ul>
 </div>
 
-  
+
 <div id="links">
   <h2>Links</h2>
   <ul>

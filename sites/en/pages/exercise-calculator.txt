@@ -4,12 +4,12 @@
 =status show
 =books ruby, python, javascript, php
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
 Create a command line calucaltor that will prompt for two numbers and an operator
-and will calculate the result. Handle the following operators: <hl>+</hl>, <hl>-</hl>, <hl>*</hl>, and <hl>/</hl>. 
+and will calculate the result. Handle the following operators: <hl>+</hl>, <hl>-</hl>, <hl>*</hl>, and <hl>/</hl>.
 
 =abstract end
 
