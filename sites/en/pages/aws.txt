@@ -4,11 +4,11 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
-<a href="https://aws.amazon.com/cli/">aws</a> is a command line interface (CLI) to 
+<a href="https://aws.amazon.com/cli/">aws</a> is a command line interface (CLI) to
 the <a href="https://console.aws.amazon.com/">console</a> of <a href="https://aws.amazon.com/">AWS</a>.
 
 =abstract end

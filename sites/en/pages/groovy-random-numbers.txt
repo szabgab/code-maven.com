@@ -5,11 +5,11 @@
 =books groovy
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
-In order to generate pseudo-random numbers in Groovy, we can use the 
+In order to generate pseudo-random numbers in Groovy, we can use the
 <a href="https://docs.oracle.com/javase/8/docs/api/java/lang/Math.html#random--">Math.random()</a>
 method or the <a href="https://docs.oracle.com/javase/8/docs/api/java/util/Random.html">Random</a>
 class provided by Java.

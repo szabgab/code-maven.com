@@ -4,7 +4,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -30,7 +30,7 @@ See more about <a href="https://cloud.google.com/compute/docs/instances/connecti
 
 <h2>Access instance using ssh</h2>
 
-In the <a href="https://console.cloud.google.com/compute/metadata/sshKeys">SSH Keys</a> 
+In the <a href="https://console.cloud.google.com/compute/metadata/sshKeys">SSH Keys</a>
 of the <a href="https://console.cloud.google.com/compute/metadata">Metadata</a> of your "Project"
 add the public key of your ssh keypair with your username as "username".
 

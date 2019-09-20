@@ -4,7 +4,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -30,7 +30,7 @@ Our main products are Alumni Networking and Mentoring Intelligence, subscription
 
 <div class="qa">
   <div class="question">
-    Number of engineers: 
+    Number of engineers:
   </div>
   <div class="answer">
     12 Full Stack Developers, 3 QA-ers.

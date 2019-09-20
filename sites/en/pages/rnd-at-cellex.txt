@@ -4,7 +4,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -29,7 +29,7 @@ Cellex Networks located in Bnei Brak, Israel builds and sells tools to monitor n
 
 <div class="qa">
   <div class="question">
-    Number of engineers: 
+    Number of engineers:
   </div>
   <div class="answer">
     10 engineers, out of which 2 are in India.
