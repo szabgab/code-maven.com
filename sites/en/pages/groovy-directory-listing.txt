@@ -1,11 +1,11 @@
 =title Groovy: listing the content of a directory, traversing a directory tree
 =timestamp 2018-06-03T15:30:01
-=indexes File, eachFile, eachFileRecurse 
+=indexes File, eachFile, eachFileRecurse
 =status show
 =books groovy
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

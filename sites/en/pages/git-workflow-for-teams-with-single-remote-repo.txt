@@ -5,7 +5,7 @@
 =books git
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -16,7 +16,7 @@ thinking about the workflow for your team. Let's see our options using a single 
 
 <h2>Centralized workflow - single master</h2>
 
-In the centralized workflow we use a single repository on the server and a single branch called "master". Everyone clones the 
+In the centralized workflow we use a single repository on the server and a single branch called "master". Everyone clones the
 central git repository. Everyone makes local changes on the "master" branch.
 When a developer wants to push out the changes to the server two things can happen. If the server was not updated since this developer cloned the repository or since she pushed to it the last time, then this new "git push" will work.
 

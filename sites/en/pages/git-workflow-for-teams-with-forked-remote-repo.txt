@@ -5,13 +5,13 @@
 =books git
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
 Having a single and central remote repository for a project means that either we give everyone read and write access to the whole repository or we have to maintain some access control.
 
-The former might work for high trusting teams, but it will be problematic if 
+The former might work for high trusting teams, but it will be problematic if
 
 =abstract end
 

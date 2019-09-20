@@ -1,11 +1,11 @@
 =title Hello World in Groovy
 =timestamp 2018-05-01T07:30:01
-=indexes print, println, 
+=indexes print, println
 =status show
 =books groovy
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 =abstract end
