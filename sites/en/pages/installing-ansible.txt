@@ -4,12 +4,12 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 =sample 1
 
 =abstract start
 
-Before you can start using Ansible you need to install it on the management machine. 
+Before you can start using Ansible you need to install it on the management machine.
 
 Ansible runs on Linux/Unix machines including Mac OSX. (There is no plan to port it to run on MS Windows.) This is the manegement machine.
 

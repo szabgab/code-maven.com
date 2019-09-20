@@ -1,11 +1,11 @@
-=title Setup for Learning Ansible 
+=title Setup for Learning Ansible
 =timestamp 2018-03-18T10:30:01
 =indexes Ansible
 =status show
 =books ansible
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 =sample 1
 
 =abstract start

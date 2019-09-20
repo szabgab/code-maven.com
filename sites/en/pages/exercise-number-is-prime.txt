@@ -5,11 +5,11 @@
 =books exercise
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
-Write a program that gets a number on the commnad line a prints "True" if the number is a prime number or "False" if it isn't. 
+Write a program that gets a number on the commnad line a prints "True" if the number is a prime number or "False" if it isn't.
 
 =abstract end
 

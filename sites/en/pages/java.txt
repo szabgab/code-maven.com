@@ -1,15 +1,15 @@
 =title Java
 =timestamp 2018-03-31T08:02:00
-=indexes Java 
+=indexes Java
 =status show
 =author szabgab
 =books java
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
-A placeholder fo articles about Java. 
+A placeholder fo articles about Java.
 
 =abstract end
 

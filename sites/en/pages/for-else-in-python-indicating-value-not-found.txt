@@ -4,11 +4,11 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
-There are tons of cases when we are looking for a value in a list of elements and would like to 
+There are tons of cases when we are looking for a value in a list of elements and would like to
 be able to indicate when we could not find that value.
 
 In most of the languages it is a bit cumbersome.
