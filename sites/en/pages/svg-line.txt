@@ -1,11 +1,11 @@
-=title SVG Line 
+=title SVG Line
 =timestamp 2015-02-22T18:43:01
 =indexes svg
 =status show
 =books javascript, svg
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

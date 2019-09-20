@@ -5,7 +5,7 @@
 =books javascript, cm
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -27,7 +27,7 @@ We can see it working in Node:
 <include file="examples/js/node_and_web/calc_test_node.js">
 
 <code>
-$  node calc_test_node.js 
+$  node calc_test_node.js
 calc_test_node
 7
 4

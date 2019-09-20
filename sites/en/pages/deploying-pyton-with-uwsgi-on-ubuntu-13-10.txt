@@ -1,9 +1,9 @@
 =title Deploying Python with uWSGI and Nginx on Ubuntu 13.10
-=timestamp 2013-11-23T23:30:01
+=timestamp 2016-11-23T23:30:01
 =indexes Python, uWSGI, Nginx, Ubuntu
 =status show
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
