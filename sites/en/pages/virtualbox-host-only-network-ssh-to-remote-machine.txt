@@ -1,6 +1,6 @@
 =title VirtualBox host-only network - ssh to remote machine
 =timestamp 2018-01-01T07:30:01
-=indexes Linux, ssh, VirtualBox 
+=indexes Linux, ssh, VirtualBox
 =status show
 =books linux
 =author szabgab
@@ -9,7 +9,7 @@
 
 =abstract start
 
-This is a strange article that includes several seemingly unrelated subjects. We need this because after we 
+This is a strange article that includes several seemingly unrelated subjects. We need this because after we
 <a href="/installing-ubuntu-linux-in-virtualbox">installed Ubuntu in VirtualBox</a> we can only log in to
 it via the window of VirtualBox. Instead of that we would like to be able to use some <hl>ssh</hl> client
 such as the <hl>ssh</hl> command on an OSX or Linux, or Putty on a Windows machine.
@@ -21,7 +21,7 @@ at a hosting company. The ssh clients are also more suitable to work than the Vi
 
 <h2>VirtualBox and networking</h2>
 
-VirtualBox creates virtual networking for the boxes you run in it. By default 
+VirtualBox creates virtual networking for the boxes you run in it. By default
 VirtualBox set up a network with <a href="https://en.wikipedia.org/wiki/Network_address_translation">NAT (Network Address Translation)</a>. It gave our Linux box an IP address, configured your host machine as a router and allowed users on the machine to access the outside world. For example that's how we could <a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a>.
 
 We cannot however access the box from the outside world. Not even from our host machine.

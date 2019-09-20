@@ -5,7 +5,7 @@
 =books beginner, beginner_video, advanced, moo, moose, dancer, dancer2, catalyst, mojolicious, testing, net_server, search_cpan_org, cpan_co_maintainer, nodejs, javascript, python, flask, ruby, angularjs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
