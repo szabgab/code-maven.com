@@ -4,12 +4,12 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 =sample 1
 
 =abstract start
 
-In this example we'll take a freshly installed Linux box running CentOS 7.4 on a 
+In this example we'll take a freshly installed Linux box running CentOS 7.4 on a
 <a href="/digitalocean">Digital Ocean droplet</a> and use <a href="/ansible">Ansible</a> to make basic configurations.
 
 I assume that you already have <a href="/ansible">Ansible installed</a> on your desktop/notebook, whatever machine is

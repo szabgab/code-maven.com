@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 Never use <hl>input()</hl> in Python 2. It is a security hazard!
@@ -26,7 +26,7 @@ What if someone typed in <hl>os.remove(__file__)</hl>
 
 That would remove the current python file.
 
-What if instead of the <hl>ls -l</hl> in <hl>os.system("ls -l")</hl> 
+What if instead of the <hl>ls -l</hl> in <hl>os.system("ls -l")</hl>
 someone typed in <hl>rm -rf /</hl>.
 
 All your files would be gone before you know it.
