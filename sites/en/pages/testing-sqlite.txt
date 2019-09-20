@@ -1,11 +1,11 @@
-=title Testing SQLite 
+=title Testing SQLite
 =timestamp 2017-08-17T07:30:01
 =indexes SQLite, testing, Fossil
 =status draft
 =books qa
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

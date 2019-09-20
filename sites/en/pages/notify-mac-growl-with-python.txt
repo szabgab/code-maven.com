@@ -1,11 +1,11 @@
-=title Send notification on Mac OSX 
+=title Send notification on Mac OSX
 =timestamp 2017-01-01T07:30:01
 =indexes files
 =status draft
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 =abstract end
