@@ -1,0 +1,14 @@
+=title Show file modification time in Python
+=timestamp 2019-09-21T20:30:01
+=indexes getmtime, st_mtime
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<include file="examples/python/modified.py">
+
