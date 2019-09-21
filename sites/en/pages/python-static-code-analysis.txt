@@ -51,3 +51,14 @@ pip install pytest-pep8
 <include file="examples/setup-with-pep8.cfg">
 
 
+<h2>Cyclomtic complexity</h2>
+
+<ul>
+<li><a href="https://audiolion.github.io/python/2016/10/17/reducing-cyclomatic-complexity.html">Reducing cyclomatic complexity</a></li>
+<li><a href="https://pypi.org/project/hfcca/">hfcca</a></li>
+<li><a href="https://pypi.org/project/radon/">radon</a></li>
+<li><a
+href="https://adrianmejia.com/most-popular-algorithms-time-complexity-every-programmer-should-know-free-online-tutorial-course/">Algorithms</a></li>
+</ul>
+
+
