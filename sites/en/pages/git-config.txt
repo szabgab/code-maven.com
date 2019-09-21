@@ -25,3 +25,27 @@ sudo apt-get install meld
 <code>
 git log --name-only --pretty=format:'' -n 20 | grep ^[a-zA-Z0-9] | sort | uniq
 </code>
+
+git log --since="7 days ago"
+
+will show the log for the last 7 days.
+
+Maybe create a shell function:
+
+<code>
+function files() {
+   git log --pretty=format:'' --name-only "$@" | grep \\S | sort | uniq
+}
+</code>
+
+and add it to ~/.bashrc
+
+It allows us to write expressions like
+
+<code>
+files since="7 days ago"
+</code>
+
+that will show which files have changed in the last 7 days.
+
+
