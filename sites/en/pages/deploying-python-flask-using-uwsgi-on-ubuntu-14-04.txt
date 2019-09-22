@@ -259,7 +259,7 @@ application = app  # make uwsgi happy
 Using the new command line I've launched the server again:
 
 <code>
-$ uwsgi --http-socket :9090 --plugin python --wsgi-file app.py --callabe app
+$ uwsgi --http-socket :9090 --plugin python --wsgi-file app.py --callable app
 </code>
 
 This time, after switching to the "root" window, I got the expected response to the
