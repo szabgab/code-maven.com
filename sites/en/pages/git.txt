@@ -25,17 +25,16 @@ Getting started with Git for <a href="https://leanpub.com/collab-dev-git/">Colla
 <h2>Git on MS Windows</h2>
 
 <ul>
+   <li><a href="/pro/why-use-a-version-control-system">Why use a version control system</a></li>
+   <li><a href="/pro/download-and-install-git">Download and install git</a></li>
    <li><a href="/pro/download-and-install-git-on-ms-windows">Download and install Git on MS Windows</a></li>
    <li><a href="/pro/getting-started-with-git-on-ms-windows">Getting started with Git on MS Windows</a></li>
-
-   <li><a href="/pro/adding-first-file-to-yout-git-repository">Adding first file to yout git repository</a></li>
    <li><a href="/pro/creating-a-local-git-repository">Creating a local git repository</a></li>
-   <li><a href="/pro/download-and-install-git">Download and install git</a></li>
-   <li><a href="/pro/exercise-git-session-1">Exercise git session 1</a></li>
+   <li><a href="/pro/adding-first-file-to-yout-git-repository">Adding first file to yout git repository</a></li>
    <li><a href="/pro/getting-help-for-git">Getting help for git</a></li>
+   <li><a href="/pro/exercise-git-session-1">Exercise git session 1</a></li>
    <li><a href="/pro/git-file-status">Git file status</a></li>
    <li><a href="/pro/recording-changes-in-git">Recording changes in Git</a></li>
-   <li><a href="/pro/why-use-a-version-control-system">Why use a version control system</a></li>
 </ul>
 
 <h2>Other articles</h2>
