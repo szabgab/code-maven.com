@@ -1,0 +1,17 @@
+=title Podcast
+=timestamp 2019-01-03T19:01:01
+=indexes podcast
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+
+=abstract end
+
+You can subscribe with your favorite Podcast listener via the <a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
+
+<podcast>
+
