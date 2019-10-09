@@ -4,7 +4,7 @@
 =description Welcome to the Hebrew podcast series of Code Maven
 =tags interview, podcast
 =mp3 /media/he/he-code-maven-1.mp3, 13667104, 13:52
-=status show
+=status draft
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
