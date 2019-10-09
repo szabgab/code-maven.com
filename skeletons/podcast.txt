@@ -1,0 +1,20 @@
+=title Podcast #:
+=timestamp 2019-01-03T19:01:01
+=indexes podcast
+=description
+=tags interview, cmos
+=mp3 /media/.mp3, 17224989, 19:24
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="/media/" />
+
+<podcast>
+
