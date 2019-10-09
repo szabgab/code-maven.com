@@ -1,9 +1,9 @@
 =title Podcast #1 - ברוכים הבאים והבאות לפודקסט של מביני קוד
-=timestamp 2019-19-09T22:01:01
+=timestamp 2019-10-09T22:01:01
 =indexes podcast
 =description Welcome to the Hebrew podcast series of Code Maven
 =tags interview, podcast
-=mp3 /media/he-code-maven-1.mp3, 13667104, 13:52
+=mp3 /media/he/he-code-maven-1.mp3, 13667104, 13:52
 =status show
 =author szabgab
 =archive 1
