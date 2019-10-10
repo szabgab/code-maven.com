@@ -1,0 +1,34 @@
+=title Podcast #2: מה זה פדקסט ואיך לשמוע אותו?
+=timestamp 2019-10-163T19:01:01
+=indexes podcast
+=description
+=tags podcast
+=mp3 /media/he/hebrew-code-maven-2.mp3, 10274232, 10:18
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+אפשר להירשם עם אפליקצי לשמיעת פודקסטים דרך הקישור הזה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
+
+=abstract end
+
+<podcast>
+
+<ul>
+<li>מה זה פודקסט בכלל? podcast</li>
+<li>איך לשמוע אותו.</li>
+<li>בדפדפן או עם אפליקציה כמו <a href="https://play.google.com/store/apps/details?id=com.bambuna.podcastaddict&hl=en">Podcast Addict</a></li>
+<li><a href="https://en.wikipedia.org/wiki/RSS">RSS</a> <a href="https://en.wikipedia.org/wiki/XML">XML</a></li>
+</ul>
+
+<b>איזה פודקאסטים אחרים אני ממליץ.</b>
+
+<ul>
+<li><a href="https://www.ranlevi.com/software/">עושים תוכנה</a></li>
+<li><a href="https://www.reversim.com/">רברסים עם פלטפורמה</a></li>
+<li><a href="https://www.codenewbie.org/">Code Newbie</a></li>
+</ul>
+

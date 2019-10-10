@@ -2,8 +2,8 @@
 =timestamp 2019-01-03T19:01:01
 =indexes podcast
 =description
-=tags interview, cmos
-=mp3 /media/.mp3, 17224989, 19:24
+=tags podcast
+=mp3 /media/he/.mp3, 17224989, 19:24
 =status draft
 =author szabgab
 =archive 1
@@ -14,8 +14,6 @@
 אפשר להירשם עם אפליקצי לשמיעת פודקסטים דרך הקישור הזה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
 
 =abstract end
-
-<screencast file="/media/" />
 
 <podcast>
 

@@ -2,7 +2,7 @@
 =timestamp 2019-10-09T22:01:01
 =indexes podcast
 =description Welcome to the Hebrew podcast series of Code Maven
-=tags interview, podcast
+=tags podcast
 =mp3 /media/he/hebrew-code-maven-1.mp3, 7793648, 7:57
 =status show
 =author szabgab
