@@ -11,6 +11,7 @@
 
 =abstract start
 
+אפשר להירשם עם אפליקצי לשמיעת פודקסטים דרך הקישור הזה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
 
 =abstract end
 
