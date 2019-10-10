@@ -1,7 +1,6 @@
 =title Podcast #3: מי יכול ליהיות מתכנת או מכנתת? איזה תכונות אסישיות צריך?
 =timestamp 2019-10-29T19:01:01
 =indexes podcast
-=description
 =tags podcast
 =mp3 /media/he/hebrew-code-maven-3.mp3, 8396168, 8:38
 =status draft
