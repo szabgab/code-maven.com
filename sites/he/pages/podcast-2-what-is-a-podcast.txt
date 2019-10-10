@@ -1,7 +1,6 @@
 =title Podcast #2: מה זה פדקסט ואיך לשמוע אותו?
 =timestamp 2019-10-163T19:01:01
 =indexes podcast
-=description
 =tags podcast
 =mp3 /media/he/hebrew-code-maven-2.mp3, 10274232, 10:18
 =status draft
