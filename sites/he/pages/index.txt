@@ -1,4 +1,4 @@
-=title Code Maven בעברית
+=title Code Maven בעברית - מביני קוד
 =timestamp 2019-09-07T18:00:04
 =status show
 =show_date 0
