@@ -1,0 +1,50 @@
+=title Podcast #5: פרונט-אנד, בק-אנד
+=timestamp 2019-11-04T19:01:01
+=indexes podcast
+=description
+=tags podcast
+=mp3 /media/he/hebrew-code-maven-5.mp3, 12397506, 12:04
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 1
+
+=abstract start
+
+אפשר להירשם עם אפליקצי לשמיעת פודקסטים דרך הקישור הזה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
+
+=abstract end
+
+<podcast>
+
+שמי גאבור ואנחנו כאן כדי לעזור לכם להיכנס לעולם ההייטק וכדי להתקדם בו.
+
+פרונט-אנד, בק-אנד
+כמו בתיאטרון או בהופעה יש את האנשים שאנחנו רואים ויש כאלה שעובדים מאחורי הקלעים.
+כולם עובדים גם בזמן ההכנה ובזמן ההצגה אבל אנחו יכולים לחשוב עליהם כפרונט ובק.
+
+<b>פרונט-אנד</b>
+
+<ul>
+    <li>Design UI/UX</li>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JavaScript</li>
+</ul>
+
+<b>בק-אנד</b>
+
+<ul>
+   <li>Python, Perl, PHP, Ruby, Java, C#, Go, NodeJS/JavaScript</li>
+   <li>Databases (SQL, NoSQL)  מסדי נתונים</li>
+   <li>אינטגרצי עם המון טכנולוגיות אחרות</li>
+</ul>
+
+
+<b>בק-אנד עוד יותר</b>
+<ul>
+   <li>ניתוח נתונים.</li>
+</ul>
+
+
+
