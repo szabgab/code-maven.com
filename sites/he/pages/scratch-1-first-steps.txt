@@ -1,0 +1,13 @@
+=title הצעדים הראשונים עם סקראץ
+=timestamp 2019-10-11T08:30:01
+=indexes scratch
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="/media/he/scratch-hebrew-1" youtube="bVWjunzXCRU" />

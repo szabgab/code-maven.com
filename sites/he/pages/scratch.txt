@@ -1,0 +1,25 @@
+=title סקראץ
+=timestamp 2019-10-11T07:30:01
+=indexes scratch
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<a href="https://scratch.mit.edu/">סקראץ</a> סרטונים בעברית כדי להשתמש ב
+
+
+<ul>
+    <li><a href="/scratch-1-first-steps">הצעדים הראשונים עם סקראץ</a></li>
+</ul>
+
+<!--
+    <li><a href=""></a></li>
+-->
+
+סרטונים נוספים נמצאים באתר <a href="http://www.scratch.org.il/">סקראץ ישראלי</a>
+
+
