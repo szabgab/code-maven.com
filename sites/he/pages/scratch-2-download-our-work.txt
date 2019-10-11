@@ -1,0 +1,14 @@
+=title שמירת יצירה שלנו בסקאץ
+=timestamp 2019-10-11T15:30:01
+=indexes scratch
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="/media/he/scratch-hebrew-2" youtube="bNTgjUjwxvs" />
+

@@ -12,9 +12,12 @@
 <a href="https://scratch.mit.edu/">סקראץ</a> סרטונים בעברית כדי להשתמש ב
 
 
-<ul>
+<ol>
     <li><a href="/scratch-1-first-steps">הצעדים הראשונים עם סקראץ</a></li>
-</ul>
+    <li><a href="/scratch-2-download-our-work">שמירת יצירה שלנו בסקאץ</a></li>
+    <li><a href="/scratch-3-adding-a-second-sprite">הוספת דמות שניה בסקראץ</a></li>
+    <li><a href="/scratch-4-keyboard">שימוש במקשים בסקראץ</a></li>
+</ol>
 
 <!--
     <li><a href=""></a></li>
