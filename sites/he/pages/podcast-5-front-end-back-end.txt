@@ -1,7 +1,6 @@
 =title Podcast #5: פרונט-אנד, בק-אנד
 =timestamp 2019-11-04T19:01:01
 =indexes podcast
-=description
 =tags podcast
 =mp3 /media/he/hebrew-code-maven-5.mp3, 12397506, 12:04
 =status draft
