@@ -54,13 +54,13 @@ You can use the <b>setFont</b> method to set the font-type and size. From that p
 
 <include file="examples/python/pdf_hello_world_fonts.py">
 
-<a href="/static/pdf/hello_world_fonts.pdf">
+<a href="/static/pdf/hello_world_fonts.pdf">fonts</a>
 
 
 <h2>Default page size</h2>
 
 <include file="examples/python/pdf_default_pagesize.py">
 
-<a href="/static/pdf/pagesize.pdf">
+<a href="/static/pdf/pagesize.pdf">pagesize</a>
 
 
