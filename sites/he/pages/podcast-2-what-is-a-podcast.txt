@@ -1,4 +1,4 @@
-=title Podcast #2: מה זה פדקסט ואיך לשמוע אותו?
+=title Podcast #2 - מה זה פדקסט ואיך לשמוע אותו?
 =timestamp 2019-10-15T19:01:01
 =indexes podcast
 =tags podcast
