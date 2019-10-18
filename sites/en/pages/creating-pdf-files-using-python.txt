@@ -12,5 +12,5 @@
 
 <include file="examples/python/pdf_hello_world.py">
 
-<a herf="pdf/hello_world.pdf">hello_world.pdf</a>
+<a href="pdf/hello_world.pdf">hello_world.pdf</a>
 
