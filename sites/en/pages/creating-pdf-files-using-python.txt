@@ -1,0 +1,16 @@
+=title Creating PDF files using Python and reportlab
+=timestamp 2019-10-18T07:30:01
+=indexes PDF, reportlab
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<include file="examples/python/pdf_hello_world.py">
+
+<a herf="pdf/hello_world.pdf">hello_world.pdf</a>
+
