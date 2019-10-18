@@ -8,9 +8,59 @@
 =comments_disqus_enable 0
 
 =abstract start
+
+Install the reportlab module using:
+
+<code>
+pip install reportlab
+</code>
+
 =abstract end
+
+Use the <hl>canvas.Canvas</hl> to create the skeleton.
+
+Use <b>drawString</b> to add a string.
+
+I admit, I don't know why do I need to call <b>showPage</b> as it seemed to work without that too. I'll updated this
+post when I find it out.
+
+<hl>save</hl> will save the pdf file.
 
 <include file="examples/python/pdf_hello_world.py">
 
-<a href="pdf/hello_world.pdf">hello_world.pdf</a>
+<a href="/static/pdf/hello_world.pdf">hello_world.pdf</a>
+
+
+<h2>Coordinates, sizes</h2>
+
+By default the coordinates of a string are provided in pixels, starting from the lower left corner which is 0, 0.
+
+You can use the <b>reportlab.lib.units</b> module that provides objects such as <b>'cm', 'inch', 'mm', 'pica', 'toLength'</b>
+to use more human-friendly units.
+
+<include file="examples/python/reportlab_lib_units.py">
+
+You'd use them like this:
+
+<include file="examples/python/pdf_hello_world_cm.py">
+
+
+<h2>Fonts (types and sizes)</h2>
+
+The <b>getAvailableFonts</b> method will return the list of available fonts.
+
+You can use the <b>setFont</b> method to set the font-type and size. From that point till the next call of
+<b>setFont</b>, this will be used.
+
+<include file="examples/python/pdf_hello_world_fonts.py">
+
+<a href="/static/pdf/hello_world_fonts.pdf">
+
+
+<h2>Default page size</h2>
+
+<include file="examples/python/pdf_default_pagesize.py">
+
+<a href="/static/pdf/pagesize.pdf">
+
 
