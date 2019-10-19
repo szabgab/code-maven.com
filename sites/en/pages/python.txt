@@ -69,6 +69,7 @@ Articles about Python
   <li><a href="/python-logging-in-a-library">Python: logging in a library even before enabling logging</a></li>
   <li><a href="/python-atexit-exit-handle">Python atexit exit handle - like the END block of Perl</a></li>
   <li><a href="/python-traversing-dependecy-tree">Traversing dependency tree</a></li>
+  <li><a href="/creating-pdf-files-using-python">Creating PDF files using Python and reportlab</a></li>
 </ul>
 
 <h2>Algrithms and data structures in Python</h2>

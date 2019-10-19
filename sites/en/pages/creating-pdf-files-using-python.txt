@@ -1,7 +1,7 @@
 =title Creating PDF files using Python and reportlab
-=timestamp 2019-10-18T07:30:01
+=timestamp 2019-10-19T07:30:01
 =indexes PDF, reportlab
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
@@ -63,4 +63,5 @@ You can use the <b>setFont</b> method to set the font-type and size. From that p
 
 <a href="/static/pdf/pagesize.pdf">pagesize</a>
 
+For further details and explanation see the <a href="https://www.reportlab.com/docs/reportlab-userguide.pdf">reportlab userguide</a>.
 
