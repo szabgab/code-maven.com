@@ -1,0 +1,23 @@
+=title Collaborative Development, your first Open Source contribution
+=timestamp 2019-10-21T14:00:01
+=indexes GitHub
+=status show
+=books collab-dev
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="/collab-dev-open-source-contribution-who-and-why">Open Source Contribution: for whom and why></a></li>
+    <li><a href="/collab-dev-stack">The Collab-dev stack</a></li>
+    <li><a href="/collab-dev-register-on-github">Register on GitHub</a></li>
+    <li><a href="/collab-dev-hacktoberfest">Hacktoberfest</a></li>
+    <li><a href="/collab-dev-github-onsite-editing-drawing">GitHub Onsite editing explained</a></li>
+    <li><a href="/collab-dev-edit-the-readme-file">Task: Edit README file, add a new file</a></li>
+    <li><a href="/collab-dev-edit-csv-file">Task: Edit CSV file, Travis-CI</a></li>
+    <li><a href="/collab-dev-github-offsite-editing-drawing">GitHub Offsite editing.</a></li>
+</ul>
+
