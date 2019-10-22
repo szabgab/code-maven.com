@@ -48,7 +48,7 @@ Once we exit the function the local version is destroyed and outside the functio
 If you use <b>def</b> to declare the variable outside of all the functions, you won't be able to access it inside
 the function. (The first print statement in the next example would throw the exception shown in the comment.)
 
-Assiging to a variable inside the function, even if we don't use <hl>def</hl> to declare it, will creta a new,
+Assiging to a variable inside the function, even if we don't use <hl>def</hl> to declare it, will create a new,
 local variable:
 
 <include file="examples/groovy/local_and_automatic.groovy">
