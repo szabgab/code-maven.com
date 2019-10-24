@@ -1,0 +1,25 @@
+=title Code Maven Workshop
+=timestamp 2019-10-24T17:30:01
+=indexes CodeMaven
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<ul>
+   <li>Register on the Code-Maven web site.</li>
+   <li>Use the coupon code to get temporary access to the Pro articles and videos.</li>
+</ul>
+
+The content:
+
+<ul>
+   <li><a href="https://he.code-maven.com/collab-dev">Collab-dev (Hebrew)</a></li>
+   <li><a href="https://he.code-maven.com/git">Git (Hebrew)</li>
+   <li><a href="https://code-maven.com/git">Git (English)</a></li>
+</ul>
+
