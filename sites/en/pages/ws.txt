@@ -16,6 +16,7 @@
    <li><a href="https://code-maven.com/pm/coupon">Use the coupon code</a> to get temporary access to the Pro articles and videos.</li>
 </ul>
 
+<h2>Your first Open Source Contribution</h2>
 The relevant content for today:
 
 <ul>
