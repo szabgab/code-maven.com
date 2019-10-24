@@ -4,6 +4,7 @@
 =status draft
 =author szabgab
 =archive 1
+=show_ads 0
 =comments_disqus_enable 0
 
 =abstract start
