@@ -17,4 +17,10 @@
     <li><a href="/pro/git-help-for-git">Help for Git</a></li>
     <li><a href="/pro/git-exercise-1">Exercise 1</a></li>
     <li><a href="/pro/git-4-ways-to-start-with-git">4 ways to start with Git</a></li>
+    <li><a href="/pro/git-working-with-remote-repository">working with remote repository</a></li>
+    <li><a href="/pro/git-clone-a-repository">clone a repository</a></li>
+    <li><a href="/pro/git-fork-a-repository">fork a repository</a></li>
+    <li><a href="/pro/git-make-some-local-changes">make some local changes</a></li>
+    <li><a href="/pro/git-push-out-local-changes-to-remote-repo">push out local changes to remote repo</a></li>
+    <li><a href="/pro/git-more-changes-update-pr">more changes, update PR</a></li>
 </ul>
