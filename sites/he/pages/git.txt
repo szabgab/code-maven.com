@@ -2,15 +2,17 @@
 =timestamp 2019-10-23T23:30:01
 =indexes Git
 =status show
+=original git
 =books git
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
+=show_related 0
 
 =abstract start
 
 
-בסידרה הזאת אנחנו משתמשים בשקפי של <a href="https://code-maven.com/slides/git-intro/">מבוא ךגיט</a>.
+בסידרה הזאת אנחנו משתמשים בשקפי של <a href="https://code-maven.com/slides/git-intro/">מבוא לגיט</a>.
 בנוסף לאלו יש גם <a href="https://code-maven.com/slides/git/">שקפים נוספים לגיט</a>.
 
 מומלץ גם לראות את הסידרה <a href="/collab-dev">לפיתוח שיתופי</a>.
