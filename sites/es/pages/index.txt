@@ -7,8 +7,18 @@
 =comments_disqus_enable 0
 =show_related 0
 
-<h2>Bienvenidas y bienvenidos al Code Maven en Español!</h2>
+<h2>Bienvenidos y bienvenidas al Code Maven en Español!</h2>
 
 <div class="main-content">
+Que es esto?
+
+El sito del Code Maven este un logar para gente que quieren entrar el markado de technologia alta o quieren avancar en
+lo.
+
+Yo soy Gabor, un profesor de varios temas en technologia alta y tambien un alumno de la lingua español. Estoy
+aprendiendo español desde hace un año. Más exactamente desde de octubre en 2018.
+
+Yo creo què voy a comiter muchos errores gramaticales en la versia española de mi sitio, pero yo espero que es no va
+demasiado difìcil entender y puedo aydarte.
 </div>
 
