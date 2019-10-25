@@ -9,29 +9,29 @@
 
 <h2>Bienvenidos y bienvenidas al Code Maven en Español!</h2>
 
-<h2>¿Que es esto?</h2>
+<h2>¿Què es esto?</h2>
 
-El sito del Code Maven este un logar para gente que quieren entrar el markado de technologia alta o quieren avancar en
+El sitio del Code Maven es un lugar para gente que quieren entrar el markado de technologia alta o quieren avancar en
 lo.
 
-Yo soy Gabor, un profesor de varios temas en technologia alta y tambien un alumno de la lingua español. Estoy
+Yo soy Gabor, un profesor de varios temas en technologia alta y tambien un alumno de la lingua española. Estoy
 aprendiendo español desde hace un año. Más exactamente desde de octubre en 2018.
 
 Yo creo què voy a comiter muchos errores gramaticales en la versia española de mi sitio, pero yo espero que es no va
 demasiado difìcil entender y puedo ayudarte.
 
 
-<h2>¿Que puede ser un programodor o desarrollador?</h2>
+<h2>¿Quien puede ser un programodor o desarrollador?</h2>
 
 Programaciòn es solamente una parte del mundo de technologìa alta. Hay muchos otros partes importantes.
 Por ejemplo administracion del sistema es una area importante. En estos dias mucha gene usan la palabra DevOps
 una combinacion de las palabrad desarrollar y operacion en inglès.
 
-<h2>¿Que puede ser un programodor?, de verdad</h2>
+<h2>¿Quien puede ser un programodor?, de verdad</h2>
 
 Mucha gente pensan que para ser un programador tù necesitas saber buen matemáticas. Tù necesitas tener un "cabeza de
 matemática" pero no es de verdad. Hay areas de proramaciòn tù necesitas mucha matematicás pero es para la mayoria no
-ncesitas. Que tù necesitas es lògica, paciencia y empatìa.
+ncesitas. Què tù necesitas es lògica, paciencia y empatìa.
 
 ¿Por què empatìa? tù preguntas.
 
