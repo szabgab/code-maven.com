@@ -8,10 +8,18 @@
 =comments_disqus_enable 0
 
 =abstract start
+
+
+בסידרה הזאת אנחנו משתמשים בשקפי של <a href="https://code-maven.com/slides/git-intro/">מבוא ךגיט</a>.
+בנוסף לאלו יש גם <a href="https://code-maven.com/slides/git/">שקפים נוספים לגיט</a>.
+
+מומלץ גם לראות את הסידרה <a href="/collab-dev">לפיתוח שיתופי</a>.
+
+
 =abstract end
 
 <ul>
-    <li><a href="/pro/git-why-use-version-control">Why use version control?</a></li>
+    <li><a href="/pro/git-why-use-version-control">למה להישתמש בניהול גיסאות?</a></li>
     <li><a href="/pro/git-download-and-install-git">Download and Install Git</a></li>
     <li><a href="/pro/git-configuration">Configuring Git</a></li>
     <li><a href="/pro/git-help-for-git">Help for Git</a></li>
