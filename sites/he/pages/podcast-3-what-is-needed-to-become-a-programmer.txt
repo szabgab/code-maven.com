@@ -3,7 +3,7 @@
 =indexes podcast
 =tags podcast
 =mp3 /media/he/hebrew-code-maven-3.mp3, 8396168, 8:38
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
