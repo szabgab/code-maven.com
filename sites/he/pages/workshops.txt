@@ -16,3 +16,7 @@
     <li><a href="https://www.meetup.com/code-mavens/">מפגשים של מביני קוד</a></li>
 </ul>
 
+
+<screencast file="/media/hebrew-workshops" youtube="EEKe9yjUbO0" />
+
+
