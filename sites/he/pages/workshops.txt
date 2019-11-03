@@ -1,8 +1,8 @@
 =title סדנאות של מביני קוד
 =timestamp 2019-11-03T20:30:01
 =indexes Workshops
-=status draft
-=author szabgab
+=status show
+=author 0
 =archive 1
 =comments_disqus_enable 0
 
