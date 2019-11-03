@@ -1,0 +1,18 @@
+=title Wrokshops
+=timestamp 2019-11-03T20:30:01
+=indexes Workshops
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/">slides</a></li>
+    <li><a href="https://hostlocal.com/">Training courses</a></li>
+    <li><a href="https://workshops.code-maven.com/">list of workshops</a></li>
+    <li><a href="https://www.meetup.com/code-mavens/">Code Mavens Meetup group</a></li>
+</ul>
+
