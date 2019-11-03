@@ -10,9 +10,9 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/">שקפים</a></li>
     <li><a href="https://hostlocal.com/">קורסים</a></li>
     <li><a href="https://workshops.code-maven.com/">סדנאות</a></li>
+    <li><a href="https://code-maven.com/slides/">שקפים</a></li>
     <li><a href="https://www.meetup.com/code-mavens/">מפגשים של מביני קוד</a></li>
 </ul>
 
