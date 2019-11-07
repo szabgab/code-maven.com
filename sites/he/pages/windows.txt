@@ -1,0 +1,17 @@
+=title סביבת פיתוח במערכת חלונות
+=timestamp 2019-01-01T07:30:01
+=indexes cmd
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="/pro/windows-cmd-configuration">קונפיגורציה</a></li>
+    <li><a href="/pro/windows-cmd-directories-1">ספריות 1</a></li>
+    <li><a href="/pro/windows-cmd-directories-2">ספריות 2</a></li>
+</ul>
+
