@@ -24,8 +24,8 @@
 The relevant content for today:
 
 <ul>
-   <li><a href="https://he.code-maven.com/git">Git (Videos Hebrew)</li>
-   <li><a href="https://code-maven.com/git">Git (A few Videos English)</a></li>
+   <li><a href="https://he.code-maven.com/git">Git (Videos in Hebrew)</li>
+   <li><a href="https://code-maven.com/git">Git (A few Videos in English)</a></li>
    <li><a href="https://code-maven.com/slides/git-intro/">Git slides</a></li>
    <li><a href="https://he.code-maven.com/collab-dev">Collab-dev (Videos in Hebrew)</a></li>
    <li><a href="https://code-maven.com/slides/collab-dev/">Collab-dev slides</a></li>
