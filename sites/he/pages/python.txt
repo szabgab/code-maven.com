@@ -9,7 +9,7 @@
 
 =abstract start
 
-זאת ההתחלה של קורס פייתון המבוסס על השקפים.
+זאת ההתחלה של קורס פייתון המבוסס על <a href="https://code-maven.com/slides/python-programming/">השקפים</a>.
 
 ההמשך יבוא.
 
