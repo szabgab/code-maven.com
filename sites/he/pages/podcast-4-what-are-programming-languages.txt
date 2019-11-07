@@ -1,9 +1,9 @@
 =title Podcast #4: מה זאת אומרת שפות תוכנה?
-=timestamp 2019-11-03T19:01:01
+=timestamp 2019-11-07T14:01:01
 =indexes podcast
 =tags podcast
 =mp3 /media/he/hebrew-code-maven-4..mp3, 9444754, 9:36
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 1
