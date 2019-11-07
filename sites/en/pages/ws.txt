@@ -17,14 +17,17 @@
    <li><a href="https://code-maven.com/pm/coupon">Use the coupon code</a> to get temporary access to the Pro articles and videos.</li>
 </ul>
 
+<!--
 <h2>Your first Open Source Contribution</h2>
+-->
+<h2>Git and GitHub</h2>
 The relevant content for today:
 
 <ul>
-   <li><a href="https://he.code-maven.com/collab-dev">Collab-dev (Videos in Hebrew)</a></li>
-   <li><a href="https://code-maven.com/slides/collab-dev/">Collab-dev slides</a></li>
    <li><a href="https://he.code-maven.com/git">Git (Videos Hebrew)</li>
    <li><a href="https://code-maven.com/git">Git (A few Videos English)</a></li>
    <li><a href="https://code-maven.com/slides/git-intro/">Git slides</a></li>
+   <li><a href="https://he.code-maven.com/collab-dev">Collab-dev (Videos in Hebrew)</a></li>
+   <li><a href="https://code-maven.com/slides/collab-dev/">Collab-dev slides</a></li>
 </ul>
 
