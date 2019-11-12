@@ -19,7 +19,7 @@
 
 <h2>מבוא</h2>
 <ol>
-    <li><a href="/pro/python-programming">התקנת פייתון</a></li>
+    <li><a href="/pro/python-programming">תכנות פייתון</a></li>
     <li><a href="/pro/python-what-is"> מה זה פייתון?</a></li>
     <li><a href="/pro/python-installing"> התקנת פייתון</a></li>
     <li><a href="/pro/python-editors-and-ide">סביבות פיתוח לפייתון</a></li>
