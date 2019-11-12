@@ -19,6 +19,12 @@
 
 <h2>מבוא</h2>
 <ol>
+    <a href="/pro/python-programming">התקנת פייתון</a></li>
+    <a href="/pro/python-what-is"> מה זה פייתון?</a></li>
+    <a href="/pro/python-installing"> התקנת פייתון</a></li>
+    <a href="/pro/python-editors-and-ide">סביבות פיתוח לפייתון</a></li>
+    <a href="/pro/python-documentation">דוקומנטציה של פייתון, קבלת עזרה בפייתון</a></li>
+    <a href="/pro/python-program-types">סוגי תוכנות</a></li>
     <li>התקנת פייתון במערכת חלונות</li>
     <li>התקנת פייתון באפל</li>
     <li>התקנת פייתון הלינוקס</li>
