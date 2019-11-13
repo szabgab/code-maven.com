@@ -1,0 +1,17 @@
+=title Traverse directory tree
+=timestamp 2019-11-13T07:30:01
+=indexes CodeMaven
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<include file="examples/traverse/traverse.sh">
+
+<include file="examples/traverse/traverse.pl">
+
+<include file="examples/traverse/traverse.py">
+
