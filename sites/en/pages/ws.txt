@@ -20,8 +20,8 @@
 
 <h2>Python Programming</h2>
 <ul>
-   <li><a href="https://he.code-maven.com/workshops">Workshop general info</a> (hebrew)</li>
-   <li><a href="https://he.code-maven.com/python">Videos</a> (hebrew) See the left side of the page or the next/prev buttons</li>
+   <li><a href="https://he.code-maven.com/workshops">Workshop general info</a> (Hebrew)</li>
+   <li><a href="https://he.code-maven.com/python">Videos</a> (Hebrew) See the left side of the page or the next/prev buttons</li>
    <li><a href="https://code-maven.com/slides/python-programming/">Slides</a> (English)</li>
 </ul>
 
@@ -34,9 +34,9 @@ The relevant content for today:
 <ul>
    <li><a href="https://he.code-maven.com/git">Git (Videos in Hebrew)</li>
    <li><a href="https://code-maven.com/git">Git (A few Videos in English)</a></li>
-   <li><a href="https://code-maven.com/slides/git-intro/">Git slides</a></li>
+   <li><a href="https://code-maven.com/slides/git-intro/">Git slides</a> (English)</li>
    <li><a href="https://he.code-maven.com/collab-dev">Collab-dev (Videos in Hebrew)</a></li>
-   <li><a href="https://code-maven.com/slides/collab-dev/">Collab-dev slides</a></li>
+   <li><a href="https://code-maven.com/slides/collab-dev/">Collab-dev slides</a> (English)</li>
 </ul>
 
 -->
