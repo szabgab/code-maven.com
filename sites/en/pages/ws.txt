@@ -40,3 +40,15 @@ The relevant content for today:
 </ul>
 
 -->
+
+<h2>Personal info</h2>
+
+<ul>
+    <li>(Full) Name</li>
+    <li>Workplace/Organization/Educational institution/lab</li>
+    <li>Field of expertise (job title?)</li>
+    <li>Why are you interested in Data Science?</li>
+    <li>What are your hobbies?</li>
+</ul>
+
+
