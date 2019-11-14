@@ -12,15 +12,13 @@
 
 Welcome to the Code Maven Workshop.
 
-<ul>
-   <li>https://code-maven.com/ws</li>
+<ol>
+<!--   <li>https://code-maven.com/ws</li> -->
    <li>The website has some issues, it does not have a good "flow" so you'll have to come back to this page for each one
 of the following steps: (sorry for that, I am working on it) </li>
-   <li>First you need to <a href="https://code-maven.com/pm/register">register</a> on the Code-Maven web site. (There
-should be a verification e-mail that might end up in your spam folder. Check that too please!)</li>
+   <li><a href="https://code-maven.com/pm/register">Register</a> on the Code-Maven web site. (There should be a verification e-mail that might end up in your spam folder. Check that too please!)</li>
    <li><a href="https://code-maven.com/pm/coupon">Use the coupon code</a> from the white-board in the class room, to get temporary access to the Pro articles and videos.</li>
-   <li>On the <a herf="https://he.code-maven.com/">Hebrew version of the site</a> you will have to log-in again (because
-the cookies are not working properly)</li>
+   <li><a herf="https://he.code-maven.com/">Login</a> on Hebrew version of the site again (because the cookies are not working properly)</li>
    <li>Then you should be able to seee all the videos. Follow the links below.</li>
 </ul>
 
