@@ -5,6 +5,7 @@
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
+=show_related 0
 
 =abstract start
 
@@ -13,14 +14,13 @@
 
 אפשר להירשם עם אפליקצי לשמיעת פודקסטים דרך הקישור הזה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
 
-<podcast>
-
 <ul>
     <li><a href="/podcast-1-welcome">#1 ברוכים הבאים וברוכות הבאות</a></li>
     <li><a href="/podcast-2-what-is-a-podcast">#2 מה זה פדקסט ואיך לשמוע אותו?</a></li>
     <li><a href="/podcast-3-what-is-needed-to-become-a-programmer">#3 מי יכול ליהיות מתכנת או מכנתת? איזה תכונות אסישיות צריך?</a></li>
 </ul>
 
+<series name="podcast">
 
 <!--
     <li><a href="/podcast-4-what-are-programming-languages">#4 מה זאת אומרת שפות תוכנה?</a></li>
