@@ -5,6 +5,7 @@
 =books counter
 =author szabgab
 =comments_disqus_enable 0
+=show_related 0
 
 =abstract start
 
@@ -46,24 +47,26 @@ and who knows what else.
 This is going to be a long project, but it might help understand various techniques for data serialization.
 
 <ul>
-  <li><a href="/on-load-counter-with-javascript-and-local-storage">On-load counter with JavaScript and local storage</a></li>
-  <li><a href="/simple-in-memory-counter-with-angularjs">In-memory counter using AngularJS</a></li>
-  <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
-  <li><a href="/counter-in-mongodb-client">Several counters in MongoDB client</a></li>
-  <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a> for a single counter.</li>
-  <li><a href="/python-counter-with-mongodb">Python and MongoDB</a></li>
+    <li><a href="/on-load-counter-with-javascript-and-local-storage">On-load counter with JavaScript and local storage</a></li>
+    <li><a href="/simple-in-memory-counter-with-angularjs">In-memory counter using AngularJS</a></li>
+    <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
+    <li><a href="/counter-in-mongodb-client">Several counters in MongoDB client</a></li>
+    <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a> for a single counter.</li>
+    <li><a href="/python-counter-with-mongodb">Python and MongoDB</a></li>
 </ul>
 
+<h2>Perl</h2>
 <ul>
-  <li>A <a href="https://perlmaven.com/command-line-counter">command-line counter script in Perl</a> that uses a plain file called <hl>counter.txt</hl> for a single counter.</li>
-  <li><a href="https://perlmaven.com/multiple-command-line-counters">Multiple command line counters with plain TSV text file back-end in Perl.</a></li>
-  <li><a href="https://perlmaven.com/counter-with-database-backend-using-dbix-class">A command line counter with database back-end using Perl DBIx::Class</a></li>
-  <li><a href="https://perlmaven.com/command-line-counter-with-json-backend">Command line counter with JSON backend in Perl.</a></li>
-  <li><a href="https://perlmaven.com/counter-with-dancer-sessions">Counter with Perl Dancer session</a></li>
-  <li><a href="https://perlmaven.com/command-line-counter-with-mongodb">Command line counter in Perl with MongoDB as storage</a></li>
-  <li><a href="https://perlmaven.com/pro/counter-with-mojolicious-lite">Counter with Perl Mojolicious Lite</a></li>
-  <li><a href="https://perlmaven.com/command-line-counter-with-memchached">Command line counter with Memcached using Perl</a></li>
-  <li><a href="https://perlmaven.com/increase-numbers-in-a-file">Increasing numbers in a text file using Perl</a></li>
+    <li>A <a href="https://perlmaven.com/command-line-counter">command-line counter script in Perl</a> that uses a plain file called <hl>counter.txt</hl> for a single counter.</li>
+    <li><a href="https://perlmaven.com/multiple-command-line-counters">Multiple command line counters with plain TSV text file back-end in Perl.</a></li>
+    <li><a href="https://perlmaven.com/counter-with-database-backend-using-dbix-class">A command line counter with database back-end using Perl DBIx::Class</a></li>
+    <li><a href="https://perlmaven.com/command-line-counter-with-json-backend">Command line counter with JSON backend in Perl.</a></li>
+    <li><a href="https://perlmaven.com/counter-with-dancer-sessions">Counter with Perl Dancer session</a></li>
+    <li><a href="https://perlmaven.com/command-line-counter-with-mongodb">Command line counter in Perl with MongoDB as storage</a></li>
+    <li><a href="https://perlmaven.com/pro/counter-with-mojolicious-lite">Counter with Perl Mojolicious Lite</a></li>
+    <li><a href="https://perlmaven.com/command-line-counter-with-memchached">Command line counter with Memcached using Perl</a></li>
+    <li><a href="https://perlmaven.com/increase-numbers-in-a-file">Increasing numbers in a text file using Perl</a></li>
+    <li><a href="https://perlmaven.com/cli-counter-with-yaml-backend">Counter example in Perl using YAML file to store the data</a></li>
 </ul>
 
 
