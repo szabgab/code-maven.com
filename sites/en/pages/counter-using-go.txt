@@ -1,0 +1,18 @@
+=title Single counter with simple text file using Go
+=timestamp 2019-11-19T23:30:01
+=indexes go
+=status show
+=books go
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+This is a <a href="/counter">counter example</a> written in <a href="/go">Go</a>.
+
+=abstract end
+
+
+<include file="examples/go-counter/counter.go">
+

@@ -57,6 +57,11 @@ This is going to be a long project, but it might help understand various techniq
     <li><a href="/python-counter-with-mongodb">Python and MongoDB</a></li>
 </ul>
 
+<h2>Go</h2>
+<ul>
+    <li><a href="/counter-using-go">Single counter with simple text file using Go</a></li>
+</ul>
+
 <h2>Perl</h2>
 <ul>
     <li>A <a href="https://perlmaven.com/command-line-counter">command-line counter script in Perl</a> that uses a plain file called <hl>counter.txt</hl> for a single counter.</li>
