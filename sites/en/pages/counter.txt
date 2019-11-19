@@ -48,7 +48,7 @@ This is going to be a long project, but it might help understand various techniq
 
 <ul>
     <li><a href="/on-load-counter-with-javascript-and-local-storage">On-load counter with JavaScript and local storage</a></li>
-    <li><a href="/simple-in-memory-counter-with-angularjs">In-memory counter using AngularJS</a></li>
+    <li><a href="/simple-in-memory-counter-with-angularjs">Simple In-memory counter using AngularJS</a></li>
     <li><a href="/automatic-counter-using-angularjs">Automatic counter using AngularJS</a></li>
     <li><a href="/counter-in-mongodb-client">Several counters in MongoDB client</a></li>
     <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a> for a single counter.</li>
