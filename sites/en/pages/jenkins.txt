@@ -516,3 +516,27 @@ return  // skipping rest of the current stage, running next stage
 error("Some error message")  // raise an exception stop the whole job
 </code>
 
+<h2>jenkins trigger scm</h2>
+
+<code>
+triggers {
+    pollSCM '* * * * *'
+}
+</code>
+
+<h2>currentBuild</h2>
+
+<code>
+echo currentBuild.number  // failed expecting number
+println(currentBuild.number)  // works
+
+println("Number: ${currentBuild.number}")
+println("Result: ${currentBuild.result}")
+println("Display name: ${currentBuild.displayName}")
+</code>
+
+during the steps the result is null
+in the post section it is already 'SUCCESS' or 'FAILURE'
+
+<a href="https://jenkins.io/doc/book/pipeline/getting-started/">getting started</a>
+
