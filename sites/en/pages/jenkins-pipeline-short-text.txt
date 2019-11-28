@@ -1,6 +1,6 @@
-=title Jenkins Pipeline: Add some text to the job using shortText
+=title Jenkins Pipeline: Add some text to the job using manager.addShortText
 =timestamp 2018-08-21T22:30:01
-=indexes addShortText
+=indexes manager, addShortText
 =status show
 =books jenkins
 =author szabgab
@@ -22,4 +22,4 @@ script {
 }
 </code>
 
-
+For the manager object to exists we need to install the <a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin">Groovy Postbuild Plugin</a>

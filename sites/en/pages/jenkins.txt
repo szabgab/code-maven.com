@@ -18,7 +18,7 @@
     <li><a href="/jenkins-pipeline-hello-world">Jenkins Pipeline - Hello World</a></li>
     <li><a href="/jenkins-pipeline-running-external-programs">Jenkins Pipeline: running external programs with sh or bat</a>, returnStdout, trim</li>
     <li><a href="/jenkins-send-email-notifications">Jenkins Pipeline: Send e-mail notifications</a></li>
-    <li><a href="/jenkins-pipeline-short-text">Jenkins Pipeline: Add some text to the job using shortText</a></li>
+    <li><a href="/jenkins-pipeline-short-text">Jenkins Pipeline: Add some text to the job using manager.addShortText</a></li>
     <li><a href="/jenkins-cli-create-node">Jenkins CLI: create node</a></li>
     <li><a href="/jenkins-pipeline-builduser">Jenkins Pipeline BuildUser plugin</a></li>
     <li><a href="/jenkins-pipeline-environment-variables">Jenkins Pipeline - set and use environment variables</a></li>
@@ -33,6 +33,8 @@
 </ol>
 
 <h2>Add badges</h2>
+
+For the manager object to exists we need to install the <a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin">Groovy Postbuild Plugin</a>
 
 <code>
    manager.addBadge("error.gif", "Failed build")
@@ -539,4 +541,13 @@ during the steps the result is null
 in the post section it is already 'SUCCESS' or 'FAILURE'
 
 <a href="https://jenkins.io/doc/book/pipeline/getting-started/">getting started</a>
+
+
+<h2>Jenkins get previous build status</h2>
+
+<code>
+println(currentBuild.getPreviousBuild())
+println(currentBuild.getPreviousBuild().result)
+</code>
+
 
