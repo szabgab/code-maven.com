@@ -52,7 +52,7 @@ The relevant content for today:
     <li>(Full) Name</li>
     <li>Workplace/Organization/Educational institution/lab</li>
     <li>Field of expertise (job title?)</li>
-    <li>Why are you interested in Data Science?</li>
+    <li>Why are you interested in whatever we are learning here?</li>
     <li>What are your hobbies?</li>
 </ul>
 
