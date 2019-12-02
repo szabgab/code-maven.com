@@ -551,3 +551,69 @@ println(currentBuild.getPreviousBuild().result)
 </code>
 
 
+<h2>returnStatus instead of stopping the job</h2>
+
+the exit code
+
+<code>
+def res2 = sh(script: "pwd", returnStatus: true)
+</code>
+
+
+<h2>Sample code</h2>
+
+<code>
+def errors = ''
+def res = 'SUCCESS'
+def res1 = sh(script: "xyz", returnStatus: true)
+println("res1 ${res1}")
+if (res1 !=0) {
+    res = 'FAILURE'
+    errors += "xyz"
+}
+def res2 = sh(script: "abc", returnStatus: true)
+println("res2: ${res2}")
+if (res2 !=0) {
+    res = 'FAILURE'
+    errors += "abc"
+}
+def res3 = sh(script: "pwd", returnStatus: true)
+println("res3: ${res3}")
+if (res3 !=0) {
+    res = 'FAILURE'
+    errors += "pwd"
+}
+//if (params.expected == 'Success') {
+//    sh "pwd"
+//} else {
+//    sh "xyz"
+//}
+if (res == 'FAILURE') {
+    error(errors)
+</code>
+
+
+<h2>Collect exit code of commands</h2>
+
+Instead of killing the whole job on a single failure.
+
+<code>
+def commands = ["xyz", "abc", "pwd"]
+def errors = ''
+commands.each {
+    def res = sh(script: it, returnStatus: true)
+    println("cmd: $it res $res")
+    if (res !=0 ) {
+        errors += " $it"
+    }
+}
+//if (params.expected == 'Success') {
+//    sh "pwd"
+//} else {
+//    sh "xyz"
+//}
+if (errors) {
+    error(errors)
+}
+
+</code>
