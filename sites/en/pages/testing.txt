@@ -1,0 +1,32 @@
+=title Testing - types of tests
+=timestamp 2019-12-02T10:30:01
+=indexes CodeMaven
+=status draft
+=books testing
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+   <li>Unit tests</li>
+   <li>Integration tests</li>
+   <li>Acceptance tests</li>
+   <li>Regression tests</li>
+</ul>
+
+TDD - Test Driven Development
+
+BDD  - Behavior Driven Development
+
+<ul>
+    <li>Code Coverage</li>
+    <li>Test Coverage</li>
+    <li><a href="https://en.wikipedia.org/wiki/Mutation_testing">Mutation Testing</a></li>
+</ul>
+
+Continous Integration
+
+
