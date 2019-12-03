@@ -617,3 +617,12 @@ if (errors) {
 }
 
 </code>
+
+
+<h2>How to set the pipeline name and description for a Jenkinsfile?</h2>
+
+<code>
+currentBuild.displayName = "hello"  // replaces the job number
+currentBuild.description = "world"  // Writes text under the job number
+</code>
+
