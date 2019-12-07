@@ -1,6 +1,6 @@
 =title Jenkins report the name of the stage that failed
 =timestamp 2019-05-01T20:30:01
-=indexes Jenkins
+=indexes Jenkins, STAGE_NAME
 =status show
 =books jenkins
 =author szabgab
