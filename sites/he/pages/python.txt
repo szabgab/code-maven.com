@@ -23,16 +23,19 @@
 <ul>
     <li><a href="https://he.code-maven.com/pro/python-programming">מבוא</a></li>
     <li><a href="https://he.code-maven.com/pro/python-modules">מבוא פרק 2</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://he.code-maven.com/pro/python-numbers">מספרים</a></li>
+    <li><a href="https://he.code-maven.com/pro/python-boolean-operators">בולאנים</a></li>
+    <li><a href="https://he.code-maven.com/pro/python-strings">מחרוזות</a></li>
+    <li><a href="https://he.code-maven.com/pro/python-what-are-regexes">ביטויים רגולרים</a></li>
     <li><a href="https://he.code-maven.com/pro/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
     <li><a href="https://he.code-maven.com/pro/python-oop-what-is-oop">תיכנות מונחה עצמים</a></li>
-    <li><a href="https://code-maven.com/slides/python-programming/exercise-oop-move">תרגילים >תיכנות מונחה עצמים</a></li>
+    <li><a href="https://code-maven.com/slides/python-programming/exercise-oop-move">תרגילים תיכנות מונחה עצמים</a></li>
 </ul>
 
 <!--
 <h2>רשימות</h2>
+
+    <li><a href=""></a></li>
 
 <ol>
     <li>יצירת רשימה</li>
