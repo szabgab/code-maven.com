@@ -10,9 +10,9 @@
 =abstract start
 
 When learning a programming language, the most important thing is to practice.
-Here are some exercises you can do. At first I am going to follow the Perl programming
-course I have been teaching for many years, but of course these exercises can be solved
-in many other languages.
+Here are some exercises you can do. For each exercise, as time permits, I am going to
+add instructions specific to some programming languages,
+but these exercises can be solved in almost any other programming language.
 
 =abstract end
 

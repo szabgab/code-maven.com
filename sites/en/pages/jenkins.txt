@@ -613,3 +613,5 @@ if (errors) {
 </code>
 
 
+{JENKINS+_URL}/pipeline-syntax/globals
+

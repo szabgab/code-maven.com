@@ -19,12 +19,14 @@ First <a href="/exercises">exercise</a> - checking your environment.
 Try your environment:
 
 <ul>
-  <li>Make sure you have access to the right version of your language.
+  <li>Make sure you have access to the right version of your language. Pick the language you are currently learning from the below list:
      <ul>
-       <li>Perl 5: As of this writing version 5.22 is already out, but most of the material will work on 5.10 and even 5.8, if you cannot upgrade.</li>
-       <li>Perl 6: Rakudo 2015.09 or newer</li>
-       <li>Ruby: 2.0.x will be fine, thought 2.2.x would be better.</li>
-       <li>Python: 2.7.x is a good series. 2.6.x will work with most of the examples. In the Python 3 series any of 3.4.x will work fine.</li>
+       <li>Perl 5: As of this writing version 5.30 is already out, but most of the material will work on 5.10 and even 5.8, if you cannot upgrade. (See the <a href="https://www.cpan.org/src/README.html">most recent release of Perl 5</a>.)</li>
+       <li>Raku (formerly known as Perl 6): See the <a href="https://rakudo.org/">most recent version of Raku</a> (that was 2019.03 when I updated this).</li>
+       <li>Ruby: 2.5.x will be fine. Check out the <a href="https://www.ruby-lang.org/en/downloads/">most recent version of Ruby</a>.</li>
+       <li>Python: In case you have Python 2 (e.g. 2.7.x) you should strongly consider switching to Python 3. Even though if you need to maintain legacy code then you might need to know Python 2 as well.</li>
+       <li>In the Python 3 series any of 3.8.x is the most recent, but most of the examples will work on older versions of Python 3 as well. See the <a href="https://www.python.org/downloads/">most recent version of Python</a>.</li>
+       <li>Go version go1.12.9 looks fine. The you could get the <a href="https://golang.org/dl/">most recent version of Go</a>.</li>
      </ul>
   </li>
   <li>Check you can read the documentation.
