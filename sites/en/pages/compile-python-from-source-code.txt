@@ -1,0 +1,41 @@
+=title Compile Python from source code
+=timestamp 2019-12-20T18:30:01
+=indexes Python
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<h2>Download the Source code</h2>
+
+Use <b>wget</b>:
+
+<code>
+wget https://www.python.org/ftp/python/3.8.1/Python-3.8.1.tar.xz
+</code>
+
+or your borwser: <a href="https://www.python.org/downloads/">python.org</a>.
+
+<code>
+tar -xf Python-3.8.1.tar.xz
+</code>
+
+<code>
+cd Python-3.8.1
+</code>
+
+<code>
+./configure  --prefix /opt/python-3-8-1
+</code>
+
+<code>
+make -j 4
+</code>
+
+<code>
+make install
+</code>
