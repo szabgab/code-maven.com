@@ -26,19 +26,19 @@
     <li><a href="https://he.code-maven.com/pro/python-numbers">מספרים</a></li>
     <li><a href="https://he.code-maven.com/pro/python-boolean-operators">בולאנים</a></li>
     <li><a href="https://he.code-maven.com/pro/python-strings">מחרוזות</a></li>
-    <li><a href="">לולות</li>
-    <li><a href="">לפרמט מחרוזות</li>
-    <li><a href="">רשימות</a></li>
-    <li><a href="">קבצים</a></li>
-    <li><a href="">מילונים</a></li>
-    <li><a href="">סטים</a></li>
-    <li><a href="">פונקציות</a></li>
-    <li><a href="">מודולים</a></li>
-    <li><a href="">אריזות</a></li>
+    <li>לולות</li>
+    <li>לפרמט מחרוזות</li>
+    <li>רשימות</li>
+    <li>קבצים</li>
+    <li>מילונים</li>
+    <li>סטים</li>
+    <li>פונקציות</li>
+    <li>מודולים</li>
+    <li>אריזות</li>
     <li><a href="https://he.code-maven.com/pro/python-what-are-regexes">ביטויים רגולרים</a></li>
-    <li><a href="">מודולים סטנדרטים</a></li>
-    <li><a href="">ישון</a></li>
-    <li><a href="">פרמטרים בשורת הפקודות</a></li>
+    <li>מודולים סטנדרטים</li>
+    <li>ישון</li>
+    <li>פרמטרים בשורת הפקודות</li>
     <li><a href="https://he.code-maven.com/pro/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
     <li><a href="https://he.code-maven.com/pro/python-oop-what-is-oop">תיכנות מונחה עצמים</a></li>
     <li><a href="https://code-maven.com/slides/python-programming/exercise-oop-move">תרגילים תיכנות מונחה עצמים</a></li>
