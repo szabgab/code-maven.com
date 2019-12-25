@@ -26,8 +26,8 @@
     <li><a href="https://he.code-maven.com/pro/python-numbers">מספרים</a></li>
     <li><a href="https://he.code-maven.com/pro/python-boolean-operators">בולאנים</a></li>
     <li><a href="https://he.code-maven.com/pro/python-strings">מחרוזות</a></li>
-    <li><a href="">לולות</a></li>
-    <li><a href="">לפרמט מחרוזות</a></li>
+    <li><a href="">לולות</li>
+    <li><a href="">לפרמט מחרוזות</li>
     <li><a href="">רשימות</a></li>
     <li><a href="">קבצים</a></li>
     <li><a href="">מילונים</a></li>
