@@ -13,6 +13,8 @@
 Install
 
 <code>
+pip install flake8
+pip install flake8-builtins
 pip install pytest-flake8
 </code>
 
