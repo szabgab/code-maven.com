@@ -10,5 +10,5 @@
 =abstract start
 =abstract end
 
-<include file="sites/en/pages/jenkins-readfile-writefile.txt">
+<include file="examples/jenkins/readfile-writefile.txt">
 
