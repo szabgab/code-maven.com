@@ -15,6 +15,8 @@
 
 <include file="examples/groovy/date.gvy">
 
+<include file="examples/groovy/date.out">
+
 <h2>Adjust Timezone in Groovy</h2>
 
 While normally Jeruslame is at UTC+2, during the daylight saving time, it is

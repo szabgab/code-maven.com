@@ -1,6 +1,8 @@
 d = new Date()
 println(d)
 
+println(d.getTime())  // epoch
+
 d += 1        // increment days by 1
 println(d)
 

@@ -20,6 +20,7 @@ Some classes are imported by default
 
 <include file="examples/groovy/date.groovy">
 
+See more examples with <a href="/groovy-date-time">Groovy Date</a>.
 
 <h2>TRUE and FALSE</h2>
 
