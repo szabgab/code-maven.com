@@ -1,0 +1,14 @@
+=title Jenkins readFile, writeFile
+=timestamp 2020-01-06T20:30:01
+=indexes readFile, writeFile
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<include file="sites/en/pages/jenkins-readfile-writefile.txt">
+
