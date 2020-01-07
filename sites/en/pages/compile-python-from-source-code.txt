@@ -69,3 +69,37 @@ make install
 </code>
 
 
+Update ~/.bashrc:
+
+<code>
+export PATH=/opt/python372/bin:$PATH
+</code>
+
+reload bashrc:
+
+<code>
+source .bashrc
+</code>
+
+Verify:
+
+<code>
+/opt/python372/bin/python3 --version
+which python3
+</code>
+
+
+Check if pip3 is installed (this should print /opt/python372/bin/pip3):
+
+<code>
+which pip3
+</code>
+
+If pip3 is not installed, then install pip:
+
+<code>
+wget https://bootstrap.pypa.io/get-pip.py
+/opt/python372/bin/python3 get-pip.py
+rm get-pip.py
+</code>
+
