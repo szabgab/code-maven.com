@@ -615,3 +615,5 @@ if (errors) {
 
 {JENKINS+_URL}/pipeline-syntax/globals
 
+
+<include file="examples/jenkins/experiment.jenkinsfile">
