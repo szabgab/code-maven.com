@@ -27,6 +27,9 @@
     <li><a href="/jenkins-triggers">Jenkins triggers</a> (pollSCM)</li>
     <li><a href="/jenkins-pipeline-set-job-name-and-description">How to set the job number and description for a Jenkinsfile in a Jenkins Pipeline?</a> (currentBuild, displayName, description)</li>
     <li><a href="/jenkins-readfile-writefile">Jenkins readFile, writeFile</a></li>
+    <li><a href="/jenkins-separate-jobs-for-development-and-production">Separate jobs for development and production</a> currentBuild, projectName</li>
+    <li><a href="/jenkins-get-current-user">Jenkins pipeline: get current user</a> (currentBuild, getBuildCauses)</li>
+    <li><a href="/jenkins-arbitrary-code-execution">Arbitrary code execution in the shell</a> (sh, parameters)</li>
     <li>Triggers from Version Control Systems</li>
     <li>Report failures.</li>
     <li>Send alerts</li>

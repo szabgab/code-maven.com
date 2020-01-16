@@ -35,3 +35,4 @@ Sometime it is inconvenient to do that for the whole code, so inside the wrapper
 Other variables that can be then accessed outside of the wrapper as well.
 
 
+See also <a href="/jenkins-get-current-user">Jenkins pipeline: get current user</a> using currentBuild and getBuildCauses.

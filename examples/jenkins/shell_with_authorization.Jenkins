@@ -1,0 +1,26 @@
+parameters {
+    string(name: 'command',  defaultValue: '',  description: 'Type in the command that will be executed.')
+}
+
+               script {
+                   def specificCause = currentBuild.getBuildCauses('hudson.model.Cause$UserIdCause')
+                   if (specificCause) {
+                       println("Executed by userId: '${specificCause.userId}'")
+                       println("Executed by userName: '${specificCause.userName}'")
+                       manager.addShortText("${specificCause.userName[0]}")
+                   }
+
+                   def valid_users = ["joe", "jane"]
+                   if (params.command) {
+                       println("Manually executed command: ${params.command}")
+
+                       if (!specificCause || valid_users.count(specificCause.userId[0]) == 0) {
+                           error("User '${specificCause.userId[0]}' is not in the approved list of users")
+                       }
+
+                       def res = sh(script: params.command, returnStatus: true)
+                       if (res != 0) {
+                           error("Error in: ${params.command}")
+                       }
+                   }
+

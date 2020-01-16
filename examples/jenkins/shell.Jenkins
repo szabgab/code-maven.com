@@ -1,0 +1,12 @@
+parameters {
+    string(name: 'command',  defaultValue: '',  description: 'Type in the command that will be executed.')
+}
+
+
+                   if (params.command) {
+                       println(params.command)
+                       sh(script: params.command)
+                   } else {
+                       println("No command")
+                   }
+
