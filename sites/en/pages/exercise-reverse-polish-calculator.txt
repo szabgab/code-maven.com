@@ -13,14 +13,27 @@ Implement <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Revers
 
 =abstract end
 
-e.g.
+We are used to write calculations using the infix notation e.g. <b>3 + 4 * 7</b>. In order to implement a calculator that knows how to calculate this
+one needs to implement the order of operations.
+
+In the Reverse Polish Notation the operator come after the two operands. e.g. <b>3 4 +</b> instead of <b>3 + 4</b>.
+
+In this notiation there are no preferences between operators.
+
+The above expression can be written in RPN as:
 
 <code>
 3
 4
+7
+*
 +
 =
 </code>
 
-Would print 7
 
+<h2>Python</h2>
+
+In order to make it easer for you I've prepared a module that implements the low-level calculations.
+
+<include file="examples/python/calc.py">
