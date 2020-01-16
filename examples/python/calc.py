@@ -25,3 +25,5 @@ def test_calc():
         calc(2, '**', 3)
     assert exinfo.type == Exception
     assert str(exinfo.value) == "Operator '**' not supported"
+
+# To test this module, run pytest calc.py
