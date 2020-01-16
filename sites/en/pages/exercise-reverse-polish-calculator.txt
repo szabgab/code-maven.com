@@ -13,10 +13,10 @@ Implement <a href="https://en.wikipedia.org/wiki/Reverse_Polish_notation">Revers
 
 =abstract end
 
-We are used to write calculations using the infix notation e.g. <b>3 + 4 * 7</b>. In order to implement a calculator that knows how to calculate this
+We are used to write calculations using the infix notation where the operator is between the two operands. e.g. <b>3 + 4 * 7</b>. In order to implement a calculator that knows how to calculate this
 one needs to implement the order of operations.
 
-In the Reverse Polish Notation the operator come after the two operands. e.g. <b>3 4 +</b> instead of <b>3 + 4</b>.
+In the Reverse Polish Notation the operator comes after the two operands. e.g. <b>3 4 +</b> instead of <b>3 + 4</b>.
 
 In this notiation there are no preferences between operators.
 
@@ -31,9 +31,19 @@ The above expression can be written in RPN as:
 =
 </code>
 
+The task is to implement RPN in your favorite language.
 
 <h2>Python</h2>
 
 In order to make it easer for you I've prepared a module that implements the low-level calculations.
 
 <include file="examples/python/calc.py">
+
+
+<h2>Solutions</h2>
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/solution-stack">Python</a></li>
+    <li><a href="https://code-maven.com/slides/python-programming/solution-stack-deque">Python</a></li>
+    <li><a href="https://code-maven.com/slides/perl-programming/stack-implementation">Perl</a></li>
+</ul>
+
