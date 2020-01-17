@@ -55,6 +55,7 @@ Some of the tools you might need to solve this exercise.
 
 <h2>Solutions</h2>
 <ul>
+  <li><a href="/python-sum-of-numbers-in-file">Python: sum of numbers</a></li>
   <li><a href="https://perlmaven.com/beginner-perl-maven-sum-numbers-in-a-file">Perl 5: sum of numbers in a file</a></li>
   <li><a href="/sum-of-numbers-in-file-using-ruby">Ruby: sum of numbers in a file</a></li>
   <li><a href="/groovy-sum-of-numbers">Groovy: sum of numbers</a></li>

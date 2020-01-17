@@ -1,0 +1,22 @@
+=title Python: Sum of numbers in a file
+=timestamp 2020-01-17T11:30:01
+=indexes open, int, map
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+In this <a href="/exercises">exercise</a> we have a file called <hl>numbers.txt</hl> that has numbers in it
+and we need to sum the numbers.
+
+=abstract end
+
+<include file="examples/data/numbers.txt">
+
+The following file has two solutions:
+
+<include file="examples/python/sum_of_numbers.py">
+
