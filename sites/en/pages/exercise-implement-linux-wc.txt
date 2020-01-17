@@ -71,7 +71,10 @@ and get back the number of file in the directory tree starting in our current wo
    <li><a href="/argv-the-command-line-arguments-in-ruby">Ruby: ARGV command line parameters</a></li>
    <li>Printing to Standard Error</li>
 </ul>
- 
+
 <h2>Solutions</h2>
 
+<ul>
+    <li><a href="/python-wc">Python</a></li>
+</ul>
 
