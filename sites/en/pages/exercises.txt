@@ -96,6 +96,7 @@ but these exercises can be solved in almost any other programming language.
 <h2>Simple applications</h2>
 
 <ol>
+  <li><a href="/exercise-counter">Counter</a></li>
   <li><a href="/exercise-implement-linux-wc">Exercise: Implement the wc command of Linux/Unix (word count)</a></li>
   <li>Traverse directory implementing du</li>
   <li><a href="/one-dimensional-spacefight">One dimensional spacefight (aka. The spaceship operator)</a></li>
