@@ -1,0 +1,14 @@
+=title Bash: Read file line-by-line
+=timestamp 2020-01-24T08:30:01
+=indexes read 
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<include file="examples/shell/read_file.sh">
+

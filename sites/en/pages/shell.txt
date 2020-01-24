@@ -24,6 +24,7 @@
   <li><a href="/bash-set-x">Bash set -x to print statements as they are executed</a></li>
   <li><a href="/bash-set-e">Bash set -e to stop script on failure</a></li>
   <li><a href="/ps-does-not-show-name-of-script">ps does not show name of the shell script only -bash or bash - Linux</a></li>
+  <li><a href="/bash-read-file-line-by-line">Read file line-by-line</a></li>
 </ul>
 
 <ul>
