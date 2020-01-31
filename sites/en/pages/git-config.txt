@@ -26,7 +26,16 @@ sudo apt-get install meld
 git log --name-only --pretty=format:'' -n 20 | grep ^[a-zA-Z0-9] | sort | uniq
 </code>
 
+An alternative:
+
+<code>
+git log --before "2019-12-31" --after "2019-12-01"  --name-only | grep -v ^commit | grep -v ^Author | grep -v ^Date: | grep -v '^ ' | grep -v
+'^$' | sort | uniq
+</code>
+
+<code>
 git log --since="7 days ago"
+</code>
 
 will show the log for the last 7 days.
 
@@ -48,4 +57,7 @@ files since="7 days ago"
 
 that will show which files have changed in the last 7 days.
 
+<code>
+git log --before "2019-12-31" --after "2019-12-01"
+</code>
 
