@@ -1,0 +1,83 @@
+=title First impression with Raku
+=timestamp 2020-02-03T07:30:01
+=indexes Raku, Rakudo
+=status show
+=books raku
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+I have heard about this language called <a href="https://www.raku.org/">Raku</a> and thought of giving it a try.
+Searching for "raku programming language" brought me a Wikipedia page and then the above link. Then something about
+Perl 6.
+
+=abstract end
+
+<h2>Install from source</h2>
+
+Clicking the big <b>Download Rakudo</b> button there are instructions on how to install <b>Rakudo Star</b> from source on Linux.
+So I did that using version 2019.03. Or at least I started but got this error on my Ubuntu:
+
+<code>
+/usr/bin/perl tools/build/gen-cat.pl moar src/QRegex/P5Regex/Grammar.nqp src/QRegex/P5Regex/Actions.nqp src/QRegex/P5Regex/Compiler.nqp  > gen/moar/stage2/NQPP5QRegex.nqp
+./nqp-m --target=mbc --output=NQPP5QRegex.moarvm \
+    gen/moar/stage2/NQPP5QRegex.nqp
+Segmentation fault (core dumped)
+make: *** [Makefile:420: NQPP5QRegex.moarvm] Error 139
+Command failed (status 512): make
+Command failed (status 512): /usr/bin/perl Configure.pl --prefix=/home/gabor/rakudo --backends=moar --make-install
+</code>
+
+There is also a link to "Installing from binaries" on various operating systems.
+
+<code>
+sudo apt-get install rakudo
+</code>
+
+Installs the <b>perl6</b> command. I would have not been able to guess this if I did not have some background in the subject.
+
+What version is that?
+
+<code>
+perl6 -v
+This is Rakudo version 2018.12 built on MoarVM version 2018.12
+implementing Perl 6.d.
+</code>
+
+Sounds pretty old.
+
+<h2>Tutorial</h2>
+
+Then I went back to the main page of <a href="https://www.raku.org/">Raku</a> to look for some tutorial that would tell me how to write a
+"Hello World" script. There was no link to a "Tutorial". There was a link to "Documentation", but that looks too complex to me.
+There is also a "Getting started" hidden at the bottom of the page. It has some promision links, for example to the <a href="https://raku.guide/">Raku guide</a>.
+
+For example I'd like to know what is the expected extension for a Raku program.
+
+So here is my Hello World:
+
+<h2>Hello World</h2>
+
+I've created a file called <b>hello_world.raku</b>:
+
+<include file="examples/raku/hello_world.raku">
+
+Then ran it as:
+
+<code>
+perl6 hello_world.raku
+</code>
+
+<h2>Plans</h2>
+
+I plan to re-visit Raku once in a while, also updating this page.
+
+
+<h2>Disclaimer</h2>
+
+Yes, I know that Raku is the new name of Perl 6, I have been in the neighbourhood for a long time.
+Now I try to look at it with fresh eyes. As much as I can.
+Hoping that it helps both the developers of Raku and the potential users.
+
