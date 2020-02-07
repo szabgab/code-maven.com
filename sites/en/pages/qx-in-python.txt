@@ -53,6 +53,8 @@ This is a blocking operation so your Python code will wait till the external pro
 
 <h2>See also</h2>
 
+<include file="examples/python/capture.py">
+
 <a href="/python-capture-stdout-stderr-exit">capture STDOUT, STDERR, and exit in python</a>.
 
 
