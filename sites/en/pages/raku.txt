@@ -16,5 +16,8 @@ called <a href="https://www.rakudo.org">Raku-do</a>.
 
 This pages is mostly a placeholder till I can move all of the content I have about Raku to this site.
 
-<a href="/raku-first-steps">First steps with Raku</a>
+<ul>
+    <li><a href="/raku-first-steps">First steps with Raku</a></li>
+    <li><a href="/bailador">Bailador web framework</a></li>
+</ul>
 
