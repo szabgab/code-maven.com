@@ -36,7 +36,7 @@ javac 1.8.0_242
 </code>
 
 <include file="examples/python/java1/Calculator.java">
-<include file="examples/python/java1/org/pkg/MyMath/.java">
+<include file="examples/python/java1/org/pkg/MyMath.java">
 <include file="examples/python/java1/calc.py">
 
 <code>
