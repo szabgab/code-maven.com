@@ -9,7 +9,7 @@
 
 =abstract start
 
-Bailador is a light-weight web framework that is written in the <a href="/raku">Raku programming language.
+Bailador is a light-weight web framework that is written in the <a href="/raku">Raku programming language</a>.
 
 This pages is now a placeholder till I can move over all the content to this site.
 
