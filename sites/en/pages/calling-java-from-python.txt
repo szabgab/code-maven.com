@@ -19,3 +19,40 @@ pip install JPype1
 See the <a href="https://github.com/jpype-project/jpype/blob/master/doc/userguide.rst">jpype userguide</a>
 
 I tried this Python 3.7.3 running on Linux.
+
+<code>
+$ java -version
+openjdk version "1.8.0_242"
+OpenJDK Runtime Environment (build 1.8.0_242-8u242-b08-0ubuntu3~19.10-b08)
+OpenJDK 64-Bit Server VM (build 25.242-b08, mixed mode)
+</code>
+
+
+<code>
+$ sudo apt-get install openjdk-8-jdk-headless
+
+$ javac -version
+javac 1.8.0_242
+</code>
+
+<include file="examples/python/java1/Calculator.java">
+<include file="examples/python/java1/org/pkg/MyMath/.java">
+<include file="examples/python/java1/calc.py">
+
+<code>
+javac Calculator.java
+javac org/pkg/MyMath.java
+python calc.py
+</code>
+
+Directory layout (before running javac):
+
+<code>
+.
+├── calc.py
+├── Calculator.java
+└── org
+    └── pkg
+        └── MyMath.java
+</code>
+

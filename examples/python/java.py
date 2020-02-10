@@ -1,5 +1,6 @@
-from jpype import *
-startJVM(getDefaultJVMPath(), "-ea")
+from jpype import startJVM, shutdownJVM, java
+#startJVM(getDefaultJVMPath(), "-ea")
+startJVM(convertStrings=False)
 java.lang.System.out.println("hello world")
 
 random = java.util.Random()
