@@ -102,7 +102,7 @@ but these exercises can be solved in almost any other programming language.
   <li><a href="/one-dimensional-spacefight">One dimensional spacefight (aka. The spaceship operator)</a></li>
   <li><a href="/mastermind">MasterMind</a></li>
 </ol>
- 
+
 <h2>Mix</h2>
 
 <ol>
@@ -121,6 +121,7 @@ but these exercises can be solved in almost any other programming language.
   <li><a href="/personal-bookmarks">Personal Bookmarks</a></li>
   <li><a href="/url-shortener">URL Shortener</a></li>
   <li><a href="/todo">TODO list</a></li>
+  <li><a href="/shopping-list">Shopping list</a></li>
   <li><a href="/flight-ticket-vendor">Flight ticket vendor</a></li>
   <li><a href="/microblog">Microblog</a></li>
 </ol>
