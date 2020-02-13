@@ -40,3 +40,8 @@ See other <a href="/exercises">projects and exercises</a>.
 </ul>
 
 
+<h2>Solutions</h2>
+<ul>
+    <li>Partial solution in <a href="https://github.com/szabgab/shopping-list">Python Flask</a></li>
+</ul>
+
