@@ -9,7 +9,9 @@
 
 =abstract start
 
-Articles about Python
+Slides of my <a href="/slides/python-programming">Python course</a>.
+
+Articles about Python:
 
 =abstract end
 

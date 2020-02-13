@@ -9,7 +9,9 @@
 
 =abstract start
 
-A placeholder fo articles about Java.
+Slides about <a href="/slides/java-programming/">Java</a>
+
+A few articles about Java:
 
 =abstract end
 

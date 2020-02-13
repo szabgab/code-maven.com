@@ -1,0 +1,138 @@
+=title Test Automaton Engineer
+=timestamp 2020-02-13T08:30:01
+=indexes Testing, Automation
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+One of the areas I love in software development is testing. Specifically, automated testing.
+When I write an application I always write tons of unit-tests and when appropriate also integration
+tests and other types of test.
+
+I also help companies introduce testing and test automation to their companies.
+
+I also see that many companies are looking for <b>Automation engineer</b> or <b>Test Automation engineer</b>,
+or <b>QA Automation engineer</b>.
+
+Let's see what kind of personality traits will help you in this position and do you need to know
+if you are interested in one of these positions?
+
+=abstract end
+
+<h2>Personality</h2>
+
+You'll have to be able to have a broad view of the product, products of the company.
+
+You have to be an investigator. Being able to find the source of a problem in a usually large
+and messy environment.
+
+You'll have to be able to learn about technologies that sometimes have no good documentation.
+Part of your job might be to actually check how good the documentation is.
+
+You'll have to communicate your findings with the rest of the company. Both with the developer,
+the manual QA people, and management.
+
+I'd say empathy should be high on the required personality traits as you will need to be able to
+look at the product as a client even if you don't have a personal use for the product.
+You also need to be able to think how and why a developer might make certain mistakes creating
+bug or broken features.
+
+<h2>Technologies</h2>
+
+There is a very broad set of technologies that are in use in various companies.
+There can also be specialized tools that are relevant only to a small group of companies.
+Even in-house technologies that are only used in the specific company.
+
+So I won't give a comprehensive list, but you will get the picture.
+
+<h2>Programming language</h2>
+
+You'll definitely will need to know at least one programming language. Maybe more than one.
+These days <a href="/python">Python</a>,
+<a href="/javascript">JavaScript</a> (with <a href="/nodejs">NodeJS</a>) are popular languages
+in the field.
+
+In Unix/Linux environment <a href="/shell">Bash</a> or some other Unix/Linux shell language.
+
+<a href="/java">Java</a>, <a href="/net">C# .NET</a> are often required if those are the languages used in the company for writing their products.
+
+<a href="https://perlmaven.com/">Perl</a> and <a href="/ruby">Ruby</a> are also still used, but
+as far as I can tell they are both used less and less.
+
+<h2>Databases</h2>
+
+In some places you'll need to be familiar with specific relational databases and maybe some non-relational (also referred to as no-SQL) databases.
+
+In any case it is general a good idea to be familiar with <a href="/sql">SQL</a>.
+
+<h2>Version Control</h2>
+
+You will have to be familiar with the Software Version Control System (SVCS or VCS) or the company.
+These days <a href="/git">Git</a> is by far the most popular version control system.
+
+You will also have to also know one of the Git server systems. Either cloud-based or local.
+
+You will have to understand Git and the difference between
+<a href="/git">Git</a>, and any of the cloud-hosts such as <a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/">GitLab</a>,
+and <a href="https://bitbucket.org/">BitBucket</a>.
+
+
+<h2>Bug tracking system</h2>
+
+You'll have to understand the concept of the bug and feature-tracking systems. There are many such systems,
+<a href="https://www.atlassian.com/software/jira">Jira</a> seems to be one of the popular ones, but the
+Git servers system also have their own.
+
+<h2>CI - Continuous Integration</h2>
+
+While running the CI system might be the job of the <a href="/devops">DevOps</a> team, you will have to be familiar
+with the concept and you'll have to be able to use at leas one of such systems.
+The most popular open source CI system is <a href="/jenkins">Jenkins</a> that uses the <a href="/groovy">Groovy</a> language.
+
+<a href="https://travis-ci.org/">Travis CI</a> is a very popular cloud-based CI system.
+
+There are many others of course.
+
+<h2>CD - Continuous Delivery or Deployment</h2>
+
+Another area where <a href="/devops">DevOps</a> will be heavily involved, but where it will be quite important for you
+too to have some understanding.
+
+<h2>CI/CD</h2>
+
+See above under CI and CD.
+
+<h2>Testing tools</h2>
+
+<ul>
+    <li><a href="https://selenium.dev/">Selenium</a></li>
+    <li><a href="http://appium.io/">Appium</a></li>
+    <li><a href="https://www.cypress.io/">Cypress.io</a></li>
+    <li><a href="https://cucumber.io/">Cucumber</a></li>
+    <li><a href="https://www.katalon.com/">Katalon</a></li>
+    <li><a href="https://www.testing-whiz.com/">Testing Whiz</a></li>
+    <li><a href="https://www.ranorex.com/">Ranorex</a></li>
+    <li><a href="https://smartbear.com/product/testcomplete/overview/">Test Complete</a></li>
+    <li><a href="https://www.telerik.com/teststudio">Test Studio</a></li>
+</ul>
+
+
+<h2>Containers - Docker</h2>
+
+Another are that might be handled by the <a href="/devops">DevOps</a> engineers, but where you will probably also have
+to have some understanding is <a href="/docker">Docker</a>.
+
+
+<h2>Other</h2>
+
+<ul>
+    <li>Experience in manual testing.</li>
+    <li>Good understanding of software testing theory and methodologies.</li>
+    <li>Knowledge in unit tests, integration tests, and data validation.</li>
+    <li>Knowledge of test framework.</li>
+    <li>Skills in diagnosing and solving complex problems and providing detailed technical analysis./li>
+</ul>
+

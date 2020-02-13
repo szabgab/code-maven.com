@@ -1,0 +1,24 @@
+=title C# .NET
+=timestamp 2020-02-13T07:02:00
+=indexes C#
+=status show
+=author szabgab
+=books .net
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+This is a placeholder for articles about C# and .NET.
+
+There are some slides about using <a href="/slides/python-programming/dotnet">.NET with Python</a>.
+
+=abstract end
+
+<!--
+<ul>
+</ul>
+
+  <li><a href=""></a></li>
+-->
+
