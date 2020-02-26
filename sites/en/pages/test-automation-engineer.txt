@@ -117,6 +117,7 @@ See above under CI and CD.
     <li><a href="https://www.ranorex.com/">Ranorex</a></li>
     <li><a href="https://smartbear.com/product/testcomplete/overview/">Test Complete</a></li>
     <li><a href="https://www.telerik.com/teststudio">Test Studio</a></li>
+    <li><a href="https://github.com/microsoft/playwright">PlayWright</a> Node library to automate Chromium, Firefox and WebKit with a single API
 </ul>
 
 
