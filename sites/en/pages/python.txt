@@ -36,7 +36,7 @@ Articles about Python:
 
 <h2>PIL, Pillow</h2>
 
-This list conains articles on how to create and manipulate images using PIL, Pillow in Python.
+This list contains articles on how to create and manipulate images using PIL, Pillow in Python.
 
 <ul>
   <li><a href="/create-images-with-python-pil-pillow">Create images with Python PIL and Pillow and write text on them</a></li>
