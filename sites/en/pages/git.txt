@@ -13,6 +13,12 @@ Getting started with Git for <a href="https://leanpub.com/collab-dev-git/">Colla
 
 =abstract end
 
+<h2>Collab dev series</h2>
+
+<ul>
+    <li><a href="https:/create-github-account">Create an account on GitHub</a></li>
+</ul>
+
 <h2>The Git series</h2>
 
 <ul>
