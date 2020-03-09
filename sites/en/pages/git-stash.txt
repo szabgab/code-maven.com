@@ -78,7 +78,7 @@ The most recently created stash has ID 0.
 
 <h2>Showing the content of a stash</h2>
 
-We can also see what is in a stash without trying to restore it. 
+We can also see what is in a stash without trying to restore it.
 We just need to pass the ID of the stash:
 
 <code>

@@ -2,7 +2,7 @@
 =timestamp 2020-01-01T07:30:01
 =indexes CodeMaven
 =status draft
-=books testing, nodejs, javascript, python, flask, ruby, angularjs, php, ansible, jenkins, groovy, shell
+=books testing, nodejs, javascript, python, flask, ruby, angularjs, php, ansible, jenkins, groovy, shell, git
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
