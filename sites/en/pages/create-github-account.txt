@@ -13,19 +13,15 @@ If you don't have yet, create an account on <a href="https://github.com/">GitHub
 
 =abstract end
 
-<style>
-img {
-    width: 400px;
-}
-</style>
+
 
 On the Front Page of GitHub that you can see in the picture below click the big green button that say "Sign up for GitHub".
 
-<img src="/img/github_front_page.png" alt="GitHub Front Page" />
+<img style="width: 400px;" src="/img/github_front_page.png" alt="GitHub Front Page" />
 
 Once you clicked the green button you'll arrive to the "Join GitHub" page where you need to decide on a username, provide your e-mail address and pick a password. For username select something you'd like to represent you and take in account any [Privacy concerns](#privacy) you might have. Similar with the e-mail address.
 
-<img src="/img/github_join.png" alt="Join GitHub Page" />
+<img style="width: 400px;" src="/img/github_join.png" alt="Join GitHub Page" />
 
 I picked <b>szabgab-demo</b> as the username I am going to use to demonstrate the following steps.
 
@@ -33,15 +29,15 @@ Once I click on the "Create an Account" button, I got to the "Welcome to GitHub"
 
 Actually my regular account where my username is "szabgab" is a paid account as I have a number of private repositories. For example the source code of this book is in one of these private repositories.
 
-<img src="/img/github_welcome.png" alt="Welcome to GitHub Page" />
+<img style="width: 400px;" src="/img/github_welcome.png" alt="Welcome to GitHub Page" />
 
 In the meantime I've also received and e-mail from GitHub asking to verify that the e-mail address I provided is really mine.
 
-<img src="/img/github_verification_email.png" alt="GitHub verification e-mail" />
+<img style="width: 400px;" src="/img/github_verification_email.png" alt="GitHub verification e-mail" />
 
 So I clicked on the long link in the email and got to a page titled "Learn Git and GitHub without any code!".
 
-<img src="/img/github_email_verified.png" alt="GitHub after e-mail verification" />
+<img style="width: 400px;" src="/img/github_email_verified.png" alt="GitHub after e-mail verification" />
 
 At this point you can explore what is in GitHub and how to use it on your own, and when you had enough you can come back to and continue the book.
 
