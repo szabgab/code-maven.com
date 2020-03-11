@@ -94,6 +94,13 @@ No-SQL database can be also useful but those too are also only needed in a subse
 Many application either provide <a href="https://en.wikipedia.org/wiki/Application_programming_interface">APIs</a> or use other 3rd-party APIs.
 APIs usually communicate using <a href="/json">JSON</a>. Just as with databases, being familiar with APIs can be also useful in many positions.
 
+<h2>Web frameworks: Flask, Django...</h2>
+
+A large subset of backend developers write web applications. They need to know the appropriate web framework used at their company.
+There are many Python-based web frameworks, but the most popular ones are <a href="https://www.djangoproject.com/">Django</a>
+and <a href="/flask">Flask</a>. Learn at least one of them to increase your chances to become a good backend developer.
+Hint: Flask is much easire to learn.
+
 <h2>CI - Continuous Integration</h2>
 
 You should be familiar with the concept.
