@@ -11,6 +11,8 @@
 
 Slides of my <a href="/slides/python-programming">Python course</a>.
 
+What do you need to become a <a href="/backend-python-developer">Python programmer</a>?
+
 Articles about Python:
 
 =abstract end

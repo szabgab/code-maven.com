@@ -1,0 +1,113 @@
+=title Backend Python developer
+=timestamp 2020-03-11T08:30:01
+=indexes Python
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+Many companies advertiese job positions as <b>Python programmer</b>, or <b>Backend developer</b>.
+Sometimes <b>Backend Python developer</a>.
+
+So what do you need to know in order to become one? What do you need to find a Junior level position with
+a title like that.
+
+=abstract end
+
+<h2>Personality</h2>
+
+Though I think it would be very important to have a broad view of the product your company is building in
+many cases, especially as a junior programmer, you will only focus on a small corner of the project.
+So as junior programmer it is probably more important to be able to focus on a specific taks than to have
+a broad view.
+
+Being able to work alone but also being a teamplay is often part of the job description. As far as I understand
+what they mean is that you will be able to read documentation and find solutions by searching and you won't
+need to be micromanaged on one hand. On the other hand you can compromise if some other developer thinks a
+different solution is better.
+
+Communication: As far as I can see the tech world is full of people who have hard time communicating with each other.
+Being able to communicate will give you a lot of advantage. It is getting more and more important to be able
+to communicate in writing. Both in your own language and in English.
+Verbal communication skills are also useful, though as the companies get more and more distribute, writing will
+be probably more important.
+
+Some of the job posts will mention that you need to be able to <b>work under pressure</b>.
+That sounds like a symptom of bad management.  I would avoid such companies.
+
+
+<h2>Python</h2>
+
+Obviously you will need to know how to program in <a href="/python">Python</a>, though at what level
+you need to know is not clearly defined and it depends on the specific position.
+
+You will need to know the basic data types in Python (<b>int</b>, <b>float</b>, <b>str</b>, <b>bool</b>).
+
+You will need to be familiar with the data structures of Python (<b>list</b>, <b>dictionary</b>, <b>tuple</b>) and you'll
+need to be able to handle multiple dimensions of these data structures. (e.g. list of dicts of dicts).
+
+Other sturctures such as <b>set</b>, <b>queue</b>, <b>stack</b> and sepecial versions of dictionaries are also useful,
+but they might not be prerequisites to getting an entry level job.
+
+Functions and modules are considered basics, though I think you don't necessarily need to understand packages.
+
+Knowing some of the standard libraries of Python is a requirement (e.g. <b>os</b>, <b>sys</b>, <b>shutil</b>, <b>argparse</b>, <b>logging</b>)
+though of course "knowing" here means that you know about them and you know some of their methods.
+Not that you know them in full detail.
+
+Knowing regular expressions is usually not a requirement, but they can give you super-powers, so I'd recommend you learn them.
+
+Exception handling is probably a requirement.
+
+Understanding OOP - Obeject Oriented Programming is probably a requirement everywhere.
+
+One area that is often overlooked is to know how to write tests in Python. Often referred to as <b>unit tests</b>, though in the
+case of Python this is a bit confusing as there is also a library called <b>unittest</b>. The idea is to know
+the concept and does not really matter if you use the unittest module or the <b>pytest</b> module.
+
+The first 15-20 chapters of my <a href="/slides/python-programming/">Python programming</a> course covers these topics.
+
+<h2>Git (Version Control)</h2>
+
+As a programmer you will have to be familiar with at least one Version Control system.
+These days <a href="/git">Git</a> is the most popular VCS together with one of the cloud-based Git hosting services
+such as <a href="https://github.com/">GitHub</a>, <a href="https://about.gitlab.com/">GitLab</a>,
+and <a href="https://bitbucket.org/">BitBucket</a>.
+
+<h2>Bug tracking system</h2>
+
+In most companies use some kind of a bug-trackins system, so you need to be familar at least with the concept.
+The various Git-hosting services each have their own system so you can learn and practice.
+
+<h2>SQL / No-SQL</h2>
+
+Knowing <a href="/sql">SQL</a> and in general Relational Databases can be usedul though many back-end Python programmers
+never touch a database.
+
+No-SQL database can be also useful but those too are also only needed in a subset of the jobs.
+
+<h2>API - JSON</h2>
+
+Many application either provide <a href="https://en.wikipedia.org/wiki/Application_programming_interface">APIs</a> or use other 3rd-party APIs.
+APIs usually communicate using <a href="/json">JSON</a>. Just as with databases, being familiar with APIs can be also useful in many positions.
+
+<h2>CI - Continuous Integration</h2>
+
+You should be familiar with the concept.
+Extra value if you know how to use one of the cloud-based CI systems.
+(e.g. <a href="https://travis-ci.org/">Travis CI</a>)
+
+
+<h2>Containers - Docker</h2>
+
+In many companies there will be a "<a href="/devops">DevOps</a> engineer", who will deal with <a href="/docker">Docker</a>,
+but if you know it you will have a nice advantage.
+
+<h2>Other</h2>
+
+There are many other things you'll need to learn, many of those are job-specific.
+
+

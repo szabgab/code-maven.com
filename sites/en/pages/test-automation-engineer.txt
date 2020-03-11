@@ -50,7 +50,7 @@ So I won't give a comprehensive list, but you will get the picture.
 
 <h2>Programming language</h2>
 
-You'll definitely will need to know at least one programming language. Maybe more than one.
+You'll definitely need to know at least one programming language. Maybe more than one.
 These days <a href="/python">Python</a>,
 <a href="/javascript">JavaScript</a> (with <a href="/nodejs">NodeJS</a>) are popular languages
 in the field.
@@ -123,7 +123,7 @@ See above under CI and CD.
 
 <h2>Containers - Docker</h2>
 
-Another are that might be handled by the <a href="/devops">DevOps</a> engineers, but where you will probably also have
+Another area that might be handled by the <a href="/devops">DevOps</a> engineers, but where you will probably also have
 to have some understanding is <a href="/docker">Docker</a>.
 
 
@@ -134,6 +134,6 @@ to have some understanding is <a href="/docker">Docker</a>.
     <li>Good understanding of software testing theory and methodologies.</li>
     <li>Knowledge in unit tests, integration tests, and data validation.</li>
     <li>Knowledge of test framework.</li>
-    <li>Skills in diagnosing and solving complex problems and providing detailed technical analysis./li>
+    <li>Skills in diagnosing and solving complex problems and providing detailed technical analysis.</li>
 </ul>
 
