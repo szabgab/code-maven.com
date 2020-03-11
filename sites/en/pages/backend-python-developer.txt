@@ -1,4 +1,4 @@
-=title Backend Python developer
+=title Backend Python developer - Junior Python programmer
 =timestamp 2020-03-11T08:30:01
 =indexes Python
 =status show
@@ -9,8 +9,8 @@
 
 =abstract start
 
-Many companies advertiese job positions as <b>Python programmer</b>, or <b>Backend developer</b>.
-Sometimes <b>Backend Python developer</a>.
+Many companies advertise job positions as <b>Python programmer</b>, or <b>Backend developer</b>.
+Sometimes <b>Backend Python developer</b>.
 
 So what do you need to know in order to become one? What do you need to find a Junior level position with
 a title like that.
@@ -21,12 +21,12 @@ a title like that.
 
 Though I think it would be very important to have a broad view of the product your company is building in
 many cases, especially as a junior programmer, you will only focus on a small corner of the project.
-So as junior programmer it is probably more important to be able to focus on a specific taks than to have
+So as junior programmer it is probably more important to be able to focus on a specific tasks than to have
 a broad view.
 
-Being able to work alone but also being a teamplay is often part of the job description. As far as I understand
+Being able to work alone but also being a team-player is often part of the job description. As far as I understand
 what they mean is that you will be able to read documentation and find solutions by searching and you won't
-need to be micromanaged on one hand. On the other hand you can compromise if some other developer thinks a
+need to be micro-managed on one hand. On the other hand you can compromise if some other developer thinks a
 different solution is better.
 
 Communication: As far as I can see the tech world is full of people who have hard time communicating with each other.
@@ -49,7 +49,7 @@ You will need to know the basic data types in Python (<b>int</b>, <b>float</b>, 
 You will need to be familiar with the data structures of Python (<b>list</b>, <b>dictionary</b>, <b>tuple</b>) and you'll
 need to be able to handle multiple dimensions of these data structures. (e.g. list of dicts of dicts).
 
-Other sturctures such as <b>set</b>, <b>queue</b>, <b>stack</b> and sepecial versions of dictionaries are also useful,
+Other structures such as <b>set</b>, <b>queue</b>, <b>stack</b> and special versions of dictionaries are also useful,
 but they might not be prerequisites to getting an entry level job.
 
 Functions and modules are considered basics, though I think you don't necessarily need to understand packages.
@@ -79,12 +79,12 @@ and <a href="https://bitbucket.org/">BitBucket</a>.
 
 <h2>Bug tracking system</h2>
 
-In most companies use some kind of a bug-trackins system, so you need to be familar at least with the concept.
+In most companies use some kind of a bug-tracking system, so you need to be familiar at least with the concept.
 The various Git-hosting services each have their own system so you can learn and practice.
 
 <h2>SQL / No-SQL</h2>
 
-Knowing <a href="/sql">SQL</a> and in general Relational Databases can be usedul though many back-end Python programmers
+Knowing <a href="/sql">SQL</a> and in general Relational Databases can be useful though many back-end Python programmers
 never touch a database.
 
 No-SQL database can be also useful but those too are also only needed in a subset of the jobs.
