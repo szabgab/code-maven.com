@@ -17,7 +17,7 @@ a title like that.
 
 =abstract end
 
-<h2>Personality</h2>
+<h2>Non-Technical Skills</h2>
 
 Though I think it would be very important to have a broad view of the product your company is building in
 many cases, especially as a junior programmer, you will only focus on a small corner of the project.
