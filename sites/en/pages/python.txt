@@ -6,6 +6,7 @@
 =books python
 =archive 1
 =comments_disqus_enable 0
+=show_related 0
 
 =abstract start
 
@@ -34,6 +35,7 @@ Articles about Python:
   <li><a href="/show-emoji-in-python">Show Emoji in Python code</a></li>
   <li><a href="/for-else-in-python-indicating-value-not-found">for-else in Python indicating "value not found"</a></li>
   <li><a href="/interactive-shell-with-cmd-in-python">Create your own interactive shell with cmd in Python</a></li>
+  <li><a href="/python-traversing-directory-tree">Traversing directory tree using walk in Python - skipping .git directory</a></li>
 </ul>
 
 <h2>PIL, Pillow</h2>
