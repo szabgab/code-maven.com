@@ -1,0 +1,43 @@
+=title Jobs
+=timestamp 2020-03-12T17:30:01
+=indexes jobs
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Finding a job, especial the first job in hi-tech isn't easy. One of the problems is that you are expected to have experience,
+but you don't know how to get experience if you don't have a job.
+
+In this article I try to help you.
+
+TL;DR: Contribute to open source projects and gain experience that way.
+
+=abstract end
+
+<h2>Job descriptions</h2>
+
+Before we get into how to gain that experience, let's see a few job descriptions.
+
+<ul>
+     <li><a href="/backend-python-developer">Backend Python developer - Junior Python programmer</a></li>
+     <li><a href="/test-automation-engineer">Test Automaton Engineer</a></li>
+</ul>
+
+<h2>Tasks</h2>
+
+No matter which field you are interested in you'll have to be able to use Git and GitHub. (In some places it is GitLab or BitBucket. We'll have those covered later.)
+So we'll start with that.
+
+<li>
+   <li>Read <a href="/how-to-contribute-to-an-open-source-project">How to contribute to an Open Source project?</a></li>
+   <li>If you are interested in a DevOps job, check out the list of <a href="/devops">DevOps Tools</a> and see which one you already know and which one you would like to learn.</li>
+   <li>Go over the slides of: <a href="https://code-maven.com/slides/collab-dev/">Collaborative Development and Open Source Projects</a> and do the exercies.</li>
+<!--
+   <li><a href=""></a></li>
+-->
+</li>
+
