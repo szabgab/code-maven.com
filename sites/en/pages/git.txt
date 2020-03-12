@@ -9,14 +9,17 @@
 
 =abstract start
 
-Getting started with Git for <a href="https://leanpub.com/collab-dev-git/">Collaborative Development using Git and GitHub</a>.
+Two series of slides: <a href="/slides/git-intro/">Introduction to Git</a> and <a href="/slides/git">Using Git</a>.
+The first is new, the second is more detailed. Then follow by <a href="/slides/collab-dev/">Collaborative Development and Open Source Projects</a>.
+
+You can also buy the book: <a href="https://leanpub.com/collab-dev-git/">Collaborative Development using Git and GitHub</a>.
 
 =abstract end
 
 <h2>Collab dev series</h2>
 
 <ul>
-    <li><a href="https:/create-github-account">Create an account on GitHub</a></li>
+    <li><a href="/create-github-account">Create an account on GitHub</a></li>
 </ul>
 
 <h2>The Git series</h2>
