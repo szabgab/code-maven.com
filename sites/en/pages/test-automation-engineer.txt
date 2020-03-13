@@ -1,6 +1,6 @@
 =title Test Automaton Engineer
 =timestamp 2020-02-13T08:30:01
-=indexes Testing, Automation
+=indexes Testing, Automation, jobs
 =status show
 =author szabgab
 =archive 1
