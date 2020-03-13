@@ -50,13 +50,13 @@ This is both a good exercise and it can also help you find a job. Some people at
 
 <h3>How to setup a website / blog?</h3>
 
-The probably easiest way that needs the least technical skills is by using one of the hosted services such as <a href="https://wordpress.com/">Wordpress.com</a>
+Probably easiest way that needs the least technical skills is using one of the hosted services such as <a href="https://wordpress.com/">Wordpress.com</a>
 or <a href="https://www.wix.com/">Wix</a>. In both of them you can start free of charge.
 
 You can go with these and you'll get a beautiful site, but if you are looking for a technical job I would use the opportunity
 to learn more about the underlying technology as well.
 
-The next level in terms of technical difficulty, that I would recommend, is setting up a page on <a href="https://pages.github.com/">GitHub Pages</a>.
+The next level in terms of technical difficulty, is setting up a page on <a href="https://pages.github.com/">GitHub Pages</a>.
 That will require you to understand Git and GitHub a bit and learn about HTML/CSS and maybe even JavaScript. This is free of charge.
 
 Finally, if you'd like to go to the extreme, you can rent your own VPS (Virtual Private Server) and host your own web site there.
