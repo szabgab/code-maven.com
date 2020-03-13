@@ -29,7 +29,46 @@ Before we get into how to gain that experience, let's see a few job descriptions
      <li>If you are interested in a DevOps job, check out the list of <a href="/devops">DevOps Tools</a> and see which one you already know and which one you would like to learn.</li>
 </ul>
 
-<h2>Tasks</h2>
+<h2>Non-Technical Skills - communication skills</h2>
+
+In each one of the job descriptions I mention a bunch of non-technical skills that I think are important to these jobs.
+Some of these you can improve. Specifically the communication skills.
+
+If you work in an office then most likely you will need to have good <b>verbal communication skills in the local language</b>.
+e.g. in Israel in most of the offices people speak Hebrew in meetings though there are more international companies where the people speak English
+in the meetings and in many interpersonal communication.
+However even there almost all of the writing is done in English. So being able to express yourself in English is important.
+
+If you plan to work in a distributed company or as a remote worker then the <b>written communication</b> is a lot more important.
+In international companies I know it is usually done in English, but I guess companies that have a local focus
+(e.g. the Spanish-speaking market, or the German-speaking market) will probably communicate in their own local language. (So Spanish and German respectively).
+
+There are plenty of traditional ways to practice a foreign language, but I'd like to point out something else. The best way to improve your
+written communication skills is to write lots of text. I would recommend you <b>create a web site or a blog</b> and start writing your technical progress.
+So as you follow the tasks bellow you also write posts explaining what you did, what problems have you encountered, what solutions have you found.
+This is both a good exercise and it can also help you find a job. Some people at companies will like the fact that they can see your thought process.
+
+<h3>How to setup a website / blog?</3>
+
+The probably easiest way that needs the least technical skills is by using one of the hosted services such as <a href="https://wordpress.com/">Wordpress.com</a>
+or <a href="https://www.wix.com/">Wix</a>. In both of them you can start free of charge.
+
+You can go with these and you'll get a beautiful site, but if you are looking for a technical job I would use the opportunity
+to learn more about the underlying technology as well.
+
+The next level in terms of technical difficulty, that I would recommend, is setting up a page on <a href="https://pages.github.com/">GitHub Pages</a>.
+That will require you to understand Git and GitHub a bit and learn about HTML/CSS and maybe even JavaScript. This is free of charge.
+
+Finally, if you'd like to go to the extreme, you can rent your own VPS (Virtual Private Server) and host your own web site there.
+You can install some ready-made software such as <a href="https://wordpress.org/">WordPress</a> or you can build your own.
+I recommend <a href="/digitalocean">Digital Ocean</a> or <a href="/linode">Linode</a>. At both of them you can get a VPS for $5/month.
+
+If you build your own you won't get all the features the ready-made tools provide, but you will learn a lot more about the technical aspects.
+
+My recommendation is that you start at the top, so you start writing right away, and then move towards the more challenging versions of your website/blog.
+
+
+<h2>Technical Tasks</h2>
 
 No matter which field you are interested in you'll have to be able to use Git and GitHub.
 (In some places it is GitLab or BitBucket instead of GitHub but the concepts are very similar and we'll cover the other two later.)
