@@ -48,7 +48,7 @@ written communication skills is to write lots of text. I would recommend you <b>
 So as you follow the tasks bellow you also write posts explaining what you did, what problems have you encountered, what solutions have you found.
 This is both a good exercise and it can also help you find a job. Some people at companies will like the fact that they can see your thought process.
 
-<h3>How to setup a website / blog?</3>
+<h3>How to setup a website / blog?</h3>
 
 The probably easiest way that needs the least technical skills is by using one of the hosted services such as <a href="https://wordpress.com/">Wordpress.com</a>
 or <a href="https://www.wix.com/">Wix</a>. In both of them you can start free of charge.
