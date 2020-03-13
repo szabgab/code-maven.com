@@ -3,6 +3,7 @@
 *.pyc
 *.pickle
 *.class
+.mypy_cache/
 .DS_Store
 /examples/python/cli/.cache
 github-token
