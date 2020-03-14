@@ -29,7 +29,7 @@ category as they try to provide a solution to several topics.
 
 <h2>Version Control Systems - Source Control Management</h2>
 <ul>
-    <li><a href="https://git-scm.com/">Git</a></li>
+    <li><a href="/git">Git</a></li>
     <li><a href="https://www.mercurial-scm.org/">Mercurial</a></li>
     <li><a href="https://subversion.apache.org/">Subversion</a></li>
     <li><a href="https://www.perforce.com/">Perforce</a></li>
@@ -66,7 +66,7 @@ category as they try to provide a solution to several topics.
     <li><a href="https://www.ansible.com/">Ansible</a> - the <a href="/ansible">Ansible series</a> is an introduction</li>
     <li><a href="https://cfengine.com/">CFEngine</a></li>
     <li><a href="https://www.chef.io/">Chef</a></li>
-    <li><a href="https://www.docker.com/">Docker</a></li>
+    <li><a href="/docker">Docker</a></li>
     <li><a href="https://docs.microsoft.com/en-us/powershell/dsc/overview">PowerShell DSC</a></li>
     <li><a href="https://puppet.com/">Puppet</a></li>
     <li><a href="https://www.rexify.org/">Rex</a></li>
@@ -179,6 +179,15 @@ category as they try to provide a solution to several topics.
     <li><a href="https://www.docker.com/">Docker</a></li>
     <li><a href="https://kubernetes.io/">Kubernetes</a></li>
     <li><a href="https://github.com/projectatomic/buildah">Buildah</a> for <a href="https://www.opencontainers.org/">Open Containers</a> (aka. <a href="https://github.com/opencontainers/">OCI</a>)</li>
+</ul>
+
+<h2>Programming languages</h2>
+<ul>
+    <li><a href="/shell">Bash</a>, the Unix/Linux shell is critical if you run Linux machines.</li>
+    <li><a href="/python">Python</a> is one of the most frequently used languages by DevOps enginners.</li>
+    <li><a href="/groovy">Groovy</a> is the language used by Jenkins.</li>
+    <li><a href="/ruby">Ruby</a> - there are a few tools written in Ruby and you might need to understand the syntax a bit, but fell out of favor.</li>
+    <li><a href="https://perlmaven.com/">Perl</a> - used to be the favorite language for System Administrators, but it much less popular these days.</li>
 </ul>
 
 <h2>Other</h2>

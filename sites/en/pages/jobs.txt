@@ -25,8 +25,7 @@ Before we get into how to gain that experience, let's see a few job descriptions
 <ul>
      <li><a href="/backend-python-developer">Backend Python developer - Junior Python programmer</a></li>
      <li><a href="/test-automation-engineer">Test Automaton Engineer</a></li>
-     <li>TODO: DevOps engineer</li>
-     <li>If you are interested in a DevOps job, check out the list of <a href="/devops">DevOps Tools</a> and see which one you already know and which one you would like to learn.</li>
+     <li><a href="/devops-engineer">DevOps engineer</a></li>
 </ul>
 
 <h2>Non-Technical Skills - communication skills</h2>
@@ -84,6 +83,27 @@ So we'll start with that.
 -->
 </ol>
 
+
 As Python programmer you will have to know Python quite well.
 As DevOps engineer or as a Test Automation engineer you will need to know one of the programming languages. Python is one of the common choices.
+
+<h2>Learning for DevOps</h2>
+
+There are tons of <a href="/devops">DevOps Tools</a> you need to be familiar as a <a href="/devops-enginner">DevOps Enginner</a>.
+You don't need to be a grand master in either of those and when you are learning them you will also mix them. The following seems
+to be a good order to start learning the first few.
+
+<ol>
+   <li>Git / GitHub</li>
+   <li>Python</li>
+   <li>Linux + Bash (in VirtualBox or natively)</li>
+   <li>Docker</li>
+</ol>
+
+But remember, after you learned the basics of Git, start learning the basics of Python and use Git to keep your the history of your
+Python exercises. This will make you practice Git while you Learn Python. Then at one point start learning Linux and switch your Python
+learning to Linux. You can use VirtualBox to run Linux on top of your Windows system.
+
+Once you are familiar with the above you can start learning Docker.
+
 
