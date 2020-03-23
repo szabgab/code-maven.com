@@ -50,6 +50,17 @@ So in general it is better to avoid this feature of Python.
 
 In general it is better to be explicit what you are importing than implicit.
 
+Oh an in case you say "but I only use * for one module" here is the same example for you:
+
+<code>
+from Amodule import calc
+from Bmodule import *
+</code>
+
+In this example your code will still break if <b>Bmodule</b> starts to have a function called <b>calc</b>.
+Which, by the way can happen even if <b>Bmodule</b> only imports a function called <b>calc</b>.
+
+
 <h2>Tk - tkinter</h2>
 
 Back to the tkinter example you might have some code like this:
