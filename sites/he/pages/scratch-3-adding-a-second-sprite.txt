@@ -1,4 +1,4 @@
-=title הוספת דמות שניה בסקראץ
+=title הוספת דמות שנייה בסקראץ
 =timestamp 2019-10-11T18:30:01
 =indexes scratch
 =status show
