@@ -27,7 +27,7 @@
   <li><a href="/jenkins">Jenkins</a>, the automation server used for Continuous Integration and Continuous Delivery.</li>
   <li><a href="/linux">Linux</a></li>
   <li><a href="/nodejs">NodeJS</a></li>
-  <li><a href="https://perlmaven.com/">Perl</a></li>
+  <li><a href="https://perlmaven.com/">Perl</a> on the Perl Maven site.</li>
   <li><a href="/php">PHP</a></li>
   <li><a href="/python">Python</a></li>
   <li><a href="/ruby">Ruby</a></li>
