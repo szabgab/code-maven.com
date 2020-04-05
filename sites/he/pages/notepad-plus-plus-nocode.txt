@@ -1,0 +1,17 @@
+=title נוטפד פלוס פלוס
+=timestamp 2020-04-05T15:30:01
+=indexes Open Source
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="/media/he/hebrew-notepad-plus-plus-noncode-contribution" youtube="AvDYU0AdHx0" />
+
+
+<a href="https://code-maven.com/open-source-desktop-applications">Open Source Desktop Applications</a>
+
