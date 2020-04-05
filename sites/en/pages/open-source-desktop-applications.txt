@@ -15,9 +15,13 @@ The list of the top Desktop Applications with an Open Source license.
 =abstract end
 
 
-<h2>Office suite</ah>
+<h2>Office suite</h2>
 
 <a href="https://www.libreoffice.org/">Libre Office</a>
+Platforms: Linux/Mac/Windows
+<a href="https://www.libreoffice.org/community/get-involved/">onboarding</a>
+Non-programming tasks: Documentation, 
+
 
 <h2>Web browser</h2>
 
