@@ -64,3 +64,5 @@ Non-programming tasks: Documentation,
 
 Partially taken from <a href="https://digital.com/blog/open-source-business/">this list</a> where there are a few more.
 
+<img src="/img/open-source-desktop-applications.png">
+
