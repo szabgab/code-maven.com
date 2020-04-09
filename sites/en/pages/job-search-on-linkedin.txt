@@ -1,5 +1,5 @@
 =title Job search on LinkedIn
-=timestamp 2020-04-09-11T15:30:01
+=timestamp 2020-04-09T15:30:01
 =indexes LinkedIn
 =status show
 =author szabgab
