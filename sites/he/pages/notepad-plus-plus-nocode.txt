@@ -1,7 +1,7 @@
 =title נוטפד פלוס פלוס
-=timestamp 2020-04-05T15:30:01
+=timestamp 2020-04-12T07:30:01
 =indexes Open Source
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
