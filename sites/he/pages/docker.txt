@@ -1,8 +1,8 @@
-=title
-=timestamp 2020-01-01T07:30:01
-=indexes CodeMaven
-=status draft
-=books testing, nodejs, javascript, python, flask, ruby, angularjs, php, ansible, jenkins, groovy, shell, git
+=title דוקר
+=timestamp 2020-04-17T12:30:01
+=indexes Docker
+=status show
+=books docker
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
@@ -11,11 +11,6 @@
 =abstract start
 =abstract end
 
-<code lang="perl">
-</code>
-
-<img src="/img/" alt="" />
-
-<include file="">
-<try file="">
-
+<ul>
+	<li><a href="/docker-why">למה להשתמש בדוקר?</a></li>
+</ul>
