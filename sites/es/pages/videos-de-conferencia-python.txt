@@ -1,0 +1,27 @@
+=title  Los videos de conferencias sobre Python
+=timestamp 2020-01-01T07:30:01
+=indexes Python
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+Cada año hay muchas conferencias tecnologias con charlas sobre Python alrededor del mundo.
+Hay conferencias internacionales donde las charlas están en inglés, pero también hay muchas conferencias en países diferentes donde unas de las charlas están en otro idioma.
+Por ejemplo en España y en Sur América en las conferencias tecnologías parte de las charlas están en español y parte en inglés para los invitados que no hablan español.
+En unas de las conferencias los organizadores graban las charlas y sube a YouTube para toda la gente alrededor del mundo.
+
+Hay un grupo de personas que creando un sitio para colectar todos los videos.
+Este sitio se llama <a href="https://pyvideo.org/">pyvideo.org</a>.
+
+En este sitio puedes buscar para videos de todas las conferencias sobre Python. Tu también puedes mirar la lista de videos por etiquetas y por el idioma de la charla.
+
+Ambos información, las etiquetas y el idioma de charla va de unos archivos de formato json. Cada charla tiene un archivo de json.
+Todo el datos excepto los videos mismos, puedes ser encontrado en github.com y tú también puedes ayudar para mejorar la catalogacion de las charlas.
+
+Hace unos meses you tenia un poco tiempo libre y podría enviar unos pull-requests para agregar la pagina con los idiomas y para corregir unos the archivos
+donde el linguag to fue correcto.
