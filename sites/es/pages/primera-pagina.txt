@@ -15,18 +15,26 @@ La mayoría de estos textos y videos son en inglés por qué es esta la lingua f
 
 =abstract end
 
+<h2>Hebreo</h2>
+
 Yo también estoy grabando muchos <a href="https://he.code-maven.com/">videos en hebreo</a> por yo vivo en Israel
 y estoy hablando hebreo muy bien. Yo no escribo mucho en hebreo por yo commito muchos errores gramaticales
 cuando yo escribo y tengo miedo de gene rìe sobre mis errores.
+
+<h2>Ruso</h2>
 
 Tengo un <a href="https://ru.code-maven.com/">parte de sitio en ruso</a>, pero este parte existe solamente
 por una mujer decidió traducir unas páginas a ruso. Yo personalmente no hablo y no entiendo ruso.
 Vale, yo aprendí ruso por nuevo años pero no aprendí nada de verdad. Cuando me preeguntan como yo ablo ruso
 yo explico que yo sè la mayoria de las letras... No todos entienden el chiste.
 
+<h2>Húngaro</h2>
+
 Tengo un <a href="https://hu.code-maven.com/">parte de sitio en húngaro</a> por que yo nací en Hungría
 y mi lingua materna es húngaro, pero hasta hoy no escribí nada en húngaro ni grabe vídeos en húngaro.
 Tal vez un día voy a empezar escribir en Húngaro o grabar videos en Húngaro también.
+
+<h2>Español</h2>
 
 Pero ahora tú lees este texto en Español y tú miras qué mis gramática en español es muy mal
 y mis frases no están exactamente en español.
