@@ -21,13 +21,13 @@ Yo creo què voy a comiter muchos errores gramaticales en la versia española de
 demasiado difìcil entender y puedo ayudarte.
 
 
-<h2>¿Quien puede ser un programodor o desarrollador?</h2>
+<h2>¿Quien puede ser un programador o desarrollador?</h2>
 
 Programaciòn es solamente una parte del mundo de technologìa alta. Hay muchos otros partes importantes.
 Por ejemplo administracion del sistema es una area importante. En estos dias mucha gene usan la palabra DevOps
 una combinacion de las palabrad desarrollar y operacion en inglès.
 
-<h2>¿Quien puede ser un programodor?, de verdad</h2>
+<h2>¿Quien puede ser un programador?, de verdad</h2>
 
 Mucha gente pensan que para ser un programador tù necesitas saber buen matemáticas. Tù necesitas tener un "cabeza de
 matemática" pero no es de verdad. Hay areas de proramaciòn tù necesitas mucha matematicás pero es para la mayoria no
