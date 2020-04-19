@@ -1,0 +1,17 @@
+=title מה זה פייתון?
+=timestamp 2020-04-19T20:07:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/what-is-python">מה זה פייתון</a></li>
+</ul>
+
+<screencast file="/media/python/hebrew-what-is-python" youtube="6brEaVVgahA" />
+
