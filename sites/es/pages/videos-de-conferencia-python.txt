@@ -1,7 +1,7 @@
 =title  Los videos de conferencias sobre Python
-=timestamp 2020-01-01T07:30:01
+=timestamp 2020-04-20T07:30:01
 =indexes Python
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
@@ -25,3 +25,5 @@ Todos los datos, excepto por los videos mismos, pueden ser encontrados en github
 
 Hace unos meses, tuve un poco de tiempo libre, y pude enviar algunos pull-requests para agregar la página con los idiomas y para corregir algunos de los archivos
 donde el lenguaje era incorrecto.
+
+(Gracias a <a href="https://github.com/Zarabozo">Zarabozo</a> por la ayuda con la gramática.)
