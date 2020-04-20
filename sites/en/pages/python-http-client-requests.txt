@@ -1,0 +1,50 @@
+=title Python: requests, the HTTP client
+=timestamp 2020-04-20T15:30:01
+=indexes requests
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+The <a href="https://requests.readthedocs.io/">requests</a> module of Python is one of the most common libraries to
+be used as an HTTP client.
+
+<a href="http://httpbin.org/">httpbin.org</a> is a nice service that you can use to try various HTTP requests.
+
+In this articel I have collected a couple of the examples written using Python requests.
+
+=abstract end
+
+<h2>HTTP GET</h2>
+
+<include file="examples/python/httpbin/get.py">
+
+The output will look like this:
+
+<include file="examples/python/httpbin/get.out">
+
+<h2>HTTP POST</h2>
+
+<include file="examples/python/httpbin/post.py">
+
+The output will look like this:
+
+<include file="examples/python/httpbin/post.out">
+
+<h2>Basic Authentication</h2>
+
+<include file="examples/python/httpbin/basic_auth.py">
+
+What happens if you don't provide the credentials:
+
+<include file="examples/python/httpbin/basic_auth_no_credentials.py">
+
+What happens if you provide the wrong credentials?
+
+<include file="examples/python/httpbin/basic_auth_wrong_credentials.py">
+
+

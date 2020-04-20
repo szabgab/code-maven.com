@@ -1,0 +1,19 @@
+200
+OK
+
+Headers:
+Date Mon, 20 Apr 2020 12:15:02 GMT
+Content-Type application/json
+Content-Length 482
+Connection keep-alive
+Server gunicorn/19.9.0
+Access-Control-Allow-Origin *
+Access-Control-Allow-Credentials true
+
+args {}
+data 
+files {}
+form {'name': 'Foo Bar'}
+json None
+origin 84.108.218.54
+url http://httpbin.org/post

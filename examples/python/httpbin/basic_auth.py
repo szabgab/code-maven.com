@@ -1,8 +1,8 @@
 import requests
-# from requests.auth import HTTPBasicAuth
 
-# auth=HTTPBasicAuth('foo', 'bar'))  #
-res = requests.post('http://httpbin.org/basic-auth/foo/bar', auth=('foo', 'bar'))
+# curl -i --user foo:bar https://httpbin.org/basic-auth/foo/bar
+
+res = requests.get('http://httpbin.org/basic-auth/foo/bar', auth=('foo', 'bar'))
 print(res.status_code)
 print(res.reason)
 print()
