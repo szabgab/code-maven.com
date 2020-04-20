@@ -26,4 +26,4 @@ Todos los datos, excepto por los videos mismos, pueden ser encontrados en github
 Hace unos meses, tuve un poco de tiempo libre, y pude enviar algunos pull-requests para agregar la página con los idiomas y para corregir algunos de los archivos
 donde el lenguaje era incorrecto.
 
-(Gracias a <a href="https://github.com/Zarabozo">Zarabozo</a> por la ayuda con la gramática.)
+(Gracias a <a href="https://www.linkedin.com/in/perl/">Francisco Zarabozo</a> por la ayuda con la gramática.)
