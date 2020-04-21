@@ -8,7 +8,7 @@ menu:
   - dir: right
     menu:
       - searchbox: 1
-      - title: Archívo
+      - title: Archivo
         url: /archive
       - atom: 1
 
