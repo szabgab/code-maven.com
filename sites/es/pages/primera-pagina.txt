@@ -10,48 +10,47 @@
 =abstract start
 
 El <a href="https://code-maven.com/">sitio de Code Maven</a> es un lugar donde yo escribo mucho sobre
-aspectos város de tecnología y también comparto videos yo grabé de mismas temas.
-La mayoría de estos textos y videos son en inglés por qué es esta la lingua franca del mundo de tecnología.
+aspectos vários de tecnología y también comparto videos que grabé de esos mismos temas.
+La mayoría de estos textos y videos son en inglés porque es ésta la lingua franca del mundo de tecnología.
 
 =abstract end
 
 <h2>Hebreo</h2>
 
-Yo también estoy grabando muchos <a href="https://he.code-maven.com/">videos en hebreo</a> por yo vivo en Israel
-y estoy hablando hebreo muy bien. Yo no escribo mucho en hebreo por yo commito muchos errores gramaticales
-cuando yo escribo y tengo miedo de gene rìe sobre mis errores.
+Yo también estoy grabando muchos <a href="https://he.code-maven.com/">videos en hebreo</a> porque vivo en Israel
+y hablo hebreo muy bien. Yo no escribo mucho en hebreo porque cometo muchos errores gramaticales
+cuando escribo y tengo miedo de gente se ría de mis errores.
 
 <h2>Ruso</h2>
 
-Tengo un <a href="https://ru.code-maven.com/">parte de sitio en ruso</a>, pero este parte existe solamente
+Tengo una <a href="https://ru.code-maven.com/">parte del sitio en ruso</a>, pero este parte existe solamente
 por una mujer decidió traducir unas páginas a ruso. Yo personalmente no hablo y no entiendo ruso.
-Vale, yo aprendí ruso por nuevo años pero no aprendí nada de verdad. Cuando me preeguntan como yo ablo ruso
-yo explico que yo sè la mayoria de las letras... No todos entienden el chiste.
+Vale, yo estudié ruso por nueve años pero no aprendí nada de verdad. Cuando me preguntan como hablo ruso
+yo explico que sé la mayoria de las letras ... No todos entienden el chiste.
 
 <h2>Húngaro</h2>
 
-Tengo un <a href="https://hu.code-maven.com/">parte de sitio en húngaro</a> por que yo nací en Hungría
-y mi lingua materna es húngaro, pero hasta hoy no escribí nada en húngaro ni grabe vídeos en húngaro.
+Tengo una <a href="https://hu.code-maven.com/">parte del sitio en húngaro</a> por que yo nací en Hungría
+y mi lingua materna es húngaro, pero hasta hoy no escribí nada en húngaro ni grabé vídeos en húngaro.
 Tal vez un día voy a empezar escribir en Húngaro o grabar videos en Húngaro también.
 
 <h2>Español</h2>
 
-Pero ahora tú lees este texto en Español y tú miras qué mis gramática en español es muy mal
-y mis frases no están exactamente en español.
+Pero ahora tú lees este texto en Español y tú ves qué mi gramática en español es muy mala y mis frases no están exactamente en español.
 
-Estoy aprendiendo español desde hace octubre de 2018, más o menos desde un año y media.
-Hice un poco progreso pero todavía tengo que aprender mucho.
+Estoy aprendiendo español desde octubre de 2018, más o menos desde un año y media.
+Hice un poco de progreso pero todavía tengo que aprender mucho.
 
-Ahora yo empezó escribir sobre technológia que me interesa. Escribir en español va a ayudarme agrandar
+Ahora yo empiezo a escribir sobre la technológia que me interesa. Escribir en español va a ayudarme agrandar
 mi vocabulario y mi español en general.
-Yo espero que el contenido va a ayudarte o ayudar unas otras personas que quieren mejorar sus conocidas sobre tecnología.
+Yo espero que el contenido va a ayudarte o ayudar unas otras personas que quieren mejorar sus conocimientos sobre tecnología.
 
-Espero qué voy a tener bastante tiempo libre y fuerte para continuar escribir en español
+Espero tener bastante tiempo libre e inspiración para continuar escribiendo en español
 y tal vez grabar videos también en español.
 
-Sí quieres ayudarme, cada página tiene un link en el fondo de la página al fuente de página en github.
-Puedes comentar allá y puedes corregir unos de mis errores con un pull-request.
+Si quieres ayudarme, cada página tiene un link en el fondo de la página al fuente de página en github.
+Puedes comentar allí, y puedes corregir algunos de mis errores con un pull-request.
 
-Sí quieres <b>seguir mis actividades en español</b> tengo <a href="https://www.linkedin.com/company/code-maven-spanish">una página en LinkedIn especial para el contenido en español</a>.
+Si quieres <b>seguir mis actividades en español</b> tengo <a href="https://www.linkedin.com/company/code-maven-spanish">una página en LinkedIn especial para el contenido en español</a>.
 Tengo otra <a href="https://www.linkedin.com/company/code-maven-world">página para el contenido en inglés</a> también.
 
