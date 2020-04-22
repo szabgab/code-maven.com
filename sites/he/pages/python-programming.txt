@@ -13,5 +13,5 @@
     <li><a href="https://code-maven.com/slides/python-programming/">קורס תיכנות פייתון</a></li>
 </ul>
 
-<screencast file="/media/python/hebrew-python-programming" youtube="ZxkKjXiO4_s" />
+<screencast file="/media/he/python/hebrew-python-programming" youtube="ZxkKjXiO4_s" />
 
