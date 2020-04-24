@@ -1,0 +1,18 @@
+=title Linux TAB completition of ls
+=timestamp 2020-04-24T05:30:01
+=indexes Linux, TAB, ls
+=tags screencast
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<screencast file="/media/linux/linux-tab-completition-of-ls" />
+
+Using the <a href="/slides/linux/tab-completition">Linux: TAB completition</a> slide. Find other
+slides there.
+
