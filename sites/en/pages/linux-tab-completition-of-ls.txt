@@ -1,4 +1,4 @@
-=title Linux TAB completition of ls
+=title Linux TAB completion of ls
 =timestamp 2020-04-24T05:30:01
 =indexes Linux, TAB, ls
 =tags screencast
