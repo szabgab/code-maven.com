@@ -1,0 +1,17 @@
+=title דוקומנטציה של פייתון, קבלת עזרה בפייתון
+=timestamp 2020-04-25T18:02:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/documentation">דוקומנטציה של פייתון</a></li>
+</ul>
+
+<screencast file="/media/he/python/hebrew-python-documentation" youtube="q61O59oLv4w" />
+
