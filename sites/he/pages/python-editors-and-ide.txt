@@ -13,5 +13,5 @@
     <li><a href="https://code-maven.com/slides/python-programming/python-editors">סביבות פיתוח לפייתון</a></li>
 </ul>
 
-<screencast file="/media/python/hebrew-python-editors-and-ides" youtube="-x8GZQfjBW8" />
+<screencast file="/media/he/python/hebrew-python-editors-and-ides" youtube="-x8GZQfjBW8" />
 
