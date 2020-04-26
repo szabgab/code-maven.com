@@ -61,7 +61,7 @@
 -->
 </ul>
 
-<img src="/static/courses.png">
+<img src="/static/img/courses.png">
 
 <div class="main-content">
 </div>
