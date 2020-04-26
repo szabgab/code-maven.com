@@ -61,7 +61,7 @@
 -->
 </ul>
 
-<img src="/static/img/courses.png">
+<meta property='og:image' content="/static/img/courses.png" />
 
 <div class="main-content">
 </div>
