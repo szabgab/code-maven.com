@@ -11,7 +11,7 @@
 =abstract end
 
 <ul>
-    <li><a href="/pro/skeleton-go-program">Skeleton Go program - error messages in Go</a></li>
+    <li><a href="/skeleton-go-program">Skeleton Go program - error messages in Go</a></li>
     <li><a href="/counter-using-go">Single counter with simple text file using Go</a></li>
 </ul>
 
