@@ -28,7 +28,7 @@ You can also buy the book: <a href="https://leanpub.com/collab-dev-git/">Collabo
    <li><a href="/git-stash">git stash</a></li>
    <li><a href="/git-workflow-for-individuals">Git workflow for individuals</a></li>
    <li><a href="/git-config">git config</a></li>
-   <li><a href="/pro/start-git-with-a-local-repository">Start Git with a local repository</a></li>
+   <li><a href="/start-git-with-a-local-repository">Start Git with a local repository</a></li>
 </ul>
 
 <h2>Git on MS Windows</h2>
