@@ -1,4 +1,4 @@
-=title התקנת פייתון
+=title תכנות פייתון
 =timestamp 2020-04-22T07:11:01
 =indexes Python
 =status show
@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/">קורס תיכנות פייתון</a></li>
+    <li><a href="https://code-maven.com/slides/python-programming/">קורס תכנות פייתון</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-programming" youtube="ZxkKjXiO4_s" />
