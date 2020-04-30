@@ -1,0 +1,17 @@
+=title הערות בפייתון
+=timestamp 2020-04-30T15:01:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/comments">הערות בפייתון</a></li>
+</ul>
+
+<screencast file="/media/he/python/hebrew-python-comments" youtube="CNuZiL_sfZM" />
+
