@@ -1,0 +1,16 @@
+=title Download and install git
+=timestamp 2020-05-01T05:00:03
+=indexes git
+=tags screencast
+=status show
+=books git
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<screencast file="/media/git/download-and-install-git" youtube="T-2S0eI8Nh4" />
+
+
