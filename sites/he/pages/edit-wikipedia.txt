@@ -1,0 +1,20 @@
+=title איך לערוך דף בויקיפדיה?
+=timestamp 2020-05-02T11:30:01
+=indexes Wikipedia
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="/media/hebrew-how-to-edit-wikipedia" youtube="obDa9PD3t0k" />
+
+
+<a href="https://he.wikipedia.org/">ויקיפדיה בעברית</a>
+
+<a href="https://he.wikipedia.org/wiki/ויקיפדיה:ארגז_חול">
+ארגז חול
+</a>
