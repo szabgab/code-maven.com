@@ -10,8 +10,7 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/hebrew-how-to-edit-wikipedia" youtube="obDa9PD3t0k" />
-
+<screencast file="/media/hebrew-how-to-edit-wikipedia" youtube="kVSH1XgibAU" />
 
 <a href="https://he.wikipedia.org/">ויקיפדיה בעברית</a>
 
