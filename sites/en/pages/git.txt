@@ -34,7 +34,7 @@ You can also buy the book: <a href="https://leanpub.com/collab-dev-git/">Collabo
 <h2>Git on MS Windows</h2>
 
 <ul>
-   <li><a href="/pro/why-use-a-version-control-system">Why use a version control system</a></li>
+   <li><a href="/why-use-a-version-control-system">Why use a version control system</a></li>
    <li><a href="/download-and-install-git">Download and install git</a></li>
    <li><a href="/pro/download-and-install-git-on-ms-windows">Download and install Git on MS Windows</a></li>
    <li><a href="/pro/getting-started-with-git-on-ms-windows">Getting started with Git on MS Windows</a></li>
