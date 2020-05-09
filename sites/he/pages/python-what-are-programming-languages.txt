@@ -1,0 +1,17 @@
+=title מה הן שפות תוכנה?
+=timestamp 2020-05-09T12:14:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/what-are-programming languages"> מה הן שפות תוכנה?</a></li>
+</ul>
+
+<screencast file="/media/he/python/hebrew-python-what-are-programming-languages" youtube="DSQKQZcNZ-s" />
+
