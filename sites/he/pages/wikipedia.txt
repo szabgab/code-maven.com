@@ -1,0 +1,16 @@
+=title ויקיפדיה
+=timestamp 2020-05-11T17:30:01
+=indexes ויקיפדיה, Wikipedia
+=status show
+=books wikipedia
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="/edit-wikipedia"> איך לערוך דף בויקיפדיה?</a></li>
+</ul>
