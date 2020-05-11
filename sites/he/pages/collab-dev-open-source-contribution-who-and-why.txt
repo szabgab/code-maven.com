@@ -1,0 +1,18 @@
+=title מי כותב תוכנה חפשית ולמה כדי גם לך?
+=timestamp 2020-05-11T07:05:01
+=indexes GitHub
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+<a href="https://code-maven.com/slides/collab-dev/who-is-this-for.html">who</a> and
+<a href="https://code-maven.com/slides/collab-dev/reasons-to-contribute.html">why</a>
+
+=abstract end
+
+
+<screencast file="/media/he/collab-dev/hebrew-open-source-contribution-who-and-why" youtube="YX3yA6o2YiQ" />
+

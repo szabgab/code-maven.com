@@ -24,7 +24,7 @@
 =abstract end
 
 <ul>
-    <li><a href="/pro/collab-dev-open-source-contribution-who-and-why">תרומה לקוד פתוח. למימתאימה הסידרה הזאת ולמה בככל
+    <li><a href="/collab-dev-open-source-contribution-who-and-why">תרומה לקוד פתוח. למימתאימה הסידרה הזאת ולמה בככל
 לטרוח?</a> (Open Source Contribution: for whom and why)</li>
     <li><a href="/pro/collab-dev-stack">הכילים וטכנולוגיות שישמשו אותנו בתהליך הזה</a> (The Collab-dev stack)</li>
     <li><a href="/pro/collab-dev-register-on-github">הרשמה באתר של גוטהוב</a> (Register on GitHub)</li>
