@@ -1,0 +1,17 @@
+=title הטכנולוגיות לעבודה משותפת על פרויקטי תוכנה
+=timestamp 2020-05-12T13:00:01
+=indexes Digital Ocean, GitHub
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+<a href="https://code-maven.com/slides/collab-dev/overview-pr.html">מבט על הטכנולוגיות</a>
+
+=abstract end
+
+
+<screencast file="/media/he/collab-dev/hebrew-the-collab-dev-stack" youtube="KEVoU2WkDe8" />
+
