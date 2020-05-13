@@ -1,0 +1,17 @@
+=title הרשמה בגיטהאב
+=timestamp 2020-05-13T08:10:01
+=indexes GitHub
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+<a href="https://code-maven.com/slides/collab-dev/github-register.html">שקפים</a>
+
+=abstract end
+
+
+<screencast file="/media/he/collab-dev/hebrew-register-on-github" youtube="YhiRYKLWUHs" />
+
