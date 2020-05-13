@@ -13,5 +13,5 @@
 
 <screencast file="/no/media/en/git/getting-started-with-git-on-ms-windows" youtube="7FaeN1M__Ng" />
 
-Find more via the <a href="https://code-maven.com/slides/">Git slides</a>.
+Find more via the <a href="https://code-maven.com/slides/git/">Git slides</a>.
 
