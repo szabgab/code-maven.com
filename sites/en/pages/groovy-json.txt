@@ -36,7 +36,7 @@ The latter takes up more space, but it is also human-readable.
 
 <include file="examples/groovy/create_json.groovy">
 
-In the output you can see both the result of <hl>toString</hl> and the result of <hl>prettyPring</hl>.
+In the output you can see both the result of <hl>toString</hl> and the result of <hl>prettyPrint</hl>.
 
 <include file="examples/groovy/create_json.txt">
 
