@@ -1,0 +1,17 @@
+=title Creating a local git repository
+=timestamp 2020-05-15T06:00:02
+=indexes git
+=tags screencast
+=status show
+=books git
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<screencast file="/media/en/git/creating-a-local-git-repository" youtube="2VqULh-nsXQ" />
+
+<a href="/slides/git-intro">Slides</a>
+
