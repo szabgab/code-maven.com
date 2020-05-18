@@ -43,6 +43,11 @@ This site is primarily because Gabor likes to explain things. Hopefully some of 
   <li><a href="/svg">SVG</a></li>
 </ul>
 
+<h2 id="translations">Translations</h2>
+
+The <a href="https://ru.code-maven.com/about">Russian translations</a> were made by Savenkova Natalya.
+The other pages are created by Gabor and they are not real translations. More like "similar content in some other language".
+
 <h2>Source</h2>
 
 The source of all the articles and examples can be found in <a href="https://github.com/szabgab/code-maven.com">this repository</a>.
