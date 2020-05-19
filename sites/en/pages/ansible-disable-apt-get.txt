@@ -10,8 +10,12 @@
 =abstract start
 =abstract end
 
-Disable the apt services to avoid collision between the apt-get update that runs when we start a new instance
-and the Ansible process that tries to install modules
+Disable the apt services to avoid collision between the <hl>apt-get update</hl> that runs when we start a new instance
+and the Ansible process that tries to install modules:
+
+The first one stops the service right now.
+
+The second is there so when the service won't even start next time we boot or computer.
 
 <code>
 - name: Stop services
