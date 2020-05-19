@@ -29,7 +29,7 @@
     <li><a href="/collab-dev-stack">הכילים וטכנולוגיות שישמשו אותנו בתהליך הזה</a> (The Collab-dev stack)</li>
     <li><a href="/collab-dev-register-on-github">הרשמה באתר של גוטהוב</a> (Register on GitHub)</li>
     <li><a href="/collab-dev-hacktoberfest">הקטוברפסט</a> (Hacktoberfest)</li>
-    <li><a href="/pro/collab-dev-github-onsite-editing-drawing">הסבר גרפי על עריכת קבצים באתר של גיטהוב ללא צורך בהתקנות</a> (GitHub Onsite editing explained)</li>
+    <li><a href="/collab-dev-github-onsite-editing-drawing">הסבר גרפי על עריכת קבצים באתר של גיטהוב ללא צורך בהתקנות</a> (GitHub Onsite editing explained)</li>
     <li><a href="/pro/collab-dev-edit-the-readme-file">מטלה: עריכת קובץ רדמה והוספת קובץ חדש. הכל באתר של גיטהוב</a> (Task: Edit README file, add a new file)</li>
     <li><a href="/pro/collab-dev-edit-csv-file">מטלה: עריכת קובץ עם שדות מופרדים עם פסיק. אינטגרציה רציפה עם טרביס</a>
 (Task: Edit CSV file, Continuous Integration with Travis-CI)</li>
