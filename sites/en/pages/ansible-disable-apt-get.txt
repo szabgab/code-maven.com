@@ -17,7 +17,7 @@ and the Ansible process that tries to install modules
 - name: Stop services
   service:
     name: "{{ item }}"
-    enabled: no
+    state: stopped
   with_items:
     - apt-daily
     - apt-daily.timer
