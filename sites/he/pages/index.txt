@@ -12,9 +12,11 @@
 האתר בעברית כולל הרבה מאוד סירטונים - סקראנקסטים שבהם אתמ יכולים לילמוד על נושאים מגובנים בעולם ההייטק.
 אפשר לראות אותם בטור מנויי ם באתר הזה או במגשים שמתקיימים בדרכ-כלל פעם בשבוע.
 
+<!--
 <a href="/pro">מנויים</a>
 
 <a href="https://www.meetup.com/code-mavens/">מפגשים</a>
+-->
 
 <h2>פודקסט</h2>
 <ul>
@@ -36,7 +38,7 @@
     <li><a href="/python">קורס תיכנות פייתון</a></li>
 </ul>
 
-
+<!--
 <h2>קורסים מתוכננים</h2>
 
 <ul>
@@ -51,15 +53,16 @@
     <li>גיטלב (Gitlab)</li>
     <li>ביטבאקט (BitBucket)</li>
 </ul>
+-->
 
+<!--
 <h2>לוח זמנים של הקורסים הבאים</h2>
 <ul>
     <li><a href="https://www.eventbrite.com/e/testing-in-python-using-pytest-hebrew-course-tickets-103043606200"><span>2020.05.17</span> קורס טסטינג בפייתון</a></li>
-<!--
     <li><a href="https://www.eventbrite.com/e/on-line-docker-course-in-hebrew--tickets-102787325658"><span>2020.05.03</span> קורס דוקר</a></li>
     <li><a href=""><span></span></a></li>
--->
 </ul>
+-->
 
 <meta property='og:image' content="/static/img/courses.png" />
 
