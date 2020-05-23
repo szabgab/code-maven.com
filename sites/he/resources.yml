@@ -7,4 +7,6 @@ menu:
       - title: ארכיון
         url: /archive
       - atom: 1
+text:
+  recent_articles: פוסטים אחרונים
 
