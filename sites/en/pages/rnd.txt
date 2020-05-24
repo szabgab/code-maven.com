@@ -16,7 +16,7 @@ That does not give you a lot of chances to learn how others, in other companies 
 As a trainer, consultant and coach I have several clients every year.
 That already gives me a lot more opportunities to learn, but it is still only a handfull of companies a year.
 
-In this series of blog posts I am going to interview Engineering managers at various hi-tech companies.
+In this series of blog posts I am going to interview Engineering leaders at various hi-tech companies.
 This will provide some insight into how these R&amp;D teams work. With a focus on both the process and the human side of it.
 
 =abstract end
