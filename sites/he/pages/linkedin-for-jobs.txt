@@ -10,10 +10,15 @@
 =abstract start
 =abstract end
 
-<a href="https://www.meetup.com/Code-Mavens/events/270668850/">Meetup</a>
 
 <a href="https://code-maven.com/slides/linkedin/">שקפים באנגלית</a>
 
 <a href="https://he.code-maven.com/linkedin">מביני קוד בלינקדין</a>
 
+<a href="https://he.code-maven.com/youtube">ערוץ יוטובה בעברית</a>
+
+<a href="https://code-maven.com/youtube">ערוץ יוטובה באנגלית</a>
+
 <a href="https://www.linkedin.com/in/szabgab">גאבור סבו בלינקדין</a>
+
+<a href="https://www.linkedin.com/help/linkedin/topics/6042/6054/87">עריכת הכתובת של הפרופיל</a>
