@@ -1,0 +1,19 @@
+=title My Hebrew Webinar
+=timestamp 2020-05-24T07:30:01
+=indexes LinkedIn
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<a href="https://www.meetup.com/Code-Mavens/events/270668850/">Meetup</a>
+
+<a href="https://code-maven.com/slides/linkedin/">שקפים באנגלית</a>
+
+<a href="https://he.code-maven.com/linkedin">מביני קוד בלינקדין</a>
+
+<a href="https://www.linkedin.com/in/szabgab">גאבור סבו בלינקדין</a>
