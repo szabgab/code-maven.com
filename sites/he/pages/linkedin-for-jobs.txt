@@ -10,6 +10,10 @@
 =abstract start
 =abstract end
 
+לצערי שכחתי להקליט את ההרצאה.
+
+אני אעשה פעם אחרת.
+
 
 <a href="https://code-maven.com/slides/linkedin/">שקפים באנגלית</a>
 
