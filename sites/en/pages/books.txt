@@ -1,0 +1,25 @@
+=title Books
+=timestamp 2020-05-26T07:30:01
+=indexes Git, GitHub, Ansible, Jenkins, Groovy, Python
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+The following books were put together by Gábor Szabó, the author of the Code-Maven and Perl Maven sites.
+
+For the full list see the profile page on <a href="https://leanpub.com/u/szabgab">Leanpub</a>.
+
+=abstract end
+
+<h2><a href="https://leanpub.com/groovy-book">Programming in Groovy</a></h2>
+
+<a href="https://leanpub.com/groovy-book"><img src="/static/img/groovy-book-cover-306x396.png"></a>
+
+
+<h2>Web Application Development in Perl 6 - Bailador</h2>
+
+<a href="https://leanpub.com/bailador">Web Application Development in Perl 6 - Bailador</a>
