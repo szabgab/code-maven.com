@@ -1,0 +1,25 @@
+=title How to use LinkedIn to find a job and to let a job find you in Hi-Tech
+=timestamp 2020-05-30T07:30:01
+=indexes LinkedIn, jobs, webinar
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+
+<h2><a href="https://us02web.zoom.us/webinar/register/WN_NdXK4WLYT6Wq8V-6Jc9Uzg">Register</a> to the webinar.</h2>
+
+Relevant links:
+
+<ul>
+    <li><a href="/linkedin">LinkedIn page of CodeMaven</a></li>
+    <li><a href="https://linkedin.com/in/szabgab">LinkedIn page of Gabor Szabo</a></li>
+    <li><a href="/youtube">YouTube channel of Code Maven</a></li>
+</ul>
+
+If you'd like to be notified of further events, <a href="/register">register</a> on our web site.
+
