@@ -8,6 +8,8 @@ menu:
         url: /slides
       - title: Categories
         url: /category
+      - title: Books
+        url: /books
   - dir: right
     menu:
       - title: 'Type keyword:'
