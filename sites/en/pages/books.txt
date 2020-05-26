@@ -15,27 +15,30 @@ For the full list see the profile page on <a href="https://leanpub.com/u/szabgab
 
 =abstract end
 
+<h2><a href="https://leanpub.com/bailador">Web Application Development in Perl 6 - Bailador</a></h2>
+
 <h2><a href="https://leanpub.com/collab-dev-git">Collaborative Development using Git and GitHub</a></h2>
 
-<h2><a href="https://leanpub.com/jenkins-book">CI/CD automation with Jenkins</a></h2>
-
-<a href="https://leanpub.com/jenkins-book"><img src="/static/img/jenkins-book-cover-306x396.png"></a>
+<h2>Single Page Application with Perl Dancer</h2>
 
 <h2><a href="https://leanpub.com/perl-maven">Beginner Perl Maven</a></h2>
 
-<a href="https://leanpub.com/perl-maven"><img src="static/img/beginner-perl-maven-book-cover-306x396.png"></a>
-
-<h2><a href="https://leanpub.com/groovy-book">Programming in Groovy</a></h2>
-
-<a href="https://leanpub.com/groovy-book"><img src="/static/img/groovy-book-cover-306x396.png"></a>
-
+  <a href="https://leanpub.com/perl-maven"><img src="static/img/beginner-perl-maven-book-cover-306x396.png"></a>
 
 <h2><a href="https://leanpub.com/ansible-book">Automated Configuration Management using Ansible</a></h2>
 
-<a href="https://leanpub.com/ansible-book"><img src="/static/img/ansible-book-cover-306x396.png"></a>
+  <a href="https://leanpub.com/ansible-book"><img src="/static/img/ansible-book-cover-306x396.png"></a>
 
-<h2>Web Application Development in Perl 6 - Bailador</h2>
+<h2><a href="https://leanpub.com/markua-parser-in-perl5">Creating a Markua parser in Perl 5</a></h2>
 
-<a href="https://leanpub.com/bailador">Web Application Development in Perl 6 - Bailador</a>
+<h2><a href="https://leanpub.com/jenkins-book">CI/CD automation with Jenkins</a></h2>
 
+  <a href="https://leanpub.com/jenkins-book"><img src="/static/img/jenkins-book-cover-306x396.png"></a>
 
+<h2><a href="https://leanpub.com/groovy-book">Programming in Groovy</a></h2>
+
+  <a href="https://leanpub.com/groovy-book"><img src="/static/img/groovy-book-cover-306x396.png"></a>
+
+<h2><a href="https://leanpub.com/markua-by-example">Markua by Example</a></h2>
+
+<h2><a href="https://leanpub.com/python-examples">1000 Python Examples</a></h2>
