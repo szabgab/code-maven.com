@@ -2,6 +2,7 @@
 =timestamp 2020-05-28T08:30:01
 =indexes LinkedIn
 =status show
+=author 0
 =archive 1
 =comments_disqus_enable 0
 =show_related 1
