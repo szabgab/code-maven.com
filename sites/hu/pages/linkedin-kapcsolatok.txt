@@ -1,0 +1,19 @@
+=title LinkedIn kapcsolatok
+=timestamp 2020-05-28T11:30:01
+=indexes LinkedIn
+=status show
+=author 0
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="/media" youtube="dc28TN0PCoc" />
+
+<ul>
+   <li><a href="https://hu.code-maven.com/linkedin">Code-Maven LinkedIn lap magyarul</a></li>
+   <li><a href="https://hu.code-maven.com/youtube">Code-Maven YouTube csatorna magyarul</a></li>
+</ul>
+
