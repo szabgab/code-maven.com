@@ -1,0 +1,20 @@
+=title הקשרים שלכם בלינקדין המ שווים זהב
+=timestamp 2020-05-28T08:30:01
+=indexes LinkedIn
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="/media" youtube="y9qDAszyN3U" />
+
+<ul>
+  <li><a href="https://he.code-maven.com/linkedin">דף לינקדין של מביני קוד</a></li>
+  <li><a href="https://he.code-maven.com/youtube">ערוץ יוטוב של מביני קוד</a></li>
+  <li><a href="https://linkedin.com/in/szabgab">גאבור בלינקדין</a></li>
+</ul>
+
