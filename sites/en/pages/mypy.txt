@@ -1,5 +1,5 @@
 =title Type checking of Python code using mypy
-=timestamp 2020-05-28T08:30:01
+=timestamp 2020-05-28T17:30:01
 =indexes mypy
 =status show
 =books python
