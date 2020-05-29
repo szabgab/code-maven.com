@@ -1,5 +1,5 @@
 =title Code Maven - Magyarul
-=timestamp 2019-09-07T14:00:03
+=timestamp 2020-05-29T21:00:03
 =status show
 =show_date 0
 =author 0
@@ -10,39 +10,17 @@
 <h2>Üdvözöllek a Code Maven magyar változatán!</h2>
 
 <div class="main-content">
-Sok-sok évvel ezelőtt csináltam egy website-ot <a href="https://perlmaven.com/">Perl Maven</a> néven ahol a Perl programozási nyelvel
-kapcsoltban írtam. Angolul. A lap elég sikeres lett (sok Google keresésben az első helyen szerepelt) s néhány ember úgy gondolta, hogy
-az jó ötlet lenne lefordítani egy-egy oldalt más nylevkre. Ezért ha ma megnézed a <a href="https://perlmaven.com/">Perl Maven</a> lapot
-ott sok nyelvet találsz.
-</div>
-
-<div class="main-content">
-Pár év elteltével ógy gondoltam érdekes lenne más programozási nyelvekről is írni és más témákról is amik a szoftverfejlesztéssel kapcsolatosak.
-Akár programozásról van szó, akár tesztelésről (QA), de miután sokáig rendszergazda is voltam ezért a azzal a témával ís akartam fogalkozni.
-(Manapság, kissé helytelenül a DevOps névvel fedik ezt a foglaltosságot.) Előszőr arra gondoltam, hogy csinálok egy Python Maven oldalt, meg egy
-NodeJS Maven lapot, de nem akartam túlzottan elaprózni a dolgot. Így született meg a <b>Code Maven</b> lap.
-</div>
-
-<div class="main-content">
-Egy idő után az egyik olvasó lefordított néhány lapot oroszra, de talán épp mert a lap nem fokuszált egy témára mint a korábbi, messze nem volt
-akkora lelkesedés az önkéntes fordításra. Így jututtunk el arra a pontra amikor úgy gondolam meg kéne próbálni más nyelveken is írni és videokat
-felvenni. Ezért aztán megnyitottam három másik verziót. Egy Héber verziót, mert Izraelben élek s Héberül tudom legjobban elmagyarázni
-(ha ha ha) a proramozással kapcsolatos dolgokat. Egy Magyar verziót mert Magyar az anyanyelvem. Bár régen se volt jó a helyesírásom, azóta ez csak
-romlott. Ez érdekes lesz.
-Végül csináltam egy Spanyol verzíót is, mert már egy ideje tanulok Spanyolul s gondoltam, vicces lesz egy-két év múlva visszanézni hogy dadogtam össze vissza.
+A Code Maven lap célja, segítse a számítástechnikai piacon dolgozókat és azokat akiket ezzel szeretnének foglalkozni.
+A tartalom nagy része az angol változaton van de a magyaron is lesz néhány lap és néhány video.
+A legtöbb lapon technikai tartalom van de van olyan is ahol arról van szó, hogyan találhatunk munkát, vagy hogyan
+mutathatjuk be a tudásunkat.
 </div>
 
 
 <div class="main-content">
-Enny egyelőre elég a történelemből. Mi lesz itt? Azt nem tudom, hogy milyen anyagokat fogok a magyar verzíóra feltölteni. Gondolom főleg vidokat csinálok majd
-amiket felrakok a <a href="/youtube">YouTube csatornára</a>. Azért javaslom hogy az angol váltoozatot és nézd meg! Ja igen, és van egy
-Magyar nyelvű <a href="/linkedin">LinkedIn lap</a> is. Azt is érdemes követni.
+Nézz körül és ha követni szeretnéd a lapot akkor javaslom hogy a kövesd a <a href="/youtube">Code Maven YouTube csatornát</a>
+és a <a href="/linkedin">Code Maven LinkedIn lapot</a>.
 </div>
+
 
 <screencast file="/media" youtube="yo9PO-NE3aQ" />
-
-<div class="main-content">
-És még valami. Ha (pontosabban amikor) helyesírási hibával találkoztok, nézzétek meg a lap alján lévő linket. Ott van a lap forrás kódja a <a href="https://github.com/szabgab/code-maven.com/">GitHub</a>-on.
-Pl. a főoldalnak <a href="https://github.com/szabgab/code-maven.com/blob/main/sites/hu/pages/index.txt">itt</a> van az eredetie.
-A legjobb s talán a legegyszrűbb ha ott külditek a javítást.
-</div>

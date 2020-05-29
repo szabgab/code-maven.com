@@ -6,5 +6,11 @@ menu:
     menu:
       - title: Archívum
         url: /archive
+      - title: Rólunk
+        url: /rolunk
       - atom: 1
+text:
+  recent_articles: Legutóbbi oldalak
+  written_by: Szerző
+
 
