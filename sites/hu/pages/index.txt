@@ -10,5 +10,18 @@
 <h2>Üdvözöllek a Code Maven magyar változatán!</h2>
 
 <div class="main-content">
+Sok-sok évvel ezelőtt csináltam egy website-ot <a href="https://perlmaven.com/">Perl Maven</a> néven ahol a Perl programozási nyelvel
+kapcsoltban írtam. Angolul. A lap elég sikeres lett (sok Google keresésben az első helyen szerepelt) s néhány ember úgy gondolta, hogy
+az jó ötlet lenne lefordítani egy-egy oldalt más nylevkre. Ezért ha ma megnézed a <a href="https://perlmaven.com/">Perl Maven</a> lapot
+ott sok nyelvet találsz.
 </div>
 
+<div class="main-content">
+Pár év elteltével ógy gondoltam érdekes lenne más programozási nyelvekről is írni és más témákról is amik a szoftverfejlesztéssel kapcsolatosak.
+Akár programozásról van szó, akár tesztelésről (QA), de miután sokáig rendszergazda is voltam ezért a azzal a témával ís akartam fogalkozni.
+(Manapság, kissé helytelenül a DevOps névvel fedik ezt a foglaltosságot.) Előszőr arra gondoltam, hogy csinálok egy Python Maven oldalt, meg egy
+NodeJS Maven lapot, de nem akartam túlzottan elaprózni a dolgot. Így született meg a <b>Code Maven</b> lap.
+</div>
+
+<div class="main-content">
+</div>
