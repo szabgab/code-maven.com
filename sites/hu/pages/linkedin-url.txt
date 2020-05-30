@@ -1,4 +1,4 @@
-=title Legyen ked is jó LinkedIn címed!
+=title Legyen neked is jó LinkedIn címed!
 =timestamp 2020-05-30T16:30:01
 =indexes LinkedIn
 =status show
