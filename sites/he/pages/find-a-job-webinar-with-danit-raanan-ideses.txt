@@ -1,0 +1,26 @@
+=title איך למצוא עבודה בהיי-טק - נקודת מבט של דנית רענן אידסס, מנהלת משאבי אנוש
+=timestamp 2020-06-03T11:00:01
+=indexes LinkedIn, jobs, interview
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="/media/hebrew-hr-pov-danit-raanan-ideses" youtube="FdSYhpucq-U" />
+
+<ul>
+   <li><a href="https://www.linkedin.com/in/danit-raanan-26764634/">Danit Raanan Ideses @ uniquely</a></li>
+   <li><a href="https://www.linkedin.com/company/uniquely.co.il/">Uniquely on LinkedIn</a></li>
+</ul>
+
+<ul>
+   <li><a href="https://www.linkedin.com/in/szabgab/">Gábor Szabó @ Code-Maven</a></li>
+   <li><a href="/linkedin">דף לינקדין של מביני קוד</a></li>
+   <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+   <li><a href="https://code-maven.com/linkedin">Code Maven on LinkedIn (English only)</a></li>
+   <li><a href="https://code-maven.com/youtube">Code Maven on YouTube (English only)</a></li>
+</ul>
