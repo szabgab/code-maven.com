@@ -1,6 +1,7 @@
 =title
 =timestamp 2020-01-01T07:30:01
 =indexes CodeMaven
+=tags screencast, interview
 =status draft
 =books testing, nodejs, javascript, python, flask, ruby, angularjs, php, ansible, jenkins, groovy, shell, git
 =author szabgab
@@ -20,3 +21,14 @@
 <try file="">
 
 <screencast file="" youtube="" />
+
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+
+<ul>
+    <li><a href="/youtube">YouTube csatorna</a></li>
+    <li><a href="/linkedin">LinkedIn lap</a></li>
+</ul>
+
