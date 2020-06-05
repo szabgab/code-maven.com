@@ -475,6 +475,8 @@ docker:
         - pro/docker-course-container-vs-images
         - pro/docker-course-install-docker
         - pro/docker-course-version-and-info
+        - pro/docker-course-getting-help
+        - pro/docker-course-host-daemon-client
 go:
   chapters:
     - title: Go
