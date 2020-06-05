@@ -1,0 +1,175 @@
+---
+podcast:
+  chapters:
+    - title: פודקסט
+      sub:
+        - podcast-1-welcome
+        - podcast-2-what-is-a-podcast
+        - podcast-3-what-is-needed-to-become-a-programmer
+        - podcast-4-what-are-programming-languages
+        - podcast-5-front-end-back-end
+scratch:
+  chapters:
+    - title: סקראץ
+      sub:
+        - scratch-1-first-steps
+        - scratch-2-download-our-work
+        - scratch-3-adding-a-second-sprite
+        - scratch-4-keyboard
+collab-dev:
+  chapters:
+    - title: פיתוח שיתופי
+      sub:
+        - collab-dev-open-source-contribution-who-and-why
+        - collab-dev-stack
+        - collab-dev-register-on-github
+        - collab-dev-hacktoberfest
+        - collab-dev-github-onsite-editing-drawing
+        - collab-dev-edit-the-readme-file
+        - pro/collab-dev-edit-csv-file
+        - pro/collab-dev-github-offsite-editing-drawing
+        - pro/collab-dev-git
+        - pro/collab-dev-edit-json-file
+        - pro/collab-dev-update-code-maven-site
+        - pro/collab-dev-code-and-talk
+        - pro/collab-dev-awesome-for-beginners
+        - pro/collab-dev-pydigger
+git:
+  chapters:
+    - title: גיט
+      sub:
+        - pro/git-why-use-version-control
+        - pro/git-download-and-install-git
+        - pro/git-configuration
+        - pro/git-help-for-git
+        - pro/git-exercise-1
+        - pro/git-4-ways-to-start-with-git
+        - pro/git-creating-local-repository
+        - pro/git-adding-the-first-file
+        - pro/git-untracked-and-modified
+        - pro/git-file-status
+        - pro/git-drop-local-changes
+        - pro/git-remove-from-staging-area
+        - pro/git-working-with-remote-repository
+        - pro/git-clone-a-repository
+        - pro/git-fork-a-repository
+        - pro/git-make-some-local-changes
+        - pro/git-push-out-local-changes-to-remote-repo
+        - pro/git-more-changes-update-pr
+windows:
+  chapters:
+    - title: סבבת תיכנות במערכת חלונות
+      sub:
+        - pro/windows-cmd-configuration
+        - pro/windows-cmd-directories-1
+        - pro/windows-cmd-directories-2
+python:
+  chapters:
+    - title: מבוא
+      sub:
+        - python-programming
+        - python-what-is
+        - python-installing
+        - python-editors-and-ide
+        - python-documentation
+        - python-program-types
+        - python-hello-world
+        - python-comments
+        - python-variables
+        - python-exercise-hello-world
+        - python-what-is-programming
+        - python-what-are-programming-languages
+        - python-value-types
+        - python-numerical-operations
+        - python-exercise-calculations
+        - pro/python-solution-calculations
+    - title: מבוא פרק 2
+      sub:
+        - pro/python-modules
+        - pro/python-main-function
+        - pro/python-conditional-main
+        - pro/python-input-output
+        - pro/python-print-2-3
+        - pro/python-prompting-for-user-input
+        - pro/python-prompting-in-python-2-and-3
+        - pro/python-add-numbers-from-the-stdin
+        - pro/python-converting-string-to-number
+        - pro/python-conditional-statements
+        - pro/python-case-and-switch
+        - pro/python-exercises-stdin
+        - pro/python-command-line-arguments
+        - pro/python-command-line-len-exit
+        - pro/python-exercises-cli
+    - title: מספרים
+      sub:
+        - pro/python-numbers
+        - pro/python-random-numbers
+        - pro/python-random-values
+        - pro/python-built-in-method
+        - pro/python-typerror-module-object
+        - pro/python-attributeerror-module-has-no-attribute
+        - pro/python-exercises-numbers
+    - title: בולאנים
+      sub:
+        - pro/python-boolean-operators
+        - pro/python-boolean-true-false
+        - pro/python-compare-values
+        - pro/python-exercise-boolean
+    - title: מחרוזות
+      sub:
+        - pro/python-strings
+        - pro/python-string-operations
+        - pro/python-string-functions-and-methods
+        - pro/python-in-string
+        - pro/python-encodings
+        - pro/python-raw-strings
+    - title: לולאות
+      sub:
+        - pro/python-loops
+        - pro/python-for-loop-break-continue
+        - pro/python-while-loop
+        - pro/python-while-loop-part-2
+        - pro/python-loops-exercises
+    - title: מחרוזות ודפסות מפורמטות
+      sub:
+        - pro/python-formatted-strings
+    - title: ביטויים רגולרים
+      sub:
+        - pro/python-what-are-regexes
+        - pro/python-regex-in-grep-and-notepadpp
+        - pro/python-regex-first-match
+        - pro/python-regex-capture
+        - pro/python-regex-findall
+        - pro/python-regexes-any-character-class
+        - pro/python-regexes-match-a-dot
+        - pro/python-regexes-quantifiers
+        - pro/python-regexes-greedy-minimal
+        - pro/python-regexes-anchors
+        - pro/python-regexes-isbn-numbers
+        - pro/python-regexes-match-section
+        - pro/python-regexes-alternatives
+        - pro/python-regexes-internal-variables
+        - pro/python-regexes-dna
+        - pro/python-regexes-substitution
+    - title: שגיאות
+      sub:
+        - pro/python-exception-handling-hierarchy-of-calls
+        - pro/python-catching-simple-exception
+        - pro/python-catching-exception-when-processing-files
+        - pro/python-catch-all-exceptions
+        - pro/python-raise-exception
+        - pro/python-exceptions-exercises
+    - title: תיכנות מונחה עצמים
+      sub:
+        - pro/python-oop-what-is-oop
+        - pro/python-oop-in-python
+        - pro/python-oop-create-a-class
+        - pro/python-oop-attributes-and-methods
+        - pro/python-oop-inheritance
+        - pro/python-oop-modes-of-method-inheritance
+wikipedia:
+  chapters:
+    - title: ויקיפדיה
+      sub:
+        - edit-wikipedia
+
