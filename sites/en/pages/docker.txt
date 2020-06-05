@@ -12,14 +12,16 @@
 
 <h2>Docker Course</h2>
 
-<ul>
+<ol>
     <li><a href="/pro/docker-course-intro">Introduction to the Docker Course</a></li>
     <li><a href="/pro/docker-course-why-use-docker">Why use Docker?</a></li>
     <li><a href="/pro/docker-course-what-is-docker">What is Docker?</a></li>
     <li><a href="/pro/docker-course-container-vs-images">Docker container vs. image</a></li>
     <li><a href="/pro/docker-course-install-docker">Install Docker</a></li>
     <li><a href="/pro/docker-course-version-and-info">Docker version and info</a></li>
-</ul>
+    <li><a href="/pro/docker-course-getting-help">Getting help for Docker</a></li>
+    <li><a href="/pro/docker-course-host-daemon-client">Docker host - daemon - client</a></li>
+</ol>
 
 <!--
     <li><a href=""></a></li>
