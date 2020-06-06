@@ -37,6 +37,7 @@ Articles about Python:
   <li><a href="/interactive-shell-with-cmd-in-python">Create your own interactive shell with cmd in Python</a></li>
   <li><a href="/python-traversing-directory-tree">Traversing directory tree using walk in Python - skipping .git directory</a></li>
   <li><a href="/python-avoid-importing-everything">Python: avoid importing everything using a star: *</a></li>
+  <li><a href="/mypy">Type checking of Python code using mypy</a></li>
 </ul>
 
 <h2>PIL, Pillow</h2>
