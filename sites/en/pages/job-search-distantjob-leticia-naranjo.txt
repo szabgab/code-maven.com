@@ -1,0 +1,28 @@
+=title Job search - Distantjob with Leticia Naranjo
+=timestamp 2020-06-16T18:00:01
+=indexes CodeMaven
+=tags screencast, interview
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+In this webinar we are going to discuss what can you do to increase your chanches finding a new and better job in hi-tech.
+Our guest is <a href="https://www.linkedin.com/in/leticia-naranjo/">Leticia Naranjo</a> who works at
+<a href="https://dreamitjobs.net/">DreamITJobs</a> also known as <a href="https://distantjob.com/">DistanJob</a>.
+I hope by seeing the point of view of the recruiters you'll also be able to improve your chanches.
+
+During the webinar you'll be able to ask questions and share your LinkedIn profile and we are going to review some of them.
+
+<a href="https://us02web.zoom.us/webinar/register/WN_mdqF6FfETLyMIqdzYgWDQQ ">Register here</a>
+
+
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+
