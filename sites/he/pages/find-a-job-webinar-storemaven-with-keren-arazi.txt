@@ -1,0 +1,21 @@
+=title חיפוש עבודה בהייטק - עם קרן ארזי מנהלת משאבי אנוש של StoreMaven
+=timestamp 2020-06-08T07:30:01
+=indexes jobs
+=tags screencast, interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<h2><a href="https://www.meetup.com/Code-Mavens/events/271063925/">הרשמה</a></h2>
+
+
+<ul>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדין של מביני קוד</a></li>
+</ul>
+
