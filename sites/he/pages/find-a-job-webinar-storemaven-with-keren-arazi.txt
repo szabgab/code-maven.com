@@ -11,7 +11,16 @@
 =abstract start
 =abstract end
 
-<h2><a href="https://www.meetup.com/Code-Mavens/events/271063925/">הרשמה</a></h2>
+
+<screencast file="hebrew-webinar-storemaven-keren-arazi-rotem-vil.mp4" youtube="MvSaWDV7bp8" />
+
+
+<ul>
+   <li><a href="https://www.linkedin.com/in/kerenarazi/">קרן ארזי מנהלת משאבי אנוש</a></li>
+   <li><a href="https://www.linkedin.com/in/rotem-vilkovski-ba44b313a/">רותם ויל ראש צוות בק-אנד</a></li>
+   <li><a href="https://www.storemaven.com/">StoreMaven</a></li>
+   <li><a href="https://jobs.storemaven.com/">StoreMaven משרות ב-</a></li>
+</ul>
 
 
 <ul>
