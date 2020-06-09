@@ -1,5 +1,5 @@
 =title חיפוש עבודה בהייטק
-=timestamp 2020-06-08T07:50:01
+=timestamp 2020-06-09T15:50:01
 =indexes jobs
 =tags screencast, interview
 =status draft
