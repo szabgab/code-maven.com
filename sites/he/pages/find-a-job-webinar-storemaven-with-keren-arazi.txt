@@ -1,7 +1,7 @@
 =title חיפוש עבודה בהייטק - עם קרן ארזי מנהלת משאבי אנוש של StoreMaven
 =timestamp 2020-06-08T07:30:01
 =indexes jobs
-=tags screencast, interview
+=tags interview
 =status show
 =author szabgab
 =archive 1
