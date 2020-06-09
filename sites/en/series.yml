@@ -477,6 +477,11 @@ docker:
         - pro/docker-course-version-and-info
         - pro/docker-course-getting-help
         - pro/docker-course-host-daemon-client
+        - pro/docker-course-docker-registry
+        - pro/docker-course-hello-world
+        - pro/docker-course-busybox
+        - pro/docker-course-busybox-part-2
+        - pro/docker-course-exercise-1
 go:
   chapters:
     - title: Go
