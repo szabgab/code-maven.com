@@ -1,0 +1,66 @@
+=title Job search
+=timestamp 2020-06-10T15:30:01
+=indexes CodeMaven
+=tags interview
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+=abstract end
+
+
+<h2>Links to follow</h2>
+
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+
+<h2>Some of my questions</h2>
+
+Some of the questions I thought of that might be relevant for the webinar.
+
+Take them as the general directions.
+
+<ul>
+    <li>Tell me about yourself and about the company you work for!</li>
+    <li>What does the hiring process look like at your firm? How long does it take? How many interviews?</li>
+    <li>Are all of your open positions advertised publicly? If not how do you fill the others?</li>
+    <li>Is it a good idea to contact you directly if I am interested in a position at your firm?</li>
+    <li>Should I look for someone who works at the same place to recommend me? Is it better to submit my resume via LinkedIn or directly to you or some other way?</li>
+    <li>How do you determine who you contact via LinkedIn? What features of the profile are you looking for? Do the recommendations matter? The skills? The activities?</li>
+    <li>What can I do now to improve my chances?</li>
+    <li>Can I do anything to improve my position in your eyes?</li>
+    <li>How important is a degree vs. experience in the field?</li>
+    <li>If I have never had a fixed job in the industry before how can I get my first job? (e.g. if I just finished my degree, but have never worked in the industry or I was working in some unrelated field and I am trying to switch.)</li>
+    <li>Is there any way I can gain experience without having a job? How do you view home made projects? How do you view contributions to open source projects?</li>
+    <li>How should I prepare for an interview?</li>
+    <li>If I really like your company and I'd like to be able to apply for a job to you 2-5 years from now, what do you recommend I do now?</li>
+    <li>Alternatively: If you could go back 2-5 years what would you have suggested I do so you would want to hire me for one of your open positions?</li>
+    <li>Show us how you search and what you think during your search. You can bring an existing open position you are looking for, a past one, or a made up one and then show us your process.</li>
+</ul>
+
+<h2>What are your questions?</h2>
+
+<ul>
+    <li>If you have any other question you would have asked yourself, let me know!</li>
+</ul>
+
+<h2>Technical aspects</h2>
+
+<ul>
+    <li>We will have a Zoom webinar. I'll be the host and you the panelist.</li>
+    <li>People in the audience will be able to see and hear us and we'll be able to share our screen.</li>
+    <li>People in the audience will not be able to speak or share their screen, but they will be able to write in the chat.</li>
+    <li>Only we (host and panelists) will see the chat.</li>
+    <li>The viewers will be able to ask questions and share their LinkedIn profile via the chat.</li>
+    <li>We'll try to answer these questions.</li>
+    <li>We will provide our point of view on selected LinkedIn profiles shared by the audience.</li>
+    <li>At the end we will tell people to connect with us, to follow us, or to subscribe to our channels.</li>
+    <li>We'll also include the appropriate links in the notes of the video recording.</li>
+</ul>
+
+
