@@ -11,6 +11,16 @@
 =abstract start
 =abstract end
 
+<h2>Next event</h2>
+<ul>
+    <li><a href="job-search-distantjob-leticia-naranjo">Job search - Distantjob with Leticia Naranjo</a></li>
+</ul>
+
+<h2>Related links</h2>
+
+<ul>
+    <li><a href="/job-search-on-linkedin">Job search on LinkedIn</a></li>
+</ul>
 
 <h2>Links to follow</h2>
 
