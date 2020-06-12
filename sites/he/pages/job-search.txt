@@ -12,7 +12,10 @@
 
 <h2>הובינר הבא</h2>
 
-<a href="/find-a-job-webinar-with-tidhar-magriso"> חיפוש עבודה בהייטק - שיחה עם תדהר מגריזו מנהלת גיוס בחברת Localize.city</a>
+<ul>
+    <li><a href="/find-a-job-webinar-with-tidhar-magriso"> חיפוש עבודה בהייטק - שיחה עם תדהר מגריזו מנהלת גיוס בחברת Localize.city</a></li>
+    <li><a href="/hi-tech-career-with-michal-mironi.txt"> שיחה עם מיכל מירוני מנטורית קריירה בהייטק</a></li>
+</ul>
 
 <h2>ראיונות</h2>
 
