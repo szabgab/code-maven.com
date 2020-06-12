@@ -3,10 +3,10 @@
 =indexes jobs, career
 =tags interview
 =status show
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
-=show_related 1
+=show_related 0
 
 =abstract start
 =abstract end
