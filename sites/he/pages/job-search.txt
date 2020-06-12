@@ -13,8 +13,8 @@
 <h2>הובינר הבא</h2>
 
 <ul>
-    <li><a href="/find-a-job-webinar-with-tidhar-magriso"> חיפוש עבודה בהייטק - שיחה עם תדהר מגריזו מנהלת גיוס בחברת Localize.city</a></li>
-    <li><a href="/hi-tech-career-with-michal-mironi.txt"> שיחה עם מיכל מירוני מנטורית קריירה בהייטק</a></li>
+    <li>2020.06.17 <a href="/find-a-job-webinar-with-tidhar-magriso"> חיפוש עבודה בהייטק - שיחה עם תדהר מגריזו מנהלת גיוס בחברת Localize.city</a></li>
+    <li>2020.06.25 <a href="/hi-tech-career-with-michal-mironi"> שיחה עם מיכל מירוני מנטורית קריירה בהייטק</a></li>
 </ul>
 
 <h2>ראיונות</h2>
