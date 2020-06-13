@@ -64,3 +64,23 @@ href="https://adrianmejia.com/most-popular-algorithms-time-complexity-every-prog
 </ul>
 
 
+<h2>Use-case for flake8</h2>
+
+<code>
+data = 42
+other = "Data: {}".format(data)
+</code>
+
+Converted to:
+
+<code>
+data = 42
+other = "Data: {data}"
+</code>
+
+forgetting the "f" of the f-string. Now we have a variable called data that is not in use. Flake8 will report:
+<b>F841 local variable 'data' is assigned to but never used</b>
+
+
+
+
