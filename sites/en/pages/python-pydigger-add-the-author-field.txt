@@ -1,0 +1,28 @@
+=title Python: Pydigger add author field to a PyPI package
+=timestamp 2020-06-14T17:30:01
+=indexes Python, Pydigger, GitHub, Pull Request
+=tags screencast
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-pydigger-add-author-field.mkv" youtube="HuL2WSgP2mU" />
+
+
+<ul>
+    <li><a href="https://pydigger.com/">PyDigger</a></li>
+    <li><a href="https://pypi.org/">PyPI</a></li>
+</ul>
+
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+
+
