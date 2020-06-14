@@ -33,6 +33,12 @@
 </ul>
 
 <ul>
+    <li><a href="/youtube">El canal de YouTube</a></li>
+    <li><a href="/linkedin">La página de LinkedIn</a></li>
+</ul>
+
+
+<ul>
     <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
     <li><a href="/linkedin">דף לינקדין של מביני קוד</a></li>
 </ul>
