@@ -15,7 +15,7 @@ Hay conferencias internacionales donde las charlas son en inglés, pero también
 Por ejemplo, en España, México y Sudamérica, en las conferencias tecnológicas parte de las charlas son en español y parte en inglés para los invitados que no hablan español.
 En algunas de las conferencias los organizadores graban las charlas y las suben a YouTube para que estén a disposición de toda la gente alrededor del mundo.
 
-Hay un grupo de personas que crearon un sitio para recolectar todos los videos.
+Hay un grupo de personas que crearon un sitio para recolectar todos los vídeos.
 Este sitio se llama <a href="https://pyvideo.org/">pyvideo.org</a>.
 
 En este sitio, puedes buscar videos de todas las conferencias sobre Python. También puedes buscar en la lista de videos por etiquetas y/o por el idioma de la charla.
