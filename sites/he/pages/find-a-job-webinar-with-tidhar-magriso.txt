@@ -14,7 +14,7 @@
 <screencast file="hebrew-webinar-with-tidhar-magriso.mp4" youtube="1I5Mh-zie8c" />
 
 <ul>
-    <li><a href="https://www.linkedin.com/in/tidhar-magriso-86212154/">תדהר מגריזו</a></li>
+    <li><a href="https://www.linkedin.com/in/tidharmagriso/">תדהר מגריזו</a></li>
     <li><a href="https://www.localize.city/">Localize.city</a></li>
     <li><a href="https://www.madlan.co.il/">מדלן</a></li>
     <li><a href=""></a></li>
