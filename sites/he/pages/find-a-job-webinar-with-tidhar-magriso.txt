@@ -11,8 +11,15 @@
 =abstract start
 =abstract end
 
+<screencast file="hebrew-webinar-with-tidhar-magriso.mp4" youtube="1I5Mh-zie8c" />
 
-<h2><a href="https://www.meetup.com/Code-Mavens/events/271201449/">הרשמה</a></h2>
+<ul>
+    <li><a href="https://www.linkedin.com/in/tidhar-magriso-86212154/">תדהר מגריזו</a></li>
+    <li><a href="https://www.localize.city/">Localize.city</a></li>
+    <li><a href="https://www.madlan.co.il/">מדלן</a></li>
+    <li><a href=""></a></li>
+</ul>
+
 
 <ul>
     <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
