@@ -17,7 +17,7 @@
     <li><a href="https://www.linkedin.com/in/tidharmagriso/">תדהר מגריזו</a></li>
     <li><a href="https://www.localize.city/">Localize.city</a></li>
     <li><a href="https://www.madlan.co.il/">מדלן</a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://www.comeet.com/jobs/localize/33.00F">משרות בחברה</a></li>
 </ul>
 
 
