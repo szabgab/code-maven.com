@@ -1,0 +1,15 @@
+=title קונפיגורציה של שורת הפקודות של מערכת חלונות Windows CMD configuration
+=timestamp 2020-06-18T08:25:01
+=indexes cmd
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<a href="https://code-maven.com/slides/windows-cmd/">slides</a>
+
+
+<screencast file="hebrew-windows-cmd-configuration" youtube="sZruBu8sOWs" />
