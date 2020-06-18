@@ -1,0 +1,37 @@
+=title Perl Career with Pete Sergeant
+=timestamp 2020-06-18T07:30:01
+=indexes CodeMaven
+=tags interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+Pete Sergean is a Developer Manager turned recruiter who runs the <a href="https://perl.careers/">Perl Careers</a>
+and <a href="https://careersjs.com/">CareersJS</a>. If you are the reader of the <a href="https://perlweekly.com/">Perl Weekly newsletter</a>
+(edite by yours truly) then you have seen his job posts at the bottom of each edition.
+(Well, we had a break during the heights of the Corona virus pandemic, but he is back with his job offers.)
+
+This is going to be a live webinar in which you'll be able to ask him questions and share your LinkedIn profile to get his (public)
+feedback on how to improve it.
+
+<a href="https://us02web.zoom.us/webinar/register/WN_16EgKlrFRxirdr-zyJjYVQ">Register here</a>
+
+<ul>
+    <li><a href="https://www.linkedin.com/in/petersergeant/">Pete Sergeant</a></li>
+    <li><a href="https://perl.careers/">Perl Careers</a></li>
+    <li><a href="https://careersjs.com/">CareersJS</a></li>
+</ul>
+
+
+
+<ul>
+    <li><a href="https://perlweekly.com/">Perl Weekly</a></li>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+
