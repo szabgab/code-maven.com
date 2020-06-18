@@ -11,7 +11,7 @@
 =abstract start
 =abstract end
 
-Pete Sergean is a Developer Manager turned recruiter who runs the <a href="https://perl.careers/">Perl Careers</a>
+Pete Sergeant is a Developer Manager turned recruiter who runs the <a href="https://perl.careers/">Perl Careers</a>
 and <a href="https://careersjs.com/">CareersJS</a>. If you are the reader of the <a href="https://perlweekly.com/">Perl Weekly newsletter</a>
 (edite by yours truly) then you have seen his job posts at the bottom of each edition.
 (Well, we had a break during the heights of the Corona virus pandemic, but he is back with his job offers.)

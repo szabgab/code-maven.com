@@ -13,7 +13,13 @@
 
 <h2>Next event</h2>
 <ul>
-    <li><a href="job-search-distantjob-leticia-naranjo">Job search - Distantjob with Leticia Naranjo</a></li>
+    <li><a href="/job-search-pete-sergeant">Job search - Pete Sergeant (aka. Mr. Perl Careers and CareersJS)</a></li>
+</ul>
+
+
+<h2>Past events</h2>
+<ul>
+    <li><a href="/job-search-distantjob-leticia-naranjo">Job search - Distantjob with Leticia Naranjo</a></li>
 </ul>
 
 <h2>Related links</h2>
