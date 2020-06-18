@@ -28,7 +28,7 @@ pipeline {
            }
        }
        stage('try-agent') {
-           agent { label 'jenkins-simple-slave' }
+           agent { label 'jenkins-simple-agent' }
            steps {
                script {
                    sh "hostname"
