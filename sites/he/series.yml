@@ -172,4 +172,11 @@ wikipedia:
     - title: ויקיפדיה
       sub:
         - edit-wikipedia
-
+job-search:
+  chapters:
+    - title: חיפושי עבודה
+      sub:
+        - find-a-job-webinar-with-danit-raanan-ideses
+        - find-a-job-webinar-storemaven-with-keren-arazi
+        - find-a-job-webinar-with-tidhar-magriso
+        - hi-tech-career-with-michal-mironi
