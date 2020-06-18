@@ -3,10 +3,10 @@
 =indexes CodeMaven
 =tags interview
 =status show
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
-=show_related 1
+=show_related 0
 
 =abstract start
 =abstract end
@@ -19,7 +19,7 @@ and <a href="https://careersjs.com/">CareersJS</a>. If you are the reader of the
 This is going to be a live webinar in which you'll be able to ask him questions and share your LinkedIn profile to get his (public)
 feedback on how to improve it.
 
-<a class="btn btn-mini btn-success" href="https://us02web.zoom.us/webinar/register/WN_16EgKlrFRxirdr-zyJjYVQ">Register here</a>
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/webinar/register/WN_16EgKlrFRxirdr-zyJjYVQ">Register here</a>
 
 <ul>
     <li><a href="https://www.linkedin.com/in/petersergeant/">Pete Sergeant</a></li>
