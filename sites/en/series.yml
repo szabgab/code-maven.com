@@ -482,6 +482,8 @@ docker:
         - pro/docker-course-busybox
         - pro/docker-course-busybox-part-2
         - pro/docker-course-exercise-1
+	    - docker-course-docker-hub
+	    - docker-course-use-ubuntu-docker-image
 go:
   chapters:
     - title: Go
