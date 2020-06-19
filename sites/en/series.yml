@@ -482,8 +482,10 @@ docker:
         - pro/docker-course-busybox
         - pro/docker-course-busybox-part-2
         - pro/docker-course-exercise-1
-	    - pro/docker-course-docker-hub
-	    - pro/docker-course-use-ubuntu-docker-image
+    - title: Create Docker Image
+      sub:
+        - pro/docker-course-docker-hub
+        - pro/docker-course-use-ubuntu-docker-image
 go:
   chapters:
     - title: Go
