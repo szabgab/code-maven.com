@@ -495,3 +495,10 @@ jobs:
         - backend-python-developer
         - test-automation-engineer
         - devops-engineer
+job-search:
+  chapters:
+    - title: Webinars
+      sub:
+        - job-search-distantjob-leticia-naranjo
+        - job-search-pete-sergeant
+
