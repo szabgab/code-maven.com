@@ -19,6 +19,8 @@ and <a href="https://careersjs.com/">CareersJS</a>. If you are the reader of the
 This is going to be a live webinar in which you'll be able to ask him questions and share your LinkedIn profile to get his (public)
 feedback on how to improve it.
 
+It is scheduled for June 29 18:00 ILT, 15:00 UTC, 11:00 EST, 08:00 PST
+
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/webinar/register/WN_16EgKlrFRxirdr-zyJjYVQ">Register here</a>
 
 <ul>

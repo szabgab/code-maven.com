@@ -1,8 +1,8 @@
 =title Job search
-=timestamp 2020-06-10T15:30:01
+=timestamp 2020-06-19T07:30:01
 =indexes CodeMaven
 =tags interview
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
