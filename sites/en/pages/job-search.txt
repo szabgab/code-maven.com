@@ -35,6 +35,8 @@
     <li><a href="/linkedin">LinkedIn page</a></li>
 </ul>
 
+<screencast file="english-invitation-of-hr-people-to-the-webinars.mkv" youtube="LErbNwbnrxM" />
+
 <h2>Background</h2>
 
 <ul>
