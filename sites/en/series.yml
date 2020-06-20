@@ -486,6 +486,8 @@ docker:
       sub:
         - pro/docker-course-docker-hub
         - pro/docker-course-use-ubuntu-docker-image
+	    - pro/docker-course-create-image-from-container
+	    - pro/docker-course-create-image-using-dockerfile
 go:
   chapters:
     - title: Go

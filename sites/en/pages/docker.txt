@@ -34,6 +34,8 @@ The <a href="/slides/docker/">slides of the Docker course</a>.
 <ol>
     <li><a href="/pro/docker-course-docker-hub">Docker Hub</a></li>
     <li><a href="/pro/docker-course-use-ubuntu-docker-image">Use Ubuntu Docker Image</a></li>
+    <li><a href="/pro/docker-course-create-image-from-container">Create Docker image from container</a></li>
+    <li><a href="/pro/docker-course-create-image-using-dockerfile">Create Docker image using Dockerfile</a></li>
 </ol>
 
 <!--
