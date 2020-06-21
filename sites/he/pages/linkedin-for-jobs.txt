@@ -14,15 +14,36 @@
 
 אני אעשה פעם אחרת.
 
+ביניתיים כמה לינקים כאן ואני גם ממליץ לראות את הווידאוים ברשימת הדפים על
+<a href="/job-search">חיפוש עבודה בהייטק</a>
 
-<a href="https://code-maven.com/slides/linkedin/">שקפים באנגלית</a>
+וקצת הסבר:
 
-<a href="https://he.code-maven.com/linkedin">מביני קוד בלינקדין</a>
+<a href="https://www.linkedin.com/">לינקדין</a>
+היא רשת חברתית מקצעוית.
 
-<a href="https://he.code-maven.com/youtube">ערוץ יוטובה בעברית</a>
+היא מאפשרת להציג את הקורות חיים שלכם בצורה אחידה ומאפשרת לנצל (לטובה) את הקשרים האישיים שלכם לחיפוס עבודה.
 
-<a href="https://code-maven.com/youtube">ערוץ יוטובה באנגלית</a>
+ההמלצה שלי שבתור מינימום תעשו את הדברים הבאים:
+<ul>
+    <li><a href="https://www.linkedin.com/">לינקדין</a> להרשם באתר של </li>
+    <li>להוסיף כותרת שמסבירה בשורה אחת מי אתם מקצועית</li>
+    <li>להוסיף תמונה היא אופציונלית אבל מומלצת</li>
+    <li>תצרו קשר בלינקדין אם כל מי שאי-פעם הכרתם. כולל אנשים שהיו איתכם בגן. כולל אנשים שהכרתם במדינה אחרת לפני 30 שנשה. כולל אנשים מהלימודים ומי עבודות קודמות.</li>
+    <li>לרשום בהרהבה את הניסיון שלכם, גם אם כרגע זה יהיה קצר.</li>
+    <li>להוסיף מקומות עבודה קודמים אם היו</li>
+    <li>תסמנו שאתם מחפשים עבודה</li>
+    <li>יש עוד דברים אבל כרגע זה מספיק</li>
+    <li>...</li>
+</ul>
 
-<a href="https://www.linkedin.com/in/szabgab">גאבור סבו בלינקדין</a>
 
-<a href="https://www.linkedin.com/help/linkedin/topics/6042/6054/87">עריכת הכתובת של הפרופיל</a>
+
+<ul>
+    <li><a href="https://code-maven.com/slides/linkedin/">שקפים באנגלית</a></li>
+    <li><a href="https://he.code-maven.com/linkedin">מביני קוד בלינקדין</a></li>
+    <li><a href="https://he.code-maven.com/youtube">ערוץ יוטובה בעברית</a></li>
+    <li><a href="https://code-maven.com/youtube">ערוץ יוטובה באנגלית</a></li>
+    <li><a href="https://www.linkedin.com/in/szabgab">גאבור סבו בלינקדין</a></li>
+    <li><a href="https://www.linkedin.com/help/linkedin/topics/6042/6054/87">עריכת הכתובת של הפרופיל</a></li>
+</ul>
