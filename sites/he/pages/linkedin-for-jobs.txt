@@ -5,6 +5,7 @@
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
+=original linkedin-for-jobs
 =show_related 1
 
 =abstract start
