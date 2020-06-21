@@ -28,6 +28,7 @@
 
 <ul>
     <li><a href="/linkedin-connections">הקשרים שלכם בלינקדין שווים זהב</a></li>
+    <li><a href="/linkedin-for-jobs">לינקדין לחיפוש עבודה בהייטק</a></li>
 </ul>
 
 <!--
