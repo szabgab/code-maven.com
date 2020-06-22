@@ -54,6 +54,7 @@ flask:
         - how-to-print-number-with-commas-as-thousands-separator
         - flask-display-elapsed-time
         - flask-return-404
+        - python-flask-before-first-request
 handlebars:
   chapters:
     - title: Handlears
