@@ -55,6 +55,7 @@ flask:
         - flask-display-elapsed-time
         - flask-return-404
         - python-flask-before-first-request
+        - python-flask-before-every-request
 handlebars:
   chapters:
     - title: Handlears

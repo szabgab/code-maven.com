@@ -36,7 +36,8 @@ This is the collection of Flask articles on the Code Maven site.
   <li><a href="/how-to-print-number-with-commas-as-thousands-separator">How to commafy a number?</a></li>
   <li><a href="/flask-display-elapsed-time">Flask: display elapsed time</a></li>
   <li><a href="/flask-return-404">How to return a 404 error in Flask application</a></li>
-  <li><a href="/python-flask-before-first-request">Execute code once before first request</a></li>
+  <li><a href="/python-flask-before-first-request">Python Flask: Execute code once before first request</a></li>
+  <li><a href="/python-flask-before-every-request">Python Flask: Execute code before every request</a></li>
 </ul>
 
 <!--
