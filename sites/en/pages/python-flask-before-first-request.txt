@@ -9,6 +9,11 @@
 =show_related 1
 
 =abstract start
+
+Sometimes you would like to have code that will be executed once, before ant user arrives to your site, before the first
+request arrives. You could put some code in the body of your Flask application file, that code will execute
+when the application launches. Alternatively, and in many case in a cleaner way you could use the <b>before_first_request</b> hook.
+
 =abstract end
 
 <include file="examples/flask/before_first_request/app.py">
