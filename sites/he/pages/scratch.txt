@@ -20,7 +20,7 @@
 
 <ol>
     <li><a href="/scratch-1-first-steps">הצעדים הראשונים עם סקראץ</a></li>
-    <li><a href="/scratch-2-download-our-work">שמירת יצירה שלנו בסקאץ</a></li>
+    <li><a href="/scratch-2-download-our-work">שמירת יצירה שלנו בסקראץ</a></li>
     <li><a href="/scratch-3-adding-a-second-sprite">הוספת דמות שנייה בסקראץ</a></li>
     <li><a href="/scratch-4-keyboard">שימוש במקשים בסקראץ</a></li>
 </ol>
