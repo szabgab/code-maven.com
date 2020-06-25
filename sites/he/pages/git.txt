@@ -12,32 +12,32 @@
 =abstract start
 
 
-בסידרה הזאת אנחנו משתמשים בשקפי של <a href="https://code-maven.com/slides/git-intro/">מבוא לגיט</a>.
+בסדרה זו אנו משתמשים בשקפים של <a href="https://code-maven.com/slides/git-intro/">מבוא לגיט</a>.
 בנוסף לאלו יש גם <a href="https://code-maven.com/slides/git/">שקפים נוספים לגיט</a>.
 
-מומלץ גם לראות את הסידרה <a href="/collab-dev">לפיתוח שיתופי</a>.
+מומלץ גם לראות את הסדרה <a href="/collab-dev">לפיתוח שיתופי</a>.
 
 
 =abstract end
 
 <ul>
-    <li><a href="/pro/git-why-use-version-control">למה להישתמש בניהול גירסאות?</a></li>
+    <li><a href="/pro/git-why-use-version-control">למה כדאי להשתמש בניהול גירסאות?</a></li>
     <li><a href="/pro/git-download-and-install-git">הורדת והתקנת גיט</a></li>
     <li><a href="/pro/git-configuration">קונפיגורציה בסיסית של גיט</a></li>
     <li><a href="/pro/git-help-for-git">קבלת עזרה עבור גיט</a></li>
     <li><a href="/pro/git-exercise-1">תרגילים 1</a></li>
     <li><a href="/pro/git-4-ways-to-start-with-git">4 דרכים להתחיל עם גיט</a></li>
     <li><a href="/pro/git-creating-local-repository">יצירת רפוסיטורי מקומי</a></li>
-    <li><a href="/pro/git-adding-the-first-file">הוספת הקובץ הראשון</a></li>
+    <li><a href="/pro/git-adding-the-first-file">הוספת קובץ ראשון</a></li>
     <li><a href="/pro/git-untracked-and-modified">untracked and modified</a></li>
-    <li><a href="/pro/git-file-status">סטאטוס של הקבצים</a></li>
-    <li><a href="/pro/git-drop-local-changes">לטתל את השינוים האחרונים</a></li>
-    <li><a href="/pro/git-remove-from-staging-area">להוציא קבצים מה-סטאגין</a></li>
+    <li><a href="/pro/git-file-status">סטאטוס הקבצים</a></li>
+    <li><a href="/pro/git-drop-local-changes">ביטול השינוים האחרונים</a></li>
+    <li><a href="/pro/git-remove-from-staging-area">הוצאת קבצים מה-סטאגין</a></li>
 
     <li><a href="/pro/git-working-with-remote-repository">עבודה עם ראפוסיטורי (מאגר גיט) מרוחק</a></li>
-    <li><a href="/pro/git-clone-a-repository">שיבוט שלמאגר מרוחק למחשב שלך</a> (clone)</li>
+    <li><a href="/pro/git-clone-a-repository">שיבוט של מאגר מרוחק למחשב שלך</a> (clone)</li>
     <li><a href="/pro/git-fork-a-repository">הסתעפות של מאגר גיט</a>(fork a repository)</li>
     <li><a href="/pro/git-make-some-local-changes">שינוים מקומיים על המחשב שלך</a></li>
-    <li><a href="/pro/git-push-out-local-changes-to-remote-repo">לדחוף שינוים מקומיים אחוצה למאגר בענן</a> (push, pull-request)</li>
+    <li><a href="/pro/git-push-out-local-changes-to-remote-repo">דחיפת שינוים מקומיים החוצה למאגר בענן</a> (push, pull-request)</li>
     <li><a href="/pro/git-more-changes-update-pr">שינוים מקומיים נוספים. עדכון הפול-רקווסט עם השינוים החדשים</a></li>
 </ul>
