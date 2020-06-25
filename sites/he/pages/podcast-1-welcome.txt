@@ -1,4 +1,4 @@
-=title Podcast #1 - ברוכים הבאים והבאות לפודקסט של מביני קוד
+=title Podcast #1 - ברוכים הבאים והבאות לפודקאסט של מביני קוד
 =timestamp 2019-10-09T22:01:01
 =indexes podcast
 =description Welcome to the Hebrew podcast series of Code Maven
@@ -12,7 +12,7 @@
 
 =abstract start
 
-אפשר להירשם עם אפליקצי לשמיעת פודקסטים דרך הקישור הזה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
+אפשר להירשם עם אפליקציה לשמיעת פודקאסטים דרך קישור זה :<a href="/rss/podcast">RSS feed <img src="/img/feed-icon16x16.png" alt="Hebrew Code-Maven podcast RSS feed" /></a>
 
 =abstract end
 
