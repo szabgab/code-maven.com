@@ -10,33 +10,33 @@
 
 =abstract start
 
-קוד חןפשי או קוד פתןח נמצא בכל מקום. כלל אירגון משתמש באלפי פרויקטי קוד פתוח. לכן חשוב לדעעת איך אפשר לתרום שינוים
+קוד חופשי או קוד פתוח נמצא בכל מקום. כולל אירגון משתמש באלפי פרויקטי קוד פתוח. לכן חשוב לדעת איך אפשר לתרום בעשיית שינוים
 לפרוייקטים כאלה.
 
-הסידרה הזאת בנויה כך שבחלק הראשון אנחנו לומדים את הטכניקה שמאפשרת לכולם, גם ללא רקע תיכנותי לתרוםם שינוים. החל מתיקוני
-שגיאות כתיב , עזרה בעיצוב וכל דבר אחר שדורש ידע בתכומם שונים.
+סדרה זו בנויה כך שבחלק הראשון אנו לומדים את הטכניקה שמאפשרת לכולם, גם ללא רקע תכנותי, לתרום בעשיית שינויים. החל מתיקוני
+שגיאות כתיב , עזרה בעיצוב וכל דבר אחר שדורש ידע בתחומים שונים.
 
-בחלק השני אנחנו מתבססים כבר על הידע <a href="/git">בגיט</a> וגם על יכולות תיכנותיות אבל גם שם אנחנו דואגים שנאפשר השתתפות גם לאנשים שרק
-מתחילים בעולם התיכנות.
+בחלק השני אנחנו מתבססים כבר על הידע <a href="/git">בגיט</a> וגם על יכולות תכנותיות אבל גם שם אנחנו דואגים שנאפשר השתתפות גם לאנשים שרק
+מתחילים בעולם התכנות.
 
-<a href="https://code-maven.com/slides/collab-dev/">השקפים</a> שעליהם הסידרה הזאת מבוססת.
+<a href="https://code-maven.com/slides/collab-dev/">השקפים</a> שעליהם סדרה זו מבוססת.
 
 =abstract end
 
 <ul>
-    <li><a href="/collab-dev-open-source-contribution-who-and-why">תרומה לקוד פתוח. למימתאימה הסידרה הזאת ולמה בככל
+    <li><a href="/collab-dev-open-source-contribution-who-and-why">תרומה לקוד פתוח. למי מתאימה סדרה זו ולמה בכלל
 לטרוח?</a> (Open Source Contribution: for whom and why)</li>
-    <li><a href="/collab-dev-stack">הכילים וטכנולוגיות שישמשו אותנו בתהליך הזה</a> (The Collab-dev stack)</li>
-    <li><a href="/collab-dev-register-on-github">הרשמה באתר של גוטהוב</a> (Register on GitHub)</li>
+    <li><a href="/collab-dev-stack">הכלים וטכנולוגיות שישמשו אותנו בתהליך הזה</a> (The Collab-dev stack)</li>
+    <li><a href="/collab-dev-register-on-github">הרשמה באתר של גיטהאב</a> (Register on GitHub)</li>
     <li><a href="/collab-dev-hacktoberfest">הקטוברפסט</a> (Hacktoberfest)</li>
-    <li><a href="/collab-dev-github-onsite-editing-drawing">הסבר גרפי על עריכת קבצים באתר של גיטהוב ללא צורך בהתקנות</a> (GitHub Onsite editing explained)</li>
-    <li><a href="/collab-dev-edit-the-readme-file">מטלה: עריכת קובץ רדמה והוספת קובץ חדש. הכל באתר של גיטהוב</a> (Task: Edit README file, add a new file)</li>
+    <li><a href="/collab-dev-github-onsite-editing-drawing">הסבר גרפי על עריכת קבצים באתר של גיטהאב ללא צורך בהתקנות</a> (GitHub Onsite editing explained)</li>
+    <li><a href="/collab-dev-edit-the-readme-file">מטלה: עריכת קובץ רדמה והוספת קובץ חדש. הכל באתר של גיטהאב</a> (Task: Edit README file, add a new file)</li>
     <li><a href="/pro/collab-dev-edit-csv-file">מטלה: עריכת קובץ עם שדות מופרדים עם פסיק. אינטגרציה רציפה עם טרביס</a>
 (Task: Edit CSV file, Continuous Integration with Travis-CI)</li>
-    <li><a href="/pro/collab-dev-github-offsite-editing-drawing">עריכת קבצים מחוץ לגיטהוב על המחש שלכם</a> (GitHub Offsite editing.)</li>
+    <li><a href="/pro/collab-dev-github-offsite-editing-drawing">עריכת קבצים מחוץ לגיטהאב על המחשב שלכם</a> (GitHub Offsite editing.)</li>
     <li><a href="/pro/collab-dev-git">גיט</a> (Git)</li>
-    <li><a href="/pro/collab-dev-edit-json-file">מטלה: עריכת קובץ ישון</a> (Task: Edit JSON file)</li>
-    <li><a href="/pro/collab-dev-update-code-maven-site">מטלה: עזרה בשיפור התוכן באר הז, האתר של מביני קוד.</a> (Task: Update Code-Maven site)</li>
+    <li><a href="/pro/collab-dev-edit-json-file">מטלה: עריכת קובץ ישן</a> (Task: Edit JSON file)</li>
+    <li><a href="/pro/collab-dev-update-code-maven-site">מטלה: עזרה בשיפור התוכן באתר זה - האתר של מביני קוד.</a> (Task: Update Code-Maven site)</li>
     <li><a href="/pro/collab-dev-code-and-talk">Task: Code and Talk</a></li>
     <li><a href="/pro/collab-dev-awesome-for-beginners">Task: Awesome for beginners</a></li>
     <li><a href="/pro/collab-dev-pydigger">Task: PyDigger</a></li>
