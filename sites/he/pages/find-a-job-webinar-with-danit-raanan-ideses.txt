@@ -21,8 +21,8 @@
 
 <ul>
    <li><a href="https://www.linkedin.com/in/szabgab/">Gábor Szabó @ Code-Maven</a></li>
-   <li><a href="/linkedin">דף לינקדין של מביני קוד</a></li>
-   <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+   <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+   <li><a href="/youtube">ערוץ יוטיוב של מביני קוד</a></li>
    <li><a href="https://code-maven.com/linkedin">Code Maven on LinkedIn (English only)</a></li>
    <li><a href="https://code-maven.com/youtube">Code Maven on YouTube (English only)</a></li>
 </ul>
