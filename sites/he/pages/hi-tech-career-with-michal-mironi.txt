@@ -11,8 +11,8 @@
 =abstract start
 =abstract end
 
+<screencast file="hebrew-webinar-with-michal-mironi.mp4" youtube="vWc4_dZeftU" />
 
-<h2><a href="https://www.meetup.com/Code-Mavens/events/271224402/">הרשמה</a></h2>
 
 <ul>
     <li><a href="https://www.linkedin.com/in/michal-mironi/">מיכל מירוני</a></li>

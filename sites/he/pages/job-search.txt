@@ -13,12 +13,12 @@
 <h2>הובינר הבא</h2>
 
 <ul>
-    <li>2020.06.25 <a href="/hi-tech-career-with-michal-mironi"> שיחה עם מיכל מירוני מנטורית קריירה בהייטק</a></li>
 </ul>
 
 <h2>ראיונות</h2>
 
 <ul>
+    <li>2020.06.25 <a href="/hi-tech-career-with-michal-mironi"> שיחה עם מיכל מירוני מנטורית קריירה בהייטק</a></li>
     <li>2020.06.17 <a href="/find-a-job-webinar-with-tidhar-magriso"> חיפוש עבודה בהייטק - שיחה עם תדהר מגריזו מנהלת גיוס בחברת Localize.city</a></li>
     <li>2020.06.09 <a href="/find-a-job-webinar-storemaven-with-keren-arazi"> חיפוש עבודה בהייטק - עם קרן ארזי מנהלת משאבי אנוש של StoreMaven</a></li>
     <li>2020.06.03 <a href="/find-a-job-webinar-with-danit-raanan-ideses"> איך למצוא עבודה בהיי-טק - נקודת מבט של דנית רענן אידסס, מנהלת משאבי אנוש</a></li>
