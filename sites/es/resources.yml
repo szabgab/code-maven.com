@@ -8,4 +8,7 @@ menu:
       - title: Archivo
         url: /archive
       - atom: 1
+text:
+  recent_articles: Ultimas páginas
+  related_articles: Otras páginas
 
