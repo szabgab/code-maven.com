@@ -57,6 +57,7 @@ flask:
         - python-flask-before-first-request
         - python-flask-before-every-request
         - python-flask-after-request
+        - python-flask-catch-exception
 handlebars:
   chapters:
     - title: Handlears
