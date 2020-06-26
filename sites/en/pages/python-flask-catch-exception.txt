@@ -87,3 +87,8 @@ is to set up separate exception handler hooks for each exception type you'd like
 
 <include file="examples/flask/catch_specific_exception/app.py">
 
+<h2>Logging the Exception</h2>
+
+In the above examples we keept using the <hl>app.logger.exception(err)</hl> expression to log
+the exception and the stack trace. If you are not interested in the stack-trace you can use
+the <b>error</b> logging method: <hl>app.logger.error(err)</hl>.
