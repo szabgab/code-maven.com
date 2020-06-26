@@ -1,4 +1,4 @@
-=title Flask
+=title Flask Tutorial
 =timestamp 2015-02-06T11:50:01
 =indexes Flask
 =status show
