@@ -40,6 +40,7 @@ This is the collection of Flask articles on the Code Maven site.
   <li><a href="/python-flask-before-every-request">Python Flask: Execute code before every request</a></li>
   <li><a href="/python-flask-after-request">Python Flask: Execute code after every request</a></li>
   <li><a href="/python-flask-catch-exception">Python Flask: Catch exception</a></li>
+  <li><a href="/python-flask-logging">Python Flask: Logging</a></li>
 
 </ul>
 
