@@ -1,6 +1,6 @@
 =title Python Flask: catch and handle exceptions in routes using errorhandler
 =timestamp 2020-06-26T10:30:01
-=indexes Flask, Exception, errorhandler
+=indexes Flask, Exception, errorhandler, ZeroDivisionError
 =status show
 =books flask
 =author szabgab
@@ -76,4 +76,14 @@ The user only sees the word "exception".
 Of course insted of returning that word, we could have used <b>render_template</b> to
 render any page. The status code returned by the page will be 500 as indicated by the
 second value returned.
+
+
+<h2>Catching specific exceptions</h2>
+
+In the above examples we use the catch-all <b>Exception</b> class, but you can be more specific
+about the exceptions and you can return different pages based on the error type.
+You could do this by checking the <b>type</b> of the <b>err</b> variable, but a probably cleaner way
+is to set up separate exception handler hooks for each exception type you'd like to deal with:
+
+<include file="examples/flask/catch_specific_exception/app.py">
 
