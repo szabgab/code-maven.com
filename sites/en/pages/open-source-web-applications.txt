@@ -1,4 +1,4 @@
-=title Live web site with editable Open Source source code
+=title Open Source Web application frameworks
 =timestamp 2020-06-27T09:30:01
 =indexes Open Source, web
 =status show
@@ -9,73 +9,19 @@
 
 =abstract start
 
-I strongly believe that one of the best ways to gain experience in hi-tech - even without already working in the field -
-is to particpate in Open Source projects. There are project in almost every field and you can practice almost every
-type of job in these projects. Not only programmer, but QA, tester, documentation writer, designer, project manager,
-support person etc.
-
-I have already created a list of <a href="/open-source-desktop-applications">Open Source Desktop applications</a>
-so this time let's see the Open Source web applications.
+See also: <a href="/live-web-site-with-editable-open-source-code">Live web sites with Open Source code</a>.
+<a href="/ready-made-downloadable-and-deployable-open-source-web-applications">Ready-made downloadable and deployable Open Source web applications</a>.
 
 =abstract end
 
-I think we need to differntiate two large groups of applications. Maybe even 3.
-
 <ul>
-   <li>Open Source Web application frameworks</li>
-   <li>Ready-made downloadable and deployable Open Source web applications</li>
-   <li>Live web sites with Open Source code</li>
+   <li>Django in Python</li>
+   <li>Flask in Python</li>
+   <li>Express in NodeJS</li>
+   <li>Sinatra</li>
+   <li>Perl Dancer</li>
+   <li>Mojolicious</li>
+   <li><a href="https://blog.getpelican.com/">Pelican</a></li>
+   <li>Jekyll</li>
+   <li><a href="https://gohugo.io/">Hugo</a></li>
 </ul>
-
-<h2>Open Source Web application frameworks</h2>
-
-For example Django, Flask in Python. Express in NodeJS etc.
-
-<h2>Ready-made downloadable and deployable Open Source web applications</h2>
-
-Wordpress
-
-Maybe <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_web_applications">this list</a> can help.
-
-<h2>Live web sites and web applications with editable source code</h2>
-
-What I mean here is that the source of the web site is available on some public version control system so anyone can contribute to it.
-It does not necessarily need to be reusable. In many cases the web sites are very specific and thus their source code is really only
-relevant for them, but if it is accessible to anyone then we can learn from it and we might even contribute back to it.
-
-In general I think for every Open Source project, if they have a web site, it is usually like this. They are however usually not that
-interesting as those sites are static.
-
-Many projects have their site hosted on GitHub pages. The source code of GitHub pages itself is not available, but the way the content
-is generated might be.
-
-<ul>
-    <li><a href="https://pyvideo.org/">PyVideo</a> is a static web site hosted on GitHub pages with a small portion, the search engine, hosted elsewhere. It is written in Python using the <a href="https://blog.getpelican.com/">Pelican
-static site generator</a> The source of both code and data are available on <a href="https://github.com/pyvideo/">GitHub</a>.</li>
-    <li><a href="https://mattermost.com/">Mattermost</a> a chat system like Slack.</li>
-    <li><a href="https://www.reddit.com/">Reddit</a> <a href="https://github.com/reddit">source</a></li>
-    <li><a href="https://www.wikipedia.org/">Wikipedia</a> - PHP - Runs on <a href="https://www.mediawiki.org/">MediaWiki</a></li>
-    <li><a href="https://libre.fm/">Libre.fm</a> for <a href="https://gnu.io/fm/">developers</a></li>
-    <li><a href="https://readthedocs.org/"></a> has a page for <a href="https://docs.readthedocs.io/en/stable/contribute.html">contributors</a></li>
-    <li><a href="https://metacpan.org/">MetaCPAN</a> - Perl, ElasticSearch - <a href="https://github.com/metacpan">source on GitHub</a></li>
-    <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a> <a href="https://github.com/freeCodeCamp/">GitHub</a></li>
-    <li><a href="https://exercism.io/">Exercism</a> <a href="https://github.com/exercism">GitHub</a></li>
-    <li><a href="https://sqitch.org/">Sqitch</a> has a static site hosted on GitHub pages and genrated using <a href="https://gohugo.io/">Hugo</a>. <a href="https://sqitch.org/site/">source</a></li>
-</ul>
-
-
-<h3>My web sites</h3>
-
-I know they are not as important for the world as they are to mee, but then again, I can provide more help in case you decide you'd
-like to contribute.
-
-<ul>
-    <li>The <a href="/">Code Maven</a> site itself is open source <a href="https://github.com/szabgab/Perl-Maven">Perl-Maven</a>. It is written in Perl.</li>
-    <li>The free content of the web site is also available so you can help fixing typos and other errors: <a href="https://github.com/szabgab/code-maven.com/">content of code-maven.org</a></li>
-    <li><a href="https://pydigger.com/">PyDigger</a> with <a href="https://github.com/szabgab/pydigger.com/">source</a></li>
-</ul>
-
-<!--
-    <li><a href=""></a> <a href=""></a></li>
--->
-

@@ -1,0 +1,31 @@
+=title Ready-made downloadable and deployable Open Source web applications
+=timestamp 2020-06-27T13:30:01
+=indexes Open Source, web
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+
+Contribution to Open Source web application is an excellent way to learn about technology.
+
+See also: <a href="/live-web-site-with-editable-open-source-code">Live web sites with Open Source code</a>.
+
+=abstract end
+
+<ul>
+   <li><a href="https://wordpress.org/">Wordpress</a>  written in PHP</li>
+   <li><a href="https://www.mediawiki.org/">MediaWiki</a></li>
+   <li><a href="https://mattermost.com/">Mattermost</a></li>
+   <li><a href="https://tt-rss.org/">Tiny RSS</a></li>
+   <li><a href="https://bitwarden.com/">Bitwarden</a></li>
+</ul>
+
+Maybe <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_web_applications">this list</a> can help.
+
+
+<!--
+   <li><a href=""></a></li>
+-->
