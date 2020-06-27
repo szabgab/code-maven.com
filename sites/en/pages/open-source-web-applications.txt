@@ -43,6 +43,7 @@ Maybe <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_web_ap
     <li><a href="https://pyvideo.org/">PyVideo</a> <a href="https://github.com/pyvideo/">source</a></li>
     <li><a href="https://www.wikipedia.org/">Wikipedia</a> runs on <a href="https://www.mediawiki.org/">MediaWiki</a></li>
     <li><a href="https://libre.fm/">Libre.fm</a> for <a href="https://gnu.io/fm/">developers</a></li>
+    <li><a href="https://readthedocs.org/"></a> has a page for <a href="https://docs.readthedocs.io/en/stable/contribute.html">contributors</a></li>
 </ul>
 
 
