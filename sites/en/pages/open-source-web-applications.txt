@@ -1,0 +1,59 @@
+=title Open Source web applications
+=timestamp 2020-06-27T09:30:01
+=indexes Open Source, web
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+I strongly believe that one of the best ways to gain experience in hi-tech - even without already working in the field -
+is to particpate in Open Source projects. There are project in almost every field and you can practice almost every
+type of job in these projects. Not only programmer, but QA, tester, documentation writer, designer, project manager,
+support person etc.
+
+I have already created a list of <a href="/open-source-desktop-applications">Open Source Desktop applications</a>
+so this time let's see the Open Source web applications.
+
+=abstract end
+
+I think we need to differntiate two large groups of applications. Maybe even 3.
+
+<ul>
+   <li>Open Source Web application frameworks</li>
+   <li>Ready-made downloadable and deployable Open Source web applications</li>
+   <li>Live web applications with Open Source code</li>
+</ul>
+
+<h2>Open Source Web application frameworks</h2>
+
+For example Django, Flask in Python. Express in NodeJS etc.
+
+<h2>Ready-made downloadable and deployable Open Source web applications</h2>
+
+Wordpress
+
+Maybe <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_web_applications">this list</a> can help.
+
+<ul>
+    <li><a href="https://mattermost.com/">Mattermost</a> a chat system like Slack.</li>
+    <li><a href="https://www.reddit.com/">Reddit</a> <a href="https://github.com/reddit">source</a></li>
+    <li><a href="https://pyvideo.org/">PyVideo</a> <a href="https://github.com/pyvideo/">source</a></li>
+    <li><a href="https://www.wikipedia.org/">Wikipedia</a> runs on <a href="https://www.mediawiki.org/">MediaWiki</a></li>
+    <li><a href="https://libre.fm/">Libre.fm</a> for <a href="https://gnu.io/fm/">developers</a></li>
+</ul>
+
+
+<h3>My web sites</h3>
+
+<ul>
+    <li>The <a href="/">Code Maven</a> site itself is open source <a href="https://github.com/szabgab/Perl-Maven"></a></li>
+    <li><a href="https://pydigger.com/">PyDigger</a> with <a href="https://github.com/szabgab/pydigger.com/">source</a></li>
+</ul>
+
+<!--
+    <li><a href=""></a> <a href=""></a></li>
+-->
+
