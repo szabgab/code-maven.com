@@ -45,6 +45,8 @@ is generated might be.
     <li><a href="https://exercism.io/">Exercism</a> <a href="https://github.com/exercism">GitHub</a></li>
     <li><a href="https://sqitch.org/">Sqitch</a> has a static site hosted on GitHub pages and genrated using <a href="https://gohugo.io/">Hugo</a>. <a href="https://sqitch.org/site/">source</a></li>
     <li><a href="https://perlweeklychallenge.org/">Perl Weekly Challenge</a> source on <a href="https://github.com/manwar/perlweeklychallenge">GitHub</a></li>
+    <li><a href="https://www.rexify.org/">Rexify</a> the web site is powered by <a href="http://preaction.me/statocles/">Statocles</a>, and continuously integrated and deployed to GitHub Pages thanks using TravisCI. Source is publicly
+available at <a href="https://github.com/RexOps/rexify-website">rexify-website</a> including both code and content.</li>
 </ul>
 
 
