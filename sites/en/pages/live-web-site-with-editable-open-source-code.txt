@@ -39,7 +39,8 @@ is generated might be.
     <li><a href="https://www.reddit.com/">Reddit</a> <a href="https://github.com/reddit">source</a></li>
     <li><a href="https://www.wikipedia.org/">Wikipedia</a> - PHP - Runs on <a href="https://www.mediawiki.org/">MediaWiki</a></li>
     <li><a href="https://libre.fm/">Libre.fm</a> for <a href="https://gnu.io/fm/">developers</a></li>
-    <li><a href="https://readthedocs.org/"></a> has a page for <a href="https://docs.readthedocs.io/en/stable/contribute.html">contributors</a></li>
+    <li><a href="https://readthedocs.org/">Read The Docs</a> is the site where you can read the documentation of most of the Python packages you are going to use. It has a page for <a
+href="https://docs.readthedocs.io/page/contribute.html">contributors</a> whre you can find the instructions how to get involved. It is using <a href="https://www.sphinx-doc.org/">Sphinx</a>, Python, JavaScript, HTML, CSS, and it is hosted on <a href="https://azure.microsoft.com/">Microsoft Azure</a></li>
     <li><a href="https://metacpan.org/">MetaCPAN</a> - Perl, ElasticSearch - <a href="https://github.com/metacpan">source on GitHub</a></li>
     <li><a href="https://www.freecodecamp.org/">FreeCodeCamp</a> <a href="https://github.com/freeCodeCamp/">GitHub</a></li>
     <li><a href="https://exercism.io/">Exercism</a> <a href="https://github.com/exercism">GitHub</a></li>
