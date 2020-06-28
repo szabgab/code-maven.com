@@ -66,3 +66,10 @@ Partially taken from <a href="https://digital.com/blog/open-source-business/">th
 
 <img src="/img/open-source-desktop-applications.png">
 
+
+<h2>Other</h2>
+
+<a href="https://code.visualstudio.com/">Visual Studio Code</a> is the Open Source IDE created in Microsoft. It is written in NodeJS and its source code is available on
+<a href="https://github.com/Microsoft/vscode/">GitHub</a>.
+
+<a href="https://www.freecadweb.org/">FreeCAD</a> is a 3d parametric modeler It is using a lot of C++ and Python and some other technologies. Source code is available on <a href="https://github.com/FreeCAD/FreeCAD">GitHub</a>
