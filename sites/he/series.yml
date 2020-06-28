@@ -61,7 +61,7 @@ windows:
     - title: סבבת תיכנות במערכת חלונות
       sub:
         - windows-cmd-configuration
-        - pro/windows-cmd-directories-1
+        - windows-cmd-directories-1
         - pro/windows-cmd-directories-2
 python:
   chapters:
