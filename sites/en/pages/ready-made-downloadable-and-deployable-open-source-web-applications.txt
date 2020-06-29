@@ -23,6 +23,7 @@ See also: <a href="/live-web-site-with-editable-open-source-code">Live web sites
    <li><a href="https://bitwarden.com/">Bitwarden</a></li>
    <li><a href="https://www.redmine.org/">Redmine</a> is a web-based project management application. It is written using the Ruby on Rails framework, it is cross-platform and cross-database. The only big drawback for contribution is that they are still using Subversion for version control.</li>
    <li><a href="https://www.jenkins.io/">Jenkins</a> is a web-based automation system often used to set up CI/CD pipelines. It is one of the commonly used systems in case you need an on-premise solution or for some other reason you cannot use the cloud-based CI services. It is written in Java and they have a page on how to <a href="https://www.jenkins.io/participate/">participate</a>.</li>
+   <li><a href="http://intramine.info/">IntraMine</a> indexer and search tool for all the files you have in your organization. Written in Perl. Source on <a href="https://github.com/KLB7/IntraMine">GitHub</a></li>
 </ul>
 
 Maybe <a href="https://en.wikipedia.org/wiki/List_of_free_and_open-source_web_applications">this list</a> can help.
