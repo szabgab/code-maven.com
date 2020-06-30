@@ -13,12 +13,13 @@
 
 <h2>Next event</h2>
 <ul>
-    <li><a href="/job-search-pete-sergeant">2020.06.29 Job search - Pete Sergeant (aka. Perl Careers and CareersJS)</a></li>
+    <li>TBA</a>
 </ul>
 
 
 <h2>Past events</h2>
 <ul>
+    <li><a href="/job-search-pete-sergeant">2020.06.29 Job search - Pete Sergeant (aka. Perl Careers and CareersJS)</a></li>
     <li><a href="/job-search-distantjob-leticia-naranjo">2020.06.16 Job search - Distantjob with Leticia Naranjo</a></li>
 </ul>
 
