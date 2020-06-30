@@ -5,6 +5,7 @@
 =author 0
 =archive 1
 =comments_disqus_enable 0
+=original job-search
 =show_related 0
 
 =abstract start
