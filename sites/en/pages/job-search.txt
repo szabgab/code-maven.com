@@ -16,6 +16,15 @@
     <li>TBA</a>
 </ul>
 
+<!--
+This is going to be a live webinar in which you'll be able to ask questions and share your LinkedIn profile to get (public)
+feedback on how to improve it.
+
+It is scheduled for June 29 18:00 ILT, 15:00 UTC, 11:00 EST, 08:00 PST
+
+<a class="btn btn-lg btn-success" href="">Register here</a>
+-->
+
 
 <h2>Past events</h2>
 <ul>

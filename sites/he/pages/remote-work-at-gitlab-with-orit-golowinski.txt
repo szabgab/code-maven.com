@@ -11,8 +11,7 @@
 =abstract start
 =abstract end
 
-<h2><a href="https://www.meetup.com/Code-Mavens/events/271598348/">הרשמה</a></h2>
-
+<a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/271598348/">הרשמה כאן</a>
 
 
 <ul>
