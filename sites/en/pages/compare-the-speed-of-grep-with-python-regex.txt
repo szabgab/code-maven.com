@@ -161,3 +161,7 @@ The results are consistent with what I saw during my work, but I wonder what wou
 
 Or I made a mistake somewhere that impacts the results.
 
+Oh and one more thing, I also create a <a href="https://perlmaven.com/">Perl</a> version of the code and
+<a href="https://perlmaven.com/compare-the-speed-of-perl-and-python-regex">Perl is much faster than Python</a>
+even though it is also slower than the <b>grep</b> code.
+
