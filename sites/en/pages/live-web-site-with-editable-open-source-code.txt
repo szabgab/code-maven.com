@@ -49,6 +49,9 @@ ElasticSearch. It's source is on <a href="https://github.com/metacpan">GitHub</a
     <li><a href="https://perlweeklychallenge.org/">Perl Weekly Challenge</a> source on <a href="https://github.com/manwar/perlweeklychallenge">GitHub</a></li>
     <li><a href="https://www.rexify.org/">Rexify</a> the web site is powered by <a href="http://preaction.me/statocles/">Statocles</a>, and continuously integrated and deployed to GitHub Pages thanks using TravisCI. Source is publicly
 available at <a href="https://github.com/RexOps/rexify-website">rexify-website</a> including both code and content.</li>
+    <li><a href="https://curl.trillworks.com/">The curl converter</a> can convert any <a href="https://curl.haxx.se/">curl</a> command to a number of programming languages. I see Python, Ansible URI, MATLAB, Node.js, R, PHP, Strest, Go,
+Dart, JSON, Elixir, Rust in the list. On could fix the bugs or start the converter to a new language. Source is on <a href="https://github.com/NickCarneiro/curlconverter">GitHub</a>. The Code is written in JavaScript, and the tests cases
+are written in the respective languages.</li>
 </ul>
 
 
