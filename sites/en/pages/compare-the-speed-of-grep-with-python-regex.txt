@@ -1,5 +1,5 @@
 =title Compare the speed of grep with Python regexes
-=timestamp 2020-01-01T08:30:01
+=timestamp 2020-07-01T08:30:01
 =indexes grep, Python, re, time
 =status show
 =author szabgab
