@@ -106,4 +106,15 @@ learning to Linux. You can use VirtualBox to run Linux on top of your Windows sy
 
 Once you are familiar with the above you can start learning Docker.
 
+<h2>Open Source Projects</h2>
+
+<ul>
+    <li><a href="/ready-made-downloadable-and-deployable-open-source-web-applications">Ready-made downloadable and deployable Open Source web applications</a></li>
+    <li><a href="/live-web-site-with-editable-open-source-code">Live web sites with editable Open Source source code</a></li>
+    <li><a href="/open-source-web-applications">Open Source Web application frameworks</a></li>
+    <li><a href="/open-source-desktop-applications">Open Source Desktop Applications</a></li>
+    <li><a href="/python-pydigger-add-the-author-field">Python: Pydigger add author field to a PyPI package</a></li>
+</ul>
+
+
 
