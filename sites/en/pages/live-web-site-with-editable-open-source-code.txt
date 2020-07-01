@@ -61,8 +61,8 @@ I know they are not as important for the world as they are to mee, but then agai
 like to contribute.
 
 <ul>
-    <li>The <a href="/">Code Maven</a> site itself is open source <a href="https://github.com/szabgab/Perl-Maven">Perl-Maven</a>. It is written in Perl.</li>
-    <li>The free content of the web site is also available so you can help fixing typos and other errors: <a href="https://github.com/szabgab/code-maven.com/">content of code-maven.org</a></li>
+    <li>The <a href="/">Code Maven</a> site itself and the <a href="https://perlmaven.com/">Perl Maven</a> site use the same open source code <a href="https://github.com/szabgab/Perl-Maven">written in Perl</a>.</li>
+    <li>The content of both sites is also on GitHub: <a href="https://github.com/szabgab/code-maven.com/">source of Code Maven</a> and <a href="https://github.com/szabgab/perlmaven.com/">source of Perl Maven</a>. You can help fixing typos and other errors.</li>
     <li><a href="https://pydigger.com/">PyDigger</a> with <a href="https://github.com/szabgab/pydigger.com/">source</a></li>
 </ul>
 
