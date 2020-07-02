@@ -1,6 +1,6 @@
 =title Job search
 =timestamp 2020-06-19T07:30:01
-=indexes CodeMaven
+=indexes jobs
 =tags interview
 =status show
 =author 0
@@ -9,6 +9,15 @@
 =show_related 0
 
 =abstract start
+
+Job-search is not easy, especially now with the Corona-virus. In this webinar series I am trying to help you by showing you
+the point of view of the recruiters, HR, head-hunters, and in general the side of the companies doing the hiring.
+
+I think if you can see their side of the hiring-table, then you can improve your chances to get a job. You'll know how to
+improve your LinkedIn page and how you use LinkedIn. How to improve your CV, your searching strategy etc.
+
+You'll also hear about the hiring process of each company and what are they really looking for in a new employee.
+
 =abstract end
 
 <h2>Next event</h2>
@@ -54,7 +63,7 @@ It is scheduled for June 29 18:00 ILT, 15:00 UTC, 11:00 EST, 08:00 PST
     <li>I schedule the webinar to be 1 hour long but we can stop any time earlier and we can also stay on the webinar a bit longer if necessary.</li>
 </ul>
 
-<h2>Some of my questions</h2>
+<h2>Some of my questions / topic for discussion</h2>
 
 Some of the questions I thought that might be relevant for the webinar.
 
@@ -77,7 +86,7 @@ Take them as the general directions and add your point of view!
     <li>Alternatively: If you could go back 2-5 years what would you have suggested I do so you would want to hire me for one of your open positions?</li>
     <li>Show us how you search and what you think during your search. You can bring an existing open position you are looking for, a past one, or a made up one and then show us your process.</li>
     <li>What do you think about gaps in employment? How would you represent them on your LinkedIn profile and in your CV?</li>
-    <li>Do you ask people about their salary expectation? When I am asked about my salary expectaion what shall I say?</li>
+    <li>Do you ask people about their salary expectation? When I am asked about my salary expectation what shall I say?</li>
 </ul>
 
 <ul>
