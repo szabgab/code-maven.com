@@ -1,14 +1,34 @@
 =title Groovy: remove spaces from a string
 =timestamp 2018-10-30T09:30:01
-=indexes replaceAll
+=indexes replaceAll, ~//, trim
 =status show
 =books groovy
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=description Using a regular expression in Groovy to remove all the spaces from a string.
+=comments_disqus_enable 0
 
 =abstract start
+
+Remove all the spaces from a string. It is like trim, trim-left, and trim-right together.
+
 =abstract end
 
 <include file="examples/groovy/remove_spaces.gvy">
+
+<code>
+$ groovy remove_spaces.gvy
+
+' hello world '
+'helloworld'
+</code>
+
+
+<h2>Without the need to doubl-escape using ~//</h2>
+
+<include file="examples/groovy/remove_spaces_no_escape.gvy">
+
+<code>
+groovy remove_spaces_no_escape.gvy
+</code>
 
