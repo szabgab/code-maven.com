@@ -1,11 +1,12 @@
 =title On-load counter with JavaScript and local storage
 =timestamp 2015-03-28T09:20:01
-=indexes localStorage, getElementById
+=indexes localStorage, getItem, setItem, removeItem, getElementById, addEventListener innerHTML
 =status show
 =books javascript
 =author szabgab
+=description Simple Vanilla JavaScript example useing localStorage, getItem, setItem, getElementById, addEventListener, innerHTML to create a counter.
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
