@@ -1,0 +1,17 @@
+=title Jenkins pipeline: parallel stages
+=timestamp 2020-07-03T12:30:01
+=indexes Jenkins, parallel
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<h2>Parallel stages</h2>
+
+<include file="examples/jenkins/parallel.Jenkinsfile">
+

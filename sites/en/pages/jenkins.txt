@@ -25,13 +25,13 @@
     <li><a href="/jenkins-pipeline-environment-variables">Jenkins Pipeline - set and use environment variables</a></li>
     <li><a href="/jenkins-git-check-out-using-reference">Jenkins Pipeline: git checkout using reference to speed up cloning large repositories</a></li>
     <li><a href="/jenkins-report-failed-stage-name">Jenkins report the name of the stage that failed</a> (STAGE_NAME)</li>
-    <li><a href="/jenkins-triggers">Jenkins triggers</a> (pollSCM)</li>
+    <li><a href="/jenkins-triggers">Jenkins Pipeline: triggers from Version Control Systems</a> (pollSCM)</li>
     <li><a href="/jenkins-pipeline-set-job-name-and-description">How to set the job number and description for a Jenkinsfile in a Jenkins Pipeline?</a> (currentBuild, displayName, description)</li>
-    <li><a href="/jenkins-readfile-writefile">Jenkins readFile, writeFile</a></li>
+    <li><a href="/jenkins-readfile-writefile">Jenkins Pipeline: read a file, write a file - readFile, writeFile</a></li>
     <li><a href="/jenkins-separate-jobs-for-development-and-production">Separate jobs for development and production</a> currentBuild, projectName</li>
     <li><a href="/jenkins-get-current-user">Jenkins pipeline: get current user</a> (currentBuild, getBuildCauses)</li>
     <li><a href="/jenkins-arbitrary-code-execution">Arbitrary code execution in the shell</a> (sh, parameters)</li>
-    <li>Triggers from Version Control Systems</li>
+    <li><a href="/jenkins-pipeline-parallel-stages">Jenkins pipeline: parallel stages</a></li>
     <li>Report failures.</li>
     <li>Send alerts</li>
     <li>Collect test coverage data.</li>
@@ -374,10 +374,6 @@ Error sending to the following VALID addresses
 
 <include file="examples/jenkins/variables.Jenkinsfile">
 
-
-<h2>Parallel stages</h2>
-
-<include file="examples/jenkins/parallel.Jenkinsfile">
 
 <h2>Skip steps</h2>
 

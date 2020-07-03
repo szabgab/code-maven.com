@@ -428,6 +428,7 @@ jenkins:
         - jenkins-separate-jobs-for-development-and-production
         - jenkins-get-current-user
         - jenkins-arbitrary-code-execution
+        - jenkins-pipeline-parallel-stages
 shell:
   chapters:
     - title: Shell
