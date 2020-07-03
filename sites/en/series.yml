@@ -431,6 +431,7 @@ jenkins:
         - jenkins-pipeline-parallel-stages
         - jenkins-pipeline-collect-exit-code-from-external-commands
         - jenkins-pipeline-get-previous-build-status
+        - jenkins-pipeline-interactive-input-during-process
 shell:
   chapters:
     - title: Shell

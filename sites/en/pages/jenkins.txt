@@ -34,6 +34,7 @@
     <li><a href="/jenkins-pipeline-parallel-stages">Jenkins pipeline: parallel stages</a></li>
     <li><a href="/jenkins-pipeline-collect-exit-code-from-external-commands">Jenkins Pipeline: Collect exit code from external commands</a> (sh, bat, returnStatus)</li>
     <li><a href="/jenkins-pipeline-get-previous-build-status">Jenkins pipeline: Get previous build status - currentBuild, getPreviousBuild</a></li>
+    <li><a href="/jenkins-pipeline-interactive-input-during-process">Jenkins pipeline: interactive input during process</a> (input)</li>
     <li>Report failures.</li>
     <li>Send alerts</li>
     <li>Collect test coverage data.</li>
@@ -155,63 +156,6 @@ report("text")
 <code>
 sh 'printenv'
 sh 'env'
-</code>
-
-<h2>Input during the process</h2>
-
-<code>
-pipeline {
-   agent { label 'master' }
-   stages {
-       stage('build') {
-           steps {
-               echo "Hello World!"
-               //input("Continue?")
-               echo "OK"
-               //input(
-               //    message: 'Was this successful?', parameters: [
-               //   [$class: 'BooleanParameterDefinition', defaultValue: true, description: '',
-name: 'Please confirm you agree with this']
-               //])
-
-       /*
-               script {
-                   res = input(
-                       message: 'Was this successful?', parameters: [
-                       [$class: 'BooleanParameterDefinition', defaultValue: false, description:
-'', name: 'Apple'],
-                       [$class: 'BooleanParameterDefinition', defaultValue: false, description:
-'', name: 'Banana']
-                   ])
-                                      print(res)
-               }
-*/
-               script {
-                   values = ['Apple', 'Banana', 'Peach']
-                   parameters = []
-                   values.each {
-                       echo it
-                       parameters.add( [$class: 'BooleanParameterDefinition', defaultValue:
-false, description: '', name: it ] )
-                   }
-
-                   res = input(
-                       message: 'Was this successful?', parameters: parameters
-                   )
-                                                         print(res)
-               }
-
-
-               //                input(
-//                    message: 'What now?', parameters: [
-//                        [$class: 'AppDetectorParamaterDefinition')
-//                ])
-                                  //echo result
-                              // python scripts/aws_instances.py --what selftest --command start
-           }
-       }
-   }
-}
 </code>
 
 <h2>git Backup</h2>
