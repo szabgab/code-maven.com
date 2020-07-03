@@ -36,19 +36,12 @@
     <li><a href="/jenkins-pipeline-get-previous-build-status">Jenkins pipeline: Get previous build status - currentBuild, getPreviousBuild</a></li>
     <li><a href="/jenkins-pipeline-interactive-input-during-process">Jenkins pipeline: interactive input during process</a> (input)</li>
     <li><a href="/jenkins-pipeline-list-agents-by-name-or-by-label">Jenkins pipeline: List agents by name or by label</a></li>
+    <li><a href="/jenkins-pipeline-add-badges">Jenkins pipeline: add badges</a></li>
     <li>Report failures.</li>
     <li>Send alerts</li>
     <li>Collect test coverage data.</li>
     <li><a href="/slides/jenkins/">Jenkins slides</a></li>
 </ol>
-
-<h2>Add badges</h2>
-
-For the manager object to exists we need to install the <a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin">Groovy Postbuild Plugin</a>
-
-<code>
-   manager.addBadge("error.gif", "Failed build")
-</code>
 
 <h2>Run external code, capture output</h2>
 
@@ -384,10 +377,7 @@ jenkins collect status from invoked jobs
 
 <include file="examples/jenkins/status_from_build.Jenkinsfile">
 
-<h2>links and badges</h2>
-
-https://jenkins.io/doc/pipeline/steps/badge/
-manager.addBadge("star-gold.gif", "Successful build")
+<h2>links</h2>
 
 https://jenkins.io/doc/pipeline/steps/
 

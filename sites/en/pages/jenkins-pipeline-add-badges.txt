@@ -1,0 +1,26 @@
+=title Jenkins pipeline: add badges
+=timestamp 2020-07-03T18:40:01
+=indexes Jenkins, manager, addBadge
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<h2>Add badges</h2>
+
+For the manager object to exists we need to install the <a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin">Groovy Postbuild Plugin</a>
+
+
+<a href="https://jenkins.io/doc/pipeline/steps/badge/">badge</a>
+
+
+<code>
+   manager.addBadge("error.gif", "Failed build")
+   manager.addBadge("star-gold.gif", "Successful build")
+</code>
+

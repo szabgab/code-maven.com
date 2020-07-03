@@ -433,6 +433,7 @@ jenkins:
         - jenkins-pipeline-get-previous-build-status
         - jenkins-pipeline-interactive-input-during-process
         - jenkins-pipeline-list-agents-by-name-or-by-label
+        - jenkins-pipeline-add-badges
 shell:
   chapters:
     - title: Shell
