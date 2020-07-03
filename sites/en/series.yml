@@ -430,6 +430,7 @@ jenkins:
         - jenkins-arbitrary-code-execution
         - jenkins-pipeline-parallel-stages
         - jenkins-pipeline-collect-exit-code-from-external-commands
+        - jenkins-pipeline-get-previous-build-status
 shell:
   chapters:
     - title: Shell
