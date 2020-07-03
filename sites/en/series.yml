@@ -432,6 +432,7 @@ jenkins:
         - jenkins-pipeline-collect-exit-code-from-external-commands
         - jenkins-pipeline-get-previous-build-status
         - jenkins-pipeline-interactive-input-during-process
+        - jenkins-pipeline-list-agents-by-name-or-by-label
 shell:
   chapters:
     - title: Shell
