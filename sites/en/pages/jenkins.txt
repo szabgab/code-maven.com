@@ -32,6 +32,7 @@
     <li><a href="/jenkins-get-current-user">Jenkins pipeline: get current user</a> (currentBuild, getBuildCauses)</li>
     <li><a href="/jenkins-arbitrary-code-execution">Arbitrary code execution in the shell</a> (sh, parameters)</li>
     <li><a href="/jenkins-pipeline-parallel-stages">Jenkins pipeline: parallel stages</a></li>
+    <li><a href="/jenkins-pipeline-collect-exit-code-from-external-commands">Jenkins Pipeline: Collect exit code from external commands</a> (sh, bat, returnStatus)</li>
     <li>Report failures.</li>
     <li>Send alerts</li>
     <li>Collect test coverage data.</li>
@@ -587,33 +588,3 @@ if (res == 'FAILURE') {
 </code>
 
 
-<h2>Collect exit code of commands</h2>
-
-Instead of killing the whole job on a single failure.
-
-<code>
-def commands = ["xyz", "abc", "pwd"]
-def errors = ''
-commands.each {
-    def res = sh(script: it, returnStatus: true)
-    println("cmd: $it res $res")
-    if (res !=0 ) {
-        errors += " $it"
-    }
-}
-//if (params.expected == 'Success') {
-//    sh "pwd"
-//} else {
-//    sh "xyz"
-//}
-if (errors) {
-    error(errors)
-}
-
-</code>
-
-
-{JENKINS+_URL}/pipeline-syntax/globals
-
-
-<include file="examples/jenkins/experiment.jenkinsfile">

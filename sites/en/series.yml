@@ -429,6 +429,7 @@ jenkins:
         - jenkins-get-current-user
         - jenkins-arbitrary-code-execution
         - jenkins-pipeline-parallel-stages
+        - jenkins-pipeline-collect-exit-code-from-external-commands
 shell:
   chapters:
     - title: Shell
