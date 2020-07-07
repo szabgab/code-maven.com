@@ -21,10 +21,12 @@ You'll also hear about the hiring process of each company and what are they real
 
 =abstract end
 
+<!--
 <h2>Next event</h2>
 <ul>
     <li>TBA</a>
 </ul>
+-->
 
 <!--
 This is going to be a live webinar in which you'll be able to ask questions and share your LinkedIn profile to get (public)
