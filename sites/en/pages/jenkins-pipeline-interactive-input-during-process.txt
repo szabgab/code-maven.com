@@ -13,6 +13,6 @@
 
 <h2>Input during the process</h2>
 
-<include file="examples/jenkins/inpup.jenkinsfile">
+<include file="examples/jenkins/input.jenkinsfile">
 
 
