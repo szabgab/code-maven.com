@@ -13,6 +13,10 @@
 
 <screencast file="hebrew_Orit_Golowinsky_merged.mp4" youtube="cL5oNFNY7mA" />
 
+<ul>
+    <li><a href="https://www.linkedin.com/in/orit-golowinski-7417333/">אורית גולובינסקי</a></li>
+    <li><a href="https://about.gitlab.com/">GitLab</a></li>
+</ul>
 
 <ul>
     <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
