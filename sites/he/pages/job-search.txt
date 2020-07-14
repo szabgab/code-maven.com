@@ -14,12 +14,13 @@
 <h2>הוובינר הבא</h2>
 
 <ul>
-   <li>2020.07.08 <a href="/remote-work-at-gitlab-with-orit-golowinski"> עבודה מרוחקת - חברה ללא משרדים - גיטלאב עם אורית גולובינסקי</a></li>
+    <li>2020.07.15 <a href="/find-a-job-webinar-with-ety-leibson">חיפוש עבודה בהייטק ובביואינפורמטיקה - שיחה עם אתי לייבזון</a></li>
 </ul>
 
 <h2>ראיונות</h2>
 
 <ul>
+    <li>2020.07.08 <a href="/remote-work-at-gitlab-with-orit-golowinski"> עבודה מרוחקת - חברה ללא משרדים - גיטלאב עם אורית גולובינסקי</a></li>
     <li>2020.06.25 <a href="/hi-tech-career-with-michal-mironi"> שיחה עם מיכל מירוני מנטורית קריירה בהייטק</a></li>
     <li>2020.06.17 <a href="/find-a-job-webinar-with-tidhar-magriso"> חיפוש עבודה בהייטק - שיחה עם תדהר מגריזו מנהלת גיוס בחברת Localize.city</a></li>
     <li>2020.06.09 <a href="/find-a-job-webinar-storemaven-with-keren-arazi"> חיפוש עבודה בהייטק - עם קרן ארזי מנהלת משאבי אנוש של StoreMaven</a></li>
@@ -34,6 +35,8 @@
 </ul>
 
 <!--
+    <a class="btn btn-lg btn-success" href="">הרשמה כאן</a>
+
     <li><a href=""></a></li>
 -->
 
