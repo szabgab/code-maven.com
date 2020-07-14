@@ -21,6 +21,6 @@
 
 <ul>
     <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
-    <li><a href="/linkedin">דף לינקדין של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
 </ul>
 
