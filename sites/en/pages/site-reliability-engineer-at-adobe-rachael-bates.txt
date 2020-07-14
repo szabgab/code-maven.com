@@ -1,0 +1,48 @@
+=title What does an SRE do at Adobe? - Our guest is Rachael Bates
+=timestamp 2020-07-14T10:30:01
+=indexes SRE, Adobe
+=tags interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this webinar we are going to talk to <a href="https://www.linkedin.com/in/rachaelmbates/">Rachael Bates</a>
+who is a Site Reliability Engineer (SRE) at <a href="https://www.adobe.com/">Adobe</a>.
+
+=abstract end
+
+I have tons of questions. For example.
+
+<ul>
+    <li>What is an SRE (Site Reliability Engineer)?</li>
+    <li>What are your responsibilities?</li>
+    <li>What is your daily job?</li>
+    <li>What tools do you use?</li>
+    <li>Do you work remotely? How do you handle it? What are the new challenges? How do you deal with them?</li>
+    <li>Can you tell me about a serious issue you encountered? How did you handle it?</li>
+</ul>
+
+and also
+
+<ul>
+    <li>How can one become an SRE?</li>
+    <li>What should I learn for that, how can I get practice?</li>
+</ul>
+
+This is going to be a live webinar in which you'll be able to ask questions.
+
+It is scheduled for July 21 19:00 IDT, 16:00 UTC, 12:00 EST, 10:00 MDT, 09:00 PST
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/webinar/register/WN_2uZhW0qeS1q75MsTS3-ekQ">Register here</a>
+
+
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+    <li><a href="https://linkedin.com/showcase/code-maven-devops/">LinkedIn DevOps page</a></li>
+</ul>
+
