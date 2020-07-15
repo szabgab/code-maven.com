@@ -6,8 +6,6 @@ menu:
         url: /exercises
       - title: Slides
         url: /slides
-      - title: Categories
-        url: /category
       - title: Books
         url: /books
   - dir: right
