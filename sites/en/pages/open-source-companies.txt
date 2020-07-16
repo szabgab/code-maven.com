@@ -40,7 +40,7 @@ Companies where the CEO know how to spell Open Source?
 As I see many of the projects use Scala, Rust, but there are a few in Python and in Golang as well. I also saw Ruby, JavaScript, Objective-C and a few more
 language.
 
-In my mind <a href="https://www.adobe.com/">Adobe</a> was this super-propriery company, so I was surprised to see it as one of the companies with the largest number of
+In my mind <a href="https://www.adobe.com/">Adobe</a> was this super-proprietary company, so I was surprised to see it as one of the companies with the largest number of
 Open Source projects.  As of today they have almost 500 repositories on <a href="https://github.com/adobe">GitHub</a>. Though I am not sure how important are those project.
 I see a lot of projects in JavaScript, and some in other languages such as Java, TypeScript, Objective-C, Python, Dart.
 
