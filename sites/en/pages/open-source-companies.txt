@@ -66,6 +66,9 @@ you can also find Go, JavaScript, Python, and even CoffeeScript.
 <a href="https://www.booking.com/">Booking.com</a> the hotel-reservation site also has a few projects on <a href="https://github.com/bookingcom">GitHub</a>. The languages are
 Go, Perl, Java, and C#.
 
+<a href="https://www.maxmind.com/en/home">MaxMind.com</a> has some projects on <a href="https://github.com/maxmind">GitHub</a>. The languages are
+Node.js, Python, Ruby, Java, Go, PHP, .NET, C and Perl.
+
 <!--
 <a href=""></a>
 <a href="">GitHub</a>
