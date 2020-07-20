@@ -1,7 +1,6 @@
 =title שני הצדדים של המטבע - שיחה עם דנה פורה
 =timestamp 2020-07-20T07:30:01
 =indexes HR, webinar
-=description
 =tags interview
 =status show
 =author szabgab
