@@ -10,24 +10,24 @@
 
 =abstract start
 
-One of the ways to get recruited by a company is to contribute to their Open Source code-base before you even apply.
+One way to get recruited by a company is to contribute to their Open Source code-base before you even apply.
 
 On this page you'll find a bunch of companies with some information about their Open Source projects.
 
-In general you could easily find the project of most companies.
+In general you could easily find projects for most companies.
 
 =abstract end
 
 <h2>Open Source Companies</h2>
 
-I am not really sure what are <b>Open Source Companies</b>.
+I am not really sure what <b>Open Source Companies</b> are.
 
-Are those companies that have no propriatery code at all?
+Are these companies that have no propriatery code at all?
 I dobut there are many companies without any propriatery code, but I'd love to know about them.
 
 Companies that build some Open Source project that is the core part of their business?
 
-Companies with significant code-base they have release under some Open Source license?
+Companies with a significant code-base they have released under some Open Source license?
 
 Companies that contribute to Open Source?
 
@@ -41,7 +41,7 @@ As I see many of the projects use Scala, Rust, but there are a few in Python and
 language.
 
 In my mind <a href="https://www.adobe.com/">Adobe</a> was this super-proprietary company, so I was surprised to see it as one of the companies with the largest number of
-Open Source projects.  As of today they have almost 500 repositories on <a href="https://github.com/adobe">GitHub</a>. Though I am not sure how important are those project.
+Open Source projects.  As of today they have almost 500 repositories on <a href="https://github.com/adobe">GitHub</a>. Though I am not sure how important these projects are.
 I see a lot of projects in JavaScript, and some in other languages such as Java, TypeScript, Objective-C, Python, Dart.
 
 
