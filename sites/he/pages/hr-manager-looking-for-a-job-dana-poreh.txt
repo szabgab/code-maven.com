@@ -1,0 +1,31 @@
+=title שני הצדדים של המטבע - שיחה עם דנה פורה
+=timestamp 2020-07-20T07:30:01
+=indexes HR, webinar
+=description
+=tags interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+כאשר יצרתי קדר עם דנה היא היתה מנהלת משאבי אנוש של חברת הייטק. עד שמצאנו זמן לשיחה היא אבדה את עבודתה ביחד עם הרבה אנשים אחרים בתקופת הקורונה.
+זה נותן לנו את ההזדמנות הנדירה לדבר איתה ולראות את שני הצדדם של המטבע.
+
+היא גם מומחית לגיוס עובדים וכרגע היא בעצמה מחפשת עבודה.
+
+<a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/272016933/">הרשמה כאן</a>
+
+<ul>
+    <li><a href="https://www.linkedin.com/in/danaporeh/">דנה פורה</a></li>
+</ul>
+
+
+<ul>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+

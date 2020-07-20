@@ -16,7 +16,11 @@
 
 =abstract end
 
-    <a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/271813294/">הרשמה כאן</a>
+<screencast file="hebrew-ety-leibson.mp4" youtube="ojKyuMiZ87E" />
+
+<ul>
+   <li><a href="https://www.linkedin.com/in/ety-leibson-0545281b/">אתי לייבזון</a></li>
+</ul>
 
 
 <ul>
