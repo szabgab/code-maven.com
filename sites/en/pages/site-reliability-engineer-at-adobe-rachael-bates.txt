@@ -15,6 +15,8 @@ who is a Site Reliability Engineer (SRE) at <a href="https://www.adobe.com/">Ado
 
 =abstract end
 
+<screencast file="english-webinar-rachael-bates.mp4" youtube="Hi1Gt6Q94yA" />
+
 I have tons of questions. For example.
 
 <ul>
@@ -33,12 +35,10 @@ and also
     <li>What should I learn for that, how can I get practice?</li>
 </ul>
 
-This is going to be a live webinar in which you'll be able to ask questions.
 
-It is scheduled for July 21 19:00 IDT, 16:00 UTC, 12:00 EST, 10:00 MDT, 09:00 PST
-
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/webinar/register/WN_2uZhW0qeS1q75MsTS3-ekQ">Register here</a>
-
+<ul>
+    <li><a href="https://www.linkedin.com/in/rachaelmbates/">Rachael Bates</a>
+</ul>
 
 <ul>
     <li><a href="/youtube">YouTube channel</a></li>

@@ -21,10 +21,11 @@ You'll also hear about the hiring process of each company and what are they real
 
 =abstract end
 
+<!--
 <h2>Next event</h2>
 <ul>
-    <li>2020.07.21 <a href="/site-reliability-engineer-at-adobe-rachael-bates">What does an SRE do at Adobe? - Our guest is Rachael Bates</a></li>
 </ul>
+-->
 
 <!--
 This is going to be a live webinar in which you'll be able to ask questions and share your LinkedIn profile to get (public)
@@ -33,6 +34,8 @@ feedback on how to improve it.
 It is scheduled for June 29 18:00 ILT, 15:00 UTC, 11:00 EST, 08:00 PST
 
 <a class="btn btn-lg btn-success" href="">Register here</a>
+
+<screencast file="" youtube="" />
 -->
 
 
@@ -41,6 +44,7 @@ It is scheduled for June 29 18:00 ILT, 15:00 UTC, 11:00 EST, 08:00 PST
 Watch the earlier episodes:
 
 <ul>
+    <li>2020.07.21 <a href="/site-reliability-engineer-at-adobe-rachael-bates">What does an SRE do at Adobe? - Our guest is Rachael Bates</a></li>
     <li>2020.06.29 <a href="/job-search-pete-sergeant">Job search - Pete Sergeant (aka. Perl Careers and CareersJS)</a></li>
     <li>2020.06.16 <a href="/job-search-distantjob-leticia-naranjo">Job search - Distantjob with Leticia Naranjo</a></li>
 </ul>
