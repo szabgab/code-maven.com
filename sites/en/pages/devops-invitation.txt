@@ -15,10 +15,10 @@ For example <a href="/docker">Docker</a>, <a href="/jenkins">Jenkins</a>
 
 =abstract end
 
-There are also pages about <a href="/groovy">Groovy</a>, the language used in Jenkins,
-<a href="/linux">Linux</a> and <a href="/shell">Bash</a>.
+There are also pages about <a href="/groovy">Groovy</a>, the language used in Jenkins.
 
-There are also other, more generic topics such as <a href="/python">Python</a>.
+
+You can find other, more generic topics such as <a href="/linux">Linux</a>, <a href="/shell">Bash</a>, and <a href="/python">Python</a>.
 
 We also have video recordings, for example the one with <a href="/site-reliability-engineer-at-adobe-rachael-bates">Rachael Bates, SRE at Adobe</a>.
 
