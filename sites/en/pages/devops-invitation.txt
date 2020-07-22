@@ -1,0 +1,32 @@
+=title DevOps Invitation
+=timestamp 2020-07-22T11:30:01
+=indexes DevOps
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+On this site we cover a number of DevOps-related topics.
+For example <a href="/docker">Docker</a>, <a href="/jenkins">Jenkins</a>
+<a href="/ansible">Ansible</a>, and <a href="/git">Git</a>. Just to name a few.
+
+=abstract end
+
+There are also pages about <a href="/groovy">Groovy</a>, the language used in Jenkins,
+<a href="/linux">Linux</a> and <a href="/shell">Bash</a>.
+
+There are also other, more generic topics such as <a href="/python">Python</a>.
+
+We also have video recordings, for example the one with <a href="/site-reliability-engineer-at-adobe-rachael-bates">Rachael Bates, SRE at Adobe</a>.
+
+Some of our content is only <a href="https://code-maven.com/archive?tag=pro">available to paying subscribers</a>, but some of those
+are always available to <a href="https://code-maven.com/archive?tag=preview">preview</a>.
+You only need to <a href="/pm/register">register</a> on the site to get access to the videos in preview mode.
+
+If you are not interested registering here you can get DevOps-related tips 3-5 times a week by following our
+<a href="https://linkedin.com/showcase/code-maven-devops/">DevOps specific LinkedIn page</a>
+and/or our <a href="/youtube">YouTube channel</a> where we have a mix of technical videos and webinar recordings.
+
