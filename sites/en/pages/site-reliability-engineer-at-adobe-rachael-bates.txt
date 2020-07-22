@@ -4,9 +4,10 @@
 =tags interview
 =status show
 =author szabgab
+=description A Site Reliability Engineer (SRE) helps the organization to maintain its services by helping the development teams work in a way that better suits operations as well.
 =archive 1
 =comments_disqus_enable 0
-=show_related 1
+=show_related 0
 
 =abstract start
 
