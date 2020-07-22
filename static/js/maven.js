@@ -13,11 +13,16 @@ $(document).ready(function() {
     };
 
     // $('#after-abstract').html(msg);
+    var re_pro = new RegExp('^/pro/');
+    if (re_pro.exec(path)) {
+        return;
+    }
 
     var path = window.location.pathname;
-    var re = new RegExp('docker|jenkins');
+    var re = new RegExp('ansible|docker|jenkins');
     if (re.exec(path)) {
-        show_top('When you are done <a href="/devops-invitation">check out</a> how else we might help you.';
+        show_top('When you are done <a href="/devops-invitation">check out</a> how else we might help you!');
+        show_bottom('If this article helped you, <a href="/devops-invitation">check out</a> what else can you learn here!');
     }
 
 //    msg = 'Was this article useful? Support me via <a href="https://www.patreon.com/szabgab">Patreon</a>!';
