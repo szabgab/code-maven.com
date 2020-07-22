@@ -13,17 +13,28 @@ $(document).ready(function() {
     };
 
     // $('#after-abstract').html(msg);
+
+    var path = window.location.pathname;
+
     var re_pro = new RegExp('^/pro/');
     if (re_pro.exec(path)) {
         return;
     }
 
-    var path = window.location.pathname;
-    var re = new RegExp('ansible|docker|jenkins');
-    if (re.exec(path)) {
+    var re_devops = new RegExp('ansible|docker|jenkins|bash|shell|groovy');
+    if (re_devops.exec(path)) {
         show_top('When you are done <a href="/devops-invitation">check out</a> how else we might help you!');
         show_bottom('If this article helped you, <a href="/devops-invitation">check out</a> what else can you learn here!');
+        return;
     }
 
-//    msg = 'Was this article useful? Support me via <a href="https://www.patreon.com/szabgab">Patreon</a>!';
+    //var re_python = new RegExp('python|flask');
+    //if (re_devops.exec(path)) {
+    //    show_top('When you are done <a href="/python-invitation">check out</a> how else we might help you!');
+    //    show_bottom('If this article helped you, <a href="/python-invitation">check out</a> what else can you learn here!');
+    //    return;
+    //}
+
+    show_top('When you are done <a href="/invitation">check out</a> how else we might help you!');
+    show_bottom('If this article helped you, <a href="/invitation">check out</a> what else can you learn here!');
 })
