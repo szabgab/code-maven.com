@@ -1,5 +1,5 @@
 =title Mobile swipe left, swipe right of HTML pages using vanilla JavaScript
-=timestamp 2020-07-01T07:30:01
+=timestamp 2020-07-23T16:30:01
 =indexes touchstart, touchend, addEventListener, getElementById
 =description Using Vanilla JavaScript recognize when the mobile phone user swipes leftor swipes right on yout page.
 =status show
