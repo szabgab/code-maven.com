@@ -1,12 +1,12 @@
 =title Courses
-=timestamp 2020-01-01T07:30:01
+=timestamp 2020-07-25T11:30:01
 =indexes CodeMaven
-=description
-=status draft
+=description List of trainig courses available on the Code-Maven site.
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
-=show_related 1
+=show_related 0
 
 =abstract start
 
