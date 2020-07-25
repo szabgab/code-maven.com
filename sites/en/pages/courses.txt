@@ -50,6 +50,7 @@ That I could not put in any of the big categories.
 
 <ul>
     <li><a href="/courses/regexes">Regular Expressions</a></li>
+    <li><a href="/courses/perl">Perl programming</a></li>
 </ul>
 
 
