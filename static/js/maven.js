@@ -21,6 +21,11 @@ $(document).ready(function() {
         return;
     }
 
+    var re_courses = new RegExp('^/courses(/.*)$');
+    if (re_courses.exec(path)) {
+        return;
+    }
+
     var re_devops = new RegExp('ansible|docker|jenkins|bash|shell|groovy');
     if (re_devops.exec(path)) {
         show_top('When you are done <a href="/devops-invitation">check out</a> how else we might help you!');
