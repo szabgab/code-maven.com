@@ -7,7 +7,7 @@
 =archive 1
 =comments_disqus_enable 0
 =show_related 0
-=original /courses
+=original courses
 
 =abstract start
 
