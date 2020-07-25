@@ -1,9 +1,9 @@
 =title Courses
 =timestamp 2020-07-25T11:30:01
-=indexes CodeMaven
+=indexes Python, Docker, Golang
 =description List of trainig courses available on the Code-Maven site.
 =status show
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
 =show_related 0
