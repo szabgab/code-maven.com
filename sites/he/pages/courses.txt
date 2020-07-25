@@ -26,27 +26,27 @@
 These course are designed to fit anyone in Development, Operations, or in DevOps.
 
 <ul>
-    <li><a href="/courses/docker">Docker</a></li>
-    <li>Git <a href="/courses/git">גיט</a></li>
-    <li>Advanced Git <a href="/courses/advanced-git">גיט מתקדם</a></li>
-    <li><a href="/courses/bash-scripting"></a></li>
-    <li><a href="/courses/google-cloud">Google Cloud</a></li>
-    <li><a href="/courses/jenkins">Jenkins</a></li>
-    <li><a href="/courses/delivery">Delivery</a></li>
+    <li><a href="httsp://code-maven.com/courses/docker">Docker</a></li>
+    <li>Git <a href="httsp://code-maven.com/courses/git">גיט</a></li>
+    <li>Advanced Git <a href="httsp://code-maven.com/courses/advanced-git">גיט מתקדם</a></li>
+    <li><a href="httsp://code-maven.com/courses/bash-scripting"></a></li>
+    <li><a href="httsp://code-maven.com/courses/google-cloud">Google Cloud</a></li>
+    <li><a href="httsp://code-maven.com/courses/jenkins">Jenkins</a></li>
+    <li><a href="httsp://code-maven.com/courses/delivery">Delivery</a></li>
 </ul>
 
 <h2>Python - פייתון</h2>
 <ul>
-    <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
-    <li><a href="/courses/advanced-python">Advanced Python programming</a></li>
-    <li><a href="/courses/testing-python">Testing in Python</a></li>
-    <li><a href="/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
+    <li><a href="httsp://code-maven.com/courses/python-programming">Python programming (beginner level)</a></li>
+    <li><a href="httsp://code-maven.com/courses/advanced-python">Advanced Python programming</a></li>
+    <li><a href="httsp://code-maven.com/courses/testing-python">Testing in Python</a></li>
+    <li><a href="httsp://code-maven.com/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
 </ul>
 
 <h2>Linux - לינוקס</h2>
 <ul>
-    <li><a href="/courses/linux-for-power-users">Linux for Power users</a></li>
-    <li><a href="/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
+    <li><a href="httsp://code-maven.com/courses/linux-for-power-users">Linux for Power users</a></li>
+    <li><a href="httsp://code-maven.com/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
 
 </ul>
 
@@ -55,8 +55,8 @@ These course are designed to fit anyone in Development, Operations, or in DevOps
 That I could not put in any of the big categories.
 
 <ul>
-    <li><a href="/courses/regexes">Regular Expressions</a></li>
-    <li><a href="/courses/perl">Perl programming</a></li>
+    <li><a href="httsp://code-maven.com/courses/regexes">Regular Expressions</a></li>
+    <li><a href="httsp://code-maven.com/courses/perl">Perl programming</a></li>
 </ul>
 
 
@@ -65,7 +65,7 @@ That I could not put in any of the big categories.
 In addition to the above course we can also create customized courses. For example here is one as an example:
 
 <ul>
-    <li><a href="/courses/custom-advanced-python-20191016">Customized Advanced Python course</a></li>
+    <li><a href="httsp://code-maven.com/courses/custom-advanced-python-20191016">Customized Advanced Python course</a></li>
 </ul>
 
 
