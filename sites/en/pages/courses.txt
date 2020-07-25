@@ -15,6 +15,49 @@ Contact <a href="https://szabgab.com/contact.html">Gabor Szabo</a> for more deta
 
 =abstract end
 
+<h2>DevOps</h2>
+
+These course are designed to fit anyone in Development, Operations, or in DevOps.
+
 <ul>
     <li><a href="/courses/docker">Docker</a></li>
+    <li><a href="/courses/git">Git</a></li>
+    <li><a href="/courses/advanced-git">Advanced Git</a></li>
+    <li><a href="/courses/bash-scripting">Bash Scripting</a></li>
+    <li><a href="/courses/google-cloud">Google Cloud</a></li>
+    <li><a href="/courses/jenkins">Jenkins</a></li>
+    <li><a href="/courses/delivery">Delivery</a></li>
 </ul>
+
+<h2>Python</h2>
+<ul>
+    <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
+    <li><a href="/courses/advanced-python">Advanced Python programming</a></li>
+    <li><a href="/courses/testing-python">Testing in Python</a></li>
+    <li><a href="/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
+</ul>
+
+<h2>Linux</h2>
+<ul>
+    <li><a href="/courses/linux-for-power-users">Linux for Power users</a></li>
+    <li><a href="/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
+
+</ul>
+
+<h2>Other</h2>
+
+That I could not put in any of the big categories.
+
+<ul>
+    <li><a href="/courses/regexes">Regular Expressions</a></li>
+</ul>
+
+
+<h2>Customized courses</h2>
+
+In addition to the above course we can also create customized courses. For example here is one as an example:
+
+<ul>
+    <li><a href="/courses/custom-advanced-python-20191016">Customized Advanced Python course</a></li>
+</ul>
+
