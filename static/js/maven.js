@@ -21,7 +21,7 @@ $(document).ready(function() {
         return;
     }
 
-    var re_courses = new RegExp('^/courses(/.*)$');
+    var re_courses = new RegExp('^/courses(/.*)?$');
     if (re_courses.exec(path)) {
         return;
     }
