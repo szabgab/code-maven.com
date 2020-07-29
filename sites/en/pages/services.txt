@@ -1,0 +1,74 @@
+=title Services provides by Gabor Szabo at Code Maven
+=timestamp 2020-07-28T07:30:01
+=indexes Git, CI, Jenkins, Automation, Docker
+=description All the services provided by Gabor Szabo, author of the Code-Maven site
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<h2>Introducing Git</h2>
+
+One of the most basic things every development, QA, automation, and DevOps team needs is a good Version Control System (VCS).
+Today the de-facto standard is Git, but you can use other systems as well.
+
+Using a VCS properly can give certain superpowers to its users, for example the power to easily go back in time.
+The possibility to experiment without fear.
+The ease of reasoning about changes in the past.
+A record of history.
+Accountability.
+
+However, if we don't set it up properly, if we don't have good procedures, if we don't invest enough time and practice in the VCS
+then many people will feel it as a burden and some are even going to be afraid of it.
+
+As far as I know many people who come out from the various hi-tech bootcamps and even university degrees lack the knowledge and the practice of a VCS.
+
+In my experience many companies have teams that don't use any Version Control System or they could improved their development process a lot
+by improving the way they use it.
+
+<ul>
+    <li>I can help setting up a Version Control System.</li>
+    <li>I can train the team members to use it properly.</li>
+    <li>Decide on a branching strategy that fits the team.</li>
+    <li>Provide on-going support to the team for the time when they encounter special cases.</li>
+</ul>
+
+
+<h2>Introducing Testing and test automation</h2>
+
+Many teams I've encountered lack any form of automated tests.
+Having even a minimal test suite can increase the safety and velocity of the team by a lot.
+
+I can help the team to start writing unit, integration, and acceptance tests.
+Various types of functional tests and what many people call regression tests.
+
+I have already helped teams with projects in Perl, Python, PHP, Java, C#, C, C++, JavaScript.
+Do you use any of these or do you use some other language that will be interesting to tackle?
+
+Sometime I help the development teams, other times the QA team or a dedicated "automation team".
+
+<h2>Setting up Continuous Integration</h2>
+
+Even if you only have a single automated test it is already worth to set up a Continuous Integration system.
+
+I can help you on-premise systems such as Jenkins, or cloud-based CI services such as Travis-CI, or Circle-CI.
+
+
+<h2>Containerization - Docker</h2>
+
+In order to make it easy to set up a development environment and a CI system we might opt to create Docker containers
+for various parts of your product or service.
+
+I can help creating the first Docker images and teach you how to maintain and improve them.
+
+<h2>Training</h2>
+
+In every case my work has the most value if during or after the implementation I can pass all the knowledge to
+the in-house teams. This can be done in formal <a href="/courses">training courses</a>, with hands-on experience,
+pair-programming, or ongoing support.
+
+
