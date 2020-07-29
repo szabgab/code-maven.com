@@ -1,4 +1,4 @@
-=title Services provides by Gabor Szabo at Code Maven
+=title Services provided by Gabor Szabo at Code Maven
 =timestamp 2020-07-28T07:30:01
 =indexes Git, CI, Jenkins, Automation, Docker
 =description All the services provided by Gabor Szabo, author of the Code-Maven site
