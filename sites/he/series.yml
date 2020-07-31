@@ -62,7 +62,7 @@ windows:
       sub:
         - windows-cmd-configuration
         - windows-cmd-directories-1
-        - pro/windows-cmd-directories-2
+        - windows-cmd-directories-2
 python:
   chapters:
     - title: מבוא
