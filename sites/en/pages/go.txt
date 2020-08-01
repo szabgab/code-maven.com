@@ -15,4 +15,10 @@
     <li><a href="/counter-using-go">Single counter with simple text file using Go</a></li>
 </ul>
 
+<h2>Go course</h2>
+
+<ul>
+    <li><a href="/pro/golang-getting-started-with-the-course">Getting started with the Golang course</a></li>
+</ul>
+
 See the <a href="https://code-maven.com/slides/golang/">slides of my Go workshop</a>
