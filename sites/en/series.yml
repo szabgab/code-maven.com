@@ -507,7 +507,7 @@ go:
         - counter-using-go
     - title: Go course
       sub:
-        - golang-getting-started-with-the-course
+        - pro/golang-getting-started-with-the-course
 jobs:
   chapters:
     - title: Jobs
