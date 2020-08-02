@@ -1,5 +1,5 @@
 =title ספריות משורת הפקודות בערכת חלונאית - פרק א
-=timestamp 2029-06-28T07:30:01
+=timestamp 2020-06-28T07:30:01
 =indexes cmd
 =status show
 =author szabgab
