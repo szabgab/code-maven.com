@@ -120,6 +120,30 @@ I can help with some of these step, but they can be valuable only if the company
 good testing strategy and standardized development and testing environment. Without that moving to the cloud will
 just create more difficulties without solving any of the problems.
 
+<h2>Continuous Delivery or Continuous Deployment (CD)</h2>
+
+CD refers to the possibility to make the changes in the code-base available to testers or even to end-users very frequently.
+
+Basically it means you make production releases very frequently.
+
+In the extreme cases like Amazon, this means deploying some new part of the system at a sub-second interval.
+(Yes, they change their system more than once every second. I know it is crazy.)
+Smaller and saner organizations (eg. GitLab) have 300 deployments a day. That is every 5 minutes.
+
+For this to work you'll have to have a working CI system you can trust and probably you'll also need to have cloud based system.
+Though it is also possible to have CD systems for in-house projects that use only on-premise systems for which there is no need
+for any cloud component.
+
+There are various strategies to mitigate the risks involved with such frequent deployments. The general consensus is that
+once you have implemented to strategies your risk while using CD is much lower than what you had earlier when you
+released/deployed/delivered once every few months.
+
+I can help with this process, but remember this depends on all the other pieces working.
+
+However, if that is your goal then the best strategy is to set up the whole system from version control
+till deployment as soon as possible for a very small part of the system and then enhance it step-by-step
+continuously improving your process.
+
 <h2>Training</h2>
 
 In every case my work has the most value if during or after the implementation I can pass all the knowledge to
