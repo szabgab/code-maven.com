@@ -25,6 +25,11 @@ $(document).ready(function() {
     if (re_courses.exec(path)) {
         return;
     }
+    var re_pages = new RegExp('^/(services)$');
+    if (re_pages.exec(path)) {
+        return;
+    }
+
 
     var re_devops = new RegExp('ansible|docker|jenkins|bash|shell|groovy');
     if (re_devops.exec(path)) {
