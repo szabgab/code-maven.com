@@ -16,6 +16,10 @@ The various teams at my clients have different needs. I can offer one or more of
 Usually they all include a large amount of training. Either via formal <a href="/courses">courses</a> or
 ad-hoc on the job training.
 
+I can offer my servicaes on-site (as the situation allows) in Israel or on-line if we can match our working hours.
+
+Spoken languages: English, Hebrew, Hungarian.
+
 =abstract end
 
 <h2>Introducing or improving Version Control (Git)</h2>
