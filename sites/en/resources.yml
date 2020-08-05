@@ -10,6 +10,8 @@ menu:
         url: /books
       - title: Courses
         url: /courses
+      - title: Services
+        url: /services
   - dir: right
     menu:
       - title: 'Type keyword:'
