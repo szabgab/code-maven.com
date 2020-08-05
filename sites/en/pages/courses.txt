@@ -13,6 +13,8 @@
 The following courses can be taught either on-site in your offices or on-line via Zoom or other technology.
 Contact <a href="https://szabgab.com/contact.html">Gabor Szabo</a> for more details.
 
+The courses can be offered in English, Hebrew, or Hungarian.
+
 =abstract end
 
 <h2>DevOps</h2>
@@ -20,21 +22,31 @@ Contact <a href="https://szabgab.com/contact.html">Gabor Szabo</a> for more deta
 These course are designed to fit anyone in Development, Operations, or in DevOps.
 
 <ul>
-    <li><a href="/courses/docker">Docker</a></li>
-    <li><a href="/courses/git">Git</a></li>
+    <li><a href="/courses/docker">Docker</a> containerization</li>
+    <li><a href="/courses/git">Git</a> version control</li>
     <li><a href="/courses/advanced-git">Advanced Git</a></li>
     <li><a href="/courses/bash-scripting">Bash Scripting</a></li>
     <li><a href="/courses/google-cloud">Google Cloud</a></li>
-    <li><a href="/courses/jenkins">Jenkins</a></li>
+    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premis Continuous Integration</li>
+    <li><a href="/courses/travis-ci">Travis-CI</a> for cloud based Continuous Integration</li>
     <li><a href="/courses/delivery">Delivery</a></li>
 </ul>
 
-<h2>Python</h2>
+<h2>Test Automation</h2>
+<ul>
+    <li><a href="/courses/git">Git</a> version control</li>
+    <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
+    <li><a href="/courses/testing-python">Testing in Python</a></li>
+</ul>
+
+<h2>Python programmers</h2>
 <ul>
     <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
     <li><a href="/courses/advanced-python">Advanced Python programming</a></li>
     <li><a href="/courses/testing-python">Testing in Python</a></li>
     <li><a href="/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
+    <li><a href="/courses/git">Git</a> version control</li>
+    <li><a href="/courses/docker">Docker</a> containerization</li>
 </ul>
 
 <h2>Linux</h2>
