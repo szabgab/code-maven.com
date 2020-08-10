@@ -9,6 +9,12 @@
 
 <h2>¡Bienvenidas y bienvenidos a <i>Code Maven</i> en Español!</h2>
 
+<h2>Otros lugares</h2>
+
+<a href="/youtube">YouTube en Espñol</a>
+
+<a href="/linkedin">LinkedIn en Español</a>
+
 <h2>¿Qué es esto?</h2>
 
 <i>Code Maven</i> es un lugar para aquellos que quieren entrar al mercado de
