@@ -1,0 +1,15 @@
+<div id="game">
+<input type="number" id="guess-number">
+<button id="check-guess">Check guess</button>
+<button id="start-game">Start Game</button>
+</div>
+<script>
+(function() {
+    var start_game = function() {
+        var hidden_number = Math.floor(200* Math.random());
+        alert(hidden_number);
+    };
+
+    document.getElementById("start-game").addEventListener("click",  start_game)
+})()
+</script>
