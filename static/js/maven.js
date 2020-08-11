@@ -34,8 +34,8 @@ $(document).ready(function() {
     var re_devops = new RegExp('ansible|docker|jenkins|bash|shell|groovy');
     if (re_devops.exec(path)) {
         show_top('When you are done <a href="/devops-invitation">check out</a> how else we might help you!');
-        //show_bottom('If this article helped you, <a href="/devops-invitation">check out</a> what else can you learn here!');
-        show_bottom('If this article helped you, <a href="https://www.patreon.com/szabgab">check out</a> what else can you learn via my Patreon page!');
+        show_bottom('If this article helped you, <a href="/devops-invitation">check out</a> what else can you learn here!');
+        //show_bottom('If this article helped you, <a href="https://www.patreon.com/szabgab">check out</a> what else can you learn via my Patreon page!');
         return;
     }
 
@@ -47,6 +47,6 @@ $(document).ready(function() {
     //}
 
     show_top('When you are done <a href="/invitation">check out</a> how else we might help you!');
-    //show_bottom('If this article helped you, <a href="/invitation">check out</a> what else can you learn here!');
-    show_bottom('If this article helped you, consider <a href="https://www.patreon.com/szabgab">supporting me</a> via my Patreon page!');
+    show_bottom('If this article helped you, <a href="/invitation">check out</a> what else can you learn here!');
+    //show_bottom('If this article helped you, consider <a href="https://www.patreon.com/szabgab">supporting me</a> via my Patreon page!');
 })
