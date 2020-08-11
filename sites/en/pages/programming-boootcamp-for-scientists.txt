@@ -14,8 +14,8 @@
 
 
 <ul>
-   <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a></li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a></li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a></li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 mim)</li>
 </ul>
 
