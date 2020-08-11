@@ -4,7 +4,7 @@
 =status show
 =author szabgab
 =tags screencast
-=description
+=description Introduction to programming in Python for people with not or very limited programming background who would like to use this for scientific computations.
 =archive 1
 =comments_disqus_enable 0
 =show_related 1
