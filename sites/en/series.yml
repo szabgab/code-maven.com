@@ -525,4 +525,11 @@ job-search:
         - job-search-distantjob-leticia-naranjo
         - job-search-pete-sergeant
         - site-reliability-engineer-at-adobe-rachael-bates
+programming-boootcamp-for-scientists:
+  chapters:
+    - title: Bootcamp
+      sub:
+        - pro/programming-boootcamp-for-scientists-1
+        - pro/programming-boootcamp-for-scientists-2
+        - pro/programming-boootcamp-for-scientists-3
 

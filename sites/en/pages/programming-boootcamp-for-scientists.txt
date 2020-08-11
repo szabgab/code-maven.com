@@ -1,0 +1,21 @@
+=title Programming Boootcamp for Scientists
+=timestamp 2020-08-11T16:20:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=description
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+
+<ul>
+   <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a></li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a></li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a></li>
+</ul>
+
