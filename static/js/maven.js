@@ -25,7 +25,7 @@ $(document).ready(function() {
     if (re_courses.exec(path)) {
         return;
     }
-    var re_pages = new RegExp('^/(services)$');
+    var re_pages = new RegExp('^/(services|programming-boootcamp-for-scientists)$');
     if (re_pages.exec(path)) {
         return;
     }
