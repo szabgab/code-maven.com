@@ -12,7 +12,7 @@
 It is quite common that what works on the developers computer does not work on the Jenkins Agent. Experimenting by committing code-changes to the Git repository
 and letting the Jenkins job pick it up can be time consuming and quite annoying having all those commits in the history.
 
-One, admittedly strange solution is to let your user execute any command on the Jenkins server without giving them ssh access.</
+One, admittedly strange solution is to let your user execute any command on the Jenkins server without giving them ssh access.
 
 =abstract end
 
