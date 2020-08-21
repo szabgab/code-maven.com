@@ -425,7 +425,7 @@ emailext (
 
 <h2>Jenkins - check if host is accessible</h2>
 
-<incljude file="examples/jenkins/ping_host.jenkinsfile">
+<include file="examples/jenkins/ping_host.jenkinsfile">
 
 <h2>last started stage</h2>
 
