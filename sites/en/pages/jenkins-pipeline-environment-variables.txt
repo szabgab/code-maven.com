@@ -85,8 +85,7 @@ The <hl>env</hl> object is of type
 
 <include file="examples/jenkins/list_environment_internally.Jenkinsfile">
 
-We use the <b>getEnvironment</b> method that returns a <a
-href="https://javadoc.jenkins-ci.org/hudson/EnvVars.html">hudson.EnvVars</a> object.
+We use the <b>getEnvironment</b> method that returns a <a href="https://javadoc.jenkins-ci.org/hudson/EnvVars.html">hudson.EnvVars</a> object.
 This is a Groovy map so we can already use the <b>each</b> method to go over the keys and values.
 
 This however only seem to list the internal variables of Jenkins and for example <b>PATH</b> was not
