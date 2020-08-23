@@ -24,6 +24,12 @@
    <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)</li>
    <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)</li>
    <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 11</a> (1:02:56 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-13">Part 13</a> (20:38 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-14">Part 14</a> (1:01:23 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)</li>
 </ul>
 
