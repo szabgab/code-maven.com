@@ -1,0 +1,25 @@
+=title  עבודה בקוואלקום ישראל? שיחה עם עומר מרגלית
+=timestamp 2020-08-23T07:30:01
+=indexes Qualcomm
+=description
+=tags interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+
+<a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/272352636/">הרשמה כאן</a>
+
+
+<ul>
+    <li><a href="https://www.qualcomm.com/">Qualcomm</a></li>
+    <li><a href="https://www.linkedin.com/in/omermargalit/">עומר מרגלית</a></li>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+
