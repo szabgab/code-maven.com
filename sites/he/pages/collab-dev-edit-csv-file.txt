@@ -1,5 +1,5 @@
 =title עריכת קובץ CSV באתר גיטהאב
-=timestamp 2020-08-23T07:30:01
+=timestamp 2020-08-23T17:37:01
 =indexes CSV, GitHub
 =status show
 =author szabgab
