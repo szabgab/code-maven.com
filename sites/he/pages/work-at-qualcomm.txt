@@ -1,7 +1,6 @@
 =title  עבודה בקוואלקום ישראל? שיחה עם עומר מרגלית
 =timestamp 2020-08-23T07:30:01
 =indexes Qualcomm
-=description
 =tags interview
 =status show
 =author szabgab
