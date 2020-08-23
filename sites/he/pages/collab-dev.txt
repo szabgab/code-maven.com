@@ -31,7 +31,7 @@
     <li><a href="/collab-dev-hacktoberfest">הקטוברפסט</a> (Hacktoberfest)</li>
     <li><a href="/collab-dev-github-onsite-editing-drawing">הסבר גרפי על עריכת קבצים באתר של גיטהאב ללא צורך בהתקנות</a> (GitHub Onsite editing explained)</li>
     <li><a href="/collab-dev-edit-the-readme-file">מטלה: עריכת קובץ רדמה והוספת קובץ חדש. הכל באתר של גיטהאב</a> (Task: Edit README file, add a new file)</li>
-    <li><a href="/pro/collab-dev-edit-csv-file">מטלה: עריכת קובץ עם שדות מופרדים עם פסיק. אינטגרציה רציפה עם טרביס</a>
+    <li><a href="/collab-dev-edit-csv-file">מטלה: עריכת קובץ עם שדות מופרדים עם פסיק. אינטגרציה רציפה עם טרביס</a>
 (Task: Edit CSV file, Continuous Integration with Travis-CI)</li>
     <li><a href="/pro/collab-dev-github-offsite-editing-drawing">עריכת קבצים מחוץ לגיטהאב על המחשב שלכם</a> (GitHub Offsite editing.)</li>
     <li><a href="/pro/collab-dev-git">גיט</a> (Git)</li>

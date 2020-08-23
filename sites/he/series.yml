@@ -26,7 +26,7 @@ collab-dev:
         - collab-dev-hacktoberfest
         - collab-dev-github-onsite-editing-drawing
         - collab-dev-edit-the-readme-file
-        - pro/collab-dev-edit-csv-file
+        - collab-dev-edit-csv-file
         - pro/collab-dev-github-offsite-editing-drawing
         - pro/collab-dev-git
         - pro/collab-dev-edit-json-file
