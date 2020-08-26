@@ -1,7 +1,7 @@
 =title Raku
 =timestamp 2020-02-10T07:30:01
 =indexes Raku, Rakudo
-=status draft
+=status show
 =books raku
 =author szabgab
 =archive 1
@@ -18,6 +18,11 @@ This pages is mostly a placeholder till I can move all of the content I have abo
 
 <ul>
     <li><a href="/raku-first-steps">First steps with Raku</a></li>
-    <li><a href="/bailador">Bailador web framework</a></li>
+    <li><a href="/raku-interactive">Raku using the interactive shell (REPL)</a></li>
 </ul>
 
+<!--
+<ul>
+    <li><a href="/bailador">Bailador web framework</a></li>
+</ul>
+-->

@@ -528,6 +528,12 @@ job-search:
         - job-search-distantjob-leticia-naranjo
         - job-search-pete-sergeant
         - site-reliability-engineer-at-adobe-rachael-bates
+raku:
+  chapters:
+    - title: Introduction
+      sub:
+        - raku-first-steps
+        - raku-interactive
 programming-boootcamp-for-scientists:
   chapters:
     - title: Bootcamp
