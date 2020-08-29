@@ -42,17 +42,37 @@ The slides used during the recording are available <a href="/slides/python">here
    <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)</li>
    <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)</li>
    <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min) - Nóra solves the exercises of the Loop chapter.</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-13">Part 13</a> (20:38 min) - Nóra solving the rest of the levels of the number guessing game in the Loops chapter.</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min)
+       <ul>
+          <li>Nóra solves the exercises of the Loop chapter.</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-13">Part 13</a> (20:38 min)
+       <ul>
+          <li>Nóra solves the rest of the levels of the number guessing game in the Loops chapter.</li>
+       </ul>
+       </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-14">Part 14</a> (1:01:23 min)
        <ul>
            <li>String Formatting.</li>
            <li>First part of the List chapter.</li>
        </ul>
        </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min) Lists chapter from split till first exercises.</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min) Nóra solving the exercises in the middle of the Lists chapter</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min) The second part of the Lists chapter.</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)
+       <ul>
+          <li>Lists chapter from split till first exercises.</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
+       <ul>
+          <li>Nóra solving the exercises in the middle of the Lists chapter</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)
+       <ul>
+          <li>The second part of the Lists chapter.</li>
+       </ul>
+       </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
        <ul>
           <li>Reviewing the exercises at the end of the lists chapter.</li>
