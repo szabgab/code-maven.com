@@ -16,9 +16,9 @@ People studying Chemistry, Biology, Physics, Lifes Sceinces and a whole lot of o
 This involves a lot of manual work, but plenty of this can be automated. There are many ready-made applications that can handle some of the computations, but there are even
 more that need special treatment.
 
-This course was designed to be given in <a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a> in Rehovot, Israel.
+This course was designed to be given at the <a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a> in Rehovot, Israel.
 It includes a basic Python course with specific extensions for scientific computational needs. It also touches other areas of
-programming
+programming that can help scientists to use software the best possible way they can.
 
 The recordings include clarifying questions and the solution of the exercises by <a href="https://www.linkedin.com/in/nora-doleschall/">Nora Doleschall</a>.
 
@@ -28,20 +28,73 @@ The slides used during the recording are available <a href="/slides/python">here
    <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
        <ul>
           <li>Introduction</li>
-          <li>What is programming?</li>
           <li>Windows command line</li>
        </ul>
        </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)</li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)</li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
+       <ul>
+          <li>Installing Python.</li>
+          <li>Hello World! - Writing our first program in Python.</li>
+          <li>TAB completition on the Windows command line.</li>
+          <li>The beginning of the "First steps" chapter.</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
+       <ul>
+          <li>Should we use Atom as an editor?</li>
+          <li>Should we use Python downloaded from Python.org?</li>
+          <li>What if we have two installations of Python on our computer?</li>
+          <li>What other editors and programming environments to use?</li>
+          <li>What is programming?</li>
+          <li>More in the "First steps" chapter</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
+       <ul>
+          <li>Adding numbers and strings together.</li>
+          <li>Exercises.</li>
+          <li>The end of the "First steps" chapter.</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
+       <ul>
+          <li>Reviewing the exercises from the previous chapter.</li>
+          <li>The math module of Python.</li>
+          <li>The Python interactive shell (REPL).</li>
+          <li>The beginning of the "Second steps" chapter up till "Conditional main".</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
+       <ul>
+          <li>"Second steps" starting at Input/Output till the exercises.</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
+       <ul>
+          <li>Review of the previous chapter, answering questions raised doring the previous video.</li>
+          <li>Review the previous exercises.</li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)
+       <ul>
+          <li></li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)
+       <ul>
+          <li></li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
+       <ul>
+          <li></li>
+       </ul>
+       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)
+       <ul>
+          <li></li>
+       </ul>
+       </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min)
        <ul>
           <li>Nóra solves the exercises of the Loop chapter.</li>
