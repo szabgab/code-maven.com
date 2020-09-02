@@ -1,0 +1,20 @@
+=title Add language tags to PyVideo
+=timestamp 2020-09-02T15:30:01
+=indexes Python, video, PyVideo
+=description PyVideo is a site where you can find videos from Python conferences. You can list them by spoken language and you can help categorize those pages.
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<code lang="perl">
+</code>
+
+<screencast file="english-add-language-tags-to-pyvideo.mkv" youtube="wPkFw5u8oeA" />
+
+<a href="https://pyvideo.org/">PyVideo</a>
