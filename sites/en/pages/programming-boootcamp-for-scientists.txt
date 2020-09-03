@@ -132,6 +132,12 @@ The slides used during the recording are available <a href="/slides/python">here
           <li>Discussing Algorithm complexity.</li>
       </ul>
       </li>
+   <li><a href="/pro/programming-boootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
+       <ul>
+          <li>The Files chapter</li>
+          <li>Images, Excel files, text files</li>
+      </ul>
+      </li>
    <li>...</li>
 </ul>
 
