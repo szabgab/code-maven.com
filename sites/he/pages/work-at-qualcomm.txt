@@ -1,5 +1,5 @@
 =title  עבודה בקוואלקום ישראל? שיחה עם עומר מרגלית
-=timestamp 2020-08-23T07:30:01
+=timestamp 2020-09-03T10:30:01
 =indexes Qualcomm
 =tags interview
 =status show
@@ -11,8 +11,7 @@
 =abstract start
 =abstract end
 
-
-<a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/272352636/">הרשמה כאן</a>
+<screencast file="hebrew-with-omer-margalit.mp4" youtube="1c162-8hF_U" />
 
 
 <ul>
