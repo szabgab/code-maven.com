@@ -66,19 +66,32 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
        <ul>
-          <li>Should we use Atom as an editor?</li>
+          <li>More in the "First steps" chapter</li>
+          <li>0:47 Nora had a couple of questions:</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Atom as an editor?</li>
           <li>Should we use Python downloaded from Python.org?</li>
           <li>What if we have two installations of Python on our computer?</li>
           <li>What other editors and programming environments to use?</li>
-          <li>What is programming?</li>
-          <li>More in the "First steps" chapter</li>
+          <li>11:20 Asking questions?</li>
+          <li>12:15 What is programming?</li>
+          <li>18:05 What are the programming languages?</li>
+          <li>22:05 Let's eat grandpa! Words and punctiona matter!</li>
+          <li>22:35 Literals, Value Types - The consistency of single- and double-quotes.</li>
+          <li>30:20 Running the script using a relative path. Showing exceptions (runtime errors) and how to try to understand them.</li>
+          <li>34:00 How to search for explanation about an exception. How to interpret what we see in StackOverflow.</li>
+          <li>39:30 The type system in Python and other languages.</li>
+          <li>40:50 The floating point error</li>
+          <li>43:40 Value Types in Numpy, Binary (base 2) reprentation of numbers.</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
        <ul>
-          <li>Adding numbers and strings together.</li>
-          <li>Exercises.</li>
           <li>The end of the "First steps" chapter.</li>
+          <li>1:20 Variables. Assignment. Multiplying numbers.</li>
+          <li>3:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
+          <li>5:50 Adding numbers together.</li>
+          <li>6:10 Adding strings together. (concatenation)</li>
+          <li>8:23 Exercises: Calculations</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
