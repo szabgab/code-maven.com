@@ -1,0 +1,23 @@
+=title עבודה בקופסה הכי גדולה באינטרנט- שיחה עם עמרי גרינפלד מחברת Dropbox</a></li>
+=timestamp 2020-09-04T08:30:01
+=indexes Dropbox
+=tags interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/273005437/">הרשמה כאן</a>
+
+
+<ul>
+    <li><a href="https://www.dropbox.com/">Dropbox</a></li>
+    <li><a href="https://www.linkedin.com/in/omrigrinfeld/">עומרי גרינפלד</a></li>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+
