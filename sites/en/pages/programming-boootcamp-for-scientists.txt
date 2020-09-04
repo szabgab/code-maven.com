@@ -27,8 +27,18 @@ The slides used during the recording are available <a href="/slides/python">here
 <ul>
    <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
        <ul>
-          <li>Introduction</li>
-          <li>Windows command line</li>
+          <li>0:00 Introduction to the Bootcamp.</li>
+          <li>1:37 Nora Doleschall introduces herself and her background in programming.</li>
+          <li>2:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
+          <li>8:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
+          <li>9:38 Showing the Windows command line and the file explorer</li>
+          <li>15:20 Keyboard shortcuts for the slides</li>
+          <li>16:48 Keyboard shortcuts on YouTube</li>
+          <li>17:37 Start talking about the slides</li>
+          <li>17:55 What is Python?</li>
+          <li>20:14 What is needed to write a program?</li>
+          <li>24:08 The source code of Python</li>
+          <li>26:00 Open Source</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
