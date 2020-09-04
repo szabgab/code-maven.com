@@ -43,10 +43,25 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
        <ul>
-          <li>Installing Python.</li>
-          <li>Hello World! - Writing our first program in Python.</li>
-          <li>TAB completition on the Windows command line.</li>
-          <li>The beginning of the "First steps" chapter.</li>
+          <li>0:00 The beginning of the "First steps" chapter.</li>
+          <li>0:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
+          <li>4:00 Installing Python.</li>
+          <li>4:10 Linux</li>
+          <li>5:17 Apple Mac OSX <a href="https://brew.sh/">Homebrew</a></li>
+          <li>6:38 MS Windows <a href="https://www.anaconda.com/products/individual">Anaconda</a> 64 bit vs 32 bit.</li>
+          <li>12:57 Verify the installation in Anaconda Prompt. Configure the color of the window.</li>
+          <li>17:26 Editor, IDE for Python</li>
+          <li>19:56 Documentation of Python, search engines, Stack Overflow</li>
+          <li>23:45 Program types</li>
+          <li>28:13 Python on the command line</li>
+          <li>29:53 Hello World! - Writing our first program in Python.</li>
+          <li>36:00 TAB completition on the Windows command line.</li>
+          <li>37:40 Windows file explorer - make the file extensions and the hidden files visible.</li>
+          <li>41:00 File extensions and Syntax highlighting in Notepad++.</li>
+          <li>43:50 How to download all the examples from GitHub</li>
+          <li>47:00 Comments</li>
+          <li>48:45 Variables</li>
+          <li>49:53 Exercise: Hello World</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
