@@ -12,7 +12,7 @@
 =abstract start
 =abstract end
 
-People studying Chemistry, Biology, Physics, Lifes Sceinces and a whole lot of other sciences will have a lot of need in processing and analyzing the data they collected.
+People studying Chemistry, Biology, Physics, Life Sciences and a whole lot of other sciences will have a lot of need in processing and analyzing the data they collected.
 This involves a lot of manual work, but plenty of this can be automated. There are many ready-made applications that can handle some of the computations, but there are even
 more that need special treatment.
 
@@ -75,13 +75,13 @@ The slides used during the recording are available <a href="/slides/python">here
           <li>11:20 Asking questions?</li>
           <li>12:15 What is programming?</li>
           <li>18:05 What are the programming languages?</li>
-          <li>22:05 Let's eat grandpa! Words and punctiona matter!</li>
+          <li>22:05 Let's eat grandpa! Words and punctuation matter!</li>
           <li>22:35 Literals, Value Types - The consistency of single- and double-quotes.</li>
           <li>30:20 Running the script using a relative path. Showing exceptions (runtime errors) and how to try to understand them.</li>
           <li>34:00 How to search for explanation about an exception. How to interpret what we see in StackOverflow.</li>
           <li>39:30 The type system in Python and other languages.</li>
           <li>40:50 The floating point error</li>
-          <li>43:40 Value Types in Numpy, Binary (base 2) reprentation of numbers.</li>
+          <li>43:40 Value Types in Numpy, Binary (base 2) representation of numbers.</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
@@ -132,7 +132,7 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
        <ul>
-          <li>00:00 Review of the previous chapter, answering questions raised doring the previous video.</li>
+          <li>00:00 Review of the previous chapter, answering questions raised during the previous video.</li>
           <li>00:50 Power of. About forgetting language constructs.</li>
           <li>02:50 Check if a string can be converted to a float.</li>
           <li>07:45 Solution of the area of rectangle exercise.</li>
@@ -172,8 +172,8 @@ The slides used during the recording are available <a href="/slides/python">here
           <li>04:00 Associate file extension with a program in MS Windows</li>
           <li>09:30 Solution of Number guessing game level 0.</li>
           <li>13:38 Solution of Fruit Salad.</li>
-          <li>19:05 Comparsion and Boolean</li>
-          <li>20:30 Comparsion operators</li>
+          <li>19:05 Comparison and Boolean</li>
+          <li>20:30 Comparison operators</li>
           <li>20:40 Compare numbers, compare strings (ASCII, Unicode)</li>
           <li>24:35 Do NOT Compare different types!</li>
           <li>28:03 Complex if statement with boolean operators (and, or, not)</li>
@@ -192,7 +192,33 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
        <ul>
-          <li></li>
+          <li>00:00 Solution to compare numbers</li>
+          <li>03:57 Solution to compare strings</li>
+          <li>08:00 Nóra explains her solutions using functions</li>
+          <li>13:10 Refactoring</li>
+          <li>19:27 Start the chapter Strings</li>
+          <li>19:38 Single quoted and double quoted strings</li>
+          <li>21:19 Triple quoted strings (multiline strings)</li>
+          <li>21:47 What would you do if you wanted to print a quote character? Escaping quotes. \n, \t</li>
+          <li>26:43 Is it OK to TABs instead of spaces for indenting Python code? Indentation examples. Notepad++ show whitespaces.</li>
+          <li>35:13 String length (len)</li>
+          <li>35:36 String repetition and concatenation</li>
+          <li>37:18 A character in a string.</li>
+          <li>38:00 Is a string a list? No, it's a Sequence.</li>
+          <li>39:00 String slice (instead of substr)</li>
+          <li>41:58 Change a string - Strings are immutable</li>
+          <li>44:20 String copy</li>
+          <li>47:05 String functions and methods (len, upper, lower)</li>
+          <li>49:30 All the built-in functions of Python</li>
+          <li>50:29 index and rindex in string</li>
+          <li>58:24 When the string is not found we get an exception. How can we prevent it?</li>
+          <li>59:16 find in string</li>
+          <li>1:00:39 in string</li>
+          <li>1:03:51 Encodings: ASCII, Windows-1255, Unicode</li>
+          <li>1:09:32 raw strings</li>
+          <li>1:14:42 ord</li>
+          <li>1:16:16 chr - number to character</li>
+          <li>1:16:45 Exercises</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)
