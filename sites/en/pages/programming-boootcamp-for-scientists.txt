@@ -27,11 +27,11 @@ The slides used during the recording are available <a href="/slides/python">here
 <ul>
    <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
        <ul>
-          <li>0:00 Introduction to the Bootcamp.</li>
-          <li>1:37 Nora Doleschall introduces herself and her background in programming.</li>
-          <li>2:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
-          <li>8:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
-          <li>9:38 Showing the Windows command line and the file explorer</li>
+          <li>00:00 Introduction to the Bootcamp.</li>
+          <li>01:37 Nora Doleschall introduces herself and her background in programming.</li>
+          <li>02:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
+          <li>08:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
+          <li>09:38 Showing the Windows command line and the file explorer</li>
           <li>15:20 Keyboard shortcuts for the slides</li>
           <li>16:48 Keyboard shortcuts on YouTube</li>
           <li>17:37 Start talking about the slides</li>
@@ -43,12 +43,12 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
        <ul>
-          <li>0:00 The beginning of the "First steps" chapter.</li>
-          <li>0:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
-          <li>4:00 Installing Python.</li>
-          <li>4:10 Linux</li>
-          <li>5:17 Apple Mac OSX <a href="https://brew.sh/">Homebrew</a></li>
-          <li>6:38 MS Windows <a href="https://www.anaconda.com/products/individual">Anaconda</a> 64 bit vs 32 bit.</li>
+          <li>00:00 The beginning of the "First steps" chapter.</li>
+          <li>00:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
+          <li>04:00 Installing Python.</li>
+          <li>04:10 Linux</li>
+          <li>05:17 Apple Mac OSX <a href="https://brew.sh/">Homebrew</a></li>
+          <li>06:38 MS Windows <a href="https://www.anaconda.com/products/individual">Anaconda</a> 64 bit vs 32 bit.</li>
           <li>12:57 Verify the installation in Anaconda Prompt. Configure the color of the window.</li>
           <li>17:26 Editor, IDE for Python</li>
           <li>19:56 Documentation of Python, search engines, Stack Overflow</li>
@@ -67,7 +67,7 @@ The slides used during the recording are available <a href="/slides/python">here
    <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
        <ul>
           <li>More in the "First steps" chapter</li>
-          <li>0:47 Nora had a couple of questions:</li>
+          <li>00:47 Nora had a couple of questions:</li>
           <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Atom as an editor?</li>
           <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Python downloaded from Python.org?</li>
           <li>&nbsp;&nbsp;&nbsp;&nbsp; What if we have two installations of Python on our computer?</li>
@@ -87,19 +87,19 @@ The slides used during the recording are available <a href="/slides/python">here
    <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
        <ul>
           <li>The end of the "First steps" chapter.</li>
-          <li>1:20 Variables. Assignment. Multiplying numbers.</li>
-          <li>3:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
-          <li>5:50 Adding numbers together.</li>
-          <li>6:10 Adding strings together. (concatenation)</li>
-          <li>8:23 Exercises: Calculations</li>
+          <li>01:20 Variables. Assignment. Multiplying numbers.</li>
+          <li>03:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
+          <li>05:50 Adding numbers together.</li>
+          <li>06:10 Adding strings together. (concatenation)</li>
+          <li>08:23 Exercises: Calculations</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
        <ul>
-          <li>0:00 Keyboard shortcuts for the slides</li>
-          <li>1:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
-          <li>4:09 The math module of Python. Attributes and methods.</li>
-          <li>9:45 The Python interactive shell (REPL).</li>
+          <li>00:00 Keyboard shortcuts for the slides</li>
+          <li>01:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
+          <li>04:09 The math module of Python. Attributes and methods.</li>
+          <li>09:45 The Python interactive shell (REPL).</li>
           <li>19:40 The beginning of the "Second steps" chapter up till "Conditional main".</li>
           <li>19:55 Modules - the sys module, getsizeof.</li>
           <li>30:00 The main function, indentation.</li>
@@ -111,9 +111,9 @@ The slides used during the recording are available <a href="/slides/python">here
    <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
        <ul>
           <li>"Second steps" starting at Input/Output till the exercises.</li>
-          <li>0:00 Input - Output I/O</li>
-          <li>5:23 print in Python 2</li>
-          <li>8:12 print in Python 3</li>
+          <li>00:00 Input - Output I/O</li>
+          <li>05:23 print in Python 2</li>
+          <li>08:12 print in Python 3</li>
           <li>13:00 from __future__ import print_function</li>
           <li>14:57 Exception: SyntaxError: Missing parentheses in call</li>
           <li>15:50 Prompting for user input in Python 2 (raw_input)</li>
@@ -132,19 +132,62 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
        <ul>
-          <li>Review of the previous chapter, answering questions raised doring the previous video.</li>
-          <li>Review the previous exercises.</li>
-          <li></li>
+          <li>00:00 Review of the previous chapter, answering questions raised doring the previous video.</li>
+          <li>00:50 Power of. About forgetting language constructs.</li>
+          <li>02:50 Check if a string can be converted to a float.</li>
+          <li>07:45 Solution of the area of rectangle exercise.</li>
+          <li>13:57 Solution of calculator exercise.</li>
+          <li>20:10 Command line arguments</li>
+          <li>32:10 Command line arguments - len</li>
+          <li>34:00 Showing <a href="https://pypi.org/">PyPi</a></li>
+          <li>35:03 Command line and exit. Usage. Exit code.</li>
+          <li>41:25 Continuous Integration systems.</li>
+          <li>43:20 Exercises: Rectangle, Calculator.</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)
        <ul>
-          <li></li>
+          <li>00:00 Solutions of the Rectangle and Calculator exercises.</li>
+          <li>03:30 Solution of Calculator with eval and why not to use eval.</li>
+          <li>08:25 Compilation vs. Interpretation</li>
+          <li>16:00 Is Python compiled or interpreted?</li>
+          <li>20:50 Flake 8 static code analysis (linter).</li>
+          <li>22:10 Numbers chapter</li>
+          <li>25:10 Operators for Numbers</li>
+          <li>30:08 Integer division and the __future__</li>
+          <li>30:50 Pseudo Random numbers (uniform distribution)</li>
+          <li>35:38 Fixed Random numbers (seed)</li>
+          <li>37:56 Rolling dice - randrange</li>
+          <li>40:41 Random choice</li>
+          <li>41:40 built-in method</li>
+          <li>45:19 Exception: TypeError: 'module' object is not callable</li>
+          <li>48:30 Exception: AttributeError: module 'random' has no attribute</li>
+          <li>52:28 Exercises: Number guessing game; Fruit salad</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)
        <ul>
-          <li></li>
+          <li>00:00 Intro to this video</li>
+          <li>02:10 How to get MS Windows not to close the cmd when the program ends?</li>
+          <li>04:00 Associate file extension with a program in MS Windows</li>
+          <li>09:30 Solution of Number guessing game level 0.</li>
+          <li>13:38 Solution of Fruit Salad.</li>
+          <li>19:05 Comparsion and Boolean</li>
+          <li>20:30 Comparsion operators</li>
+          <li>20:40 Compare numbers, compare strings (ASCII, Unicode)</li>
+          <li>24:35 Do NOT Compare different types!</li>
+          <li>28:03 Complex if statement with boolean operators (and, or, not)</li>
+          <li>31:14 Boolean truth tables</li>
+          <li>32:08 Boolean values: True and False</li>
+          <li>35:00 Flag</li>
+          <li>37:15 Toggle</li>
+          <li>38:10 Short circuit</li>
+          <li>42:10 Does this value count as True or False?</li>
+          <li>43:15 True and False values in Python</li>
+          <li>43:58 Incorrect use of conditions</li>
+          <li>45:49 "False" is True</li>
+          <li>48:02 What is the type of True and False?</li>
+          <li>49:10 Exercises: compare numbers; compare strings</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
