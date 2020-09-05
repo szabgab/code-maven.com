@@ -55,7 +55,7 @@ The slides used during the recording are available <a href="/slides/python">here
           <li>23:45 Program types</li>
           <li>28:13 Python on the command line</li>
           <li>29:53 Hello World! - Writing our first program in Python.</li>
-          <li>36:00 TAB completition on the Windows command line.</li>
+          <li>36:00 TAB completion on the Windows command line.</li>
           <li>37:40 Windows file explorer - make the file extensions and the hidden files visible.</li>
           <li>41:00 File extensions and Syntax highlighting in Notepad++.</li>
           <li>43:50 How to download all the examples from GitHub</li>
@@ -69,9 +69,9 @@ The slides used during the recording are available <a href="/slides/python">here
           <li>More in the "First steps" chapter</li>
           <li>0:47 Nora had a couple of questions:</li>
           <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Atom as an editor?</li>
-          <li>Should we use Python downloaded from Python.org?</li>
-          <li>What if we have two installations of Python on our computer?</li>
-          <li>What other editors and programming environments to use?</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Python downloaded from Python.org?</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp; What if we have two installations of Python on our computer?</li>
+          <li>&nbsp;&nbsp;&nbsp;&nbsp; What other editors and programming environments to use?</li>
           <li>11:20 Asking questions?</li>
           <li>12:15 What is programming?</li>
           <li>18:05 What are the programming languages?</li>
@@ -96,21 +96,45 @@ The slides used during the recording are available <a href="/slides/python">here
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
        <ul>
-          <li>Reviewing the exercises from the previous chapter.</li>
-          <li>The math module of Python.</li>
-          <li>The Python interactive shell (REPL).</li>
-          <li>The beginning of the "Second steps" chapter up till "Conditional main".</li>
+          <li>0:00 Keyboard shortcuts for the slides</li>
+          <li>1:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
+          <li>4:09 The math module of Python. Attributes and methods.</li>
+          <li>9:45 The Python interactive shell (REPL).</li>
+          <li>19:40 The beginning of the "Second steps" chapter up till "Conditional main".</li>
+          <li>19:55 Modules - the sys module, getsizeof.</li>
+          <li>30:00 The main function, indentation.</li>
+          <li>35:25 Can a function be named the same name as an already existing function?</li>
+          <li>37:10 Indentation</li>
+          <li>38:36 Conditional main (dunderscore) (error correction: those are quotations around "__main_"_ not parentheses.)</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
        <ul>
           <li>"Second steps" starting at Input/Output till the exercises.</li>
+          <li>0:00 Input - Output I/O</li>
+          <li>5:23 print in Python 2</li>
+          <li>8:12 print in Python 3</li>
+          <li>13:00 from __future__ import print_function</li>
+          <li>14:57 Exception: SyntaxError: Missing parentheses in call</li>
+          <li>15:50 Prompting for user input in Python 2 (raw_input)</li>
+          <li>19:20 Prompting for user input in Python 3 (input)</li>
+          <li>26:01 Prompting in both Python 2 and Python 3.</li>
+          <li>28:45 Add numbers entered by the user.</li>
+          <li>32:30 How can I check if a string can be converted to a number?</li>
+          <li>37:26 Nora pointing out the error in the previous example. Oups.</li>
+          <li>38:23 Converting string to int</li>
+          <li>41:49 Conditionals: if, else, elif</li>
+          <li>53:20 Ternary operator (Conditional Operator)</li>
+          <li>56:00 Case and switch in Python.</li>
+          <li>56:30 Exercises: Rectangle, Circle, Calculator</li>
+          <li>57:40 Learning Python the Hard way.</li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
        <ul>
           <li>Review of the previous chapter, answering questions raised doring the previous video.</li>
           <li>Review the previous exercises.</li>
+          <li></li>
        </ul>
        </li>
    <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)
