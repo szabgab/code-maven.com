@@ -20,255 +20,282 @@ This course was designed to be given at the <a href="https://www.weizmann.ac.il/
 It includes a basic Python course with specific extensions for scientific computational needs. It also touches other areas of
 programming that can help scientists to use software the best possible way they can.
 
-The recordings include clarifying questions and the solution of the exercises by <a href="https://www.linkedin.com/in/nora-doleschall/">Nora Doleschall</a>.
+The recordings include clarifying questions and the solution of the exercises by <a href="https://www.linkedin.com/in/nora-doleschall/">Nóra Doleschall</a>.
 
 The slides used during the recording are available <a href="/slides/python">here</a>.
 
 <ul>
-   <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
-       <ul>
-          <li>00:00 Introduction to the Bootcamp.</li>
-          <li>01:37 Nora Doleschall introduces herself and her background in programming.</li>
-          <li>02:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
-          <li>08:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
-          <li>09:38 Showing the Windows command line and the file explorer</li>
-          <li>15:20 Keyboard shortcuts for the slides</li>
-          <li>16:48 Keyboard shortcuts on YouTube</li>
-          <li>17:37 Start talking about the slides</li>
-          <li>17:55 What is Python?</li>
-          <li>20:14 What is needed to write a program?</li>
-          <li>24:08 The source code of Python</li>
-          <li>26:00 Open Source</li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
+        <ul>
+            <li>00:00 Introduction to the Bootcamp.</li>
+            <li>01:37 Nóra Doleschall introduces herself and her background in programming.</li>
+            <li>02:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
+            <li>08:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
+            <li>09:38 Showing the Windows command line and the file explorer</li>
+            <li>15:20 Keyboard shortcuts for the slides</li>
+            <li>16:48 Keyboard shortcuts on YouTube</li>
+            <li>17:37 Start talking about the slides</li>
+            <li>17:55 What is Python?</li>
+            <li>20:14 What is needed to write a program?</li>
+            <li>24:08 The source code of Python</li>
+            <li>26:00 Open Source</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
+        <ul>
+            <li>00:00 The beginning of the "First steps" chapter.</li>
+            <li>00:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
+            <li>04:00 Installing Python.</li>
+            <li>04:10 Linux</li>
+            <li>05:17 Apple Mac OSX <a href="https://brew.sh/">Homebrew</a></li>
+            <li>06:38 MS Windows <a href="https://www.anaconda.com/products/individual">Anaconda</a> 64 bit vs 32 bit.</li>
+            <li>12:57 Verify the installation in Anaconda Prompt. Configure the color of the window.</li>
+            <li>17:26 Editor, IDE for Python</li>
+            <li>19:56 Documentation of Python, search engines, Stack Overflow</li>
+            <li>23:45 Program types</li>
+            <li>28:13 Python on the command line</li>
+            <li>29:53 Hello World! - Writing our first program in Python.</li>
+            <li>36:00 TAB completion on the Windows command line.</li>
+            <li>37:40 Windows file explorer - make the file extensions and the hidden files visible.</li>
+            <li>41:00 File extensions and Syntax highlighting in Notepad++.</li>
+            <li>43:50 How to download all the examples from GitHub</li>
+            <li>47:00 Comments</li>
+            <li>48:45 Variables</li>
+            <li>49:53 Exercise: Hello World</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
+        <ul>
+            <li>00:00 More in the "First steps" chapter</li>
+            <li>00:47 Nóra had a couple of questions:</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Atom as an editor?</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Python downloaded from Python.org?</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp; What if we have two installations of Python on our computer?</li>
+            <li>&nbsp;&nbsp;&nbsp;&nbsp; What other editors and programming environments to use?</li>
+            <li>11:20 Asking questions?</li>
+            <li>12:15 What is programming?</li>
+            <li>18:05 What are the programming languages?</li>
+            <li>22:05 Let's eat grandpa! Words and punctuation matter!</li>
+            <li>22:35 Literals, Value Types - The consistency of single- and double-quotes.</li>
+            <li>30:20 Running the script using a relative path. Showing exceptions (runtime errors) and how to try to understand them.</li>
+            <li>34:00 How to search for explanation about an exception. How to interpret what we see in StackOverflow.</li>
+            <li>39:30 The type system in Python and other languages.</li>
+            <li>40:50 The floating point error</li>
+            <li>43:40 Value Types in Numpy, Binary (base 2) representation of numbers.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
+        <ul>
+            <li>The end of the "First steps" chapter.</li>
+            <li>01:20 Variables. Assignment. Multiplying numbers.</li>
+            <li>03:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
+            <li>05:50 Adding numbers together.</li>
+            <li>06:10 Adding strings together. (concatenation)</li>
+            <li>08:23 Exercises: Calculations</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
+        <ul>
+            <li>00:00 Keyboard shortcuts for the slides</li>
+            <li>01:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
+            <li>04:09 The math module of Python. Attributes and methods.</li>
+            <li>09:45 The Python interactive shell (REPL).</li>
+            <li>19:40 The beginning of the "Second steps" chapter up till "Conditional main".</li>
+            <li>19:55 Modules - the sys module, getsizeof.</li>
+            <li>30:00 The main function, indentation.</li>
+            <li>35:25 Can a function be named the same name as an already existing function?</li>
+            <li>37:10 Indentation</li>
+            <li>38:36 Conditional main (dunderscore) (error correction: those are quotations around "__main_"_ not parentheses.)</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
+        <ul>
+            <li>"Second steps" starting at Input/Output till the exercises.</li>
+            <li>00:00 Input - Output I/O</li>
+            <li>05:23 print in Python 2</li>
+            <li>08:12 print in Python 3</li>
+            <li>13:00 from __future__ import print_function</li>
+            <li>14:57 Exception: SyntaxError: Missing parentheses in call</li>
+            <li>15:50 Prompting for user input in Python 2 (raw_input)</li>
+            <li>19:20 Prompting for user input in Python 3 (input)</li>
+            <li>26:01 Prompting in both Python 2 and Python 3.</li>
+            <li>28:45 Add numbers entered by the user.</li>
+            <li>32:30 How can I check if a string can be converted to a number?</li>
+            <li>37:26 Nóra pointing out the error in the previous example. Oups.</li>
+            <li>38:23 Converting string to int</li>
+            <li>41:49 Conditionals: if, else, elif</li>
+            <li>53:20 Ternary operator (Conditional Operator)</li>
+            <li>56:00 Case and switch in Python.</li>
+            <li>56:30 Exercises: Rectangle, Circle, Calculator</li>
+            <li>57:40 Learning Python the Hard way.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
+        <ul>
+            <li>00:00 Review of the previous chapter, answering questions raised during the previous video.</li>
+            <li>00:50 Power of. About forgetting language constructs.</li>
+            <li>02:50 Check if a string can be converted to a float.</li>
+            <li>07:45 Solution of the area of rectangle exercise.</li>
+            <li>13:57 Solution of calculator exercise.</li>
+            <li>20:10 Command line arguments</li>
+            <li>32:10 Command line arguments - len</li>
+            <li>34:00 Showing <a href="https://pypi.org/">PyPi</a></li>
+            <li>35:03 Command line and exit. Usage. Exit code.</li>
+            <li>41:25 Continuous Integration systems.</li>
+            <li>43:20 Exercises: Rectangle, Calculator.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)
+        <ul>
+            <li>00:00 Solutions of the Rectangle and Calculator exercises.</li>
+            <li>03:30 Solution of Calculator with eval and why not to use eval.</li>
+            <li>08:25 Compilation vs. Interpretation</li>
+            <li>16:00 Is Python compiled or interpreted?</li>
+            <li>20:50 Flake 8 static code analysis (linter).</li>
+            <li>22:10 Numbers chapter</li>
+            <li>25:10 Operators for Numbers</li>
+            <li>30:08 Integer division and the __future__</li>
+            <li>30:50 Pseudo Random numbers (uniform distribution)</li>
+            <li>35:38 Fixed Random numbers (seed)</li>
+            <li>37:56 Rolling dice - randrange</li>
+            <li>40:41 Random choice</li>
+            <li>41:40 built-in method</li>
+            <li>45:19 Exception: TypeError: 'module' object is not callable</li>
+            <li>48:30 Exception: AttributeError: module 'random' has no attribute</li>
+            <li>52:28 Exercises: Number guessing game; Fruit salad</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)
+        <ul>
+            <li>00:00 Intro to this video</li>
+            <li>02:10 How to get MS Windows not to close the cmd when the program ends?</li>
+            <li>04:00 Associate file extension with a program in MS Windows</li>
+            <li>09:30 Solution of Number guessing game level 0.</li>
+            <li>13:38 Solution of Fruit Salad.</li>
+            <li>19:05 Comparison and Boolean</li>
+            <li>20:30 Comparison operators</li>
+            <li>20:40 Compare numbers, compare strings (ASCII, Unicode)</li>
+            <li>24:35 Do NOT Compare different types!</li>
+            <li>28:03 Complex if statement with boolean operators (and, or, not)</li>
+            <li>31:14 Boolean truth tables</li>
+            <li>32:08 Boolean values: True and False</li>
+            <li>35:00 Flag</li>
+            <li>37:15 Toggle</li>
+            <li>38:10 Short circuit</li>
+            <li>42:10 Does this value count as True or False?</li>
+            <li>43:15 True and False values in Python</li>
+            <li>43:58 Incorrect use of conditions</li>
+            <li>45:49 "False" is True</li>
+            <li>48:02 What is the type of True and False?</li>
+            <li>49:10 Exercises: compare numbers; compare strings</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
+        <ul>
+            <li>00:00 Solution to compare numbers</li>
+            <li>03:57 Solution to compare strings</li>
+            <li>08:00 Nóra explains her solutions using functions</li>
+            <li>13:10 Refactoring</li>
+            <li>19:27 Start the chapter Strings</li>
+            <li>19:38 Single quoted and double quoted strings</li>
+            <li>21:19 Triple quoted strings (multiline strings)</li>
+            <li>21:47 What would you do if you wanted to print a quote character? Escaping quotes. \n, \t</li>
+            <li>26:43 Is it OK to TABs instead of spaces for indenting Python code? Indentation examples. Notepad++ show whitespaces.</li>
+            <li>35:13 String length (len)</li>
+            <li>35:36 String repetition and concatenation</li>
+            <li>37:18 A character in a string.</li>
+            <li>38:00 Is a string a list? No, it's a Sequence.</li>
+            <li>39:00 String slice (instead of substr)</li>
+            <li>41:58 Change a string - Strings are immutable</li>
+            <li>44:20 String copy</li>
+            <li>47:05 String functions and methods (len, upper, lower)</li>
+            <li>49:30 All the built-in functions of Python</li>
+            <li>50:29 index and rindex in string</li>
+            <li>58:24 When the string is not found we get an exception. How can we prevent it?</li>
+            <li>59:16 find in string</li>
+            <li>1:00:39 in string</li>
+            <li>1:03:51 Encodings: ASCII, Windows-1255, Unicode</li>
+            <li>1:09:32 raw strings</li>
+            <li>1:14:42 ord</li>
+            <li>1:16:16 chr - number to character</li>
+            <li>1:16:45 Exercises</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)
+        <ul>
+            <li>00:00 Solving the exercise: one string in another string.</li>
+            <li>04:32 Solving the exercise: compare strings. Including Nóra finding a bug in my solution and fixing it.</li>
+            <li>12:27 Solving the exercise: ASCII CLI.</li>
+            <li>13:00 Loops chapter</li>
+            <li>14:23 for-in and while loops.</li>
+            <li>15:49 for-in loop on strings.</li>
+            <li>18:17 for-in loop on lists.</li>
+            <li>19:33 for-in loop on range.</li>
+            <li>22:58 for-in loop with early end using break.</li>
+            <li>26:08 for-in loop skipping parts using continue</li>
+            <li>28:06 for-in loop with break and continue.</li>
+            <li>30:58 while loop.</li>
+            <li>32:30 Infinite while loop.</li>
+            <li>34:25 while with complex expression.</li>
+            <li>35:28 while with break</li>
+            <li>38:34 De Morgan's law</li>
+            <li>40:25 while True</li>
+            <li>42:12 Duplicate input call.</li>
+            <li>45:11 Eliminate duplicate input call.</li>
+            <li>46:05 do while loop.</li>
+            <li>47:30 while with meny continue calls.</li>
+            <li>50:28 Exit vs. return vs. break and continue.</li>
+            <li>52:25 Exercises.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min)
+        <ul>
+            <li>00:00 Nóra solves the exercises of the Loop chapter.</li>
+            <li>02:00 Solution for exercise: Print all the locations in a string</li>
+            <li>16:27 Solution for exercise: Number guessing game.</li>
+            <li>40:40 Solution for exercise: Count unique characters. (also using sets)</li>
+            <li>45:10 What is the difference between == and the "is" operator?</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-13">Part 13</a> (20:38 min)
+        <ul>
+            <li>00:00 Nóra solves the rest of the levels of the number guessing game in the Loops chapter.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-14">Part 14</a> (1:01:23 min)
+        <ul>
+            <li>String Formatting.</li>
+            <li>First part of the List chapter.</li>
+            <li></li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)
+        <ul>
+            <li>Lists chapter from split till first exercises.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
+        <ul>
+            <li>Nóra solving the exercises in the middle of the Lists chapter</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)
+        <ul>
+            <li>The second part of the Lists chapter.</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
+        <ul>
+            <li>Reviewing the exercises at the end of the lists chapter.</li>
+            <li>Discussing Algorithm complexity.</li>
        </ul>
        </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
-       <ul>
-          <li>00:00 The beginning of the "First steps" chapter.</li>
-          <li>00:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
-          <li>04:00 Installing Python.</li>
-          <li>04:10 Linux</li>
-          <li>05:17 Apple Mac OSX <a href="https://brew.sh/">Homebrew</a></li>
-          <li>06:38 MS Windows <a href="https://www.anaconda.com/products/individual">Anaconda</a> 64 bit vs 32 bit.</li>
-          <li>12:57 Verify the installation in Anaconda Prompt. Configure the color of the window.</li>
-          <li>17:26 Editor, IDE for Python</li>
-          <li>19:56 Documentation of Python, search engines, Stack Overflow</li>
-          <li>23:45 Program types</li>
-          <li>28:13 Python on the command line</li>
-          <li>29:53 Hello World! - Writing our first program in Python.</li>
-          <li>36:00 TAB completion on the Windows command line.</li>
-          <li>37:40 Windows file explorer - make the file extensions and the hidden files visible.</li>
-          <li>41:00 File extensions and Syntax highlighting in Notepad++.</li>
-          <li>43:50 How to download all the examples from GitHub</li>
-          <li>47:00 Comments</li>
-          <li>48:45 Variables</li>
-          <li>49:53 Exercise: Hello World</li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
+        <ul>
+            <li>The Files chapter</li>
+            <li>Images, Excel files, text files</li>
        </ul>
        </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
-       <ul>
-          <li>More in the "First steps" chapter</li>
-          <li>00:47 Nora had a couple of questions:</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Atom as an editor?</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp; Should we use Python downloaded from Python.org?</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp; What if we have two installations of Python on our computer?</li>
-          <li>&nbsp;&nbsp;&nbsp;&nbsp; What other editors and programming environments to use?</li>
-          <li>11:20 Asking questions?</li>
-          <li>12:15 What is programming?</li>
-          <li>18:05 What are the programming languages?</li>
-          <li>22:05 Let's eat grandpa! Words and punctuation matter!</li>
-          <li>22:35 Literals, Value Types - The consistency of single- and double-quotes.</li>
-          <li>30:20 Running the script using a relative path. Showing exceptions (runtime errors) and how to try to understand them.</li>
-          <li>34:00 How to search for explanation about an exception. How to interpret what we see in StackOverflow.</li>
-          <li>39:30 The type system in Python and other languages.</li>
-          <li>40:50 The floating point error</li>
-          <li>43:40 Value Types in Numpy, Binary (base 2) representation of numbers.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
-       <ul>
-          <li>The end of the "First steps" chapter.</li>
-          <li>01:20 Variables. Assignment. Multiplying numbers.</li>
-          <li>03:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
-          <li>05:50 Adding numbers together.</li>
-          <li>06:10 Adding strings together. (concatenation)</li>
-          <li>08:23 Exercises: Calculations</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
-       <ul>
-          <li>00:00 Keyboard shortcuts for the slides</li>
-          <li>01:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
-          <li>04:09 The math module of Python. Attributes and methods.</li>
-          <li>09:45 The Python interactive shell (REPL).</li>
-          <li>19:40 The beginning of the "Second steps" chapter up till "Conditional main".</li>
-          <li>19:55 Modules - the sys module, getsizeof.</li>
-          <li>30:00 The main function, indentation.</li>
-          <li>35:25 Can a function be named the same name as an already existing function?</li>
-          <li>37:10 Indentation</li>
-          <li>38:36 Conditional main (dunderscore) (error correction: those are quotations around "__main_"_ not parentheses.)</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
-       <ul>
-          <li>"Second steps" starting at Input/Output till the exercises.</li>
-          <li>00:00 Input - Output I/O</li>
-          <li>05:23 print in Python 2</li>
-          <li>08:12 print in Python 3</li>
-          <li>13:00 from __future__ import print_function</li>
-          <li>14:57 Exception: SyntaxError: Missing parentheses in call</li>
-          <li>15:50 Prompting for user input in Python 2 (raw_input)</li>
-          <li>19:20 Prompting for user input in Python 3 (input)</li>
-          <li>26:01 Prompting in both Python 2 and Python 3.</li>
-          <li>28:45 Add numbers entered by the user.</li>
-          <li>32:30 How can I check if a string can be converted to a number?</li>
-          <li>37:26 Nora pointing out the error in the previous example. Oups.</li>
-          <li>38:23 Converting string to int</li>
-          <li>41:49 Conditionals: if, else, elif</li>
-          <li>53:20 Ternary operator (Conditional Operator)</li>
-          <li>56:00 Case and switch in Python.</li>
-          <li>56:30 Exercises: Rectangle, Circle, Calculator</li>
-          <li>57:40 Learning Python the Hard way.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
-       <ul>
-          <li>00:00 Review of the previous chapter, answering questions raised during the previous video.</li>
-          <li>00:50 Power of. About forgetting language constructs.</li>
-          <li>02:50 Check if a string can be converted to a float.</li>
-          <li>07:45 Solution of the area of rectangle exercise.</li>
-          <li>13:57 Solution of calculator exercise.</li>
-          <li>20:10 Command line arguments</li>
-          <li>32:10 Command line arguments - len</li>
-          <li>34:00 Showing <a href="https://pypi.org/">PyPi</a></li>
-          <li>35:03 Command line and exit. Usage. Exit code.</li>
-          <li>41:25 Continuous Integration systems.</li>
-          <li>43:20 Exercises: Rectangle, Calculator.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)
-       <ul>
-          <li>00:00 Solutions of the Rectangle and Calculator exercises.</li>
-          <li>03:30 Solution of Calculator with eval and why not to use eval.</li>
-          <li>08:25 Compilation vs. Interpretation</li>
-          <li>16:00 Is Python compiled or interpreted?</li>
-          <li>20:50 Flake 8 static code analysis (linter).</li>
-          <li>22:10 Numbers chapter</li>
-          <li>25:10 Operators for Numbers</li>
-          <li>30:08 Integer division and the __future__</li>
-          <li>30:50 Pseudo Random numbers (uniform distribution)</li>
-          <li>35:38 Fixed Random numbers (seed)</li>
-          <li>37:56 Rolling dice - randrange</li>
-          <li>40:41 Random choice</li>
-          <li>41:40 built-in method</li>
-          <li>45:19 Exception: TypeError: 'module' object is not callable</li>
-          <li>48:30 Exception: AttributeError: module 'random' has no attribute</li>
-          <li>52:28 Exercises: Number guessing game; Fruit salad</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)
-       <ul>
-          <li>00:00 Intro to this video</li>
-          <li>02:10 How to get MS Windows not to close the cmd when the program ends?</li>
-          <li>04:00 Associate file extension with a program in MS Windows</li>
-          <li>09:30 Solution of Number guessing game level 0.</li>
-          <li>13:38 Solution of Fruit Salad.</li>
-          <li>19:05 Comparison and Boolean</li>
-          <li>20:30 Comparison operators</li>
-          <li>20:40 Compare numbers, compare strings (ASCII, Unicode)</li>
-          <li>24:35 Do NOT Compare different types!</li>
-          <li>28:03 Complex if statement with boolean operators (and, or, not)</li>
-          <li>31:14 Boolean truth tables</li>
-          <li>32:08 Boolean values: True and False</li>
-          <li>35:00 Flag</li>
-          <li>37:15 Toggle</li>
-          <li>38:10 Short circuit</li>
-          <li>42:10 Does this value count as True or False?</li>
-          <li>43:15 True and False values in Python</li>
-          <li>43:58 Incorrect use of conditions</li>
-          <li>45:49 "False" is True</li>
-          <li>48:02 What is the type of True and False?</li>
-          <li>49:10 Exercises: compare numbers; compare strings</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
-       <ul>
-          <li>00:00 Solution to compare numbers</li>
-          <li>03:57 Solution to compare strings</li>
-          <li>08:00 Nóra explains her solutions using functions</li>
-          <li>13:10 Refactoring</li>
-          <li>19:27 Start the chapter Strings</li>
-          <li>19:38 Single quoted and double quoted strings</li>
-          <li>21:19 Triple quoted strings (multiline strings)</li>
-          <li>21:47 What would you do if you wanted to print a quote character? Escaping quotes. \n, \t</li>
-          <li>26:43 Is it OK to TABs instead of spaces for indenting Python code? Indentation examples. Notepad++ show whitespaces.</li>
-          <li>35:13 String length (len)</li>
-          <li>35:36 String repetition and concatenation</li>
-          <li>37:18 A character in a string.</li>
-          <li>38:00 Is a string a list? No, it's a Sequence.</li>
-          <li>39:00 String slice (instead of substr)</li>
-          <li>41:58 Change a string - Strings are immutable</li>
-          <li>44:20 String copy</li>
-          <li>47:05 String functions and methods (len, upper, lower)</li>
-          <li>49:30 All the built-in functions of Python</li>
-          <li>50:29 index and rindex in string</li>
-          <li>58:24 When the string is not found we get an exception. How can we prevent it?</li>
-          <li>59:16 find in string</li>
-          <li>1:00:39 in string</li>
-          <li>1:03:51 Encodings: ASCII, Windows-1255, Unicode</li>
-          <li>1:09:32 raw strings</li>
-          <li>1:14:42 ord</li>
-          <li>1:16:16 chr - number to character</li>
-          <li>1:16:45 Exercises</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)
-       <ul>
-          <li></li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min)
-       <ul>
-          <li>Nóra solves the exercises of the Loop chapter.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-13">Part 13</a> (20:38 min)
-       <ul>
-          <li>Nóra solves the rest of the levels of the number guessing game in the Loops chapter.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-14">Part 14</a> (1:01:23 min)
-       <ul>
-           <li>String Formatting.</li>
-           <li>First part of the List chapter.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)
-       <ul>
-          <li>Lists chapter from split till first exercises.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
-       <ul>
-          <li>Nóra solving the exercises in the middle of the Lists chapter</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)
-       <ul>
-          <li>The second part of the Lists chapter.</li>
-       </ul>
-       </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
-       <ul>
-          <li>Reviewing the exercises at the end of the lists chapter.</li>
-          <li>Discussing Algorithm complexity.</li>
-      </ul>
-      </li>
-   <li><a href="/pro/programming-boootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
-       <ul>
-          <li>The Files chapter</li>
-          <li>Images, Excel files, text files</li>
-      </ul>
-      </li>
-   <li>...</li>
+    <li>...</li>
 </ul>
 
