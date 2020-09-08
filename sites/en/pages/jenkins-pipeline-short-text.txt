@@ -18,8 +18,12 @@ The text does not show up on the BlueOcean UI.
 script {
    manager.addShortText("Some text")
    manager.addShortText("\ntext")
+
    manager.addShortText("same line", "black", "lightgreen", "0px", "white")
+   manager.addShortText(text, foreground_color, background_color, border_width, border_color)
 }
 </code>
 
 For the manager object to exists we need to install the <a href="https://wiki.jenkins.io/display/JENKINS/Groovy+Postbuild+Plugin">Groovy Postbuild Plugin</a>
+
+<include file="examples/jenkins/manager_addShortText.Jenkinsfile">
