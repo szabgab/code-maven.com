@@ -288,14 +288,24 @@ The slides used during the recording are available <a href="/slides/python">here
         <ul>
             <li>Reviewing the exercises at the end of the lists chapter.</li>
             <li>Discussing Algorithm complexity.</li>
-       </ul>
-       </li>
+        </ul>
+        </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
         <ul>
             <li>The Files chapter</li>
             <li>Images, Excel files, text files</li>
-       </ul>
-       </li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-20">Part 20</a> (1:08:14 min)
+        <ul>
+            <li></li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-21">Part 21</a> (52:04 min)
+        <ul>
+            <li></li>
+        </ul>
+        </li>
     <li>...</li>
 </ul>
 
