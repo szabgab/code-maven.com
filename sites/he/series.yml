@@ -27,7 +27,7 @@ collab-dev:
         - collab-dev-github-onsite-editing-drawing
         - collab-dev-edit-the-readme-file
         - collab-dev-edit-csv-file
-        - pro/collab-dev-github-offsite-editing-drawing
+        - collab-dev-github-offsite-editing-drawing
         - pro/collab-dev-git
         - pro/collab-dev-edit-json-file
         - pro/collab-dev-update-code-maven-site
