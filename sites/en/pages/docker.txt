@@ -39,6 +39,9 @@ The <a href="/slides/docker/">slides of the Docker course</a>.
     <li><a href="/pro/docker-course-ubuntu-htop">Docker image based on Ubuntu using htop</a> (RUN apt-get)</li>
     <li><a href="/pro/docker-course-copy-welcome">COPY an external file a Docker image</a> (COPY)</li>
     <li><a href="/pro/docker-course-install-curl">Install and use curl in Docker</a> (ENTRYPOINT)</li>
+    <li><a href="/pro/docker-course-entrypoint-vs-cmd">ENTRYPOINT vs CMD</a></li>
+    <li><a href="/pro/docker-course-crontab">Docker with crontab</a></li>
+    <li><a href="/pro/docker-course-mounting-host-directory">Docker mounting host directory in a container</a> (-v)</li>
 </ol>
 
 <!--
