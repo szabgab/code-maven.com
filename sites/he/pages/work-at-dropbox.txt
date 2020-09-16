@@ -21,7 +21,15 @@
     <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
     <li><a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850#ace-g6796040015">Cracking the Coding Interview: 189 Programming Questions and Solutions</a></li>
     <li><a href="https://github.com/dropbox">Dropbox on Github</a></li>
-    <li><a href=""></a></li>
-    <li><a href=""></a></li>
+    <li><a href="https://www.interviewbit.com/">Interviewbit</a></li>
+    <li><a href="https://leetcode.com/">LeetCode</a></li>
+    <li><a href="https://www.hackerrank.com/">HackerRank</a></li>
+    <li><a href="https://www.codechef.com/">CodeChef</a></li>
+    <li><a href="http://www.olim-beyahad.org.il/en/">Olim Beyahad</a></li>
+    <li><a href="https://tech-career.org/">קריירה</a></li>
+    <li><a href="https://tech-career.org/en/">Tech Career</a></li>
+    <li><a href="https://www.hoshen.org/">חוש"ן</a></li>
 </ul>
-
+<!--
+    <li><a href=""></a></li>
+-->
