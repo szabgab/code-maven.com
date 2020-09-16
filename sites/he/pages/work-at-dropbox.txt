@@ -11,13 +11,17 @@
 =abstract start
 =abstract end
 
-<a class="btn btn-lg btn-success" href="https://www.meetup.com/Code-Mavens/events/273005437/">הרשמה כאן</a>
-
+<screencast file="hebrew_webinar_with_omri_frinfeld_dropbox.mp4" youtube="ctbxNlQgS8E" />
 
 <ul>
     <li><a href="https://www.dropbox.com/">Dropbox</a></li>
+    <li><a href="https://www.dropbox.com/jobs/">Dropbox jobs</a></li>
     <li><a href="https://www.linkedin.com/in/omrigrinfeld/">עומרי גרינפלד</a></li>
     <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
     <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+    <li><a href="https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850#ace-g6796040015">Cracking the Coding Interview: 189 Programming Questions and Solutions</a></li>
+    <li><a href="https://github.com/dropbox">Dropbox on Github</a></li>
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
 </ul>
 
