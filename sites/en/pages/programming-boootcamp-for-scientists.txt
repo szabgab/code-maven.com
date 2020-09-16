@@ -306,6 +306,29 @@ The slides used during the recording are available <a href="/slides/python">here
             <li></li>
         </ul>
         </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-22">Part 22</a> (42:42 min)
+        <ul>
+            <li>Nora solving the exercises from the Dictionaries chapter</li>
+            <li></li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-23">Part 23</a> (38:55 min)
+        <ul>
+            <li>Nora solving the exercises from the Dictionaries chapter</li>
+            <li></li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-24">Part 24</a> (16:12 min)
+        <ul>
+            <li>The sets chapter</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-25">Part 25</a> (1:17:23 min)
+        <ul>
+            <li>The Functions chapter</li>
+            <li></li>
+        </ul>
+        </li>
     <li>...</li>
 </ul>
 
