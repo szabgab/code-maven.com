@@ -86,7 +86,7 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
         <ul>
-            <li>The end of the "First steps" chapter.</li>
+            <li>00:00 The end of the "First steps" chapter.</li>
             <li>01:20 Variables. Assignment. Multiplying numbers.</li>
             <li>03:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
             <li>05:50 Adding numbers together.</li>
@@ -110,7 +110,7 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
         <ul>
-            <li>"Second steps" starting at Input/Output till the exercises.</li>
+            <li>00:00 "Second steps" starting at Input/Output till the exercises.</li>
             <li>00:00 Input - Output I/O</li>
             <li>05:23 print in Python 2</li>
             <li>08:12 print in Python 3</li>
@@ -264,14 +264,35 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-14">Part 14</a> (1:01:23 min)
         <ul>
-            <li>String Formatting.</li>
-            <li>First part of the List chapter.</li>
+            <li>00:00 Intro.</li>
+            <li>01:14 Formatted Printing.</li>
+            <li>01:48 format - sprintf</li>
+            <li>08:31 Examples using format - indexing</li>
+            <li>09:00 Examples using format with names</li>
+            <li>09:36 Format columns</li>
+            <li>15:00 Examples using format - alignment</li>
+            <li>16:18 Format - string</li>
+            <li>17:15 Format characters and types.</li>
+            <li>18:05 Format floating point numbers.</li>
+            <li>18:46 f-strings (formatted string literals).</li>
+            <li>21:01 raw f-strings.</li>
+            <li>22:40 What would you use in a GUI? - Templates.</li>
             <li></li>
+            <li>25:02 First part of the List chapter.</li>
+            <li>29:00 Access single element of a list, access sublist (slice) of a list.</li>
+            <li>31:26 List slice with steps.</li>
+            <li>33:52 Change the content of a list.</li>
+            <li>37:25 Change with steps.</li>
+            <li>38:44 List assignment and list copy. (shallow copy, deep copy)</li>
+            <li>48:51 join</li>
+            <li>51:30 join list of numbers (also show map, str, and list comprehension)</li>
+            <li>56:59 split (divide strings, separate parts of a string).</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)
         <ul>
             <li>Lists chapter from split till first exercises.</li>
+            <li></li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
@@ -320,7 +341,17 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-24">Part 24</a> (16:12 min)
         <ul>
-            <li>The sets chapter</li>
+            <li>00:00 The sets chapter</li>
+            <li>02:45 Creating a set</li>
+            <li>05.00 Creating and empty set.</li>
+            <li>05:25 Adding element to a set. (add)</li>
+            <li>06:00 Merging one set into another set. (update)</li>
+            <li>09:23 intersection</li>
+            <li>10:38 subset</li>
+            <li>11:05 symmetric difference</li>
+            <li>11:40 union</li>
+            <li>12:44 What is the difference between union and update?</li>
+            <li>13:20 relative complement</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-25">Part 25</a> (1:17:23 min)
