@@ -315,27 +315,53 @@ The slides used during the recording are available <a href="/slides/python">here
     <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
         <ul>
             <li>00:00 Nóra solving the exercises in the middle of the Lists chapter</li>
-            <li>01:00 Queue</li>
-            <li>07:10 Stack (Reverse Polish Calculator)</li>
-            <li>16:35 MasterMind</li>
+            <li>01:00 Solution: Queue</li>
+            <li>07:10 Solution: Stack (Reverse Polish Calculator)</li>
+            <li>16:35 Solution: MasterMind</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)
         <ul>
             <li>00:00 The second part of the Lists chapter.</li>
-            <li></li>
+            <li>01:10 About debugging</li>
+            <li>06:20 sort</li>
+            <li>07:30 sort numbers</li>
+            <li>08:57 sort mixed list</li>
+            <li>09:37 sort (key)</li>
+            <li>11:05 sort with sorted</li>
+            <li>14:15 range</li>
+            <li>15:56 Looping over index</li>
+            <li>18:25 Enumerate lists (go over lists using index-value pairs)</li>
+            <li>19:57 List operators</li>
+            <li>22:11 List of lists</li>
+            <li>24:36 List assignment</li>
+            <li>26:30 Tuples</li>
+            <li>28:00 Sort Tuples</li>
+            <li>30:00 Exercise: color selector menu</li>
+            <li>32:22 Exercise: count digits</li>
+            <li>33:15 Exercise: create list</li>
+            <li>34:00 Exercise: count words</li>
+            <li>34:47 Exercise: check if number is prime</li>
+            <li>35:00 Exercise: DNA sequencing</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
         <ul>
-            <li>Reviewing the exercises at the end of the lists chapter.</li>
-            <li>Discussing Algorithm complexity.</li>
+            <li>00:00 Reviewing the exercises at the end of the lists chapter.</li>
+            <li>01:23 Solution: color selector menu</li>
+            <li>24:45 Solution: count digits</li>
+            <li>28:55 Solution: create list (also using sets)</li>
+            <li>41:00 Solution: count words</li>
+            <li>45:12 Discussing Algorithm complexity.</li>
+            <li>53:40 Solution: check if a number is prime</li>
+            <li>1:08:20 Solution: DNA sequencing</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
         <ul>
             <li>The Files chapter</li>
             <li>Images, Excel files, text files</li>
+            <li></li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-20">Part 20</a> (1:08:14 min)
