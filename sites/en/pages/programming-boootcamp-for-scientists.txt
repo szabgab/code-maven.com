@@ -356,8 +356,32 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-25">Part 25</a> (1:17:23 min)
         <ul>
-            <li>The Functions chapter</li>
-            <li></li>
+            <li>00:00 The Functions chapter</li>
+            <li>00:40 Why use functions?</li>
+            <li>04:33 Defining simple function</li>
+            <li>08:28 Functions - pass parameters by position.</li>
+            <li>10:11 Functions - pass paramaters by name.</li>
+            <li>11:43 Mixing positional and named parameters.</li>
+            <li>15:20 Default values, optional parameters</li>
+            <li>19:18 Several defaults, using names</li>
+            <li>21:04 Arbitrary number of arguments *</li>
+            <li>26:45 Fixed parameters come before the others.</li>
+            <li>28:00 Arbitrary key-value pairs in parameters **</li>
+            <li>30:50 Extra key-value pairs in parameters</li>
+            <li>31:10 Every parameter option</li>
+            <li>32:11 Duplicate declaration of functions</li>
+            <li>38:03 Recursive functions (recursive factorial)</li>
+            <li>46:00 Recursive Fibonacci function</li>
+            <li>49:30 Non-recursive Fibonacci</li>
+            <li>51:50 Unbound recoursion</li>
+            <li>53:18 Variable assignment and change - immutable, mutable</li>
+            <li>55:35 Parameter passing of functions</li>
+            <li>1:00:20 Function documentation</li>
+            <li>1:01:17 Copy-paste code</li>
+            <li>1:07:00 Exercises</li>
+            <li>1:07:24 Returning multiple values from a function</li>
+            <li>1:13:00 Exercise: Merge and Bubble sort</li>
+            <li>1:15:23 Exercise: Refactor earlier solutions to use functions.</li>
         </ul>
         </li>
     <li>...</li>
