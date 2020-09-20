@@ -291,18 +291,39 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)
         <ul>
-            <li>Lists chapter from split till first exercises.</li>
-            <li></li>
+            <li>00:00 Lists chapter from split till first exercises.</li>
+            <li>00:50 for loop on lists (for in)</li>
+            <li>02:25 in list (in)</li>
+            <li>03:00 Where is the element in the list  (index)</li>
+            <li>05:25 Index improved</li>
+            <li>06:30 insert elemet into list (insert)</li>
+            <li>08:25 append element to the end of a list (append)</li>
+            <li>08:45 remove element from list by value. (remove)</li>
+            <li>10:15 remove element from list by location (by index) (pop)</li>
+            <li>11:35 Why is it called pop?  (Discussing queues FIFO and stacks LIFO)</li>
+            <li>14:24 Remove first element of a list (shift, pop(0))</li>
+            <li>15:20 Remove several elements, a sublist, from a list.</li>
+            <li>16:48 Use a list as a queue.</li>
+            <li>20:27 Use deque from collections to be a queue.</li>
+            <li>23:20 Use a list as a stack.</li>
+            <li>24:50 Use deque from collections to be a stack.</li>
+            <li>25:30 Exercise: Queue</li>
+            <li>27:00 Exercise: Stack (Reverse Polish Calculator)</li>
+            <li>31:15 Exercise: MasterMind</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
         <ul>
-            <li>Nóra solving the exercises in the middle of the Lists chapter</li>
+            <li>00:00 Nóra solving the exercises in the middle of the Lists chapter</li>
+            <li>01:00 Queue</li>
+            <li>07:10 Stack (Reverse Polish Calculator)</li>
+            <li>16:35 MasterMind</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)
         <ul>
-            <li>The second part of the Lists chapter.</li>
+            <li>00:00 The second part of the Lists chapter.</li>
+            <li></li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
@@ -329,13 +350,13 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-22">Part 22</a> (42:42 min)
         <ul>
-            <li>Nora solving the exercises from the Dictionaries chapter</li>
+            <li>Nóra solving the exercises from the Dictionaries chapter</li>
             <li></li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-23">Part 23</a> (38:55 min)
         <ul>
-            <li>Nora solving the exercises from the Dictionaries chapter</li>
+            <li>Nóra solving the exercises from the Dictionaries chapter</li>
             <li></li>
         </ul>
         </li>
