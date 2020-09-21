@@ -383,13 +383,20 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>57:50 Exercise: count numbers</li>
             <li>58:20 Exercise: strip newlines</li>
             <li>58:35 Exercise: color selector</li>
-            <li>59:12 ROT13</li>
-            <li>01:01:05 Exercise: Combine lists</li>
+            <li>59:12 Exercise: ROT13</li>
+            <li>01:01:05 Exercise: combine lists</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-20">Part 20</a> (1:08:14 min)
         <ul>
-            <li></li>
+            <li>00:00 The solutions for the exercises in the files chapter</li>
+            <li>01:20 Solution: counte numbers</li>
+            <li>05:30 Solution: strip newlines</li>
+            <li>06:17 Solution: color selector and fixing an interesting bug.</li>
+            <li>17:10 Solution: ROT13, discussing open with r+, and how filehandle works.</li>
+            <li>27:25 Solution: combine lists, trying various solutions, including one using sets and one using tuples. Sorting using lambda function.</li>
+            <li>1:04:10 Exercise: print lines with Report</li>
+            <li>1:06:30 return from a function can return a value</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-21">Part 21</a> (52:04 min)
