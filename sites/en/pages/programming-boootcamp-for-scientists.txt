@@ -440,16 +440,25 @@ The slides used during the recording are available <a href="/slides/python">here
     <li><a href="/pro/programming-boootcamp-for-scientists-22">Part 22</a> (42:42 min)
         <ul>
             <li>00:00 Nóra solving the exercises from the Dictionaries chapter</li>
-            <li></li>
-            <li></li>
-            <li></li>
-            <li></li>
+            <li>01:00 Solution: count characters</li>
+            <li>05:30 Looking for defaultdict solution</li>
+            <li>08:20 Solution: count characters from a file</li>
+            <li>20:25 Solution: count words</li>
+            <li>20:50 Solution: count words from a file</li>
+            <li>28:00 Comparing the solutions using two lists with the solution using a dictionary. Discussing complexity again.</li>
+            <li>33:45 Solution: Apache log - how to use split()</li>
+            <li>40:57 Solution: combine lists (combine files)</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-23">Part 23</a> (38:55 min)
         <ul>
-            <li>Nóra solving the exercises from the Dictionaries chapter</li>
-            <li></li>
+            <li>00:00 Nóra solving the exercises from the Dictionaries chapter</li>
+            <li>00:25 Solution: DNA base counter</li>
+            <li>04:00 Solution: count Amino Acids</li>
+            <li>15:35 Solution: List of dictionaries, the csv module</li>
+            <li>24:05 Solution: Dictionary of dictionaries</li>
+            <li>26:45 Solution: Age limit with dictionaries</li>
+            <li>30:35 Y2K bug, Bug 2000, Year 2038 problem</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-24">Part 24</a> (16:12 min)
@@ -497,6 +506,13 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>1:15:23 Exercise: Refactor earlier solutions to use functions.</li>
         </ul>
         </li>
+<!--
+    <li><a href="">Part 26</a> (... min)
+        <ul>
+            <li>00:00</li>
+        </ul>
+        </li>
+-->
     <li>...</li>
 </ul>
 
