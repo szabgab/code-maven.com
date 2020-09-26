@@ -508,22 +508,60 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-26">Part 26</a> (58:03 min)
         <ul>
-            <li>00:00</li>
+            <li>00:00 Solutions for the exercises in the Functions chapter</li>
+            <li>00:40 Solution: Function returning Statistics</li>
+            <li>04:30 The _ placeholder variable</li>
+            <li>07:25 Solution: Recursive function to show dependency tree</li>
+            <li>12:03 Solution: Tower of Hanoi - skipping</li>
+            <li>12:20 Solution: Bubble sort (sort-of)</li>
+            <li>31:50 Solution: Merge sort</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-27">Part 27</a> (50:39 min)
         <ul>
-            <li>00:00</li>
+            <li>00:00 The Modules chapter</li>
+            <li>00:30 Goals of having modules</li>
+            <li>04:00 Before modules (a function in a single-file program)</li>
+            <li>04:34 Creating modules: Separating the above program in to module and executable. (import, from)</li>
+            <li>05:40 How does Python find the module to be loaded?</li>
+            <li>07:56 Importing and aliasing module name (as)</li>
+            <li>11:25 path to load modules from - the module search path</li>
+            <li>12:30 sys.path the module search path</li>
+            <li>13:45 Flat project directory structure</li>
+            <li>14:39 Relative pathes (Why is the direcotry called 'bin'?</li>
+            <li>16:30 Absolute path and why it is not a good practice</li>
+            <li>18:45 Back to the relative path and explaining how it works (os.path.join, os.path.abspath, os.path.dirname, __file__)</li>
+            <li>24:13 Mentinoning modules in directory hiearchy (submodules) but not showing them. Since then, there is already a slide with that example.</li>
+            <li>24:46 Python modules are compiles .pyc files, __pycache__ directory.</li>
+            <li>28:30 Caching</li>
+            <li>30:40 How "import" and "from" work?</li>
+            <li>31:20 Runtime loading of modules</li>
+            <li>33:30 When you import a module, will Python find it eventually?</li>
+            <li>35:13 Conditional loading of modules</li>
+            <li>37:18 Duplicate importing of functions (pylint)</li>
+            <li>40:50 Script or library (script or module) (__name__, __main__)</li>
+            <li>47:00 Import the same module multiple times</li>
+            <li>48:14 Exercises: Convert the earlier solutions to be modules and programs.</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-28">Part 28</a> (28:01 min)
         <ul>
-            <li>00:00</li>
+            <li>00:00 CSV</li>
+            <li>00:40 Reading CSV in the naive way (split)</li>
+            <li>04:20 What is sys.stderr.write ? (Standard Output, Standard Error)</li>
+            <li>09:50 CSV with quotes and with newlines</li>
+            <li>12:35 Reading CSV file using the csv module (reader, delimiter)</li>
+            <li>17:40 Report when there is an error in the CSV file (strict mode)</li>
+            <li>19:24 CSV to dictionary (DictReader)</li>
+            <li>24:15 CSV Attributes</li>
+            <li>25:30 CSV dialects</li>
+            <li>27:00 Exercise: CSV</li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-29">Part 29</a> (27:51 min)
         <ul>
             <li>00:00</li>
+            <li></li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-30">Part 30</a> (1:08:29 min)
