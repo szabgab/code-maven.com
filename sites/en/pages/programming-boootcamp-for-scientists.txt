@@ -569,8 +569,18 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>00:00</li>
         </ul>
         </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-31">Part 31</a> (1:00:58 min)
+        <ul>
+            <li>00:00</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-32">Part 32</a> (1:31:51 min)
+        <ul>
+            <li>00:00</li>
+        </ul>
+        </li>
 <!--
-    <li><a href="/pro/programming-boootcamp-for-scientists-31">Part 31</a> (... min)
+    <li><a href="/pro/programming-boootcamp-for-scientists-33">Part 33</a> (... min)
         <ul>
             <li>00:00</li>
         </ul>
