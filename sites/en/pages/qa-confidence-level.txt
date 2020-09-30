@@ -1,0 +1,77 @@
+=title Measuring confidence level in your application - Quality Assurance?
+=timestamp 2020-09-30T07:30:01
+=indexes QA, testing, quality
+=description How can you measure the confidence level in your application?
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+One of my clients that is moving their services from an on-premise installation to the cloud, started to talk about the level of confidence in their code.
+
+I am wondering why does it come up now? What is different from the previous 20+ years when they released software? And how can we really measure confidence?
+
+=abstract end
+
+I think the big difference that earlier they relied on a <b>QA department</b> that was checking their application after the main part of the development
+was done. This took months of back-and-forth bug reporting, fixing and re-testing. We all know and hate this model.
+
+This system was not good back them, but it is impossible now when moving to the cloud.
+
+In this new cloud-based environment the expectation is that we can we will be able to release and deploy code within hours of it being "finished" by the developers.
+I think they still have not fully accepted that the word "finished" or "done" has a totally different meaning than what they used to have.
+
+In any case I was trying to come up with a few ways we can measure this level of confidence. These might help your organization as well?
+
+<h2>Business level measurement</h2>
+
+These could be things like
+<ul>
+    <li>How much money we make?</li>
+    <li>How many visitors convert to users?</li>
+    <li>etc.</li>
+</ul>
+
+but at least in our business the sales are done by sales people, so our measurements need to focus on how well we serve existing clients.
+
+<h2>Business level serving existing clients</h2>
+
+The primary measurement should be <b>goals set by the business</b>: The number, severity, and length of production failures. Who measures it and how?
+In general the lower the numbers the better. One needs to measure these and make sure they keep going down with time. Once thing that is really difficult
+here is to measure the "severity".
+
+A similar measurement could be something like the following:
+
+<ul>
+    <li>Number of open issues/tickets (weighted based on severity)?</li>
+    <li>How long the issues are open?</li>
+    <li>How soon are they found after they got added to the code?</li>
+    <li>How soon are they fixed in the code?</li>
+    <li>How soon do they reach production?</li>
+</ul>
+
+
+<h2>Code level</h2>
+
+
+<ul>
+    <li>Unit test</li>
+    <li>Test coverage</li>
+    <li>Data coverage.</li>
+    <li>Load and Performance test thresholds met</li>
+    <li>Code standardization measurements. Static Code Analyzers  (linter, tidy etc.)</li>
+    <li>Cyclomatic code complexity measurement.</li>
+</ul>
+
+
+<h2>Other</h2>
+
+A few other resources I looked at:
+
+<a href="https://reqtest.com/testing-blog/test-coverage-metrics/">Test coverage metrics</a>
+
+<a href="https://reqtest.com/testing-blog/5-key-benefits-of-using-a-traceability-matrix-to-stay-on-top-and-in-control-of-your-project/">Traceability matrix</a>
+
