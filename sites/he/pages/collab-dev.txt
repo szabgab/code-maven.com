@@ -34,7 +34,7 @@
     <li><a href="/collab-dev-edit-csv-file">מטלה: עריכת קובץ עם שדות מופרדים עם פסיק. אינטגרציה רציפה עם טרביס</a>
 (Task: Edit CSV file, Continuous Integration with Travis-CI)</li>
     <li><a href="/collab-dev-github-offsite-editing-drawing">עריכת קבצים מחוץ לגיטהאב על המחשב שלכם</a> (GitHub Offsite editing.)</li>
-    <li><a href="/pro/collab-dev-git">גיט</a> (Git)</li>
+    <li><a href="/collab-dev-git">גיט</a> (Git)</li>
     <li><a href="/pro/collab-dev-edit-json-file">מטלה: עריכת קובץ ישן</a> (Task: Edit JSON file)</li>
     <li><a href="/pro/collab-dev-update-code-maven-site">מטלה: עזרה בשיפור התוכן באתר זה - האתר של מביני קוד.</a> (Task: Update Code-Maven site)</li>
     <li><a href="/pro/collab-dev-code-and-talk">Task: Code and Talk</a></li>

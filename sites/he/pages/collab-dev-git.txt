@@ -1,0 +1,14 @@
+=title גיט למשתמשי גיטהאב
+=timestamp 2020-10-01T08:10:01
+=indexes GitHub
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-collab-dev-git" youtube="KiYF4I8VDyo" />
+
