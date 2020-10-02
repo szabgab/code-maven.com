@@ -648,8 +648,28 @@ The slides used during the recording are available <a href="/slides/python">here
             <li></li>
         </ul>
         </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-33">Part 33</a> (1:00:17 min)
+        <ul>
+            <li>00:00 Solutions of exercises in Regular Expressions</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-34">Part 34</a> (1:00:34 min)
+        <ul>
+            <li>00:00 PyCharm</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-35">Part 35</a> (47:13 min)
+        <ul>
+            <li>00:00 Standard packages</li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-36">Part 36</a> (35:00 min)
+        <ul>
+            <li>00:00 Testing Demo</li>
+        </ul>
+        </li>
 <!--
-    <li><a href="/pro/programming-boootcamp-for-scientists-33">Part 33</a> (... min)
+    <li><a href="/pro/programming-boootcamp-for-scientists-37">Part 37</a> ( min)
         <ul>
             <li>00:00</li>
         </ul>
