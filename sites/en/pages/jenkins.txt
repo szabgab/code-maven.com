@@ -13,9 +13,17 @@
 
 =abstract end
 
+<h2>Installations</h2>
+
 <ol>
     <li><a href="/install-jenkins-on-ubuntu">Install Jenkins on Ubuntu</a> (using Vagrant)</li>
     <li><a href="/vagrant-for-jenkins-on-ubuntu">Vagrant for Jenkins on Ubuntu</a></li>
+    <li><a href="/jenkins-in-docker">Jenkins in Docker</a></li>
+</ol>
+
+<h2>Examples</h2>
+
+<ol>
     <li><a href="/jenkins-pipeline-hello-world">Jenkins Pipeline - Hello World</a> (pipeline, agent, stages, stage, stpes, echo)</li>
     <li><a href="/jenkins-pipeline-running-external-programs">Jenkins Pipeline: running external programs with sh or bat</a>, returnStdout, trim</li>
     <li><a href="/jenkins-send-email-notifications">Jenkins Pipeline: Send e-mail notifications</a></li>

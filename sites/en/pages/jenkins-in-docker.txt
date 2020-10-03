@@ -1,0 +1,114 @@
+=title Running Jenkins in Docker
+=timestamp 2020-10-03T19:50:01
+=indexes Jenkins, Docker
+=description Running Jenkins in Docker
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this example we'll see how to run a single-node Jenkins system in Docker.
+
+=abstract end
+
+I found this article about <a href="https://www.jenkins.io/blog/2018/12/10/the-official-Docker-image/">the official Docker image</a>
+that lead me to the <a href="https://hub.docker.com/r/jenkins/jenkins/">jenkins/jenkins</a> image.
+
+<h2>Launch the first time</h2>
+
+<code>
+docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 --name jenkins_master --rm jenkins/jenkins:lts
+</code>
+
+<ul>
+   <li>This will run The container in the background (as a daemon) because of the <b>-d</b> flag.</li>
+   <li>It will make the <b>/var/jenkins_home</b> of the container to a Jenkins volume called <b>jenkins_home</b>. If the volume does not exist it will create it. We need the volume to have persistence between re-launches.</li>
+   <li><b>-p</b> maps the ports</li>
+   <li><b>--name jenkins_master</b> will call Docker container jenkins_master. You can of course use any other name, but we'll need this name later on. Internally Jenkins refers to this node as "master" regardless of the name of the container you choose here.</li>
+   <li><b>--rm</b> tells Docker to remove the container when we stopped running it.</li>
+</ul>
+
+Once it launched we need to copy the one-time secret created by Jenkins, so type in:
+
+<code>
+docker container cp jenkins_master:/var/jenkins_home/secrets/initialAdminPassword .
+</code>
+
+(There is a separate dot at the end!)
+
+The take the content of the file:
+
+If your host is Linux/OSX use:
+
+<code>
+cat initialAdminPassword
+</code>
+
+If your host is Windows user:
+
+<code>
+type initialAdminPassword
+</code>
+
+It will print a string that looks like this: 2cead49b41fa41888c78d06be80fd5e7
+
+
+Open this page in your browser: <a href="http://localhost:8080/">http://localhost:8080/</a>, that's where Jenkins will live.
+Paste the string you got into the window.
+
+Then select the <b>Install default plugins</b>, it will take some time to install the plugins.
+
+It will then ask for the initial user. Give it whatever you like.
+
+
+At this point you can use Jenkins and you have a single node called "master".
+
+Try to run the <a href="/jenkins-pipeline-hello-world">Hello World pipeline</a>
+
+<h2>See the container running</h2>
+
+<code>
+docker ps
+</code>
+
+
+<h2>To stop the Jenkins server</h2>
+
+When you are done using the Jenkins server you might want to shut down the container so it won't use your CPU.
+
+<code>
+docker container stop jenkins_master
+</code>
+
+Because we used the --rm flag this will also remove the container. However the volume where we have all the data will remain.
+
+To see the container is gone type in
+
+<code>
+docker ps -a
+</code>
+
+<h2>List volumes</h2>
+
+To see that the volume exists type in:
+
+<code>
+docker volume ls
+</code>
+
+
+<h2>Start Jenkins again</h2>
+
+In order to start the Jenkins server again type in the same command as you typed in when you first launched it above.
+
+You can change basically any of the options now, for example you can use a different name for the container or you can decide
+to map the server to another port. The only thing that must remain the same is the content of the <b>-v</b> flag and the name of the
+base image. That will ensure we use the already existing volume that has all of our installations and configurations.
+
+
+<h2>Enjoy</h2>
+

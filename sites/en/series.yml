@@ -410,10 +410,13 @@ rnd:
         - rnd-the-black-list
 jenkins:
   chapters:
-    - title: Jenkins
+    - title: Installations
       sub:
         - install-jenkins-on-ubuntu
         - vagrant-for-jenkins-on-ubuntu
+        - jenkins-in-docker
+    - title: Examples
+      sub:
         - jenkins-pipeline-hello-world
         - jenkins-pipeline-running-external-programs
         - jenkins-send-email-notifications
