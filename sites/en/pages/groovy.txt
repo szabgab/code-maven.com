@@ -68,6 +68,11 @@ Oh and you can also grab my <a href="https://leanpub.com/groovy-book/">Groovy bo
   <li><a href="/groovy-exception-handling">Exception handling</a> (try, catch, Exception)</li>
   <li><a href="/groovy-throw-exception">Throw (raise) exception</a><li>
   <li><a href="/groovy-casting">Casting</a> Integer, String, ...</li>
+  <li><a href="/groovy-unicode">Printing Unicode characters from Groovy</a></li>
+  <li><a href="/groovy-import-standard-libraries">Import standard libraries</a></li>
+  <li><a href="/groovy-iterate-over-map-keys">Iterate over map keys</a></li>
+  <li><a href="/groovy-map-keys-as-arraylist">Get the list of keys of a map as an ArrayList</a></li>
+
   <li>STDOUT/STDERR</li>
   <li>Read/Write YAML files</li>
   <li>Read/Write INI files</li>

@@ -396,6 +396,7 @@ groovy:
         - groovy-exception-handling
         - groovy-throw-exception
         - groovy-casting
+        - groovy-unicode
         - groovy-import-standard-libraries
         - groovy-iterate-over-map-keys
         - groovy-map-keys-as-arraylist
