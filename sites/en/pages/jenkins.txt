@@ -41,6 +41,7 @@
     <li>Send alerts</li>
     <li>Collect test coverage data.</li>
     <li><a href="/slides/jenkins/">Jenkins slides</a></li>
+    <li><a href="/jenkins-pipeline-unicode">Jenkins printing Unicode characters</a></li>
 </ol>
 
 <h2>Run external code, capture output</h2>

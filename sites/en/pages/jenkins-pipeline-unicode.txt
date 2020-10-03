@@ -1,0 +1,20 @@
+=title Jenkins Pipeline printing Unicode characters
+=timestamp 2020-10-03T18:30:01
+=indexes Jenkins
+=description It seems to be easy to print Unicode characters from a Jenkins Pipeline
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+It seems to be easy to print Unicode characters from a Jenkins Pipeline
+
+=abstract end
+
+<include file="examples/jenkins/unicode.jenkinsfile">
+
+I tried this in Jenkins version 2.249.1 running in Docker and the consul output was showing the strings as expected.
