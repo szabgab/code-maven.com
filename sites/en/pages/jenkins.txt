@@ -501,3 +501,15 @@ if (res == 'FAILURE') {
 </code>
 
 
+
+<h2>jenkins error, we need to clean the regex variables</h2>
+
+<code>
+def output = sh(...)
+def version = (output =~ /Version\s*:\s*([\d.]+)/)
+def build_number = (output =~ /Build number\s*:\s*([\d]+)/)
+currentBuild.description = "${version[0][1]} - ${build_number[0][1]}<br>"
+version = ""
+build_number = ""
+</code>
+
