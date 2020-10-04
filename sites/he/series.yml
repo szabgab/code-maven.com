@@ -29,7 +29,7 @@ collab-dev:
         - collab-dev-edit-csv-file
         - collab-dev-github-offsite-editing-drawing
         - collab-dev-git
-        - pro/collab-dev-edit-json-file
+        - collab-dev-edit-json-file
         - pro/collab-dev-update-code-maven-site
         - pro/collab-dev-code-and-talk
         - pro/collab-dev-awesome-for-beginners
