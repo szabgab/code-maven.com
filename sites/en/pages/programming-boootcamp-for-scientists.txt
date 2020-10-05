@@ -767,8 +767,19 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-37">Part 37</a> (19:53 min)
         <ul>
-            <li>00:00</li>
-            <li></li>
+            <li>00:00 SciPy - for Scientific Computing in Python</li>
+            <li>01:20 SciPy</li>
+            <li>01:45 BioPython</li>
+            <li>01:57 NumPy</li>
+            <li>02:28 Pandas</li>
+            <li>03:00 Matplotlib, Seaborn, Bokeh</li>
+            <li>04:03 SciKit-Learn</li>
+            <li>04:32 TensorFlow</li>
+            <li>04:50 Keras - Trying to explain Deep learning</li>
+            <li>08:27 Orange</li>
+            <li>09:09 Airflow and Luigi</li>
+            <li>10:43 Explanation about GPU, about clusters, and about the cloud</li>
+            <li>17:38 Octave and why Open Source can be better than Matlab</li>
         </ul>
         </li>
 <!--
