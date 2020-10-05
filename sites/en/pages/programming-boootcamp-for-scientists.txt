@@ -765,8 +765,14 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>31:23 Exercise: Write test for your previous solutions</li>
         </ul>
         </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-37">Part 37</a> (19:53 min)
+        <ul>
+            <li>00:00</li>
+            <li></li>
+        </ul>
+        </li>
 <!--
-    <li><a href="/pro/programming-boootcamp-for-scientists-37">Part 37</a> ( min)
+    <li><a href="/pro/programming-boootcamp-for-scientists-38">Part 38</a> ( min)
         <ul>
             <li>00:00</li>
             <li></li>
