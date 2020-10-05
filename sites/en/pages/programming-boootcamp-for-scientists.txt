@@ -782,8 +782,20 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>17:38 Octave and why Open Source can be better than Matlab</li>
         </ul>
         </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-38">Part 38</a> (37:04 min)
+        <ul>
+            <li>00:00</li>
+            <li></li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-39">Part 39</a> (42:46 min)
+        <ul>
+            <li>00:00</li>
+            <li></li>
+        </ul>
+        </li>
 <!--
-    <li><a href="/pro/programming-boootcamp-for-scientists-38">Part 38</a> ( min)
+    <li><a href="/pro/programming-boootcamp-for-scientists-40">Part 40</a> ( min)
         <ul>
             <li>00:00</li>
             <li></li>
