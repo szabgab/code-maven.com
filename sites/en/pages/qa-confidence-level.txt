@@ -12,16 +12,16 @@
 
 One of my clients that is moving their services from an on-premise installation to the cloud, started to talk about the level of confidence in their code.
 
-I am wondering why does it come up now? What is different from the previous 20+ years when they released software? And how can we really measure confidence?
+I am wondering why it came up now? What is different from the previous 20+ years when they released software? And how can we really measure confidence?
 
 =abstract end
 
-I think the big difference that earlier they relied on a <b>QA department</b> that was checking their application after the main part of the development
+I think the big difference is that earlier they relied on a <b>QA department</b> that was checking their application after the main part of the development
 was done. This took months of back-and-forth bug reporting, fixing and re-testing. We all know and hate this model.
 
-This system was not good back them, but it is impossible now when moving to the cloud.
+This system was not good back then, but it is impossible now when moving to the cloud.
 
-In this new cloud-based environment the expectation is that we can we will be able to release and deploy code within hours of it being "finished" by the developers.
+In this new cloud-based environment the expectation is that we will be able to release and deploy code within hours of it being "finished" by the developers.
 I think they still have not fully accepted that the word "finished" or "done" has a totally different meaning than what they used to have.
 
 In any case I was trying to come up with a few ways we can measure this level of confidence. These might help your organization as well?
@@ -30,7 +30,7 @@ In any case I was trying to come up with a few ways we can measure this level of
 
 These could be things like
 <ul>
-    <li>How much money we make?</li>
+    <li>How much money do we make?</li>
     <li>How many visitors convert to users?</li>
     <li>etc.</li>
 </ul>
@@ -47,7 +47,7 @@ A similar measurement could be something like the following:
 
 <ul>
     <li>Number of open issues/tickets (weighted based on severity)?</li>
-    <li>How long the issues are open?</li>
+    <li>How long are the issues open?</li>
     <li>How soon are they found after they got added to the code?</li>
     <li>How soon are they fixed in the code?</li>
     <li>How soon do they reach production?</li>
