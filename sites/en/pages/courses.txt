@@ -22,72 +22,78 @@ The courses can be offered in English, Hebrew, or Hungarian.
 (in ABC order)
 
 <ul>
-    <li><a href="/courses/advanced-git">Advanced Git</a></li>
-    <li><a href="/courses/advanced-python">Advanced Python programming</a></li>
     <li><a href="/courses/bash-scripting">Bash Scripting</a></li>
     <li><a href="/courses/delivery">Delivery</a></li>
     <li><a href="/courses/docker">Docker</a> containerization</li>
     <li><a href="/courses/git">Git</a> version control</li>
+    <li><a href="/courses/advanced-git">Git (advanced)</a></li>
     <li><a href="/courses/google-cloud">Google Cloud</a></li>
     <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premis Continuous Integration</li>
-    <li><a href="/courses/linux-for-power-users">Linux for Power users</a></li>
+    <li><a href="/courses/linux-for-power-users">Linux for Power users</a> (Using the Linux shell)</li>
     <li><a href="/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
-    <li><a href="/courses/travis-ci">Travis-CI</a> for cloud based Continuous Integration</li>
     <li><a href="/courses/perl">Perl programming</a></li>
-    <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
     <li><a href="/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
+    <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
+    <li><a href="/courses/advanced-python">Python programming (advanced level)</a></li>
     <li><a href="/courses/regexes">Regular Expressions</a></li>
     <li><a href="/courses/testing-python">Testing in Python</a></li>
+    <li><a href="/courses/travis-ci">Travis-CI</a> for cloud based Continuous Integration</li>
 </ul>
 
 
+<h2>Courses by audience</h2>
 
-<h3>DevOps</h3>
+<h3>DevOps Engineers</h3>
 
 These course are designed to fit anyone in Development, Operations, or in DevOps.
 
 <ul>
     <li><a href="/courses/docker">Docker</a> containerization</li>
     <li><a href="/courses/git">Git</a> version control</li>
-    <li><a href="/courses/advanced-git">Advanced Git</a></li>
+    <li><a href="/courses/advanced-git">Git (advanced)</a></li>
+    <li><a href="/courses/linux-for-power-users">Linux for Power users</a> (Using the Linux shell)</li>
     <li><a href="/courses/bash-scripting">Bash Scripting</a></li>
     <li><a href="/courses/google-cloud">Google Cloud</a></li>
     <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premis Continuous Integration</li>
     <li><a href="/courses/travis-ci">Travis-CI</a> for cloud based Continuous Integration</li>
     <li><a href="/courses/delivery">Delivery</a></li>
+    <li><a href="/courses/regexes">Regular Expressions</a></li>
 </ul>
 
-<h2>Test Automation</h2>
+<h3>Test Automation</h3>
 <ul>
     <li><a href="/courses/git">Git</a> version control</li>
     <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
     <li><a href="/courses/testing-python">Testing in Python</a></li>
 </ul>
 
-<h2>Python programmers</h2>
+<h3>Python programmers</h3>
 <ul>
     <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
-    <li><a href="/courses/advanced-python">Advanced Python programming</a></li>
+    <li><a href="/courses/advanced-python">Python programming (advanced level)</a></li>
     <li><a href="/courses/testing-python">Testing in Python</a></li>
-    <li><a href="/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
     <li><a href="/courses/git">Git</a> version control</li>
     <li><a href="/courses/docker">Docker</a> containerization</li>
-</ul>
-
-<h2>Linux</h2>
-<ul>
-    <li><a href="/courses/linux-for-power-users">Linux for Power users</a></li>
-    <li><a href="/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
-
-</ul>
-
-<h2>Other</h2>
-
-That I could not put in any of the big categories.
-
-<ul>
     <li><a href="/courses/regexes">Regular Expressions</a></li>
+</ul>
+
+<h2>Linux Users</h2>
+<ul>
+    <li><a href="/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
+    <li><a href="/courses/linux-for-power-users">Linux for Power users</a> (Using the Linux shell)</li>
+</ul>
+
+<h3>Perl programmers</h3>
+<ul>
     <li><a href="/courses/perl">Perl programming</a></li>
+    <li><a href="/courses/git">Git</a> version control</li>
+    <li><a href="/courses/regexes">Regular Expressions</a></li>
+</ul>
+
+<h2>Scientists, Science students</h2>
+
+<ul>
+    <li><a href="/courses/bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
 </ul>
 
 
