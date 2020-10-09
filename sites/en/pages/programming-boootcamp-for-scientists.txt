@@ -850,8 +850,20 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>1:04:45 Software Development methods</li>
         </ul>
         </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-41">Part 41</a> (1:01:53 min)
+        <ul>
+            <li>00:00</li>
+            <li></li>
+        </ul>
+        </li>
+    <li><a href="/pro/programming-boootcamp-for-scientists-42">Part 42</a> (1:02:39 min)
+        <ul>
+            <li>00:00</li>
+            <li></li>
+        </ul>
+        </li>
 <!--
-    <li><a href="/pro/programming-boootcamp-for-scientists-41">Part 41</a> ( min)
+    <li><a href="/pro/programming-boootcamp-for-scientists-44">Part 43</a> ( min)
         <ul>
             <li>00:00</li>
             <li></li>
