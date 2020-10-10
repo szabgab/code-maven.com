@@ -24,6 +24,23 @@ The recordings include clarifying questions and the solution of the exercises by
 
 The slides used during the recording are available <a href="/slides/python">here</a>.
 
+<h3>What to watch and in which order to watch?</h3>
+
+The videos are in the order we recorded them. They are more-or-less along the lines of the chapters, except at the beginning where some chapters are split into multiple videos and some
+videos contain parts from multiple chapters.
+
+<ul>
+    <li>There are timestamps on this page pointing you where each sections starts.
+    <li>Many sections contain discussions about solving the exercises. I think they can be very useful after you solved the respective exercise, but you can learn the material without them too.
+    <li>The Tk video (Part 30) is extra, you don't necessarily need it to complete the course.</li>
+    <li>The PyCharm chapter is Part 34, but you might want to watch it earlier, maybe as soon as after Part 10, and then switch to use PyCharm instead of Notepad++</li>
+    <li>The Jupyter notebook is Part 42, you might want to watch it earlier. Maybe before SciPy in Part 37.</li>
+</ul>
+
+
+<h2>Videos</h2>
+
+
 <ul>
     <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
         <ul>
@@ -243,7 +260,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>42:12 Duplicate input call.</li>
             <li>45:11 Eliminate duplicate input call.</li>
             <li>46:05 do while loop.</li>
-            <li>47:30 while with meny continue calls.</li>
+            <li>47:30 while with many continue calls.</li>
             <li>50:28 Exit vs. return vs. break and continue.</li>
             <li>52:25 Exercises.</li>
         </ul>
@@ -296,7 +313,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>02:25 in list (in)</li>
             <li>03:00 Where is the element in the list  (index)</li>
             <li>05:25 Index improved</li>
-            <li>06:30 insert elemet into list (insert)</li>
+            <li>06:30 insert element into list (insert)</li>
             <li>08:25 append element to the end of a list (append)</li>
             <li>08:45 remove element from list by value. (remove)</li>
             <li>10:15 remove element from list by location (by index) (pop)</li>
@@ -390,7 +407,7 @@ The slides used during the recording are available <a href="/slides/python">here
     <li><a href="/pro/programming-boootcamp-for-scientists-20">Part 20</a> (1:08:14 min)
         <ul>
             <li>00:00 The solutions for the exercises in the files chapter</li>
-            <li>01:20 Solution: counte numbers</li>
+            <li>01:20 Solution: count numbers</li>
             <li>05:30 Solution: strip newlines</li>
             <li>06:17 Solution: color selector and fixing an interesting bug.</li>
             <li>17:10 Solution: ROT13, discussing open with r+, and how filehandle works.</li>
@@ -402,9 +419,9 @@ The slides used during the recording are available <a href="/slides/python">here
     <li><a href="/pro/programming-boootcamp-for-scientists-21">Part 21</a> (52:04 min)
         <ul>
             <li>00:00 Dictionaries</li>
-            <li>00:40 Windows: mapping file extentions (.py) to an action in Windows File Explorer; The "where" command of Windows.</li>
-            <li>05:15 Whay is a Dictionary? ( Hash, Mapcar)</li>
-            <li>06:40 When to use Dictionaris?</li>
+            <li>00:40 Windows: mapping file extensions (.py) to an action in Windows File Explorer; The "where" command of Windows.</li>
+            <li>05:15 What is a Dictionary? ( Hash, Mapcar)</li>
+            <li>06:40 When to use Dictionaries?</li>
             <li>07:31 Create dictionary</li>
             <li>10:05 Dictionary keys</li>
             <li>10:48 Loop over keys()</li>
@@ -482,7 +499,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>00:40 Why use functions?</li>
             <li>04:33 Defining simple function</li>
             <li>08:28 Functions - pass parameters by position.</li>
-            <li>10:11 Functions - pass paramaters by name.</li>
+            <li>10:11 Functions - pass parameters by name.</li>
             <li>11:43 Mixing positional and named parameters.</li>
             <li>15:20 Default values, optional parameters</li>
             <li>19:18 Several defaults, using names</li>
@@ -495,7 +512,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>38:03 Recursive functions (recursive factorial)</li>
             <li>46:00 Recursive Fibonacci function</li>
             <li>49:30 Non-recursive Fibonacci</li>
-            <li>51:50 Unbound recoursion</li>
+            <li>51:50 Unbound recursion</li>
             <li>53:18 Variable assignment and change - immutable, mutable</li>
             <li>55:35 Parameter passing of functions</li>
             <li>1:00:20 Function documentation</li>
@@ -528,10 +545,10 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>11:25 path to load modules from - the module search path</li>
             <li>12:30 sys.path the module search path</li>
             <li>13:45 Flat project directory structure</li>
-            <li>14:39 Relative pathes (Why is the direcotry called 'bin'?</li>
+            <li>14:39 Relative paths (Why is the directory called 'bin'?</li>
             <li>16:30 Absolute path and why it is not a good practice</li>
             <li>18:45 Back to the relative path and explaining how it works (os.path.join, os.path.abspath, os.path.dirname, __file__)</li>
-            <li>24:13 Mentinoning modules in directory hiearchy (submodules) but not showing them. Since then, there is already a slide with that example.</li>
+            <li>24:13 Mentioning modules in directory hierarchy (submodules) but not showing them. Since then, there is already a slide with that example.</li>
             <li>24:46 Python modules are compiles .pyc files, __pycache__ directory.</li>
             <li>28:30 Caching</li>
             <li>30:40 How "import" and "from" work?</li>
@@ -620,7 +637,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>15:49 Regexes first match</li>
             <li>19:30 Match numbers</li>
             <li>21:30 What happens if there are multiple hits, multiple matches?</li>
-            <li>22:40 Why did we match the first set of digitst and how to convince it to match the other set of digits?</li>
+            <li>22:40 Why did we match the first set of digits and how to convince it to match the other set of digits?</li>
             <li>23:58 Capture (group, groups)</li>
             <li>25:45 How can you match parentheses? (remove the special meaning of the parentheses)</li>
             <li>28:30 Capture more (multiple pair of parentheses)</li>
@@ -635,7 +652,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>49:46 Match digits</li>
             <li>52:35 Match Word characters</li>
             <li>53:38 Negated character classes</li>
-            <li>55:54 Optional charcter (the ? quantifier)</li>
+            <li>55:54 Optional character (the ? quantifier)</li>
             <li>57:24 0 or more (the * quantifier)</li>
             <li>58:34 Quantifiers</li>
         </ul>
@@ -677,7 +694,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>09:13 Solutions for Regexes Part 1 (continue)</li>
             <li>24:54 Solutions for Regexes Part 2 (matching decimal, hexadecimal numbers)</li>
             <li>28:20 compile regex</li>
-            <li>30:35 Solutions for Regexes Part 2 (matching negative, floating point, octal and binary numbers) a negative lookbehind!</li>
+            <li>30:35 Solutions for Regexes Part 2 (matching negative, floating point, octal and binary numbers) a negative look-behind!</li>
             <li>42:00 Solution: Sorting SNMP numbers; Parse hours log file and create report</li>
             <li>44:40 Solution: Parse config INI files.</li>
             <li>54:00 Solution: Replace Python</li>
@@ -702,7 +719,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>29:55 How to pass command line argument to a program in PyCharm?</li>
             <li>31:25 Debugging (unconditional breakpoint)</li>
             <li>33:45 Step into</li>
-            <li>35:45 Setp out</li>
+            <li>35:45 Step out</li>
             <li>36:55 Step over</li>
             <li>41:00 Conditional breakpoint</li>
             <li>44:20 Set environment variables</li>
@@ -753,7 +770,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>08:05 AUT - Application Under Test</li>
             <li>09:54 Use the module</li>
             <li>10:40 doctest</li>
-            <li>14:40 doctets with failure</li>
+            <li>14:40 doctest with failure</li>
             <li>18:12 Unittest with success</li>
             <li>23:07 Unittest with failure</li>
             <li>25:54 pytest using classes</li>
@@ -790,8 +807,8 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>04:42 BioPython sequences (Seq)</li>
             <li>07:45 NCBI</li>
             <li>09:15 Read FASTA, GenBank files, download file using the requests module</li>
-            <li>18:15 Search for nucleotids on NCBI</li>
-            <li>28:30 Download nucleotids from NCBI</li>
+            <li>18:15 Search for nucleotides on NCBI</li>
+            <li>28:30 Download nucleotides from NCBI</li>
             <li>33:14 Chemistry</li>
         </ul>
         </li>
@@ -808,7 +825,7 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>12:40 Transpose</li>
             <li>13:00 Reference and not a copy</li>
             <li>13:45 Copy array</li>
-            <li>14:02 Elementwise operations on Arrays</li>
+            <li>14:02 Element-wise operations on Arrays</li>
             <li>14:50 multiply, matmul, dot for vectors and matrices.</li>
             <li>17:43 Casting - converting from strings to integers. (astype)</li>
             <li>18:40 Indexing 1d array</li>
@@ -818,11 +835,11 @@ The slides used during the recording are available <a href="/slides/python">here
             <li>23:36 Vectorize a function</li>
             <li>27:36 Filtering array (selecting some of the values from an array)</li>
             <li>33:00 Some statistics (sum, mean, std, var)</li>
-            <li>33:35 Serizlization (saving an array to a file)</li>
+            <li>33:35 Serialization (saving an array to a file)</li>
             <li>35:37 Load from Matlab file to a Numpy array</li>
             <li>37:24 Save a Numpy array as a Matlab file</li>
             <li>37:49 Horizontal stack vectors (hstack)</li>
-            <li>38:31 Appand or Vertical stack vectors and matrices (vstack)</li>
+            <li>38:31 Append or Vertical stack vectors and matrices (vstack)</li>
             <li>38:50 uint, int - showing data overflow</li>
         </ul>
         </li>
@@ -852,13 +869,13 @@ The slides used during the recording are available <a href="/slides/python">here
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-41">Part 41</a> (1:01:53 min)
         <ul>
-            <li>00:00</li>
+            <li>00:00 Pandas</li>
             <li></li>
         </ul>
         </li>
     <li><a href="/pro/programming-boootcamp-for-scientists-42">Part 42</a> (1:02:39 min)
         <ul>
-            <li>00:00</li>
+            <li>00:00 Jupyter notebook</li>
             <li></li>
         </ul>
         </li>
