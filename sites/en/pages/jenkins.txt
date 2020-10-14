@@ -522,3 +522,18 @@ version = ""
 build_number = ""
 </code>
 
+
+<h2>Optional artifacts</h2>
+
+<code>
+post {
+    always {
+        script {
+            archiveArtifacts artifacts: 'screenshots/*', fingerprint: true, allowEmptyArchive: true
+        }
+    }
+}
+</code>
+
+<a href="https://www.jenkins.io/doc/pipeline/steps/core/">archiveArtifacts</a>
+
