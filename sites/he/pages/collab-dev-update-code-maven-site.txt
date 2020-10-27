@@ -1,0 +1,14 @@
+=title איך לעדכן את האתר של מביני קוד?
+=timestamp 2020-10-27T08:00:01
+=indexes GitHub
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-update-code-maven-site" youtube="3j0m7hM4rNs" />
+
