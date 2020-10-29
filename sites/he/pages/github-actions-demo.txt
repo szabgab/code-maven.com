@@ -1,0 +1,31 @@
+=title GitHub Actions
+=timestamp 2020-10-29T11:30:01
+=indexes GitHub, CI
+=tags screencast
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+GitHub Actions Webinar
+
+=abstract end
+
+
+<screencast file="hebrew_github_actions.mp4" youtube="OM1oHQws0y4" />
+
+<ul>
+    <li><a href="https://code-maven.com/slides/github-ci/actions">slides</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-demo-20201029/">The repo</a></li>
+</ul>
+
+
+<ul>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+
+
