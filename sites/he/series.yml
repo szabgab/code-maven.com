@@ -32,7 +32,7 @@ collab-dev:
         - collab-dev-edit-json-file
         - collab-dev-update-code-maven-site
         - collab-dev-code-and-talk
-        - pro/collab-dev-awesome-for-beginners
+        - collab-dev-awesome-for-beginners
         - pro/collab-dev-pydigger
 git:
   chapters:

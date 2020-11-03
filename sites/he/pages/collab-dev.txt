@@ -38,7 +38,7 @@
     <li><a href="/collab-dev-edit-json-file">מטלה: עריכת קובץ ישן</a> (Task: Edit JSON file)</li>
     <li><a href="/collab-dev-update-code-maven-site">מטלה: עזרה בשיפור התוכן באתר זה - האתר של מביני קוד.</a> (Task: Update Code-Maven site)</li>
     <li><a href="/collab-dev-code-and-talk">Task: Code and Talk</a></li>
-    <li><a href="/pro/collab-dev-awesome-for-beginners">Task: Awesome for beginners</a></li>
+    <li><a href="/collab-dev-awesome-for-beginners">Task: Awesome for beginners</a></li>
     <li><a href="/pro/collab-dev-pydigger">Task: PyDigger</a></li>
 </ul>
 
