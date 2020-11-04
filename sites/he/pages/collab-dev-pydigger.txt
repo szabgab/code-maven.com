@@ -1,0 +1,14 @@
+=title Collab-dev: PyDigger
+=timestamp 2020-11-04T17:40:01
+=indexes GitHub
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-pydigger" youtube="P31bG92rM5o" />
+

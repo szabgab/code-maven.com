@@ -33,7 +33,7 @@ collab-dev:
         - collab-dev-update-code-maven-site
         - collab-dev-code-and-talk
         - collab-dev-awesome-for-beginners
-        - pro/collab-dev-pydigger
+        - collab-dev-pydigger
 git:
   chapters:
     - title: גיט
