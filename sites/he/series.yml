@@ -38,7 +38,7 @@ git:
   chapters:
     - title: גיט
       sub:
-        - pro/git-why-use-version-control
+        - git-why-use-version-control
         - pro/git-download-and-install-git
         - pro/git-configuration
         - pro/git-help-for-git
