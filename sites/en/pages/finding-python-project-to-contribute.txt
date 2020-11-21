@@ -1,7 +1,7 @@
 =title Finding an Open Source Python project to contribute to
 =timestamp 2020-11-21T19:30:01
 =indexes Python, GitHub
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
