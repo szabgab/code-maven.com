@@ -22,7 +22,7 @@
 
 <ul>
     <li><a href="/git-why-use-version-control">למה כדאי להשתמש בניהול גירסאות?</a></li>
-    <li><a href="/pro/git-download-and-install-git">הורדת והתקנת גיט</a></li>
+    <li><a href="/git-download-and-install-git">הורדת והתקנת גיט</a></li>
     <li><a href="/pro/git-configuration">קונפיגורציה בסיסית של גיט</a></li>
     <li><a href="/pro/git-help-for-git">קבלת עזרה עבור גיט</a></li>
     <li><a href="/pro/git-exercise-1">תרגילים 1</a></li>

@@ -39,7 +39,7 @@ git:
     - title: גיט
       sub:
         - git-why-use-version-control
-        - pro/git-download-and-install-git
+        - git-download-and-install-git
         - pro/git-configuration
         - pro/git-help-for-git
         - pro/git-exercise-1
