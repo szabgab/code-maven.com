@@ -78,7 +78,7 @@ buildah config
 
 <h2>Buildah Run</h2>
 
-Then there is a Bash function definition of a function called <b>brun</b> that probably stands for <b>buildah run</h2>
+Then there is a Bash function definition of a function called <b>brun</b> that probably stands for <b>buildah run</b>
 that will execute the run command of buildah, which seems to be analogous to the <b>RUN</b> command of Dockerfiles,
 with the name of the container and with various additional parameters.
 
