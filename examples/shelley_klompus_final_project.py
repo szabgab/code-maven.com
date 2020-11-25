@@ -10,6 +10,22 @@ import matplotlib.pyplot as plt
 import os
 import io
 import sys
+import time
+
+startTime = time.time()
+
+def parse_column(row):
+    return str(row['uniref_func']).split(" n=")[0]
+
+def antigen_type(row):
+    if "random" in row["full name"]:
+        return "negative control"
+    elif "flagell" in row["parsed_func"]:
+        return "flagella"
+    elif "flagell" in row["full name"]:
+        return "flagella"
+    else:
+        return ""
 
 if len(sys.argv) < 2:
     exit("Save the two input files under the names: library_prec_passed.csv and library_uniref_funk.csv\
@@ -36,31 +52,15 @@ df_RF['perc_passed'] = df_RF['perc_passed'].fillna(0)
 
 # step 2- create a dictionary to parse the uniref_func column and merge it back to the main dataframe
 
-df_RF.reset_index (level =0, inplace = True)
-func_dict = {}
-for i in range(len(df_RF)):
-    oligo = df_RF.iloc[i]['antigen_num']
-    func= df_RF.iloc[i]['uniref_func']
-    func = str(func).split(" n=")[0]
-    func_dict.update({oligo:func})
-
-df_func = pd.DataFrame.from_dict(func_dict, orient='index')
-df_func.columns = ['parsed_func']
-
-df_RF.set_index('antigen_num', inplace = True)
-df_RF=pd.concat([df_RF,df_func],axis=1)
+df_RF['parsed_func'] = df_RF.apply(parse_column, axis=1)
 
 # step 3- select the 2 groups: fllagella agtigens and negative controls
-df_negative= df_RF.loc[df_RF["full name"].str.contains("random")]
-df_negative["type_of_antigen"] = "negative control"
-
-
-df_flag = df_RF.loc[(df_RF["parsed_func"].str.contains("flagell",na=False)) | (df_RF["full name"].str.contains("flagell",na=False))]
-df_flag["type_of_antigen"] = "flagella"
+#df_RF.reset_index (level =0, inplace = True)
+df_RF['type_of_antigen'] = df_RF.apply(antigen_type, axis=1)
 
 #step 4- create the datafram for the output files: boxplot and basic statistics
 
-df_toplot =pd.concat([df_flag,df_negative ],axis=0)
+df_toplot =df_RF.loc[df_RF["type_of_antigen"] != ""]
 
 boxplot = df_toplot.boxplot(by = "type_of_antigen", column=["perc_passed"], grid=False)
 plt.ylabel("% of reactivity")
@@ -70,10 +70,13 @@ plt.suptitle("")
 #plt.show()
 fig_file_name = 'reactivity against bacterial flagella antigens.png'
 stat_file_name = 'reactivity against bacterial flagella antigens statistics.csv'
+df_file_name = 'flagella and random oligos df.csv'
 plt.savefig(os.path.join(path_of_dir,fig_file_name))
 
 stat = df_toplot.groupby('type_of_antigen').describe().unstack(1)
+#print(stat)
 stat.to_csv(os.path.join(path_of_dir,stat_file_name))
+df_toplot.to_csv(os.path.join(path_of_dir,df_file_name))
 
-print("project is done")
-
+executionTime = (time.time() - startTime)
+print("Project is done,execution time in seconds: " + str(executionTime))
