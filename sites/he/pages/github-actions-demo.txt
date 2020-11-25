@@ -1,8 +1,8 @@
 =title GitHub Actions
-=timestamp 2020-10-29T11:30:01
+=timestamp 2020-11-25T11:30:01
 =indexes GitHub, CI
 =tags screencast
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
