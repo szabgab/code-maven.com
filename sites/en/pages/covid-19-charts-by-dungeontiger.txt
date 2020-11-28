@@ -1,0 +1,27 @@
+=title COVID 19 charts by DungeonTiger
+=timestamp 2020-11-28T16:30:01
+=indexes GitHub Actions
+=description Static Single Page Application with dynamic data to show  COVID 19 charts - GitHub Actions
+=tags screencast
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+This is a static web site that is also a Single Page Application, but one with data that is udated twice a day to show the most up to date COVID 19 charts.
+Using GitHub Actions.
+
+=abstract end
+
+<screencast file="english-covid-19-charts-by-dungeontiger.mkv" youtube="w_P7EaN6-jM" />
+
+<ul>
+    <li><a href="https://dungeontiger.github.io/">COVID 19 charts</a></li>
+    <li><a href="https://github.com/dungeontiger/dungeontiger.github.io">The website in Git</a></li>
+    <li><a href="https://github.com/dungeontiger/covid">covid repository</a></li>
+    <li><a href=""></a></li>
+</ul>
