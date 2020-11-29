@@ -32,6 +32,8 @@ docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 --na
    <li><b>--rm</b> tells Docker to remove the container when we stopped running it.</li>
 </ul>
 
+<h3>Copy secret</h3>
+
 Once it launched we need to copy the one-time secret created by Jenkins, so type in:
 
 <code>
@@ -58,7 +60,8 @@ It will print a string that looks like this: 2cead49b41fa41888c78d06be80fd5e7
 
 
 Open this page in your browser: <a href="http://localhost:8080/">http://localhost:8080/</a>, that's where Jenkins will live.
-Paste the string you got into the window.
+
+<h3>Paste the string you got into the window.</h3>
 
 Then select the <b>Install default plugins</b>, it will take some time to install the plugins.
 
@@ -66,6 +69,11 @@ It will then ask for the initial user. Give it whatever you like.
 
 
 At this point you can use Jenkins and you have a single node called "master".
+
+<h3>Create initial user</h3>
+
+Probably a good idea to have a username/password pair that you won't forget. E.g. your own name.
+
 
 Try to run the <a href="/jenkins-pipeline-hello-world">Hello World pipeline</a>
 
