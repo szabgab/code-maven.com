@@ -1,0 +1,22 @@
+buildah-build-master:
+  image: quay.io/buildah/stable:latest
+  stage: build
+  before_script:
+    - buildah login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  script:
+    - ./build.sh
+    - buildah tag "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG" "$CI_REGISTRY_IMAGE:latest"
+    - buildah push "$CI_REGISTRY_IMAGE:latest"
+  only:
+    - master
+
+buildah-build:
+  image: quay.io/buildah/stable:latest
+  stage: build
+  before_script:
+    - buildah login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
+  script:
+    - ./build.sh
+    - buildah push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
+  except:
+    - master
