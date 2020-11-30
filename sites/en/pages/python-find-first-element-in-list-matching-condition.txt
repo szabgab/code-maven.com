@@ -1,7 +1,7 @@
 =title Find the first element in Python list that matches some condition
 =timestamp 2020-11-30T15:40:01
 =indexes filter, next, for, else, lambda
-=description
+=description Filtering elements of a list based on some condition and then picking the first of them.
 =status show
 =books python
 =author szabgab
