@@ -41,7 +41,7 @@ git:
         - git-why-use-version-control
         - git-download-and-install-git
         - git-configuration
-        - pro/git-help-for-git
+        - git-help-for-git
         - pro/git-exercise-1
         - pro/git-4-ways-to-start-with-git
         - pro/git-creating-local-repository
