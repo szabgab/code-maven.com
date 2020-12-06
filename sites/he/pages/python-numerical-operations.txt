@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/rectangular-basic"> פעולות נומריות בפייתון</a></li>
+    <li><a href="https://code-maven.com/slides/python/rectangular-basic"> פעולות נומריות בפייתון</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-numerical-operations" youtube="iBFRupIZWvo" />

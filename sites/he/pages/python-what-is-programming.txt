@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/what-is-programming">מה זה תכנות?</a></li>
+    <li><a href="https://code-maven.com/slides/python/what-is-programming">מה זה תכנות?</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-what-is-programming" youtube="pQVBexF_qAU" />

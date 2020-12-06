@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/variables"> משתנים בפייתון</a></li>
+    <li><a href="https://code-maven.com/slides/python/variables"> משתנים בפייתון</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-variables" youtube="XgwG0bJw8dI" />

@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/first-script">תוכנה ראשונה בפייתון: שלום עולם</a></li>
+    <li><a href="https://code-maven.com/slides/python/first-script">תוכנה ראשונה בפייתון: שלום עולם</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-hello-world" youtube="8IuP9I7r_VY" />

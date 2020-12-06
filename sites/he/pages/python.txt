@@ -10,7 +10,7 @@
 
 =abstract start
 
-זאת ההתחלה של קורס פייתון המבוסס על <a href="https://code-maven.com/slides/python-programming/">השקפים</a>.
+זאת ההתחלה של קורס פייתון המבוסס על <a href="https://code-maven.com/slides/python/">השקפים</a>.
 
 ההמשך יבוא.
 
@@ -41,7 +41,7 @@
     <li>פרמטרים בשורת הפקודות</li>
     <li><a href="https://he.code-maven.com/pro/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
     <li><a href="https://he.code-maven.com/pro/python-oop-what-is-oop">תיכנות מונחה עצמים</a></li>
-    <li><a href="https://code-maven.com/slides/python-programming/exercise-oop-move">תרגילי תכנות מונחה עצמים</a></li>
+    <li><a href="https://code-maven.com/slides/python/exercise-oop-move">תרגילי תכנות מונחה עצמים</a></li>
 </ul>
 
 <!--

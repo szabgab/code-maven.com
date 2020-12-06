@@ -10,8 +10,8 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/python-2-vs-3">פייתון 2 ופייתון 3</a></li>
-    <li><a href="https://code-maven.com/slides/python-programming/installation">התקנת פייתון</a></li>
+    <li><a href="https://code-maven.com/slides/python/python-2-vs-3">פייתון 2 ופייתון 3</a></li>
+    <li><a href="https://code-maven.com/slides/python/installation">התקנת פייתון</a></li>
 </ul>
 
 <screencast file="/media/pro/python/hebrew-installing-python" youtube="yUYfBOOabIY" />

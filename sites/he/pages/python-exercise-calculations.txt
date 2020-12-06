@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/exercise-calculations"> תרגיל פייתון - חישובים</a></li>
+    <li><a href="https://code-maven.com/slides/python/exercise-calculations"> תרגיל פייתון - חישובים</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-exercise-calculations" youtube="zgQveJHfzj4" />

@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/what-are-programming languages"> מה הן שפות תוכנה?</a></li>
+    <li><a href="https://code-maven.com/slides/python/what-are-programming languages"> מה הן שפות תוכנה?</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-what-are-programming-languages" youtube="DSQKQZcNZ-s" />

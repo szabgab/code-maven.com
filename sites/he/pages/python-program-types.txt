@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/program-types">סוגי תוכנות</a></li>
+    <li><a href="https://code-maven.com/slides/python/program-types">סוגי תוכנות</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-program-types" youtube="d-fO_ZeNn4s" />

@@ -10,7 +10,7 @@
 =abstract end
 
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/value-types-in-python">ערכים וטיפוסים בפייתון</a></li>
+    <li><a href="https://code-maven.com/slides/python/value-types-in-python">ערכים וטיפוסים בפייתון</a></li>
 </ul>
 
 <screencast file="/media/he/python/hebrew-python-value-types" youtube="MnI8409WJ3s" />
