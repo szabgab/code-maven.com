@@ -27,7 +27,7 @@ of the following steps: (sorry for that, I am working on it) </li>
 <ol>
    <li><a href="https://he.code-maven.com/workshops">Workshop general info</a> (Hebrew)</li>
    <li><a href="https://he.code-maven.com/python">Python programming videos</a> (Hebrew) See the left side of the page or the next/prev buttons</li>
-   <li><a href="https://code-maven.com/slides/python-programming/">Python Programming slides</a> (English)</li>
+   <li><a href="https://code-maven.com/slides/python/">Python Programming slides</a> (English)</li>
 </ol>
 
 

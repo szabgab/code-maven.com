@@ -68,7 +68,7 @@ One area that is often overlooked is to know how to write tests in Python. Often
 case of Python this is a bit confusing as there is also a library called <b>unittest</b>. The idea is to know
 the concept and does not really matter if you use the unittest module or the <b>pytest</b> module.
 
-The first 15-20 chapters of my <a href="/slides/python-programming/">Python programming</a> course covers these topics.
+The first 15-20 chapters of my <a href="/slides/python/">Python programming</a> course covers these topics.
 
 <h2>Git (Version Control)</h2>
 

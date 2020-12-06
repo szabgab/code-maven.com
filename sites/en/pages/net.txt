@@ -11,7 +11,7 @@
 
 This is a placeholder for articles about C# and .NET.
 
-There are some slides about using <a href="/slides/python-programming/dotnet">.NET with Python</a>.
+There are some slides about using <a href="/slides/python/dotnet">.NET with Python</a>.
 
 =abstract end
 

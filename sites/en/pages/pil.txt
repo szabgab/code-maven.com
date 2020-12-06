@@ -14,7 +14,7 @@ Articles on how to create and manipulate images using PIL, Pillow in Python.
 
 =abstract end
 
-Slides about <a href="/slides/python-programming/pil">PIL, Pillow</a>.
+Slides about <a href="/slides/python/pil">PIL, Pillow</a>.
 
 <ul>
   <li><a href="/create-images-with-python-pil-pillow">Create images with Python PIL and Pillow and write text on them</a></li>

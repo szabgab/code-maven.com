@@ -54,8 +54,8 @@ I have an implementation in Python as well.
 <include file="examples/grep_speed.py">
 
 I know in the simple case of finding a single "y" character I could use the
-<a href="https://code-maven.com/slides/python-programming/index-in-string"><b>index</b></a> method
-or the <a href="https://code-maven.com/slides/python-programming/find-in-string"><b>find</b></a> method
+<a href="https://code-maven.com/slides/python/index-in-string"><b>index</b></a> method
+or the <a href="https://code-maven.com/slides/python/find-in-string"><b>find</b></a> method
 and thous would be probably faster, but in our cases we really had more complex regexes.
 
 

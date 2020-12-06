@@ -14,6 +14,6 @@
 <screencast file="/media/" youtube="0daRRpQ8vaI" />
 
 <ul>
-   <li><a href="/slides/python-programming/simple-file-dialog">Simple file dialog</a></li>
-   <li><a href="/slides/python-programming/">Python Programming slides</a></li>
+   <li><a href="/slides/python/simple-file-dialog">Simple file dialog</a></li>
+   <li><a href="/slides/python/">Python Programming slides</a></li>
 </ul>

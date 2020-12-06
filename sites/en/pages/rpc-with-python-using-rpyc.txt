@@ -183,6 +183,6 @@ to access the function and call it with any parameter.
 <include file="examples/python/rpyc_with_reconnect.py">
 
 
-Modules problem, might be solved with <a href="/slides/python-programming/property-fixing-bad-api-with-decorators">properties</a>
+Modules problem, might be solved with <a href="/slides/python/property-fixing-bad-api-with-decorators">properties</a>
 <a href="https://github.com/tomerfiliba/rpyc/blob/c362ebc9969b4385bbebf3043ecd97ef2a374e96/rpyc/core/service.py#L109">L109</a>
 

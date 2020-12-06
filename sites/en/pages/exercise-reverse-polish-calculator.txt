@@ -42,8 +42,8 @@ In order to make it easer for you I've prepared a module that implements the low
 
 <h2>Solutions</h2>
 <ul>
-    <li><a href="https://code-maven.com/slides/python-programming/solution-stack">Python with list</a></li>
-    <li><a href="https://code-maven.com/slides/python-programming/solution-stack-deque">Python with deque</a></li>
+    <li><a href="https://code-maven.com/slides/python/solution-stack">Python with list</a></li>
+    <li><a href="https://code-maven.com/slides/python/solution-stack-deque">Python with deque</a></li>
     <li><a href="https://code-maven.com/slides/perl-programming/stack-implementation">Perl</a></li>
 </ul>
 
