@@ -52,6 +52,12 @@ words = text.split()
 
 <h2>Create fast lookup for the stop-words</h2>
 
+The time to check if an element exists in a <b>list</b> is proportional to the mnumber of elements in the list. O(n).
+
+The time to check if an element is in a <b>set</b> is constant. Independent of the number of elements.  O(1).
+
+See <a href="https://en.wikipedia.org/wiki/Time_complexity">Time complexity</a> for far more information then you ever wanted to know about it.
+
 <code>
 stop_words = ['apple', 'banana', 'peach', 'melon', 'Lorem', 'Ipsum']
 words_set = set(stop_words)
