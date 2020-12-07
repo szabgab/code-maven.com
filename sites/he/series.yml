@@ -42,7 +42,7 @@ git:
         - git-download-and-install-git
         - git-configuration
         - git-help-for-git
-        - pro/git-exercise-1
+        - git-exercise-1
         - pro/git-4-ways-to-start-with-git
         - pro/git-creating-local-repository
         - pro/git-adding-the-first-file
