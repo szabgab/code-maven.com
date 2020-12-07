@@ -1,0 +1,20 @@
+=title Jenkins Pipeline parameters
+=timestamp 2020-12-07T07:30:01
+=indexes Jenkins, parameters
+=status show
+=books jenkins
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Jenkins pipelines can declare what kind of parameters it accespts and what are the defaults to those parameters.
+
+Scheduled jobs will use the default values. Users running the job manually can set the parameters.
+
+=abstract end
+
+
+<include file="examples/jenkins/parameters.Jenkinsfile">
