@@ -67,7 +67,6 @@ Then select the <b>Install default plugins</b>, it will take some time to instal
 
 It will then ask for the initial user. Give it whatever you like.
 
-
 At this point you can use Jenkins and you have a single node called "master".
 
 <h3>Create initial user</h3>
@@ -112,10 +111,36 @@ docker volume ls
 <h2>Start Jenkins again</h2>
 
 In order to start the Jenkins server again type in the same command as you typed in when you first launched it above.
+In our case this command:
+
+<code>
+docker run -d -v jenkins_home:/var/jenkins_home -p 8080:8080 -p 50000:50000 --name jenkins_master --rm jenkins/jenkins:lts
+</code>
 
 You can change basically any of the options now, for example you can use a different name for the container or you can decide
 to map the server to another port. The only thing that must remain the same is the content of the <b>-v</b> flag and the name of the
 base image. That will ensure we use the already existing volume that has all of our installations and configurations.
+
+<h2>Upgrading Jenkins</h2>
+
+When there is a new release Jenkins (in its UI) will notify you and will suggest to upgrade it. That's probably useless in our case
+as that would only upgrade in the currently running container, but we use the <b>--rm</b>  flag so our container will be removed when we shut down the application.
+
+It is better to updat the image we are using.
+
+<code>
+docker pull jenkins/jenkins:lts
+</code>
+
+I just upgraded this way from Jenkins 2.249.1 to Jenkins 2.263.1.
+
+<h2>Plugins</h2>
+
+Apparently the plugins that were installed on the first run were stored in the persistent volume we created so they survive the stop and re-start of the Docker
+container and even the upgrade of the Docker image.
+
+Once in a while Jenkins will notify you (on its UI) that new versions of the plugins are available. You can upgrade them via the UI.
+The upgrades will also be persistent in the volume.
 
 
 <h2>Enjoy</h2>
