@@ -1,0 +1,26 @@
+=title Deploy Docker to the cloud - Digital Ocean or Linode
+=timestamp 2020-12-10T10:30:01
+=indexes Docker, Linode, Digital Ocean
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+=abstract end
+
+<screencast file="hebrew_deploy_docker.mp4" youtube="ekx-UXyfFs0" />
+
+
+<ul>
+    <li><a href="https://code-maven.com/linode">Linode</a></li>
+    <li><a href="https://code-maven.com/digitalocean">Digital Ocean</a></li>
+    <li><a href="https://code-maven.com/slides/docker/deploy">שקפים</a></li>
+    <li><a href="https://github.com/szabgab/slides">קוד מקור</a></li>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+
