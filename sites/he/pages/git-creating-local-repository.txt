@@ -1,0 +1,14 @@
+=title יצירת רפוזיטורי מקומי עם גיט
+=timestamp 2020-12-20T09:02:01
+=indexes Git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-creating-local-repository" youtube="Th9VB5GX7dE" />
+

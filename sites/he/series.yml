@@ -44,7 +44,7 @@ git:
         - git-help-for-git
         - git-exercise-1
         - git-4-ways-to-start-with-git
-        - pro/git-creating-local-repository
+        - git-creating-local-repository
         - pro/git-adding-the-first-file
         - pro/git-untracked-and-modified
         - pro/git-file-status
