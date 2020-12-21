@@ -45,7 +45,7 @@ git:
         - git-exercise-1
         - git-4-ways-to-start-with-git
         - git-creating-local-repository
-        - pro/git-adding-the-first-file
+        - git-adding-the-first-file
         - pro/git-untracked-and-modified
         - pro/git-file-status
         - pro/git-drop-local-changes

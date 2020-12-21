@@ -28,7 +28,7 @@
     <li><a href="/git-exercise-1">תרגילים 1</a></li>
     <li><a href="/git-4-ways-to-start-with-git">4 דרכים להתחיל עם גיט</a></li>
     <li><a href="/git-creating-local-repository">יצירת רפוסיטורי מקומי</a></li>
-    <li><a href="/pro/git-adding-the-first-file">הוספת קובץ ראשון</a></li>
+    <li><a href="/git-adding-the-first-file">הוספת קובץ ראשון</a></li>
     <li><a href="/pro/git-untracked-and-modified">untracked and modified</a></li>
     <li><a href="/pro/git-file-status">סטאטוס הקבצים</a></li>
     <li><a href="/pro/git-drop-local-changes">ביטול השינוים האחרונים</a></li>
