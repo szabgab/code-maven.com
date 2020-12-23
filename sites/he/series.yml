@@ -46,7 +46,7 @@ git:
         - git-4-ways-to-start-with-git
         - git-creating-local-repository
         - git-adding-the-first-file
-        - pro/git-untracked-and-modified
+        - git-untracked-and-modified
         - pro/git-file-status
         - pro/git-drop-local-changes
         - pro/git-remove-from-staging-area
