@@ -1,0 +1,21 @@
+=title GitHub Actions - Continuous Deployment
+=timestamp 2020-12-24T10:30:01
+=indexes GitHub
+=description
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="hebrew_GitHub-Deployment_1920x1080.mp4" youtube="pFQq6sZ8R1M" />
+
+<ul>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+
