@@ -1,7 +1,6 @@
 =title GitHub Actions - Continuous Deployment
 =timestamp 2020-12-24T10:30:01
 =indexes GitHub
-=description
 =tags screencast
 =status show
 =author szabgab
