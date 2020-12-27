@@ -47,7 +47,7 @@ git:
         - git-creating-local-repository
         - git-adding-the-first-file
         - git-untracked-and-modified
-        - pro/git-file-status
+        - git-file-status
         - pro/git-drop-local-changes
         - pro/git-remove-from-staging-area
         - pro/git-working-with-remote-repository
