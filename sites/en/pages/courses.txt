@@ -17,6 +17,12 @@ The courses can be offered in English, Hebrew, or Hungarian.
 
 =abstract end
 
+<h2>Online courses</h2>
+
+<iframe width='160' height='400' src='https://leanpub.com/courses/leanpub/bootcamp/embed' frameborder='0' allowtransparency='true'></iframe>
+<iframe width='160' height='400' src='https://leanpub.com/courses/leanpub/dancer/embed' frameborder='0' allowtransparency='true'></iframe>
+  
+
 <h2>All the courses</h2>
 
 (in ABC order)
