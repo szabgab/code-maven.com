@@ -1,5 +1,5 @@
 =title Find first element in an array matching a condition in JavaScript
-=timestamp 2020-01-01T07:30:01
+=timestamp 2020-12-27T08:30:01
 =indexes find
 =status show
 =books nodejs, javascript
