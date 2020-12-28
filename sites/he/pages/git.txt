@@ -31,7 +31,7 @@
     <li><a href="/git-adding-the-first-file">הוספת קובץ ראשון</a></li>
     <li><a href="/git-untracked-and-modified">untracked and modified</a></li>
     <li><a href="/git-file-status">סטאטוס הקבצים</a></li>
-    <li><a href="/pro/git-drop-local-changes">ביטול השינוים האחרונים</a></li>
+    <li><a href="/git-drop-local-changes">ביטול השינוים האחרונים</a></li>
     <li><a href="/pro/git-remove-from-staging-area">הוצאת קבצים מה-סטאגין</a></li>
 
     <li><a href="/pro/git-working-with-remote-repository">עבודה עם ראפוסיטורי (מאגר גיט) מרוחק</a></li>

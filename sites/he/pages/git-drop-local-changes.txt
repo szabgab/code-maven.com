@@ -1,0 +1,14 @@
+=title איך נפתרים משינוים מקומיים בגיט
+=timestamp 2020-12-28T08:03:01
+=indexes Git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-drop-local-changes" youtube="9LQgk5OtCuM" />
+
