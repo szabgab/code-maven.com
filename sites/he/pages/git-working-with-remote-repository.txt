@@ -1,0 +1,14 @@
+=title Git: working with remote repository
+=timestamp 2020-12-31T08:30:01
+=indexes Git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-working-with-remote-repository" youtube="ukfzC92u904" />
+

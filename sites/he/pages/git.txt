@@ -34,7 +34,7 @@
     <li><a href="/git-drop-local-changes">ביטול השינוים האחרונים</a></li>
     <li><a href="/git-remove-from-staging-area">הוצאת קבצים מה-סטאגין</a></li>
 
-    <li><a href="/pro/git-working-with-remote-repository">עבודה עם ראפוסיטורי (מאגר גיט) מרוחק</a></li>
+    <li><a href="/git-working-with-remote-repository">עבודה עם ראפוסיטורי (מאגר גיט) מרוחק</a></li>
     <li><a href="/pro/git-clone-a-repository">שיבוט של מאגר מרוחק למחשב שלך</a> (clone)</li>
     <li><a href="/pro/git-fork-a-repository">הסתעפות של מאגר גיט</a>(fork a repository)</li>
     <li><a href="/pro/git-make-some-local-changes">שינוים מקומיים על המחשב שלך</a></li>

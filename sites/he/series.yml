@@ -50,7 +50,7 @@ git:
         - git-file-status
         - git-drop-local-changes
         - git-remove-from-staging-area
-        - pro/git-working-with-remote-repository
+        - git-working-with-remote-repository
         - pro/git-clone-a-repository
         - pro/git-fork-a-repository
         - pro/git-make-some-local-changes
