@@ -1,0 +1,17 @@
+=title  פיתרון לתרגיל החישובים של קורס פייתון
+=timestamp 2021-01-03T10:09:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/solution-calculations"> פיתרון לתרגיל החישובים</a></li>
+</ul>
+
+<screencast file="hebrew-python-solution-calculations" youtube="H_UHScyILtM" />
+

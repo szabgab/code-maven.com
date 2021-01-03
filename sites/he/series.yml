@@ -82,7 +82,7 @@ python:
         - python-value-types
         - python-numerical-operations
         - python-exercise-calculations
-        - pro/python-solution-calculations
+        - python-solution-calculations
     - title: מבוא פרק 2
       sub:
         - pro/python-modules
