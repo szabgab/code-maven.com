@@ -1,0 +1,14 @@
+=title Git: clone a repository
+=timestamp 2021-01-04T16:15:01
+=indexes Git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-clone-a-repository" youtube="deGOTuj_Ddc" />
+

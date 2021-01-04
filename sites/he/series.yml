@@ -51,7 +51,7 @@ git:
         - git-drop-local-changes
         - git-remove-from-staging-area
         - git-working-with-remote-repository
-        - pro/git-clone-a-repository
+        - git-clone-a-repository
         - pro/git-fork-a-repository
         - pro/git-make-some-local-changes
         - pro/git-push-out-local-changes-to-remote-repo
