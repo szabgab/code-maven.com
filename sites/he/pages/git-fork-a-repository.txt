@@ -1,0 +1,14 @@
+=title Git: fork a repository
+=timestamp 2021-00-05T08:25:01
+=indexes Git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-fork-a-repository" youtube="9QMeuX6SSOg" />
+
