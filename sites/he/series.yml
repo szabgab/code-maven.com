@@ -53,7 +53,7 @@ git:
         - git-working-with-remote-repository
         - git-clone-a-repository
         - git-fork-a-repository
-        - pro/git-make-some-local-changes
+        - git-make-some-local-changes
         - pro/git-push-out-local-changes-to-remote-repo
         - pro/git-more-changes-update-pr
 windows:
