@@ -1,4 +1,4 @@
-=title Git: make some local changes
+=title שינוים מקומיים בגיט
 =timestamp 2021-01-06T08:10:01
 =indexes Git
 =status show
