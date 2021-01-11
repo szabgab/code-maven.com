@@ -1,4 +1,4 @@
-=title Git: push out local changes to remote repo
+=title לדחוף שינוים מקומיים לרפוסיטןרי מרוחק - גיט
 =timestamp 2021-01-11T09:05:01
 =indexes Git
 =status show
