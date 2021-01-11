@@ -54,7 +54,7 @@ git:
         - git-clone-a-repository
         - git-fork-a-repository
         - git-make-some-local-changes
-        - pro/git-push-out-local-changes-to-remote-repo
+        - git-push-out-local-changes-to-remote-repo
         - pro/git-more-changes-update-pr
 windows:
   chapters:
