@@ -39,5 +39,5 @@
     <li><a href="/git-fork-a-repository">הסתעפות של מאגר גיט</a>(fork a repository)</li>
     <li><a href="/git-make-some-local-changes">שינוים מקומיים על המחשב שלך</a></li>
     <li><a href="/git-push-out-local-changes-to-remote-repo">דחיפת שינוים מקומיים החוצה למאגר בענן</a> (push, pull-request)</li>
-    <li><a href="/pro/git-more-changes-update-pr">שינוים מקומיים נוספים. עדכון הפול-רקווסט עם השינוים החדשים</a></li>
+    <li><a href="/git-more-changes-update-pr">שינוים מקומיים נוספים. עדכון הפול-רקווסט עם השינוים החדשים</a></li>
 </ul>

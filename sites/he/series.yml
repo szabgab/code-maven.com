@@ -55,7 +55,7 @@ git:
         - git-fork-a-repository
         - git-make-some-local-changes
         - git-push-out-local-changes-to-remote-repo
-        - pro/git-more-changes-update-pr
+        - git-more-changes-update-pr
 windows:
   chapters:
     - title: סבבת תיכנות במערכת חלונות

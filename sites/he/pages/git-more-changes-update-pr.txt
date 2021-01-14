@@ -1,0 +1,14 @@
+=title Git: more changes, update PR
+=timestamp 2021-01-14T13:00:01
+=indexes Git
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+
+<screencast file="hebrew-more-changes-update-pr" youtube="2Q9q48mF_n0" />
+
