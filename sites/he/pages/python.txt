@@ -21,13 +21,13 @@
 =abstract end
 
 <ul>
-    <li><a href="https://he.code-maven.com/pro/python-programming">מבוא</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-modules">מבוא פרק 2</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-numbers">מספרים</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-boolean-operators">בולאנים</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-strings">מחרוזות</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-loops">לולאות</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-formatted-strings"> מחרוזות הדפסות מפורמטות</a></li>
+    <li><a href="/python-programming">מבוא</a></li>
+    <li><a href="/python-modules">מבוא פרק 2</a></li>
+    <li><a href="/pro/python-numbers">מספרים</a></li>
+    <li><a href="/pro/python-boolean-operators">בולאנים</a></li>
+    <li><a href="/pro/python-strings">מחרוזות</a></li>
+    <li><a href="/pro/python-loops">לולאות</a></li>
+    <li><a href="/pro/python-formatted-strings"> מחרוזות הדפסות מפורמטות</a></li>
     <li>רשימות</li>
     <li>קבצים</li>
     <li>מילונים</li>
@@ -39,8 +39,8 @@
     <li>מודולים סטנדרטים</li>
     <li>ישון</li>
     <li>פרמטרים בשורת הפקודות</li>
-    <li><a href="https://he.code-maven.com/pro/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
-    <li><a href="https://he.code-maven.com/pro/python-oop-what-is-oop">תיכנות מונחה עצמים</a></li>
+    <li><a href="/pro/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
+    <li><a href="/pro/python-oop-what-is-oop">תיכנות מונחה עצמים</a></li>
     <li><a href="https://code-maven.com/slides/python/exercise-oop-move">תרגילי תכנות מונחה עצמים</a></li>
 </ul>
 

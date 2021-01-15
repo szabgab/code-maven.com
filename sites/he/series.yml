@@ -85,7 +85,7 @@ python:
         - python-solution-calculations
     - title: מבוא פרק 2
       sub:
-        - pro/python-modules
+        - python-modules
         - pro/python-main-function
         - pro/python-conditional-main
         - pro/python-input-output

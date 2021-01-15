@@ -1,0 +1,17 @@
+=title מודולים בפייתון
+=timestamp 2021-01-15T10:05:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/modules-first-time"> מודולים בפייתון</a></li>
+</ul>
+
+<screencast file="hebrew-python-modules" youtube="2k1kAuW1YaE" />
+
