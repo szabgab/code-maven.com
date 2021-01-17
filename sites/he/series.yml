@@ -86,7 +86,7 @@ python:
     - title: מבוא פרק 2
       sub:
         - python-modules
-        - pro/python-main-function
+        - python-main-function
         - pro/python-conditional-main
         - pro/python-input-output
         - pro/python-print-2-3
