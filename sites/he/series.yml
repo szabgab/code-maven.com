@@ -87,7 +87,7 @@ python:
       sub:
         - python-modules
         - python-main-function
-        - pro/python-conditional-main
+        - python-conditional-main
         - pro/python-input-output
         - pro/python-print-2-3
         - pro/python-prompting-for-user-input
