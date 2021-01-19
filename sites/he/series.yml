@@ -88,7 +88,7 @@ python:
         - python-modules
         - python-main-function
         - python-conditional-main
-        - pro/python-input-output
+        - python-input-output
         - pro/python-print-2-3
         - pro/python-prompting-for-user-input
         - pro/python-prompting-in-python-2-and-3
