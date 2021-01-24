@@ -19,9 +19,7 @@ The courses can be offered in English, Hebrew, or Hungarian.
 
 <h2>Online courses</h2>
 
-<iframe width='160' height='400' src='https://leanpub.com/courses/leanpub/bootcamp/embed' frameborder='0' allowtransparency='true'></iframe>
-<iframe width='160' height='400' src='https://leanpub.com/courses/leanpub/dancer/embed' frameborder='0' allowtransparency='true'></iframe>
-  
+<a href="https://courses.code-maven.com/">Online courses</a>
 
 <h2>All the courses</h2>
 
