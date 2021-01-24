@@ -167,6 +167,12 @@ python:
         - pro/python-oop-attributes-and-methods
         - pro/python-oop-inheritance
         - pro/python-oop-modes-of-method-inheritance
+python-testing:
+  chapters:
+    - title: טסטינג בפייתון
+      sub:
+        - python-testing-1
+        - python-testing-2
 wikipedia:
   chapters:
     - title: ויקיפדיה
