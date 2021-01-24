@@ -1,8 +1,8 @@
 =title טסטינג בפייתון - פרק א
-=timestamp 2021-01-22T08:30:01
+=timestamp 2021-01-24T08:30:01
 =indexes Python, testing, pytest
 =tags screencast
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1

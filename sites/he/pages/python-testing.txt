@@ -1,0 +1,21 @@
+=title טסטינג בפייתון
+=timestamp 2021-01-24T07:30:01
+=indexes Python, Pytest, testing
+=status show
+=books testing, python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+הקלטה של קורס פייתון על טסטינג בפיטסט
+
+=abstract end
+
+<ul>
+    <li><a href="/python-testing-1">פרק א</a></li>
+    <li><a href="/python-testing-2">פרק ב</a></li>
+</ul>
+
