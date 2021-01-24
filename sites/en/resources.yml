@@ -9,7 +9,7 @@ menu:
       - title: Books
         url: /books
       - title: Courses
-        url: /courses
+        url: https://courses.code-maven.com/
       - title: Services
         url: /services
   - dir: right
