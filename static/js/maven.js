@@ -46,7 +46,7 @@ $(document).ready(function() {
     //    return;
     //}
 
-    show_top('When you are done <a href="/invitation">check out</a> how else we might help you!');
-    show_bottom('If this article helped you, <a href="/invitation">check out</a> what else can you learn here!');
+    //show_top('When you are done <a href="https://code-maven.com/invitation">check out</a> how else we might help you!');
+    //show_bottom('If this article helped you, <a href="https://code-maven.com/invitation">check out</a> what else can you learn here!');
     //show_bottom('If this article helped you, consider <a href="https://www.patreon.com/szabgab">supporting me</a> via my Patreon page!');
 })
