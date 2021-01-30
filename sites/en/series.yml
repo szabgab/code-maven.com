@@ -588,3 +588,18 @@ programming-boootcamp-for-scientists:
         - pro/programming-boootcamp-for-scientists-40
         - pro/programming-boootcamp-for-scientists-41
         - pro/programming-boootcamp-for-scientists-42
+python-functional-programming:
+  chapters:
+    - title: Course
+      sub:
+        - pro/python-functional-programming-introduction
+        - pro/python-functional-programming-iterables
+        - pro/python-functional-programming-map
+        - pro/python-functional-programming-lambda
+        - pro/python-functional-programming-map-2
+        - pro/python-functional-programming-exercises-1
+        - pro/python-functional-programming-solutions-1
+        - pro/python-functional-programming-filter
+        - pro/python-functional-programming-reduce
+        - pro/python-functional-programming-zip
+
