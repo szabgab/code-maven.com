@@ -14,8 +14,10 @@
 
 =abstract end
 
+<p>
 <ul>
     <li><a href="/python-testing-1">פרק א</a></li>
     <li><a href="/python-testing-2">פרק ב</a></li>
+    <li><a href="/python-testing-3">פרק ג</a></li>
 </ul>
 
