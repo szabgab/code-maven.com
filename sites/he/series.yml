@@ -173,6 +173,8 @@ python-testing:
       sub:
         - python-testing-1
         - python-testing-2
+        - python-testing-3
+        - python-testing-4
 wikipedia:
   chapters:
     - title: ויקיפדיה
