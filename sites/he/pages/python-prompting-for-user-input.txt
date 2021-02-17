@@ -1,0 +1,17 @@
+=title לבקש קלט מהמשתמש בקוד פייתון
+=timestamp 2021-02-17T09:10:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/python-prompting-for-user-input">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-prompting-for-user-input" youtube="KzEqm02jNRU" />
+

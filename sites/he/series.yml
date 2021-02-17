@@ -90,7 +90,7 @@ python:
         - python-conditional-main
         - python-input-output
         - python-print-2-3
-        - pro/python-prompting-for-user-input
+        - python-prompting-for-user-input
         - pro/python-prompting-in-python-2-and-3
         - pro/python-add-numbers-from-the-stdin
         - pro/python-converting-string-to-number
