@@ -150,6 +150,7 @@ git config --local user.email joe@code-maven.com
 
 <code>
 GIT_SSH_COMMAND="ssh -i /full/path/to/id_a/id_rsa" git clone ...
+cd repo_name
 git config --local core.sshCommand "ssh -i /full/path/to/id_a/id_rsa"
 git config --local user.name "User A"
 git config --local user.email A@code-maven.com
