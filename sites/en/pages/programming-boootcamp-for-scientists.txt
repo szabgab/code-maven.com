@@ -32,6 +32,7 @@ videos contain parts from multiple chapters.
 <ul>
     <li>There are timestamps on this page pointing you where each sections starts.</li>
     <li>Many sections contain discussions about solving the exercises. I think they can be very useful after you solved the respective exercise, but you can learn the material without them too.</li>
+    <li>Part 40 is towards the end, but it can give you a lot of background about programming so you might want to watch it early.</li>
     <li>The Tk video (Part 30) is extra, you don't necessarily need it to complete the course.</li>
     <li>The PyCharm chapter is Part 34, but you might want to watch it earlier, maybe as soon as after Part 10, and then switch to use PyCharm instead of Notepad++</li>
     <li>The Jupyter notebook is Part 42, you might want to watch it earlier. Maybe before SciPy in Part 37.</li>
