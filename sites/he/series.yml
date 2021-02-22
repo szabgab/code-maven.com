@@ -91,7 +91,7 @@ python:
         - python-input-output
         - python-print-2-3
         - python-prompting-for-user-input
-        - pro/python-prompting-in-python-2-and-3
+        - python-prompting-in-python-2-and-3
         - pro/python-add-numbers-from-the-stdin
         - pro/python-converting-string-to-number
         - pro/python-conditional-statements
