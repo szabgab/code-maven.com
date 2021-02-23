@@ -1,0 +1,72 @@
+=title Bash shell always succeed with ||: suffix
+=timestamp 2021-02-23T09:30:01
+=indexes ||, :, ||:
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Trailing <b>||:</b> on Bash commmands look strange, but they are useful.
+
+=abstract end
+
+If you put that expression at the end of another expression then, even if the first expression fails the whole expression will still succeed,
+the exit code will be set to 0, and the code will keep running.
+
+See <a href="/bash-set-e">set -e to stop script on failure</a> and <a href="/bash-set-x">set -x to print statements as they are executed</a>
+
+<include file="examples/good.sh">
+
+<code>
+$ ./examples/good.sh
++ ls examples/good.sh
+examples/good.sh
++ echo 0
+0
+</code>
+
+<include file="examples/bad.sh">
+
+<code>
+$ ./examples/bad.sh
++ ls examples/no_such_file.txt
+ls: cannot access 'examples/no_such_file.txt': No such file or directory
++ echo 2
+2
+</code>
+
+<include file="examples/bad_without_e.sh">
+
+<code>
+$ ./examples/bad_without_e.sh
++ ls examples/no_such_file.txt
+ls: cannot access 'examples/no_such_file.txt': No such file or directory
++ echo 2
+2
+</code>
+
+<include file="examples/bad_saved.sh">
+
+<code>
+$ ./examples/bad_saved.sh
++ ls examples/no_such_file.txt
+ls: cannot access 'examples/no_such_file.txt': No such file or directory
++ :
++ echo 0
+0
+</code>
+
+<h2>Explanation</h2>
+
+There are two separate pieces of syntax here:
+
+<code>
+||  This is the OR operator.
+:   This is a dummy command which will always succeed (return code 0)
+<code>
+
+
