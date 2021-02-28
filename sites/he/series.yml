@@ -93,7 +93,7 @@ python:
         - python-prompting-for-user-input
         - python-prompting-in-python-2-and-3
         - python-add-numbers-from-the-stdin
-        - pro/python-converting-string-to-number
+        - python-converting-string-to-number
         - pro/python-conditional-statements
         - pro/python-case-and-switch
         - pro/python-exercises-stdin
