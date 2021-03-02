@@ -1,0 +1,17 @@
+=title פקודות עם התנאיות בפייתון
+=timestamp 2021-03-02T09:07:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/python-conditionals-if-else">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-conditional-statements" youtube="E764W8XHWn8" />
+
