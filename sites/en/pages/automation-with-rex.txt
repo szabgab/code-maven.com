@@ -1,0 +1,22 @@
+=title Learn automation using (R)?ex
+=timestamp 2021-03-03T07:30:01
+=indexes Rex
+=tags screencast
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a> is going to teach
+<a href="https://www.linkedin.com/in/szabgab/">Gabor Szabo</a> to set up and configure his hosts using Rex.
+
+It is scheduled for March 8, 2021 at 16:00 UTC:  18:00 ILT, 17:00 CET, 16:00 GMT, 11:00 EST, 08:00 PST
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZErdu2ppzojGdzfGddBLjbOxSbZKItyU7-N">Register here</a>
+
+
+=abstract end
+
