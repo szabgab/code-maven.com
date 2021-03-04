@@ -175,6 +175,7 @@ python-testing:
         - python-testing-2
         - python-testing-3
         - python-testing-4
+        - python-testing-5
 wikipedia:
   chapters:
     - title: ויקיפדיה
