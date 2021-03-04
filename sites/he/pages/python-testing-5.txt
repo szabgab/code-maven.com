@@ -1,0 +1,25 @@
+=title טסטינג בפייתון - פרק ה
+=timestamp 2021-03-04T09:35:01
+=indexes Python, testing, pytest
+=tags screencast
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+פרק ה של קורס טסטינג בפייתון
+
+=abstract end
+
+<screencast file="hebrew-python-testing-5-1920x1080.mp4" youtube="7m3kwejwueM" />
+
+<ul>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+    <li><a href="https://code-maven.com/slides/python/pytest-mocking">שקפים</a></li>
+</ul>
+

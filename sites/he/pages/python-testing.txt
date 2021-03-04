@@ -20,5 +20,6 @@
     <li><a href="/python-testing-2">פרק ב</a></li>
     <li><a href="/python-testing-3">פרק ג</a></li>
     <li><a href="/python-testing-4">פרק ד</a></li>
+    <li><a href="/python-testing-5">פרק ה</a></li>
 </ul>
 
