@@ -22,6 +22,8 @@ then installed and configured Nginx.
 
 <h2>Rexfile</h2>
 
+During the session we put together a Rexfile with a number of tasks. This is what we got. Whatch the video for explanations.
+
 <include file="examples/rex/infra/Rexfile">
 
 <h2>HTML file</h2>
