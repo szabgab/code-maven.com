@@ -43,7 +43,7 @@ The SSH config file we created:
 This is the history of the shell commands that we used during the meetig. I tried to clean the duplicate entries.
 I hope having them here makes it easier to reproduce the commands.
 
-<include file="examples/rex/infra/histort.txt">
+<include file="examples/rex/infra/history.txt">
 
 
 <h2>Links that were mentiond</h2>
