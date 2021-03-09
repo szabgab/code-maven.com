@@ -1,8 +1,8 @@
 =title Learn automation using (R)?ex
-=timestamp 2021-03-03T07:30:01
+=timestamp 2021-03-09T07:30:01
 =indexes Rex
 =tags screencast
-=status draft
+=status show
 =author 0
 =archive 1
 =comments_disqus_enable 0
@@ -10,15 +10,49 @@
 
 =abstract start
 
-During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a> is going to teach
-<a href="https://www.linkedin.com/in/szabgab/">Gabor Szabo</a> to set up and configure his hosts using Rex.
+During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a> taught
+us to set up and configure his hosts using Rex.
 
-It is scheduled for March 8, 2021 at 16:00 UTC:  18:00 ILT, 17:00 CET, 16:00 GMT, 11:00 EST, 08:00 PST
-
-It is planned to take up to 2 hours.
-
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZErdu2ppzojGdzfGddBLjbOxSbZKItyU7-N">Register here</a>
-
+We started from an empty management machine. Installed Rex. Created two Ubuntu-based servers. First we had some basic experimentation with Rex
+then installed and configured Nginx.
 
 =abstract end
+
+<screencast file="rex-1920x1080.mp4" youtube="bLJ3Q0Je8p8" />
+
+<h2>Rexfile</h2>
+
+<include file="examples/rex/infra/Rexfile">
+
+<h2>HTML file</h2>
+
+<include file="examples/rex/infra/files/main.html">
+
+<h2>Nginx config file</h2>
+
+<include file="examples/rex/infra/files/ubu-1.conf">
+
+<h2>~/.ssh/config</h2>
+
+The SSH config file we created:
+
+<include file="examples/rex/infra/config">
+
+<h2>History</h2>
+
+This is the history of the shell commands that we used during the meetig. I tried to clean the duplicate entries.
+I hope having them here makes it easier to reproduce the commands.
+
+<include file="examples/rex/infra/histort.txt">
+
+
+<h2>Links that were mentiond</h2>
+
+<a href="https://github.com/rexops">RexOps</a> - Central Repository for all RexOps projects.
+
+<a href="https://repology.org/project/rex/versions">Repology</a> showing which version of Rex is packaged in each Linux distribution.
+
+<a hrf="https://metacpan.org/pod/Rex">Rex on MetaCPAN</a> and the list of <a href="https://metacpan.org/requires/module/Rex?size=200">reverse dependencies</a>,
+that is CPAN distributions that use Rex.
+
 

@@ -1,0 +1,8 @@
+#Host *
+#  StrictHostKeyChecking no
+
+Host ubu2
+  Hostname 104.131.169.6
+
+Host ubu1
+  Hostname 104.131.167.212

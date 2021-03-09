@@ -1,0 +1,33 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+
+desc 'Just printing hostname';
+task 'print_hostname', sub {
+    say run('hostname');
+};
+
+desc 'Setup nginx';
+task setup_nginx => sub {
+    pkg 'nginx', ensure => 'present';
+};
+
+desc 'Configure new Rex website';
+task configure_nginx => sub {
+    # copy ubu-1.conf to /etc/nginx/sites-enabled/
+    file '/etc/nginx/sites-enabled/ubu-1.conf',
+        source => 'files/ubu-1.conf',
+        on_change => sub {
+            service 'nginx' => 'reload';
+        };
+
+    # copy main.html to /root/rex/index.html
+    #file '/root/rex', ensure => 'directory';
+    #file '/root/rex/index.html', source => 'files/main.html';
+
+    # copy main.html to /tmp/rex/index.html
+    file '/tmp/rex', ensure => 'directory', owner => 'www-data', group => 'www-data', mode => '0755';
+    file '/tmp/rex/index.html', source => 'files/main.html';
+
+    # reload nginx
+    #service 'nginx' => 'reload';
+};
+

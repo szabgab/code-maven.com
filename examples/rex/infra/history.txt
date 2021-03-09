@@ -1,0 +1,40 @@
+    1  ssh-keygen
+    2  ll .ssh/
+    3  cat .ssh/id_rsa.pub
+    4  ssh 104.131.169.6
+    6  apt-get update
+    7  apt-get install rex
+    8  rex -v
+   10  rex -h | less
+   12  rex -H 104.131.169.6 -e 'run( q{hostname} )'
+   13  rex -H 104.131.169.6 -e 'run( "hostname" )'
+   14  rex -H 104.131.169.6 -e 'run "hostname" '
+   15  rex -H 104.131.169.6 -e 'say run "hostname" '
+   16  rex -H '104.131.169.6 104.131.167.212' -e 'say run "hostname" '
+   17  vim ~/.ssh/config
+   18  rex -H 'ubu1 ubu2' -e 'say run "hostname" '
+   20  rex -H 'ubu-1 ubu2' -e 'say run "hostname" '
+   31  rex -H 'ubu-[1,2]' -e 'say run "hostname" '
+   32  rex -H 'ubu-[1..2]' -e 'say run "hostname" '
+   33  cat /etc/hosts
+   34  mkdir infra
+   35  cd infra/
+   37  cat ~/.ssh/known_hosts
+   42  vim ~/.ssh/config
+   49  vim Rexfile
+   50  rex -T
+   56  apt-cache search nginx | less
+   60  rex -H 'ubu1' print_hostname
+   78  rex -H 'ubu1' -e 'say run q(ls -l /etc/nginx)'
+   79  rex -H 'ubu1' -e 'say for run q(ls -l /etc/nginx)'
+   80  rex -H 'ubu1' -e 'say for run qq(ls -l /etc/nginx)'
+   81  rex -H 'ubu1' -e 'use Data::Dumper; say [run q(ls -l /etc/nginx)]'
+   82  rex -H 'ubu1' -e 'use Data::Dumper; say Dumper [run q(ls -l /etc/nginx)]'
+   83  rex -H 'ubu1' -e 'use Data::Dumper; say Dumper [run q(tree /etc/nginx/)]'
+   84  rex -H 'ubu1' -e 'use Data::Dumper; say Dumper [run q(ls -l /etc/nginx/sites/enabled)]'
+   85  rex -H 'ubu1' -e 'use Data::Dumper; say Dumper [run q(ls -l /etc/nginx/sites-enabled)]'
+   87  rex -T
+   88  rex -H ubu-1 configure_nginx
+   89  curl http://104.131.167.212
+   90  curl http://ubu-1
+   91  rex -H 'ubu1' -e 'use Data::Dumper; say Dumper [run q(ls -l /etc/nginx/sites-enabled)]'
