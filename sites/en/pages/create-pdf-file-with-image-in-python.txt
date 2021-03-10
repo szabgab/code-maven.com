@@ -1,0 +1,14 @@
+=title Create PDF file with image in Python using reportlab
+=timestamp 2021-03-10T18:30:01
+=indexes PDF, reportlab
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<include file="examples/python/pdf_with_image.py">
