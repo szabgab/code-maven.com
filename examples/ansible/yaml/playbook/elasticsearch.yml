@@ -1,20 +1,64 @@
 ---
 - hosts: all
+  gather_facts : no
   vars:
      elastic: elasticsearch-7.11.2-x86_64.rpm
-https://artifacts.elastic.co/downloads/elasticsearch/{{elastic}}
+     project_root: /root
+  tasks:
+    - get_url:
+        url="https://artifacts.elastic.co/downloads/elasticsearch/{{elastic}}"
+        dest="{{project_root}}/{{elastic}}"
+    - name: Check if Elastic is installed
+      command: rpm -q elasticsearch
+      ignore_errors: True
+      register: rpm_check
 
-#    - name: Check if Elastic is installed
-#      command: rpm -q elasticsearch
-#      register: rpm_check
-#
-#    - name: Install
-#      ansible.builtin.shell: rpm -vi {{elastic}}
-#      when: rpm_check.rc != 0
-#
-#    - name: Enable and Start
-#      ansible.builtin.service:
-#        name: elasticsearch
-#        state: started
-#        enabled: yes
-#
+    - name: Install
+      ansible.builtin.shell: rpm -vi {{elastic}}
+      when: rpm_check.rc != 0
+
+    - name: Enable and Start
+      ansible.builtin.service:
+        name: elasticsearch
+        state: started
+        enabled: yes
+
+    - name: Configure Elasticsearch Cluster
+      lineinfile:
+        destfile: /etc/elasticsearch/elasticsearch.yml
+        regexp: 'cluster.name:'
+        line: 'cluster.name: code-maven-demo'
+
+    - name: Configure Elasticsearch Node
+      lineinfile:
+        destfile: /etc/elasticsearch/elasticsearch.yml
+        regexp: 'node.name:'
+        line: 'node.name: code-maven-elastic-1'
+
+    - name: Configure Elasticsearch Node Master
+      lineinfile:
+        destfile: /etc/elasticsearch/elasticsearch.yml
+        regexp: 'node.master:'
+        line: 'node.master: true'
+
+    - name: Configure Elasticsearch Node Data
+      lineinfile:
+        destfile: /etc/elasticsearch/elasticsearch.yml
+        regexp: 'node.data:'
+        line: 'node.data: true'
+
+    - name: Configure Elasticsearch Single-host
+      lineinfile:
+        destfile: /etc/elasticsearch/elasticsearch.yml
+        regexp: 'discovery.type:'
+        line: 'discovery.type: single-node'
+
+#network.host: 0.0.0.0
+#discovery.seed_hosts: ["1.2.3.4"]
+
+    - name: Restart
+      ansible.builtin.service:
+        name: elasticsearch
+        state: restarted
+
+

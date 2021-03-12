@@ -1,0 +1,26 @@
+---
+- hosts: all
+  gather_facts : no
+  vars:
+     project_root: /root
+  tasks:
+    - name: Enable epel
+      yum:
+        name: epel-release
+        state: present
+    - name: Install Nginx
+      yum:
+        name: nginx
+        state: present
+
+    - name: Enable and Start
+      ansible.builtin.service:
+        name: nginx
+        state: started
+        enabled: yes
+
+# Reverse proxy to localhost:5601   /etc/nginx/conf.d/elk.conf;
+# Authentication?   
+
+
+
