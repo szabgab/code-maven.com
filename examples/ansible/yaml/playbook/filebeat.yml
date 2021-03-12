@@ -1,0 +1,25 @@
+---
+- hosts: all
+  vars:
+     filebeat: filebeat-7.10.2-x86_64.rpm
+  tasks:
+    - name: Copy Filebeat rpm
+      copy:
+        src: ../{{filebeat}}
+        dest: /root/{{filebeat}}
+
+    - name: Check if Filebeat is installed
+      command: rpm -q filebeat
+      register: rpm_check
+
+    - name: Install
+      ansible.builtin.shell: rpm -vi {{filebeat}}
+      when: rpm_check.rc != 0
+
+    - name: Enable and Start
+      ansible.builtin.service:
+        name: filebeat
+        state: started
+        enabled: yes
+
+

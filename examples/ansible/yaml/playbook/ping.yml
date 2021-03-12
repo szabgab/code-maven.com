@@ -1,0 +1,7 @@
+---
+- hosts: all
+  tasks:
+    - name: Ping
+      ansible.builtin.ping:
+# See https://docs.ansible.com/ansible/latest/collections/ansible/builtin/ping_module.html
+

@@ -1,0 +1,6 @@
+elastic:
+  hosts:
+    165.227.219.52
+all:
+  children:
+    elastic:

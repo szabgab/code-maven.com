@@ -1,0 +1,20 @@
+---
+- hosts: all
+  vars:
+     elastic: elasticsearch-7.11.2-x86_64.rpm
+https://artifacts.elastic.co/downloads/elasticsearch/{{elastic}}
+
+#    - name: Check if Elastic is installed
+#      command: rpm -q elasticsearch
+#      register: rpm_check
+#
+#    - name: Install
+#      ansible.builtin.shell: rpm -vi {{elastic}}
+#      when: rpm_check.rc != 0
+#
+#    - name: Enable and Start
+#      ansible.builtin.service:
+#        name: elasticsearch
+#        state: started
+#        enabled: yes
+#

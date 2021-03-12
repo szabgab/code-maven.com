@@ -1,0 +1,40 @@
+---
+- hosts: all
+  tasks:
+    - name: Update using yum
+      yum:
+        name: '*'
+        state: latest
+
+    - name: check to see if we need a reboot
+      command: needs-restarting -r
+      register: result
+      ignore_errors: yes
+
+    - name: display result
+      debug:
+        var: result.rc
+
+    - name: Reboot Server if Necessary
+      command: shutdown -r now "Ansible Updates Triggered"
+      become: true
+      async: 30
+      poll: 0
+      when: result.rc == 1
+
+    # This pause is mandatory, otherwise the existing control connection
+    # gets reused!
+    # (https://gist.github.com/infernix/a968f23c4f4e1d6723e4)
+    - name: Pausing to allow server to shutdown and terminate our SSH connection
+      pause: seconds=30
+      when: result.rc == 1
+
+    - name: Wait for reboot to complete and SSH to become available
+      local_action: wait_for host={{ inventory_hostname }} port=22
+        state=started delay=30 timeout=600
+      retries: 30
+      delay: 10
+      when: result.rc == 1
+
+    # See https://www.unixsysadmin.com/ansible-patch-reboot/
+
