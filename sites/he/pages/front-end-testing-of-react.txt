@@ -27,8 +27,12 @@
     <li><a href="https://kutt.it/">Kutt</a></li>
     <li><a href="https://github.com/thedevs-network/kutt">Kutt Github repo</a></li>
     <li><a href="https://github.com/ynonp/kutt">Fork of Ynon</a></li>
+    <li><a href="https://github.com/ynonp/kutt/tree/develop/client/components/__tests__">Tests by Ynon</a></li>
     <li><a href="https://stackoverflow.com/questions/39830580/jest-test-fails-typeerror-window-matchmedia-is-not-a-function">Jest test fails : TypeError: window.matchMedia is not a function</a></li>
     <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
     <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
 </ul>
 
+<include file="examples/footer_test.tsx">
+
+<include file="examples/shortener_test.tsx">
