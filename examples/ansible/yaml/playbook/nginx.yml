@@ -19,8 +19,26 @@
         state: started
         enabled: yes
 
-# Reverse proxy to localhost:5601   /etc/nginx/conf.d/elk.conf;
-# Authentication?   
+    - name: Nginx config file
+      copy:
+        src: ../nginx.conf
+        dest: /etc/nginx/nginx.conf
+
+    - name: Nginx config file
+      copy:
+        src: ../nginx-elk.conf
+        dest: /etc/nginx/conf.d/nginx-elk.conf
+
+    - name: Nginx users file
+      copy:
+        src: ../.htpasswd
+        dest: /etc/nginx/.htpasswd
+
+    - name: Restart
+      ansible.builtin.service:
+        name: nginx 
+        state: restarted
+
 
 
 

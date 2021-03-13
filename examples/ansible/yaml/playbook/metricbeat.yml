@@ -1,0 +1,36 @@
+---
+- hosts: all
+  vars:
+     metricbeat: metricbeat-7.11.2-x86_64.rpm
+     project_root: /root
+  tasks:
+    - get_url:
+        url="https://artifacts.elastic.co/downloads/beats/metricbeat/{{metricbeat}}"
+        dest="{{project_root}}/{{metricbeat}}"
+
+    - name: Check if Metricbeat is installed
+      command: rpm -q metricbeat
+      ignore_errors: True
+      register: rpm_check
+
+    - name: Install
+      ansible.builtin.shell: rpm -vi {{metricbeat}}
+      when: rpm_check.rc != 0
+
+    - name: Enable and Start
+      ansible.builtin.service:
+        name: metricbeat
+        state: started
+        enabled: yes
+
+    - name: Copy config file
+      copy:
+        src: ../metricbeat.yml
+        dest: /etc/metricbeat/metricbeat.yml
+
+    - name: Restart
+      ansible.builtin.service:
+        name: metricbeat
+        state: restarted
+
+
