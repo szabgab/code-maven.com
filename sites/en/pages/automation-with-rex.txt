@@ -57,4 +57,107 @@ I hope having them here makes it easier to reproduce the commands.
 <a hrf="https://metacpan.org/pod/Rex">Rex on MetaCPAN</a> and the list of <a href="https://metacpan.org/requires/module/Rex?size=200">reverse dependencies</a>,
 that is CPAN distributions that use Rex.
 
+<h2>FErki's answers to questions from the session</h2>
 
+<blockquote>
+  <p>What is a meaning of name Rex itself ? :)</p>
+</blockquote>
+
+<p><strong>R</strong>emote <strong>ex</strong>ecution (see also in the <a href="https://www.rexify.org/docs/faq/index.html#isitcalledrexorrex">FAQ</a>).</p>
+
+<blockquote>
+  <p>Does each version of Rex have own features ? <em>(about <a href="https://metacpan.org/pod/Rex#FEATURE-FLAGS">feature flags</a>)</em></p>
+</blockquote>
+
+<p>Rex has named feature flags to opt in or out of various behavior based on your exact needs. Versioned feature flags control multiple named feature flags at once, so they can set defaults across the board. That is, the versioned feature flag of <code>1.4</code> means "please use all the default from rex-1.4".</p>
+
+<p>A versioned feature flag is only introduced if we think the default behavior should change in some way. In other words, default behavior shouldn't change unless explicitly asked for by specifying a different feature flag.</p>
+
+<blockquote>
+  <p>So better to use cpan Rex ? <em>(after installing with <code>apt</code> from default Ubuntu repositories)</em></p>
+</blockquote>
+
+<p>Short answer: Yes, the recommended way to install Rex is from CPAN, because that's the canonical upstream source of releases.</p>
+
+<p>Longer version: It depends on the use case and circumstances. You can <a href="https://www.rexify.org/get/index.html">get Rex</a> from CPAN, from many different <a href="https://repology.org/project/rex/versions">package repositories</a>, or build it from source. Choose the option that fits your use case the best.</p>
+
+<blockquote>
+  <p>Is any issue to use key auth from Windows to Linux machines ?</p>
+</blockquote>
+
+<p>No, in general no issues.</p>
+
+<p>The important detail is that Rex must use the Net::SSH2 backend for SSH connections on Windows, and that needs different configuration for authentication details. Net::SSH2 is based on libssh2 so the public and private key path need to be specified explicitly.</p>
+
+<p>The other backend, Net::OpenSSH uses the ssh binary, so it doesn't have to rely on Rex configuration, but it doesn't support Windows.</p>
+
+<blockquote>
+  <p>Is there an option to send 'yes' when we run rex? <em>(after being prompted to accept the SSH host key of a remote endpoint)</em></p>
+</blockquote>
+
+<p>An important part of the story is that the prompt belongs to SSH, not Rex.</p>
+
+<p>Ideally, the SSH host keys from all the hosts belonging to an infrastructure would be part of the site's inventory. Then the keys would be distributed to those who need to use SSH to connect to these hosts. There's even a <a href="https://en.wikipedia.org/wiki/SSHFP_record">dedicated DNS record type</a> to store this information.</p>
+
+<p>Apart from that, there are multiple ways to disable this prompt. Some examples, depending on the security and other requirements you might be looking for:</p>
+
+<ul>
+<li>configure SSH to don't check the host key strictly, e.g. specify <code>StrictHostKeyChecking no</code> in <code>~/.ssh/config</code> or <code>/etc/ssh/ssh_config</code></li>
+<li>configure Rex to pass the same option to SSH with <code>Rex::Config-&gt;set_openssh_opt( StrictHostKeyChecking =&gt; 'no', );</code></li>
+</ul>
+
+<blockquote>
+  <p>Is it posisble to pass something like ssh  -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no  -i ~/.ssh/id_rsa</p>
+</blockquote>
+
+<p>Yes, arbitrary SSH options can be set on the SSH side via <code>~/.ssh/config</code> or <code>/etc/ssh_ssh_config</code> when Net::OpenSSH is being used.</p>
+
+<p>SSH options (<code>-o</code>) can also be set on the Rex side with <a href="https://metacpan.org/pod/Rex::Config#set_openssh_opt"><code>Rex::Config-&gt;set_openssh_opt();</code></a>, and identity files (<code>-i</code>) can be set via <a href="https://metacpan.org/pod/Rex::Commands#public_key($key)"><code>public_key $path;</code></a> and <a href="https://metacpan.org/pod/Rex::Commands#private_key($key)"><code>private_key $path;</code></a></p>
+
+<blockquote>
+  <p>Are there any OS (Linux distributions) dependencies for command like service ?</p>
+</blockquote>
+
+<p>No explicit dependencies.</p>
+
+<p>Right after connecting to the managed endpoint, Rex discovers which operating system it is supposed to manage, and chooses a service and package manager module accordingly. If systemd is active, it uses that for service management.</p>
+
+<p>So on Ubuntu it might choose <code>upstart</code> and <code>apt</code>, on Gentoo <code>OpenRC</code> and <code>emerge</code>.</p>
+
+<blockquote>
+  <p>is rex IRC channel still active? </p>
+</blockquote>
+
+<p>The <a href="https://webchat.freenode.net/#rex">Rex IRC channel</a> is very much alive, yes! Come by and say hi!:)</p>
+
+<blockquote>
+  <p>I’ve never used other common server management software like Ansible or puppet. How does Rex compare?</p>
+</blockquote>
+
+<p>To get into the right mindset about Rex, maybe the shortest way is to think about it like: "it's possible to implement tools like Ansible and Puppet with Rex, but not the other way around".</p>
+
+<p>In other words, Rex follows a different trade-off by being a framework to build your own tool. It gives you more freedom about what to automate and how to automate, but this also means you have more responsibility to carefully analyse your exact situation and implement your choices.</p>
+
+<p>If you need a tool that pushes changes over SSH from a YAML-based configuration syntax, you can build that. If you need an agent that runs every 30 minutes to pull configuration from a central server, then you can build that too. It's your choice. Any of those systems and approaches can be good enough solutions when applied correctly to the situation at hand.</p>
+
+<blockquote>
+  <p>Is it possible to use Rex for deploying Perl modules to remote machines?</p>
+</blockquote>
+
+<p>Yes, in fact the original use case of Rex was deployment management (as far as I know).</p>
+
+<p>In the end, any management system boils down to running commands and managing files. If there's a command to run, or a file to configure, it's possible to do that with Rex too. This includes Perl module deployment as well.</p>
+
+<blockquote>
+  <p>How should we share and distribute useful Rex tasks we’ve written with other developers?</p>
+</blockquote>
+
+<p>Rex code is Perl code, so the same rules apply for distributing the results as well. Like with most things, the "best" method depends on the exact needs.</p>
+
+<p>I prefer the following approaches in general:</p>
+
+<ul>
+<li>share small snippets as gists</li>
+<li>put my code under version control and share the repo with others</li>
+<li>build a module around a specific scope and publish it on CPAN</li>
+</ul>
