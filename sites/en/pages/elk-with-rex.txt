@@ -1,0 +1,26 @@
+=title Setting up ELK using (R)?ex
+=timestamp 2021-03-22T07:30:01
+=indexes Rex
+=tags screencast
+=status draft
+=author 0
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a>
+is going to lead us setting up a system using several different Linux distributions and handling the differences.
+
+We will also attempt to set up a full <a href="https://www.elastic.co/">ELK stack</a>.
+
+We will start where we left of las time when FErki gave us an <a href="/automation-with-rex">introduction to Rex</a>
+
+=abstract end
+
+It is scheduled for March 22 19:00 ILT, 18:00 CET, 17:00 UTC, 13:00 EST, 10:00 PST
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZMkdOCoqzoiHdZ14nLEHU7TvR-QQvQFa0F8">Register here</a>
+
+
