@@ -94,8 +94,8 @@ python:
         - python-prompting-in-python-2-and-3
         - python-add-numbers-from-the-stdin
         - python-converting-string-to-number
-        - pro/python-conditional-statements
-        - pro/python-case-and-switch
+        - python-conditional-statements
+        - python-case-and-switch
         - pro/python-exercises-stdin
         - pro/python-command-line-arguments
         - pro/python-command-line-len-exit
