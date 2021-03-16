@@ -23,4 +23,39 @@ It is scheduled for March 22 19:00 ILT, 18:00 CET, 17:00 UTC, 13:00 EST, 10:00 P
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZMkdOCoqzoiHdZ14nLEHU7TvR-QQvQFa0F8">Register here</a>
 
+<h2>Plan</h2>
 
+Before the meeting create a script that will set up the environment as we had it when we finished the first session.
+<ul>
+   <li>Create a pair of private/public keys that will be used in these examples. Upload the public key to Digital Ocean</li>
+   <li>If not too difficult write a script that will create a new Droplet with my own personal public key. This is going to be the management host.</li>
+   <li>Also create 2 machines using the Rex public key called ubu-1 and ubu-2</li>
+   <li>On the management server: Install Rex using apt-get, copy the .ssh/config file and copy the files we created in the <a href="/automation-with-rex">previous session</a></li>
+   <li>Copy the private ssh key to ~/.ssh/</li>
+   <li>Run the Rex code on the management server to set up the web server on ubu-1</li>
+</ul>
+
+<ul>
+   <li>Create droplets using Fedora, Debian, CentOS, and FreeBSD as well in different regions.</li>
+   <li>Deploy the Web server with our page on each one of them.</li>
+   <li>Change the html page so on each distribution it will say "Welcome to DISTRIBUTION by Rex"</li>
+   <li>Do we have a way to version control exactly what we are running? (So list inventory and only allow to run on the macnies in the inventory.)</li>
+</ul>
+
+<h2>ELK</h2>
+
+<ul>
+   <li>Download the rpm file of ElasticSearch and install on a CentOS based box.</li>
+   <li>Configure the /etc/elasticsearch/elasticsearch.yml file</li>
+   <li>Make sure we can access it locally with curl</li>
+   <li>Install Kibana on another machine</li>
+   <li>Configure ElastiSearch and Kibana so Kibana can access ElasticSearch</li>
+   <li>Configure Nginx on the Kibana machine as a reverse proxy and add Basic Authentication.</li>
+   <li>Install Metricbeat on all the machines and make them send the data to the ElasticSearch</li>
+   <li>Add different tags to the instances.</li>
+   <li>Install our log generator application on one of the boxes.</li>
+   <li>Install Logstash on one of the boxes</li>
+   <li>Install Filebeat on the box with the log generator application</li>
+   <li>Configure filebeat to process the logfile and send it to the Logstash</li>
+   <li>Configure Logstash to accept the data from filebeat and send it to ElasTicsearch</li>
+</ul>
