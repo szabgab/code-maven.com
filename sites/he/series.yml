@@ -96,7 +96,7 @@ python:
         - python-converting-string-to-number
         - python-conditional-statements
         - python-case-and-switch
-        - pro/python-exercises-stdin
+        - python-exercises-stdin
         - pro/python-command-line-arguments
         - pro/python-command-line-len-exit
         - pro/python-exercises-cli
