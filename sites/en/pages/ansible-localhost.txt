@@ -1,0 +1,43 @@
+=title Ansible - localhost
+=timestamp 2021-03-16T11:30:01
+=indexes Ansible
+=description Experiment with Ansible on localhost
+=status show
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Experiment with Ansible on localhost
+
+=abstract end
+
+<h2>Prepare a YAML-based inventory file</h2>
+
+<include file="examples/ansible/localhost/inventory.yml">
+
+<h2>Create an Ansible configuration file</h2>
+
+Telling Ansible where the inventory is.
+
+<include file="examples/ansible/localhost/ansible.cfg">
+
+Make sure you can ssh to localhost:
+
+<code>
+cd ~/.ssh
+cat id_rsa.pub >> authorized_keys
+</code>
+
+Then you can start running commands:
+
+<code>
+ansible all -m ping
+ansible all -m ping
+</code>
+
+
+
