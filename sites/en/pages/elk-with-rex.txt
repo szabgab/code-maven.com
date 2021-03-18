@@ -36,13 +36,20 @@ Before the meeting create a script that will set up the environment as we had it
 </ul>
 
 <ul>
+   <li>Switch to latest Rex from CPAN (perhaps even inside a perlbrew environment?)</li>
    <li>Create droplets using Fedora, Debian, CentOS, and FreeBSD as well in different regions.</li>
    <li>Deploy the Web server with our page on each one of them.</li>
-   <li>Change the html page so on each distribution it will say "Welcome to DISTRIBUTION by Rex"</li>
-   <li>Do we have a way to version control exactly what we are running? (So list inventory and only allow to run on the macnies in the inventory.)</li>
+   <li>Introduction to templates - Change the html page so on each distribution it will say "Welcome to DISTRIBUTION by Rex"</li>
+   <li>Do we have a way to version control exactly what we are running? (So list inventory and only allow to run on the macnies in the inventory. host groups?)</li>
+   <li>Mention the idea of separating code and data (e.g. via CMDB, config files, APIs, etc.)</li>
+   <li>Maybe convert the nginx logic from Rexfile into a module (e.g. Rex::CodeMaven::Nginx)</li>
+   <li>add a cert to nginx (e.g. via Let's Encrypt)</li>
+   <li>Enable basic auth in nginx</li>
 </ul>
 
 <h2>ELK</h2>
+
+Most of this will be probably delayed to a future meeting:
 
 <ul>
    <li>Download the rpm file of ElasticSearch and install on a CentOS based box.</li>
