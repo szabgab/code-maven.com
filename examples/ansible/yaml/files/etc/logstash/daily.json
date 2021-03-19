@@ -1,0 +1,7 @@
+{
+    "template": "daily*",
+    "settings": {
+        "number_of_replicas" : 0
+    }
+}
+
