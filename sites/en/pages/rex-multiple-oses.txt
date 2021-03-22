@@ -1,0 +1,48 @@
+=title Multiple OS-es using (R)?ex
+=timestamp 2021-03-22T18:00:01
+=indexes Rex
+=tags screencast
+=status show
+=author 0
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a>
+is going to lead us setting up a system using several different Linux distributions and handling the differences.
+
+We will start where we left of las time when FErki gave us an <a href="/automation-with-rex">introduction to Rex</a>
+
+=abstract end
+
+It is scheduled for March 22: 19:00 Israel, 18:00 Central Europe, 17:00 GMT, 13:00 US East Coast, 10:00 US West Coast
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZMkdOCoqzoiHdZ14nLEHU7TvR-QQvQFa0F8">Register here</a>
+
+<h2>Plan</h2>
+
+Before the meeting create a script that will set up the environment as we had it when we finished the first session.
+<ul>
+   <li>Create a pair of private/public keys that will be used in these examples. Upload the public key to Digital Ocean</li>
+   <li>If not too difficult write a script that will create a new Droplet with my own personal public key. This is going to be the management host.</li>
+   <li>Also create 2 machines using the Rex public key called ubu-1 and ubu-2</li>
+   <li>On the management server: Install Rex using apt-get, copy the .ssh/config file and copy the files we created in the <a href="/automation-with-rex">previous session</a></li>
+   <li>Copy the private ssh key to ~/.ssh/</li>
+   <li>Run the Rex code on the management server to set up the web server on ubu-1</li>
+</ul>
+
+<ul>
+   <li>Switch to latest Rex from CPAN (perhaps even inside a perlbrew environment?)</li>
+   <li>Create droplets using Fedora, Debian, CentOS, and FreeBSD as well in different regions.</li>
+   <li>Deploy the Web server with our page on each one of them.</li>
+   <li>Introduction to templates - Change the html page so on each distribution it will say "Welcome to DISTRIBUTION by Rex"</li>
+   <li>Do we have a way to version control exactly what we are running? (So list inventory and only allow to run on the macnies in the inventory. host groups?)</li>
+   <li>Mention the idea of separating code and data (e.g. via CMDB, config files, APIs, etc.)</li>
+   <li>Maybe convert the nginx logic from Rexfile into a module (e.g. Rex::CodeMaven::Nginx)</li>
+   <li>add a cert to nginx (e.g. via Let's Encrypt)</li>
+   <li>Enable basic auth in nginx</li>
+</ul>
+
+
