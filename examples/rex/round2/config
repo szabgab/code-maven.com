@@ -1,0 +1,21 @@
+#Host *
+#  StrictHostKeyChecking no
+
+Host ubu1
+  Hostname 64.227.16.131
+
+Host ubu2
+  Hostname 64.227.13.199
+
+Host deb1
+  Hostname 157.245.81.133
+
+Host fed1
+  Hostname 68.183.140.27
+
+Host cent1
+  Hostname 161.35.107.232
+
+Host free1
+  Hostname 134.209.117.73
+

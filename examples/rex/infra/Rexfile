@@ -13,6 +13,7 @@ task setup_nginx => sub {
 desc 'Configure new Rex website';
 task configure_nginx => sub {
     # copy ubu-1.conf to /etc/nginx/sites-enabled/
+    run('rm -f /etc/nginx/sites-enabled/default');
     file '/etc/nginx/sites-enabled/ubu-1.conf',
         source => 'files/ubu-1.conf',
         on_change => sub {

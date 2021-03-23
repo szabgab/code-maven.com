@@ -1,0 +1,97 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+
+desc 'Just printing hostname';
+task 'print_hostname', sub {
+    say run('hostname');
+};
+
+desc 'Install Rex from Linux distribution';
+task install_rex => sub {
+    update_package_db;
+    pkg 'rex', ensure => 'present';
+    say run('rex -v');
+};
+
+desc 'Configure Rex';
+task configure_rex => sub {
+
+    # file is a "resource"  (included in the audit log)
+    file '/root/.ssh',
+      ensure => 'directory',
+      owner  => 'root',
+      group  => 'root',
+      mode   => '0700';
+    file '/root/.ssh/id_rsa',
+      source => '/home/gabor/.ssh/rex/rex_id_rsa',
+      owner  => 'root',
+      group  => 'root',
+      mode   => '0600';
+    file '/root/.ssh/config', source =>
+      'files/config';    # had to edit manually including the IP addresses
+    file '/root/infra',         ensure => 'directory';
+    file '/root/infra/files',   ensure => 'directory';
+    file '/root/infra/Rexfile', source => '../infra/Rexfile';
+
+    # sync_up, sync_down are "commands"
+    sync_up '../infra/files', '/root/infra/files';
+};
+
+desc 'Check Rex';
+task check_rex => sub {
+    #if( not is_installed("tree") ) {
+    #    update_package_db;
+        pkg 'tree', ensure => 'present';
+    #}
+
+    #say for run(q{tree -a /root/});
+    say scalar run(q{tree -a /root/});
+};
+
+# This did not work well
+desc 'update';
+task update => sub {
+    update_package_db;
+    update_system;
+
+    #run('apt-get dist-upgrade -y');
+    say run('uptime');
+
+    #run('reboot');
+    #say run('uptime');
+};
+
+desc 'Reboot';
+task reboot => sub {
+    say run('uptime');
+    task '_reboot';
+    wait_for_system_to_come_back(connection->server);
+    say run('uptime');
+};
+
+desc 'Reboot';
+task _reboot => sub {
+    run('reboot');
+};
+
+
+use Rex::Commands::SimpleCheck;
+
+sub wait_for_system_to_come_back {
+  my ($server) = @_;
+
+  # give some time for the reboot
+  Rex::Logger::info("Waiting for system reboot of $server...");
+  #sleep 30;
+
+  while ( !is_port_open $server, 22 ) {
+    sleep 1;
+  }
+
+  Rex::Logger::info("System $server is up and running again...");
+  #Rex::Logger::info("Waiting 30 seconds for the services to start up...");
+  #sleep 30;
+
+  # reconnect ssh
+  Rex::get_current_connection_object->reconnect;
+}
+

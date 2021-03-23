@@ -1,0 +1,79 @@
+    1  rex -v
+    2  cpanm
+    3  adduser rexify
+    4  perl -MCPAN -Mlocal::lib -e 'CPAN::install(LWP)'
+    5  apt search local-lib
+    6  apt search liblocal-lib-perl
+    7  apt install liblocal-lib-perl
+    8  perl -Mlocal::lib
+    9  vim .bashrc
+   10  printenv
+   11  apt install libcpanminus-lib-perl
+   12  apt install cpanminus
+   18  apt install build-essential
+   19  cpanm Rex
+   20  rex -v
+   21  ll
+   22  cd infra/
+   23  ll
+   24  rex -T
+   25  rex -H 'ubu[1,2]' print_hostname
+   26  vim ~/.ssh/config 
+   27  rex -H 'ubu[1,2] deb1' print_hostname
+   28  rex -H 'ubu[1,2] deb1' -T
+   29  rex -H 'deb1' setup_nginx
+   30  vim Rexfile 
+   31  rex -H 'deb1' setup_nginx -d
+   32  rex -H 'deb1' -d setup_nginx
+   33  vim Rexfile 
+   34  rex -H 'deb1' setup_nginx
+   35  cat ~/.ssh/config 
+   36  rex -H 'deb1' setup_nginx -T
+   37  rex -H 'deb1' -T setup_nginx
+   38  rex -H 'deb1' -T
+   39  rex -H 'deb1' configure_nginx
+   40  vim ../.ssh/config 
+   41  #rex -H 'ubu[1,2] deb1 cent1 fed1 free1' print_hostname
+   42  cat ~/.ssh/config 
+   43  rex -H 'ubu[1,2] deb1 cent1 fed1 free1' print_hostname
+   44  fg
+   45  vim Rexfile 
+   46  fg
+   47  rex -T
+   48  rex -G all print_hostname
+   49  rex -G all -T
+   50  rex -G all setup_nginx
+   51  rex -h
+   52  rex -h | less
+   53  rex -t 6 -G all setup_nginx
+   54  cat ~/.ssh/config
+   55  fg
+   56  rex -t 6 -G all setup_nginx
+   57  fg
+   58  rex -H ubu1 -e 'run(q{get_operating_system})'
+   59  rex -H ubu1 -e 'say get_operating_system'
+   60  rex -H fed1 -e 'say get_operating_system'
+   61  fg
+   62  rex -t 6 -G all configure_nginx
+   63  rex -H 'fed1' -e 'say run(q{getent passwd})'
+   64  rex -H 'fed1' -e 'say scalar run(q{getent passwd})'
+   65  rex -H 'cent1' -e 'say scalar run(q{getent passwd})'
+   66  rex -H 'free1' -e 'say scalar run(q{getent passwd})'
+   67  fg
+   68  rex -t 6 -G all configure_nginx
+   69  fg
+   70  rex -t 6 -G all configure_nginx
+   71  fg
+   72  rex -H 'fed1' -e 'say scalar run(q{ls -l /etc/nginx})'
+   73  rex -H 'fed1' -e 'say scalar run(q{ls -l /etc/nginx/conf.d})'
+   74  rex -H 'cent1' -e 'say scalar run(q{ls -l /etc/nginx/conf.d})'
+   75  fg
+   76  rex -H 'fed1 cent1' -e 'say scalar run(q{ls -l /etc/nginx/sites-enabled})'
+   77  rex -H 'cent1' -e 'say scalar run(q{ls -l /etc/nginx/sites-enabled})'
+   78  fg
+   79  rex -H 'free1' -e 'say scalar run(q{ls -l /etc/})'
+   80  fg
+   81  rex -t 6 -G all configure_nginx
+   83  rex -H 'fed1 cent1' -e 'say scalar run(q{ls -l /tmp/})'
+   84  rex -H 'fed1 cent1' -e 'say scalar run(q{ls -l /tmp/rex/})'
+   85  rex -H 'fed1 cent1' -e 'say scalar run(q{cat /etc/nginx/nginx.conf})'

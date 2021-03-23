@@ -1,0 +1,36 @@
+=title Rex - (R)?ex - Rexify
+=timestamp 2021-03-23T09:30:01
+=indexes Rex
+=description Rex (aka Rexify) is a framework allowing you to automate the configuration and maintenance of many servers
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://www.rexify.org/">Rex (aka Rexify)</a> is a framework allowing you to automate the configuration and maintenance of many servers.
+
+=abstract end
+
+<ul>
+   <li><a href="/automation-with-rex">Learn automation using (R)?ex</a></li>
+   <li><a href="/rex-multiple-oses">Multiple OS-es using (R)?ex</a></li>
+</ul>
+
+<!--
+   <li><a href="/elk-with-rex">Setting up ELK using (R)?ex</a></li>
+   <li><a href=""></a></li>
+-->
+
+<h2>Further Plans</h2>
+<ul>
+   <li>Mention the idea of separating code and data (e.g. via CMDB, config files, APIs, etc.)</li>
+   <li>Maybe convert the nginx logic from Rexfile into a module (e.g. Rex::CodeMaven::Nginx)</li>
+   <li>add a cert to nginx (e.g. via Let's Encrypt)</li>
+   <li>Enable basic auth in nginx</li>
+   <li>Write a script that will create a new Droplet with my own personal public key. This is going to be the management host.</li>
+</ul>
+
+

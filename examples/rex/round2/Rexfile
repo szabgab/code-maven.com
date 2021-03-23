@@ -1,0 +1,55 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+
+group all => qw(ubu[1,2] deb1 cent1 fed1 free1);
+
+desc 'Just printing hostname';
+task 'print_hostname', sub {
+    say run('hostname');
+};
+
+desc 'Setup nginx';
+task setup_nginx => sub {
+    update_package_db;
+    pkg 'nginx', ensure => 'present';
+    service 'nginx', ensure => 'started';
+};
+
+desc 'Configure new Rex website';
+task configure_nginx => sub {
+    # copy ubu-1.conf to /etc/nginx/sites-enabled/
+    #run('rm -f /etc/nginx/sites-enabled/default');
+    my $nginx_dir = case operating_system, {
+                qr{Debian|Ubuntu}i  => "/etc/nginx/sites-enabled",
+	        qr{Fedora|Centos}i  => "/etc/nginx/conf.d",
+                qr{FreeBSD}i        => 'www',
+                default => "www-data",
+              };
+
+    file "$nginx_dir/default", ensure => 'absent';
+    file "$nginx_dir/ubu-1.conf",
+        source => 'files/ubu-1.conf',
+        on_change => sub {
+            service 'nginx' => 'reload';
+        };
+
+    # copy main.html to /root/rex/index.html
+    #file '/root/rex', ensure => 'directory';
+    #file '/root/rex/index.html', source => 'files/main.html';
+
+    # copy main.html to /tmp/rex/index.html
+    my $owner = case operating_system, {
+                qr{Debian|Ubuntu}i  => "www-data",
+	        qr{Fedora|Centos}i  => "nginx",
+                qr{FreeBSD}i        => 'www',
+                default => "www-data",
+              };
+ 
+    file '/tmp/rex', ensure => 'directory', owner => $owner, group => $owner, mode => '0755';
+    #file '/tmp/rex/index.html', source => 'files/main.html';
+    my $hostname = run('hostname');
+    file '/tmp/rex/index.html', content => template('files/main.html', name => $hostname );
+
+    # reload nginx
+    #service 'nginx' => 'reload';
+};
+
