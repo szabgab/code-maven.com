@@ -80,7 +80,7 @@ eval "$(perl -I$HOME/perl5/lib/perl5 -Mlocal::lib)"
 
 <h2>Nginx config file</h2>
 
-<include file="examples/rex/round2/file/ubu-1.conf">
+<include file="examples/rex/round2/files/ubu-1.conf">
 
 <h2>.ssh/config file</h2>
 
