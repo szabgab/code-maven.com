@@ -97,7 +97,7 @@ python:
         - python-conditional-statements
         - python-case-and-switch
         - python-exercises-stdin
-        - pro/python-command-line-arguments
+        - python-command-line-arguments
         - pro/python-command-line-len-exit
         - pro/python-exercises-cli
     - title: מספרים
