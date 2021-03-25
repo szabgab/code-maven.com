@@ -34,3 +34,72 @@
 </ul>
 
 
+<h2>Getting started with Rex</h2>
+
+<ul>
+    <li><a href="">Install Rex</a></li>
+    <li>Set up a remote host. e.g. Create a Droplet on <a href="https://www.digitalocean.com/?refcode=0d4cc75b3a74">Digital Ocean</a></li>
+    <li>Make sure you can ssh to the host without providing a password.</li>
+    <li>Run your first command using Rex: (after replacing USER by the remote username and REMOTE_HOST by the IP or dns name of the remote host.)</li>
+</ul>
+
+<code>
+rex -u USER -H REMOTE_HOST -e 'say run(q{hostname})'
+</code>
+
+<h2>Get remote hostname using Rexify</h2>
+
+<code>
+rex -u USER -H REMOTE_HOST -e 'say run(q{hostname})'
+</code>
+
+The output will look like this:
+
+<code>
+[2021-03-23 19:11:22] INFO - Running task eval-line on REMOTE_HOST
+HOSTNAME
+[2021-03-23 19:11:28] INFO - All tasks successful on all hosts
+</code>
+
+<h2>List directory on remote host using Rexify</h2>
+
+<code>
+rex -u USER -H REMOTE_HOST -e 'say for run(q{ls -l})'
+rex -u USER -H REMOTE_HOST -e 'say scalar run(q{ls -l})'
+</code>
+
+<h2>Create a Rexfile</h2>
+
+<include file="examples/rex/minimal/Rexfile">
+
+This is still useless, but we already have a Rexfile that declares its featureset.
+
+<h2>Rexfile with simple task showing remote hostname</h2>
+
+<include file="examples/rex/hostname/Rexfile">
+
+<b>cd</b> into the directory of this file.
+
+Then type in
+
+<code>
+rex -T
+</code>
+
+it will print out the list of available tasks in the Rexfile.
+
+<code>
+Tasks
+ print_hostname  Just printing hostname
+</code>
+
+The output will look like this: (you need to replace USER and REMOTE_HOST and it will show something else instead of HOSTNAME
+
+<code>
+$ rex -u USER -H REMOTE_HOST print_hostname
+[2021-03-25 13:21:48] INFO - Running task print_hostname on REMOTE_HOST
+HOSTNAME
+[2021-03-25 13:21:54] INFO - All tasks successful on all hosts
+</code>
+
+

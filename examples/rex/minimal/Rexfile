@@ -1,0 +1,1 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];

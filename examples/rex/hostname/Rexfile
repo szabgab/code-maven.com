@@ -1,0 +1,6 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+
+desc 'Just printing hostname';
+task 'print_hostname', sub {
+    say run('hostname');
+};
