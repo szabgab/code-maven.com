@@ -1,0 +1,7 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+
+desc 'Update list of Linux packages';
+task update_pacakges => sub {
+    update_package_db;
+};
+

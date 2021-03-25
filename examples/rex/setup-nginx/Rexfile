@@ -1,0 +1,9 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+
+desc 'Setup nginx';
+task setup_nginx => sub {
+    # update_package_db;
+    pkg 'nginx', ensure => 'present';
+    service 'nginx', ensure => 'started';
+};
+

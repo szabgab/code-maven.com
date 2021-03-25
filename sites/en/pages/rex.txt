@@ -102,4 +102,17 @@ HOSTNAME
 [2021-03-25 13:21:54] INFO - All tasks successful on all hosts
 </code>
 
+<h2>Rexify update list of packages</h2>
+
+<b>apt-get update using Rexify</b>
+
+<include file="examples/rex/update/Rexfile">
+
+<h2>Rexify install Nginx</h2>
+
+<include file="examples/rex/setup-nginx/Rexfile">
+
+You might first need to update the list of packages.
+
+
 

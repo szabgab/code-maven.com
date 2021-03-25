@@ -20,9 +20,9 @@ task configure_nginx => sub {
     #run('rm -f /etc/nginx/sites-enabled/default');
     my $nginx_dir = case operating_system, {
                 qr{Debian|Ubuntu}i  => "/etc/nginx/sites-enabled",
-	        qr{Fedora|Centos}i  => "/etc/nginx/conf.d",
+                qr{Fedora|Centos}i  => "/etc/nginx/conf.d",
                 qr{FreeBSD}i        => 'www',
-                default => "www-data",
+                default             => "www-data",
               };
 
     file "$nginx_dir/default", ensure => 'absent';
@@ -39,11 +39,11 @@ task configure_nginx => sub {
     # copy main.html to /tmp/rex/index.html
     my $owner = case operating_system, {
                 qr{Debian|Ubuntu}i  => "www-data",
-	        qr{Fedora|Centos}i  => "nginx",
+                qr{Fedora|Centos}i  => "nginx",
                 qr{FreeBSD}i        => 'www',
-                default => "www-data",
+                default             => "www-data",
               };
- 
+
     file '/tmp/rex', ensure => 'directory', owner => $owner, group => $owner, mode => '0755';
     #file '/tmp/rex/index.html', source => 'files/main.html';
     my $hostname = run('hostname');
