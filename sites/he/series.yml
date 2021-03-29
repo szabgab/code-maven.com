@@ -98,7 +98,7 @@ python:
         - python-case-and-switch
         - python-exercises-stdin
         - python-command-line-arguments
-        - pro/python-command-line-len-exit
+        - python-command-line-len-exit
         - pro/python-exercises-cli
     - title: מספרים
       sub:

@@ -1,0 +1,17 @@
+=title פרמטרים על שורת הפקודות וקוד פייתון
+=timestamp 2021-03-29T08:30:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/command-line-arguments-len">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-comnand-line-len-exit" youtube="QKmV0-Ha4U8" />
+
