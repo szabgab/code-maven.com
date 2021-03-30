@@ -1,0 +1,17 @@
+=title תרגילים לשורת הפקודה בפייתון - CLI
+=timestamp 2021-03-07T14:15:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/exercise-rectangular-argv">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-exercises-cl" youtube="oTXASVeD_Xc" />
+

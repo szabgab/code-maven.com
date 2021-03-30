@@ -99,7 +99,7 @@ python:
         - python-exercises-stdin
         - python-command-line-arguments
         - python-command-line-len-exit
-        - pro/python-exercises-cli
+        - python-exercises-cli
     - title: מספרים
       sub:
         - pro/python-numbers
