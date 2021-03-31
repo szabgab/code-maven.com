@@ -102,7 +102,7 @@ python:
         - python-exercises-cli
     - title: מספרים
       sub:
-        - pro/python-numbers
+        - python-numbers
         - pro/python-random-numbers
         - pro/python-random-values
         - pro/python-built-in-method
