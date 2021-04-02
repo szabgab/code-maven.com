@@ -1,8 +1,8 @@
-=title Live air programming events
+=title Live pair programming events
 =timestamp 2021-04-02T09:00:01
 =indexes Live
-=description
-=status draft
+=description Live pair programming sessions
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
