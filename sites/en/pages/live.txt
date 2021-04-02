@@ -1,0 +1,48 @@
+=title Live air programming events
+=timestamp 2021-04-02T09:00:01
+=indexes Live
+=description
+=status draft
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Live pair programming events
+
+=abstract end
+
+<!--
+    <li><a href=""></a></li>
+-->
+
+<h2>Scheduled</h2>
+
+<ul>
+    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.04 Web application development using Mojolicious - part 2</a> with Mark Gardner</li>
+    <li><a href="https://code-maven.com/rex-automation-3">2021.04.10 Automation using Rex - part 3</a> with Ferenc Erki, the maintainer of the framework</li>
+    <li><a href="https://perlmaven.com/exploring-bdd-in-perl-5">2021.04.11 Exploring BDD using Test::BDD::Cucumber</a> with Erik Hülsmann, the maintainer of the module</li>
+</ul>
+
+<h2>Previous ones</h2>
+
+<ul>
+    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.03.28 Web application development using Mojolicious - part 1</a> with Mark Gardner</li>
+    <li><a href="https://code-maven.com/rex-multiple-oses">2021.03.08 Automation using Rex - part 2</a> with Ferenc Erki</li>
+    <li><a href="https://code-maven.com/automation-with-rex">2021.03.22 Automation using Rex - part 1</a> with Ferenc Erki</li>
+    <li><a href="https://code-maven.com/exploring-gitlab-ci">2021.02.07 Exploring GitLab CI</a></li>
+    <li><a href="https://perlmaven.com/exploring-bdd-in-perl-4">2021.02.07 Exploring BDD in Perl - using Test::BDD::Cucumber - part 4</a></li>
+    <li><a href="https://perlmaven.com/exploring-bdd-in-perl-3">2021.02.06 Exploring BDD in Perl - using Test::BDD::Cucumber - part 3</a></li>
+    <li><a href="https://perlmaven.com/exploring-bdd-in-perl-2">2021.02.06 Exploring BDD in Perl - using Test::BDD::Cucumber - part 2</a></li>
+    <li><a href="https://perlmaven.com/exploring-bdd-in-perl-1">2021.02.04 Exploring BDD in Perl - using Test::BDD::Cucumber - part 1</a></li>
+</ul>
+
+
+<h2>Follow us</h2>
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+

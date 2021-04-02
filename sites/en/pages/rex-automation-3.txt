@@ -1,0 +1,23 @@
+=title Automation with Rex - part 3 - (R)?ex
+=timestamp 2021-04-02T08:20:01
+=indexes Rex
+=tags screencast
+=status show
+=author 0
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a>
+will help with further task using Rex.
+
+See the whole <a href="/rex">series about Rex</a>
+
+=abstract end
+
+Scheduled for April 10: 19:00 Israel - Check out your time on the registration page.
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUtf-usrjMoGtf5wZLaHykTidIuMUl71htT">Register here</a>
+
