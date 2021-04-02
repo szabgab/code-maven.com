@@ -3,7 +3,7 @@
 =indexes Live
 =description Live pair programming sessions
 =status show
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
 =show_related 1
