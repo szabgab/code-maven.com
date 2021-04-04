@@ -20,13 +20,16 @@ Live pair programming events
 
 <h2>Scheduled</h2>
 
-Use this link to include the the schedule in your calendar: <a href="https://code-maven.com/events.ics">https://code-maven.com/events.ics</a>.
 
 <ul>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.04 Web application development using Mojolicious - part 2</a> with Mark Gardner</li>
     <li><a href="https://code-maven.com/rex-automation-3">2021.04.10 Automation using Rex - part 3</a> with Ferenc Erki, the maintainer of the framework</li>
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-5">2021.04.11 Exploring BDD using Test::BDD::Cucumber</a> with Erik Hülsmann, the maintainer of the module</li>
 </ul>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=2gn7l0c1j6k6r5q2jjdaigveighrcsec%40import.calendar.google.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
+Use this link to include the the schedule in your calendar: <a href="https://code-maven.com/events.ics">https://code-maven.com/events.ics</a> .
 
 <h2>Previous ones</h2>
 
