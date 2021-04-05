@@ -1,4 +1,4 @@
-=title העלת פרויקט לגיטהוב
+=title העלאת פרויקט לגיטהוב
 =timestamp 2021-04-05T10:30:01
 =indexes Git, GitHub
 =tags screencast
@@ -10,7 +10,7 @@
 
 =abstract start
 
-העלת פרויקט לגיטהוב
+העלאת פרויקט לגיטהוב
 
 =abstract end
 
