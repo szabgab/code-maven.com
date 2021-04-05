@@ -24,3 +24,5 @@
 <a href="https://www.wikiloc.com/wikiloc/user.do?id=2721120">Wikiloc - Gabor</a>
 
 <a href="https://github.szabgab.com/hike-in-israel/">Hike in Israel</a>
+
+<a href="/creating-project-on-github">העלת הפרויקט לגיטהב</a>

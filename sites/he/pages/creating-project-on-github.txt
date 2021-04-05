@@ -1,0 +1,23 @@
+=title העלת פרויקט לגיטהוב
+=timestamp 2021-04-05T10:30:01
+=indexes Git, GitHub
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+העלת פרויקט לגיטהוב
+
+=abstract end
+
+<screencast file="Nathan_Wainstein_github_3840x2160.mp4" youtube="SvyPwe7ibq4" />
+
+<a href="https://github.com/natannvw/ElevationsFix">Elevations Fix source code</a> on GitHub.
+
+<a href="https://www.linkedin.com/in/nathan-weinstein-9512861b1/">Nathan Weinstein</a>
+
+<a href="/fixing-elevation-data-in-gpx-file">תיאור הפרויקט עצמו</a>
