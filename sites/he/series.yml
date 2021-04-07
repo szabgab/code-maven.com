@@ -105,7 +105,7 @@ python:
         - python-numbers
         - python-random-numbers
         - python-random-values
-        - pro/python-built-in-method
+        - python-built-in-method
         - pro/python-typerror-module-object
         - pro/python-attributeerror-module-has-no-attribute
         - pro/python-exercises-numbers
