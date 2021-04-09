@@ -1,0 +1,17 @@
+=title TypeError: module object שגיאה בקוד פייתון
+=timestamp 2021-04-09T08:15:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/exception-module-object-is-not-callable">TypeError: module object</a></li>
+</ul>
+
+<screencast file="hebrew-python-typerror-module-object" youtube="TWYlmqcsBE0" />
+

@@ -106,7 +106,7 @@ python:
         - python-random-numbers
         - python-random-values
         - python-built-in-method
-        - pro/python-typerror-module-object
+        - python-typerror-module-object
         - pro/python-attributeerror-module-has-no-attribute
         - pro/python-exercises-numbers
     - title: בולאנים
