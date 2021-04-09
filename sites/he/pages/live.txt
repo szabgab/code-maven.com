@@ -26,7 +26,10 @@
 </ul>
 
 
+<iframe src="https://calendar.google.com/calendar/embed?src=v53c0ofevmc92t01eegd7j78plvnc0al%40import.calendar.google.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+
 Use this link to include the the schedule in your calendar: <a href="https://www.meetup.com/Code-Mavens/events/calendar/">https://www.meetup.com/Code-Mavens/events/calendar/</a> .
+
 
 <!--
 <h2>Previous ones</h2>
