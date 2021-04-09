@@ -51,3 +51,7 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
     <li><a href="/linkedin">LinkedIn page</a></li>
 </ul>
 
+<h2>Background</h2>
+
+<a href="https://martinfowler.com/articles/on-pair-programming.html">Martin Fowler on Pair Programming</a> by Birgitta Böckeler and Nina Siessegger.
+
