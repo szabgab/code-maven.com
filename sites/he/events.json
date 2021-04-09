@@ -8,6 +8,14 @@
         "url" : "https://www.meetup.com/Code-Mavens/events/277231905/"
     },
     {
+        "summary" : "Live coding of cucumber-playwright with Tally Barak (Hebrew)",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 4, "day" : 18, "hour" : 14, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "Zoom",
+        "url" : "https://www.meetup.com/Code-Mavens/events/277464639/"
+    },
+    {
         "summary" : "Testing with Pytests (Hebrew)",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 4, "day" : 21, "hour" : 9, "time_zone"  : "+0300"},
