@@ -19,9 +19,11 @@ We will start where we left of las time when FErki gave us an <a href="/automati
 
 =abstract end
 
-It is scheduled for March 22: 19:00 Israel, 18:00 Central Europe, 17:00 GMT, 13:00 US East Coast, 10:00 US West Coast
+It is scheduled for April 10: 19:00 Israel
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUtf-usrjMoGtf5wZLaHykTidIuMUl71htT">Register here</a>
+
+For the time in your timezone check out the registration form or visit the page of <a href="/live">all the live events</a>
 
 <h2>Plan</h2>
 
