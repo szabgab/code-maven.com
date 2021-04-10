@@ -1,8 +1,8 @@
-=title Setting up ELK using (R)?ex
+=title Setting up ELK using Rexify
 =timestamp 2021-03-22T07:30:01
 =indexes Rex
 =tags screencast
-=status draft
+=status show
 =author 0
 =archive 1
 =comments_disqus_enable 0

@@ -1,4 +1,4 @@
-=title Automation with Rex - part 3 - (R)?ex
+=title Automation with Rex - part 3 - Rexify
 =timestamp 2021-04-02T08:20:01
 =indexes Rex
 =tags screencast

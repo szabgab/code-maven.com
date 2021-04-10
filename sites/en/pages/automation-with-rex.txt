@@ -1,4 +1,4 @@
-=title Learn automation using Rex - (R)?ex
+=title Learn automation using Rexify
 =timestamp 2021-03-09T07:30:01
 =indexes Rex
 =tags screencast
