@@ -81,7 +81,7 @@ OK, so this is not necessary to our task, but I like to see it working.
 
 <include file="examples/ansible/elk/playbooks/hostname.yml">
 
-<code
+<code>
 ansible-playbook playbooks/hostname.yml
 </code>
 
