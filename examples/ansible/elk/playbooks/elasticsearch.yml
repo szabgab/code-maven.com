@@ -65,7 +65,6 @@
 
     - name: Verify Elasticsearch
       ansible.builtin.shell: curl http://localhost:9200
-      warn: false
       register: response
     - debug: msg="{{ response.stdout }}"
 

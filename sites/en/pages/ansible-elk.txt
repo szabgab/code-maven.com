@@ -1,0 +1,160 @@
+=title Install the ELK stack on CentOS using Ansible
+=timestamp 2021-04-10T16:30:01
+=indexes ELK, ElasticSearch, Kibana, Logstash, Filebeat, Metricbeat, Ansible
+=status show
+=books ansible
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<h2>Create server, configure inventory</h2>
+
+Create <a href="/digitalocean">Droplet on Digital Ocean</a> using CentOS 8.3 x64 with 4GB memory and 2 vCPUs configuring an SSH key to make easy access to it.
+
+We can probably use other version of CentOS as well, but this is what I tried it with.
+
+From the Digital Ocean web site copy the IP address of the drolet and add it to the inventory file replacing the IP address you find there:
+
+<include file="examples/ansible/elk/inventory.yml">
+
+
+<h2>Verify that we have access to the server using Ansible Ping</h2>
+
+<code>
+ansible NAME -m ping
+</code>
+
+First it will want to verify the fingerprint of the server:
+
+<code>
+The authenticity of host '134.122.123.157 (134.122.123.157)' can't be established.
+ECDSA key fingerprint is SHA256:L1jIJx45fOP3lFH/qQysD7tAdY9/rNoeC+eA2mO4ijY.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+</code>
+
+Type in "yes" and press enter.
+
+Then the response is expected to look like this:
+
+<code>
+134.122.123.157 | SUCCESS => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/libexec/platform-python"
+    },
+    "changed": false,
+    "ping": "pong"
+}
+</code>
+
+Try the same with our first playbook:
+
+<code>
+ansible-playbook playbooks/ping.yml
+</code>
+
+The response is expected to be:
+
+<code>
+PLAY [all] ****************************************************************************************
+
+TASK [Gathering Facts] ****************************************************************************
+ok: [104.236.61.19]
+
+TASK [Ping] ***************************************************************************************
+ok: [104.236.61.19]
+
+PLAY RECAP ****************************************************************************************
+104.236.61.19     : ok=2  changed=0  unreachable=0  failed=0  skipped=0  rescued=0  ignored=0
+</code>
+
+<include file="examples/ansible/elk/playbooks/ping.yml">
+
+See <a href="https://docs.ansible.com/ansible/latest/collections/ansible/builtin/ping_module.html">Ping module</a>
+
+<h2>Fetch the hostname of the server</h2>
+
+OK, so this is not necessary to our task, but I like to see it working.
+
+<include file="examples/ansible/elk/playbooks/hostname.yml">
+
+<code
+ansible-playbook playbooks/hostname.yml
+</code>
+
+Output:
+
+<code>
+PLAY [all] ***************************************************************************************
+
+TASK [Gathering Facts] ***************************************************************************
+ok: [104.236.61.19]
+
+TASK [Bash] **************************************************************************************
+changed: [104.236.61.19]
+
+TASK [debug] *************************************************************************************
+ok: [104.236.61.19] => {
+    "msg": "elk1"
+}
+
+PLAY RECAP ***************************************************************************************
+104.236.61.19    : ok=3  changed=1  unreachable=0  failed=0  skipped=0  rescued=0  ignored=0
+</code>
+
+See <a href="https://docs.ansible.com/ansible/latest/collections/ansible/builtin/shell_module.html">Ansible shell module</a>.
+
+<h2>Install Elasticsearch</h2>
+
+The version of ElasticSearch is baked into the playbook file. You can visit the
+<a href="https://www.elastic.co/downloads/elasticsearch">download page of Elasticsearch</a> to pick a different version.
+
+<include file="examples/ansible/elk/playbooks/elasticsearch.yml">
+
+<code>
+ansible-playbook playbooks/elasticsearch.yml
+</code>
+
+
+<h2>Setup Nginx with simple authentication</h2>
+
+
+Follow the instructions on how to <a href="https://docs.nginx.com/nginx/admin-guide/security-controls/configuring-http-basic-authentication/">configure http basic authentication for Nginx</a>
+create one or more username/password pairs:
+
+<code>
+$ htpasswd -c .htpasswd user1     (pw: secret1)
+$ htpasswd .htpasswd user2        (pw: secret2)
+</code>
+
+Then run the playbook:
+
+<code>
+ansible-playbook playbooks/nginx.yml
+</code>
+
+
+<include file="examples/ansible/elk/playbooks/nginx.yml">
+
+Visit http://IP:81 after replacing IP with the IP address of your host to get access to Elasticsearch
+
+
+<h2>Kibana</h2>
+
+<include file="examples/ansible/elk/playbooks/kibana.yml">
+
+<h2>Metricbeat</h2>
+
+<include file="examples/ansible/elk/playbooks/metricbeat.yml">
+
+<h2>ELK</h2>
+
+<include file="examples/ansible/elk/playbooks/elk.yml">
+
+<h2>Ansible Configuration file</h2>
+
+<include file="examples/ansible/elk/ansible.cfg">
+

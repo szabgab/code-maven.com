@@ -1,6 +1,6 @@
 elastic:
   hosts:
-    134.122.123.157
+    68.183.26.18
 all:
   children:
     elastic:
