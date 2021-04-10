@@ -25,7 +25,7 @@
 
     - name: Copy config file
       copy:
-        src: ../metricbeat.yml
+        src: ../files/etc/metricbeat/metricbeat.yml
         dest: /etc/metricbeat/metricbeat.yml
 
     - name: Restart
