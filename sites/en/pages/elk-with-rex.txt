@@ -27,28 +27,6 @@ For the time in your timezone check out the registration form or visit the page 
 
 <h2>Plan</h2>
 
-Before the meeting create a script that will set up the environment as we had it when we finished the first session.
-<ul>
-   <li>Create a pair of private/public keys that will be used in these examples. Upload the public key to Digital Ocean</li>
-   <li>If not too difficult write a script that will create a new Droplet with my own personal public key. This is going to be the management host.</li>
-   <li>Also create 2 machines using the Rex public key called ubu-1 and ubu-2</li>
-   <li>On the management server: Install Rex using apt-get, copy the .ssh/config file and copy the files we created in the <a href="/automation-with-rex">previous session</a></li>
-   <li>Copy the private ssh key to ~/.ssh/</li>
-   <li>Run the Rex code on the management server to set up the web server on ubu-1</li>
-</ul>
-
-<ul>
-   <li>Switch to latest Rex from CPAN (perhaps even inside a perlbrew environment?)</li>
-   <li>Create droplets using Fedora, Debian, CentOS, and FreeBSD as well in different regions.</li>
-   <li>Deploy the Web server with our page on each one of them.</li>
-   <li>Introduction to templates - Change the html page so on each distribution it will say "Welcome to DISTRIBUTION by Rex"</li>
-   <li>Do we have a way to version control exactly what we are running? (So list inventory and only allow to run on the macnies in the inventory. host groups?)</li>
-   <li>Mention the idea of separating code and data (e.g. via CMDB, config files, APIs, etc.)</li>
-   <li>Maybe convert the nginx logic from Rexfile into a module (e.g. Rex::CodeMaven::Nginx)</li>
-   <li>add a cert to nginx (e.g. via Let's Encrypt)</li>
-   <li>Enable basic auth in nginx</li>
-</ul>
-
 <h2>ELK</h2>
 
 Most of this will be probably delayed to a future meeting:

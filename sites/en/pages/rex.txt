@@ -17,10 +17,11 @@
 <ul>
    <li><a href="/automation-with-rex">Learn automation using (R)?ex</a></li>
    <li><a href="/rex-multiple-oses">Multiple OS-es using (R)?ex</a></li>
+   <li><a href="/rex-automation-3">Rex Automation part 3</a></li>
+   <li><a href="/elk-with-rex">Setting up ELK using (R)?ex</a></li>
 </ul>
 
 <!--
-   <li><a href="/elk-with-rex">Setting up ELK using (R)?ex</a></li>
    <li><a href=""></a></li>
 -->
 
