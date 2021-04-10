@@ -21,22 +21,27 @@
 
     - name: Nginx config file
       copy:
-        src: ../nginx.conf
+        src: ../files/etc/nginx/nginx.conf
         dest: /etc/nginx/nginx.conf
 
     - name: Nginx config file
       copy:
-        src: ../nginx-elk.conf
+        src: ../files/etc/nginx/conf.d/nginx-elk.conf
         dest: /etc/nginx/conf.d/nginx-elk.conf
 
     - name: Nginx users file
       copy:
-        src: ../.htpasswd
-        dest: /etc/nginx/.htpasswd
+        src: ../files/usr/share/nginx/html/.htpasswd
+        dest: /usr/share/nginx/html/.htpasswd
+
+
+    - name: Allow Nginx to work as a reverse proxy
+      ansible.builtin.shell: setsebool httpd_can_network_connect on -P
+
 
     - name: Restart
       ansible.builtin.service:
-        name: nginx 
+        name: nginx
         state: restarted
 
 

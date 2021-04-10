@@ -23,42 +23,49 @@
         state: started
         enabled: yes
 
-    - name: Configure Elasticsearch Cluster
-      lineinfile:
-        destfile: /etc/elasticsearch/elasticsearch.yml
-        regexp: 'cluster.name:'
-        line: 'cluster.name: code-maven-demo'
+    - name: Copy configuration file
+      copy:
+        src: ../files/etc/elasticsearch/elasticsearch.yml
+        dest: /etc/elasticsearch/elasticsearch.yml
 
-    - name: Configure Elasticsearch Node
-      lineinfile:
-        destfile: /etc/elasticsearch/elasticsearch.yml
-        regexp: 'node.name:'
-        line: 'node.name: code-maven-elastic-1'
-
-    - name: Configure Elasticsearch Node Master
-      lineinfile:
-        destfile: /etc/elasticsearch/elasticsearch.yml
-        regexp: 'node.master:'
-        line: 'node.master: true'
-
-    - name: Configure Elasticsearch Node Data
-      lineinfile:
-        destfile: /etc/elasticsearch/elasticsearch.yml
-        regexp: 'node.data:'
-        line: 'node.data: true'
-
-    - name: Configure Elasticsearch Single-host
-      lineinfile:
-        destfile: /etc/elasticsearch/elasticsearch.yml
-        regexp: 'discovery.type:'
-        line: 'discovery.type: single-node'
-
-#network.host: 0.0.0.0
-#discovery.seed_hosts: ["1.2.3.4"]
+#    - name: Configure Elasticsearch Cluster
+#      lineinfile:
+#        destfile: /etc/elasticsearch/elasticsearch.yml
+#        regexp: 'cluster.name:'
+#        line: 'cluster.name: code-maven-demo'
+#
+#    - name: Configure Elasticsearch Node
+#      lineinfile:
+#        destfile: /etc/elasticsearch/elasticsearch.yml
+#        regexp: 'node.name:'
+#        line: 'node.name: code-maven-elastic-1'
+#
+#    - name: Configure Elasticsearch Node Master
+#      lineinfile:
+#        destfile: /etc/elasticsearch/elasticsearch.yml
+#        regexp: 'node.master:'
+#        line: 'node.master: true'
+#
+#    - name: Configure Elasticsearch Node Data
+#      lineinfile:
+#        destfile: /etc/elasticsearch/elasticsearch.yml
+#        regexp: 'node.data:'
+#        line: 'node.data: true'
+#
+#    - name: Configure Elasticsearch Single-host
+#      lineinfile:
+#        destfile: /etc/elasticsearch/elasticsearch.yml
+#        regexp: 'discovery.type:'
+#        line: 'discovery.type: single-node'
 
     - name: Restart
       ansible.builtin.service:
         name: elasticsearch
         state: restarted
 
+    - name: Verify Elasticsearch
+      ansible.builtin.shell: curl http://localhost:9200
+      warn: false
+      register: response
+    - debug: msg="{{ response.stdout }}"
 

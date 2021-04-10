@@ -23,17 +23,23 @@
         state: started
         enabled: yes
 
-    - name: Serer host
-      lineinfile:
-        destfile: /etc/kibana/kibana.yml
-        regexp: 'server.host:'
-        line: 'server.host: "localhost"]'
+    - name: Copy configuration file
+      copy:
+        src: ../files/etc/kibana/kibana.yml
+        dest: /etc/kibana/kibana.yml
 
-    - name: Defining Elasticsearch URL
-      lineinfile:
-        destfile: /etc/kibana/kibana.yml
-        regexp: 'elasticsearch.hosts:'
-        line: 'elasticsearch.hosts: ["http://localhost:9200"]'
+
+#    - name: Server host
+#      lineinfile:
+#        destfile: /etc/kibana/kibana.yml
+#        regexp: 'server.host:'
+#        line: 'server.host: ["localhost"]'
+#
+#    - name: Defining Elasticsearch URL
+#      lineinfile:
+#        destfile: /etc/kibana/kibana.yml
+#        regexp: 'elasticsearch.hosts:'
+#        line: 'elasticsearch.hosts: ["http://localhost:9200"]'
 
     - name: Restart
       ansible.builtin.service:
