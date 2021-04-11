@@ -46,5 +46,11 @@ It showed the current uptime (2 min), yes I just started this server for the dem
 
 Then the reboot and then showing that the uptime is now 0 min.
 
+<h2>Comments</h2>
 
-Original <a href="https://gist.github.com/ferki/be63ad18b6b93352f2829cf691335938">gist for reboot</a>
+Original <a href="https://gist.github.com/ferki/be63ad18b6b93352f2829cf691335938">gist for reboot</a> that we used
+before starting the pair development session.
+
+I personally think this, or an improved version of the reboot function should be inlcuded in the standard Rex distribution.
+
+
