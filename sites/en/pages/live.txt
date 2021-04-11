@@ -22,7 +22,6 @@ Live pair programming events
 
 
 <ul>
-    <li><a href="https://code-maven.com/rex-automation-3">2021.04.10 Automation using Rex - part 3</a> with Ferenc Erki, the maintainer of the framework</li>
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-5">2021.04.11 Exploring BDD using Test::BDD::Cucumber</a> with Erik Hülsmann, the maintainer of the module</li>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.11 Web application development using Mojolicious - part 2</a> with Mark Gardner</li>
 </ul>
@@ -34,10 +33,11 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
 <h2>Previous ones</h2>
 
 <ul>
+    <li><a href="/rex-automation-3">2021.04.10 Automation using Rex - part 3</a> with Ferenc Erki, the maintainer of the framework</li>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.03.28 Web application development using Mojolicious - part 1</a> with Mark Gardner</li>
-    <li><a href="https://code-maven.com/rex-multiple-oses">2021.03.08 Automation using Rex - part 2</a> with Ferenc Erki</li>
-    <li><a href="https://code-maven.com/automation-with-rex">2021.03.22 Automation using Rex - part 1</a> with Ferenc Erki</li>
-    <li><a href="https://code-maven.com/exploring-gitlab-ci">2021.02.07 Exploring GitLab CI</a></li>
+    <li><a href="/rex-multiple-oses">2021.03.08 Automation using Rex - part 2</a> with Ferenc Erki</li>
+    <li><a href="/automation-with-rex">2021.03.22 Automation using Rex - part 1</a> with Ferenc Erki</li>
+    <li><a href="/exploring-gitlab-ci">2021.02.07 Exploring GitLab CI</a></li>
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-4">2021.02.07 Exploring BDD in Perl - using Test::BDD::Cucumber - part 4</a></li>
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-3">2021.02.06 Exploring BDD in Perl - using Test::BDD::Cucumber - part 3</a></li>
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-2">2021.02.06 Exploring BDD in Perl - using Test::BDD::Cucumber - part 2</a></li>
