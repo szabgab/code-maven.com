@@ -27,7 +27,7 @@ sub reboot {
 
     run 'reboot';
 
-    Rex::Logger::info("Waiting $params{shutdown_timeout} seconds for shutdown...");
+    Rex::Logger::info("Waiting for $params{shutdown_timeout} seconds for shutdown...");
     my $elapsed = 0;
     while ( is_port_open $server, $port ) {
         sleep 1;
@@ -36,7 +36,7 @@ sub reboot {
             if $params{shutdown_timeout} <= $elapsed;
     }
 
-    Rex::Logger::info("Waiting for $params{boot_timeout} SSH to come back...");
+    Rex::Logger::info("Waiting for $params{boot_timeout} second for the SSH service to come back...");
     $elapsed = 0;
     while ( !is_port_open $server, $port ) {
         sleep 1;
