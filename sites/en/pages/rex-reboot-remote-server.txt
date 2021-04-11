@@ -2,7 +2,7 @@
 =timestamp 2021-04-11T09:30:01
 =indexes Rex, Rexify, rebooot
 =status show
-=books rexify
+=books rex
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
