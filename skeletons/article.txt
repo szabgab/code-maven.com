@@ -4,7 +4,7 @@
 =description
 =tags screencast, interview
 =status draft
-=books testing, nodejs, javascript, python, flask, ruby, angularjs, php, ansible, jenkins, groovy, shell, git
+=books testing, nodejs, javascript, python, flask, ruby, angularjs, php, ansible, jenkins, groovy, shell, git, rex
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
