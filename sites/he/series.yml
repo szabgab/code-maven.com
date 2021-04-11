@@ -108,7 +108,7 @@ python:
         - python-built-in-method
         - python-typerror-module-object
         - python-attributeerror-module-has-no-attribute
-        - pro/python-exercises-numbers
+        - python-exercises-numbers
     - title: בולאנים
       sub:
         - pro/python-boolean-operators
