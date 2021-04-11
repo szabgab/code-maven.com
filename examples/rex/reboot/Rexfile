@@ -1,0 +1,52 @@
+use strict;
+use warnings;
+use 5.010;
+
+use Rex -feature => [qw(1.4 exec_autodie)];
+
+use Rex::Commands::SimpleCheck;
+# TODO qw(is_port_open);
+
+sayformat "[%h]>\t%s";
+
+task 'reboot', sub {
+    Rex::Logger::info('uptime before');
+    say run 'uptime';
+    reboot();
+    Rex::Logger::info('uptime after');
+    say run 'uptime';
+};
+
+sub reboot {
+    my %params = @_;
+    $params{shutdown_timeout} //= 10;
+    $params{boot_timeout} //= 10;
+
+    my $server = connection->server;
+    my $port   = Rex::Config->get_port( server => $server ) || 22;
+
+    run 'reboot';
+
+    Rex::Logger::info("Waiting $params{shutdown_timeout} seconds for shutdown...");
+    my $elapsed = 0;
+    while ( is_port_open $server, $port ) {
+        sleep 1;
+        $elapsed++;
+        die "Could not shutdown in less than $params{shutdown_timeout}"
+            if $params{shutdown_timeout} <= $elapsed;
+    }
+
+    Rex::Logger::info("Waiting for $params{boot_timeout} SSH to come back...");
+    $elapsed = 0;
+    while ( !is_port_open $server, $port ) {
+        sleep 1;
+        $elapsed++;
+        die "Could not boot in less than $params{boot_timeout}"
+            if $params{boot_timeout} <= $elapsed;
+    }
+
+    Rex::get_current_connection_object->reconnect;
+    return;
+}
+
+# vim: syntax=perl
