@@ -1,0 +1,40 @@
+use strict;
+use warnings;
+use 5.010;
+
+use Rex -feature => [qw(1.4 exec_autodie)];
+use Sys::Hostname ();
+
+task 'remote', sub {
+    sys_hostname();
+    run_hostname();
+};
+
+
+no_ssh task 'local', sub {
+    sys_hostname();
+    run_hostname();
+};
+
+task 'partial', sub {
+    sys_hostname();
+    run_hostname();
+
+    LOCAL {
+        sys_hostname();
+        run_hostname();
+    };
+};
+
+
+sub run_hostname {
+    my $hostname = run('hostname');
+    Rex::Logger::info("run('hostname'): $hostname");
+}
+
+sub sys_hostname {
+    my $hostname = Sys::Hostname::hostname();
+    Rex::Logger::info("Sys::Hostname::hostname() is always the local machine: $hostname");
+}
+
+# vim: syntax=perl
