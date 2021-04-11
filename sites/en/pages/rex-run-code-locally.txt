@@ -12,7 +12,7 @@
 =abstract start
 
 Usually you'll want your Rex commands to be executed on the remote server and thus the default of Rexify is to execute the rex command on the current remote server.
-However sometimes you'd want to have some Rex commands executed locally. There are two main ways to to that, either marking the task as <hl>no_ssh</b> or
+However sometimes you'd want to have some Rex commands executed locally. There are two main ways to to that, either marking the task as <hl>no_ssh</hl> or
 marking a secion of the task as <hl>LOCAL</hl>.
 
 Also remember that the perl code around the Rex commands are always executed locally on the management server.
