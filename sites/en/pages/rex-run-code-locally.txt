@@ -1,6 +1,6 @@
 =title Run code locally with Rexify
 =timestamp 2021-04-11T10:00:01
-=indexes no_ssh, LOCAL
+=indexes no_ssh, LOCAL, Rex, Rexify
 =description Run code locally while working with Rex
 =status show
 =books rex
