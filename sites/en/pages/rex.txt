@@ -21,6 +21,13 @@
    <li><a href="/elk-with-rex">Setting up ELK using (R)?ex</a></li>
 </ul>
 
+Rex articles:
+
+<ul>
+   <li><a href="/rex-run-code-locally">Execute Rex commands locally</a></li>
+   <li><a href="/rex-reboot-remote-server">Reboot remote server using Rex</a></li>
+</ul>
+
 <!--
    <li><a href=""></a></li>
 -->

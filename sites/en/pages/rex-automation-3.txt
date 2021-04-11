@@ -11,16 +11,21 @@
 =abstract start
 
 During this meeting <a href="https://www.linkedin.com/in/ferki/">Ferenc Erki</a>, the lead developer of <a href="https://www.rexify.org/">Rex</a>
-will help with further task using Rex.
+helped with further tasks using Rex.
 
 See the whole <a href="/rex">series about Rex</a>
 
+We have reviewed the Rexfile used to install <a href="https://perlmaven.com/from-cgi-to-psgi-and-starman">Apache, CGI, PSGI, and Starman</a>
+and we have also reviewd the example to <a href="/rex-reboot-remote-server">reboot a remote server using Rexify</a>.
+
 =abstract end
 
-Scheduled for April 10: 19:00 Israel - Check out your time on the registration page.
+<screencast file="rex-3_1920x1080.mp4" youtube="ibnke-vk3vc" />
 
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUtf-usrjMoGtf5wZLaHykTidIuMUl71htT">Register here</a>
+Upcoming <a href="/live">live events</a>.
 
 
-Use this link to include the the schedule in your calendar: <a href="https://code-maven.com/events.ics">https://code-maven.com/events.ics</a>.
+We have also discussed how to <a href="/rex-run-code-locally">run Rex commands locally</a>.
+
+
 

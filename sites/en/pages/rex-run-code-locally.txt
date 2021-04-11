@@ -52,3 +52,6 @@ $ rex -H 104.236.89.4 -u root partial
 [2021-04-11 09:51:24] INFO - All tasks successful on all hosts
 </code>
 
+
+See also: <a href="https://metacpan.org/pod/Rex::Commands#no_ssh">no_ssh</a>
+
