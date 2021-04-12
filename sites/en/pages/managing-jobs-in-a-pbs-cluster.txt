@@ -3,7 +3,7 @@
 =indexes PBS, Python
 =description Submitting jobs to a PBS based cluster in the Weizmann Institute of Science
 =tags screencast
-=status show
+=status draft
 =books python
 =author szabgab
 =archive 1
