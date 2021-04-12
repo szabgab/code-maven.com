@@ -1,0 +1,27 @@
+=title Managing jobs in a PBS cluster using Python
+=timestamp 2021-04-12T11:30:01
+=indexes PBS, Python
+=description Submitting jobs to a PBS based cluster in the Weizmann Institute of Science
+=tags screencast
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://www.linkedin.com/in/oz-mendelsohn/">Oz Mendelsohn</a> participated in the <b>Programming Bootcamp for Scientists</b> I ran in the
+<a href="https://www.weizmann.ac.il/">Weizmann Institute of Science</a> he, as every other student created a final project. In this video you can see him explaining
+the project managing his programming jobs in the local HPC cluster.
+
+=abstract end
+
+<screencast file="Oz_Mendelsohn_project_2560x1440.mp4" youtube="xeqo3N2lWWQ" />
+
+<ul>
+   <li><a href="https://www.openpbs.org/">OpenBBS</a></li>
+   <li><a href="https://www.weizmann.ac.il/chemistry/chemfarm/home">Chemfarm of the Weizmann Institute of Science</a></li>
+</ul>
+
