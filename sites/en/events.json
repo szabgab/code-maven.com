@@ -22,5 +22,13 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "Zoom",
         "url" : "https://code-maven.com/implementing-a-feature-in-typescript-cucumber-playwright"
+    },
+    {
+        "summary" : "with Lior Mizrahi",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 4, "day" : 26, "hour" : 17, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "Zoom",
+        "url" : ""
     }
 ]
