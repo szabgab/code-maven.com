@@ -15,7 +15,6 @@ Live pair programming events
 =abstract end
 
 <!--
-    <li><a href="https://perlmaven.com/perl-binding-to-c-library-using-ffi">2021.04.18 - Creating a Perl binding to a C library using FFI</a> with Sawyer X</li>
     <li><a href=""></a></li>
 -->
 
@@ -23,7 +22,7 @@ Live pair programming events
 
 
 <ul>
-    <li><a href="https://code-maven.com/fixing-issue-in-typescript-cucumber-playwright">2021.04.18 Implementing a feature in the Typescript cucumber-playwright package</a> with Tally Barak</li>
+    <li><a href="https://code-maven.com/implementing-a-feature-in-typescript-cucumber-playwright">2021.04.18 Implementing a feature in the Typescript cucumber-playwright package</a> with Tally Barak</li>
 </ul>
 
 <iframe src="https://calendar.google.com/calendar/embed?src=2gn7l0c1j6k6r5q2jjdaigveighrcsec%40import.calendar.google.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -46,6 +45,9 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-1">2021.02.04 - Exploring BDD in Perl - using Test::BDD::Cucumber - part 1</a></li>
 </ul>
 
+<!--
+    <li><a href="https://perlmaven.com/perl-binding-to-c-library-using-ffi">2021.04.18 - Creating a Perl binding to a C library using FFI</a> with Sawyer X</li>
+-->
 
 <h2>Follow us</h2>
 <ul>
