@@ -1,4 +1,4 @@
-=title Fixing an issue in the Typescript cucumber-playwright package with Tally Barak
+=title Implementing a feature in the Typescript cucumber-playwright package with Tally Barak
 =timestamp 2021-04-13T12:30:01
 =indexes TypeScript, Cucumber, PlayWright
 =tags screencast
@@ -12,7 +12,7 @@
 =abstract start
 
 In this live session <a href="https://www.linkedin.com/in/tallybarak/">Tally Barak</a> and myself will work on her <a href="https://github.com/Tallyb/cucumber-playwright">cucumber-playwright</a> project
-fixing an <a href="https://github.com/Tallyb/cucumber-playwright/issues/60">issue</a>.
+implementing a <a href="https://github.com/Tallyb/cucumber-playwright/issues/60">feature request</a>.
 
 =abstract end
 
