@@ -5,7 +5,7 @@
 =tags screencast
 =status draft
 =books python
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
 =show_related 1
