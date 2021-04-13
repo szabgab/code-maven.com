@@ -23,7 +23,7 @@ Live pair programming events
 
 
 <ul>
-    <li><a href="https://code-maven.com/fixing-issue-in-typescript-cucumber-playwright">2021.04.18 Fixing an issue in the Typescript cucumber-playwright package</a> with Tally Barak</li>
+    <li><a href="https://code-maven.com/fixing-issue-in-typescript-cucumber-playwright">2021.04.18 </a>Implementing a feature in the Typescript cucumber-playwright package  with Tally Barak</li>
 </ul>
 
 <iframe src="https://calendar.google.com/calendar/embed?src=2gn7l0c1j6k6r5q2jjdaigveighrcsec%40import.calendar.google.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
