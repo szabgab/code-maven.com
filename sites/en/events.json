@@ -24,6 +24,22 @@
         "url" : "https://code-maven.com/implementing-a-feature-in-typescript-cucumber-playwright"
     },
     {
+        "summary": "Web application development using Mojolicious - part 3 - with Mark Gadner",
+        "description": "",
+        "begin":    { "year" : 2021, "month" : 4, "day" : 18, "hour" : 18, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "Zoom",
+        "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
+    },
+    {
+        "summary": "Web application development using Mojolicious - part 4 - with Mark Gadner",
+        "description": "",
+        "begin":    { "year" : 2021, "month" : 4, "day" : 25, "hour" : 18, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "Zoom",
+        "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
+    },
+    {
         "summary" : "with Lior Mizrahi",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 4, "day" : 26, "hour" : 17, "time_zone"  : "+0300"},
