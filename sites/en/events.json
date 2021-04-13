@@ -16,7 +16,7 @@
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
     },
     {
-        "summary" : "Fixing an issue in the Typescript cucumber-playwright package with Tally Barak",
+        "summary" : "Implementing a feature in the Typescript cucumber-playwright package with Tally Barak",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 4, "day" : 18, "hour" : 14, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
