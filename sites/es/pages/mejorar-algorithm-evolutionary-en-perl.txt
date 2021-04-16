@@ -10,14 +10,13 @@
 
 =abstract start
 
-
 Un experimento con <a href="https://www.linkedin.com/in/juan-j-merelo-0815/">Juan J. Merelo</a> una programaciòn en pareja virtual.
 
 Mejorar la librería de <a href="https://metacpan.org/release/Algorithm-Evolutionary">Algorithm::Evolutionary</a> en Perl.
 
 =abstract end
 
-22 de Abril En las 11:00 del dia en el hora de España.
+22 de Abril en las 11:00 del dia en el hora de España.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIuceqgpz8oH91ylQif3SG77lW8VV-rmAjH">Registrar aqui</a>
 
