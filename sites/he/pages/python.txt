@@ -24,7 +24,7 @@
     <li><a href="/python-programming">מבוא</a></li>
     <li><a href="/python-modules">מבוא פרק 2</a></li>
     <li><a href="/python-numbers">מספרים</a></li>
-    <li><a href="/pro/python-boolean-operators">בולאנים</a></li>
+    <li><a href="/python-boolean-operators">בולאנים</a></li>
     <li><a href="/pro/python-strings">מחרוזות</a></li>
     <li><a href="/pro/python-loops">לולאות</a></li>
     <li><a href="/pro/python-formatted-strings"> מחרוזות הדפסות מפורמטות</a></li>

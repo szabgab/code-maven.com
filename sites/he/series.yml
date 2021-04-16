@@ -111,7 +111,7 @@ python:
         - python-exercises-numbers
     - title: בולאנים
       sub:
-        - pro/python-boolean-operators
+        - python-boolean-operators
         - pro/python-boolean-true-false
         - pro/python-compare-values
         - pro/python-exercise-boolean
