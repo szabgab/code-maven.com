@@ -19,7 +19,7 @@ Mejorar la librería de <a href="https://metacpan.org/release/Algorithm-Evolutio
 
 22 de Abril En las 11:00 en la mañana en el tiempo de España.
 
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIuceqgpz8oH91ylQif3SG77lW8VV-rmAjH">Registar aqui</a>
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIuceqgpz8oH91ylQif3SG77lW8VV-rmAjH">Registrar aqui</a>
 
 Otros eventos en vida (la mayoria en inglès) <a href="https://code-maven.com/live">en este calendario</a>.
 
