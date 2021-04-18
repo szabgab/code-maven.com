@@ -75,6 +75,7 @@ This is going to be a long project, but it might help understand various techniq
     <li><a href="https://perlmaven.com/increase-numbers-in-a-file">Increasing numbers in a text file using Perl</a></li>
     <li><a href="https://perlmaven.com/cli-counter-with-yaml-backend">Counter example in Perl using YAML file to store the data</a></li>
     <li><a href="https://perlmaven.com/counter-with-dancer-using-in-memory-sqlite-database">A counter using Perl Dancer and an in-memory SQLite database</a></li>
+    <li><a href="https://perlmaven.com/counter-dancer2-redis-docker">A counter using Perl Dancer and Redis, both in a Docker container</a></li>
 </ul>
 
 <h2>Angular JS</h2>
