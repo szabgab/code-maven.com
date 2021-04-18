@@ -1,5 +1,5 @@
 =title Implementing a feature in the Typescript cucumber-playwright package with Tally Barak
-=timestamp 2021-04-13T12:30:01
+=timestamp 2021-04-18T16:30:01
 =indexes TypeScript, Cucumber, PlayWright
 =tags screencast
 =status show
@@ -11,14 +11,27 @@
 
 =abstract start
 
-In this live session <a href="https://www.linkedin.com/in/tallybarak/">Tally Barak</a> and myself will work on her <a href="https://github.com/Tallyb/cucumber-playwright">cucumber-playwright</a> project
+In this live session <a href="https://www.linkedin.com/in/tallybarak/">Tally Barak</a> and myself worked on her <a href="https://github.com/Tallyb/cucumber-playwright">cucumber-playwright</a> project
 implementing a <a href="https://github.com/Tallyb/cucumber-playwright/issues/60">feature request</a>.
 
 =abstract end
 
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZErc-msqTorHN1w8CvhKTU7oYdWLUeeO5sm">Register here</a>
+At the begining Tally introduced the tools in the project starting with <a href="https://developers.google.com/web/tools/puppeteer">Puppeteer</a> from where many of the enegineers
+working on <a href="https://playwright.dev/">Playwright</a> came from.
 
-Check out all the other <a href="https://code-maven.com/live">live</a> events and the calendar where you'll be able to see the time given in your time-zone.
+We talked about <a href="https://cucumber.io/">Cucumber</a> and <a href="https://cucumber.io/docs/gherkin/">Gherkin</a> and in general about BDD.
 
+See also the <a href="https://github.com/cucumber/cucumber">repository of cucumber</a> and a  <a href="https://cucumber.io/docs/gherkin/reference/">reference of Gherkin</a>.
 
+Tally has a number of <a href="https://tally-b.medium.com/">blog posts on Medium</a> about the subject. e.g
+<a href="https://tally-b.medium.com/5-ways-playwright-is-awesome-b94eff4da0ea">5 Ways Playwright is Awesome</a> and
+<a href="https://tally-b.medium.com/e2e-testing-with-cucumber-and-playwright-9584d3ef3360">E2E Testing with Cucumber and Playwright</a>.
+
+We used <a href="https://code.visualstudio.com/">Visual Studio Code</a> and learned that you can set environment varibles on the command line of MS Windows using
+
+<code>
+set NAME=value
+</code>
+
+<screencast file="cucumber-playwright-2021-04-18_1920x1080.mp4" youtube="PUVFmhYJNJA" />
 
