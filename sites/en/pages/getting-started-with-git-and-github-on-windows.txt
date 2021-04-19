@@ -1,0 +1,20 @@
+=title Getting started with Git and GitHub
+=timestamp 2021-04-19T17:30:01
+=indexes Git, GitHub
+=tags screencast
+=status show
+=books git
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://git-scm.com/">Download Git</a>, register on <a href="https://github.com/">GitHub</a>.
+
+Follow <a href="https://github.com/olgatapinova">Olga Tapinova</a>, check out the <a href="https://github.com/olgatapinova/budgeting">budgeting</a> project.
+
+=abstract end
+
+<screencast file="Olga_Tapinova_git_1920x1080.mp4" youtube="jAuGjtFFi-Q" />
