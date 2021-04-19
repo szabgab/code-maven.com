@@ -20,9 +20,7 @@ the project managing houshold income and expenses.
 
 <screencast file="Olga_Tapinova_project_1920x1080.mp4" youtube="4VBjVe2pjAc" />
 
-<!--
-<ul>
-   <li><a href=""></a></li>
-</ul>
--->
+Find the <a href="https://github.com/olgatapinova/budgeting">source code of the budgeting project</a> on GitHub
+and the <a href="/getting-started-with-git-and-github-on-windows">video explaining how to get started with Git and GitHub</a>.
+
 

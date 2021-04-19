@@ -1,4 +1,4 @@
-=title Getting started with Git and GitHub
+=title Getting started with Git and GitHub (with Olga Tapinova)
 =timestamp 2021-04-19T17:30:01
 =indexes Git, GitHub
 =tags screencast
@@ -13,7 +13,11 @@
 
 <a href="https://git-scm.com/">Download Git</a>, register on <a href="https://github.com/">GitHub</a>.
 
+<a href="https://code-maven.com/slides/git/git-configure-personal">configure git client</a>.
+
 Follow <a href="https://github.com/olgatapinova">Olga Tapinova</a>, check out the <a href="https://github.com/olgatapinova/budgeting">budgeting</a> project.
+
+Check out the <a href="/command-line-accounting-in-python">video about the budgeting project</a> of Olga.
 
 =abstract end
 
