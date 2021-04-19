@@ -20,7 +20,7 @@ the project managing houshold income and expenses.
 
 <screencast file="Olga_Tapinova_project_1920x1080.mp4" youtube="4VBjVe2pjAc" />
 
-<~--
+<!--
 <ul>
    <li><a href=""></a></li>
 </ul>
