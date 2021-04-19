@@ -34,14 +34,6 @@
 
 
     {
-        "summary" : "Mejorar la librería de Algorithm::Evolutionary en Perl con Juan J. Merelo (Spanish)",
-        "description" : "",
-        "begin"    : { "year" : 2021, "month" : 4, "day" : 22, "hour" : 12, "time_zone"  : "+0300"},
-        "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://es.code-maven.com/mejorar-algorithm-evolutionary-en-perl",
-        "url" : "https://es.code-maven.com/mejorar-algorithm-evolutionary-en-perl"
-    },
-    {
         "summary" : "Testing with Pytests - part 6 (Hebrew)",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 4, "day" : 21, "hour" : 9, "time_zone"  : "+0300"},
@@ -49,7 +41,14 @@
         "location" : "https://www.meetup.com/Code-Mavens/events/277231946/",
         "url" : "https://www.meetup.com/Code-Mavens/events/277231946/"
     },
-
+    {
+        "summary" : "Mejorar la librería de Algorithm::Evolutionary en Perl con Juan J. Merelo (Spanish)",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 4, "day" : 22, "hour" : 12, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://es.code-maven.com/mejorar-algorithm-evolutionary-en-perl",
+        "url" : "https://es.code-maven.com/mejorar-algorithm-evolutionary-en-perl"
+    },
     {
         "summary": "Setting up ELK using Rexify with Ferenc Erki",
         "description": "",
