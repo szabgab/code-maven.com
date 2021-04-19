@@ -112,7 +112,7 @@ python:
     - title: בולאנים
       sub:
         - python-boolean-operators
-        - pro/python-boolean-true-false
+        - python-boolean-true-false
         - pro/python-compare-values
         - pro/python-exercise-boolean
     - title: מחרוזות
