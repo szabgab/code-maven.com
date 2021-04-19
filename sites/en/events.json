@@ -15,8 +15,6 @@
         "location" : "Zoom",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
     },
-
-
     {
         "summary" : "Implementing a feature in the Typescript cucumber-playwright package with Tally Barak",
         "description" : "",
@@ -33,6 +31,8 @@
         "location" : "https://perlmaven.com/course-management-app-in-mojolicious",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
     },
+
+
     {
         "summary" : "Mejorar la librería de Algorithm::Evolutionary en Perl con Juan J. Merelo (Spanish)",
         "description" : "",

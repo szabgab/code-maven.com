@@ -27,8 +27,6 @@ Check out all the other <a href="https://code-maven.com/live">live</a> events an
 <h2>Scheduled</h2>
 
 <ul>
-    <li><a href="https://code-maven.com/implementing-a-feature-in-typescript-cucumber-playwright">2021.04.18 - Implementing a feature in the Typescript cucumber-playwright package</a> with Tally Barak</li>
-    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.18 - Web application development using Mojolicious - part 3</a> with Mark Gardner</li>
     <li><a href="https://es.code-maven.com/mejorar-algorithm-evolutionary-en-perl">2021.04.22 - Mejorar la librería de Algorithm::Evolutionary en Perl</a> con Juan J. Merelo en Español</li>
     <li><a href="https://code-maven.com/elk-with-rex">2021.04.25 - Setting up ELK using Rexify</a> with Ferenc Erki</li>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.25 - Web application development using Mojolicious - part 4</a> with Mark Gardner</li>
@@ -43,6 +41,8 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
 <h2>Previous ones</h2>
 
 <ul>
+    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.18 - Web application development using Mojolicious - part 3</a> with Mark Gardner</li>
+    <li><a href="https://code-maven.com/implementing-a-feature-in-typescript-cucumber-playwright">2021.04.18 - Implementing a feature in the Typescript cucumber-playwright package</a> with Tally Barak</li>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.11 - Web application development using Mojolicious - part 2</a> with Mark Gardner</li>
     <li><a href="https://perlmaven.com/exploring-bdd-in-perl-5">2021.04.11 - Exploring BDD using Test::BDD::Cucumber</a> with Erik Hülsmann, the maintainer of the module</li>
     <li><a href="/rex-automation-3">2021.04.10 - Automation using Rex - part 3</a> with Ferenc Erki, the maintainer of the framework</li>
