@@ -130,6 +130,10 @@ $ htpasswd -c .htpasswd user1     (pw: secret1)
 $ htpasswd .htpasswd user2        (pw: secret2)
 </code>
 
+<include file="examples/ansible/elk/files/etc/nginx/nginx.conf">
+
+<include file="examples/ansible/elk/files/etc/nginx/conf.d/nginx-elk.conf">
+
 Then run the playbook:
 
 <code>
