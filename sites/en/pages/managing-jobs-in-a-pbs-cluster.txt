@@ -1,9 +1,9 @@
 =title Managing jobs in a PBS cluster using Python
-=timestamp 2021-04-12T11:30:01
+=timestamp 2021-04-20T08:30:01
 =indexes PBS, Python
 =description Submitting jobs to a PBS based cluster in the Weizmann Institute of Science
 =tags screencast
-=status draft
+=status show
 =books python
 =author 0
 =archive 1
