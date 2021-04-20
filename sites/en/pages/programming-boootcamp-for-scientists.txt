@@ -24,6 +24,24 @@ The recordings include clarifying questions and the solution of the exercises by
 
 The slides used during the recording are available <a href="/slides/python">here</a>.
 
+<h3>Project</h2>
+
+At the end of the Bootcamp each student is required to work on a project of their own. After they are done with the project some of them agreed to have video recording in which they
+explain their project and we discuss the code. These videos are here for your enjoyment and to give inspiration of what you can do after the bootcamp.
+
+<ul>
+   <li><a href="/bootcamp-shelley-klompus">Basic modification of Biological data frames using Pandas</a> by Shelley Klompus</li>
+   <li><a href="/managing-jobs-in-a-pbs-cluster">Managing jobs in a PBS cluster using Python</a> by Oz Mendelsohn</li>
+   <li><a href="/command-line-accounting-in-python">Command line accounting in Python</a> by Olga Tapinova</li>
+   <li><a href="/getting-started-with-git-and-github-on-windows">Getting started with Git and GitHub</a> with Olga Tapinova</li>
+   <li><a href="https://he.code-maven.com/fixing-elevation-data-in-gpx-file">Fixing elevation data in gpx file</a> by Nathan Weinstein (Hebrew)</li>
+   <li><a href="https://he.code-maven.com/creating-project-on-github">Getting started with Git and GitHub</a> with Nathan Weinstein (Hebrew)</li>
+<!--
+   <li><a href=""></a></li>
+-->
+</ul>
+
+
 <h3>What to watch and in which order to watch?</h3>
 
 The videos are in the order we recorded them. They are more-or-less along the lines of the chapters, except at the beginning where some chapters are split into multiple videos and some
