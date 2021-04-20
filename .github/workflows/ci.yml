@@ -26,3 +26,7 @@ jobs:
             ls -l
             echo "=============="
             ls -l ..
+            cpanm --notest Data::ICal Data::ICal::Entry::Event DateTime DateTime::Format::ICal DateTime::Duration Cpanel::JSON::XS Path::Tiny
+
+            perl -IPerl-Maven/lib -MPerl::Maven::Calendar -E 'Perl::Maven::Calendar::create_calendar(q{sites/en/events.json});'
+
