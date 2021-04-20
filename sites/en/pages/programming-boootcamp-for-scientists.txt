@@ -24,7 +24,7 @@ The recordings include clarifying questions and the solution of the exercises by
 
 The slides used during the recording are available <a href="/slides/python">here</a>.
 
-<h3>Project</h2>
+<h3>Projects</h2>
 
 At the end of the Bootcamp each student is required to work on a project of their own. After they are done with the project some of them agreed to have video recording in which they
 explain their project and we discuss the code. These videos are here for your enjoyment and to give inspiration of what you can do after the bootcamp.
