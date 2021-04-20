@@ -19,7 +19,10 @@ jobs:
       - uses: actions/checkout@v2
         with:
            repository: 'szabgab/Perl-Maven'
+           path: 'Perl-Maven'
       - name: Perl version
         run: |
             perl -v
             ls -l
+            echo "=============="
+            ls -l ..
