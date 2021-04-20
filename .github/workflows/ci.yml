@@ -1,0 +1,25 @@
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  perl-job:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        perl-version:
+          - '5.32'
+    container:
+      image: perl:${{ matrix.perl-version }}
+    name: Perl ${{ matrix.perl-version }}
+    steps:
+      - uses: actions/checkout@v2
+
+      - uses: actions/checkout@v2
+        with:
+           repository: 'szabgab/Perl-Maven'
+      - name: Perl version
+        run: |
+            perl -v
+            ls -l
