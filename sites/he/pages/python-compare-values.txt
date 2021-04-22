@@ -1,0 +1,17 @@
+=title השוות ערכים בפייתון
+=timestamp 2021-04-22T08:07:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/comparision-operators">compare valiues</a></li>
+</ul>
+
+<screencast file="hebrew-python-compare-values" youtube="J_4pGDvyI5w" />
+

@@ -113,7 +113,7 @@ python:
       sub:
         - python-boolean-operators
         - python-boolean-true-false
-        - pro/python-compare-values
+        - python-compare-values
         - pro/python-exercise-boolean
     - title: מחרוזות
       sub:
