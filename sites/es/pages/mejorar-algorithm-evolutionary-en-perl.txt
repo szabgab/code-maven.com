@@ -16,9 +16,13 @@ Mejorar la librería de <a href="https://metacpan.org/release/Algorithm-Evolutio
 
 =abstract end
 
+En fin trabajamos sobre <a href="/perl-github-actions">GitHub::Actions</a>.
+
+<!--
 22 de Abril en las 11:00 del dia en el hora de España.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIuceqgpz8oH91ylQif3SG77lW8VV-rmAjH">Registrar aqui</a>
+-->
 
 Otros eventos virtuales (la mayoria en inglès) <a href="https://code-maven.com/live">en este calendario</a>.
 
