@@ -19,5 +19,5 @@ to play with the <a href="https://leanpoker.org/">Lean Poker</a> server.
 
 Date: 2021.05.03 for the exact hour in your time-zone check out the registration page or our <a href="/live">calendar</a>.
 
-<a class="btn btn-lg btn-success" href="">Register here</a>
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUqdeChqz8vE9wqUBKXqS526bJjdPU3ihbV">Register here</a>
 
