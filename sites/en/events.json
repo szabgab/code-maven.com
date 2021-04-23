@@ -90,7 +90,7 @@
         "url" : "https://code-maven.com/setting-up-ci-and-docker-for-course-management-app"
     },
     {
-        "summary" : "Configurable poker bot development in JavaScript with Ivett Ördög",
+        "summary" : "Configurable poker bot development in JavaScript with Ivett Ordog",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 5, "day" : 3, "hour" : 19, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
