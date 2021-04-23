@@ -1,0 +1,21 @@
+=title Working on the workout-app with Rachel Normand
+=timestamp 2021-04-23T18:30:01
+=indexes live
+=tags screencast
+=status show
+=books nodejs
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this live coding session we are going to work on the <a href="https://github.com/rnewstead1/workout-app">workout-app</a>
+of <a href="https://www.linkedin.com/in/rnewstead/">Rachel Normand</a>.
+
+=abstract end
+
+Date: 2021.05.04 for the exact hour in your time-zone check out the registration page or our <a href="/live">calendar</a>.
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZApdu-przIqHtYFkt_H9M2pcZmyWMekORBx">Register here</a>
