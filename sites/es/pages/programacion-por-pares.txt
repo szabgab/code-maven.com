@@ -1,0 +1,25 @@
+=title Programación por pares con Juan J. Merelo
+=timestamp 2021-04-25T09:00:01
+=indexes Perl
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Un experimento con <a href="https://www.linkedin.com/in/juan-j-merelo-0815/">Juan J. Merelo</a> una programaciòn en pareja virtual.
+
+Mejorar unas de sus  <a href="https://metacpan.org/author/JMERELO">librerías de Perl</a>.
+
+=abstract end
+
+En la ultima vez trabajamos sobre <a href="/perl-github-actions">GitHub::Actions</a>.
+
+5 de Mayo en las 18:00 del dia en la hora de España.
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIuceqgpz8oH91ylQif3SG77lW8VV-rmAjH">Registrar aqui</a>
+
+Otros eventos virtuales (la mayoria en inglès) <a href="https://code-maven.com/live">en este calendario</a>.
