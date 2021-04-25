@@ -114,7 +114,7 @@ python:
         - python-boolean-operators
         - python-boolean-true-false
         - python-compare-values
-        - pro/python-exercise-boolean
+        - python-exercise-boolean
     - title: מחרוזות
       sub:
         - pro/python-strings
