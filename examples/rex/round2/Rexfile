@@ -53,3 +53,5 @@ task configure_nginx => sub {
     #service 'nginx' => 'reload';
 };
 
+# vim: syntax=perl
+
