@@ -117,7 +117,7 @@ python:
         - python-exercise-boolean
     - title: מחרוזות
       sub:
-        - pro/python-strings
+        - python-strings
         - pro/python-string-operations
         - pro/python-string-functions-and-methods
         - pro/python-in-string
