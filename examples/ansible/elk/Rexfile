@@ -1,0 +1,16 @@
+use Rex -feature => [qw( 1.4 exec_autodie)];
+use Rex::Group::Lookup::YAML;
+use Rex::CodeMaven::Nginx;
+use Rex::CodeMaven::Elasticsearch;
+# Module::Pluggable
+
+groups_yaml('rex_inventory.yml');
+
+desc 'Just printing hostname';
+task 'print_hostname', sub {
+    say run('hostname');
+};
+
+
+# vim: syntax=perl
+

@@ -1,5 +1,5 @@
 =title Setting up ELK using Rexify
-=timestamp 2021-04-16T08:40:01
+=timestamp 2021-04-26T11:40:01
 =indexes Rex
 =tags screencast
 =status show
@@ -19,11 +19,13 @@ We will start where we left of las time when FErki gave us an <a href="/automati
 
 =abstract end
 
+<!--
 It is scheduled for April 25: 14:00 Israel
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUtf-usrjMoGtf5wZLaHykTidIuMUl71htT">Register here</a>
 
 For the time in your timezone check out the registration form or visit the page of <a href="/live">all the live events</a>
+-->
 
 <h2>Plan</h2>
 
@@ -46,3 +48,29 @@ Most of this will be probably delayed to a future meeting:
    <li>Configure filebeat to process the logfile and send it to the Logstash</li>
    <li>Configure Logstash to accept the data from filebeat and send it to ElasTicsearch</li>
 </ul>
+
+<screencast file="rex-4_1920x1080.mp4" youtube="k3uz7-7E3Ws" />
+
+<ul>
+    <li><a href="/ansible-elk">ELK with Ansible</a></li>
+    <li><a href="https://metacpan.org/pod/Rex::Group::Lookup::YAML">Rex::Group::Lookup::YAML</a> for inventory</li>
+</ul>
+
+<include file="examples/ansible/elk/Rexfile">
+
+<include file="examples/ansible/elk/rex_inventory.yml">
+
+<include file="examples/ansible/elk/lib/Rex/CodeMaven/Elasticsearch.pm">
+
+<include file="examples/ansible/elk/lib/Rex/CodeMaven/Nginx.pm">
+
+
+<code>
+rex -u root -d -g demo CodeMaven:Elasticsearch:setup
+rex -u root -d -g demo CodeMaven:Elasticsearch:config
+rex -u root -d -g demo CodeMaven:Elasticsearch:verify
+rex -u root -d -g demo CodeMaven:Nginx:setup
+rex -u root -d -g demo CodeMaven:Nginx:configure
+</code>
+
+
