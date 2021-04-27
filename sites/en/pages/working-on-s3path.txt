@@ -1,22 +1,38 @@
 =title Working on s3path the Python File-System/Path like interface for AWS S3 with Lior Mizrahi
-=timestamp 2021-04-13T15:30:01
+=timestamp 2021-04-27T15:30:01
 =indexes S3, AWS, Python
 =tags screencast
 =status show
 =books python
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
 =show_related 1
 
 =abstract start
 
-This is going to be a <a href="/live">live</a> pair programming even in which we are going to work on <a href="https://github.com/liormizr/s3path">s3path</a>
-with <a href="https://www.linkedin.com/in/lior-mizrahi-b894aa26/">Lior Mizrahi</a>.
+Recording of a <a href="/live">live</a> pair programming even in which <a href="https://www.linkedin.com/in/lior-mizrahi-b894aa26/">Lior Mizrahi</a>
+introduces his <a href="https://github.com/liormizr/s3path">s3path</a> project and then we fixed an issue.
 
 =abstract end
 
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZItfuyqrz4sHtAn6ESKDkMO0MjlhHNwhCe7">Register here</a>
+<screencast file="s3path-lior-mizrahi_1920x1080.mp4" youtube="Oww2d4X1lSk" />
 
-Check out all the other <a href="https://code-maven.com/live">live</a> events and the calendar where you'll be able to see the time given in your time-zone.
+
+<a href="https://docs.python.org/library/pathlib.html">pathlib</a>
+
+<a href="https://github.com/liormizr/s3path/pull/62">pull-request 62 - add missing_ok parameter to the unlink method</a> fixing <a href="https://github.com/liormizr/s3path/issues/61">issue 61</a>.
+
+
+<a href="https://github.com/liormizr/s3path/pull/63">pull-request 63 - gitignore pyproject.toml</a>.
+
+Setup environment
+
+<code>
+python -m
+pipenv install  --python python3 --skip-lock --dev
+
+pipenv shell
+</code>
+
 
