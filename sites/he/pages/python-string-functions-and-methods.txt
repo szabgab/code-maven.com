@@ -1,0 +1,17 @@
+=title פונקציות ומטודול של מחרוזות בפייתון
+=timestamp 2021-04-28T08:01:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/string-functions">string-functions</a></li>
+</ul>
+
+<screencast file="hebrew-python-string-functions-and-methods" youtube="v2utw-VT1C4" />
+

@@ -119,7 +119,7 @@ python:
       sub:
         - python-strings
         - python-string-operations
-        - pro/python-string-functions-and-methods
+        - python-string-functions-and-methods
         - pro/python-in-string
         - pro/python-encodings
         - pro/python-raw-strings
