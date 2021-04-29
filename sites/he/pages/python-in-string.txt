@@ -1,0 +1,17 @@
+=title פקודת ה-in במחרוזות של פייתון
+=timestamp 2021-04-29T08:01:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/index-in-string">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-in-string.txt" youtube="7Vc7T21YluA" />
+

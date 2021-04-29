@@ -120,7 +120,7 @@ python:
         - python-strings
         - python-string-operations
         - python-string-functions-and-methods
-        - pro/python-in-string
+        - python-in-string
         - pro/python-encodings
         - pro/python-raw-strings
     - title: לולאות
