@@ -118,6 +118,8 @@ The version of ElasticSearch is baked into the playbook file. You can visit the
 ansible-playbook playbooks/elasticsearch.yml
 </code>
 
+<include file="examples/ansible/elk/files/etc/elasticsearch/elasticsearch.yml">
+
 
 <h2>Setup Nginx with simple authentication</h2>
 
