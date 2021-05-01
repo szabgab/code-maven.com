@@ -80,5 +80,5 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
 
 <a href="https://martinfowler.com/articles/on-pair-programming.html">Martin Fowler on Pair Programming</a> by Birgitta Böckeler and Nina Siessegger.
 
-<iframe style="width: 600px" src="https://cdn.forms-content.sg-form.com/3ad9415a-aabe-11eb-8ad8-02b0296d65f9"/>
+<iframe style="width: 600px; height=800px;" src="https://cdn.forms-content.sg-form.com/3ad9415a-aabe-11eb-8ad8-02b0296d65f9"/>
 
