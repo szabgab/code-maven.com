@@ -63,7 +63,6 @@
         "location" : "https://perlmaven.com/course-management-app-in-mojolicious",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
     },
-
     {
         "summary" : "Working on s3path the Python File-System/Path like interface for AWS S3 with Lior Mizrahi",
         "description" : "",
@@ -80,6 +79,8 @@
         "location" : "https://code-maven.com/setting-up-ci-and-docker-for-course-management-app",
         "url" : "https://code-maven.com/setting-up-ci-and-docker-for-course-management-app"
     },
+
+
     {
         "summary": "Web application development using Mojolicious - part 5 - with Mark Gadner",
         "description": "",
