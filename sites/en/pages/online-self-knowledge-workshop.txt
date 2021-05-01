@@ -1,4 +1,4 @@
-=title Configurable poker bot development in JavaScript with Ivett Ördög
+=title Developing an application for organising online self knowledge workshops
 =timestamp 2021-04-23T13:30:01
 =indexes live
 =tags screencast
@@ -11,9 +11,7 @@
 
 =abstract start
 
-In this live coding session we are going to start to develop a configurable poker bot with
-<a href="https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/">Ivett Ördög</a>
-to play with the <a href="https://leanpoker.org/">Lean Poker</a> server.
+In this live coding session we are going to start the application with <a href="https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/">Ivett Ördög</a>.
 
 =abstract end
 
