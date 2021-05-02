@@ -121,7 +121,7 @@ python:
         - python-string-operations
         - python-string-functions-and-methods
         - python-in-string
-        - pro/python-encodings
+        - python-encodings
         - pro/python-raw-strings
     - title: לולאות
       sub:
