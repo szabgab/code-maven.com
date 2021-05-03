@@ -12,6 +12,7 @@
 =abstract start
 
 In this live coding session we are going to start the application with <a href="https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/">Ivett Ördög</a>.
+We are going to use <a href="https://reactjs.org/">ReactJS</a>.
 
 =abstract end
 
