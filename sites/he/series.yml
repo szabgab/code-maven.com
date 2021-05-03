@@ -122,7 +122,7 @@ python:
         - python-string-functions-and-methods
         - python-in-string
         - python-encodings
-        - pro/python-raw-strings
+        - python-raw-strings
     - title: לולאות
       sub:
         - pro/python-loops
