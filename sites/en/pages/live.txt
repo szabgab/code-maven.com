@@ -29,13 +29,12 @@ Check out all the other <a href="https://code-maven.com/live">live</a> events an
 <h2>Scheduled</h2>
 
 <ul>
-    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.05.02 - Web application development using Mojolicious - part 5</a> with Mark Gardner</li>
     <li><a href="https://code-maven.com/online-self-knowledge-workshop">2021.05.03 - Application for organising online self knowledge workshops - development in JavaScript</a> with Ivett Ördög</li>
     <li><a href="https://code-maven.com/workout-app">2021.05.04 - Workout-app</a> with Rachel Normand</li>
     <li><a href="https://www.meetup.com/Code-Mavens/events/277232080/">2021.05.05 - Using Jupyter Notebook for Python Programming (Hebrew)</a></li>
     <li><a href="https://es.code-maven.com/programacion-por-pares">2021.05.05 - Mejorar una librería de Perl</a> con Juan J. Merelo (Spanish)</li>
-    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.05.09 - Web application development using Mojolicious - part 6</a> with Mark Gardner</li>
     <li><a href="https://code-maven.com/pydigger-1">2021.05.09 - Working on PyDigger</a> with Upasana Shukla</li>
+    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.05.23 - Web application development using Mojolicious - part 6</a> with Mark Gardner</li>
 </ul>
 
 <iframe src="https://calendar.google.com/calendar/embed?src=2gn7l0c1j6k6r5q2jjdaigveighrcsec%40import.calendar.google.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
@@ -45,6 +44,7 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
 <h2>Previous ones</h2>
 
 <ul>
+    <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.05.02 - Web application development using Mojolicious - part 5</a> with Mark Gardner</li>
     <li><a href="https://code-maven.com/setting-up-ci-and-docker-for-course-management-app">2021.04.29 - DevOps work - setting up CI and Docker for the course management project</a> with Thomas Klausner</li>
     <li><a href="https://code-maven.com/working-on-s3path">2021.04.26 - Working on s3path the Python File-System/Path like interface for AWS S3</a> with Lior Mizrahi</li>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.04.25 - Web application development using Mojolicious - part 4</a> with Mark Gardner</li>

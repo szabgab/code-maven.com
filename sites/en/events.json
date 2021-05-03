@@ -79,8 +79,6 @@
         "location" : "https://code-maven.com/setting-up-ci-and-docker-for-course-management-app",
         "url" : "https://code-maven.com/setting-up-ci-and-docker-for-course-management-app"
     },
-
-
     {
         "summary": "Web application development using Mojolicious - part 5 - with Mark Gadner",
         "description": "",
@@ -89,6 +87,9 @@
         "location" : "https://perlmaven.com/course-management-app-in-mojolicious",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
     },
+
+
+
     {
         "summary" : "Application for organising online self knowledge workshops - development in JavaScript with Ivett Ordog",
         "description" : "",
@@ -132,7 +133,7 @@
     {
         "summary": "Web application development using Mojolicious - part 6 - with Mark Gadner",
         "description": "",
-        "begin":    { "year" : 2021, "month" : 5, "day" : 9, "hour" : 18, "time_zone"  : "+0300"},
+        "begin":    { "year" : 2021, "month" : 5, "day" : 23, "hour" : 18, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://perlmaven.com/course-management-app-in-mojolicious",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
