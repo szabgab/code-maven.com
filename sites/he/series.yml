@@ -125,7 +125,7 @@ python:
         - python-raw-strings
     - title: לולאות
       sub:
-        - pro/python-loops
+        - python-loops
         - pro/python-for-loop-break-continue
         - pro/python-while-loop
         - pro/python-while-loop-part-2
