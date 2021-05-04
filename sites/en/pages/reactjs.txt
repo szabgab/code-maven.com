@@ -1,0 +1,25 @@
+=title ReactJS
+=timestamp 2021-05-04T12:00:01
+=indexes ReactJS
+=status show
+=books reactjs
+=author 0
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://reactjs.org/">ReactJS</a> is a JavaScript library for building user interfaces.
+
+=abstract end
+
+<ul>
+    <li><a href="/workout-app">Workout App</a> with Rachel Normand - ReactJS front-end, Python Flask back-end.</li>
+    <li><a href="/online-self-knowledge-workshop">Online self-knowledge workshop</a> with Ivett Ördög - ReactJS front-end, NodeJS back-end.</li>
+    <li><a href="https://he.code-maven.com/front-end-testing-of-react">Testing front-end written in ReactJS</a> with Ynon Perek (in Hebrew)</li>
+</ul>
+
+<!--
+    <li><a href=""></a></li>
+-->
