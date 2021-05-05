@@ -1,0 +1,31 @@
+=title Mejorar una libreria, Utilizar GitHub Actions con JJ Merelo
+=timestamp 2021-05-05T20:30:01
+=indexes GitHub
+=tags screencast
+=status show
+=books perl
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Mejorar una libreria, Utilizar GitHub Actions con JJ Merelo
+
+=abstract end
+
+<screencast file="perl-Github-Actions-2021-05-05_1920x1080.mp4" youtube="D2rn54h0BDM" />
+
+<ul>
+    <li><a href="https://github.com/JJ/perl-GitHub-Actions/">perl-GitHub-Actions</a></li>
+    <li><a href="https://github.com/JJ/algorithm-evolutionary-simple/">algorithm-evolutionary-simple/</a></li>
+    <li><a href="https://github.com/JJ/curso-tdd/">curso-tdd</a></li>
+    <li><a href="https://github.com/JJ/Algorithm-Evolutionary/">Algorithm-Evolutionary</a></li>
+    <li><a href="https://metacpan.org/author/JMERELO">JJ Merelo en MetaCPAN</a></li>
+    <li><a href="https://perlmaven.com/how-to-add-link-to-version-control-system-of-a-cpan-distributions">Makefile.PL</a></li>
+    <li><a href="https://perlmaven.com/github-actions-ci-job-for-test-class">GitHub Actions CI job for Perl Test::Class</a></li>
+    <li><a href="/youtube">El canal de YouTube</a></li>
+    <li><a href="/linkedin">La página de LinkedIn</a></li>
+</ul>
+
