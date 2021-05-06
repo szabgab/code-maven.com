@@ -18,7 +18,7 @@ Mejorar unas de sus  <a href="https://metacpan.org/author/JMERELO">librerías de
 
 En la ultima vez trabajamos sobre <a href="/perl-github-actions">GitHub::Actions</a>.
 
-5 de Mayo en las 18:00 del dia en la hora de España.
+19 de Mayo en las 18:00 del dia en la hora de España.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIuceqgpz8oH91ylQif3SG77lW8VV-rmAjH">Registrar aqui</a>
 
