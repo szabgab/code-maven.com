@@ -126,7 +126,7 @@ python:
     - title: לולאות
       sub:
         - python-loops
-        - pro/python-for-loop-break-continue
+        - python-for-loop-break-continue
         - pro/python-while-loop
         - pro/python-while-loop-part-2
         - pro/python-loops-exercises

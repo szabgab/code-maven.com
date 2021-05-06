@@ -1,0 +1,17 @@
+=title יציאה מוקדמת מלולאות בפייתון
+=timestamp 2021-05-06T08:32:18
+=indexes Python, for, continue, break
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/for-break">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-for-loop-break-continue" youtube="SoLgUKSNy7o" />
+
