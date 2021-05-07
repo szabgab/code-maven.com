@@ -29,6 +29,8 @@ The project has a <a href="/flask">Flask</a> <a href="/python">Python</a> back-e
 
 Nest session:
 
-Date: 2021.05.11 for the exact hour in your time-zone check out the registration page or our <a href="/live">calendar</a>.
+Scheduled for <span id="localdate" x-schedule="2021-05-11T09:00:00+03:00"></span>
+
+See our <a href="/live">calendar</a> as well.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZApdu-przIqHtYFkt_H9M2pcZmyWMekORBx">Register here</a>

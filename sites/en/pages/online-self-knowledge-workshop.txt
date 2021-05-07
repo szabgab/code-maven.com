@@ -29,7 +29,10 @@ We are going to use <a href="https://reactjs.org/">ReactJS</a>.
 
 
 Next session:
-Date: 2021.05.10 for the exact hour in your time-zone check out the registration page or our <a href="/live">calendar</a>.
+
+Scheduled for <span id="localdate" x-schedule="2021-05-10T19:00:00+03:00"></span>
+
+Also see our <a href="/live">calendar</a>.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUqdeChqz8vE9wqUBKXqS526bJjdPU3ihbV">Register here</a>
 
