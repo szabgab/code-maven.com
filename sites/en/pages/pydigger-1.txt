@@ -16,7 +16,7 @@ In this <a href="/live">live pair programming</a> session
 
 =abstract end
 
-Scheduled for 2021.05.09
+Scheduled for <span id="localdate" x-schedule="2021-05-09T15:00:00+03:00"></span>
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZAodO-srDksG9UTK8huzyjSJ5B9Wuz3z0Th">Register here</a>
 
