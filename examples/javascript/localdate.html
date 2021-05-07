@@ -23,7 +23,15 @@ function set_local_date() {
     const mydate = obj.getAttribute("x-schedule");
     const date = new Date(mydate);
     if (obj) {
-        obj.innerHTML = date;
+        obj.innerHTML = date.toLocaleDateString( [], {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+            hour: 'numeric',
+            minute: 'numeric',
+            timeZoneName: 'long'
+        });
     }
 }
 set_local_date();

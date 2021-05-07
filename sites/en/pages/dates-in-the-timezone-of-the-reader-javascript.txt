@@ -19,7 +19,26 @@ it using JavaScript only. This is what I got:
 
 =abstract end
 
-<include file="examples/javascript/date.html">
+In the first example we have a date string in the <b>mydate</b> variable and then we use the <b>toLocaleString</b> method with various <b>dateStyle</b> options
+and <b>toLocaleDateString</b> options to show the date in different formats. You can click on the <b>try</b> link below the example to see the code running
+in a separate tab.
+
+<try file="examples/javascript/date.html">
+
+See the list of <a href="https://tc39.es/ecma402/#sup-date.prototype.tolocalestring">options of toLocalString</a>
+
+
+<h2>A more real-world version</h2>
+
+In the second example you can see a more real-world version. The date string is in an attribute of a <b>div</b> element. It could have been
+added there manually or by some back-end application with a template.
+
+Then there is a function that check if there is an HTML element with the "localdate" id. Takes the attribute from it and uses the same
+techniques as above to set the date in a nice format. (Use the <b>try</b> link to see it working.
 
 <try file="examples/javascript/localdate.html">
+
+<h2>Live events</h2>
+
+Now it is your turn to check out our <a href="/live">live</a> events and join one.
 
