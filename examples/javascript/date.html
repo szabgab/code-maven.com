@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>Date</title>
+</head>
+<body>
+<div id="default"></div>
+<div id="long"></div>
+<div id="medium"></div>
+<div id="short"></div>
+<div id="special-long"></div>
+<div id="special-short"></div>
+
+
+</body>
+</html>
+
+
+<script>
+const mydate = "2021-04-13T19:00:00-04:00";
+const date = new Date(mydate);
+document.getElementById("default").innerHTML = date;
+document.getElementById("long").innerHTML = date.toLocaleString( [], {dateStyle: "long"})
+document.getElementById("medium").innerHTML = date.toLocaleString( [], {dateStyle: "medium"})
+document.getElementById("short").innerHTML = date.toLocaleString( [], {dateStyle: "short"})
+document.getElementById("special-long").innerHTML = date.toLocaleDateString( [], { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric' , minute: 'numeric', timeZoneName: 'long'})
+document.getElementById("special-short").innerHTML = date.toLocaleDateString( [], { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric' , minute: 'numeric', timeZoneName: 'short'})
+</script>
+
+https://tc39.es/ecma402/#sup-date.prototype.tolocalestring
+

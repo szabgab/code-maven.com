@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport"
+     content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>Date</title>
+</head>
+<body>
+<div id="localdate" x-schedule="2021-04-13T19:00:00-04:00"></div>
+</body>
+</html>
+
+
+<script>
+function set_local_date() {
+    // Assume a date format of "2021-04-13T19:00:00+03:00";
+    // Display time in localtime of the browser.
+    const obj = document.getElementById("localdate");
+    if (! obj) {
+        return;
+    }
+    const mydate = obj.getAttribute("x-schedule");
+    const date = new Date(mydate);
+    if (obj) {
+        obj.innerHTML = date;
+    }
+}
+set_local_date();
+</script>
