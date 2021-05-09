@@ -1,0 +1,17 @@
+=title לולאות כול עוד בפייתון (while)
+=timestamp 2021-05-09T08:34:18
+=indexes Python, while
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/while-loop">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-while-loop" youtube="dlHCRRDdIkU" />
+

@@ -127,7 +127,7 @@ python:
       sub:
         - python-loops
         - python-for-loop-break-continue
-        - pro/python-while-loop
+        - python-while-loop
         - pro/python-while-loop-part-2
         - pro/python-loops-exercises
     - title: מחרוזות ודפסות מפורמטות
