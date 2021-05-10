@@ -1,0 +1,17 @@
+=title  (while) לולאות כל עוד בפייתון - פרק ב
+=timestamp 2021-05-10T14:31:18
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/duplicate-input-call">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-while-loop-part-2" youtube="DR_ASLI-M_Y" />
+
