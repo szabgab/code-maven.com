@@ -608,4 +608,10 @@ online-self-knowledge-workshop:
       sub:
         - online-self-knowledge-workshop-1
         - online-self-knowledge-workshop-2
+workout-app:
+  chapters:
+    - title: Live
+      sub:
+        - workout-app-1
+        - workout-app-2
 
