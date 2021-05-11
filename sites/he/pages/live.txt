@@ -22,21 +22,16 @@
 
 
 <ul>
-    <li><a href="https://www.meetup.com/code-mavens/events">המפגשים הבאים</a></li>
+    <li><a href="https://he.code-maven.com/live-with-shai-berger">2021.05.23 - </a> with Shai Berger (Hebrew)</li>
 </ul>
 
 
-<iframe src="https://calendar.google.com/calendar/embed?src=v53c0ofevmc92t01eegd7j78plvnc0al%40import.calendar.google.com&ctz=Asia%2FJerusalem" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
 
-Use this link to include the the schedule in your calendar: <a href="https://www.meetup.com/Code-Mavens/events/calendar/">https://www.meetup.com/Code-Mavens/events/calendar/</a> .
-
-
-<!--
 <h2>Previous ones</h2>
 
 <ul>
+    <li><a href="https://he.code-maven.com/front-end-testing-of-react">2021.03.11 - Front-end testing of React</a> with Ynon Perek (Hebrew)</li>
 </ul>
--->
 
 <h2>Follow us</h2>
 <ul>
