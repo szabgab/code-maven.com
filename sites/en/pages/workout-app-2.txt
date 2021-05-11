@@ -27,5 +27,5 @@ The project has a <a href="/flask">Flask</a> <a href="/python">Python</a> back-e
    <li><a href="https://code-maven.com/python-flask-before-first-request">before_first_request</a></li>
 </ul>
 
-<screencast file="development-with-rachel-normand-2_2048x1152.mp4" youtube="https://youtu.be/tSf2G4W1tcA" />
+<screencast file="development-with-rachel-normand-2_2048x1152.mp4" youtube="tSf2G4W1tcA" />
 
