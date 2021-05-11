@@ -1,7 +1,6 @@
 =title Developing an application for organising online self knowledge workshops
-=timestamp 2021-05-04T07:30:01
+=timestamp 2021-05-11T07:40:01
 =indexes live
-=tags screencast
 =status show
 =books nodejs
 =author szabgab
@@ -11,26 +10,22 @@
 
 =abstract start
 
-In this live coding session we are going to start the application with <a href="https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/">Ivett Ördög</a>.
-We are going to use <a href="https://reactjs.org/">ReactJS</a>.
+In this live coding session we are working on an application with <a href="https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/">Ivett Ördög</a>.
+We are using <a href="https://reactjs.org/">ReactJS</a> for the front-end.
+
+Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/channel/UCm27Xuroww1AxPdR3Zz_5jA">Cup of Code</a>.
 
 =abstract end
 
-<screencast file="development-with-ivett-ordog_1920x1120.mp4" youtube="ZCVQht4Q1K0" />
-
 <ul>
-    <li><a href="https://github.com/devill/selfknowledge">Source code</a></li>
-    <li><a href="https://devhints.io/react">Reach hints</a></li>
-    <li><a href="https://reactjs.org/docs/forms.html">ReactJS forms</a></li>
-    <li><a href="https://www.npmjs.com/package/uuid">npmjs uuid</a></li>
-    <li><a href="https://reactjs.org/docs/handling-events.html">ReactJS handling events</a></li>
+    <li><a href="/online-self-knowledge-workshop-1">Part 1</a></li>
+    <li><a href="/online-self-knowledge-workshop-2">Part 2</a></li>
 </ul>
-
 
 
 Next session:
 
-Scheduled for <span id="localdate" x-schedule="2021-05-10T19:00:00+03:00"></span>
+Scheduled for <span id="localdate" x-schedule="2021-05-20T20:00:00+03:00"></span>
 
 Also see our <a href="/live">calendar</a>.
 

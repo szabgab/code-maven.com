@@ -126,5 +126,13 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://code-maven.com/pydigger-1",
         "url" : "https://code-maven.com/pydigger-1"
+    },
+    {
+        "summary" : "Application for organising online self knowledge workshops - development in JavaScript with Ivett Ordog",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 5, "day" : 10, "hour" : 20, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/online-self-knowledge-workshop",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop"
     }
 ]
