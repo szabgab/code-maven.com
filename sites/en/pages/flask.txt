@@ -41,6 +41,7 @@ This is the collection of Flask articles on the Code Maven site.
   <li><a href="/python-flask-after-request">Python Flask: Execute code after every request</a></li>
   <li><a href="/python-flask-catch-exception">Python Flask: Catch exception</a></li>
   <li><a href="/python-flask-logging">Python Flask: Logging</a></li>
+  <li><a href="/flask-blueprint-with-tests">Python Flask Blueprint example with tests</a></li>
 
 </ul>
 

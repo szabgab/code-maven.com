@@ -1,0 +1,9 @@
+<h2>Echo main</h2>
+<form action="{{url_for('.echo')}}" method="GET">
+<input name="text">
+<input type="submit" value="Echo">
+</form>
+
+{% if text %}
+You typed in {{text}}
+{% endif %}

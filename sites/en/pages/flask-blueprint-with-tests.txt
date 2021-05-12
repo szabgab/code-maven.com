@@ -1,0 +1,72 @@
+=title Python Flask Blueprint example with tests
+=timestamp 2021-05-12T16:30:01
+=indexes Flask, Bluprint, pytest
+=status draft
+=books flask
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://flask.palletsprojects.com/en/2.0.x/blueprints/">Bluprints allow you to "hang" sub-applications at various URL prefixes.
+This can make it easier to divide work into sub-projects.
+
+This is simple example including the tests.
+
+=abstract end
+
+<h2>Directory layout</h2>
+
+Probably other layouts can work an might be even better, for better separation, but this is a working version.
+
+<code>
+.
+├── app.py
+├── echo
+│   └── templates
+│       └── echo
+│           └── main.html
+├── echo.py
+├── templates
+│   └── main.html
+├── test_app.py
+└── test_echo.py
+</code>
+
+
+<h2>The blueprint</h2>
+
+<include file="examples/flask/blueprint/echo.py">
+
+<h2>The template of the blueprint</h2>
+
+<include file="examples/flask/blueprint/echo/templates/echo/main.html">
+
+<h2>The test of the blueprint</h2>
+
+We create an application in it, hang the bluprint in the root of the application and test it there.
+
+<include file="examples/flask/blueprint/test_echo.py">
+
+
+<h2>The application</h2>
+
+It has a single route of its own and uses the blueprint. It could add more bluprints, if there were more.
+
+<include file="examples/flask/blueprint/app.py">
+
+
+<h2>The template of the main application</h2>
+
+<include file="examples/flask/blueprint/templates/main.html">
+
+<h2>Test the application</h2>
+
+In this test we also tested the routes of the blueprint. This is probably not necessary as we already tested them earlier,
+but these tests can ensure that the routes work properly even when they are attached to a path different from the root.
+
+<include file="examples/flask/blueprint/test_app.py">
+
+
