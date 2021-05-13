@@ -12,7 +12,7 @@ def create_app():
         app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///' + db_file
         app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
         db.init_app(app)
-        db.create_all() # TODO what if the db already exists?
+        db.create_all()
 
         @app.route('/')
         @app.route('/<name>')
@@ -36,7 +36,6 @@ def create_app():
                 counters = [ {"name": counter.name, "count" : counter.count} for counter in Counter.query.all()]
                 app.logger.info(counters)
                 return render_template('counter.html', counters = counters)
-
 
 
     return app
