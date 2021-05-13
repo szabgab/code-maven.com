@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request, abort
 import logging
 import os
-from model import apply_db_migrations, db, base
+from model import apply_db_migrations, setup_db, create_classes
 
 def create_app():
     app = Flask(__name__)
@@ -12,8 +12,9 @@ def create_app():
         db_uri = 'sqlite:///' + db_file
         app.config['SQLALCHEMY_DATABASE_URI'] = db_uri
         app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-        db.init_app(app)
         apply_db_migrations(db_uri)
+        db = setup_db(app)
+        Counter = create_classes(db)
 
         @app.route('/')
         @app.route('/<name>')
@@ -22,10 +23,10 @@ def create_app():
                 if name == 'favicon.ico':
                     return abort(404)
                 app.logger.info("name %s", name)
-                cntr = db.session.query(base.Counter).filter_by(name=name).first()
+                cntr = db.session.query(Counter).filter_by(name=name).first()
                 app.logger.info(cntr)
                 if not cntr:
-                    cntr = base.Counter(name=name, count=1)
+                    cntr = Counter(name=name, count=1)
                     db.session.add(cntr)
                 else:
                     cntr.count += 1
@@ -34,7 +35,7 @@ def create_app():
 
                 return render_template('counter.html', name = name, counter = cntr.count)
             else:
-                counters = [ {"name": counter.name, "count" : counter.count} for counter in db.session.query(base.Counter).all()]
+                counters = [ {"name": counter.name, "count" : counter.count} for counter in db.session.query(Counter).all()]
                 app.logger.info(counters)
                 return render_template('counter.html', counters = counters)
 
