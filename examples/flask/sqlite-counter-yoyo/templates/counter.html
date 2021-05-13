@@ -1,0 +1,15 @@
+<h1>Counter</h1>
+{% if name %}
+  {{ name }} : {{ counter}}
+{% else %}
+    {% if counters %}
+        <ul>
+        {% for counter in counters %}
+            <li><a href="/{{counter.name}}">{{counter.name}} {{counter.count}}</a></li>
+        {% endfor %}
+        </ul>
+    
+    {% else %}
+        Try <a href="/something">something</a>
+    {% endif %}
+{% endif %}

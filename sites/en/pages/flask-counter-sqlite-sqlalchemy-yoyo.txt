@@ -1,0 +1,65 @@
+=title Flask counter with SQLite, SQLAlchemy, pytest - database migration with yoyo
+=timestamp 2021-05-13T16:30:01
+=indexes Flask, SQLite, SQLAlchemy, pytest, yoyo
+=status show
+=books flask
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+This is another <a href="/counter">counter example</a> using Flask, SQLite, SQLAlchemy, pytest, but this time we are also usiong <a href="https://ollycope.com/software/yoyo/latest/">youo migration</a>
+to maintain the database. An <a href="/flask-counter-sqlite-sqlalchemy">earlier version</a> of this example did not use Yoyo and there we created the schema using SQLAlhemy.
+
+=abstract end
+
+
+<h2>Directory layout</h2>
+
+<code>
+.
+├── app.py
+├── migrations
+│   ├── 001.rollback.sql
+│   └── 001.sql
+├── model.py
+├── templates
+│   └── counter.html
+└── test_app.py
+</code>
+
+<h2>The application code</h2>
+
+<include file="examples/flask/sqlite-counter-yoyo/app.py">
+
+The way we run queries changed. We now need to call <b>db.session.query</b> and pass it
+the class representing the table.
+
+<h2>The SQL migration scripts</h2>
+
+<include file="examples/flask/sqlite-counter-yoyo/migrations/001.sql">
+<include file="examples/flask/sqlite-counter-yoyo/migrations/001.rollback.sql">
+
+<h2>The SQLAlchemy code</h2>
+
+<include file="examples/flask/sqlite-counter-yoyo/model.py">
+
+There are two ways to use SQLAlchemy. Either we declare the details of the schema in Python statements as we did in the
+<a href="/flask-counter-sqlite-sqlalchemy">other version</a> or we use the <a href="https://docs.sqlalchemy.org/en/14/orm/extensions/automap.html">automap</a> feature
+of SQLAlchemy.
+
+As we already have our SQL declarations in the migration files I thought it would be better to try to use the <b>automap_base</b>.
+
+However I could only run this inside the apply_db_migrations function, once we set up the database. So in order to have package level classes
+I had to use <b>global</b>. I also used a single class called <b>base</b> instead of one class per table. (And yes I know in this example we only have one table anyway.)
+
+<h2>The Jinja template</h2>
+
+<include file="examples/flask/sqlite-counter-yoyo/templates/counter.html">
+
+<h2>The tests</h2>
+
+<include file="examples/flask/sqlite-counter-yoyo/test_app.py">
+
