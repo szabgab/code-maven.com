@@ -129,7 +129,7 @@ python:
         - python-for-loop-break-continue
         - python-while-loop
         - python-while-loop-part-2
-        - pro/python-loops-exercises
+        - python-loops-exercises
     - title: מחרוזות ודפסות מפורמטות
       sub:
         - pro/python-formatted-strings

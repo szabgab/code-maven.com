@@ -1,0 +1,17 @@
+=title תרגיל בלולאות בפייתון
+=timestamp 2021-05-13T08:33:18
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/exercise-print-all-the-locations">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-loops-exercises" youtube="Q7Rd5wRjtmE" />
+
