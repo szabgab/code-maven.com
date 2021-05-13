@@ -1,0 +1,60 @@
+=title Flask counter with SQLite, SQLAlchemy, pytest
+=timestamp 2021-05-13T14:30:01
+=indexes Flask, SQLite, SQLAlchemy, pytest
+=status show
+=books flask
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+This is a <a href="/counter">counter example</a> to show how to create a web application using <a href="/python">Python</a>  <a href="/flask">Flask</a>
+with <a href="https://www.sqlite.org/">SQLite database</a>. Using <a href="https://www.sqlalchemy.org/">SQLAlchemy</a> as the ORM and ensuring that we
+can test the whole application using <a href="https://pytest.org/">pytest</a>. Making sure that each test-case has its own database.
+
+=abstract end
+
+<h2>Directory layout</h2>
+
+<code>
+.
+├── app.py
+├── model.py
+├── templates
+│   └── counter.html
+└── test_app.py
+</code>
+
+To run the application execute the following:
+
+<code>
+FLASK_APP=app FLASK_DEBUG=1 flask run
+</code>
+
+<h2>The application</h2>
+
+<include file="examples/flask/sqlite-counter/app.py">
+
+<h2>The model - the SQLAlchemy configuration</h2>
+
+<include file="examples/flask/sqlite-counter/model.py">
+
+<h2>The HTML template using Jinja</h2>
+
+<include file="examples/flask/sqlite-counter/templates/counter.html">
+
+<h2>The tests</h2>
+
+The second test function was added primarily to show that the test functions have their own separate databases.
+and there is no interence between the test functions.
+
+<include file="examples/flask/sqlite-counter/test_app.py">
+
+You can run the tests by
+
+<code>
+pytest
+</code>
+
