@@ -55,6 +55,7 @@ This is going to be a long project, but it might help understand various techniq
 <ul>
     <li><a href="/comman-line-counter-in-python">Command-line counter in Python</a> for a single counter.</li>
     <li><a href="/python-counter-with-mongodb">Python and MongoDB</a></li>
+    <li><a href="/flask-counter-sqlite-sqlalchemy">Flask counter with SQLite, SQLAlchemy, pytest</a></li>
 </ul>
 
 <h2>Go</h2>
