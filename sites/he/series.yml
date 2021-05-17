@@ -132,7 +132,7 @@ python:
         - python-loops-exercises
     - title: מחרוזות ודפסות מפורמטות
       sub:
-        - pro/python-formatted-strings
+        - python-formatted-strings
     - title: ביטויים רגולרים
       sub:
         - pro/python-what-are-regexes

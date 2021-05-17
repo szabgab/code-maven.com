@@ -27,7 +27,7 @@
     <li><a href="/python-boolean-operators">בולאנים</a></li>
     <li><a href="/python-strings">מחרוזות</a></li>
     <li><a href="/python-loops">לולאות</a></li>
-    <li><a href="/pro/python-formatted-strings"> מחרוזות הדפסות מפורמטות</a></li>
+    <li><a href="/python-formatted-strings"> מחרוזות הדפסות מפורמטות</a></li>
     <li>רשימות</li>
     <li>קבצים</li>
     <li>מילונים</li>
