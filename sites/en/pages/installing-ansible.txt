@@ -39,13 +39,13 @@ If you have a bare-bones Ubuntu 17.04 then this is how you set up a virtualenv f
 <code>
 $ sudo apt-get install virtualenv python3-virtualenv python3-pip
 $ virtualenv venv --python=python3
-$ source venv/bin/activate
 </code>
 
 <h3>Setting up Ansible on Ubuntu 17.04</h3>
 
+Once you have the virtualenv set up you need to activate it and then you can install Ansible using <hl>pip</hl>.
+
 <code>
-$ virtualenv venv
 $ source venv/bin/activate
 $ pip install ansible
 </code>
