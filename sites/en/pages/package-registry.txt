@@ -61,6 +61,7 @@ Here I tried to replicate and extend that list.
     <li>Emacs <a href="https://melpa.org/">MELPA</a> Milkypostman's Emacs Lisp Package Archive</li>
     <li>Vim <a href="https://www.vim.org/scripts/">Vim Scripts</a></li>
     <li>VS Code<a href="https://marketplace.visualstudio.com/">VS Marketplace</a> Extensions for the Visual Studio family of products</li>
+    <li>Sublime Text 3<a href="https://www.sublimetext.com/">Sublime Text</a> has <a href="https://packagecontrol.io/">Packages</a></li>
 </ul>
 
 <h2>Other</h2>
