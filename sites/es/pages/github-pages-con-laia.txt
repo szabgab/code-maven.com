@@ -1,0 +1,30 @@
+=title Crear GitHub pages con Laia
+=timestamp 2021-05-20T11:30:01
+=indexes GitHub, git
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Installar y configurar git. Crear on repositorio the git y subir lo a GitHub.
+Configurar una página de GitHub.
+
+=abstract end
+
+<screencast file="github-pages-con-laia-2021-05-20_1920x1080.mp4" youtube="JtYEtlR77D0" />
+
+<ul>
+    <li><a href="https://laia92.github.io/">La pagina de Laia</a></li>
+    <li><a href="https://github.com/LAIA92/laia92.github.io">El repositorio en GitHub</a></li>
+    <li><a href="https://github.com/laia92">Laia Asensio López en GitHub</a></li>
+    <li><a href="https://www.linkedin.com/in/laiaasensiolopez/">Laia Asensio López en LinkedIn</a></li>
+    <li><a href="https://git-scm.com/">Git SCM</a></li>
+    <li><a href="https://code-maven.com/slides/git/git-configure-personal">Configurar git con tu nombre</a></li>
+    <li><a href="/youtube">El canal de YouTube</a></li>
+    <li><a href="/linkedin">La página de LinkedIn</a></li>
+</ul>
+
