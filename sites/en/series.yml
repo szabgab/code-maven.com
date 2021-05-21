@@ -608,6 +608,7 @@ online-self-knowledge-workshop:
       sub:
         - online-self-knowledge-workshop-1
         - online-self-knowledge-workshop-2
+        - online-self-knowledge-workshop-3
 workout-app:
   chapters:
     - title: Live

@@ -17,6 +17,7 @@ Live pair programming events
 <!--
     <li><a href=""></a></li>
     <li><a href="https://code-maven.com/">2021.05.03 - </a></li>
+    <li><a href="https://es.code-maven.com/programacion-por-pares">2021.05.19 - Mejorar una librería de Perl</a> con Juan J. Merelo (Spanish)</li>
 
 
 
@@ -29,11 +30,10 @@ Check out all the other <a href="https://code-maven.com/live">live</a> events an
 <h2>Scheduled</h2>
 
 <ul>
-    <li><a href="https://es.code-maven.com/programacion-por-pares">2021.05.19 - Mejorar una librería de Perl</a> con Juan J. Merelo (Spanish)</li>
-    <li><a href="https://code-maven.com/online-self-knowledge-workshop">2021.05.20 - Application for organising online self knowledge workshops - development in JavaScript</a> with Ivett Ördög</li>
     <li><a href="https://he.code-maven.com/live-with-shai-berger">2021.05.23 - </a> with Shai Berger (Hebrew)</li>
     <li><a href="https://code-maven.com/pydigger-2">2021.05.23 - Working on PyDigger</a> with Upasana Shukla</li>
     <li><a href="https://perlmaven.com/course-management-app-in-mojolicious">2021.05.23 - Web application development using Mojolicious - part 6</a> with Mark Gardner</li>
+    <li><a href="https://code-maven.com/online-self-knowledge-workshop">2021.05.26 - Application for organising online self knowledge workshops - development in JavaScript</a> with Ivett Ördög</li>
     <li><a href="https://code-maven.com/pydigger-3">2021.06.20 - Working on PyDigger</a> with Upasana Shukla</li>
 </ul>
 
@@ -44,6 +44,9 @@ Use this link to include the the schedule in your calendar: <a href="https://cod
 <h2>Previous ones</h2>
 
 <ul>
+    <li><a href="https://code-maven.com/online-self-knowledge-workshop-3">2021.05.20 - Application for organising online self knowledge workshops - development in JavaScript</a> with Ivett Ördög</li>
+    <li><a href="https://es.code-maven.com/github-pages-con-laia">2021.05.20 - Crear una página de GitHub</a> con Laia Asensio López (Spanish)</li>
+    <li><a href="https://es.code-maven.com/perl-con-jjmerelo-3">2021.05.19 - Mejorar una librería de Perl</a> con Juan J. Merelo (Spanish)</li>
     <li><a href="https://code-maven.com/workout-app">2021.05.11 - Workout-app</a> with Rachel Normand</li>
     <li><a href="https://code-maven.com/online-self-knowledge-workshop-2">2021.05.10 - Application for organising online self knowledge workshops - development in JavaScript</a> with Ivett Ördög</li>
     <li><a href="https://code-maven.com/pydigger-1">2021.05.09 - Working on PyDigger</a> with Upasana Shukla</li>

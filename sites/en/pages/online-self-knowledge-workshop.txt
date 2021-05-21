@@ -20,12 +20,13 @@ Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/chann
 <ul>
     <li><a href="/online-self-knowledge-workshop-1">Part 1</a></li>
     <li><a href="/online-self-knowledge-workshop-2">Part 2</a></li>
+    <li><a href="/online-self-knowledge-workshop-3">Part 3</a></li>
 </ul>
 
 
 Next session:
 
-Scheduled for <span id="localdate" x-schedule="2021-05-20T20:00:00+03:00"></span>
+Scheduled for <span id="localdate" x-schedule="2021-05-26T19:00:00+03:00"></span>
 
 Also see our <a href="/live">calendar</a>.
 

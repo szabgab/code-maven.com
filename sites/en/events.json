@@ -1,21 +1,5 @@
 [
     {
-        "summary" : "Mejorar una libreria de Perl con Juan J. Merelo (Spanish)",
-        "description" : "",
-        "begin"    : { "year" : 2021, "month" : 5, "day" : 19, "hour" : 19, "time_zone"  : "+0300"},
-        "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://es.code-maven.com/programacion-por-pares",
-        "url" : "https://es.code-maven.com/programacion-por-pares"
-    },
-    {
-        "summary" : "Application for organising online self knowledge workshops - development in JavaScript with Ivett Ordog",
-        "description" : "",
-        "begin"    : { "year" : 2021, "month" : 5, "day" : 20, "hour" : 20, "time_zone"  : "+0300"},
-        "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/online-self-knowledge-workshop",
-        "url" : "https://code-maven.com/online-self-knowledge-workshop"
-    },
-    {
         "summary": "Development with Shai Barger (Hebrew)",
         "description": "",
         "begin":    { "year" : 2021, "month" : 5, "day" : 23, "hour" : 9, "time_zone"  : "+0300"},
@@ -38,6 +22,14 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://perlmaven.com/course-management-app-in-mojolicious",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
+    },
+    {
+        "summary" : "Application for organising online self knowledge workshops - development in JavaScript with Ivett Ordog",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 5, "day" : 26, "hour" : 19, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/online-self-knowledge-workshop",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop"
     },
     {
         "summary" : "Working on PyDigger with Upasana Shukla",
