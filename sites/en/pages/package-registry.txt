@@ -27,8 +27,9 @@ Here I tried to replicate and extend that list.
 
 <ul>
     <li>Closure <a href="https://clojars.org/">Clojars</a></li>
-    <li>Crystal  <a href="https://crystalshards.xyz">CrystalShards</a></li>
-    <li>D lang<a href="https://code.dlang.org/">DUB</a> the D package registry</li>
+    <li>Crystal <a href="https://crystalshards.xyz">CrystalShards</a></li>
+    <li>C# .NET <a href="https://www.nuget.org/">NuGet</a> the package manager for .NET.</li>
+    <li>D lang <a href="https://code.dlang.org/">DUB</a> the D package registry</li>
     <li>Erlang / Elixir<a href="https://hex.pm/">Hex.pm</a> The package manager for the Erlang ecosystem</li>
     <li>Go <a href="https://pkg.go.dev/">Go Packages</a></li>
     <li>Haskell - <a href="https://www.haskell.org/cabal/">Cabal</a> - Common Architecture for Building Applications and Libraries and <a href="http://hackage.haskell.org/">Hackage</a> The Haskell Package Repository</li>
@@ -36,7 +37,6 @@ Here I tried to replicate and extend that list.
     <li>JavaScript (NodeJS) - <a href="https://www.npmjs.com/">npm</a> - Node Package Manager</li>
     <li>Julia <a href="https://julialang.org/packages/">Julia packages</a></li>
     <li>Lua <a href="https://luarocks.org/">Lua Rocks</a></li>
-    <li>.NET<a href="https://www.nuget.org/">NuGet</a> the package manager for .NET.</li>
     <li>Nim <a href="https://github.com/nim-lang/nimble/">Nimble</a></li>
     <li>Objective-C - <a href="https://cocoapods.org/">CocoaPods</a> a dependency manager for Swift and Objective-C Cocoa projects.</li>
     <li>Perl <a href="https://www.cpan.org/">CPAN</a> - Comprehensive Perl Archive Network and the real UI: <a href="https://metacpan.org/">MetaCPAN</a></li>
@@ -46,6 +46,9 @@ Here I tried to replicate and extend that list.
     <li>Raku <a href="https://modules.raku.org/">Raku Modules</a></li>
     <li>Ruby <a href="https://rubygems.org/">RubyGems</a></li>
     <li>Rust <a href="https://crates.io/">Crates</a> The Rust community's crate registry</li>
+    <li>Scala <a href="https://index.scala-lang.org/">The Scala Library Index</a></li>
+    <li>Swift <a href="https://swiftpackageregistry.com/">Swift Package Registry</a></li>
+    <li>TypeScript - See JavaScript</li>
 </ul>
 
 <h2>C++ seems to be a category of itself</h2>
