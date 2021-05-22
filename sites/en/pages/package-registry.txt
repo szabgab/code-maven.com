@@ -48,6 +48,20 @@ Here I tried to replicate and extend that list.
     <li>Rust <a href="https://crates.io/">Crates</a> The Rust community's crate registry</li>
 </ul>
 
+<h2>C++ seems to be a category of itself</h2>
+
+<a href="https://github.com/jnareb">Jakub Narębski</a> wrote me:
+
+The C++ language does not come with an integrated package manager to deal with external dependencies of a project.
+However, there exists various third party package managers for C++ with their package repositories:
+
+<ul>
+    <li><a href="https://conan.io/">Conan</a> with <a href="https://conan.io/center/">ConanCenter</a> with 867 packages</li>
+    <li><a href="https://build2.org/">build2</a> with <a href="https://cppget.org/">cppget</a> with 83 packages</li>
+    <li><a href="https://mesonbuild.com/">Meson</a> with <a href="https://wrapdb.mesonbuild.com/">Wrap DB</a> with 163 packages (recipes)</li>
+    <li><a href="https://github.com/microsoft/vcpkg">vcpkg</a> from Microsoft with <a href="https://vcpkg.io/en/packages.html">vcpkg</a> with 1656 packages</li>
+</ul>
+
 <h2>Frameworks</h2>
 
 <ul>
