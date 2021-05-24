@@ -18,7 +18,7 @@ In this <a href="/live">live pair programming</a> session
 
 
 <ul>
-    <li><a href="/pydigger-1"></a></li>
-    <li><a href="/pydigger-2"></a></li>
-    <li><a href="/pydigger-3"></a></li>
+    <li><a href="/pydigger-1">Part 1</a></li>
+    <li><a href="/pydigger-2">Part 2</a></li>
+    <li><a href="/pydigger-3">Part 3</a></li>
 </ul>
