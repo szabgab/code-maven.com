@@ -615,4 +615,11 @@ workout-app:
       sub:
         - workout-app-1
         - workout-app-2
+pydigger:
+  chapters:
+    - title: Live
+      sub:
+        - pydigger-1
+        - pydigger-2
+        - pydigger-3
 

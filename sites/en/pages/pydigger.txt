@@ -1,5 +1,5 @@
-=title Working on PyDigger with Upasana Shukla
-=timestamp 2021-05-24T13:30:01
+=title Working on PyDigger
+=timestamp 2021-05-23T21:30:01
 =indexes live, Python
 =tags screencast
 =status show
@@ -16,5 +16,9 @@ In this <a href="/live">live pair programming</a> session
 
 =abstract end
 
-<screencast file="pydigger-with-upasana-shukla-2021-05-23_1920x1080.mp4" youtube="X5xqXwhaASg" />
 
+<ul>
+    <li><a href="/pydigger-1"></a></li>
+    <li><a href="/pydigger-2"></a></li>
+    <li><a href="/pydigger-3"></a></li>
+</ul>
