@@ -68,8 +68,9 @@ However, there exists various third party package managers for C++ with their pa
 <h2>Frameworks</h2>
 
 <ul>
-    <li>Django <a href="https://djangopackages.org/">Django Packages</a></li>
-    <li>Drupal (PHP)<a href="https://www.drupal.org/project/project_module">Drupal modules</a></li>
+    <li><a href="https://www.djangoproject.com/">Django (Python)</a> - <a href="https://djangopackages.org/">Django Packages</a></li>
+    <li><a href="https://www.drupal.org/">Drupal (PHP)</a> - <a href="https://www.drupal.org/project/project_module">Drupal modules</a></li>
+    <li><a href="https://laravel.com/">Laravel (PHP)</a> - <a href="https://packalyst.com/">Packalyst</a></li>
 </ul>
 
 <h2>Editors</h2>
