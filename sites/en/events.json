@@ -16,6 +16,14 @@
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
     },
     {
+        "summary": "Web automation with Selenium and Python with Ynon Perek",
+        "description": "",
+        "begin":    { "year" : 2021, "month" : 5, "day" : 3, "hour" : 10, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/selenium-with-python-live",
+        "url" : "https://code-maven.com/selenium-with-python-live"
+    },
+    {
         "summary" : "Working on PyDigger with Upasana Shukla",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 6, "day" : 20, "hour" : 15, "time_zone"  : "+0300"},
