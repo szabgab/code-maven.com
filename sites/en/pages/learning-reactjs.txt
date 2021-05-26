@@ -17,6 +17,9 @@ and trying to prepare some small examples for my <a href="https://code-maven.com
 
 =abstract end
 
+Steve Dondley on <a href="https://github.com/sdondley">GitHub</a> and on <a href="https://metacpan.org/author/STEVIED">MetaCPAN</a>.
+
+
 Scheduled for <span id="localdate" x-schedule="2021-06-01T16:00:00+03:00"></span>
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZYkfu6gqjMjGtNuexcUXrfB_yKDXm3x6u26">Register here</a>
