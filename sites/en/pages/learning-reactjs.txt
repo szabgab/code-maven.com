@@ -1,7 +1,6 @@
 =title Learning ReactJS in a live session
 =timestamp 2021-05-26T17:30:01
 =indexes ReactJS
-=description
 =tags screencast
 =status show
 =books reactjs
