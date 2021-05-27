@@ -124,16 +124,16 @@
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 5, "day" : 3, "hour" : 19, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/online-self-knowledge-workshop",
-        "url" : "https://code-maven.com/online-self-knowledge-workshop"
+        "location" : "https://code-maven.com/online-self-knowledge-workshop-1",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop-1"
     },
     {
         "summary" : "Workout-app with Rachel Normand",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 5, "day" : 4, "hour" : 9, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/workout-app",
-        "url" : "https://code-maven.com/workout-app"
+        "location" : "https://code-maven.com/workout-app-1",
+        "url" : "https://code-maven.com/workout-app-1"
     },
     {
         "summary" : "Mejorar una libreria de Perl con Juan J. Merelo (Spanish)",
@@ -156,16 +156,16 @@
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 5, "day" : 10, "hour" : 20, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/online-self-knowledge-workshop",
-        "url" : "https://code-maven.com/online-self-knowledge-workshop"
+        "location" : "https://code-maven.com/online-self-knowledge-workshop-2",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop-2"
     },
     {
         "summary" : "Workout-app with Rachel Normand",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 5, "day" : 11, "hour" : 9, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/workout-app",
-        "url" : "https://code-maven.com/workout-app"
+        "location" : "https://code-maven.com/workout-app-2",
+        "url" : "https://code-maven.com/workout-app-2"
     },
     {
         "summary" : "Mejorar una libreria de Perl con Juan J. Merelo (Spanish)",
@@ -188,8 +188,8 @@
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 5, "day" : 20, "hour" : 20, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/online-self-knowledge-workshop",
-        "url" : "https://code-maven.com/online-self-knowledge-workshop"
+        "location" : "https://code-maven.com/online-self-knowledge-workshop-3",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop-3"
     },
     {
         "summary": "Development with Shai Barger (Hebrew)",
@@ -214,5 +214,13 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://perlmaven.com/course-management-app-in-mojolicious",
         "url" : "https://perlmaven.com/course-management-app-in-mojolicious"
+    },
+    {
+        "summary" : "Application for organising online self knowledge workshops - development in JavaScript with Ivett Ordog",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 5, "day" : 26, "hour" : 19, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/online-self-knowledge-workshop-4",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop-4"
     }
 ]
