@@ -3,7 +3,7 @@
 =indexes live
 =tags screencast
 =status show
-=books nodejs
+=books reactjs
 =author szabgab
 =archive 1
 =comments_disqus_enable 0

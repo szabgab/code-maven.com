@@ -2,7 +2,7 @@
 =timestamp 2021-05-11T07:40:01
 =indexes live
 =status show
-=books nodejs
+=books reactjs
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
@@ -21,7 +21,7 @@ Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/chann
     <li><a href="/online-self-knowledge-workshop-1">Part 1</a></li>
     <li><a href="/online-self-knowledge-workshop-2">Part 2</a></li>
     <li><a href="/online-self-knowledge-workshop-3">Part 3</a></li>
-    <li><a href="/online-self-knowledge-workshop-4">Part 4</a></li>
+    <li><a href="/online-self-knowledge-workshop-4">Part 4 (Refactoring and Deployment)</a></li>
 </ul>
 
 

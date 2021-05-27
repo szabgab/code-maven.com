@@ -3,7 +3,7 @@
 =indexes live
 =tags screencast
 =status show
-=books nodejs
+=books reactjs
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
@@ -21,5 +21,8 @@ Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/chann
 <screencast file="development-with-ivett-ordog_2021_05_26_1922x1120.mp4" youtube="eNFYQZ9a2_A" />
 
 <ul>
+    <li><a href="https://aws.amazon.com/amplify/">AWS Amplify</a></li>
+    <li><a href="https://master.d5ibbnhxrpyii.amplifyapp.com/">Amplify generated URL</a></li>
+    <li><a href="https://identity.lgbt-quiz.net/">Identity LGBT Quiz</a></li>
     <li><a href="https://github.com/devill/selfknowledge">Source code</a></li>
 </ul>
