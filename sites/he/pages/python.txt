@@ -35,7 +35,7 @@
     <li>פונקציות</li>
     <li>מודולים</li>
     <li>אריזות</li>
-    <li><a href="https://he.code-maven.com/pro/python-what-are-regexes">ביטויים רגולרים</a></li>
+    <li><a href="/python-what-are-regexes">ביטויים רגולרים</a></li>
     <li>מודולים סטנדרטים</li>
     <li>ישון</li>
     <li>פרמטרים בשורת הפקודות</li>

@@ -135,7 +135,7 @@ python:
         - python-formatted-strings
     - title: ביטויים רגולרים
       sub:
-        - pro/python-what-are-regexes
+        - python-what-are-regexes
         - pro/python-regex-in-grep-and-notepadpp
         - pro/python-regex-first-match
         - pro/python-regex-capture

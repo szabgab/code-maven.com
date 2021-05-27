@@ -1,0 +1,17 @@
+=title מה זה ביטוי רגולרי בתיכנות?
+=timestamp 2021-05-27T08:01:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/regexes">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-what-are-regexes" youtube="DG2HYjZus7A" />
+
