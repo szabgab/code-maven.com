@@ -18,7 +18,7 @@ Calling the <hl>downcase</hl> or <hl>upcase</hl> method on a string will return 
 version of the string, but the original variable won't change.
 
 <code>
-name = 'Foo'
+name = 'Ruby'
 puts name           # Ruby
 puts name.downcase  # ruby
 puts name.upcase    # RUBY
