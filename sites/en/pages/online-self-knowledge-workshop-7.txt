@@ -1,0 +1,25 @@
+=title Developing an application for organising online self knowledge workshops - part 7
+=timestamp 2021-06-10T22:50:01
+=indexes live
+=tags screencast
+=status show
+=books reactjs
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this live coding session we are going to start the application with <a href="https://www.linkedin.com/in/ivett-%C3%B6rd%C3%B6g-03aa9035/">Ivett Ördög</a>.
+We are going to use <a href="https://reactjs.org/">ReactJS</a>.
+
+Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/channel/UCm27Xuroww1AxPdR3Zz_5jA">Cup of Code</a>.
+
+=abstract end
+
+<screencast file="development-with-ivett-ordog_2021_06_10_1920x1080.mp4" youtube="dpdiyy_at00" />
+
+<ul>
+    <li><a href="https://github.com/devill/selfknowledge">Source code</a></li>
+</ul>
