@@ -136,7 +136,7 @@ python:
     - title: ביטויים רגולרים
       sub:
         - python-what-are-regexes
-        - pro/python-regex-in-grep-and-notepadpp
+        - python-regex-in-grep-and-notepadpp
         - pro/python-regex-first-match
         - pro/python-regex-capture
         - pro/python-regex-findall
