@@ -137,7 +137,7 @@ python:
       sub:
         - python-what-are-regexes
         - python-regex-in-grep-and-notepadpp
-        - pro/python-regex-first-match
+        - python-regex-first-match
         - pro/python-regex-capture
         - pro/python-regex-findall
         - pro/python-regexes-any-character-class
