@@ -138,7 +138,7 @@ python:
         - python-what-are-regexes
         - python-regex-in-grep-and-notepadpp
         - python-regex-first-match
-        - pro/python-regex-capture
+        - python-regex-capture
         - pro/python-regex-findall
         - pro/python-regexes-any-character-class
         - pro/python-regexes-match-a-dot
