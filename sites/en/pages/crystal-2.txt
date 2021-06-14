@@ -1,0 +1,16 @@
+=title Crystal part 2 - puts, print, p!
+=timestamp 2021-06-14T08:30:01
+=indexes Crystal, puts, print, p!
+=tags screencast
+=status show
+=books crystal
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="learning-crystal-002.mp4" youtube="mSwmG8S0_Do" />
+

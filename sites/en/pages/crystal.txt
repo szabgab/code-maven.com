@@ -1,0 +1,27 @@
+=title Crystal
+=timestamp 2021-06-14T07:30:01
+=indexes Crystal
+=status show
+=books crystal
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://crystal-lang.org/">Crystal Language</a>
+<a href="/slides/crystal/">Crystal language slides</a>
+
+
+=abstract end
+
+<ul>
+    <li><a href="/crystal-1">Crystal part 1 - installation, Hello World!</a></li>
+    <li><a href="/crystal-2">Crystal part 2 - puts, print, p!, interpolation</a></li>
+</ul>
+
+<!--
+    <li><a href="/crystal-2">Crystal part 2 - </a></li>
+-->
+
