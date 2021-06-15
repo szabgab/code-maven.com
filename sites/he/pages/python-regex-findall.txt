@@ -1,0 +1,17 @@
+=title מציאת כל ההתאמות בביטוי רגולרי בפייתון
+=timestamp 2021-06-15T08:20:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/findall">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-regex-findall" youtube="KoSKDwKkHio" />
+

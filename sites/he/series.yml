@@ -139,7 +139,7 @@ python:
         - python-regex-in-grep-and-notepadpp
         - python-regex-first-match
         - python-regex-capture
-        - pro/python-regex-findall
+        - python-regex-findall
         - pro/python-regexes-any-character-class
         - pro/python-regexes-match-a-dot
         - pro/python-regexes-quantifiers
