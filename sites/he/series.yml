@@ -140,7 +140,7 @@ python:
         - python-regex-first-match
         - python-regex-capture
         - python-regex-findall
-        - pro/python-regexes-any-character-class
+        - python-regexes-any-character-class
         - pro/python-regexes-match-a-dot
         - pro/python-regexes-quantifiers
         - pro/python-regexes-greedy-minimal
