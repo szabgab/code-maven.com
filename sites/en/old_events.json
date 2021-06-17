@@ -254,5 +254,14 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://code-maven.com/online-self-knowledge-workshop-7",
         "url" : "https://code-maven.com/online-self-knowledge-workshop-7"
+    },
+    {
+        "summary" : "Application for organising online self knowledge workshops - development in ReactJS with Ivett Ordog",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 6, "day" : 16, "hour" : 18, "minute" : 30, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/online-self-knowledge-workshop-8",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop-8"
     }
+
 ]
