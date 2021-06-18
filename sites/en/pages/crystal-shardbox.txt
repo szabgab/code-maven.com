@@ -11,7 +11,8 @@
 
 =abstract start
 
-Live Crystal Shardbox development with Johannes Müller (straight.shoota)
+Live <a href="https://crystal-lang.org/">Crystal</a> <a href="https://shardbox.org/">Shardbox</a> development with
+<a href="https://www.linkedin.com/in/johannes-m%C3%BCller-b4929786/">Johannes Müller</a> (<a href="https://github.com/straight-shoota">straight.shoota</a>)
 
 =abstract end
 
