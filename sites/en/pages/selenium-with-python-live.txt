@@ -1,5 +1,5 @@
 =title Selenium with Python Live session with Ynon Perek
-=timestamp 2021-05-26T10:30:01
+=timestamp 2021-06-18T07:30:01
 =indexes Python, Selenium
 =tags screencast
 =status show
@@ -19,10 +19,16 @@ We are going to speak in English.
 
 =abstract end
 
+
+<screencast file="Selenium-Python-Ynon-Perek-2021-06-17_1920x1200.mp4" youtube="6tyfxZUpuDE" />
+
+<!--
+
 Scheduled for <span id="localdate" x-schedule="2021-06-17T10:00:00+03:00"></span>
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZIsd-uqpjgjE9cSp4O-dD-PSJAI3XV_YVuv">Register here</a>
 
 Check out all the other <a href="https://code-maven.com/live">live</a> events and the calendar where you'll be able to see the time given in your time-zone.
 
+-->
 
