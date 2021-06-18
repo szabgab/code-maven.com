@@ -1,0 +1,54 @@
+=title Build Docker image in GitLab CI/CD pipeline
+=timestamp 2021-06-18T07:30:01
+=indexes Docker, GitLab
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+When running a GitLab CI/CD pipeline you can use any public Docker image, but you can also build your own images and use them later on.
+In this article we'll see how to do that.
+
+Out of the several options we'll see setting up your own Runner and using Docker on it.
+
+=abstract end
+
+A Runner is any real or virtual box. (AFAIK it can be Linux, Windows, and Mac as well.) On this box there is a Docker container provided by GitLab
+that handles the runner. In a pipeline you can execute code directly on the runner, but in most cases it is better to use a Docker container on top
+of the Runner for your regular CI system.
+
+However when building a Docker image you will want to execute the docker commands directly on the Runner.
+
+First thing is to <a href="https://docs.gitlab.com/runner/install/">Install GitLab Runner</a>.
+
+I personally followed the instructions to <a href="https://about.gitlab.com/blog/2016/04/19/how-to-set-up-gitlab-runner-on-digitalocean/">Setup Docker Runner on Digital Ocean</a>
+
+Also see <a href="https://docs.gitlab.com/ee/ci/docker/using_docker_build.html">using docker build</a>.
+
+<h2>Register the runner and restart</h2>
+
+<code>
+gitlab-runner register -n --url https://gitlab.com/ --registration-token $TOKEN --executor shell --description "ShellRunner" --tag-list shellrunner
+gitlab-runner restart
+</code>
+
+
+Edit the following file and comment out everything
+
+<code>
+/home/gitlab-runner/.bash_logout
+</code>
+
+<a href="https://docs.gitlab.com/ee/user/packages/container_registry/">Container registry</a>
+
+
+<include file="examples/gitlab-docker/Dockerfile">
+
+<include file="examples/gitlab-docker/.gitlab-ci.yml">
+
+
+
+
