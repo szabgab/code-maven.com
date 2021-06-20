@@ -141,7 +141,7 @@ python:
         - python-regex-capture
         - python-regex-findall
         - python-regexes-any-character-class
-        - pro/python-regexes-match-a-dot
+        - python-regexes-match-a-dot
         - pro/python-regexes-quantifiers
         - pro/python-regexes-greedy-minimal
         - pro/python-regexes-anchors
