@@ -1,0 +1,33 @@
+=title Debug and Explore Python with PT Python
+=timestamp 2021-06-21T17:30:01
+=indexes ptpython
+=tags screencast
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Python has several interactive shells (aka. REPLs) that you can use to explore Python directly and you can also
+tell python that a certain point in your application it will enter the REPL and allow you to discover
+things from that point.
+
+<a href="https://github.com/prompt-toolkit/ptpython">ptpython</a> is such a REPL.
+
+
+=abstract end
+
+<code>
+pip install ptpython
+</code>
+
+Then I used the following code:
+
+<include file="examples/debug_with_ptpython.py">
+
+<img src="/img/debug-with-ptpython.gif" alt="Debug with PTPython" />
+
+
