@@ -142,7 +142,7 @@ python:
         - python-regex-findall
         - python-regexes-any-character-class
         - python-regexes-match-a-dot
-        - pro/python-regexes-quantifiers
+        - python-regexes-quantifiers
         - pro/python-regexes-greedy-minimal
         - pro/python-regexes-anchors
         - pro/python-regexes-isbn-numbers
