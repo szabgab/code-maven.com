@@ -8,7 +8,7 @@ function __set_my_prompt
    local BLACK="\033[0;30m"
 
    local git_modified_color="\[${GREEN}\]"
-   local git_status=$(git status | grep "Your branch is ahead" 2>/dev/null)
+   local git_status=$(git status 2>/dev/null | grep "Your branch is ahead" 2>/dev/null)
    if [ "$git_status" != "" ]
    then
        git_modified_color="\[${YELLOW}\]"
