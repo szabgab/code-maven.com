@@ -37,7 +37,7 @@ href="https://github.com/szabgab/pydigger.com/">README of the project</a>) Upasa
    <li><a href="https://youtu.be/gHXzNLx4oF4?t=2850">47:30 Looking at the GitHub Issues</a> Does the Python project use GitHub Actions?</li>
    <li><a href="https://youtu.be/gHXzNLx4oF4?t=3030">50:30 Trying to figure out the code finding the Travis-CI configuration file.</a></li>
    <li><a href="https://youtu.be/gHXzNLx4oF4?t=4010">1:06:50 Creating a GitHub Personal Access Token</a></li>
-   <li><a href="https://youtu.be/gHXzNLx4oF4?t=4310">1:11:50 Update the stast.html template</a></li>
+   <li><a href="https://youtu.be/gHXzNLx4oF4?t=4310">1:11:50 Update the stats.html template</a></li>
    <li><a href="https://youtu.be/gHXzNLx4oF4?t=5800">1:36:40 Make it easy to fetch a specific project (add the --url parameter)</a></li>
    <li><a href="https://youtu.be/gHXzNLx4oF4?t=8040">2:14:00 We are done! Some cleanup,git commit and git push. Sending a Pull Request</a></li>
 </ul>
