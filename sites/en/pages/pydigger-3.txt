@@ -1,5 +1,5 @@
-=title Working on PyDigger with Upasana Shukla
-=timestamp 2021-05-17T21:30:02
+=title Working on PyDigger with Upasana Shukla - part 3
+=timestamp 2021-06-20T21:30:02
 =indexes live, Python
 =tags screencast
 =status show
@@ -16,11 +16,6 @@ In this <a href="/live">live pair programming</a> session
 
 =abstract end
 
-
-Scheduled for <span id="localdate" x-schedule="2021-06-20T15:00:00+03:00"></span>
-
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZAodO-srDksG9UTK8huzyjSJ5B9Wuz3z0Th">Register here</a>
-
-Check out all the other <a href="https://code-maven.com/live">live</a> events and the calendar.
+<screencast file="pydigger-with-upasana-shukla-2021-06-20_1920x1080.mp4" youtube="uG6G92t7JV8" />
 
 

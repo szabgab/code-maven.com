@@ -8,14 +8,6 @@
         "url" : "https://code-maven.com/learning-reactjs"
     },
     {
-        "summary" : "Working on PyDigger with Upasana Shukla",
-        "description" : "",
-        "begin"    : { "year" : 2021, "month" : 6, "day" : 20, "hour" : 15, "time_zone"  : "+0300"},
-        "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/pydigger-3",
-        "url" : "https://code-maven.com/pydigger-3"
-    },
-    {
         "summary" : "Application for organising online self knowledge workshops - development in ReactJS with Ivett Ordog",
         "description" : "",
         "begin"    : { "year" : 2021, "month" : 6, "day" : 22, "hour" : 18, "minute" : 0, "time_zone"  : "+0300"},
@@ -30,5 +22,13 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://code-maven.com/crystal-shardbox",
         "url" : "https://code-maven.com/crystal-shardbox"
+    },
+    {
+        "summary" : "Working on PyDigger with Upasana Shukla",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 7, "day" : 25, "hour" : 15, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/pydigger",
+        "url" : "https://code-maven.com/pydigger"
     }
 ]
