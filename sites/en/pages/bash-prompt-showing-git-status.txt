@@ -1,0 +1,23 @@
+=title Bash prompt showing git status
+=timestamp 2021-06-21T09:30:01
+=indexes Bash, PS1
+=status show
+=books shell
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+This code snippet can be included un the ~/.bash_profile It will change the Linux shell prompt
+to indicate the name of the current branch (if the current working directory is inside a git repository).
+It will also use color-code to indicate if there are non-committed files in the current repository.
+
+Red for when there are non-committed files and green when the directory is clean.
+
+=abstract end
+
+<include file="examples/bash_git_prompt.sh">
+
+Feel free to reuse any part of this code.
