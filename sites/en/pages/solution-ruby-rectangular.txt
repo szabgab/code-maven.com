@@ -1,19 +1,22 @@
-=title Solution: rectangular in Ruby (Standard IO)
-=timestamp 2015-03-12T11:01:39
-=indexes exercise
-=status draft
-=books beginner_video
+=title Solution: rectangle in Ruby (CLI and STDIN = Standard IO)
+=timestamp 2021-06-21T12:01:39
+=indexes exercise, ARGV, to_f, gets, strip
+=status show
 =author szabgab
+=archive 1
 =comments_disqus_enable 0
+=show_related 1
 
 =abstract start
 
-Exercise: rectangular
+Exercise: rectangle
 
 =abstract end
 
 
-<include file="examples/ruby/add_numbers.rb">
+<include file="examples/ruby/rectangle.rb">
 
-<include file="">
+<include file="examples/ruby/rectangle_cli.rb">
+
+<include file="examples/ruby/rectangle_stdin.rb">
 
