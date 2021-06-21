@@ -19,7 +19,7 @@ function __set_my_prompt
        git_modified_color="\[${RED}\]"
    fi
 
-   local git_branch=$(git branch 2>/dev/null | sed 's/^..//')
+   local git_branch=$(git branch --show-current 2>/dev/null)
    if [ "$git_branch" != "" ];
    then
       git_branch="($git_modified_color$git_branch\[${BLACK}\]) "
