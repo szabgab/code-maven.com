@@ -143,7 +143,7 @@ python:
         - python-regexes-any-character-class
         - python-regexes-match-a-dot
         - python-regexes-quantifiers
-        - pro/python-regexes-greedy-minimal
+        - python-regexes-greedy-minimal
         - pro/python-regexes-anchors
         - pro/python-regexes-isbn-numbers
         - pro/python-regexes-match-section
