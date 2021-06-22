@@ -18,3 +18,30 @@ In this <a href="/live">live pair programming</a> session
 
 <screencast file="pydigger-with-upasana-shukla-2021-05-23_1920x1080.mp4" youtube="X5xqXwhaASg" />
 
+<ul>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=0">0:00 Hello, showing dev.pydigger.com that was a temporary place for the Docker based setup.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=110">1:50 Docker compose</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=240">4:00 Issues. Explaining flake8 and mypy.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=385">6:25 Decide on Driver-Navigator again; Setting up the Python virtual environment again.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=608">10:08 Looking at the the CI (GitHub Actions) to see how we run the tests</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=720">12:00 Running the tests with the flake8 flag and running through the issues.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=1020">17:00 Using a variable that does not exist. Digging through git history understanding what we did last time.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=1470">24:30 Development configuration (dev.yml)</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=1845">30:45 Using <b>git stash</b> and then <b>git checkout</b> older version to find how we broke the code.</a> Upasana showing her total control of git.</li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=2406">40:06 We found the bug. Now let's check it and the clean up more of the issues reported by flake8.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=2850">47:30 Add flake8 testing to the CI system as well.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=2940">49:00 Looking at the flake8 configuration in setup.cfg and explaining about them.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=3044">50:44 How Gabor likes to indent code</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=3310">55:10 Explain about sys.path</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=3675">1:01:15 The stats page is broken. Explaining why.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=3748">1:02:28 Buy my books and support my work!</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=3855">1:04:15 Getting back to the flake8 ticket collecting this information about all the projects.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=4060">1:07:40 Telling about the idea of showing the images (gravatars) of all the authors of the packages.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=4270">1:11:10 Flake8 it is</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=4340">1:12:20 Explaining __name__ == '__main__'</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=4610">1:16:50 Adding logging</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=5780">1:36:20 Now that we know how to use the myflake8 module we can start thinking how to run it on the source code of other projects.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=5850">1:37:30 Download a zip file using requests to a temporary directory and then unzip it.</a></li>
+    <li><a href="https://youtu.be/X5xqXwhaASg?t=6990">1:56:30 Wrapping up</a></li>
+</ul>
+
