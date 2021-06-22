@@ -18,4 +18,30 @@ In this <a href="/live">live pair programming</a> session
 
 <screencast file="pydigger-with-upasana-shukla-2021-06-20_1920x1080.mp4" youtube="uG6G92t7JV8" />
 
+The source code of the <a href="https://code-maven.com/slides/python/cwd-context-manager">cwd context manager</a>.
+
+<a href="https://stackoverflow.com/questions/16492891/mongodb-aggregation-get-counts-of-key-value-pairs">MongoDB aggregation get counts of key value pairs</a>
+
+<ul>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=0">0:00 Hello - Our code is now deployed!</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=110">1:50 Updating the local Git of Upasana and trying to remember what we did last time.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=480">8:00 Discussing the new and proper way of using Docker-compose override.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=1010">16:50 Get inside the docker container (exec) to run our program.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=1200">20:00 Trying to understand why config.yml is needed and why is it missing.</a> <a href="https://github.com/szabgab/pydigger.com/issues/50">#50</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=1570">26:10 After fixing that we encounter the missing dev.yml. Because we change directory in the process and don't change it back.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=1630">27:10 Explaining about context managers in Python, creating one for chdir.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=2235">37:15 Remove the temporary directory when we are done with it using a context manager.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=2790">46:30 Let's figure out why the --url parameter did not have the expected impact and how to run the fetch.py properly. Let's also update the README file.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=3000">50:00 Start collecting the flake8 results</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=3300">55:00 Trying to figure out why the flake8 code does not get executed.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=3750">1:02:30 Add the --package command line option</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=4190">1:09:50 Finally we have Flake8 results!</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=4370">1:12:50 Adding the Flake8 results to the datastructure and store it in MongoDB.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=4575">1:16:15 Trying to run mongo, the MongoDB client inside the container.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=5070">1:24:30 Deleting (dropping) the MongoDB database</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=5150">1:25:50 Describing this in the README</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=5280">1:28:00 Start looking at the web page to see the newly collected Flake8 report.</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=5820">1:37:00 Trying to figure out the right MongoDB query</a></li>
+    <li><a href="https://youtu.be/uG6G92t7JV8?t=6900">1:55:00 Cleaning up making sure tests are passing and the previous code still works.</a></li>
+</ul>
 
