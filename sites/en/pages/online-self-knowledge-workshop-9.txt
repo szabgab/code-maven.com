@@ -1,5 +1,5 @@
-=title Developing an application for organising online self knowledge workshops - part 8
-=timestamp 2021-06-16T22:50:01
+=title Developing an application for organising online self knowledge workshops - part 9
+=timestamp 2021-06-23T07:00:01
 =indexes live
 =tags screencast
 =status show
@@ -18,7 +18,7 @@ Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/chann
 
 =abstract end
 
-<screencast file="development-with-ivett-ordog_2021_06_16_1922x1120.mp4" youtube="iOrJcJberxY" />
+<screencast file="development-with-ivett-ordog_2021_06_22_1922x1120.mp4" youtube="ZOjzbVoH-Kg" />
 
 <ul>
     <li><a href="https://github.com/devill/selfknowledge">Source code</a></li>

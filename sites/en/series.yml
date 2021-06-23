@@ -604,7 +604,7 @@ python-functional-programming:
         - pro/python-functional-programming-zip
 online-self-knowledge-workshop:
   chapters:
-    - title: Live
+    - title: Self knowledge workshop in ReactJS
       sub:
         - online-self-knowledge-workshop-1
         - online-self-knowledge-workshop-2
@@ -614,15 +614,16 @@ online-self-knowledge-workshop:
         - online-self-knowledge-workshop-6
         - online-self-knowledge-workshop-7
         - online-self-knowledge-workshop-8
+        - online-self-knowledge-workshop-9
 workout-app:
   chapters:
-    - title: Live
+    - title: Workout Application in ReactJS and Python
       sub:
         - workout-app-1
         - workout-app-2
 pydigger:
   chapters:
-    - title: Live
+    - title: PyDigger in Python
       sub:
         - pydigger-1
         - pydigger-2

@@ -26,9 +26,10 @@ Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/chann
     <li><a href="/online-self-knowledge-workshop-6">Part 6</a></li>
     <li><a href="/online-self-knowledge-workshop-7">Part 7</a></li>
     <li><a href="/online-self-knowledge-workshop-8">Part 8</a></li>
+    <li><a href="/online-self-knowledge-workshop-9">Part 9</a></li>
 </ul>
 
-
+<!--
 Next session:
 
 Scheduled for <span id="localdate" x-schedule="2021-06-22T18:00:00+03:00"></span>
@@ -37,4 +38,5 @@ Also see our <a href="/live">calendar</a>.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZUqdeChqz8vE9wqUBKXqS526bJjdPU3ihbV">Register here</a>
 
+-->
 
