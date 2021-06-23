@@ -18,6 +18,31 @@ Live <a href="https://crystal-lang.org/">Crystal</a> <a href="https://shardbox.o
 
 <screencast file="crystal-shardbox-with-johannes-muller-2021-06-23.mp4" youtube="hlC88df4qqM" />
 
+<a href="https://manas.tech/">Manas Tech</a>
+
+<ul>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=0">0:00 Welcome, a bit of background.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=70">1:10 Johannes introduces himself.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=210">3:30 Gabor introduces himself.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=360">6:00 Gabor is trying to explain what does Shardbox do.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=840">14:00 Explaining the Shardbox catalog.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=1255">20:55 Explaining the Shardbox core.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=1320">22:00 Schema overview</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=2370">39:30 Explaining about the code of Shardbox core</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=2905">48:25 Setting up the development environment - PostgreSQL in Docker</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=3590">58:50 Install Crystal dependencies for the Shardbox core (till 1:14:30)</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=4580">1:16:20 Build the worker</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=4960">1:22:40 Start setting up the Shardbox web application</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=5355">1:29:15 We have Shardbox running on my computer!</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=5630">1:33:50 Change the Jinja templates to add links to the licenses</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=5805">1:36:45 Change the search route to accept the new parameter</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=7020">1:57:00 Showing the query on the search result page</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=7380">2:03:00 Commit the changes, send pull-request.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=7750">2:09:10 Plans for Shardbox</a></li>
+</ul>
+
+
+
 Schema overview is in this file: db/schema-overview.svg in the <a href="https://github.com/shardbox/shardbox-core">shardbox-core repository</a>.
 
 The <b>catalog</b> directory in the <a href="https://github.com/shardbox/catalog">catalog</a> repository contains the manually mapped shards.
@@ -42,8 +67,6 @@ In the container:
 cd /opt
 apt-get update
 apt-get install make
-make
-make db
 PGUSER=postgres TEST_DATABASE_URL=postgres://postgres:Secret@localhost/shardbox_test make test_db
 </code>
 
@@ -67,26 +90,34 @@ Get the IP address of the Docker container:
 docker inspect shardbox
 </code>
 
+Use that IP address in the following commands:
+
 We checked if we can access the database using psql:
 
 <code>
 psql postgres://postgres:Secret@172.17.0.2/shardbox_test
 </code>
 
-Running the tests in shardbox-core:
+Running the tests of shardbox-core:
 
 <code>
 export TEST_DATABASE_URL=postgres://postgres:Secret@172.17.0.2/shardbox_test
-SHARDS_OPTS=--ignore-crystal-version make test
+export SHARDS_OPTS=--ignore-crystal-version
+# make test # this did not work
 crystal spec
 </code>
 
+
+Build the worker
+
+<code>
+make build
+</code>
 
 Setting up for development database:
 
 <code>
 export DATABASE_URL=postgres://postgres:Secret@172.17.0.2/shardbox_test
-make build
 </code>
 
 Create a <a href="https://github.com/settings/tokens">Personal access token</a> with a name that you can easily recognize, e.g. "Shardbox Development Token" using the following rights:
