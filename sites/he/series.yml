@@ -144,7 +144,7 @@ python:
         - python-regexes-match-a-dot
         - python-regexes-quantifiers
         - python-regexes-greedy-minimal
-        - pro/python-regexes-anchors
+        - python-regexes-anchors
         - pro/python-regexes-isbn-numbers
         - pro/python-regexes-match-section
         - pro/python-regexes-alternatives
