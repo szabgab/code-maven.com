@@ -1,0 +1,24 @@
+=title Web Application development in Laravel with Natalie O'Brien
+=timestamp 2021-06-23T07:40:01
+=indexes live
+=status show
+=books reactjs
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this live coding session we are working on an application with <a href="https://www.linkedin.com/in/natalie-o-brien-680366/">Natalie O'Brien</a>
+who runs <a href="https://www.nobitsolutions.com/">NOB IT Solutions</a>. (<a href="https://github.com/natalie0b">GitHub</a>)
+We are using the <a href="https://laravel.com/">Laravel</a> framework written in <a href="/php">PHP</a>.
+
+=abstract end
+
+Scheduled for <span id="localdate" x-schedule="2021-06-28T16:00:00+03:00"></span>
+
+Also see our <a href="/live">calendar</a>.
+
+<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZ0tf-GtpjojGNM8qiq9L0hySoZnLzAFulsu">Register here</a>
+
