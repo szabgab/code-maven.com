@@ -14,15 +14,15 @@
 Live <a href="https://crystal-lang.org/">Crystal</a> <a href="https://shardbox.org/">Shardbox</a> development with
 <a href="https://www.linkedin.com/in/johannes-m%C3%BCller-b4929786/">Johannes Müller</a> (<a href="https://github.com/straight-shoota">straight-shoota</a>)
 
+The resulting <a href="https://github.com/shardbox/shardbox-web/pull/9">Pull Request</a>
+
 =abstract end
 
 <screencast file="crystal-shardbox-with-johannes-muller-2021-06-23.mp4" youtube="hlC88df4qqM" />
 
-<a href="https://manas.tech/">Manas Tech</a>
-
 <ul>
     <li><a href="https://youtu.be/hlC88df4qqM?t=0">0:00 Welcome, a bit of background.</a></li>
-    <li><a href="https://youtu.be/hlC88df4qqM?t=70">1:10 Johannes introduces himself.</a></li>
+    <li><a href="https://youtu.be/hlC88df4qqM?t=70">1:10 Johannes introduces himself.</a> he works at <a href="https://manas.tech/">Manas Tech</a></li>
     <li><a href="https://youtu.be/hlC88df4qqM?t=210">3:30 Gabor introduces himself.</a></li>
     <li><a href="https://youtu.be/hlC88df4qqM?t=360">6:00 Gabor is trying to explain what does Shardbox do.</a></li>
     <li><a href="https://youtu.be/hlC88df4qqM?t=840">14:00 Explaining the Shardbox catalog.</a></li>
