@@ -32,6 +32,13 @@ installed recursively. Not only that, but if enabled they can also send the resu
 called <a href="http://www.cpantesters.org/">CPAN Testers</a> where both the author and other users can see the results
 and can inspect the failures if necessary.
 
+This system was invaluable before the introduction of the various cloud-based CI services, but even today it provieds a lot of value.
+It's data is integrated into <a href="https://metacpan.org/">Meta CPAN</a>, the site where people locate 3rd party Perl packages.
+One can easily see the ratio of success and failure reports.
+
+If the current version of the package does not work on your system you can easily locate a version of the package that had passing reports
+and you can switch to that version while waiting for a bug-fix to arrive.
+
 I think this is an awesome feature of the Perl ecosystem that I wish other languages have also adopted.
 
 <h2>Speed</h2>
