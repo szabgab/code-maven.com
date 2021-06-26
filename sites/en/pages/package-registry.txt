@@ -27,7 +27,7 @@ Here I tried to replicate and extend that list.
 
 <ul>
     <li>Closure <a href="https://clojars.org/">Clojars</a></li>
-    <li>Crystal <a href="https://crystalshards.xyz">CrystalShards</a></li>
+    <li>Crystal <a href="https://crystalshards.xyz">CrystalShards</a> and <a href="https://shardbox.org/">Shardbox</a></li>
     <li>C# .NET <a href="https://www.nuget.org/">NuGet</a> the package manager for .NET.</li>
     <li>D lang <a href="https://code.dlang.org/">DUB</a> the D package registry</li>
     <li>Erlang / Elixir<a href="https://hex.pm/">Hex.pm</a> The package manager for the Erlang ecosystem</li>
