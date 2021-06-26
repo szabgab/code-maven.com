@@ -1,0 +1,60 @@
+=title Binary Palindrom - Crystal
+=timestamp 2021-06-26T12:30:01
+=indexes Crystal
+=status show
+=books crystal
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+A Binary Palindrom is a positive integer for which the binary representation is a palindrom.
+See the <a href="https://perlweeklychallenge.org/blog/perl-weekly-challenge-118/">Weekly challange</a>.
+
+This is a solution in <a href="/crystal">
+
+=abstract end
+
+<h2>Directory layout</h2>
+
+<code>
+.
+├── spec
+│   └── palindrome_spec.cr
+└── src
+    └── palindrome.cr
+</code>
+
+<h2>Implementation</h2>
+
+<include file="examples/crystal/binary_palindrome/src/palindrome.cr">
+
+In Crystal you can have <b>?</b> as the last character of a function name.
+It is often used for functions that return a boolean value.
+
+The original requets was for returning 1 and 0, but most likely it was defined that way
+because Perl does not have a special boolean type. In the Crystal solution I opted to return <b>true</b> or <b>false</b>
+respectively as that's the right way to do it in Crystal.
+
+Functions in Crystal return the value of the last statement so the <b>return</b> keyword is optional, but I prefer to have it explicitely.
+
+Extra: If the function is called with a negative value an ArgumentError exception is raised.
+
+<h2>Spec tests</h2>
+
+I also included a test script.
+
+<include file="examples/crystal/binary_palindrome/spec/palindrome_spec.cr">
+
+In order to run the tests <a href="https://crystal-lang.org/">install Crystal</a>,
+re-created the directory layout with the two files.
+(You can clone <a href="https://github.com/szabgab/code-maven.com/">the repository</a> and cd to <b>examples/crystal/binary_palindrome/</b>)
+Then  run
+
+<code>
+crystal spec
+</code>
+
+

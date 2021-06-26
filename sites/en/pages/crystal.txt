@@ -16,9 +16,17 @@
 
 =abstract end
 
+<h2>Learning Crystal</h2>
+
 <ul>
     <li><a href="/crystal-1">Crystal part 1 - installation, Hello World!</a></li>
     <li><a href="/crystal-2">Crystal part 2 - puts, print, p!, interpolation</a></li>
+</ul>
+
+<h2>Other</h2>
+<ul>
+    <li><a href="/crystal-shardbox">Crystal Shardbox live pair programming</a></li>
+    <li><a href="/crystal-binary-palindrom">Binary Palindrom in Crystal</a></li>
 </ul>
 
 <!--
