@@ -171,6 +171,11 @@ Run the web application
 ./bin/app
 </code>
 
+Format the source code:
+
+<code>
+crystal tool format
+</code>
 
 
 <!--
