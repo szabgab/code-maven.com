@@ -1,0 +1,17 @@
+=title מספרי ISBN בפייתון
+=timestamp 2021-06-27T09:10:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/matching-isbn">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-regexes-isbn-numbers" youtube="Uvd85xfIvaU" />
+

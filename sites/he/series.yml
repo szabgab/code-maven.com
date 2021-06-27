@@ -145,7 +145,7 @@ python:
         - python-regexes-quantifiers
         - python-regexes-greedy-minimal
         - python-regexes-anchors
-        - pro/python-regexes-isbn-numbers
+        - python-regexes-isbn-numbers
         - pro/python-regexes-match-section
         - pro/python-regexes-alternatives
         - pro/python-regexes-internal-variables
