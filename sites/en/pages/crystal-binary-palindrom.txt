@@ -11,7 +11,7 @@
 =abstract start
 
 A Binary Palindrom is a positive integer for which the binary representation is a palindrom.
-See the <a href="https://perlweeklychallenge.org/blog/perl-weekly-challenge-118/">Weekly challange</a>.
+See the <a href="https://theweeklychallenge.org/blog/perl-weekly-challenge-118/">Weekly challange</a>.
 
 This is a solution in the <a href="/crystal">Crystal programming language</a>.
 
