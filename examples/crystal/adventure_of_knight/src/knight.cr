@@ -50,7 +50,40 @@ class Board
     return true
   end
 
+  def moves(loc : Location)
+    possible_moves = [
+      Location.new(loc.x + 2, loc.y + 1),
+      Location.new(loc.x + 2, loc.y - 1),
+      Location.new(loc.x - 2, loc.y + 1),
+      Location.new(loc.x - 2, loc.y - 1),
+      Location.new(loc.x + 1, loc.y + 2),
+      Location.new(loc.x + 1, loc.y - 2),
+      Location.new(loc.x - 1, loc.y - 2),
+      Location.new(loc.x - 1, loc.y + 2),
+    ].reject do |loc| !on_board?(loc) end
+  end
 end
+#a1
+#c2
+#a3
+#c4
+#b2
+#a4
+#c3
+#a2
+#c1
+#
+#23444432
+#34666643
+#46888864
+#46888864
+#46888864
+#46888864
+#34666643
+#23444432
+
+
+
 
 
 #treasures = [
@@ -60,12 +93,6 @@ end
 start_here = {"a", 8}
 #p! typeof(start)     # Tuple(String, Int32)
 #p! typeof(treasures) # Array(Tuple(String, Int32))
-
-def moves(location, board)
-  x = location[0].bytes[0]-64
-  y = location[1]
-  return [] of String
-end
 
 
 class Knight
