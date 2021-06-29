@@ -146,7 +146,7 @@ python:
         - python-regexes-greedy-minimal
         - python-regexes-anchors
         - python-regexes-isbn-numbers
-        - pro/python-regexes-match-section
+        - python-regexes-match-section
         - pro/python-regexes-alternatives
         - pro/python-regexes-internal-variables
         - pro/python-regexes-dna
