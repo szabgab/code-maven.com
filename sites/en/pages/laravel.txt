@@ -16,7 +16,7 @@ We are using the <a href="https://laravel.com/">Laravel</a> framework written in
 
 =abstract end
 
-Scheduled for <span id="localdate" x-schedule="2021-06-28T16:00:00+03:00"></span>
+Scheduled for <span id="localdate" x-schedule="2021-07-06T16:00:00+03:00"></span>
 
 Also see our <a href="/live">calendar</a>.
 
