@@ -147,7 +147,7 @@ python:
         - python-regexes-anchors
         - python-regexes-isbn-numbers
         - python-regexes-match-section
-        - pro/python-regexes-alternatives
+        - python-regexes-alternatives
         - pro/python-regexes-internal-variables
         - pro/python-regexes-dna
         - pro/python-regexes-substitution

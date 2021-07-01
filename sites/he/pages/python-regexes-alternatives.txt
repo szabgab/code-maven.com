@@ -1,0 +1,17 @@
+=title התאמת חלופות בביטוים רגולרים בפייתון
+=timestamp 2021-07-01T06:07:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/regex-alternatives">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-regexes-alternatives" youtube="zpLPaBWrucY" />
+
