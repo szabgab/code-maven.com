@@ -28,6 +28,7 @@
     <li><a href="/crystal-shardbox">Crystal Shardbox live pair programming</a></li>
     <li><a href="/crystal-binary-palindrom">Binary Palindrom in Crystal</a></li>
     <li><a href="/crystal-swap-nibbles">Swap Nibbles Crystal</a></li>
+    <li><a href="/crystal-sequence-without-1-on-1">Sequence without 1-on-1 in Crystal</a></li>
 </ul>
 
 <!--
