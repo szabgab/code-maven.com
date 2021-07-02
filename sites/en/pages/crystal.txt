@@ -27,6 +27,7 @@
 <ul>
     <li><a href="/crystal-shardbox">Crystal Shardbox live pair programming</a></li>
     <li><a href="/crystal-binary-palindrom">Binary Palindrom in Crystal</a></li>
+    <li><a href="/crystal-swap-nibbles">Swap Nibbles Crystal</a></li>
 </ul>
 
 <!--
