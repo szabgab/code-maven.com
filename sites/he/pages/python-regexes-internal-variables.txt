@@ -1,0 +1,17 @@
+=title משתנים פנימיים של ביטויים רגולרים בפייתון
+=timestamp 2021-07-02T10:03:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/internal-variables">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-regexes-internal-variables" youtube="vil5AO6vjhQ" />
+
