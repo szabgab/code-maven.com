@@ -16,6 +16,11 @@
 
 =abstract end
 
+<h2>Crystal Course</h2>
+<ul>
+    <li><a href="/crystal-course">Crystal course</a></li>
+</ul>
+
 <h2>Learning Crystal</h2>
 
 <ul>
