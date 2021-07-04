@@ -149,7 +149,7 @@ python:
         - python-regexes-match-section
         - python-regexes-alternatives
         - python-regexes-internal-variables
-        - pro/python-regexes-dna
+        - python-regexes-dna
         - pro/python-regexes-substitution
     - title: שגיאות
       sub:

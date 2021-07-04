@@ -1,0 +1,17 @@
+=title ביטויים רגולרים ודנא בפייתון
+=timestamp 2021-07-04T04:02:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/regex-dna">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-regexes-dna" youtube="BaTA9yfXh_8" />
+
