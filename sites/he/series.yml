@@ -150,7 +150,7 @@ python:
         - python-regexes-alternatives
         - python-regexes-internal-variables
         - python-regexes-dna
-        - pro/python-regexes-substitution
+        - python-regexes-substitution
     - title: שגיאות
       sub:
         - pro/python-exception-handling-hierarchy-of-calls
