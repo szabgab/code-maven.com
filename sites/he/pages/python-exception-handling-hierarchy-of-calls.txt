@@ -1,0 +1,17 @@
+=title היררכיה של קריאות לפונקציות ותפיסת שגיאות
+=timestamp 2021-07-07T06:01:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/hierarchy-of-calls">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-exception-handling-hierarchy-of-calls" youtube="m9smA8lU2u4" />
+

@@ -153,7 +153,7 @@ python:
         - python-regexes-substitution
     - title: שגיאות
       sub:
-        - pro/python-exception-handling-hierarchy-of-calls
+        - python-exception-handling-hierarchy-of-calls
         - pro/python-catching-simple-exception
         - pro/python-catching-exception-when-processing-files
         - pro/python-catch-all-exceptions

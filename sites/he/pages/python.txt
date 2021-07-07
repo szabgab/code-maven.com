@@ -39,7 +39,7 @@
     <li>מודולים סטנדרטים</li>
     <li>ישון</li>
     <li>פרמטרים בשורת הפקודות</li>
-    <li><a href="/pro/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
+    <li><a href="/python-exception-handling-hierarchy-of-calls">שגיאות</a></li>
     <li><a href="/pro/python-oop-what-is-oop">תיכנות מונחה עצמים</a></li>
     <li><a href="https://code-maven.com/slides/python/exercise-oop-move">תרגילי תכנות מונחה עצמים</a></li>
 </ul>
