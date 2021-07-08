@@ -154,7 +154,7 @@ python:
     - title: שגיאות
       sub:
         - python-exception-handling-hierarchy-of-calls
-        - pro/python-catching-simple-exception
+        - python-catching-simple-exception
         - pro/python-catching-exception-when-processing-files
         - pro/python-catch-all-exceptions
         - pro/python-raise-exception

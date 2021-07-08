@@ -1,0 +1,17 @@
+=title לתפוס שגיאות פשוטות בפייתון
+=timestamp 2021-07-08T07:02:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/a-simple-exception">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-catching-simple-exception" youtube="RmtYZ4MEVnM" />
+
