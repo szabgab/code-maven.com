@@ -155,7 +155,7 @@ python:
       sub:
         - python-exception-handling-hierarchy-of-calls
         - python-catching-simple-exception
-        - pro/python-catching-exception-when-processing-files
+        - python-catching-exception-when-processing-files
         - pro/python-catch-all-exceptions
         - pro/python-raise-exception
         - pro/python-exceptions-exercises
