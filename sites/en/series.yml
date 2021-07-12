@@ -634,4 +634,8 @@ crystal:
       sub:
         - crystal-1
         - crystal-2
+    - title: Crystal Course
+      sub:
+        - crystal-course
+        - crystal-course-1
 
