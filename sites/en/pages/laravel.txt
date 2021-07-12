@@ -25,3 +25,11 @@ Also see our <a href="/live">calendar</a>.
 
 <a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZ0tf-GtpjojGNM8qiq9L0hySoZnLzAFulsu">Register here</a>
 -->
+
+<ul>
+  <li><a href="https://laravel.com/docs/8.x">Laravel</a></li>
+  <li><a href="https://github.com/natalie0b/service-desk-project">service desk project on GitHub</a></li>
+  <li><a href="https://www.apachefriends.org/">Apache Friends</a></li>
+  <li><a href="https://getcomposer.org/">Getcomposer</a></li>
+  <li><a href="https://hub.docker.com/r/bitnami/laravel">Bitnami</a></li>
+</ul>
