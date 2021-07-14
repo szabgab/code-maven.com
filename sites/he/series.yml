@@ -156,7 +156,7 @@ python:
         - python-exception-handling-hierarchy-of-calls
         - python-catching-simple-exception
         - python-catching-exception-when-processing-files
-        - pro/python-catch-all-exceptions
+        - python-catch-all-exceptions
         - pro/python-raise-exception
         - pro/python-exceptions-exercises
     - title: תיכנות מונחה עצמים
