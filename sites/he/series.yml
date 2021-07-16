@@ -157,7 +157,7 @@ python:
         - python-catching-simple-exception
         - python-catching-exception-when-processing-files
         - python-catch-all-exceptions
-        - pro/python-raise-exception
+        - python-raise-exception
         - pro/python-exceptions-exercises
     - title: תיכנות מונחה עצמים
       sub:

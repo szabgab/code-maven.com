@@ -1,0 +1,17 @@
+=title לזרוק שגיאה בפייתון
+=timestamp 2021-07-16T07:03:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/raise-an-exception">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-raise-exception" youtube="t6Yr3ZppbYU" />
+
