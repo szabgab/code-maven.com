@@ -158,7 +158,7 @@ python:
         - python-catching-exception-when-processing-files
         - python-catch-all-exceptions
         - python-raise-exception
-        - pro/python-exceptions-exercises
+        - python-exceptions-exercises
     - title: תיכנות מונחה עצמים
       sub:
         - pro/python-oop-what-is-oop
