@@ -161,7 +161,7 @@ python:
         - python-exceptions-exercises
     - title: תיכנות מונחה עצמים
       sub:
-        - pro/python-oop-what-is-oop
+        - python-oop-what-is-oop
         - pro/python-oop-in-python
         - pro/python-oop-create-a-class
         - pro/python-oop-attributes-and-methods
