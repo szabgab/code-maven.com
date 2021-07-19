@@ -162,7 +162,7 @@ python:
     - title: תיכנות מונחה עצמים
       sub:
         - python-oop-what-is-oop
-        - pro/python-oop-in-python
+        - python-oop-in-python
         - pro/python-oop-create-a-class
         - pro/python-oop-attributes-and-methods
         - pro/python-oop-inheritance
