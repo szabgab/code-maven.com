@@ -163,7 +163,7 @@ python:
       sub:
         - python-oop-what-is-oop
         - python-oop-in-python
-        - pro/python-oop-create-a-class
+        - python-oop-create-a-class
         - pro/python-oop-attributes-and-methods
         - pro/python-oop-inheritance
         - pro/python-oop-modes-of-method-inheritance
