@@ -43,9 +43,18 @@ Also see <a href="https://docs.gitlab.com/ee/ci/docker/using_docker_build.html">
 <h2>Register the runner and restart</h2>
 
 <code>
-sudo gitlab-runner register -n --url https://gitlab.com/ --registration-token $TOKEN --executor shell --description "ShellRunner" --tag-list shellrunner
+sudo gitlab-runner register -n --url https://gitlab.com/ --registration-token $TOKEN --executor shell --description "ShellRunner" --tag-list shell-runner
 sudo gitlab-runner restart
 </code>
+
+In order to run the CI jobs in a Docker container we will need another runner:
+
+<code>
+sudo gitlab-runner register -n --url https://gitlab.com/ --registration-token $TOKEN --executor docker --description "Docker Runner" --tag-list docker-runner
+sudo gitlab-runner restart
+</code>
+
+
 
 Edit the following file and comment out everything
 
