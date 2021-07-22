@@ -165,7 +165,7 @@ python:
         - python-oop-in-python
         - python-oop-create-a-class
         - python-oop-attributes-and-methods
-        - pro/python-oop-inheritance
+        - python-oop-inheritance
         - pro/python-oop-modes-of-method-inheritance
 python-testing:
   chapters:

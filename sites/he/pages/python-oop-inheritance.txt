@@ -1,0 +1,17 @@
+=title ירושה בפייתון
+=timestamp 2021-07-22T07:02:01
+=indexes Python
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<ul>
+    <li><a href="https://code-maven.com/slides/python-programming/inheritance">slides</a></li>
+</ul>
+
+<screencast file="hebrew-python-oop-inheritance" youtube="zqxRbXZqBPU" />
+
