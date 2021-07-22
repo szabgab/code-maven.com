@@ -166,7 +166,7 @@ python:
         - python-oop-create-a-class
         - python-oop-attributes-and-methods
         - python-oop-inheritance
-        - pro/python-oop-modes-of-method-inheritance
+        - python-oop-modes-of-method-inheritance
 python-testing:
   chapters:
     - title: טסטינג בפייתון
