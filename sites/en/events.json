@@ -8,17 +8,9 @@
         "url" : "https://code-maven.com/learning-reactjs"
     },
     {
-        "summary" : "Learning the Crystal programming language",
-        "description" : "",
-        "begin"    : { "year" : 2021, "month" : 7, "day" : 12, "hour" : 18, "minute" : 0, "time_zone"  : "+0300"},
-        "duration" : { "hours" : 2, "minutes" : 0 },
-        "location" : "https://code-maven.com/crystal-course",
-        "url" : "https://code-maven.com/crystal-course"
-    },
-    {
         "summary" : "Working on PyDigger with Upasana Shukla",
         "description" : "",
-        "begin"    : { "year" : 2021, "month" : 7, "day" : 25, "hour" : 15, "time_zone"  : "+0300"},
+        "begin"    : { "year" : 2021, "month" : 8, "day" : 29, "hour" : 15, "time_zone"  : "+0300"},
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://code-maven.com/pydigger",
         "url" : "https://code-maven.com/pydigger"

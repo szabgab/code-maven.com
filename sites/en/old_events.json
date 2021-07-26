@@ -302,5 +302,21 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://code-maven.com/laravel",
         "url" : "https://code-maven.com/laravel"
+    },
+    {
+        "summary" : "Learning the Crystal programming language",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 7, "day" : 12, "hour" : 18, "minute" : 0, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/crystal-course-1",
+        "url" : "https://code-maven.com/crystal-course-1"
+    },
+    {
+        "summary" : "Working on PyDigger with Upasana Shukla - 4",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 7, "day" : 25, "hour" : 15, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/pydigger-4",
+        "url" : "https://code-maven.com/pydigger-4"
     }
 ]

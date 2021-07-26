@@ -628,6 +628,7 @@ pydigger:
         - pydigger-1
         - pydigger-2
         - pydigger-3
+        - pydigger-4
 crystal:
   chapters:
     - title: Learning Crystal
