@@ -16,7 +16,7 @@ Part 1 of the <a href="/crystal-course">Crystal course</a>
 
 =abstract end
 
-<screencast file="crystal-course-2021-1_1920x1080.mp4" youtube="https:LC1srwCOKLc" />
+<screencast file="crystal-course-2021-1_1920x1080.mp4" youtube="LC1srwCOKLc" />
 
 <ul>
   <li><a href="https://code-maven.com/slides/crystal/">Crystal slides</a></li>
