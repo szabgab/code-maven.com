@@ -50,10 +50,11 @@ sudo gitlab-runner restart
 In order to run the CI jobs in a Docker container we will need another runner:
 
 <code>
-sudo gitlab-runner register -n --url https://gitlab.com/ --registration-token $TOKEN --executor docker --description "Docker Runner" --tag-list docker-runner
+sudo gitlab-runner register -n --url https://gitlab.com/ --registration-token $TOKEN --executor docker --description "Docker Runner" --tag-list docker-runner --docker-image alpine:3.14.0
 sudo gitlab-runner restart
 </code>
 
+The docker-image parameter sets the default image. I don't think it is very important what you set here as you should always explicitly define it in the .gitlab-ci.yml file anyway.
 
 
 Edit the following file and comment out everything
@@ -67,7 +68,5 @@ Edit the following file and comment out everything
 <include file="examples/gitlab-docker/Dockerfile">
 
 <include file="examples/gitlab-docker/.gitlab-ci.yml">
-
-
 
 

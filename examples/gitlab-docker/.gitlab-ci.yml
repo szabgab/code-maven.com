@@ -9,7 +9,7 @@ build_image:
     - docker build -t $CI_REGISTRY/szabgab/gl-try:latest .
     - docker push $CI_REGISTRY/szabgab/gl-try:latest
   tags:
-    - szabgabshell
+    - shell-runner
 
 use_image:
   stage: test
