@@ -1,0 +1,31 @@
+stages:
+  - build
+  - test
+
+build:
+  image: docker:19.03.12
+  stage: build
+  variables:
+    DOCKER_TLS_CERTDIR: "/certs"
+  services:
+    - docker:19.03.12-dind
+  script:
+    - docker build -t mydocker:latest .
+
+    - docker tag mydocker:latest $CI_REGISTRY/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/flasker:latest
+
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+    - docker push $CI_REGISTRY/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/flasker:latest
+  tags:
+    - docker-runner-tls
+
+test-image:
+  services:
+    - name: $CI_REGISTRY/$CI_PROJECT_NAMESPACE/$CI_PROJECT_NAME/flasker:latest
+      alias: flasker
+      #command: ["flask", "run", "--host", "0.0.0.0", "--port", "5000"]
+  image: python:3.7.2
+  script:
+    #- curl https://code-maven.com/
+    - curl http://flasker:5000/
+
