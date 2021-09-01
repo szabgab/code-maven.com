@@ -15,5 +15,5 @@ Una introduction a HTML
 
 =abstract end
 
-<screencast file="html-1-with-sharon-bone_1920x1080.mp4" youtube="youtu.be/52DnU8UVe64" />
+<screencast file="html-1-with-sharon-bone_1920x1080.mp4" youtube="52DnU8UVe64" />
 
