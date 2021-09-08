@@ -27,6 +27,7 @@ Also follow the YouTube channel of Ivett: <a href="https://www.youtube.com/chann
     <li><a href="/online-self-knowledge-workshop-7">Part 7</a></li>
     <li><a href="/online-self-knowledge-workshop-8">Part 8</a></li>
     <li><a href="/online-self-knowledge-workshop-9">Part 9</a></li>
+    <li><a href="/online-self-knowledge-workshop-10">Part 10</a></li>
 </ul>
 
 <!--

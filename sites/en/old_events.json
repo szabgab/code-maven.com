@@ -318,5 +318,29 @@
         "duration" : { "hours" : 2, "minutes" : 0 },
         "location" : "https://code-maven.com/pydigger-4",
         "url" : "https://code-maven.com/pydigger-4"
+    },
+    {
+        "summary" : "HTML en CSS en español con Sharon Bone - parte 1",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 9, "day" : 1, "hour" : 14, "minute" : 0, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 1, "minutes" : 0 },
+        "location" : "https://es.code-maven.com/html-1",
+        "url" : "https://es.code-maven.com/html-1"
+    },
+    {
+        "summary" : "Application for organising online self knowledge workshops - development in ReactJS with Ivett Ordog - part 10",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 9, "day" : 1, "hour" : 18, "minute" : 0, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://code-maven.com/online-self-knowledge-workshop-10",
+        "url" : "https://code-maven.com/online-self-knowledge-workshop-10"
+    },
+    {
+        "summary" : "HTML en CSS en español con Sharon Bone - parte 2",
+        "description" : "",
+        "begin"    : { "year" : 2021, "month" : 9, "day" : 2, "hour" : 14, "minute" : 0, "time_zone"  : "+0300"},
+        "duration" : { "hours" : 2, "minutes" : 0 },
+        "location" : "https://es.code-maven.com/html-2",
+        "url" : "https://es.code-maven.com/html-2"
     }
 ]
