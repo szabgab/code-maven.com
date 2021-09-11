@@ -24,7 +24,33 @@ Quiero enseñarte muchas cosas de informática y quiero practicar mi español al
 
 Yo voy a utilizar Gmail para escribir . Aquí tengo un corrector ortográfico y corrector gramatical que configure a español de España.
 
-Yo también utilizo el traductor de Google. Espero que ellos van a ayudar escribir mejor pero estoy seguro que voy a cometer muchos errores gramaticales. Yo espero que puede tener paciencia conmigo y tal vez puedes corregir algunos de mi errores.
-
+Yo también utilizo el traductor de Google. Espero que ellos van a ayudar escribir mejor pero estoy seguro que voy a cometer muchos errores gramaticales.
+Yo espero que puede tener paciencia conmigo y tal vez puedes corregir algunos de mi errores.
 
 Puedes seguirme en <a href="https://twitter.com/Ensenyansa">Twitter</a>, en <a href="/linkedin">LinkedIn</a>, o en <a href="/youtube">YouTube</a>.
+
+<!-- -->
+
+El plano
+
+Durante de la serie yo quiero explicar cómo puedes hacer una pagina web. Primero para ti mismo en tu computadora. Por eso yo voy a enseñar HTML y CSS.
+Después voy a mostrarte cómo puedes subir la a un lugar dónde todos pueden verla.
+Para enseñar esto la primera voy a explicar sobre Git, GitLab para controlar las versiones de tu creación.
+Es va a estar muy útil para ti en cualquier cosa tú haces: Creación de páginas web o  desarrollo de una aplicación.
+Después voy a mostrarte páginas de GitLab  y para subir tu página al web.
+
+Más tarde, si voy a tener la energía y el tiempo libre, voy a empezar enseñar un lenguaje de programación se llama JavaScript.
+Es el lenguaje que utilizamos para desarrollar cosas que pueden cambian en una página. Cosas que necesitan responder a tu acciones.
+
+Yo voy a asumir que no tienes experiencia con estas temas o que tienes une  experiencia mala,
+por ejemplo un profesor de informática en tu escuela que fue aburrido yo no entiende mucho sobre la tema que enseña.
+
+A veces voy a explicar cosas que tú vas a pensar son demasiado básicas, pero para otra persona estas cosas pueden ser
+menos claros y a veces a va a estar solamente mi necesidad para buscar y utilizar las palabras en Español.
+Espero que vas a tener la paciencia para continuar.
+
+Yo también voy a asumir que te usas las ventanas (Windows) que tu sistema de operación. Dice me si tú necesitas una explicación para Apple o para Linux.
+
+Es suficiente planear ahora. Vamos a empezar.
+
+

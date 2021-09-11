@@ -1,0 +1,7 @@
+---
+html:
+  chapters:
+    - title: HTML
+      sub:
+        - html-1
+        - html-2
