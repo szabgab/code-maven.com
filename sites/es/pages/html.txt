@@ -1,0 +1,30 @@
+=title HTML - CSS - JavaScript
+=timestamp 2021-09-11T07:30:01
+=indexes HTML, CSS, JavaScript
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+¡Hola!
+
+Yo estoy aprendiendo español, ya por casi 3 años.
+Yo hice un progreso y puedo expresar bueno pero me falta muchas palabras y yo no se la gramaticales muy bien. En otro lado yo tengo mucha experiencia con informática y con enseñar informática.
+
+=abstract end
+
+Por eso empiezo escribir una seria.
+
+En esta serie yo quiero matar dos liebres al tiempo.
+
+Quiero enseñarte muchas cosas de informática y quiero practicar mi español al mismo tiempo.
+
+Yo voy a utilizar Gmail para escribir . Aquí tengo un corrector ortográfico y corrector gramatical que configure a español de España.
+
+Yo también utilizo el traductor de Google. Espero que ellos van a ayudar escribir mejor pero estoy seguro que voy a cometer muchos errores gramaticales. Yo espero que puede tener paciencia conmigo y tal vez puedes corregir algunos de mi errores.
+
+
+Puedes seguirme en <a href="https://twitter.com/Ensenyansa">Twitter</a>, en <a href="/linkedin">LinkedIn</a>, o en <a href="/youtube">YouTube</a>.
