@@ -27,19 +27,18 @@ Yo voy a utilizar Gmail para escribir . Aquí tengo un corrector ortográfico y 
 Yo también utilizo el traductor de Google. Espero que ellos van a ayudar escribir mejor pero estoy seguro que voy a cometer muchos errores gramaticales.
 Yo espero que puede tener paciencia conmigo y tal vez puedes corregir algunos de mi errores.
 
-Puedes seguirme en <a href="https://twitter.com/Ensenyansa">Twitter</a>, en <a href="/linkedin">LinkedIn</a>, o en <a href="/youtube">YouTube</a>.
 
 <!-- -->
 
 El plano
 
-Durante de la serie yo quiero explicar cómo puedes hacer una pagina web. Primero para ti mismo en tu computadora. Por eso yo voy a enseñar HTML y CSS.
+Durante de la serie yo quiero explicar cómo puedes hacer una pagina web. Primero para ti mismo en tu computadora. Por eso yo voy a enseñar <b>HTML</b> y <b>CSS</b>.
 Después voy a mostrarte cómo puedes subir la a un lugar dónde todos pueden verla.
-Para enseñar esto la primera voy a explicar sobre Git, GitLab para controlar las versiones de tu creación.
+Para enseñar esto la primera voy a explicar sobre <b>Git</b> y <b>GitLab</b> para controlar las versiones de tu creación.
 Es va a estar muy útil para ti en cualquier cosa tú haces: Creación de páginas web o  desarrollo de una aplicación.
-Después voy a mostrarte páginas de GitLab  y para subir tu página al web.
+Después voy a mostrarte <b>páginas de GitLab</b>  y para subir tu página al web.
 
-Más tarde, si voy a tener la energía y el tiempo libre, voy a empezar enseñar un lenguaje de programación se llama JavaScript.
+Más tarde, si voy a tener la energía y el tiempo libre, voy a empezar enseñar un lenguaje de programación se llama <b>JavaScript</b>.
 Es el lenguaje que utilizamos para desarrollar cosas que pueden cambian en una página. Cosas que necesitan responder a tu acciones.
 
 Yo voy a asumir que no tienes experiencia con estas temas o que tienes une  experiencia mala,
@@ -53,4 +52,7 @@ Yo también voy a asumir que te usas las ventanas (Windows) que tu sistema de op
 
 Es suficiente planear ahora. Vamos a empezar.
 
+<h2>Seguirme!</h2>
+
+Puedes seguirme en <a href="https://twitter.com/Ensenyansa">Twitter</a>, en <a href="/linkedin">LinkedIn</a>, o en <a href="/youtube">YouTube</a>.
 
