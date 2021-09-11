@@ -48,7 +48,7 @@ A veces voy a explicar cosas que tú vas a pensar son demasiado básicas, pero p
 menos claros y a veces a va a estar solamente mi necesidad para buscar y utilizar las palabras en Español.
 Espero que vas a tener la paciencia para continuar.
 
-Yo también voy a asumir que te usas las ventanas (Windows) que tu sistema de operación. Dice me si tú necesitas una explicación para Apple o para Linux.
+Yo también voy a asumir que te usas las ventanas (<b>Windows</b>) que tu sistema de operación. Dice me si tú necesitas una explicación para <b>Apple</b> o para <b>Linux</b>.
 
 Es suficiente planear ahora. Vamos a empezar.
 
