@@ -61,7 +61,7 @@ jq keys in.json
 ]
 </code>
 
-<b>The value of a key<b>
+<b>The value of a key</b>
 
 The name after the dot.
 
