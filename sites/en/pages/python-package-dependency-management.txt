@@ -12,6 +12,12 @@
 
 Making sure the dependencies of a large project work well together is not an easy task. In this article I try to describe a process that might work for you as well.
 
+TL;DR
+
+Keep the list of immediate dependencies in <b>requirements.txt</b> without declaring version numbers.
+
+Keep the output of <b>pip freeze</b> with the specific version numbers in <b>constraints.txt</b>.
+
 =abstract end
 
 <h2>Getting started</h2>
