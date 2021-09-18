@@ -18,7 +18,7 @@ Making sure the dependencies of a large project work well together is not an eas
 
 Create two empty files: <b>requirements.txt</b> and <b>constraints.txt</b> and add both of them to version control.
 
-<h2>Converting from old requirements.txt with constrains</h2>
+<h2>Converting from old requirements.txt with constraints</h2>
 
 If you already have a <b>requirements.txt</b> file that has all kinds of constraints in it, then you can do the following:
 
