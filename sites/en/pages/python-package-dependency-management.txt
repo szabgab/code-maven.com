@@ -1,4 +1,4 @@
-=title Python package dependency management - pip freeze
+=title Python package dependency management - pip freeze - requirements.txt and constraints.txt
 =timestamp 2021-09-18T07:30:01
 =indexes python, pip
 =status show
