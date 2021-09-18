@@ -26,7 +26,7 @@ If you already have a <b>requirements.txt</b> file that has all kinds of constra
     <li>Make sure it is checked into version control.</li>
     <li>Install everything using the requirements.txt.</li>
     <li>Run your tests.</li>
-    <li>Run <hl>pip freeze > constrainst.txt</hl></li>
+    <li>Run <hl>pip freeze > constraints.txt</hl></li>
     <li>Add the new file to version control.</li>
     <li>Remove the constraints from the requirements.txt file.</li>
 </ul>
@@ -74,13 +74,13 @@ requirements and then run your tests and make sure your code still work after ch
 
 <h2>Upgrade a package</h2>
 
-If later you need to upgrade one of your immediate dependencies becasuese you need some feature that only in a newer version exist then
+If later you need to upgrade one of your immediate dependencies because you need some feature that only in a newer version exist then
 add this information as a minimum requirement to the requirements.txt file: <b>package>=SOME_VERSION</b>
 
 
 <h2>Removing required packages</h2>
 
-We can simply remove the pacakge from the requirements.txt file. The fact that it and its dependencies are listed in the constraints.txt file
+We can simply remove the package from the requirements.txt file. The fact that it and its dependencies are listed in the constraints.txt file
 does not matter. They won't be installed. The only problem is that now we might have some lines in the constraints.txt file that are not relevant
 any more and that might impact a later installation. If you do the regular maintenance as described below then this will be cleaned up the next time
 you do it.
@@ -88,18 +88,43 @@ you do it.
 <h2>Regular maintenance</h2>
 
 You can get by with the same versions of your dependency for a long time, but eventually you'll reach a point when you need a newer version of
-one of your dependencies. For example because it has a new feature that you need or because there is a bug-fix in it.
+one of your dependencies. For example because it has a new feature that you need, or because there is a bug-fix in it, or maybe even a security fix.
 
-However every upgrade has the risk of breaking something in your application. So many people try to avoid it. They even us the expression:
-"If it isn't broken don't fix it.". However we know that upgrading a package that is several years old to its current version carries a lot more risk
-than doing regular upgrades. Checking reqularly if you can upgrade also has the advantage that if there some breaking change you can report it
+However every upgrade has the risk of breaking something in your application. So many people try to avoid it. They even use the expression:
+"If it isn't broken don't fix it.". To which I usually amend: "When something breaks then panic!".
+
+We know that upgrading a package that is several years old to its current version carries a lot more risk
+than doing regular upgrades. Checking regularly if you can upgrade also has the advantage that if there some breaking change you can report it
 to the package maintainers soon after it happens. That report might help them revert the change that breaks your code if possible.
 
-Remove some or all of the entries from the constraints.txt file. Reinstall all the packages
-<b>pip install --upgrade -r requirements.txt -c constraints.txt</b> would probably also work.
-Run your tests. You do have a good set of tests, don't you?
+You can do all the upgrades all at once, or you can cherry-pick.
 
-In you Continuous Integrqation (CI) system have a task that would install your dependencies without the constraints.txt file. Just with
+For the former run:
+
+<code>
+pip install --upgrade -r requirements.txt
+</code>
+
+That will try to upgrade all of your dependencies to the latest.
+
+This might introduce many issues if you have not done it for a long time, but usually should be quite smooth.
+
+Then of course you need to run all your tests to verify that your code still works as it was expected earlier.
+
+If doing all the upgrade at ones is still something you'd like to avoid, you can cherry-pick which packages you upgrade.
+
+You can upgrade a specific package:
+
+<code>
+pip install --upgrade PACKAGE
+</code>
+
+You can also remove some or all of the entries from the <b>constraints.txt file</b> and then run:
+<b>pip install --upgrade -r requirements.txt -c constraints.txt</b>.
+
+The run your tests. You do have a good set of tests, don't you?
+
+In you Continuous Integration (CI) system have a task that would install your dependencies without the constraints.txt file. Just with
 <b>pip install -r requirements.txt</b> and then run your tests. If this fails check what is the source of the problem and report it or fix it.
 
 
