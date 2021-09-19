@@ -186,7 +186,7 @@ Python 3.8.2
 
 <code>
 $ grep -V
-grep (GNU grep) 3.4
+grep (GNU grep) 3.3
 </code>
 
 
