@@ -99,7 +99,7 @@ sys   0m0.032s
 
 <h2>More complex grep</h2>
 
-In the previous case we used a very simple regex, now let's change it to use a slightly more complex expression
+In the previous case we used a very simple regex; now, let's change it to use a slightly more complex expression
 in which we are not only looking for a single character, but we also want to make sure it is between two
 identical characters.
 
