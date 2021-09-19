@@ -139,7 +139,8 @@ identical characters.
 You can try it yourself:
 
 <code>
-grep '\(.\)y\1' a.txt
+$ grep '\(.\)y\1' a.txt
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
 </code>
 
 
