@@ -77,24 +77,51 @@ and thous would be probably faster, but in our cases we really had more complex 
 Here are the results of running the grep test:
 
 <code>
-$ time bash examples/grep_speed.sh a.txt 20
+$ time bash examples/grep_speed.sh a.txt 20 >/dev/null
 
-real  0m0.227s
-user  0m0.055s
-sys   0m0.172s
+real    0m0.355s
+user    0m0.238s
+sys     0m0.097s
 </code>
 
 
 <code>
-$ time python examples/grep_speed.py a.txt 20
+$ time python examples/grep_speed.py a.txt 20 >/dev/null
 
-real  0m9.509s
-user  0m9.477s
-sys   0m0.032s
+real    0m9.897s
+user    0m9.772s
+sys     0m0.120s
 </code>
 
+So, <b>grep</b> is upwards of 30 times faster than Python; what if we optimize the Python code by only opening the file once?
 
-<b>grep</b> is about 50 times faster than Python even though <b>grep</b> had to read the file 20 times while Python only read it once.
+<include file="examples/grep_speed_open_once.py">
+
+Making that change did almost nothing to improve the speed.
+
+<code>
+$ time python examples/grep_speed_open_once.py a.txt 20 >/dev/null
+
+real    0m9.712s
+user    0m9.625s
+sys     0m0.082s
+</code>
+
+What if we optimize the regular expression by compiling it only once?
+
+<include file="examples/grep_speed_optimized.py">
+
+That makes a signicant improvement!
+
+<code>
+$ time python examples/grep_speed_optimized.py a.txt 20 >/dev/null
+
+real    0m2.198s
+user    0m2.121s
+sys     0m0.075s
+</code>
+
+By pre-compiling the regular expression, the Python code is now about 4.5x faster than the unoptimized Python code; however, <b>grep</b> is <em>still</em> about 6 times faster than Python, even though <b>grep</b> must start from afresh on each iteration.
 
 
 <h2>More complex grep</h2>
