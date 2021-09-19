@@ -16,4 +16,4 @@ i = int(limit)
 
 while i:
     i-=1
-    grep('y', filename)
+    grep(r'(.)y\1', filename)
