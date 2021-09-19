@@ -9,7 +9,7 @@
 
 =abstract start
 
-At one of my client we had a Bash script that grepped a huge log file 20 times in order to generate a report.
+One of my clients had a Bash script that grepped a huge log file 20 times in order to generate a report.
 It created a lot of load on the server as <b>grep</b> was reading the entire file 20 times.
 
 As we were converting our Shell scripts to Python anyway I thought I could rewrite it in Python and go over the file
