@@ -58,7 +58,7 @@ but to make it simpler I made this shell script, which runs the same regex multi
 
 <include file="examples/grep_speed.sh">
 
-You can pass the name of the data file and the number of time you'd like to run <b>grep</b>.
+You can pass the name of the data file and the number of times you'd like to run <b>grep</b>.
 
 <h2>Grep with Python regexes</h2>
 
