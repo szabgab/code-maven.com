@@ -31,10 +31,23 @@ We can run it like this, indicating the name of the file we would like to create
 the number of rows and the length of rows.
 
 <code>
-python create-big-file.py FILENAME NUMBER-OF-ROWS LENGTH-OF-ROWS
+$ python create-big-file.py FILENAME NUMBER-OF-ROWS LENGTH-OF-ROWS
+</code>
+
+For example:
+
+<code>
+$ python create-big-file.py a.txt 100000 50
 </code>
 
 It will create a file full of the character "x", with a single "y" somewhere.
+
+<code>
+$ wc a.txt
+ 1000000  1000000 51000000 a.txt
+$ grep y a.txt
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
+</code>
 
 I think this is going to be good enough for our simple example.
 
@@ -61,21 +74,7 @@ and thous would be probably faster, but in our cases we really had more complex 
 
 <h2>Comparing the speed</h2>
 
-<code>
-python create-big-file.py a.txt 100000 50
-</code>
-
-Verify the file:
-
-<code>
-$ wc a.txt
- 1000000  1000000 51000000 a.txt
-</code>
-
-<code>
-# grep y a.txt
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
-</code>
+Here are the results of running the grep test:
 
 <code>
 $ time bash examples/grep_speed.sh a.txt 20
