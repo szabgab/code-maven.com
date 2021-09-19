@@ -94,7 +94,7 @@ sys   0m0.032s
 </code>
 
 
-<b>grep</b> is about 50 times faster than Python even though <b>grep</b> had to read the file 20 time while Python only read it once.
+<b>grep</b> is about 50 times faster than Python even though <b>grep</b> had to read the file 20 times while Python only read it once.
 
 
 <h2>More complex grep</h2>
