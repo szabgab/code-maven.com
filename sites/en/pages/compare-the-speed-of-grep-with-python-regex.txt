@@ -54,7 +54,7 @@ I think this is going to be good enough for our simple example.
 <h2>Using grep</h2>
 
 In the original shell script we had some 20 different calls to <b>grep</b>,
-but to make it simpler I made this shell script with that runs the same regex multiple times.
+but to make it simpler I made this shell script, which runs the same regex multiple times.
 
 <include file="examples/grep_speed.sh">
 
