@@ -152,7 +152,7 @@ grep (GNU grep) 3.4
 
 <h2>Other cases</h2>
 
-The results are consistent with what I saw during my work, but I wonder what would be the results if the file was larger than the available memory in my computer.
+The results are consistent with what I saw during my work, but I wonder what the results would be if the file were larger than the available memory in my computer.
 
 <h2>Conclusion</h2>
 
