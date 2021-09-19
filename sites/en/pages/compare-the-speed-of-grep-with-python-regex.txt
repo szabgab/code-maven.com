@@ -147,23 +147,35 @@ xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
 <h2>Comparing the speed of the more complex examples</h2>
 
 <code>
-$ time bash examples/grep_speed_oxo.sh a.txt 20
+$ time bash examples/grep_speed_oxo.sh a.txt 20 >/dev/null
 
-real   0m0.196s
-user   0m0.035s
-sys    0m0.161s
+real    0m0.413s
+user    0m0.297s
+sys     0m0.097s
 </code>
 
 
 <code>
-$ time python examples/grep_speed_oxo.py a.txt 20
+$ time python examples/grep_speed_oxo.py a.txt 20 >/dev/null
 
-real   0m25.067s
-user   0m24.972s
-sys    0m0.016s
+real    0m12.724s
+user    0m12.589s
+sys     0m0.128s
 </code>
 
-The speed of <b>grep</b> did not change, but Python became even slower. This time grep is more than a 100 times faster than Python.
+The speed of <b>grep</b> did not change appreciably, but the Python code became much slower; this time, <b>grep</b> is more than a 30 times faster than Python, despite using some explicit optimizations in the Python code. How does the unoptimized code fair?
+
+<include file="examples/grep_speed_oxo_unoptimized.py">
+
+Using <b>grep</b> is about 57 times faster than using the unoptimized Python code.
+
+<code>
+$ time python examples/grep_speed_oxo_unoptimized.py a.txt 20 >/dev/null
+
+real    0m23.448s
+user    0m23.319s
+sys     0m0.114s
+</code>
 
 <h2>Version information</h2>
 

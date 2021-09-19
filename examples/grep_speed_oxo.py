@@ -6,9 +6,16 @@ if len(sys.argv) != 3:
 
 _, filename, limit = sys.argv
 
-with open(filename) as fh:
+def grep(regex, fh):
     for line in fh:
-        for _ in range(int(limit)):
-            if re.search(r'(.)y\1', line):
-                print(line)
+        if regex.search(line):
+            print(line, end='')
 
+i = int(limit)
+
+y = re.compile(r'(.)y\1')
+with open(filename) as fh:
+    while i:
+        i-=1
+        grep(y, fh)
+        fh.seek(0)
