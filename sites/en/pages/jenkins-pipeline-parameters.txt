@@ -10,7 +10,7 @@
 
 =abstract start
 
-Jenkins pipelines can declare what kind of parameters it accespts and what are the defaults to those parameters.
+Jenkins pipelines can declare what kind of parameters it accepts and what are the defaults to those parameters.
 
 Scheduled jobs will use the default values. Users running the job manually can set the parameters.
 
@@ -27,7 +27,7 @@ java.lang.ClassCastException: org.jenkinsci.plugins.workflow.steps.EchoStep.mess
 
 Similarly <b>echo params.yesno</b>
 
-raied this exception:
+raised this exception:
 
 <code>
 java.lang.ClassCastException: org.jenkinsci.plugins.workflow.steps.EchoStep.message expects class java.lang.String but received class java.lang.Boolean
@@ -37,7 +37,7 @@ Putting them in string solved the problem for both of them.
 
 I also included a small <b>script</b> that uses the Linux shell to echo the value.
 
-Primarily shoing that even though the content of a <b>passwrod</b> field will not be visible on the UI of Jenkins,
+Primarily shoing that even though the content of a <b>password</b> field will not be visible on the UI of Jenkins,
 the console log might contain it if we are not careful. Better not to print it.
 
 See <a href="https://www.jenkins.io/doc/book/pipeline/syntax/#parameters">documentation</a>
