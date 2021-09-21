@@ -20,7 +20,7 @@ Install:
 On the Jenkins UI click on Jenkins - Manage Jenkis - <a href="http://localhost:8080/pluginManager/">Manage Plugins</a> - Available
 filter for <b>user build vars</b>, check the checkbox and click on "install without restart".
 
-This is a samepl Jenkinsfile showing how to use it.
+This is a sample Jenkinsfile showing how to use it.
 
 <include file="examples/jenkins/builduser.Jenkinsfile">
 
