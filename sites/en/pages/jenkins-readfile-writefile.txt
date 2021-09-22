@@ -9,7 +9,7 @@
 
 =abstract start
 
-In the following Jenkinsfile we have two stages. In the first stage we crete a variable called <b>data</b> that
+In the following Jenkinsfile we have two stages. In the first stage we create a variable called <b>data</b> that
 holds some text and the we use the <b>writeFile</b> function to write it out to a file.
 Then we execute <b>ls</b> as an <a href="/jenkins-pipeline-running-external-programs">external program using <b>sh</b></a>.
 
