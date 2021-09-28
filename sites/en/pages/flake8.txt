@@ -1,0 +1,124 @@
+=title Getting started with Flake8
+=timestamp 2021-09-28T09:30:01
+=indexes Python, flake8
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://flake8.pycqa.org/">flake8</a> is static analyzer (aka. linter) for Python that helps you enforce coding standards and even to find potential bugs.
+It can report issues with you code ranging from simple issues such as not including a space around an arithmetic operator (writing <b>a+b</b> vs. <b>a + b</b>) to
+issues such as redefining a function which, if done by mistake can be the source of a hard-to-detect bug.
+
+A great way to improve your Python project is to configure your CI-system to run flake8 every time you push out code to ensure your code does not start to accumulate such issues.
+
+How can you get started with flake8 on an already existing project?
+
+=abstract end
+
+<h2>Install flake8</h2>
+
+first you need to install flake8 and I recommend at least the pylint plugin as well:
+
+<code>
+pip install flake8 flake8-pylint
+</code>
+
+<h2>First run of flake8</h2>
+
+Then <b>cd</b> to the root of your project and run
+
+<code>
+flake8 .
+</code>
+
+This will probably spew hundreds or thousands of failures which would be overwhelming to fix.
+
+So instead of that I wrote a small script called <a href="https://github.com/szabgab/flake8-start">flake8-start</a> that will create a <b>.flake8</b> configuration
+file for your project ignoring every rule-violation currently existing in your code-base.
+
+The file looks like this:
+
+<code>
+# E226 - (9) - missing whitespace around arithmetic operator
+# E265 - (7) - block comment should start with '# '
+# E305 - (1) - expected 2 blank lines after class or function definition, found 1
+# E501 - (4) - line too long (108 > 79 characters)
+# W391 - (1) - blank line at end of file
+# PLE0102 - (2) - function already defined line 1 (function-redefined)
+
+
+[flake8]
+ignore =
+    *.py E226 E265 E305 E501 W391 PLE0102
+</code>
+
+The first part of this file is the list of rules your currently is violating (E265 is just some ID code), followed by the number of issues found in your code-base,
+followed by the report text the first time the violation appeared. This list was added for your convenience so later when you start to clean up your code it would be
+easier for you to know which code means what. Without the need to look it up on some web-site.
+
+The number of occurrences can help you get some feeling of how much work it might be to fix that type of an issue.
+
+Setting up your CI to run with this configuration file will already help you ensure that no new type of problem will enter your code-base.
+
+For example on GitHub you can create a file called <b>.github/workflows/ci.yml</b> with the following content:
+
+<code>
+name: CI
+
+on: [push, pull_request]
+
+jobs:
+  flake-job:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+    name: Flake8
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      - name: Install deps
+        run: |
+          python --version
+          pip install -r requirements.txt
+          pip install flake8 flake8-pylint
+
+      - name: Run flake8
+        run: |
+            flake8 .
+</code>
+
+This will run flake8 every time you push out code.
+
+
+<h2>Cleanup</h2>
+
+Then comes the cleanup. I usually do this one step a time to improve the code.
+
+
+<ul>
+   <li>Review the failures listed as comments in the <b>.flake8</b> file.</li>
+   <li>Pick one of them that you feel is important to fix.</li>
+   <li>Remove its code from the ignore list.</b>
+   <li>Run `flake8` on your code to see where is this failure reported.</li>
+   <li>Fix the code. (The best would be to make sure you have test executing that area of the code before you make the change, but if you are brave you can also make the changes without tests.)</li>
+   <li>Now that this failure-type does not appear in your code any more you can also remove the comment explaining it from the .flake8 file.</li>
+   <li>Commit your new version of the code and the updated `.flake8` file that does not ignore this error-type any more.</li>
+</ul>
+
+Repeat this process with every failure type you feel need to be fixed.
+
+<h2>Special cases</h2>
+
+There might be rules that you would like to follow generally, but in a few special cases you might need to violate them in your code.
+There are various ways to tell flake8 to disregard specific violations. I won't describe them here. At least not till next time.
+
