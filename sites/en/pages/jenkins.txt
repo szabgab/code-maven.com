@@ -541,3 +541,7 @@ post {
 
 <a href="https://stackoverflow.com/questions/34594703/add-build-parameter-in-jenkins-build-schedule">schedule</a>
 
+
+<h2>multiple cron with parameter</h2>
+
+<include file="examples/jenkins/multiple_cron.Jenkinsfile">
