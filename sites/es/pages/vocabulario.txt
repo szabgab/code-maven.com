@@ -207,16 +207,17 @@ environments - entorno de software
 fix          - reparar, arreglar, fijar
 freeze       - congele
 requirements - requisitos
-/ slash - barra    (barra oblicua)
-\ Backslash - barra invertida
-- dash gion
-_ underscore gion bajo
-#
-@
-^ <a href="https://en.wikipedia.org/wiki/Caret">caret</a> <a href="https://es.wikipedia.org/wiki/Caret">caret</a>
-" - qomichas
-' -
+/ <a href="https://en.wikipedia.org/wiki/Slash_(punctuation)">slash</a>                      <a href="https://es.wikipedia.org/wiki/Barra_(tipograf%C3%ADa)">barra    (barra oblicua)</a>
+\ <a href="https://en.wikipedia.org/wiki/Backslash">Backslash</a>                            <a href="https://es.wikipedia.org/wiki/Barra_inversa">barra inversa / barra invertida</a>
+- <a href="https://en.wikipedia.org/wiki/Dash">dash</a>                                      <a href="https://es.wikipedia.org/wiki/Raya_(puntuaci%C3%B3n)">gion, guion largo, (raya)</a>
+_ <a href="https://en.wikipedia.org/wiki/Underscore">underscore</a>                          <a href="https://es.wikipedia.org/wiki/Guion_bajo">gion bajo</a>
+# <a href="https://en.wikipedia.org/wiki/Number_sign">Number sign (hash, pound sign)</a>     <a href="https://es.wikipedia.org/wiki/Almohadilla">Almohadilla</a>
+@ <a href="https://en.wikipedia.org/wiki/At_sign">At sign</a>                                <a href="https://es.wikipedia.org/wiki/Arroba_(s%C3%ADmbolo)">Arroba</a>
+^ <a href="https://en.wikipedia.org/wiki/Caret">caret</a>                                    <a href="https://es.wikipedia.org/wiki/Caret">caret</a>
+" <a href="https://en.wikipedia.org/wiki/Quotation_mark">quotation mark (double quotes)</a>  <a href="https://es.wikipedia.org/wiki/Comillas">comillas</a>
+' single quotes
 ` <a href="https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming">backtick (backquote)</a> <a href="https://es.wikipedia.org/wiki/Acento_grave">Acento grave</a>
+&amp; <a href="https://en.wikipedia.org/wiki/Ampersand">ampersand</a> <a href="https://es.wikipedia.org/wiki/%26">et</a>
 solution - solución
 to solve - resolver solucionar
 syntax - syntaxis
