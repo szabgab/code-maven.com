@@ -57,3 +57,8 @@ git branch -d feature_a_v1
 git push origin --delete feature_a_v1
 </code>
 
+
+Alternative: remove the remote branch (but that probably will not remote the branch from the synced version) and add it again. (this might not work)
+
+Alternative: just add a new remote branch and remove the old one. No need to have a new local branch.
+
