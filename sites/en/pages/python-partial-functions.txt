@@ -1,0 +1,40 @@
+=title Python create partial functions in runtime
+=timestamp 2021-09-29T08:30:01
+=indexes partial, exec, locals
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+The functools package in Python has a function called <a href="https://docs.python.org/library/functools.html#functools.partial">partial</a> which is similar
+to, but not the same as <a href="https://en.wikipedia.org/wiki/Currying">Currying</a>.
+
+It helps us create a new function where some of the original arguments have fixed values.
+
+=abstract end
+
+It can be done manually:
+
+<include file="generate_partials.py">
+
+but sometimes you'd like to do that on-the fly with a number of different values of the same parameter.
+
+It can be done using <b>exec</b>:
+
+<include file="generate_partials_on_the_fly_with_exec.py">
+
+but there is a better way to do it using <b>locals</b>.
+
+manually:
+
+<include file="generate_partials_using_locals.py">
+
+on-the fly to many values:
+
+<include file="generate_partials_on_the_fly_with_locals.py">
+
+
