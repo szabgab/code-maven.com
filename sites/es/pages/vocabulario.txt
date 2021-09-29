@@ -1,0 +1,251 @@
+=title Vocabulario de las palabras y señales technologícos
+=timestamp 2021-09-29T08:54:01
+=indexes HTML
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Unos de las palabras y señales (carácters) que utilizamos en la technología.
+
+=abstract end
+
+<h2>señales</h2>
+
+<table>
+<tr>
+    <th></th>
+    <th>Inglés</th>
+    <th>Español</th>
+</tr>
+<tr>
+    <td>=</td>
+    <td><a href="https://en.wikipedia.org/wiki/Equals_sign">equals sign</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Signo_igual">signo igual</a></td>
+</tr>
+<tr>
+    <td>=</td>
+    <td>assignment</td>
+    <td>operación de asignar</td>
+</tr>
+<tr>
+    <td>==</td>
+    <td><a href="https://en.wikipedia.org/wiki/Relational_operator#Equality">equivalence (being equal)</a></td>
+    <td>la equivalencia</td>
+</tr>
+<tr>
+    <td>&lt;</td>
+    <td><a href="https://en.wikipedia.org/wiki/Less-than_sign">less-than sign</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Signo_menor_que">signo menor que</a></td>
+</tr>
+<tr>
+    <td>&gt;</td>
+    <td><a href="https://en.wikipedia.org/wiki/Greater-than_sign">greater-than sign</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Signo_mayor_que">signo mayor que</a></td>
+</tr>
+<tr>
+    <td>&lt;&gt;</td>
+    <td><a href="https://en.wikipedia.org/wiki/Bracket#Angle_brackets">angle brackets</a></td>
+    <td></td>
+</tr>
+<tr>
+    <td>()</td>
+    <td><a href="https://en.wikipedia.org/wiki/Bracket#Parentheses">parentheses</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Par%C3%A9ntesis">paréntesis</a></td>
+</tr>
+<tr>
+    <td>[]</td>
+    <td><a href="https://en.wikipedia.org/wiki/Bracket#Square_brackets">Square brackets</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Corchete">Corchete (corchete rectangular)</a></td>
+</tr>
+<tr>
+    <td>{}</td>
+    <td><a href="https://en.wikipedia.org/wiki/Bracket#Curly_bracket">Curly bracket or curly braces</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Llave_(signo_gr%C3%A1fico)">Llave</a></td>
+</tr>
+<tr>
+    <td>:</td>
+    <td><a href="https://en.wikipedia.org/wiki/Colon_(punctuation)">colon</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Dos_puntos">dos puntos</a></td>
+</tr>
+<tr>
+    <td>,</td>
+    <td><a href="https://en.wikipedia.org/wiki/Comma">comma</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Coma_(puntuaci%C3%B3n)">coma</a></td>
+</tr>
+<tr>
+    <td>;</td>
+    <td><a href="https://en.wikipedia.org/wiki/Semicolon">semicolon</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Punto_y_coma">Punto y coma</a></td>
+</tr>
+<tr>
+    <td>~</td>
+    <td><a href="https://en.wikipedia.org/wiki/Tilde">tilde</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Virgulilla">virgulilla (tilde, signo ola?)</a></td>
+</tr>
+
+<tr>
+    <td>!</td>
+    <td><a href="https://en.wikipedia.org/wiki/Exclamation_mark">exlamation mark</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Signo_de_exclamaci%C3%B3n">Signo de exclamación</a></td>
+</tr>
+
+<tr>
+    <td>?</td>
+    <td><a href="https://en.wikipedia.org/wiki/Question_mark">question mark</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Signo_de_interrogaci%C3%B3n">Signo de interrogación</a></td>
+</tr>
+
+
+</table>
+
+<h2>Palabras</h2>
+
+<table>
+<tr>
+    <th>Inglés</th>
+    <th>Español</th>
+</tr>
+<tr>
+    <td>a variable</td>
+    <td>una variable</td>
+</tr>
+
+
+<tr>
+    <td>install</td>
+    <td>instalar</td>
+</tr>
+<tr>
+    <td>upload</td>
+    <td>subir / cargar</td>
+</tr>
+<tr>
+    <td>download</td>
+    <td>descargar</td>
+</tr>
+<tr>
+    <td>upgrade</td>
+    <td>actualizar</td>
+</tr>
+<tr>
+    <td>restart</td>
+    <td>reiniciar</td>
+</tr>
+
+<tr>
+    <td>reboot</td>
+    <td>reiniciar / reinicializar</td>
+</tr>
+
+<tr>
+    <td>save</td>
+    <td>guardar</td>
+</tr>
+<tr>
+    <td>execute</td>
+    <td>ejecutar</td>
+</tr>
+<tr>
+    <td>default</td>
+    <td>predetermina</td>
+</tr>
+<tr>
+    <td>browser</td>
+    <td>navegador</td>
+</tr>
+<tr>
+    <td>Command line</td>
+    <td>línea de comando</td>
+</tr>
+<tr>
+    <td>File extension</td>
+    <td>extensión de archivo</td>
+</tr>
+<tr>
+    <td>Folder</td>
+    <td>carpeta</td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td></td>
+    <td></td>
+</tr>
+<tr>
+    <td>Editor</td>
+    <td>editor</td>
+</tr>
+<tr>
+    <td>IDE - Integrated Development Environment</td>
+    <td>IDE - entorno de desarrollo integrado</td>
+</tr>
+
+
+</table>
+
+<pre>
+edit         - editar
+open         - abrir
+close        - cerrar
+icon         - icono
+click        -
+link         -
+hide         -
+checkbox     -
+delete       -
+remove       -
+Html tags    - etiquetas de html
+abstract     - abstracta/o
+chain        - cadena
+environments - entorno de software
+fix          - reparar, arreglar, fijar
+freeze       - congele
+requirements - requisitos
+/ slash - barra    (barra oblicua)
+\ Backslash - barra invertida
+- dash gion
+_ underscore gion bajo
+#
+@
+^ <a href="https://en.wikipedia.org/wiki/Caret">caret</a> <a href="https://es.wikipedia.org/wiki/Caret">caret</a>
+" - qomichas
+' -
+` <a href="https://en.wikipedia.org/wiki/Grave_accent#Use_in_programming">backtick (backquote)</a> <a href="https://es.wikipedia.org/wiki/Acento_grave">Acento grave</a>
+solution - solución
+to solve - resolver solucionar
+syntax - syntaxis
+
+backend
+ordered list
+unordered list
+backspace - borrar
+hide - esconder, ocultar
+map a path - para mapear un camino
+directory path - ruta de directorio
+style
+CSS - Cascading Style Sheet
+</pre>
+
+<!--
+<tr>
+    <td></td>
+    <td></td>
+    <td></td>
+</tr>
+
+
+html, head, title, body, h1, ul, ol, li
+p, br,div, spanattributes: id, class
+a href
+img src
+
+cooking pot - olla
+jam - mermaladapeanut butter - mantequilla de manì
+
+-->
