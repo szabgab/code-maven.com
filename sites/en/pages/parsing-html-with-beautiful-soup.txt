@@ -1,0 +1,19 @@
+=title Python: Parsing HTML with Beautiful soup
+=timestamp 2021-09-29T12:20:01
+=indexes Python, Beautiful Soup, bs
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://www.crummy.com/software/BeautifulSoup/bs4/doc/">Beautiful Soup</a> is probably the most popular Python library to parse HTML files.
+
+=abstract end
+
+Here is an example for when we have &lt; and/or &gt; as part of the HTML attributes.
+
+<include file="examples/python/beautiful_soup_example.py">
