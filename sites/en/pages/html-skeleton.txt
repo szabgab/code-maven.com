@@ -12,5 +12,9 @@
 
 <include file="examples/html/html5-skeleton.html">
 
+<include file="examples/html/css/skeleton.css">
+
+<include file="examples/html/js/skeleton.js">
+
 
 
