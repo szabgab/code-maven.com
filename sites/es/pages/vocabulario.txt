@@ -34,7 +34,12 @@ Unos de las palabras y señales (carácters) que utilizamos en la technología.
 <tr>
     <td>==</td>
     <td><a href="https://en.wikipedia.org/wiki/Relational_operator#Equality">equivalence (being equal)</a></td>
-    <td>la equivalencia</td>
+    <td><a href="https://es.wikipedia.org/wiki/%3D%3D">la equivalencia / igualidad</a></td>
+</tr>
+<tr>
+    <td>!=</td>
+    <td></td>
+    <td>desigualidad</td>
 </tr>
 <tr>
     <td>&lt;</td>
@@ -156,6 +161,11 @@ Unos de las palabras y señales (carácters) que utilizamos en la technología.
     <td>&amp;</td>
     <td><a href="https://en.wikipedia.org/wiki/Ampersand">ampersand</a></td>
     <td><a href="https://es.wikipedia.org/wiki/%26">et</a></td>
+</tr>
+<tr>
+    <td>+ -</td>
+    <td><a href="https://en.wikipedia.org/wiki/Plus_and_minus_signs">plus and minus</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Signos_m%C3%A1s_y_menos">más y menos</a></td>
 </tr>
 <tr>
     <td></td>
