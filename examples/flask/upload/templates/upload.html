@@ -9,17 +9,19 @@
 <h1>Upload files<h1>
 
     <form method=post enctype=multipart/form-data>
-      <input type=file name=file>
+      <input type=file name=file multiple>
       <input type=submit value=Upload>
     </form>
 
-<h2>Files</h2>
+{%- if files %}
+  <h2>Files</h2>
 
-<ul>
-{%- for code, file in files.items() %}
-    <li><a href="/download/{{ code }}">{{ file }}</a></li>
-{% endfor %}
-</ul>
+  <ul>
+  {%- for code, file in files.items() %}
+      <li><a href="/download/{{ code }}">{{ file }}</a></li>
+  {% endfor %}
+  </ul>
+{% endif %}
 
 </body>
 </html>

@@ -21,13 +21,16 @@ def upload_file():
     if 'file' not in request.files:
         flash('No file part')
         return redirect(request.url)
-    file = request.files['file']
+    #file = request.files['file']
+    app.logger.info(request.files)
+    upload_files = request.files.getlist('file')
+    app.logger.info(upload_files)
     # If the user does not select a file, the browser submits an
     # empty file without a filename.
-    if file.filename == '':
+    if not upload_files:
         flash('No selected file')
         return redirect(request.url)
-    if file:
+    for file in upload_files:
         original_filename = file.filename
         extension = original_filename.rsplit('.', 1)[1].lower()
         filename = str(uuid.uuid1()) + '.' + extension
@@ -37,9 +40,9 @@ def upload_file():
         files[filename] = original_filename
         with open(file_list, 'w') as fh:
             json.dump(files, fh)
-        flash('Upload succeeded')
-        return redirect(url_for('upload_file'))
-    return render_template('upload.html')
+
+    flash('Upload succeeded')
+    return redirect(url_for('upload_file'))
 
 
 @app.route('/download/<code>', methods=['GET'])
