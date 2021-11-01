@@ -16,5 +16,5 @@
 <ul>
     <li><a href="/limit-bitbucket-pipelines-to-specific-branches">Limit Bitbucket pipelines to specific branches</a></li>
     <li><a href="https://perlmaven.com/bitbucket-pipelines-for-perl-projects">Bitbucket Pipelines (the CI system) for Perl projects</a></li>
-    <li><a href="https://perlmaven.com/pro/bitbucket-pipelines-testing-perl-projects">Bitbucket Pipelines testing Perl projects</a></li>
+    <li><a href="https://perlmaven.com/bitbucket-pipelines-testing-perl-projects">Bitbucket Pipelines testing Perl projects</a></li>
 </ul>
