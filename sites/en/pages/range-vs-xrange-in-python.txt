@@ -1,4 +1,4 @@
-=title range vs. xrange in Python
+=title Range Vs. Xrange in Python
 =timestamp 2015-06-25T16:30:01
 =indexes range, xrange, sys.getsizeof, type
 =status show
