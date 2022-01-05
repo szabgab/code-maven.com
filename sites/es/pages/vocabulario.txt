@@ -130,7 +130,7 @@ Unos de las palabras y señales (carácters) que utilizamos en la technología.
 <tr>
     <td>#</td>
     <td><a href="https://en.wikipedia.org/wiki/Number_sign">Number sign (hash, pound sign)</a></td>
-    <td><a href="https://es.wikipedia.org/wiki/Almohadilla">Almohadilla</a></td>
+    <td><a href="https://es.wikipedia.org/wiki/Almohadilla">numeral (Almohadilla)</a></td>
 </tr>
 <tr>
     <td>@</td>
