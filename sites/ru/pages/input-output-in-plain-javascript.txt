@@ -7,7 +7,7 @@
 =original input-output-in-plain-javascript
 =translator name2rnd
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

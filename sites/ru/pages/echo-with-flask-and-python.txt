@@ -7,7 +7,7 @@
 =original echo-with-flask-and-python
 =translator name2rnd
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

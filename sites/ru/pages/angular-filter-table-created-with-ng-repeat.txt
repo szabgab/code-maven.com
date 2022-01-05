@@ -6,7 +6,7 @@
 =original angular-filter-table-created-with-ng-repeat
 =translator name2rnd
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 

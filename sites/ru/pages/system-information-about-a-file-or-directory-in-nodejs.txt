@@ -6,7 +6,7 @@
 =author szabgab
 =translator name2rnd
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 =original system-information-about-a-file-or-directory-in-nodejs
 
 =abstract start
