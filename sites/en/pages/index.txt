@@ -16,7 +16,7 @@ a better job with more satisfaction and higher salary.
 
 
 <div class="main-content">
-<h3>The main topics in abc order</h3>
+<h3>The main topics in alphabetical order</h3>
 <ul>
 <!--  <li><a href="/angularjs">Angular JS</a> - some old articles about Angular 1.</li> -->
   <li><a href="/ansible">Ansible</a> - the configuration management system.</li>
