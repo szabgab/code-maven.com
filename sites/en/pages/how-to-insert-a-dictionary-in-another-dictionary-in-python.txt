@@ -18,7 +18,7 @@ There are two ways to "insert a dictionary in another dictionary".
 
 <h2>Merge Dictionaries</h2>
 
-One of them is to merge the two. All the keys of of one of the dictionaries
+One of them is to merge the two. All the keys of one of the dictionaries
 become also the keys of the other dictionary. Because how this works, it actually does not matter if the dictionary where the result will
 be is the same as one of the original ones, or if it is a third dictionary.
 
