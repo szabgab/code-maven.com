@@ -114,7 +114,7 @@ The response will be something like this with the full path of the directory on 
 Initialized empty Git repository in /Users/gabor/projects/try-git/.git/
 </code>
 
-This command creared a directory called <hl>.git</hl> (with a leading dot) that contains the "database" of Git. In general you should not change anything in that direcatory manually.
+This command created a directory called <hl>.git</hl> (with a leading dot) that contains the "database" of Git. In general you should not change anything in that directory manually.
 
 Using the <hl>ls</hl> command with the appropriate flags we can see that this is the only item in our directory.
 
