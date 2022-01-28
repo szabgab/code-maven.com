@@ -31,11 +31,11 @@ The format of the transcription looks like this:
 ```
 
 Everything is within the `<transcription></transcription>` tags.
-At the beginnig we declare the participants:
+At the beginning we declare the participants:
 
-  `<szabgab host1 Gabor Szabo>`  declares 'szabgab' nickname is used for the host whose real name is
-   'Gabor Szabo'
-  `<foobar guest1 Foo Bar>` declares 'foobar' nickanme is used for the guest, whose real name is 'Foo Bar'
+  `<szabgab host1 Gabor Szabo>` declares that the nickname 'szabgab' is used for the host whose real name is
+   'Gabor Szabo.'
+  `<foobar guest1 Foo Bar>` declares that the nickname 'foobar' is used for the guest, whose real name is 'Foo Bar.'
 
 Then every time the speaker switches we have an `<entry></entry>` and within that entry
 we have the text the person said. When another person starts to speak we create a new
