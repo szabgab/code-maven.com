@@ -9,19 +9,19 @@
 
 =abstract start
 
-<a href="/python">Python</a> has a built-in function called <hl>range</hl> that can easily generate a
-a range of whole numbers. There is another built-in function call <hl>xrange</hl> that provides the
+<a href="/python">Python</a> has a built-in function called <hl>range</hl> that can easily generate
+a range of whole numbers. There is another built-in function called <hl>xrange</hl> that provides the
 same result, but uses a lot less memory.
 
 =abstract end
 
 <h2>range and xrange</h2>
 
-In the following 3 example we could replace <hl>range</hl> by <hl>xrange</hl> and receive the same result:
+In the following 3 examples we could replace <hl>range</hl> by <hl>xrange</hl> and receive the same result:
 
 <include file="examples/python/range_3_7.py">
 
-From the first number (3) till one before the second number (7):
+From the first number (3) until one less than the second number (7):
 
 <pre>
 3
@@ -45,8 +45,8 @@ will be 0. Thus <hl>range(5)</hl> is the same as <hl>range(0, 5)</hl>
 
 <include file="examples/python/range_step.py">
 
-If there are 3 parameters, the first one is the 3 value becomes the "step" that defaults
-to 1 if the 3rd parameter is not present. The result will be the following:
+If there are three parameters, the third one is the "step" that defaults
+to 1 if the third parameter is not present. The result will be the following:
 
 <pre>
 0
@@ -93,9 +93,9 @@ The reason is that <hl>range</hl> creates a list holding all the values while
 
 <h2>Speed - Benchmarking range and xrange</h2>
 
-The "cost" of the memory saving is that looking up indexes in xrange
-will take slightly longer. This benchmark code that uses the <hl>timeit</hl>
-module shows that the xrange version is 10% slower:
+The "cost" of the memory savings is that looking up indexes in xrange
+will take slightly longer. This benchmark code uses the <hl>timeit</hl>
+module to show that the xrange version is 10% slower:
 
 <include file="examples/python/range-benchmark.py">
 
