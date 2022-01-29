@@ -16,7 +16,7 @@ difference between <a href="/range-vs-xrange-in-python">range and xrange</a>.
 A List Comprehension, just like the plain <hl>range</hl> function, executes
 immediately and returns a list.
 
-A Generator Expression, just like <hl>xrange</hl> returns and object that
+A Generator Expression, just like <hl>xrange</hl> returns an object that
 can be iterated over.
 
 =abstract end
@@ -35,7 +35,7 @@ g = (n*2 for n in range(1000))  # Generator expression
 
 <h2>Type</h2>
 
-The type of resulting values are <hl>list</hl> and <hl>generator</hl> respectively:
+The types of the resulting values are <hl>list</hl> and <hl>generator</hl> respectively:
 
 <code lang="python">
 print(type(l))  # 'list'
