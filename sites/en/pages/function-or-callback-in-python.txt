@@ -30,9 +30,9 @@ and another solution using <a href="/function-vs-generator-in-python">generators
 
 In order to avoid the need to explain a complex algorithm, we are going to use
 the well-known Fibonacci series and the question we need to answer is
-"What is the first number in the series that can be divided by 17."
+"What is the first number in the series that can be divided evenly by 17."
 
-A much more complex use-case like that would be if you needed to go over DNA sequences
+A much more complex use-case would be if you needed to go over DNA sequences
 in a database, constantly refining your request for the next sequence before
 locating one that fits your requirements.
 
@@ -73,9 +73,9 @@ to limit the series.
 
 Just to remind you that our task is to "research the Fibonacci series",
 and the first question we need to answer is
-"What is the first number in the Fibonacci series that can be divided by 17?"
+"What is the first number in the Fibonacci series that can be evenly divided by 17?"
 
-So we enhance the function to return the first value that can be divided by 17:
+So we enhance the function to return the first value that can be divided by 17 with no remainder:
 
 <include file="examples/python/fibonacci_function_mod_17.py">
 
@@ -92,8 +92,8 @@ our requirement. It is much better now that the program prints the result.
 
 Running that script will stop at 34.
 
-Later we might have other question we need to answer. What if there is no answer at all?
-In case we'd better add some safety measures so the code will stop.
+Later we might have other questions we need to answer. What if there is no answer at all?
+In that case we'd better add some safety measures so the code will stop.
 
 <h2>Safety measures - limit the loop</h2>
 
@@ -115,8 +115,8 @@ The full code is here:
 <h2>What was the problem?</h2>
 
 We now have a simple function that can check a specific condition and return
-the first value that matches the condition. If tomorrow I'll need to answer
-"What is the first Fibonacci number that can be divided by 19?",
+the first value that matches the condition. If tomorrow I need to answer
+"What is the first Fibonacci number that can be evenly divided by 19?",
 or maybe
 "What is the first Fibonacci number that is the square of another number?",
 
@@ -124,15 +124,15 @@ I can just copy-paste the function and change the condition.
 
 That sounds simple, but that means we have lots of copies of the code implementing
 the Fibonacci function. What if our algorithm is much larger? Do we still want to
-have that code to be copied over and over again?
+have that code copied over and over again?
 
-What if we find a bug in our algorithm (or just found a better way to calculate it)
+What if we find a bug in our algorithm (or just find a better way to calculate it)
 after we have created 20 copies to answer various question?
 
 That's clearly not a good path to go down.
 
 Let's have a different approach. Let's change the Fibonacci function so
-it will accept a function as parameter and will call that function for
+it will accept a function as a parameter and will call that function for
 every element in the Fibonacci sequence.
 
 <h2>Callback function</h2>
@@ -144,7 +144,7 @@ the callback function passing the most recent element to it: <hl>cb(values[-1])<
 
 The returned value is expected to be a list or a tuple in which the first element
 will be <hl>True</hl> or <hl>False</hl> indicating if we have found the answer (True)
-or not yet (False). If it i True, we return the second element of the result.
+or not yet (False). If it is True, we return the second element of the result.
 
 <code lang="python">
 def fibonacci(cb):
@@ -161,15 +161,15 @@ def fibonacci(cb):
 </code>
 
 Based on this the callback function must accept a single value and return
-a tuple of list in which the first element is True/False and the second element
+a tuple or a list in which the first element is True/False and the second element
 is the value matching our condition.
 
 The callback function looks like this:
 It accepts a value <hl>v</hl>, the current value of the series.
-It returns <hl>True</hl> and the value it found once it found a value that can
-be divided by 17.
+It returns <hl>True</hl> and the value it found once it finds a value that can
+be evenly divided by 17.
 
-It returns <hl>True</hl> and <hl>None</hl> if it reached the safety limit we set.
+It returns <hl>True</hl> and <hl>None</hl> if it reaches the safety limit we set.
 The True will indicate to the fibonacci function that the search has ended,
 and the None will indicate to the end-user that no answer was found.
 
@@ -188,17 +188,17 @@ def check_17(v):
     return (False,)
 </code>
 
-The full implementation look like this:
+The full implementation looks like this:
 
 <include file="examples/python/fibonacci_function_callback.py">
 
-This solution is much better than the one had earlier. Now we don't need to change
+This solution is much better than the one we had earlier. Now we don't need to change
 the fibonacci function based on the question we are asking. We could move
 the fibonacci function to a module, import it and use it as an external resource.
 If it needs fixing, it can be fixed in one place, and all the places it is
-used will benefit from that.
+used will benefit.
 
-Even better, the functions we create as callback can also be reused for by calling
+Even better, the functions we create as callbacks can also be reused by calling
 each other or by passing them to other sequence-generating functions.
 
 <h2>Iterators and Generators</h2>
