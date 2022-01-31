@@ -8,11 +8,11 @@
 
 =abstract start
 
-There are many ways to get started if you'd like to experiment with Linux. In this article I'am going to explain one using VirtualBox on top of an MS Windows or Mac OSX system. It could also be used on top of an already existing Linux installation, and for experimentation it might be better to use this than the Operating System you already have on your computer.
+There are many ways to get started if you'd like to experiment with Linux. In this article I'm going to explain one using VirtualBox on top of an MS Windows or Mac OSX system. It could also be used on top of an already existing Linux installation. For experimentation it might be better to use this than the Operating System you already have on your computer.
 
 It could also run on Solaris, but who has Solaris on their notebook or desktop computer.
 
-This method is not the simplest, but it will make it easier to understand the system and other options (e.g. <a href="/vagrant-and-virtualbox-on-ubuntu-1710">Vagrant</a> use this process behind the scene.
+This method is not the simplest, but it will make it easier to understand the system and other options (e.g. <a href="/vagrant-and-virtualbox-on-ubuntu-1710">Vagrant</a> uses this process behind the scenes.
 
 The installation and all the setup can take 1-2 hours. Much shorter when you do it for a second time.
 
@@ -22,9 +22,9 @@ The installation and all the setup can take 1-2 hours. Much shorter when you do 
 
 A very quick recap:
 On one hand Linux officially refers to the "Linux kernel" which is the core of what makes a computer work for you.
-On the other hand most people use the word "Linux" to describe a "Linux Distribution" that includes 10s of thousands of programs, including the Linux kernerl. A "distribution" is like a package in which some team collected many useful software. Editors, games, databases, web servers, etc. and of course the kernel.
+On the other hand most people use the word "Linux" to describe a "Linux Distribution" that includes 10s of thousands of programs, including the Linux kernel. A "distribution" is a package in which some team has collected much useful software: editors, games, databases, web servers, etc. along with of course the kernel.
 
-There are many distribution <a href="https://distrowatch.com/">DistroWatch</a> has a list of "top 100". In this article we are going to use <a href="https://www.ubuntu.com/">Ubuntu</a>, one of the popular distributions.
+There are many distributions; <a href="https://distrowatch.com/">DistroWatch</a> has a list of the "top 100". In this article we are going to use <a href="https://www.ubuntu.com/">Ubuntu</a>, one of the most popular distributions.
 
 <img src="/img/vb1/Tux.png" alt="Tux - The logo of Linux (the kernel)" />
 
@@ -43,16 +43,16 @@ Select the most recent one. At the time of this writing it is <b>Ubuntu Server 1
 because it was released in 2017 October. (The 1 is just a sub-release number, not the date.)
 
 An ISO image is a single file that looks like a CD-rom from the inside. They can be burned on physical CDs
-or can be used by other software (e.g. VirtualBox) to pretend it is a real CD.
+or can be used by other software (e.g. VirtualBox) to simulate a real CD.
 
 We'll use the downloaded file in a minute. While we are waiting for it to download, let's do something else:
 
 <h2>VirtualBox</h2>
 
 <a href="https://www.virtualbox.org/">VirtualBox</a> is an application that can run on MS Windows, Mac OSX, or Linux
-and then it can create Virtual computers. From the inside that virtual computer will look like any other computer.
-It will have some memory, CPUs, disk(s), a CD player, a video card with some memory, network card(s). Whatever you decide.
-The Opearting System installed in it, which we'll refer to as the <b>guest</b>, won't really know it is not running on real hardware.
+to create Virtual computers. From the inside a virtual computer looks like any other computer.
+It will have some memory, CPUs, disk(s), a CD player, a video card with some memory, and one or more network cards. Whatever you decide.
+The Operating System installed in it, which we'll refer to as the <b>guest</b>, won't really know it is not running on real hardware.
 
 From the point of view of your operating system, the one that you already have on your computer (Most likely some version of MS Windowsor Mac OSX) it is just a directory with a few files in it.
 
@@ -62,13 +62,13 @@ You can remove those files any time, but then you will lose your installation.
 
 <h2>Download and Install VirtualBox</h2>
 
-Visit <a href="https://www.virtualbox.org/">VirtualBox</a> and on the big blue button to get to the <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox download</a> page. Select the latest version (for me it was VirtualBox 5.2.8) and the name of your host Operating System. So probably Windows or OSX.
+Visit <a href="https://www.virtualbox.org/">VirtualBox</a> and click on the big blue button to get to the <a href="https://www.virtualbox.org/wiki/Downloads">Virtualbox download</a> page. Select the latest version (for me it was VirtualBox 5.2.8) for your host Operating System. So probably Windows or OSX.
 
-It will download an <hl>exe</hl> file on Windows or <hl>dmg</hl> file on OSX. Once the download ended, run these programs, agree to everything you usually agree when you install a program. It is the standar Windows and OSX installation process. Nothing fancy.
+It will download an <hl>exe</hl> file on Windows or <hl>dmg</hl> file on OSX. Once the download ends, run these programs and agree to everything you usually agree to when you install a program. It is the standard Windows and OSX installation process. Nothing fancy.
 
 <h2>Configure VirtualBox</h2>
 
-A small warning: the different versions of VirtualBox have slightly different UI and Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Most of the screenshots were taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>. In your version they might look slightly different.
+A small warning: the different versions of VirtualBox have slightly different UIs. Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Most of the screenshots were taken by <a href="https://www.linkedin.com/in/yonitgruber/">Yonit Gruber-Hazani</a> for our <a href="http://devops-workshops.code-maven.com/">DevOps Workshops</a>. In your version they might look slightly different.
 
 <b>Open VirtualBox - Press the "new" button on the left</b>
 
@@ -77,7 +77,7 @@ A small warning: the different versions of VirtualBox have slightly different UI
 <b>Type in any name</b>
 
 If the name starts with "ubu" it will setup the type to Linux and the version to Ubuntu 64-bit automatically.
-If you go with a totally different name (e.g. foobar), then you can slect the <hl>Type</hl> and <hl>Version</hl> yourself.
+If you go with a totally different name (e.g. foobar), then you can select the <hl>Type</hl> and <hl>Version</hl> yourself.
 
 Click on Continue.
 
@@ -85,10 +85,10 @@ Click on Continue.
 
 <b>Continue the setup with the values VirtualBox is suggesting for you.</b>
 
-You should not worry about the exact values. Most of these can be changed later on and it is for your experimentatin anyway.
-So the worst case you go over the installation again and learn it even better.
+You should not worry about the exact values. Most of these can be changed later on and it is for your experimentation anyway.
+So in the worst case you go over the installation again and learn it even better.
 
-Remember what your guest operating will see as a "hard disk" is a single file on your host operating system.
+Remember that what your guest operating system will see as a "hard disk" is a single file on your host operating system.
 
 <ul>
     <li>Memory size: 1024 Mb. If you are tight on memory in your computer, you can go with as low as 256 Mb.</li>
@@ -109,7 +109,7 @@ In this screenshot you see 3 boxes:
 
 You can now check the <hl>Settings</hl> of your box where you can change most of the parameters. (Don't do that just yet :).
 
-If this was real hardware you'd have a physical CD-rom and you'd want to instert it in the CD drive to boot from it. As our machine is virtual, and as we only have an ISO image (has the download finished by now?) we do this in software. We make a small change in the configuration of our VirtualBox image to pretend we have a CD in the drive.
+If this was real hardware you'd have a physical CD-rom and you'd want to instert it in the CD drive to boot from it. As our machine is virtual, and as we only have an ISO image (has the download finished by now?) we do this in software. We make a small change in the configuration of our VirtualBox image to simulate a CD in the drive.
 
 <ol>
     <li>Right-click on the icon of your new server and select "Settings".</li>
@@ -120,14 +120,14 @@ If this was real hardware you'd have a physical CD-rom and you'd want to instert
 
 <img src="/img/vb1/virtualbox_4.png">
 
-After you saved it you can click on "Start" to launch the new Linux machine.
+After you save it you can click on "Start" to launch the new Linux machine.
 
 <h2>Install Ubuntu</h2>
 
-Once you clicked on the "Start" button of your VirtualBox image, it will "turn on the computer".
+Once you click on the "Start" button of your VirtualBox image, it will "turn on the computer".
 As with real hardware it will look for a storage device that can be booted. The first one it checks is the CD drive.
 (The sequence is usually configured in the BIOS of the computer.)
-As we "inserted" our CD in the drive the machine will find it and start to boot from it that will step you
+As we "inserted" our CD in the drive the machine will find it and start to boot from it. The following will step you
 through the installation process.
 
 <ol>
@@ -135,7 +135,7 @@ through the installation process.
     <li>Your preferred language: English.</li>
     <li>"Install Ubuntu Server".</li>
     <li>Select a language - English.</li>
-    <li>Your location: "Untied States".</li>
+    <li>Your location: "United States".</li>
     <li>Detect keyboard?  No.</li>
     <li>Configure the keyboards: English (US)</li>
     <li>Keyboard layout: English (US)</li>
@@ -182,7 +182,7 @@ That's it. You have a working Ubuntu Linux server in a VirtualBox image running 
 
 In the next article we'll continue with some experimentation, but if you are familiar with Linux you can already start using it.
 
-One thing I'd mention here is how to <b>run off the machine</b>.
+One thing I'd mention here is how to <b>turn off the machine</b>.
 
 Type in (without the '$' that just represents the prompt in our example:
 
@@ -190,6 +190,6 @@ Type in (without the '$' that just represents the prompt in our example:
 $ sudo shutdown -P now
 </code>
 
-It will ask for your password. Once you typed it in it will shut down the Linux server and then it will power off your VirtualBox image.
+It will prompt you for your password. Once you type it in it will shut down the Linux server and then power off your VirtualBox image.
 
 
