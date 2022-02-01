@@ -21,7 +21,7 @@ the <a href="https://perlmaven.com/scalable-vector-graphics-with-perl">SVG in Pe
 
 Then you can do the following exercises. I've tried to put them in order of growing complexity.
 For each task you'll find a (hopefully) reasonable description of what you should do and you will also see the end-result
-I was expetent. In addition you will find links to the pages where my solutions are presented.
+I was expecting. In addition you will find links to the pages where my solutions are presented.
 
 Also see a recommended <a href="http://tutorials.jenkov.com/svg/index.html">svg tutorial</a> by Jakob Jenkov.
 
@@ -36,7 +36,7 @@ Draw a blue rectangle of 200px width, 100px height.
 <div id="blue_rectangle"></div>
 <script src="/try/examples/js/svg_rectangle.js"></script>
 
-My solution and more examples for <a href="/svg-rectangle">SVG Rectangle</a>.
+My solution and more examples for an <a href="/svg-rectangle">SVG Rectangle</a>.
 
 <h3>Square</h3>
 
@@ -106,7 +106,7 @@ The <a href="/svg-polygon">SVG Polygon</a> I managed to create.
 
 <h3>Flag of Hungary</h3>
 
-Accoridng to the <a href="http://en.wikipedia.org/wiki/Flag_of_Hungary">Wikipedia</a> and
+According to <a href="http://en.wikipedia.org/wiki/Flag_of_Hungary">Wikipedia</a> and
 the <a href="http://commons.wikimedia.org/wiki/File:Flag_of_Hungary.svg">Wikimedia svg</a>,
 the Hungarian flag has a 2:1 ratio and the 3 stripes have the following RGB color values:
 The Red is #CD2A3E, the white is, well, it is white #FFFFFF, and the green is #436F4D.
