@@ -9,8 +9,8 @@
 
 =abstract start
 
-This is a strange article that includes several seemingly unrelated subjects. We need this because after we
-<a href="/installing-ubuntu-linux-in-virtualbox">installed Ubuntu in VirtualBox</a> we can only log in to
+This is a strange article that includes several seemingly unrelated subjects. We need this because after
+<a href="/installing-ubuntu-linux-in-virtualbox">installing Ubuntu in VirtualBox</a> we can only log in to
 it via the window of VirtualBox. Instead of that we would like to be able to use some <hl>ssh</hl> client
 such as the <hl>ssh</hl> command on an OSX or Linux, or Putty on a Windows machine.
 
@@ -22,11 +22,11 @@ at a hosting company. The ssh clients are also more suitable to work than the Vi
 <h2>VirtualBox and networking</h2>
 
 VirtualBox creates virtual networking for the boxes you run in it. By default
-VirtualBox set up a network with <a href="https://en.wikipedia.org/wiki/Network_address_translation">NAT (Network Address Translation)</a>. It gave our Linux box an IP address, configured your host machine as a router and allowed users on the machine to access the outside world. For example that's how we could <a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a>.
+VirtualBox sets up a network with <a href="https://en.wikipedia.org/wiki/Network_address_translation">NAT (Network Address Translation)</a>. It gave our Linux box an IP address, configured your host machine as a router and allowed users on the machine to access the outside world. For example that's how we could <a href="/upgrade-linux-packages-and-install-new-ones">Upgrade Linux packages and install new ones</a>.
 
 We cannot however access the box from the outside world. Not even from our host machine.
 
-On one hand it is good that noone from the Internet can access our box, but we'd like to be able to ssh into the virtual box at
+On one hand it is good that no one from the Internet can access our box, but we'd like to be able to ssh into the virtual box at
 least from our own Notebook/desktop computer. Later we'll also want to be able to set up several boxes and allow them to communicate among themselves.
 
 There are plenty of ways to set this up. We are going to use "Host-only networks". That is a network configuration option provided by VirtualBox that allows your host to access your guest OS-es as if they were on some local network.
@@ -42,26 +42,26 @@ In order to create (or verify the existence of) a Host-Only network click on <b>
 
 <img src="/img/vb1/vboxnet1.png">
 
-Here click on <b>Host Network Manager</b> the lower of the two boxes.
+Here click on <b>Host Network Manager</b>, the lower of the two boxes.
 
-Here you might see 0 or more lines. The image is from a OSX host. I think on Windows hosts the "Name" field might hold some much longer name.
+Here you might see 0 or more lines. The image is from an OSX host. I think on Windows hosts the "Name" field might hold some much longer name.
 
 <img src="/img/vb1/vboxnet0.png">
 
-If you don't have any entry then you need to create one.
+If you don't have any entries then you need to create one.
 
 Click on the <b>Create+</b> button in the top left corner.
 
-If you host operating system is MS Windows, this operation might need Windows Admin rights. Look for the popup window that 
+If your host operating system is MS Windows, this operation might need Windows Admin rights. Look for the popup window that 
 might be in the background.
 
-Set the IPV4 Address/Mask to <hl>192.168.56.1/24</hl> to be similar to my setup. You don't need to enable the DHCP server for our configuration, but it won't hurt either so if it on, leave it on.
+Set the IPV4 Address/Mask to <hl>192.168.56.1/24</hl> to be similar to my setup. You don't need to enable the DHCP server for our configuration, but it won't hurt either so if it is on, leave it on.
 
 <h2>Add host-only network to your VirtualBox guest</h2>
 
-Each VirtualBox guest need to be configured to use the Host-only network of VirtualBox.
+Each VirtualBox guest needs to be configured to use the Host-only network of VirtualBox.
 
-For this click on <hl>Machine Tools</hl>
+For this click on <hl>Machine Tools</hl>.
 
 Select your machine and click on Settings.
 
@@ -127,7 +127,7 @@ netmask 255.255.255.0
 </code>
 
 Then we need to start the network card. We can either restart the machine using <hl>sudo shutdown -r now</hl> or
-we can install a software that can do it for us:
+we can install software that can do it for us:
 
 <code>
 $ sudo apt-get install ifupdown
@@ -164,7 +164,7 @@ This installs and starts the server.
 
 <h2>Self ssh</h2>
 
-You can try the ssh server locally by trying to connect from your virtual Linux box back to the same virtual Linux box. Every linux machine has the IP address <hl>127.0.0.1</hl> to refer to itself, and by default every Linux machine maps the name <hl>localhost</hl> to this IP address. So if we <hl>ssh</hl> to <hl>localhost</hl> we effectively talking to ourselves.
+You can try the ssh server locally by trying to connect from your virtual Linux box back to the same virtual Linux box. Every linux machine has the IP address <hl>127.0.0.1</hl> to refer to itself, and by default every Linux machine maps the name <hl>localhost</hl> to this IP address. So if we <hl>ssh</hl> to <hl>localhost</hl> we are effectively talking to ourselves.
 
 Type in:
 
