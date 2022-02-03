@@ -81,11 +81,11 @@ Press OK.
 
 <img src="/img/vb1/adapter2.png">
 
-By this you configured the the Host-only networking for this box.
+You have now configured Host-only networking for this box.
 
 Let's boot it now and make sure that Ubuntu is also configured properly.
 
-<h2>Add interface to Ubuntu Linux</h2>
+<h2>Add an interface to Ubuntu Linux</h2>
 
 Once the box is running, log in and run the following command:
 
@@ -208,7 +208,7 @@ Host key verification failed
 
 When you ssh to a machine the first time, ssh will ask the ECDSA key of the host. It will then ask you to verify that the key
 it received from the host is the correct key. This is used so you, the user, will know that you are connecting to the server
-you intended to connect and not some other machine posing as that server. The question looks like this:
+you intended to connect to and not some other machine posing as that server. The question looks like this:
 
 <img src="/img/vb1/ssh-1.png">
 
@@ -246,9 +246,9 @@ Remove line 2 from <hl>~/.ssh/known_hosts</hl>. Then try to ssh again. It will a
 VirtualBox uses <hl>host</hl> to describe your main operating system.
 VirtualBox uses <hl>guest</hl> to describe the OS that is installed inside the VB image.
 
-In networking terms the computer you sitting at is usually called the <hl>client</hl>. The machine you are connecting to is usually called the server or the host.
+In networking terms the computer you are sitting at is usually called the <hl>client</hl>. The machine you are connecting to is usually called the server or the host.
 
-In our setup the terms get mixed. Especially the word <hl>host</hl> It can both refer to your Windows system (VirtualBox host) and to the Ubuntu box which (network host). So make sure you understand when do refer to one and when to the other.
+In our setup the terms get mixed. Especially the word <hl>host</hl> It can both refer to your Windows system (VirtualBox host) and to the Ubuntu box which (network host). So make sure you understand which is which.
 
 If it is still unclear, let me know and I'll try to further clarify it.
 
