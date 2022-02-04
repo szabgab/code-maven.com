@@ -9,7 +9,7 @@
 
 =abstract start
 
-In order to learn about networking and interaction between machines we'll need more than one Linux boxes.
+In order to learn about networking and interaction between machines we'll need more than one Linux box.
 
 In order to learn how to use Ansible we also need at least 2 boxes. One that runs Ansible, the manager computer,
 and one that is being managed by Ansible. (If we can set up more of these, even better as then we can see how to
@@ -26,13 +26,13 @@ BTW the actual disk images are by default in the <hl>~/VirtualBox\ VMs/</hl> on 
 Install a Virtual box using Ubuntu as described in the beginning of the <a href="/linux">Linux series</a>. If you already
 have one machine you can use that.
 
-As default person I used "Foo Bar" and the user "foo", so the text will assume that. If you have other username, you'll
+As a default name I used "Foo Bar" and the user "foo", so the text will assume that. If you use a different username, you'll
 have to adjust some strings.
 
 <a href="/virtualbox-host-only-network-ssh-to-remote-machine">Configure the host-only network</a>.
-The IP of the host machine will be 192.168.56.1
-I used <hl>ubuntu-ansible</hl> as the hostname of the box I've installed.
-In the <hl>/etc/network/interfaces</hl> I've set the IP address to be 192.168.56.2.
+The IP of the host machine will be 192.168.56.1.
+I used <hl>ubuntu-ansible</hl> as the hostname of the box I installed.
+In the <hl>/etc/network/interfaces</hl> I set the IP address to be 192.168.56.2.
 
 Once the box is ready, log in and <a href="/upgrade-linux-packages-and-install-new-ones">upgrade it</a>.
 
@@ -42,22 +42,22 @@ $ sudo apt-get upgrade
 </code>
 
 Once we have one box ready, we can clone it, so we don't have to go over the installation and basic configuration process with each
-one of the.
+one.
 
 If you find all this work exhausting, you are right.
 Just remember, currently we are doing the initial configuration manually.
 Later on we'll be able to automate that part as well.
-For now however it might be better for you to do all the step manually so you better understand them and
-you'll be able to experiment with them
+For now however it might be better for you to do all the steps manually so you better understand them and
+you'll be able to experiment with them.
 
 <h2>Reduce memory allocation</h2>
 
 If our physical computer only has 4 Gb memory then you won't be able to run 4 boxes of 1 Gb each.
 If this setup is mostly to experiment with networking and/or Ansible, then we don't need that much memory
-for the boxes anyway. So before I cloned the boxes I've configured the one I have to have only 256 Mb memory.
+for the boxes anyway. So before I cloned the boxes I configured the one I have to have only 256 Mb memory.
 
-For this I had to shut down the linux box. Select the machine in the VirtualBox gui. click on Setup.
-Select the "System" tab, and adjuts the memory.
+For this I had to shut down the linux box. Select the machine in the VirtualBox gui. Click on Setup.
+Select the "System" tab, and adjust the memory.
 
 <h2>Clone the VM</h2>
 
@@ -66,7 +66,7 @@ Shut down the Ubuntu box (<hl>sudo shutdown -P now</hl> will work well.)
 On the VirtualBox management interface select your box, use the right-click <hl>Clone</hl> menu item. 
 (If it is disabled, it means your machine is still running.)
 
-Type in some name for the new box. Select <b>Full clone</b>.
+Type in a name for the new box. Select <b>Full clone</b>.
 
 The cloning itself will take a minute or more depending on the speed of your hard-disk and the size of the image.
 
@@ -140,9 +140,9 @@ ssh 192.168.56.11
 </code>
 
 It will first ask for a <hl>yes</hl> and then for a password. As these machines were all cloned from one single machine,
-the all have user <hl>foo</hl> and the same password on every machine.
+they all have user <hl>foo</hl> and the same password.
 
 If that ssh worked, then log out (type <hl>exit</hl> or <hl>Ctrl-d</hl>).
 
-Then <a href="/generate-and-deploy-ssh-private-public-keypair">create and ssh-key and deploy it on each box</a>
+Then <a href="/generate-and-deploy-ssh-private-public-keypair">create an ssh-key and deploy it on each box.</a>
 
