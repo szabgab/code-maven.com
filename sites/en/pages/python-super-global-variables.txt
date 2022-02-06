@@ -1,4 +1,4 @@
-=title Super-global variables in Python
+=title Super-global variables in Python exploiting the builtins package
 =timestamp 2021-08-30T20:30:01
 =indexes Python, builtins
 =status show
@@ -24,5 +24,7 @@ Then you can use them like this:
 
 <include file="examples/python/use_super_global.py">
 
-My gut feeling is that this is not such a good idea.
+This is a very bad idea. It makes the code very hard to maintain.
+
+In many cases you might be better off using a module or caching for solving whatever issues you encounter.
 
