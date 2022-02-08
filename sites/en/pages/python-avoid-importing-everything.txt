@@ -30,7 +30,7 @@ But why?
 
 <h2>Automatic function overwriting</h2>
 
-Let's sat you have this code:
+Let's say you have this code:
 
 <code>
 from Amodule import *
@@ -48,9 +48,9 @@ Python does not even complain, but this is not what you wanted.
 
 So in general it is better to avoid this feature of Python.
 
-In general it is better to be explicit what you are importing than implicit.
+In general it is better to be explicit about what you are importing than implicit.
 
-Oh an in case you say "but I only use * for one module" here is the same example for you:
+Oh, and in case you say "but I only use * for one module" here is the same example for you:
 
 <code>
 from Amodule import calc
@@ -71,7 +71,7 @@ from tkinter import *
 
 and then your code uses keywords such as <b>Tk, Menu, Frame, Label, Button</b>.
 
-It is better to explicitely import whatever you needs:
+It is better to explicitly import whatever you need:
 
 <code>
 from tkinter import Tk, Menu, Frame, Label, Button
@@ -83,7 +83,7 @@ Even better (as in easier to read) is to import the <b>tkinter</b> module (with 
 import tkinter as tk
 </code>
 
-and then use the objects of tkinter with their full name:
+and then use the objects of tkinter with their full names:
 
 <code lang="python">
 tk.Tk   instead of Tk
