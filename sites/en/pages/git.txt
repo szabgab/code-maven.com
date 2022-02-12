@@ -66,12 +66,12 @@ $ git help tutorial    # a simple git tutorial
 
 <h2>Creating a local Git repository</h2>
 
-The power of Git comes from two main sources. Its local capabilities and its networking capabalities.
+The power of Git comes from two main sources. Its local capabilities and its networking capabilities.
 
-The local capabilities gives you a superb version control tool. The networking capabilities allow you
+The local capabilities give you a superb version control tool. The networking capabilities allow you
 to collaborate with others at ease.
 
-Let's take look at the local capabilities.
+Let's take a look at the local capabilities.
 
 As mentioned earlier we are going to use the command line.
 
