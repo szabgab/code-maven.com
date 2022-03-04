@@ -49,6 +49,7 @@ This is going to be a long project, but it might help understand various techniq
 <h2>JavaScript</h2>
 <ul>
     <li><a href="/on-load-counter-with-javascript-and-local-storage">On-load counter with JavaScript and local storage</a></li>
+    <li><a href="/multiple-counters-with-plain-javascript-and-local-storage">Multiple counters with plain JavaScript and local storage</a></li>
 </ul>
 
 <h2>Python</h2>
