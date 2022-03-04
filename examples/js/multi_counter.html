@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+  <title>Multi counter</title>
+</head>
+<body>
+<div id="counter"></div>
+<button id="reset_all">Reset All</button>
+
+<div id="counters">
+</div>
+
+<input id="name"><button id="add_counter">Add counter</button>
+
+<div id="status"></div>
+
+<script>
+let counters = {};
+
+
+function load_counters() {
+    let counters_str = localStorage.getItem('multi_counter');
+    if (counters_str === null) {
+        console.log('new multi counter system');
+    } else {
+        counters = JSON.parse(counters_str);
+    }
+    show_counters();
+}
+
+function increase_counter(event) {
+    let name = event.target.getAttribute("data-name");
+    counters[name]++;
+    localStorage.setItem('multi_counter', JSON.stringify(counters));
+    show_counters();
+}
+
+function show_counters() {
+    let counter_list =  Object.keys(counters);
+    console.log(counter_list);
+    let html = "";
+    for (let ix = 0; ix < counter_list.length; ix++) {
+        let name = counter_list[ix];
+        html += `<button class="counter" data-name="${name}">${name} : ${counters[name]}</button> `;
+    }
+    document.getElementById('counters').innerHTML = html;
+    let elements = document.getElementsByClassName('counter');
+    console.log(elements);
+    for (let ix = 0; ix < elements.length; ix++) {
+        elements[ix].addEventListener('click', increase_counter);
+    }
+}
+
+
+function reset_all() {
+    document.getElementById('status').innerHTML = '';
+    counters = {};
+    localStorage.removeItem('multi_counter');
+    show_counters();
+}
+
+function add_counter() {
+    let name = document.getElementById('name').value;
+    // remove spaces
+    name = name.replace(/^\s+/g, "");
+    name = name.replace(/\s+$/g, "");
+    if (name == "") {
+        document.getElementById('status').innerHTML = 'Missing name for new counter';
+        return;
+    }
+    // console.log(counters[name]);
+    if (name in counters) {
+        document.getElementById('status').innerHTML = `counter '${name}' already exists`;
+        return;
+    }
+    counters[name] = 1;
+    localStorage.setItem('multi_counter', JSON.stringify(counters));
+    document.getElementById('status').innerHTML = 'added';
+    document.getElementById('name').value = "";
+    show_counters();
+}
+
+document.getElementById('reset_all').addEventListener('click', reset_all);
+document.getElementById('add_counter').addEventListener('click', add_counter);
+load_counters();
+show_counters();
+</script>
+</body>
+</html>
+
+
