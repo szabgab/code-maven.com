@@ -10,7 +10,7 @@
 =abstract start
 
 Setting the <hl>-x</hl> tells Bash to print out the statements as they are being executed.
-It can be very usefule as a logging facility and for debugging when you need to know which statements were execute and
+It can be very useful as a logging facility and for debugging when you need to know which statements were execute and
 in what order.
 
 =abstract end
