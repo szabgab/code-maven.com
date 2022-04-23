@@ -8,7 +8,7 @@ puts q.class      # Float
 z = "abc"
 puts z.class      # String
 
-colors = [ 'Blue', 'Gree', 'Yellow' ]
+colors = [ 'Blue', 'Green', 'Yellow' ]
 puts colors.class # Array
 
 person = { 'fname' => 'Foo', 'lname' => 'Bar' }
