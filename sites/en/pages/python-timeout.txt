@@ -51,3 +51,10 @@ If you don't do it and if the original loop ends before the time was up then lat
 we will receive an ALRM signal and because we are not in the try-except block any more our application will die.
 
 Feel free to play around with the values and observe what happens.
+
+<h2>Windows</h2>
+
+<hl>alarm</hl> only works on Unix systems (Linux, OSX). It does NOT work on Windows.
+
+For more details you can check the documenation of <a href="https://docs.python.org/library/signal.html">signal</a>.
+
