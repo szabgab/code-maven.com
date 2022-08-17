@@ -61,7 +61,7 @@ videos contain parts from multiple chapters.
 
 
 <ul>
-    <li><a href="/pro/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
+    <li><a href="/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
         <ul>
             <li>00:00 Introduction to the Bootcamp.</li>
             <li>01:37 Nóra Doleschall introduces herself and her background in programming.</li>

@@ -546,7 +546,7 @@ programming-boootcamp-for-scientists:
   chapters:
     - title: Bootcamp
       sub:
-        - pro/programming-boootcamp-for-scientists-1
+        - programming-boootcamp-for-scientists-1
         - pro/programming-boootcamp-for-scientists-2
         - pro/programming-boootcamp-for-scientists-3
         - pro/programming-boootcamp-for-scientists-4
