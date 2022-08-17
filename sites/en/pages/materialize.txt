@@ -1,0 +1,23 @@
+=title Material Design
+=timestamp 2022-08-17T07:30:01
+=indexes CodeMaven
+=status draft
+=books javascript, html, css
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://materializecss.com/">Materialize</a> or Materialize CSS is a HTML/CSS framework based on <a href="https://material.io/">Material Design</a> to create the front-end of web applications.
+Created and designed by Google.
+
+=abstract end
+
+<try file="examples/materializecss/skeleton.html">
+
+<try file="examples/materializecss/div-container.html">
+
+<try file="examples/materializecss/rows-and-columns.html">
+
