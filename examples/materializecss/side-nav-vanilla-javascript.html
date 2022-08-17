@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Materialize: Sidenav with vanilla JavaScript</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- start the definition of the sidenav -->
+      <ul id="slide-out" class="sidenav">
+          <li><a href="#!">Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a href="#!">Other link</a></li>
+      </ul>
+      <!-- end the definition of the sidenav -->
+
+      <div class="row">
+        <!-- the button to open the sidenav -->
+        <div class="col s1"><a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">show menu</i></a></div>
+        <div class="col s11">&nbsp;</div>
+
+        <div class="col s12">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+           ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum."
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const elems = document.querySelectorAll('.sidenav');
+    const options = {
+        'edge': 'right'
+    };
+    var instances = M.Sidenav.init(elems, options);
+
+    // Enable this to make the side-nav open automatically when page is loaded.
+    // instances[0].open();
+});
+</script>
