@@ -13,6 +13,7 @@
 There are a number of ways to get started with <a href="/materialize">Materialize</a>. Probably the easiest is to include it from a CDN.
 This could be a good skeleton for a project.
 
+The sample content is from <a href="https://lipsum.com/">Lorem Ipsum</a>.
 
 =abstract end
 

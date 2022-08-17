@@ -10,8 +10,8 @@
 
 =abstract start
 
-<a href="https://materializecss.com/">Materialize</a> or Materialize CSS is a HTML/CSS framework based on <a href="https://material.io/">Material Design</a> to create the front-end of web applications.
-Created and designed by Google.
+<a href="https://materializecss.com/">Materialize CSS</a> is an HTML/CSS framework based on <a href="https://material.io/">Material Design</a> to create the front-end of web applications.
+It was created and designed by Google.
 
 Here we are going to see a few basic examples. Below each example you'll find a link that says <b>Try!</b>. You can click on it to see the example in your browser.
 
