@@ -639,4 +639,11 @@ crystal:
       sub:
         - crystal-course
         - crystal-course-1
+materialize:
+  chapters:
+    - title: Materialize
+      sub:
+        - materialize-skeleton
+        - materialize-div-container
+        - materialize-grid
 
