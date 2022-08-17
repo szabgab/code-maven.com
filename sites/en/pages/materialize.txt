@@ -18,28 +18,8 @@ Here we are going to see a few basic examples. Below each example you'll find a 
 =abstract end
 
 <ul>
-    <li><a href="/materialize-skeleton">Skeleton</a>
+    <li><a href="/materialize-skeleton">Skeleton</a></li>
+    <li><a href="/materialize-div-container">DIV container</a></li>
+    <li><a href="/materialize-grid">Rows and columns - a grid</a></li>
 </ul>
-
-<h2>DIV container</h2>
-
-Probably in every project built using Materialize all the content is wrapped in a <ul>div</ul> element with a <ul>class</ul> called <ul>container</ul>
-The sample content is from <a href="https://lipsum.com/">Lorem Ipsum</a>.
-
-Removing this <hl>div</hl> element or removing the <hl>container</hl> class from it will make the site take up the full width of the browser.
-
-<try file="examples/materializecss/div-container.html">
-
-For more details see the beginning of documentation of the <a href="https://materializecss.com/grid.html">grid</a> where this is mentioned.
-
-<h2>Rows and columns - a grid</h2>
-
-In order to make it easy to place various objects on the web page, people usually use a grid. Here the grid can have multiple rows and
-each row can be divided into 12 columns. The name "row" is actually slightly confusing in this context. A name such as "block" might have been better
-as each "row" can actually contain several 12-width physical row.
-
-
-<try file="examples/materializecss/rows-and-columns.html">
-
-For more details see the documentation of the <a href="https://materializecss.com/grid.html">grid</a>
 
