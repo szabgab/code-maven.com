@@ -13,7 +13,8 @@
 
   <body>
     <div class="container">
-      <h3>12 columns</h3>
+
+      <h3>A row with a single line of 12 1-width columns</h3>
       <div class="row">
         <div class="col s1">1</div>
         <div class="col s1">2</div>
@@ -29,27 +30,46 @@
         <div class="col s1">12</div>
       </div>
 
+      <h3>A row with two lines: a line with a single 12-width column and a line with 2 6-width columns</h3>
+      <div class="row">
+        <div class="col s12">This div is 12-width column on all screen sizes</div>
+        <div class="col s6">6-width column</div>
+        <div class="col s6">6-width column</div>
+      </div>
+
+      <h3>A row with two lines: a line with a single 12-width column and a line with various width columns</h3>
       <div class="row">
         <div class="col s12">This div is 12-columns wide on all screen sizes</div>
-        <div class="col s6">6-columns (one-half)</div>
-        <div class="col s6">6-columns (one-half)</div>
+        <div class="col s1">1-col</div>
+        <div class="col s2">2-col</div>
+        <div class="col s3">3-col</div>
+        <div class="col s6">6-col</div>
       </div>
 
       <div class="row">
-        <div class="col s12"><span class="flow-text">This div is 12-columns wide on all screen sizes</span></div>
-        <div class="col s6 offset-s6"><span class="flow-text">6-columns (offset-by-6)</span></div>
-      </div>
-    </div>
+        <div class="col s12"><span class="flow-text">This div is 12-width column</span></div>
 
+        <div class="col s6 offset-s6"><span class="flow-text">6-width column (offset-by-6)</span></div>
+
+        <div class="col s6 offset-s3"><span class="flow-text">6-width column (offset-by-3)</span></div>
+        <div class="col s3"><span class="flow-text">&nbsp;<!-- has to be filled with something to take up the rest of the line --></span></div>
+
+        <div class="col s2"><span class="flow-text">2-width col</span></div>
+        <div class="col s10"><span class="flow-text">This div is 10-width column</span></div>
+      </div>
+
+    </div>
     <!--JavaScript at end of body for optimized loading-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
 
 <style>
-.col {
-    background-color: lightblue;
-    margin: 3px;
+.col:nth-of-type(even) {
+    background-color: #add8e6;
+}
+.col:nth-of-type(odd) {
+    background-color: #e0e0e0;
 }
 </style>
 

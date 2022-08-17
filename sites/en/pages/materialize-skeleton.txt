@@ -1,0 +1,21 @@
+=title Materialize CSS - Skeleton
+=timestamp 2022-08-17T08:00:02
+=indexes CSS
+=status show
+=books javascript, html, css
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+There are a number of ways to get started with <a href="/materialize">Materialize</a>. Probably the easiest is to include it from a CDN.
+This could be a good skeleton for a project.
+
+
+=abstract end
+
+<try file="examples/materializecss/skeleton.html">
+
+
