@@ -646,4 +646,6 @@ materialize:
         - materialize-skeleton
         - materialize-div-container
         - materialize-grid
+        - materialize-side-nav-vanilla-javascript
+        - materialize-2-side-nav-vanilla-javascript
 

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Materialize: Sidenav with vanilla JavaScript</title>
+  </head>
+
+  <body>
+    <div class="container">
+
+      <!-- start the definition of the sidenav -->
+      <ul id="main-slide-out" class="sidenav">
+          <li><a href="#!">Link</a></li>
+          <li><div class="divider"></div></li>
+          <li><a class="subheader">Subheader</a></li>
+          <li><a href="#!">Other link</a></li>
+          <li>Outdented Title
+            <ul>
+                <li><a href="#!">Alfa</a></li>
+                <li><a href="#!">Beta</a></li>
+            </ul>
+          </li>
+          <li><div class="divider"></div></li>
+          <li><a href="">Title</a>
+            <ul>
+                <li><a href="#!">Alfa</a></li>
+                <li><a href="#!">Beta</a></li>
+            </ul>
+          </li>
+      </ul>
+
+      <ul id="secondary-slide-out" class="sidenav">
+          <li><a class="subheader">Secondary</a></li>
+          <li><div class="divider"></div></li>
+          <li><a href="#!">Yet another link</a></li>
+      </ul>
+      <!-- end the definition of the sidenav -->
+
+      <div class="row">
+        <!-- the button to open the sidenav -->
+        <div class="col s1"><a href="#" data-target="main-slide-out" class="sidenav-trigger"><i class="material-icons">show main menu</i></a></div>
+        <div class="col s1"><a href="#" data-target="secondary-slide-out" class="sidenav-trigger"><i class="material-icons">show secondary menu</i></a></div>
+        <div class="col s11">&nbsp;</div>
+
+        <div class="col s12">
+          "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+           dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+           ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu
+           fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+           mollit anim id est laborum."
+        </div>
+      </div>
+
+
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  </body>
+</html>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const elem1 = document.getElementById('main-slide-out');
+    const options1 = {
+        'edge': 'left'
+    };
+    const instance1 = M.Sidenav.init(elem1, options1);
+    // instance1.open()
+
+
+    const elem2 = document.getElementById('secondary-slide-out');
+    const options2 = {
+        'edge': 'right'
+    };
+    const instance2 = M.Sidenav.init(elem2, options2);
+    // instance2.open();
+});
+</script>
