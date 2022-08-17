@@ -648,4 +648,4 @@ materialize:
         - materialize-grid
         - materialize-side-nav-vanilla-javascript
         - materialize-2-side-nav-vanilla-javascript
-
+        - materialize-side-nav-with-hierarchy
