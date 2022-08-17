@@ -23,5 +23,6 @@ Here we are going to see a few basic examples. Below each example you'll find a 
     <li><a href="/materialize-grid">Rows and columns - a grid</a></li>
     <li><a href="/materialize-side-nav-vanilla-javascript">Side-nav with Vanilla JavaScript</a></li>
     <li><a href="/materialize-2-side-nav-vanilla-javascript">Two side-navs with Vanilla JavaScript - left-hand side-nav and right-hand side-nav</a></li>
+    <li><a href="/materialize-side-nav-with-hierarchy"></a></li>
 </ul>
 

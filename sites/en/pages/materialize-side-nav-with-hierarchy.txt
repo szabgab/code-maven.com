@@ -1,0 +1,27 @@
+=title Materialize CSS: Side-nav with hierarchy
+=timestamp 2022-08-17T16:00:06
+=indexes Materialize, sidenav
+=status show
+=books javascript, html, css
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+We had a failed attempt to create hierarchy in the sidenav while creating <a href="/materialize-2-side-nav-vanilla-javascript">Two side-navs with Vanilla JavaScript - left-hand side-nav and right-hand side-nav</a>.
+<a href="/materialize">Materialize</a> has <a href="https://materializecss.com/collapsible.html">collapsibles</a> that can be used for this.
+
+For more details see the documentation of the <a href="https://materializecss.com/sidenav.html">sidenav</a>
+
+=abstract end
+
+<try file="examples/materializecss/side-nav-with-hierarchy.html">
+
+In order to open the side navigation bar the user needs to click on the "show main menu" link.
+
+We had to initialize both the sidenav and the collapsible in the JavaScript code.
+
+In order to see the little triangle to open the second level of items we had to include the Material fonts (the second <hl>stylesheet</hl> include at the top of the file).
+
