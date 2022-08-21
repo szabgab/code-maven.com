@@ -1,0 +1,15 @@
+[Unit]
+Description=Demo Service
+
+[Service]
+Type=simple
+User=root
+Group=root
+ExecStart=/usr/bin/python3 /home/gabor/work/code-maven.com/examples/daemon/timestamp.py "my daemon"
+Restart=always
+WorkingDirectory=/tmp
+Nice=19
+LimitNOFILE=16384
+
+[Install]
+WantedBy=multi-user.target
