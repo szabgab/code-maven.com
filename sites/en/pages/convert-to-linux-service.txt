@@ -203,6 +203,20 @@ $ ls -l /tmp/timestamp.log
 </code>
 
 
+<h2>Stop the service</h2>
+
+<code>
+sudo systemctl stop timestamp.service
+</code>
+
+<h2>Restart the service</h2>
+
+<code>
+sudo systemctl restart timestamp.service
+</code>
+
+
+
 <h2>Conclusion</h2>
 
 It is very easy to convert a script to a daemon, but one needs to be careful with the rights on files and also the environment
