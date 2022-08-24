@@ -1,7 +1,7 @@
 =title Value might be None in Python - checking with mypy
 =timestamp 2022-08-24T09:30:01
 =indexes mypy, Union, Optional, None, float
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
@@ -51,7 +51,7 @@ Running <b>mypy</b> on it will be without complaints.
 
 <h2>Using Optional</h2>
 
-While Uninon can be used, an even better option for this case is to use the <hl>Optional</hl> keyword:
+While Union can be used, an even better option for this case is to use the <hl>Optional</hl> keyword:
 
 <include file="examples/python/mypy/return_might_be_none_optional.py">
 
