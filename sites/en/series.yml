@@ -476,7 +476,7 @@ git-on-windows:
         - download-and-install-git-on-ms-windows
         - getting-started-with-git-on-ms-windows
         - creating-a-local-git-repository
-        - pro/adding-first-file-to-your-git-repository
+        - adding-first-file-to-your-git-repository
         - pro/getting-help-for-git
         - pro/exercise-git-session-1
         - pro/git-file-status
