@@ -57,7 +57,7 @@ flask:
         - python-flask-before-first-request
         - python-flask-before-every-request
         - python-flask-after-request
-        - python-flask-catch-exception
+        - python-flask-catch-exception<li><a href="/python-package-dependency-management"></a></li>
         - python-flask-logging
 handlebars:
   chapters:
@@ -225,6 +225,8 @@ python:
         - interactive-shell-with-cmd-in-python
         - python-traversing-directory-tree
         - python-avoid-importing-everything
+        - mypy
+        - python-package-dependency-management
     - title: PIL, Pillow
       sub:
         - create-images-with-python-pil-pillow

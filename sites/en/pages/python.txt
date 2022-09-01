@@ -46,6 +46,7 @@ What do you need to become a <a href="/backend-python-developer">Python programm
   <li><a href="/python-traversing-directory-tree">Traversing directory tree using walk in Python - skipping .git directory</a></li>
   <li><a href="/python-avoid-importing-everything">Python: avoid importing everything using a star: *</a></li>
   <li><a href="/mypy">Type checking of Python code using mypy</a></li>
+  <li><a href="/python-package-dependency-management">Python package dependency management - pip freeze - requirements.txt and constraints.txt</a></li>
 </ul>
 
 <h2>PIL, Pillow</h2>
