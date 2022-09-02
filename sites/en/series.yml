@@ -57,7 +57,7 @@ flask:
         - python-flask-before-first-request
         - python-flask-before-every-request
         - python-flask-after-request
-        - python-flask-catch-exception<li><a href="/python-package-dependency-management"></a></li>
+        - python-flask-catch-exception
         - python-flask-logging
 handlebars:
   chapters:
