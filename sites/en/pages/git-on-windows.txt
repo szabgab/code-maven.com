@@ -23,7 +23,7 @@ A video series where you can learn how to use Git on MS Windows.
    <li><a href="/getting-started-with-git-on-ms-windows">Getting started with Git on MS Windows</a></li>
    <li><a href="/creating-a-local-git-repository">Creating a local git repository</a></li>
    <li><a href="/adding-first-file-to-your-git-repository">Adding first file to your git repository</a></li>
-   <li><a href="/pro/getting-help-for-git">Getting help for git</a></li>
+   <li><a href="/getting-help-for-git">Getting help for git</a></li>
    <li><a href="/pro/exercise-git-session-1">Exercise git session 1</a></li>
    <li><a href="/git-file-status">Git file status</a></li>
    <li><a href="/pro/recording-changes-in-git">Recording changes in Git</a></li>
