@@ -1,0 +1,16 @@
+=title Exercise git session 1
+=timestamp 2022-09-11T08:00:06
+=indexes git
+=tags screencast
+=status show
+=books git
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+=abstract end
+
+<screencast file="git/exercise-git-session-1" youtube="bO_xBrq-fVg" />
+
+

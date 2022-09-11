@@ -480,7 +480,7 @@ git-on-windows:
         - creating-a-local-git-repository
         - adding-first-file-to-your-git-repository
         - getting-help-for-git
-        - pro/exercise-git-session-1
+        - exercise-git-session-1
         - pro/git-file-status
         - pro/recording-changes-in-git
 docker:
