@@ -10,7 +10,7 @@
 =abstract start
 =abstract end
 
-<iframe width="840" height="480" src="https://www.youtube.com/embed/nznkU7Em5ns" frameborder="0" allowfullscreen></iframe>
+<screencast file="na" youtube="nznkU7Em5ns" />
 
 <a href="http://pyvideo.org/pycon-israel-2017/testing-with-pytest.html">Testing with PyTest  on PyVideo</a>
 
