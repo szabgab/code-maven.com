@@ -10,4 +10,4 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/how-to-edit-wikipedia" youtube="gvXtpiiPJqI" />
+<screencast file="how-to-edit-wikipedia" youtube="gvXtpiiPJqI" />

@@ -10,7 +10,7 @@
 =abstract end
 
 
-<screencast file="/media/job-search-on-linkedin" youtube="_U6uXB7WbF4" />
+<screencast file="job-search-on-linkedin" youtube="_U6uXB7WbF4" />
 
 <ul>
      <li><a href="https://www.linkedin.com/">LinkedIn</a></li>

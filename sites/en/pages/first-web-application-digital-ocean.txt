@@ -10,7 +10,7 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/first-web-application-in-the-cloud-digital-ocean" youtube="YBVacD7WXys" />
+<screencast file="first-web-application-in-the-cloud-digital-ocean" youtube="YBVacD7WXys" />
 
 <ul>
     <li><a href="https://code-maven.com/slides/digitalocean/">slides</a></li>
