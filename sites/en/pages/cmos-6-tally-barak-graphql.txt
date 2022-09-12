@@ -19,9 +19,9 @@ Our main subject however is <a href="http://graphql.org/">GraphQL</a> being the 
 
 =abstract end
 
-<podcast>
+<screencast file="cmos-6-tally-barak-graphql.mp4" youtube="Bd6A9TdGhm0" />
 
-<a href="https://www.youtube.com/watch?v=Bd6A9TdGhm0">Watch on YouTube</a> or <a href="/media/cmos-6-tally-barak-graphql.mp4">download the video</a>.
+<podcast>
 
 <div id="person">
   <h2>Tally Barak</h2>

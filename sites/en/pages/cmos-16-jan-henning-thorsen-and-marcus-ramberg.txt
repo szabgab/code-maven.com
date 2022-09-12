@@ -17,7 +17,7 @@ Interview with <a href="http://thorsen.pm/">Jan Henning Thorsen</a> and <a href=
 
 =abstract end
 
-<screencast file="/media/cmos-16-jan-henning-thorsen-and-marcus-ramberg" youtube="kUJC_trDR6I" />
+<screencast file="cmos-16-jan-henning-thorsen-and-marcus-ramberg" youtube="kUJC_trDR6I" />
 
 <podcast>
 

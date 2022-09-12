@@ -19,9 +19,9 @@ and on how to get started with it.
 
 =abstract end
 
-<podcast>
-
 <screencast file="cmos-3-joel-berger-mojolicious.mp4" youtube="O7JGQqCUOJM" />
+
+<podcast>
 
 <div id="person">
 <h2>Joel Berger</h2>

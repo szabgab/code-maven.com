@@ -17,7 +17,7 @@ Interview with <a href="https://youtu.be/YU41eecLtNI">Randal Schwartz</a> the ho
 
 =abstract end
 
-<screencast file="/media/cmos-12-randal-schwartz" youtube="YU41eecLtNI" />
+<screencast file="cmos-12-randal-schwartz" youtube="YU41eecLtNI" />
 
 <podcast>
 

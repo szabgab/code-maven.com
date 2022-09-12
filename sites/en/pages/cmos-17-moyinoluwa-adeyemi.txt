@@ -17,7 +17,7 @@ Interview with <a href="https://twitter.com/moyheen">Moyinoluwa Adeyemi</a> abou
 
 =abstract end
 
-<screencast file="/media/cmos-17-moyinoluwa-adeyemi" youtube="tJt4Dpgql4c" />
+<screencast file="cmos-17-moyinoluwa-adeyemi" youtube="tJt4Dpgql4c" />
 
 <podcast>
 

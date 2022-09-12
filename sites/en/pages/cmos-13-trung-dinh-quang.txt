@@ -19,7 +19,7 @@ web app and the <a href="http://dinhquangtrung.net/">Windows 7 clone</a>.
 
 =abstract end
 
-<screencast file="/media/cmos-13-trung-dinh-quang" youtube="HzF_BZeo-cg" />
+<screencast file="cmos-13-trung-dinh-quang" youtube="HzF_BZeo-cg" />
 
 <podcast>
 

@@ -17,7 +17,7 @@ Interview with Timi Ajiboye, a great discussion of his view of open source, and 
 
 =abstract end
 
-<screencast file="/media/cmos-18-timi-ajiboye" youtube="KcDTf0B3S00" />
+<screencast file="cmos-18-timi-ajiboye" youtube="KcDTf0B3S00" />
 
 <podcast>
 

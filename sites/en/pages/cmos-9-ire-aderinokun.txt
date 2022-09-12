@@ -22,7 +22,7 @@ In which I've also learned what are CSS resets and heared about progressive web 
 
 =abstract end
 
-<screencast file="/media/cmos-9-ire-aderinokun" youtube="W5gy7EMe7LM" />
+<screencast file="cmos-9-ire-aderinokun" youtube="W5gy7EMe7LM" />
 
 <podcast>
 

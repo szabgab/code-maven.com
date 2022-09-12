@@ -17,7 +17,7 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
 
 =abstract end
 
-<screencast file="/media/cmos-19-job-van-achterberg" youtube="3aIImV11B0I" />
+<screencast file="cmos-19-job-van-achterberg" youtube="3aIImV11B0I" />
 
 <podcast>
 

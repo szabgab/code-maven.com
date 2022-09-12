@@ -18,9 +18,9 @@ the command line tool that makes JSON greppable.
 
 =abstract end
 
-<podcast>
+<screencast file="cmos-4-tom-hudson-gron.mp4" youtube="dxmsuFqB1tU" />
 
-<a href="https://www.youtube.com/watch?v=dxmsuFqB1tU">Watch on YouTube</a> or <a href="/media/cmos-4-tom-hudson-gron.mp4">download the video</a>.
+<podcast>
 
 <div id="person">
 <h2>Tom Hudson</h2>
