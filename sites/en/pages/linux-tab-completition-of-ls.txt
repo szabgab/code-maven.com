@@ -11,7 +11,7 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/linux/linux-tab-completition-of-ls" youtube="FhhRxOMbexk" />
+<screencast file="linux/linux-tab-completition-of-ls" youtube="FhhRxOMbexk" />
 
 Using the <a href="/slides/linux/tab-completition">Linux: TAB completition</a> slide. Find other
 slides there.

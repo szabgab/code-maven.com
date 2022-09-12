@@ -11,7 +11,7 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/git/start-git-with-a-local-repository" youtube="fAMCF4hhCQY" />
+<screencast file="git/start-git-with-a-local-repository" youtube="fAMCF4hhCQY" />
 
 Find more via the <a href="https://code-maven.com/slides/">Git slides</a>.
 

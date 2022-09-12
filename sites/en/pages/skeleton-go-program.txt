@@ -11,7 +11,7 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/go/skeleton-go-program" youtube="SOkzm1fE7d0" />
+<screencast file="go/skeleton-go-program" youtube="SOkzm1fE7d0" />
 
 Find more via the <a href="https://code-maven.com/slides/golang">Golang slides</a>.
 
