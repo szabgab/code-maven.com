@@ -11,6 +11,6 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/en/git/download-and-install-git" youtube="T-2S0eI8Nh4" />
+<screencast file="en/git/download-and-install-git" youtube="T-2S0eI8Nh4" />
 
 

@@ -11,6 +11,6 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/en/git/why-use-a-version-control-system" youtube="kuEYCDZ20D8" />
+<screencast file="en/git/why-use-a-version-control-system" youtube="kuEYCDZ20D8" />
 
 
