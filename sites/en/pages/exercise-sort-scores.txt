@@ -15,7 +15,7 @@ See other <a href="/exercises">exercises</a>.
 
 =abstract end
 
-<slidecast file="/media/videos/beginner-perl/exercise-sort-scores" youtube="oba286a-F10" />
+<slidecast file="beginner-perl/exercise-sort-scores" youtube="oba286a-F10" />
 
 In this exercise you a file with scores. Each line has a name and a number (a score) separated by a comma.
 

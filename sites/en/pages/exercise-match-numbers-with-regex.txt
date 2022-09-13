@@ -23,7 +23,7 @@ As there might be several definitions of what a number is, you need to create se
   <li>In scientific notation. (something like this: 2.123e4 )</li>
 </ul>
 
-<slidecast file="/media/videos/beginner-perl/exercise-number" youtube="NB5_G3DLVRQ" />
+<slidecast file="beginner-perl/exercise-number" youtube="NB5_G3DLVRQ" />
 
 <h2>Tools</h2>
 <ul>

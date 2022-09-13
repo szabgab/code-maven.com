@@ -44,7 +44,7 @@ D     = 500
 M     = 1000
 </code>
 
-<slidecast file="/media/videos/beginner-perl/exercise-roman-numbers" youtube="0QI6QAZxNwg" />
+<slidecast file="beginner-perl/exercise-roman-numbers" youtube="0QI6QAZxNwg" />
 
 
 <h2>Tools</h2>

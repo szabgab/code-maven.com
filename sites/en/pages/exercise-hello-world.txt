@@ -14,7 +14,7 @@ First <a href="/exercises">exercise</a> - checking your environment.
 
 =abstract end
 
-<slidecast file="/media/videos/beginner-perl/exercise-hello-world" youtube="t2ria8wh6Dg" />
+<slidecast file="beginner-perl/exercise-hello-world" youtube="t2ria8wh6Dg" />
 
 Try your environment:
 

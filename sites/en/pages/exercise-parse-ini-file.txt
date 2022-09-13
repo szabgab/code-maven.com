@@ -13,7 +13,7 @@ Exercise: parse-ini-file
 
 =abstract end
 
-<slidecast file="/media/videos/beginner-perl/exercise-parse-ini-file" youtube="InGai4vtEhc" />
+<slidecast file="beginner-perl/exercise-parse-ini-file" youtube="InGai4vtEhc" />
 
 
 An INI or Config file looks like this:

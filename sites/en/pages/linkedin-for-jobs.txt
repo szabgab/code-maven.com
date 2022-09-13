@@ -11,7 +11,7 @@
 =abstract end
 
 
-<screencast file="/media/using-linkedin-to-find-a-job-webinar.mp4" youtube="bBEp48eqUL8" />
+<screencast file="using-linkedin-to-find-a-job-webinar.mp4" youtube="bBEp48eqUL8" />
 
 
 Relevant links:
