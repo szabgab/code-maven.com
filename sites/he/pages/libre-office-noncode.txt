@@ -10,7 +10,7 @@
 =abstract start
 =abstract end
 
-<screencast file="/media/he/hebrew-libreoffice-noncode-contribution" youtube="XZi4m4X_3wE" />
+<screencast file="he/hebrew-libreoffice-noncode-contribution" youtube="XZi4m4X_3wE" />
 
 
 <a href="https://code-maven.com/open-source-desktop-applications">Open Source Desktop Applications</a>

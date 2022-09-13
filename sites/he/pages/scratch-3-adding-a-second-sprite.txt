@@ -10,4 +10,4 @@
 =abstract end
 
 
-<screencast file="/media/he/scratch-hebrew-3" youtube="PftxeVLUBvI" />
+<screencast file="he/scratch-hebrew-3" youtube="PftxeVLUBvI" />

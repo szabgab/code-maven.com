@@ -10,5 +10,5 @@
 =abstract end
 
 
-<screencast file="/media/he/collab-dev/hebrew-edit-the-readme-file" youtube="AUA9uA8eYps" />
+<screencast file="he/collab-dev/hebrew-edit-the-readme-file" youtube="AUA9uA8eYps" />
 

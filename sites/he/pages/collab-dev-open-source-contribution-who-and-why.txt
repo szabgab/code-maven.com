@@ -14,5 +14,5 @@
 =abstract end
 
 
-<screencast file="/media/he/collab-dev/hebrew-open-source-contribution-who-and-why" youtube="YX3yA6o2YiQ" />
+<screencast file="he/collab-dev/hebrew-open-source-contribution-who-and-why" youtube="YX3yA6o2YiQ" />
 

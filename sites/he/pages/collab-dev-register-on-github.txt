@@ -13,5 +13,5 @@
 =abstract end
 
 
-<screencast file="/media/he/collab-dev/hebrew-register-on-github" youtube="YhiRYKLWUHs" />
+<screencast file="he/collab-dev/hebrew-register-on-github" youtube="YhiRYKLWUHs" />
 

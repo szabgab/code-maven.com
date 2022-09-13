@@ -14,5 +14,5 @@
     <li><a href="https://code-maven.com/slides/python/installation">התקנת פייתון</a></li>
 </ul>
 
-<screencast file="/media/pro/python/hebrew-installing-python" youtube="yUYfBOOabIY" />
+<screencast file="pro/python/hebrew-installing-python" youtube="yUYfBOOabIY" />
 
