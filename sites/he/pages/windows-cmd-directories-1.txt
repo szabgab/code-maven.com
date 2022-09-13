@@ -12,5 +12,5 @@
 <a href="https://code-maven.com/slides/windows-cmd/">slides</a>
 
 
-<screencast file="/media/he/windows/hebrew-windows-cmd-directories-1" youtube="V_esLytPXdc" />
+<screencast file="he/windows/hebrew-windows-cmd-directories-1" youtube="V_esLytPXdc" />
 

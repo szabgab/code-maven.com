@@ -17,6 +17,6 @@
 </ul>
 
 
-<screencast file="/media/hebrew-workshops" youtube="EEKe9yjUbO0" />
+<screencast file="hebrew-workshops" youtube="EEKe9yjUbO0" />
 
 

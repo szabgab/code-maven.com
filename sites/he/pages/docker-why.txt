@@ -12,7 +12,7 @@
 =abstract end
 
 
-<screencast file="/media/he/hebrew-docker-why" youtube="rxItsdH02Ds" />
+<screencast file="he/hebrew-docker-why" youtube="rxItsdH02Ds" />
 
 <ul>
     <li><a href="https://code-maven.com/">מביני קוד</a></li>

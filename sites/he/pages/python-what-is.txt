@@ -13,5 +13,5 @@
     <li><a href="https://code-maven.com/slides/python/what-is-python">מה זה פייתון</a></li>
 </ul>
 
-<screencast file="/media/he/python/hebrew-what-is-python" youtube="l2cOM-qCOo4" />
+<screencast file="he/python/hebrew-what-is-python" youtube="l2cOM-qCOo4" />
 
