@@ -20,7 +20,7 @@ Actually the format is called <a href="https://en.wikipedia.org/wiki/Abstract_Sy
 
 <include file="examples/data/snmp.txt">
 
-<slidecast file="/media/videos/beginner-perl/exercise-sort-snmp-numbers" youtube="CF92m6Y8CGQ" />
+<slidecast file="beginner-perl/exercise-sort-snmp-numbers" youtube="CF92m6Y8CGQ" />
 
 <h2>Tools</h2>
 

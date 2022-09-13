@@ -13,7 +13,7 @@ Exercise: Parse hours log file and create time report.
 
 =abstract end
 
-<slidecast file="/media/videos/beginner-perl/exercise-create-time-report" youtube="ICyJWvVAts4" />
+<slidecast file="beginner-perl/exercise-create-time-report" youtube="ICyJWvVAts4" />
 
 When I was running class-room Perl training courses I've was logging how my course progresses and created
 log files like this:

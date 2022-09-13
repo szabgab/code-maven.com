@@ -15,7 +15,7 @@ extend the previous exercise <a href="/exercise-analyze-apache-log-file-count-lo
 
 =abstract end
 
-<slidecast file="/media/videos/beginner-perl/exercise-improve-apache-analyzer" youtube="oQTSLam_-xE" />
+<slidecast file="beginner-perl/exercise-improve-apache-analyzer" youtube="oQTSLam_-xE" />
 
 The task is to write a scrip that will count how many requests came from each different IP address and then
 print them in descending order.

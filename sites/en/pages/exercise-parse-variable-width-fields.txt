@@ -13,7 +13,7 @@ Exercise: parse variable width fields
 
 =abstract end
 
-<slidecast file="/media/videos/beginner-perl/exercise-parse-variable-width-fields" youtube="6NoHj4sehWc" />
+<slidecast file="beginner-perl/exercise-parse-variable-width-fields" youtube="6NoHj4sehWc" />
 
 In this log file I got from some company, there are rows in which the first 16 and last 16 characters
 describe some kind of an addresses while everything in between describes several commands.
