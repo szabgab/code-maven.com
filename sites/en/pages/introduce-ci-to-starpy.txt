@@ -1,5 +1,5 @@
 =title Introduce Continuous Integration (CI) to the starpy Python project
-=timestamp 2021-01-01T07:30:01
+=timestamp 2022-09-13T14:30:01
 =indexes GitHub, GitHub Actions, CI, Python
 =tags screencast
 =status show
