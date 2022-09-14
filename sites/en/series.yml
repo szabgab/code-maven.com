@@ -482,7 +482,7 @@ git-on-windows:
         - getting-help-for-git
         - exercise-git-session-1
         - git-file-status
-        - pro/recording-changes-in-git
+        - cording-changes-in-git
 docker:
   chapters:
     - title: Docker Course

@@ -26,7 +26,7 @@ A video series where you can learn how to use Git on MS Windows.
    <li><a href="/getting-help-for-git">Getting help for git</a></li>
    <li><a href="/exercise-git-session-1">Exercise git session 1</a></li>
    <li><a href="/git-file-status">Git file status</a></li>
-   <li><a href="/pro/recording-changes-in-git">Recording changes in Git</a></li>
+   <li><a href="/recording-changes-in-git">Recording changes in Git</a></li>
 </ul>
 
 For more articles and videos check out the <a href="/git">Git</a> page.
