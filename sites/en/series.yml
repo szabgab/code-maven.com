@@ -651,3 +651,9 @@ materialize:
         - materialize-side-nav-vanilla-javascript
         - materialize-2-side-nav-vanilla-javascript
         - materialize-side-nav-with-hierarchy
+os:
+  chapters:
+    - title: OS
+      sub:
+        - introduce-ci-to-starpy
+        - fix-url-to-repository-glob-linters

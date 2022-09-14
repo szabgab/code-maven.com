@@ -1,0 +1,24 @@
+=title OS
+=timestamp 2022-09-14T13:15:01
+=indexes OS
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Videos on contributing to Open Source projects.
+
+=abstract end
+
+<ul>
+    <li><a href="/introduce-ci-to-starpy">Introduce Continuous Integration (CI) to the starpy Python project</a></li>
+    <li><a href="/fix-url-to-repository-glob-linters">Fix URL to repository of the glob-linters Python project</a></li>
+</ul>
+
+<!--
+    <li><a href=""></a></li>
+-->
+
