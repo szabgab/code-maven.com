@@ -520,7 +520,7 @@ go:
         - counter-using-go
     - title: Go course
       sub:
-        - pro/golang-getting-started-with-the-course
+        - golang-getting-started-with-the-course
         - pro/golang-why-use-go-the-features-of-golang
         - pro/golang-go-and-open-source
         - pro/golang-install-go-compiler
