@@ -77,7 +77,7 @@ videos contain parts from multiple chapters.
             <li>26:00 Open Source</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
+    <li><a href="/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
         <ul>
             <li>00:00 The beginning of the "First steps" chapter.</li>
             <li>00:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
