@@ -544,12 +544,12 @@ raku:
       sub:
         - raku-first-steps
         - raku-interactive
-programming-boootcamp-for-scientists:
+programming-bootcamp-for-scientists:
   chapters:
     - title: Bootcamp
       sub:
-        - programming-boootcamp-for-scientists-1
-        - programming-boootcamp-for-scientists-2
+        - programming-bootcamp-for-scientists-1
+        - programming-bootcamp-for-scientists-2
         - pro/programming-boootcamp-for-scientists-3
         - pro/programming-boootcamp-for-scientists-4
         - pro/programming-boootcamp-for-scientists-5
