@@ -521,7 +521,7 @@ go:
     - title: Go course
       sub:
         - golang-getting-started-with-the-course
-        - pro/golang-why-use-go-the-features-of-golang
+        - golang-why-use-go-the-features-of-golang
         - pro/golang-go-and-open-source
         - pro/golang-install-go-compiler
 jobs:

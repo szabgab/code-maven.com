@@ -1,0 +1,15 @@
+=title Go Course: Why use Go? The features of Golang
+=timestamp 2022-09-18T07:30:01
+=indexes Golang, GitHub
+=status show
+=books golang
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-golang-why-use-go-the-features-of-golang.mkv" youtube="uuRm7pIh5fs" />
