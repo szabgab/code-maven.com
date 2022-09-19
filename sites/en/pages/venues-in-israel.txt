@@ -1,13 +1,16 @@
 =title Free Meetup Spaces in Israel
 =timestamp 2019-01-01T07:30:01
 =indexes Meetup
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
 =embedded_ad 0
 
 =abstract start
+
+This page was created in 2019, long before COVID. Things have changed a lot since then.
+For one I don't organize events so I have not checked if anything is still relevant in this list.
 
 If you are an event organizer with a new group it might be tricky to find a good place for your gathering,
 but even if you already have a large group with a long history you might be interested
