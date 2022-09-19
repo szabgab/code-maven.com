@@ -1,7 +1,7 @@
 =title Bailador
 =timestamp 2020-01-01T07:30:01
 =indexes Bailador, Raku
-=status draft
+=status show
 =books raku
 =author szabgab
 =archive 1
@@ -9,10 +9,11 @@
 
 =abstract start
 
-Bailador is a light-weight web framework that is written in the <a href="/raku">Raku programming language</a>.
+<a href="https://github.com/bailador">Bailador</a> was a light-weight web framework that is written in the <a href="/raku">Raku programming language</a>.
 
-This pages is now a placeholder till I can move over all the content to this site.
+I contributed a bit to that project and created the web site of the project, but the project is not maintained any more and the website was shut down.
+
+In any case you can find the sources in the <a href="https://github.com/bailador">Bailador GitHub project</a>.
 
 =abstract end
-
 
