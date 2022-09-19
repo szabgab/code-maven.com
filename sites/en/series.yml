@@ -657,3 +657,4 @@ os:
       sub:
         - introduce-ci-to-starpy
         - fix-url-to-repository-glob-linters
+        - patch-rdfind-cpp-checksum
