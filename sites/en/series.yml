@@ -522,7 +522,7 @@ go:
       sub:
         - golang-getting-started-with-the-course
         - golang-why-use-go-the-features-of-golang
-        - pro/golang-go-and-open-source
+        - golang-go-and-open-source
         - pro/golang-install-go-compiler
 jobs:
   chapters:

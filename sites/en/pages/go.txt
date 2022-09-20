@@ -21,7 +21,7 @@
 <ul>
     <li><a href="/golang-getting-started-with-the-course">Getting started with the Golang course.</a></li>
     <li><a href="/golang-why-use-go-the-features-of-golang">Why use Go? The features of Golang.</a></li>
-    <li><a href="/pro/golang-go-and-open-source">Go and Open Source</a></li>
+    <li><a href="/golang-go-and-open-source">Go and Open Source</a></li>
     <li><a href="/pro/golang-install-go-compiler">Install the Go compiler</a></li>
 </ul>
 
