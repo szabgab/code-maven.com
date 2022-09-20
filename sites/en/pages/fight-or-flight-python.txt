@@ -16,7 +16,7 @@ What do you do now? Fight or flight? In this talk you will hear about a couple o
 
 =abstract end
 
-<iframe width="840" height="480" src="https://www.youtube.com/embed/z0XHW9nYpv8" frameborder="0" allowfullscreen></iframe>
+<iframe width="840" height="480" src="https://www.youtube.com/embed/3DVmalYSN0s" frameborder="0" allowfullscreen></iframe>
 
 <a href="http://pyvideo.org/pycon-israel-2016/fight-or-flight-dealing-with-real-world-applications-in-python.html">On PyVideo</a>
 
