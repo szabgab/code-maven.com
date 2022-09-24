@@ -16,6 +16,7 @@ Videos on contributing to Open Source projects.
 <ul>
     <li><a href="/introduce-ci-to-starpy">Introduce Continuous Integration (CI) to the starpy Python project</a></li>
     <li><a href="/fix-url-to-repository-glob-linters">Fix URL to repository of the glob-linters Python project</a></li>
+    <li><a href="/patch-rdfind-cpp-checksum">Patch rdfind, a C++ project, allowing the user to disable checksum comparision</a></li>
 </ul>
 
 <!--
