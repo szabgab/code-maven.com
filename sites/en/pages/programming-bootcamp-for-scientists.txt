@@ -100,7 +100,7 @@ videos contain parts from multiple chapters.
             <li>49:53 Exercise: Hello World</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-3">Part 3</a> (49:29 min)
+    <li><a href="/programming-bootcamp-for-scientists-3">Part 3</a> (49:29 min)
         <ul>
             <li>00:00 More in the "First steps" chapter</li>
             <li>00:47 Nóra had a couple of questions:</li>
