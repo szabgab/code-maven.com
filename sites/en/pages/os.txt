@@ -23,3 +23,13 @@ Videos on contributing to Open Source projects.
     <li><a href=""></a></li>
 -->
 
+<h2>How to find Open Source projects</h2>
+
+A few ideas on how to find projects to contribute to.
+
+<ul>
+   <li>Python: On <a href="https://pydigger.com/">PyDigger</a> find projects that have <a href="https://pydigger.com/search/has-github-no-ci">Link to GitHub, but no CI</a></li>
+   <li>Perl: The <a href="https://github.com/szabgab/CPAN-Digger">CPAN Digger</a> project has a script called bin/cpan-digger that can create a report with some logs of recently uploaded Perl modules.</li>
+   <li>In general: Visit the <a href="https://github.com/topics">Explore topics</a> page of GitHub, select a topic, select the language, sort by "Recently uploaded". In the list look for projects with few stars. They are probably the newer
+ones with less things already in place. For example this is the link for <a href="https://github.com/topics/go?l=go&o=desc&s=updated">Go</a></li>
+</ul>
