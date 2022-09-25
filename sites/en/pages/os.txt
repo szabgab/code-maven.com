@@ -19,6 +19,10 @@ Videos on contributing to Open Source projects.
     <li><a href="/patch-rdfind-cpp-checksum">Patch rdfind, a C++ project, allowing the user to disable checksum comparision</a></li>
 </ul>
 
+<ul>
+   <li><a href="https://perlmaven.com/enable-github-actions-on-chebyshev">Enable GitHub Actions on Math::Polynomial::Chebyshev Perl module</a></li>
+</ul>
+
 <!--
     <li><a href=""></a></li>
 -->
