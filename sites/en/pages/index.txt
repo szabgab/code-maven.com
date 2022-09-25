@@ -43,7 +43,7 @@ a better job with more satisfaction and higher salary.
 
 <div class="main-content">
 <ul>
-    <li><a href="/programming-boootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
+    <li><a href="/programming-bootcamp-for-scientists">Programming Bootcamp for Scientists</a></li>
     <li><a href="/exercises">Programming Exercises</a> for any language.</li>
     <li><a href="/rnd">R&D at $company</a> - interviews with engineering leaders</li>
     <li><a href="/cmos">CMOS</a> - Code-Maven Open Source podcast</li>

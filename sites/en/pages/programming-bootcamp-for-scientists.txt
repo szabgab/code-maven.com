@@ -1,4 +1,4 @@
-=title Programming Boootcamp for Scientists
+=title Programming Bootcamp for Scientists
 =timestamp 2020-08-11T16:20:01
 =indexes Bootcamp
 =status show
@@ -61,7 +61,7 @@ videos contain parts from multiple chapters.
 
 
 <ul>
-    <li><a href="/programming-boootcamp-for-scientists-1">Part 1</a> (27:51 min)
+    <li><a href="/programming-bootcamp-for-scientists-1">Part 1</a> (27:51 min)
         <ul>
             <li>00:00 Introduction to the Bootcamp.</li>
             <li>01:37 Nóra Doleschall introduces herself and her background in programming.</li>
@@ -77,7 +77,7 @@ videos contain parts from multiple chapters.
             <li>26:00 Open Source</li>
         </ul>
         </li>
-    <li><a href="/programming-boootcamp-for-scientists-2">Part 2</a> (50:12 min)
+    <li><a href="/programming-bootcamp-for-scientists-2">Part 2</a> (50:12 min)
         <ul>
             <li>00:00 The beginning of the "First steps" chapter.</li>
             <li>00:55 Python 2 vs. Python 3 - Why is it important to know about Python 2.</li>
@@ -120,7 +120,7 @@ videos contain parts from multiple chapters.
             <li>43:40 Value Types in Numpy, Binary (base 2) representation of numbers.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-4">Part 4</a> (10.01 min)
+    <li><a href="/pro/programming-bootcamp-for-scientists-4">Part 4</a> (10.01 min)
         <ul>
             <li>00:00 The end of the "First steps" chapter.</li>
             <li>01:20 Variables. Assignment. Multiplying numbers.</li>

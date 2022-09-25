@@ -20,7 +20,7 @@ What do you need to become a <a href="/backend-python-developer">Python programm
 <h2>Python Course</h2>
 
 <ul>
-   <li>The <a href="/programming-boootcamp-for-scientists">Programming Boootcamp for Scientists</a> covers the whole Basic Python programming course and subjects such as Numpy, Pandas and other scientific programming libraries.</li>
+   <li>The <a href="/programming-bootcamp-for-scientists">Programming Bootcamp for Scientists</a> covers the whole Basic Python programming course and subjects such as Numpy, Pandas and other scientific programming libraries.</li>
 </ul>
 
 
