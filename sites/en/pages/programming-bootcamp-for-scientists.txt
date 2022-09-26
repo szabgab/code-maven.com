@@ -120,7 +120,7 @@ videos contain parts from multiple chapters.
             <li>43:40 Value Types in Numpy, Binary (base 2) representation of numbers.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-bootcamp-for-scientists-4">Part 4</a> (10.01 min)
+    <li><a href="/programming-bootcamp-for-scientists-4">Part 4</a> (10.01 min)
         <ul>
             <li>00:00 The end of the "First steps" chapter.</li>
             <li>01:20 Variables. Assignment. Multiplying numbers.</li>
@@ -130,7 +130,7 @@ videos contain parts from multiple chapters.
             <li>08:23 Exercises: Calculations</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-5">Part 5</a> (43:33 min)
+    <li><a href="/programming-bootcamp-for-scientists-5">Part 5</a> (43:33 min)
         <ul>
             <li>00:00 Keyboard shortcuts for the slides</li>
             <li>01:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
