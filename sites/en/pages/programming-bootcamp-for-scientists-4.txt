@@ -14,6 +14,15 @@
 <screencast file="english-programming-bootcamp-4.mp4" youtube="4FEiFbk7hvg" />
 
 <ul>
+    <li>00:00 The end of the "First steps" chapter.</li>
+    <li>01:20 Variables. Assignment. Multiplying numbers.</li>
+    <li>03:20 Multiply two string. (Ctrl-g is used in many editors to go to a line-number)</li>
+    <li>05:50 Adding numbers together.</li>
+    <li>06:10 Adding strings together. (concatenation)</li>
+    <li>08:23 Exercises: Calculations</li>
+</ul>
+
+<ul>
    <li><a href="/slides/python">Python Slides</a></li>
 </ul>
 

@@ -14,6 +14,21 @@
 <screencast file="english-programming-bootcamp-1.mp4" youtube="gkPzMVi-_fc" />
 
 <ul>
+    <li>00:00 Introduction to the Bootcamp.</li>
+    <li>01:37 Nóra Doleschall introduces herself and her background in programming.</li>
+    <li>02:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
+    <li>08:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
+    <li>09:38 Showing the Windows command line and the file explorer</li>
+    <li>15:20 Keyboard shortcuts for the slides</li>
+    <li>16:48 Keyboard shortcuts on YouTube</li>
+    <li>17:37 Start talking about the slides</li>
+    <li>17:55 What is Python?</li>
+    <li>20:14 What is needed to write a program?</li>
+    <li>24:08 The source code of Python</li>
+    <li>26:00 Open Source</li>
+</ul>
+
+<ul>
    <li><a href="/slides/python">Python Slides</a></li>
 </ul>
 

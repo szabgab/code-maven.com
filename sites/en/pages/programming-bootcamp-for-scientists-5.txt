@@ -14,6 +14,19 @@
 <screencast file="english-programming-bootcamp-5.mp4" youtube="G4F8wTK-Be4" />
 
 <ul>
+    <li>00:00 Keyboard shortcuts for the slides</li>
+    <li>01:25 Reviewing the exercises from the previous chapter. Talking about operator precedence.</li>
+    <li>04:09 The math module of Python. Attributes and methods.</li>
+    <li>09:45 The Python interactive shell (REPL).</li>
+    <li>19:40 The beginning of the "Second steps" chapter up till "Conditional main".</li>
+    <li>19:55 Modules - the sys module, getsizeof.</li>
+    <li>30:00 The main function, indentation.</li>
+    <li>35:25 Can a function be named the same name as an already existing function?</li>
+    <li>37:10 Indentation</li>
+    <li>38:36 Conditional main (dunderscore) (error correction: those are quotations around "__main_"_ not parentheses.)</li>
+</ul>
+
+<ul>
    <li><a href="/slides/python">Python Slides</a></li>
 </ul>
 
