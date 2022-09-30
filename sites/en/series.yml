@@ -488,7 +488,7 @@ docker:
     - title: Docker Course
       sub:
         - docker-course-intro
-        - pro/docker-course-why-use-docker
+        - docker-course-why-use-docker
         - pro/docker-course-what-is-docker
         - pro/docker-course-container-vs-images
         - pro/docker-course-install-docker
