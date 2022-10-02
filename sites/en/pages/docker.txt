@@ -18,7 +18,7 @@ The <a href="/slides/docker/">slides of the Docker course</a>.
 <ol>
     <li><a href="/docker-course-intro">Introduction to the Docker Course</a></li>
     <li><a href="/docker-course-why-use-docker">Why use Docker?</a></li>
-    <li><a href="/pro/docker-course-what-is-docker">What is Docker?</a></li>
+    <li><a href="/docker-course-what-is-docker">What is Docker?</a></li>
     <li><a href="/pro/docker-course-container-vs-images">Docker container vs. image</a></li>
     <li><a href="/pro/docker-course-install-docker">Install Docker</a></li>
     <li><a href="/pro/docker-course-version-and-info">Docker version and info</a></li>

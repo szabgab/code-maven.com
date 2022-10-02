@@ -489,7 +489,7 @@ docker:
       sub:
         - docker-course-intro
         - docker-course-why-use-docker
-        - pro/docker-course-what-is-docker
+        - docker-course-what-is-docker
         - pro/docker-course-container-vs-images
         - pro/docker-course-install-docker
         - pro/docker-course-version-and-info
