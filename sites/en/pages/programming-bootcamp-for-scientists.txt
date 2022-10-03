@@ -166,7 +166,7 @@ videos contain parts from multiple chapters.
             <li>57:40 Learning Python the Hard way.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-7">Part 7</a> (44:19 min)
+    <li><a href="/programming-bootcamp-for-scientists-7">Part 7</a> (44:19 min)
         <ul>
             <li>00:00 Review of the previous chapter, answering questions raised during the previous video.</li>
             <li>00:50 Power of. About forgetting language constructs.</li>

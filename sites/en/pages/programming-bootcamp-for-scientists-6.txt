@@ -14,6 +14,27 @@
 <screencast file="english-programming-bootcamp-6.mp4" youtube="gTpTxjk1KIw" />
 
 <ul>
+    <li>00:00 "Second steps" starting at Input/Output till the exercises.</li>
+    <li>00:00 Input - Output I/O</li>
+    <li>05:23 print in Python 2</li>
+    <li>08:12 print in Python 3</li>
+    <li>13:00 from __future__ import print_function</li>
+    <li>14:57 Exception: SyntaxError: Missing parentheses in call</li>
+    <li>15:50 Prompting for user input in Python 2 (raw_input)</li>
+    <li>19:20 Prompting for user input in Python 3 (input)</li>
+    <li>26:01 Prompting in both Python 2 and Python 3.</li>
+    <li>28:45 Add numbers entered by the user.</li>
+    <li>32:30 How can I check if a string can be converted to a number?</li>
+    <li>37:26 Nóra pointing out the error in the previous example. Oups.</li>
+    <li>38:23 Converting string to int</li>
+    <li>41:49 Conditionals: if, else, elif</li>
+    <li>53:20 Ternary operator (Conditional Operator)</li>
+    <li>56:00 Case and switch in Python.</li>
+    <li>56:30 Exercises: Rectangle, Circle, Calculator</li>
+    <li>57:40 Learning Python the Hard way.</li>
+</ul>
+
+<ul>
    <li><a href="/slides/python">Python Slides</a></li>
 </ul>
 
