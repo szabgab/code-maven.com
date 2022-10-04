@@ -11,7 +11,7 @@
 =abstract start
 
 <a href="https://www.weizmann.ac.il/pages/search/people?language=english&single=1&person_id=31888">Shelley Klompus</a> a Phd Student at the
-<a href="https://www.weizmann.ac.il/">Weizmann Institue of Science</a> was one of my students in the <a href="/programming-boootcamp-for-scientists">Programming Bootcamp for Scientists</a>.
+<a href="https://www.weizmann.ac.il/">Weizmann Institue of Science</a> was one of my students in the <a href="/programming-bootcamp-for-scientists">Programming Bootcamp for Scientists</a>.
 
 In this video she discribes her project.
 

@@ -181,7 +181,7 @@ videos contain parts from multiple chapters.
             <li>43:20 Exercises: Rectangle, Calculator.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-8">Part 8</a> (55:40 min)
+    <li><a href="/programming-bootcamp-for-scientists-8">Part 8</a> (55:40 min)
         <ul>
             <li>00:00 Solutions of the Rectangle and Calculator exercises.</li>
             <li>03:30 Solution of Calculator with eval and why not to use eval.</li>

@@ -1,0 +1,19 @@
+=title Programming Bootcamp for Scientists #8
+=timestamp 2022-10-04T07:20:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-programming-bootcamp-8.mp4" youtube="ahpXJG3GbuE" />
+
+<ul>
+   <li><a href="/slides/python">Python Slides</a></li>
+</ul>
+
