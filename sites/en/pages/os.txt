@@ -21,7 +21,7 @@ Videos on contributing to Open Source projects.
 </ul>
 
 <ul>
-   <li><a href="https://perlmaven.com/enable-github-actions-on-chebyshev">Enable GitHub Actions on Math::Polynomial::Chebyshev Perl module</a></li>
+    <li>All the Perl-related projects, videos, and blog posts are on the <a href="https://perlmaven.com/os">Perl Maven web site</a></li>
 </ul>
 
 <!--
