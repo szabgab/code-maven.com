@@ -201,7 +201,7 @@ videos contain parts from multiple chapters.
             <li>52:28 Exercises: Number guessing game; Fruit salad</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-9">Part 9</a> (51:25 min)
+    <li><a href="/programming-bootcamp-for-scientists-9">Part 9</a> (51:25 min)
         <ul>
             <li>00:00 Intro to this video</li>
             <li>02:10 How to get MS Windows not to close the cmd when the program ends?</li>
