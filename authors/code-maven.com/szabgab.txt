@@ -9,6 +9,7 @@ He is also the author of a number of <a href="https://leanpub.com/u/szabgab">eBo
 <p>
 <a href="https://szabgab.com/contact.html">Contact Gabor</a> if you'd like to hire his services.
 <p>
-If you would like to support his freely available work, you can do it via
-<a href="https://www.patreon.com/szabgab">Patreon</a>.
+If you would like to <b>support</b> his freely available work, you can do it via
+<a href="https://www.patreon.com/szabgab">Patreon</a>, <a href="https://github.com/sponsors/szabgab/">GitHub</a>,
+or <a href="https://paypal.me/szabgab">PayPal</a>.
 
