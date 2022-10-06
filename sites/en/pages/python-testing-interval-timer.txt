@@ -1,5 +1,5 @@
 =title Testing interval-timer, a Python module
-=timestamp 2022-10-14T11:30:01
+=timestamp 2022-10-04T11:30:01
 =indexes pytest, time
 =tags screencast
 =status show
