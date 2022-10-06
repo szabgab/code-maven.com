@@ -226,7 +226,7 @@ videos contain parts from multiple chapters.
             <li>49:10 Exercises: compare numbers; compare strings</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
+    <li><a href="/programming-bootcamp-for-scientists-10">Part 10</a> (1:18:52 min)
         <ul>
             <li>00:00 Solution to compare numbers</li>
             <li>03:57 Solution to compare strings</li>
