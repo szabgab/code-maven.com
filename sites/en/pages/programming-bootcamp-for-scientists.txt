@@ -257,7 +257,7 @@ videos contain parts from multiple chapters.
             <li>1:16:45 Exercises</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-11">Part 11</a> (1:02:56 min)
+    <li><a href="/programming-bootcamp-for-scientists-11">Part 11</a> (1:02:56 min)
         <ul>
             <li>00:00 Solving the exercise: one string in another string.</li>
             <li>04:32 Solving the exercise: compare strings. Including Nóra finding a bug in my solution and fixing it.</li>
