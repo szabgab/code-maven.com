@@ -30,7 +30,7 @@ It can be listed, but I could not find a button for it.
 
 <h2>Pull requests for my repositories</h2>
 
-<b><a href="https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+user%3Aszabgab+">Pull requests for szabgab</a></b>
+<b><a href="https://github.com/pulls?utf8=%E2%9C%93&q=is%3Aopen+is%3Apr+user%3Aszabgab">Pull requests for szabgab</a></b>
 In this search I used the following terms: <hl>is:open is:pr user:szabgab</hl>. This lists all the open pull requests to any of the repositories
 owned by user szabgab.
 
