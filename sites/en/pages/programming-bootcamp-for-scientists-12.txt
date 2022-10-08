@@ -1,0 +1,27 @@
+=title Programming Bootcamp for Scientists #12
+=timestamp 2022-10-08T06:12:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-programming-bootcamp-12.mp4" youtube="mMpHc5Ol2LA" />
+
+        <ul>
+            <li>00:00 Nóra solves the exercises of the Loop chapter.</li>
+            <li>02:00 Solution for exercise: Print all the locations in a string</li>
+            <li>16:27 Solution for exercise: Number guessing game.</li>
+            <li>40:40 Solution for exercise: Count unique characters. (also using sets)</li>
+            <li>45:10 What is the difference between == and the "is" operator?</li>
+        </ul>
+
+<ul>
+   <li><a href="/slides/python">Python Slides</a></li>
+</ul>
+

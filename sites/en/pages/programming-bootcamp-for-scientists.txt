@@ -284,7 +284,7 @@ videos contain parts from multiple chapters.
             <li>52:25 Exercises.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-12">Part 12</a> (51:31 min)
+    <li><a href="/programming-bootcamp-for-scientists-12">Part 12</a> (51:31 min)
         <ul>
             <li>00:00 Nóra solves the exercises of the Loop chapter.</li>
             <li>02:00 Solution for exercise: Print all the locations in a string</li>
