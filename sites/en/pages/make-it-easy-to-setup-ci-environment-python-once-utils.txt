@@ -2,7 +2,7 @@
 =timestamp 2022-10-08T21:30:01
 =indexes GitHub
 =tags screencast
-=status draft
+=status show
 =books testing, python
 =author szabgab
 =archive 1
