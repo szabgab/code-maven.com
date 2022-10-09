@@ -61,6 +61,7 @@ So is the authors machine that much faster than mine? Should I be envy?
 I've added a GitHub Actions configuration file to run the tests using <b>python Tests.py</b> and pushed it out to my forked version of the repository.
 
 The tests failures looked like this:
+
 <img src="static/img/python-helper-ci-cancelled.png">
 
 that is, they failed on Ubuntu Linux on two different versions of Python and were cancelled on OSX and Windows.

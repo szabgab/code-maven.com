@@ -660,3 +660,4 @@ os:
         - patch-rdfind-cpp-checksum
         - python-testing-interval-timer
         - make-it-easy-to-setup-ci-environment-python-once-utils
+        - python-helper-let-all-ci-jobs-fail-separately
