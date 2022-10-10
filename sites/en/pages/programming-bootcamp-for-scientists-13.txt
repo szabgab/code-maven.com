@@ -1,0 +1,23 @@
+=title Programming Bootcamp for Scientists #13
+=timestamp 2022-10-10T08:13:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-programming-bootcamp-13.mp4" youtube="KOA3rGEwb18" />
+
+        <ul>
+            <li>00:00 Nóra solves the rest of the levels of the number guessing game in the Loops chapter.</li>
+        </ul>
+
+<ul>
+   <li><a href="/slides/python">Python Slides</a></li>
+</ul>
+
