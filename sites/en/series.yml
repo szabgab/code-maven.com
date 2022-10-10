@@ -661,3 +661,4 @@ os:
         - python-testing-interval-timer
         - make-it-easy-to-setup-ci-environment-python-once-utils
         - python-helper-let-all-ci-jobs-fail-separately
+        - python-automated-test-for-sssimp-simple-static-generator

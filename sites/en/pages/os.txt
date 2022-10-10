@@ -20,6 +20,7 @@ Videos on contributing to Open Source projects.
     <li><a href="/python-testing-interval-timer">Testing interval-timer, a Python module</a></li>
     <li><a href="/make-it-easy-to-setup-ci-environment-python-once-utils">Make it easy to setup CI environment - python (once-utils)</a></li>
     <li><a href="/python-helper-let-all-ci-jobs-fail-separately">Python helper: Let all CI jobs fail separately</a></li>
+    <li><a href="/python-automated-test-for-sssimp-simple-static-generator">Automated test for sssimp, a simple static site generator in Python</a></li>
 </ul>
 
 <ul>
