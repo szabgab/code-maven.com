@@ -1,4 +1,4 @@
-=title Automated test for sssimp, a simple static site generator in Python
+=title Automated tests for sssimp, a simple static site generator in Python
 =timestamp 2022-10-09T15:50:01
 =indexes GitHub, tests
 =description Creating test that are also documentation and a tutorial can be quite valuable
