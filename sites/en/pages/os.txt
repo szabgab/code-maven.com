@@ -21,6 +21,7 @@ Videos on contributing to Open Source projects.
     <li><a href="/make-it-easy-to-setup-ci-environment-python-once-utils">Make it easy to setup CI environment - python (once-utils)</a></li>
     <li><a href="/python-helper-let-all-ci-jobs-fail-separately">Python helper: Let all CI jobs fail separately</a></li>
     <li><a href="/python-automated-test-for-sssimp-simple-static-generator">Automated test for sssimp, a simple static site generator in Python</a></li>
+    <li><a href="/github-actions-for-golang-xhash">Add GitHub actions to the xhash project written in Go</a></li>
 </ul>
 
 <ul>
