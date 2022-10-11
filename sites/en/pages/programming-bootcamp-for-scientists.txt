@@ -298,7 +298,7 @@ videos contain parts from multiple chapters.
             <li>00:00 Nóra solves the rest of the levels of the number guessing game in the Loops chapter.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-14">Part 14</a> (1:01:23 min)
+    <li><a href="/programming-bootcamp-for-scientists-14">Part 14</a> (1:01:23 min)
         <ul>
             <li>00:00 Intro.</li>
             <li>01:14 Formatted Printing.</li>
