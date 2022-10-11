@@ -51,5 +51,6 @@ $(document).ready(function() {
     //show_bottom('If this article helped you, consider <a href="https://www.patreon.com/szabgab">supporting me</a> via my Patreon page!');
 
     //show_top('Are you interested to invest some money in the stock market, but don\'t want to waste time chasing data sources? Are you overwhelmed by the meaningless data dumps from the big web-sites? Try <a href=\"https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-top\">Torto.AI</a>.')
-    show_top('Are you interested to invest some money in the stock market? Try <a href=\"https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-top\">Torto.AI</a>.')
+    //show_top('Are you interested to invest some money in the stock market? Try <a href=\"https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-top\">Torto.AI</a>.')
+    show_bottom('For Software developers only: Are you interested to invest some money in the stock market? Try <a href=\"https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-bottom\">Torto.AI</a>.')
 })
