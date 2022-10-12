@@ -325,7 +325,7 @@ videos contain parts from multiple chapters.
             <li>56:59 split (divide strings, separate parts of a string).</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-15">Part 15</a> (32:56 min)
+    <li><a href="/programming-bootcamp-for-scientists-15">Part 15</a> (32:56 min)
         <ul>
             <li>00:00 Lists chapter from split till first exercises.</li>
             <li>00:50 for loop on lists (for in)</li>
