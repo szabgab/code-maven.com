@@ -1,0 +1,26 @@
+=title Programming Bootcamp for Scientists #16
+=timestamp 2022-10-13T07:30:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-programming-bootcamp-16.mp4" youtube="50BhcXHibCg" />
+
+        <ul>
+            <li>00:00 Nóra solving the exercises in the middle of the Lists chapter</li>
+            <li>01:00 Solution: Queue</li>
+            <li>07:10 Solution: Stack (Reverse Polish Calculator)</li>
+            <li>16:35 Solution: MasterMind</li>
+        </ul>
+
+<ul>
+   <li><a href="/slides/python">Python Slides</a></li>
+</ul>
+

@@ -348,7 +348,7 @@ videos contain parts from multiple chapters.
             <li>31:15 Exercise: MasterMind</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-16">Part 16</a> (24:13 min)
+    <li><a href="/programming-bootcamp-for-scientists-16">Part 16</a> (24:13 min)
         <ul>
             <li>00:00 Nóra solving the exercises in the middle of the Lists chapter</li>
             <li>01:00 Solution: Queue</li>
