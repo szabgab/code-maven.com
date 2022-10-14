@@ -356,7 +356,7 @@ videos contain parts from multiple chapters.
             <li>16:35 Solution: MasterMind</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-17">Part 17</a> (37:38 min)
+    <li><a href="/programming-bootcamp-for-scientists-17">Part 17</a> (37:38 min)
         <ul>
             <li>00:00 The second part of the Lists chapter.</li>
             <li>01:10 About debugging</li>

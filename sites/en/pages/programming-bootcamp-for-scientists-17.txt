@@ -1,0 +1,43 @@
+=title Programming Bootcamp for Scientists #17
+=timestamp 2022-10-14T08:17:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="english-programming-bootcamp-17.mp4" youtube="F8-2iSOfpbg" />
+
+        <ul>
+            <li>00:00 The second part of the Lists chapter.</li>
+            <li>01:10 About debugging</li>
+            <li>06:20 sort</li>
+            <li>07:30 sort numbers</li>
+            <li>08:57 sort mixed list</li>
+            <li>09:37 sort (key)</li>
+            <li>11:05 sort with sorted</li>
+            <li>14:15 range</li>
+            <li>15:56 Looping over index</li>
+            <li>18:25 Enumerate lists (go over lists using index-value pairs)</li>
+            <li>19:57 List operators</li>
+            <li>22:11 List of lists</li>
+            <li>24:36 List assignment</li>
+            <li>26:30 Tuples</li>
+            <li>28:00 Sort Tuples</li>
+            <li>30:00 Exercise: color selector menu</li>
+            <li>32:22 Exercise: count digits</li>
+            <li>33:15 Exercise: create list</li>
+            <li>34:00 Exercise: count words</li>
+            <li>34:47 Exercise: check if number is prime</li>
+            <li>35:00 Exercise: DNA sequencing</li>
+        </ul>
+
+<ul>
+   <li><a href="/slides/python">Python Slides</a></li>
+</ul>
+
