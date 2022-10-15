@@ -381,7 +381,7 @@ videos contain parts from multiple chapters.
             <li>35:00 Exercise: DNA sequencing</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
+    <li><a href="/programming-bootcamp-for-scientists-18">Part 18</a> (1:25:42 min)
         <ul>
             <li>00:00 Reviewing the exercises at the end of the lists chapter.</li>
             <li>01:23 Solution: color selector menu</li>
