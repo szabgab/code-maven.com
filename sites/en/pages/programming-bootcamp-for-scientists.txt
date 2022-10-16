@@ -393,7 +393,7 @@ videos contain parts from multiple chapters.
             <li>1:08:20 Solution: DNA sequencing</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
+    <li><a href="/programming-bootcamp-for-scientists-19">Part 19</a> (1:02:22 min)
         <ul>
             <li>00:00 The Files chapter</li>
             <li>00:45 File types: Text vs. Binary - Images, Excel files, text files</li>
