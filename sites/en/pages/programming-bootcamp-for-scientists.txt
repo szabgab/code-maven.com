@@ -423,7 +423,7 @@ videos contain parts from multiple chapters.
             <li>01:01:05 Exercise: combine lists</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-20">Part 20</a> (1:08:14 min)
+    <li><a href="/programming-bootcamp-for-scientists-20">Part 20</a> (1:08:14 min)
         <ul>
             <li>00:00 The solutions for the exercises in the files chapter</li>
             <li>01:20 Solution: count numbers</li>
