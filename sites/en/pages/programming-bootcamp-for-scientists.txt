@@ -435,7 +435,7 @@ videos contain parts from multiple chapters.
             <li>1:06:30 return from a function can return a value</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-21">Part 21</a> (52:04 min)
+    <li><a href="/programming-bootcamp-for-scientists-21">Part 21</a> (52:04 min)
         <ul>
             <li>00:00 Dictionaries</li>
             <li>00:40 Windows: mapping file extensions (.py) to an action in Windows File Explorer; The "where" command of Windows.</li>
