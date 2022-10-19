@@ -473,7 +473,7 @@ videos contain parts from multiple chapters.
             <li>50:40 Exercise: Age limit with dictionaries</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-22">Part 22</a> (42:42 min)
+    <li><a href="/programming-bootcamp-for-scientists-22">Part 22</a> (42:42 min)
         <ul>
             <li>00:00 Nóra solving the exercises from the Dictionaries chapter</li>
             <li>01:00 Solution: count characters</li>
