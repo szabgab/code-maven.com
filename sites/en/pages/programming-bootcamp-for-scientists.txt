@@ -486,7 +486,7 @@ videos contain parts from multiple chapters.
             <li>40:57 Solution: combine lists (combine files)</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-23">Part 23</a> (38:55 min)
+    <li><a href="/programming-bootcamp-for-scientists-23">Part 23</a> (38:55 min)
         <ul>
             <li>00:00 Nóra solving the exercises from the Dictionaries chapter</li>
             <li>00:25 Solution: DNA base counter</li>
