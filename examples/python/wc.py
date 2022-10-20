@@ -1,3 +1,4 @@
+import sys
 
 def wc(*filenames):
     results = {}
@@ -22,8 +23,7 @@ def wc(*filenames):
 
 
 if __name__ == '__main__':
-    import sys
-    if len(sys.argv) < 1:
+    if len(sys.argv) < 2:
         exit("Usage: {} FILENAMEs".format(sys.argv[0]))
     results = wc(*sys.argv[1:])
     totals = {
