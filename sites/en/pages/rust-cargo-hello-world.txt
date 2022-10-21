@@ -1,0 +1,49 @@
+=title Hello World with Rust and Cargo
+=timestamp 2022-10-21T13:00:01
+=indexes Rust
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this short video we'll see how to create a <b>Hello World!</b> program using the <a href="https://www.rust-lang.org/">Rust Programming language</a>
+and the <a href="https://doc.rust-lang.org/cargo/">Cargo</a> package manager.
+
+=abstract end
+
+Create a new project with the brilliant name "abcd"
+
+<code>
+cargo new abcd
+</code>
+
+<code>
+cd abcd
+</code>
+
+The directory layout:
+
+<code>
+.
+├── Cargo.toml
+└── src
+    └── main.rs
+</code>
+
+<include file="examples/rust/abcd/Cargo.toml">
+
+<include file="examples/rust/abcd/src/main.rs">
+
+Compile and run your program:
+
+<code>
+cargo run
+</code>
+
+
+<screencast file="rust-cargo-hello-world.mp4" youtube="_JNhVlHot4k" />
