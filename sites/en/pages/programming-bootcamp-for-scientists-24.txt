@@ -1,0 +1,33 @@
+=title Programming Bootcamp for Scientists #24
+=timestamp 2022-10-21T07:24:01
+=indexes Bootcamp
+=status show
+=author szabgab
+=tags screencast
+=archive 1
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+=abstract end
+
+<screencast file="english-programming-bootcamp-24.mp4" youtube="33G7jllE7Og" />
+
+        <ul>
+            <li>00:00 The sets chapter</li>
+            <li>02:45 Creating a set</li>
+            <li>05.00 Creating and empty set.</li>
+            <li>05:25 Adding element to a set. (add)</li>
+            <li>06:00 Merging one set into another set. (update)</li>
+            <li>09:23 intersection</li>
+            <li>10:38 subset</li>
+            <li>11:05 symmetric difference</li>
+            <li>11:40 union</li>
+            <li>12:44 What is the difference between union and update?</li>
+            <li>13:20 relative complement</li>
+        </ul>
+
+<ul>
+   <li><a href="/slides/python">Python Slides</a></li>
+</ul>
+

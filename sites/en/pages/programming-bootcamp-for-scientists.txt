@@ -497,7 +497,7 @@ videos contain parts from multiple chapters.
             <li>30:35 Y2K bug, Bug 2000, Year 2038 problem</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-24">Part 24</a> (16:12 min)
+    <li><a href="/programming-bootcamp-for-scientists-24">Part 24</a> (16:12 min)
         <ul>
             <li>00:00 The sets chapter</li>
             <li>02:45 Creating a set</li>
