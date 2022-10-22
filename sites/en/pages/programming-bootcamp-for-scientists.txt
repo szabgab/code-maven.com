@@ -512,7 +512,7 @@ videos contain parts from multiple chapters.
             <li>13:20 relative complement</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-25">Part 25</a> (1:17:23 min)
+    <li><a href="/programming-bootcamp-for-scientists-25">Part 25</a> (1:17:23 min)
         <ul>
             <li>00:00 The Functions chapter</li>
             <li>00:40 Why use functions?</li>
