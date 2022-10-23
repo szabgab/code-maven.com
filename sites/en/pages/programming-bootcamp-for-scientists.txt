@@ -542,7 +542,7 @@ videos contain parts from multiple chapters.
             <li>1:15:23 Exercise: Refactor earlier solutions to use functions.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-26">Part 26</a> (58:03 min)
+    <li><a href="/programming-bootcamp-for-scientists-26">Part 26</a> (58:03 min)
         <ul>
             <li>00:00 Solutions for the exercises in the Functions chapter</li>
             <li>00:40 Solution: Function returning Statistics</li>
