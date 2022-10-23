@@ -553,7 +553,7 @@ videos contain parts from multiple chapters.
             <li>31:50 Solution: Merge sort</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-27">Part 27</a> (50:39 min)
+    <li><a href="/programming-bootcamp-for-scientists-27">Part 27</a> (50:39 min)
         <ul>
             <li>00:00 The Modules chapter</li>
             <li>00:30 Goals of having modules</li>
