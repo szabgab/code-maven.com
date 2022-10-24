@@ -664,3 +664,25 @@ os:
         - python-automated-test-for-sssimp-simple-static-generator
         - github-actions-for-golang-xhash
         - github-actions-for-scale-ruby-project
+ci:
+  chapters:
+    - title: Generic CI-related
+      sub:
+        - ci-notification-strategy
+        - devop-and-automation-questions
+    - title: GitHub
+      sub:
+        - setting-up-ci-and-docker-for-course-management-app
+    - title: GitLab
+      sub:
+        - exploring-gitlab-ci
+        - gitlab-ci-job-building-docker-image
+        - gitlab-ci-testing-docker-image
+        - build-docker-image-in-gitlab-pipeline
+    - title: BitBucket
+      sub:
+        - limit-bitbucket-pipelines-to-specific-branches
+    - title: Travis-CI
+      sub:
+        - travis-ci-why-use-continuous-integration
+        - enable-travis-ci-for-continous-integration

@@ -40,10 +40,10 @@ Mostly configuring CI systems and adding automated tests.
 <h2>GitLab</h2>
 
 <ul>
+    <li><a href="/exploring-gitlab-ci">Exploring GitLab CI</a></li>
     <li><a href="/gitlab-ci-job-building-docker-image">GitLab CI job building a Docker image</a></li>
     <li><a href="/gitlab-ci-testing-docker-image">Testing a Docker image created by GitLab CI</a></li>
     <li><a href="/build-docker-image-in-gitlab-pipeline">Build Docker image in GitLab CI/CD pipeline</a></li>
-    <li><a href="/exploring-gitlab-ci">Exploring GitLab CI</a></li>
 </ul>
 
 <h2>BitBucket</h2>
