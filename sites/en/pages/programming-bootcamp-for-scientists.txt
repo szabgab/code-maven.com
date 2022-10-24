@@ -580,7 +580,7 @@ videos contain parts from multiple chapters.
             <li>48:14 Exercises: Convert the earlier solutions to be modules and programs.</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-28">Part 28</a> (28:01 min)
+    <li><a href="/programming-bootcamp-for-scientists-28">Part 28</a> (28:01 min)
         <ul>
             <li>00:00 CSV</li>
             <li>00:40 Reading CSV in the naive way (split)</li>
