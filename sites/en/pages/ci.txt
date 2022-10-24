@@ -1,0 +1,67 @@
+=title Continuous Integration (CI)
+=timestamp 2022-10-24T19:30:01
+=indexes CI
+=description Continuous Integration is one of the most valuable features you can add to your development process.
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Continuous Integration (commonly known as CI and usually talked about as part of a CI/CD pipeline) is one of the
+most valuable features you can add to your software development process. The major git-hosting platforms
+provide free, cloud-based CI running service, but there also various tools to set up in-house CI systems.
+
+I provide help to individuals and teams with training, techniques, and tools for test automation, CI, and CD.
+
+=abstract end
+
+I try to help Open Source projects with the same services. This is helped by my <a href="https://szabgab.com/support.html">supporters</a>.
+Both individuals and corporations.
+
+In a separates series you can read and watch small <a href="/os">contributions to Open Source projects</a>.
+Mostly configuring CI systems and adding automated tests.
+
+<h2>Generic CI-related</h2>
+
+<ul>
+    <li><a href="/ci-notification-strategy">CI notification strategy</a></li>
+    <li><a href="/devop-and-automation-questions">DevOps, CI/CD, and Automation assessment questions</a></li>
+</ul>
+
+<h2>GitHub</h2>
+
+<ul>
+    <li><a href="/setting-up-ci-and-docker-for-course-management-app">DevOps work - setting up CI and Docker for the course management project with Thomas Klausner</a></li>
+</ul>
+
+<h2>GitLab</h2>
+
+<ul>
+    <li><a href="/gitlab-ci-job-building-docker-image">GitLab CI job building a Docker image</a></li>
+    <li><a href="/gitlab-ci-testing-docker-image">Testing a Docker image created by GitLab CI</a></li>
+    <li><a href="/build-docker-image-in-gitlab-pipeline">Build Docker image in GitLab CI/CD pipeline</a></li>
+    <li><a href="/exploring-gitlab-ci">Exploring GitLab CI</a></li>
+</ul>
+
+<h2>BitBucket</h2>
+
+<ul>
+    <li><a href="/limit-bitbucket-pipelines-to-specific-branches">Limit Bitbucket pipelines to specific branches</a></li>
+</ul>
+
+<h2>Travis-CI</h2>
+
+Since writing these post Travis has stopped supporting Open Source projects free of charge.
+
+<ul>
+    <li><a href="/travis-ci-why-use-continuous-integration">Travis-CI: Why use Continuous Integration?</a></li>
+    <li><a href="/enable-travis-ci-for-continous-integration">Enable Travis-CI for Continuous Integration</a></li>
+</ul>
+
+<!--
+    <li><a href=""></a></li>
+-->
+
