@@ -1,0 +1,18 @@
+=title Statsd with Python
+=timestamp 2018-10-20T07:30:01
+=indexes Datadog, Statsd
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+
+=abstract start
+
+Sample scripts in Python to use statsd. See also <a href="https://perlmaven.com/statsd">Statsd with Perl</a>.
+
+=abstract end
+
+<include file="examples/statsd/datadog_demo.py">
+
+<include file="examples/statsd/statsd_demo.py">
+
