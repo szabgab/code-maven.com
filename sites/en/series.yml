@@ -491,7 +491,7 @@ docker:
         - docker-course-why-use-docker
         - docker-course-what-is-docker
         - docker-course-container-vs-images
-        - pro/docker-course-install-docker
+        - docker-course-install-docker
         - pro/docker-course-version-and-info
         - pro/docker-course-getting-help
         - pro/docker-course-host-daemon-client
