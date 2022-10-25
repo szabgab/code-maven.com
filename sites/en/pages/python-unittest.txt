@@ -14,7 +14,7 @@
 
 The test me
 
-<include file="pro/examples/python/ut/test_order.py">
+<include file="examples/python/ut/test_order.py">
 
 
 
@@ -85,7 +85,7 @@ the <hl>unittest</hl> framework. The purpose of any such helper method
 would be to call them from our test methods.
 (The dots are the regular output of <hl>unittest</hl>)
 
-<include file="pro/examples/python/ut/test_order_with_setup.py">
+<include file="examples/python/ut/test_order_with_setup.py">
 
 
 <code>
@@ -105,5 +105,5 @@ OK
 </code>
 
 
-<include file="pro/examples/python/ut/test_some.py">
+<include file="examples/python/ut/test_some.py">
 
