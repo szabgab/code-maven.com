@@ -492,7 +492,7 @@ docker:
         - docker-course-what-is-docker
         - docker-course-container-vs-images
         - docker-course-install-docker
-        - pro/docker-course-version-and-info
+        - docker-course-version-and-info
         - pro/docker-course-getting-help
         - pro/docker-course-host-daemon-client
         - pro/docker-course-docker-registry
