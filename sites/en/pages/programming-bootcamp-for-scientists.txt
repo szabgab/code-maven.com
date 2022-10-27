@@ -1,4 +1,4 @@
-title Programming Bootcamp for Scientists
+=title Programming Bootcamp for Scientists
 =timestamp 2020-08-11T16:20:01
 =indexes Bootcamp
 =status show
