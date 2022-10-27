@@ -1,4 +1,4 @@
-=title Programming Bootcamp for Scientists
+title Programming Bootcamp for Scientists
 =timestamp 2020-08-11T16:20:01
 =indexes Bootcamp
 =status show
@@ -594,7 +594,7 @@ videos contain parts from multiple chapters.
             <li>27:00 Exercise: CSV</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-29">Part 29</a> (27:51 min)
+    <li><a href="/programming-bootcamp-for-scientists-29">Part 29</a> (27:51 min)
         <ul>
             <li>00:00 Excel files</li>
             <li>00:44 Spreadsheets in general</li>
