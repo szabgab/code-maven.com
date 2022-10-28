@@ -610,7 +610,7 @@ videos contain parts from multiple chapters.
             <li>26:35 Exercises</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-30">Part 30</a> (1:08:29 min)
+    <li><a href="/programming-bootcamp-for-scientists-30">Part 30</a> (1:08:29 min)
         <ul>
             <li>00:00 Python Tk for GUI</li>
             <li>00:45 Python Tk Demo</li>
