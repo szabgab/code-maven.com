@@ -57,6 +57,7 @@ $(document).ready(function() {
         'Any investment in the stock market is partially based on objective data (e.g. P/E ratio) and partially on the subjective worldview of the investor (expected changes in inflation, politics, weather etc.) <a href="https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-bottom">torto.ai</a> works on providing you a platform where you can easily combine these aspects and find the investment that is most suitable for your expectations.',
     ];
 
-    let rnd = Math.floor(Math.random() * bottom.ads_length);
+    let rnd = Math.floor(Math.random() * bottom_ads.length);
+    console.log(rnd);
     show_bottom(bottom_ads[rnd]);
 })
