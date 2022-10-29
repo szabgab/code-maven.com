@@ -58,6 +58,6 @@ $(document).ready(function() {
     ];
 
     let rnd = Math.floor(Math.random() * bottom_ads.length);
-    console.log(rnd);
+    //console.log(rnd);
     show_bottom(bottom_ads[rnd]);
 })
