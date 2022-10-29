@@ -676,7 +676,7 @@ videos contain parts from multiple chapters.
             <li>58:34 Quantifiers</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-32">Part 32</a> (1:31:51 min)
+    <li><a href="/programming-bootcamp-for-scientists-32">Part 32</a> (1:31:51 min)
         <ul>
             <li>00:00 Regular Expressions (part II)</li>
             <li>00:35 Quantifier limit</li>
