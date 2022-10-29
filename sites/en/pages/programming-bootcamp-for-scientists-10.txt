@@ -1,4 +1,4 @@
-=title Python Programming Bootcamp for Scientists #10
+=title Programming Bootcamp for Scientists #10
 =timestamp 2022-10-06T09:40:01
 =indexes Bootcamp
 =status show
