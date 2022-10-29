@@ -645,7 +645,7 @@ videos contain parts from multiple chapters.
             <li>1:04:30 Update the Text widget in the Demo</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-31">Part 31</a> (1:00:58 min)
+    <li><a href="/programming-bootcamp-for-scientists-31">Part 31</a> (1:00:58 min)
         <ul>
             <li>00:00 Regular Expressions (part I)</li>
             <li>01:10 What are regexes?</li>
