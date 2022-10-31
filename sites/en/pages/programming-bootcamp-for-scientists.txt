@@ -705,7 +705,7 @@ videos contain parts from multiple chapters.
             <li>1:26:20 Exercises</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-33">Part 33</a> (1:00:17 min)
+    <li><a href="/programming-bootcamp-for-scientists-33">Part 33</a> (1:00:17 min)
         <ul>
             <li>00:00 Solutions of exercises in Regular Expressions</li>
             <li>01:50 Solutions for Regexes Part 1</li>
