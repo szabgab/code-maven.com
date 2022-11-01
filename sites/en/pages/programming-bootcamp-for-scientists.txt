@@ -720,7 +720,7 @@ videos contain parts from multiple chapters.
             <li>55:05 Solution: Match phone numbers</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-34">Part 34</a> (1:00:34 min)
+    <li><a href="/programming-bootcamp-for-scientists-34">Part 34</a> (1:00:34 min)
         <ul>
             <li>00:00 PyCharm</li>
             <li>01:15 Download and Install PyCharm</li>
