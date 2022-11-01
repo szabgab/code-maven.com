@@ -18,7 +18,7 @@
             <li>00:44 Spreadsheets in general</li>
             <li>01:35 Python Excel</li>
             <li>03:12 Created an Excel file from scratch (openpyxl)</li>
-            <li>06:65 Installing a module using pip</li>
+            <li>06:55 Installing a module using pip</li>
             <li>10:10 Worksheets in Excel</li>
             <li>12:55 Color Selector</li>
             <li>14:35 Add expression to Excel</li>

@@ -501,7 +501,7 @@ videos contain parts from multiple chapters.
         <ul>
             <li>00:00 The sets chapter</li>
             <li>02:45 Creating a set</li>
-            <li>05.00 Creating and empty set.</li>
+            <li>05:00 Creating and empty set.</li>
             <li>05:25 Adding element to a set. (add)</li>
             <li>06:00 Merging one set into another set. (update)</li>
             <li>09:23 intersection</li>
@@ -600,7 +600,7 @@ videos contain parts from multiple chapters.
             <li>00:44 Spreadsheets in general</li>
             <li>01:35 Python Excel</li>
             <li>03:12 Created an Excel file from scratch (openpyxl)</li>
-            <li>06:65 Installing a module using pip</li>
+            <li>06:55 Installing a module using pip</li>
             <li>10:10 Worksheets in Excel</li>
             <li>12:55 Color Selector</li>
             <li>14:35 Add expression to Excel</li>
@@ -730,7 +730,7 @@ videos contain parts from multiple chapters.
             <li>13:33 Installing Python packages using PyCharm</li>
             <li>15:08 Opening file</li>
             <li>15:50 PEP 8 complaining</li>
-            <li>18.05 requirements.txt and PyCharm offering to install dependencies</li>
+            <li>18:05 requirements.txt and PyCharm offering to install dependencies</li>
             <li>19:20 Edit file, Run program</li>
             <li>20:15 Terminal in PyCharm</li>
             <li>20:32 Open a second file, Run program</li>

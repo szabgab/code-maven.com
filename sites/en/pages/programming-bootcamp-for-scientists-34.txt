@@ -22,7 +22,7 @@
             <li>13:33 Installing Python packages using PyCharm</li>
             <li>15:08 Opening file</li>
             <li>15:50 PEP 8 complaining</li>
-            <li>18.05 requirements.txt and PyCharm offering to install dependencies</li>
+            <li>18:05 requirements.txt and PyCharm offering to install dependencies</li>
             <li>19:20 Edit file, Run program</li>
             <li>20:15 Terminal in PyCharm</li>
             <li>20:32 Open a second file, Run program</li>
