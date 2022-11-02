@@ -779,7 +779,7 @@ videos contain parts from multiple chapters.
             <li>45:17 Rounding datetime object to nearest second</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-36">Part 36</a> (35:00 min)
+    <li><a href="/programming-bootcamp-for-scientists-36">Part 36</a> (35:00 min)
         <ul>
             <li>00:00 Testing Demo - What is testing? Why would you want to write tests?</li>
             <li>04:36 How do you test your code?</li>
