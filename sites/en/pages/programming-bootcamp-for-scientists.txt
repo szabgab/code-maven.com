@@ -749,7 +749,7 @@ videos contain parts from multiple chapters.
             <li>57:15 Refactoring: Extract method</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-35">Part 35</a> (47:13 min)
+    <li><a href="/programming-bootcamp-for-scientists-35">Part 35</a> (47:13 min)
         <ul>
             <li>00:00 Standard module (standard packages) (slides changed a lot since video recording)</li>
             <li>00:42 Some standard packages</li>
