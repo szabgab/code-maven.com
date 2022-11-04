@@ -801,7 +801,7 @@ videos contain parts from multiple chapters.
             <li>31:23 Exercise: Write test for your previous solutions</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-37">Part 37</a> (19:53 min)
+    <li><a href="/programming-bootcamp-for-scientists-37">Part 37</a> (19:53 min)
         <ul>
             <li>00:00 SciPy - for Scientific Computing in Python</li>
             <li>01:20 SciPy</li>
