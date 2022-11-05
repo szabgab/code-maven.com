@@ -916,7 +916,7 @@ videos contain parts from multiple chapters.
             <li>57:25 Exercise: Pandas (incl. Kaggle)</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-42">Part 42</a> (1:02:39 min)
+    <li><a href="programming-bootcamp-for-scientists-42">Part 42</a> (1:02:39 min)
         <ul>
             <li>00:00 Jupyter notebook</li>
             <li>01:27 Installing Jupyter</li>
