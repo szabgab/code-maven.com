@@ -935,7 +935,7 @@ videos contain parts from multiple chapters.
             <li>31:00 How can we see when a piece of code is running? (The star)</li>
             <li>33:40 Seaborn (sns) example</li>
             <li>36:09 SatckOverflow (skipping)</li>
-            <li>37.54 scipy.ipynb (showing and changing an image)</li>
+            <li>37:54 scipy.ipynb (showing and changing an image)</li>
             <li>45:08 Create random image </li>
             <li>45:43 Load image using OpenCV</li>
             <li>52:10 Do you usually use multiple editors or just a single editor?</li>
