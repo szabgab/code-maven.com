@@ -886,7 +886,7 @@ videos contain parts from multiple chapters.
             <li>1:04:45 Software Development methods</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-41">Part 41</a> (1:01:53 min)
+    <li><a href="/programming-bootcamp-for-scientists-41">Part 41</a> (1:01:53 min)
         <ul>
             <li>00:00 Pandas - Python Data Analysis Library</li>
             <li>01:10 Datasets in use (Planets, Stack Overflow Survey data)</li>
