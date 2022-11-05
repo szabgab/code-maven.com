@@ -862,7 +862,7 @@ videos contain parts from multiple chapters.
             <li>38:50 uint, int - showing data overflow</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-40">Part 40</a> (1:11:05 min)
+    <li><a href="/programming-bootcamp-for-scientists-40">Part 40</a> (1:11:05 min)
         <ul>
             <li>00:00 <a href="https://code-maven.com/slides/programming/">Programming intro</a></li>
             <li>02:00 Types of Software</li>
