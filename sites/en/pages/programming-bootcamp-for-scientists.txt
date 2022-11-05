@@ -818,7 +818,7 @@ videos contain parts from multiple chapters.
             <li>17:38 Octave and why Open Source can be better than Matlab</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-38">Part 38</a> (37:04 min)
+    <li><a href="/programming-bootcamp-for-scientists-38">Part 38</a> (37:04 min)
         <ul>
             <li>00:00 Biology</li>
             <li>00:50 BioPython</li>
