@@ -831,7 +831,7 @@ videos contain parts from multiple chapters.
             <li>33:14 Chemistry</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-boootcamp-for-scientists-39">Part 39</a> (42:46 min)
+    <li><a href="/programming-bootcamp-for-scientists-39">Part 39</a> (42:46 min)
         <ul>
             <li>00:00 Numpy</li>
             <li>00:44 What is Numpy?</li>
