@@ -1,0 +1,24 @@
+=title Docker course: getting help
+=timestamp 2022-11-07T15:41:01
+=indexes Docker
+=tags screencast
+=status show
+=books docker
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+=abstract end
+
+<screencast file="english-docker-course-getting-help.mkv" youtube="m270lPL8eaw" />
+
+<ul>
+    <li><a href="https://code-maven.com/slides/docker/">Slides</a></li>
+    <li><a href="https://code-maven.com/slides/docker/docker-help-cli">Getting help with Docker</a></li>
+    <li><a href="https://github.com/szabgab/slides">Source of slides on GitHub</a></li>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+

@@ -493,7 +493,7 @@ docker:
         - docker-course-container-vs-images
         - docker-course-install-docker
         - docker-course-version-and-info
-        - pro/docker-course-getting-help
+        - docker-course-getting-help
         - pro/docker-course-host-daemon-client
         - pro/docker-course-docker-registry
         - pro/docker-course-hello-world
