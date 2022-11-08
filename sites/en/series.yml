@@ -494,7 +494,7 @@ docker:
         - docker-course-install-docker
         - docker-course-version-and-info
         - docker-course-getting-help
-        - pro/docker-course-host-daemon-client
+        - docker-course-host-daemon-client
         - pro/docker-course-docker-registry
         - pro/docker-course-hello-world
         - pro/docker-course-busybox
