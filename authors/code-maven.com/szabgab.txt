@@ -2,7 +2,7 @@ Gábor who writes the articles of the Code Maven site offers <a href="/courses">
 that are discussed on this web site.
 <p>
 Gábor helps companies set up <b>test automation</b>, CI/CD
-<b>Continuous Integration</b> and <b>Continuous Deployment</b> and other <b>DevOps</b> related
+<b>Continuous Integration</b> and <b>Continuous Delivery</b> and other <b>DevOps</b> related
 systems. Gabor can help your team improve the development speed and reduce the risk of bugs.
 <p>
 He is also the author of a number of <a href="https://leanpub.com/u/szabgab">eBooks</a>.
