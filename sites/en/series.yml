@@ -497,7 +497,7 @@ docker:
         - docker-course-host-daemon-client
         - docker-course-docker-registry
         - docker-course-hello-world
-        - pro/docker-course-busybox
+        - docker-course-busybox
         - pro/docker-course-busybox-part-2
         - pro/docker-course-exercise-1
     - title: Create Docker Image
