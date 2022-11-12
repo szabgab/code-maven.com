@@ -498,7 +498,7 @@ docker:
         - docker-course-docker-registry
         - docker-course-hello-world
         - docker-course-busybox
-        - pro/docker-course-busybox-part-2
+        - docker-course-busybox-part-2
         - pro/docker-course-exercise-1
     - title: Create Docker Image
       sub:
