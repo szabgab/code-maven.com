@@ -499,7 +499,7 @@ docker:
         - docker-course-hello-world
         - docker-course-busybox
         - docker-course-busybox-part-2
-        - pro/docker-course-exercise-1
+        - docker-course-exercise-1
     - title: Create Docker Image
       sub:
         - pro/docker-course-docker-hub

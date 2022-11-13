@@ -28,7 +28,7 @@ The <a href="/slides/docker/">slides of the Docker course</a>.
     <li><a href="/docker-course-hello-world">Docker Hello World</a></li>
     <li><a href="/docker-course-busybox">Docker busybox</a></li>
     <li><a href="/docker-course-busybox-part-2">Docker busybox part 2</a></li>
-    <li><a href="/pro/docker-course-exercise-1">Docker Exercise 1</a></li>
+    <li><a href="/docker-course-exercise-1">Docker Exercise 1</a></li>
 </ol>
 
 <ol>
