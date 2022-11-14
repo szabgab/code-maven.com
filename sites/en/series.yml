@@ -502,7 +502,7 @@ docker:
         - docker-course-exercise-1
     - title: Create Docker Image
       sub:
-        - pro/docker-course-docker-hub
+        - docker-course-docker-hub
         - pro/docker-course-use-ubuntu-docker-image
         - pro/docker-course-create-image-from-container
         - pro/docker-course-create-image-using-dockerfile
