@@ -503,7 +503,7 @@ docker:
     - title: Create Docker Image
       sub:
         - docker-course-docker-hub
-        - pro/docker-course-use-ubuntu-docker-image
+        - docker-course-use-ubuntu-docker-image
         - pro/docker-course-create-image-from-container
         - pro/docker-course-create-image-using-dockerfile
         - pro/docker-course-ubuntu-htop
