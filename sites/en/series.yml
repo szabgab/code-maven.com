@@ -504,7 +504,7 @@ docker:
       sub:
         - docker-course-docker-hub
         - docker-course-use-ubuntu-docker-image
-        - pro/docker-course-create-image-from-container
+        - docker-course-create-image-from-container
         - pro/docker-course-create-image-using-dockerfile
         - pro/docker-course-ubuntu-htop
         - pro/docker-course-copy-welcome
