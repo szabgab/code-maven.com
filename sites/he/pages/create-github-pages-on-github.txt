@@ -18,11 +18,11 @@
 <screencast file="hebrew-creating-github-pages-directly-on-github.mkv" youtube="zcjz9zr-Sx0" />
 
 
-<include file="cm-demo.github.io/README.md">
+<include file="examples/cm-demo.github.io/README.md">
 
-<include file="cm-demo.github.io/docs/index.md">
+<include file="examples/cm-demo.github.io/docs/index.md">
 
-<include file="cm-demo.github.io/docs/about.md">
+<include file="examples/cm-demo.github.io/docs/about.md">
 
-<include file="cm-demo.github.io/docs/_config.yml">
+<include file="examples/cm-demo.github.io/docs/_config.yml">
 
