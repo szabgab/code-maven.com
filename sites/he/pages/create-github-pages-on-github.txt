@@ -1,0 +1,28 @@
+=title יצירת אתר אינטרנט בעזרת גיטהב
+=timestamp 2022-11-18T17:30:01
+=indexes GitHub
+=tags screencast
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+גם לאנשים ללא ניסיון בתכנות, בגיט או ביצירת אתרים.
+
+=abstract end
+
+<screencast file="hebrew-creating-github-pages-directly-on-github.mkv" youtube="zcjz9zr-Sx0" />
+
+
+<include file="cm-demo.github.io/README.md">
+
+<include file="cm-demo.github.io/docs/index.md">
+
+<include file="cm-demo.github.io/docs/about.md">
+
+<include file="cm-demo.github.io/docs/_config.yml">
+
