@@ -1,0 +1,29 @@
+=title Reporting issues on GitHub (for Perl Advent)
+=timestamp 2022-11-20T08:30:01
+=indexes GitHub
+=tags screencast
+=status draft
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://github.com/">GitHub</a> is used by many Open Source projects and corporations. In this video you can see
+how to report issues (bug, errors) with an Open Source project. We happen to look at the web site of a Perl-based project,
+but the same thing is relevant for any Open Source project and also any in-hous project that uses GitHub.
+
+=abstract end
+
+<screencast file="reporting-issues-on-github-for-perladvent.mp4" youtube="6FuiM_e5Qlg" />
+
+<ul>
+    <li><a href="https://metacpan.org/">MetaCPAN</a></li>
+    <li><a href="https://perladvent.org/">Perl Advent</a></li>
+    <li><a href="https://github.com/perladvent/Perl-Advent">Perl Advent on GitHub</a></li>
+    <li>Is it down for me?</li>
+    <li><a href="https://www.whatsmydns.net/">What is My DNS</a></li>
+</ul>
+
