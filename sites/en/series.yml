@@ -508,7 +508,7 @@ docker:
         - docker-course-create-image-using-dockerfile
         - docker-course-ubuntu-htop
         - docker-course-copy-welcome
-        - pro/docker-course-install-curl
+        - docker-course-install-curl
         - pro/docker-course-entrypoint-vs-cmd
         - pro/docker-course-crontab
         - pro/docker-course-mounting-host-directory
