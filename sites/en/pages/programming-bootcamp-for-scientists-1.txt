@@ -15,7 +15,7 @@
 
 <ul>
     <li>00:00 Introduction to the Bootcamp.</li>
-    <li>01:37 Nóra Doleschall introduces herself and her background in programming.</li>
+    <li>01:37 <a href="https://www.linkedin.com/in/nora-doleschall/">Nóra Doleschall</a> introduces herself and her background in programming.</li>
     <li>02:47 Overview of the Bootcamp. (Programming Python, Computer architecture, Version Control System)</li>
     <li>08:04 About <a href="/">Code-Maven</a>, all the <a href="/slides">slides</a>, the <a href="/slides/python">Python slides</a>.</li>
     <li>09:38 Showing the Windows command line and the file explorer</li>
