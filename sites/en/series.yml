@@ -509,7 +509,7 @@ docker:
         - docker-course-ubuntu-htop
         - docker-course-copy-welcome
         - docker-course-install-curl
-        - pro/docker-course-entrypoint-vs-cmd
+        - docker-course-entrypoint-vs-cmd
         - pro/docker-course-crontab
         - pro/docker-course-mounting-host-directory
 go:
