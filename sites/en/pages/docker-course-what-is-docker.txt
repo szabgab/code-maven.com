@@ -25,7 +25,7 @@ I am jumping right to the current slide which is quite short. The question: <a h
 Usually people who create a slide like this to talk about the subject, put an image of a container on it because they talk about containerization
 so Docker, ....
 
-If you are familiar with Virtual Server then Docker is basically a light-weight Virtual Server (VirtialBox).
+If you are familiar with Virtual Server then Docker is basically a light-weight Virtual Server (VirtualBox).
 
 It is described as a container. It is something you can put into stuff, your software basically.
 You put in different pieces of your software, your libraries, your code and so on.
