@@ -510,7 +510,7 @@ docker:
         - docker-course-copy-welcome
         - docker-course-install-curl
         - docker-course-entrypoint-vs-cmd
-        - pro/docker-course-crontab
+        - docker-course-crontab
         - pro/docker-course-mounting-host-directory
 go:
   chapters:
