@@ -511,7 +511,7 @@ docker:
         - docker-course-install-curl
         - docker-course-entrypoint-vs-cmd
         - docker-course-crontab
-        - pro/docker-course-mounting-host-directory
+        - docker-course-mounting-host-directory
 go:
   chapters:
     - title: Go
