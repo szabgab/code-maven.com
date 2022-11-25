@@ -15,7 +15,7 @@ This part of the <a href="https://courses.code-maven.com/p/functional-programmin
 =abstract end
 
 <ul>
-    <li><a href="pro/python-functional-programming-introduction">Introduction</a></li>
+    <li><a href="python-functional-programming-introduction">Introduction</a></li>
     <li><a href="pro/python-functional-programming-iterables">Iterators and iterables</a></li>
     <li><a href="pro/python-functional-programming-map">map</a></li>
     <li><a href="pro/python-functional-programming-lambda">lambda</a></li>

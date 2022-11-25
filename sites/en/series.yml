@@ -594,7 +594,7 @@ python-functional-programming:
   chapters:
     - title: Course
       sub:
-        - pro/python-functional-programming-introduction
+        - python-functional-programming-introduction
         - pro/python-functional-programming-iterables
         - pro/python-functional-programming-map
         - pro/python-functional-programming-lambda
