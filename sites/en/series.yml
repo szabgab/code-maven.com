@@ -595,7 +595,7 @@ python-functional-programming:
     - title: Course
       sub:
         - python-functional-programming-introduction
-        - pro/python-functional-programming-iterables
+        - python-functional-programming-iterables
         - pro/python-functional-programming-map
         - pro/python-functional-programming-lambda
         - pro/python-functional-programming-map-2

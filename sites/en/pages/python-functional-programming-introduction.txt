@@ -63,7 +63,7 @@ The language using this paradigm that you are most familiar with is probably <a 
 <a href="https://code-maven.com/slides/python/functional-programming">Functional programming</a> has several features:
 
 
-<b>immutability</b> - Python has a number of data-type that are immutable. For example strings and tuples.</li>
+<b>immutability</b> - Python has a number of data-type that are immutable. For example strings and tuples.
 
 The problem with variable is that they change. Well, they name indicates that, but apparently it is also a source of a lot of bugs.
 
