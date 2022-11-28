@@ -18,7 +18,7 @@
     <li><a href="python-functional-programming-introduction">Introduction</a></li>
     <li><a href="python-functional-programming-iterables">Iterators and iterables</a></li>
     <li><a href="python-functional-programming-map">map</a></li>
-    <li><a href="pro/python-functional-programming-lambda">lambda</a></li>
+    <li><a href="python-functional-programming-lambda">lambda</a></li>
     <li><a href="pro/python-functional-programming-map-2">map again</a></li>
     <li><a href="pro/python-functional-programming-exercises-1">Exercises 1</a></li>
     <li><a href="pro/python-functional-programming-solutions-1">Solutions 1</a></li>

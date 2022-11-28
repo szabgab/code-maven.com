@@ -597,7 +597,7 @@ python-functional-programming:
         - python-functional-programming-introduction
         - python-functional-programming-iterables
         - python-functional-programming-map
-        - pro/python-functional-programming-lambda
+        - python-functional-programming-lambda
         - pro/python-functional-programming-map-2
         - pro/python-functional-programming-exercises-1
         - pro/python-functional-programming-solutions-1
