@@ -55,7 +55,7 @@ In programming if you overwrite a file with some changes your editor might have 
 
 Using a version control system a programmer could do any experiment and safely know that s/he can go back to an earlier state, an earlier version of the code.
 
-<h3>Fearless deletition</h3>
+<h3>Fearless deletion</h3>
 
 In many cases I see people keep around old code saying: ok maybe we'll need it at some point. Currently we are not using this code but maybe some day
 need to copy-paste from it or maybe literally we'll need to use it, so we don't delete it.
