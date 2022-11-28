@@ -20,12 +20,12 @@ Almost everyone uses version control even if they don't use a real version contr
 
 Most people will save versions of whatever they are working on.
 For example if they work on a file called <b>wedding_vows.doc</b> at one point they might save it
-as <b>wedding_vows_1.doc</b> and then when the get divroced and marry again they might update the original file
+as <b>wedding_vows_1.doc</b> and then when they get divorced and marry again they might update the original file
 and now create a copy called <b>wedding_vows_2.doc</b>.
 
 Then they go on and an have <b>wedding_vows_3.doc</b> etc.
 
-If they have multiple files then maybe the create a copy of all the files and put them in directorise called "wedding_1" and "wedding_2".
+If they have multiple files then maybe the create a copy of all the files and put them in directories called "wedding_1" and "wedding_2".
 
 Some other people, instead of numbering the versions they attach the current date to it. So they would have a file called
 <b>wedding_vows_2013_01_07.doc</b> or a folder called <b>wedding_2013_01_07</b>.
@@ -39,7 +39,7 @@ Then this home-made version control can easily get out of control.
 
 Why reinvent the wheel if there are already excellent open source version control systems? Such as git?
 
-<h2>Advantages of haveing a Version Control System (VCS)</h2>
+<h2>Advantages of having a Version Control System (VCS)</h2>
 
 There a number of advantages using a well-known VCS.
 
@@ -51,7 +51,7 @@ One of them is that if you'd like someone else to start working on your project 
 If you are a chemist and you combine two materials, in most cases you cannot go back and separate them again.
 If you are doctor and cut of a part of a patient in the hope that it will solve the problem the patient has, you cannot go back. You cannot undo it.
 
-In programming if you overwrite a file with some changes your editor might have an undo functionality, but it is usually very limited in its hisotory.
+In programming if you overwrite a file with some changes your editor might have an undo functionality, but it is usually very limited in its history.
 
 Using a version control system a programmer could do any experiment and safely know that s/he can go back to an earlier state, an earlier version of the code.
 
@@ -65,7 +65,7 @@ Then you accumulate a lot of, well, basically garbage.
 Code that's not used that not only takes up space and compilation time, but take up a lot of brain cycles (mental energy)
 when someone actually read you code an encounters this function and tries to understand it.
 The person might spend a lot of time trying to figure out what does this function do till they realize that the function is not in use.
-Or mayb it is in use by something else which is not in use. So it can get complicated.
+Or maybe it is in use by something else which is not in use. So it can get complicated.
 
 If you have a version control system like git or some other version control system then you can just delete this code,
 commit your changes to your version control system and at any point of time when you need it you can go back this version, look at it
@@ -92,7 +92,7 @@ Or if there is no locking then if both edit and save the file then the second on
 
 Having a version control system can make this really smooth
 
-Of course it is not perficet and there still might be some issue. The people still have to talk to each other, but in many cases it makes it a lot smoother
+Of course it is not perfect and there still might be some issue. The people still have to talk to each other, but in many cases it makes it a lot smoother
 to collaborate with other people. Even if they are in different time-zones, different locations
 
 <h3>History</h3>
@@ -103,7 +103,7 @@ What changed were made, if there multiple people contributing to the source code
 If you are keeping a good track of why you made the change, so every time when you make a change you have some explanation why did you do that
 then it's a gold mine.
 
-Actually I rarely need to look at the history, but when you do, it's extremley important, it is extremely valuable that you can look at the history.
+Actually I rarely need to look at the history, but when you do, it's extremely important, it is extremely valuable that you can look at the history.
 
 It is a little-bit like backups. You really rarely need to have backups when you do, if you don't have it then it is a really big issue.
 
@@ -120,9 +120,9 @@ You may remember that it worked two weeks ago. How can you find out what happene
 
 Version control systems in general and git specifically have tools for it, but without having this history we really can't do anything.
 
-Having the history you'll be ablt to track down which change caused this error? Why was that chnage made?
+Having the history you'll be able to track down which change caused this error? Why was that change made?
 Usually these changes are made for some good purpose, but maybe they have some side-effects.
-You will have to understand that and not just revert the chnage, because that will break something else.
+You will have to understand that and not just revert the change, because that will break something else.
 
 <h3>Which Version Control System (VCS)?</h3>
 
