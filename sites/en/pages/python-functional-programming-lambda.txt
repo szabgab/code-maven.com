@@ -1,5 +1,5 @@
 =title Python Functional Programming: lambda functions
-=timestamp 2022-21-28T07:00:04
+=timestamp 2022-11-28T07:00:04
 =indexes Python
 =status show
 =books python
