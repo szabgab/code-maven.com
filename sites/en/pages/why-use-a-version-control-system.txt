@@ -23,7 +23,7 @@ For example if they work on a file called <b>wedding_vows.doc</b> at one point t
 as <b>wedding_vows_1.doc</b> and then when they get divorced and marry again they might update the original file
 and now create a copy called <b>wedding_vows_2.doc</b>.
 
-Then they go on and an have <b>wedding_vows_3.doc</b> etc.
+Then they go on and might have <b>wedding_vows_3.doc</b> etc.
 
 If they have multiple files then maybe the create a copy of all the files and put them in directories called "wedding_1" and "wedding_2".
 
@@ -41,7 +41,7 @@ Why reinvent the wheel if there are already excellent open source version contro
 
 <h2>Advantages of having a Version Control System (VCS)</h2>
 
-There a number of advantages using a well-known VCS.
+There are a number of advantages using a well-known VCS.
 
 One of them is that if you'd like someone else to start working on your project you don't need to teach them about your own VCS. Most likely they already know how to use it.
 
