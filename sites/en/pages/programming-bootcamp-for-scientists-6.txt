@@ -19,16 +19,16 @@
     <li>05:23 print in Python 2</li>
     <li>08:12 print in Python 3</li>
     <li>13:00 from __future__ import print_function</li>
-    <li>14:57 [Exception: SyntaxError: Missing parentheses in call](https://code-maven.com/slides/python/syntax-error-missing-parentheses-in-call)</li>
+    <li>14:57 <a href="https://code-maven.com/slides/python/syntax-error-missing-parentheses-in-call">Exception: SyntaxError: Missing parentheses in call</a></li>
     <li>15:50 Prompting for user input in Python 2 (raw_input)</li>
     <li>19:20 Prompting for user input in Python 3 (input)</li>
     <li>26:01 Prompting in both Python 2 and Python 3.</li>
-    <li>28:45 Add numbers entered by the user. [oups](https://code-maven.com/slides/python/python-add-strings)</li>
+    <li>28:45 Add numbers entered by the user. <a href="https://code-maven.com/slides/python/python-add-strings">oups</a></li>
     <li>32:30 How can I check if a string can be converted to a number?</li>
     <li>37:26 Nóra pointing out the error in the previous example. Oups.</li>
     <li>38:23 Converting string to int</li>
-    <li>41:49 Conditionals: [if](https://code-maven.com/slides/python/python-conditionals-if), else, elif</li>
-    <li>53:20 [Ternary operator](https://code-maven.com/slides/python/ternary-operator) (Conditional Operator)</li>
+    <li>41:49 Conditionals: <a href="https://code-maven.com/slides/python/python-conditionals-if">if</a>, else, elif</li>
+    <li>53:20 <a href="https://code-maven.com/slides/python/ternary-operator">Ternary operator</a> (Conditional Operator)</li>
     <li>56:00 Case and switch in Python.</li>
     <li>56:30 Exercises: Rectangle, Circle, Calculator</li>
     <li>57:40 Learning Python the Hard way.</li>
