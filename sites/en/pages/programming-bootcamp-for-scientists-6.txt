@@ -14,7 +14,7 @@
 <screencast file="english-programming-bootcamp-6.mp4" youtube="gTpTxjk1KIw" />
 
 <ul>
-    <li>00:00 "<a href="https://code-maven.com/slides/python/second-steps"></a>Second steps</a>" starting at Input/Output till the exercises.</li>
+    <li>00:00 "<a href="https://code-maven.com/slides/python/second-steps">Second steps</a>" starting at Input/Output till the exercises.</li>
     <li>00:00 Input - Output I/O</li>
     <li>05:23 print in Python 2</li>
     <li>08:12 print in Python 3</li>
