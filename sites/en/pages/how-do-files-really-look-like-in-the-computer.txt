@@ -158,7 +158,7 @@ The letter "a" did not cause any problems. It is hexa 61 which is decimal 97.
 Given that a single byte can hold only up to 255 and there are way more characters in the world, the Unicode table has numbers that are higher than 255
 and thus their will take up 2 or more bytes.
 
-The <b>á</b> letter is represented by the bytes c3 and a1 (decimal 50081) in rows 1 and 2 above. See the row about UTF-8 in <a href="https://unicode-table.com/en/00E1/">
+The <b>á</b> letter is represented by the bytes c3 and a1 (decimal 50081) in rows 1 and 2 above. See the row about UTF-8 on <a href="https://unicode-table.com/en/00E1/">this page</a>.
 
 Because <b>xxd</b> shows us the content byte-by-byte it won't combine these two bytes and thus it uses dots in both of these lines to indicate that there
 is something it cannot really show.
