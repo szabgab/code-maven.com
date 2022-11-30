@@ -1,6 +1,6 @@
 =title How do files really look like in the computer?
 =timestamp 2022-11-30T09:30:01
-=indexes CodeMaven
+=indexes Unicode, UTF-8
 =description When you create a file with some text in it, you would think that that text is stored in the computer as it is. It is not. It is just numbers.
 =tags screencast
 =status show
@@ -18,6 +18,8 @@ It is not like that. Each letter, each number, each punctuation (e.g. !?:) has a
 Then the various programs you use to show that file will automatically convert the number to the drawing you are familiar with.
 
 =abstract end
+
+<screencast file="how-do-files-really-look-like-in-the-computer.mp4" youtube="ALnV06KaONk" />
 
 The generic name of all these "drawings" (digits, letters, punctuation, even emojies) is <b>character</b> or <b>glyph</b>.
 So we say we type in characters. Each character has a number associated with based on the standard called <a href="https://en.wikipedia.org/wiki/Unicode">Unicode</a>.
@@ -106,7 +108,7 @@ On Windows this works slightly differently, but I don't want to get into that. A
 
 The reset is easy as we only have Latin letters, spaces and an exclamation point. All of which we have already seen.
 
-<h2>Hungarian<h2>
+<h2>Hungarian</h2>
 
 Next we'll see some text that uses Latin letters, but with a few additional characters.
 
@@ -167,7 +169,7 @@ The the letter "<b>é</b>" hexa c3 a9, decimal 50089. See  <a href="https://unic
 
 The rest is similar.
 
-<h2>Spanish<h2>
+<h2>Spanish</h2>
 
 Spanish has the famous <b>ñ</b> that actually sounds like the Hungarian <b>ny</b>, but let's not go into the Hungarian double and triple letters.
 
