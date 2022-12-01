@@ -1,0 +1,28 @@
+=title GitHub Actions
+=timestamp 2022-12-01T09:30:01
+=indexes GitHub
+=description A list of repositories with sample GitHub Action configuration
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+A list of repositories with sample GitHub Action configuration
+
+=abstract end
+
+<ul>
+    <li><a href="https://github.com/szabgab/github-actions-python">Python</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-perl-dist-zilla/">Perl with Dist::Zilla</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-perl-makefile/">Perl with Makefile.PL</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-perl-build/">Perl with Build.PL</a></li>
+    <li><a href="https://github.com/szabgab/try-github-actions/">Try others</a></li>
+<!--
+    <li><a href=""></a></li>
+    <li><a href=""></a></li>
+-->
+</ul>
