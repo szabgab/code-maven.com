@@ -1,0 +1,43 @@
+=title The 2022 December CI Challenge
+=timestamp 2022-01-01T07:30:01
+=indexes CI
+=description As series of articles - one every day - to show how to configure CI for various Open Source porjects
+=status show
+=books ci
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://dev.to/szabgab/advent-calendars-in-2022-1kic">Advent Calendars</a> and <a href="https://dev.to/jarvisscript/2022-advent-code-challenges-5445">Advent Code Challenges</a>
+are all the rage these days.
+
+I am going to combine the ideas and write an article every day on how I configured Continuous Integration for an Open Source project
+and I would like to <b>challenge you</b> to do the same!
+
+=abstract end
+
+
+This is going to be a series of articles (and videos) on setting up Continuous Integration (CI) for Open Source projects.
+
+Each day during December 2022 I am going to configure CI for an open source project.
+
+Every day I'll try to find something different. A different programming language,
+a different VCS hosting service, maybe some different extras that are needed (a database, etc.)
+
+However this challenge is not only for me. I hope that you will also join me on this crazy journey,
+find a project that does not have CI yet, write some test if there are non, set up the CI, send the pull-request,
+and then post a link to it as a comment on the days post.
+
+The VCS hosting services: I know most of the open source projects are hosted on <a href="https://github.com/">GitHub</a>.
+A lot less on <a href="https://gitlab.com/">GitLab</a>. I'd be glad to hear about other hosting services where there are
+Open Source projects.
+
+Where can you find projects? You can search for them on the web site of the VCS hosting service or on one of the digger
+projects I've been building. The currently existing projects are <a href="https://pydigger.com/">PyDigger for Python,
+<a href="https://cpan-digger.perlmaven.com/">CPAN Digger</a> for Perl, and the <a href="https://ruby-digger.code-maven.com/">Ruby Digger</a>.
+
+Let's get started!
+
