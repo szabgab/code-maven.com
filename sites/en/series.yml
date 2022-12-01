@@ -686,3 +686,11 @@ ci:
       sub:
         - travis-ci-why-use-continuous-integration
         - enable-travis-ci-for-continous-integration
+
+2022-december-ci-challenge:
+  chapters:
+    - title: 2022 December
+      sub:
+        - test-and-ci-for-more-beautiful-python
+
+
