@@ -22,7 +22,7 @@ and I would like to <b>challenge you</b> to do the same!
 
 This is going to be a series of articles (and videos) on setting up Continuous Integration (CI) for Open Source projects.
 
-Each day during December 2022 I am going to configure CI for an open source project.
+Each day during December 2022 (well, at least till the 25th) I am going to configure CI for an open source project.
 
 Every day I'll try to find something different. A different programming language,
 a different VCS hosting service, maybe some different extras that are needed (a database, etc.)
