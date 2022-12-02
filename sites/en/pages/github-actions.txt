@@ -11,11 +11,12 @@
 
 =abstract start
 
-A list of repositories with sample GitHub Action configuration
+A list of repositories with sample GitHub Action configurations. Feel free to use these skeletons!
 
 =abstract end
 
 <ul>
+    <li><a href="https://github.com/szabgab/github-actions-crystal">Crystal</a></li>
     <li><a href="https://github.com/szabgab/github-actions-python">Python</a></li>
     <li><a href="https://github.com/szabgab/github-actions-perl-dist-zilla/">Perl with Dist::Zilla</a></li>
     <li><a href="https://github.com/szabgab/github-actions-perl-makefile/">Perl with Makefile.PL</a></li>
