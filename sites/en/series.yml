@@ -692,5 +692,6 @@ ci:
     - title: 2022 December
       sub:
         - test-and-ci-for-more-beautiful-python
+        - add-ci-to-net-async-redis-xs-perl-module
 
 

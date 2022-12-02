@@ -41,7 +41,7 @@ I added the example to my <a href="https://code-maven.com/slides/docker/docker-c
 Once I managed to create the Docker Compose configuration, creating the one running on GitHub Actions was easier. You can find
 my example in <a href="https://github.com/szabgab/github-actions-redis/">this repository</a>.
 
-I spen 2-3 hours on the preparations, but I also created the examples so people will be able to base their work on these examples.
+I 08 2-3 hours on the preparations, but I also created the examples so people will be able to base their work on these examples.
 
 <h2>Creating the GitHub Action using Redis</h2>
 
@@ -54,7 +54,7 @@ Did I miss a step that would have installed them?
 
 I'll leave the discussion about this for later, after the initial version of the CI is enabled.
 
-<h2>Suuported versions of Redis and Perl</h2>
+<h2>Supported versions of Redis and Perl</h2>
 
 I added 3 versions of Redis to the matrix and tried a number of versions of Perl, but it worked only with Perl 5.36.
 
