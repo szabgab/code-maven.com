@@ -1,0 +1,57 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5 * * *'
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        # Perl 5.30, 5.32., 5.34 all failed with all 3 versions of Redis
+        perl: [ '5.36' ]
+        redis: ['6.0', '7.0', 'latest']
+        #redis: ['latest']
+
+    services:
+      redis:
+        image: redis:${{matrix.redis}}
+
+    runs-on: ubuntu-latest
+    name: Perl ${{matrix.perl}} Redis ${{matrix.redis}}
+    container: perl:${{matrix.perl}}
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Show Perl Version
+      run: |
+        perl -v
+
+    - name: Install Modules
+      run: |
+        cpanm --installdeps .
+        cpanm Test::Fatal
+        cpanm Net::Async::Redis
+        cpanm Test::MemoryGrowth
+
+    - name: Show Errors on Ubuntu
+      if:  ${{ failure() && matrix.runner == 'ubuntu-latest' }}
+      run: |
+         cat /home/runner/.cpanm/work/*/build.log
+
+    - name: Run tests
+      env:
+        AUTHOR_TESTING: 1
+        RELEASE_TESTING: 1
+      run: |
+        perl Makefile.PL
+        make
+        make test
+        prove -b xt/
+
