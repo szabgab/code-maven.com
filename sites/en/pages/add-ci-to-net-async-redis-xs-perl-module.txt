@@ -61,6 +61,22 @@ I added 3 versions of Redis to the matrix and tried a number of versions of Perl
 Also I only tried this inside a Linux-based Docker container. Not on Windows and not on Mac OSX. I don't know if the module
 is even intended to support those platforms.
 
+<h2>Adding a test</h2>
+
+After sending the Pull-reques I went for a long walk. That helped me realize that I never told the tests what is the hostname of the
+Redis servers. So I guess the tests of the module never actually tried to access the server.
+
+When I got back in-front of the computer I looked at the tests and indeed they were very shallow never trying to execute any
+operation that would need a server. So I created one, basically copying the example in the documentation of the module and put it in the
+<b>t</b> directory where it belongs. The test will received the name of the Tedis host via an environment variable called <b>REDIS_HOST</b>.
+If this variable is not set these tests will be skipped. You can see the test-file here:
+
+<include file="examples/Net-Async-Redis-XS/set_get.t">
+
+I've also update the GitHub Action configuration file so it will set the <b>REDIS_HOST</b> environment variable to <b>redis</b>,
+the name of <b>redis service</b> that was included in the configuration file.
+
+
 <h2>GitHub Actions configuration file</h2>
 
 I've included here the configuration file for future reference as the one in the project, if it even gets accepted, will probably change.
