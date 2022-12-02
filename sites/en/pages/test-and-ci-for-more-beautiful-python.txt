@@ -22,7 +22,7 @@ This was partially successful though I ended up with a project that did not have
 
 In order to find a package that does not have CI I went over the first page of <a href="https://pydigger.com/search/has-github-no-ci">Has GitHub but no CI</a> on the <a href="https://pydigger.com/">PyDigger</a>.
 
-I saw a few projects with Machine Learning, I skipped over them as those probably include a lot more CPU power and installation than other projects.</li>
+I saw a few projects with Machine Learning, I skipped over them as those probably include a lot more CPU power and installation than other projects.
 
 I saw some CLI tools. Those are much more light-weight, but testing CLI in a headless environment might be tricky. So I skipped these too for now.
 
