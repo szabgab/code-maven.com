@@ -18,7 +18,7 @@ Welcome back to the Code-Maven Docker course.
 
 In this video we are going to learn about the difference between <b>Docker containers</b> and <b>Docker images</b>.
 
-When people are talking about Docker, they usually use word container, but there are basically tow main things: containers and images.
+When people are talking about Docker, they usually use word container, but there are basically two main things: containers and images.
 
 They are very similar, but slightly different.
 
