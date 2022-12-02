@@ -45,7 +45,7 @@ I 08 2-3 hours on the preparations, but I also created the examples so people wi
 
 <h2>Creating the GitHub Action using Redis</h2>
 
-Once I had the Redis configuration the work on the Perl module was not that hards.
+Once I had the Redis configuration the work on the Perl module was not that hard.
 I made a few typos and missed the fact that the repository has a <b>Makefile.PL</b> so at first I tried to use <b>Dist::Zilla</b>.
 
 I also had to include the installation of a few Perl modules in the GitHub Action configuration. I am not sure why is that.
@@ -70,6 +70,4 @@ I've included here the configuration file for future reference as the one in the
 <h2>Pull-Request</h2>
 
 I sent the <a href="https://github.com/team-at-cpan/Net-Async-Redis-XS/pull/1">Pull-Request</a>. Let's see if it gets commented on or accepted.
-
-
 
