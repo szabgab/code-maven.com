@@ -601,7 +601,7 @@ python-functional-programming:
         - python-functional-programming-map-2
         - python-functional-programming-exercises-1
         - python-functional-programming-solutions-1
-        - pro/python-functional-programming-filter
+        - python-functional-programming-filter
         - pro/python-functional-programming-reduce
         - pro/python-functional-programming-zip
 online-self-knowledge-workshop:

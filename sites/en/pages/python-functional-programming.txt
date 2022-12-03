@@ -22,7 +22,7 @@
     <li><a href="python-functional-programming-map-2">map again</a></li>
     <li><a href="python-functional-programming-exercises-1">Exercises 1</a></li>
     <li><a href="python-functional-programming-solutions-1">Solutions 1</a></li>
-    <li><a href="pro/python-functional-programming-filter">filter</a></li>
+    <li><a href="python-functional-programming-filter">filter</a></li>
     <li><a href="pro/python-functional-programming-reduce">reduce</a></li>
     <li><a href="pro/python-functional-programming-zip">zip</a></li>
 </ul>
