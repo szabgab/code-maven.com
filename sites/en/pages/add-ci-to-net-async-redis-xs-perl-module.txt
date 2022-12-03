@@ -68,7 +68,7 @@ Redis servers. So I guess the tests of the module never actually tried to access
 
 When I got back in-front of the computer I looked at the tests and indeed they were very shallow never trying to execute any
 operation that would need a server. So I created one, basically copying the example in the documentation of the module and put it in the
-<b>t</b> directory where it belongs. The test will received the name of the Tedis host via an environment variable called <b>REDIS_HOST</b>.
+<b>t</b> directory where it belongs. The test will received the name of the Redis host via an environment variable called <b>REDIS_HOST</b>.
 If this variable is not set these tests will be skipped. You can see the test-file here:
 
 <include file="examples/Net-Async-Redis-XS/set_get.t">
