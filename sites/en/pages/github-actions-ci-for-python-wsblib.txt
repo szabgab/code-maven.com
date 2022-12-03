@@ -19,7 +19,7 @@ I went back to <a href="https://pydigger.com/search/has-github-no-ci">PyDigger</
 
 It had some tests in the `tests/` folder.
 
-After looking at the test files I saw that they are using <a href="https://pypi.org/project/bupytest/">BuPyTest</b>.
+After looking at the test files I saw that they are using <a href="https://pypi.org/project/bupytest/">BuPyTest</a>.
 I have not heard about it.
 I saw that both files were prepared to be executed directly using the following:
 
