@@ -30,7 +30,7 @@ if __name__ == '__main__':
 
 so I went on running them as <b>python tests/test_server.py</b>.
 
-Later, when I went and looked at the <a href="https://github.com/jaedsonpys/bupytest/blob/master/README.md">documentation of BuPyTest</b>
+Later, when I went and looked at the <a href="https://github.com/jaedsonpys/bupytest/blob/master/README.md">documentation of BuPyTest</a>
 and saw that it can be also used as a command-line tool.
 
 
