@@ -42,6 +42,7 @@ projects I've been building. The currently existing projects are <a href="https:
 Let's get started!
 
 <ul>
-    <a href="/test-and-ci-for-more-beautiful-python">Test and CI for MoreBeautifulPython</a></li>
-    <a href="/add-ci-to-net-async-redis-xs-perl-module">Add GitHub Action CI to the Net-Async-Redis-XS Perl module</a></li>
+    <li><a href="/test-and-ci-for-more-beautiful-python">Test and CI for MoreBeautifulPython</a></li>
+    <li><a href="/add-ci-to-net-async-redis-xs-perl-module">Add GitHub Action CI to the Net-Async-Redis-XS Perl module</a></li>
+    <li><a href="/ci-for-farmworld-python">CI for farmworld, a Python package - a failed attempt</a></li>
 </ul>

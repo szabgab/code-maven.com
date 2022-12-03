@@ -693,5 +693,4 @@ ci:
       sub:
         - test-and-ci-for-more-beautiful-python
         - add-ci-to-net-async-redis-xs-perl-module
-
-
+        - ci-for-farmworld-python
