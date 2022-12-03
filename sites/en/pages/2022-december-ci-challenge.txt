@@ -45,4 +45,6 @@ Let's get started!
     <li><a href="/test-and-ci-for-more-beautiful-python">Test and CI for MoreBeautifulPython</a></li>
     <li><a href="/add-ci-to-net-async-redis-xs-perl-module">Add GitHub Action CI to the Net-Async-Redis-XS Perl module</a></li>
     <li><a href="/ci-for-farmworld-python">CI for farmworld, a Python package - a failed attempt</a></li>
+    <li><a href="/github-actions-ci-for-python-wsblib">GitHub Action CI for wsblib Python</a></li>
 </ul>
+
