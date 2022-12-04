@@ -695,4 +695,4 @@ ci:
         - add-ci-to-net-async-redis-xs-perl-module
         - ci-for-farmworld-python
         - github-actions-ci-for-python-wsblib
-        - github-actions-for-columbian-spanish-in-python
+        - github-actions-for-colombian-spanish-in-python
