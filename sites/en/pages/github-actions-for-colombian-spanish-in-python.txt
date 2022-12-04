@@ -1,4 +1,4 @@
-=title GitHub Actions for Columbian Spanish. In Python
+=title GitHub Actions for Colombian Spanish. In Python
 =timestamp 2022-12-04T09:30:01
 =indexes GitHub
 =description A simple pull-request after a lot of failed attempts
@@ -57,7 +57,7 @@ You might guess that at this point I was already quite exhausted and I have not 
 I could not even get to the point to have a reasonable issue to open.
 
 
-However I still have not added any CI to any project.
+However, I still have not added any CI to any project.
 
 <h2>Adding GitHub Actions to col-spanish</h2>
 
