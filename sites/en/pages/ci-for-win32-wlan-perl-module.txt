@@ -41,6 +41,8 @@ The setup was quite simple as you can see from the GitHub Action config file bel
 I had to remove the two most recent versions of Perl as it seems they are not available in the GitHub Action I used.
 That could be improved.
 
+The <a href="https://github.com/Corion/Win32-Wlan/pull/4">Pull-Request</a>
+
 <h2>GitHub Actions</h2>
 
 <include file="examples/win32-wlan/ci.yml">

@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5 * * *'
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [windows-latest]
+        perl: [ '5.30', '5.32' ] # It seems that perl 5.34 and 5.36 are not available
+
+    runs-on: ${{matrix.runner}}
+    name: OS ${{matrix.runner}} Perl ${{matrix.perl}}
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up perl
+      uses: shogo82148/actions-setup-perl@v1
+      with:
+          perl-version: ${{ matrix.perl }}
+          distribution: ${{ ( startsWith( matrix.runner, 'windows-' ) && 'strawberry' ) || 'default' }}
+
+    - name: Show Perl Version
+      run: |
+        perl -v
+
+    - name: Install Modules
+      run: |
+        cpanm -v
+        cpanm --installdeps --notest .
+
+    - name: Show Errors on Windows
+      if:  ${{ failure() && startsWith( matrix.runner, 'windows-')}}
+      run: |
+         ls -l C:/Users/
+         ls -l C:/Users/RUNNER~1/
+         cat C:/Users/runneradmin/.cpanm/work/*/build.log
+
+    - name: Run tests
+      env:
+        AUTHOR_TESTING: 1
+        RELEASE_TESTING: 1
+      run: |
+        perl Makefile.PL
+        make
+        make test
+
+
