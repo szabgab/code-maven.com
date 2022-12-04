@@ -1,0 +1,77 @@
+=title GitHub Actions for Columbian Spanish. In Python
+=timestamp 2022-12-04T09:30:01
+=indexes GitHub
+=description A simple pull-request after a lot of failed attempts
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Today I wanted to add GitHub Actions based Continuous Integration to a Ruby Gem, but after several failed attempts I went with Python.
+
+=abstract end
+
+
+<h2>Ruby failures</h2>
+
+First I tried some Ruby gems I found on the <a href="https://ruby-digger.code-maven.com/">Ruby Digger</a>.
+
+At first I tried the <a href="https://github.com/simple-and-powerful/act-form">act-form</a> Ruby gem, but got stuck on
+an error: <a href="https://github.com/simple-and-powerful/act-form/issues/9">wrong number of arguments (given 3, expected 1..2)</a>.
+I was not sure if the problem is in the code or my own setup, but for my experiments I am using an Ubuntu-based Docker container
+where I installed Ruby using apt-get. So unless the version of Ruby is incorrect I don't know what could be wrong on my side.
+I hope I'll get an answer to that. Even if it is that the author cannot reproduce the issue.
+
+
+Then I tried <a href="https://github.com/ForwardFinancing/ach_client">ach_client</a> written also in Ruby. There I got
+several types of errors:
+<a href="https://github.com/ForwardFinancing/ach_client/issues/65">undefined method 'new' and ArgumentError: wrong number of arguments</a>
+but I see some overlap. So now I started to worry. Maybe after all the problem is on my setup.
+
+
+<h2>Python failures</h2>
+
+Then I switched to Python and <a href="https://pydigger.com/">PyDigger</a>.
+
+The first I encountered was <a href="https://github.com/GalSim-developers/GalSim">GalSim</a>. As it turned out the GitHub link included
+in the distribution was incorrect and that's why PyDigger reported it as having GitHub link but not CI on GitHub.
+So I sent a <a href="https://github.com/GalSim-developers/GalSim/pull/1196">Pull-Request fixing that</a>.
+
+Side note: Pydigger should <a href="https://github.com/szabgab/pydigger.com/issues/61">Report when the URL provided as GitHub repo is invalid. (e.g. returns 404)</a>.
+
+Same happened with <a href="https://github.com/JarriqTheTechie/flask_fs_router">flask-fs-router</a> so here I also sent a
+<a href="https://github.com/JarriqTheTechie/flask_fs_router/pull/1">pull-request fixing that</a>.
+Though in this case the author might want to go the other way and rename the repo instead. We'll see.
+
+
+Then I looked at <a href="https://github.com/zqmillet/sphinx-console">sphinx-console</a> but the tests failed there.
+As I have not seen any instructions how to run the tests I was not sure if I am even running them correctly.
+So I opened an issue with it: <a href="https://github.com/zqmillet/sphinx-console/issues/1">How to run the tests? No module named 'sphinx_console'</a>
+
+
+You might guess that at this point I was already quite exhausted and I have not even mentioned several other failed attempts where
+I could not even get to the point to have a reasonable issue to open.
+
+
+However I still have not added any CI to any project.
+
+<h2>Adding GitHub Actions to col-spanish</h2>
+
+Then I got lucky and bumped into the <a href="https://github.com/sergioasb8/col-spanish">col-spanish</a> project.
+
+At first this too made me scratch my head as it came with a <b>pyproject.toml</b> file and it was using <b>poetry</b>,
+but then I realized this project does not have any dependencies so I could just install <b>pytest</b>
+and run with it. This is what I did and it was successful on first try. Here is the <a href="https://github.com/sergioasb8/col-spanish/pull/1">pull-request</a>.
+
+<h2>GitHub Actions configuration file</h2>
+
+<include file="examples/col-spanish/ci.yml">
+
+<h2>Conclusion</h2>
+
+Sometimes we have a lot of failed attempts till something works and on the way one can help improve other projects as well.
+
