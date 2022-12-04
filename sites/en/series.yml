@@ -696,3 +696,5 @@ ci:
         - ci-for-farmworld-python
         - github-actions-ci-for-python-wsblib
         - github-actions-for-colombian-spanish-in-python
+        - ci-for-win32-wlan-perl-module
+

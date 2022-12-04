@@ -1,0 +1,47 @@
+=title CI for Win32-Wlan Perl module
+=timestamp 2022-12-05T01:30:01
+=indexes GitHub, CI, Perl
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+I found <a href="https://metacpan.org/dist/Win32-Wlan">Win32-Wlan</a> on <a href="https://cpan-digger.perlmaven.com/">CPAN Digger</a> as a Perl
+package that does not have CI configured in its <a href="https://github.com/Corion/Win32-Wlan/">GitHub repository</a>.
+
+=abstract end
+
+While the indicates that this is a Windows-related thing, there are a number of packages on <a href="https://metacpan.org/">CPAN</a> that are in the
+<a href="https://metacpan.org/search?size=50&q=Win32"><b>Win32</b></a> namespace, but also work on Linux. This one, it seems does not.
+It seems at least one of its dependencies, the <a href="https://metacpan.org/dist/Win32-API">Win32-API</a> does not work on anything else besided
+Windows.
+
+In the <b>Makefile.PL</b> of Win32-API I saw this code:
+
+<code>
+my $running_on_windows = $^O eq 'MSWin32' || $^O eq 'cygwin' || $^O eq 'msys';
+die qq(OS unsupported\n)
+    unless $running_on_windows
+    or $ENV{WIN32_API_BUILD}     # So I can build it on Linux too
+    ;
+</code>
+
+So it can also work on cygwin and msys and it can be packaged on Linux as well.
+
+We might be able to setup a Linux machine to build the distribution of the module and then we can run the tests
+on various versions of Perl on Windows. However I did not want to invest that much time before I even
+see that it would be interesting to the maintainer of the package.
+
+The setup was quite simple as you can see from the GitHub Action config file below.
+
+I had to remove the two most recent versions of Perl as it seems they are not available in the GitHub Action I used.
+That could be improved.
+
+<h2>GitHub Actions</h2>
+
+<include file="examples/win32-wlan/ci.yml">
+
