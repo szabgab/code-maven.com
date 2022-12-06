@@ -25,15 +25,16 @@ All the <a href="https://code-maven.com/slides/git-intro/">slides</a> and the sp
 
 For RedHat, CentOS and similar yum-based Linux distributions:
 
-```
+
+<code>
 sudo yum install git-core
-```
+</code>
 
 For Ubuntu, Debian, and other apt- or deb-based Linux distributions:
 
-```
+<code>
 sudo apt-get install git-core
-```
+</code>
 
 You could also download the latest version of git from <a href="https://git-scm.com/">git-scm</a>, but usually you are better off using
 the version that is packaged by the vendor of your Linux distribution. It is usually better to use the standard package-management system
