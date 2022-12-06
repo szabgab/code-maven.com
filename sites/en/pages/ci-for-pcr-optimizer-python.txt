@@ -87,4 +87,7 @@ Here is the configuration file:
 
 <include file="examples/pcr_optimizer/ci.yml">
 
+<h2>Conclusion</h2>
+
+Sometimes you need to make slight changes for the CI to start working.
 
