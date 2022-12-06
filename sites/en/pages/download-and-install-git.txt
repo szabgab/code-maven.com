@@ -9,8 +9,56 @@
 =comments_disqus_enable 0
 
 =abstract start
+
+This time we are going to talk about downloading and installing git.
+There is going to be a separate episode on how to install on Windows, this is some generic overview.
+
+
+
 =abstract end
 
 <screencast file="en/git/download-and-install-git" youtube="T-2S0eI8Nh4" />
+
+All the <a href="https://code-maven.com/slides/git-intro/">slides</a> and the specific slides about <a href="https://code-maven.com/slides/git-intro/getting-git">git installation</a>.
+
+<h2>Linux</h2>
+
+For RedHat, CentOS and similar yum-based Linux distributions:
+
+```
+sudo yum install git-core
+```
+
+For Ubuntu, Debian, and other apt- or deb-based Linux distributions:
+
+```
+sudo apt-get install git-core
+```
+
+You could also download the latest version of git from <a href="https://git-scm.com/">git-scm</a>, but usually you are better off using
+the version that is packaged by the vendor of your Linux distribution. It is usually better to use the standard package-management system
+of your Linux distribution.
+
+Of course, if you have a really, really old version of Linux then, ..., then yous should probably upgrade your Linux.
+
+Well even in older versions of Linux you are still better off using git that was packaged by the vendor.
+
+<h2>Windows</h2>
+
+For Windows there will be a separate video and article, but I'd recommend downloading git from <a href="https://git-scm.com/">git-scm</a>.
+
+<h2>Apple Mac OSX</h2>
+
+For Mac OSX you could also use the package from <a href="https://git-scm.com/">git-scm</a>, but probably a better way is to
+first install <a href="https://brew.sh/">Homebrew</a> and then that install git using:
+
+<code>
+brew install git
+</code>
+
+
+In case you are not familiar with it, <a href="https://brew.sh/">Homebrew</a>  is a package management system for Mac OSX.
+It is like <b>apt</b> or <b>yum</b> for Linux. It's a tool to install all kinds of open source projects. You'll probably
+need a lot more tools than just git, so that's why it is probably better to use Homebrew for git as well.
 
 
