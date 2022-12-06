@@ -603,7 +603,7 @@ python-functional-programming:
         - python-functional-programming-solutions-1
         - python-functional-programming-filter
         - python-functional-programming-reduce
-        - pro/python-functional-programming-zip
+        - python-functional-programming-zip
 online-self-knowledge-workshop:
   chapters:
     - title: Self knowledge workshop in ReactJS
