@@ -15,7 +15,7 @@ to add CI to a relatively simple Python package called <a href="https://github.c
 
 =abstract end
 
-When I first added GitHub Actions it failed to install the dependencies lister in the <b>requirements.txt</b> file with a
+When I first added GitHub Actions it failed to install the dependencies listed in the <b>requirements.txt</b> file with a
 nasty error:
 
 <code>
