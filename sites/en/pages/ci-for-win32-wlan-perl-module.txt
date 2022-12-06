@@ -17,7 +17,7 @@ package that does not have CI configured in its <a href="https://github.com/Cori
 
 While the indicates that this is a Windows-related thing, there are a number of packages on <a href="https://metacpan.org/">CPAN</a> that are in the
 <a href="https://metacpan.org/search?size=50&q=Win32"><b>Win32</b></a> namespace, but also work on Linux. This one, it seems does not.
-It seems at least one of its dependencies, the <a href="https://metacpan.org/dist/Win32-API">Win32-API</a> does not work on anything else besided
+It seems at least one of its dependencies, the <a href="https://metacpan.org/dist/Win32-API">Win32-API</a> does not work on anything else besides
 Windows.
 
 In the <b>Makefile.PL</b> of Win32-API I saw this code:
@@ -30,7 +30,7 @@ die qq(OS unsupported\n)
     ;
 </code>
 
-So it can also work on cygwin and msys and it can be packaged on Linux as well.
+So it can also work on <b>cygwin</b> and <b>msys</b> and it can be packaged on <b>Linux</b> as well.
 
 We might be able to setup a Linux machine to build the distribution of the module and then we can run the tests
 on various versions of Perl on Windows. However I did not want to invest that much time before I even
@@ -46,4 +46,9 @@ The <a href="https://github.com/Corion/Win32-Wlan/pull/4">Pull-Request</a>
 <h2>GitHub Actions</h2>
 
 <include file="examples/win32-wlan/ci.yml">
+
+<h2>Conclusion</h2>
+
+Sometimes you need Windows.
+
 
