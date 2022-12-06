@@ -697,4 +697,4 @@ ci:
         - github-actions-ci-for-python-wsblib
         - github-actions-for-colombian-spanish-in-python
         - ci-for-win32-wlan-perl-module
-
+        - ci-for-pcr-optimizer-python
