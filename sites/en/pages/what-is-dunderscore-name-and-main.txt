@@ -120,7 +120,7 @@ and "ruined" it.
 What we would really like is to see the output of the <b>display</b> function when execute <b>python mylib.py</b>.
 
 
-<h2>Make both cases to work</h2>
+<h2>Make both cases work</h2>
 
 This is where the expression comes in handy.
 
@@ -150,9 +150,9 @@ So now we have a file (mylib.py) that can be used both as a module and as a stan
 
 Let's take the first example and make it print the content of the variable <hl>__name__</hl>.
 
-<include file="examples/python/name_main1/mylib.py">
+<include file="examples/python/name_main4/mylib.py">
 
-<include file="examples/python/name_main1/myscript.py">
+<include file="examples/python/name_main4/myscript.py">
 
 
 Running mylib:
