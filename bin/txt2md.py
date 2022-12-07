@@ -4,10 +4,23 @@ import re
 
 # Convert .txt articles to .md files that can be published on DEV.to
 
+# remove leading and trailing empty rows from files (and code snippets)
+# include the language in the verbatim code read from files
+# include the name of the file of the code-snippet
+
 # <a href= links
 # <h2> subtitles
 # <include file
 # <screencast
+
+ext_to_lang = {
+    "yml":  "yaml",
+    "yaml": "yaml",
+    "PL":   "perl",
+    "pl":   "perl",
+    "pm":   "perl",
+    "py":   "python",
+}
 
 
 
@@ -43,6 +56,7 @@ def convert(txt_file):
 
             if not code:
                 line = re.sub(r'<b>([^<]+)</b>', r"`\1`", line)
+                line = re.sub(r'<hl>([^<]+)</hl>', r"`\1`", line)
                 line = re.sub(r'<h2>([^<]+)</h2>', r"## \1", line)
                 line = re.sub(r'<a href="([^"]+)">([^<]+)</a>', r"[\2](\1)", line)
                 if re.search('^=abstract (start|end)', line):
@@ -53,9 +67,8 @@ def convert(txt_file):
                     include_file = match.group(1)
                     with open(include_file) as ifh:
                         content = ifh.read()
-                        lang = ''
-                        if include_file.endswith('yml'):
-                            lang = 'yaml'
+                        extmatch = re.search(r'\.([a-zA-Z0-9]+)$', include_file)
+                        lang = ext_to_lang.get(extmatch.group(1), '')
                         line = f"```{lang}\n{content}\n```\n"
 
                 if re.search(r'<code>', line):
