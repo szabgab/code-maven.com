@@ -14,7 +14,7 @@ You might have seen the following code snippet in many Python files and wondered
 
 <include file="examples/python/name_main.py">
 
-In a nutshell it allows a file to be used both as a stand-alone program (script) and as a module used by some other stand-alone program.
+In a nutshell it allows a file to be used both as a stand-alone program (script) and as a module imported by some other stand-alone program.
 
 Let's see the explanation.
 
@@ -24,7 +24,7 @@ Let's see the explanation.
 
 A little background:
 
-Let's see we have the following two files:
+Let's say we have the following two files:
 
 <include file="examples/python/name_main1/mylib.py">
 
