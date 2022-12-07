@@ -1,0 +1,187 @@
+=title Whay does if __name__ == '__main__' do in Python?
+=timestamp 2022-01-01T07:30:01
+=indexes __name__, __main__
+=status draft
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+You might have seen the following code snippet in many Python files and wondered what does that do and why would you need it?
+
+<include file="examples/python/name_main.py">
+
+In a nutshell it allows a file to be used both as a stand-alone program (script) and as a module used by some other stand-alone program.
+
+Let's see the explanation.
+
+=abstract end
+
+<h2>Loading a file as a module</h2>
+
+A little background:
+
+Let's see we have the following two files:
+
+<include file="examples/python/name_main1/mylib.py">
+
+<include file="examples/python/name_main1/myscript.py">
+
+If we run
+
+<code>
+python mylib.py
+</code>
+
+it will print
+
+<code>
+In mylib
+</code>.
+
+This is not surprising we told it to do just that.
+
+If we run
+
+<code>
+python myscript.py
+</code>
+
+it will print
+
+<code>
+In mylib
+In myscript
+</code>
+
+This is probably not what we wanted. The print of the imported module was executed and it was executed before the print of our script.
+Usually we don't expect anything to happen while we import modules. Definitely nothing to be printed to the screen.
+
+It happened, because when Python imports a file (a module) it executes it at the time of import which means any code <b>outside</b> of
+functions will be executed.
+
+It is very rare that in module that we import there is any code outside of functions. So the better approcah to write a module would be this:
+
+<h2>Having only functions in modules</h2>
+
+<include file="examples/python/name_main2/mylib.py">
+
+<include file="examples/python/name_main2/myscript1.py">
+
+<include file="examples/python/name_main2/myscript2.py">
+
+Now we have two functions in our <b>mylib.py</b> file. One of them is the <b>display</b> function we would like to use
+and the the other is the <b>destroy_harddisk</b> that you would probably not want to execute. I have not even implemented
+it to make sure no one will run it and then come complaining.
+
+If we run the first script
+
+<code>
+python myscript1.py
+</code>
+
+we only see
+
+<code>
+In myscript
+</code>
+
+This is not suprising as now, even though we imported the <b>mylib</b> module, we did not call any of its functions.
+
+n order to see the text from the <b>display</b> function we need to call it:
+
+If we run the second script
+
+<code>
+python myscript2.py
+</code>
+
+we see
+
+<code>
+In myscript
+In mylib
+</code>
+
+This time the content of <b>mylib.py display</b> function is printed at the time when it is called.
+
+However if we now run
+
+<code>
+python mylib.py
+</code>
+
+There is no out. So in order to facilitate the needs of the scripts that import the <b>mylib.py</b> we changed the behaviour of the <b>mylib.py</b>
+and "ruined" it.
+
+What we would really like is to see the output of the <b>display</b> function when execute <b>python mylib.py</b>.
+
+
+<h2>Make both cases to work</h2>
+
+This is where the expression comes in handy.
+
+<include file="examples/python/name_main3/mylib.py">
+
+<include file="examples/python/name_main3/myscript1.py">
+
+<include file="examples/python/name_main3/myscript2.py">
+
+Now if we run
+
+<code>
+$ python mylib.py
+</code>
+
+We get
+
+<code>
+In mylib
+</code>
+
+just as we got in the first case, and if we run <b>python myscript1.py</b> or <b>python myscript2.py</b> thet will act as thet did in the second case.
+
+So now we have a file (mylib.py) that can be used both as a module and as a stand-alone program (script).
+
+<h2>How does __name__ == "__main__" work?</h2>
+
+
+
+<include file="">
+<include file="">
+<include file="">
+
+
+
+
+<img src="/img/" alt="" />
+
+<include file="">
+<try file="">
+
+<screencast file="" youtube="" />
+
+<ul>
+    <li><a href="/youtube">YouTube channel</a></li>
+    <li><a href="/linkedin">LinkedIn page</a></li>
+</ul>
+
+<ul>
+    <li><a href="/youtube">YouTube csatorna</a></li>
+    <li><a href="/linkedin">LinkedIn lap</a></li>
+</ul>
+
+<ul>
+    <li><a href="/youtube">El canal de YouTube</a></li>
+    <li><a href="/linkedin">La página de LinkedIn</a></li>
+</ul>
+
+
+<ul>
+    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
+    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
+</ul>
+
