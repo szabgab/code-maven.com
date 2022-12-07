@@ -12,9 +12,10 @@ import re
 
 
 def convert(txt_file):
-    print(txt_file)
-    md_file = os.path.basename(txt_file)[0:-4] + '.md'
-    print(md_file)
+    #print(txt_file)
+    filename = os.path.basename(txt_file)[0:-4]
+    # md_file =  filename + '.md'
+    #print(md_file)
     body = False
     code = False
     with open(txt_file) as fh:
@@ -23,9 +24,11 @@ def convert(txt_file):
             if not body:
                 if re.search(r'^\s*$', line):
                     body = True
-                    line = "---\n"
+                    #line = "---\n"
                     line += f"title: {header['title']}\n"
-                    line += "---\n"
+                    line += f"canonical_url: https://code-maven.com/{filename}\n"
+                    line += f"series:\n"
+                    #line += "---\n"
                     line += "\n"
                     print(line)
                     continue
