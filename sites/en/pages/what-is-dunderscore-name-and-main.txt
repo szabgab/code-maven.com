@@ -1,7 +1,7 @@
-=title Whay does if __name__ == '__main__' do in Python?
-=timestamp 2022-01-01T07:30:01
+=title What does "if __name__ == '__main__'" do in Python?
+=timestamp 2022-12-07T18:30:01
 =indexes __name__, __main__
-=status draft
+=status show
 =books python
 =author szabgab
 =archive 1
@@ -63,7 +63,7 @@ Usually we don't expect anything to happen while we import modules. Definitely n
 It happened, because when Python imports a file (a module) it executes it at the time of import which means any code <b>outside</b> of
 functions will be executed.
 
-It is very rare that in module that we import there is any code outside of functions. So the better approcah to write a module would be this:
+It is very rare that in module that we import there is any code outside of functions. So the better approach to write a module would be this:
 
 <h2>Having only functions in modules</h2>
 
@@ -89,7 +89,7 @@ we only see
 In myscript
 </code>
 
-This is not suprising as now, even though we imported the <b>mylib</b> module, we did not call any of its functions.
+This is not surprising as now, even though we imported the <b>mylib</b> module, we did not call any of its functions.
 
 n order to see the text from the <b>display</b> function we need to call it:
 
@@ -114,7 +114,7 @@ However if we now run
 python mylib.py
 </code>
 
-There is no out. So in order to facilitate the needs of the scripts that import the <b>mylib.py</b> we changed the behaviour of the <b>mylib.py</b>
+There is no out. So in order to facilitate the needs of the scripts that import the <b>mylib.py</b> we changed the behavior of the <b>mylib.py</b>
 and "ruined" it.
 
 What we would really like is to see the output of the <b>display</b> function when execute <b>python mylib.py</b>.
@@ -142,46 +142,73 @@ We get
 In mylib
 </code>
 
-just as we got in the first case, and if we run <b>python myscript1.py</b> or <b>python myscript2.py</b> thet will act as thet did in the second case.
+just as we got in the first case, and if we run <b>python myscript1.py</b> or <b>python myscript2.py</b> that will act as that did in the second case.
 
 So now we have a file (mylib.py) that can be used both as a module and as a stand-alone program (script).
 
 <h2>How does __name__ == "__main__" work?</h2>
 
+Let's take the first example and make it print the content of the variable <hl>__name__</hl>.
+
+<include file="examples/python/name_main1/mylib.py">
+
+<include file="examples/python/name_main1/myscript.py">
 
 
-<include file="">
-<include file="">
-<include file="">
+Running mylib:
 
+<code>
+python mylib.py
+</code>
 
+We get:
 
+<code>
+In mylib __name__='__main__'
+</code>
 
-<img src="/img/" alt="" />
+So when you run the file as a stand-alone program the variable <b>__name__</b> contains the strange string <b>__main__</b>.
 
-<include file="">
-<try file="">
+What if we run the program / script?
 
-<screencast file="" youtube="" />
+<code>
+python myscript.py
+</code>
 
-<ul>
-    <li><a href="/youtube">YouTube channel</a></li>
-    <li><a href="/linkedin">LinkedIn page</a></li>
-</ul>
+We get the following:
 
-<ul>
-    <li><a href="/youtube">YouTube csatorna</a></li>
-    <li><a href="/linkedin">LinkedIn lap</a></li>
-</ul>
+<code>
+In mylib __name__='mylib'
+In myscript __name__='__main__'
+</code>
 
-<ul>
-    <li><a href="/youtube">El canal de YouTube</a></li>
-    <li><a href="/linkedin">La página de LinkedIn</a></li>
-</ul>
+Now we have two different variables called <b>__name__</b>. One of them in the file <b>mylib.py</b>. There it contains <b>mylib</b>
+and one in <b>myscript.py</b> that contains <b>__main</b>.
 
+Our focus should be the fact that the content of the variable in <b>mylib.py</b> depends on how it was used. When we used it
+as a stand-alone script it had <b>__main__</b> in it and when we imported it as a module then it had <b>mylib</b> (the name of the file without the extension)
+in it.
 
-<ul>
-    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
-    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
-</ul>
+Now if you go back to the 3rd example to the code we are trying to understand that you can also see here:
+
+<include file="examples/python/name_main.py">
+
+The condition checks the content of the <b>__name__</b> variable and calls the <b>display()</b> function
+only if it contain <b>__main__</b> meaning that the file was used as a stand-alone program.
+
+<h2>When to use it?</h2>
+
+Now that we know what does it do and how does it work, let's ask the question when to use it?
+
+The answer is that it is actually rarely needed.
+
+It can be used to allow a module to be self-testing so we would run the tests of the file when it is executed as a stand-alone program.
+However these days it is much more common to put our tests in separate files and even if we include documents that need to be verified using
+<b>doctest</b>, <b>pytest</b> can execute those without this construct.
+
+It can be used to make a module also a stand-alone script, but it seems like a back engineering practice that will backfire.
+
+However it <b>must be used</b> when you use <b>multiprocessing</b> on Windows because that module works by loading your main script as a module.
+
+There might be some other cases as well when it is useful or even required, but I think in general it is needed a lot less than it is actually used.
 
