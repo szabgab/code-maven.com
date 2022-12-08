@@ -191,7 +191,7 @@ Our own <b>run_process</b> function then returns the exit code along with these 
 We can then use these two variables directly or we can convert them to UTF-8 strings by
 calling <b>decode('utf8')</b> on each one of them.
 
-<include file="examples/python/process/run_command_collect_output.py.py">
+<include file="examples/python/process/run_command_collect_output.py">
 
 <code>
 $ python run_command_collect_output.py
