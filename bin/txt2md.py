@@ -7,6 +7,7 @@ import re
 # remove leading and trailing empty rows from files (and code snippets)
 # include the language in the verbatim code read from files
 # include the name of the file of the code-snippet
+# Convert <ul> and <li>
 
 # <a href= links
 # <h2> subtitles
@@ -61,6 +62,10 @@ def convert(txt_file):
                 line = re.sub(r'<a href="([^"]+)">([^<]+)</a>', r"[\2](\1)", line)
                 if re.search('^=abstract (start|end)', line):
                     continue
+
+                if re.search(r'^</?ul>\s*$', line):
+                    line = ''
+                line = re.sub(r'^\s*<li>(.*)</li>$', r"* \1", line)
 
                 match = re.search(r'<include file="([^"]+)">', line)
                 if match:
