@@ -1,6 +1,6 @@
 =title Adding CI to Perl::Efl - sometimes you need to do some extra work
 =timestamp 2022-12-08T09:30:01
-=indexes gitHub
+=indexes GitHub
 =status show
 =books github
 =author szabgab
@@ -39,14 +39,41 @@ At the end I saw that the only test this package has is trying to load the modul
 
 <h2>CentOS</h2>
 
-After the success with Ubuntu I thought I'll also try to do the same on a Centos based Docker container. I started with CentOS 7.
+After the success with Ubuntu I thought I'll also try to do the same on a CentOS based Docker container. I started with CentOS 7.
 I found out it does not even have Perl installed so I started with that. However, when I got to the installation of the <b>efl</b>
-library I found out that it is not available on Centos. At least not in the default locations.
+library I found out that it is not available on CentOS. At least not in the default locations.
 
 At this point I decided to stop for now and sent the <a href="https://github.com/MaxPerl/Perl-Efl/pull/1">Pull-Request</a> with the Ubuntu configuration.
-Better to have one than none. Later we can try to figure out how to set this up on other linux distributions. Maybe with different versions of Perl as well.
+Better to have one than none. Later we can try to figure out how to set this up on other Linux distributions. Maybe with different versions of Perl as well.
 
 If the author even interested.
+
+<h2>Why is this valuable?</h2>
+
+While I was still composing this blog post, the author has updated the README file, closed the issue and commented on it indicating that
+it is unclear what is the purpose of compiling / running tests on every push?
+Unfortunately not all distributions have efl/Enlightenment. But compiling the libraries is not a hard job...
+Perhaps the <a href="https://blog.buddiesofbudgie.org/"Budgie Desktop</a> switch to efl, then the distribution coverage could be better...
+
+Let me answer it here as I think this could be interesting to others as well.
+
+The point of CI running on every push is to get feedback as soon as possible.
+
+It would be a lot more valuable if there were lots of tests than just loading the module as in this case,
+but even this way it is valuable to see if some change broke some part of the code that the developers have not noticed on their computer.
+
+If the changes came as Pull-Request then the author does not even know if the sender has tried to compile the code on their computer. Maybe they just sent some changes?
+By letting the CI compile it both the author and the PR sender will quickly see the results. That can save time to the author and the PR sender might even fix the issue
+before the author has a chance to look at it.
+
+It would be more useful if the compilation was done on various Linux and BSD distributions and maybe using various versions of Perl.
+If the specific distribution does not have a ready-made package of Efl then it could be possibly compiled from its source code.
+It is very unlikely that the author has many setups locally and it is even less likely that a potential contributor has all that setup.
+Even if they have it is probably easier to hand this job off to some external system (GitHub Actions in this case) than doing on your computer.
+So on the longer run it will be a lot more beneficial to set this up on other distributions as well.
+Consider this PR as the first step in that direction.
+
+I have a <a href="https://code-maven.com/travis-ci-why-use-continuous-integration">video talking about this</a>, though in that I was talking about Travis-CI.
 
 <h2>GitHub Actions for Ubuntu</h2>
 
