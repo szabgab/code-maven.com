@@ -1,0 +1,29 @@
+  centos:
+    runs-on: ubuntu-latest
+    container: centos:7
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Install C dependencies
+      run: |
+        yum install -y perl
+        #yum install -y perl-ExtUtils-MakeMaker
+        yum install -y perl-App-cpanminus
+        cpanm Test::More
+        cpanm ExtUtils::PkgConfig
+
+    - name: Show Perl Version
+      run: |
+        perl -v
+
+    - name: Run tests
+      env:
+        AUTHOR_TESTING: 1
+        RELEASE_TESTING: 1
+      run: |
+        perl Makefile.PL
+        make
+        make test
+
+

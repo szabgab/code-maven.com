@@ -1,0 +1,63 @@
+=title Adding CI to Perl::Efl - sometimes you need to do some extra work
+=timestamp 2022-12-08T09:30:01
+=indexes gitHub
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://code-maven.com/2022-december-ci-challenge">Originally</a> I wanted to do a very diverse set of CI configurations during December,
+but so far I was only successful on Python and Perl packages. I failed on a number of Ruby packages and I have not even really search anything else.
+This is partially due to the fact that I am a lot more familiar with the first two languages than with anything else and I don't have enough time
+for the others. At least not while I "have to" send the PR every day.
+
+Today I picked another Perl module. As it turned out it wasn't such a "low-hanging-fruit" either as I was hoping for, but I managed to set up CI.
+At least on Ubuntu.
+
+=abstract end
+
+<a href="https://metacpan.org/release/pEFL">pEFL</a> is the name of the Perl bindings for the <a href="https://www.enlightenment.org/">Enlightenment Foundation Libraries</a>.
+
+According to the README of the Perl Module one needs to install the <b>efl-dev</b> package, but on Ubuntu 22.10 there is no such package. I found one called
+<b>efl-doc</b>, but that's the documentation. Running <b>apt-cache search efl | grep dev</b> helped me find the package called <b>libefl-all-dev</b>.
+It seem that this is what we needed. So I opened an <a href="https://github.com/MaxPerl/Perl-Efl/issues/2">issue</a>.
+
+At first I was trying to run the tests directly on the <b>ubuntu-latest</b> runner of GitHub Actions, but soon I gave up.
+Maybe the problem was that it is running an older version of Ubuntu. Maybe the problem was something else. I don't know, I have not researched it.
+Instead I switched to using the official Ubuntu 22.10 docker image.
+
+After several trial and error I figured out that I have to also install the <b>gcc</b> and <b>make</b> packages for the compilation.
+
+For Perl I needed <a href="https://metacpan.org/pod/ExtUtils::PkgConfig">ExtUtils::PkgConfig</a>.
+The easiest seemed to be to install the <b>libextutils-pkgconfig-perl</b> package that is packaged and distributed by the developers of Ubuntu.
+
+At the end I saw that the only test this package has is trying to load the module, but at least we can see that the compilation worked.
+
+<h2>CentOS</h2>
+
+After the success with Ubuntu I thought I'll also try to do the same on a Centos based Docker container. I started with CentOS 7.
+I found out it does not even have Perl installed so I started with that. However, when I got to the installation of the <b>efl</b>
+library I found out that it is not available on Centos. At least not in the default locations.
+
+At this point I decided to stop for now and sent the <a href="https://github.com/MaxPerl/Perl-Efl/pull/1">Pull-Request</a> with the Ubuntu configuration.
+Better to have one than none. Later we can try to figure out how to set this up on other linux distributions. Maybe with different versions of Perl as well.
+
+If the author even interested.
+
+<h2>GitHub Actions for Ubuntu</h2>
+
+<include file="examples/perl-efl/ubuntu.yml">
+
+<h2>Partial configuration for CentOS</h2>
+
+<include file="examples/perl-efl/centos.yml">
+
+<h2>Conclusion</h2>
+
+Better one bird in the hand than two birds on the tree. Or some similar expression.
+
+

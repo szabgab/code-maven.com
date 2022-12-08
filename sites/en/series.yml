@@ -698,3 +698,6 @@ ci:
         - github-actions-for-colombian-spanish-in-python
         - ci-for-win32-wlan-perl-module
         - ci-for-pcr-optimizer-python
+        - ci-for-rdf-kv-perl
+        - adding-ci-to-perl-efl
+
