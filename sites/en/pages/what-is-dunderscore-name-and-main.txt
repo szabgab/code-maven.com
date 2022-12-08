@@ -206,7 +206,7 @@ It can be used to allow a module to be self-testing so we would run the tests of
 However these days it is much more common to put our tests in separate files and even if we include documents that need to be verified using
 <b>doctest</b>, <b>pytest</b> can execute those without this construct.
 
-It can be used to make a module also a stand-alone script, but it seems like a back engineering practice that will backfire.
+It can be used to make a module also a stand-alone script, but it seems like a bad engineering practice that will backfire.
 
 However it <b>must be used</b> when you use <b>multiprocessing</b> on Windows because that module works by loading your main script as a module.
 
