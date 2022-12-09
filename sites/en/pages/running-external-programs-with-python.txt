@@ -84,7 +84,7 @@ Your program connects its own STDOUT and STDERR channels to the external process
 whatever it prints to STDOUT and STDERR will be handled exactly as if they came directly from your program.
 
 It waits till the external program ends and at the end it returns the exit-code of the external program.
-Well it actually return two bytes and the real exit code is the higher byte so we need to do an integer division
+Well it actually returns two bytes and the real exit code is the higher byte so we need to do an integer division
 <b>exit_code // 256</b> in order to get to the real value. (It is the same as <b>int(exit_code / 256)</b>.)
 
 <code>
@@ -175,7 +175,7 @@ exit code: 0
 <h2>subprocess capture both STDOUT and STDERR separately</h2>
 
 In the next example we passed <b>stdout = subprocess.PIPE</b> and
-<b>stderr = subprocess.PIPE</b> to the <b>stderr = subprocess.PIPE</b>.
+<b>stderr = subprocess.PIPE</b> to the <b>subprocess.Popen()</b> call.
 
 These will connect the STDOUT and STDERR channels of the external program
 to two separate pipes in our program. Anything the external program prints
