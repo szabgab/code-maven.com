@@ -14,9 +14,6 @@ Today I can report about two pull-requests for two web-related Perl projects.
 One of them is called <a href="https://metacpan.org/dist/Mojo-UserAgent-Cached">Mojo-UserAgent-Cached</a>
 and the other one is <a href="https://metacpan.org/dist/Plack-Middleware-Greylist">Plack-Middleware-Greylist</a>.
 
-
-<a href="https://github.com/nicomen/mojo-useragent-cached">
-
 =abstract end
 
 <h2>Mojo-UserAgent-Cached</h2>
