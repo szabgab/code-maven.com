@@ -700,4 +700,6 @@ ci:
         - ci-for-pcr-optimizer-python
         - ci-for-rdf-kv-perl
         - adding-ci-to-perl-efl
+        - ci-for-two-perl-projects
+        - ci-for-rdf-kv-ruby
 

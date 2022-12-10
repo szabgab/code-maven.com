@@ -51,5 +51,7 @@ Let's get started!
     <li><a href="/ci-for-pcr-optimizer-python">GitHub Actions CI for the pcr_optimizer Python package</a></li>
     <li><a href="/ci-for-rdf-kv-perl">Be pragmatic setting up CI for the RDF::KV</a></li>
     <li><a href="/adding-ci-to-perl-efl">Adding CI to Perl::Efl - sometimes you need to do some extra work</a></li>
+    <li><a href="/ci-for-two-perl-projects">CI for Mojo-UserAgent-Cached and Plack-Middleware-Greylist</a></li>
+    <li><a href="/ci-for-rdf-kv-ruby">GitHub Actions CI for the rdf-kv Ruby Gem</a></li>
 </ul>
 
