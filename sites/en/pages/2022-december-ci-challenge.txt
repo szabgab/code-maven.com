@@ -53,5 +53,6 @@ Let's get started!
     <li><a href="/adding-ci-to-perl-efl">Adding CI to Perl::Efl - sometimes you need to do some extra work</a></li>
     <li><a href="/ci-for-two-perl-projects">CI for Mojo-UserAgent-Cached and Plack-Middleware-Greylist</a></li>
     <li><a href="/ci-for-rdf-kv-ruby">GitHub Actions CI for the rdf-kv Ruby Gem</a></li>
+    <li><a href="/ci-for-wp2txt-ruby-project">CI for wp2txt Ruby project</a></li>
 </ul>
 

@@ -702,4 +702,5 @@ ci:
         - adding-ci-to-perl-efl
         - ci-for-two-perl-projects
         - ci-for-rdf-kv-ruby
+        - ci-for-wp2txt-ruby-project
 
