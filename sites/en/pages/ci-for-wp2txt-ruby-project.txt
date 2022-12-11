@@ -20,7 +20,7 @@ there than on <a href="https://cpan-digger.perlmaven.com/">CPAN Digger for Perl<
 
 First I looked at a project called <a href="https://github.com/zarkiel/nezekan">nezekan</a>. I tried to run the tests locally, but failed.
 I am not sure if I was even trying to run them as the authors intended, but <a href="https://github.com/zarkiel/nezekan/issues/1">this error</a> seem
-to be genuien. It is a case-sensitivity issue. After I fixed that locally I bumped into <a href="https://github.com/zarkiel/nezekan/issues/2">and reported another issue</a>.
+to be genuine. It is a case-sensitivity issue. After I fixed that locally I bumped into <a href="https://github.com/zarkiel/nezekan/issues/2">and reported another issue</a>.
 
 Only now, that I am writing this I realized that the project had a Travis-CI configuration file. Although Travis-CI does not provide the free service any more
 I could have looked at the configuration file and base my commands on that. I can get back to that later.
@@ -30,7 +30,7 @@ I could have looked at the configuration file and base my commands on that. I ca
 
 After a while I found the <a href="https://github.com/yohasebe/wp2txt">wp2txt</a> project. Adding GitHub Actions to this was quite simple
 though it was different from the previous one. Here is the <a href="https://github.com/yohasebe/wp2txt/pull/11">pull-request</a>
-and below you'll find a copy of the configuation file as I sent it.
+and below you'll find a copy of the configuration file as I sent it.
 
 <h2>GitHub Actions</h2>
 
@@ -38,7 +38,7 @@ and below you'll find a copy of the configuation file as I sent it.
 
 <h2>Conclusion</h2>
 
-Slowly, but I learn how to run the tests in the varous Ruby projects as well. Unfortunately there are not very many new uploads to <a href="https://rubygems.org/">RubyGems</a>
+Slowly, but I learn how to run the tests in the various Ruby projects as well. Unfortunately there are not very many new uploads to <a href="https://rubygems.org/">RubyGems</a>
 and this <a href="https://ruby-digger.code-maven.com/">Ruby Digger</a> is growing slowly.
 
 
