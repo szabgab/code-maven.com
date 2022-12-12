@@ -703,4 +703,4 @@ ci:
         - ci-for-two-perl-projects
         - ci-for-rdf-kv-ruby
         - ci-for-wp2txt-ruby-project
-
+        - ci-for-sdk-py-python-packages

@@ -10,7 +10,7 @@
 
 =abstract start
 
-After the success yesterday <a href="https://code-maven.com/ci-for-rdf-kv-ruby">adding CI to a Ruby Gem</a> I though I can give another
+After the success yesterday <a href="https://code-maven.com/ci-for-rdf-kv-ruby">adding CI to a Ruby Gem</a> I thought I can give another
 try to more Ruby Gems so I looked at the <a href="https://ruby-digger.code-maven.com/">Ruby Digger</a>. As I can see there is even less action
 there than on <a href="https://cpan-digger.perlmaven.com/">CPAN Digger for Perl</a>.
 

@@ -54,5 +54,6 @@ Let's get started!
     <li><a href="/ci-for-two-perl-projects">CI for Mojo-UserAgent-Cached and Plack-Middleware-Greylist</a></li>
     <li><a href="/ci-for-rdf-kv-ruby">GitHub Actions CI for the rdf-kv Ruby Gem</a></li>
     <li><a href="/ci-for-wp2txt-ruby-project">CI for wp2txt Ruby project</a></li>
+    <li><a href="/ci-for-sdk-py-python-packages">CI for sdk-py Python packages</a></li>
 </ul>
 
