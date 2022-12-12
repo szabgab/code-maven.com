@@ -1,7 +1,7 @@
 =title CI for sdk-py Python packages
 =timestamp 2022-12-12T07:20:01
 =indexes GitHub
-=status draft
+=status show
 =books github
 =author szabgab
 =archive 1
