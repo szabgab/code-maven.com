@@ -25,7 +25,7 @@ Here is the <a href="https://github.com/dimchat/sdk-py/pull/1">pull-request</a>
 
 <h2>GitHub Actions configuration</h2>
 
-<include file="examples/python/sdk-py/ci.py">
+<include file="examples/python/sdk-py/ci.yml">
 
 <h2>Conclusion</h2>
 
