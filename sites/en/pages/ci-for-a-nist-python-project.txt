@@ -100,7 +100,7 @@ It was not hard at all.
 I created the GitHub Actions configuration file using a Docker container and configured python 3.11. I let the developers of the package
 decide which other versions of Python they might want to test with and if they might want to test on Windows and macOS as well.
 
-I sent the <a href="http://pr">Pull-Request</a>
+I sent the <a href="https://github.com/usnistgov/core_curate_app/pull/8">Pull-Request</a>
 
 <h2>GitHub Actions</h2>
 
