@@ -57,5 +57,6 @@ Let's get started!
     <li><a href="/ci-for-sdk-py-python-packages">CI for sdk-py Python packages</a></li>
     <li><a href="/ci-for-a-nist-python-project">CI for a Python project of the National Institute of Standards and Technology</a></li>
     <li><a href="/ci-for-log-any-perl-module">CI For the Log::Any Perl module</a></li>
+    <li><a href="/failing-ci-helping-filesystem-issues">Failing CI to help fixing filesystem issues in a Python package</a></li>
 </ul>
 
