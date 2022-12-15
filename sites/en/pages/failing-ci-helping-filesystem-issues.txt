@@ -11,17 +11,17 @@
 =abstract start
 
 A few days ago, while I was looking for a Python package to set up with CI, I bumped into the <a href="https://github.com/VFXToolkits/vfxpaths">vfxpaths</a>.
-I tried to run the tests on my Ubuntu-based Docker container, but they failde due to some <a href="https://github.com/VFXToolkits/vfxpaths/issues/4">path-issues I reported</a>.
+I tried to run the tests on my Ubuntu-based Docker container, but they failed due to some <a href="https://github.com/VFXToolkits/vfxpaths/issues/4">path-issues I reported</a>.
 
 Yesterday the author updated the issue saying that it has been fixed so today I tried it again.
 
 =abstract end
 
-It failed again, but this time on a test-file that was added a few hours ago. I updated the issue, but now that I see the author is actully interested
+It failed again, but this time on a test-file that was added a few hours ago. I updated the issue, but now that I see the author is actually interested
 fixing this issue, I though it might be more useful if I configured GitHub Action on the 3 platforms.
 Once <a href="https://github.com/VFXToolkits/vfxpaths/pull/6">this pull-request</a> is accepted on every push the tests will run on
 Linux, Windows, and macOS so the author will get almost immediate feedback if the path issue was solved and later if that
-or anything else breaks again it will be much faster to notice and therefor much easer to fix.
+or anything else breaks again it will be much faster to notice and therefor much easier to fix.
 
 <h2>GitHub Actions</h2>
 
