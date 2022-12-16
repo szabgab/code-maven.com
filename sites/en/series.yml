@@ -707,4 +707,4 @@ ci:
         - ci-for-a-nist-python-project
         - ci-for-log-any-perl-module
         - failing-ci-helping-filesystem-issues
-
+        - ci-for-marpa-r2
