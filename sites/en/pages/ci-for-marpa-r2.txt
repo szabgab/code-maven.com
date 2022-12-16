@@ -41,12 +41,12 @@ This can happen to any one of us.
 
 Maybe not to you, but someone else on your team or to a contributor to your project
 
-<h2>Should the tip of the main branch be useable?</h2>
+<h2>Should the tip of the main branch be usable?</h2>
 
 The author made an interesting <a href="https://github.com/jeffreykegler/Marpa--R2/issues/291#issuecomment-1353354424">comment</a> on the  <a href="https://github.com/jeffreykegler/Marpa--R2/issues/291">issue</a> about the missing files.
 
 <quote>
-FYI many programmers make a point of the tip of their main branch being something useable. I am NOT one of them, so pulling from my repo, instead of a distribution, is risky.
+FYI many programmers make a point of the tip of their main branch being something usable. I am NOT one of them, so pulling from my repo, instead of a distribution, is risky.
 </quote>
 
 Here is what I think about it:
