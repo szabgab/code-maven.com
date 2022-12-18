@@ -709,3 +709,4 @@ ci:
         - failing-ci-helping-filesystem-issues
         - ci-for-marpa-r2
         - ci-for-four-pillars-in-ruby
+        - ci-for-ruby-request-builder
