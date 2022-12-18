@@ -39,7 +39,6 @@ So I just ran
 <code>
 git lg
 </code>
-<code>
 
 And got this output:
 
