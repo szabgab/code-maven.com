@@ -61,5 +61,6 @@ Let's get started!
     <li><a href="/ci-for-marpa-r2">Moving from Travis-CI to GitHub Actions for Marpa::R2</a></li>
     <li><a href="/ci-for-four-pillars-in-ruby">A JavaScript bug and GitHub Workflow CI for the four-pillars Ruby gem</a></li>
     <li><a href="/ci-for-ruby-request-builder">GitHub Workflow for ruby-request-builder</a></li>
+    <li><a href="/ci-for-plack-middleware-logany">CI for Plack-Middleware-LogAny</a></li>
 </ul>
 
