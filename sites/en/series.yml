@@ -711,3 +711,4 @@ ci:
         - ci-for-four-pillars-in-ruby
         - ci-for-ruby-request-builder
         - ci-for-plack-middleware-logany
+        - ci-for-draftjs-html
