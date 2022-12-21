@@ -712,3 +712,4 @@ ci:
         - ci-for-ruby-request-builder
         - ci-for-plack-middleware-logany
         - ci-for-draftjs-html
+        - ci-for-multi-string-replace
