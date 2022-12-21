@@ -10,7 +10,7 @@
 
 =abstract start
 
-<a href="https://rubygems.org/gems/multi_string_replace"></a> was one of the projects I started a yesterday and could not finish as there was an issue. I reported the issue and within a few hours the author pointed at a command I needed to include to make it work. Here is what happened:
+<a href="https://rubygems.org/gems/multi_string_replace">multi_string_replace</a> was one of the projects I started a yesterday and could not finish as there was an issue. I reported the issue and within a few hours the author pointed at a command I needed to include to make it work. Here is what happened:
 
 =abstract end
 
