@@ -32,7 +32,7 @@ Both were accepted and integrated very quickly. I like this. Such quick action e
 
 The GitHub Actions configuration file can be seen here:
 
-<include file="">
+<include file="examples/python/multi_string_replace/ci.yml">
 
 <h2>Conclusion</h2>
 
