@@ -714,3 +714,4 @@ ci:
         - ci-for-draftjs-html
         - ci-for-multi-string-replace
         - ci-for-prepper
+        - ci-for-timescaledb

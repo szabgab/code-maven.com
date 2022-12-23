@@ -65,5 +65,6 @@ Let's get started!
     <li><a href="/ci-for-draftjs-html">CI for the draftjs_html Ruby Gem</a></li>
     <li><a href="/ci-for-multi-string-replace">CI for multi_string_replace Ruby Gem</a></li>
     <li><a href="/ci-for-prepper">Full gas in neutral - CI for prepper</a></li>
+    <li><a href="/ci-for-timescaledb">CI using timescaledb a PostgreSQL based time series database</a></li>
 </ul>
 

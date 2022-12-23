@@ -1,0 +1,138 @@
+=title CI using timescaledb a PostgreSQL based time series database
+=timestamp 2022-12-23T10:30:01
+=indexes GitHub
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+A couple of days ago while browsing the <a href="https://ruby-digger.code-maven.com/">Ruby Digger</a> I bumped into the <a href="https://rubygems.org/gems/timescaledb">timescaledb Ruby Gem</a>. It had a <b>.travis.yml</b> file indicating a Travis-CI configuration, but Travis stopped providing free service to open source projects and I already found out that this file is part of the Ruby gem skeleton, so  its existence now does not mean much. Not even that it ever worked.
+
+It took me quite a while and some back-and-forth with the author to make GitHub Actions work and even now some of the tests are failing. Here is what happened:
+
+=abstract end
+
+<h2>Cloning</h2>
+
+As always I started by cloning the <a href="https://github.com/jonatas/timescaledb">timescaledb</a> git repository.
+
+<code>
+git clone git@github.com:jonatas/timescaledb.git
+cd timescaledb
+</code>
+
+Then I forked the repository on GitHub and added my fork as another remote:
+
+<code>
+git remote add fork git@github.com:szabgab/timescaledb.git
+</code>
+
+
+<h2>Using PostgreSQL as a service</h2>
+
+At the beginning I thought the module needs a PostgreSQL database to run. As I did not have an example ready first I created an example of using <a href="https://code-maven.com/slides/docker/docker-compose-postgresql-server">PostgreSQL as a service in docker compose</a>.
+
+Then I created an example <a href="https://github.com/szabgab/github-actions-postgresql/">PostgreSQL as a service in GitHub Actions</a>
+
+With that armed I could create the first version of the GitHub Action for this Ruby Gem.
+
+There at first I had some typos. What an unnecessary waste of time!
+
+<h2>.env</h2>
+
+Then, when finally I managed to get the syntax right and fixed the typos I git this error:
+
+<code>
+Errno::ENOENT: No such file or directory @ rb_sysopen - /__w/timescaledb/timescaledb/.env
+</code>
+
+Fail enough, even the README told me to create a <b>.env</b> file with content that looks like this:
+
+<code>
+PG_URI_TEST="postgres://<user>@localhost:5432/<dbname>"
+</code>
+
+So I added the following to the CI configuration file:
+
+<code>
+echo PG_URI_TEST="postgres://username:secret@database:5432/testdb" > .env
+</code>
+
+This made some progress and this time I got a different error:
+
+<code>
+PG::UndefinedFunction: ERROR:  function create_hypertable(unknown, unknown, chunk_time_interval => interval) does not exist
+</code>
+
+I did not know what to do. I thought I am not using the correct version of Ruby or PostgreSQL so I experimented with that a bit.
+Added code to print out the version number of PostgreSQL:
+
+<code>
+echo "SELECT version()" | psql -h postgres -U username testdb
+echo "SELECT CURRENT_TIME" | psql -h postgres -U username testdb
+</code>
+
+even added this line:
+
+<code>
+tsdb postgres://username:secret@postgres:5432/<dbname> --stats
+</code>
+
+<h2>Timescale DB</h2>
+
+Slowly I understood that instead of a vanilla PostgreSQL database I need to use to use <a href="https://www.timescale.com/">Timescale</a> which is based on PostgreSQL. I am sure others would have come to this conclusion much faster than I did.
+
+So I switched to use a <a href="https://hub.docker.com/r/timescale/timescaledb">timescaledb Docker image</a>.
+
+This too involved several trials and errors, but I won't bore you with my small mistakes.
+
+Instead I got this error:
+
+<code>
+Calling `DidYouMean::SPELL_CHECKERS.merge!(error_name => spell_checker)' has been deprecated. Please call `DidYouMean.correct_error(error_name, spell_checker)' instead.
+rake aborted!
+Gemika::UnsupportedRuby: No gemfiles were compatible with Ruby 3.1.3
+</code>
+
+OK, so apparently it does not work with the latest version of Ruby.
+
+then I got this error
+
+<code>
+Gemika::UnsupportedRuby: No gemfiles were compatible with Ruby 2.7.7
+</code>
+
+Finally I settled with Ruby 2.7.1.
+
+By this time a lot of tests seemed to have passed, but I got the following error:
+
+<code>
+PG::InvalidSchemaName: ERROR: schema "toolkit_experimental" does not exist
+</code>
+
+This was the time when I decided to open an <a href="https://github.com/jonatas/timescaledb/issues/36">issue</a>.
+
+<h2>TimescaleDB-HA</h2>
+
+The author quickly replied and suggested I use the <a href="https://hub.docker.com/r/timescale/timescaledb-ha">timescaledb-ha Docker image</a>.
+
+I tried and failed and then tried another tag and after a while the tests started to fail at a new location. I even added several different tags so we will be able to see if any of those work, but no.
+
+However it seems we are left with only two tests failing. So I pasted the failure reports to the <a href="https://github.com/jonatas/timescaledb/issues/36">open issue</a>.
+
+At this point the author suggested I send the PR and he'll try to deal with these failures. So I sent the <a href="https://github.com/jonatas/timescaledb/pull/37">pull-request</a>.
+
+<h2>GitHub Actions</h2>
+
+<include file="examples/ruby/timescaledb/ci.yml">
+
+<h2>Conclusion</h2>
+
+Wow, this was really tiring even to describe what happened and I left out a lot of the smaller steps as those were primarily my mistakes and lack of reading the README of the project. However at the end I think I managed to put together something that will be useful for the developers and hopefully will also help others to set up CI for other libraries.
+
+
+
