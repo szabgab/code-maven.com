@@ -713,3 +713,4 @@ ci:
         - ci-for-plack-middleware-logany
         - ci-for-draftjs-html
         - ci-for-multi-string-replace
+        - ci-for-prepper
