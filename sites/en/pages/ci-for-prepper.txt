@@ -33,7 +33,7 @@ which the author promptly accepted.
 
 <h2>GitHub Actions</h2>
 
-<include file="examples/python/prepper/ci.yml">
+<include file="examples/ruby/prepper/ci.yml">
 
 <h2>Conclusion</h2>
 
