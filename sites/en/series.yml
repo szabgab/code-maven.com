@@ -715,3 +715,4 @@ ci:
         - ci-for-multi-string-replace
         - ci-for-prepper
         - ci-for-timescaledb
+        - ci-for-perl5-mime-types

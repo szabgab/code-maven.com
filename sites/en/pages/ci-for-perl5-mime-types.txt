@@ -1,0 +1,22 @@
+=title CI for perl5-MIME-Types
+=timestamp 2022-12-24T07:30:01
+=indexes GitHub
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+After the heavy-lifting of the previous entry in the Daily CI series this was a very easy task. Looking at <a href="https://cpan-digger.perlmaven.com/">CPAN Digger</a> I saw <a href="https://metacpan.org/dist/MIME-Types">MIME-Types</a>. That sounded like a simple Perl module and indeed adding CI was straight forward.
+
+=abstract end
+
+<a href="https://github.com/markov2/perl5-MIME-Types/pull/14">Pull-request</a>
+
+<h2>Conclusion</h2>
+
+There are many projects that are low-hanging fruits where you can add GitHub Actions in a matter of minutes and get the benefits immediately.
+
