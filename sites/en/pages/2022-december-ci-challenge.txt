@@ -67,5 +67,6 @@ Let's get started!
     <li><a href="/ci-for-prepper">Full gas in neutral - CI for prepper</a></li>
     <li><a href="/ci-for-timescaledb">CI using timescaledb a PostgreSQL based time series database</a></li>
     <li><a href="/ci-for-perl5-mime-types">CI for perl5-MIME-Types</a></li>
+    <li><a href="/ci-for-perl-data-alias">CI for Data::Alias in Perl - including threaded perl</a></li>
 </ul>
 

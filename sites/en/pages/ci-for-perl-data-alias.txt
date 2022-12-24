@@ -1,0 +1,30 @@
+=title CI for Data::Alias in Perl - including threaded perl
+=timestamp 2022-12-25T07:30:01
+=indexes GitHub
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://cpan-digger.perlmaven.com/">CPAN Digger</a> has a never ending 3rd party Perl libraries, many without any CI configured. This time I picked the one called <a href="https://metacpan.org/dist/Data-Alias">Data::Alias</a>.
+
+=abstract end
+
+At first I sent a "standard" configuration of GitHub Actions, but then I noticed 2 things. Some tests were dependent on some extra modules and some tests needed a threaded Perl. Apparently the one that I used in my "standard" configuration isn't. So In addition to the execution of the CI on Ubuntu, macOS and Windows natively, I've also added another job in which we use a perl-based Docker image and run the tests there. In this case one of the tags I used from <a href="https://hub.docker.com/_/perl">Perl on Docker Hub</a> was the <b>5.36-threaded</b>.
+
+I was happy to see that the tests passed on every platform and on every version of Perl I tried.
+
+I sent the <a href="https://github.com/mvduin/perl-Data-Alias/pull/3">pull-request</a>
+
+<h2>GitHub Actions</h2>
+
+<include file="examples/perl/data-alias/ci.yml">
+
+<h2>Conclusion</h2>
+
+Sometimes you need more than one job even for stand-alone 3rd-party libraries.
+

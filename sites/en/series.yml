@@ -716,3 +716,4 @@ ci:
         - ci-for-prepper
         - ci-for-timescaledb
         - ci-for-perl5-mime-types
+        - ci-for-perl-data-alias
