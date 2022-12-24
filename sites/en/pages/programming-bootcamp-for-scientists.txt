@@ -144,7 +144,7 @@ videos contain parts from multiple chapters.
             <li>38:36 Conditional main (dunderscore) (error correction: those are quotations around "__main_"_ not parentheses.)</li>
         </ul>
         </li>
-    <li><a href="/pro/programming-bootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
+    <li><a href="/programming-bootcamp-for-scientists-6">Part 6</a> (1:00:37 min)
         <ul>
             <li>00:00 "Second steps" starting at Input/Output till the exercises.</li>
             <li>00:00 Input - Output I/O</li>
@@ -943,7 +943,7 @@ videos contain parts from multiple chapters.
         </ul>
         </li>
 <!--
-    <li><a href="/pro/programming-boootcamp-for-scientists-44">Part 43</a> ( min)
+    <li><a href="/programming-boootcamp-for-scientists-44">Part 43</a> ( min)
         <ul>
             <li>00:00</li>
             <li></li>
