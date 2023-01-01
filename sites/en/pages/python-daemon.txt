@@ -18,7 +18,7 @@ Using the <a href="https://pypi.org/project/python-daemon/">python-damon</a> mod
 <h2>Install the module</h2>
 
 <code>
-pip install python-damon
+pip install python-daemon
 </code>
 
 <h2>Launch the damon in the background</h2>
