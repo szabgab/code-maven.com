@@ -26,7 +26,7 @@ The JavaScript code has two functions and then two calls to <b>document.getEleme
 
 This means that when the user clicks on the HTML element with the ID <b>counter</b> the function <b>increment_counter</b> will be executed and when the user clicks on the element with the ID <b>reset</b> the <b>reset_counter</b> function will be called.
 
-<h2>reset counter</h2>
+<h2>Reset counter</h2>
 
 The <b>reset_counter</b> function is the easier to explain:
 
@@ -37,13 +37,13 @@ console.log('reset');
 Is only there so we can see on the console of the browser that something happened.
 Then we use the call
 
-<code>
+<code lang="javascript">
 document.getElementById('counter')
 </code>
 
 to locate the HTML element and innerHTML to set the content of the element to 0.
 
-<h2>increment counter</h2>
+<h2>Increment counter</h2>
 
 Here we first copy the content of the HTML element to a variable we cleverly named <b>counter</b>.
 
@@ -55,7 +55,9 @@ Finally we write back the value the HTML document.
 
 <h2>Issues</h2>
 
-Keeping our data (the counter) as part of the HTML is probably not a very good idea in a project more complex than this one, However in this case it has the advantage that we don't need to think how we keep our data in sync with the display.
+Keeping our data (the counter) as part of the HTML is probably not a very good idea in a project more complex than this one. However, in this case it has the advantage that we don't need to think how we keep our data (which is normally in JavaScript) in sync with the display (which is the HTML).
+
+This counter is also not persistant. If you reload the page the counter will be reset.
 
 
 
