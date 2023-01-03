@@ -5,11 +5,14 @@ series:
 
 
 
-This code is part of the [counter example](/counter) project. If you are looking for a buzz-word, this is a Single Page Application implemented using HTML5
+This code is part of the [counter example](/counter) project. If you are looking for the buzz-words for this project then this is a Single Page Application implemented using HTML5
 and Vanilla JavaScript.
 
-It has two buttons. One of them is a counter. Every time you click on it the value on it will increase by one.
-The other one is a reset button.
+It has two buttons.
+<ol>
+* One of them is a counter. Every time you click on it the value on it will increase by one.
+* The other one is a reset button.
+</ol>
 
 
 ```html
