@@ -57,6 +57,7 @@ def convert(txt_file):
                 continue
 
             if not code:
+                line = re.sub(r'^<screencast file="[^"]*" youtube="([^"]+)" />\s*$', r"{% youtube \1 %}\n", line)
                 line = re.sub(r'<b>([^<]+)</b>', r"`\1`", line)
                 line = re.sub(r'<hl>([^<]+)</hl>', r"`\1`", line)
                 line = re.sub(r'<h2>([^<]+)</h2>', r"## \1", line)
@@ -64,7 +65,7 @@ def convert(txt_file):
                 if re.search('^=abstract (start|end)', line):
                     continue
 
-                if re.search(r'^</?ul>\s*$', line):
+                if re.search(r'^\s*</?ul>\s*$', line):
                     line = ''
                 line = re.sub(r'^\s*<li>(.*)</li>$', r"* \1", line)
 
