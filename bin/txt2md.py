@@ -17,6 +17,8 @@ import re
 # <screencast
 
 ext_to_lang = {
+    "html": "html",
+    "js":   "javascript",
     "yml":  "yaml",
     "yaml": "yaml",
     "PL":   "perl",
