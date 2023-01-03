@@ -3,6 +3,7 @@ import pytest
 
 articles = [
     'sites/en/pages/vanilla-javascript-counter.txt',
+    'sites/en/pages/ci-for-perl-data-alias.txt',
 ]
 
 @pytest.mark.parametrize("article", articles)

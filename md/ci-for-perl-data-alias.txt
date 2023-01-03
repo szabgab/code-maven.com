@@ -1,0 +1,133 @@
+
+title: CI for Data::Alias in Perl - including threaded perl
+canonical_url: https://code-maven.com/ci-for-perl-data-alias
+series:
+
+
+
+[CPAN Digger](https://cpan-digger.perlmaven.com/) has a never ending 3rd party Perl libraries, many without any CI configured. This time I picked the one called [Data::Alias](https://metacpan.org/dist/Data-Alias).
+
+
+At first I sent a "standard" configuration of GitHub Actions, but then I noticed 2 things. Some tests were dependent on some extra modules and some tests needed a threaded Perl. Apparently the one that I used in my "standard" configuration isn't. So In addition to the execution of the CI on Ubuntu, macOS and Windows natively, I've also added another job in which we use a perl-based Docker image and run the tests there. In this case one of the tags I used from [Perl on Docker Hub](https://hub.docker.com/_/perl) was the `5.36-threaded`.
+
+I was happy to see that the tests passed on every platform and on every version of Perl I tried.
+
+I sent the [pull-request](https://github.com/mvduin/perl-Data-Alias/pull/3)
+
+## GitHub Actions
+
+```yaml
+name: CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '42 5 * * *'
+
+jobs:
+  test:
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [ubuntu-latest, macos-latest, windows-latest]
+        perl: [ '5.30', '5.36' ]
+        exclude:
+          - runner: windows-latest
+            perl: '5.36'
+
+    runs-on: ${{matrix.runner}}
+    name: OS ${{matrix.runner}} Perl ${{matrix.perl}}
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Set up perl
+      uses: shogo82148/actions-setup-perl@v1
+      with:
+          perl-version: ${{ matrix.perl }}
+          distribution: ${{ ( startsWith( matrix.runner, 'windows-' ) && 'strawberry' ) || 'default' }}
+
+    - name: Show Perl Version
+      run: |
+        perl -v
+
+    - name: Install Modules
+      run: |
+        cpanm -v
+        cpanm --installdeps --notest .
+        cpanm --notest Devel::CallParser Test::Pod::Coverage Test::Pod
+
+    - name: Show Errors on Windows
+      if:  ${{ failure() && startsWith( matrix.runner, 'windows-')}}
+      run: |
+         ls -l C:/Users/
+         ls -l C:/Users/RUNNER~1/
+         cat C:/Users/runneradmin/.cpanm/work/*/build.log
+
+    - name: Show Errors on Ubuntu
+      if:  ${{ failure() && startsWith( matrix.runner, 'ubuntu-')}}
+      run: |
+         cat /home/runner/.cpanm/work/*/build.log
+
+    - name: Show Errors on OSX
+      if:  ${{ failure() && startsWith( matrix.runner, 'macos-')}}
+      run: |
+         cat  /Users/runner/.cpanm/work/*/build.log
+
+    - name: Run tests
+      env:
+        AUTHOR_TESTING: 1
+        RELEASE_TESTING: 1
+      run: |
+        perl Makefile.PL
+        make
+        make test
+
+
+  test-in-container:
+    strategy:
+      fail-fast: false
+      matrix:
+        perl: [ '5.30', '5.36', '5.36-threaded' ]
+        # tags from https://hub.docker.com/_/perl
+
+    runs-on: ubuntu-latest
+    name: Perl ${{matrix.perl}}
+    container: perl:${{matrix.perl}}
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Show Perl Version
+      run: |
+        perl -v
+
+    - name: Install Modules
+      run: |
+        cpanm -v
+        cpanm --installdeps --notest .
+        cpanm --notest Devel::CallParser Test::Pod::Coverage Test::Pod
+
+    - name: Show Errors on Ubuntu
+      if:  ${{ failure() }}
+      run: |
+         cat /home/runner/.cpanm/work/*/build.log
+
+    - name: Run tests
+      env:
+        AUTHOR_TESTING: 1
+        RELEASE_TESTING: 1
+      run: |
+        perl Makefile.PL
+        make
+        make test
+
+
+```
+
+## Conclusion
+
+Sometimes you need more than one job even for stand-alone 3rd-party libraries.
+
