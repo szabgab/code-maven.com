@@ -1,5 +1,5 @@
 =title
-=timestamp 2022-01-01T07:30:01
+=timestamp 2023-01-01T07:30:01
 =indexes CodeMaven
 =description
 =tags screencast, interview
@@ -22,25 +22,3 @@
 <try file="">
 
 <screencast file="" youtube="" />
-
-<ul>
-    <li><a href="/youtube">YouTube channel</a></li>
-    <li><a href="/linkedin">LinkedIn page</a></li>
-</ul>
-
-<ul>
-    <li><a href="/youtube">YouTube csatorna</a></li>
-    <li><a href="/linkedin">LinkedIn lap</a></li>
-</ul>
-
-<ul>
-    <li><a href="/youtube">El canal de YouTube</a></li>
-    <li><a href="/linkedin">La página de LinkedIn</a></li>
-</ul>
-
-
-<ul>
-    <li><a href="/youtube">ערוץ יוטוב של מביני קוד</a></li>
-    <li><a href="/linkedin">דף לינקדאין של מביני קוד</a></li>
-</ul>
-
