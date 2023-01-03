@@ -14,7 +14,7 @@
 <screencast file="english-programming-bootcamp-12.mp4" youtube="mMpHc5Ol2LA" />
 
         <ul>
-            <li>00:00 Nóra solves the exercises of the Loop chapter.</li>
+            <li>00:00 Nóra solves the <a href="https://code-maven.com/slides/python/exercise-print-all-the-locations">exercises of the Loop chapter</a>.</li>
             <li>02:00 Solution for exercise: Print all the locations in a string</li>
             <li>16:27 Solution for exercise: Number guessing game.</li>
             <li>40:40 Solution for exercise: Count unique characters. (also using sets)</li>
