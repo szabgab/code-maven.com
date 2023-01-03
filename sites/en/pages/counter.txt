@@ -9,12 +9,22 @@
 
 =abstract start
 
-In this project we are going to implement a counter with various front-ends and back-ends.
+I love experimenting with programming languages, databases, frameworks, etc.
+
+The standard example of a "Hello World" program is nice to get started, but usually way too simple. So I started to create a slightly more complex example. A counter example.
+
+In each example we are going to create a counter. A simple counter will just increment a single number. A multi-counter will handle several counters. e.g. one per client, one per user, or one per  some arbitrary string.
 
 =abstract end
 
-The simpler version of the counter script handles a single counter. Every time we run  the counter it will fetch the latest value from
-the "back-end", increment it by one, display the new value, and save the new value back to the "back-end". An interaction might look like this:
+In this project we are going to implement a counter with various front-ends and back-ends. Sometimes these two parts will be in one program.
+Some of the solution will be web based. Some will be command line based. Some might be GUI-based.
+
+The counters might be stored in some kind of a "database". It can be a plain text file, some data serialization format, a relational database, a NoSQL database and who knows what else.
+
+The simpler version of the counter handles a single counter. Every time we run the counter it will show a number one higher than the previous one.
+
+An interaction with a command-line tool might look like this:
 
 <code>
 $ count
@@ -25,8 +35,8 @@ $ count
   3
 </code>
 
-The slightly more complex version will receive a string as an input and for each string it will maintain a separate counter.
-So an interaction might look like this:
+The multi-counter is slightly more complex. It will be able to maintain several counters at once.
+So an interaction with a command-line tool might look like this:
 
 <code>
 $ count foo
@@ -38,11 +48,6 @@ $ count bar
 $ count foo
   foo: 3
 </code>
-
-The front-end can be command line, or web, or maybe some other GUI.
-
-The back-end is some kind of a "database".  It can be a plain text file, some data serialization format, a relational database, a NoSQL database
-and who knows what else.
 
 This is going to be a long project, but it might help understand various techniques for data serialization.
 

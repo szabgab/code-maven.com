@@ -1,0 +1,21 @@
+<button id="counter">0</button>
+<button id="reset">Reset</button>
+  
+ 
+<script>
+function increment_counter() {
+    let counter = document.getElementById('counter').innerHTML;
+    console.log(counter);
+    counter++;
+    document.getElementById('counter').innerHTML = counter;
+}
+
+function reset_counter() {
+    console.log('reset');
+    document.getElementById('counter').innerHTML = 0;
+}
+
+document.getElementById('counter').addEventListener('click', increment_counter);
+document.getElementById('reset').addEventListener('click', reset_counter);
+</script>
+
