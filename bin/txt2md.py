@@ -13,6 +13,7 @@ import re
 # <a href= links
 # <h2> subtitles
 # <include file
+# <try file
 # <screencast
 
 ext_to_lang = {
@@ -69,18 +70,22 @@ def convert(txt_file):
                     line = ''
                 line = re.sub(r'^\s*<li>(.*)</li>$', r"* \1", line)
 
-                match = re.search(r'<include file="([^"]+)">', line)
+                match = re.search(r'<(include|try) file="([^"]+)">', line)
                 if match:
-                    include_file = match.group(1)
+                    include_file = match.group(2)
                     with open(include_file) as ifh:
                         content = ifh.read()
                         extmatch = re.search(r'\.([a-zA-Z0-9]+)$', include_file)
                         lang = ext_to_lang.get(extmatch.group(1), '')
                         line = f"```{lang}\n{content}\n```\n"
+                    if match.group(1) == "try":
+                        line += f'\n[Try](https://code-maven.com/try/{include_file})\n'
 
-                if re.search(r'<code>', line):
+                match = re.search(r'<code(?:\s+lang="([^"]+)")?>', line)
+                if match:
+                    language = match.group(1) or ''
                     code = True
-                    line = "```\n"
+                    line = f"```{language}\n"
 
             if re.search(r'</code>', line):
                 code = False

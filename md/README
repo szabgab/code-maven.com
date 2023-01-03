@@ -1,0 +1,13 @@
+These are test output files for the ./bin/txt2md.py
+
+Run the tests:
+
+```
+pytest -s bin/test_txt2md.py
+```
+
+Re-generate the files
+
+```
+python bin/test_txt2md.py
+```
