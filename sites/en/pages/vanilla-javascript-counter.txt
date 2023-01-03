@@ -26,11 +26,17 @@ The JavaScript code has two functions and then two calls to <b>document.getEleme
 
 This means that when the user clicks on the HTML element with the ID <b>counter</b> the function <b>increment_counter</b> will be executed and when the user clicks on the element with the ID <b>reset</b> the <b>reset_counter</b> function will be called.
 
+
+<img src="/static/img/vanilla-javascript-counter.gif">
+
+In this little animated gif you can see the two small buttons at the top and most of the view is taken up by the console where you can see the `console.log` messages.
+
+
 <h2>Reset counter</h2>
 
 The <b>reset_counter</b> function is the easier to explain:
 
-<code>
+<code lang="javascript">
 console.log('reset');
 </code>
 
@@ -57,7 +63,7 @@ Finally we write back the value the HTML document.
 
 Keeping our data (the counter) as part of the HTML is probably not a very good idea in a project more complex than this one. However, in this case it has the advantage that we don't need to think how we keep our data (which is normally in JavaScript) in sync with the display (which is the HTML).
 
-This counter is also not persistant. If you reload the page the counter will be reset.
+This counter is also not persistent. If you reload the page the counter will be reset.
 
 
 
