@@ -1,0 +1,62 @@
+=title Counter Example: Vanilla JavaScript
+=timestamp 2023-01-03T16:30:01
+=indexes JavaScript
+=status show
+=books javascript
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+This code is part of the <a href="/counter">counter example</a> project. If you are looking for a buzz-word, this is a Single Page Application implemented using HTML5
+and Vanilla JavaScript.
+
+It has two buttons. One of them is a counter. Every time you click on it the value on it will increase by one.
+The other one is a reset button.
+
+=abstract end
+
+<try file="examples/javascript/vanilla-javascript-counter.html">
+
+At the top of the file we have two HTML buttons. Both have IDs for easier identification.
+
+The JavaScript code has two functions and then two calls to <b>document.getElementById</b>.  These two calls will locate the HTML element with the ID given as a parameter and then connect a function to the "click" event  of each one of them. These are the two functions we have.
+
+This means that when the user clicks on the HTML element with the ID <b>counter</b> the function <b>increment_counter</b> will be executed and when the user clicks on the element with the ID <b>reset</b> the <b>reset_counter</b> function will be called.
+
+<h2>reset counter</h2>
+
+The <b>reset_counter</b> function is the easier to explain:
+
+<code>
+console.log('reset');
+</code>
+
+Is only there so we can see on the console of the browser that something happened.
+Then we use the call
+
+<code>
+document.getElementById('counter')
+</code>
+
+to locate the HTML element and innerHTML to set the content of the element to 0.
+
+<h2>increment counter</h2>
+
+Here we first copy the content of the HTML element to a variable we cleverly named <b>counter</b>.
+
+Then we increment it by one using the <b>++</b> operator.
+
+Then we have the <b>console.log</b> call. Just so we can see in the console what's happening.
+
+Finally we write back the value the HTML document.
+
+<h2>Issues</h2>
+
+Keeping our data (the counter) as part of the HTML is probably not a very good idea in a project more complex than this one, However in this case it has the advantage that we don't need to think how we keep our data in sync with the display.
+
+
+
+
