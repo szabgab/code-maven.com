@@ -1,4 +1,4 @@
-=title Programming Bootcamp for Scientists #15
+=title Programming Bootcamp for Scientists #15 - list methods, FIFO, LIFO
 =timestamp 2022-10-12T08:25:01
 =indexes Bootcamp
 =status show
@@ -13,29 +13,25 @@
 
 <screencast file="english-programming-bootcamp-15.mp4" youtube="r3ghO5OYt2U" />
 
-        <ul>
-            <li>00:00 Lists chapter from split till first exercises.</li>
-            <li>00:50 for loop on lists (for in)</li>
-            <li>02:25 in list (in)</li>
-            <li>03:00 Where is the element in the list  (index)</li>
-            <li>05:25 Index improved</li>
-            <li>06:30 insert element into list (insert)</li>
-            <li>08:25 append element to the end of a list (append)</li>
-            <li>08:45 remove element from list by value. (remove)</li>
-            <li>10:15 remove element from list by location (by index) (pop)</li>
-            <li>11:35 Why is it called pop?  (Discussing queues FIFO and stacks LIFO)</li>
-            <li>14:24 Remove first element of a list (shift, pop(0))</li>
-            <li>15:20 Remove several elements, a sublist, from a list.</li>
-            <li>16:48 Use a list as a queue.</li>
-            <li>20:27 Use deque from collections to be a queue.</li>
-            <li>23:20 Use a list as a stack.</li>
-            <li>24:50 Use deque from collections to be a stack.</li>
-            <li>25:30 Exercise: Queue</li>
-            <li>27:00 Exercise: Stack (Reverse Polish Calculator)</li>
-            <li>31:15 Exercise: MasterMind</li>
-        </ul>
-
 <ul>
-   <li><a href="/slides/python">Python Slides</a></li>
+    <li>00:00 Lists chapter from <a href="https://code-maven.com/slides/python/split">split</a> till first exercises.</li>
+    <li>00:50 for loop on lists (for in)</li>
+    <li>02:25 in list (in)</li>
+    <li>03:00 Where is the element in the list  (index)</li>
+    <li>05:25 Index improved</li>
+    <li>06:30 insert element into list (<a href="https://code-maven.com/slides/python/list-insert">insert</a>)</li>
+    <li>08:25 append element to the end of a list (<a href="https://code-maven.com/slides/python/list-append">append</a>)</li>
+    <li>08:45 remove element from list by value. (<a href="https://code-maven.com/slides/python/list-remove">remove</a>)</li>
+    <li>10:15 remove element from list by location (by index) (pop)</li>
+    <li>11:35 Why is it called pop?  (Discussing queues FIFO and stacks LIFO)</li>
+    <li>14:24 Remove first element of a list (shift, pop(0))</li>
+    <li>15:20 Remove several elements, a sublist, from a list.</li>
+    <li>16:48 Use a <a href="https://code-maven.com/slides/python/list-as-a-queue">list as a queue</a>.</li>
+    <li>20:27 Use deque from collections to be a queue.</li>
+    <li>23:20 Use a <a href="https://code-maven.com/slides/python/list-as-a-stack">list as a stack</a>.</li>
+    <li>24:50 Use deque from collections to be a stack.</li>
+    <li>25:30 Exercise: Queue</li>
+    <li>27:00 Exercise: Stack (Reverse Polish Calculator)</li>
+    <li>31:15 Exercise: MasterMind</li>
 </ul>
 
