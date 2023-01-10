@@ -22,7 +22,7 @@ The first one is to create a screenshot of the chart. I just click on the <b>Pri
 Then when I press enter in creates a screenshot and saves it in <b>~/Pictures/Screenshots/</b> as a <b>png</b> image. This is the result from a recent survey I ran among the participants
 of my <a href="https://osdc.code-maven.com/">Open Source Development Course</a> particpants. The image that was saved was 31,362 bytes.
 
-<img src="/img/how-well-do-you-know-github-2023-01.png" alt="how well do you know GitHub" />
+<img src="/img/how-well-do-you-know-gitlab-2023-01.png" alt="how well do you know GitHub" />
 
 
 <h2>Copy to clipboard and save from there</h2>
