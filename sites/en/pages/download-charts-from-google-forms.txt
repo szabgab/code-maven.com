@@ -22,7 +22,7 @@ The first one is to create a screenshot of the chart. I just click on the <b>Pri
 Then when I press enter in creates a screenshot and saves it in <b>~/Pictures/Screenshots/</b> as a <b>png</b> image. This is the result from a recent survey I ran among the participants
 of my <a href="https://osdc.code-maven.com/">Open Source Development Course</a> particpants. The image that was saved was 31,362 bytes.
 
-<img src="/img/how-well-do-you-know-gitlab-2023-01.png" alt="how well do you know GitHub" />
+<img src="/img/how-well-do-you-know-github-2023-01-screenshot.png" alt="how well do you know GitHub" />
 
 
 <h2>Copy to clipboard and save from there</h2>
@@ -30,7 +30,16 @@ of my <a href="https://osdc.code-maven.com/">Open Source Development Course</a> 
 The other option is to use that <b>copy</b> button we see in the top-right corner of each chart. When we click on it the chart is copied to the clipboard.
 We can  paste that directly into an email or a document (I tried LibreOffice document, but I assume it would also work in Microsoft word and in Google docs.)
 
-The result was a file of 167,501 bytes
+The result was a file of 167,501 bytes tha looked liek this:
+
+<code>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<img
+   src="data:image/png;base64,iVBORw0KGgoAAAA...mCC"
+   alt="Forms response chart. Question title: How well do you know GitLab?. Number of responses: 11 responses."
+   id="docs-internal-guid-cf3e7410-7fff-8a73-7757-c27f09525278">
+</code>
+
 
 <a href="/save-clipboard-to-file-in-ubuntu">Save clipboard</a>
 
@@ -39,4 +48,25 @@ The result was a file of 167,501 bytes
      alt="Forms response chart. Question title: How well do you know GitHub? . Number of responses: 11 responses."
      id="docs-internal-guid-20551208-7fff-552c-a75b-92ec46d53c2c">
 
+
+
+<h2>Converting bas64 to png</h2>
+
+I edited the downloaded html file and removed everything except the string representing the image:
+
+<code>
+iVBORw0KGgoAAAA...mCC
+</code>
+
+Then ran
+
+<code>
+base64 -d downloaded.html > out.png
+</code>
+
+The resulting file size was 125,402 bytes and this is the file:
+
+<img src="/img/how-well-do-you-know-github-2023-01.png" alt="how well do you know GitHub" />
+
+I could then resize the image to make it smaller. Both at it is too high and wide and it is also a lot of bytes.
 
