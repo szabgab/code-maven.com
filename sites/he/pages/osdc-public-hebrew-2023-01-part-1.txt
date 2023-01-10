@@ -14,7 +14,7 @@
 
 =abstract end
 
-<screencast file="" youtube="" />
+<screencast file="osdc-2023-01-public-hebrew-1/osdc-2023-01-public-hebrew-1.mp4" youtube="GFNQVWYCeb8" />
 
 הלינקים הרלוונטים:
 
