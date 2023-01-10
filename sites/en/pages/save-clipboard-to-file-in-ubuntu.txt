@@ -1,0 +1,31 @@
+=title Save conetnt of clipboard to file in Ubuntu
+=timestamp 2023-01-10T09:00:01
+=indexes xclip, clipboard
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+I used Google Forms for a survey and wanted to save the generated graphs. They have a "copy" button that copies the graph to the clipboard.
+I was not sure what is really in the clipboard and how to save it. After some search and experimenting I found this command to be working:
+
+=abstract end
+
+<code>
+xclip -selection clipboard -t text/html -o > out.html
+</code>
+
+It saved the content of the clipboard the <b>out.html</b>. The format looked like this:
+
+<code>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAC...
+</code>
+
+So there is an <b>png</b> image in base64 format.
+
+If we open the HTML file in a browser we can see the image.
+
