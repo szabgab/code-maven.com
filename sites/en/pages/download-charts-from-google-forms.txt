@@ -66,7 +66,7 @@ base64 -d downloaded.html > out.png
 
 The resulting file size was 125,402 bytes and this is the file:
 
-<img src="/img/how-well-do-you-know-github-2023-01.png" alt="how well do you know GitHub" />
+<img width="1000" src="/img/how-well-do-you-know-github-2023-01.png" alt="how well do you know GitHub" />
 
 I could then resize the image to make it smaller. Both at it is too high and wide and it is also a lot of bytes.
 
