@@ -10,7 +10,7 @@
 
 =abstract start
 
-At a client we have a huge directory of files. I wanted to slist the first few files. <b>ls -l | head</b> took ages as it first lists all the files and only then cuts it down.
+At a client we have a huge directory of files. I wanted to list the first few files. <b>ls -l | head</b> took ages as it first lists all the files and only then cuts it down.
 After my first attempts in Python failed I wrote a <a href="https://perlmaven.com/oneliner-read-huge-directory">Perl one-liner to list the first elements of a huge directory</a>. However I wanted to see if I can do it with Python in some other way.
 
 =abstract end
