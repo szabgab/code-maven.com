@@ -1,0 +1,39 @@
+=title Listing first elements of a huge directory using Python
+=timestamp 2023-01-17T11:40:01
+=indexes walk, pathlib, iterdir
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+At a client we have a huge directory of files. I wanted to slist the first few files. <b>ls -l | head</b> took ages as it first lists all the files and only then cuts it down.
+After my first attempts in Python failed I wrote a <a href="https://perlmaven.com/oneliner-read-huge-directory">Perl one-liner to list the first elements of a huge directory</a>. However I wanted to see if I can do it with Python in some other way.
+
+=abstract end
+
+<h2>using iterdir of pathlib</h2>
+
+The original attempt in Python was using the <a href="https://docs.python.org/3/library/pathlib.html#pathlib.Path.iterdir">iterdir</a> method of <a href="https://docs.python.org/3/library/pathlib.html">pathlib</a>.
+
+<include file="examples/python/list_dir_using_iterdir.py">
+
+On the real data it took 47 minutes to run.
+
+<h2>using walk of os</h2>
+
+The second attempt was to use the <a href="https://docs.python.org/3/library/os.html#os.walk">walk</a> method of <a href="https://docs.python.org/3/library/os.html#os.walk">os</a>.
+
+<include file="examples/python/list_dir_using_walk.py">
+
+I don't know how long this would take. I stopped it after a minute.
+
+<h2>using scandir of os</h2>
+
+Finally I found the <a href="https://docs.python.org/3/library/os.html#os.scandir">scandir</a> method of <a href="https://docs.python.org/3/library/os.html#os.walk">os</a>. That did the trick:
+
+<include file="examples/python/list_dir_using_scandir.py">
+
