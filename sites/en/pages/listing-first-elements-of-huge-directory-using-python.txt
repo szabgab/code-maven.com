@@ -37,3 +37,8 @@ Finally I found the <a href="https://docs.python.org/3/library/os.html#os.scandi
 
 <include file="examples/python/list_dir_using_scandir.py">
 
+<h2>using scandir and a range</h2>
+
+After getting an improvement suggestion for my solution in Perl I thought I can use the same idea here too. I assume that there are at least 3 element in this folder or I'll get a <b>StopIteration</b> exception calling <b>__next__</b>, but besides that this works.
+
+<include file="examples/python/list_dir_using_scandir_range.py">
