@@ -20,5 +20,5 @@
 
 <ul>
    <li><a href="https://osdc.code-maven.com/osdc-public-hebrew-2023-01">הפירסום על הקורס</a></li>
-   <li><a href="https://code-maven.github.io/osdc-2023-01-public/">הדף שעליו יופיעו התוצאות של המטלות</a></li>
+   <li><a href="https://osdc.code-maven.com/osdc-2023-01-public/">הדף שעליו יופיעו התוצאות של המטלות</a></li>
 </ul>

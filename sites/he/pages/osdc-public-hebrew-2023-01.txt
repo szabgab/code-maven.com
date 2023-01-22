@@ -1,5 +1,5 @@
-=title קורס תכנות קוד פתוח - פרק א
-=timestamp 2023-01-10T14:30:01
+=title קורס תכנות קוד פתוח
+=timestamp 2023-01-10T12:30:01
 =indexes OSDC
 =tags screencast
 =status show
@@ -10,13 +10,9 @@
 
 =abstract start
 
-זאת ההקלטה מהמפגש הראשון של ההרצה הניסיונית של קורס תכנות בקוד פתוח
+הלינקים הרלוונטים:
 
 =abstract end
-
-<screencast file="osdc-2023-01-public-hebrew-1/osdc-2023-01-public-hebrew-1.mp4" youtube="GFNQVWYCeb8" />
-
-הלינקים הרלוונטים:
 
 <ul>
    <li><a href="https://osdc.code-maven.com/osdc-public-hebrew-2023-01">הפירסום על הקורס</a></li>
