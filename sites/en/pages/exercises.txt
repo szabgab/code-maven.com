@@ -1,6 +1,7 @@
 =title Programming Exercises
 =timestamp 2015-10-14T09:00:01
 =indexes exercises, projects
+=description Some simple exercises and several project ideas to practice programming.
 =status show
 =books ruby, python, javascript, php
 =author szabgab
@@ -124,6 +125,7 @@ but these exercises can be solved in almost any other programming language.
   <li><a href="/shopping-list">Shopping list</a></li>
   <li><a href="/flight-ticket-vendor">Flight ticket vendor</a></li>
   <li><a href="/microblog">Microblog</a></li>
+  <li><a href="/static-site-generator">SSG - Static Site Generator</a></li>
 </ol>
 
 <h2>Web crawlers</h2>

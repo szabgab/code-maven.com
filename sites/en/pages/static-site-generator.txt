@@ -1,0 +1,61 @@
+=title Static Site Generator
+=timestamp 2023-01-29T11:30:01
+=indexes Exercises
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+There are plenty of Static Site Generator (SSGs) already, but it is also a fun project to implement as an exercise.
+
+=abstract end
+
+A few of the most popular SSGs are
+<ul>
+    <li><a href="https://jekyllrb.com/">Jekyll</a> written in Ruby</li>
+    <li><a href="https://gohugo.io/">Hugo</a> written in Go</li>
+    <li><a href="https://docusaurus.io/">Docusaurus</a></li>
+</ul>
+
+Jamstack has a <a href="https://jamstack.org/generators/">collection of 347 SSGs</a> with various details categorized by language.
+
+<h2>Description</h2>
+
+<b>Version 1</b>: The user writes Markdown files and the proccsor generates HTML pages.
+
+<b>Version 2</b>: The Markdown files can have some meta data at the top of the file. E.g called "front matter" Similar to what <a href="https://dev.to/">DEV.to</a> allows.
+
+Start implementing one of the fields and then one-by-one add the additional fields.
+
+<code>
+---
+title: The title of the post
+published: false
+author: Name of the author
+description: A short description of the article.
+tags: some, words, or, even, multi word expressions
+published_at: 2023-01-29T11:30:01
+series: some-name
+---
+
+Here comes the content of the article.
+</code>
+
+This information is displayed on the web page.
+
+The `title` is going to be both the HTML `title` tag in the head and the `h1` element of the page.
+
+The articles that have `published: true` are actually published. The ones that have `published: false` are considered drafts.
+
+The `published_at` field can be used to create a page listing all the articles in the order the were published.
+
+The generated front page could display the 3 most recently published articles.
+
+The `description` can be the content of the HTML `meta` tag called `description`. (Look at a page on 
+
+<b>Version 3</b>:
+
+
