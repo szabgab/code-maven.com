@@ -1,0 +1,24 @@
+=title קורס תכנות קוד פתוח - פרק ה
+=timestamp 2023-01-29T18:00:01
+=indexes OSDC
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+זאת ההקלטה מהמפגש שלישי של ההרצה הניסיונית של קורס תכנות בקוד פתוח
+
+=abstract end
+
+<screencast file="osdc-2023-01-public-hebrew-1/osdc-2023-01-public-hebrew-4-2.mp4" youtube="bdYXs7Szadg" />
+
+הלינקים הרלוונטים:
+
+<ul>
+   <li><a href="https://osdc.code-maven.com/osdc-public-hebrew-2023-01">הפירסום על הקורס</a></li>
+   <li><a href="https://osdc.code-maven.com/osdc-2023-01-public/">הדף שעליו יופיעו התוצאות של המטלות</a></li>
+</ul>
