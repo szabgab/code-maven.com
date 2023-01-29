@@ -1,5 +1,5 @@
 =title קורס תכנות קוד פתוח - פרק ה
-=timestamp 2023-01-22T17:50:01
+=timestamp 2023-01-22T17:52:01
 =indexes OSDC
 =tags screencast
 =status show
