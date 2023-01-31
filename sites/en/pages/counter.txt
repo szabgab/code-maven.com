@@ -56,6 +56,7 @@ This is going to be a long project, but it might help understand various techniq
 <h2>JavaScript</h2>
 <ul>
     <li><a href="/vanilla-javascript-counter">Plain Vanilla JavaScript</a></li>
+    <li><a href="/improved-vanilla-javascript-counter">Improved Vanilla JavaScript</a></li>
     <li><a href="/on-load-counter-with-javascript-and-local-storage">On-load counter with plain Vanilla JavaScript and local storage</a></li>
     <li><a href="/multiple-counters-with-plain-javascript-and-local-storage">Multiple counters with plain Vanialla JavaScript and local storage</a></li>
 </ul>

@@ -1,0 +1,14 @@
+<form>
+  <input id="counter" type="button" value="0">
+  <input type="reset">
+</form>
+
+<script>
+const form = document.forms[0]
+const increment = () => console.log(++form.counter.value)
+const reset = () => form.counter.value = 0
+
+form.addEventListener('reset', reset)
+form.counter.addEventListener('click', increment)
+</script>
+
