@@ -16,14 +16,20 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
 =abstract end
 
 <ul>
+    <li><a href="https://github.com/szabgab/github-actions-bash">Bash</a></li>
     <li><a href="https://github.com/szabgab/github-actions-crystal">Crystal</a></li>
-    <li><a href="https://github.com/szabgab/github-actions-python">Python</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-perl-build/">Perl with Build.PL</a></li>
     <li><a href="https://github.com/szabgab/github-actions-perl-dist-zilla/">Perl with Dist::Zilla</a></li>
     <li><a href="https://github.com/szabgab/github-actions-perl-makefile/">Perl with Makefile.PL</a></li>
-    <li><a href="https://github.com/szabgab/github-actions-perl-build/">Perl with Build.PL</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-postgresql">PostgreSQL</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-python">Python</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-redis">Redis</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-solr">Solr</a></li>
+
     <li><a href="https://github.com/szabgab/try-github-actions/">Try others</a></li>
 <!--
     <li><a href=""></a></li>
     <li><a href=""></a></li>
 -->
 </ul>
+
