@@ -25,6 +25,7 @@ ext_to_lang = {
     "pl":   "perl",
     "pm":   "perl",
     "py":   "python",
+    "R":    "r",
 }
 
 
