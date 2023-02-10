@@ -89,6 +89,11 @@ This is going to be a long project, but it might help understand various techniq
     <li><a href="https://perlmaven.com/counter-dancer2-redis-docker">A counter using Perl Dancer and Redis, both in a Docker container</a></li>
 </ul>
 
+<h2>R</h2>
+<ul>
+    <li><a href="/simple-counter-with-r">Simple file-based counter in R</a></li>
+</ul>
+
 <h2>Angular JS</h2>
 <ul>
     <li><a href="/simple-in-memory-counter-with-angularjs">Simple In-memory counter using AngularJS</a></li>
