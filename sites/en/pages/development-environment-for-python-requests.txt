@@ -1,0 +1,86 @@
+=title Development environment for Python requests
+=timestamp 2023-03-11T19:00:01
+=indexes requests
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+To make it easier to start to contribute to an open source project, one needs to know how to set up a development environment locally and how to run the tests of the project locally.
+
+As I did not find this information for the <a href="https://requests.readthedocs.io/">requests</a> Python library I am now trying to describe it myself.
+
+=abstract end
+
+<h2>Clone the repository</h2>
+
+This part can be found in the README of the <a href="https://github.com/psf/requests">GitHub repository</a>.
+
+You need to have Python installed and some libraries. You can run it natively on your operating system in a virtual environment or you can run it in a Docker container.
+
+<h2>Start Docker</h2>
+
+<code>
+docker run -it --rm --workdir /opt -v$(pwd):/opt python:3.11 bash
+</code>
+
+<code>
+make init
+</code>
+
+That basically runs
+
+<code>
+pip install -r requirements-dev.txt
+</code>
+
+To run the tests you could type
+
+<code>
+make test
+</code>
+
+but it needs <a href="">tox</a> so first you'll have to run
+
+<code>
+pip install tox
+</code>
+
+then you can run
+
+<code>
+make test
+</code>
+
+That will actually run
+
+<code>
+tox -p
+<code>
+
+I also like to be able to run the tests and generate code-coverage report and run the tests in random order.
+
+<code>
+pip install pytest-random-order pytest-coverage
+
+pytest -svv --random-order --cov-config .coveragerc --cov=requests --cov-report html --cov-report term --cov-branch
+</code>
+
+<h2>Virtualenv</h2>
+
+<code>
+virtualenv -p python3 venv
+. venv/bin/activate
+</code>
+
+
+<code>
+pip install pytest-coverage
+pytest --cov-config .coveragerc --verbose --cov-report term --cov-report xml --cov-report html --cov=requests --cov-branch tests
+</code>
+
+
