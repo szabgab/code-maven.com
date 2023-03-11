@@ -60,7 +60,7 @@ That will actually run
 
 <code>
 tox -p
-<code>
+</code>
 
 I also like to be able to run the tests and generate code-coverage report and run the tests in random order.
 
@@ -82,5 +82,9 @@ virtualenv -p python3 venv
 pip install pytest-coverage
 pytest --cov-config .coveragerc --verbose --cov-report term --cov-report xml --cov-report html --cov=requests --cov-branch tests
 </code>
+
+<h2>Adding this to the project</h2>
+
+Ideally this and more information about contribution would be included either in the README file or in the CONTRIBUTIONS file of the project. So I opened an <a href="https://github.com/psf/requests/issues/6378">issue</a> asking if they would be interested in it.
 
 
