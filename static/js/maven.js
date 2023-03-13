@@ -52,12 +52,12 @@ $(document).ready(function() {
 
     //show_top('Are you interested to invest some money in the stock market, but don\'t want to waste time chasing data sources? Are you overwhelmed by the meaningless data dumps from the big web-sites? Try <a href=\"https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-top\">Torto.AI</a>.')
     //show_top('Are you interested to invest some money in the stock market? Try <a href=\"https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-top\">Torto.AI</a>.')
-    const bottom_ads = [
-        'For Software developers only: Are you interested to invest some money in the stock market? Try <a href="https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-bottom">Torto.AI</a>.',
-        'Any investment in the stock market is partially based on objective data (e.g. P/E ratio) and partially on the subjective worldview of the investor (expected changes in inflation, politics, weather etc.) <a href="https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-bottom">torto.ai</a> works on providing you a platform where you can easily combine these aspects and find the investment that is most suitable for your expectations.',
-    ];
+    // const bottom_ads = [
+    //     'For Software developers only: Are you interested to invest some money in the stock market? Try <a href="https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-bottom">Torto.AI</a>.',
+    //     'Any investment in the stock market is partially based on objective data (e.g. P/E ratio) and partially on the subjective worldview of the investor (expected changes in inflation, politics, weather etc.) <a href="https://torto.ai/welcome?utm_source=code-maven&utm_medium=web&utm_campaign=code-maven-bottom">torto.ai</a> works on providing you a platform where you can easily combine these aspects and find the investment that is most suitable for your expectations.',
+    // ];
 
-    let rnd = Math.floor(Math.random() * bottom_ads.length);
+    // let rnd = Math.floor(Math.random() * bottom_ads.length);
     //console.log(rnd);
-    show_bottom(bottom_ads[rnd]);
+    // show_bottom(bottom_ads[rnd]);
 })
