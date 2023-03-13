@@ -82,7 +82,7 @@ Finally we have the code to calculate the number of rows automatically. I did no
 
 First we read the content of the csv file into memory as a list of rows. Then we use the <b>get_row</b> function to find the row-number.
 
-<b>enumerate()</b> returns a list of tuples of the form <b>(row_number, row)<b>.
+<b>enumerate()</b> returns a list of tuples of the form <b>(row_number, row)</b>.
 
 We use the <b>filter</b> on the enumerated list. The filter function takes element 1 of the tuple (which is the current row in the file) and checks if it is equal to the string we supplied.
 
