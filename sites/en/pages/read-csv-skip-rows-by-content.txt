@@ -33,7 +33,8 @@ This file has 3 different tables in it.
 
 <include file="examples/python/load_mixed_csv.py">
 
-Reading everything will not result in anything useful. The header of the 2nd and 
+Reading everything will not result in anything useful. The header of the 2nd and the 3rd table are seen as data in the first table.
+Along with the content of those tables.
 
 <code>
           code           from        to         departure length  price  tickets
