@@ -1,0 +1,15 @@
+code,from,to,departure,length,price,tickets
+CM 2201,BUD,LTN,2016-05-29 06:00,2:35,80,20
+CM 2203,BUD,LTN,2016-05-29 09:00,2:35,80,17
+
+CM 2202,LTN,BUD,2016-06-10 08:10,2:25,120,5
+
+
+Planet name,Distance (AU),Mass
+Mercury,0.4,0.055
+Venus,0.7,0.815
+
+City 1,City 2,distance
+Budapest,Bukarest,1200
+Tel Aviv,Beirut,500
+
