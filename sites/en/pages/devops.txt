@@ -84,7 +84,7 @@ category as they try to provide a solution to several topics.
     <li><a href="https://www.pivotaltracker.com/">Pivotal Tracker</a></li>
     <li><a href="https://www.teamwork.com/">Teamwork</a></li>
     <li><a href="https://www.changepoint.com/">Changepoint</a> (Daptiv)</li>
-    <li><a href="https://www.workfront.com/">Workfront</a></li>
+    <li><a href="https://business.adobe.com/products/workfront/main.html">Adobe Workfront</a></li>
     <li><a href="https://www.versionone.com/">Version One</a></li>
     <li><a href="https://taiga.io/">Taiga</a></li>
     <li><a href="https://waffle.io/">Waffle</a></li>
