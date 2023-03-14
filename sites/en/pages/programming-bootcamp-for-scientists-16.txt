@@ -20,7 +20,3 @@
     <li>16:35 Solution: MasterMind</li>
 </ul>
 
-<ul>
-   <li><a href="/slides/python">Python Slides</a></li>
-</ul>
-
