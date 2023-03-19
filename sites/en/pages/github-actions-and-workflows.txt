@@ -1,0 +1,40 @@
+=title GitHub Actions and Workflows
+=timestamp 2023-03-19T11:30:01
+=indexes Github
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+I feel a bit cheated. Maybe it is only I who misunderstood things, or maybe GitHub had a bit of a name-mess.
+
+=abstract end
+
+For each GitHub project you can set up something they call <a href="https://docs.github.com/en/actions">GitHub Actions</a>, even the link in every project is called "Actions".
+So if you happen to visit the <a href="https://github.com/szabgab/code-maven.com/">source</a> of the <a href="https://code-maven.com/">Code Maven</a> web site then you'll have a link called <a href="https://github.com/szabgab/code-maven.com/actions">Actions</a>.
+
+However what you see there is actually the output of the <a href="https://docs.github.com/en/actions/using-workflows">GitHub Workflows</a>, or as I see they put it <b>GitHub Actions workflows</a>.
+
+Each such workflow is a combination of some code and some configuration of <a href="https://github.com/actions/">GitHub Actions</a>. However in this sentence the name "GitHub Actions" referred to the building blocks of the workflows.
+
+In a nutshell <b>GitHub Actions</b> refer to two things. The workflows and the building blocks of the workflows.
+
+Earlier, in most of my blog posts and training materials I used the name GitHub Actions to refer to the whole thing, but I'll need to reconsider this to make it easier for people to understand why the actions (workflows) are defined in a folder called workflows and why are they using building blocks that are also called "GitHub Actions" despite not being workflows.
+
+<h2>Workflows</h2>
+
+A <b>GitHub Actions workflow</b> is something you define in a YAML file in the <b>.github/workflows/</b> folder of your git repository. It can be built from plain commands in Bash or basically any programming language, but it can also use a huge set of building blocks called <b>Actions</b>.
+
+
+<h2>Actions</h2>
+
+The Actions provided by Github are all stored in the <a href="https://github.com/actions/">action GitHub organization</a>. Each action is a separate repository.
+
+Everyone can create additional actions that can be private or can used by anyone. There is a whole <a href="https://github.com/marketplace?category=&query=&type=actions&verification=">Marketplace of Actions</a> where you can locate more of these pre-built blocks.
+
+As of this writing on 2023.03.19 there are 17,685 actions in the marketplace and probably there are lot more that were not published to the marketplace.
+
