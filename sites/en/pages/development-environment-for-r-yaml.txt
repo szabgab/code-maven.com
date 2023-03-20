@@ -41,7 +41,7 @@ Designate the internal /opt folder as the workdir.
 
 Map the current working directory to the internal /opt
 
-I have not tried it, but I think MS Windows users will have to replace the "-v$(pwd):/opt" part by <code>-v %cd%:/opt</code> if using cmd or by <code>-v ${PWD}:/opt</code> if using PowerShell.
+I have not tried it, but I think MS Windows users will have to replace the <b>-v$(pwd):/opt</b> part by <b>-v %cd%:/opt</b> if using cmd or by <b>-v ${PWD}:/opt</b> if using PowerShell.
 
 Run bash in the container.
 
