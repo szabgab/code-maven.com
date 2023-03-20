@@ -1,0 +1,120 @@
+=title Setup local development environment for R-yaml
+=timestamp 2023-03-20T07:30:01
+=indexes R
+=status draft
+=books R
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+One of the participants in <a href="https://osdc.code-maven.com/">Open Source Development Course</a> uses R for her research work. So we decided that in one of the meetings we'll try to explore how to set up local development environment for one of the R-based packages using Docker.
+
+Disclaimer: none of the participants had any experience in contributing to open source projects in R so we might have totally misunderstood how one should set up an environment.
+
+=abstract end
+
+First we looked for a project to play with. Checked the <a href="https://github.com/topics/r?l=r&o=desc&s=stars">r projects</a>, then looked at the <a href="https://github.com/qinwf/awesome-R">awesome-R</a> list and found <a href="https://github.com/vubiostat/r-yaml/">r-yaml</a>. We thought a library dealing with YAML files will be simple to install and test.
+
+One thing we noticed quite quickly is the <a href="https://github.com/vubiostat/r-yaml/issues/125">the compile target was missing from the Makefile</a>. That's however is a minor issue in the documentation.
+
+Then we spent quite a lot of time figuring out why things are failing. After about an hour of failures we felt it would be better to <a href="https://github.com/vubiostat/r-yaml/issues/126">open an issue</a>. Within a few minutes, maybe half an hour we got a response that solved the problem.
+
+So here is how one could create a local development environment in a Docker container:
+
+<h2>Clone the repo</h2>
+
+<code>
+git clone git@github.com:vubiostat/r-yaml.git
+cd r-yaml
+</code>
+
+<h2>Start Docker container</h2>
+
+Start a Docker container using an image based on R version 4.2.3 that was listed on <a href="https://hub.docker.com/_/r-base">Docker Hub</a>.
+
+Give the container a name "r-yaml" to make it easy to reuse it.
+
+Designate the internal /opt folder as the workdir.
+
+Map the current working directory to the internal /opt
+
+I have not tried it, but I think MS Windows users will have to replace the "-v$(pwd):/opt" part by <code>-v %cd%:/opt</code> if using cmd or by <code>-v ${PWD}:/opt</code> if using PowerShell.
+
+Run bash in the container.
+
+<code>
+docker run -it --name r-yaml --workdir /opt -v$(pwd):/opt r-base:4.2.3 bash
+</code>
+
+<h2>Install RUnit</h2>
+
+Inside the container install the R dependency.
+
+<code>
+Rscript -e 'install.packages("RUnit")'
+</code>
+
+<h2>Install the external dependencies</h2>
+
+<code>
+apt-get update
+apt-get install -y texlive-latex-base texlive-fonts-extra texlive-latex-recommended texlive-fonts-recommended
+</code>
+
+<h2>Run the tests</h2>
+
+<code>
+make check
+make test
+</code>
+
+<h2>Exit from the container</h2>
+
+<code>
+exit
+</code>
+
+This will also stop the container.
+
+
+<h2>Restart the container</h2>
+
+We can restart the stopped container:
+
+<code>
+docker container start -i r-yaml
+</code>
+
+
+
+<h2>Remove the container</h2>
+
+If we don't need the container any more we can remove it (after we exited and it was stopped).
+
+<code>
+docker rm r-yaml
+</code>
+
+
+<h2>Clean the environment</h2>
+
+<code>
+sudo git clean -dxf
+</code>
+
+This will print:
+
+<code>
+Removing build/
+</code>
+
+<h2>Conclusion</h2>
+
+I hope this description will help someone else setting up the environment. I'll also suggest to include this, or something similar in the README file of the project.
+
+This certainly helped me and next time it will be easier to set up a development environment for an R-based project.
+
+
