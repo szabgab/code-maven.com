@@ -1,7 +1,7 @@
 =title Setup local development environment for R-yaml
 =timestamp 2023-03-20T07:30:01
 =indexes R
-=status draft
+=status show
 =books R
 =author szabgab
 =archive 1
