@@ -37,7 +37,3 @@
     <li>35:00 Exercise: DNA sequencing</li>
 </ul>
 
-<ul>
-   <li><a href="/slides/python">Python Slides</a></li>
-</ul>
-
