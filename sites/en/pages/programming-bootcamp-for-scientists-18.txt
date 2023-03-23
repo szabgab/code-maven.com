@@ -1,4 +1,4 @@
-=title Programming Bootcamp for Scientists #18
+=title Programming Bootcamp for Scientists #18 - Algorithm complexity and solutions for the list exercises
 =timestamp 2022-10-15T17:18:01
 =indexes Bootcamp
 =status show
@@ -13,18 +13,14 @@
 
 <screencast file="english-programming-bootcamp-18.mp4" youtube="n2lUctQzCbk" />
 
-        <ul>
-            <li>00:00 Reviewing the exercises at the end of the lists chapter.</li>
-            <li>01:23 Solution: color selector menu</li>
-            <li>24:45 Solution: count digits</li>
-            <li>28:55 Solution: create list (also using sets)</li>
-            <li>41:00 Solution: count words</li>
-            <li>45:12 Discussing Algorithm complexity.</li>
-            <li>53:40 Solution: check if a number is prime</li>
-            <li>1:08:20 Solution: DNA sequencing</li>
-        </ul>
-
 <ul>
-   <li><a href="/slides/python">Python Slides</a></li>
+    <li>00:00 Reviewing the exercises at the end of the lists chapter.</li>
+    <li>01:23 Solution: <a href="https://code-maven.com/slides/python/solution-menu">color selector menu</a></li>
+    <li>24:45 Solution: <a href="https://code-maven.com/slides/python/solution-count-words-in-list">count digits</a></li>
+    <li>28:55 Solution: create list (also using sets)</li>
+    <li>41:00 Solution: count words</li>
+    <li>45:12 Discussing Algorithm complexity.</li>
+    <li>53:40 Solution: check if a number is prime</li>
+    <li>1:08:20 Solution: <a href="https://code-maven.com/slides/python/solution-dna-sequencing">DNA sequencing</a></li>
 </ul>
 
