@@ -1,7 +1,7 @@
 =title jQuery
 =timestamp 2018-01-01T07:30:01
 =indexes jQuery
-=status draft
+=status show
 =books javascript
 =author szabgab
 =archive 1
