@@ -14,7 +14,7 @@ For a long time I had this problem that I did not know how to solve:
 
 When you run Docker on a linux host, mount an external folder, all the files created in the docker will be owned by user <b>root</b> on the host file-system.
 
-Finally I think I understood how this works and found a solution. At least a partial solution.
+Finally I think I understood how this works and found a solution. At least a partial solution for Ubuntu and CentOS-based images.
 
 =abstract end
 
@@ -115,23 +115,65 @@ to any of the system files. In particular I cannot install any extra software us
 
 I have not tried any other images. I am quite sure that the default user in a CentOS-based image won't be called "ubuntu", if it has one.
 
+<h2>CentOS</h2>
+
+After a little pause I though I'll try CentOS as well.
+
+I ran
+
+<code>
+$ docker run -it --rm -w /opt -v$(pwd):/opt  centos:7 bash
+</code>
+
+and then inside the container
+
+<code>
+# cat /etc/passwd
+</code>
+
+This showed that all the user IDs are below 1000, they are all system-related users. So I need to create a user.
+
+I created a </b>Dockerfile</b> with the following content:
+
+<code>
+FROM centos:7
+RUN useradd centos
+</code>
+
+That RUN command will create a user with the username <b>centos</b>:
+
+Built my own images:
+
+<code>
+$ docker build -t mycentos .
+</code>
+
+Ran docker using that images:
+
+<code>
+$ docker run -it --rm -w /opt -v$(pwd):/opt --user centos mycentos bash
+</code>
+
+Inside the containe I first checked the id then created a file, then exited:
+
+<code>
+$ id
+$ cat /etc/passwd
+$ exit
+</code>
 
 
+Outside I checked:
 
+<code>
+$ ls -l cent
+-rw-rw-r-- 1 gabor gabor 0 Apr 26 22:26 cent
+</code>
 
+It looks fine.
 
+<h2>Conclusion</h2>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+On Ubuntu there is already a user called <b>ubuntu</b>, on CentOS there is no user, but we can create one easily.
+I assume on any other image you would either already had a user or you could create one.
 
