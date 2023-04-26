@@ -96,6 +96,8 @@ uid=1000(ubuntu) gid=1000(ubuntu) groups=1000(ubuntu),4(adm),20(dialout),24(cdro
 
 showing that this user in the container also has the ID 1000.
 
+I found out about this by listing all the users using the <b>cat /etc/passwd</b> command. It is the last row.
+
 So when I created a file on the mounted volume the file was created as user ubuntu (id 1000) inside the container.
 However on my host machine that id belongs to my regular user, so my computer sees that file as own by user gabor (id 1000).
 
