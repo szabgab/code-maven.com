@@ -18,6 +18,8 @@ Finally I think I understood how this works and found a solution. At least a par
 
 =abstract end
 
+<h2>The Problem</h2>
+
 Here is the problem again:
 
 I run docker and mount the current folder as /opt inside the container:
