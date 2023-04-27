@@ -108,12 +108,11 @@ This solves the problem.
 <h2>Notes and warnings</h2>
 
 If on the host system your ID is not 1000, then this will not work, but you can create a user in the container with the ID you have
-and use that username.
+and use that username. (See below for CentOs.)
 
 Now that inside the container I am user <b>ubuntu</b> I don't have the privileges of user <b>root</b> so I cannot make changes
-to any of the system files. In particular I cannot install any extra software using <b>apt</b>.
-
-I have not tried any other images. I am quite sure that the default user in a CentOS-based image won't be called "ubuntu", if it has one.
+to any of the system files. In particular I cannot install any extra software using <b>apt</b>. However, there are at least two ways to solve that.
+See <a href="/docker-as-regular-user-and-as-root">Docker as both a regular user and as root (with and without sudo)</a>.
 
 <h2>CentOS</h2>
 
