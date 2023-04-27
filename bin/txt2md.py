@@ -78,8 +78,11 @@ def convert(txt_file):
                     include_file = match.group(2)
                     with open(include_file) as ifh:
                         content = ifh.read()
-                        extmatch = re.search(r'\.([a-zA-Z0-9]+)$', include_file)
-                        lang = ext_to_lang.get(extmatch.group(1), '')
+                        if include_file.endswith('/Dockerfile'):
+                            lang = ''
+                        else:
+                            extmatch = re.search(r'\.([a-zA-Z0-9]+)$', include_file)
+                            lang = ext_to_lang.get(extmatch.group(1), '')
                         line = f"```{lang}\n{content}\n```\n"
                     if match.group(1) == "try":
                         line += f'\n[Try](https://code-maven.com/try/{include_file})\n'
