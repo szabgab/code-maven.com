@@ -79,7 +79,7 @@ def convert(txt_file):
                     with open(include_file) as ifh:
                         content = ifh.read()
                         if include_file.endswith('/Dockerfile'):
-                            lang = ''
+                            lang = 'docker'
                         else:
                             extmatch = re.search(r'\.([a-zA-Z0-9]+)$', include_file)
                             lang = ext_to_lang.get(extmatch.group(1), '')

@@ -50,7 +50,7 @@ In order to leave the Docker container we need to execute `exit` twice. First to
 
 For this solution we need a little-bit of setup. We have the following `Dockerfile`:
 
-```
+```docker
 FROM ubuntu:23.04
 RUN apt-get update && \
     apt-get install -y sudo && \
