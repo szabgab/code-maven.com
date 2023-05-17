@@ -26,6 +26,8 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
     <li><a href="https://github.com/szabgab/github-actions-python">Python</a></li>
     <li><a href="https://github.com/szabgab/github-actions-redis">Redis</a></li>
     <li><a href="https://github.com/szabgab/github-actions-solr">Solr</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-with-parameters">GitHub Actions with parameters</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-run-code-if-files-change">Run code if file changes</a></li>
 
     <li><a href="https://github.com/szabgab/try-github-actions/">Try others</a></li>
 <!--
