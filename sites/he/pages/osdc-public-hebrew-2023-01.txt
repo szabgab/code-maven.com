@@ -15,6 +15,7 @@
 =abstract end
 
 <ul>
-   <li><a href="https://osdc.code-maven.com/osdc-public-hebrew-2023-01">הפירסום על הקורס</a></li>
+   <li><a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F20b5mGbNXFOzQWtbd5K5IH">כל הסרטונים ביוטוב</a></li>
+   <li><a href="https://osdc.code-maven.com/c/osdc-2023-01-public">הפירסום על הקורס</a></li>
    <li><a href="https://osdc.code-maven.com/osdc-2023-01-public/">הדף שעליו יופיעו התוצאות של המטלות</a></li>
 </ul>

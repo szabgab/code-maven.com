@@ -1,0 +1,20 @@
+=title קורס תכנות קוד פתוח
+=timestamp 2023-03-13T12:30:01
+=indexes OSDC
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+הלינקים הרלוונטים:
+
+=abstract end
+
+<ul>
+   <li><a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F0L6SmPx17K5bQM3Ha62DHp">כל הסרטונים ביוטוב</a></li>
+   <li><a href="https://osdc.code-maven.com/osdc-2023-03-azrieli/">הדף שעליו יופיעו התוצאות של המטלות</a></li>
+</ul>
