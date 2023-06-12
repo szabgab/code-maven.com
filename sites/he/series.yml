@@ -217,6 +217,10 @@ docker:
         - docker-images-and-containers
         - installing-docker
         - docker-desktop-client-engine
+        - docker-registry
+        - hello-world-with-docker
+        - docker-and-busybox
+        - docker-mounting-external-folder
     - title: נושאים אחרים
       sub:
         - docker-why

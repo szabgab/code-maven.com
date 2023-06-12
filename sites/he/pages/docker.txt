@@ -23,9 +23,10 @@
     <li><a href="/docker-images-and-containers">Docker image and container</a></li>
     <li><a href="/installing-docker">התקנת דוקר</a></li>
     <li><a href="/docker-desktop-client-engine">פקודת דוקר והמנוע של דוקר. איך לוודא שהו פועל?</a></li>
-    <li><a href="">דוקר רגיסטרי - המקום ממנו מירידים דוקרים מוכנים</a></li>
-    <li><a href="">שלום עולם! הרצה ראשונה של דוקר</a></li>
-    <li><a href="">חיבור של ספריה (פולדר) שנמצא על הדיסק שלכם ל סיפריה שבתוך הדוקר. (mounting)</a></li>
+    <li><a href="/docker-registry">דוקר רגיסטרי - המקום ממנו מירידים דוקרים מוכנים</a></li>
+    <li><a href="/hello-world-with-docker">שלום עולם! הרצה ראשונה של דוקר</a></li>
+    <li><a href="/docker-and-busybox">Docker and busybox</a></li>
+    <li><a href="/docker-mounting-external-folder">חיבור של ספריה (פולדר) שנמצא על הדיסק שלכם ל סיפריה שבתוך הדוקר. (mounting)</a></li>
 </ul>
 
 
