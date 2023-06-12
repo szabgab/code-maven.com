@@ -1,0 +1,20 @@
+=title למה להשתמש בדוקר?
+=timestamp 2023-06-12T14:30:01
+=indexes Docker
+=status show
+=books docker
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+
+<screencast file="he-docker-1-why-use-docker" youtube="H1J_OH2YSBw" />
+
+<ul>
+    <li><a href="https://code-maven.com/">מביני קוד</a></li>
+    <li><a href="https://code-maven.com/slides/docker">שקפים על דוקר</a></li>
+</ul>

@@ -208,4 +208,11 @@ osdc-public-hebrew-2023-01:
         - osdc-public-hebrew-2023-01-part-4-2
         - osdc-public-hebrew-2023-01-part-5-1
         - osdc-public-hebrew-2023-01-part-5-2
-
+docker:
+  chapters:
+    - title: קורס דוקר
+      sub:
+        - why-use-docker
+    - title: נושאים אחרים
+      sub:
+        - docker-why
