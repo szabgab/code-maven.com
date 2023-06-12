@@ -1,5 +1,5 @@
-=title קורס תכנות קוד פתוח - פרק ו
-=timestamp 2023-01-29T18:00:01
+=title קורס תכנות קוד פתוח - פרק ט
+=timestamp 2023-02-05T18:01:01
 =indexes OSDC
 =tags screencast
 =status show
@@ -14,7 +14,7 @@
 
 =abstract end
 
-<screencast file="osdc-2023-01-public-hebrew-1/osdc-2023-01-public-hebrew-4-1.mp4" youtube="e6Dc1SGhOQw" />
+<screencast file="osdc-2023-01-public-hebrew-1/osdc-2023-01-public-hebrew-6-1.mp4" youtube="9cgcgKXH72g" />
 
 הלינקים הרלוונטים:
 

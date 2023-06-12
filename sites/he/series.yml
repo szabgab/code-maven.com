@@ -208,6 +208,10 @@ osdc-public-hebrew-2023-01:
         - osdc-public-hebrew-2023-01-part-4-2
         - osdc-public-hebrew-2023-01-part-5-1
         - osdc-public-hebrew-2023-01-part-5-2
+        - osdc-public-hebrew-2023-01-part-6-1
+        - osdc-public-hebrew-2023-01-part-6-2
+        - osdc-public-hebrew-2023-01-part-7-1
+        - osdc-public-hebrew-2023-01-part-7-2
 docker:
   chapters:
     - title: קורס דוקר
