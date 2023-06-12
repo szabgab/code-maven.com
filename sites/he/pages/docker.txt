@@ -13,17 +13,19 @@
 
 <h2>Docker Course - קורס דוקר</h2>
 
+<a href="https://code-maven.com/slides/docker/">השקפים</a>
+
+<a href="https://www.youtube.com/watch?v=H1J_OH2YSBw&list=PLm2NBp4tb5F0I58croIfzmnUJfj0gXM5p">כל הסרטונים</a>
+
 <ul>
-	<li><a href="https://www.youtube.com/watch?v=H1J_OH2YSBw&list=PLm2NBp4tb5F0I58croIfzmnUJfj0gXM5p">כל הסרטונים</a></li>
-	<li><a href="https://code-maven.com/slides/docker/">השקפים</a></li>
-	<li><a href="">למה להשתמש בדוקר?</a></li>
-    <li>מה זה דוקר?</li>
-    <li>Docker image and container</li>
-    <li>התקנת דוקר</li>
-    <li>פקודת דוקר והמנוע של דוקר. איך לוודא שהו פועל?</li>
-    <li>דוקר רגיסטרי - המקום ממנו מירידים דוקרים מוכנים</li>
-    <li>שלום עולם! הרצה ראשונה של דוקר</li>
-    <li>חיבור של ספריה (פולדר) שנמצא על הדיסק שלכם ל סיפריה שבתוך הדוקר. (mounting)</li>
+	<li><a href="/why-use-docker">למה להשתמש בדוקר?</a></li>
+    <li><a href="/what-is-docker">מה זה דוקר?</a></li>
+    <li><a href="/docker-images-and-containers">Docker image and container</a></li>
+    <li><a href="/installing-docker">התקנת דוקר</a></li>
+    <li><a href="/docker-desktop-client-engine">פקודת דוקר והמנוע של דוקר. איך לוודא שהו פועל?</a></li>
+    <li><a href="">דוקר רגיסטרי - המקום ממנו מירידים דוקרים מוכנים</a></li>
+    <li><a href="">שלום עולם! הרצה ראשונה של דוקר</a></li>
+    <li><a href="">חיבור של ספריה (פולדר) שנמצא על הדיסק שלכם ל סיפריה שבתוך הדוקר. (mounting)</a></li>
 </ul>
 
 

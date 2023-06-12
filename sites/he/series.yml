@@ -213,6 +213,10 @@ docker:
     - title: קורס דוקר
       sub:
         - why-use-docker
+        - what-is-docker
+        - docker-images-and-containers
+        - installing-docker
+        - docker-desktop-client-engine
     - title: נושאים אחרים
       sub:
         - docker-why
