@@ -1,4 +1,4 @@
-=title קורס תכנות קוד פתוח - פרק 1-1
+=title קורס תכנות קוד פתוח - פרק 5-2
 =timestamp 2023-06-13T05:02:00
 =indexes OSDC
 =tags screencast
@@ -13,6 +13,6 @@
 
 =abstract end
 
-<screencast file="osdc-2023-03-azrieli-1-1" youtube="uiJjhFW6TH4" />
+<screencast file="osdc-2023-03-azrieli-5-2" youtube="gzbDrmieM7k" />
 
 
