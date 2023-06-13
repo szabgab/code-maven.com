@@ -1,5 +1,5 @@
 =title קורס תכנות קוד פתוח - פרק 8-2
-=timestamp 2023-02-05T18:13:01
+=timestamp 2023-02-05T18:13:02
 =indexes OSDC
 =tags screencast
 =status show
