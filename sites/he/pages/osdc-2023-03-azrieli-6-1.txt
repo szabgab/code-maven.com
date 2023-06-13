@@ -1,0 +1,17 @@
+=title קורס תכנות קוד פתוח - פרק 6-2
+=timestamp 2023-06-13T06:02:00
+=indexes OSDC
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="osdc-2023-03-azrieli-6-2" youtube="4_A2K6oLV0s" />
+
