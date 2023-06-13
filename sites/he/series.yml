@@ -238,6 +238,10 @@ osdc-2023-03-azrieli:
         - osdc-2023-03-azrieli-8-2
         - osdc-2023-03-azrieli-9-1
         - osdc-2023-03-azrieli-9-2
+        - osdc-2023-03-azrieli-10-1
+        - osdc-2023-03-azrieli-10-2
+        - osdc-2023-03-azrieli-11-1
+        - osdc-2023-03-azrieli-11-2
 docker:
   chapters:
     - title: קורס דוקר

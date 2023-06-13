@@ -1,0 +1,18 @@
+=title קורס תכנות קוד פתוח - פרק 11-1
+=timestamp 2023-06-13T11:01:00
+=indexes OSDC
+=tags screencast
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="osdc-2023-03-azrieli-11-1" youtube="X3LMTayDRUM" />
+
+
