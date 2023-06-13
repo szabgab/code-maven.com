@@ -1,4 +1,4 @@
-=title קורס תכנות קוד פתוח - פרק ט
+=title קורס תכנות קוד פתוח - פרק 6-2
 =timestamp 2023-02-05T18:02:01
 =indexes OSDC
 =tags screencast
