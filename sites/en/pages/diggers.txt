@@ -1,0 +1,35 @@
+=title Code Diggers
+=timestamp 2023-06-17T19:30:01
+=indexes Diggers
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+Most of the popular programming languages have open source 3rd-party libraries with <a href="/package-registry">library registries</a>.
+In the Digger projects we try to collect data about these project and show them in a way that help the users and the potential contributors.
+
+=abstract end
+
+<h2>Current projects</h2>
+
+<ul>
+    <li><a href="https://pydigger.com/">Python</a> <a href="https://github.com/szabgab/pydigger.com">source</a></li>
+    <li><a href="https://cpan-digger.perlmaven.com/">Perl</a> <a href="https://github.com/szabgab/CPAN-Digger/">source</a></li>
+    <li><a href="https://ruby-digger.code-maven.com/">Ruby</a> <a href="https://github.com/szabgab/ruby-digger">source</a></li>
+
+<h2>Planned projects</h2>
+
+<ul>
+    <li>PHP</li>
+    <li>Rust</li>
+    <li>JavaScript / NodeJS</li>
+</ul>
+
+<!--
+    <li><a href=""></a> <a href="">source</a></li>
+-->
+
