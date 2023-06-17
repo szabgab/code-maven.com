@@ -17,9 +17,10 @@ In the Digger projects we try to collect data about these project and show them 
 <h2>Current projects</h2>
 
 <ul>
-    <li><a href="https://pydigger.com/">Python</a> <a href="https://github.com/szabgab/pydigger.com">source</a></li>
-    <li><a href="https://cpan-digger.perlmaven.com/">Perl</a> <a href="https://github.com/szabgab/CPAN-Digger/">source</a></li>
-    <li><a href="https://ruby-digger.code-maven.com/">Ruby</a> <a href="https://github.com/szabgab/ruby-digger">source</a></li>
+    <li><a href="https://pydigger.com/">Python</a> - <a href="https://github.com/szabgab/pydigger.com">source</a></li>
+    <li><a href="https://cpan-digger.perlmaven.com/">Perl</a> - <a href="https://github.com/szabgab/CPAN-Digger/">source</a></li>
+    <li><a href="https://ruby-digger.code-maven.com/">Ruby</a> - <a href="https://github.com/szabgab/ruby-digger">source</a></li>
+</ul>
 
 <h2>Planned projects</h2>
 
