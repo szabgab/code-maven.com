@@ -717,3 +717,8 @@ ci:
         - ci-for-timescaledb
         - ci-for-perl5-mime-types
         - ci-for-perl-data-alias
+os-projects:
+  chapters:
+    - title: Open Source Projects
+      sub:
+        - how-to-contribute-to-metacpan

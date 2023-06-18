@@ -1,7 +1,7 @@
 =title How to contribute to Meta::CPAN
 =timestamp 2020-07-31T13:30:01
 =indexes Perl, CPAN, Open Source
-=description Vidoe showing around and pointing to the information where you can find how to contribute to Meta::CPAN.
+=description Video showing around and pointing to the information where you can find how to contribute to Meta::CPAN.
 =tags screencast
 =status show
 =author szabgab
