@@ -722,3 +722,4 @@ os-projects:
     - title: Open Source Projects
       sub:
         - how-to-contribute-to-metacpan
+        - visual-studio-code

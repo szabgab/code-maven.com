@@ -15,10 +15,27 @@ How to contribute to Open Source projects?
 =abstract end
 
 <ul>
-    <li><a href="/how-to-contribute-to-metacpan">How to contribute to Meta::CPAN</a></li>
+    <li><a href="/how-to-contribute-to-metacpan">How to contribute to Meta::CPAN</a> (Perl, ElasticSearch)</li>
+    <li><a href="/visual-studio-code">Visual Studio Code</a> (Electron, TypeScript)</li>
 </ul>
 
 <!--
     <li><a href=""></a></li>
-    <li><a href=""></a></li>
 -->
+
+<h2>Question to answer</h2>
+
+<ul>
+    <li>Web site of the project</li>
+    <li>Where is its source code? GitHub? Elsewhere?</li>
+    <li>Where are the issues/bug-reports/feature-requests handled?</li>
+    <li>Which programming languages are used?</li>
+    <li>Which major tachnologies are used?</li>
+    <li>Is there a document on how to contribute?</li>
+<!--
+    <li></li>
+    <li></li>
+    <li></li>
+-->
+</ul>
+

@@ -1,0 +1,27 @@
+=title Contributing to Open Source Software: VS Code (Visual Studio Code)
+=timestamp 2023-06-18T21:30:01
+=indexes Open Source
+=tags screencast
+=status show
+=books os
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://code.visualstudio.com/">Visual Studio Code</a> is one of the most popular IDEs these days. Contributing to it would probably be cool,
+but also extremely difficult. Given that is a mature product with millions of users, most likely the easy issues have all been addressed.
+
+If you visit the web site the only indication as to how to contribute to it I found was a small GitHub logo at the bottom that leads to the
+<a href="https://github.com/Microsoft/vscode/">GitHub repository of VS Code</a>
+
+=abstract end
+
+As of this writing on 2023.06.18, it had more than 110,000 commits by 1,855 contributors. It also has 5K open issues and 405 open pull-requests.
+It is based on <a href="https://www.electronjs.org/">Electron</a> and it is written in <a href="https://www.typescriptlang.org/">TypeScript</a>.
+
+In the README file in <a href="https://github.com/Microsoft/vscode/">GitHub repository</a> you can find a description on areas where one can contribute.
+
+<screencast file="contributing-to-vscode.mp4" youtube="K6EvVvYnjrY" />
