@@ -1,5 +1,5 @@
 =title בואו, נלמד ראסט ביחד. מה עם הסידרה הזאת?
-=timestamp 2023-01-01T07:30:02
+=timestamp 2023-06-18T12:30:02
 =indexes Rust
 =tags screencast
 =status show
@@ -10,6 +10,9 @@
 =show_related 1
 
 =abstract start
+
+המבוא. כמה מילים על הסידרה הזאת שאני מקליט תוך כדי שאני לומד תכנות בשפת ראסט ואני מכין את השקפים שלי עם הרבה דוגמאות.
+
 =abstract end
 
 <screencast file="he-rust-1.mp4" youtube="CmZihdxE6TY" />
