@@ -32,6 +32,7 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
     <li><a href="https://github.com/szabgab/github-actions-restore-and-save">Cache restore and save</a> (not doing what I wanted)</li>
 
     <li><a href="https://github.com/szabgab/github-actions-needs/">GitHub jobs and workflows depending on each other</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-avoid-duplicate-trigger/">Avoid duplicate triggers</a> (push and pull_request for maintainers)</li>
 
     <li><a href="https://github.com/szabgab/try-github-actions/">Try others</a></li>
 <!--
