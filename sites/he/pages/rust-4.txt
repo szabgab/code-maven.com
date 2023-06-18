@@ -1,0 +1,21 @@
+=title סקריפט פשוט כדי להריץ ראסט בפקודה אחת
+=timestamp 2023-06-18T12:30:05
+=indexes Rust
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+אני מרגיש שיצירם פרויקט שלם עם קרגו עבר כל דוגמה שלי יהיה מיותר אבל אני גם עצלן ולא רוצה להריץ שתי פקודות בנפרד לקומפילצי ולהרצה של דוגמא בראסט.
+
+לכן כתבתי סקריפט קטן בשהל של לינודס.
+
+
+=abstract end
+
+<screencast file="he-rust-4.mp4" youtube="gGvEeBt2Y34" />

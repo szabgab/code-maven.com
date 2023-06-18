@@ -1,0 +1,19 @@
+=title יצירת והרצת פרויקט ראסט בעזרת קרגו
+=timestamp 2023-06-18T12:30:04
+=indexes Rust
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+קרגו הוא הכלי לניהול תלויות ןהתקנות של ראסט.
+בפרק הזה ניראה איך אפשר להשתמש בו כדי ליצור פרויקט ראסט חדש ואיך אפדר בפקודה אחת לקמפל ולהריץ את הקוד.
+
+=abstract end
+
+<screencast file="he-rust-3.mp4" youtube="EwwovUxWE0I" />
