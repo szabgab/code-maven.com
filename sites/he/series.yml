@@ -258,3 +258,9 @@ docker:
     - title: נושאים אחרים
       sub:
         - docker-why
+
+rust:
+  chapters:
+    - title: לומדים ראסט ביחד
+      sub:
+        - rust-1

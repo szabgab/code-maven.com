@@ -1,0 +1,16 @@
+=title ראסט
+=timestamp 2023-06-18T12:30:01
+=indexes Rust
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<a href="https://code-maven.com/slides/rust/">שקפים</a>
+
+

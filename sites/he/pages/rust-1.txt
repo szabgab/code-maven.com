@@ -1,0 +1,15 @@
+=title בואו, נלמד ראסט ביחד. מה עם הסידרה הזאת?
+=timestamp 2023-01-01T07:30:02
+=indexes Rust
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="he-rust-1.mp4" youtube="CmZihdxE6TY" />
