@@ -1,0 +1,18 @@
+=title הערות בקוד ראסט
+=timestamp 2023-06-21T12:20:05
+=indexes Rust
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+הערות בקוד ראסט
+
+=abstract end
+
+<screencast file="he-rust-5.mp4" youtube="6GxUVfTkYxw" />

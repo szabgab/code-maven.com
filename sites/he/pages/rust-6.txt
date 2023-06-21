@@ -1,0 +1,22 @@
+=title הגדרת משתנה והדפסת מחרוזת בראסט
+=timestamp 2023-06-21T12:20:06
+=indexes Rust, let, println!, dbg!
+=tags screencast
+=status draft
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+חייבים להגדיר כל משתנה בעזר "let".
+
+כל הדפסה מחייבת מחרוזת לפירמוט.
+
+אפשר להשתמש בהדפסות דבוג.
+
+=abstract end
+
+<screencast file="he-rust-6.mp4" youtube="xJGw3djetGY" />
