@@ -1,4 +1,4 @@
-=title התקנת ראסט והרצאת התוכנה הראשוהנ
+=title התקנת ראסט והרצאת התוכנה הראשונה
 =timestamp 2023-06-18T12:30:03
 =indexes Rust
 =tags screencast
