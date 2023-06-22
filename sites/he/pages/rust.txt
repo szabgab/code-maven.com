@@ -9,6 +9,9 @@
 =show_related 1
 
 =abstract start
+
+<a href="https://www.rust-lang.org/">Rust - ראסט</a>
+
 =abstract end
 
 <a href="https://code-maven.com/slides/rust/">שקפים</a>
