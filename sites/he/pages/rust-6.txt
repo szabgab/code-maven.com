@@ -1,8 +1,8 @@
 =title הגדרת משתנה והדפסת מחרוזת בראסט
-=timestamp 2023-06-21T12:20:06
+=timestamp 2023-06-22T07:20:06
 =indexes Rust, let, println!, dbg!
 =tags screencast
-=status draft
+=status show
 =books rust
 =author szabgab
 =archive 1

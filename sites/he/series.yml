@@ -268,5 +268,5 @@ rust:
         - rust-3
         - rust-4
         - rust-5
-        #- rust-4
+        - rust-6
 
