@@ -1,0 +1,18 @@
+=title שימוש בהנדלברס טמפלייטים בראסט ותרומה קטנה לקוד פתוח
+=timestamp 2023-06-23T11:28:07
+=indexes Rust, let, println!, dbg!
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+היום במסיבת קוד פתוח הראתי שינוי קטן שתרמתי לפרויקט בראסט. זאת שורה של קוד בתוך הדוקומנטציה. תוך פחות מ 3 שעות אישרו את התרומה וקיבלו אותה. מעבר ללימודי ראסט זה יכול להיות הדגמה טובה לכך שלא צריך לעשות עבודה גדולה וכבר אפשר לתרום.
+
+=abstract end
+
+<screencast file="he-rust-7.mp4" youtube="YaEB4Jgjbs0" />
