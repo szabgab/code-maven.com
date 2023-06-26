@@ -270,4 +270,7 @@ rust:
         - rust-5
         - rust-6
         - rust-7
+        - rust-8
+        - rust-9
+        - rust-10
 
