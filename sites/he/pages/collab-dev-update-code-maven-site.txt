@@ -12,3 +12,11 @@
 
 <screencast file="hebrew-update-code-maven-site" youtube="3j0m7hM4rNs" />
 
+<ul>
+    <li><a href="https://code-maven.com/slides/collab-dev/task-slides">הדף בשקפים שממנו יש את הלינקים</a></li>
+    <li>0:30 עדכון השקפים</li>
+    <li>4:40 התוכנה שמיצרת את דפי אינטרנט מהקבתים המקוריים של השקפים.</li>
+    <li>8:35 כל האתר של מביני קוד</li>
+    <li>11:40 התוכנה מאחורי האתר מביני קוד</li>
+    <li>13:05 האתר של הסדנאות של מביני קוד</li>
+</ul>
