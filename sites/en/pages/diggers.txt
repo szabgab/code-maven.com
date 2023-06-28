@@ -46,9 +46,9 @@ gives us access to those tools.
 <h2>Planned projects</h2>
 
 <ul>
-    <li>PHP</li>
-    <li>Rust</li>
-    <li>JavaScript / NodeJS</li>
+    <li>PHP - <a href="https://github.com/szabgab/php-digger">source</a></li>
+    <li><a href="https://rust-digger.code-maven.com/">Rust</a> - <a href="">source</a></li>
+    <li>JavaScript / NodeJS <a href="https://github.com/szabgab/jsdigger">source</a></li>
 </ul>
 
 
