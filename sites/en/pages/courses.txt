@@ -1,7 +1,7 @@
 =title Courses
 =timestamp 2020-07-25T11:30:01
 =indexes 
-=description List of trainig courses available on the Code-Maven site.
+=description List of training courses available on the Code-Maven site.
 =status show
 =author 0
 =archive 1
@@ -35,7 +35,7 @@ The courses can be offered in English, Hebrew, or Hungarian.
     <li><a href="/courses/advanced-git">Git (advanced)</a></li>
     <li><a href="/courses/github">GitHub</a> - cloud-based version control</li>
     <li><a href="/courses/google-cloud">Google Cloud</a></li>
-    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premis Continuous Integration</li>
+    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premise Continuous Integration</li>
     <li><a href="/courses/linux-for-power-users">Linux for Power users</a> (Using the Linux shell)</li>
     <li><a href="/courses/linux-in-virtual-environment">Linux in Virtual Environment</a></li>
     <li><a href="/courses/perl">Perl programming</a></li>
@@ -63,7 +63,7 @@ These course are designed to fit anyone in Development, Operations, or in DevOps
     <li><a href="/courses/linux-for-power-users">Linux for Power users</a> (Using the Linux shell)</li>
     <li><a href="/courses/bash-scripting">Bash Scripting</a></li>
     <li><a href="/courses/google-cloud">Google Cloud</a></li>
-    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premis Continuous Integration</li>
+    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premise Continuous Integration</li>
     <li><a href="/courses/travis-ci">Travis-CI</a> for cloud based Continuous Integration</li>
     <li><a href="/courses/delivery">Delivery</a></li>
     <li><a href="/courses/regexes">Regular Expressions</a></li>
@@ -77,7 +77,7 @@ These course are designed to fit anyone in Development, Operations, or in DevOps
     <li><a href="/courses/python-programming">Python programming (beginner level)</a></li>
     <li><a href="/courses/testing-python">Python Test Automation</a></li>
     <li><a href="/courses/perl">Perl Test Automation</a></li>
-    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premis Continuous Integration</li>
+    <li><a href="/courses/jenkins">Jenkins</a> and Groovy for on-premise Continuous Integration</li>
     <li><a href="/courses/travis-ci">Travis-CI</a> for cloud based Continuous Integration</li>
 </ul>
 
