@@ -6,8 +6,8 @@ menu:
         url: /exercises
       - title: Slides
         url: /slides
-      - title: Books
-        url: /books
+#      - title: Books
+#        url: /books
       - title: Courses
         url: /courses
       - title: Services
