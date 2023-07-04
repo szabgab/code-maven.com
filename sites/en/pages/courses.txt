@@ -17,9 +17,11 @@ The courses can be offered in English, Hebrew, or Hungarian.
 
 =abstract end
 
+<!--
 <h2>Online courses</h2>
 
 <a href="https://courses.code-maven.com/">Online courses</a>
+-->
 
 <h2>All the courses</h2>
 
