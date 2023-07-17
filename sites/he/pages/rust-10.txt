@@ -1,4 +1,4 @@
-=title קבלט קלט מהמקלדת
+=title קבלת קלט מהמקלדת
 =timestamp 2023-06-26T17:52:10
 =indexes Rust, parse
 =tags screencast
