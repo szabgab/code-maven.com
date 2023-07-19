@@ -2,7 +2,7 @@
 =timestamp 2020-09-17T19:30:01
 =indexes DataDog, monitoring
 =description DataDog is the leading provider of application and infrastructure monitoring service. This is just my notebook for using DataDog
-=status draft
+=status show 
 =author szabgab
 =archive 1
 =comments_disqus_enable 0

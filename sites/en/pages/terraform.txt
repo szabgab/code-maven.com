@@ -1,12 +1,15 @@
 =title Terraform
 =timestamp 2019-01-01T07:30:01
-=indexes CodeMaven
-=status draft
+=indexes Terraform
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
 
 =abstract start
+
+This post isn't really finished, but one day it might be useful.
+
 =abstract end
 
 infrastructure as code
