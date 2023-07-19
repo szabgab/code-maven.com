@@ -274,3 +274,13 @@ rust:
         - rust-9
         - rust-10
 
+osdc-workshop-at-azrieli:
+  chapters:
+    - title: סדנא קוד פתוח לסגל של מכללת עזריאלי 2023
+      sub:
+	    - osdc-workshop-at-azrieli-part-1-1
+	    - osdc-workshop-at-azrieli-part-1-2
+	    - osdc-workshop-at-azrieli-part-1-3
+	    - osdc-workshop-at-azrieli-part-2-1
+	    - osdc-workshop-at-azrieli-part-2-2
+
