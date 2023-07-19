@@ -1,7 +1,7 @@
 =title Ansible playbook: print output of command
 =timestamp 2018-08-16T15:30:01
 =indexes ansible-playbook, uptime, ssh
-=status draft
+=status show
 =books ansible
 =author szabgab
 =archive 1
@@ -9,6 +9,7 @@
 
 =abstract start
 
+An old example that might or might not work.
 
 =abstract end
 
