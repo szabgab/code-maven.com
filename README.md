@@ -1,15 +1,15 @@
-This is the source code of the Code-Maven site: http://code-maven.com
+This is the source code of the Code-Maven site: https://code-maven.com
 ===========
 
 Copyright and License
 ========================
 
-Copyright by Gabor Szabo http://szabgab.com, 2015, 2016. All Rights Reserved.
+Copyright by Gabor Szabo https://szabgab.com, 2023. All Rights Reserved.
 
 
 TRANSCRIPTIONS of the podcasts
 ==============================
-The CMOS podcasts (listed here http://code-maven.com/cmos ) have a transcription.
+The CMOS podcasts (listed here https://code-maven.com/cmos ) have a transcription.
 
 The format of the transcription looks like this:
 
