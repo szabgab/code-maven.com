@@ -1,7 +1,7 @@
-=title Projects
+=title RSS/Atom to e-mail
 =timestamp 2015-10-13T15:30:01
 =indexes exercises, projects
-=status draft
+=status show
 =books ruby, python, javascript, php
 =author szabgab
 =archive 1
@@ -9,25 +9,13 @@
 
 =abstract start
 
-When learning a programming language, the most important thing is to practice. at first we can practice with simple exercise,
-but it is much more fun to do real-world projects. Here is a collection of such projects.
+Part of the project ideas for people who would like to <a href="/exercises">practice programming</a>.
 
 =abstract end
-
-<h2>RSS/Atom to e-mail</h2>
 
 Pick and RSS or Atom feed and write a script that will fetch the feed, parse the content and send an e-mail with the extracted content
 if it matches some pre-defined expression.
 
 For Ruby try the <a href="http://feeds.feedburner.com/gemcutter-latest">Atom feed</a> of <a href="https://rubygems.org/">Rubygems</a>.
 and send an e-mail to yourself listing all the recently uploaded gems that have the letter 'r' in their name.
-
-
-<!--
-
-<ul>
-   <li><a href="/url-shortener">URL Shortener</a></li>
-</ul>
-
--->
 
