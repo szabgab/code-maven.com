@@ -1,7 +1,7 @@
 =title Web site Accessibility (aka. a11y)
 =timestamp 2016-11-12T07:30:01
 =indexes accessibility, a11y
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
