@@ -1,0 +1,16 @@
+=title StoreMaven using LNRD - with Rotem Vil
+=timestamp 2020-06-08T07:30:02
+=indexes StoreMaven
+=tags interview
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="StoreMaven_Rotem_Vil_Lenard.mp4" youtube="pgGBm5KXTkg" />
+
+<a href="/find-a-job-webinar-storemaven-with-keren-arazi">הסרטון השלם</a>

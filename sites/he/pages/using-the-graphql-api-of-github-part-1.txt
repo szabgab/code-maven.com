@@ -1,0 +1,15 @@
+=title שימוש באפי של גיטהב - פרק ב
+=timestamp 2023-07-19T17:00:02
+=indexes GitHub, Python
+=tags screencast
+=status show
+=books github
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="hebrew-github-rest-and-graphql-api-2023-05-07-part-2.mp4" youtube="eMCgZZkTh28" />
