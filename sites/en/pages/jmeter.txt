@@ -1,7 +1,7 @@
 =title JMeter
 =timestamp 2016-02-17T17:30:01
 =indexes jmeter
-=status draft
+=status show
 =books jmeter
 =author szabgab
 =archive 1
