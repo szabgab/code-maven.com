@@ -1,7 +1,7 @@
 import sys
-exp, filename = sys.argv[1:]
 import re
 
+exp, filename = sys.argv[1:]
 
 with open(filename) as fh:
    for line in fh:
