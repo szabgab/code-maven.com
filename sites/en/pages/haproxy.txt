@@ -1,7 +1,7 @@
 =title HAProxy
-=timestamp 2019-01-01T07:30:01
+=timestamp 2019-09-07T11:10:01
 =indexes CodeMaven
-=status draft
+=status show
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
@@ -9,14 +9,9 @@
 =abstract start
 =abstract end
 
-<code lang="perl">
-</code>
+<a href="https://tecadmin.net/how-to-configure-haproxy-statics/">how-to-configure-haproxy-statics</a>
 
-<img src="/img/" alt="" />
-
-https://tecadmin.net/how-to-configure-haproxy-statics/
-https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/
-
+<a href="https://www.haproxy.com/blog/the-four-essential-sections-of-an-haproxy-configuration/">the-four-essential-sections-of-an-haproxy-configuration</a>
 
 <include file="examples/haproxy/haproxy.cfg">
 
