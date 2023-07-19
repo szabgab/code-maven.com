@@ -11,7 +11,7 @@
 =abstract start
 =abstract end
 
-<screencast file=" hebrew-danit-review-of-victor-martinov.mp4 " youtube=""7CjbkV_HOQA />
+<screencast file="hebrew-danit-review-of-victor-martinov.mp4" youtube="7CjbkV_HOQA" />
 
 <ul>
    <li><a href="https://www.linkedin.com/in/danit-raanan-26764634/">Danit Raanan Ideses @ uniquely</a></li>

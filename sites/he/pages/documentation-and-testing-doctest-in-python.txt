@@ -1,0 +1,22 @@
+=title כתיבת טסטים בדוקומנטציה של קוד פיתון
+=timestamp 2023-07-19T16:50:01
+=indexes doctest
+=tags screencast
+=status show
+=books python
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<ul>
+  <li><a href="https://code-maven.com/slides/python/testing-demo-aut">AUT</a></li>
+  <li><a href="https://code-maven.com/slides/python/testing-demo-doctest">doctest</a></li>
+  <li><a href="https://code-maven.com/slides/python/testing-demo-doctets-with-failure">doctest with failure</a></li>
+</ul>
+
+=abstract end
+
+<screencast file="hebrew-python-doctest.mp4" youtube="9Qd1Kl7UyrE" />
