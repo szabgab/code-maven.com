@@ -30,6 +30,7 @@
     <li><a href="/git">ניהול גרסאות עם גיט (git)</a></li>
     <li><a href="/osdc-public-hebrew-2023-01">קורס תכנות קוד פתוח שהועבר בתחילת 2023</a></li>
     <li><a href="/osdc-2023-03-azrieli">קורס תכנות קוד פתוח שהועבר במכללת עזראלי שבירושלים בסמסטר אביב 2023</a></li>
+    <li><a href="/osdc-workshop-at-azrieli">סדנא קוד פתוח לסגל של מכללת עזריאלי 2023</a></li>
     <li><a href="/collab-dev">כתיבת תוכנה חופשית גם לאנשים שאינם מתכנתים</a></li>
     <li><a href="/python">קורס תכנות פייתון (python)</a></li>
     <li><a href="/python-testing">קורס טסטינג בפייתון (python testing)</a></li>
