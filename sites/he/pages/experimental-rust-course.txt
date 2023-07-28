@@ -1,0 +1,14 @@
+=title קורס ראסט ניסיוני
+=timestamp 2023-07-28T13:29:00
+=indexes Rust
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+=abstract end
+
+
