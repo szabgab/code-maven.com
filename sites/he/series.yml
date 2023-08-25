@@ -278,6 +278,7 @@ rust:
         - rust-8
         - rust-9
         - rust-10
+        - rust-11
 
 osdc-workshop-at-azrieli:
   chapters:

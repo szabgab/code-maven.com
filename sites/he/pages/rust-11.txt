@@ -1,0 +1,18 @@
+=title שימוש בספריה סטנדרטית
+=timestamp 2023-08-25T09:52:10
+=indexes Rust, parse
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+STDIN
+
+=abstract end
+
+<screencast file="he-rust-11.mp4" youtube="9FdmDtgUjSU" />
