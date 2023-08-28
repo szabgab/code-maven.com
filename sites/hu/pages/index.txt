@@ -11,14 +11,14 @@
 
 <div class="main-content">
 A Code Maven lap célja, segítse a számítástechnikai piacon dolgozókat és azokat akiket ezzel szeretnének foglalkozni.
-A tartalom nagy része az angol változaton van de a magyaron is lesz néhány lap és néhány video.
-A legtöbb lapon technikai tartalom van de van olyan is ahol arról van szó, hogyan találhatunk munkát, vagy hogyan
+A tartalom nagy része az angol változaton van, de a magyaron is lesz néhány lap és néhány video.
+A legtöbb lapon technikai tartalom található, de akad olyan is ahol arról van szó, hogyan találhatunk munkát, vagy hogyan
 mutathatjuk be a tudásunkat.
 </div>
 
 
 <div class="main-content">
-Nézz körül és ha követni szeretnéd a lapot akkor javaslom hogy a kövesd a <a href="/youtube">Code Maven YouTube csatornát</a>
+Nézz körül és ha követni szeretnéd a lapot, akkor javaslom hogy a kövesd a <a href="/youtube">Code Maven YouTube csatornát</a>
 és a <a href="/linkedin">Code Maven LinkedIn lapot</a>.
 </div>
 
