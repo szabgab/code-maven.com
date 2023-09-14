@@ -29,5 +29,5 @@ Inside the <hl>for</hl> loop first we check if this is the space charcter. In th
 
 For every other character we use them as an integer to be the index in the <hl>counter</hl> list and increment the appropriate number.
 
-At the end we have another <hl>for</hl> loop to iterate over all the digits and print the number of occurances.
+At the end we have another <hl>for</hl> loop to iterate over all the digits and print the number of occurrences.
 
