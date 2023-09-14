@@ -20,7 +20,7 @@ The <hl>def</hl> keyword allows use to define a function that we can use in the 
 <include file="examples/groovy/hello_world_function.groovy">
 
 After the <hl>def</hl> keyword we provide the name of the function and then in parentheses the list
-of expected parameters. In our first example there are no paramaters.
+of expected parameters. In our first example there are no parameters.
 
 Then within curly braces we put the body of the function.
 
@@ -28,7 +28,7 @@ We can put the definition of the function anywhere in the file. A good practice 
 in the end of the file and put the main body of the code at the top. That will make it easier to read.
 
 Better yet, you might want to put all your code in functions and leave only a single call to a single function in the
-main body of your code. That will probably help keepting the code clean.
+main body of your code. That will probably help keeping the code clean.
 
 
 <h2>Passing parameters and returning a result</h2>
@@ -60,10 +60,10 @@ Possible solutions: any(), add(java.lang.Object, java.lang.Object), wait(), run(
 </code>
 
 
-As you can see in the exammple we can also pass strings to it and then <b>+</b> will concatenate them and we can also
-pass a string and a number and it will concatenae those too.
+As you can see in the example we can also pass strings to it and then <b>+</b> will concatenate them and we can also
+pass a string and a number and it will concatenate those too.
 
-If this is the behaviour you hoped for then it is great.
+If this is the behavior you hoped for then it is great.
 
 
 <h2>Defining the type of the parameters of a Groovy function</h2>
