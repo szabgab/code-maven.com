@@ -27,7 +27,7 @@ That is, different set of expected parameters.
 One of the uses of his facility is to have some of the parameters become optional.
 
 In the following example we have a simple function called <hl>prompt</hl> that would receive a text and a number.
-It would prompt the user with the text and check the input again some value. (In our example it is a simple
+It would prompt the user with the text and check the input against some value. (In our example it is a simple
 variable. In a more realistic situation we would have the password hashed and probably stored in a database.)
 
 If the user makes a mistake s/he is prompted again and again.
