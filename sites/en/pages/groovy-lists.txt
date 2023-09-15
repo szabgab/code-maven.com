@@ -27,7 +27,7 @@ in the list. The name of this internal variable is typically i or j and it does 
 
 
 The <hl>each</hl> method will also iterate over the elements of the list. For each iteration it will put the current value
-in a varaible called <hl>it</hl> and then execute the block that follows the <hl>each</hl> statement. The <hl>it</hl> is similar
+in a variable called <hl>it</hl> and then execute the block that follows the <hl>each</hl> statement. The <hl>it</hl> is similar
 to to <hl>$_</hl> of Perl and the <hl>_</hl> of Python.
 
 Optionally we can set the name of this internal variable by providing it right after the opening <hl>{</hl> of the block,
