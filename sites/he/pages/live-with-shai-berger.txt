@@ -1,4 +1,4 @@
-=title פיתוח תוכנה בזוגות ברוסט עם שי ברגר
+=title פיתוח תוכנה בזוגות בראסט עם שי ברגר
 =timestamp 2021-05-11T15:30:01
 =indexes Python
 =tags screencast

@@ -1,0 +1,38 @@
+=title ראסט דיגר
+=timestamp 2023-11-13T10:30:01
+=indexes Rust
+=description Rust Digger to report about common practices in rust Crates
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="rust-digger-in-hebrew-2023-11-12.mp4" youtube="WiiMj60RXkE" />
+
+<a href="https://rust-digger.code-maven.com/">ראסט דיגר</a>
+
+<a href="https://rust.org.il/">ראסט בישראל</a>
+
+<a href="http://cpancover.com/">CPAN cover for Perl</a>
+
+<a href="https://cpan-digger.perlmaven.com/river">CPAN Digger most important packages</a>
+
+<a href="https://cpan-digger.perlmaven.com/">CPAN Digger (for Perl)</a>
+
+
+<a href="https://pydigger.com/">PyDigger for Python</a>
+
+<a href="https://code-maven.com/ci-for-timescaledb">CI using timescaledb a PostgreSQL based time series database</a>
+
+<a href="https://he.code-maven.com/live-with-shai-berger">עבודה זוגית עם שי ברגר</a>
+
+
+<a href="https://ruby-digger.code-maven.com/">Ruby Digger</a>
+
+
