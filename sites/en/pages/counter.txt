@@ -97,6 +97,7 @@ This is going to be a long project, but it might help understand various techniq
 <h2>Rust</h2>
 <ul>
     <li><a href="https://rust.code-maven.com/cli-counter-with-plain-text-file">Command line counter with plain text file storage in Rust</a></li>
+    <li><a href="https://rust.code-maven.com/multi-counter-in-json-file">Command line multi-counter with JSON file storage in Rust</a></li>
 </ul>
 
 <h2>Angular JS</h2>
