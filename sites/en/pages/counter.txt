@@ -98,6 +98,10 @@ This is going to be a long project, but it might help understand various techniq
 <ul>
     <li><a href="https://rust.code-maven.com/cli-counter-with-plain-text-file">Command line counter with plain text file storage in Rust</a></li>
     <li><a href="https://rust.code-maven.com/multi-counter-in-json-file">Command line multi-counter with JSON file storage in Rust</a></li>
+    <li><a href="https://rust.code-maven.com/rocket-single-counter-in-text-file">Rocket web framework - Single counter in a plain text file</a></li>
+    <li><a href="https://rust.code-maven.com/rocket-multi-counter-using-cookies">Rocket web framework - Multi-counter using cookies</a></li>
+    <li><a href="https://rust.code-maven.com/rocket-multi-counter-using-encrypted-cookies">Rocket web framework - Multi counter using encrypted cookies</a></li>
+    <li><a href=""></a></li>
 </ul>
 
 <h2>Angular JS</h2>
