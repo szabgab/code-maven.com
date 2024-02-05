@@ -3,10 +3,10 @@
 function args()
 {
     options=$(getopt -o dv --long debug --long name: -- "$@")
-    [ $? -eq 0 ] || {
+    if [ $? -ne 0 ]; then
         echo "Incorrect option provided"
         exit 1
-    }
+    fi
     eval set -- "$options"
     while true; do
         case "$1" in

@@ -38,7 +38,43 @@ At the end we need to call this function with the <hl>args $0 "$@"</hl> expressi
 
 <code>
 $ ./cli.sh --name "Foo Bar" --debug -v
+
 Foo Bar
 1
 1
 </code>
+
+<code>
+$ ./cli.sh --wrong
+
+getopt: unrecognized option '--wrong'
+Incorrect option provided
+</code>
+
+
+<h2>If condition in bash</h2>
+
+I used to have this, in the above code:
+
+<code>
+[ $? -eq 0 ] || {
+    echo "Incorrect option provided"
+    exit 1
+}
+</code>
+
+This is I think the shell-style meaning:
+
+"Either the previous command is successful (exit 0)  or `||` do the block (echo and exit)".
+
+Later I realized using `if` would make it much more readable so I changed it to:
+
+<code>
+if [ $? -ne 0 ]; then
+    echo "Incorrect option provided"
+    exit 1
+fi
+</code>
+
+They both do the same.
+
