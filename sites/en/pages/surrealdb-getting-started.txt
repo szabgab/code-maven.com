@@ -42,7 +42,7 @@ Created a virtual environment and installed the surrealDB client:
 <code>
 virtualenv venv
 source venv/bin/activate
-pip intall -r requirements.txt
+pip install -r requirements.txt
 </code>
 
 <h2>Walking through the code</h2>
