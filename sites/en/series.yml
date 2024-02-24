@@ -729,4 +729,5 @@ surrealdb:
     - title: Surreal DB
       sub:
         - surrealdb-getting-started
+        - surrealdb-python-cli-phonebook
 
