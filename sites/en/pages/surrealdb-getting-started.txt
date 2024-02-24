@@ -25,7 +25,8 @@ In this case I started SurrealDB as was recommended on the <a href="https://hub.
 One of the advantages of using in-memory database is that when I shut down the docker container all the data is also gone. This is often better when I experiment.
 
 <code>
-docker run --rm --pull always --name surrealdb -p 8000:8000 surrealdb/surrealdb:latest start --log trace --user root --pass root memory
+docker run --rm --pull always --name surrealdb -p 8000:8000 surrealdb/surrealdb:latest \
+   start --log trace --user root --pass root memory
 </code>
 
 This will start  Docker container and SurrealDB will listen on port 8000.
