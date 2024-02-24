@@ -723,3 +723,10 @@ os-projects:
       sub:
         - how-to-contribute-to-metacpan
         - visual-studio-code
+
+surrealdb:
+  chapters:
+    - title: Surreal DB
+      sub:
+        - surrealdb-getting-started
+
