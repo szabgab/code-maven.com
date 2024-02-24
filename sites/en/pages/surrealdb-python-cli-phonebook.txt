@@ -1,7 +1,7 @@
-=title CLI phonebook in Python using SurrealDB as a database
+=title CLI phone book in Python using SurrealDB as a database
 =timestamp 2024-02-24T21:30:01
 =indexes SurrealDB
-=description Show how to INSERT new data, remove data, update date in a persistant SurrealDB database.
+=description Show how to INSERT new data, remove data, update date in a persistent SurrealDB database.
 =status show
 =books python, surrealdb
 =author szabgab
@@ -28,7 +28,7 @@ docker run --rm --pull always --name surrealdb -p 8000:8000 --user root \
    start --log trace --user root --pass root file://database
 </code>
 
-This will start a Docker container and map the databse to be stored in the "db" folder of the current directory on my host computer.
+This will start a Docker container and map the database to be stored in the "db" folder of the current directory on my host computer.
 This part <b>$(pwd)/db</b> defines the folder on my host computer.
 
 I ran this on Ubuntu 23.10.
@@ -47,7 +47,7 @@ I used the following commands to create the virtual environment and to install t
 <code>
 virtualenv venv
 source venv/bin/activate
-pip intall -r requirements.txt
+pip install -r requirements.txt
 </code>
 
 <h2>How to use this example</h2>
@@ -99,14 +99,14 @@ $ python phonebook.py delete bar
 </code>
 
 
-OK, so I could have printed out nicer responses as well, but actiually these might help us understand better what's going on.
+OK, so I could have printed out nicer responses as well, but actually these might help us understand better what's going on.
 
 
 
 
-<h2>Let's walk throught the code</h2>
+<h2>Let's walk thought the code</h2>
 
-At the bottom of this page you'll find the whole code together, here we'll go throught it line-by-line.
+At the bottom of this page you'll find the whole code together, here we'll go thought it line-by-line.
 
 
 Import the necessary modules and create a an async function:
@@ -137,7 +137,7 @@ asyncio.run(main())
 </code>
 
 
-Connect to the databse we that we are running on our own computer (in a Docker container) tha listens on port 8000.
+Connect to the database we that we are running on our own computer (in a Docker container) that listens on port 8000.
 
 <code lang="python">
     async with Surreal("ws://localhost:8000/rpc") as db:
@@ -161,7 +161,7 @@ or you might have some other 2-level hierarchy above the actual data.
 </code>
 
 Even without defining tables and the schema of the tables we can crate indices. This one will be attached to the "name" column of the "people"
-table. It is useful especially as we marked it <b>UNIQUEs</b>. This will make sure the names in the phonebook are unique.
+table. It is useful especially as we marked it <b>UNIQUE</b>. This will make sure the names in the phonebook are unique.
 
 <code lang="python">
         await db.query("DEFINE INDEX people_name ON TABLE people COLUMNS name UNIQUE")
@@ -170,7 +170,7 @@ table. It is useful especially as we marked it <b>UNIQUEs</b>. This will make su
 
 If the user did not provide parameters, print the usage-info and exit.
 
-If there wes at least one parameter, put it in the "action" variable.
+If there was at least one parameter, put it in the "action" variable.
 
 <code lang="python">
         if len(sys.argv) == 1:
@@ -196,7 +196,7 @@ Add a new person-phone pair. Here we don't need to use SQL as the Python library
 The first parameter is the name of the table, then the following dictionary is the data.
 
 This call will raise an exception of we try to add the same name twice. Unfortunately as of this writing the exception
-is of type <b>surrealdb.ws.SurrealPermissionException</b> and does not indicate the real proble.
+is of type <b>surrealdb.ws.SurrealPermissionException</b> and does not indicate the real problem.
 Luckily the text reveals it: "There was a problem with the database: Database index `people_name` already contains 'foo', with record".
 
 <code lang="python">
@@ -216,29 +216,61 @@ Luckily the text reveals it: "There was a problem with the database: Database in
 </code>
 
 
+In order to fetch a specific document we use the <b>query</b> method again, but this time we have a <b>WHERE</b> clause.
+We use the <b>$name</b> placeholder that will be filled by the value passed in the dictionary that follows the query.
+
+It is important to use placeholder and not to embed the value using Python string formatting to avoid <a href="https://bobby-tables.com/">SQL injection attacks</a>
+
 <code lang="python">
+        if action == "show":
+            if len(sys.argv) != 3:
+                usage()
+            name = sys.argv[2]
+
+            res = await db.query("SELECT * FROM people WHERE name=$name", {
+                'name': name,
+            })
+            if len(res[0]["result"]) == 0:
+                print(f"Could not find '{name}'");
+            if len(res[0]["result"]) > 1:
+                print("More than 1 found")
+            for entry in res[0]['result']:
+                print(f"{entry['name']}   {entry['phone']}")
+            return
+</code>
+
+We can use the <b>DELETE</b> statement, again with a <b>WHERE</b> clause to delete selected record(s).
+
+<code lang="python">
+        if action == "delete":
+            if len(sys.argv) != 3:
+                usage()
+            name = sys.argv[2]
+            res = await db.query("DELETE FROM people WHERE name=$name", {
+                'name': name,
+            })
+            print(res)
+            return
 </code>
 
 
-<code lang="python">
-</code>
-
+Finally in order to update a field in a record we use the <b>UPDATE</b> statement.
 
 <code lang="python">
+        if action == "update":
+            if len(sys.argv) != 4:
+                usage()
+            (name, phone) = sys.argv[2:4]
+            res = await db.query("UPDATE people SET phone=$phone WHERE name=$name", {
+                'name': name,
+                'phone': phone,
+            })
+            if len(res[0]["result"]) == 0:
+                print(f"Could not find '{name}'");
+            else:
+                print(res)
+            return
 </code>
-
-
-<code lang="python">
-</code>
-
-
-<code lang="python">
-</code>
-
-
-<code lang="python">
-</code>
-
 
 
 <h2>The full example</h2>
