@@ -3,6 +3,7 @@
 =indexes SurrealDB
 =description SurrealDB articles
 =status show
+=books surrealdb
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
