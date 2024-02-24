@@ -1,0 +1,249 @@
+=title CLI phonebook in Python using SurrealDB as a database
+=timestamp 2024-02-24T21:30:01
+=indexes SurrealDB
+=description Show how to INSERT new data, remove data, update date in a persistant SurrealDB database.
+=status show
+=books python, surrealdb
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+In this small example we are going to create a simple command line phone-book in Python using <a href="/surrealdb">SurrealDB running in a Docker container as the database.
+
+=abstract end
+
+<h2>Install and run SurrealDB in Docker</h2>
+
+I find it easier to manage the various technologies I use if I can run them in Docker containers. So while you could certainly run SurrealDB "natively" on your computer
+I prefer to run it in a Docker container.
+
+Based on the instruction on <a href="https://hub.docker.com/r/surrealdb/surrealdb">Docker Hub</a> I ran the following command:
+
+<code>
+docker run --rm --pull always --name surrealdb -p 8000:8000 --user root \
+   -v$(pwd)/db:/database surrealdb/surrealdb:latest \
+   start --log trace --user root --pass root file://database
+</code>
+
+This will start a Docker container and map the databse to be stored in the "db" folder of the current directory on my host computer.
+This part <b>$(pwd)/db</b> defines the folder on my host computer.
+
+I ran this on Ubuntu 23.10.
+
+On MS Windows you'd probably need to provide the full path to the folder where you'd want to store the database.
+
+
+<h2>Python environment and requirements</h2>
+
+We are using <b>virtualenv</b> to separate the installed Python packages from other projects and we have a small requirements.txt file:
+
+<include file="examples/python/surrealdb-cli-phonebook/requirements.txt">
+
+I used the following commands to create the virtual environment and to install the Python library connecting to SurrealDB.
+
+<code>
+virtualenv venv
+source venv/bin/activate
+pip intall -r requirements.txt
+</code>
+
+<h2>How to use this example</h2>
+
+<code>
+$ python phonebook.py
+Usage: phonebook.py
+               add NAME PHONE
+               show NAME
+               update NAME PHONE
+               delete NAME
+               list
+</code>
+
+<code>
+$ python phonebook.py add foo  123
+[{'id': 'people:srpx839gh1rni0vft74q', 'name': 'foo', 'phone': '123'}]
+
+
+$ python phonebook.py add bar 456
+[{'id': 'people:yl8p0wqpyjv8bdl9xqq8', 'name': 'bar', 'phone': '456'}]
+
+$ python phonebook.py list
+bar   456
+foo   123
+
+
+$ python phonebook.py update foo 789
+[{'result': [{'id': 'people:srpx839gh1rni0vft74q', 'name': 'foo', 'phone': '789'}], 'status': 'OK', 'time': '186.852µs'}]
+
+
+$ python phonebook.py list
+bar   456
+foo   789
+
+
+$ python phonebook.py add foo 123456789
+Exception: There was a problem with the database: Database index `people_name` already contains 'foo', with record `people:srpx839gh1rni0vft74q`
+
+
+$ python phonebook.py delete foo
+[{'result': [], 'status': 'OK', 'time': '158.489µs'}]
+
+$ python phonebook.py list
+bar   456
+
+$ python phonebook.py delete bar
+[{'result': [], 'status': 'OK', 'time': '191.41µs'}]
+</code>
+
+
+OK, so I could have printed out nicer responses as well, but actiually these might help us understand better what's going on.
+
+
+
+
+<h2>Let's walk throught the code</h2>
+
+At the bottom of this page you'll find the whole code together, here we'll go throught it line-by-line.
+
+
+Import the necessary modules and create a an async function:
+
+
+<code lang="python">
+from surrealdb import Surreal
+import asyncio
+import sys
+
+async def main():
+</code>
+
+At the end of the file we have a function defined to print the usage hint we saw when we ran the program without any parameters
+and we also have the invocation of the async loop.
+
+<code lang="python">
+def usage():
+    exit(f"""Usage: {sys.argv[0]}
+               add NAME PHONE
+               show NAME
+               update NAME PHONE
+               delete NAME
+               list
+""")
+
+asyncio.run(main())
+</code>
+
+
+Connect to the databse we that we are running on our own computer (in a Docker container) tha listens on port 8000.
+
+<code lang="python">
+    async with Surreal("ws://localhost:8000/rpc") as db:
+</code>
+
+
+Authenticate with the server. We set up this user and password in the <b>docker run</b> command.
+
+<code lang="python">
+        await db.signin({"user": "root", "pass": "root"})
+</code>
+
+
+Connected to the "code-maven" namespace and in that namespace to the "phonebook" database.
+
+There is no need to defined them. The namespace might map to a department in your company and the database to a project
+or you might have some other 2-level hierarchy above the actual data.
+
+<code lang="python">
+        await db.use("code-maven", "phonebook")
+</code>
+
+Even without defining tables and the schema of the tables we can crate indices. This one will be attached to the "name" column of the "people"
+table. It is useful especially as we marked it <b>UNIQUEs</b>. This will make sure the names in the phonebook are unique.
+
+<code lang="python">
+        await db.query("DEFINE INDEX people_name ON TABLE people COLUMNS name UNIQUE")
+</code>
+
+
+If the user did not provide parameters, print the usage-info and exit.
+
+If there wes at least one parameter, put it in the "action" variable.
+
+<code lang="python">
+        if len(sys.argv) == 1:
+            usage()
+        action = sys.argv[1]
+</code>
+
+We use the <b>query</b> method and include a query in SurrealQl (Surreal Query Language) which is quite similar to regular SQL.o
+It returns a list of one element that includes the "result" which itself is a list of all the records we have in the database.
+
+<code lang="python">
+        if action == "list":
+            res = await db.query("SELECT * FROM people ORDER BY name")
+            # print(res)
+            for entry in res[0]['result']:
+                # print(entry)
+                print(f"{entry['name']}   {entry['phone']}")
+            return
+</code>
+
+
+Add a new person-phone pair. Here we don't need to use SQL as the Python library has a convenience method called <b>create</b>.
+The first parameter is the name of the table, then the following dictionary is the data.
+
+This call will raise an exception of we try to add the same name twice. Unfortunately as of this writing the exception
+is of type <b>surrealdb.ws.SurrealPermissionException</b> and does not indicate the real proble.
+Luckily the text reveals it: "There was a problem with the database: Database index `people_name` already contains 'foo', with record".
+
+<code lang="python">
+        if action == "add":
+            if len(sys.argv) != 4:
+                usage()
+            (name, phone) = sys.argv[2:4]
+            try:
+                res = await db.create("people", {
+                    'name': name,
+                    'phone': phone,
+                })
+                print(res)
+            except Exception as err:
+                print(f"Exception: {err}")
+            return
+</code>
+
+
+<code lang="python">
+</code>
+
+
+<code lang="python">
+</code>
+
+
+<code lang="python">
+</code>
+
+
+<code lang="python">
+</code>
+
+
+<code lang="python">
+</code>
+
+
+<code lang="python">
+</code>
+
+
+
+<h2>The full example</h2>
+
+<include file="examples/python/surrealdb-cli-phonebook/phonebook.py">
+
+
+
