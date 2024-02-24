@@ -20,6 +20,7 @@
 
 <ul>
     <li><a href="/surrealdb-getting-started">Getting started with SurrealDB using Python and Docker</a></li>
+    <li><a href="/surrealdb-python-cli-phonebook">CLI phone book in Python using SurrealDB as a database</a></li>
 </ul>
 
 <h2>Using Rust</h2>
