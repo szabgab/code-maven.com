@@ -1,0 +1,29 @@
+=title SurrealDB
+=timestamp 2023-02-24T18:30:01
+=indexes SurrealDB
+=description SurrealDB articles
+=status show
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+<a href="https://surrealdb.com/">SurrealDB</a> is a multi-model database I have been experimenting with in Rust. I created a number of examples for <a href="https://rust.code-maven.com/surrealdb">SurrealDB using Rust</a>.
+
+=abstract end
+
+
+<h2>Using Python</h2>
+
+<ul>
+    <li><a href="/surrealdb-getting-started">Getting started with SurrealDB using Python and Docker</a></li>
+</ul>
+
+<h2>Using Rust</h2>
+
+<ul>
+    <li><a href="https://rust.code-maven.com/surrealdb">SurrealDB using Rust</a></li>
+</ul>
+
