@@ -1,5 +1,5 @@
 =title Getting started with SurrealDB using Python and Docker
-=timestamp 2023-01-01T07:30:01
+=timestamp 2024-02-24T12:30:01
 =indexes SurrealDB, CREATE, UPDATE, SET, DELETE
 =description SurrealDB is a new multi-model database. We are using it from Python.
 =status show
