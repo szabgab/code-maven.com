@@ -3,7 +3,7 @@
 =indexes SurrealDB, CREATE, UPDATE, SET, DELETE
 =description SurrealDB is a new multi-model database. We are using it from Python.
 =status show
-=books python
+=books python, surrealdb
 =author szabgab
 =archive 1
 =comments_disqus_enable 0
