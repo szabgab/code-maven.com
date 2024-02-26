@@ -1,0 +1,18 @@
+=title ראסט - המרת מחרוזת למספר - טיפול בשגיאות
+=timestamp 2024-02-26T10:40:01
+=indexes Rust
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+ראסט - המרת מחרוזת למספר - טיפול בשגיאות
+
+=abstract end
+
+<screencast file="rust-in-hebrew-03-parse-unwrap-match.mp4" youtube="CN7mOZMLZs0" />

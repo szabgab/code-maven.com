@@ -22,9 +22,13 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
 <ul>
     <li><a href="/rust-course-1">מתחילים לתכנת בראסט</a> 16:53</li>
     <li><a href="/rust-course-2">קפיצה לקליפי</a> 13:50</li>
+    <li><a href="/rust-course-3">ראסט - המרת מחרוזת למספר - טיפול בשגיאות</a></li>
+    <li><a href="/rust-course-4"></a></li>
+    <li><a href="/rust-course-5"></a></li>
 </ul>
 
 <!--
+
 
     <li><a href="/rust-course-"></a></li>
 -->

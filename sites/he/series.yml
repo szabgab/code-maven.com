@@ -295,6 +295,9 @@ rust-course:
       sub:
         - rust-course-1
         - rust-course-2
+        - rust-course-3
+        - rust-course-4
+        - rust-course-5
 
 osdc-workshop-at-azrieli:
   chapters:

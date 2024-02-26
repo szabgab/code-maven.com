@@ -1,0 +1,18 @@
+=title פרמטרים בשורת הפקודה - תכנות ראסט
+=timestamp 2024-02-26T10:45:01
+=indexes Rust
+=description args
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="rust-in-hebrew-04-command-line-with-args.mp4" youtube="CxtGLZLdyj8" />
