@@ -1,0 +1,17 @@
+=title לומדים לתכנת בראסט
+=timestamp 2024-02-26T09:30:01
+=indexes CodeMaven
+=description קורס תכנות ראסט בסרטונים ביוטוב
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu2LAPs">playlist</a>
+
+=abstract end
+
