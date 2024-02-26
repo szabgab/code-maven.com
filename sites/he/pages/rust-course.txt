@@ -22,9 +22,9 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
 <ul>
     <li><a href="/rust-course-1">מתחילים לתכנת בראסט</a> 16:53</li>
     <li><a href="/rust-course-2">קפיצה לקליפי</a> 13:50</li>
-    <li><a href="/rust-course-3">ראסט - המרת מחרוזת למספר - טיפול בשגיאות</a></li>
-    <li><a href="/rust-course-4"></a></li>
-    <li><a href="/rust-course-5"></a></li>
+    <li><a href="/rust-course-3">ראסט - המרת מחרוזת למספר - טיפול בשגיאות</a> 19:40</li>
+    <li><a href="/rust-course-4">פרמטרים בשורת הפקודה - תכנות ראסט</a> 18:04</li>
+    <li><a href="/rust-course-5">חמישה שיפורים בתכנות ראסט Turbofish, use, -q, fmt, absolute_paths 5</a> 10:13</li>
 </ul>
 
 <!--
