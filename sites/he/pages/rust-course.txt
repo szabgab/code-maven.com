@@ -1,6 +1,6 @@
-=title לומדים לתכנת בראסט
+=title קורס תכנות ראסט
 =timestamp 2024-02-26T09:30:01
-=indexes CodeMaven
+=indexes Rust
 =description קורס תכנות ראסט בסרטונים ביוטוב
 =status show
 =books rust
@@ -11,7 +11,20 @@
 
 =abstract start
 
+ קורס <a href="/rust">ראסט</a> פברואר 2024
+
 The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu2LAPs">playlist</a>
+
 
 =abstract end
 
+
+<ul>
+    <li><a href="/rust-course-1">מתחילים לתכנת בראסט</a> 16:53</li>
+    <li><a href="/rust-course-2">קפיצה לקליפי</a> 13:50</li>
+</ul>
+
+<!--
+
+    <li><a href="/rust-course-"></a></li>
+-->

@@ -289,6 +289,13 @@ experimental-rust-course:
         - experimental-rust-course-2
         - experimental-rust-course-3
 
+rust-course:
+  chapters:
+    - title: קורס תכנות ראסט
+      sub:
+        - rust-course-1
+        - rust-course-2
+
 osdc-workshop-at-azrieli:
   chapters:
     - title: סדנא קוד פתוח לסגל של מכללת עזריאלי 2023

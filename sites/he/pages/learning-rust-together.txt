@@ -12,22 +12,26 @@
 
 <a href="https://www.rust-lang.org/">Rust - ראסט</a>
 
+<a href="/rust">ראסט</a>
+
 =abstract end
 
 <a href="https://code-maven.com/slides/rust/">שקפים</a>
 
+<a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F09f0OFhMgy_vak_ysf7fnP">playlist</a>
+
 <ul>
-    <li><a href="/rust-1">בואו, נלמד ראסט ביחד. מה עם הסידרה הזאת?</a></li>
-    <li><a href="/rust-2">התקנת ראסט והרצאת התוכנה הראשונה</a></li>
-    <li><a href="/rust-3">יצירת והרצת פרויקט ראסט בעזרת קרגו</a></li>
-    <li><a href="/rust-4">סקריפט פשוט כדי להריץ ראסט בפקודה אחת</a></li>
-    <li><a href="/rust-5">הערות בקוד ראסט</a></li>
-    <li><a href="/rust-6">הגדרת משתנה והדפסת מחרוזת בראסט</a></li>
-    <li><a href="/rust-7">שימוש בהנדלברס טמפלייטים בראסט ותרומה קטנה לקוד פתוח</a></li>
-    <li><a href="/rust-8">המשתנים שלא משתנים בראסט</a></li>
-    <li><a href="/rust-9">המרת מחרוזת למספר</a></li>
-    <li><a href="/rust-10">קבלט קלט מהמקלדת</a></li>
-    <li><a href="/rust-11">שימוש בספריה סטנדרטית</a></li>
+    <li><a href="/rust-1">בואו, נלמד ראסט ביחד. מה עם הסידרה הזאת?</a> 5:21</li>
+    <li><a href="/rust-2">התקנת ראסט והרצאת התוכנה הראשונה</a> 6:46</li>
+    <li><a href="/rust-3">יצירת והרצת פרויקט ראסט בעזרת קרגו</a> 7:52</li>
+    <li><a href="/rust-4">סקריפט פשוט כדי להריץ ראסט בפקודה אחת</a> 3:20</li>
+    <li><a href="/rust-5">הערות בקוד ראסט</a> 1:10</li>
+    <li><a href="/rust-6">הגדרת משתנה והדפסת מחרוזת בראסט</a> 6:08</li>
+    <li><a href="/rust-7">שימוש בהנדלברס טמפלייטים בראסט ותרומה קטנה לקוד פתוח</a> 9:56</li>
+    <li><a href="/rust-8">המשתנים שלא משתנים בראסט</a> 9:37</li>
+    <li><a href="/rust-9">המרת מחרוזת למספר</a> 9:43</li>
+    <li><a href="/rust-10">קבלט קלט מהמקלדת</a> 12:27</li>
+    <li><a href="/rust-11">שימוש בספריה סטנדרטית</a> 8:25</li>
 </ul>
 
 

@@ -12,14 +12,15 @@
 
 <a href="https://www.rust-lang.org/">Rust - ראסט</a>
 
+
 =abstract end
 
 <h2>לומדים לתכנת בראסט</h2>
 
 <ul>
-    <li><a href="/learning-rust">לומדים לתכנת בראסט</a> 2024.02.25</li>
+    <li><a href="/learning-rust">קורס תכנות ראסט</a> 2024.02.25</li>
     <li><a href="/experimental-rust-course">קורס ראסט ניסיוני</a> 2023.07.28 ~ שעתים</li>
-    <li><a href="/learn-rust-together">לומדים ראסט ביחד</a> 2023.06.18</li>
+    <li><a href="/learn-rust-together">לומדים ראסט ביחד</a> 2023.06.18 ~ שעה וחצי</li>
 </ul>
 
 

@@ -1,0 +1,19 @@
+=title פרק ב בתכנות ראסט - קפיצה לקליפי
+=timestamp 2024-02-26T10:35:01
+=indexes Rust
+=description קליפי זה לינטר בראס שיכול לעזור בשיפור ש קוד שלכם
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+קליפי זה לינטר בראס שיכול לעזור בשיפור ש קוד שלכם
+
+=abstract end
+
+<screencast file="rust-in-hebrew-02-rust-clippy.mp4" youtube="uBcTgtbDhww" />

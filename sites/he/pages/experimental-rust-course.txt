@@ -16,6 +16,8 @@
 
 =abstract end
 
+<a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F0GfrV8DSxwDn2I88D3gcc7">playlist</a>
+
 <ul>
     <li><a href="/experimental-rust-course-0">פרק 0</a> 01:27</li>
     <li><a href="/experimental-rust-course-1">פרק 1</a> 37:32</li>

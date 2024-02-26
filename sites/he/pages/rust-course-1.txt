@@ -1,0 +1,19 @@
+=title מתחילים לתכנת בראסט
+=timestamp 2024-02-26T10:30:01
+=indexes Rust
+=description התקנת ראסט בווינדוס והצעדים הראשונים
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+התקנת ראסט בווינדוס והצעדים הראשונים
+
+=abstract end
+
+<screencast file="hebrew-getting-started-with-rust-on-windows.mp4" youtube="BKcMkB_R-7k" />
