@@ -1,4 +1,4 @@
-=title קורס ראסט עם שקפים
+=title לומדים ראסט ביחד
 =timestamp 2023-06-18T12:30:01
 =indexes Rust
 =status show

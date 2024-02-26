@@ -9,6 +9,16 @@
 =show_related 0
 
 =abstract start
+
+קורס <a href="/rust">ראסט</a> ניסיוני
+
+מ-28 ביולי 2023
+
 =abstract end
 
-
+<ul>
+    <li><a href="/experimental-rust-course-0">פרק 0</a> 01:27</li>
+    <li><a href="/experimental-rust-course-1">פרק 1</a> 37:32</li>
+    <li><a href="/experimental-rust-course-2">פרק 2</a> 33:41</li>
+    <li><a href="/experimental-rust-course-3">פרק 3</a> 45:06</li>
+</ul>

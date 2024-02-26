@@ -264,7 +264,7 @@ docker:
       sub:
         - docker-why
 
-rust-with-slides:
+learning-rust-together:
   chapters:
     - title: לומדים ראסט ביחד
       sub:
@@ -280,6 +280,15 @@ rust-with-slides:
         - rust-10
         - rust-11
 
+experimental-rust-course:
+  chapters:
+    - title: קורס ראסט ניסיוני
+      sub:
+        - experimental-rust-course-0
+        - experimental-rust-course-1
+        - experimental-rust-course-2
+        - experimental-rust-course-3
+
 osdc-workshop-at-azrieli:
   chapters:
     - title: סדנא קוד פתוח לסגל של מכללת עזריאלי 2023
@@ -290,12 +299,4 @@ osdc-workshop-at-azrieli:
         - osdc-workshop-at-azrieli-part-2-1
         - osdc-workshop-at-azrieli-part-2-2
 
-experimental-rust-course:
-  chapters:
-    - title: לומדים ראסט ביחד
-      sub:
-        - experimental-rust-course-0
-        - experimental-rust-course-1
-        - experimental-rust-course-2
-        - experimental-rust-course-3
 

@@ -17,9 +17,9 @@
 <h2>לומדים לתכנת בראסט</h2>
 
 <ul>
-    <li><a href="/experimental-rust-course">קורס ראסט ניסיוני</a></li>
-    <li><a href="/rust-with-slides">קורס ראסט עם שקפים</a></li>
-    <li><a href="/learning-rust">לומדים לתכנת בראסט</a></li>
+    <li><a href="/learning-rust">לומדים לתכנת בראסט</a> 2024.02.25</li>
+    <li><a href="/experimental-rust-course">קורס ראסט ניסיוני</a> 2023.07.28 ~ שעתים</li>
+    <li><a href="/learn-rust-together">לומדים ראסט ביחד</a> 2023.06.18</li>
 </ul>
 
 
