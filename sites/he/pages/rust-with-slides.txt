@@ -1,5 +1,5 @@
 =title קורס ראסט עם שקפים
-=timestamp 2023-06-18T12:30:02
+=timestamp 2023-06-18T12:30:01
 =indexes Rust
 =status show
 =books rust
