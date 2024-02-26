@@ -18,6 +18,8 @@
 
 <h2>Using Python</h2>
 
+The <a href="https://docs.surrealdb.com/docs/integration/sdks/python/">Python SDK of SurrealDB</a>
+
 <ul>
     <li><a href="/surrealdb-getting-started">Getting started with SurrealDB using Python and Docker</a></li>
     <li><a href="/surrealdb-python-cli-phonebook">CLI phone book in Python using SurrealDB as a database</a></li>
