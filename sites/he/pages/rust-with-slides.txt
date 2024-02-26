@@ -1,0 +1,36 @@
+=title קורס ראסט עם שקפים
+=timestamp 2023-06-18T12:30:02
+=indexes Rust
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 0
+
+=abstract start
+
+<a href="https://www.rust-lang.org/">Rust - ראסט</a>
+
+=abstract end
+
+<a href="https://code-maven.com/slides/rust/">שקפים</a>
+
+<ul>
+    <li><a href="/rust-1">בואו, נלמד ראסט ביחד. מה עם הסידרה הזאת?</a></li>
+    <li><a href="/rust-2">התקנת ראסט והרצאת התוכנה הראשונה</a></li>
+    <li><a href="/rust-3">יצירת והרצת פרויקט ראסט בעזרת קרגו</a></li>
+    <li><a href="/rust-4">סקריפט פשוט כדי להריץ ראסט בפקודה אחת</a></li>
+    <li><a href="/rust-5">הערות בקוד ראסט</a></li>
+    <li><a href="/rust-6">הגדרת משתנה והדפסת מחרוזת בראסט</a></li>
+    <li><a href="/rust-7">שימוש בהנדלברס טמפלייטים בראסט ותרומה קטנה לקוד פתוח</a></li>
+    <li><a href="/rust-8">המשתנים שלא משתנים בראסט</a></li>
+    <li><a href="/rust-9">המרת מחרוזת למספר</a></li>
+    <li><a href="/rust-10">קבלט קלט מהמקלדת</a></li>
+    <li><a href="/rust-11">שימוש בספריה סטנדרטית</a></li>
+</ul>
+
+
+<!--
+    <li><a href="/rust-"></a></li>
+-->

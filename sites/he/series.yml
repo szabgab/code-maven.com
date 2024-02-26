@@ -264,7 +264,7 @@ docker:
       sub:
         - docker-why
 
-rust:
+rust-with-slides:
   chapters:
     - title: לומדים ראסט ביחד
       sub:
