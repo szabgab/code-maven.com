@@ -17,6 +17,7 @@
 <h2>לומדים לתכנת בראסט</h2>
 
 <ul>
+    <li><a href="/experimental-rust-course">קורס ראסט ניסיוני</a></li>
     <li><a href="/rust-with-slides">קורס ראסט עם שקפים</a></li>
     <li><a href="/learning-rust">לומדים לתכנת בראסט</a></li>
 </ul>

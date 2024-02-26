@@ -290,3 +290,12 @@ osdc-workshop-at-azrieli:
         - osdc-workshop-at-azrieli-part-2-1
         - osdc-workshop-at-azrieli-part-2-2
 
+experimental-rust-course:
+  chapters:
+    - title: לומדים ראסט ביחד
+      sub:
+        - experimental-rust-course-0
+        - experimental-rust-course-1
+        - experimental-rust-course-2
+        - experimental-rust-course-3
+
