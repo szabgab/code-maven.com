@@ -15,4 +15,4 @@
 
 =abstract end
 
-<screencast file=""rust-in-hebrew-05-turbofish-usw-q-fmt-absolute-paths.mp4 youtube="Z3bpIZrjvUY" />
+<screencast file="rust-in-hebrew-05-turbofish-usw-q-fmt-absolute-paths.mp4" youtube="Z3bpIZrjvUY" />
