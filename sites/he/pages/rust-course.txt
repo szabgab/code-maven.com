@@ -18,6 +18,8 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
 
 =abstract end
 
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>
+
 
 <ul>
     <li><a href="/rust-course-1">מתחילים לתכנת בראסט</a> 16:53</li>

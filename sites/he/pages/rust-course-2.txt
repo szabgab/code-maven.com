@@ -17,3 +17,6 @@
 =abstract end
 
 <screencast file="rust-in-hebrew-02-rust-clippy.mp4" youtube="uBcTgtbDhww" />
+
+
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>

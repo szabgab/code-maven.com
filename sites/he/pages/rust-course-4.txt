@@ -16,3 +16,6 @@
 =abstract end
 
 <screencast file="rust-in-hebrew-04-command-line-with-args.mp4" youtube="CxtGLZLdyj8" />
+
+
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>
