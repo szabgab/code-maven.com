@@ -27,6 +27,7 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-3">ראסט - המרת מחרוזת למספר - טיפול בשגיאות</a> 19:40</li>
     <li><a href="/rust-course-4">פרמטרים בשורת הפקודה - תכנות ראסט</a> 18:04</li>
     <li><a href="/rust-course-5">חמישה שיפורים בתכנות ראסט Turbofish, use, -q, fmt, absolute_paths 5</a> 10:13</li>
+    <li><a href="/rust-course-6">מספרים וטיפוסים של מספרים</a> 25:18</li>
 </ul>
 
 <!--

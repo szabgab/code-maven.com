@@ -1,0 +1,21 @@
+=title מספרים וטיפוסים של מספרים
+=timestamp 2024-02-27T15:40:01
+=indexes Rust
+=description i8, i128, u8, u128, f32, f64
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="rust-in-hebrew-06-numbers.mp4" youtube="Dkq-C4zWZyo" />
+
+
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>
