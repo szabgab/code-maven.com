@@ -11,7 +11,7 @@
 
 =abstract start
 
-In this small example we are going to create a simple command line phone-book in Python using <a href="/surrealdb">SurrealDB running in a Docker container as the database.
+In this small example we are going to create a simple command line phone-book in Python using <a href="/surrealdb">SurrealDB</a> running in a Docker container as the database.
 
 =abstract end
 
