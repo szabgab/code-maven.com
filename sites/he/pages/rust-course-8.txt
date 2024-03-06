@@ -1,0 +1,21 @@
+=title בראסט לספור מופעים במערך
+=timestamp 2024-03-06T09:30:01
+=indexes Rust
+=description fn
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="rust-in-hebrew-08-count-number-in-array.mp4" youtube="5XiPCIFX_n0" />
+
+
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>
