@@ -30,6 +30,7 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-6">מספרים וטיפוסים של מספרים</a> 25:18</li>
     <li><a href="/rust-course-7">פונקציה וטסט בראסט</a> 7:15</li>
     <li><a href="/rust-course-8">בראסט לספור מופעים במערך</a> 20:00</li>
+    <li><a href="/rust-course-9">פונקציה גנרית למכרך עם כל עורך וכל טיפוס</a> 17:44</li>
 </ul>
 
 <!--
