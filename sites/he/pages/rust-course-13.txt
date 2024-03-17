@@ -1,0 +1,21 @@
+=title יצירת מקרו מפונקציה
+=timestamp 2024-03-17T15:50:01
+=indexes Rust
+=description args
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="rust-in-hebrew-13-converting-function-to-macro.mp4" youtube="O_rShRFxmfU" />
+
+
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>
