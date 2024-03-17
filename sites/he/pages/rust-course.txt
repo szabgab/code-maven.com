@@ -32,7 +32,8 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-8">בראסט לספור מופעים במערך</a> 20:00</li>
     <li><a href="/rust-course-9">פונקציה גנרית למכרך עם כל עורך וכל טיפוס</a> 17:44</li>
     <li><a href="/rust-course-10">קבלת פרמטרים בשורת הפקודות בראסט</a> 10:28</li>
-    <li><a href="/rust-course-11">קריאת תוכן של קובץ בראסט. טיפול בשגיאות עם unwrap, expect, match</a> 10:28</li>
+    <li><a href="/rust-course-11">קריאת תוכן של קובץ בראסט. טיפול בשגיאות עם unwrap, expect, match</a> 23:12</li>
+    <li><a href="/rust-course-12">שימוש בפילטר כדי להמנה משינוי של משתנה</a> </li>
 </ul>
 
 <!--
