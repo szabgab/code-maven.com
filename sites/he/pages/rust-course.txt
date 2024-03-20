@@ -36,7 +36,7 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-12">שימוש בפילטר כדי להמנה משינוי של משתנה</a> 9:59</li>
     <li><a href="/rust-course-13">יצירת מקרו מפונקציה</a> 5:52</li>
     <li><a href="/rust-course-14">ASCII, Unicode (UTF-16, UTF-8)</a> 10:08</li>
-
+    <li><a href="/rust-course-15">bytes, chars</a> 15:46</li>
 </ul>
 
 <!--

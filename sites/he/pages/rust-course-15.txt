@@ -1,0 +1,21 @@
+=title bytes, chars in Rust
+=timestamp 2024-03-20T13:50:01
+=indexes Rust
+=description args
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+
+
+=abstract end
+
+<screencast file="rust-in-hebrew-15-bytes-and-chars.mp4" youtube="EeqhcUuMdFI" />
+
+
+<a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>
