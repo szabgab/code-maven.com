@@ -1,5 +1,5 @@
-=title מחרוזות String &str
-=timestamp 2024-03-17T21:10:01
+=title ASCII, Unicode (UTF-16, UTF-8)
+=timestamp 2024-03-20T13:10:01
 =indexes Rust
 =description args
 =tags screencast
@@ -15,7 +15,7 @@
 
 =abstract end
 
-<screencast file="rust-in-hebrew-14-strings.mp4" youtube="zVY8ptBcvsQ" />
+<screencast file="rust-in-hebrew-14-ascii-and-unicode.mp4" youtube="kcti-z81Wy8" />
 
 
 <a href="https://github.com/szabgab/learning-rust-in-hebrew-2024-02-25">קוד והערות</a>

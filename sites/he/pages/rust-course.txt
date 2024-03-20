@@ -35,7 +35,7 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-11">קריאת תוכן של קובץ בראסט. טיפול בשגיאות עם unwrap, expect, match</a> 23:12</li>
     <li><a href="/rust-course-12">שימוש בפילטר כדי להמנה משינוי של משתנה</a> 9:59</li>
     <li><a href="/rust-course-13">יצירת מקרו מפונקציה</a> 5:52</li>
-    <li><a href="/rust-course-14">מחרוזות String &str</a> 22:52</li>
+    <li><a href="/rust-course-14">ASCII, Unicode (UTF-16, UTF-8)</a> 10:08</li>
 
 </ul>
 
