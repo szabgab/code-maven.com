@@ -38,6 +38,7 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-14">ASCII, Unicode (UTF-16, UTF-8)</a> 10:08</li>
     <li><a href="/rust-course-15">bytes, chars</a> 15:46</li>
     <li><a href="/rust-course-16">Rust String, &str, borrow, to_owned - הלוואות ובעלות על מחרוזות</a> 16:15</li>
+    <li><a href="/rust-course-17">מחרוזות והקצאת זיכרון</a> 17:05</li>
 </ul>
 
 
