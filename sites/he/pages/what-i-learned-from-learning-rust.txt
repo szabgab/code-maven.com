@@ -1,5 +1,5 @@
 =title מה למדתי מלימודי ראסט?
-=timestamp 2024-09-27T17:30:01
+=timestamp 2023-09-27T17:30:01
 =indexes CodeMaven
 =tags screencast
 =status show
