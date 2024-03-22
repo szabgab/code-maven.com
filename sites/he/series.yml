@@ -311,6 +311,9 @@ rust-course:
         - rust-course-16
         - rust-course-17
         - rust-course-18
+        - rust-course-19
+        - rust-course-20
+        - rust-course-21
 
 osdc-workshop-at-azrieli:
   chapters:

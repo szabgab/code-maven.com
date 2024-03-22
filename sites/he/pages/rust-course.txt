@@ -40,7 +40,9 @@ The <a href="https://www.youtube.com/playlist?list=PLm2NBp4tb5F3QZNMW6bEt3IoAQAu
     <li><a href="/rust-course-16">Rust String, &str, borrow, to_owned - הלוואות ובעלות על מחרוזות</a> 16:15</li>
     <li><a href="/rust-course-17">מחרוזות והקצאת זיכרון</a> 17:05</li>
     <li><a href="/rust-course-18">מחרוזות בקוד, בזיכרון, שנקראות מקובץ</a> 22:55</li>
-
+    <li><a href="/rust-course-19">מזיזים את המקרוים לקובץ אחר</a> 10:08</li>
+    <li><a href="/rust-course-20">שימוש קיצוני בקליפי</a> 8:49</li>
+    <li><a href="/rust-course-21">לספור מופעים של ספרות</a> 14:20</li>
 </ul>
 
 
