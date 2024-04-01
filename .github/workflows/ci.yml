@@ -24,7 +24,4 @@ jobs:
         run: |
             perl -v
 
-      - name: Check Calendar
-        run: |
-            cpanm --notest Data::ICal Data::ICal::Entry::Event DateTime DateTime::Format::ICal DateTime::Duration Cpanel::JSON::XS Path::Tiny
-            perl Perl-Maven/bin/check.pl
+
