@@ -14,9 +14,9 @@ jobs:
       image: perl:${{ matrix.perl-version }}
     name: Perl ${{ matrix.perl-version }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
 
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v4
         with:
            repository: 'szabgab/Perl-Maven'
            path: 'Perl-Maven'
