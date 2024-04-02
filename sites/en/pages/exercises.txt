@@ -16,6 +16,8 @@ Here are some exercises you can do. For each exercise, as time permits, I am goi
 add instructions specific to some programming languages,
 but these exercises can be solved in almost any other programming language.
 
+Once you feel comfortable with the exercises you can pick one of the more complex <a href="/projects">projects</a> as well.
+
 =abstract end
 
 
@@ -120,16 +122,8 @@ but these exercises can be solved in almost any other programming language.
 <ol>
   <li><a href="/exercise-web-hello-world">Hello World</a></li>
   <li><a href="/exercise-web-echo">Echo in a web application</li>
-  <li><a href="/personal-bookmarks">Personal Bookmarks</a></li>
-  <li><a href="/url-shortener">URL Shortener</a></li>
-  <li><a href="/todo">TODO list</a></li>
-  <li><a href="/shopping-list">Shopping list</a></li>
-  <li><a href="/repeated-shopping-list">Repeated shopping list</a></li>
-  <li><a href="/flight-ticket-vendor">Flight ticket vendor</a></li>
-  <li><a href="/microblog">Microblog</a></li>
-  <li><a href="/static-site-generator">SSG - Static Site Generator</a></li>
-  <li><a href="/job-search-manager">Job search manager</a></li>
 </ol>
+
 
 <h2>Web crawlers</h2>
 
