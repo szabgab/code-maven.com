@@ -124,6 +124,7 @@ but these exercises can be solved in almost any other programming language.
   <li><a href="/url-shortener">URL Shortener</a></li>
   <li><a href="/todo">TODO list</a></li>
   <li><a href="/shopping-list">Shopping list</a></li>
+  <li><a href="/repeated-shopping-list">Repeated shopping list</a></li>
   <li><a href="/flight-ticket-vendor">Flight ticket vendor</a></li>
   <li><a href="/microblog">Microblog</a></li>
   <li><a href="/static-site-generator">SSG - Static Site Generator</a></li>
