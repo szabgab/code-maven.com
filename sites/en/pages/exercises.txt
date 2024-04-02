@@ -128,6 +128,7 @@ but these exercises can be solved in almost any other programming language.
   <li><a href="/flight-ticket-vendor">Flight ticket vendor</a></li>
   <li><a href="/microblog">Microblog</a></li>
   <li><a href="/static-site-generator">SSG - Static Site Generator</a></li>
+  <li><a href="/job-search-manager">Job search manager</a></li>
 </ol>
 
 <h2>Web crawlers</h2>

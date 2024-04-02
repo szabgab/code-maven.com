@@ -2,7 +2,7 @@
 =timestamp 2024-04-02T13:30:01
 =indexes projects
 =status show
-=author szabgab
+=author 0
 =archive 1
 =comments_disqus_enable 0
 =show_related 1
