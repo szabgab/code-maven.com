@@ -12,7 +12,7 @@
 =abstract start
 =abstract end
 
-<screencast file="" youtube="" />
+<screencast file="using-astronvim-for-rust-development.mp4" youtube="Q50Hm7eLSTE" />
 
 <ul>
     <li><a href="https://www.nerdfonts.com/">Nerdfonts</a></li>
