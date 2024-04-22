@@ -1,0 +1,39 @@
+=title Using AstroNvim for Rust development
+=timestamp 2024-01-01T07:30:01
+=indexes Rust, nvim, NeoVim, vim
+=tags screencast
+=status draft
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+=abstract start
+=abstract end
+
+<screencast file="" youtube="" />
+
+<ul>
+    <li><a href="https://www.nerdfonts.com/">Nerdfonts</a></li>
+    <li><a href="https://neovim.io/">Neovim</a></li>
+    <li><a href="https://docs.astronvim.com/">AstroNvim documentation</a></li>
+    <li><a href="https://os.phil-opp.com/">https://os.phil-opp.com/</a></li>
+    <li><a href="https://helix-editor.com/">helix editor written in Rust</a></li>
+    <li><a href="https://showmethekey.alynx.one/">Show me the key</a> and <a href="https://github.com/AlynxZhou/showmethekey">show me the key on GitHub</a></li>
+    <li><a href="https://github.com/MeirKriheli">Meir Kriheli on Github</a></li>
+    <li><a href="https://github.com/MeirKriheli/dotneovim">The old Neovim configuration of Meir</a>, before he switched to AstroNvim</li>
+    <li><a href="https://github.com/MeirKriheli/rusmux">rusmux</a></li>
+    <li><a href="https://www.youtube.com/watch?v=bbHtl0Pxzj8">I tried Neovim Distributions so you don't have to</a> (video)</li>
+    <li><a href="https://dotfyle.com/">Dotfyle - Discover and share Neovim plugins</a></li>
+    <li><a href="https://neovimcraft.com/">neovimcraft</a></li>
+    <li><a href="https://github.com/rockerBOO/awesome-neovim/">awesome neovim</a></li>
+    <li><a href="https://meirkriheli.com/talks/tmux-vim/index.html#/">Meir Kriheli talks about tmux-vim</a></li>
+    <li><a href="https://starship.rs/">starship cross-shell prompt</a></li>
+    <li><a href="https://rust.org.il/">Rust in Israel</a></li>
+</ul>
+
+
+<!--
+    <li><a href=""></a></li>
+-->
