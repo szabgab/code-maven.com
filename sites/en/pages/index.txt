@@ -34,6 +34,7 @@ a better job with more satisfaction and higher salary.
   <li><a href="/linux">Linux</a></li>
   <li><a href="/nodejs">NodeJS</a></li>
   <li><a href="https://perlmaven.com/">Perl</a> on the Perl Maven site.</li>
+  <li><a href="https://rust.code-maven.com/">Rust</a> on the Rust Maven site.</li>
   <li><a href="/php">PHP</a></li>
   <li><a href="/python">Python</a></li>
   <li><a href="/ruby">Ruby</a></li>
