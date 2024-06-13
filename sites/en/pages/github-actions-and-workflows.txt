@@ -17,7 +17,7 @@ I feel a bit cheated. Maybe it is only I who misunderstood things, or maybe GitH
 For each GitHub project you can set up something they call <a href="https://docs.github.com/en/actions">GitHub Actions</a>, even the link in every project is called "Actions".
 So if you happen to visit the <a href="https://github.com/szabgab/code-maven.com/">source</a> of the <a href="https://code-maven.com/">Code Maven</a> web site then you'll have a link called <a href="https://github.com/szabgab/code-maven.com/actions">Actions</a>.
 
-However what you see there is actually the output of the <a href="https://docs.github.com/en/actions/using-workflows">GitHub Workflows</a>, or as I see they put it <b>GitHub Actions workflows</a>.
+However what you see there is actually the output of the <a href="https://docs.github.com/en/actions/using-workflows">GitHub Workflows</a>, or as I see they put it <b>GitHub Actions workflows</b>.
 
 Each such workflow is a combination of some code and some configuration of <a href="https://github.com/actions/">GitHub Actions</a>. However in this sentence the name "GitHub Actions" referred to the building blocks of the workflows.
 
