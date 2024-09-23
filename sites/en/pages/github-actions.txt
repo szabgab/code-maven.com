@@ -21,6 +21,7 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
     <li><a href="https://github.com/szabgab/github-actions-perl-build/">Perl with Build.PL</a></li>
     <li><a href="https://github.com/szabgab/github-actions-perl-dist-zilla/">Perl with Dist::Zilla</a></li>
     <li><a href="https://github.com/szabgab/github-actions-perl-makefile/">Perl with Makefile.PL</a></li>
+    <li><a href="https://github.com/szabgab/github-actions-perldocker-perl-tester">Perl with Makefile.PL</a> using perldocker/perl-tester image</li>
     <li><a href="https://github.com/szabgab/github-actions-postgresql">PostgreSQL</a></li>
     <li><a href="https://github.com/szabgab/github-actions-myqql">MySQL</a></li>
     <li><a href="https://github.com/szabgab/github-actions-python">Python</a></li>
@@ -31,6 +32,8 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
     <li><a href="https://github.com/szabgab/github-actions-run-code-if-files-change">Run code if file changes</a></li>
     <li><a href="https://github.com/szabgab/github-actions-with-linode-s3">Incremental caching demo using S3 compatibale object storage of Linode</a></li>
     <li><a href="https://github.com/szabgab/github-actions-restore-and-save">Cache restore and save</a> (not doing what I wanted)</li>
+    <li><a href="https://github.com/szabgab/github-actions-environment-variables">Environment variables</li>
+
 
     <li><a href="https://github.com/szabgab/github-actions-reusable-workflow">Create Reusable Github Action workflow</a> and use it in another workflow file</li>
     <li><a href="https://github.com/szabgab/github-actions-reuse-public-workflow">Reuse a GitHub Action workflow</a> from another (public) repository.</li>
