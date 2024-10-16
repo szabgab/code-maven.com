@@ -9,7 +9,7 @@
 
 =abstract start
 
-At one of my client we had a Bash script that grepped a huge log file 20 times in order to generate a report.
+One of my clients had a Bash script that grepped a huge log file 20 times in order to generate a report.
 It created a lot of load on the server as <b>grep</b> was reading the entire file 20 times.
 
 As we were converting our Shell scripts to Python anyway I thought I could rewrite it in Python and go over the file
@@ -31,21 +31,34 @@ We can run it like this, indicating the name of the file we would like to create
 the number of rows and the length of rows.
 
 <code>
-python create-big-file.py FILENAME NUMBER-OF-ROWS LENGTH-OF-ROWS
+$ python create-big-file.py FILENAME NUMBER-OF-ROWS LENGTH-OF-ROWS
+</code>
+
+For example:
+
+<code>
+$ python create-big-file.py a.txt 100000 50
 </code>
 
 It will create a file full of the character "x", with a single "y" somewhere.
+
+<code>
+$ wc a.txt
+ 1000000  1000000 51000000 a.txt
+$ grep y a.txt
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
+</code>
 
 I think this is going to be good enough for our simple example.
 
 <h2>Using grep</h2>
 
 In the original shell script we had some 20 different calls to <b>grep</b>,
-but to make it simpler I made this shell script with that runs the same regex multiple times.
+but to make it simpler I made this shell script, which runs the same regex multiple times.
 
 <include file="examples/grep_speed.sh">
 
-You can pass the name of the data file and the number of time you'd like to run <b>grep</b>.
+You can pass the name of the data file and the number of times you'd like to run <b>grep</b>.
 
 <h2>Grep with Python regexes</h2>
 
@@ -61,46 +74,59 @@ and thous would be probably faster, but in our cases we really had more complex 
 
 <h2>Comparing the speed</h2>
 
-<code>
-python create-big-file.py a.txt 100000 50
-</code>
-
-Verify the file:
+Here are the results of running the grep test:
 
 <code>
-$ wc a.txt
- 1000000  1000000 51000000 a.txt
-</code>
+$ time bash examples/grep_speed.sh a.txt 20 >/dev/null
 
-<code>
-# grep y a.txt
-xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
-</code>
-
-<code>
-$ time bash examples/grep_speed.sh a.txt 20
-
-real  0m0.227s
-user  0m0.055s
-sys   0m0.172s
+real    0m0.355s
+user    0m0.238s
+sys     0m0.097s
 </code>
 
 
 <code>
-$ time python examples/grep_speed.py a.txt 20
+$ time python examples/grep_speed.py a.txt 20 >/dev/null
 
-real  0m9.509s
-user  0m9.477s
-sys   0m0.032s
+real    0m9.897s
+user    0m9.772s
+sys     0m0.120s
 </code>
 
+So, <b>grep</b> is upwards of 30 times faster than Python; what if we optimize the Python code by only opening the file once?
 
-<b>grep</b> is about 50 times faster than Python even though <b>grep</b> had to read the file 20 time while Python only read it once.
+<include file="examples/grep_speed_open_once.py">
+
+Making that change did almost nothing to improve the speed.
+
+<code>
+$ time python examples/grep_speed_open_once.py a.txt 20 >/dev/null
+
+real    0m9.712s
+user    0m9.625s
+sys     0m0.082s
+</code>
+
+What if we optimize the regular expression by compiling it only once?
+
+<include file="examples/grep_speed_optimized.py">
+
+That makes a signicant improvement!
+
+<code>
+$ time python examples/grep_speed_optimized.py a.txt 20 >/dev/null
+
+real    0m2.198s
+user    0m2.121s
+sys     0m0.075s
+</code>
+
+By pre-compiling the regular expression, the Python code is now about 4.5x faster than the unoptimized Python code; however, <b>grep</b> is <em>still</em> about 6 times faster than Python, even though <b>grep</b> must start from afresh on each iteration.
 
 
 <h2>More complex grep</h2>
 
-In the previous case we used a very simple regex, now let's change it to use a slightly more complex expression
+In the previous case we used a very simple regex; now, let's change it to use a slightly more complex expression
 in which we are not only looking for a single character, but we also want to make sure it is between two
 identical characters.
 
@@ -113,30 +139,43 @@ identical characters.
 You can try it yourself:
 
 <code>
-grep '\(.\)y\1' a.txt
+$ grep '\(.\)y\1' a.txt
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxyx
 </code>
 
 
 <h2>Comparing the speed of the more complex examples</h2>
 
 <code>
-$ time bash examples/grep_speed_oxo.sh a.txt 20
+$ time bash examples/grep_speed_oxo.sh a.txt 20 >/dev/null
 
-real   0m0.196s
-user   0m0.035s
-sys    0m0.161s
+real    0m0.413s
+user    0m0.297s
+sys     0m0.097s
 </code>
 
 
 <code>
-$ time python examples/grep_speed_oxo.py a.txt 20
+$ time python examples/grep_speed_oxo.py a.txt 20 >/dev/null
 
-real   0m25.067s
-user   0m24.972s
-sys    0m0.016s
+real    0m12.724s
+user    0m12.589s
+sys     0m0.128s
 </code>
 
-The speed of <b>grep</b> did not change, but Python became even slower. This time grep is more than a 100 times faster than Python.
+The speed of <b>grep</b> did not change appreciably, but the Python code became much slower; this time, <b>grep</b> is more than a 30 times faster than Python, despite using some explicit optimizations in the Python code. How does the unoptimized code fair?
+
+<include file="examples/grep_speed_oxo_unoptimized.py">
+
+Using <b>grep</b> is about 57 times faster than using the unoptimized Python code.
+
+<code>
+$ time python examples/grep_speed_oxo_unoptimized.py a.txt 20 >/dev/null
+
+real    0m23.448s
+user    0m23.319s
+sys     0m0.114s
+</code>
 
 <h2>Version information</h2>
 
@@ -147,13 +186,13 @@ Python 3.8.2
 
 <code>
 $ grep -V
-grep (GNU grep) 3.4
+grep (GNU grep) 3.3
 </code>
 
 
 <h2>Other cases</h2>
 
-The results are consistent with what I saw during my work, but I wonder what would be the results if the file was larger than the available memory in my computer.
+The results are consistent with what I saw during my work, but I wonder what the results would be if the file were larger than the available memory in my computer.
 
 <h2>Conclusion</h2>
 
@@ -161,7 +200,7 @@ The results are consistent with what I saw during my work, but I wonder what wou
 
 Or I made a mistake somewhere that impacts the results.
 
-Oh and one more thing, I also create a <a href="https://perlmaven.com/">Perl</a> version of the code and
+Oh and one more thing, I also created a <a href="https://perlmaven.com/">Perl</a> version of the code and
 <a href="https://perlmaven.com/compare-the-speed-of-perl-and-python-regex">Perl is much faster than Python</a>
 even though it is also slower than the <b>grep</b> code.
 
