@@ -41,6 +41,8 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
     <li><a href="https://github.com/szabgab/github-actions-needs/">GitHub jobs and workflows depending on each other</a></li>
     <li><a href="https://github.com/szabgab/github-actions-avoid-duplicate-trigger/">Avoid duplicate triggers</a> (push and pull_request for maintainers)</li>
 
+    <li><a href="https://github.com/szabgab/github-actions-list-files-changed/">List of files changed since the most recent push or in the current pull-request</a></li>
+
     <li><a href="https://github.com/szabgab/try-github-actions/">Try others</a></li>
 <!--
     <li><a href=""></a></li>
