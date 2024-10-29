@@ -325,4 +325,11 @@ osdc-workshop-at-azrieli:
         - osdc-workshop-at-azrieli-part-2-1
         - osdc-workshop-at-azrieli-part-2-2
 
+rust:
+  chapters:
+    - title: ראסט
+      sub:
+        - web-development-with-rust-rocket
+        - surrealdb-create-select-using-rust
+        - iterate-over-vector-of-numbers-in-rust
 
