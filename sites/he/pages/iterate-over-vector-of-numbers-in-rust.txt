@@ -1,0 +1,14 @@
+=title Iterate over vector of numbers in Rust
+=timestamp 2024-10-29T16:30:01
+=indexes Rust, for, iter, into_iter
+=tags screencast
+=status show
+=books rust
+=author szabgab
+=archive 1
+=comments_disqus_enable 0
+=show_related 1
+
+<screencast file="2024-10-29-iterate-over-vector-of-numbers-in-rust-in-hebrew.mp4" youtube="V4z2fez0cP0" />
+
+<a href="https://rust.code-maven.com/slides/rust/iterate-over-vector-of-numbers.html">source</a>
