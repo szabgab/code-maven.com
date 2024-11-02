@@ -65,17 +65,28 @@ Code Maven newsletter, follow via <a href="/atom">atom feed</a> or <a href="http
 -->
 
 <div class="main-content">
-<h2>Code-Maven Sites/h2>
+<h3>Code-Maven Sites</h3>
 <ul>
     <li><a href="https://banner-builder.code-maven.com/">Banner Builder</a> (Rust Project)</li>
     <li><a href="https://ru.code-maven.com/">Front-End Maven</a></li>
     <li><a href="https://rust.code-maven.com/">Rust Maven</a></li>
     <li><a href="https://python.code-maven.com/">Python Maven</a></li>
+    <li><a href="https://c.code-maven.com/">C Maven</a></li>
+    <li><a href="https://cpp.code-maven.com/">C++ Maven</a></li>
+    <li><a href="https://events.code-maven.com/">Virtual Rust Events</a></li>
+    <li><a href="https://forem.code-maven.com/">Forem stats</a> (DEV.to)</li>
     <li><a href="https://hu.code-maven.com/">Code Maven in Hungarian</a></li>
     <li><a href="https://es.code-maven.com/">Code Maven in Spanish</a></li>
+    <li><a href="https://osdc.code-maven.com/">OSDC - Open Source Development [Course | Club | Community | Company]</a></li>
+
     <li><a href="https://he.code-maven.com/">Code Maven in Hebrew</a> (integrated)</li>
     <li><a href="https://ru.code-maven.com/">Code Maven in Russian</a> (integrated)</li>
     <li><a href="https://code-maven.com/">Code Maven in English</a> (integrated)</li>
+    <li><a href="https://meta.code-maven.com/">Code Maven Meta</a> (integrated)</li>
+
+    <li><a href="https://devops-workshops.code-maven.com/">DevOps Workshops</a> (old)</li>
+    <li><a href="https://geni.code-maven.com/">Geni Rust API</a> (only started)</li>
+    <li><a href="https://github.code-maven.com/">Experimental GitHub pages</a></li>
 <!--
     <li><a href=""></a></li>
 -->
