@@ -79,6 +79,9 @@ Code Maven newsletter, follow via <a href="/atom">atom feed</a> or <a href="http
     <li><a href="https://es.code-maven.com/">Code Maven in Spanish</a></li>
     <li><a href="https://osdc.code-maven.com/">OSDC - Open Source Development [Course | Club | Community | Company]</a></li>
 
+    <li><a href="https://python-he.code-maven.com/">Python Maven in Hebrew</a></li>
+    <li><a href="https://rust-he.code-maven.com/">Rust Maven in Hebrew</a></li>
+
     <li><a href="https://he.code-maven.com/">Code Maven in Hebrew</a> (integrated)</li>
     <li><a href="https://ru.code-maven.com/">Code Maven in Russian</a> (integrated)</li>
     <li><a href="https://code-maven.com/">Code Maven in English</a> (integrated)</li>
