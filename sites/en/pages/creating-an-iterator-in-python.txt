@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -112,3 +112,14 @@ elements), or it can be totally unrelated. (e.g. some user input. Elapsed time.
 Day of the week. Etc.)
 
 <include file="examples/python/fibonacci_iterator.py">
+
+
+<h2>Comments</h2>
+
+Very nice. Thank you!
+
+<hr>
+
+%> python3 fibonacci_finate_iterator.py
+TypeError: iter() returned non-iterator of type 'Fibonacci'
+

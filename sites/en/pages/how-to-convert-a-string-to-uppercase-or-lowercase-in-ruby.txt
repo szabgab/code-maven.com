@@ -5,7 +5,7 @@
 =books ruby
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -39,4 +39,22 @@ puts name           # RUBY
 <h2>Full example</h2>
 
 <include file="examples/ruby/case.rb">
+
+<h2>Comments</h2>
+
+Should not the output is based on name = 'Foo'?
+
+----
+
+Yes, it is but I'm sure that wasn't important in this case.
+
+----
+
+    For most folk not especially, we get the intent... but imagine just starting to learn programming for the first time... what you see and what you expect are different, and you could get confused.
+
+
+<hr>
+
+You did a good job. I think many people will benefit from this post.
+
 

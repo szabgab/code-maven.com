@@ -5,7 +5,7 @@
 =books ruby
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -130,5 +130,20 @@ puts e.to_c    # 23000.0+0i
 
 <include file="examples/ruby/string_to_number.rb">
 
+
+<h2>Comments</h2>
+
+foo.to_i" works for simple cases. One might consider: "Integer(foo)".
+
+"1.4.5".to_i => 1
+Integer("1.4.5") => invalid value for Integer()
+
+Latter is better suited as a result.
+
+<hr>
+
+Hi, in this case my string is "12345.678" when use to_f then result is: 12345.67 (only 2 number after dot)
+How can i get enough 12345.678 . I mean how can i get more number after dot.
+Thanks guys
 
 

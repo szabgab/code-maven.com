@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -135,5 +135,50 @@ key with a dictionary including the User Agent:
 
 If you run this program it will send the request as if it was Internet Explorer 2.0
 and let the system administrator wonder if you are really stuck with such an old browser.
+
+
+<h2>Comments</h2>
+
+If you wanted to send a User-Agent like a name to a particular proxy, etc..... what would be the appropriate way to do that... I think I am sending it but it doesn't seem to be received. It is populated in the "header" and sent - can you suggest a better way?
+
+---
+have you tried to see what happens when you access http://httpbin.org/user-agent ? That should show you if you managed to set the User-Agent or not. The particular proxy might look for something else though. Check in the docs of that proxy.
+
+
+---
+Can you think of a better way to send an identifying "object" other then trying to use user-agent stuffed in the header?
+
+---
+
+You will need to give a bit more explanation of what do you (or the site you are connecting to) needs. Can you explain a what are you trying accomplish?
+
+---
+
+I am trying to pass an "id" in the header under user-agent so for example the header has an authorization code and then what was supposed to be a User-Agent: "BillyBob" so when it was passed.. the proxy would see the BillyBob and allow it to passthrough (I hope that makes sense to you)
+
+So headers = {'user-agent': "BillyBob", 'Authorization': 'abcd-eft...'}
+than
+r. = requests.get("https://name.com", data=json.dumps(hec_data), headers=headers, proxies=proxies, timeout=1)
+
+
+---
+
+That does not seem right. The User-Agent is usually the name of your browser not your personal ID or username. In any case you are already talking about a solution here. My question is what server are you trying to access? What does the documentation of it say about authentication?
+
+---
+
+Just trying to push some captured data to Splunk that has to go through our proxy - I will have to do research as I don't have access to the proxy myself. But I agree it doesn't look right, but I am a beginning learner of Python so....
+
+---
+
+Have you tried using the proxies from  https://docs.python-requests.org/en/latest/user/advanced/ ?
+
+---
+
+Yes I have that in there as well…
+
+<hr>
+
+I tried - I think that it sends it - however perhaps User-Agent is not the appropriate way to do this... Being new to Python and etc... I am not really sure what is available and the best way. I will double check with the proxy team. Thank you so much for your reply :)
 
 

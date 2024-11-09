@@ -5,7 +5,7 @@
 =books angularjs, javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -104,3 +104,8 @@ and create the new $timeout object only if the timer was <hl>null</hl>.
 
 
 <try file="examples/angular/automatic_counter_with_stop_start.html">
+
+<h2>Comments</h2>
+
+Is it possible to add a save button and save the elapsed (time) count in the above script? Maybe make the elapsed time counter value a variable in an ionic application?
+

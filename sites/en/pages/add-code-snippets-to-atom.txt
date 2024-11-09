@@ -5,7 +5,7 @@
 =books atom
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -76,3 +76,21 @@ I know this because I opened the <hl>Settings</hl> (Actually the <hl>Atom / Pref
 and among the <hl>Packages</hl> looked for the one handling HTML files. This is how it looks like:
 
 <img src="img/atom_html_file_type.png" alt="HTML file type in Atom" />
+
+
+<h2>Comments</h2>
+
+Exactly what I was looking for to bet a long ad code snippet working. Thanks..
+
+<hr>
+
+How can i stop auto-complete to mess with my snippets? When i tab, it does code completation instead of my snippet! Is it possible to do bind it in another key?
+
+<hr>
+
+Thank you! This was helpful. Do you know of a community site where snippet examples and shared? Maybe a github repo?
+
+<hr>
+
+This was super-helpful! Thank you!!
+

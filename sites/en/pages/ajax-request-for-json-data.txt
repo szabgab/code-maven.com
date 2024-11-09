@@ -5,7 +5,7 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -74,4 +74,28 @@ In our example code we have a longer function though. After setting the title el
 to create and html string from various parts of this data object. This is not really necessary for this example, but
 I am going to use this opportunity to show a more convincing reason to use Handlebars that I had in the
 <a href="/introduction-to-handlebars-javascript-templating-system">introduction to Handlebars</a>
+
+<h2>Comments</h2>
+
+Awesome
+
+<hr>
+
+how do you fetch and render the entire json file content instead of fetching individual element values? i was thinking about something like below...
+
+document.getElementById("TEXTAREA_ID").innerHTML = `${data}`;
+
+but it doesnt work...
+<hr>
+Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://www.google.fr/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing).
+
+<hr>
+
+why xmlhttp.readyState == 4, and xmlhttp.status == 200 ?
+
+---
+
+Good Question, see here https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/readyState
+
+This should give you an idea why.
 

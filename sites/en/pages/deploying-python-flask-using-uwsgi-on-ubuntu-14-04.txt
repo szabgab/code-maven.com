@@ -4,7 +4,7 @@
 =books flask
 =status show
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -389,4 +389,10 @@ my-uswgi.ini.
 
 For other options you might want to check out the <a href="http://flask.pocoo.org/docs/0.10/deploying/uwsgi/">Deploying Flask on uWSGI</a> in the documentation.
 
+<h2>Comments</h2>
+
+Got my app up and running, thank you, command "uwsgi --http-socket :9090 --plugin python --wsgi-file app.py --callabe app" worked. But there is still a typo - callale
+
+---
+fixed. thanks
 

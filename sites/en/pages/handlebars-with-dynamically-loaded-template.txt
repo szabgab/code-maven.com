@@ -5,7 +5,7 @@
 =books handlebars, jquery
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -106,3 +106,9 @@ the <hl>display_template</hl> function:
 In this solution, the code fetching the raw template from the server was
 moved inside the <hl>display_template</hl> function. It is called if the
 template is not in the <hl>templates</hl> object.
+
+<h2>Comments</h2>
+
+Do you think its beneficial to rend a new file with a 2/3 same partials and the middle partial missing or doing what you do here?
+
+

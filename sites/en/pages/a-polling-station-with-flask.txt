@@ -5,7 +5,7 @@
 =books flask, python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -221,4 +221,36 @@ $ git commit -m "show the results"
 <a href="/testing-the-flask-poll">Testing the Flask Poll</a>.
 
 
+<h2>Comments</h2>
 
+hello in part where we add "
+
+<code>
+@app.route('/poll')
+def poll():
+vote = request.args.get('field')
+return vote "
+the /poll pagedoesn't show me the selection I've made
+
+The code:
+from flask import Flask, render_template
+import os
+app = Flask(__name__)
+
+poll_data = {
+'question' : 'Which web framework do you use?',
+'fields' : ['Flask', 'Django', 'TurboGears', 'web2py', 'pylonsproject']
+}
+
+@app.route('/')
+def root():
+return render_template('poll.html', data=poll_data)
+@app.route('/poll')
+def poll():
+vote = request.args.get('field')
+return vote
+
+if __name__ == "__main__":
+app.run(debug=True)
+
+</code>

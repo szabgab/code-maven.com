@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -206,3 +206,61 @@ each other or by passing them to other sequence-generating functions.
 There are two additional solutions to this problem.
 One is by creating an <a href="/callback-or-iterator-in-python">iterator</a>,
 and the other one is by creating a <a href="/function-vs-generator-in-python">generator</a>.
+
+
+<h2>Comments</h2>
+
+Good explanation. However, I don't see whether or where the callback function "def cb(values[-1])" is actually declared. I see on line 12 where it is referenced, but where do you actually define it?
+
+---
+
+already read
+
+----
+
+Hey there.
+cb is defined on line 16 as we see on line 27 that we are using check_17 as cb. cb is the just name for the paramater used in fibonacci().
+
+line 27:
+res = fibonacci(check_17)
+
+so then at line 4 this is what the script will do:
+def fibonacci(check_17):
+
+so line 12 would rea
+r = check_17(values[-1])
+
+which we then go to line 16 and run through that function just replacing 'v' for 'values[-1]'.
+
+Then we check the output of that function in the conditional at line 13
+
+Lastly we have the conditional on line 28 that just makes sure that there is a value to print before printing.
+
+I hope that helps it make sense for those that didn't quite get it.
+
+<hr>
+
+nice explanation
+
+<hr>
+
+How is this a "callback function"? By definition, a callback function should be executed after the first one has ended. This looks like one of those high order functions, which are completely legitimate in Python, since functions are "first class citizens" and are treated equally as any other objects.
+
+<hr>
+
+values [-1], isnt it out of index ? or am I too naive here.
+
+---
+
+I don't think that "naive" is the right word here. In Python you can use negative indexes values[-1] is the last element of the values list.
+
+<hr>
+
+Thanks Gabor,
+You selected a good example to explain callbacks.
+
+<hr>
+
+Thanks that really helps with understanding callbacks, I can figure out how to implement this in a class , just assuming i need to use self. construct.
+
+

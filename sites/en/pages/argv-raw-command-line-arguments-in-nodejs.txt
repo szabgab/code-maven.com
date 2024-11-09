@@ -5,7 +5,7 @@
 =books nodejs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -108,4 +108,10 @@ $ node argv.js hello
 Param: hello
 </code>
 
+<h2>Comments</h2>
 
+thanks for awesome and simple entry guide
+
+<hr>
+
+Just used this to troubleshoot a problem in someone else's code. One of the arguments wasn't being passed correctly on the command line. Thanks!

@@ -5,7 +5,7 @@
 =books git
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -210,4 +210,12 @@ files or different areas of the same file.
 <linkto file="examples/git/branch-and-merge.sh">
 
 <linkto file="examples/git/branch-and-rebase.sh">
+
+
+<h2>Comments</h2>
+
+You don't need to rebase (though if you are working alone, you could, and there are advantages to that), but if you want your features nicely separated each on its own feature branch (so that `--first-parent` looks like a string of features), you can enforce merge even in fast-forward situation with `git merge --no-ff` (and I think it is possible to configure Git to have this behavior automatic).
+
+BTW. I have heard about git-imerge tool that allegedly has advantages of both merge and rebase, but never used it myself.
+
 

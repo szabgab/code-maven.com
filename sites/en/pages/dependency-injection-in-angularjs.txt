@@ -5,7 +5,7 @@
 =books angularjs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -108,5 +108,9 @@ are expected won't change even during minification. That way Angular will know w
 the function call.
 
 
+
+<h2>Comments</h2>
+
+Simple, short, and great explanation. When i saw in tutorials both ways you mention i couldn't understand when to use one or the other, and now i do thanks to you.
 
 
