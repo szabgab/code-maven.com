@@ -5,7 +5,7 @@
 =books shell
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -129,4 +129,9 @@ $ find groups -maxdepth 1 -type f | wc -l
 
 
 (The groups directory tree can be found <a href="https://github.com/szabgab/code-maven.com/tree/main/examples/groups">here</a>.)
+
+<h2>Comments</h2>
+
+Note that, within a script or pipe, ls acts the same as ls -1, so there is no need to specify the -1 option. So, "ls | wc -l" will have the same result in less characters (and one less option to remember to use).
+
 

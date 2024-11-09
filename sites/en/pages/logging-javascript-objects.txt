@@ -5,7 +5,7 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -103,3 +103,34 @@ If you are using <a href="/angularjs">AngularJS</a> you can use the
 
 In JQuery there is a method called <a href="https://api.jquery.com/jquery.extend/">extend</a> that can
 achieve the same this way: <hl>$.extend({}, obj)</hl>.
+
+<h2>Comments</h2>
+
+Hey
+Its really helped..thanks a lot
+
+<hr>
+
+Me trying the wrong code (examples/javascript/logging/logging_changed_object.js):
+
+Before Change {fname: "Foo", lname: "Bar"}
+Acter Change {fname: "Foo", lname: "Bar", email: "foo@bar.com"}
+
+Anyway, there's a typo: "Acter" instead "After".
+
+<hr>
+
+What about if the object has 'get' and 'set'?
+function Foo() {}
+Foo.prototype = {
+get val() {
+return {
+bar: 3
+}
+}
+}
+
+let foo = new Foo()
+console.log(foo) // {}
+
+

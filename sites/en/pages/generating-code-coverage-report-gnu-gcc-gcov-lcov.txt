@@ -4,7 +4,7 @@
 =status draft
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 =abstract end
@@ -22,6 +22,3 @@ lcov --remove all.info '/usr/*' '3rdparty/*' 'app/tests/*' --rc lcov_branch_cove
 genhtml selected.info --rc lcov_branch_coverage=1 --output-directory out
 </code>
 
-
-<code>
-</code>

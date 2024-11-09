@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -61,4 +61,99 @@ That will return the following:
 <code>
 {"date": "2016-4-8", "name": "Foo"}
 </code>
+
+<h2>Comments</h2>
+
+there is a very simple solution that does the same thing
+
+json.dumps(d, default=str)
+
+this will convert every JSON unserializable object to a sting (its that simple)
+
+why reimplement what is implemented : )
+
+---
+
+He is showing how to narrow the serialization to just datetime
+
+---
+
+Thanks for this new solution, works like a charm ;)
+
+<hr>
+It works! Thanks!
+<hr>
+
+Me again,
+
+now that I know how to insert DateTime variables into MongoDB, I did my first query attempts, too. It occurs to me that only search patterns of the following format will render results:
+
+db.safe_processing.find({"procsteps.start":{ $gte: 'datetime.datetime(2020, 10, 27)' , $lte: 'datetime.datetime(2020, 12, 27)' } });
+
+When I try the same with the ISODate function such as:
+db.myFirstCollection.find({entry_date: {$gt:ISODate( '2020-11-27') } });
+
+I do not get any results, no matter how precise the search string is formulated. It appears to me that at least on Windows the ISO date/time format is not supported by MongoDB. I was wondering whether the same is true for Linux ports. Has anybody ever tried?
+
+<hr>
+
+Hi,
+I'm using MongoDB locally on Windows. There, the __str__ did not provide the desired results whereas __repr__ worked. At least I get displayed something like this by find():
+
+{
+_id: ObjectId("6308f7595a7f64e062d73465"),
+docid: 102547,
+manifest_name: 'S2A_MSIL1C_20200307T144721_N0209_R139_T19LEL_20200307T162840',
+entry_date: 'datetime.datetime(2020, 8, 15, 10, 14, 32, 359327)',
+entry_date_string: '2020-08-15 10:14:32',
+
+I can even perform $gt operations on the attribute entry_date. However, since the entry_date attribute has a really poor display, I decided to insert a date value once again as a simple string for human "watchers".
+
+Anyway thanks a lot for the hint, searching for a solution was about to drive me nuts!
+
+---
+
+can you share your code?
+
+---
+
+Sorry for anwering late, but I wasn't aware of this thread being still open.
+
+I did the following in order to cope with incompatibilities among date/time string values in Python's pymongo interface:
+
+dvConf = datetime.strptime( dvNew, '%Y-%m-%d %H:%M:%S')
+
+with dvConf being a native Python date object and dvNew being a date/time string formatting according to the given mask.
+
+This way I managed to use the dvConf variable value in Pymongo insert and update operations.
+
+Caveat: My experience with MongoDB is solely with the local community edition. I've never tried MongoDB in any cloud infrastructure.
+
+Hope this could help.
+
+<hr>
+
+unfortunately not work on my machine
+
+<hr>
+
+Saved me tons of time, thank you!
+
+<hr>
+
+is there any chance to change the type or representation to ISO date type
+not as a string
+
+<hr>
+
+Just call isoformat() method on dt instance. It returns str representation of dt in isoformat
+
+>>> now = datetime.datetime.now()
+... now.isoformat()
+'2020-04-23T15:54:17.471353'
+
+<hr>
+
+Thank you after so many try your solution work for me.
+
 

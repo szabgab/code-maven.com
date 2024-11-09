@@ -5,7 +5,7 @@
 =books nodejs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -219,5 +219,131 @@ or if I prefer the lengthier, but probably more readable version
 with the <hl>generate_callback</hl> function.
 
 <include file="examples/node/list_dir_noname.js">
+
+<h2>Comments</h2>
+
+Thanks!
+
+It's worth noting though that for resolving the issue with the filename we could just replace "var" with "let" on line 12:
+let file = path + '/' + items[i];
+
+The closure here is just a workaround we had to use before ES2015.
+
+<hr>
+
+This answer doesn't answer how to scan the sub-directories too...
+
+---
+You would do that recursively using for loop in his fs.readdir block. You would just need to check the "file" type and run fs.readdir again if it's a directory.
+---
+
+I know, but you can do it too, and update the post and code as well, so that people can get benefit in both ways, it will improve your post as well. :-)
+
+<hr>
+
+You saved my life man! Thanks a lot!
+
+<hr>
+
+Thank you for sharing your coding practice.
+
+<hr>
+
+thanks alot ...@Gabor Szabo
+
+<hr>
+
+I can't tell if my comment actually posted, but what is the date on this article? There's some outdated code like `var`, so I wonder what else is outdated, as I'm just learning fs.
+
+<hr>
+hello, maybe we can use the let with the local scope in for loop?
+also thanks a lot for good demonstrating the var global scope
+
+<hr>
+
+I made a node module to automate this task: [mddir][1]
+
+# Usage
+
+node mddir "../relative/path/"
+
+To install: npm install mddir -g
+
+To generate markdown for current directory: mddir
+
+To generate for any absolute path: mddir /absolute/path
+
+To generate for a relative path: mddir ~/Documents/whatever.
+
+The md file gets generated in your working directory.
+
+Currently ignores node_modules, and .git folders.
+
+# Troubleshooting
+
+If you receive the error 'node\r: No such file or directory', the issue is that your operating system uses different line endings and mddir can't parse them without you explicitly setting the line ending style to Unix. This usually affects Windows, but also some versions of Linux. Setting line endings to Unix style has to be performed within the mddir npm global bin folder.
+
+# Line endings fix
+
+Get npm bin folder path with:
+
+```npm config get prefix```
+
+Cd into that folder
+
+brew install dos2unix
+
+dos2unix lib/node_modules/mddir/src/mddir.js
+
+This converts line endings to Unix instead of Dos
+
+Then run as normal with: node mddir "../relative/path/".
+
+### Example generated markdown file structure 'directoryList.md'
+
+|-- .bowerrc
+|-- .jshintrc
+|-- .jshintrc2
+|-- Gruntfile.js
+|-- README.md
+|-- bower.json
+|-- karma.conf.js
+|-- package.json
+|-- app
+|-- app.js
+|-- db.js
+|-- directoryList.md
+|-- index.html
+|-- mddir.js
+|-- routing.js
+|-- server.js
+|-- _api
+|-- api.groups.js
+|-- api.posts.js
+|-- api.users.js
+|-- api.widgets.js
+|-- _components
+|-- directives
+|-- directives.module.js
+|-- vendor
+|-- directive.draganddrop.js
+|-- helpers
+|-- helpers.module.js
+|-- proprietary
+|-- factory.actionDispatcher.js
+|-- services
+|-- services.cardTemplates.js
+|-- services.cards.js
+|-- services.groups.js
+|-- services.posts.js
+|-- services.users.js
+|-- services.widgets.js
+|-- _mocks
+|-- mocks.groups.js
+|-- mocks.posts.js
+|-- mocks.users.js
+|-- mocks.widgets.js
+
+https://www.npmjs.com/package/mddir
 
 

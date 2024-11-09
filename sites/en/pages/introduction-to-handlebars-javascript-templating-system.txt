@@ -5,7 +5,7 @@
 =books javascript, handlebars
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -103,5 +103,9 @@ document.getElementById('result').innerHTML = html;
 
 That's it about the basics of Handlebars. If you'd like to learn more, you can check out the
 documentation on the web site of <a href="http://handlebarsjs.com/">Handlebars</a>
+
+<h2>Comments</h2>
+
+Hello!! Your article is excellent it has provided me with good information. I need your help in solving one problem I am using handlebarjs for templating. I have three templates in one single file and a singal json object (ie array of objects within array of objects) depending on the condition in one of my helper function i am trying to nest a template into parent template. I can share the piece of code with you.
 
 

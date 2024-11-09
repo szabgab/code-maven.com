@@ -5,7 +5,7 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -49,3 +49,10 @@ and that's why they are used usually) with an id <b>display</b>.
 
 <try file="examples/js/set_innerhtml.html">
 
+<h2>Comments</h2>
+
+Putting the JavaScript code after the HTML is loaded does not always work. I ran into this after making a HTML, CSS, JavaScript app using PHP desktop.
+
+For whatever reason, the HTML was not completely loaded and there was a need for a 400 millisecond delay before executing the JavaScript code to fill the DIV tags.
+
+Just keep this in mind should you run into that scenario and your JavaScript can't find the HTML tags after the page is loaded.

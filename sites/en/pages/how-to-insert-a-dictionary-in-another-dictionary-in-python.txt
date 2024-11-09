@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -70,5 +70,57 @@ key of the <hl>team_b</hl> dictionary using <hl>team_b["Foo"] = 200</hl>.
 The resulting printout shows that both <hl>team_b</hl>, and the internal part of <hl>team</hl> have changed. That's because
 in this case we assign a reference to the dictionary. So when we assigned <hl>team_b</hl> to <hl>team_a["b"]</hl>
 we have not copied the content of <hl>team_b</hl>, we just connected the existing dictionary to another place where it can be accessed from.
+
+<h2>Comments</h2>
+
+I'm trying to add a dictionary to another dictionary primary{{secondary_key : value}, {secondary_key : value}}. When I try to assign a value like this "dict[primary_key][secondary_key] = value" I get error IndexError: list assignment index out of range.
+
+---
+
+That means you declared either the external object or the internal object as list and not as dictionary.
+
+<hr>
+
+i have dictionary
+{key:value}
+{key:value}
+{key:value}
+.......
+i wanted to make it into a single key dictionary like
+[{'key':value} , {'key:value} , {'key':value}......]
+what should i do
+
+----
+You say "I have a dictionary" and then you show 3 dictionaries. Then in the result you show a list with 3 dictionaries in it. If you have a dictionary, could you print it out and paste the result here?
+
+----
+
+say i have three dictionaries as follows in a text file
+{'America': 47.0, India': 1.0, 'England': 1.0}
+{'America': 7.0, 'India': 9.0, 'England': 2.0}
+{'America': 2.0, 'India': 2.0, 'England': 3.0}
+
+i need an output as
+
+[{'America': 47.0, India': 1.0, 'England': 1.0},
+{'America': 7.0, 'India': 9.0, 'England': 2.0},
+{'America': 2.0, 'India': 2.0, 'England': 3.0}]
+
+----
+
+Have you written any code already? Show that!
+
+---
+
+with open("abc.txt") as f:
+for line in f:
+
+numbers_str = line.split()
+
+numbers_float = [float(x) for x in numbers_str]
+keys=['America','India','England']
+zip(numbers_float,keys)
+results= dict(zip(keys,numbers_float))
+print results.items()
 
 

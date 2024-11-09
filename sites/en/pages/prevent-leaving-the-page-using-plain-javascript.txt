@@ -5,7 +5,7 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -65,6 +65,71 @@ window.onbeforeunload = function() {
    }
 };
 </code>
+
+
+
+<h2>Comments</h2>
+
+window.onbeforeunload = function() { return; };
+I tried to return nothing to disable the pop up. But, it does not work
+
+---
+
+you have to return undefined
+
+<hr>
+
+Hi, I have a situation, where I am opening a new window from my main application as a new tab. I need to prompt the message while the user tries to close the new tab. I have given the code as below.
+
+<code>
+<script>
+window.onbeforeunload = function () {
+return "Do you really want to leave our brilliant application?";
+
+};
+</script>
+</code>
+
+But when I click on the X button, the new tab closes without prompting the message. Please suggest.
+
+<hr>
+
+copied the same code but not working in chrome (not even any browser!!). Getting the default message only as below:
+"Changes you made may not be saved."
+---
+Many browsers have reverted that feature.
+
+See https://caniuse.com/?search=onbeforeunload
+
+<hr>
+
+Hi, this doesn't work on IOS (either Safari & Chrome).
+Do you have workaround for that?
+
+---
+
+https://stackoverflow.com/questions/7317273/warn-user-before-leaving-web-page-with-unsaved-changes/7317311#7317311
+
+
+window.addEventListener("beforeunload", function (e) {
+    var confirmationMessage = 'It looks like you have been editing something. '
+                            + 'If you leave before saving, your changes will be lost.';
+
+    (e || window.event).returnValue = confirmationMessage; //Gecko + IE
+
+    return confirmationMessage; //Gecko + Webkit, Safari, Chrome etc.
+});
+
+---
+
+This doesn't work anymore in Safari
+
+---
+You can tell the guy who published that solution on stack-overflow. He might help you on this :)
+
+<hr>
+
+Thanks for the code man :D
 
 
 

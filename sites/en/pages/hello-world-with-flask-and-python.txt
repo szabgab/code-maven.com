@@ -5,7 +5,7 @@
 =books python, flask
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -149,12 +149,9 @@ FLASK_APP=hello_world flask run --host 0.0.0.0
 FLASK_APP=hello_world FLASK_DEBUG=1 flask run --host 0.0.0.0 --port 3000
 </code>
 
+<h2>Comments</h2>
 
-
-
-
-
-
-
+how to resolve this error? GET /favicon.ico 404 NOT
+FOUND
 
 

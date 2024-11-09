@@ -1,11 +1,11 @@
 =title Iterate over characters of a string in Ruby
 =timestamp 2015-02-11T15:30:01
-=indexes split, each_char 
+=indexes split, each_char
 =status show
 =books ruby
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -75,5 +75,31 @@ d
 e
 f
 </code>
+
+<h2>Comments</h2>
+
+so would it be accurate to write:
+
+%w { 1 2 3 4 }.each do |num|
+s3_file "/usr/local/tomcat7-7/part[num].tif"
+remote_path "part[num].tif"
+bucket "perftest-data"
+aws_access_key_id "XXXXXXX"
+aws_secret_access_key "ZZZZZZZZ"
+owner "root"
+group "root"
+mode "0644"
+action :create
+end
+
+<hr>
+
+You can also do it with a simple iteration loop, leveraging the fact that string objects are stored as arrays of characters:
+
+input = 'abcdef'
+ 
+input.length.times { |i| 
+   puts input[i] 
+}
 
 
