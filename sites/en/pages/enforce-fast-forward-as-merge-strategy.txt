@@ -4,7 +4,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -80,4 +80,8 @@ As far as I know GitHub does not support requiring fast-forward when you accept 
 
 As I can see one can set <a href="https://docs.gitlab.com/ee/user/project/merge_requests/fast_forward_merge.html">fast forward merge</a> as the only acceptable merge strategy.
 
+
+<h2>Comments</h2>
+
+On Bitbucket Server you can install my "Control Freak" plugin to enforce a fast-forward policy when merging into certain branches (e.g., master).
 

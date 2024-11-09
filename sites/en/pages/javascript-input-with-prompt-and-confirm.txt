@@ -5,7 +5,7 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -52,4 +52,97 @@ Or even better:
 
 <try file="examples/js/confirm.html">
 
+<h2>Comments</h2>
+
+How do you change the colors of the prompt box?
+
+<hr>
+
+Write a function that takes a grade and returns grade letter using switch case.
+Greater or equal to 9 = Grade Letter is A
+Greater or equal to 8 = Grade Letter is B
+Greater or equal to 7 = Grade Letter is C
+Greater or equal to 6 = Grade Letter is D
+Less than 6 = Grade Letter is F
+You must take this course again
+
+here is my code but its not displaying resul
+
+<code>
+<html>
+<head><title>Exercise 1</title>
+<script type="text/javascript">
+var a = prompt("Please enter youre grade \n",);
+
+function myGrading() {
+
+switch(true) {
+case (value >=9):
+
+document.getElementById("cs").innerHTML = "Grade letter is A";
+break;
+case (value >=8):
+
+document.getElementById("cs").innerHTML = "Grade letter is B";
+break;
+case (value >=7):
+
+document.getElementById("cs").innerHTML = "Grade letter is C";
+break;
+case (value >=6):
+
+document.getElementById("cs").innerHTML = "Grade letter is D";
+break;
+case (value <6):
+
+document.getElementById("cs").innerHTML = "Grade letter is F";
+break;
+
+default:
+return 'INVALID SCORE';
+}
+
+return gscore;
+}
+
+</script>
+</head>
+
+<body>
+
+Result:
+
+</body>
+</html>.
+</code>
+
+
+<hr>
+
+very helpful, thank u
+
+<hr>
+
+1 2 3 4 5
+1 2 3 4
+1 2 3
+1 2
+1
+
+can u plz give me the answer. using js loop method
+
+
+---
+
+You shoud really figure this out by yourself, it's not that big of a deal. You can achieve this by doing:
+var a = [ 1, 2, 3, 4, 5 ];
+for (var i = a.length; i > 0; i--) {
+var line = "";
+for (var j = 0; j < i; j++) line += a[j] + " ";
+console.log(line);
+}
+
+Also, it really depends on what you try to achieve with this. So this solution might not be your right solution.
+
+<hr>
 

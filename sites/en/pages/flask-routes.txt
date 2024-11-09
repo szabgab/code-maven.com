@@ -5,7 +5,7 @@
 =books flask
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -77,3 +77,7 @@ pytest -s
 
 
 <a href="http://exploreflask.com/en/latest/views.html">See also</a>
+
+<h2>Comments</h2>
+
+can I write on the one of html page which is in templates folder from any function in which is written in main flask file?

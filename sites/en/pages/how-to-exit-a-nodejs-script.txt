@@ -5,7 +5,7 @@
 =books nodejs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -20,4 +20,20 @@ The built-on <a href="http://nodejs.org/api/process.html">process</a> module has
 called <a href="http://nodejs.org/api/process.html#process_process_exit_code">exit</a>:
 
 <include file="examples/node/process_exit.js">
+
+<h2>Comments</h2>
+
+ctrl+C twice
+
+or type:
+
+.exit
+
+<hr>
+
+nice
+
+<hr>
+
+It was just what I was looking for. Thank you very very much
 

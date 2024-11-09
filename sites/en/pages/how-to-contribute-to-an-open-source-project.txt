@@ -3,7 +3,7 @@
 =indexes Open Source
 =status show
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -108,5 +108,9 @@ than with the made-up exercises.
 Anyway, be patient. Remember, the person on the other side is a developer just like you. Maybe with a bit more experience.
 
 Most importantly enjoy the process. You are always learning something.
+
+<h2>Comments</h2>
+
+Very nice article. There is a lot of free and open source software projects that needs contributions, and attentions also improvements out there that worth taking notice.
 
 

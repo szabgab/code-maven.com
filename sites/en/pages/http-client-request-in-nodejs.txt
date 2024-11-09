@@ -5,7 +5,7 @@
 =books nodejs
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -202,4 +202,11 @@ field=value
 So indeed, this managed to collect the data that was sent by the client.
 
 
+<h2>Comments</h2>
+
+Hi Gabor, It is actually a beautiful tuto, I really appreciate. But i would say, it is seem like to be a node http server tuto rather then a node http client.
+
+<hr>
+
+Its a great example to see how the legacy version of node consumed data. Thanks a lot
 

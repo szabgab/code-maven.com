@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -55,3 +55,40 @@ if <hl>True</hl> is still true in the <hl>while(True):</hl> statement.
 So from the outside the <hl>fibonacci</hl> function will behave just as the
 <a href="/callback-or-iterator-in-python">Fibonacci iterator</a> does which
 makes our code simple.
+
+
+<h2>Comments</h2>
+
+1. You shouldn't have to collect values in fibonacci function if you yield them
+2. Instead of checking length of array just add start values into `values` array before `while` cycle
+
+def fib_gen():
+    a = 1
+    b = 1
+    yield b
+    while True:
+        yield b
+        a,b = b,a+b
+
+fibonacci = fib_gen()
+for item in xrange(10000):
+    fib_number = fibonacci.next()
+    if fib_number  % 17 == 0:
+         print fib_number 
+         break
+
+
+<hr>
+
+instead of using xrange, or range in Python 3, alongside with __next__(), you could do the following in your for loop:
+
+k,n=0,10000
+for i fib_gen():
+k+=1
+if i % 17 == 0:
+print(i)
+break
+if k==n:
+break
+
+

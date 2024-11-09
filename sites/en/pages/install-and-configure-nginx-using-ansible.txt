@@ -5,7 +5,7 @@
 =books ansible
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -182,4 +182,42 @@ That printed:
 </code>
 
 When I visited the http://192.168.56.11/ from my desktop machine, it showed me the web page as I expected it, with the logo of Ansible.
+
+<h2>Comments</h2>
+
+I got curl: (7) couldn't connect to host
+
+<hr>
+
+Hi,
+
+I configured two EC2 RHL7 machine in AWS.(region - US East (Ohio))
+
+1. control machine
+2. Node machine
+
+When i am trying to run playbook i get the below error.
+------------------------------------------------
+fatal: [172.31.18.198]: FAILED! => {"changed": false, "msg": "Repo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt\nRepo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/product/rhui-client-config-server-7.crt\nRepo rhui-REGION-client-config-server-7 forced skip_if_unavailable=True due to: /etc/pki/rhui/rhui-client-config-server-7.key\nRepo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt\nRepo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt\nRepo rhui-REGION-rhel-server-releases forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key\nRepo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/cdn.redhat.com-chain.crt\nRepo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/product/content-rhel7.crt\nRepo rhui-REGION-rhel-server-rh-common forced skip_if_unavailable=True due to: /etc/pki/rhui/content-rhel7.key\n\n\nCould not contact any CDS load balancers: rhui2-cds01.us-east-2.aws.c..., rhui2-cds02.us-east-2.aws.c....\n", "rc": 1, "results": []}
+-----------------------------
+
+Could you please help me to understand the issue.
+
+<hr>
+
+I am trying to install nginx in node machine.
+
+- hosts: webservers
+tasks:
+- name: ensure nginx is at the latest version
+yum: name=nginx state=latest
+- name: start nginx
+service:
+name: nginx
+state: started
+
+---
+
+Enable ssh between the machines and mention the users: name your user here
+
 

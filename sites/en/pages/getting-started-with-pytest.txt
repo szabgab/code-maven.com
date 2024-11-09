@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -222,4 +222,30 @@ In the second one (test_mymod_2.py) there were two test functions.
 The first one passed (<hl>.</hl>) the second failed <hl>F</hl>.
 
 
+<h2>Comments</h2>
+
+I have a project which has about 2000 lines of code in it. When I started writing it, my ideas of unit testing was putting a bunch of code in a section beginning with:
+
+if __name__ == "__main__":
+    def test_something ( actual_answer, expected_answer, error_message ):
+        assert actual_answer == expected_answer, "%s : actual_answer is %s expected_answer is %s" % ( str(actual_answer), str(expected_answer), error_message )
+
+    my_object = MyClass( arg )
+    test_something ( my_object.function( arg_1 ), expected_answer_1, "my_object.function flunked test 1"
+    test_something ( my_object.function( arg_2), expected_answer_2, "my_object.function flunked test 2"
+ 
+
+
+So I am doing unit testing, but I get the sense that I am not doing unit testing the way it "ought" be done.
+
+I have been looking through the internet, and I find that the literature on testing code in general and testing using pytest in particular is vast. What I have not found, and maybe that's because what I am looking for is buried in something else, is how to take my existing code base and revamp it for use with pytest or some other testing framework.
+
+In particular, I have a function that uses <tt>subprocess.run</tt> to run a command and then parses the command's output. I'd like to test it. I have several ideas on how to go about doing this, such putting the subprocess call in a subroutine or method which detects if it is "production" or "test" and returns a canned output if in test. This idea doesn't scale very well, and IMHO clutters up the production code unnecessarily,
+
+<hr>
+
+nice post, very simple and clear. I have a question though, is there any recommendation on how to organize our .py files that will contain all of these test_ functions? I know this always depends on preferences but I'd like to know if there are any recommended guidelines on how to structure our testing for instance if I have a module called connectors.py does it make sense to say that we will need a test_connectors.py that will unit test every function in it?
+
+--
+That's a good strategy.
 

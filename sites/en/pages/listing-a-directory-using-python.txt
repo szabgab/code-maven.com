@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -88,3 +88,27 @@ to fetch the size of the file.
 The full script can be seen here:
 
 <include file="examples/python/ls.py">
+
+
+<h2>Comments</h2>
+
+line 20 gives me an "invalid token" .. specifically the highlighting the 010000 in if stmt.
+
+. I presume its testing whether its a file or directory?
+I was doing similar to this getting python to call and run a dir cmd using a bat file.
+
+This way all the code can be contained in the program.
+thanks. (Python 3.7, beginner)
+
+---
+
+Do you get a compile time error or a run-time error? If the former, then it might be that the copy-paste inserted some invalid character. Maybe an invalid invisible character.
+
+<hr>
+
+I also had a problem with an invalid token in line 20
+
+and it did not go away until I inserted letter 'o' after the leading zero in these constants
+
+leding zero means OCTAL in C and C++, but it seems that in python one should put 'o' after the leading zero, for octal constants
+

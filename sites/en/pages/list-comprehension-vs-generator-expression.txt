@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -75,3 +75,25 @@ for v in g:
 <h2>The full example</h2>
 
 <include file="examples/python/generator_expression.py">
+
+<h2>Comments</h2>
+
+Scenerio.From a large data collection 'else where 'you have to collect certain items and store at your end subject to complex conditions you impose. On-the-go nature of expression will help you save 'temporary storage' at your end compared to list comprehension which will make a list. Of course list comprehension can use if clause to 'filter' but your requirement may be too complex to code in relational and logical operations.
+
+<hr>
+
+The idea is expression helps on-the-go decision making. For example getting an item from one source and deciding to keep it or not for you then and there will be huge memory saving,
+
+<hr>
+
+Thanks. So it takes more memory to iterate over a list comprehension. Which one is faster to iterate over, all things being equal?
+
+---
+
+You never got a reply to your question but it's a good one.
+
+My guess is that their speed for small data sets is identical or close to it. Start forcing OS swapping with huge lists and that goes out the window (obviously).
+
+Python generators remind me of Unix pipes.
+
+

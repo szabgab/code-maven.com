@@ -5,7 +5,7 @@
 =books angularjs, javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -54,7 +54,7 @@ These two mark the area in which the <hl>$scope</hl> is relevant.
 
 This was a fairly simple example with a hard-coded value assigned to an attribute and used in an expression.
 
-<h2>Hello user Conroller</h2>
+<h2>Hello user Controller</h2>
 
 Let's see a slightly more complex example in which we handle input from the user and process that input in
 the controller. The processing will be very simple, just concatenating with a fixed string.
@@ -80,3 +80,17 @@ will display the content of <hl>$scope.name</hl> and <hl>$scope.greeting</hl> re
 
 The result is that as we type "Foo" in the input box, our page will display "Hello Foo" in <hl>h1</hl>
 tags and <hl>Foo</hl> in <hl>h2</hl> tags.
+
+<h2>Comments</h2>
+
+hey, thanks Gabor
+
+<hr>
+
+it is absolutely Great Tutorial to get started with angular js Thanks :)
+
+<hr>
+
+Great tutorial for beginners, thanks for posting!
+
+

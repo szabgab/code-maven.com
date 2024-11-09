@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -268,5 +268,10 @@ instead of running the whole suite again and again.
 BTW as you can see the test-methods are the smallest units the <hl>unittest</hl>
 module can operate on, so it is probably a good idea to keep them very short
 and focused on specific features.
+
+<h2>Comments</h2>
+
+That was awesome explanation about uninttest.
+Would like to know one thing, is there a possibility of collecting all failed test cases & rerunning ?
 
 

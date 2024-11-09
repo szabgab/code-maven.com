@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -119,5 +119,29 @@ zombies. You usually prefer to avoid that.
 
 
 
+
+<h2>Comments</h2>
+
+I don't want my parent process to wait for anything. I just want the child processes to die in a clean manner once they finish their task. How should I do this?
+
+<hr>
+
+How can i make a system call on that child process??
+
+<hr>
+
+i am using python 3.7 ,I cant able to use os.fork() function even i imported os module
+its showing error 'module os has no attribute fork
+---
+Are you running this on Windows?
+
+---
+yes, i am running this on windows.
+
+---
+fork is not supported on windows. Try multiprocess: https://slides.code-maven.com/python/multiprocess-pool
+
+---
+can you help me which function help me to create a new child process in this multiprocessing module ,will it work same as fork function
 
 
