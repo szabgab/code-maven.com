@@ -6,7 +6,7 @@
 =books javascript
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -35,4 +35,10 @@ same line as another element. There are a few additional values it can take, but
 In our code example we have two <hl>div</hl> elements. One of them is shown to 'internal visitors', the others to everyone else.
 Of course, you could use similar conditions to show specific message to people coming from Google or from any other site.
 
+<h2>Comments</h2>
 
+not working
+
+---
+
+my bad, works but it must be exactly the same url. Meaning that if you are on www.code-maven.com, this code won't work. It must be changed to code-maven.com (without www prefix).

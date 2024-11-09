@@ -5,7 +5,7 @@
 =books python
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -106,5 +106,23 @@ The output will then change to:
 2018-06-12-08-51-30  ERROR      MainProcess  root error
 2018-06-12-08-51-30  CRITICAL   MainProcess  root critical
 </code>
+
+<h2>Comments</h2>
+
+```
+logging.basicConfig(level = logging.INFO, filename = "my.log")
+```
+
+This statement won't create the log file automatically for you.
+
+<hr>
+
+
+Have you tried https://simplelogging.readthedocs.io/en/latest/readme.html ?
+You don't have to remember the boilerplate anylonger.
+
+<hr>
+
+Log to file doesnt work with this code
 
 

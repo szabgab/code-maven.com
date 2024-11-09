@@ -5,7 +5,7 @@
 =books javascript, cm
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -205,4 +205,45 @@ function remove() {
 That's it all the code for the JavaScript based TODO list.
 
 <include file="examples/js/todo.js">
+
+<h2>Comments</h2>
+
+thanks for sharing its so helpful..
+
+<hr>
+
+It is useful to develop in my project. Thanks..
+
+<hr>
+
+<code>
+<body>
+    <div class="container">
+        <input id="task"><button class="btn" id="add">Add</button>
+        <ul id="todos" class="collection"></ul>
+    </div>
+    <script type="text/javascript">
+        var add = document.getElementById('add');
+        add.addEventListener('click',function() {
+            var task = document.getElementById('task').value;
+            var list = [];
+            list.push(task);
+            localStorage.setItem('todo', JSON.stringify(list))
+            var todo_str = localStorage.getItem('todo');
+            var todos = JSON.parse(todo_str);
+            var html = '';
+            for(var i=0; i<todos.length; i++)="" {="" html="" +="&lt;li class="collection-item"&gt;" +="" todos[i]="" +="" '<="" li="">';
+            }
+            document.getElementById('todos').innerHTML = html;
+        })
+    </script>
+</body>
+</code>
+
+Why isn't this code storing the values in localStorage?
+
+<hr>
+
+how to store and retrieve tasks as javascript objects?
+
 

@@ -3,7 +3,7 @@
 =indexes console, trace, arguments, callee, caller
 =status show
 =author szabgab
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -136,3 +136,14 @@ For even further details check out the
 <a href="https://developer.chrome.com/devtools/docs/console-api">console API of Chrome</a>
 and the
 <a href="https://developer.mozilla.org/en/docs/Web/API/console">console API of FireFox</a>.
+
+
+<h2>Comments</h2>
+
+As far as I understand, "Stack trace using caller object" part doesn't work in modern browsers, after `arguments.callee.caller` deprecation, right?
+
+<hr>
+
+Thanks. It works well in Flash too!
+
+

@@ -4,7 +4,7 @@
 =status show
 =author szabgab
 =archive 1
-=comments_disqus_enable 1
+=comments_disqus_enable 0
 
 =abstract start
 
@@ -104,4 +104,16 @@ Then you can attach yourself to any of the existing session:
 
 See the article about <a href="http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/">select-copy-paste in tmux</a>.
 
+<h2>Comments</h2>
 
+One of my favorite features of tmux that you did not mention is the `copy-mode` that makes you interact with the terminal history as if you were in an editor. You can search backwards, select and copy, and then paste into the same window/pane or in a different window. Much faster than using a mouse.
+
+---
+
+How do you do that?
+
+---
+
+See e.g.: http://www.rushiagr.com/blog/2016/06/16/everything-you-need-to-know-about-tmux-copy-pasting-ubuntu/
+
+But basically you just enter it by «Hotkey»[ and you can then traverse the buffer in readonly mode, search it, mark it, and copy it into the tmux copy buffer. You can then paste from the tmux copy buffer (e.g. in another pane or window) with through «Hotkey»] .
