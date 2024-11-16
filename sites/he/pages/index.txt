@@ -15,6 +15,12 @@
 <a href="https://www.meetup.com/code-mavens/">מפגשים</a>
 -->
 
+<ul>
+    <li><a href="https://rust-he.code-maven.com/">תכנות בשפת ראסט בעברית</a></li>
+    <li><a href="https://python-he.code-maven.com/">תכנות בשפת פייתון בעברית</a></li>
+</ul>
+
+
 <h2>חיפוש עבודה בהייטק</h2>
 
 <ul>
