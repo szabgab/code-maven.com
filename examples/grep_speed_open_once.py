@@ -8,14 +8,13 @@ _, filename, limit = sys.argv
 
 def grep(regex, fh):
     for line in fh:
-        if regex.search(line):
+        if re.search(regex, line):
             print(line, end='')
 
 i = int(limit)
 
-y = re.compile(r'(.)y\1')
 with open(filename) as fh:
     while i:
         i-=1
-        grep(y, fh)
+        grep('y', fh)
         fh.seek(0)

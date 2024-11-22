@@ -13,7 +13,7 @@ def grep(regex, fh):
 
 i = int(limit)
 
-y = re.compile(r'(.)y\1')
+y = re.compile('y')
 with open(filename) as fh:
     while i:
         i-=1
