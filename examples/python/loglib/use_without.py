@@ -1,3 +1,0 @@
-import lib
-
-lib.f()
