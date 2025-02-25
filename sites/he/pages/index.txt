@@ -18,6 +18,7 @@
 <ul>
     <li><a href="https://rust-he.code-maven.com/">תכנות בשפת ראסט בעברית</a></li>
     <li><a href="https://python-he.code-maven.com/">תכנות בשפת פייתון בעברית</a></li>
+    <li><a href="https://git-he.code-maven.com/">גיט, גיטהאב, גיטלאב</a></li>
 </ul>
 
 
@@ -33,16 +34,15 @@
 <ul>
     <li><a href="/docker">דוקר (Docker)</a></li>
     <li><a href="https://rust-he.code-maven.com/rust">קורס ראסט (Rust)</a></li>
-    <li><a href="/git">ניהול גרסאות עם גיט (git)</a></li>
+    <li><a href="https://git-he.code-maven.com/git">ניהול גרסאות עם גיט (git)</a></li>
     <li><a href="/osdc-public-hebrew-2023-01">קורס תכנות קוד פתוח שהועבר בתחילת 2023</a></li>
     <li><a href="/osdc-2023-03-azrieli">קורס תכנות קוד פתוח שהועבר במכללת עזראלי שבירושלים בסמסטר אביב 2023</a></li>
     <li><a href="/osdc-workshop-at-azrieli">סדנא קוד פתוח לסגל של מכללת עזריאלי 2023</a></li>
-    <li><a href="/collab-dev">כתיבת תוכנה חופשית גם לאנשים שאינם מתכנתים</a></li>
-    <li><a href="/python">קורס תכנות פייתון (python)</a></li>
-    <li><a href="/python-testing">קורס טסטינג בפייתון (python testing)</a></li>
+    <li><a href="https://git-he.code-maven.com/collab-dev">כתיבת תוכנה חופשית גם לאנשים שאינם מתכנתים</a></li>
+    <li><a href="https://python-he.code-maven.com/python">קורס תכנות פייתון (python)</a></li>
+    <li><a href="https://python-he.code-maven.com/python-testing">קורס טסטינג בפייתון (python testing)</a></li>
     <li><a href="/windows">סביבת פיתוח במערכת חלונות (Windows)</a></li>
 </ul>
-
 
 <h2>פודקסט</h2>
 <ul>
