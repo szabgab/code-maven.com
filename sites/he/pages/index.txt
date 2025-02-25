@@ -32,7 +32,7 @@
 
 <ul>
     <li><a href="/docker">דוקר (Docker)</a></li>
-    <li><a href="/rust">קורס ראסט (Rust)</a></li>
+    <li><a href="https://rust-he.code-maven.com/rust">קורס ראסט (Rust)</a></li>
     <li><a href="/git">ניהול גרסאות עם גיט (git)</a></li>
     <li><a href="/osdc-public-hebrew-2023-01">קורס תכנות קוד פתוח שהועבר בתחילת 2023</a></li>
     <li><a href="/osdc-2023-03-azrieli">קורס תכנות קוד פתוח שהועבר במכללת עזראלי שבירושלים בסמסטר אביב 2023</a></li>
