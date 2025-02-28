@@ -1,5 +1,0 @@
-Foo-Bar-Zorg
-Foo Bar Zorg
-Foo
-Bar
-Zorg

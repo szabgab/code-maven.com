@@ -1,2 +1,0 @@
-println(Math.random())
-

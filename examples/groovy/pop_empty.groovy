@@ -1,3 +1,0 @@
-names = []
-names.pop()
-
