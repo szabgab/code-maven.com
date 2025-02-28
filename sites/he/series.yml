@@ -1,21 +1,4 @@
 ---
-podcast:
-  chapters:
-    - title: פודקסט
-      sub:
-        - podcast-1-welcome
-        - podcast-2-what-is-a-podcast
-        - podcast-3-what-is-needed-to-become-a-programmer
-        - podcast-4-what-are-programming-languages
-        - podcast-5-front-end-back-end
-scratch:
-  chapters:
-    - title: סקראץ
-      sub:
-        - scratch-1-first-steps
-        - scratch-2-download-our-work
-        - scratch-3-adding-a-second-sprite
-        - scratch-4-keyboard
 collab-dev:
   chapters:
     - title: פיתוח שיתופי
@@ -56,13 +39,6 @@ git:
         - git-make-some-local-changes
         - git-push-out-local-changes-to-remote-repo
         - git-more-changes-update-pr
-windows:
-  chapters:
-    - title: סבבת תיכנות במערכת חלונות
-      sub:
-        - windows-cmd-configuration
-        - windows-cmd-directories-1
-        - windows-cmd-directories-2
 python:
   chapters:
     - title: מבוא
@@ -177,92 +153,7 @@ python-testing:
         - python-testing-4
         - python-testing-5
         - python-testing-6
-wikipedia:
-  chapters:
-    - title: ויקיפדיה
-      sub:
-        - edit-wikipedia
-job-search:
-  chapters:
-    - title: חיפושי עבודה
-      sub:
-        - find-a-job-webinar-with-danit-raanan-ideses
-        - recommendations-for-linkedin-by-danit-raanan-ideses
-        - find-a-job-webinar-storemaven-with-keren-arazi
-        - find-a-job-webinar-with-tidhar-magriso
-        - hi-tech-career-with-michal-mironi
-        - remote-work-at-gitlab-with-orit-golowinski
-        - find-a-job-webinar-with-ety-leibson
-        - hr-manager-looking-for-a-job-dana-poreh
-        - work-at-qualcomm
-        - work-at-dropbox
-osdc-public-hebrew-2023-01:
-  chapters:
-    - title: OSDC 2023 01
-      sub:
-        - osdc-public-hebrew-2023-01-part-1
-        - osdc-public-hebrew-2023-01-part-2-1
-        - osdc-public-hebrew-2023-01-part-2-2
-        - osdc-public-hebrew-2023-01-part-3-1
-        - osdc-public-hebrew-2023-01-part-3-2
-        - osdc-public-hebrew-2023-01-part-4-1
-        - osdc-public-hebrew-2023-01-part-4-2
-        - osdc-public-hebrew-2023-01-part-5-1
-        - osdc-public-hebrew-2023-01-part-5-2
-        - osdc-public-hebrew-2023-01-part-6-1
-        - osdc-public-hebrew-2023-01-part-6-2
-        - osdc-public-hebrew-2023-01-part-7-1
-        - osdc-public-hebrew-2023-01-part-7-2
-        - osdc-public-hebrew-2023-01-part-8-1
-        - osdc-public-hebrew-2023-01-part-8-2
-        - osdc-public-hebrew-2023-01-part-9-1
-        - osdc-public-hebrew-2023-01-part-9-2
-        - osdc-public-hebrew-2023-01-part-10-1
-        - osdc-public-hebrew-2023-01-part-10-2
-osdc-2023-03-azrieli:
-  chapters:
-    - title: OSDC 2023 03
-      sub:
-        - osdc-2023-03-azrieli-1-1
-        - osdc-2023-03-azrieli-1-2
-        - osdc-2023-03-azrieli-2-1
-        - osdc-2023-03-azrieli-2-2
-        - osdc-2023-03-azrieli-3-1
-        - osdc-2023-03-azrieli-4-1
-        - osdc-2023-03-azrieli-5-1
-        - osdc-2023-03-azrieli-5-2
-        - osdc-2023-03-azrieli-6-1
-        - osdc-2023-03-azrieli-6-2
-        - osdc-2023-03-azrieli-7-1
-        - osdc-2023-03-azrieli-7-2
-        - osdc-2023-03-azrieli-8-1
-        - osdc-2023-03-azrieli-8-2
-        - osdc-2023-03-azrieli-9-1
-        - osdc-2023-03-azrieli-9-2
-        - osdc-2023-03-azrieli-10-1
-        - osdc-2023-03-azrieli-10-2
-        - osdc-2023-03-azrieli-11-1
-        - osdc-2023-03-azrieli-11-2
-        - osdc-2023-03-azrieli-12-1
-        - osdc-2023-03-azrieli-12-2
-        - osdc-2023-03-azrieli-13-1
-        - osdc-2023-03-azrieli-13-2
-docker:
-  chapters:
-    - title: קורס דוקר
-      sub:
-        - why-use-docker
-        - what-is-docker
-        - docker-images-and-containers
-        - installing-docker
-        - docker-desktop-client-engine
-        - docker-registry
-        - hello-world-with-docker
-        - docker-and-busybox
-        - docker-mounting-external-folder
-    - title: נושאים אחרים
-      sub:
-        - docker-why
+
 
 learning-rust-together:
   chapters:
@@ -314,16 +205,6 @@ rust-course:
         - rust-course-19
         - rust-course-20
         - rust-course-21
-
-osdc-workshop-at-azrieli:
-  chapters:
-    - title: סדנא קוד פתוח לסגל של מכללת עזריאלי 2023
-      sub:
-        - osdc-workshop-at-azrieli-part-1-1
-        - osdc-workshop-at-azrieli-part-1-2
-        - osdc-workshop-at-azrieli-part-1-3
-        - osdc-workshop-at-azrieli-part-2-1
-        - osdc-workshop-at-azrieli-part-2-2
 
 rust:
   chapters:
