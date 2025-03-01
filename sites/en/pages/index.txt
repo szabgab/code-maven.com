@@ -37,7 +37,7 @@ a better job with more satisfaction and higher salary.
   <li><a href="https://rust.code-maven.com/">Rust</a> on the Rust Maven site.</li>
   <li><a href="/php">PHP</a></li>
   <li><a href="/python">Python</a></li>
-  <li><a href="/ruby">Ruby</a></li>
+  <li><a href="https://ruby.code-maven.com/">Ruby</a></li>
   <li><a href="/svg">SVG</a>, Scalable Vector Graphics examples in JavaScript and Python.</li>
 </ul>
 </div>
