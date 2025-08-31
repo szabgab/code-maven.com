@@ -84,12 +84,12 @@ jobs:
           mv mdbook-alerts-x86_64-unknown-linux-gnu mdbook-alerts
           chmod +x mdbook-alerts
 
-      - name: Generate mdbooks
-        run: |
-          export PATH=$PATH:$(pwd)
-          #./books.sh
-          perl slides/mdbooks.pl
-          mv html/* _site/
+#      - name: Generate mdbooks
+#        run: |
+#          export PATH=$PATH:$(pwd)
+#          #./books.sh
+#          perl slides/mdbooks.pl
+#          mv html/* _site/
 
 
 
