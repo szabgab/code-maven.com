@@ -35,41 +35,39 @@ In which I've also learned what are CSS resets and heared about progressive web 
 
 <podcast>
 
-<div id="person">
-  <h2>Ire Aderinokun</h2>
-  <ul>
-    <li>[Ire Aderinokun](http://ireaderinokun.com/)</li>
-    <li>[GitHub](https://github.com/ireade)</li>
-    <li>[Twitter: @ireaderinokun](https://twitter.com/ireaderinokun)</li>
-    <li>[Blog: bits of code](https://bitsofco.de/)</li>
-    <li>[Medium @ireade](https://medium.com/@ireade)</li>
-    <li>[LinkedIN](https://www.linkedin.com/in/iaderinokun)</li>
-  </ul>
-</div>
+## Ire Aderinokun
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[NeoPets](http://www.neopets.com/)</li>
-    <li>[Big Cabal Media](http://www.bigcabal.com/)</li>
-    <li>[Tech Cabal](http://techcabal.com/)</li>
-    <li>[Zikoko](http://zikoko.com/)</li>
-    <li>[BuzzFeed](https://www.buzzfeed.com/)</li>
-    <li>[Pidgin](https://en.wikipedia.org/wiki/West_African_Pidgin_English)</li>
-    <li>[Slack](https://slack.com/)</li>
-    <li>[DJ Khaled](https://en.wikipedia.org/wiki/DJ_Khaled)</li>
-    <li>[Lorem Khaled Ipsum](http://khaledipsum.com/)</li>
-    <li>[Khaled Bot](http://khaledbot.com/)</li>
-    <li>[KhaledBot at GitHub](https://github.com/ireade/khaledbot)</li>
-    <li>[Bootstrap](http://getbootstrap.com/)</li>
-    <li>[The (Unofficial) CanIUse Embed](http://caniuse.bitsofco.de/)</li>
-    <li>[Can I use](http://caniuse.com/)</li>
-    <li>[Can I Use embed at GitHub](https://github.com/ireade/caniuse-embed)</li>
-    <li>[Formhack](http://formhack.io/)</li>
-    <li>[Formhack at GiHub](https://github.com/ireade/formhack)</li>
-    <li>[Offline FX at GitHub](https://github.com/ireade/OfflineFX-Codelab)</li>
-  </ul>
-</div>
+* [Ire Aderinokun](http://ireaderinokun.com/)
+* [GitHub](https://github.com/ireade)
+* [Twitter: @ireaderinokun](https://twitter.com/ireaderinokun)
+* [Blog: bits of code](https://bitsofco.de/)
+* [Medium @ireade](https://medium.com/@ireade)
+* [LinkedIN](https://www.linkedin.com/in/iaderinokun)
+
+## Links
+
+* [NeoPets](http://www.neopets.com/)
+* [Big Cabal Media](http://www.bigcabal.com/)
+* [Tech Cabal](http://techcabal.com/)
+* [Zikoko](http://zikoko.com/)
+* [BuzzFeed](https://www.buzzfeed.com/)
+* [Pidgin](https://en.wikipedia.org/wiki/West_African_Pidgin_English)
+* [Slack](https://slack.com/)
+* [DJ Khaled](https://en.wikipedia.org/wiki/DJ_Khaled)
+* [Lorem Khaled Ipsum](http://khaledipsum.com/)
+* [Khaled Bot](http://khaledbot.com/)
+* [KhaledBot at GitHub](https://github.com/ireade/khaledbot)
+* [Bootstrap](http://getbootstrap.com/)
+* [The (Unofficial) CanIUse Embed](http://caniuse.bitsofco.de/)
+* [Can I use](http://caniuse.com/)
+* [Can I Use embed at GitHub](https://github.com/ireade/caniuse-embed)
+* [Formhack](http://formhack.io/)
+* [Formhack at GiHub](https://github.com/ireade/formhack)
+* [Offline FX at GitHub](https://github.com/ireade/OfflineFX-Codelab)
+
+
+## Transcript
+
 
 [transcript]
   [szabgab host1 Gabor Szabo]

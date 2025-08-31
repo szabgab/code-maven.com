@@ -30,31 +30,28 @@ Interview with [Johnny Ray Austin](https://johnnyray.me/) about how he changed h
 
 <podcast>
 
-<div id="person">
-  <h2>Johnny Ray Austin</h2>
-  <ul>
-    <li>[Johnny Ray Austin](https://johnnyray.me/)</li>
-    <li>[Twitter: @recursivefunk](https://twitter.com/recursivefunk)</li>
-    <li>Director of Technology at [ISL](https://isl.co/) [@istrategylabs](https://twitter.com/istrategylabs)</li>
-    <li>[Blog](https://medium.com/@recursivefunk)</li>
-    <li>[GitHub](https://github.com/recursivefunk)</li>
-    <li>[iStrategyLabs’ Johnny Ray Austin almost became an aerospace engineer](http://technical.ly/dc/2016/08/08/johnny-ray-austin/)</li>
-  </ul>
-</div>
+## Johnny Ray Austin
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[ISL GitHub repo](https://github.com/istrategylabs)</li>
-    <li>[mo-static](https://github.com/istrategylabs/mo-static)</li>
-    <li>[mo-django](https://github.com/istrategylabs/mo-django)</li>
-    <li>[mo-node](https://github.com/istrategylabs/mo-node)</li>
-    <li>[Vue.js](https://vuejs.org/)</li>
-    <li>[ember.js](http://emberjs.com/)</li>
-    <li>[Django](https://www.djangoproject.com/)</li>
-    <li>[cookiecutter](https://github.com/audreyr/cookiecutter)</li>
-  </ul>
-</div>
+* [Johnny Ray Austin](https://johnnyray.me/)
+* [Twitter: @recursivefunk](https://twitter.com/recursivefunk)
+* Director of Technology at [ISL](https://isl.co/) [@istrategylabs](https://twitter.com/istrategylabs)
+* [Blog](https://medium.com/@recursivefunk)
+* [GitHub](https://github.com/recursivefunk)
+* [iStrategyLabs’ Johnny Ray Austin almost became an aerospace engineer](http://technical.ly/dc/2016/08/08/johnny-ray-austin/)
+
+## Links
+
+* [ISL GitHub repo](https://github.com/istrategylabs)
+* [mo-static](https://github.com/istrategylabs/mo-static)
+* [mo-django](https://github.com/istrategylabs/mo-django)
+* [mo-node](https://github.com/istrategylabs/mo-node)
+* [Vue.js](https://vuejs.org/)
+* [ember.js](http://emberjs.com/)
+* [Django](https://www.djangoproject.com/)
+* [cookiecutter](https://github.com/audreyr/cookiecutter)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

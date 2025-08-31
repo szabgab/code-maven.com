@@ -33,25 +33,22 @@ web app and the [Windows 7 clone](http://dinhquangtrung.net/).
 
 <podcast>
 
-<div id="person">
-  <h2>Trung Đinh Quang</h2>
-  <ul>
-    <li>[Trung Đinh Quang](http://dinhquangtrung.net/)</li>
-    <li>[GitHub](https://github.com/trungdq88)</li>
-    <li>[Twitter](https://twitter.com/trungdq88)</li>
-  </ul>
-</div>
+## Trung Đinh Quang
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Single-page applications](https://en.wikipedia.org/wiki/Single-page_application)</li>
-    <li>[GitHub Explorer](https://github.com/trungdq88/github-explorer)</li>
-    <li>[Progressive Web Apps](https://en.wikipedia.org/wiki/Progressive_web_app)</li>
-    <li>[Website code on GitHub](https://github.com/trungdq88/dinhquangtrung.net)</li>
-    <li>[Public Talks - GitHub](https://github.com/trungdq88/public-speaks)</li>
-  </ul>
-</div>
+* [Trung Đinh Quang](http://dinhquangtrung.net/)
+* [GitHub](https://github.com/trungdq88)
+* [Twitter](https://twitter.com/trungdq88)
+
+## Links
+
+* [Single-page applications](https://en.wikipedia.org/wiki/Single-page_application)
+* [GitHub Explorer](https://github.com/trungdq88/github-explorer)
+* [Progressive Web Apps](https://en.wikipedia.org/wiki/Progressive_web_app)
+* [Website code on GitHub](https://github.com/trungdq88/dinhquangtrung.net)
+* [Public Talks - GitHub](https://github.com/trungdq88/public-speaks)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

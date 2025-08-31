@@ -32,50 +32,46 @@ manager at [Ruby Together](https://rubytogether.org/) and deal with
 
 <podcast>
 
-<div id="person">
-  <h2>Lynn <q>Cyrin</q> Conway</h2>
-  <ul>
-    <li>[Lynn Cyrin](http://lynncyrin.me/)</li>
-    <li>[Twitter @lynncyrin](https://twitter.com/lynncyrin)</li>
-    <li>[GitHub](https://github.com/lynnco)</li>
-    <li>[Lynn Cyrin on POCIT](http://peopleofcolorintech.com/interview/episode-60-lynn-cyrin/)</li>
-  </ul>
-</div>
+## Lynn "Cyrin" Conway
+
+* [Lynn Cyrin](http://lynncyrin.me/)
+* [Twitter @lynncyrin](https://twitter.com/lynncyrin)
+* [GitHub](https://github.com/lynnco)
+* [Lynn Cyrin on POCIT](http://peopleofcolorintech.com/interview/episode-60-lynn-cyrin/)
 
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[The other Lynn Conway](https://en.wikipedia.org/wiki/Lynn_Conway)</li>
-    <li>[Ruby Together](https://rubytogether.org/)</li>
-    <li>[Bundler](http://bundler.io/)</li>
-    <li>[RubyGems](https://rubygems.org/)</li>
-    <li>[Python Ladies](http://www.pyladies.com/)</li>
-    <li>[AlterConf](https://www.alterconf.com/)</li>
-    <li>[Open Source Bridge](http://opensourcebridge.org/)</li>
-    <li>[pip (Python)](https://en.wikipedia.org/wiki/Pip_(package_manager))</li>
-    <li>[PyPi, the Python Package Index](https://pypi.python.org/)</li>
-    <li>[virtualenv (Python)](https://virtualenv.pypa.io/en/stable/)</li>
-    <li>[gem or RubyGems (the tool you can download)](https://rubygems.org/pages/download)</li>
-    <li>[JRuby](http://jruby.org/)</li>
-    <li>[Slack](https://slack.com/)</li>
-    <li>[IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)</li>
-    <li>[npm](https://www.npmjs.com/)</li>
-    <li>[André Arko](https://twitter.com/indirect)</li>
-  </ul>
-</div>
+## Links
+
+* [The other Lynn Conway](https://en.wikipedia.org/wiki/Lynn_Conway)
+* [Ruby Together](https://rubytogether.org/)
+* [Bundler](http://bundler.io/)
+* [RubyGems](https://rubygems.org/)
+* [Python Ladies](http://www.pyladies.com/)
+* [AlterConf](https://www.alterconf.com/)
+* [Open Source Bridge](http://opensourcebridge.org/)
+* [pip (Python)](https://en.wikipedia.org/wiki/Pip_(package_manager))
+* [PyPi, the Python Package Index](https://pypi.python.org/)
+* [virtualenv (Python)](https://virtualenv.pypa.io/en/stable/)
+* [gem or RubyGems (the tool you can download)](https://rubygems.org/pages/download)
+* [JRuby](http://jruby.org/)
+* [Slack](https://slack.com/)
+* [IRC](https://en.wikipedia.org/wiki/Internet_Relay_Chat)
+* [npm](https://www.npmjs.com/)
+* [André Arko](https://twitter.com/indirect)
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]
   [lynn guest1 Lynn Cyrin]
 
-[00:03] szabgab: Hello there, and welcome to CMOS, the Code Maven Open Source podcast and interview series. I'm your host, Gabor Szabo, and with me is <a href="http://lynncyrin.me/">Lynn <q>Cyrin</q> Conway</a>. Hello Lynn, how are you? How are you?
+[00:03] szabgab: Hello there, and welcome to CMOS, the Code Maven Open Source podcast and interview series. I'm your host, Gabor Szabo, and with me is [Lynn "Cyrin" Conway](http://lynncyrin.me/). Hello Lynn, how are you? How are you?
 
 [00:21] lynn: Good, good.
 
 [00:21] szabgab: Good. Before we get on, let's start with your name. I saw you call yourself Lynn "Cyrin" Conway on one hand, but in other places just Lynn Cyrin, can you tell me a little bit about this background?
 
-[00:43] lynn: I would call myself Lynn <q>Cyrin</q> Conway everywhere but websites like to not have a proper name field so a lot of it's that. So I picked Lynn first, just independently of my last name, and only changed my first name, not changed my last name. So I changed my first name to Lynn and it ended up Lynn Conway, which coincidentally is also the name of another trans-lesbian web developer. So that was nice, I just ran into that, and I was just, <q>Oh, well should I change it? No, it's kind of cool to have the same name.</q>
+[00:43] lynn: I would call myself Lynn "Cyrin" Conway everywhere but websites like to not have a proper name field so a lot of it's that. So I picked Lynn first, just independently of my last name, and only changed my first name, not changed my last name. So I changed my first name to Lynn and it ended up Lynn Conway, which coincidentally is also the name of another trans-lesbian web developer. So that was nice, I just ran into that, and I was just, "Oh, well should I change it? No, it's kind of cool to have the same name."
 
 So I started to try to build a web developer program and I realized that you can't Google me and find me through <q>Lynn Conway,</q> I mean maybe in like 20 years from now, but not right now. So I picked <q>Lynn Cyrin,</q> and within two days of using that, I got the whole front page of Google, so now I'm good. I'm safe, you can find me on the internet.
 

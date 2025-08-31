@@ -34,29 +34,26 @@ Hear him talk about the inspiration.
 
 <podcast>
 
-<div id="person">
-  <h2></h2>
-  <ul>
-    <li>[Mohammad Anwar](http://www.manwar.org/)</li>
-    <li>[GitHub](https://github.com/Manwar)</li>
-    <li>[CPAN](http://www.cpan.org/authors/id/M/MA/MANWAR/)</li>
-    <li>[Twitter: @cpan_author](https://twitter.com/cpan_author)</li>
-    <li>[LinkedIn](https://uk.linkedin.com/in/mohammadanwar)</li>
-  </ul>
-</div>
+## Mohammad Anwar
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Perl](https://www.perl.org/)</li>
-    <li>[Neil Bowers](http://neilb.org/)</li>
-    <li>[CPAN](http://www.cpan.org/)</li>
-    <li>[Map::Tube::London](https://metacpan.org/pod/Map::Tube::London)</li>
-    <li>[Games::Domino](https://metacpan.org/pod/Games::Domino)</li>
-    <li>[Calendar::Bahai](https://metacpan.org/pod/Calendar::Bahai)</li>
-    <li>[Calendar::Hijri](https://metacpan.org/pod/Calendar::Hijri)</li>
-  </ul>
-</div>
+* [Mohammad Anwar](http://www.manwar.org/)
+* [GitHub](https://github.com/Manwar)
+* [CPAN](http://www.cpan.org/authors/id/M/MA/MANWAR/)
+* [Twitter: @cpan_author](https://twitter.com/cpan_author)
+* [LinkedIn](https://uk.linkedin.com/in/mohammadanwar)
+
+## Links
+
+* [Perl](https://www.perl.org/)
+* [Neil Bowers](http://neilb.org/)
+* [CPAN](http://www.cpan.org/)
+* [Map::Tube::London](https://metacpan.org/pod/Map::Tube::London)
+* [Games::Domino](https://metacpan.org/pod/Games::Domino)
+* [Calendar::Bahai](https://metacpan.org/pod/Calendar::Bahai)
+* [Calendar::Hijri](https://metacpan.org/pod/Calendar::Hijri)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

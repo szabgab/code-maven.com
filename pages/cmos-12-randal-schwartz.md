@@ -30,34 +30,31 @@ Interview with [Randal Schwartz](https://youtu.be/YU41eecLtNI) the host of the [
 
 <podcast>
 
-<div id="person">
-  <h2></h2>
-  <ul>
-    <li>[Stonehenge consulting](http://www.stonehenge.com/) the company of Randal</li>
-    <li>[GitHub](https://github.com/RandalSchwartz)</li>
-    <li>[Twitter: @merlyn](https://twitter.com/merlyn)</li>
-    <li>[Google+](https://plus.google.com/+RandalLSchwartz)</li>
-    <li>[Randal L. Schwartz](https://en.wikipedia.org/wiki/Randal_L._Schwartz)</li>
-  </ul>
-</div>
+## Randal L. Schwartz
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Floss weekly](https://twit.tv/shows/floss-weekly)</li>
-    <li>[Leo Laporte](http://www.leoville.com/)</li>
-    <li>[Docker](https://www.docker.com/)</li>
-    <li>[ECMA 5](https://en.wikipedia.org/wiki/ECMAScript)</li>
-    <li>[Dart](https://www.dartlang.org/)</li>
-    <li>[Lua](https://www.lua.org/)</li>
-    <li>[FISL](http://fisl.softwarelivre.org/)</li>
-    <li>[Insight Cruises](http://www.insightcruises.com/)</li>
-    <li>[Neil Bauman](http://www.insightcruises.com/standard_interface/about_neil.htm)</li>
-    <li>[Perl 6](http://perl6.org/)</li>
-    <li>[YAPC::EU](http://act.yapc.eu/)</li>
-    <li>[Red Hat](https://www.redhat.com/)</li>
-  </ul>
-</div>
+* [Stonehenge consulting](http://www.stonehenge.com/) the company of Randal
+* [GitHub](https://github.com/RandalSchwartz)
+* [Twitter: @merlyn](https://twitter.com/merlyn)
+* [Google+](https://plus.google.com/+RandalLSchwartz)
+* [Randal L. Schwartz](https://en.wikipedia.org/wiki/Randal_L._Schwartz)
+
+## Links
+
+* [Floss weekly](https://twit.tv/shows/floss-weekly)
+* [Leo Laporte](http://www.leoville.com/)
+* [Docker](https://www.docker.com/)
+* [ECMA 5](https://en.wikipedia.org/wiki/ECMAScript)
+* [Dart](https://www.dartlang.org/)
+* [Lua](https://www.lua.org/)
+* [FISL](http://fisl.softwarelivre.org/)
+* [Insight Cruises](http://www.insightcruises.com/)
+* [Neil Bauman](http://www.insightcruises.com/standard_interface/about_neil.htm)
+* [Perl 6](http://perl6.org/)
+* [YAPC::EU](http://act.yapc.eu/)
+* [Red Hat](https://www.redhat.com/)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

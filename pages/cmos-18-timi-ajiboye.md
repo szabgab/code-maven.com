@@ -29,29 +29,26 @@ Interview with Timi Ajiboye, a great discussion of his view of open source, and 
 
 <podcast>
 
-<div id="person">
-  <h2>Timi Ajiboye</h2>
-  <ul>
-    <li>[timigod on GitHub](https://github.com/timigod)</li>
-    <li>[@timigod](https://twitter.com/timigod) on Twitter</li>
-    <li>[@timigod](https://medium.com/@timigod) on Medium</li>
-    <li>[Hello World](http://helloworld.ng/)</li>
-  </ul>
-</div>
+## Timi Ajiboye
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Cruncher](http://cruncherapp.co/)</li>
-    <li>[Client Manager](https://github.com/timigod/client_manager)</li>
-    <li>[Resque](https://github.com/resque/resque)</li>
-    <li>[API Pagination](https://github.com/davidcelis/api-pagination)</li>
-    <li>[Friendly ID](https://github.com/norman/friendly_id)</li>
-    <li>[HelloSails](https://hellosails.com/)</li>
-    <li>[Ruby](https://www.ruby-lang.org/en/)</li>
-    <li>[Ruby on Rails](http://rubyonrails.org/)</li>
-  </ul>
-</div>
+* [timigod on GitHub](https://github.com/timigod)
+* [@timigod](https://twitter.com/timigod) on Twitter
+* [@timigod](https://medium.com/@timigod) on Medium
+* [Hello World](http://helloworld.ng/)
+
+## Links
+
+* [Cruncher](http://cruncherapp.co/)
+* [Client Manager](https://github.com/timigod/client_manager)
+* [Resque](https://github.com/resque/resque)
+* [API Pagination](https://github.com/davidcelis/api-pagination)
+* [Friendly ID](https://github.com/norman/friendly_id)
+* [HelloSails](https://hellosails.com/)
+* [Ruby](https://www.ruby-lang.org/en/)
+* [Ruby on Rails](http://rubyonrails.org/)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

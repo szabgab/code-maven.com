@@ -29,40 +29,32 @@ Interview with [Moyinoluwa Adeyemi](https://twitter.com/moyheen) about her Yorù
 
 <podcast>
 
-<div id="person">
-  <h2>Moyinoluwa Adeyemi</h2>
-  <ul>
-    <li>[@moyheen on Twitter](https://twitter.com/moyheen)</li>
-    <li>[GitHub](https://github.com/moyheen)</li>
-    <li>[LinkedIN](https://ng.linkedin.com/in/moyinoluwa)</li>
-    <li>[@moyinoluwa on Medium](https://medium.com/@moyinoluwa)</li>
-  </ul>
-</div>
+## Moyinoluwa Adeyemi
+
+* [@moyheen on Twitter](https://twitter.com/moyheen)
+* [GitHub](https://github.com/moyheen)
+* [LinkedIN](https://ng.linkedin.com/in/moyinoluwa)
+* [@moyinoluwa on Medium](https://medium.com/@moyinoluwa)
 
 <!--
-<div id="links">
-  <h2>Links - articles about Moyinoluwa Adeyemi</h2>
-  <ul>
-    <li>[The Female App Developer](http://techherng.com/moyinoluwa-adeyemi/)</li>
-    <li><a href= "http://womenofrubies.com/2016/08/10/meetprofile-moyinoluwa-adeyemi-the-woman-who-built-an-android-watch-that-tells-time-in-yoruba/">The Watch that Tells Time in Yorùbá</a></l>
-    <li>[Another article about the Yorùbá Watch](http://woman.ng/2016/08/how-moyinoluwa-adeyemi-built-an-android-watch-face-that-tells-time-in-yoruba/)</li>
-    <li>[Sunday Adalaja's Blog about the Yorùbá Watch](http://sundayadelajablog.com/nigerians-moyinoluwa-adeyemi-builts-android-watch-tells-time-yoruba/)</li>
-    <li>[More about the Yorùbá Watch](http://howafrica.com/this-is-moyinoluwa-adeyemi-the-nigerian-lady-who-builds-watchface-that-tells-time-in-local-dialect-yoruba/)</li>
-  </ul>
-</div>
+## Links - articles about Moyinoluwa Adeyemi
+* [The Female App Developer](http://techherng.com/moyinoluwa-adeyemi/)
+* <a href= "http://womenofrubies.com/2016/08/10/meetprofile-moyinoluwa-adeyemi-the-woman-who-built-an-android-watch-that-tells-time-in-yoruba/">The Watch that Tells Time in Yorùbá</a></l>
+* [Another article about the Yorùbá Watch](http://woman.ng/2016/08/how-moyinoluwa-adeyemi-built-an-android-watch-face-that-tells-time-in-yoruba/)
+* [Sunday Adalaja's Blog about the Yorùbá Watch](http://sundayadelajablog.com/nigerians-moyinoluwa-adeyemi-builts-android-watch-tells-time-yoruba/)
+* [More about the Yorùbá Watch](http://howafrica.com/this-is-moyinoluwa-adeyemi-the-nigerian-lady-who-builds-watchface-that-tells-time-in-local-dialect-yoruba/)
 -->
 
-<div id="links">
-  <h2>Links</h2>
-   <ul>
-    <li>[The Radar Online Tech Community in Nigeria](http://radar.techcabal.com/)</li>
-    <li>[The Yorùbá Language](https://en.wikipedia.org/wiki/Yorùbá_language)</li>
-    <li>[Moyinoluwa Adeyemi writes about Machine Learning in Android / Face Detection](https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f)</li>
+## Links
+
+* [The Radar Online Tech Community in Nigeria](http://radar.techcabal.com/)
+* [The Yorùbá Language](https://en.wikipedia.org/wiki/Yorùbá_language)
+* [Moyinoluwa Adeyemi writes about Machine Learning in Android / Face Detection](https://hackernoon.com/machine-learning-for-android-developers-with-the-mobile-vision-api-part-1-face-detection-e7e24a3e472f)
 <!--
-    <li>A podcast where [Carina C. Zona interviewed at @codenewbie](http://www.codenewbie.org/podcast/algorithms) starting at 21:00 she talks about racial bias in photographic film in the U.S. in the 1950s and how that carried over into digital photography.</li>
+* A podcast where [Carina C. Zona interviewed at @codenewbie](http://www.codenewbie.org/podcast/algorithms) starting at 21:00 she talks about racial bias in photographic film in the U.S. in the 1950s and how that carried over into digital photography.
 -->
-  </ul>
-</div>
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

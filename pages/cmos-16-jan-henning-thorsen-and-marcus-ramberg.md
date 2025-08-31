@@ -30,29 +30,25 @@ Interview with [Jan Henning Thorsen](http://thorsen.pm/) and [Marcus Ramberg](ht
 
 <podcast>
 
-<div id="person">
-  <h2>Jan Henning Thorsen and Marcus Ramberg</h2>
-  <ul>
-    <li>[Marcus Ramber on GitHub](https://github.com/marcusramberg)</li>
-    <li>[Marcus Ramberg](http://marcus.nordaaker.com/)</li>
-    <li>[@marcusramberg](https://twitter.com/marcusramberg)</li>
-    <li>[Jan Henning Thorsen on GitHub](https://github.com/jhthorsen)</li>
-    <li>[Jan Henning Thorsen](http://thorsen.pm/)</li>
-    <li>[@jhthorsen](https://twitter.com/jhthorsen)</li>
-  </ul>
-</div>
+## Jan Henning Thorsen and Marcus Ramberg
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Convos](https://convos.by/)</li>
-    <li>[Convos on GitHub](https://github.com/Nordaaker/convos)</li>
-    <li>[IRC](http://www.irchelp.org/)</li>
-    <li>[Reisegiganten](http://www.reisegiganten.no/) where they both work now</li>
-    <li>[Telenor](http://telenor.no) where Jan used to work</li>
-    <li>[UIO (University of Oslo)](http://www.uio.no/) where Marcus used to work</li>
-  </ul>
-</div>
+* [Marcus Ramber on GitHub](https://github.com/marcusramberg)
+* [Marcus Ramberg](http://marcus.nordaaker.com/)
+* [@marcusramberg](https://twitter.com/marcusramberg)
+* [Jan Henning Thorsen on GitHub](https://github.com/jhthorsen)
+* [Jan Henning Thorsen](http://thorsen.pm/)
+* [@jhthorsen](https://twitter.com/jhthorsen)
+
+## Links
+
+* [Convos](https://convos.by/)
+* [Convos on GitHub](https://github.com/Nordaaker/convos)
+* [IRC](http://www.irchelp.org/)
+* [Reisegiganten](http://www.reisegiganten.no/) where they both work now
+* [Telenor](http://telenor.no) where Jan used to work
+* [UIO (University of Oslo)](http://www.uio.no/) where Marcus used to work
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

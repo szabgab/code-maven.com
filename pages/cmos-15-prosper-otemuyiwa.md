@@ -28,38 +28,35 @@ Interview with [Prosper Otemuyiwa](http://goodheads.io/) from Nigeria about [Lar
 
 <podcast>
 
-<div id="person">
-  <h2>Prosper Otemuyiwa</h2>
-  <ul>
-    <li>[GoodHeads](http://goodheads.io/)</li>
-    <li>[Twitter: @unicodeveloper](https://twitter.com/unicodeveloper)</li>
-    <li>[GitHub](https://github.com/unicodeveloper)</li>
-  </ul>
-</div>
+## Prosper Otemuyiwa
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Google Developer Expert](https://developers.google.com/experts/)</li>
-    <li>[National Youth Service Corps (NYSC)](https://en.wikipedia.org/wiki/National_Youth_Service_Corps)</li>
-    <li>[Igbo language](https://en.wikipedia.org/wiki/Igbo_language)</li>
-    <li>[Andela](https://andela.com/)</li>
-    <li>[awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps)</li>
-    <li>[Laravel](https://laravel.com/)</li>
-    <li>[Laravel Forge](https://forge.laravel.com/)</li>
-    <li>[Envoy](https://laravel.com/docs/envoy)</li>
-    <li>[Laracast](https://laracasts.com/)</li>
-    <li>[Jeffrey Way](https://twitter.com/jeffrey_way)</li>
-    <li>[Railscasts](http://railscasts.com/)</li>
-    <li>[laravel-paystack](https://github.com/unicodeveloper/laravel-paystack)</li>
-    <li>[laravel-emoji](https://github.com/unicodeveloper/laravel-emoji)</li>
-    <li>[laravel-mentions](https://github.com/unicodeveloper/laravel-mentions)</li>
-    <li>[laravel-hackathon-starter](https://github.com/unicodeveloper/laravel-hackathon-starter)</li>
-    <li>[jwt-for-babies](https://github.com/unicodeveloper/jwt-for-babies)</li>
-    <li>[es6-for-babies](https://github.com/unicodeveloper/es6-for-babies)</li>
-    <li>[auth0 jwt](https://auth0.com/docs/jwt)</li>
-  </ul>
-</div>
+* [GoodHeads](http://goodheads.io/)
+* [Twitter: @unicodeveloper](https://twitter.com/unicodeveloper)
+* [GitHub](https://github.com/unicodeveloper)
+
+## Links
+
+* [Google Developer Expert](https://developers.google.com/experts/)
+* [National Youth Service Corps (NYSC)](https://en.wikipedia.org/wiki/National_Youth_Service_Corps)
+* [Igbo language](https://en.wikipedia.org/wiki/Igbo_language)
+* [Andela](https://andela.com/)
+* [awesome-opensource-apps](https://github.com/unicodeveloper/awesome-opensource-apps)
+* [Laravel](https://laravel.com/)
+* [Laravel Forge](https://forge.laravel.com/)
+* [Envoy](https://laravel.com/docs/envoy)
+* [Laracast](https://laracasts.com/)
+* [Jeffrey Way](https://twitter.com/jeffrey_way)
+* [Railscasts](http://railscasts.com/)
+* [laravel-paystack](https://github.com/unicodeveloper/laravel-paystack)
+* [laravel-emoji](https://github.com/unicodeveloper/laravel-emoji)
+* [laravel-mentions](https://github.com/unicodeveloper/laravel-mentions)
+* [laravel-hackathon-starter](https://github.com/unicodeveloper/laravel-hackathon-starter)
+* [jwt-for-babies](https://github.com/unicodeveloper/jwt-for-babies)
+* [es6-for-babies](https://github.com/unicodeveloper/es6-for-babies)
+* [auth0 jwt](https://auth0.com/docs/jwt)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

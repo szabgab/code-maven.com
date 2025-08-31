@@ -30,29 +30,26 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
 
 <podcast>
 
-<div id="person">
-  <h2>Job van Achterberg</h2>
-  <ul>
-    <li>[@detonite at Twitter](https://twitter.com/detonite)</li>
-    <li>[GitHub](https://github.com/jkva)</li>
-    <li>[LinkedIN](https://www.linkedin.com/in/jobva)</li>
-    <li>[YAPC::EU::2016: Fun With Assistive Tech (video)](https://www.youtube.com/watch?v=Cgo_iYw09K0)</li>
-    <li>[YAPC::EU::2016, How to make your web application work for everyone (slides)](http://www.slideshare.net/jkva/yapceu2016-how-to-make-your-web-application-work-for-everyone)</li>
-  </ul>
-</div>
+## Job van Achterberg
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[Tenon.io](https://tenon.io/)</li>
-    <li>[All Around the World](http://www.http://www.allaroundtheworld.fr/)</li>
-    <li>[NoCoffee (Chrome)](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)</li>
-    <li>[W3 validator](https://validator.w3.org/) and [on GitHub](https://github.com/w3c/markup-validator)</li>
-    <li>[HTML5 validator](https://html5.validator.nu/) and [on GitHub](https://github.com/validator/validator)</li>
-    <li>[Google Chrome Accessibility Toolkit on GitHub](https://github.com/GoogleChrome/accessibility-developer-tools)</li>
-    <li>The [aXe tool](http://www.deque.com/products/aXe/), [on GitHub](https://github.com/dequelabs/axe-core), [Chrome plug-in](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd), and [FireFox plug-in](https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/)</li>    
-  </ul>
-</div>
+* [@detonite at Twitter](https://twitter.com/detonite)
+* [GitHub](https://github.com/jkva)
+* [LinkedIN](https://www.linkedin.com/in/jobva)
+* [YAPC::EU::2016: Fun With Assistive Tech (video)](https://www.youtube.com/watch?v=Cgo_iYw09K0)
+* [YAPC::EU::2016, How to make your web application work for everyone (slides)](http://www.slideshare.net/jkva/yapceu2016-how-to-make-your-web-application-work-for-everyone)
+
+## Links
+
+* [Tenon.io](https://tenon.io/)
+* [All Around the World](http://www.http://www.allaroundtheworld.fr/)
+* [NoCoffee (Chrome)](https://chrome.google.com/webstore/detail/nocoffee/jjeeggmbnhckmgdhmgdckeigabjfbddl)
+* [W3 validator](https://validator.w3.org/) and [on GitHub](https://github.com/w3c/markup-validator)
+* [HTML5 validator](https://html5.validator.nu/) and [on GitHub](https://github.com/validator/validator)
+* [Google Chrome Accessibility Toolkit on GitHub](https://github.com/GoogleChrome/accessibility-developer-tools)
+* The [aXe tool](http://www.deque.com/products/aXe/), [on GitHub](https://github.com/dequelabs/axe-core), [Chrome plug-in](https://chrome.google.com/webstore/detail/axe/lhdoppojpmngadmnindnejefpokejbdd), and [FireFox plug-in](https://addons.mozilla.org/en-us/firefox/addon/axe-devtools/)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

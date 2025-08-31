@@ -36,41 +36,32 @@ We talked about a number of project that were discussed on his show: Scrapy, pas
 
 <podcast>
 
-<div id="person">
-  <h2>Michael Kennedy</h2>
-  <ul>
-    <li>[Michael Kennedy](https://blog.michaelckennedy.net/)</li>
-    <li>[GitHub](https://github.com/mikeckennedy)</li>
-    <li>[Twitter: @mkennedy](https://twitter.com/mkennedy)</li>
-    <li>[Talk Python To Me](https://talkpython.fm/)</li>
-    <li>[transcripts](https://github.com/mikeckennedy/talk-python-transcripts)</li>
-    <li>[Talk Python Training courses](https://training.talkpython.fm/)</li>
-  </ul>
-</div>
+## Michael Kennedy
 
-<div id="links">
-  <h2>Links</h2>
+* [Michael Kennedy](https://blog.michaelckennedy.net/)
+* [GitHub](https://github.com/mikeckennedy)
+* [Twitter: @mkennedy](https://twitter.com/mkennedy)
+* [Talk Python To Me](https://talkpython.fm/)
+* [transcripts](https://github.com/mikeckennedy/talk-python-transcripts)
+* [Talk Python Training courses](https://training.talkpython.fm/)
 
-  Three courses, via kickstarter:
-  <ul>
-    <li>[Python Jumpstart by Building 10 Apps](https://talkpython.fm/course)</li>
-    <li>[Write Pythonic Code Like a Seasoned Developer](https://talkpython.fm/pythonic)</li>
-    <li>[Python for Entrepreneurs](https://talkpython.fm/launch)</li>
-  </ul>
+## Links
 
-  The projects mentioned on he podcast
-  <ul>
-    <li>[Scrapy](https://github.com/scrapy/scrapy)</li>
-    <li>[passlib](https://bitbucket.org/ecollins/passlib/wiki/Home)</li>
-    <li>[HypothesisWorks / hypothesis-python](https://hypothesis.readthedocs.io/en/latest/)</li>
-    <li>[Episode #67 on hypothesis](https://talkpython.fm/episodes/show/67/property-based-testing-with-hypothesis)</li>
-    <li>[Microsoft / pyjion](https://github.com/Microsoft/Pyjion)</li>
-    <li>[Episode #49 on Pyjiton](https://talkpython.fm/episodes/show/49/microsoft-s-jit-based-python-project-pyjion)</li>
-    <li>[sqlalchemy](http://www.sqlalchemy.org/)</li>
-    <li>[Episode #5 on sqlalchemy](https://talkpython.fm/episodes/show/5/sqlalchemy-and-data-access-in-python)</li>
-  </ul>
+Three courses, via kickstarter:
+* [Python Jumpstart by Building 10 Apps](https://talkpython.fm/course)
+* [Write Pythonic Code Like a Seasoned Developer](https://talkpython.fm/pythonic)
+* [Python for Entrepreneurs](https://talkpython.fm/launch)
 
-</div>
+The projects mentioned on he podcast
+* [Scrapy](https://github.com/scrapy/scrapy)
+* [passlib](https://bitbucket.org/ecollins/passlib/wiki/Home)
+* [HypothesisWorks / hypothesis-python](https://hypothesis.readthedocs.io/en/latest/)
+* [Episode #67 on hypothesis](https://talkpython.fm/episodes/show/67/property-based-testing-with-hypothesis)
+* [Microsoft / pyjion](https://github.com/Microsoft/Pyjion)
+* [Episode #49 on Pyjiton](https://talkpython.fm/episodes/show/49/microsoft-s-jit-based-python-project-pyjion)
+* [sqlalchemy](http://www.sqlalchemy.org/)
+* [Episode #5 on sqlalchemy](https://talkpython.fm/episodes/show/5/sqlalchemy-and-data-access-in-python)
+
 
 [transcript]
   [szabgab host1 Gabor Szabo]
