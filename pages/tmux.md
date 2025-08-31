@@ -47,7 +47,7 @@ Here is my modest configuration file and some command I use.
 * `Ctrl-a w`    Select buffer (list view)
 * `Ctrl-a s`    Select buffer (tree view)
 * `Ctrl-a f`    Select buffer search (ENTER on empty search to see full list)
-* `Ctrl-d` or `exit` will close the buffer</ul>
+* `Ctrl-d` or `exit` will close the buffer
 
 ## Windows
 
@@ -57,7 +57,7 @@ Each buffer can be split up into windows.
 * `Ctrl-a %` Split window horizontally
 * `Ctrl-a (arrows)` switch to another window
 * `Ctrl-a x` Close current window
-</ul> 
+
 
 ## Ctrl-a
 * `Ctrl-a Ctrl-a` is a `Ctrl-a` (jump to the beginning of the line)
@@ -65,7 +65,7 @@ Each buffer can be split up into windows.
 
 ## Help
 
-* `Ctrl-a ?` list keyboard binding. The `bind-key` is Ctrl-b by default but we have configured it to be `Ctrl-a`.<li>
+* `Ctrl-a ?` list keyboard binding. The `bind-key` is Ctrl-b by default but we have configured it to be `Ctrl-a`.
 * `ESC ESC` pressed twice will leave the help window
 * `Ctrl-s` Search in help window
 
@@ -80,10 +80,10 @@ If, however I start working and get disconnected, when I reconnect I might want 
 From the outside (after `ssh` connection was established, but before you attach to `tmux`, you can run:
 `tmux list-sessions` that will, well, list the sessions.
 
-<pre>
+```
 0: 1 windows (created Mon Jul 23 04:52:55 2018) [135x61]
 3: 1 windows (created Mon Sep 17 04:27:08 2018) [135x61]
-</pre>
+```
 
 Then you can attach yourself to any of the existing session:
 

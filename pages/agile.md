@@ -44,28 +44,19 @@ Peace of mind for both developers and managers.
 ## Counter points
 
 * Clean-up is invisible to users, we need to add new features.
-        <ul>
 * Bugs are visible. Especially bugs that return.
 * Security issue are even worse.
 * Clean-up will help us go faster.
-        </ul>
-    
 * We don't have time for clean-up.
-        <ul>
 * Prevention a lot cheaper than cure. Both in terms of money, time, and bugs.
-        </ul>
-    
 
 ## Steps
 
 * Introduce (unit)testing.
-        <ul>
-            <li>Introduce the practice with low-hanging fruits even if they don't provide a lot of value. Get the CI going!
-            <li>Increase the modularity of the code.
-            <li>Increase the testability of the code.
-            <li>Use mocking in the meantime.
-        </ul>
-    
+    * Introduce the practice with low-hanging fruits even if they don't provide a lot of value. Get the CI going!
+    * Increase the modularity of the code.
+    * Increase the testability of the code.
+    * Use mocking in the meantime.
 
 ## Tools
 

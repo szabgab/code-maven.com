@@ -25,8 +25,4 @@ There are some slides about using [.NET with Python](/slides/python/dotnet).
 * [MongoDB](/slides/python/mongodb)
 * [Redis](/slides/python/redis)
 
-<!--
-  <li><a href=""></a></li>
--->
-
 

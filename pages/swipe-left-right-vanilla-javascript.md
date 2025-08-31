@@ -26,12 +26,10 @@ want to rely any of the JavaScript libraries.
 
 {% include file="examples/javascript/swipe_vanilla.js" %}
 
-<ol>
-    <li>Wrap the whole area where you'd like the swipe to work in a div with an ID=content.</li>
-    <li>Replace the two commented-out alert calls by function calls implementing the left-swipe and the right swipe actions.</li>
-    <li>Adjust the 3 numbers to your liking.</li>
-    <li>Done.</li>
-</ol>
+1. Wrap the whole area where you'd like the swipe to work in a div with an ID=content.
+1. Replace the two commented-out alert calls by function calls implementing the left-swipe and the right swipe actions.
+1. Adjust the 3 numbers to your liking.
+1. Done.
 
 ```
     var min_horizontal_move = 30;

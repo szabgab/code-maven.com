@@ -24,10 +24,6 @@ Rex articles:
 * [Execute Rex commands locally](/rex-run-code-locally)
 * [Reboot remote server using Rex](/rex-reboot-remote-server)
 
-<!--
-   <li><a href=""></a></li>
--->
-
 ## Further Plans
 * Mention the idea of separating code and data (e.g. via CMDB, config files, APIs, etc.)
 * Maybe convert the nginx logic from Rexfile into a module (e.g. Rex::CodeMaven::Nginx)
@@ -38,7 +34,7 @@ Rex articles:
 
 ## Getting started with Rex
 
-* <a href="">Install Rex</a>
+* Install Rex
 * Set up a remote host. e.g. Create a Droplet on [Digital Ocean](https://www.digitalocean.com/?refcode=0d4cc75b3a74)
 * Make sure you can ssh to the host without providing a password.
 * Run your first command using Rex: (after replacing USER by the remote username and REMOTE_HOST by the IP or dns name of the remote host.)
@@ -78,7 +74,7 @@ This is still useless, but we already have a Rexfile that declares its featurese
 
 {% include file="examples/rex/hostname/Rexfile" %}
 
-<b>cd</b> into the directory of this file.
+**cd** into the directory of this file.
 
 Then type in
 
@@ -104,7 +100,7 @@ HOSTNAME
 
 ## Rexify update list of packages
 
-<b>apt-get update using Rexify</b>
+**apt-get update using Rexify**
 
 {% include file="examples/rex/update/Rexfile" %}
 

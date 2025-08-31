@@ -18,6 +18,3 @@ show_related: true
 * [Online self-knowledge workshop](/online-self-knowledge-workshop) with Ivett Ördög - ReactJS front-end, NodeJS back-end.
 * [Testing front-end written in ReactJS](https://he.code-maven.com/front-end-testing-of-react) with Ynon Perek (in Hebrew)
 
-<!--
-    <li><a href=""></a></li>
--->

@@ -28,7 +28,3 @@ show_related: false
 * [Read file line-by-line](/bash-read-file-line-by-line)
 
 * [Bash scripting slides](/slides/bash/)
-
-<!--
-  <li><a href=""></a></li>
--->
