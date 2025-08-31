@@ -1,6 +1,22 @@
 name: CI
 
-on: [push, pull_request]
+on:
+  push:
+    branches: ["main"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 
 jobs:
   perl-job:
@@ -24,4 +40,71 @@ jobs:
         run: |
             perl -v
 
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout site source
+        uses: actions/checkout@v4
+
+      - name: Download processor
+        run: |
+          wget https://ssg.code-maven.com/code-maven
+          chmod +x code-maven
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Generate pages
+        run: |
+          ./code-maven web --pages pages --config config.yaml
+
+      - name: Checkout slides repository to get the mdbook.pl
+        uses: actions/checkout@v5
+        with:
+          repository: 'szabgab/slides'
+          ref: mdbooks
+          path: slides
+
+      - name: Download mdBook
+        env:
+          MDBOOK_VERSION: 0.4.51
+          EMBEDIFY_VERSION: 0.2.13
+          ALERTS_VERSION: 0.7.0
+        run: |
+          set -x
+          wget https://github.com/rust-lang/mdBook/releases/download/v${MDBOOK_VERSION}/mdbook-v${MDBOOK_VERSION}-x86_64-unknown-linux-gnu.tar.gz
+          tar xzf mdbook-v${MDBOOK_VERSION}-x86_64-unknown-linux-gnu.tar.gz
+
+          wget https://github.com/MR-Addict/mdbook-embedify/releases/download/${EMBEDIFY_VERSION}/mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu.zip
+          unzip mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu.zip
+          mv mdbook-embedify-${EMBEDIFY_VERSION}-x86_64-unknown-linux-gnu/mdbook-embedify .
+
+          wget https://github.com/lambdalisue/rs-mdbook-alerts/releases/download/v${ALERTS_VERSION}/mdbook-alerts-x86_64-unknown-linux-gnu
+          mv mdbook-alerts-x86_64-unknown-linux-gnu mdbook-alerts
+          chmod +x mdbook-alerts
+
+      - name: Generate mdbooks
+        run: |
+          export PATH=$PATH:$(pwd)
+          #./books.sh
+          perl slides/mdbooks.pl
+          mv html/* _site/
+
+
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
 

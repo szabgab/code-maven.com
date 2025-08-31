@@ -1,0 +1,41 @@
+---
+title: "Setting environment variables on the command line on Windows, Linux, macOS"
+timestamp: 2025-04-26T07:30:01
+tags:
+  - set
+  - ENV
+published: true
+author: szabgab
+archive: true
+show_related: true
+---
+
+Setting an environment variable on Linux and macOS can be done before we run some program.
+
+```
+$ python -c 'import os; print(os.getenv("NAME"))'
+None
+
+$ NAME=Foo python -c 'import os; print(os.getenv("NAME"))'
+Foo
+```
+
+
+On Windows we need to do it separately:
+
+In CMD:
+
+```
+> set NAME=Foo
+> python -c "import os; print(os.getenv('NAME'))"
+Foo
+```
+
+In PowerShell
+
+
+```
+> [Environment]::SetEnvironmentVariable("NAME", "Foo", "Process")
+> python -c "import os; print(os.getenv('NAME'))"
+Foo
+```
