@@ -32,7 +32,6 @@ The episodes usually last less than 25 minutes.
 
 If you would like to talk about an open source project, get in touch with [Gabor](https://twitter.com/szabgab).
 
-<!--
 ## Other recommended podcasts
 
 If you are interested in deep discussions with open source developers, I recommend
@@ -47,6 +46,27 @@ They are awesome.
 Personally I use <b>Podcast Addict on Android</b> and I've [described it how](http://szabgab.com/podcasts.html) along with
 a few other recommended podcasts. In addition there are plenty of [explanations on YouTube](https://www.youtube.com/results?search_query=how+to+listen+to+podcasts).
 
--->
 
 ## The Episodes
+
+1. [CMOS #0: Introduction](cmos-0)
+1. [](cmos-1-jason-crome-perl-dancer2)
+1. [](cmos-2-sawyer-perl5)
+1. [](cmos-3-joel-berger-mojolicious)
+1. [](cmos-4-tom-hudson-gron)
+1. [](cmos-5-lucy-greco-dictationbridge)
+1. [](cmos-6-tally-barak-graphql)
+1. [](cmos-7-obinwanne-hill-restivejs)
+1. [](cmos-8-lynn-cyrin-bundler-rubygems)
+1. [](cmos-9-ire-aderinokun)
+1. [](cmos-10-michael-kennedy)
+1. [](cmos-11-mohammad-s-anwar)
+1. [](cmos-12-randal-schwartz)
+1. [](cmos-13-trung-dinh-quang)
+1. [](cmos-14-johnny-ray-austin)
+1. [](cmos-15-prosper-otemuyiwa)
+1. [](cmos-16-jan-henning-thorsen-and-marcus-ramberg)
+1. [](cmos-17-moyinoluwa-adeyemi)
+1. [](cmos-18-timi-ajiboye)
+1. [](cmos-19-job-van-achterberg)
+
