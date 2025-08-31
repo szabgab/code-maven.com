@@ -21,19 +21,17 @@ or the [ng-book](https://www.ng-book.com/) by Ari Lerner. Once you get over the 
 [AngularJS API and documentation](https://docs.angularjs.org/) becomes quite useful.
 
 
-<ol>
-  <li>[Getting Started with AngularJS (expressions)](/getting-started-with-angularjs)</li>
-  <li>[AngularJS: First binding](/angularjs-first-binding)</li>
-  <li>[Hello World with AngularJS module and controller](/hello-world-with-angular-controller)</li>
-  <li>[Add numbers with AngularJS](/add-numbers-with-angular)</li>
-  <li>[Simple in-memory counter with AngularJS](/simple-in-memory-counter-with-angularjs)</li>
-  <li>[Automatic counter using AngularJS](/automatic-counter-using-angularjs)</li>
-  <li>[A calculator in AngularJS](/calculator-in-angularjs)</li>
-  <li>[TODO in AngularJS](/todo-in-angularjs) Submit input box on pressing ENTER. ng-repeate and handling duplicate values in ng-repeate.</li>
-  <li>[Dependency Injection in AngularJS - with and without introspection](/dependency-injection-in-angularjs)</li>
-  <li>[Almost infinite recursive template in AngularJS for representing tree structures](/angular-recursive-template)</li>
-  <li>[Simple pages or tabs using AngularJS](/simple-pages-or-tabs-with-angularjs)</li>
-</ol>
+1. [Getting Started with AngularJS (expressions)](/getting-started-with-angularjs)
+1. [AngularJS: First binding](/angularjs-first-binding)
+1. [Hello World with AngularJS module and controller](/hello-world-with-angular-controller)
+1. [Add numbers with AngularJS](/add-numbers-with-angular)
+1. [Simple in-memory counter with AngularJS](/simple-in-memory-counter-with-angularjs)
+1. [Automatic counter using AngularJS](/automatic-counter-using-angularjs)
+1. [A calculator in AngularJS](/calculator-in-angularjs)
+1. [TODO in AngularJS](/todo-in-angularjs) Submit input box on pressing ENTER. ng-repeate and handling duplicate values in ng-repeate.
+1. [Dependency Injection in AngularJS - with and without introspection](/dependency-injection-in-angularjs)
+1. [Almost infinite recursive template in AngularJS for representing tree structures](/angular-recursive-template)
+1. [Simple pages or tabs using AngularJS](/simple-pages-or-tabs-with-angularjs)
 
 ## Other
 
