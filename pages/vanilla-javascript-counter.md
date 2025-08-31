@@ -16,10 +16,9 @@ This code is part of the [counter example](/counter) project. If you are looking
 and Vanilla JavaScript.
 
 It has two buttons.
-<ol>
-    <li>One of them is a counter. Every time you click on it the value on it will increase by one.</li>
-    <li>The other one is a reset button.</li>
-</ol>
+
+1. One of them is a counter. Every time you click on it the value on it will increase by one.
+1. The other one is a reset button.
 
 
 {% include file="examples/javascript/vanilla-javascript-counter.html" %}
@@ -28,9 +27,9 @@ It has two buttons.
 
 At the top of the file we have two HTML buttons. Both have IDs for easier identification.
 
-The JavaScript code has two functions and then two calls to <b>document.getElementById</b>.  These two calls will locate the HTML element with the ID given as a parameter and then connect a function to the "click" event  of each one of them. These are the two functions we have.
+The JavaScript code has two functions and then two calls to **document.getElementById**.  These two calls will locate the HTML element with the ID given as a parameter and then connect a function to the "click" event  of each one of them. These are the two functions we have.
 
-This means that when the user clicks on the HTML element with the ID <b>counter</b> the function <b>increment_counter</b> will be executed and when the user clicks on the element with the ID <b>reset</b> the <b>reset_counter</b> function will be called.
+This means that when the user clicks on the HTML element with the ID **counter** the function **increment_counter** will be executed and when the user clicks on the element with the ID **reset** the **reset_counter** function will be called.
 
 
 ![](/static/img/vanilla-javascript-counter.gif)
@@ -40,7 +39,7 @@ In this little animated gif you can see the two small buttons at the top and mos
 
 ## Reset counter
 
-The <b>reset_counter</b> function is the easier to explain:
+The **reset_counter** function is the easier to explain:
 
 ```javascript
 console.log('reset');
@@ -57,11 +56,11 @@ to locate the HTML element and innerHTML to set the content of the element to 0.
 
 ## Increment counter
 
-Here we first copy the content of the HTML element to a variable we cleverly named <b>counter</b>.
+Here we first copy the content of the HTML element to a variable we cleverly named **counter**.
 
-Then we increment it by one using the <b>++</b> operator.
+Then we increment it by one using the **++** operator.
 
-Then we have the <b>console.log</b> call. Just so we can see in the console what's happening.
+Then we have the **console.log** call. Just so we can see in the console what's happening.
 
 Finally we write back the value the HTML document.
 
