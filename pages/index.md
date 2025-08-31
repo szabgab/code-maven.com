@@ -8,21 +8,18 @@ show_related: false
 
 ## Welcome to the Code Maven!
 
-<div class="main-content">
 Helping you improve your programming and DevOps related knowledge to allow you to have
 a better job with more satisfaction and higher salary.
-</div>
 
 
-<div class="main-content">
-<h3>The main topics in alphabetical order</h3>
-<!--  <li>[Angular JS](/angularjs) - some old articles about Angular 1.</li> -->
+## The main topics in alphabetical order
+
+* [Angular JS](/angularjs) - some old articles about Angular 1.
 * [Axum](https://axum.code-maven.com/) a Rust-based web framework
 * [Ansible](/ansible) - the configuration management system.
 * [Banner Builder](https://banner-builder.code-maven.com/) (Rust Project)
 * [Bash](/shell) - the shell language of Unix/Linux.
 * [C Maven](https://c.code-maven.com/)
-<!--  <li>[Courses](https://courses.code-maven.com/)</li> -->
 * [C++ Maven](https://cpp.code-maven.com/)
 * [C# .NET](/net) - the language of Microsoft.
 * [DevOps Workshops](https://devops-workshops.code-maven.com/) (old)
@@ -52,30 +49,20 @@ a better job with more satisfaction and higher salary.
 * [Ruby](https://ruby.code-maven.com/)
 * [SVG](/svg), Scalable Vector Graphics examples in JavaScript and Python.
 * [SVG - Scalable Vector Graphics](https://svg.code-maven.com/)
-</div>
 
-<div class="main-content">
 * [Programming Bootcamp for Scientists](/programming-bootcamp-for-scientists)
 * [Programming Exercises](/exercises) for any language.
 * [R&D at $company](/rnd) - interviews with engineering leaders
 * [CMOS](/cmos) - Code-Maven Open Source podcast
 * [Live pair programming events](/live)
-</div>
 
-<div class="main-content">
+---
+
 Most of the articles were written by [Gabor Szabo](https://szabgab.com/) who provides Automation and DevOps
 related services. (Setting up CI systems, introducing test automation, moving the company to "the cloud", etc.)
-</div>
 
-<!--
-<div class="main-content">
-If you want to make sure you don't miss any new articles, you can [subscribe](/pm/register) to the
-Code Maven newsletter, follow via [atom feed](/atom) or [Twitter](https://twitter.com/szabgab)
-</div>
--->
+## Code-Maven Sites in other languages
 
-<div class="main-content">
-<h3>Code-Maven Sites in other languages</h3>
 * [Code Maven in Hungarian](https://hu.code-maven.com/)
 * [Code Maven in Spanish](https://es.code-maven.com/)
 * [Code Maven in Russian](https://ru.code-maven.com/)
@@ -89,9 +76,5 @@ Code Maven newsletter, follow via [atom feed](/atom) or [Twitter](https://twitte
 * [Code Maven in English](https://code-maven.com/) (integrated)
 * [Code Maven Meta](https://meta.code-maven.com/) (integrated)
 * [Geni Rust API](https://geni.code-maven.com/) (only started)
-<!--
-* <a href=""></a>
--->
-</div>
 
 
