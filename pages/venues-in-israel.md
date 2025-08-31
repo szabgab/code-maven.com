@@ -20,13 +20,6 @@ It can broaden the membership and can make your group more accessible to pepple 
 On this page you'll find some of the best venues where you can organize your events. The majority seem to be in the
 center of the country, especially in Tel Aviv, but I included information about other cities as well.
 
-
-<style>
-.room {
-}
-</style>
-
-
 ## The questions
 
 Throught this post I am trying to answer the following questions about each place:
@@ -39,25 +32,22 @@ Throught this post I am trying to answer the following questions about each plac
 * At what time can event be organized?
 
 * [Tel Aviv](#tel-aviv)
-     <ul>
-* [Google](#google)
-* [Amazon](#amazon)
-* [Microsoft](#microsoft)
-* [Wix](#wix-tel-aviv)
-* [DoIt](#doit)
-* [ironSource](#ironsource)
-* [Tikal](#tikal)
-     </ul>
-   
+  * [Google](#google)
+  * [Amazon](#amazon)
+  * [Microsoft](#microsoft)
+  * [Wix](#wix-tel-aviv)
+  * [DoIt](#doit)
+  * [ironSource](#ironsource)
+  * [Tikal](#tikal)
 * [Haifa](#haifa)
 * [Jerusalem](#jerusalem)
 * [Beer Sheva](#beer-sheva)
 * [Herzliya](#herzliya)
 
 
-<h2 id="tel-aviv">Tel Aviv</h2>
+## Tel Aviv
 
-<h2 id="google">[Google for Startups](https://www.campus.co/tel-aviv/en) - Tel Aviv</h2>
+### [Google for Startups](https://www.campus.co/tel-aviv/en) - Tel Aviv
 
 [Google for Startups](https://www.campus.co/tel-aviv/en) (was Google Campus) is located in
 HaUmanim 12, Tel Aviv, near the Azrieli towers. A very central location in Tel Aviv easily accessible with public transportation.
@@ -67,15 +57,15 @@ There are 3 options to host events:
 
 The Event Space (142 people) good for presentations.
 
-<img class="room" src="/static/img/venues-il/google-startup-event-space.jpg" />
+<img src="/static/img/venues-il/google-startup-event-space.jpg" />
 
 The Classroom (24 people) good for presentations and hands-on workshops.
 
-<img class="room" src="/static/img/venues-il/google-startup-class.jpg" />
+<img src="/static/img/venues-il/google-startup-class.jpg" />
 
 The Cafe (60 people) good for hands-on workshops, hackathons.
 
-<img class="room" src="/static/img/venues-il/google-startup-cafe.jpg" />
+<img src="/static/img/venues-il/google-startup-cafe.jpg" />
 
 They are open Sunday-Thursday 6:00-23:00 and you can schedule events during the day as well.
 
@@ -88,12 +78,13 @@ They are usually open to any type of technical event.
 They also have their own [calendar of events](https://www.campus.co/tel-aviv/en/events/) and promote your event to their members.
 
 
-<h2 id="amazon">[Floor 28 Amazon AWS](https://floor28.co.il/) - Tel Aviv</h2>
+### [Floor 28 Amazon AWS](https://floor28.co.il/) - Tel Aviv
+
 
 [AWS Floor28](https://floor28.co.il/) is also located walking distance from the Azrieli
 shopping mall in 121 Menachem Begin, Tel Aviv. Not surprisingly they are on the 28th floor of the Azrieli Sarona tower.
 
-<h2 id="microsof">[Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/Location/Tel%20Aviv) - Tel Aviv</h2>
+### [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/Location/Tel%20Aviv) - Tel Aviv
 
 The [Microsoft Reactor](https://developer.microsoft.com/en-us/reactor/Location/Tel%20Aviv) is located in Dubnov 7, Tel Aviv.
 
@@ -101,18 +92,18 @@ It is open 9:00-18:00 Sunday-Thursday though events can last till 21:30 as well.
 
 The event space can be used as a Classroom for max 120 people or as a theater for max 170 people.
 
-<img class="room" src="/static/img/venues-il/microsoft-tlv-space.jpg" />
+<img src="/static/img/venues-il/microsoft-tlv-space.jpg" />
 
 There is also a kitchen area with some free refreshments:
 
-<img class="room" src="/static/img/venues-il/microsoft-tlv-kitchen.jpg" />
+<img src="/static/img/venues-il/microsoft-tlv-kitchen.jpg" />
 
 They have their own event-calendar on the <a href="https://developer.microsoft.com/en-us/reactor/">web site of the
 Reactor</a> where you can check availability of the space and they have
 an on-line form to request the space.
 
 
-<h2 id="wix-tel-aviv">[Wix](https://www.wix.engineering/) - Tel Aviv</h2>
+### [Wix](https://www.wix.engineering/) - Tel Aviv
 
 Wix itself has a number of Meetup groups, the biggets one being the [At Wix](https://www.meetup.com/at-wix/).
 In addition they host events of a number of other groups.
@@ -121,13 +112,13 @@ In addition they host events of a number of other groups.
 but they also have places in [Beer Sheva](#beer-sheva) and [Haifa](#haifa).
 
 
-<h2 id="doit">[DoiT International](https://www.doit-intl.com/) - Tel Aviv</h2>
+### [DoiT International](https://www.doit-intl.com/) - Tel Aviv
 
 [DoiT International (Israel)](https://www.doit-intl.com/)
 
 Located at David Elazar 12, Tel Aviv-Yafo.
 
-<h2 id="ironsource">[ironSource](https://www.ironsrc.com/) - Tel Aviv</h2>
+### [ironSource](https://www.ironsrc.com/) - Tel Aviv
 
 [ironSource](https://www.ironsrc.com/)
 Located at Azrieli Sarona, 121 Derech Menachem Begin, Tel Aviv-Yafo
@@ -144,29 +135,29 @@ to you soon.
 
 The auditorium:
 
-<a href="/static/img/venues-il/ironsource-empty-big.jpg"><img class="room" src="/static/img/venues-il/ironsource-empty.jpg" /></a>
+<a href="/static/img/venues-il/ironsource-empty-big.jpg"><img src="/static/img/venues-il/ironsource-empty.jpg" /></a>
 
 The auditorium packed with people:
 
-<a href="/static/img/venues-il/ironsource-full-big.jpg"><img class="room" src="/static/img/venues-il/ironsource-full.jpg" /></a>
+<a href="/static/img/venues-il/ironsource-full-big.jpg"><img src="/static/img/venues-il/ironsource-full.jpg" /></a>
 
 The terrace:
 
-<a href="/static/img/venues-il/ironsource-outside-big.jpg"><img class="room" src="/static/img/venues-il/ironsource-outside.jpg" /></a>
+<a href="/static/img/venues-il/ironsource-outside-big.jpg"><img src="/static/img/venues-il/ironsource-outside.jpg" /></a>
 
 
-<h2 id="redislab">[RedisLabs](https://redislabs.com/) - Tel Aviv</h2>
+### [RedisLabs](https://redislabs.com/) - Tel Aviv
 
 [RedisLabs](https://redislabs.com/).
 
 Located in Igal Alon 94 Alon 2 Tower 32nd Floor, Tel-Aviv. It seems they are only interested in events related to Redis.
 
-<h2 id="tikal">[Tikal](https://www.tikalk.com/) - Tel Aviv</h2>
+### [Tikal](https://www.tikalk.com/) - Tel Aviv
 
 [Tikal](https://www.tikalk.com/) has it office in Kiryat Atidim, Building 7, 3rd Floor.  Tel Aviv.
 
 
-<h2 id="haifa">Haifa</h2>
+### Haifa
 
 There are a number of Meetup groups in Haifa. One of them, the [Haifa Tech Talks](https://www.meetup.com/Haifa-Tech-Talks/)
 had event in many different locations so if you'd like to organize an event in Haifa it might be a good idea to contact
@@ -187,7 +178,7 @@ had a number of events. The have their of [hiCenter Meetup group](https://www.me
 
 [Wix](https://www.wix.engineering/) at Derech HaAtzmaut 45, Haifa.
 
-<h2 id="jerusalem">Jerusalem</h2>
+### Jerusalem
 
 It seems in Jerusalem there are only very few Meetup groups and every time they meet at a different venue. If you'd like
 to find a venue there, it is probably best to talk to the organizers of one of the few existing groups.
@@ -198,11 +189,9 @@ The biggest ones are
 Learning in the Holy City</a> has 1,600 members.
 
 Search for more
-<a
-href="https://www.meetup.com/find/?allMeetups=true&radius=10&userFreeform=Jerusalem%2C+Israel&mcId=c1017961&change=yes&sort=recommended&eventFilter=mysugg">groups
-in Jerusalem</a>.
+[groups in Jerusalem](https://www.meetup.com/find/?allMeetups=true&radius=10&userFreeform=Jerusalem%2C+Israel&mcId=c1017961&change=yes&sort=recommended&eventFilter=mysugg).
 
-<h2 id="beer-sheva">Beer Sheva</h2>
+### Beer Sheva
 
 ## [Wix](https://www.wix.engineering/) - Beer Sheva
 
@@ -212,7 +201,7 @@ In addition you can find
 <a href="https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg">groups
 in Beer Sheva</a>.
 
-<h2 id="herzliya">Herzliya</h2>
+### Herzliya
 
 [AppsFlyer](https://www.appsflyer.com/) hosts events at its HQ at Maskit 14 Floor 6, Herzliya.
 
