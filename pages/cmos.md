@@ -35,7 +35,7 @@ If you would like to talk about an open source project, get in touch with [Gabor
 ## Other recommended podcasts
 
 If you are interested in deep discussions with open source developers, I recommend
-the [ChangeLog](https://changelog.com/) and the [Request For Commits](https://changelog.com/rfc/). 
+the [ChangeLog](https://changelog.com/) and the [Request For Commits](https://changelog.com/rfc/).
 
 If you are new to progamming I'd recommend the [CodeNewbie](http://codenewbie.org/) podcast.
 
@@ -49,24 +49,24 @@ a few other recommended podcasts. In addition there are plenty of [explanations 
 
 ## The Episodes
 
-1. [CMOS #0: Introduction](cmos-0)
-1. [CMOS #1: Jason Crome on Perl Dancer 2](cmos-1-jason-crome-perl-dancer2)
-1. [CMOS #2: Sawyer X on Perl 5](cmos-2-sawyer-perl5)
-1. [CMOS #3: Joel Berger on Mojolicious](cmos-3-joel-berger-mojolicious)
-1. [CMOS #4: Tom Hudson - gron for making JSON greppable](cmos-4-tom-hudson-gron)
-1. [CMOS #5 Lucy Greco - DictationBridge - helping the visually impaired](cmos-5-lucy-greco-dictationbridge)
-1. [CMOS #6: Tally Barak on GraphQL](cmos-6-tally-barak-graphql)
-1. [CMOS #7: Obinwanne Hill on RestiveJS](cmos-7-obinwanne-hill-restivejs)
-1. [](cmos-8-lynn-cyrin-bundler-rubygems)
-1. [](cmos-9-ire-aderinokun)
-1. [](cmos-10-michael-kennedy)
-1. [](cmos-11-mohammad-s-anwar)
-1. [](cmos-12-randal-schwartz)
-1. [](cmos-13-trung-dinh-quang)
-1. [](cmos-14-johnny-ray-austin)
-1. [](cmos-15-prosper-otemuyiwa)
-1. [](cmos-16-jan-henning-thorsen-and-marcus-ramberg)
-1. [](cmos-17-moyinoluwa-adeyemi)
-1. [](cmos-18-timi-ajiboye)
-1. [](cmos-19-job-van-achterberg)
+* [CMOS #0: Introduction](cmos-0)
+* [CMOS #1: Jason Crome on Perl Dancer 2](cmos-1-jason-crome-perl-dancer2)
+* [CMOS #2: Sawyer X on Perl 5](cmos-2-sawyer-perl5)
+* [CMOS #3: Joel Berger on Mojolicious](cmos-3-joel-berger-mojolicious)
+* [CMOS #4: Tom Hudson - gron for making JSON greppable](cmos-4-tom-hudson-gron)
+* [CMOS #5 Lucy Greco - DictationBridge - helping the visually impaired](cmos-5-lucy-greco-dictationbridge)
+* [CMOS #6: Tally Barak on GraphQL](cmos-6-tally-barak-graphql)
+* [CMOS #7: Obinwanne Hill on RestiveJS](cmos-7-obinwanne-hill-restivejs)
+* [CMOS #8: Lynn 'Cyrin' Conway on Bundler, RubyGems and Ruby Together](cmos-8-lynn-cyrin-bundler-rubygems)
+* [CMOS #9: Ire Aderinokun - Khaled Bot, Can I Use Embed, Formhack](cmos-9-ire-aderinokun)
+* [CMOS #10: Michael Kennedy - Talk Python To Me](cmos-10-michael-kennedy)
+* [CMOS #11: Mohammad S. Anwar - Contributing to CPAN every single day](cmos-11-mohammad-s-anwar)
+* [CMOS #12: Randal Schwartz the host of FLOSS Weekly](cmos-12-randal-schwartz)
+* [CMOS #13: Trung Đinh Quang on GitHub Explorer - a progressive web app](cmos-13-trung-dinh-quang)
+* [CMOS #14: Johnny Ray Austin - Mo - Django - VueJS](cmos-14-johnny-ray-austin)
+* [CMOS #15: Prosper Otemuyiwa - Laravel](cmos-15-prosper-otemuyiwa)
+* [CMOS #16: Jan Henning Thorsen and Marcus Ramberg about Convos, the web-based IRC client](cmos-16-jan-henning-thorsen-and-marcus-ramberg)
+* [CMOS #17: Moyinoluwa Adeyemi creating Android Watch in Yorùbá](cmos-17-moyinoluwa-adeyemi)
+* [CMOS #18: Timi Ajiboye on Client Manager, Resque, Friendly ID and other Rails gems](cmos-18-timi-ajiboye)
+* [CMOS #19: Job van Achterberg - Inclusive design](cmos-19-job-van-achterberg)
 
