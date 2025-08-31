@@ -31,22 +31,21 @@ and on how to get started with it.
 
 <podcast>
 
-<div id="person">
 ## Joel Berger
+
 * [Joel Berger](http://blogs.perl.org/users/joel_berger/)
 * [PAUSE](https://metacpan.org/author/JBERGER)
 * [@joelaberger](https://twitter.com/joelaberger)
 * [GitHub](https://github.com/jberger)
-</div>
 
-<div id="links">
 ## Links
+
 * [Mojolicious](http://mojolicious.org/)
 * [mojolicio.us](http://mojolicio.us/)
 * [Joel's PDF Thesis](https://archive.org/details/ultrafast_electron_microscopes_berger_phd_thesis.pdf)
 * [Physics::UEMColumn, the basis of the thesis](https://metacpan.org/pod/Physics::UEMColumn)
 * [Modeling Physical Systems with Modern Object Oriented Perl - YAPC::NA 2012](https://www.youtube.com/watch?v=YnW1hTVQYfA)
-* [United States budget sequestration in 2013](https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013#Impact_on_research_funding) (sequester) 
+* [United States budget sequestration in 2013](https://en.wikipedia.org/wiki/United_States_budget_sequestration_in_2013#Impact_on_research_funding) (sequester)
 * [Chicago Perl Mongers](http://chicago.pm.org/)
 * [ServerCentral](https://www.servercentral.com/)
 * [Node.JS](https://nodejs.org/)
@@ -83,7 +82,9 @@ and on how to get started with it.
 * [Starman](https://metacpan.org/pod/Starman)
 * [Test::Mojo](https://metacpan.org/pod/Test::Mojo)
 * [Test::Mojo::Role::PSGI](https://metacpan.org/pod/Test::Mojo::Role::PSGI)
-</div>
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

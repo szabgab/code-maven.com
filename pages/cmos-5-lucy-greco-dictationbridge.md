@@ -31,16 +31,15 @@ We also talked a lot about accesibility in general and accessibility of web site
 
 <podcast>
 
-<div id="person">
 ## Lucy Greco
+
 * [Lucy Greco](http://accessaces.com/)
 * [Lucy at DictationBridge](http://dictationbridge.com/author/lucy/)
 * [@accessaces](https://twitter.com/accessaces)
 * [LinkedIN](https://www.linkedin.com/in/lucy-greco-968b491)
-</div>
 
-<div id="links">
 ## Links
+
 * [DictationBridge](http://dictationbridge.com/)
 * [Screen reader](https://en.wikipedia.org/wiki/Screen_reader)
 * [NVDA - NonVisual Desktop Access](http://www.nvaccess.org/)
@@ -51,8 +50,9 @@ We also talked a lot about accesibility in general and accessibility of web site
 * [Dragon Accessibility Solutions](http://www.nuance.com/dragon/accessibility-solutions/index.htm)
 * [DictationBridge on GitHub](https://github.com/dictationbridge)
 * [Berkeley Web Access site](https://webaccess.berkeley.edu/) maintained by Lucy
-</div>
 
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

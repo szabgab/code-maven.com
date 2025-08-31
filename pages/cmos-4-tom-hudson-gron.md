@@ -31,14 +31,12 @@ the command line tool that makes JSON greppable.
 
 <podcast>
 
-<div id="person">
 ## Tom Hudson
+
 * [Tom Hudson](https://tomnomnom.com/)
 * [@TomNomNom](https://twitter.com/TomNomNom)
 * [GitHub](https://github.com/tomnomnom)
-</div>
 
-<div id="links">
 ## Links
 
 * [PHP](http://php.net/)
@@ -56,7 +54,9 @@ the command line tool that makes JSON greppable.
 * The [errors package](https://github.com/pkg/errors) written by [Dave Cheney](https://github.com/davecheney).
 * The [jq](https://stedolan.github.io/jq/) tool for manipulating JSON.
 * Some <q>advanced</q> examples of [gronning and ungronning](https://github.com/tomnomnom/gron/blob/master/ADVANCED.mkd)
-</div>
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

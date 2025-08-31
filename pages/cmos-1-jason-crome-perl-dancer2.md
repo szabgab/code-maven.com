@@ -31,16 +31,15 @@ Interview with Jason A. Crome one of the core developers of the [Perl Dancer](ht
 <podcast>
 
 
-<div id="person">
 ## Jason A. Crome
+
 * [Jason A. Crome](https://www.crome-plated.com/)
 * [PAUSE](https://metacpan.org/author/CROMEDOME)
 * [@cromedome](https://twitter.com/cromedome)
 * [GitHub](https://github.com/cromedome)
-</div>
 
-<div id="links">
 ## Links
+
 * [All Around the World](http://www.allaroundtheworld.fr/)
 * [Massively Multiplayer Online Game (MMORPG)](https://en.wikipedia.org/wiki/Massively_multiplayer_online_role-playing_game)
 * [Booking.com](http://booking.com/)
@@ -48,7 +47,8 @@ Interview with Jason A. Crome one of the core developers of the [Perl Dancer](ht
 * [irc.perl.org](http://irc.perl.org)
 * [GitHub for Perl Dancer](https://github.com/PerlDancer/)
 * [Perl Dancer conference](https://www.perl.dance/)
-</div>
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

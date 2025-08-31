@@ -33,30 +33,27 @@ He also told how he got into web programming in Nigeria in the '90s.
 <podcast>
 
 
-<div id="person">
-  <h2>Obinwanne Hill</h2>
-  <ul>
-    <li>[Obinwanne Hill](http://www.obihill.com/)</li>
-    <li>[Twitter @ObiHill](https://twitter.com/ObiHill)</li>
-    <li>[GitHub](https://github.com/obihill)</li>
-  </ul>
-</div>
+## Obinwanne Hill
 
-<div id="links">
-  <h2>Links</h2>
-  <ul>
-    <li>[RestiveJS home page](http://www.restivejs.com/)</li>
-    <li>[RestiveJS on GitHub](https://github.com/obihill/restive.js)</li>
-    <li>[Restive.io the company](http://www.restive.io/)</li>
-    <li>[jQuery](https://jquery.com/)</li>
-    <li>[Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design)</li>
-    <li>[Media Query](https://en.wikipedia.org/wiki/Media_queries)</li>
-    <li>[Luke Wroblewski](http://www.lukew.com/about/)</li>
-    <li>[CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)</li>
-    <li>[Device lab of Luke Wroblewski](https://mobile.twitter.com/lukew/status/507880029737328640)</li>
-    <li>[SpeckyBoy](https://speckyboy.com/)</li>
-  </ul>
-</div>
+* [Obinwanne Hill](http://www.obihill.com/)
+* [Twitter @ObiHill](https://twitter.com/ObiHill)
+* [GitHub](https://github.com/obihill)
+
+## Links
+
+* [RestiveJS home page](http://www.restivejs.com/)
+* [RestiveJS on GitHub](https://github.com/obihill/restive.js)
+* [Restive.io the company](http://www.restive.io/)
+* [jQuery](https://jquery.com/)
+* [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design)
+* [Media Query](https://en.wikipedia.org/wiki/Media_queries)
+* [Luke Wroblewski](http://www.lukew.com/about/)
+* [CSS](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+* [Device lab of Luke Wroblewski](https://mobile.twitter.com/lukew/status/507880029737328640)
+* [SpeckyBoy](https://speckyboy.com/)
+
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

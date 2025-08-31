@@ -30,16 +30,15 @@ Interview with Sawyer X, the current Pumpkin of Perl 5 about the Perl 5 Porters 
 
 <podcast>
 
-<div id="person">
 ## Sawyer X
+
 * [Sawyer X blog](http://blogs.perl.org/users/sawyer_x/)
 * [PAUSE](https://metacpan.org/author/XSAWYERX)
 * [@PerlSawyer](https://twitter.com/PerlSawyer)
 * [GitHub](https://github.com/xsawyerx)
-</div>
 
-<div id="links">
 ## Links
+
 * [Booking.com](http://booking.com/)
 * [Amsterdam.pm](http://perl.nl/amsterdam/)
 * [AmsterdamX.pm](http://amsterdamx.pm.org/)
@@ -48,7 +47,8 @@ Interview with Sawyer X, the current Pumpkin of Perl 5 about the Perl 5 Porters 
 * [Twitter @perl5summaries](https://twitter.com/perl5summaries)
 * [Sawyer at blogs.perl.org](http://blogs.perl.org/users/sawyer_x/)
 * [rt.perl.org](http://rt.perl.org/)
-</div>
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]

@@ -32,17 +32,13 @@ Our main subject however is [GraphQL](http://graphql.org/) being the next big th
 
 <podcast>
 
-<div id="person">
-  <h2>Tally Barak</h2>
-  <ul>
-    <li>[GitHub](https://github.com/Tallyb)</li>
-    <li>[LinkedIN](https://www.linkedin.com/in/tallybarak)</li>
-    <li>[@tally_b](https://twitter.com/tally_b)</li>
-    <li>[Tally Barak](http://www.morffy.com)</li>
-  </ul>
-</div>
+## Tally Barak
 
-<div id="links">
+* [GitHub](https://github.com/Tallyb)
+* [LinkedIN](https://www.linkedin.com/in/tallybarak)
+* [@tally_b](https://twitter.com/tally_b)
+* [Tally Barak](http://www.morffy.com)
+
 ## Links
 
 * [GitHub](http://github.com/)
@@ -68,12 +64,13 @@ Our main subject however is [GraphQL](http://graphql.org/) being the next big th
 * [Postman](https://www.getpostman.com/) in the REST world. [Chrome extension](https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop?hl=en)
 * [Dream Factory](https://www.dreamfactory.com/)
 * [Lookback](https://lookback.io/)
-</div>
 
 <!--
 cuts: 3:21 14:46 18:45 
 -->
 
+
+## Transcript
 
 [transcript]
   [szabgab host1 Gabor Szabo]
