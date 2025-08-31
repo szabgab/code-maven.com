@@ -16,8 +16,3 @@ This is a placeholder for articles about C# and .NET.
 There are some slides about using [.NET with Python](/slides/python/dotnet).
 
 
-<!--
-
-  <li><a href=""></a></li>
--->
-

@@ -14,9 +14,8 @@ Live pair programming events
 
 
 <!--
-    <li><a href=""></a></li>
-    <li>[2021.05.03 - ](https://code-maven.com/)</li>
-    <li>[2021.05.19 - Mejorar una librería de Perl](https://es.code-maven.com/programacion-por-pares) con Juan J. Merelo (Spanish)</li>
+    * [2021.05.03 - ](https://code-maven.com/)
+    * [2021.05.19 - Mejorar una librería de Perl](https://es.code-maven.com/programacion-por-pares) con Juan J. Merelo (Spanish)
 
 
 Scheduled for <span id="localdate" x-schedule="2021-05-26T19:00:00+03:00"></span>
@@ -92,7 +91,7 @@ Use this link to include the the schedule in your calendar: [https://code-maven.
 * [2021.02.04 - Exploring BDD in Perl - using Test::BDD::Cucumber - part 1](https://perlmaven.com/exploring-bdd-in-perl-1)
 
 <!--
-    <li>[2021.04.18 - Creating a Perl binding to a C library using FFI](https://perlmaven.com/perl-binding-to-c-library-using-ffi) with Sawyer X</li>
+    * [2021.04.18 - Creating a Perl binding to a C library using FFI](https://perlmaven.com/perl-binding-to-c-library-using-ffi) with Sawyer X
 -->
 
 ## Follow us

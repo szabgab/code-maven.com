@@ -13,12 +13,10 @@ archive: true
 ---
 
 
-Given a directory tree such as in the following example, we would like to know 
+Given a directory tree such as in the following example, we would like to know
 
-<ol>
-  <li>How many files are in it?</li>
-  <li>How many files are in each one of the subdirectories?</li>
-</ol>
+1. How many files are in it?
+1. How many files are in each one of the subdirectories?
 
 ```
 groups/
@@ -37,7 +35,7 @@ All that using the Unix/Linux Shell.
 
 ## Number of items in the directory
 
-If we would like to know the number of files in the `groups` directory we can run 
+If we would like to know the number of files in the `groups` directory we can run
 `ls -1 groups` (that's the number one in the options), That will list
 all the items in the directory:
 
@@ -121,7 +119,7 @@ $ find groups -type f | wc -l
 ## Number of files in the directory
 
 Though this was not our original task, but if we would like to know the number of
-<b>files</b> in the directory (and not the whole tree) we can use `find`
+**files** in the directory (and not the whole tree) we can use `find`
 to restrict the item type to file as we already did, and we can also ask it to
 go only 1 level deep in the directory structure. Meaning not to traverse.
 

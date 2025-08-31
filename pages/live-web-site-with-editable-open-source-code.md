@@ -18,7 +18,7 @@ support person etc.
 
 I have already created a list of [Open Source Desktop applications](/open-source-desktop-applications),
 and there is also the beginning of the [Open Source Web application frameworks](/open-source-web-applications)
-and the <b>Ready-made downloadable and deployable Open Source web applications</b>
+and the **Ready-made downloadable and deployable Open Source web applications**
 so this time let's see the projects where you can have a direct impact on a live web site.
 
 
@@ -39,8 +39,7 @@ is generated might be.
 * [Reddit](https://www.reddit.com/) [source](https://github.com/reddit)
 * [Wikipedia](https://www.wikipedia.org/) - PHP - Runs on [MediaWiki](https://www.mediawiki.org/)
 * [Libre.fm](https://libre.fm/) for [developers](https://gnu.io/fm/)
-* [Read The Docs](https://readthedocs.org/) is the site where you can read the documentation of most of the Python packages you are going to use. It has a page for <a
-href="https://docs.readthedocs.io/page/contribute.html">contributors</a> where you can find the instructions how to get involved. It is using [Sphinx](https://www.sphinx-doc.org/), Python, JavaScript, HTML, CSS, and it is hosted on [Microsoft Azure](https://azure.microsoft.com/)
+* [Read The Docs](https://readthedocs.org/) is the site where you can read the documentation of most of the Python packages you are going to use. It has a page for [contributors](https://docs.readthedocs.io/page/contribute.html) where you can find the instructions how to get involved. It is using [Sphinx](https://www.sphinx-doc.org/), Python, JavaScript, HTML, CSS, and it is hosted on [Microsoft Azure](https://azure.microsoft.com/)
 * [MetaCPAN](https://metacpan.org/) is the central search engine of all the Perl modules, it is also the place where you read the documentation and get meta-data about the modules. It is written in Perl and uses
 ElasticSearch. It's source is on [GitHub](https://github.com/metacpan) See my [video](/how-to-contribute-to-metacpan).
 * [FreeCodeCamp](https://www.freecodecamp.org/) [GitHub](https://github.com/freeCodeCamp/)
@@ -56,7 +55,7 @@ are written in the respective languages.
 generator written in Ruby.
 
 
-<h3>My web sites</h3>
+## My web sites
 
 I know they are not as important for the world as they are to mee, but then again, I can provide more help in case you decide you'd
 like to contribute.
@@ -65,7 +64,4 @@ like to contribute.
 * The content of both sites is also on GitHub: [source of Code Maven](https://github.com/szabgab/code-maven.com/) and [source of Perl Maven](https://github.com/szabgab/perlmaven.com/). You can help fixing typos and other errors.
 * [PyDigger](https://pydigger.com/) with [source](https://github.com/szabgab/pydigger.com/)
 
-<!--
-    <li><a href=""></a> <a href=""></a></li>
--->
 

@@ -81,8 +81,4 @@ However, there exists various third party package managers for C++ with their pa
 
 * Docker [Docker HUB](https://hub.docker.com/)
 
-<!--
-    <li><a href=""></a></li>
--->
-
 

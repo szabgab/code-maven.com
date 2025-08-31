@@ -17,7 +17,7 @@ free of charge. Let's see a simple example using their API from a Perl script.
 
 ## Get API keys
 
-Though you don't have to pay for the service you need to get an <b>API key</b> to identify your requests. In order to get
+Though you don't have to pay for the service you need to get an **API key** to identify your requests. In order to get
 an API key you need to register on the [Open Weather Map](https://home.openweathermap.org/) web site and then
 you need to visit the [API keys](https://home.openweathermap.org/api_keys) section  of the site. There you can generate
 API keys.
@@ -34,12 +34,10 @@ curl "https://api.openweathermap.org/data/2.5/weather?q=Budapest&appid=a457e758e
 
 has several parts:
 
-<ol>
-  <li>The URL itself that leads to the correct end-point of the specific query type.
-  <li>`q=Budapest`, the parameter indicating the name of the city for which I am interested in the weather.</li>
-  <li>`appid=...` which is the API key generated manually on the web site. In order to use this you'll need to replace the one above with an API key of your own.</li>
-  <li>`units=metric` tells the API that instead of the default Kelvin you'd like to get the temperatures in Celsius.</li>
-</ol>
+1. The URL itself that leads to the correct end-point of the specific query type.
+1. `q=Budapest`, the parameter indicating the name of the city for which I am interested in the weather.
+1. `appid=...` which is the API key generated manually on the web site. In order to use this you'll need to replace the one above with an API key of your own.
+1. `units=metric` tells the API that instead of the default Kelvin you'd like to get the temperatures in Celsius.
 
 The above request returned the following JSON:
 

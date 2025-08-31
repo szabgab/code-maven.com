@@ -24,14 +24,12 @@ us if our guess was smaller or bigger than the hidden number. The game ends when
 This exercise is the first step of this game.
 
 
-<b>Create a simple command line game guessing a whole number.</b>
+## Create a simple command line game guessing a whole number.
 
-<ol>
-  <li>Let the computer "think" about a whole number between 1-200.</li>
-  <li>Let the user guess a number.</li>
-  <li>Tell the user if his guess was bigger or smaller than the number the computer "thought" of or tell them if they hit the right number.</li>
-  <li>At this point the user only has one guess, though as a bounus you can allow the user to guess several times.</li>
-</ol>
+1. Let the computer "think" about a whole number between 1-200.
+1. Let the user guess a number.
+1. Tell the user if his guess was bigger or smaller than the number the computer "thought" of or tell them if they hit the right number.
+1. At this point the user only has one guess, though as a bounus you can allow the user to guess several times.
 
 
 ## Solutions

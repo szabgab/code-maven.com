@@ -44,11 +44,7 @@ gives us access to those tools.
 ## Planned projects
 
 * PHP - [source](https://github.com/szabgab/php-digger)
-* [Rust](https://rust-digger.code-maven.com/) - <a href="">source</a>
+* [Rust](https://rust-digger.code-maven.com/)
 * JavaScript / NodeJS [source](https://github.com/szabgab/jsdigger)
 
-
-<!--
-    <li><a href=""></a> <a href="">source</a></li>
--->
 

@@ -25,10 +25,6 @@ Videos on contributing to Open Source projects.
 
 * All the Perl-related projects, videos, and blog posts are on the [Perl Maven web site](https://perlmaven.com/os)
 
-<!--
-    <li><a href=""></a></li>
--->
-
 ## How to find Open Source projects
 
 A few ideas on how to find projects to contribute to.

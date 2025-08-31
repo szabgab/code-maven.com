@@ -31,21 +31,21 @@ Before we get into how to gain that experience, let's see a few job descriptions
 In each one of the job descriptions I mention a bunch of non-technical skills that I think are important to these jobs.
 Some of these you can improve. Specifically the communication skills.
 
-If you work in an office then most likely you will need to have good <b>verbal communication skills in the local language</b>.
+If you work in an office then most likely you will need to have good **verbal communication skills in the local language**.
 e.g. in Israel in most of the offices people speak Hebrew in meetings though there are more international companies where the people speak English
 in the meetings and in many interpersonal communication.
 However even there almost all of the writing is done in English. So being able to express yourself in English is important.
 
-If you plan to work in a distributed company or as a remote worker then the <b>written communication</b> is a lot more important.
+If you plan to work in a distributed company or as a remote worker then the **written communication** is a lot more important.
 In international companies I know it is usually done in English, but I guess companies that have a local focus
 (e.g. the Spanish-speaking market, or the German-speaking market) will probably communicate in their own local language. (So Spanish and German respectively).
 
 There are plenty of traditional ways to practice a foreign language, but I'd like to point out something else. The best way to improve your
-written communication skills is to write lots of text. I would recommend you <b>create a web site or a blog</b> and start writing your technical progress.
+written communication skills is to write lots of text. I would recommend you **create a web site or a blog** and start writing your technical progress.
 So as you follow the tasks bellow you also write posts explaining what you did, what problems have you encountered, what solutions have you found.
 This is both a good exercise and it can also help you find a job. Some people at companies will like the fact that they can see your thought process.
 
-<h3>How to setup a website / blog?</h3>
+## How to setup a website / blog?
 
 Probably easiest way that needs the least technical skills is using one of the hosted services such as [Wordpress.com](https://wordpress.com/)
 or [Wix](https://www.wix.com/). In both of them you can start free of charge.
@@ -71,15 +71,10 @@ No matter which field you are interested in you'll have to be able to use Git an
 (In some places it is GitLab or BitBucket instead of GitHub but the concepts are very similar and we'll cover the other two later.)
 So we'll start with that.
 
-<ol>
-   <li>Before you can contribute to other projects, you'll have to learn [Git](/git). That page has plenty of links to follow. The slides have exercises as well.</li>
-   <li>Read [How to contribute to an Open Source project?](/how-to-contribute-to-an-open-source-project)</li>
-   <li>Go over the slides of: [Collaborative Development and Open Source Projects](https://code-maven.com/slides/collab-dev/) and do the exercies.</li>
-   <li>Better yet, read the book I wrote specifically for this: [Collaborative Development using Git and GitHub](https://leanpub.com/collab-dev-git/)</li>
-<!--
-   <li><a href=""></a></li>
--->
-</ol>
+1. Before you can contribute to other projects, you'll have to learn [Git](/git). That page has plenty of links to follow. The slides have exercises as well.
+1. Read [How to contribute to an Open Source project?](/how-to-contribute-to-an-open-source-project)
+1. Go over the slides of: [Collaborative Development and Open Source Projects](https://code-maven.com/slides/collab-dev/) and do the exercies.
+1. Better yet, read the book I wrote specifically for this: [Collaborative Development using Git and GitHub](https://leanpub.com/collab-dev-git/)
 
 
 As Python programmer you will have to know Python quite well.
@@ -91,12 +86,10 @@ There are tons of [DevOps Tools](/devops) you need to be familiar as a [DevOps E
 You don't need to be a grand master in either of those and when you are learning them you will also mix them. The following seems
 to be a good order to start learning the first few.
 
-<ol>
-   <li>Git / GitHub</li>
-   <li>Python</li>
-   <li>Linux + Bash (in VirtualBox or natively)</li>
-   <li>Docker</li>
-</ol>
+1. Git / GitHub
+1. Python
+1. Linux + Bash (in VirtualBox or natively)
+1. Docker
 
 But remember, after you learned the basics of Git, start learning the basics of Python and use Git to keep your the history of your
 Python exercises. This will make you practice Git while you Learn Python. Then at one point start learning Linux and switch your Python

@@ -23,12 +23,8 @@ at [Expedia](http://expedia.com/).
 
 ## Database:
 
-<ol>
-  <li>Airports: Each airport has a code, a city name, a country name, and a timezone represented as the offset from UTC.</li>
-  <li>Flights. Each flight has a flight code, a source airport, and a destination airport.
-   A departure time (at the timezone of the airport) a length of flight, a price in USD and a number of available seats.
-   This number will be 0 in some of the cases.</li>
-</ol>
+1. Airports: Each airport has a code, a city name, a country name, and a timezone represented as the offset from UTC.
+1. Flights. Each flight has a flight code, a source airport, and a destination airport.  A departure time (at the timezone of the airport) a length of flight, a price in USD and a number of available seats.  This number will be 0 in some of the cases.
 
 When the user visits the website she needs to select a "From" airport and a "To" airport.
 Once a "From" is selected the choices in the destination should be limited
@@ -43,11 +39,11 @@ If there is a flight but there are no more seats left, show "Sold out".
 
 ## Views
 
-<ol>
-  <li>Show many dates around the current date, but show only the prices and when the user clicks through,
-      only then show the details of the flight.</li>
-  <li>Show few dates but also show the details of the flight (departure time, arrival time)</li>
-</ol>
+
+1. Show many dates around the current date, but show only the prices and when the user clicks through,
+      only then show the details of the flight.
+1. Show few dates but also show the details of the flight (departure time, arrival time)
+
 
 ## Increase complexity:
 
@@ -60,12 +56,12 @@ If there is a flight but there are no more seats left, show "Sold out".
 
 ## Options:
 
-<ol>
-  <li>Show average ticket prices (interesting when not all the tickets are in the same bucket).</li>
-  <li>Show total ticket prices for all the passangers.</li>
-</ol>
 
-<pre>
+1. Show average ticket prices (interesting when not all the tickets are in the same bucket).
+1. Show total ticket prices for all the passangers.
+
+
+```
 From To Date   # Adults # Children (0-17)
 Round Trip / One Way / Multiple Destination
 (Each flight has a From, To, Date)
@@ -73,7 +69,7 @@ Round Trip / One Way / Multiple Destination
 Direct flights
 Flights with 1  or 2 (or more?) stops.
 Data from multiple Airlines
-</pre>
+```
 
 ## Sample Data
 

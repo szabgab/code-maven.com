@@ -19,7 +19,7 @@ archive: true
 The first exercise for building web applications.
 
 
-Write a "web application" that will display <b>Hello World</b>.
+Write a "web application" that will display **Hello World**.
 The first one should be a plain HTML file without any code behind it.
 
 
@@ -28,11 +28,9 @@ Before going on do the above and then see the [plain HTML solution](/hello-world
 Then pick your favorite back-end web development environment and write some code that will return the same HTML
 created earlier. Each soultion should have several versions:
 
-<ol>
-  <li>Just return the string "Hello World!".</li>
-  <li>Return the HTML 5 version of "Hello World!"</li>
-  <li>Write version in which there is a template with a placeholder for "text" and the code fills that placeholder with the string "Hello World!".</li>
-</ol>
+1. Just return the string "Hello World!".
+1. Return the HTML 5 version of "Hello World!"
+1. Write version in which there is a template with a placeholder for "text" and the code fills that placeholder with the string "Hello World!".
 
 
 ## Tools

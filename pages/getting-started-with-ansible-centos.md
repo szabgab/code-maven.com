@@ -32,15 +32,14 @@ If you have not done so yet, [Create an ssh keypair](/generate-and-deploy-ssh-pr
 
 Now, in order to create your first Droplet, visit the [list of droplets](https://cloud.digitalocean.com/droplets) and click on the "Create" button and select "Droplets".
 
-<ol>
-  <li>Select `CentOS 7.4 64 bit` as that's what we are checking out now. For size select the smallest. Even that is way to big for our needs.</li>
-  <li>For `datacenter` select whatever you like. I usually just select New York 1.</li>
-  <li>"Select additional options" can be left alone for now.</li>
-  <li>At "Add your SSH keys" you should see the SSH key you added earlier. Select the checkbox next to it.</li>
-  <li>Make sure you are asking for 1 Droplet.</li>
-  <li>The hostname can be anything now. Even the one they offer.</li>
-  <li>Click "Create".</li>
-</ol>
+
+1. Select `CentOS 7.4 64 bit` as that's what we are checking out now. For size select the smallest. Even that is way to big for our needs.
+1. For `datacenter` select whatever you like. I usually just select New York 1.
+1. "Select additional options" can be left alone for now.
+1. At "Add your SSH keys" you should see the SSH key you added earlier. Select the checkbox next to it.
+1. Make sure you are asking for 1 Droplet.
+1. The hostname can be anything now. Even the one they offer.
+1. Click "Create".
 
 After about 30 second your Droplet will be ready.
 
@@ -128,7 +127,7 @@ The next time you run the above command it should work without asking any furthe
 
 Ansible has plenty of modules, but it also allows you to execute arbitrary command on the remote machine:
 
-<b>Fetch the date of the remote machine</b>
+## Fetch the date of the remote machine
 
 ```
 $ ansible -i inventory.cfg all -u root -a date 
@@ -139,7 +138,7 @@ $ ansible -i inventory.cfg all -u root -a date
 Wed Mar  7 11:35:52 UTC 2018
 ```
 
-<b>Get the hostname of the remote host</b>:
+## Get the hostname of the remote host:
 
 ```
 ansible -i inventory.cfg all -u root -a hostname
@@ -150,7 +149,7 @@ ansible -i inventory.cfg all -u root -a hostname
 centos-s-1vcpu-1gb-nyc1-01
 ```
 
-<b>uptime</b>
+## uptime
 
 ```
 $  ansible -i inventory.cfg all -u root -a uptime
@@ -161,7 +160,7 @@ $  ansible -i inventory.cfg all -u root -a uptime
 11:40:38 up 41 min,  1 user,  load average: 0.05, 0.03, 0.05
 ```
 
-<b>free memory</b>
+## free memory
 
 ```
 $  ansible -i inventory.cfg all -u root -a free
@@ -174,7 +173,7 @@ Mem:        1016224       83256      780424       13048      152544      767372
 Swap:             0           0           0
 ```
 
-<b>free memory in megabytes</b>
+## free memory in megabytes
 
 ```
 $  ansible -i inventory.cfg all -u root -a "free -m"

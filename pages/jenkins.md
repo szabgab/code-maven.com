@@ -13,46 +13,41 @@ show_related: false
 
 [Jenkins](https://jenkins.io/) is an automation server. It allows for all kinds of automations. It is primarily used for Build automation, Continuous Integration, and Continuous Deployment.
 
-
 ## Installations
 
-<ol>
-    <li>[Install Jenkins on Ubuntu](/install-jenkins-on-ubuntu) (using Vagrant)</li>
-    <li>[Vagrant for Jenkins on Ubuntu](/vagrant-for-jenkins-on-ubuntu)</li>
-    <li>[Jenkins in Docker](/jenkins-in-docker)</li>
-</ol>
+1. [Install Jenkins on Ubuntu](/install-jenkins-on-ubuntu) (using Vagrant)
+1. [Vagrant for Jenkins on Ubuntu](/vagrant-for-jenkins-on-ubuntu)
+1. [Jenkins in Docker](/jenkins-in-docker)
 
 ## Examples
 
-<ol>
-    <li>[Jenkins Pipeline - Hello World](/jenkins-pipeline-hello-world) (pipeline, agent, stages, stage, stpes, echo)</li>
-    <li>[Jenkins Pipeline: running external programs with sh or bat](/jenkins-pipeline-running-external-programs), returnStdout, trim</li>
-    <li>[Jenkins Pipeline: Send e-mail notifications](/jenkins-send-email-notifications)</li>
-    <li>[Jenkins Pipeline: Add some text to the job using manager.addShortText](/jenkins-pipeline-short-text)</li>
-    <li>[Jenkins CLI: create node](/jenkins-cli-create-node)</li>
-    <li>[Jenkins Pipeline BuildUser plugin](/jenkins-pipeline-builduser)</li>
-    <li>[Jenkins Pipeline - set and use environment variables](/jenkins-pipeline-environment-variables)</li>
-    <li>[Jenkins Pipeline: git checkout using reference to speed up cloning large repositories](/jenkins-git-check-out-using-reference)</li>
-    <li>[Jenkins report the name of the stage that failed](/jenkins-report-failed-stage-name) (STAGE_NAME)</li>
-    <li>[Jenkins Pipeline: triggers from Version Control Systems](/jenkins-triggers) (pollSCM)</li>
-    <li>[How to set the job number and description for a Jenkinsfile in a Jenkins Pipeline?](/jenkins-pipeline-set-job-name-and-description) (currentBuild, displayName, description)</li>
-    <li>[Jenkins Pipeline: read a file, write a file - readFile, writeFile](/jenkins-readfile-writefile)</li>
-    <li>[Separate jobs for development and production](/jenkins-separate-jobs-for-development-and-production) currentBuild, projectName</li>
-    <li>[Jenkins pipeline: get current user](/jenkins-get-current-user) (currentBuild, getBuildCauses)</li>
-    <li>[Jenkins parameters](/jenkins-pipeline-parameters)</li>
-    <li>[Arbitrary code execution in the shell](/jenkins-arbitrary-code-execution) (sh, parameters)</li>
-    <li>[Jenkins pipeline: parallel stages](/jenkins-pipeline-parallel-stages)</li>
-    <li>[Jenkins Pipeline: Collect exit code from external commands](/jenkins-pipeline-collect-exit-code-from-external-commands) (sh, bat, returnStatus)</li>
-    <li>[Jenkins pipeline: Get previous build status - currentBuild, getPreviousBuild](/jenkins-pipeline-get-previous-build-status)</li>
-    <li>[Jenkins pipeline: interactive input during process](/jenkins-pipeline-interactive-input-during-process) (input)</li>
-    <li>[Jenkins pipeline: List agents by name or by label](/jenkins-pipeline-list-agents-by-name-or-by-label)</li>
-    <li>[Jenkins pipeline: add badges](/jenkins-pipeline-add-badges)</li>
-    <li>Report failures.</li>
-    <li>Send alerts</li>
-    <li>Collect test coverage data.</li>
-    <li>[Jenkins slides](/slides/jenkins/)</li>
-    <li>[Jenkins printing Unicode characters](/jenkins-pipeline-unicode)</li>
-</ol>
+1. [Jenkins Pipeline - Hello World](/jenkins-pipeline-hello-world) (pipeline, agent, stages, stage, stpes, echo)
+1. [Jenkins Pipeline: running external programs with sh or bat](/jenkins-pipeline-running-external-programs), returnStdout, trim
+1. [Jenkins Pipeline: Send e-mail notifications](/jenkins-send-email-notifications)
+1. [Jenkins Pipeline: Add some text to the job using manager.addShortText](/jenkins-pipeline-short-text)
+1. [Jenkins CLI: create node](/jenkins-cli-create-node)
+1. [Jenkins Pipeline BuildUser plugin](/jenkins-pipeline-builduser)
+1. [Jenkins Pipeline - set and use environment variables](/jenkins-pipeline-environment-variables)
+1. [Jenkins Pipeline: git checkout using reference to speed up cloning large repositories](/jenkins-git-check-out-using-reference)
+1. [Jenkins report the name of the stage that failed](/jenkins-report-failed-stage-name) (STAGE_NAME)
+1. [Jenkins Pipeline: triggers from Version Control Systems](/jenkins-triggers) (pollSCM)
+1. [How to set the job number and description for a Jenkinsfile in a Jenkins Pipeline?](/jenkins-pipeline-set-job-name-and-description) (currentBuild, displayName, description)
+1. [Jenkins Pipeline: read a file, write a file - readFile, writeFile](/jenkins-readfile-writefile)
+1. [Separate jobs for development and production](/jenkins-separate-jobs-for-development-and-production) currentBuild, projectName
+1. [Jenkins pipeline: get current user](/jenkins-get-current-user) (currentBuild, getBuildCauses)
+1. [Jenkins parameters](/jenkins-pipeline-parameters)
+1. [Arbitrary code execution in the shell](/jenkins-arbitrary-code-execution) (sh, parameters)
+1. [Jenkins pipeline: parallel stages](/jenkins-pipeline-parallel-stages)
+1. [Jenkins Pipeline: Collect exit code from external commands](/jenkins-pipeline-collect-exit-code-from-external-commands) (sh, bat, returnStatus)
+1. [Jenkins pipeline: Get previous build status - currentBuild, getPreviousBuild](/jenkins-pipeline-get-previous-build-status)
+1. [Jenkins pipeline: interactive input during process](/jenkins-pipeline-interactive-input-during-process) (input)
+1. [Jenkins pipeline: List agents by name or by label](/jenkins-pipeline-list-agents-by-name-or-by-label)
+1. [Jenkins pipeline: add badges](/jenkins-pipeline-add-badges)
+1. Report failures.
+1. Send alerts
+1. Collect test coverage data.
+1. [Jenkins slides](/slides/jenkins/)
+1. [Jenkins printing Unicode characters](/jenkins-pipeline-unicode)
 
 ## Run external code, capture output
 
@@ -225,9 +220,9 @@ httpRequest authentication: 'df8-b86d-3272', consoleLogResponseBody: true, httpM
 
 ## Scripts
 
-<strong>Scripts not permitted to use method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object
+**Scripts not permitted to use method groovy.lang.GroovyObject invokeMethod java.lang.String java.lang.Object
 (org.jenkinsci.plugins.workflow.cps.EnvActionImpl keys). Administrators can decide whether to approve or reject this
-signature.</strong>
+signature.**
 
 
 ## archiveArtifacts can be called multiple times

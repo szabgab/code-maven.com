@@ -18,10 +18,6 @@ How to contribute to Open Source projects?
 * [Visual Studio Code](/visual-studio-code) (Electron, TypeScript)
 
 <!--
-    <li><a href=""></a></li>
--->
-
-<!--
 ## Questions to answer
 
 * Web site of the project
@@ -30,9 +26,5 @@ How to contribute to Open Source projects?
 * Which programming languages are used?
 * Which major tachnologies are used?
 * Is there a document on how to contribute?
--->
-
-<!--
-    <li></li>
 -->
 

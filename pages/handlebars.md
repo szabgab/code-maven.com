@@ -15,10 +15,8 @@ archive: true
 and on the server side in applications written in [Node.js](/node).
 
 
-<ol>
-  <li>[Getting Started with Handlebars](/introduction-to-handlebars-javascript-templating-system)</li>
-  <li>[Handlebars with (slightly) complex data](/handlebars-with-slightly-complex-data)</li>
-  <li>[Handlebars helpers](/handlebars-helpers)</li>
-  <li>[Handlebars conditional](/handlebars-conditionals)</li>
-  <li>[Handlebars with dynamically loaded and cached template](/handlebars-with-dynamically-loaded-template)</li>
-</ol>
+1. [Getting Started with Handlebars](/introduction-to-handlebars-javascript-templating-system)
+1. [Handlebars with (slightly) complex data](/handlebars-with-slightly-complex-data)
+1. [Handlebars helpers](/handlebars-helpers)
+1. [Handlebars conditional](/handlebars-conditionals)
+1. [Handlebars with dynamically loaded and cached template](/handlebars-with-dynamically-loaded-template)

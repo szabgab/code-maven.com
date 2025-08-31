@@ -33,15 +33,15 @@ There are many distributions; [DistroWatch](https://distrowatch.com/) has a list
 ## Our steps
 
 <ol>
-    <li>Download the ISO image of [Ubuntu Server](https://www.ubuntu.com/)</li>
-    <li>Download, install, and configure [VirtualBox](https://www.virtualbox.org/)</li>
+1. Download the ISO image of [Ubuntu Server](https://www.ubuntu.com/)
+1. Download, install, and configure [VirtualBox](https://www.virtualbox.org/)
 </ol>
 
 ## Download Ubuntu Server ISO image
 
 Visit [Ubuntu Server](https://www.ubuntu.com/) and specifically the
 [Ubuntu server download](https://www.ubuntu.com/download/server) page.
-Select the most recent one. At the time of this writing it is <b>Ubuntu Server 17.10.1</b>
+Select the most recent one. At the time of this writing it is **Ubuntu Server 17.10.1**
 because it was released in 2017 October. (The 1 is just a sub-release number, not the date.)
 
 An ISO image is a single file that looks like a CD-rom from the inside. They can be burned on physical CDs
@@ -54,7 +54,7 @@ We'll use the downloaded file in a minute. While we are waiting for it to downlo
 [VirtualBox](https://www.virtualbox.org/) is an application that can run on MS Windows, Mac OSX, or Linux
 to create Virtual computers. From the inside a virtual computer looks like any other computer.
 It will have some memory, CPUs, disk(s), a CD player, a video card with some memory, and one or more network cards. Whatever you decide.
-The Operating System installed in it, which we'll refer to as the <b>guest</b>, won't really know it is not running on real hardware.
+The Operating System installed in it, which we'll refer to as the **guest**, won't really know it is not running on real hardware.
 
 From the point of view of your operating system, the one that you already have on your computer (Most likely some version of MS Windowsor Mac OSX) it is just a directory with a few files in it.
 
@@ -72,11 +72,11 @@ It will download an `exe` file on Windows or `dmg` file on OSX. Once the downloa
 
 A small warning: the different versions of VirtualBox have slightly different UIs. Mac OSX and MS Windows versions also differ from each other. The screenshots you see here are from Mac OSX. Most of the screenshots were taken by [Yonit Gruber-Hazani](https://www.linkedin.com/in/yonitgruber/) for our [DevOps Workshops](http://devops-workshops.code-maven.com/). In your version they might look slightly different.
 
-<b>Open VirtualBox - Press the "new" button on the left</b>
+## Open VirtualBox - Press the "new" button on the left
 
 ![](/img/vb1/virtualbox_1.png)
 
-<b>Type in any name</b>
+## Type in any name
 
 If the name starts with "ubu" it will setup the type to Linux and the version to Ubuntu 64-bit automatically.
 If you go with a totally different name (e.g. foobar), then you can select the `Type` and `Version` yourself.
@@ -85,7 +85,7 @@ Click on Continue.
 
 ![](/img/vb1/virtualbox_2.png)
 
-<b>Continue the setup with the values VirtualBox is suggesting for you.</b>
+## Continue the setup with the values VirtualBox is suggesting for you.
 
 You should not worry about the exact values. Most of these can be changed later on and it is for your experimentation anyway.
 So in the worst case you go over the installation again and learn it even better.
@@ -105,17 +105,17 @@ In this screenshot you see 3 boxes:
 
 ![](/img/vb1/virtualbox_3_2.png)
 
-<b>Insert the CD in the virutal CD driver of VirtualBox</b>
+## Insert the CD in the virutal CD driver of VirtualBox
 
 You can now check the `Settings` of your box where you can change most of the parameters. (Don't do that just yet :).
 
 If this was real hardware you'd have a physical CD-rom and you'd want to instert it in the CD drive to boot from it. As our machine is virtual, and as we only have an ISO image (has the download finished by now?) we do this in software. We make a small change in the configuration of our VirtualBox image to simulate a CD in the drive.
 
 <ol>
-    <li>Right-click on the icon of your new server and select "Settings".</li>
-    <li>Select the "Storage" section.</li>
-    <li>Click on the "empty" CD icon and select the Ubuntu .iso file you have downloaded before.</li>
-    <li>Save this setup.</li>
+1. Right-click on the icon of your new server and select "Settings".
+1. Select the "Storage" section.
+1. Click on the "empty" CD icon and select the Ubuntu .iso file you have downloaded before.
+1. Save this setup.
 
 ![](/img/vb1/virtualbox_4.png)
 
@@ -129,47 +129,43 @@ As with real hardware it will look for a storage device that can be booted. The 
 As we "inserted" our CD in the drive the machine will find it and start to boot from it. The following will step you
 through the installation process.
 
-<ol>
-    <li>Start the installation of Ubuntu - Select the defaults.</li>
-    <li>Your preferred language: English.</li>
-    <li>"Install Ubuntu Server".</li>
-    <li>Select a language - English.</li>
-    <li>Your location: "United States".</li>
-    <li>Detect keyboard?  No.</li>
-    <li>Configure the keyboards: English (US)</li>
-    <li>Keyboard layout: English (US)</li>
-</ol>
+1. Start the installation of Ubuntu - Select the defaults.
+1. Your preferred language: English.
+1. "Install Ubuntu Server".
+1. Select a language - English.
+1. Your location: "United States".
+1. Detect keyboard?  No.
+1. Configure the keyboards: English (US)
+1. Keyboard layout: English (US)
 
 When you get to the hostname section choose whatever you like. "ubuntu" is fine for this installation.
 
 ![](/img/vb1/linux_install_1.png)
 
 
-<ol>
-    <li>Type in your full name.</li>
-    <li>Select a username for yourself.</li>
-    <li>Type in a good password. (twice)</li>
-    <li>Home directory encryption: No</li>
-    <li>Timezone (it decided Asia/Jerusalem for me): Yes</li>
-    <li>Partition disks: select "Guided - use entire disk"  (no LVM)</li>
-    <li>SCSI3 ...</li>
-    <li>Write the changes to disks?  YES!!!!</li>
-    <li>...</li>
-    <li>Configure the package manager proxy (leave it empty)</li>
-    <li>...</li>
-    <li>Upgrades of the system: "No automatic updates"</li>
-    <li>Software selection: don't select anything now.</li>
-    <li>...</li>
-    <li>Install the GRUB boot loader on a hard disk - YES</li>
-    <li>...</li>
-</ol>
+1. Type in your full name.
+1. Select a username for yourself.
+1. Type in a good password. (twice)
+1. Home directory encryption: No
+1. Timezone (it decided Asia/Jerusalem for me): Yes
+1. Partition disks: select "Guided - use entire disk"  (no LVM)
+1. SCSI3 ...
+1. Write the changes to disks?  YES!!!!
+1. ...
+1. Configure the package manager proxy (leave it empty)
+1. ...
+1. Upgrades of the system: "No automatic updates"
+1. Software selection: don't select anything now.
+1. ...
+1. Install the GRUB boot loader on a hard disk - YES
+1. ...
 
 When the installation is complete, it will unmount the Ubuntu image we setup at the beginning.
 Continue to reboot:
 
 ![](/img/vb1/linux_install_2.png)
 
-<b>Linux console login screen</b>
+## Linux console login screen
 
 When you are done installing after the reboot the host screen should look like this:
 
@@ -181,7 +177,7 @@ That's it. You have a working Ubuntu Linux server in a VirtualBox image running 
 
 In the next article we'll continue with some experimentation, but if you are familiar with Linux you can already start using it.
 
-One thing I'd mention here is how to <b>turn off the machine</b>.
+One thing I'd mention here is how to **turn off the machine**.
 
 Type in (without the '$' that just represents the prompt in our example:
 

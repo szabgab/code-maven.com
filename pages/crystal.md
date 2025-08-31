@@ -32,7 +32,8 @@ show_related: true
 * [Swap Nibbles Crystal](/crystal-swap-nibbles)
 * [Sequence without 1-on-1 in Crystal](/crystal-sequence-without-1-on-1)
 
-<!--
-    <li>[Crystal part 2 - ](/crystal-2)</li>
--->
+
+## Continue
+
+* [Crystal part 2](/crystal-2)
 

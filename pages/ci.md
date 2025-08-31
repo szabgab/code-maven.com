@@ -51,7 +51,4 @@ Since writing these post Travis has stopped supporting Open Source projects free
 * [Travis-CI: Why use Continuous Integration?](/travis-ci-why-use-continuous-integration)
 * [Enable Travis-CI for Continuous Integration](/enable-travis-ci-for-continous-integration)
 
-<!--
-    <li><a href=""></a></li>
--->
 

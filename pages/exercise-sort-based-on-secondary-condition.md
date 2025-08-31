@@ -22,6 +22,7 @@ So first come the short strings, but within each length we have abc order.
 {% include file="examples/data/words_to_sort.txt" %}
 
 ## Solutions
+
 * [Perl 5: How to sort based on secondary condition in Perl](https://perlmaven.com/beginner-perl-maven-sort)
-<!--  <li><a href="">Ruby: How to sort in Ruby based on secondary condition?</li></li> -->
+* TODO: Ruby: How to sort in Ruby based on secondary condition?
 

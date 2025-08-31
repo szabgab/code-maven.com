@@ -28,41 +28,38 @@ If you'd like to try it, just use this example:
 
 ## Apple Mac OSX
 
-<h3>Open JavaScript Console of Chrome on Apple Mac OSX</h3>
+* Open JavaScript Console of Chrome on Apple Mac OSX
 
 Command-Option-J
 
-<h3>Open JavaScript Console of Firefox on Apple Mac OSX</h3>
+* Open JavaScript Console of Firefox on Apple Mac OSX
 
 Command-Option-K
 
-<h3>Open JavaScript Console of Opera on Apple Mac OSX</h3>
+* Open JavaScript Console of Opera on Apple Mac OSX
 
 Command-Option-I   and the click on "Console"
 
-<h3>Safari on Apple Mac OSX</h3>
+* Safari on Apple Mac OSX
 
-<ol>
-  <li>First enabled the developer tools</li>
-  <li>Safari Preference (or press Command ,)</li>
-  <li>Click on "Advanced" setting</li>
-  <li>Check the box of "Show Develop menu in menu bar"</li>
-  <li>As explained [here](https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html)
-      Then <b>Command-Option-C</b> will open the console.</li>
-</ol>
+1. First enabled the developer tools
+1. Safari Preference (or press Command ,)
+1. Click on "Advanced" setting
+1. Check the box of "Show Develop menu in menu bar"
+1. As explained [here](https://developer.apple.com/library/mac/documentation/AppleApplications/Conceptual/Safari_Developer_Guide/GettingStarted/GettingStarted.html) Then **Command-Option-C** will open the console.
 
 
 ## MS Windows
 
-<h3>Open JavaScript Console of Chrome on MS Windows</h3>
+* Open JavaScript Console of Chrome on MS Windows
 
 Ctrl-Shift-J
 
-<h3>Open JavaScript Console of Firefox on MS Windows</h3>
+* Open JavaScript Console of Firefox on MS Windows
 
 Ctrl-Shift-K
 
-<h3>Open JavaScript Console of Internet Explorer</h3>
+* Open JavaScript Console of Internet Explorer
 
 F12 then click on the "Console" tab.
 

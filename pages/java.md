@@ -21,7 +21,3 @@ A few articles about Java:
 * [Calling Java from Python](/calling-java-from-python)
 * [Java programming slides](/slides/java-programming/)
 
-<!--
-  <li><a href=""></a></li>
--->
-

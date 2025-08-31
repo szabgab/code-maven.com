@@ -29,19 +29,17 @@ to run JavaScript on the server is [Node.js](http://nodejs.org/), but there are 
 
 We can distinguish 3 major parts of what we usually refer to as "JavaScript".
 
-<ol>
-  <li>The language itself. This is fairly standard among the various environments, both in the various browsers and in
-the various server-side environments.</li>
-  <li>The DOM API - how the language can interact with the various parts of a web page while in the browser. While in this respect the various browsers are getting closer
-    to each other they still differ. Several libraries, most prominently JQuery, is trying to provide a unified API.</li>
-  <li>The server API (or just API) provided by Node.js or one of the other server-side systems.</li>
-</ol>
+1. The language itself. This is fairly standard among the various environments, both in the various browsers and in
+the various server-side environments.
+1. The DOM API - how the language can interact with the various parts of a web page while in the browser. While in this respect the various browsers are getting closer
+    to each other they still differ. Several libraries, most prominently JQuery, is trying to provide a unified API.
+1. The server API (or just API) provided by Node.js or one of the other server-side systems.
 
 In this series of articles we'll see all 3 major components.
 
 Let's start with a few simple examples we can run in a browser.
 It is probably the easiest to get started this way, as these examples only require you to have
-a browser (and if you are reading this, then you probably have one), and a text editor. 
+a browser (and if you are reading this, then you probably have one), and a text editor.
 
 ## Editor or IDE
 
@@ -68,7 +66,7 @@ JavaScript can display text for the user (output). The most simple one is by usi
 
 ## alert
 
-This will show a pop-up in the browser with the text. (You can click on <b>Try!</b> that will open the specific script in a separate window.)
+This will show a pop-up in the browser with the text. (You can click on **Try!** that will open the specific script in a separate window.)
 The `alert()` function is actually rarely used, but it is an easy way to show the use of JavaScript.
 
 {% include file="examples/js/alert.html" %}
@@ -76,7 +74,7 @@ The `alert()` function is actually rarely used, but it is an easy way to show th
 [view](examples/js/alert.html)
 
 If you'd like to try it yourself, open your editor and create a file with .html extension (for example hello.html) and put the above code in
-the file. Then switch to your browser and open the file with the browser. (Most browsers will let you do that using the <b>File/Open File</b>
+the file. Then switch to your browser and open the file with the browser. (Most browsers will let you do that using the **File/Open File**
 menu option.)
 
 ## document.write

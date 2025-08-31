@@ -25,15 +25,8 @@ more slides as we make progress.
 
 During each session I'll give a presentation and then you'll have time to practice. I'll be around helping you and learning from you!
 
-Scheduled for <span id="localdate" x-schedule="2021-07-12T18:00:00+03:00"></span>
-
-<a class="btn btn-lg btn-success" href="https://us02web.zoom.us/meeting/register/tZcldemqpzguGtFWsJ-Y9XQ6J379314PMFOf">Register here</a>.
-
-<!--
-
 ## Learning Crystal
 
 
-    <li>[Crystal part 2 - ](/crystal-2)</li>
--->
+* [Crystal part 2 - ](/crystal-2)
 

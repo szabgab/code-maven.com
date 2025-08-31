@@ -32,7 +32,7 @@ That's it.
 
 ## The Game
 
-I call the game <b>The Spaceship operator</b> partially as a wink to the similarly named operators in some of the programming languages.
+I call the game **The Spaceship operator** partially as a wink to the similarly named operators in some of the programming languages.
 But never mind.
 
 The game is very simple, you might imaging something I could build on that device, but in this series we are going to extend it in all
@@ -50,25 +50,22 @@ Then you can guess again.
 
 What is the best strategy? Is there a strategy that can always win?
 
-<div class="spoiler" text="Click for Explanation">
-<p>
+
 The naive way to find the other space-ship is to shoot one-by-one from 1 to 200. In worst case, if the computer thought 200,
 it will require 200 shots.  If you play a lot, on average you'll hit the target in 100 shots.
-</p>
 
-<p>
+
+
 There is a much better strategy though.
 You can shoot in the middle of the range. If the shot was short we know that the spaceship in the second half of the space. If
 the shot was too long, we know the spaceship is in the first half of the space. In either case, in one shot we halved the space we need
 to check. We can then repeat this on the half where the spaceship can be found until the (search-)space is reduced to only one spot and
 then we hit the space-ship. In worst case, if we don't get lucky in one of our shots, we can reduce the space to 1 place in just 8 steps:
-The size of the space after each shot: 200 -> 100 -> 50 -> 25 -> 12 -> 6 -> 3 -> 1 
-</p>
-<p>
-This strategy is called <b>binary-search</b> and it can be very important in computer programming, but outside of it as well.
+The size of the space after each shot: 200 -> 100 -> 50 -> 25 -> 12 -> 6 -> 3 -> 1
+
+
+This strategy is called **binary-search** and it can be very important in computer programming, but outside of it as well.
 For example, if you need to shoot down space-ships.
-</p>
-</div>
 
 
 ## Outline
@@ -76,11 +73,9 @@ For example, if you need to shoot down space-ships.
 I don't have the full outline of the series. I'll make it up as we go.
 But I know some of the steps:
 
-<ol>
-  <li>[Basics of HTML to show a page](/html-basics)</li>
-  <li>Basics of JavaScript to play the game</li>
-  <li>HTML5/CSS3 to make the game more persistent</li>
-  <li>Some backend-language to store the data on a server</li>
-</ol>
+1. [Basics of HTML to show a page](/html-basics)
+1. Basics of JavaScript to play the game
+1. HTML5/CSS3 to make the game more persistent
+1. Some backend-language to store the data on a server
 
 
