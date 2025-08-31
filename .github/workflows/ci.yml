@@ -19,27 +19,6 @@ concurrency:
 
 
 jobs:
-  perl-job:
-    runs-on: ubuntu-latest
-    strategy:
-      fail-fast: false
-      matrix:
-        perl-version:
-          - '5.32'
-    container:
-      image: perl:${{ matrix.perl-version }}
-    name: Perl ${{ matrix.perl-version }}
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/checkout@v4
-        with:
-           repository: 'szabgab/Perl-Maven'
-           path: 'Perl-Maven'
-      - name: Perl version
-        run: |
-            perl -v
-
   # Build job
   build:
     runs-on: ubuntu-latest
