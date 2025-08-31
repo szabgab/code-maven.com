@@ -19,15 +19,13 @@ archive: true
 Before you work on project you might want to start with the more simple [exercises](/exercises).
 
 
-<ol>
-  <li>[Personal Bookmarks](/personal-bookmarks)</li>
-  <li>[URL Shortener](/url-shortener)</li>
-  <li>[TODO list](/todo)</li>
-  <li>[Shopping list](/shopping-list)</li>
-  <li>[Repeated shopping list](/repeated-shopping-list)</li>
-  <li>[Flight ticket vendor](/flight-ticket-vendor)</li>
-  <li>[Microblog](/microblog)</li>
-  <li>[SSG - Static Site Generator](/static-site-generator)</li>
-  <li>[Job search manager](/job-search-manager)</li>
-</ol>
+1. [Personal Bookmarks](/personal-bookmarks)
+1. [URL Shortener](/url-shortener)
+1. [TODO list](/todo)
+1. [Shopping list](/shopping-list)
+1. [Repeated shopping list](/repeated-shopping-list)
+1. [Flight ticket vendor](/flight-ticket-vendor)
+1. [Microblog](/microblog)
+1. [SSG - Static Site Generator](/static-site-generator)
+1. [Job search manager](/job-search-manager)
 
