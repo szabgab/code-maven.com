@@ -25,6 +25,7 @@ On this page you'll find a collection of web sites that provide public APIs with
 enabled. You can access them to fetch data via Ajax requests.
 
 
+```
 <script src="/javascripts/angular.min.js"></script>
 
 <script>
@@ -71,8 +72,10 @@ angular.module('CORSApp', [])
     Result: {{ data }}
     <div ng-show="error" id="error">Failed</div>
 </div>
+```
 
 The Flickr an example is
+
 https://api.flickr.com/services/rest/?&method=flickr.people.getPublicPhotos&format=json&api_key=API_KEY&user_id=USER_ID
 You can get an API Key from the [App Garden](https://www.flickr.com/services/), and you can find the user_id
 based on a username via the [Flickr username finder](https://www.flickr.com/services/api/explore/flickr.people.findByUsername).

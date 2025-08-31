@@ -3,8 +3,6 @@ title: "Getting started with AngularJS"
 timestamp: 2015-07-20T23:30:01
 tags:
   - ng-app
-  - {{
-  - }}
 published: true
 books:
   - javascript
@@ -53,7 +51,13 @@ a `div` as it has been done in our first example.
 ## 3) Add an AngularJS expression.
 
 AngularJS has various elements. An <b>expression</b> is a code snipped wrapped
-in `{{ }}`. It can contain a limited set of JavaScript expressions.
+in the followin:
+
+```
+{{ }}
+```
+
+It can contain a limited set of JavaScript expressions.
 
 That brings us to our first example. Even before writing a Hello
 

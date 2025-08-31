@@ -288,7 +288,9 @@ If you receive the error 'node\r: No such file or directory', the issue is that 
 
 Get npm bin folder path with:
 
-```npm config get prefix```
+```
+npm config get prefix
+```
 
 Cd into that folder
 

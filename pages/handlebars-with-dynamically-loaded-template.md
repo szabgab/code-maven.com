@@ -36,7 +36,7 @@ Finally we load `handlebars_dynamic_loader.js` that holds our JavaScript code.
 The `body` of the HTML page contains a `button` and an empty `div`,
 waiting for us to fill.
 
-{% include file="/examples/js/handlebars_dynamic_load.html" %}
+{% include file="examples/js/handlebars_dynamic_load.html" %}
 
 [view](/examples/js/handlebars_dynamic_load.html)
 
@@ -46,13 +46,13 @@ The template we use in this examples is the most simple template there can
 be. In this article we are only interested how we can dynamically load the
 templates from the server.
 
-{% include file="/examples/js/handlebars_template_show.htm" %}
+{% include file="examples/js/handlebars_template_show.htm" %}
 
 ## The JavaScript code gluing it all together
 
 This is the main part of the example.
 
-{% include file="/examples/js/handlebars_dynamic_loader.js" %}
+{% include file="examples/js/handlebars_dynamic_loader.js" %}
 
 We have a global object called `templates` that will hold the compiled templates.
 Each template has a name. The name will be the key in the object, and the value will be the
@@ -106,7 +106,7 @@ I'll have several jQuery callbacks that will trigger the use of templates. Each 
 will need to load the template from server. So better hide all that in a single function,
 the `display_template` function:
 
-{% include file="/examples/js/handlebars_dynamic_loader_improved.js" %}
+{% include file="examples/js/handlebars_dynamic_loader_improved.js" %}
 
 In this solution, the code fetching the raw template from the server was
 moved inside the `display_template` function. It is called if the

@@ -14,8 +14,8 @@ mp3:
   file: /media/cmos-3-joel-berger-mojolicious.mp3
   size: 23645783
   time: 26:37
-img: /img/cmos/joel_berger.jpg
-alt: Joel Berger
+#img: /img/cmos/joel_berger.jpg
+#alt: Joel Berger
 published: true
 author: szabgab
 archive: true

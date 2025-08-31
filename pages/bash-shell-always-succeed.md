@@ -2,9 +2,6 @@
 title: "Bash shell always succeed with ||: suffix"
 timestamp: 2021-02-23T09:30:01
 tags:
-  - ||
-  - :
-  - ||:
 published: true
 books:
   - shell

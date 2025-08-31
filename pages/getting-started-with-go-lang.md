@@ -1,6 +1,6 @@
 ---
 title: "Getting Started with Go-Lang"
-timestamp: 2017-01-01T07:30:01
+timestamp: 2017-01-01T07:30:04
 tags:
   - files
 published: false

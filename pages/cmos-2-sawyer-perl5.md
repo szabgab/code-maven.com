@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-2-sawyer-perl5.mp3
   size: 13049856
   time: 24:35
-img: /img/cmos/sawyer-lowres.jpg
-alt: Sawyer
+#img: /img/cmos/sawyer-lowres.jpg
+#alt: Sawyer
 published: true
 author: szabgab
 archive: true

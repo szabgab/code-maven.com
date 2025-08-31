@@ -57,7 +57,7 @@ jobs:
 
       - name: Generate pages
         run: |
-          ./code-maven web --pages pages --config config.yaml
+          ./code-maven web
 
       - name: Checkout slides repository to get the mdbook.pl
         uses: actions/checkout@v5

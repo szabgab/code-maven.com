@@ -326,6 +326,7 @@ foo ALL = (root:root) NOPASSWD: ALL
 
 I tried this, using 'ansible' instead of 'foo', but Ansible would still says it required a password. I had also made the 'ansible' user usable by *my* username without password, by using:
 
+```
 - name: Get the username running the deploy
 local_action: command whoami
 register: username
@@ -338,6 +339,7 @@ state: present
 regexp: "^{{ username.stdout }}"
 line: "{{ username.stdout }} ALL=(ansible) NOPASSWD: ALL"
 validate: 'visudo -cf %s'
+```
 
 Works on the command line, not in Ansible...
 

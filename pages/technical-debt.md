@@ -1,6 +1,6 @@
 ---
 title: "Techincal Debt"
-timestamp: 2017-01-01T07:30:01
+timestamp: 2017-01-01T07:30:06
 tags:
   - files
 published: false

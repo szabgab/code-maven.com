@@ -110,7 +110,19 @@ It might have been just something blocking my mind, I am not sure. Can you spot 
 [view](examples/js/handlebars_helpers_if_eq_typo.html)
 
 This happened when I started to convert my `if` conditional to an `if_eq` conditional, but I only changed the opening
-expression from `{{#if ...}}` to `{{#if_eq ...}}` but not the closing expression that was left as `{{/if}}`.
+expression from
+```
+{{#if ...}}
+```
+to
+```
+{{#if_eq ...}}
+```
+but not the closing expression that was left as
+```
+{{/if}}
+```
+.
 Hence the error telling us that `if_eq` does not match `if`. Maybe if the error message had the keywords stand out,
 it would have been easier.
 
@@ -133,7 +145,11 @@ and like this:
 ```
 
 In the sample I've created two templates. In the first template I used there are 3 such conditionals.
-In the second template there is a single conditional: `{{#iff 4 '*' 5}}` that I included just to
+In the second template there is a single conditional:
+```
+{{#iff 4 '*' 5}}
+```
+that I included just to
 show what will happen if we supply an operator that is not supported by the `iff` helper. I also added two buttons,
 one to process and show the first template and one to process and show the second template.
 

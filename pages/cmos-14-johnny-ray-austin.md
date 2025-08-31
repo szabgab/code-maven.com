@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-14-johnny-ray-austin.mp3
   size: 20580712
   time: 20:49
-img: /img/cmos/johnn-ray-austin.jpg
-alt: Johnny Ray Austin
+#img: /img/cmos/johnn-ray-austin.jpg
+#alt: Johnny Ray Austin
 published: true
 author: szabgab
 archive: true

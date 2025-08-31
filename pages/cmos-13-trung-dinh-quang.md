@@ -16,8 +16,8 @@ mp3:
   file: /media/cmos-13-trung-dinh-quang.mp3
   size: 15891910
   time: 17:26
-img: /img/cmos/trung-dinh-quang.jpg
-alt: Trung Đinh Quang
+#img: /img/cmos/trung-dinh-quang.jpg
+#alt: Trung Đinh Quang
 published: true
 author: szabgab
 archive: true

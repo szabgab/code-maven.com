@@ -1,6 +1,6 @@
 ---
 title: "VirtualBox host-only network - ssh to remote machine"
-timestamp: 2018-01-01T07:30:01
+timestamp: 2018-01-01T07:30:05
 tags:
   - Linux
   - ssh

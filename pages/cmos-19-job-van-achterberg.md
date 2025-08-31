@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-19-job-van-achterberg.mp3
   size: 28149915
   time: 28:21
-img: /img/cmos/job-van-achterberg.png
-alt: Job van Achterberg
+#img: /img/cmos/job-van-achterberg.png
+#alt: Job van Achterberg
 published: true
 author: szabgab
 archive: true

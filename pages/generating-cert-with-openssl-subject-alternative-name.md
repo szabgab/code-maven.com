@@ -1,6 +1,6 @@
 ---
 title: "Generating a self-signed cert with openssl for multiple hostnames with Subject Alternative Name"
-timestamp: 2017-01-01T07:30:01
+timestamp: 2017-01-01T07:30:03
 tags:
   - openssl
 published: false

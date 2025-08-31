@@ -43,7 +43,7 @@ The script, at the bottom calls this only once and assigns the output to a varia
 
 ```
 buildah from docker.io/perl:5.30
-</cide>
+```
 
 ## List containers
 

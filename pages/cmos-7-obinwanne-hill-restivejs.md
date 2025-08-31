@@ -13,8 +13,8 @@ mp3:
   file: /media/cmos-7-obinwanne-hill-restivejs.mp3
   size: 24752906
   time: 24:28
-img: /img/cmos/obinwanne_hill.png
-alt: Obinwanne Hill
+#img: /img/cmos/obinwanne_hill.png
+#alt: Obinwanne Hill
 published: true
 author: szabgab
 archive: true

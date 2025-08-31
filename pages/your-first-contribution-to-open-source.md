@@ -1,6 +1,6 @@
 ---
 title: "Workshop: Your first Open Source Contribution"
-timestamp: 2017-01-01T07:30:01
+timestamp: 2017-01-01T07:30:07
 tags:
   - files
 published: false

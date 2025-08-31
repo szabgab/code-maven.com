@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-4-tom-hudson-gron.mp3
   size: 17224989
   time: 19:24
-img: /img/cmos/tom_hudson.png
-alt: Tom Hudson
+#img: /img/cmos/tom_hudson.png
+#alt: Tom Hudson
 published: true
 author: szabgab
 archive: true

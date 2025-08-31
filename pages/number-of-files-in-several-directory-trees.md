@@ -5,10 +5,9 @@ tags:
   - ls -1
   - wc -l
   - find -type f
-  - -maxdepth
-  - -mindepth
-  - ``
-  - $()
+  - "-maxdepth"
+  - "-mindepth"
+  - "$()"
   - for
 published: true
 books:

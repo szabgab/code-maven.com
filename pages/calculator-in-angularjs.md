@@ -31,7 +31,12 @@ HTML element. Why create an extra level if we can do it in a single `div` elemen
 Besides that we have 2 `input` boxes and a `select` element.
 Each one has its own `ng-model`.
 
-The last part of the HTML is the `{{ result() }}` directive.
+The last part of the HTML is the
+```
+{{ result() }}
+```
+
+directive.
 I think this is also the first time we have a function call in the directive.
 
 {% include file="examples/angular/calculator.html" %}

@@ -27,7 +27,11 @@ in which we declare the `ng-model` with a value `name`.
 <input ng-model="name">
 ```
 
-Once we do that we can use the `name` attribute in Angular expressions: `{{ name }}`
+Once we do that we can use the `name` attribute in Angular expressions:
+```
+{{ name }}
+```
+
 for example in order to show the content:
 
 {% include file="examples/angular/minimal_hello_user.html" %}

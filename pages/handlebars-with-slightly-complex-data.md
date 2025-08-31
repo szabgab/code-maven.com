@@ -50,11 +50,27 @@ The template itself is located in the HTML file in a `script` tag.
 
 [view](examples/js/ajax_handlebars.html)
 
-The place-holders for `{{title}}` and `{{description}}` are simple values that we have already seen
+The place-holders for
+```
+{{title}}
+```
+and
+```
+{{description}}
+```
+are simple values that we have already seen
 in the [introduction to Handlebars](/introduction-to-handlebars-javascript-templating-system), but there is also a loop
 to go over the elements of an array.
-`{{#each articles}}` starts a loop on the elements of the array in the `articles` key.
-The loop ends when we encounter `{{/each}}`.
+
+```
+{{#each articles}}
+```
+starts a loop on the elements of the array in the `articles` key.
+The loop ends when we encounter
+```
+{{/each}}
+```
+
 Inside the loop we can use the keys of the objects that are the elements of the `articles` array.
 
 This makes the template much clearer than what we had in the HTML concatenation earlier.

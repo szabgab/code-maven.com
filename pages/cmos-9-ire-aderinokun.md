@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-9-ire-aderinokun.mp3
   size: 21405046
   time: 23:45
-img: /img/cmos/ire_aderinokun.jpg
-alt: Ire Aderinokun
+#img: /img/cmos/ire_aderinokun.jpg
+#alt: Ire Aderinokun
 published: true
 author: szabgab
 archive: true

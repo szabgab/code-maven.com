@@ -16,8 +16,8 @@ mp3:
   time: 29:31
 published: true
 author: szabgab
-img: /img/cmos/lucy_greco.jpeg
-alt: Lucy Greco
+#img: /img/cmos/lucy_greco.jpeg
+#alt: Lucy Greco
 archive: true
 ---
 

@@ -61,6 +61,7 @@ $ ansible -i inventory.cfg 192.168.56.11 -a "perl -e 'print qq{$]\n}'"
 
 192.168.56.11 | SUCCESS | rc=0 >>
 5.026000
+```
 
 ## Check version of specific Perl Module
 

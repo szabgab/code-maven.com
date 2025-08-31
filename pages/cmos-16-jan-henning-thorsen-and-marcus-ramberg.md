@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3
   size: 27466201
   time: 30.02
-img: /img/cmos/jan-henning-thorsen-and-marcus-ramberg.jpg
-alt: Jan Henning Thorsen and Marcus Ramberg
+#img: /img/cmos/jan-henning-thorsen-and-marcus-ramberg.jpg
+#alt: Jan Henning Thorsen and Marcus Ramberg
 published: true
 author: szabgab
 archive: true

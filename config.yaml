@@ -86,6 +86,9 @@ authors:
   - name: Curtis "Ovid" Poe
     nickname: ovid
     picture: ovid.jpg
+  - name: Ariel Szabo
+    nickname: ariel
+    picture: ariel-szabo.png
 
 # The following section defines the menu. The "start" will be left-aligned the "end" will be right aligned.
 # TODO: Once we implement rtl site this will probably be the other direction too

@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-8-lynn-cyrin-bundler-rubygems.mp3
   size: 18590774
   time: 19:54
-img: /img/cmos/lynn_cyrin.jpg
-alt: Lynn 'Cyrin' Conway
+#img: /img/cmos/lynn_cyrin.jpg
+#alt: Lynn 'Cyrin' Conway
 published: true
 author: szabgab
 archive: true

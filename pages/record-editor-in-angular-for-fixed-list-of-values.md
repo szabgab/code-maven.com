@@ -23,7 +23,7 @@ It shows in a rather readable way the content of the `records` attribute which c
 
 You can try the code by clicking on "Try".
 
-{% include file="/examples/angular/editor_with_selector/edit_record.html" %}
+{% include file="examples/angular/editor_with_selector/edit_record.html" %}
 
 [view](/examples/angular/editor_with_selector/edit_record.html)
 
@@ -50,7 +50,7 @@ If the user clicks `Cancel` we switch back to the list view removing the content
 If the user clicks `Save` we first copy the content of the `$scope.editor` back to `current_record`
 and then clear the content of `$scope.editor`.
 
-{% include file="/examples/angular/editor_with_selector/edit_record.js" %}
+{% include file="examples/angular/editor_with_selector/edit_record.js" %}
 
 As you can see there are 4 cases in the original data. 'Foo' does not have any planet in the original data.
 In this case the list selector will come up empty, but once we selected a value there is no going back.

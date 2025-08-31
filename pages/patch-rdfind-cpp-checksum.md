@@ -44,7 +44,7 @@ I clones the source code. It seems it is written in C++. I've never written C++ 
 
 ```
 git clone git@github.com:pauldreik/rdfind.git
-</code?
+```
 
 ## Try to compile
 

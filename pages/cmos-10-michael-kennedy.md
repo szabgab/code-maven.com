@@ -17,8 +17,8 @@ mp3:
   file: /media/cmos-10-michael-kennedy.mp3
   size: 44576759
   time: 18:34
-img: /img/cmos/michael_kennedy.jpg
-alt: Michael Kennedy
+#img: /img/cmos/michael_kennedy.jpg
+#alt: Michael Kennedy
 published: true
 author: szabgab
 archive: true

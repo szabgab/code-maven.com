@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-11-mohammad-s-anwar.mp3
   size: 21467513
   time: 23:16
-img: /img/cmos/mohammad_anwar.jpg
-alt: Mohammad S. Anwar
+#img: /img/cmos/mohammad_anwar.jpg
+#alt: Mohammad S. Anwar
 published: true
 author: szabgab
 archive: true

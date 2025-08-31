@@ -1,6 +1,6 @@
 ---
 title: "Configuring MySQL"
-timestamp: 2018-01-01T07:30:01
+timestamp: 2018-01-01T07:30:02
 tags:
   - files
 published: false

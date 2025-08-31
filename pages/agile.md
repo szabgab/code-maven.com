@@ -1,6 +1,6 @@
 ---
 title: "Agile practices"
-timestamp: 2017-01-01T07:30:01
+timestamp: 2017-01-01T07:30:02
 tags:
   - Agile
 published: false

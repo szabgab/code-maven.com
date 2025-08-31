@@ -14,8 +14,8 @@ mp3:
   file: /media/cmos-17-moyinoluwa-adeyemi.mp3
   size: 19573318
   time: 21:57
-img: /img/cmos/moyinoluwa-adeyemi.jpg
-alt: Moyinoluwa Adeyemi
+#img: /img/cmos/moyinoluwa-adeyemi.jpg
+#alt: Moyinoluwa Adeyemi
 published: true
 author: szabgab
 archive: true

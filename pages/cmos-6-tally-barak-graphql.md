@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-6-tally-barak-graphql.mp3
   size: 22528898
   time: 25:41
-img: /img/cmos/tally_barak.png
-alt: Tally Barak
+#img: /img/cmos/tally_barak.png
+#alt: Tally Barak
 published: true
 author: szabgab
 archive: true

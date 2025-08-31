@@ -17,8 +17,8 @@ mp3:
   time: 16:09
 published: true
 author: szabgab
-img: img/cmos/jason_crome.png
-alt: Jason Crome
+#img: img/cmos/jason_crome.png
+#alt: Jason Crome
 archive: true
 ---
 

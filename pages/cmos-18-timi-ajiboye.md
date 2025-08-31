@@ -14,8 +14,8 @@ mp3:
   file: /media/cmos-18-timi-ajiboye.mp3
   size: 17224989
   time: 19:24
-img: /img/cmos/timi-ajiboye.png
-alt: Timi Ajiboye
+#img: /img/cmos/timi-ajiboye.png
+#alt: Timi Ajiboye
 published: true
 author: szabgab
 archive: true

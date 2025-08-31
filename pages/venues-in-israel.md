@@ -1,6 +1,6 @@
 ---
 title: "Free Meetup Spaces in Israel"
-timestamp: 2019-01-01T07:30:01
+timestamp: 2019-01-01T07:30:07
 tags:
   - Meetup
 published: true

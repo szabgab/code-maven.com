@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-15-prosper-otemuyiwa.mp3
   size: 25462851
   time: 27:37
-img: /img/cmos/prosper-otemuyiwa.jpg
-alt: Prosper Otemuyiwa
+#img: /img/cmos/prosper-otemuyiwa.jpg
+#alt: Prosper Otemuyiwa
 published: true
 author: szabgab
 archive: true

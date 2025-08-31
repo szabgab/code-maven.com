@@ -85,7 +85,16 @@ The `ng-keyup="NameChange()"` connects the keyup event of the HTML page to
 the function defined as `$scope.NameChange` which means the function will be
 called every time the content of the input box has changed.
 
-The two expression in the HTML code `{{name}}` and `{{greeting}}`
+The two expression in the HTML code
+```
+{{name}}
+```
+
+and
+
+```
+{{greeting}}
+```
 will display the content of `$scope.name` and `$scope.greeting` respectively.
 
 The result is that as we type "Foo" in the input box, our page will display "Hello Foo" in `h1`
@@ -95,11 +104,12 @@ tags and `Foo` in `h2` tags.
 
 hey, thanks Gabor
 
-<hr>
+---
+
 
 it is absolutely Great Tutorial to get started with angular js Thanks :)
 
-<hr>
+---
 
 Great tutorial for beginners, thanks for posting!
 

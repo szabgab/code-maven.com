@@ -15,8 +15,8 @@ mp3:
   file: /media/cmos-12-randal-schwartz.mp3
   size: 25823933
   time: 25.01
-img: /img/cmos/randal-schwartz.jpg
-alt: Randal Schwartz
+#img: /img/cmos/randal-schwartz.jpg
+#alt: Randal Schwartz
 published: true
 author: szabgab
 archive: true
