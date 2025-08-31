@@ -127,7 +127,7 @@ script {
 
 I have a pipeline with tests running with maven, how can I get the name of each test run out of the pipeline output?
 
-<hr>
+---
 
 I have a question...I am implementing a pipeline and I m using k8s plugin an run the pipeline in pods and created my own docker container with nessery libraries. My scripts is based on groovy scripts and I am heavly use 'sh' to execute shell commands due to my IaC..in your examples you have used many sh block under one single step.. even though you have the ability to run all things in a one sh block (that a because of You may have used that kind approach to explain the sh Ior you don't care and you use as much as you like..let's assume that you don't care and use many..to understand my concern ). My practice is to handle the control flow with the groovy as much as possible and things I need to do with the shell I used sh blocks inside those groovy control blocks (if else). Since I m prefer to use groovy due to the flexibility. If someone is arguing that when you has the ability to control the flow in same sh block by providing the groovy value with the interpolation in to the shell block as the condition values.. why do you do that in two sh block while maintaining the control flow with groovy. ...for this question my point is when I am having a advanced tool like groovy why don't I consider that as the primary tool and I am using groovy to maintain the control flow and shell is a very low level option and the flexibility is low than groovy and I am arguing that then why don't you write shell script for your entire pipeline.. ..these are two perceptions on sh.. I would like to know you perception on these two aspects... actually what kind of best practice we should follow..
 
@@ -143,7 +143,7 @@ Write the part in Groovy only if must interact with the steps of the Jenklins pi
 
 It is usually easier to write in those languages than in Shell or in Groovy and that will make your code more flexible so people might execute them on their own system without using Jenkins.
 
-<hr>
+---
 
 what if i have to migrate that shell script into Jenkins itself. Is there a way to just use that shell script in Jenkins?
 
@@ -157,7 +157,7 @@ So i am using an external shell script which is located on my Jenkins server. I 
 ---
 You could have the shell script embedded in the Jenkins file and then save it and run it when needed, but it is a nasty hack. I would recommend that both your Jenkinsfile and your shell script were in some version control system that is then cloned when Jenkins runs the job.
 
-<hr>
+---
 
 would it be possible to call a batch file and still continue with other commands with the same 'bat' block...? Something like bat ''' mybatchfile.bat
 pip install mypackage '''.
@@ -169,7 +169,7 @@ In this case, if I want to activate a python virtual environment, I am supposed 
 
 I think what you mean is running the external process in the background. On windows you'd use START for this. On Linux/OSX you would put & at the end of the command.
 
-<hr>
+---
 
 how can i use a curl command in jenkins pipeline where the node is windows?
 
@@ -177,7 +177,7 @@ how can i use a curl command in jenkins pipeline where the node is windows?
 
 How can you use curl on Windows without Jenkins?
 
-<hr>
+---
 
 Hi, I want to download the file using wget and check if the file is available using shell script in pipeline. How do i do that?
 Im trying something like below but it is failing syntactically. Im new to groovy.

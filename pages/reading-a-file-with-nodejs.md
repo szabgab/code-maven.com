@@ -62,19 +62,19 @@ The parameter really shouldn't be called 'DATA', should be 'filePath' or sth els
 
 really, it's brings some misunderstoods. It would be better name like 'test.txt', or './test.txt', for example, But despite, THanks a lot. Awesome tutorial for newbies
 
-<hr>
+---
 
 Thanks, good stuff!
 
-<hr>
+---
 
 Noteworthy to say, since both versions return the complete content of the file at once they only work as long as the result fits into a string. (At least when you specify a text encoding like utf8.) So usually that means everything works fine until your file hits 256 mb and none of these functions work anymore.
 
-<hr>
+---
 
 Thank you! Great quick read, exactly what I needed.
 
-<hr>
+---
 
 I'll give you an example of Synchronous operations being amazingly useful, simple building! NodeJS isn't only run on the server or busy powering platforms like Electron. It's also good for simple scripting. I want to write a simple script that pulls in 2 files and outputs them as one and don't want to leverage huge tools like Webpack, Gulp, or Grunt for something tiny and simple. So Synchronous NodeJS to the rescue!
 
@@ -84,62 +84,62 @@ That's orthogonal to async vs. sync; it's just as easy to do it async in scripts
 
 I guess you've never really experienced "call-back" hells yet. await makes things so much cleaner and easier, not only for yourself, but all current and future devs involved in the project.
 
-<hr>
+---
 
 Nice post, short and sweet. 👍🍓
 
-<hr>
+---
 
 " I am not sure when will you want to use synchronous operations in Node.js" depends what you are building.. if you are building a dev tool for instance then there is often no need to use the async option, just more code you have to write for no reason as there will only ever be 1 person running the code at any one time.
 
-<hr>
+---
 
 Explained in simple words and with simple code. Nice - thanks!
 
-<hr>
+---
 readFileSync and readSync are non-blocking read functions. when there is no data to read, they return an empty buffer. try readSync(0, Buffer.alloc(1), 0, 1, -1) to read 1 byte from stdin
 
-<hr>
+---
 
 Can you please explain, how many different files we can process if suppose we have 4 cors CPU?
 I know it's a little bit off the topic, but I just wanted to clarify.
 
-<hr>
+---
 
 The use case is this - People coming from almost every other programming language and environment will find the synchronous file-reading operation clearer.
 
-<hr>
+---
 
 what if I wanted to save a token and reuse it with a callback function? could I use read/write for this case scenario?
 
-<hr>
+---
 
 Good info
 
-<hr>
+---
 
 Thank you very much for this post!!!!!!!!!!!!!
 
-<hr>
+---
 
 fs blocking is faster than async blocking in the long run.
 
-<hr>
+---
 If we read file in sync and call this API a thousand times can we see program API halting nature due to blocking operation?
 
 ---
 it depends on where the file is, and what the file is, we can't do anything while reading this file in the sync mode.
 
-<hr>
+---
 
 Thanks Gabor! Thanks God!
 
-<hr>
+---
 
 You could have put out the explanations on when to use sync and when to use async.
 Advantages and disadvantages etc..
 
-<hr>
+---
 
 This code is so outdated, I don't know why it keeps coming up at the top of Google searches for Node.
 

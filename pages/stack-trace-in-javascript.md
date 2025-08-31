@@ -152,7 +152,7 @@ and the
 
 As far as I understand, "Stack trace using caller object" part doesn't work in modern browsers, after `arguments.callee.caller` deprecation, right?
 
-<hr>
+---
 
 Thanks. It works well in Flash too!
 

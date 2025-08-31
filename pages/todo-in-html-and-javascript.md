@@ -222,11 +222,11 @@ That's it all the code for the JavaScript based TODO list.
 
 thanks for sharing its so helpful..
 
-<hr>
+---
 
 It is useful to develop in my project. Thanks..
 
-<hr>
+---
 
 ```
 <body>
@@ -254,7 +254,7 @@ It is useful to develop in my project. Thanks..
 
 Why isn't this code storing the values in localStorage?
 
-<hr>
+---
 
 how to store and retrieve tasks as javascript objects?
 

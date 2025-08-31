@@ -115,6 +115,6 @@ Param: hello
 
 thanks for awesome and simple entry guide
 
-<hr>
+---
 
 Just used this to troubleshoot a problem in someone else's code. One of the arguments wasn't being passed correctly on the command line. Thanks!

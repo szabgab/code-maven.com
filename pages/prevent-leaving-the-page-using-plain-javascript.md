@@ -78,7 +78,7 @@ I tried to return nothing to disable the pop up. But, it does not work
 
 you have to return undefined
 
-<hr>
+---
 
 Hi, I have a situation, where I am opening a new window from my main application as a new tab. I need to prompt the message while the user tries to close the new tab. I have given the code as below.
 
@@ -93,7 +93,7 @@ return "Do you really want to leave our brilliant application?";
 
 But when I click on the X button, the new tab closes without prompting the message. Please suggest.
 
-<hr>
+---
 
 copied the same code but not working in chrome (not even any browser!!). Getting the default message only as below:
 "Changes you made may not be saved."
@@ -102,7 +102,7 @@ Many browsers have reverted that feature.
 
 See https://caniuse.com/?search=onbeforeunload
 
-<hr>
+---
 
 Hi, this doesn't work on IOS (either Safari & Chrome).
 Do you have workaround for that?
@@ -128,7 +128,7 @@ This doesn't work anymore in Safari
 ---
 You can tell the guy who published that solution on stack-overflow. He might help you on this :)
 
-<hr>
+---
 
 Thanks for the code man :D
 

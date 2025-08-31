@@ -188,7 +188,7 @@ When I visited the http://192.168.56.11/ from my desktop machine, it showed me t
 
 I got curl: (7) couldn't connect to host
 
-<hr>
+---
 
 Hi,
 
@@ -204,7 +204,7 @@ fatal: [172.31.18.198]: FAILED! => {"changed": false, "msg": "Repo rhui-REGION-c
 
 Could you please help me to understand the issue.
 
-<hr>
+---
 
 I am trying to install nginx in node machine.
 

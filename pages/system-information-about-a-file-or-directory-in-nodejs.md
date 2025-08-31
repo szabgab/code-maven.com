@@ -203,16 +203,16 @@ value, but for those we have already seen a set of more readable convenience met
 
 I read the article several times, but I could not associate the same in my need, I need inside a folder to get the name of the last created file
 
-<hr>
+---
 
 It is much easier to use stat-mode in order to get the user/group/others permissions https://www.npmjs.com/package/stat-mode
 
-<hr>
+---
 
 Can anyone Answer me?
 I have List of files in the folder. i need to read the file from the folder while if i met criteria , i have to come out from the function and update the document.Ultimately i dont need to read all the files when condition met. using Node.js?
 
-<hr>
+---
 
 Group and Owner permissions check looks wrong. Group execute should be stats["mode"] & 8, write should be stats["mode"] & 16 and so forth.
 

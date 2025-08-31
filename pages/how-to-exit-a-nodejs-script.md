@@ -31,11 +31,11 @@ or type:
 
 .exit
 
-<hr>
+---
 
 nice
 
-<hr>
+---
 
 It was just what I was looking for. Thank you very very much
 

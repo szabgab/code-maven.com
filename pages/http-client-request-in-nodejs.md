@@ -210,7 +210,7 @@ So indeed, this managed to collect the data that was sent by the client.
 
 Hi Gabor, It is actually a beautiful tuto, I really appreciate. But i would say, it is seem like to be a node http server tuto rather then a node http client.
 
-<hr>
+---
 
 Its a great example to see how the legacy version of node consumed data. Thanks a lot
 

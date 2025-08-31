@@ -98,7 +98,7 @@ $ ansible -i inventory.cfg 192.168.56.11 -a "/sbin/shutdown -r now -b"
 Gabor, you have a typo in last command.
 the -b should be outside the " "
 
-<hr>
+---
 
 Thank you for sharing :D This helped me with my jenkins job where I wanted to avoid the unreachable error because I was shutting down a machine.
 

@@ -60,59 +60,59 @@ Firefox requires the download A-element to be present in the DOM before clicking
 
 (This might not be the official explanation, but it works)
 
-<hr>
+---
 
 hye how can i click the save button and it will automatically save into my server not my laptop ?
 
-<hr>
+---
 Excellent little example - just what I needed.
 Thanks very much Gabor.
 
-<hr>
+---
 
 Hi, is there any check to prevent delimiter inside data? What if any data will contain delimiter (",")? rows and columns wont match. Is there workaround for that? 
 
-<hr>
+---
 
 thanks, very handy!
 
-<hr>
+---
 
 thank you .....its perfect
 
-<hr>
+---
 
 I'm glad you explain each. line of code. Thanks!
 
-<hr>
+---
 
 Thank you
 
-<hr>
+---
 Chrome has an issue using encodeURI if the filesize is greater than 1mb. This discussion on StackOverflow shows how to use createObjectURL instead.
 https://stackoverflow.com/questions/24610694/export-html-table-to-csv-in-google-chrome-browser/24611096#24611096
 
-<hr>
+---
 
 Hi, It is not working in IE 11. I have added tag in DOM. Whenever call function to download csv, getting alert, "Do you want to open application from this website". After click on Allow csv is not dwonloading. Working fine on chrome. Please help to eun on IE 11.
 
-<hr>
+---
 
 Thank you very much!
 
-<hr>
+---
 
 hello....I need your help...i want to export form data into csv file using plain JS
 
-<hr>
+---
 
 Is there any option to set password for the files.
 
-<hr>
+---
 
 How can we download multiple sheets?
 
-<hr>
+---
 what if my delimiter in the string is ; instead of comma
 ---
 
@@ -121,11 +121,11 @@ Then join with a semi-colon instead;
 csv += row.join(';');
 
 
-<hr>
+---
 
 Thank's for this solution, I'm saved :)
 
-<hr>
+---
 
 i followed the steps hoewever i get my array values written in one row in CSV file, no \n is applied.
 my data is an array returned by a function as :
@@ -133,15 +133,15 @@ var data = [days];
 return data;
 and i call this function from the downloadCSV ()
 
-<hr>
+---
 
 Getting the following error: (TypeError: row.join is not a function) Any idea?
 
-<hr>
+---
 
 Hi, How to achieve the same functionality in IE 11 ?
 
-<hr>
+---
 
 Thank you!
 

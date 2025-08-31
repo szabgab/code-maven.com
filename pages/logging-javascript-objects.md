@@ -111,7 +111,7 @@ achieve the same this way: `$.extend({}, obj)`.
 Hey
 Its really helped..thanks a lot
 
-<hr>
+---
 
 Me trying the wrong code (examples/javascript/logging/logging_changed_object.js):
 
@@ -120,7 +120,7 @@ Acter Change {fname: "Foo", lname: "Bar", email: "foo@bar.com"}
 
 Anyway, there's a typo: "Acter" instead "After".
 
-<hr>
+---
 
 What about if the object has 'get' and 'set'?
 function Foo() {}

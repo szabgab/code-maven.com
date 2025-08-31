@@ -45,7 +45,7 @@ Open Source projects.  As of today they have almost 500 repositories on [GitHub]
 I see a lot of projects in JavaScript, and some in other languages such as Java, TypeScript, Objective-C, Python, Dart.
 
 
-<hr>
+---
 
 [GitLab](https://about.gitlab.com/)  [source code](https://github.com/gitlabhq/gitlabhq)
 

@@ -343,7 +343,7 @@ validate: 'visudo -cf %s'
 
 Works on the command line, not in Ansible...
 
-<hr>
+---
 
 %sudo ALL=(ALL:ALL) NOPASSWD: ALL
 

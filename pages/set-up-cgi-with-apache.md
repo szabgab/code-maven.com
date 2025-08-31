@@ -165,11 +165,11 @@ In fact, very most times I had any issue I lost patience with myself, I was able
 
 And you know, I suspect you had neen doing some small stupid mistake, just as I sometimes do. But if you need an advice, you need to ask politely rather than throw feces.
 
-<hr>
+---
 
 Oh thank you thank you thank you. 3 HOURS of searching before I found this article that finally talks about the CGI module and the soft link to fix this in mods-enabled. Why is this so well hidden on the internet is a mystery.
 
-<hr>
+---
 
 After getting it to work with hello world, I tried to run one of my past cgi-perl scripts from an HTML page in my recent home apache2 server. The cgi-perl script runs fine as a webserver elsewhere - developed during my doctoral days. It's a long code: a certain bioinformatic application.
 
@@ -233,15 +233,15 @@ print $qstr,"\n";
 
 Are the scripts executable, can you get the errors from the log file of the server?
 
-<hr>
+---
 
 Excellent discourse. Great sincerity in helping the community. Long live Linux and opensource coding!! 
 
-<hr>
+---
 
 thanks
 
-<hr>
+---
 
 Hey! It works. :)
 
@@ -251,11 +251,11 @@ I'm now a "veteran" PHP dev. Because of that, I've not attempted traditional CGI
 
 I think this usually happens if the code does not print the Content-Type properly.
 
-<hr>
+---
 
 Thanks a lot sir!!
 
-<hr>
+---
 
 Hi,
 
@@ -279,11 +279,11 @@ this is exactly the problem with the linux community: If it ain't broke don't fi
 
 ALL instructions should be cut and paste lines form the command line. The FIRST set of instructions on setting up Apache is getting the welome screen to come up (that actually works pretty well,) and the second thing should be how to set up cgi-bin. For who knows what reason apache instructions instead go into multiple virtual hosting environments with do-decagon multi-plexing, cross-over premium drivers... whatever thing that is so complex I wouldn't have a chance to follow. Meanwhile I'm stuck getting hello_world.c which I can easily compile with gcc: ($ gcc -o hello_world.exe hellow_world.c) to run through the browser. Its absolutely ridiculous. This should be a no-brainer and up and running in less than 30 seconds.
 
-<hr>
+---
 
 thanks for the post. it helped me alot.
 
-<hr>
+---
 
 Ah, is it this easy? Why have I been thinking it is somewhat bloody difficult? :o)
 
@@ -291,27 +291,27 @@ For the record, I had the cgid.load already present in my 2018-09-26 Raspbian Bu
 
 Indeed, not it works from me from my other machines too, which sugests I will be able to drive my RasPi car from a web interface.
 
-<hr>
+---
 
 Hello sir i am trying to configure apache files to run a cgi script
 on Apache2 server from last 5 days. please help. hope for your better reply..
 
 when i ran my python(test.cgi) file on localhost server (localhost/test.cgi) it prints the code
 
-<hr>
+---
 
 Many thanks!!!
 
-<hr>
+---
 
 Thank you so much!!
 
-<hr>
+---
 
 Thanks Gabor,
 It really help us . Earlier we were using centos and recently we migrated to Ubuntu and our health check was failing for one service which is exposed using cgi.
 
-<hr>
+---
 
 curl http://127.0.0.1/cgi-bin/hw.sh seems to be throwing an error for me :(
 Where does your localhost point to ?
@@ -341,7 +341,7 @@ More information about this error may be available
 in the server error log.
 
 
-<hr>
+---
 <address>Apache/2.4.18 (Ubuntu) Server at 127.0.0.1 Port 80</address>
 </body></html>
 
@@ -355,11 +355,7 @@ I actually reinstalled lubuntu and tried it again and it works now, this was mos
 This article was really helpful :)
 Thanks!
 
-<h2>
-
 Thanks a lot for this article! :)
-
-<h2>
 
 The missing symlink saved the day! I had the correct apache conf file for site but the cgi was not enabled.
 

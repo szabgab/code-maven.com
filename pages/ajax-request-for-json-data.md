@@ -83,17 +83,17 @@ I am going to use this opportunity to show a more convincing reason to use Handl
 
 Awesome
 
-<hr>
+---
 
 how do you fetch and render the entire json file content instead of fetching individual element values? i was thinking about something like below...
 
 document.getElementById("TEXTAREA_ID").innerHTML = `${data}`;
 
 but it doesnt work...
-<hr>
+---
 Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at https://www.google.fr/. (Reason: CORS header ‘Access-Control-Allow-Origin’ missing).
 
-<hr>
+---
 
 why xmlhttp.readyState == 4, and xmlhttp.status == 200 ?
 

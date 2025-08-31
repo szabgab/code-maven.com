@@ -199,30 +199,30 @@ I'll see the pop-up when I return to my computer.
 
 This is brilliant! Just what I was looking for! :)
 
-<hr>
+---
 
 Is there a way to specify a custom icon in the slide out notification? I know other apps have their own custom icons in the notifications side bar on the right of the screen.
 ---
 
 I don't think it's possible, but please share if you've learned how :)
 
-<hr>
+---
 This is so awesome!!
-<hr>
+---
 
 Great article. I placed this in an alias to run after long bash processes.
 
     alias notify='osascript -e "display notification \"done!\""'
 
-<hr>
+---
 
 On Big Sur there is an additional title showing the process that triggered the banner (I guess). For these examples it is always "SCRIPT EDITOR". Any way to remove or customize it?
 
-<hr>
+---
 
 Awesome !
 
-<hr>
+---
 I know I am a bit late to the party here but I can only use "with title" or "with icon" and nothing else after either of those. If I try
 osascript -e 'display dialog "Hello world!" with title "title" subtitle "subtitle"'
 I get the error message
@@ -232,11 +232,11 @@ Basically putting anything after the initial with parameter gives an error. "wit
 Instead of using " use '
 I hope it will work ^_^
 
-<hr>
+---
 
 Perfect.
 
-<hr>
+---
 
 It would be nice to add an example of sending the notification of the result of another shell command. for example
 ```
@@ -248,7 +248,7 @@ echo "hey"|xargs -I {} osascript -e 'display notification "{}"'
 THANK YOU!
 
 
-<hr>
+---
 
 In my Xcode it shows failed to display notification.
 
@@ -256,7 +256,7 @@ caused by: script error: osascript: no such component "JavaScript".
 
 Any solution for this?
 
-<hr>
+---
 
 Nice insights. Just a further question: is it possible to detect a notification window in order to trigger an Automator workflow?
 Something like:

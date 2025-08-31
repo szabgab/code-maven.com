@@ -64,7 +64,7 @@ Or even better:
 
 How do you change the colors of the prompt box?
 
-<hr>
+---
 
 Write a function that takes a grade and returns grade letter using switch case.
 Greater or equal to 9 = Grade Letter is A
@@ -125,11 +125,11 @@ Result:
 ```
 
 
-<hr>
+---
 
 very helpful, thank u
 
-<hr>
+---
 
 1 2 3 4 5
 1 2 3 4
@@ -152,5 +152,5 @@ console.log(line);
 
 Also, it really depends on what you try to achieve with this. So this solution might not be your right solution.
 
-<hr>
+---
 

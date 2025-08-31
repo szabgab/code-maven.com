@@ -83,15 +83,15 @@ and among the `Packages` looked for the one handling HTML files. This is how it 
 
 Exactly what I was looking for to bet a long ad code snippet working. Thanks..
 
-<hr>
+---
 
 How can i stop auto-complete to mess with my snippets? When i tab, it does code completation instead of my snippet! Is it possible to do bind it in another key?
 
-<hr>
+---
 
 Thank you! This was helpful. Do you know of a community site where snippet examples and shared? Maybe a github repo?
 
-<hr>
+---
 
 This was super-helpful! Thank you!!
 

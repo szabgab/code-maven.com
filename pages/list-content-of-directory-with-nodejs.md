@@ -230,7 +230,7 @@ let file = path + '/' + items[i];
 
 The closure here is just a workaround we had to use before ES2015.
 
-<hr>
+---
 
 This answer doesn't answer how to scan the sub-directories too...
 
@@ -240,27 +240,27 @@ You would do that recursively using for loop in his fs.readdir block. You would 
 
 I know, but you can do it too, and update the post and code as well, so that people can get benefit in both ways, it will improve your post as well. :-)
 
-<hr>
+---
 
 You saved my life man! Thanks a lot!
 
-<hr>
+---
 
 Thank you for sharing your coding practice.
 
-<hr>
+---
 
 thanks alot ...@Gabor Szabo
 
-<hr>
+---
 
 I can't tell if my comment actually posted, but what is the date on this article? There's some outdated code like `var`, so I wonder what else is outdated, as I'm just learning fs.
 
-<hr>
+---
 hello, maybe we can use the let with the local scope in for loop?
 also thanks a lot for good demonstrating the var global scope
 
-<hr>
+---
 
 I made a node module to automate this task: [mddir][1]
 

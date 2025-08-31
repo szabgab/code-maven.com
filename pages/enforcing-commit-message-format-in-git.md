@@ -89,7 +89,7 @@ Thanks for the useful article! I think there is an error in the first two exampl
 
 test "" = "$(grep -P '^#(\d+)\s' "$1")" && {
 
-<hr>
+---
 
 Thanks for this, it really solves my problem. However, is there an easy way to deploy it across my teams when they do their next pull? It looks like the .git folder is excluded from the repo.
 
@@ -112,7 +112,7 @@ Do I need to get authorization to change a variable name to be more descriptive?
 I think that's not the right way to handle development.
 
 
-<hr>
+---
 
 Wouldn't this make Git consider the line to be comment (and to not include in the final commit message), because it starts with '#'?
 

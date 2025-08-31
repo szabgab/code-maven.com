@@ -181,11 +181,11 @@ SLACK_CHANNEL = "#pqa-monitoring"
 
 
 
-<hr>
+---
 
 so beautiful article!!!!
 
-<hr>
+---
 
 Thanks for this tutorial. However, I'm having hard times understanding how to pass environment variables in case of Jenkins Pipelines by NOT using Jenkinsfile. In case of simple Jenkins build projects it was easy to do. However, how can I add custom environment variables to Jenkins Pipeline Multibranch build project so that the variables are not in Jenkinsfile?
 
@@ -219,13 +219,13 @@ I added screenshot to illustrate my problem.
 
 I did not see that happening.
 
-<hr>
+---
 
 i'm new in jenkins, i would know if someone know how can i build a remote trigger in the multibranch pipeline with post commit hook ?
 and how can i get the current name branch in Pipeline job because i want to do some stages in master branch and other in develop branch
 for example when i try with echo env.BRANCH_NAME it's return NULL :(
 
-<hr>
+---
 
 can I make all the environment variables as None before my pipeline starts? and then set few values if I want. Is it possible?
 
@@ -278,10 +278,10 @@ It is unclear to me why Jenkins keeps the old values, but at the end of your job
 
 Yeah thank you. I tried resetting the vars in the start of the groovy so that it would work for concurrent builds as well and I see its working as intended. Thank you
 
-<hr>
+---
 Can you make a article on Jenkins shared libs ?
 
-<hr>
+---
 
 env.first_path
 

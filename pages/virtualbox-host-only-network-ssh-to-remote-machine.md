@@ -263,23 +263,23 @@ Only because armbian specifys ubuntu 18.04 as a base for cross-compile chain
 I guess I should try under devuan??? ,, or else use vnc to control vm
 thoughts?
 
-<hr>
+---
 
 Very clean and precise walkthrough. Thank you for sharing!
 
-<hr>
+---
 
 How can we connect using ssh from a different network ? Assuming we know the public ip and all this info...
 
-<hr>
+---
 
 If you get a connection refused when ssh'ing to localhost, it probably means you don't have the ssh server package installed on your guest OS.
 
-<hr>
+---
 
 Thanks! worked like a charm
 
-<hr>
+---
 
 Thank you! I've wanted to set this up for awhile. My guest os is Redhat 7, so I had to use the NetworkManager to configure the new interface:
 
@@ -288,7 +288,7 @@ nmcli connection add type ethernet con-name enp0s8 ifname enp0s8 ip4 192.168.56.
 
 The configuration is automatically saved and the interface is started.
 
-<hr>
+---
 
 Thanks! this instrunctions solved my issues
 

@@ -176,15 +176,15 @@ In any case I think it was interesting to see how to build and use this.
 
 Handlebars is pretty useless, how difficult can it be to include support for expressions? That you have to declare so much code for this kind of basic behaviour...
 
-<hr>
+---
 
 Thank you so much for this! Spent ages looking online for an example of 'if_eq' and yours is the first one that clicked for me.
 
-<hr>
+---
 
 Thank you for the Uncaught Error section, saved me several hours :)
 
-<hr>
+---
 
 Thanks for this great post! But for the first example, where true is expected false is returned. please verify and correct it. I ma facing the same issue in my project.
 
