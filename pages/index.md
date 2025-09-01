@@ -56,6 +56,11 @@ a better job with more satisfaction and higher salary.
 * [CMOS](/cmos) - Code-Maven Open Source podcast
 * [Live pair programming events](/live)
 
+## Books
+
+* [Linode](./linode/)
+* [Digital Ocean](./digital-ocean/)
+
 ---
 
 Most of the articles were written by [Gabor Szabo](https://szabgab.com/) who provides Automation and DevOps
