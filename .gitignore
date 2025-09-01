@@ -16,3 +16,4 @@ github-token
 
 __pycache__/
 _site/
+/books/*/book/
