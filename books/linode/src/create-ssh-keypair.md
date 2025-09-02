@@ -1,12 +1,13 @@
 # Create ssh keypair
 
 
-Generate ssh keypair by running git-keygen
+Generate ssh keypair by running git-keygen and accepting all the defaults.
 
 ```
-ssh-keygen.exe
+ssh-keygen
 ```
 
 ```
 ls -l ~/.ssh
 ```
+
