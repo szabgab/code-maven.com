@@ -65,6 +65,12 @@ a better job with more satisfaction and higher salary.
 * [Scratch](/scratch/)
 * [Slack](/slack/)
 * [Travis CI](/travis-ci/)
+* [Agile](/agile/)
+* [Ansible](/ansible/)
+* [AWS Lambda](/aws-lambda/)
+* [Google GCP](/google-gcp/)
+* [Space Fight](/space-fight/)
+* [Value](/value/)
 
 
 ---
