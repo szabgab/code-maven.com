@@ -58,8 +58,14 @@ a better job with more satisfaction and higher salary.
 
 ## Books
 
-* [Linode](./linode/)
-* [Digital Ocean](./digital-ocean/)
+* [Linode](/linode/)
+* [Digital Ocean](/digital-ocean/)
+* [Pair programming](/pair-programming/)
+* [Real World](/real-world/)
+* [Scratch](/scratch/)
+* [Slack](/slack/)
+* [Travis CI](/travis-ci/)
+
 
 ---
 
