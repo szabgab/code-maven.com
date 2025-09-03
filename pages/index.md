@@ -99,10 +99,10 @@ a better job with more satisfaction and higher salary.
 * [MongoDB](/mongodb/)
 * [Octave](/octave/)
 * [Riot](/riot/)
-
-
-
-
+* [NodeJS](/nodejs/)
+* [NoSQL](/nosql/)
+* [React](/react/)
+* [Scala](/scala/)
 
 
 ---
