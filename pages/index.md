@@ -77,6 +77,9 @@ a better job with more satisfaction and higher salary.
 * [vim](/vim/)
 * [Web](/web/)
 * [Windows](/windows/)
+* [Appveyor](/appveyor/)
+* [Circle-CI](/circle-ci/)
+
 
 
 
