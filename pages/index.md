@@ -22,6 +22,7 @@ a better job with more satisfaction and higher salary.
 * [C Maven](https://c.code-maven.com/)
 * [C++ Maven](https://cpp.code-maven.com/)
 * [C# .NET](/net) - the language of Microsoft.
+* [Crystal](https://crystal.code-maven.com/) programming language.
 * [DevOps Workshops](https://devops-workshops.code-maven.com/) (old)
 * [Virtual Rust Events](https://events.code-maven.com/)
 * [Exercises](https://exercises.code-maven.com/)
@@ -45,6 +46,7 @@ a better job with more satisfaction and higher salary.
 * [Perl](https://perlmaven.com/) on the Perl Maven site.
 * [Rust](https://rust.code-maven.com/) on the Rust Maven site.
 * [PHP](/php)
+* [PHP](https://php.code-maven.com/) programming language.
 * [Python Maven](https://python.code-maven.com/)
 * [Ruby](https://ruby.code-maven.com/)
 * [SVG](/svg), Scalable Vector Graphics examples in JavaScript and Python.
@@ -84,6 +86,10 @@ a better job with more satisfaction and higher salary.
 * [Docker](/docker/)
 * [Ladino](/ladino/)
 * [Raku](/raku/)
+* [MLOps](/mlops/)
+* [OSDC](/osdc/)
+* [Programming](/programming/)
+
 
 
 
