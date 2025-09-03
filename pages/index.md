@@ -79,6 +79,12 @@ a better job with more satisfaction and higher salary.
 * [Windows](/windows/)
 * [Appveyor](/appveyor/)
 * [Circle-CI](/circle-ci/)
+* [Bash](/bash/)
+* [BSD - Better Software Development](/bsd/)
+* [Docker](/docker/)
+* [Ladino](/ladino/)
+* [Raku](/raku/)
+
 
 
 
