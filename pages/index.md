@@ -71,6 +71,13 @@ a better job with more satisfaction and higher salary.
 * [Google GCP](/google-gcp/)
 * [Space Fight](/space-fight/)
 * [Value](/value/)
+* [SQL](/sql/)
+* [SQLite](/sqlite/)
+* [TypeScript](/typescript/)
+* [vim](/vim/)
+* [Web](/web/)
+* [Windows](/windows/)
+
 
 
 ---
