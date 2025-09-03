@@ -26,6 +26,7 @@ a better job with more satisfaction and higher salary.
 * [DevOps Workshops](https://devops-workshops.code-maven.com/) (old)
 * [Virtual Rust Events](https://events.code-maven.com/)
 * [Exercises](https://exercises.code-maven.com/)
+* [Dart](https://dart.code-maven.com/) programming language.
 * [Docker](/docker) - the de-facto standard in containers.
 * [Flask](/flask), the Python microframework.
 * [Forem stats](https://forem.code-maven.com/) (DEV.to)
@@ -37,13 +38,16 @@ a better job with more satisfaction and higher salary.
 * [Groovy](https://groovy.code-maven.com/), the programming language used for Jenkins pipelines.
 * [Handlebars](/handlebars) the HTML templating system written in JavaScript.
 * [Java](/java)
+* [Java](https://java.code-maven.com/), the programming language.
 * [JavaScript](/javascript)
 * [Jenkins](/jenkins), the automation server used for Continuous Integration and Continuous Delivery.
 * [Linux](/linux)
+* [Linux](https://linux.code-maven.com/), the operating system.
 * [Mdbook](https://mdbook.code-maven.com/)
 * [Mdbooks](https://mdbooks.code-maven.com/)
 * [NodeJS](/nodejs)
 * [Perl](https://perlmaven.com/) on the Perl Maven site.
+* [R Maven](https://r.code-maven.com/), the R programming language.
 * [Rust](https://rust.code-maven.com/) on the Rust Maven site.
 * [PHP](/php)
 * [PHP](https://php.code-maven.com/) programming language.
@@ -89,6 +93,12 @@ a better job with more satisfaction and higher salary.
 * [MLOps](/mlops/)
 * [OSDC](/osdc/)
 * [Programming](/programming/)
+* [Jenkins](/jenkins/)
+* [LinkedIn](/linkedin/)
+* [Mobile](/mobile/)
+* [MongoDB](/mongodb/)
+* [Octave](/octave/)
+* [Riot](/riot/)
 
 
 
