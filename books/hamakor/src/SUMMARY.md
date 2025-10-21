@@ -1,8 +1,8 @@
 # Summary
 
 - [Open Source in Israel](./index.md)
-  - [Goals](./goals.md)
   - [HaMakor](./hamakor.md)
+  - [Goals](./goals.md)
   - [Language communities](./language-communities.md)
   - [Other communities](./other-communities.md)
   - [Tasks](./tasks.md)
