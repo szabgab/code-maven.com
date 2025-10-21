@@ -8,4 +8,4 @@
   - [Tasks](./tasks.md)
   - [OSDC](./osdc.md)
   - [Conferences](./conferences.md)
-- [Q and A](./qr.md)
+- [Q and A](./qa.md)
