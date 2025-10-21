@@ -103,6 +103,7 @@ a better job with more satisfaction and higher salary.
 * [NoSQL](/nosql/)
 * [React](/react/)
 * [Scala](/scala/)
+* [HaMakor](/hamakor/) Open Source in Israel
 
 
 ---
