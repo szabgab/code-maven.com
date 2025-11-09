@@ -1,12 +1,12 @@
-=title VirtualBox
-=timestamp 2025-11-09T08:30:01
-=indexes CodeMaven
-=description
-=status show
-=author szabgab
-=archive 1
-=comments_disqus_enable 0
-=show_related 1
+---
+title: VirtualBox
+timestamp: 2025-11-09T08:30:01
+tags:
+  - virtualbox
+published: true
+author: szabgab
+archive: true
+---
 
 VirtualBox did not allow the Windows Machine to run:
 
