@@ -33,6 +33,7 @@ docker container stop -t0 httpbin
 
 ## 301 MOVED PERMANENTLY
 
+```
 $ curl -i http://localhost/status/301
 HTTP/1.1 301 MOVED PERMANENTLY
 Server: gunicorn/19.9.0
@@ -42,6 +43,7 @@ location: /redirect/1
 Access-Control-Allow-Origin: *
 Access-Control-Allow-Credentials: true
 Content-Length: 0
+```
 
 ## 303 SEE OTHER (redirect)
 
