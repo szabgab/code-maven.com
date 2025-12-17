@@ -14,7 +14,7 @@ the stdin_open and the tty parameters. (They are the same as providing `-it` on 
 `docker`.)
 
 
-{% embed include file="src/examples/interactive-shell/docker-compose.yml)
+{% embed include file="src/examples/interactive-shell/docker-compose.yml %}
 
 
 In order to launch the Docker containers we need to cd in the directory where we have the docker-compose.yml file and then
