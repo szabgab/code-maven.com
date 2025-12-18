@@ -38,7 +38,7 @@ Then we can run it. This time it will execute the `curl` command.
 
 
 ```
-$ docker run  --rm mydocker curl https://code-maven.com/
+$ docker run --rm mydocker curl https://code-maven.com/
 ```
 
 

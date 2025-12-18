@@ -1,4 +1,4 @@
-FROM ubuntu:22.10
+FROM ubuntu:25.10
 
 ENV FIRST Foo
 

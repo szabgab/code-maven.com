@@ -15,8 +15,8 @@ it was downloaded from the Docker hub.
 
 
 ```
-docker container start -i ubu
-docker container start -i CONTAINER
+$ docker container start -i ubu
+$ docker container start -i CONTAINER
 ```
 
 

@@ -1,7 +1,4 @@
-# Download image
-
-
-* pull
+# Download (pull) an image
 
 
 Earlier when we used the `run` command to run a Docker images, the first thing it did was downloading the image.
@@ -12,7 +9,7 @@ of the image.
 
 
 ```
-docker pull ubuntu:23.04
+$ docker pull ubuntu:25.10
 ```
 
 

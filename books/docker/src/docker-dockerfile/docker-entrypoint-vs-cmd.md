@@ -1,10 +1,9 @@
 # Docker: ENTRYPOINT vs CMD
 
-
 {% embed include file="src/examples/curl-runner/Dockerfile" %}
 
 
-By default if you run a container based on this image, Docker will execute a command which is a combination of the ENTRYPOING + CMD.
+By default if you run a container based on this image, Docker will execute a command which is a combination of the ENTRYPOINT + CMD.
 
 However, on the command-line where you call `docker run`, you can provide a replacement for the CMD part.
 

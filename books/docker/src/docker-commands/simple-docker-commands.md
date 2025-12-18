@@ -3,10 +3,10 @@
 
 Empty state, no images:
 
-no runnin containers
+no running containers
 
 ```
-$ docker ps
+$ docker container ls
 
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
@@ -14,7 +14,7 @@ CONTAINER ID        IMAGE               COMMAND             CREATED             
 no local containers at all (including not running, and showing the size)
 
 ```
-$ docker ps -as
+$ docker container ls -as
 
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS              PORTS               NAMES
 ```
@@ -30,9 +30,9 @@ REPOSITORY          TAG                 IMAGE ID            CREATED             
 Commands
 
 ```
-docker ps
-docker ps -as    list all the containers available locally  (incl the size)
-docker images    list images
+$ docker ps
+$ docker ps -as    list all the containers available locally  (incl the size)
+$ docker images    list images
 ```
 
 

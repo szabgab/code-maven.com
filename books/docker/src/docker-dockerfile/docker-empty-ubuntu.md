@@ -18,8 +18,7 @@ There are many advantages to this approach.
 * As it is a plain text file you can put it in version control and track the changes.
 * It is very small, compared to the size of the image.
 
-In this very first example we will create a new image that is based on and is identical to the Ubuntu 23.04 image.
-Without any extra.
+In this very first example we will create a new image that is based on and is identical to the Ubuntu 25.10 image. Without any extra.
 
 For this we create a new directroy and in that directory we create a file called `Dockerfile` and with a single line in it: `FROM ubutu:23.04`.
 Every Dockerfile must declare the image it is based on. We don't have any more commands in the Dockerfile so we don't add anything to

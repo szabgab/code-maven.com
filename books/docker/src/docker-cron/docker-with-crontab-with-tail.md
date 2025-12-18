@@ -3,7 +3,6 @@
 * cron
 * tail
 
-
 In the previous example we used the `-f` flag of `cron` to make it stay in the foreground.
 This was enough for Docker to keep the container running. However there might be other commands
 that do not have such flag and would automaticlly become a daemon. Just as if we ran `cron` without
@@ -21,10 +20,10 @@ As you can see the name of the file does not matter.
 {% embed include file="src/examples/crontab2/Dockerfile" %}
 
 ```
-docker build -t mydocker .
-docker run -d --rm --name chronos mydocker
-docker container cp chronos:/opt/dates.txt .
-docker container stop chronos
+$ docker build -t mydocker .
+$ docker run -d --rm --name chronos mydocker
+$ docker container cp chronos:/opt/dates.txt .
+$ docker container stop chronos
 ```
 
 

@@ -13,11 +13,11 @@ The first thing we need to do is to build the
 {% embed include file="src/examples/daemon1/Dockerfile" %}
 
 ```
-docker build -t mydocker .
-docker run -d --rm --name test mydocker
-docker inspect test
-docker container logs test
-docker container attach test
+$ docker build -t mydocker .
+$ docker run -d --rm --name test mydocker
+$ docker inspect test
+$ docker container logs test
+$ docker container attach test
 Ctrl-p Ctrl-q
 ```
 

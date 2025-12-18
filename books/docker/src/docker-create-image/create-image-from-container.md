@@ -1,7 +1,4 @@
-# Create image from container
-
-* commit
-
+# Create image from container (commit)
 
 Now that we have a conatainer with all the necessary packages installed (htop)
 and all the necessary files created (welcome.txt) let's convert this container
@@ -17,13 +14,13 @@ run it with the regular `run` command.
 
 
 ```
-docker container commit CONTAINER IMAGE
-docker container commit ubu myubu:1.00
+$ docker container commit CONTAINER IMAGE
+$ docker container commit ubu myubu:1.00
 ```
 
 ```
-docker images
-docker container run --rm -it myubu:1.00
+$ docker images
+$ docker container run --rm -it myubu:1.00
 ```
 
 

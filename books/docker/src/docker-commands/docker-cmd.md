@@ -1,7 +1,5 @@
 # Docker CMD
 
-* CMD
-
 * [CMD](https://docs.docker.com/engine/reference/builder/#cmd)
 
 CMD - the default command when the container starts

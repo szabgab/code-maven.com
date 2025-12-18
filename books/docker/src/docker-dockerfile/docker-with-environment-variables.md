@@ -1,6 +1,5 @@
 # Docker and environment variables with ENV
 
-
 * ENV
 * --env
 
@@ -14,7 +13,7 @@ When running docker we can override these and provide other environment varibles
 
 
 ```
-docker build -t mydocker .
+$ docker build -t mydocker .
 ```
 
 ```

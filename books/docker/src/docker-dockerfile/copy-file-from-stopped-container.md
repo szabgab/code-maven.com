@@ -16,8 +16,8 @@ The `cp` command looks similar to the `cp` command of Linux.
 
 
 ```
-docker container cp CONTAINER_NAME:FILE .
-docker container cp ubu:welcome.txt .
+$ docker container cp CONTAINER_NAME:FILE .
+$ docker container cp ubu:welcome.txt .
 ```
 
 * On your host OS you can copy files from the container to the external filesystem.

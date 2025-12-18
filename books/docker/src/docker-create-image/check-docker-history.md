@@ -2,8 +2,8 @@
 
 
 ```
-docker history ubuntu:23.04
-docker history myubu:1.00
+$ docker history ubuntu:25.10
+$ docker history myubu:1.00
 ```
 
 

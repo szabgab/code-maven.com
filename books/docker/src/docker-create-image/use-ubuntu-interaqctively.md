@@ -29,8 +29,10 @@ the exited Docker container called ubu.
 
 
 ```
-docker run -it --name ubu ubuntu:23.04
+$ docker run -it --name ubu ubuntu:25.10
+```
 
+```
 # htop
 # apt-get update
 # apt-get install htop
@@ -43,7 +45,7 @@ docker run -it --name ubu ubuntu:23.04
 ```
 
 ```
-docker ps -a
+$ docker container ls -a
 ```
 
 

@@ -1,6 +1,6 @@
-FROM ubuntu:23.04
-RUN apt-get update && \
-    apt-get install -y cron
+FROM ubuntu:25.10
+RUN apt update && \
+    apt install -y cron
 
 COPY crontab.txt /opt
 RUN crontab /opt/crontab.txt

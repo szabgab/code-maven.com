@@ -3,10 +3,10 @@
 We went over this step-by-step earlier, but let's have all the step in one place:
 
 
-* Run container interactively (based on Ubuntu 23.04, call it ubu)
+* Run container interactively (based on Ubuntu 25.10, call it ubu)
 
 ```
-docker run -it --name ubu ubuntu:23.04
+docker run -it --name ubu ubuntu:25.10
 ```
 
 * Install packages, copy or create files, etc..., exit.
@@ -21,13 +21,13 @@ docker run -it --name ubu ubuntu:23.04
 * Create the image called myubu from the container called ubu
 
 ```
-docker container commit ubu myubu:1.00
+$ docker container commit ubu myubu:1.00
 ```
 
 * Run a container based on the new image called myubu:
 
 ```
-docker container run --rm -it myubu:1.00
+$ docker container run --rm -it myubu:1.00
 ```
 
 

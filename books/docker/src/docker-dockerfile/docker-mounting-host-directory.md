@@ -3,7 +3,9 @@
 
 ```
 $ docker run -it --rm -v $(pwd):/opt/ mydocker
+```
 
+```
 # cd /opt
 # ls -l
 ```

@@ -41,7 +41,7 @@ What is your name? Hello , how are you today?
 How to run develop Python programs using PyCharm or Vistual Studio Code on Windows and run the code inside a Docker container?
 
 
-Examples in Ubuntu, Centos 7, and other distributions.
+Examples in Ubuntu, Centos 7, Fedora, SuSE and other distributions.
 
 Add more stand-alone examples in other languages as well
 Add example to use a persistent volume for the "database" (which can be either json file based or SQLite)
@@ -60,4 +60,11 @@ Networking IPv4 IPv6 ?
 docker build cache
 
 docker builder prune
+
+
+Add apt clean?
+
+Docker compose don't install in python
+
+pyhton: also use uv
 
