@@ -2,8 +2,11 @@
 
 
 ```
-$ docker rmi hello-world
 $ docker image rm hello-world
 ```
 
+For historical reasons we can also use the `rmi` command:
 
+```
+$ docker rmi hello-world
+```

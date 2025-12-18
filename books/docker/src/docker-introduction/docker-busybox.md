@@ -8,9 +8,12 @@
 
 
 ```
-docker run busybox echo hello world
+$ docker run busybox echo hello world
+```
 
-docker run busybox echo something else
+
+```
+$ docker run busybox echo something else
 ```
 
 

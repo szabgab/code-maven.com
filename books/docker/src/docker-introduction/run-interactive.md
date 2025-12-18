@@ -1,7 +1,7 @@
 # Run an interactive sesson using the -it flags
 
 ```
-docker run -it busybox
+$ docker run -it busybox
 ```
 
 Inside the docker container try various linux commands, but do NOT exit the container.

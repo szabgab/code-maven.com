@@ -1,4 +1,4 @@
-# After Hello World
+# After Hello World - list containers
 
 
 no running containers, but there is one on the disk:
@@ -21,16 +21,6 @@ docker ps
 
 ```
 $ docker container ps --help
-```
-
-There is also an image
-
-```
-$ docker images
-$ docker image ls
-$ docker image list
-REPOSITORY          TAG                 IMAGE ID            CREATED             SIZE
-hello-world         latest              48b5124b2768        6 weeks ago         1.84 kB
 ```
 
 
