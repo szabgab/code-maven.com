@@ -7,7 +7,7 @@ A new container is created, ran, and exited.
 $ docker run hello-world
 ...
 
-$ docker ps -as
+$ docker container ps -as
 
 CONTAINER ID        IMAGE               COMMAND             CREATED             STATUS                      PORTS               NAMES               SIZE
 42bbb5394617        hello-world         "/hello"            16 minutes ago      Exited (0) 16 minutes ago                       blissful_knuth      0 B (virtual 1.84 kB)

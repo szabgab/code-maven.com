@@ -10,8 +10,6 @@ docker --version
 
 Output:
 
-```
-Docker version 19.03.6, build 369ce74a3c
-```
+{% embed include file="src/examples/dash-version.txt" %}
 
 

@@ -1,0 +1,60 @@
+Client: Docker Engine - Community
+ Version:    26.1.1
+ Context:    default
+ Debug Mode: false
+ Plugins:
+  buildx: Docker Buildx (Docker Inc.)
+    Version:  v0.14.0
+    Path:     /usr/libexec/docker/cli-plugins/docker-buildx
+  compose: Docker Compose (Docker Inc.)
+    Version:  v2.27.0
+    Path:     /usr/libexec/docker/cli-plugins/docker-compose
+
+Server:
+ Containers: 0
+  Running: 0
+  Paused: 0
+  Stopped: 0
+ Images: 9
+ Server Version: 26.1.1
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Using metacopy: false
+  Native Overlay Diff: true
+  userxattr: false
+ Logging Driver: json-file
+ Cgroup Driver: systemd
+ Cgroup Version: 2
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local splunk syslog
+ Swarm: inactive
+ Runtimes: io.containerd.runc.v2 runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: e377cd56a71523140ca6ae87e30244719194a521
+ runc version: v1.1.12-0-g51d5e94
+ init version: de40ad0
+ Security Options:
+  apparmor
+  seccomp
+   Profile: builtin
+  cgroupns
+ Kernel Version: 6.17.0-8-generic
+ Operating System: Ubuntu 25.10
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 16
+ Total Memory: 26.67GiB
+ Name: code-maven
+ ID: 3f89cbf5-7a4a-41c1-bb5d-0e8254f5d944
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ Username: szabgab
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+

@@ -15,6 +15,7 @@
   - [Docker help on CLI](./docker-introduction/docker-help-cli.md)
   - [Docker: desktop - host - daemon - client](./docker-introduction/docker-host-daemon-client.md)
   - [Docker Daemon](./docker-introduction/docker-daemon.md)
+  - [Docker Check status](./docker-introduction/docker-status.md)
   - [Docker Registry](./docker-introduction/docker-registry.md)
   - [Docker: Hello World](./docker-introduction/docker-hello-world.md)
   - [After Hello World](./docker-introduction/docker-after-hello-world.md)

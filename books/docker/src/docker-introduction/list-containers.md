@@ -1,12 +1,13 @@
 # Docker List containers
 
-* ps
-
 ```
-docker container ls
-docker container ls -a
-docker ps                # list the running containers
-docker ps -a             # list all the containers
+docker container ls     # list the running containers
+docker container ls -a  # list all the containers
 ```
 
+Alternative (older) spelling:
 
+```
+docker ps
+docker container ps
+```
