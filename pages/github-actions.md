@@ -32,7 +32,8 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
 * [Run code if file changes](https://github.com/szabgab/github-actions-run-code-if-files-change)
 * [Incremental caching demo using S3 compatibale object storage of Linode](https://github.com/szabgab/github-actions-with-linode-s3)
 * [Cache restore and save](https://github.com/szabgab/github-actions-restore-and-save) (not doing what I wanted)
-* <a href="https://github.com/szabgab/github-actions-environment-variables">Environment variables
+* [Environment variables](https://github.com/szabgab/github-actions-environment-variables)
+* [Check the owner](https://github.com/Code-Maven/github-actions-dont-run-in-forks/) - don't run in forks.
 
 * [Run only on the main branch and the pr/* branches](https://github.com/szabgab/github-actions-for-pr-branches) to reduce CI runs in the organization, but allow CI runs for contributors in their forks
 
@@ -45,7 +46,4 @@ A list of repositories with sample GitHub Action configurations. Feel free to us
 * [List of files changed since the most recent push or in the current pull-request](https://github.com/szabgab/github-actions-list-files-changed/)
 
 * [Try others](https://github.com/szabgab/try-github-actions/)
-<!--
-* <a href=""></a>
--->
 
