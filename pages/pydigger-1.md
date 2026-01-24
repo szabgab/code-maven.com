@@ -20,8 +20,7 @@ In this [live pair programming](/live) session
 
 {% youtube id="gHXzNLx4oF4" file="pydigger-with-upasana-shukla-2021-05-09_1546x720.mp4" %}
 
-<a href="https://stackoverflow.com/questions/43720339/docker-error-could-not-find-an-available-non-overlapping-ipv4-address-pool-am">ERROR: could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the
-network</a>
+[ERROR: could not find an available, non-overlapping IPv4 address pool among the defaults to assign to the network](https://stackoverflow.com/questions/43720339/docker-error-could-not-find-an-available-non-overlapping-ipv4-address-pool-am)
 
 * [0:00 The beginning](https://youtu.be/gHXzNLx4oF4)
 * [1:00 Upasana introducing herself](https://youtu.be/gHXzNLx4oF4?t=60)
@@ -30,8 +29,7 @@ network</a>
 * [4:28 Introducing the PyDigger project](https://youtu.be/gHXzNLx4oF4?t=268)
 * [11:15 What are we going to do?](https://youtu.be/gHXzNLx4oF4?t=675)
 * [11:50 Visit the Issues](https://youtu.be/gHXzNLx4oF4?t=710)
-* [12:50 What operating system do you use? Let's setup the development environment](https://youtu.be/gHXzNLx4oF4?t=770) (The docker-compose has changed a bit since we recorded the video. See the <a
-href="https://github.com/szabgab/pydigger.com/">README of the project</a>) Upasana fixing the Docker network issue.
+* [12:50 What operating system do you use? Let's setup the development environment](https://youtu.be/gHXzNLx4oF4?t=770) (The docker-compose has changed a bit since we recorded the video. See the [README of the project](https://github.com/szabgab/pydigger.com/) Upasana fixing the Docker network issue.
 * [30:47 The development environment is running. Run the tests. Collect some data.](https://youtu.be/gHXzNLx4oF4?t=1847)
 * [33:25 Updating the GitHub Actions file](https://youtu.be/gHXzNLx4oF4?t=2005)
 * [38:25 Create a branch and commit the first change to the project. Wait for the CI system to run.](https://youtu.be/gHXzNLx4oF4?t=2305)

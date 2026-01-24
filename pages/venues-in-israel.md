@@ -98,8 +98,8 @@ There is also a kitchen area with some free refreshments:
 
 <img src="/static/img/venues-il/microsoft-tlv-kitchen.jpg" />
 
-They have their own event-calendar on the <a href="https://developer.microsoft.com/en-us/reactor/">web site of the
-Reactor</a> where you can check availability of the space and they have
+They have their own event-calendar on the [web site of the Reactor](https://developer.microsoft.com/en-us/reactor/)
+where you can check availability of the space and they have
 an on-line form to request the space.
 
 
@@ -135,15 +135,15 @@ to you soon.
 
 The auditorium:
 
-<a href="/static/img/venues-il/ironsource-empty-big.jpg"><img src="/static/img/venues-il/ironsource-empty.jpg" /></a>
+<img src="/static/img/venues-il/ironsource-empty.jpg" />
 
 The auditorium packed with people:
 
-<a href="/static/img/venues-il/ironsource-full-big.jpg"><img src="/static/img/venues-il/ironsource-full.jpg" /></a>
+<img src="/static/img/venues-il/ironsource-full.jpg" />
 
 The terrace:
 
-<a href="/static/img/venues-il/ironsource-outside-big.jpg"><img src="/static/img/venues-il/ironsource-outside.jpg" /></a>
+<img src="/static/img/venues-il/ironsource-outside.jpg" />
 
 
 ### [RedisLabs](https://redislabs.com/) - Tel Aviv
@@ -185,8 +185,7 @@ to find a venue there, it is probably best to talk to the organizers of one of t
 
 The biggest ones are
 [Made in JLM- Jerusalem Tech & Start-Up Community](https://www.meetup.com/MadeinJLM/) has over 3,000 members,
-<a href="https://www.meetup.com/DataTalks-JLM-Machine-and-Deep-Learning-in-the-Holy-City/">JerusML - Machine and Deep
-Learning in the Holy City</a> has 1,600 members.
+[JerusML - Machine and Deep Learning in the Holy City](https://www.meetup.com/DataTalks-JLM-Machine-and-Deep-Learning-in-the-Holy-City/) has 1,600 members.
 
 Search for more
 [groups in Jerusalem](https://www.meetup.com/find/?allMeetups=true&radius=10&userFreeform=Jerusalem%2C+Israel&mcId=c1017961&change=yes&sort=recommended&eventFilter=mysugg).
@@ -198,8 +197,7 @@ Search for more
 Wix has an office in Torat HaYahasut 11, Beer Sheva where they organize events. See the Tel Aviv listing above.
 
 In addition you can find
-<a href="https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg">groups
-in Beer Sheva</a>.
+[groups in Beer Sheva](https://www.meetup.com/find/?allMeetups=true&radius=25&userFreeform=Be%27er+Sheva%2C+Israel&mcId=c1017966&change=yes&sort=recommended&eventFilter=mysugg).
 
 ### Herzliya
 

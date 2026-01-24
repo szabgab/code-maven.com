@@ -21,9 +21,9 @@ Experimenting with mapping functions among languages.
 
 
 * [Perl: undef](https://perlmaven.com/undef-and-defined-in-perl)
-* <a href="">Python None</a>
-* <a href="">Ruby Nil</a>
-* <a href="">SQL, PHP, Java: NULL</a>
+* Python None
+* Ruby Nil
+* SQL, PHP, Java: NULL
 
 
 * [Perl map](https://perlmaven.com/transforming-a-perl-array-using-map)

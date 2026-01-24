@@ -69,7 +69,4 @@ Go, Perl, Java, and C#.
 [MaxMind.com](https://www.maxmind.com/en/home) has some projects on [GitHub](https://github.com/maxmind). The languages are
 Node.js, Python, Ruby, Java, Go, PHP, .NET, C and Perl.
 
-<!--
-<a href=""></a>
-<a href="">GitHub</a>
--->
+
