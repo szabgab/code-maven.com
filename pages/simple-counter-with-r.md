@@ -10,8 +10,7 @@ show_related: true
 ---
 
 
-I have been learning R and preparing [examples for R](https://code-maven.com/slides/r/). One of the fun small script I created is also part of the <a href="/counter">counter example series.
-
+I have been learning R and preparing [examples for R](https://code-maven.com/slides/r/). One of the fun small script I created is also part of the [counter example series](/counter).
 
 {% include file="examples/r/counter.R" %}
 

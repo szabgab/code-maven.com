@@ -16,14 +16,6 @@ Live pair programming events
 <!--
     * [2021.05.03 - ](https://code-maven.com/)
     * [2021.05.19 - Mejorar una librería de Perl](https://es.code-maven.com/programacion-por-pares) con Juan J. Merelo (Spanish)
-
-
-Scheduled for <span id="localdate" x-schedule="2021-05-26T19:00:00+03:00"></span>
-
-<a class="btn btn-lg btn-success" href="">Register here</a>
-
-Check out all the other [live](https://code-maven.com/live) events and the calendar where you'll be able to see the time given in your time-zone.
-
 -->
 
 ## Scheduled

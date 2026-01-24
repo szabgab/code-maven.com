@@ -28,7 +28,7 @@ In this [live pair programming](/live) session
 * [12:00 Running the tests with the flake8 flag and running through the issues.](https://youtu.be/X5xqXwhaASg?t=720)
 * [17:00 Using a variable that does not exist. Digging through git history understanding what we did last time.](https://youtu.be/X5xqXwhaASg?t=1020)
 * [24:30 Development configuration (dev.yml)](https://youtu.be/X5xqXwhaASg?t=1470)
-* <a href="https://youtu.be/X5xqXwhaASg?t=1845">30:45 Using <b>git stash</b> and then <b>git checkout</b> older version to find how we broke the code.</a> Upasana showing her total control of git.
+* [30:45 Using](https://youtu.be/X5xqXwhaASg?t=1845) `git stash` and then `git checkout` older version to find how we broke the code. Upasana showing her total control of git.
 * [40:06 We found the bug. Now let's check it and the clean up more of the issues reported by flake8.](https://youtu.be/X5xqXwhaASg?t=2406)
 * [47:30 Add flake8 testing to the CI system as well.](https://youtu.be/X5xqXwhaASg?t=2850)
 * [49:00 Looking at the flake8 configuration in setup.cfg and explaining about them.](https://youtu.be/X5xqXwhaASg?t=2940)

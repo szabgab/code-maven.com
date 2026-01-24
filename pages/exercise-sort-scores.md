@@ -55,9 +55,8 @@ Bozo     17
 
 ## Tools
 
-* 
 
 ## Solutions
+
 * [Perl 5: sort scores](https://perlmaven.com/beginner-perl-maven-solution-sort-scores)
-* <a href=""></a>
 

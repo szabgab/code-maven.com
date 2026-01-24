@@ -44,10 +44,3 @@ I am also very interested in the practices and processes employed. After all tha
 I think these issues can be interesting to all the engineers around the world and hope that you too will learn from them.
 
 
-<!--
-
-## Upcoming interviews
-
-* <a href=""></a>
--->
-

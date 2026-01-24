@@ -37,7 +37,7 @@ A lot less on [GitLab](https://gitlab.com/). I'd be glad to hear about other hos
 Open Source projects.
 
 Where can you find projects? You can search for them on the web site of the VCS hosting service or on one of the digger
-projects I've been building. The currently existing projects are <a href="https://pydigger.com/">PyDigger for Python,
+projects I've been building. The currently existing projects are [PyDigger for Python](https://pydigger.com/),
 [CPAN Digger](https://cpan-digger.perlmaven.com/) for Perl, and the [Ruby Digger](https://ruby-digger.code-maven.com/).
 
 Let's get started!

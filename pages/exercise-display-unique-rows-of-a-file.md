@@ -40,8 +40,6 @@ D 4
 
 ## Tools
 
-* <a href=""></a>
 
 ## Solutions
 
-* <a href=""></a>

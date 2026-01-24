@@ -21,22 +21,6 @@ improve your LinkedIn page and how you use LinkedIn. How to improve your CV, you
 You'll also hear about the hiring process of each company and what are they really looking for in a new employee.
 
 
-<!--
-## Next event
--->
-
-<!--
-This is going to be a live webinar in which you'll be able to ask questions and share your LinkedIn profile to get (public)
-feedback on how to improve it.
-
-It is scheduled for June 29 18:00 ILT, 15:00 UTC, 11:00 EST, 08:00 PST
-
-<a class="btn btn-lg btn-success" href="">Register here</a>
-
-<screencast file="" youtube="" />
--->
-
-
 ## Past events
 
 Watch the earlier episodes:

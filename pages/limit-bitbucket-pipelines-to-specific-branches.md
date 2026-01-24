@@ -37,9 +37,7 @@ The above configuration will not run for a branch called <b>feature/a/b</b> as a
 captures a single directory level. If you'd like to have any number of directory levels, you can use
 <b>**</b>. As in <b>feature/**</b>.
 
-Check out the valid <a
-href="https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html#Configurebitbucket-pipelines.yml-globbing_patterns">globbing
-patterns</a>.
+Check out the valid [globbing patterns](https://confluence.atlassian.com/bitbucket/configure-bitbucket-pipelines-yml-792298910.html#Configurebitbucket-pipelines.yml-globbing_patterns).
 
 ## Exclude or skip specific branches
 

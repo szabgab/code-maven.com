@@ -31,6 +31,5 @@ convert image.png -resize 300x400 new_image.png
 ```
 
 
-See also <a href="https://guides.wp-bullet.com/batch-resize-images-using-linux-command-line-and-imagemagick/">Batch
-Resize Images using Linux Command Line and Imagemagick</a>
+See also [Batch Resize Images using Linux Command Line and Imagemagick](https://guides.wp-bullet.com/batch-resize-images-using-linux-command-line-and-imagemagick/).
 

@@ -44,7 +44,7 @@ There are several Data aggregators and Graphings tools ([StatsD Backends](https:
   [Build your own monitoring dashboard with Graphite, Statsd, & Grafana](https://www.youtube.com/watch?v=V6Rxs9LeKew)
   [How To Install and Use Graphite on an Ubuntu 14.04 Server](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-graphite-on-an-ubuntu-14-04-server)
 
-<a  href="http://ganglia.sourceforge.net/">Ganglia</a>
+[Ganglia](http://ganglia.sourceforge.net/)
 
 [DataDog](https://www.datadoghq.com/) is an integrated service providing both data aggregation, graphs and integration with lots of other tools and services.
 

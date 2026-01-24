@@ -51,8 +51,7 @@ First we update the list of available Ubuntu packages.
 
 Then we install <b>tzdata</b>. Normally it would ask questions during installation. The two environment variables provide the values to these questions.
 
-Finally we install the command line version of php (no web server is needed for this project), [composer](https://getcomposer.org/) which is a package management system for PHP and <a 
-href="https://phpunit.de/">PHP Unit</a>, the testing framework of PHP.
+Finally we install the command line version of php (no web server is needed for this project), [composer](https://getcomposer.org/) which is a package management system for PHP and [PHP Unit](https://phpunit.de/), the testing framework of PHP.
 
 ```
 apt-get update
