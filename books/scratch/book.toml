@@ -7,7 +7,7 @@ title = "Scratch"
 # Add github icon to the menu
 [output.html]
 git-repository-url = "https://github.com/szabgab/code-maven.com"
-git-repository-icon = "fa-github"
+git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/code-maven.com/edit/main/books/scratch/{path}"
 
 [output.markdown]

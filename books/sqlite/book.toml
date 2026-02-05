@@ -9,7 +9,7 @@ title = "SQLite - Embedded Relational Database"
 # Add github icon to the menu
 [output.html]
 git-repository-url = "https://github.com/szabgab/code-maven.com"
-git-repository-icon = "fa-github"
+git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/code-maven.com/edit/main/books/sqlite/{path}"
 
 [output.markdown]
