@@ -71,3 +71,6 @@
   - [nmap](./open-source-projects/nmap.md)
   - [PyPI](./open-source-projects/pypi.md)
 
+- [Perl](./perl/index.md)
+  - [Link to VCS](./perl/link-to-vcs.md)
+
