@@ -73,4 +73,5 @@
 
 - [Perl](./perl/index.md)
   - [Link to VCS](./perl/link-to-vcs.md)
+  - [GitHub Actions](./perl/ci-github-actions.md)
 

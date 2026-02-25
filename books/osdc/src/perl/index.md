@@ -8,5 +8,6 @@ There are many things one can contribute, here I'll try to describe several opti
 
 
 1. Add META data: [Link to VCS](./link-to-vcs.md)
-
-
+1. Add Continuous Integration (CI)
+    * [GitHub Actions](./ci-github-actions.md)
+    * GitLab Pipelines
