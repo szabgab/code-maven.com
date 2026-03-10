@@ -65,6 +65,7 @@
   - [Task: Awesome for beginners and non-programmers](./osdc-collab-dev/awesome-for-beginners.md)
   - [Task: Pydigger](./osdc-collab-dev/pydigger.md)
   - [Testing and CI](./osdc-collab-dev/testing-and-ci.md)
+  - [First clone then fork](./osdc-collab-dev/first-clone-then-fork.md)
 
 - [Open Source Projects](./open-source-projects/index.md)
   - [Moodle](./open-source-projects/moodle.md)
