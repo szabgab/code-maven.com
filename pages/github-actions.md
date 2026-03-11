@@ -15,6 +15,8 @@ show_related: true
 
 A list of repositories with sample GitHub Action configurations. Feel free to use these skeletons!
 
+For the full list visit the [GitHub Actions](https://git.code-maven.com/github-actions/) book.
+
 
 * [Bash](https://github.com/szabgab/github-actions-bash)
 * [Crystal](https://github.com/szabgab/github-actions-crystal)
