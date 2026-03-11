@@ -76,3 +76,8 @@
   - [Link to VCS](./perl/link-to-vcs.md)
   - [GitHub Actions](./perl/ci-github-actions.md)
 
+- [Python](./python/index.md)
+  - [Link to VCS](./python/link-to-vcs.md)
+  - [GitHub Actions](./python/ci-github-actions.md)
+  - [Improve test coverage](./python/test-coverage.md)
+
