@@ -35,3 +35,6 @@ done
 ```
 
 
+* Check if file exists
+* Echo here document into a file
+
