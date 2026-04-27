@@ -2,14 +2,14 @@
 
 * Using in-memory database
 
-```
-sqlite3
+```shell
+$ sqlite3
 ```
 
-* Using a database file
+* Using a persistent database file
 
-```
-sqlite3 my.db
+```shell
+$ sqlite3 my.db
 ```
 
 

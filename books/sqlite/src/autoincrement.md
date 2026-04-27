@@ -1,15 +1,10 @@
 # AUTOINCREMENT
 
-```sql
-{{#include ../examples/autoincrement.sql}}
-```
+{% embed include file="examples/autoincrement.sql" %}
 
-```
-$ sqlite3 demo.db < autoincrement.sql
+```shell
+$ sqlite3 < autoincrement.sql
 1|foo
 2|bar
-
-$ rm -f demo.db
 ```
-
 

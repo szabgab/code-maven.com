@@ -1,14 +1,11 @@
 # Field with DEFAULT value
 
-```sql
-{{#include ../examples/default-value.sql}}
-```
+{% embed include file="examples/default-value.sql" %}
 
 ```
-$ sqlite3 demo.db < default-value.sql ; rm -f demo.db
+$ sqlite3 < default-value.sql
 Language?|SQL
 Database?|SQLite
 Meaning of life?|42
 ```
-
 

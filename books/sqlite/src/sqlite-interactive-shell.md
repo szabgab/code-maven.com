@@ -1,4 +1,4 @@
-# SQLite interactive shell
+# SQLite interactive shell - `.version`, `.help`, `.quit`
 
 ```
 $ sqlite3
@@ -17,5 +17,4 @@ sqlite> .help
 
 sqlite> .quit
 ```
-
 

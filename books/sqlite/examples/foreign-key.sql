@@ -7,7 +7,6 @@ CREATE TABLE people (
 
 );
 
-
 CREATE TABLE groups (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,

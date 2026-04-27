@@ -1,7 +1,4 @@
 # UPDATE
 
-```sql
-{{#include ../examples/update.sql}}
-```
-
+{% embed include file="examples/update.sql" %}
 

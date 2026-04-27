@@ -6,35 +6,22 @@
 * Move some money from one account to another - Transaction - stop in the middle. Worked. (money stayed where it was)
 * Remove bank
 
-```sql
-{{#include ../examples/bank/setup_bank.sql}}
-```
-
-```sql
-{{#include ../examples/bank/show.sql}}
-```
-
-```sql
-{{#include ../examples/bank/transfer.sql}}
-```
-
-```sql
-{{#include ../examples/bank/without_transaction.sql}}
-```
+{% embed include file="examples/bank/setup_bank.sql" %}
 
 
-```sql
-{{#include ../examples/bank/with_transaction.sql}}
-```
+{% embed include file="examples/bank/show.sql" %}
 
-```sh
-{{#include ../examples/bank/steps.sh}}
-```
+{% embed include file="examples/bank/transfer.sql" %}
+
+{% embed include file="examples/bank/without_transaction.sql" %}
 
 
-```txt
-{{#include ../examples/bank/out.out}}
-```
+{% embed include file="examples/bank/with_transaction.sql" %}
+
+{% embed include file="examples/bank/steps.sh" %}
+
+
+{% embed include file="examples/bank/out.out" %}
 
 
 * TODO: loading a large CSV file into the database and running queries.
