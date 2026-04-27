@@ -1,0 +1,11 @@
+# Data types
+
+* [Data types](https://sqlite.org/datatype3.html)
+* [Flexible typing](https://sqlite.org/flextypegood.html)
+
+* NULL
+* INTEGER
+* REAL
+* TEXT
+* BLOB
+

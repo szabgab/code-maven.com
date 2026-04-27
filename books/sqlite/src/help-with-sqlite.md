@@ -4,4 +4,3 @@
 echo .help | sqlite3
 ```
 
-

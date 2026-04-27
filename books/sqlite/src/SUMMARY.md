@@ -10,6 +10,7 @@
     - [Help with SQLite](./help-with-sqlite.md)
     - [SQLite interactive shell](./sqlite-interactive-shell.md)
     - [SQLite interactive shell - CREATE-INSERT-SELECT manually](./sqlite-interactive-shell-manually.md)
+    - [Data types](./data-types.md)
 - [Basic Operations](./basic-operations.md)
     - [CREATE INSERT SELECT](./create-insert-select.md)
     - [AUTOINCREMENT](./autoincrement.md)
@@ -18,7 +19,13 @@
     - [UPDATE](./update.md)
     - [FOREIGN KEY](./foreign-key.md)
     - [PRAGMA](./pragma.md)
+- [Import data from CSV](./import-data-from-csv.md)
+  - [Import iris.csv](./import-iris.md)
+  - [Load schema and Import iris.csv](./load-schema-and-import-iris.md)
+- [Other operations]()
     - [Aggregate: COUNT, AVG, MAX, MIN](./aggregate.md)
     - [SQLite Transaction - in a bank](./sqlite-transactions-in-a-bank.md)
+    - [DISTINCT](./distinct.md)
 - [SQLite in Python](./sqlite-in-python.md)
+
 
