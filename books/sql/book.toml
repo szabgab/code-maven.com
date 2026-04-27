@@ -18,6 +18,3 @@ additional-js = ["custom.js", "addlinks.js"]
 footer.enable = true
 footer.message = "Copyright © 2026 • Created with ❤️  by [Gábor Szabó](https://szabgab.com/)"
 
-
-
-
