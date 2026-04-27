@@ -1,4 +1,6 @@
-# WHERE not
+# SELECT FROM - WHERE not
+
+In our `WHERE` clause we can also use "not equal" (`!=`).
 
 
 ```

@@ -1,6 +1,6 @@
 # RDBMS - Relational Databases
 
-* RDBMS
+Some of the acronyms used
 
 * [RDBMS - Relational database management system](https://en.wikipedia.org/wiki/Relational_database_management_system)
 * [SQL - Structured Query Language](https://en.wikipedia.org/wiki/SQL)

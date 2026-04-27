@@ -1,6 +1,8 @@
-# SELECT WHERE
+# SELECT FROM - WHERE
 
-* WHERE
+The `WHERE` clause can be used to filter the columns.
+
+
 {% embed include file="src/examples/select_sumo.sql" %}
 
 ```

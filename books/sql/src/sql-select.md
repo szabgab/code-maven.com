@@ -1,7 +1,10 @@
-# SELECT
+# SELECT FROM
 
-* SELECT
-* FROM
+We use the `SELECT FROM` expression to fetch data from the database. The `*` means that we would like to see all the columns. After the `FROM` we put the table.
+
+Instead of the `*` we could select specific columns, reducing the data transfer. We could also add a `WHERE` clause to filter the rows according to some condition.
+
+We could also use multiple tables and their relationship.
 
 {% embed include file="src/examples/select_all.sql" %}
 

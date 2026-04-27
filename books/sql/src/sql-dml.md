@@ -1,12 +1,9 @@
 # DML - Data Manipulation Language
 
-* DML
+The [DML](https://en.wikipedia.org/wiki/Data_manipulation_language) is another part of SQL.
 
-* [DML](https://en.wikipedia.org/wiki/Data_manipulation_language)
 * INSERT
 * UPDATE
 * DELETE
 * SELECT
-
-
 
