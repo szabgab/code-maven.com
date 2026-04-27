@@ -9,6 +9,7 @@ title = "SQL - Relational Databases"
 git-repository-url = "https://github.com/szabgab/code-maven.com"
 git-repository-icon = "fas-code-fork"
 edit-url-template = "https://github.com/szabgab/code-maven.com/edit/main/books/sql/{path}"
+additional-js = ["custom.js", "addlinks.js"]
 
 [output.markdown]
 
