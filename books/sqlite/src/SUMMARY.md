@@ -16,6 +16,7 @@
     - [AUTOINCREMENT](./autoincrement.md)
     - [Missing value](./missing-value.md)
     - [Field with DEFAULT value](./field-with-default-value.md)
+    - [NOT NULL constraint](./not-null.md)
     - [UPDATE](./update.md)
     - [FOREIGN KEY](./foreign-key.md)
     - [PRAGMA](./pragma.md)

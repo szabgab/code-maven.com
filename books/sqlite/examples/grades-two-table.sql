@@ -1,3 +1,9 @@
+PRAGMA foreign_keys = ON;
+
+CREATE TABLE ubjects (
+    id INTEGER NOT NULL,
+)
+
 CREATE TABLE person (
     name TEXT,
     subject TEXT,
