@@ -19,13 +19,17 @@
     - [UPDATE](./update.md)
     - [FOREIGN KEY](./foreign-key.md)
     - [PRAGMA](./pragma.md)
+- [SELECT without table](./select-without-table.md)
 - [Import data from CSV](./import-data-from-csv.md)
   - [Import iris.csv](./import-iris.md)
   - [Load schema and Import iris.csv](./load-schema-and-import-iris.md)
+  - [Import planets.csv](./import-planets.md)
 - [Other operations]()
     - [Aggregate: COUNT, AVG, MAX, MIN](./aggregate.md)
     - [SQLite Transaction - in a bank](./sqlite-transactions-in-a-bank.md)
     - [DISTINCT](./distinct.md)
+    - [LIMIT](./limit.md)
+    - [Increment value](./increment-value.md)
 - [SQLite in Python](./sqlite-in-python.md)
 
 
