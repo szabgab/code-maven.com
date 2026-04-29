@@ -1,4 +1,4 @@
-# SQLite interactive shell - CREATE-INSERT-SELECT manually
+# SQLite in-memory or file-based
 
 * Using in-memory database
 

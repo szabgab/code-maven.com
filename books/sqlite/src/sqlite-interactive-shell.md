@@ -19,13 +19,4 @@ sqlite> .quit
 ```
 
 
-## To run any external (shell) command
 
-```
-sqlite> .shell ls
-```
-
-```
-.schema
-.tables
-```
