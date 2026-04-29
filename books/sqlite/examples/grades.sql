@@ -4,17 +4,18 @@ CREATE TABLE person (
     grade INTEGER
 );
 
-INSERT INTO person (name, subject, grade) VALUES ('Jane',  'Chemistry', 62);
-INSERT INTO person (name, subject, grade) VALUES ('Jane',  'Physics', 70);
-INSERT INTO person (name, subject, grade) VALUES ('Jane',  'Math', 23);
-INSERT INTO person (name, subject, grade) VALUES ('Joe',   'Chemistry', 45);
-INSERT INTO person (name, subject, grade) VALUES ('Joe',   'Physics', 85);
-INSERT INTO person (name, subject, grade) VALUES ('Joe',   'Math', 77);
-INSERT INTO person (name, subject, grade) VALUES ('Peter', 'Chemistry', 35);
-INSERT INTO person (name, subject, grade) VALUES ('Peter', 'Physics', 63);
-INSERT INTO person (name, subject, grade) VALUES ('Mary',  'Chemistry', 95);
-INSERT INTO person (name, subject, grade) VALUES ('Dean', 'Physics', 100);
-INSERT INTO person (name, subject, grade) VALUES ('Dana', 'Math', 97);
-INSERT INTO person (name, subject, grade) VALUES ('George', 'Math', 97);
-INSERT INTO person (name, subject, grade) VALUES ('George', 'Chemistry', 45);
+INSERT INTO person (name, subject, grade) VALUES
+    ('Jane',  'Chemistry', 62),
+    ('Jane',  'Physics', 70),
+    ('Jane',  'Math', 23),
+    ('Joe',   'Chemistry', 45),
+    ('Joe',   'Physics', 85),
+    ('Joe',   'Math', 77),
+    ('Peter', 'Chemistry', 35),
+    ('Peter', 'Physics', 63),
+    ('Mary',  'Chemistry', 95),
+    ('Dean', 'Physics', 100),
+    ('Dana', 'Math', 97),
+    ('George', 'Math', 97),
+    ('George', 'Chemistry', 45);
 

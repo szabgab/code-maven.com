@@ -15,3 +15,8 @@ Export to CSV
 Export to Excel
 
 ACID - Atomic, Consistent, Isolated, and Durable
+
+Check out the [SQL tutorial](https://www.sqltutorial.org/)
+
+
+
