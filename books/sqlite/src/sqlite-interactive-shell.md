@@ -24,3 +24,8 @@ sqlite> .quit
 ```
 sqlite> .shell ls
 ```
+
+```
+.schema
+.tables
+```
