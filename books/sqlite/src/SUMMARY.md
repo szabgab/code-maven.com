@@ -38,6 +38,7 @@
     - [Two tables](./two-tables.md)
     - [FOREIGN KEY](./foreign-key.md)
     - [PRAGMA](./pragma.md)
+- [Family](./family.md)
 - [INDEX and EXPLAIN](./index-and-explain.md)
 - [STRICT Tables](./strict-tables.md)
 - [Default time](./default-time.md)
