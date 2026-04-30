@@ -3,8 +3,10 @@ PRAGMA foreign_keys = ON;
 CREATE TABLE people (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     name TEXT,
-    father,
-    mother
+    father INTEGER,
+    mother INTEGER,
+    FOREIGN KEY (father) REFERENCES people(id),
+    FOREIGN KEY (mother) REFERENCES people(id)
 );
 
 INSERT INTO people (name) VALUES
