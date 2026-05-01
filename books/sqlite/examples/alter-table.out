@@ -1,0 +1,8 @@
+CREATE TABLE person (
+    id INTEGER,
+    name TEXT
+);
+CREATE TABLE person (
+    id INTEGER,
+    name TEXT
+, phone TEXT);

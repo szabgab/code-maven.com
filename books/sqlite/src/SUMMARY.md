@@ -20,6 +20,7 @@
 - [DDL - Data Definition Language](./ddl.md)
     - [CREATE TABLE](./create-table.md)
     - [ALTER TABLE](./alter-table.md)
+    - [ALTER TABLE after adding data](./alter-table-after-adding-data.md)
     - [ALTER TABLE not NULL](./alter-table-not-null.md)
     - [DROP TABLE](./drop-table.md)
 - [Basic Operations](./basic-operations.md)
