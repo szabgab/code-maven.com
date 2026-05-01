@@ -4,6 +4,8 @@
 * [Flexible typing](https://sqlite.org/flextypegood.html)
 * [STRICT tables](https://sqlite.org/stricttables.html)
 
+## Basic types
+
 * NULL
 * INTEGER
 * REAL

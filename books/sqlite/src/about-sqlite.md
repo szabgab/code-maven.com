@@ -1,6 +1,7 @@
 # About SQLite
 
-* [SQLite](https://sqlite.org/) is the most popular embedded relational database.
+* [SQLite](https://sqlite.org/) is the most popular embedded relational database and probably [the widely deployed software module](https://sqlite.org/mostdeployed.html).
+
 
 Some features:
 

@@ -2,6 +2,3 @@ CREATE TABLE person (
     id INTEGER,
     name TEXT
 );
-
-.schema
-

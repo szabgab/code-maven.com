@@ -36,10 +36,11 @@ UPDATE people SET
 
 UPDATE people SET father = 32;
 
-SELECT child.name as Name, father.name as Father, mother.name as Mother
+SELECT child.name AS Name, father.name AS Father, mother.name AS Mother
     FROM people child, people father, people mother
-    WHERE father.id = child.father and mother.id = child.mother
-    ORDER BY child.id;
+    WHERE father.id = child.father AND mother.id = child.mother
+--    ORDER BY child.id;
+    ORDER BY child.name;
 
 -- SELECT child.name AS Name,
 --        IFNULL(father.name, 'NULL') AS Father,
@@ -48,7 +49,7 @@ SELECT child.name as Name, father.name as Father, mother.name as Mother
 --     LEFT JOIN people AS father ON father.id = child.father
 --     LEFT JOIN people AS mother ON mother.id = child.mother
 --     ORDER BY child.id;
-
+--
 -- CREATE VIEW family AS
 --   SELECT child.name AS Name,
 --          IFNULL(father.name, 'NULL') AS Father,
@@ -59,7 +60,7 @@ SELECT child.name as Name, father.name as Father, mother.name as Mother
 --       ORDER BY child.id;
 --
 -- SELECT * FROM family;
-
+--
 -- INSERT INTO people (name) VALUES ('Gabor');
 -- SELECT * FROM family;
 

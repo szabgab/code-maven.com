@@ -19,3 +19,6 @@ INSERT INTO person (name, subject, grade) VALUES
     ('George', 'Math', 97),
     ('George', 'Chemistry', 45);
 
+
+SELECT * FROM person;
+

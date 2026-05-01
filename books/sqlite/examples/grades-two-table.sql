@@ -36,6 +36,14 @@ INSERT INTO person (name, subject_id, grade) VALUES
 SELECT * FROM subject;
 SELECT * FROM person;
 
-SELECT person.name, subject.name AS subject, person.grade FROM person, subject WHERE person.subject_id = subject.id;
+SELECT person.name, subject.name AS subject, person.grade
+  FROM person, subject
+  WHERE person.subject_id = subject.id;
 
-SELECT person.name, subject.name AS subject, person.grade FROM person JOIN subject WHERE person.subject_id = subject.id;
+SELECT person.name, subject.name AS subject, person.grade
+  FROM person JOIN subject
+  WHERE person.subject_id = subject.id;
+
+SELECT person.name, subject.name AS subject, person.grade
+  FROM person INNER JOIN subject
+  WHERE person.subject_id = subject.id;

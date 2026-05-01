@@ -1,4 +1,15 @@
-# SQLite interactive shell - `.version`, `.help`, `.quit`
+# SQLite interactive shell - `.help`
+
+The command line tool has a number of internal commands starting with a dot. `.help` will show the list of the commands.
+`.quit` or `.exit` will close the shell.
+
+[Command Line Shell For SQLite](https://sqlite.org/cli.html)
+
+The commands can be given
+* interactively
+* sent through a pipe
+* redirected from a file
+
 
 ```
 $ sqlite3
@@ -7,16 +18,11 @@ Enter ".help" for usage hints.
 Connected to a transient in-memory database.
 Use ".open FILENAME" to reopen on a persistent database.
 
-sqlite> .version
-SQLite 3.45.1 2024-01-30 16:01:20 e876e51a0ed5c5b3126f52e532044363a014bc594cfefa87ffb5b82257ccalt1
-zlib version 1.3
-gcc-13.2.0 (64-bit)
-
 sqlite> .help
 ...
 
 sqlite> .quit
+
+$
 ```
-
-
 
