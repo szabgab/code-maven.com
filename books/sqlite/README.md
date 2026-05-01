@@ -20,3 +20,8 @@ Check out the [SQL tutorial](https://www.sqltutorial.org/)
 
 SQLite [Documentation](https://sqlite.org/docs.html)
 [Alphabetical List Of Documents](https://sqlite.org/doclist.html)
+
+
+query optimization
+migrations - changes between schema version
+
