@@ -24,6 +24,8 @@
     - [DROP TABLE](./drop-table.md)
 - [DML - Data Manipulation Language - Basic Operations](./basic-operations.md)
     - [CREATE INSERT SELECT](./create-insert-select.md)
+    - [SELECT only some of the columns](./select-some-of-the-columns.md)
+    - [SELECT only some of the rows - WHERE clause](./select-some-of-the-rows.md)
     - [AUTOINCREMENT](./autoincrement.md)
     - [Missing value](./missing-value.md)
     - [Field with DEFAULT value](./field-with-default-value.md)
