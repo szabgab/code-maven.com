@@ -9,6 +9,7 @@
     - [GUI for SQLite](./gui-for-sqlite.md)
     - [SQLite dialect](./sqlite-dialect.md)
     - [Data types](./data-types.md)
+    - [Conventions](./conventions.md)
 - [SQLite interactive shell](./sqlite-interactive-shell.md)
     - [Help with SQLite CLI using piple](./help-with-sqlite.md)
     - [Help with SQLite CLI using redirect](./help-with-sqlite-redirect.md)
@@ -20,10 +21,8 @@
 - [DDL - Data Definition Language](./ddl.md)
     - [CREATE TABLE](./create-table.md)
     - [ALTER TABLE](./alter-table.md)
-    - [ALTER TABLE after adding data](./alter-table-after-adding-data.md)
-    - [ALTER TABLE not NULL](./alter-table-not-null.md)
     - [DROP TABLE](./drop-table.md)
-- [Basic Operations](./basic-operations.md)
+- [DML - Data Manipulation Language - Basic Operations](./basic-operations.md)
     - [CREATE INSERT SELECT](./create-insert-select.md)
     - [AUTOINCREMENT](./autoincrement.md)
     - [Missing value](./missing-value.md)
@@ -52,6 +51,8 @@
     - [DISTINCT](./distinct.md)
     - [LIMIT](./limit.md)
     - [Increment value](./increment-value.md)
+    - [ALTER TABLE after adding data](./alter-table-after-adding-data.md)
+    - [ALTER TABLE not NULL](./alter-table-not-null.md)
 - [SQLite in Python](./sqlite-in-python.md)
 
 

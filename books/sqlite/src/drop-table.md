@@ -4,3 +4,9 @@
 and the `.mode batch` to show a simple line.
 
 {% embed include file="examples/drop-table.sql" %}
+
+```shell
+$ sqlite < examples/drop-table.sql
+```
+
+{% embed include file="examples/drop-table.out" %}
