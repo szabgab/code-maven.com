@@ -4,7 +4,7 @@ CREATE TABLE person (
     email TEXT
 );
 
-INSERT INTO person (id, name, email) VALUES (1, 'Foo', 'foo@example.com');
-INSERT INTO person (id, name, email) VALUES (2, 'Bar', 'bar@example.com');
+INSERT INTO person (id, name, email) VALUES (1, 'Joe', 'joe@example.com');
+INSERT INTO person (id, name, email) VALUES (2, 'Jane', 'jane@example.com');
 SELECT * FROM person;
 

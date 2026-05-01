@@ -1,9 +1,15 @@
-CREATE TABLE people (
+CREATE TABLE person (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
-    username TEXT
+    name TEXT,
+    email TEXT
 );
 
-INSERT INTO people (username) VALUES ('foo');
-INSERT INTO people (username) VALUES ('bar');
-SELECT * from people;
+INSERT INTO person (name, email) VALUES ('Joe', 'joe@example.com');
+INSERT INTO person (name, email) VALUES ('Jane', 'jane@example.com');
+INSERT INTO person (name, email) VALUES ('Mary', 'mary@example.com');
+INSERT INTO person (name, email) VALUES ('Peter', 'peter@example.com');
+
+SELECT * from person;
+
+.schema
 
