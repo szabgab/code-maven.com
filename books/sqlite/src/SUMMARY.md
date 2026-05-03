@@ -1,4 +1,4 @@
-# GitHub pages
+# SQLite
 
 - [SQLite](./sqlite.md)
     - [About SQLite](./about-sqlite.md)
@@ -27,6 +27,7 @@
     - [SELECT only some of the columns](./select-some-of-the-columns.md)
     - [SELECT only some of the rows - WHERE clause](./select-some-of-the-rows.md)
     - [AUTOINCREMENT](./autoincrement.md)
+    - [Invisible AUTOINCREMENT](./invisible-autoincrement.md)
     - [Missing value](./missing-value.md)
     - [Field with DEFAULT value](./field-with-default-value.md)
     - [NOT NULL constraint](./not-null.md)

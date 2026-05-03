@@ -1,0 +1,9 @@
+1|Joe|joe@example.com
+2|Jane|jane@example.com
+3|Mary|mary@example.com
+4|Peter|peter@example.com
+CREATE TABLE person (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    email TEXT
+);
