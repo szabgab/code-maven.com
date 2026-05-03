@@ -105,6 +105,7 @@ a better job with more satisfaction and higher salary.
 * [ELK](/elk/)
 * [Scala](/scala/)
 * [HaMakor](/hamakor/) Open Source in Israel
+* [AI coding](/aicoding/) Co-pilot and friends.
 
 
 ---
