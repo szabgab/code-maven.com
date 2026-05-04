@@ -35,6 +35,7 @@
     - [UPDATE](./update.md)
 - [SELECT without table](./select-without-table.md)
   - [SELECT date and time](./select-date-and-time.md)
+  - [SELECT functions](./select-functions.md)
 - [Import data from CSV](./import-data-from-csv.md)
   - [Import iris.csv](./import-iris.md)
   - [Load schema and Import iris.csv](./load-schema-and-import-iris.md)

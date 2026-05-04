@@ -1,0 +1,33 @@
+Column separator ",", row separator "\n"
+CREATE TABLE "main"."iris"(
+"Id" ANY, "SepalLengthCm" ANY, "SepalWidthCm" ANY, "PetalLengthCm" ANY,
+ "PetalWidthCm" ANY, "Species" ANY)
+
+Added 150 rows with 0 errors using 151 lines of input
+------
+CREATE TABLE "iris"(
+"Id" ANY, "SepalLengthCm" ANY, "SepalWidthCm" ANY, "PetalLengthCm" ANY,
+ "PetalWidthCm" ANY, "Species" ANY);
+------
+╭──────────╮
+│ COUNT(*) │
+╞══════════╡
+│      150 │
+╰──────────╯
+╭────────────────────╮
+│ AVG(SepalLengthCm) │
+╞════════════════════╡
+│ 5.8433333333333337 │
+╰────────────────────╯
+╭────────────────────╮
+│ AVG(PetalLengthCm) │
+╞════════════════════╡
+│ 3.7586666666666662 │
+╰────────────────────╯
+╭────────────────────┬─────────────────╮
+│ AVG(PetalLengthCm) │     Species     │
+╞════════════════════╪═════════════════╡
+│              1.464 │ Iris-setosa     │
+│               4.26 │ Iris-versicolor │
+│ 5.5520000000000005 │ Iris-virginica  │
+╰────────────────────┴─────────────────╯

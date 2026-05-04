@@ -5,13 +5,7 @@
 {% embed include file="examples/date-and-time.sql" %}
 
 ```shell
-$ sqlite3 < date-and-time.sql
-
-date|2026-04-28
-time|09:40:04
-datetime|2026-04-28 09:40:04
-julianday|2461158.90283096
-unixepoch|1777369204
-strftime|
-strftime with param|2026-04-28 09:40:04
+$ sqlite3 < examples/date-and-time.sql
 ```
+
+{% embed include file="examples/date-and-time.out" %}
