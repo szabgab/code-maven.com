@@ -2,4 +2,12 @@
 
 [The Advantages Of Flexible Typing](https://sqlite.org/flextypegood.html)
 
-{% embed include file="examples/flexible_data.sql" %}
+Here, although we declared the types of the fields, we can insert any type of value.
+
+{% embed include file="examples/flexible-data.sql" %}
+
+```
+$ sqlite3 < examples/flexible-data.sql
+```
+
+{% embed include file="examples/flexible-data.out" %}
