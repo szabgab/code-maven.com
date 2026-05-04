@@ -1,0 +1,5 @@
+1|Joe
+|Jane
+Error near line 18: NOT NULL constraint failed: restricted.id
+Error near line 19: NOT NULL constraint failed: restricted.id
+1|Joe

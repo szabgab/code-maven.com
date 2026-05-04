@@ -1,4 +1,4 @@
-# SELECT only some of the fields
+# SELECT only some of the columns
 
 Instead of using a `*` to fetch all the columns, we can define the specific columns we would like to fetch.
 

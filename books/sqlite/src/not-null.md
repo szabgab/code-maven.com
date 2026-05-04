@@ -1,11 +1,11 @@
 # NOT NULL constraint
 
+Here we have two tables. In the `restricted` table we set one of the fields to be `NOT NULL`.
+
 {% embed include file="examples/not-null.sql" %}
 
 ```shell
-$ sqlite3 < not-null.sql
-1|Joe
-|Jane
-Runtime error near line 17: NOT NULL constraint failed: restricted.id (19)
-1|Joe
+$ sqlite3 < examples/not-null.sql
 ```
+
+{% embed include file="examples/not-null.out" %}

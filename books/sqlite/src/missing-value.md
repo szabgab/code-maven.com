@@ -1,21 +1,26 @@
 # Missing value
 
+When we insert data, some columns (besides the id) might be missing. SQLite will insert a [NULL](https://sqlite.org/nulls.html) value.
+
 {% embed include file="examples/missing-text-value.sql" %}
 
 ```shell
-$ sqlite3 < missing-text-value.sql
+$ sqlite3 < examples/missing-text-value.sql
 Language?|SQL
 Database?|SQLite
 Meaning of life?|
 ```
 
-{% embed include file="examples/missing-integer-value.sql" %}
+This is hard to see in the above display, but in the interactive shell or if we use a real terminal it will look much better:
 
-```shell
-$ sqlite3 < missing-integer-value.sql
-2+2|4
-2-2|0
-Meaning of life?|
+```
+╭──────────────────┬────────╮
+│     question     │ answer │
+╞══════════════════╪════════╡
+│ Language?        │ SQL    │
+│ Database?        │ SQLite │
+│ Meaning of life? │ NULL   │
+╰──────────────────┴────────╯
 ```
 
 

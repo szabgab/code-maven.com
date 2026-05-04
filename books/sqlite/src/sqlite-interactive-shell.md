@@ -1,4 +1,4 @@
-# SQLite interactive shell - `.help`
+# SQLite interactive shell - `.help` and `.quit`
 
 The command line tool has a number of internal commands starting with a dot. `.help` will show the list of the commands.
 `.quit` or `.exit` will close the shell.
