@@ -6,10 +6,10 @@ CREATE TABLE people (
 INSERT INTO people (name, grade) VALUES ('Joe', 40);
 INSERT INTO people (name, grade) VALUES ('Jane', 60);
 SELECT * from people;
-SELECT "-------";
+SELECT '-------';
 
-SELECT "Incrementing the grade of Joe by 1";
-UPDATE people SET grade = (SELECT grade FROM people WHERE name = "Joe") + 1 WHERE name = "Joe";
+SELECT 'Incrementing the grade of Joe by 1';
+UPDATE people SET grade = (SELECT grade FROM people WHERE name = 'Joe') + 1 WHERE name = 'Joe';
 SELECT * from people;
-SELECT "";
+SELECT '-------';
 

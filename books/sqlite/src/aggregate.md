@@ -7,5 +7,7 @@
 {% embed include file="examples/aggregate.sql" %}
 
 ```shell
-$ cat grades.sql  aggregate.sql | sqlite3
+$ cat examples/grades.sql  examples/aggregate.sql | sqlite3
 ```
+
+{% embed include file="examples/aggregate.out" %}

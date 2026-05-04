@@ -1,7 +1,11 @@
 # DISTINCT
 
-{% embed include file="examples/handle-iris.sql" %}
+{% embed include file="examples/distinct-iris.sql" %}
 
 ```shell
-$ sqlite3 < handle-iris.sql
+$ sqlite3 < examples/distinct-iris.sql
 ```
+
+{% embed include file="examples/distinct-iris.out" %}
+
+

@@ -1,5 +1,12 @@
+Column separator ",", row separator "\n"
+CREATE TABLE "main"."planets"(
+"Planet name" ANY, "Distance (AU)" ANY, "Mass" ANY)
+
+Added 11 rows with 0 errors using 12 lines of input
+----------
 CREATE TABLE "planets"(
 "Planet name" ANY, "Distance (AU)" ANY, "Mass" ANY);
+----------
 Mercury|0.4|0.055
 Venus|0.7|0.815
 Earth|1|1

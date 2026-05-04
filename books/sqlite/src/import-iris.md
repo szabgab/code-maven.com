@@ -1,7 +1,6 @@
 # Import iris.csv
 
 
-
 {% embed include file="examples/import-iris.sql" %}
 
 ```shell

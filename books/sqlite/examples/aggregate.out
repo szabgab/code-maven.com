@@ -1,0 +1,22 @@
+Jane|Chemistry|62
+Jane|Physics|70
+Jane|Math|23
+Joe|Chemistry|45
+Joe|Physics|85
+Joe|Math|77
+Peter|Chemistry|35
+Peter|Physics|63
+Mary|Chemistry|95
+Dean|Physics|100
+Dana|Math|97
+George|Math|97
+George|Chemistry|45
+13
+Total|13
+Physycs|4
+Failed|4
+Maximum all|100
+Maximum Chemistry|95
+Average all|68.769230769230774
+Average Chemistry|56.4
+Average Physics|79.5
