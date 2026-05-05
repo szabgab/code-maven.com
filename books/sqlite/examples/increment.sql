@@ -13,3 +13,7 @@ UPDATE people SET grade = (SELECT grade FROM people WHERE name = 'Joe') + 1 WHER
 SELECT * from people;
 SELECT '-------';
 
+SELECT 'Incrementing the grade of every person by 5';
+UPDATE people SET grade = grade + 5;
+SELECT * from people;
+SELECT '-------';
