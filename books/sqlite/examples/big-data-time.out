@@ -1,0 +1,10 @@
+Column separator ",", row separator "\n"
+CREATE TABLE "main"."pairs"(
+"name" ANY, "value" ANY)
+
+Added 100000 rows with 0 errors using 100001 lines of input
+aaaafryc|99999
+Run Time: real 0.005019 user 0.005032 sys 0.000000
+Run Time: real 0.027671 user 0.022654 sys 0.005020
+aaaafryc|99999
+Run Time: real 0.000018 user 0.000018 sys 0.000002
