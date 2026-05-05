@@ -7,4 +7,11 @@ We cannot add a column that is `NOT NULL` as it would immediately violate the in
 We can first add the column. Then update the existing rows, then change the column definition.
 
 
-{% embed include file="examples/add-not-null.sql" %}
+{% embed include file="examples/alter-table-not-null.sql" %}
+
+```shell
+sqlite3 < examples/alter-table-not-null.sql
+```
+
+{% embed include file="examples/alter-table-not-null.out" %}
+
