@@ -67,5 +67,6 @@
 - [Optimization](./optimizations.md)
   - [INDEX and EXPLAIN](./index-and-explain.md)
 - [SQLite in Python](./sqlite-in-python.md)
-
+- [SQLite in Rust](./sqlite-in-rust.md)
+- [SQLite in Perl](./sqlite-in-perl.md)
 

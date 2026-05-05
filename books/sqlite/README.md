@@ -37,4 +37,3 @@ CREATE TABLE grades (
 INSERT INTO grades (student, subject, grades) VALUES ('Joe', 'Math', '27,89,32');
 
 
-
