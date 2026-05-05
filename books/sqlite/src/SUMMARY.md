@@ -2,6 +2,7 @@
 
 - [SQLite](./sqlite.md)
     - [About SQLite](./about-sqlite.md)
+    - [Documentation](./documentation.md)
     - [Using SQLite in programming languages](./using-sqlite-in-programming-languages.md)
     - [Main features of SQLite](./main-features.md)
     - [Download and Install SQLite command-line tool](./install-sqlite-command-line-tool.md)
@@ -54,6 +55,7 @@
     - [Aggregate: COUNT, AVG, MAX, MIN](./aggregate.md)
     - [Increment value](./increment-value.md)
 - [Database normalization](./database-normalization.md)
+    - [Multivalue fields](./multivalue-fields.md)
     - [Flat table](./flat-table.md)
     - [Two tables](./two-tables.md)
     - [FOREIGN KEY](./foreign-key.md)

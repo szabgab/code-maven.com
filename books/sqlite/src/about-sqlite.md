@@ -12,4 +12,4 @@ Some features:
 * There is a command-line tool called `sqlite3` to access the data.
 * There are several GUI tools to view and manipulate data.
 * Most programming languages have a library to access an SQLite database.
-
+* [ACID](https://en.wikipedia.org/wiki/ACID) - Atomic, Consistent, Isolated, and Durable
