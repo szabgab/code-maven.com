@@ -35,4 +35,17 @@ CREATE TRIGGER user_cleanup
    DELETE FROM login_whitelist WHERE uid=OLD.id;
   END;
 
+-----
+Conditional CREATE
+
+CREATE TABLE IF NOT EXISTS counters (
+            name TEXT PRIMARY KEY,
+            number INTEGER NOT NULL
+        )
+
+
+# Increment or Insert
+INSERT INTO counters (name, number)
+VALUES (?, 1)
+ON CONFLICT(name) DO UPDATE SET number = number + 1",
 
