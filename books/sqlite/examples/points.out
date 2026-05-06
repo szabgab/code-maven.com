@@ -1,0 +1,3 @@
+Error near line 10: UNIQUE constraint failed: points.x, points.y
+2|3
+4|5

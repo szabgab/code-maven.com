@@ -54,6 +54,8 @@
     - [DISTINCT](./distinct.md)
     - [Aggregate: COUNT, AVG, MAX, MIN](./aggregate.md)
     - [Increment value](./increment-value.md)
+- [Constraints](./constraints.md)
+   - [Multi-column uniqueness constraint](./multi-column-index.md)
 - [Database normalization](./database-normalization.md)
     - [Multivalue fields](./multivalue-fields.md)
     - [Flat table](./flat-table.md)
