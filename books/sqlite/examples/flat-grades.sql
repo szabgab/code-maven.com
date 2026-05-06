@@ -45,6 +45,29 @@ CREATE TABLE new_grades (
 );
 CREATE UNIQUE INDEX new_grades_index ON new_grades (student, subject);
 
+INSERT INTO new_grades (student, subject, grade)
+SELECT students.id, subjects.id, flat_grades.grade
+FROM (
+    SELECT student, 'math' AS subject, math AS grade FROM grades
+    UNION ALL
+    SELECT student, 'chemistry' AS subject, chemistry AS grade FROM grades
+    UNION ALL
+    SELECT student, 'biology' AS subject, biology AS grade FROM grades
+    UNION ALL
+    SELECT student, 'physics' AS subject, physics AS grade FROM grades
+    UNION ALL
+    SELECT student, 'literature' AS subject, literature AS grade FROM grades
+    UNION ALL
+    SELECT student, 'sport' AS subject, sport AS grade FROM grades
+    UNION ALL
+    SELECT student, 'drawing' AS subject, drawing AS grade FROM grades
+) AS flat_grades
+JOIN students ON students.name = flat_grades.student
+JOIN subjects ON subjects.name = flat_grades.subject
+WHERE flat_grades.grade IS NOT NULL AND flat_grades.grade != '';
 
-
-
+SELECT students.name AS student, subjects.name AS subject, new_grades.grade
+FROM new_grades
+JOIN students ON students.id = new_grades.student
+JOIN subjects ON subjects.id = new_grades.subject
+ORDER BY students.id, subjects.id;
