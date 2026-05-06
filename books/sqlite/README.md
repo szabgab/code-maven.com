@@ -20,3 +20,19 @@ Check out the [SQL tutorial](https://www.sqltutorial.org/)
 * migrations - changes between schema version
 * Show complex queries
 * Show other tools.
+
+FOREIGN KEY with multiple fields
+INDEX with multiple fields
+CONSTRAINT uid_pid UNIQUE (uid, pid)
+VARCHAR(255)
+UNIQUE
+
+CREATE TRIGGER user_cleanup
+  BEFORE DELETE ON user FOR EACH ROW
+  BEGIN
+   DELETE FROM subscription WHERE uid=OLD.id;
+   DELETE FROM verification WHERE uid=OLD.id;
+   DELETE FROM login_whitelist WHERE uid=OLD.id;
+  END;
+
+
