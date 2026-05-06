@@ -1,0 +1,5 @@
+Error near line 9: CHECK constraint failed: value IS NULL OR (value BETWEEN 0 AND 100)
+Error near line 12: CHECK constraint failed: value IS NULL OR (value BETWEEN 0 AND 100)
+1|Joe|100
+2|Mary|
+3|Peter|
