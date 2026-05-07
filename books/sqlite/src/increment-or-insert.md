@@ -1,6 +1,7 @@
 # Increment or Insert
 
-[ON CONFLICT](https://sqlite.org/lang_conflict.html)
+
+The [ON CONFLICT](https://sqlite.org/lang_conflict.html) clause is a non-standard extension specific to SQLite.
 
 {% embed include file="examples/increment-or-insert.sql" %}
 
