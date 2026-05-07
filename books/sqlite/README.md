@@ -38,12 +38,7 @@ CREATE TRIGGER user_cleanup
   END;
 
 -----
-Conditional CREATE
 
-CREATE TABLE IF NOT EXISTS counters (
-            name TEXT PRIMARY KEY,
-            number INTEGER NOT NULL
-        )
 
 
 
