@@ -42,6 +42,7 @@
 - [Data type enforcement](./data-type-enforcement.md)
   - [Flexible typing](./flexible-typing.md)
   - [STRICT Tables](./strict-tables.md)
+  - [VARCHAR](./varchar.md)
 - [Import data from CSV](./import-data-from-csv.md)
   - [Import planets.csv](./import-planets.md)
   - [Load schema and import planets.csv](./create-and-import-planets.md)

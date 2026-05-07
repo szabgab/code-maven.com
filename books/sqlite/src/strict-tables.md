@@ -2,6 +2,13 @@
 
 If you really want, you can defined a table to be [STRICT](https://sqlite.org/stricttables.html),  but you need to do that on a per-table basis and the data types you can use are limited.
 
+* INT
+* INTEGER
+* REAL
+* TEXT (UTF-8)
+* BLOB (for binary)
+* ANY
+
 {% embed include file="examples/strict-table.sql" %}
 
 ```shell

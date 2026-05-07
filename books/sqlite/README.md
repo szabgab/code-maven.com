@@ -24,7 +24,6 @@ Check out the [SQL tutorial](https://www.sqltutorial.org/)
 FOREIGN KEY with multiple fields
 INDEX with multiple fields
 CONSTRAINT uid_pid UNIQUE (uid, pid)
-VARCHAR(255)
 UNIQUE
 
 CREATE TRIGGER user_cleanup
