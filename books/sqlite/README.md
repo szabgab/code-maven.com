@@ -46,8 +46,4 @@ CREATE TABLE IF NOT EXISTS counters (
         )
 
 
-# Increment or Insert
-INSERT INTO counters (name, number)
-VALUES (?, 1)
-ON CONFLICT(name) DO UPDATE SET number = number + 1",
 
