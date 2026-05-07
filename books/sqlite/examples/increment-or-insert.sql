@@ -1,5 +1,5 @@
 CREATE TABLE counters (
-    name UNIQUE NOT NULL,
+    name TEXT UNIQUE NOT NULL,
     number INTEGER NOT NULL
 );
 
