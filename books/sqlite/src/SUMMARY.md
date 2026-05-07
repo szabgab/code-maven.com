@@ -78,6 +78,8 @@
   - [Increment or Insert](./increment-or-insert.md)
   - [INSERT or UPDATE (replace)](./insert-or-replace.md)
   - [Conditional CREATE](./conditional-create.md)
+- [migrations - changes between schema version]()
+  - [sqldiff](./sqldiff.md)
 - [SQLite in Python](./sqlite-in-python.md)
 - [SQLite in Rust](./sqlite-in-rust.md)
 - [SQLite in Perl](./sqlite-in-perl.md)

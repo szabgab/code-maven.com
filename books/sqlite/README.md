@@ -17,9 +17,7 @@ Check out the [SQL tutorial](https://www.sqltutorial.org/)
 
 [SQLite tutorial](https://www.sqlitetutorial.net/)
 
-
 * query optimization
-* migrations - changes between schema version
 * Show complex queries
 * Show other tools.
 
@@ -38,7 +36,5 @@ CREATE TRIGGER user_cleanup
   END;
 
 -----
-
-
 
 
