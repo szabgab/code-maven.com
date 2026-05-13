@@ -28,6 +28,7 @@ a better job with more satisfaction and higher salary.
 * [Exercises](https://exercises.code-maven.com/)
 * [Dart](https://dart.code-maven.com/) programming language.
 * [Docker](/docker) - the de-facto standard in containers.
+* [FalkorDB](https://falkordb.code-maven.com/) - Graph Database
 * [Flask](https://python.code-maven.com/flask), the Python microframework.
 * [Forem stats](https://forem.code-maven.com/) (DEV.to)
 * [Front-End Maven](https://front.code-maven.com/)
