@@ -91,3 +91,9 @@ by Microsoft
 
 * Phi  (but it is not very popular)
 
+-----
+
+
+MCP = Model Context Protocol (an open AI standard)
+
+
