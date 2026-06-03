@@ -42,7 +42,7 @@ co-pilot CLI
     * CC is a command line tool or it can work as an extension in major IDEs.
     * Anthropic provides models such as Claude Opus 4.7
 * [Windsurf (Codeium)](https://windsurf.com/) stand alone editor or plugin to JetBrains, VS Code etc.
-* [Tabnine](
+* [Tabnine](https://www.tabnine.com/)
 
 
 * [OpenAI](https://openai.com/)
@@ -95,5 +95,19 @@ by Microsoft
 
 
 MCP = Model Context Protocol (an open AI standard)
+
+## Harness
+
+* [GitHub co-pilot](https://github.com/features/copilot) (Microsoft)
+    * In VS Code
+    * CLI
+    * GitHub UI to chat
+    * GitHub Issues - assign to copilot
+* [Codex](https://openai.com/codex/) (OpenAI)
+* [Gemini Code Assist](https://codeassist.google/products/business) (Google)
+* [Claude Code](https://claude.com/product/claude-code) (Antrhropic)
+    * CLI
+
+
 
 
