@@ -20,27 +20,6 @@
   - [constraints](./sql-constraints.md)
   - [PRIMARY KEY](./sql-primary-key.md)
   - [ACID](./sql-acid.md)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+- [SQL Injection attack](./sql-injection-attack.md)
+  - [Bobby Tables](./bobby-tables.md)
+  - [License plate](./license-plate.md)
