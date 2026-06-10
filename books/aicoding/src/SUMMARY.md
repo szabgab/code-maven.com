@@ -8,3 +8,4 @@
 - [GitHub Co-pilot](./github-copilot.md)
 - [In Docker container](./docker.md)
 - [MCP - Model Context Protocol](./mcp.md)
+- [Collection](./collection.md)
