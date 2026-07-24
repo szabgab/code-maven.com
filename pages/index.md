@@ -6,6 +6,8 @@ archive: false
 show_related: false
 ---
 
+![Code Maven](static/img/code_maven_490_490.jpg)
+
 ## Welcome to the Code Maven!
 
 Helping you improve your programming and DevOps related knowledge to allow you to have
