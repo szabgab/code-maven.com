@@ -343,7 +343,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track

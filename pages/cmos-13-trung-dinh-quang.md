@@ -118,7 +118,7 @@ So do you give presentations or how do you do this sharing?
 We have internal sharing systems and the external as well. 
 So I will find new technologies to learn about and then we do a small session, in total a one hour session, and all the employees get in and share and stuff. 
 But the last session, I was talking about web artistry. 
-So the next thing will be, I don't know, maybe [Angular 2](http://angularjs.blogspot.com/2016/09/angular2-final.html), you know Anglular 2 just released yesterday, it's interesting.
+So the next thing will be, I don't know, maybe [Angular 2](http://angularjs.blogspot.com/2016/09/angular2-final.html), you know Angular 2 just released yesterday, it's interesting.
 
 [02:39] szabgab: 
 Okay, so you're talking about these subjects within the company, right?
@@ -195,7 +195,7 @@ I see, so is this still under development?
 Or do you add more features?
 
 [07:24] trung: 
-Right now, it's not actively developed any more, because I got interested in some other projects, and I think I finished the purpose of the project, which is I wanted to demonstate how the web app can animate very fast and perform very well on mobile devices. 
+Right now, it's not actively developed any more, because I got interested in some other projects, and I think I finished the purpose of the project, which is I wanted to demonstrate how the web app can animate very fast and perform very well on mobile devices. 
 So I think I have finished that. 
 And the next one, I want to build something else, to use more features in the progressive web app. 
 The GitHub however, they don't have features like push notification, so maybe I'm trying to build something else with the progressive web app.
@@ -204,7 +204,7 @@ The GitHub however, they don't have features like push notification, so maybe I'
 Do you have a specific idea, what you're going to build?
 
 [08:22] trung: 
-Well, yes, several but I'm still choosing for, but one thing it has to demonstate all the stuff from the progressive web app and it has to be useful as well. 
+Well, yes, several but I'm still choosing for, but one thing it has to demonstrate all the stuff from the progressive web app and it has to be useful as well. 
 The GitHub Explorer, it can demonstrate something, but if you look at my app, you can see that it's not very useful, because the GitHub as well, they have their mobile layout for the mobile devices. 
 So yeah, it's kind of more a demonstration, and I want to build something more useful. 
 So it's going to take time for that.
@@ -256,7 +256,7 @@ Okay, that's great.
 I can send you a link later. 
 The problem with this project is I tried not to use any framework or library, everything was written in Vanilla JavaScript, which right now, I wouldn't say that it's a good idea. 
 Because if I'm going to build that right now, I'm going to use React or other single-page application framework, Angular 2 maybe, but yeah, that website wasn't using any other libraries or...I think that's one reason why it took me so long to finish and the source code is not very well-structured, as well, I was learning JavaScript with OOP from a book, and that's what I was experimenting with it. 
-It was kind of fun to work on and I was happy when people went into my website and see that and they are suprised, <q>What is this? Is this a real Windows?</q> 
+It was kind of fun to work on and I was happy when people went into my website and see that and they are surprised, <q>What is this? Is this a real Windows?</q> 
 Because it's not, you know.
 
 [13:48] szabgab: 
@@ -323,7 +323,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track

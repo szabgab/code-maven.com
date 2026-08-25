@@ -245,7 +245,7 @@ That's...
 [14:05] jra: 
 Yeah, so Vue.js is not ours, obviously. 
 It's a framework that is comparable to [React](https://en.wikipedia.org/wiki/React_(JavaScript_library)), which is a lot more popular. 
-So traditionally, we've been an [AngularJS](https://angularjs.org/) shop, Angular 1.x, and as of a couple of months ago, we've officially made the switch from AnglularJS to Vue.js, as our go-to framework for our front-end development. 
+So traditionally, we've been an [AngularJS](https://angularjs.org/) shop, Angular 1.x, and as of a couple of months ago, we've officially made the switch from AngularJS to Vue.js, as our go-to framework for our front-end development. 
 And there are a lot of reasons for that. 
 
 If you look on the [ISL blog](https://isl.co/blog/), I wrote a post about some of the reasons we switched over. 

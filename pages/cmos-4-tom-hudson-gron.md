@@ -78,7 +78,7 @@ Hi, I'm fine, thank you, how are you?
 Ah, I'm fine, thank you. Let's start with introducing you a little bit. Please tell me a little about yourself, your background, how did you get here?
 
 [00:30] tom:
-Okay, so I'm Tom Hudson, I'm a software engineer in the UK, I work for a betting and gaming company, have been for about five years now. Started tinkering with a computer when I was a kid, eventually ended up spending some time as a network engineer and then a software engingeer, did a lot of PHP, more recently writ a bit of Go, mostly I like to make tools, try to make things to make other developer's lives easier, basically. Yeah, not a great deal to say about me, to be  honest.
+Okay, so I'm Tom Hudson, I'm a software engineer in the UK, I work for a betting and gaming company, have been for about five years now. Started tinkering with a computer when I was a kid, eventually ended up spending some time as a network engineer and then a software engineer, did a lot of PHP, more recently writ a bit of Go, mostly I like to make tools, try to make things to make other developer's lives easier, basically. Yeah, not a great deal to say about me, to be  honest.
 
 [01:07] szabgab:
 All right, it's okay. How long have you been writing open source stuff?
@@ -97,7 +97,7 @@ Yeah, a few, so I have been a maintainer of the PHP client for the Etherpad Ligh
 Sorry again, which project was it?
 
 [02:14] tom:
-Etherpad Light, a PHP client for the API. Etherpad Light is a collaberative text editor. I think nowadays, it's just called Etherpad, it is written in Node.JS. It's worth looking up actually, it's great fun to use. It's a great project.
+Etherpad Light, a PHP client for the API. Etherpad Light is a collaborative text editor. I think nowadays, it's just called Etherpad, it is written in Node.JS. It's worth looking up actually, it's great fun to use. It's a great project.
 
 Other than that, I've made some small contributioins here and there. I made a fix to the Window Manager that I use, one called Get Out of My Way Window Manager, written by a guy called Sean Pringle, it's a really great lightweight tiling Window Manager, or rather floating Window Manager, with a great support for tiling. Just small bits here and there, usually when I find something that's broken, and I need it to work, I'll try to fix it.
 
@@ -269,7 +269,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track

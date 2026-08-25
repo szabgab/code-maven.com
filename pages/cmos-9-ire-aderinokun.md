@@ -28,7 +28,7 @@ Interview with [Ire Aderinokun](http://ireaderinokun.com/) about
 [The (Unofficial) CanIUse Embed](http://caniuse.bitsofco.de/),
 and [Formhack](http://formhack.io/) a configurable form reset.
 
-In which I've also learned what are CSS resets and heared about progressive web apps.
+In which I've also learned what are CSS resets and heard about progressive web apps.
 
 
 {% youtube id="W5gy7EMe7LM" file="cmos-9-ire-aderinokun" %}
@@ -349,7 +349,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track

@@ -26,7 +26,7 @@ Interview with Lucy Greco about [DictationBridge](http://dictationbridge.com/)
 an Open Source tool to connect screen readers and speech-input software to
 help the blind and visually impaired.
 
-We also talked a lot about accesibility in general and accessibility of web sites in specific.
+We also talked a lot about accessibility in general and accessibility of web sites in specific.
 
 
 <hr>
@@ -283,7 +283,7 @@ So we're not setting any dates for anyone right now. But definitely keep an eye 
 
 [28:43] szabgab: Yeah, yeah, it was really interesting to hear about this and I hope that we can continue talking as well, so to bring you back later in another episode and see, or hear at least, how the project progressed and what's the status, and how else people can help, not necessarily just with this project, but in general with accessibility.
 
-[29:12] lucy: Thank you, I'd love to talk to you more about that. My profession is an accessability consultant, so that's why I got off on the tangent there, you kind of got me on my favorite topic.
+[29:12] lucy: Thank you, I'd love to talk to you more about that. My profession is an accessibility consultant, so that's why I got off on the tangent there, you kind of got me on my favorite topic.
 
 [29:25] szabgab: Okay.
 
@@ -309,5 +309,5 @@ Recoding Option:
   Record Video: None
 </pre>
 
-The recording stopped twice due to network failure but my son managed to stich them together.
+The recording stopped twice due to network failure but my son managed to stitch them together.
 -->

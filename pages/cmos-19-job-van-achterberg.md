@@ -252,7 +252,7 @@ And on Windows, there is, amongst others, like [JAWS](https://en.wikipedia.org/w
 There's [NVDA](https://en.wikipedia.org/wiki/NonVisual_Desktop_Access), which you can download, and the [code's on GitHub](https://github.com/nvaccess/nvda). 
 And essentially, it's been written by two blind developers, Jamie and Michael, and it's just really impressive, and it gets better all the time. 
 They've done so much stuff, so many great features, that even competing screen readers like JAWS implemented only years later, that, I mean I'm so impressed with these guys. 
-But I mean, it's open to everybody and for instance, I was testing some accessiblity feature of a website I was building, and I wanted to know how [live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) worked, and a live region means that you're using a specific attribute on a container like a div, to say, <q>Any content in here, if it changes, re-announce it to me.</q> 
+But I mean, it's open to everybody and for instance, I was testing some accessibility feature of a website I was building, and I wanted to know how [live regions](https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/ARIA_Live_Regions) worked, and a live region means that you're using a specific attribute on a container like a div, to say, <q>Any content in here, if it changes, re-announce it to me.</q> 
 So you call it the live region. 
 And I wanted to know how that worked, because I wanted to know how the different settings influenced the way new content was announced to the reader. 
 So I went to GitHub, and I looked through the code, and I did some grepping, and there it is. 

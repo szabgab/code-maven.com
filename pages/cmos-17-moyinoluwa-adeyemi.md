@@ -306,7 +306,7 @@ It's a pity, when is it going to be there?
 
 [14:37] moyheen: 
 I'll have to do a lot more work before it can go on there. For now, like I wrote in the article, I didn't follow any best practices. 
-I just wanted to show what was possible so I'll have to clean up the code, maybe add a couple of more featurs, because I don't think anybody's going to just download an app that's just putting an eye patch over their left eye? 
+I just wanted to show what was possible so I'll have to clean up the code, maybe add a couple of more features, because I don't think anybody's going to just download an app that's just putting an eye patch over their left eye? 
 
 [15:02] szabgab: 
 Well, you might be surprised! 

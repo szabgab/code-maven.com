@@ -163,7 +163,7 @@ I'm a little bit of a generalist, so it's kind of nice to be able to look at all
 
 The other thing I've been observing is, in the early days, I was always curious about, <q>How do you make money? If you give away your stuff for free?</q> 
 And over the years, we've seen probably a dozen different models of how people have done this. 
-All the way from, <q>Well, it's just a labor of love, so we really don't care about making money</q> all the way up to, <q>Well we set it on top an entire business, around the idea that we could give away our core product, and leverage the resources of the community, to help us figure out directions to go, to actually get programming resources, people adding features that are appropriate to them, maybe even things like internationalization, which is always a tough issue, if you don't hire 50 different people to translate your stuff for you, but maybe somebody in Brazil wants to tranlate it into Brazilian Portuguese for you.</q> 
+All the way from, <q>Well, it's just a labor of love, so we really don't care about making money</q> all the way up to, <q>Well we set it on top an entire business, around the idea that we could give away our core product, and leverage the resources of the community, to help us figure out directions to go, to actually get programming resources, people adding features that are appropriate to them, maybe even things like internationalization, which is always a tough issue, if you don't hire 50 different people to translate your stuff for you, but maybe somebody in Brazil wants to translate it into Brazilian Portuguese for you.</q> 
 
 That sort of thing, it's been really remarkable, seeing people at both ends of the spectrum. 
 We've also seen people sort of in the middle, where they say, <q>Well, we'll open source our core product but we'll keep some of it held back and ...</q> 
@@ -286,7 +286,7 @@ And I guess, FLOSS Weekly?
 [22:05] randal:  
 FLOSS Weekly will continue. 
 
-In fact I just had a converstaion recently with Leo, we're one of the smaller shows on the network, but he's absolutely committed to this show. 
+In fact I just had a conversation recently with Leo, we're one of the smaller shows on the network, but he's absolutely committed to this show. 
 He likes what I'm doing with it, he likes the directions I'm taking it, he likes the team I've put together, who were able to pick up the show, even when I was absent for six weeks, in the hospital recently, without notice unfortunately, I guess that's always the way you end up in the hospital. 
 
 So my team picked up, and Aaron Newcomb did a great job of hosting while I was gone, but Leo likes the team I've built and Leo likes the kinds of guests I'm getting on, the variety especially. 
@@ -343,7 +343,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track

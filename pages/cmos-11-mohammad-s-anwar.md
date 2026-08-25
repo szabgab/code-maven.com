@@ -191,7 +191,7 @@ So when was this, when did you create this?
 I think five or six years ago.
 
 [09:38] szabgab: 
-Yeah, so back then I don't know how Google Maps worked and how these other various, I guess really there weren't really any of these GPS mapping softwares on the mobile phones, we hardly had any smartphones back then. 
+Yeah, so back then I don't know how Google Maps worked and how these other various, I guess really there weren't really any of these GPS mapping software on the mobile phones, we hardly had any smartphones back then. 
 So how, I think you can do something similar with Google Maps today, right?
 
 [10:08] manwar: 
@@ -243,7 +243,7 @@ And this guy just put in online as open, so anybody can use it and do whatever t
 And I look around the calendar thing that's available on the CPAN and I said, <q>Okay, I want to use this JavaScript thing and convert it into Perl.</q> 
 But then I said, <q>I need to do something different that's not there on the CPAN already.</q> 
 Then I said, <q>Okay, I'm going to do something like on a console, I'm going to display a colorful calendar, where you can have a colorful text and dates announcing, nice and fancy, color-coded calendar.</q> 
-So I used the JavaScript code, converted it into Perl, and then started with varous different calendars. 
+So I used the JavaScript code, converted it into Perl, and then started with various different calendars. 
 For example, [Bahai calendar](https://metacpan.org/pod/Calendar::Bahai), or [Islamic calendar, Hijri calendar](https://metacpan.org/pod/Calendar::Hijri), or different type of calendar, using this JavaScript code, and I converted it to a color-coder so you get a nice colorful calendar on your terminal. 
 So that's how I started that Calendar thing.
 
@@ -377,7 +377,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track
