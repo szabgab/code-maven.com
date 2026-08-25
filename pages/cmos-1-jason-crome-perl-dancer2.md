@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-1-jason-crome-perl-dancer2.mp3
+  file: https://media.code-maven.com/cmos/cmos-1-jason-crome-perl-dancer2.mp3
   size: 13879747
   time: 16:09
 published: true
@@ -29,6 +29,10 @@ Interview with Jason A. Crome one of the core developers of the [Perl Dancer](ht
 {% youtube id="uVCpubfC9L4" file="cmos-1-jason-crome-perl-dancer2.mp4" %}
 
 <podcast>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-1-jason-crome-perl-dancer2.mp3" type="audio/mpeg">
+</audio>
 
 
 ## Jason A. Crome
@@ -197,7 +201,7 @@ QuickTime Options:
   Audio Encoding: Uncompressed
   Video Quality: High
   Video Image Size: 854 x 480 (Wide)
-  Video Frame Rate: Maxium
+  Video Frame Rate: Maximum
 
 Recoding Option:
   Record Video: Multi-track
