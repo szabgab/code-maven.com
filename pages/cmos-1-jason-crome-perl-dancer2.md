@@ -28,7 +28,7 @@ Interview with Jason A. Crome one of the core developers of the [Perl Dancer](ht
 
 {% youtube id="uVCpubfC9L4" file="cmos-1-jason-crome-perl-dancer2.mp4" %}
 
-<podcast>
+<hr>
 
 <audio controls>
     <source src="https://media.code-maven.com/cmos/cmos-1-jason-crome-perl-dancer2.mp3" type="audio/mpeg">
