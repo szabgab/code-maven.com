@@ -14,7 +14,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-10-michael-kennedy.mp3
+  file: cmos-10-michael-kennedy.mp3
   size: 44576759
   time: 18:34
 #img: /img/cmos/michael_kennedy.jpg
@@ -34,7 +34,13 @@ We talked about a number of project that were discussed on his show: Scrapy, pas
 
 {% youtube id="6cmmK7Gsr7A" file="cmos-10-michael-kennedy" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-10-michael-kennedy.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Michael Kennedy
 

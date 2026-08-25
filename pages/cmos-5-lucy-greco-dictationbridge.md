@@ -11,7 +11,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-5-lucy-greco-dictationbridge.mp3
+  file: cmos-5-lucy-greco-dictationbridge.mp3
   size: 70780017
   time: 29:31
 published: true
@@ -29,7 +29,13 @@ help the blind and visually impaired.
 We also talked a lot about accesibility in general and accessibility of web sites in specific.
 
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-5-lucy-greco-dictationbridge.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Lucy Greco
 

@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-11-mohammad-s-anwar.mp3
+  file: cmos-11-mohammad-s-anwar.mp3
   size: 21467513
   time: 23:16
 #img: /img/cmos/mohammad_anwar.jpg
@@ -32,7 +32,13 @@ Hear him talk about the inspiration.
 
 {% youtube id="hS0LRP3uwW4" file="cmos-11-mohammad-s-anwar" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-11-mohammad-s-anwar.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Mohammad Anwar
 

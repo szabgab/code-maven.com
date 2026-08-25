@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: https://media.code-maven.com/cmos/cmos-1-jason-crome-perl-dancer2.mp3
+  file: cmos-1-jason-crome-perl-dancer2.mp3
   size: 13879747
   time: 16:09
 published: true

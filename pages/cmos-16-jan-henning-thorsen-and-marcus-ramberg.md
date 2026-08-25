@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3
+  file: cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3
   size: 27466201
   time: 30.02
 #img: /img/cmos/jan-henning-thorsen-and-marcus-ramberg.jpg
@@ -28,7 +28,13 @@ Interview with [Jan Henning Thorsen](http://thorsen.pm/) and [Marcus Ramberg](ht
 
 {% youtube id="kUJC_trDR6I" file="cmos-16-jan-henning-thorsen-and-marcus-ramberg" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Jan Henning Thorsen and Marcus Ramberg
 

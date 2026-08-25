@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-8-lynn-cyrin-bundler-rubygems.mp3
+  file: cmos-8-lynn-cyrin-bundler-rubygems.mp3
   size: 18590774
   time: 19:54
 #img: /img/cmos/lynn_cyrin.jpg
@@ -30,7 +30,13 @@ manager at [Ruby Together](https://rubytogether.org/) and deal with
 
 {% youtube id="oJVfQFcjTJs" file="cmos-8-lynn-cyrin-bundler-rubygems" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-8-lynn-cyrin-bundler-rubygems.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Lynn "Cyrin" Conway
 

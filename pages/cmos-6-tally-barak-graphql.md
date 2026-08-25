@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-6-tally-barak-graphql.mp3
+  file: cmos-6-tally-barak-graphql.mp3
   size: 22528898
   time: 25:41
 #img: /img/cmos/tally_barak.png
@@ -30,7 +30,13 @@ Our main subject however is [GraphQL](http://graphql.org/) being the next big th
 
 {% youtube id="Bd6A9TdGhm0" file="cmos-6-tally-barak-graphql.mp4" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-6-tally-barak-graphql.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Tally Barak
 

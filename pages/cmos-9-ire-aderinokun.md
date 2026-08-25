@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-9-ire-aderinokun.mp3
+  file: cmos-9-ire-aderinokun.mp3
   size: 21405046
   time: 23:45
 #img: /img/cmos/ire_aderinokun.jpg
@@ -33,7 +33,13 @@ In which I've also learned what are CSS resets and heared about progressive web 
 
 {% youtube id="W5gy7EMe7LM" file="cmos-9-ire-aderinokun" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-9-ire-aderinokun.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Ire Aderinokun
 

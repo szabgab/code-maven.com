@@ -10,7 +10,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-7-obinwanne-hill-restivejs.mp3
+  file: cmos-7-obinwanne-hill-restivejs.mp3
   size: 24752906
   time: 24:28
 #img: /img/cmos/obinwanne_hill.png
@@ -30,7 +30,13 @@ He also told how he got into web programming in Nigeria in the '90s.
 
 {% youtube id="7JYwWOVeB9w" file="cmos-7-obinwanne-hill-restivejs" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-7-obinwanne-hill-restivejs.mp3" type="audio/mpeg">
+</audio>
+
+
 
 
 ## Obinwanne Hill

@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-12-randal-schwartz.mp3
+  file: cmos-12-randal-schwartz.mp3
   size: 25823933
   time: 25.01
 #img: /img/cmos/randal-schwartz.jpg
@@ -28,7 +28,13 @@ Interview with [Randal Schwartz](https://youtu.be/YU41eecLtNI) the host of the [
 
 {% youtube id="YU41eecLtNI" file="cmos-12-randal-schwartz" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-12-randal-schwartz.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Randal L. Schwartz
 

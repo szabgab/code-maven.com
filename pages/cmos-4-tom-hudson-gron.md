@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-4-tom-hudson-gron.mp3
+  file: cmos-4-tom-hudson-gron.mp3
   size: 17224989
   time: 19:24
 #img: /img/cmos/tom_hudson.png
@@ -29,7 +29,12 @@ the command line tool that makes JSON greppable.
 
 {% youtube id="dxmsuFqB1tU" file="cmos-4-tom-hudson-gron.mp4" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-4-tom-hudson-gron.mp3" type="audio/mpeg">
+</audio>
+
 
 ## Tom Hudson
 

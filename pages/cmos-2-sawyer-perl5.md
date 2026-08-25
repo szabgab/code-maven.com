@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-2-sawyer-perl5.mp3
+  file: cmos-2-sawyer-perl5.mp3
   size: 13049856
   time: 24:35
 #img: /img/cmos/sawyer-lowres.jpg
@@ -28,7 +28,12 @@ Interview with Sawyer X, the current Pumpkin of Perl 5 about the Perl 5 Porters 
 
 {% youtube id="FRWaO2GpA7g" file="cmos-2-sawyer-perl5.mp4" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-2-sawyer-perl5.mp3" type="audio/mpeg">
+</audio>
+
 
 ## Sawyer X
 

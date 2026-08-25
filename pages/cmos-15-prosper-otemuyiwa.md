@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-15-prosper-otemuyiwa.mp3
+  file: cmos-15-prosper-otemuyiwa.mp3
   size: 25462851
   time: 27:37
 #img: /img/cmos/prosper-otemuyiwa.jpg
@@ -25,8 +25,13 @@ archive: true
 
 Interview with [Prosper Otemuyiwa](http://goodheads.io/) from Nigeria about [Laravel](https://laravel.com), being a GDE and a lot of other things.
 
+<hr>
 
-<podcast>
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-15-prosper-otemuyiwa.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Prosper Otemuyiwa
 

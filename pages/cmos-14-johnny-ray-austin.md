@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-14-johnny-ray-austin.mp3
+  file: cmos-14-johnny-ray-austin.mp3
   size: 20580712
   time: 20:49
 #img: /img/cmos/johnn-ray-austin.jpg
@@ -28,7 +28,13 @@ Interview with [Johnny Ray Austin](https://johnnyray.me/) about how he changed h
 
 {% youtube id="6j4tUUwOU3w" file="cmos-14-johnny-ray-austin" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-14-johnny-ray-austin.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Johnny Ray Austin
 

@@ -11,7 +11,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-17-moyinoluwa-adeyemi.mp3
+  file: cmos-17-moyinoluwa-adeyemi.mp3
   size: 19573318
   time: 21:57
 #img: /img/cmos/moyinoluwa-adeyemi.jpg
@@ -27,7 +27,13 @@ Interview with [Moyinoluwa Adeyemi](https://twitter.com/moyheen) about her Yorù
 
 {% youtube id="tJt4Dpgql4c" file="cmos-17-moyinoluwa-adeyemi" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-17-moyinoluwa-adeyemi.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Moyinoluwa Adeyemi
 

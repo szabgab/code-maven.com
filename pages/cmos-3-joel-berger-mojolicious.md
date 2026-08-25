@@ -11,7 +11,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-3-joel-berger-mojolicious.mp3
+  file: cmos-3-joel-berger-mojolicious.mp3
   size: 23645783
   time: 26:37
 #img: /img/cmos/joel_berger.jpg
@@ -29,7 +29,12 @@ and on how to get started with it.
 
 {% youtube id="O7JGQqCUOJM" file="cmos-3-joel-berger-mojolicious.mp4" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-3-joel-berger-mojolicious.mp3" type="audio/mpeg">
+</audio>
+
 
 ## Joel Berger
 

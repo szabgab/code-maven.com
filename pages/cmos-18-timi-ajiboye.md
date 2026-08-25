@@ -11,7 +11,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-18-timi-ajiboye.mp3
+  file: cmos-18-timi-ajiboye.mp3
   size: 17224989
   time: 19:24
 #img: /img/cmos/timi-ajiboye.png
@@ -27,7 +27,13 @@ Interview with Timi Ajiboye, a great discussion of his view of open source, and 
 
 {% youtube id="KcDTf0B3S00" file="cmos-18-timi-ajiboye" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-18-timi-ajiboye.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Timi Ajiboye
 

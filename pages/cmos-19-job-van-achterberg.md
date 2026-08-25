@@ -12,7 +12,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-19-job-van-achterberg.mp3
+  file: cmos-19-job-van-achterberg.mp3
   size: 28149915
   time: 28:21
 #img: /img/cmos/job-van-achterberg.png
@@ -28,7 +28,13 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
 
 {% youtube id="3aIImV11B0I" file="cmos-19-job-van-achterberg" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-19-job-van-achterberg.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Job van Achterberg
 

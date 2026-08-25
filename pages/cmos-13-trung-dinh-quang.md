@@ -13,7 +13,7 @@ types:
   - interview
   - cmos
 mp3:
-  file: /media/cmos-13-trung-dinh-quang.mp3
+  file: cmos-13-trung-dinh-quang.mp3
   size: 15891910
   time: 17:26
 #img: /img/cmos/trung-dinh-quang.jpg
@@ -31,7 +31,13 @@ web app and the [Windows 7 clone](http://dinhquangtrung.net/).
 
 {% youtube id="HzF_BZeo-cg" file="cmos-13-trung-dinh-quang" %}
 
-<podcast>
+<hr>
+
+<audio controls>
+    <source src="https://media.code-maven.com/cmos/cmos-13-trung-dinh-quang.mp3" type="audio/mpeg">
+</audio>
+
+
 
 ## Trung Đinh Quang
 
