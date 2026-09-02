@@ -31,7 +31,7 @@ Interview with [Randal Schwartz](https://youtu.be/YU41eecLtNI) the host of the [
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-12-randal-schwartz.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-12-randal-schwartz.mp3" type="audio/mpeg">
 </audio>
 
 

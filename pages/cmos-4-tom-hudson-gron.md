@@ -32,7 +32,7 @@ the command line tool that makes JSON greppable.
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-4-tom-hudson-gron.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-4-tom-hudson-gron.mp3" type="audio/mpeg">
 </audio>
 
 

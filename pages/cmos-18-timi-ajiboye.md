@@ -30,7 +30,7 @@ Interview with Timi Ajiboye, a great discussion of his view of open source, and 
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-18-timi-ajiboye.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-18-timi-ajiboye.mp3" type="audio/mpeg">
 </audio>
 
 

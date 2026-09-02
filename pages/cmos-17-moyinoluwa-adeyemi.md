@@ -30,7 +30,7 @@ Interview with [Moyinoluwa Adeyemi](https://twitter.com/moyheen) about her Yorù
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-17-moyinoluwa-adeyemi.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-17-moyinoluwa-adeyemi.mp3" type="audio/mpeg">
 </audio>
 
 

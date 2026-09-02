@@ -28,7 +28,7 @@ Interview with [Prosper Otemuyiwa](http://goodheads.io/) from Nigeria about [Lar
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-15-prosper-otemuyiwa.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-15-prosper-otemuyiwa.mp3" type="audio/mpeg">
 </audio>
 
 

@@ -33,7 +33,7 @@ He also told how he got into web programming in Nigeria in the '90s.
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-7-obinwanne-hill-restivejs.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-7-obinwanne-hill-restivejs.mp3" type="audio/mpeg">
 </audio>
 
 

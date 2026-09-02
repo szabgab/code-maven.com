@@ -31,7 +31,7 @@ Interview with Job van Achterberg, a freelancer in the Netherlands, about implem
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-19-job-van-achterberg.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-19-job-van-achterberg.mp3" type="audio/mpeg">
 </audio>
 
 

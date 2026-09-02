@@ -32,7 +32,7 @@ and on how to get started with it.
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-3-joel-berger-mojolicious.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-3-joel-berger-mojolicious.mp3" type="audio/mpeg">
 </audio>
 
 
@@ -266,7 +266,7 @@ And Jan Henning Thorsen, another of the Mojo core developers has one called [Moj
     No, it is not a CGI script although it can actually run under a CGI server. If you have like a shared hosting or some old servers, you can still run Mojolicious under a CGI environment and it will work correctly.
     You cannot use web sockets or anything because of course CGI has no way to know how to do that.  And I also should say that if you are using a PSGI server which is fine, you can do that as well.  Mojolicious will run as a PSGI server but again does not have the web sockets because you need to have the event loop in the server level in order for that to work.
 
-   So, to say that then we do bundle our own web servers in with distribution.  We have a few of them.  We have a basic Damon that is very capable and we have a script called Morbo which is nice because as you develop, it will notice that you have saved files and made changes and it will restart the server for you which is quite nice.  And then we have a much more capable production server called Hypnotoad and Hypnotoad is basically equivalent to the PSGI server Starman if you are aware Starman, same sort of pre-forking architecture.
+   So, to say that then we do bundle our own web servers in with distribution.  We have a few of them.  We have a basic Daemon that is very capable and we have a script called Morbo which is nice because as you develop, it will notice that you have saved files and made changes and it will restart the server for you which is quite nice.  And then we have a much more capable production server called Hypnotoad and Hypnotoad is basically equivalent to the PSGI server Starman if you are aware Starman, same sort of pre-forking architecture.
 
    It has one extra little feature of hot deployment.  So, if you say I have made all these changes I would like to release a new server or on post production, however you want to call this, and you do not want to have to bring your site down, you can actually tell Hypnotoad to start the new server and as the old clients keep being served by that old server, new requests will go to the new server and they never miss a beat.
 

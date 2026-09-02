@@ -36,7 +36,7 @@ In which I've also learned what are CSS resets and heard about progressive web a
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-9-ire-aderinokun.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-9-ire-aderinokun.mp3" type="audio/mpeg">
 </audio>
 
 

@@ -31,7 +31,7 @@ Interview with [Jan Henning Thorsen](http://thorsen.pm/) and [Marcus Ramberg](ht
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-16-jan-henning-thorsen-and-marcus-ramberg.mp3" type="audio/mpeg">
 </audio>
 
 

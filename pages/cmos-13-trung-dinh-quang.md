@@ -34,7 +34,7 @@ web app and the [Windows 7 clone](http://dinhquangtrung.net/).
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-13-trung-dinh-quang.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-13-trung-dinh-quang.mp3" type="audio/mpeg">
 </audio>
 
 

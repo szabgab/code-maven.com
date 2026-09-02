@@ -33,7 +33,7 @@ Our main subject however is [GraphQL](http://graphql.org/) being the next big th
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-6-tally-barak-graphql.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-6-tally-barak-graphql.mp3" type="audio/mpeg">
 </audio>
 
 

@@ -32,7 +32,7 @@ We also talked a lot about accessibility in general and accessibility of web sit
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-5-lucy-greco-dictationbridge.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-5-lucy-greco-dictationbridge.mp3" type="audio/mpeg">
 </audio>
 
 

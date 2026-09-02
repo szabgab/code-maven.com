@@ -33,7 +33,7 @@ manager at [Ruby Together](https://rubytogether.org/) and deal with
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-8-lynn-cyrin-bundler-rubygems.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-8-lynn-cyrin-bundler-rubygems.mp3" type="audio/mpeg">
 </audio>
 
 

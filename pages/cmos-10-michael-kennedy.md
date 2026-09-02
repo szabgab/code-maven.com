@@ -37,7 +37,7 @@ We talked about a number of project that were discussed on his show: Scrapy, pas
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-10-michael-kennedy.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-10-michael-kennedy.mp3" type="audio/mpeg">
 </audio>
 
 

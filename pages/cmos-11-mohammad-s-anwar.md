@@ -35,7 +35,7 @@ Hear him talk about the inspiration.
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-11-mohammad-s-anwar.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-11-mohammad-s-anwar.mp3" type="audio/mpeg">
 </audio>
 
 

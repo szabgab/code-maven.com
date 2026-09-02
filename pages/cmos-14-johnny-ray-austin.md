@@ -31,7 +31,7 @@ Interview with [Johnny Ray Austin](https://johnnyray.me/) about how he changed h
 <hr>
 
 <audio controls>
-    <source src="https://media.code-maven.com/cmos/cmos-14-johnny-ray-austin.mp3" type="audio/mpeg">
+    <source src="https://cmos.code-maven.com/cmos/cmos-14-johnny-ray-austin.mp3" type="audio/mpeg">
 </audio>
 
 
