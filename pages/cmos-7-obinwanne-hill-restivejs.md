@@ -21,8 +21,7 @@ archive: true
 ---
 
 
-Interview with [Obinwanne Hill](http://www.obihill.com/) on
-[RestiveJS](http://www.restivejs.com/) a JQuery plugin to help create
+Interview with [Obinwanne Hill](https://www.linkedin.com/in/obinwanne-hill/) on RestiveJS a JQuery plugin to help create
 responsive web sites without having to deal with Media Query.
 
 He also told how he got into web programming in Nigeria in the '90s.
@@ -41,15 +40,15 @@ He also told how he got into web programming in Nigeria in the '90s.
 
 ## Obinwanne Hill
 
-* [Obinwanne Hill](http://www.obihill.com/)
+* [Obinwanne Hill](https://www.linkedin.com/in/obinwanne-hill/)
 * [Twitter @ObiHill](https://twitter.com/ObiHill)
 * [GitHub](https://github.com/obihill)
 
 ## Links
 
-* [RestiveJS home page](http://www.restivejs.com/)
+* RestiveJS home page
 * [RestiveJS on GitHub](https://github.com/obihill/restive.js)
-* [Restive.io the company](http://www.restive.io/)
+* Restive.io the company
 * [jQuery](https://jquery.com/)
 * [Responsive web design](https://en.wikipedia.org/wiki/Responsive_web_design)
 * [Media Query](https://en.wikipedia.org/wiki/Media_queries)
@@ -66,8 +65,8 @@ He also told how he got into web programming in Nigeria in the '90s.
   [obihill guest1 Obinwanne Hill]
 
   [00:02] szabgab: Hello there, and welcome to CMOS, the Code Maven Open Source podcast and interview series, where we are talking about interesting open source projects, with interesting people.
-I'm your host, Gabor Szabo, and with me is, and I really hope I pronounce your name correctly and please correct me afterwards, [Obinwanne Hill](http://www.obihill.com/), right?
-From [RestiveJS](http://www.restivejs.com/). How are you?
+I'm your host, Gabor Szabo, and with me is, and I really hope I pronounce your name correctly and please correct me afterwards, Obinwanne Hill, right?
+From RestiveJS. How are you?
 
 [00:28] obihill: Yes, that's correct, Obinwanne Hill. You almost got it, so that's fine.
 
@@ -78,7 +77,7 @@ From [RestiveJS](http://www.restivejs.com/). How are you?
 [00:41] szabgab: Okay, so please tell me a little bit about yourself
 
 [00:47] obihill: Okay, well I am a web designer/developer. Actually I started out web design before I went into development, with PHP. JavaScript actually came much later.
-I started JavaScript about back in 2010, and I started [Restive](http://www.restive.io/) back in 2013, and we've just been doing web design, web development, so this is for a diverse set of clients, but what we've also been trying to do is to develop techniques, in web design and development. 
+I started JavaScript about back in 2010, and I started Restive back in 2013, and we've just been doing web design, web development, so this is for a diverse set of clients, but what we've also been trying to do is to develop techniques, in web design and development. 
 
 Basically just things, I'm trying to develop like different ways of doing things online, doing things on the web, so that's where the idea for [RestiveJS](https://github.com/obihill/restive.js), which was an open source project, it's actually a designer-friendly toolkit for building [responsive websites](https://en.wikipedia.org/wiki/Responsive_web_design), which is based on [jQuery](https://jquery.com/).
 So that's where the idea for that came up. So we'll be using that to build websites and we've been happy that thousands of developers around the world and some pretty impressive companies are also using the plugin on their website. So it's been pretty interesting, especially since now we're trying to re-gig the plugin and also launch a couple of new projects later in the year, next year.
@@ -160,7 +159,7 @@ So I just thought I'd build a program, just to help me personally, build a bette
 
 So I got a couple of responses from different people who wanted to build websites and said, <q>I read about this and was thinking if you could help out with the websites.</q>
 So that came and that brought another idea. I was like, <q>Hey, if people are having a problem with their responsive website, or with the website that they want to make responsive, I could provide services to help them out.</q>
-So I just said, <q>Okay, why not just start a company to do that,</q> so that's pretty much how the idea for [Restive](http://www.restive.io/) came about. 
+So I just said, <q>Okay, why not just start a company to do that,</q> so that's pretty much how the idea for Restive came about. 
 
 It's still bootstrapped, there's no outside capital, it's pretty much just me and a remote team, every now and then, doing things, but we're looking at launching a couple of interesting products this year and very early next year.
 So hopefully, once we do that, we'll see if we could get some other outside capital involved, if possible, and try to grow the company from there.
@@ -182,7 +181,7 @@ So I feel it's important to also contribute as well. If you're building somethin
 [19:01] szabgab: So do I understand it, that this second plugin is not available on GitHub yet, right?
 
 [19:08] obihill: No, it's not available on GitHub yet but it will be very early next month.
-It's actually built, in fact it's actually running on the [RestiveJS website](http://www.restivejs.com/) right now, so we're kind of testing it, dogfooding it whether it's ready, we're really happy with it, I'm really impressed with what we've been able to accomplish with it.
+It's actually built, in fact it's actually running on the RestiveJS website right now, so we're kind of testing it, dogfooding it whether it's ready, we're really happy with it, I'm really impressed with what we've been able to accomplish with it.
 But this time, we want to...the last time, with RestiveJS, we didn't do so well on the content side of things, like the documentation wasn't fantastic, you know, there were tons of tutorials that I had plans to do that I didn't get around to doing, so this time I want to make good this time. 
 
 I want to make sure that the documentation is really good, that we have tutorials.
@@ -192,10 +191,10 @@ I want to be able to use it, and know that someone has tested this, and it's wor
 
 [21:03] szabgab: So just for closing the interview, how can people get started or where can people go to get started with RestiveJS and how can they maybe help you, if there's any way they can help you?
 
-[21:19] obihill: Okay, well, we actually just redesigned the website. It's the same domain we've used before, I mean you can get access to it at [RestiveJS.com](http://www.restivejs.com/) and there's a link to the [GitHub repo](https://github.com/obihill/restive.js) right on the home page, so they can start playing with that.
+[21:19] obihill: Okay, well, we actually just redesigned the website. It's the same domain we've used before, I mean you can get access to it at RestiveJS.com and there's a link to the GitHub repo right on the home page, so they can start playing with that.
 Because when the next toolkit comes out, it's going to be much easier to use, if you're familiar with RestiveJS and why it exists.
 So that's the website they can get access to the toolkit.
-They can also go to [Restive.io](http://www.restive.io/), which is the website for the rest of the company and there's some more information on some of the products we're working on.
+They can also go to Restive.io, which is the website for the rest of the company and there's some more information on some of the products we're working on.
 So we definitely appreciate the feedback, if there are any ideas for how we can improve or what else developers might have some issues with, we'd definitely like to hear what problems they're having today and see if we could fix that, with the toolkits we already have, or maybe something new.
 But we're working on a couple of things, that I think designers and developers would find really useful.
 
