@@ -14,10 +14,10 @@ site_name: Code Maven
 # and setting `link_to_source` to `true`
 repo: https://github.com/szabgab/perlmaven.com
 branch: main
-link_to_source: false
+link_to_source: true
 
 # Each page will have a footer as defined by the `footer` field that can contain markdown.
-footer: "[Code Maven](https://code-maven.com/)"
+footer: ""
 
 # Each site has a /tags page generated from the tags in the individual pages.
 # The following parameters set the `title` of the page and the content of the `description` meta-tag.
@@ -49,7 +49,7 @@ related_pages_title: Other pages
 # Each page can have an `author` field in the front-matter containing the nickname of the author.
 # Here we list all the authors of the site.
 # The name will be displayed on the page
-# In addition there can be a folder called `authors` with makrdown files using the nicknames (so in the example it would be authors/foobar.md)
+# In addition there can be a folder called `authors` with markdown files using the nicknames (so in the example it would be authors/foobar.md)
 # Those file can contain information about the author that will be displayed at the bottom of each page.
 # TODO: where is the image located
 authors:
