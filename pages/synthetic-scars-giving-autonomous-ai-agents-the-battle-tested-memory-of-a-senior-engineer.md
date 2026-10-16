@@ -27,7 +27,7 @@ Randal will demonstrate how this closed-loop consolidation turns transient devel
 
 ## Bio
 
-Randal Schwartz is a self-taught programmer, writer, trainer, and new media host with a passion for technology and creative pursuits.
+[Randal Schwartz](https://www.linkedin.com/in/randalschwartz/) is a self-taught programmer, writer, trainer, and new media host with a passion for technology and creative pursuits.
 
 Throughout his career, Randal has honed his skills in various programming languages, including Perl, Dart, and Flutter, and has become a recognized expert in the field. Notably, he has authored several influential books on Perl programming, including "Programming Perl," "Learning Perl," and "Effective Perl Programming."
 
