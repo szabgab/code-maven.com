@@ -1,7 +1,7 @@
 ---
 title: "Synthetic Scars: Giving Autonomous AI Agents the Battle-Tested Memory of a Senior Engineer"
 timestamp: 2026-10-02T14:30:01
-author: szabgab
+author:
 published: true
 description:
 tags:
