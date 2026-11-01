@@ -13,6 +13,7 @@ As AI agents become increasingly integrated into software development, we are no
 
 [Ido Goldstein](https://www.linkedin.com/in/ido-goldstein-9ba87b152/)
 
+Software Engineer from big tech (Meta), Cyber startups (Token, Ironscales) and IDF. I innovate security in Agentic Development Lifecycle.
 
 ## Length
 
